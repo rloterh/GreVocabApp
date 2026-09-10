@@ -40,7 +40,8 @@ Keep these in mind when extending:
 | Change the Anki output | `src/lib/anki-collection.ts` for the database, `anki-export.ts` for loading and zipping. Keep the WebAssembly import out of the former or it stops being runnable outside a browser |
 | Change sentence checks | `src/lib/verify.ts` — `heuristicVerify` and `apiVerify` are independent |
 | Add a chart type | `ProgressPage.tsx` uses Recharts — `LineChart`, `AreaChart`, `PieChart` all imported the same way |
-| Wire real Tauri file-watching | Add `notify` crate to `src-tauri/Cargo.toml`, emit events to frontend, listen with `@tauri-apps/api/event` |
+| Change folder watching | `src-tauri/src/watcher.rs` emits `vocab-file-changed`; `src/hooks/useWatchedFolder.ts` listens and imports. The event name is duplicated in both — keep them in step |
+| Change the app icon | Edit the geometry in `scripts/make-icon.mjs`, run it, then `npm run tauri icon src-tauri/icons/source.png`. Do not hand-edit the generated PNGs |
 
 ## Running the app
 
@@ -59,6 +60,14 @@ npm run lint
 npm run typecheck
 npm test
 npm run test:watch     # while working on src/lib/
+
+# Desktop (Rust). Needs rustup plus the MSVC build tools on Windows.
+cargo check --manifest-path src-tauri/Cargo.toml
+cargo test --lib --manifest-path src-tauri/Cargo.toml
+
+# Regenerate the app icons from the mark
+node scripts/make-icon.mjs
+npm run tauri icon src-tauri/icons/source.png
 
 # Production build
 npm run build          # web only

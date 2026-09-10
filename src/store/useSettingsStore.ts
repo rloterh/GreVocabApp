@@ -18,6 +18,9 @@ const DEFAULT_SETTINGS: Settings = {
   studyReminderEnabled: false,
   studyReminderTime: "19:00",
   lastReminderDate: null,
+  watchedFolder: null,
+  hasOnboarded: false,
+  soundEnabled: false,
 };
 
 export const useSettingsStore = create<SettingsState>()(

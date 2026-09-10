@@ -78,6 +78,118 @@
     --input: 20 8% 18%;
     --ring: 40 15% 70%;
   }
+
+  /* Sepia — aged paper, amber accent. Warm and low-glare for long sessions. */
+  .sepia {
+    --background: 38 42% 90%;
+    --foreground: 26 30% 16%;
+
+    --card: 38 46% 94%;
+    --card-foreground: 26 30% 16%;
+
+    --popover: 38 46% 94%;
+    --popover-foreground: 26 30% 16%;
+
+    --primary: 26 30% 16%;
+    --primary-foreground: 38 46% 94%;
+
+    --secondary: 36 30% 85%;
+    --secondary-foreground: 26 30% 22%;
+
+    --muted: 36 28% 85%;
+    --muted-foreground: 28 18% 40%;
+
+    --accent: 26 62% 40%;
+    --accent-foreground: 38 46% 96%;
+
+    --destructive: 4 62% 44%;
+    --destructive-foreground: 38 46% 96%;
+
+    --success: 96 32% 32%;
+    --success-foreground: 38 46% 96%;
+
+    --warning: 34 72% 40%;
+    --warning-foreground: 38 46% 96%;
+
+    --border: 32 24% 78%;
+    --input: 32 24% 78%;
+    --ring: 26 40% 35%;
+  }
+
+  /* Solarized Dark — Ethan Schoonover's palette, mapped onto our tokens. */
+  .solarized {
+    --background: 192 100% 11%;
+    --foreground: 180 7% 60%;
+
+    --card: 192 81% 14%;
+    --card-foreground: 180 7% 60%;
+
+    --popover: 192 81% 14%;
+    --popover-foreground: 180 7% 60%;
+
+    --primary: 186 8% 74%;
+    --primary-foreground: 192 100% 11%;
+
+    --secondary: 192 81% 17%;
+    --secondary-foreground: 180 7% 70%;
+
+    --muted: 192 81% 17%;
+    --muted-foreground: 194 14% 50%;
+
+    --accent: 175 59% 40%;
+    --accent-foreground: 192 100% 11%;
+
+    --destructive: 1 71% 52%;
+    --destructive-foreground: 44 87% 94%;
+
+    --success: 68 100% 30%;
+    --success-foreground: 192 100% 11%;
+
+    --warning: 45 100% 35%;
+    --warning-foreground: 192 100% 11%;
+
+    --border: 194 14% 28%;
+    --input: 194 14% 28%;
+    --ring: 175 59% 50%;
+  }
+
+  /* High contrast — pure black and white, saturated accents, strong borders.
+     Aimed at legibility rather than looks. */
+  .high-contrast {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 4%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 82%;
+
+    --accent: 52 100% 60%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 100% 66%;
+    --destructive-foreground: 0 0% 0%;
+
+    --success: 130 100% 60%;
+    --success-foreground: 0 0% 0%;
+
+    --warning: 40 100% 60%;
+    --warning-foreground: 0 0% 0%;
+
+    --border: 0 0% 55%;
+    --input: 0 0% 55%;
+    --ring: 52 100% 70%;
+  }
 }
 
 @layer base {

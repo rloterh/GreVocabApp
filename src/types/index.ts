@@ -156,9 +156,18 @@ export interface StudySession {
   totalMs: number;
 }
 
+/** Palettes the app can render. "system" resolves to light or dark. */
+export type Theme =
+  | "light"
+  | "dark"
+  | "system"
+  | "sepia"
+  | "solarized"
+  | "high-contrast";
+
 /** App settings */
 export interface Settings {
-  theme: "light" | "dark" | "system";
+  theme: Theme;
   dataDirectory: string | null; // Tauri filesystem path
   anthropicApiKey: string | null;
   preferApiVerification: boolean;
@@ -172,6 +181,12 @@ export interface Settings {
   studyReminderTime: string;
   /** Date key of the last reminder shown, so it fires at most once a day. */
   lastReminderDate: string | null;
+  /** Folder the desktop build watches for new vocabulary files. */
+  watchedFolder: string | null;
+  /** Set once the first-run walkthrough has been seen or skipped. */
+  hasOnboarded: boolean;
+  /** Opt-in interface sounds. */
+  soundEnabled: boolean;
 }
 
 /** Aggregate stats for progress views */

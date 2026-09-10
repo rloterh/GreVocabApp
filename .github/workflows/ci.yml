@@ -20,3 +20,17 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run build
+
+  desktop:
+    # The Tauri crate is not exercised by the web build, so nothing else would
+    # catch a break in src-tauri. Windows because Tauri builds there without
+    # the system libraries a Linux runner would need.
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+      - run: cargo check --manifest-path src-tauri/Cargo.toml
+      - run: cargo test --lib --manifest-path src-tauri/Cargo.toml

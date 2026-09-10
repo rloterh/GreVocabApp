@@ -12,9 +12,13 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Sidebar } from "@/components/Sidebar";
 import { Toast } from "@/components/Toast";
 import { DropOverlay } from "@/components/DropOverlay";
+import { ShortcutsHelp } from "@/components/ShortcutsHelp";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useStudyReminder } from "@/hooks/useStudyReminder";
+import { useShortcuts } from "@/hooks/useShortcuts";
+import { useWatchedFolder } from "@/hooks/useWatchedFolder";
+import { applyTheme } from "@/lib/theme";
 import { Dashboard } from "@/pages/Dashboard";
 import { DailyPractice } from "@/pages/DailyPractice";
 import { Flashcards } from "@/pages/Flashcards";
@@ -32,19 +36,19 @@ export function App() {
 
   // No-op unless the user has enabled reminders and granted permission.
   useStudyReminder();
+  // Desktop only; inert in the browser.
+  useWatchedFolder();
+  const { helpOpen, setHelpOpen } = useShortcuts();
 
-  // Apply theme on mount and when it changes
+  // Apply the theme on mount and when it changes. When following the system,
+  // keep following it — the OS can flip while the app is open.
   useEffect(() => {
-    const root = document.documentElement;
-    root.classList.remove("dark", "light");
-    if (theme === "system") {
-      const prefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)",
-      ).matches;
-      root.classList.add(prefersDark ? "dark" : "light");
-    } else {
-      root.classList.add(theme);
-    }
+    applyTheme(theme);
+    if (theme !== "system") return;
+    const media = window.matchMedia("(prefers-color-scheme: dark)");
+    const onChange = () => applyTheme("system");
+    media.addEventListener("change", onChange);
+    return () => media.removeEventListener("change", onChange);
   }, [theme]);
 
   return (
@@ -67,6 +71,7 @@ export function App() {
         </main>
         <Toast />
         <DropOverlay />
+        <ShortcutsHelp open={helpOpen} onOpenChange={setHelpOpen} />
       </div>
     </TooltipProvider>
   );

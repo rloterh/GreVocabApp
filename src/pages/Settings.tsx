@@ -1,6 +1,28 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { AlertTriangle, Check, Eye, EyeOff, Sun, Moon, Monitor } from "lucide-react";
+import {
+  AlertTriangle,
+  Check,
+  Contrast,
+  Eye,
+  EyeOff,
+  FolderOpen,
+  Monitor,
+  Moon,
+  Palette,
+  ScrollText,
+  Sun,
+} from "lucide-react";
+
+/** Icons live here rather than in lib/theme.ts, which stays free of UI. */
+const THEME_ICONS: Record<Theme, React.ComponentType<{ className?: string }>> = {
+  light: Sun,
+  dark: Moon,
+  system: Monitor,
+  sepia: ScrollText,
+  solarized: Palette,
+  "high-contrast": Contrast,
+};
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -16,6 +38,10 @@ import {
   markdownFilename,
   progressToMarkdown,
 } from "@/lib/markdown-export";
+import { applyTheme, THEMES } from "@/lib/theme";
+import { pickWatchedFolder } from "@/hooks/useWatchedFolder";
+import { isTauri } from "@/lib/utils";
+import type { Theme } from "@/types";
 import { cn } from "@/lib/utils";
 
 /** Hand a blob to the browser as a download. */
@@ -196,33 +222,33 @@ export function Settings() {
         title="Appearance"
         description="Choose how Lexicon looks."
       >
-        <div className="flex gap-2">
-          {(
-            [
-              { v: "light" as const, icon: Sun, label: "Light" },
-              { v: "dark" as const, icon: Moon, label: "Dark" },
-              { v: "system" as const, icon: Monitor, label: "System" },
-            ]
-          ).map((opt) => {
-            const Icon = opt.icon;
-            const active = settings.theme === opt.v;
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+          {THEMES.map((opt) => {
+            const Icon = THEME_ICONS[opt.value];
+            const active = settings.theme === opt.value;
             return (
               <button
-                key={opt.v}
+                key={opt.value}
                 type="button"
+                aria-pressed={active}
                 onClick={() => {
-                  settings.set({ theme: opt.v });
-                  applyTheme(opt.v);
+                  settings.set({ theme: opt.value });
+                  applyTheme(opt.value);
                 }}
                 className={cn(
-                  "flex-1 flex flex-col items-center gap-1.5 rounded-md border p-3 text-xs transition-colors",
+                  "flex flex-col items-start gap-1 rounded-md border p-3 text-left transition-colors",
                   active
                     ? "border-accent bg-accent/10 text-foreground"
                     : "border-border text-muted-foreground hover:text-foreground",
                 )}
               >
-                <Icon className="w-4 h-4" />
-                {opt.label}
+                <span className="flex items-center gap-1.5 text-xs font-medium">
+                  <Icon className="w-3.5 h-3.5" />
+                  {opt.label}
+                </span>
+                <span className="text-[10px] text-muted-foreground leading-tight">
+                  {opt.hint}
+                </span>
               </button>
             );
           })}
@@ -283,6 +309,52 @@ export function Settings() {
           </label>
         </div>
       </SettingSection>
+
+      {isTauri() && (
+        <SettingSection
+          title="Watched folder"
+          description="Point Lexicon at a folder and any vocabulary file you drop into it loads straight away — no re-importing."
+        >
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-center gap-2">
+              <Button
+                variant="outline"
+                onClick={async () => {
+                  const folder = await pickWatchedFolder();
+                  if (folder) {
+                    settings.set({ watchedFolder: folder });
+                    showToast({
+                      title: "Watching folder",
+                      description: folder,
+                      variant: "success",
+                    });
+                  }
+                }}
+              >
+                <FolderOpen className="w-4 h-4" />
+                {settings.watchedFolder ? "Change folder" : "Choose folder"}
+              </Button>
+              {settings.watchedFolder && (
+                <Button
+                  variant="ghost"
+                  onClick={() => {
+                    settings.set({ watchedFolder: null });
+                    showToast({ title: "Stopped watching" });
+                  }}
+                >
+                  Stop watching
+                </Button>
+              )}
+            </div>
+
+            <p className="text-[11px] text-muted-foreground leading-relaxed break-all">
+              {settings.watchedFolder
+                ? `Watching ${settings.watchedFolder} for .json, .csv and .apkg files.`
+                : "No folder is being watched."}
+            </p>
+          </div>
+        </SettingSection>
+      )}
 
       <SettingSection
         title="Study reminders"
@@ -495,15 +567,4 @@ function SettingSection({
   );
 }
 
-function applyTheme(theme: "light" | "dark" | "system") {
-  const root = document.documentElement;
-  root.classList.remove("dark", "light");
-  if (theme === "system") {
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)",
-    ).matches;
-    root.classList.add(prefersDark ? "dark" : "light");
-  } else {
-    root.classList.add(theme);
-  }
-}
+

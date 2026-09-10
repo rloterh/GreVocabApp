@@ -92,7 +92,7 @@ Errors name the line: `Line 4: 'day' must be a whole number 1-31, got "nope"`.
 
 ### Four ways to load
 
-1. **Drag and drop** — drop `.json` or `.csv` files anywhere in the app
+1. **Drag and drop** — drop `.json`, `.csv` or `.apkg` files anywhere in the app
 2. **Import button** — "Import JSON / CSV" on the Dashboard or Archive
 3. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
 4. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
@@ -110,6 +110,30 @@ Words you already have are sent along so the model does not repeat them.
 The response is constrained with a strict tool schema rather than parsed out of
 prose, and the result is still put through the same validation as an imported
 file — generated content is not trusted any more than a file you supplied.
+
+## Importing from Anki
+
+Drop an `.apkg` into the app, or pick it with the import button. Lexicon reads
+the notes out of the deck and lands them in the first month you have nothing
+loaded in, three words per day.
+
+Anki decks have no fixed schema, so fields are matched by **name** first —
+`Word`/`Term`/`Front` for the word, `Definition`/`Meaning`/`Back` for the
+meaning, and `Example`, `Mnemonic` and `Part of Speech` where present. A deck
+whose fields match none of those falls back to "first field is the word, second
+is the meaning", which is what a two-field note almost always is. Missing
+example and mnemonic fields show as `—`.
+
+Notes with no word or no meaning are skipped and counted. HTML, `[sound:…]`
+references and entities are stripped.
+
+Two limits worth knowing:
+
+- **Scheduling is not imported.** Lexicon's progress is keyed by its own word
+  ids, and inventing review history for words you have not seen here would be
+  worse than starting fresh. Export the other way *does* carry scheduling.
+- **Anki's newer compressed format is not readable.** If you get an error
+  saying so, re-export from Anki with "Support older Anki versions" ticked.
 
 ## Exporting a study log
 

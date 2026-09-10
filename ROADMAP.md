@@ -30,11 +30,10 @@ If you have a weekend: the desktop story — Phase 4.
    limitation on study reminders. **Note for whoever picks this up: it needs a
    Rust toolchain.** There was none in the environment Phases 2 and 3 were
    built in, so no Phase 4 work has been attempted rather than written blind.
-2. **Anki `.apkg` import.** We can write one but not read one. See the Phase 3
-   definition of done — that line is only half met.
-3. **Component tests.** `src/lib/` and the stores are covered (164 tests). Every
+2. **Component tests.** `src/lib/` and the stores are covered (189 tests). Every
    component is not, and that is now the only untested layer. It needs a DOM
    environment and a decision about how much UI is worth pinning.
+3. **Phase 5.** Nothing there is started.
 
 ~~A test runner~~ — **DONE.** Vitest, `npm test`, running in CI ahead of the
 build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
@@ -81,9 +80,9 @@ build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
 ### Definition of done
 
 - ~~User with 200 Anki cards can bring them into Lexicon in under 5 minutes.~~
-  Partly. CSV import covers the common path (Anki exports CSV natively), and it
-  takes one click. Reading an `.apkg` *in* is not implemented — only writing one
-  out. If that matters, it belongs in this phase as a new task.
+  Done. Both paths work: CSV (which Anki exports natively) and `.apkg` directly,
+  by drop or by picker. `.apkg` import does not carry scheduling — see
+  `src/lib/anki-import.ts` for why.
 - ~~User can leave Lexicon with their progress intact via export.~~ Done, and
   more literally than the line implies: Anki export carries SM-2 interval, ease
   and repetition count, so progress survives the move rather than just the

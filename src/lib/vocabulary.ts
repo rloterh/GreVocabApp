@@ -1,5 +1,23 @@
 import type { VocabMonth, VocabWord } from "@/types";
-import { slugify } from "./date-utils";
+import { slugify, toMonthKey } from "./date-utils";
+
+/**
+ * First month key from today with nothing loaded in it.
+ *
+ * Used wherever new vocabulary needs somewhere to land — generated months and
+ * Anki imports both carry no month of their own, and dropping them onto a
+ * month that already has words would overwrite it.
+ */
+export function firstFreeMonthKey(loaded: Record<string, unknown>): string {
+  const cursor = new Date();
+  cursor.setDate(1);
+  for (let i = 0; i < 24; i++) {
+    const key = toMonthKey(cursor);
+    if (!(key in loaded)) return key;
+    cursor.setMonth(cursor.getMonth() + 1);
+  }
+  return toMonthKey(new Date());
+}
 
 /** Validate and normalize a raw month object into a VocabMonth */
 export function parseVocabMonth(raw: unknown): VocabMonth {

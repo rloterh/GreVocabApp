@@ -1,5 +1,5 @@
 /**
- * Drop a .json or .csv anywhere in the app to import it.
+ * Drop a .json, .csv or Anki .apkg anywhere in the app to import it.
  *
  * Mounted once at the root. It uses the same `importFiles` path as the import
  * button, so anything one accepts the other accepts.
@@ -11,6 +11,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FileDown } from "lucide-react";
 import { useVocabStore } from "@/store/useVocabStore";
+import { firstFreeMonthKey } from "@/lib/vocabulary";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { describeOutcome, importFiles } from "@/lib/import";
@@ -24,6 +25,7 @@ function carriesFiles(e: DragEvent): boolean {
 
 export function DropOverlay() {
   const loadMonth = useVocabStore((s) => s.loadMonth);
+  const months = useVocabStore((s) => s.months);
   const showToast = useAppStore((s) => s.showToast);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
 
@@ -65,12 +67,14 @@ export function DropOverlay() {
 
       setBusy(true);
       try {
-        const outcome = await importFiles(files, loadMonth);
+        const outcome = await importFiles(files, loadMonth, {
+          apkgMonth: () => firstFreeMonthKey(months),
+        });
         for (const message of outcome.errors) console.warn(message);
         if (outcome.loaded === 0 && outcome.failed === 0) {
           showToast({
             title: "Nothing imported",
-            description: "Drop a .json or .csv vocabulary file.",
+            description: "Drop a .json, .csv or .apkg file.",
             variant: "error",
           });
           return;
@@ -94,7 +98,7 @@ export function DropOverlay() {
       window.removeEventListener("drop", onDrop);
       window.removeEventListener("dragend", reset);
     };
-  }, [loadMonth, showToast, reset]);
+  }, [loadMonth, months, showToast, reset]);
 
   const visible = dragging || busy;
 
@@ -122,7 +126,7 @@ export function DropOverlay() {
               {busy ? "Importing…" : "Drop to import"}
             </p>
             <p className="text-xs text-muted-foreground mt-1">
-              {busy ? "Reading your files" : ".json or .csv vocabulary files"}
+              {busy ? "Reading your files" : ".json, .csv or .apkg"}
             </p>
           </motion.div>
         </motion.div>

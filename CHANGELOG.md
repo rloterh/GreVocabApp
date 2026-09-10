@@ -36,8 +36,11 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   topic and a word count using the Anthropic key already in Settings. Output is
   schema-constrained and validated like any import.
 
-- **Drag and drop import** — drop a `.json` or `.csv` anywhere in the app.
-  Shares one import path with the button and both folder pickers.
+- **Anki `.apkg` import** — read an existing Anki deck into Lexicon. Fields are
+  matched by name with a positional fallback; HTML and media references are
+  stripped; notes with no word or meaning are skipped and counted.
+- **Drag and drop import** — drop a `.json`, `.csv` or `.apkg` anywhere in the
+  app. Shares one import path with the button and both folder pickers.
 - **Markdown study log export** — Settings → Backup writes totals, streaks, a
   per-month breakdown, what is due, and recent activity.
 - **Unit tests** — Vitest over `src/lib/` and the Zustand stores, running in CI

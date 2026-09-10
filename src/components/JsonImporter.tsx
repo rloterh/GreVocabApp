@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { FolderOpen, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useVocabStore } from "@/store/useVocabStore";
+import { firstFreeMonthKey } from "@/lib/vocabulary";
 import { useAppStore } from "@/store/useAppStore";
 import { isTauri } from "@/lib/utils";
 import {
@@ -27,6 +28,10 @@ export function JsonImporter() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [busy, setBusy] = useState(false);
   const loadMonth = useVocabStore((s) => s.loadMonth);
+  const months = useVocabStore((s) => s.months);
+  // Anki decks carry no month; land them somewhere empty rather than on top
+  // of vocabulary that is already loaded.
+  const importOptions = { apkgMonth: () => firstFreeMonthKey(months) };
   const showToast = useAppStore((s) => s.showToast);
 
   /** Report an outcome the same way regardless of which path produced it. */
@@ -39,7 +44,7 @@ export function JsonImporter() {
     if (!files || files.length === 0) return;
     setBusy(true);
     try {
-      report(await importFiles(Array.from(files), loadMonth));
+      report(await importFiles(Array.from(files), loadMonth, importOptions));
     } finally {
       setBusy(false);
       // Let the same file be picked again after a failed import.
@@ -98,7 +103,7 @@ export function JsonImporter() {
         if (entry.kind !== "file" || !ACCEPTED_FILE.test(entry.name)) continue;
         files.push(await (entry as FileSystemFileHandle).getFile());
       }
-      report(await importFiles(files, loadMonth));
+      report(await importFiles(files, loadMonth, importOptions));
       setBusy(false);
     } catch {
       setBusy(false);
@@ -111,7 +116,7 @@ export function JsonImporter() {
       <input
         ref={fileRef}
         type="file"
-        accept="application/json,.json,text/csv,.csv"
+        accept="application/json,.json,text/csv,.csv,.apkg"
         multiple
         className="hidden"
         onChange={(e) => handleFiles(e.target.files)}
@@ -123,7 +128,7 @@ export function JsonImporter() {
         disabled={busy}
       >
         <Upload className="w-3.5 h-3.5" />
-        Import JSON / CSV
+        Import file
       </Button>
       <Button size="sm" variant="outline" onClick={pickFolder} disabled={busy}>
         <FolderOpen className="w-3.5 h-3.5" />

@@ -16,7 +16,19 @@ export type LoadMonth = (
 ) => { ok: true; monthKey: string } | { ok: false; error: string };
 
 /** File extensions this app will attempt to import. */
-export const ACCEPTED_FILE = /\.(json|csv)$/i;
+export const ACCEPTED_FILE = /\.(json|csv|apkg)$/i;
+
+/** Anki packages are a zip, so they arrive as bytes rather than text. */
+const BINARY_FILE = /\.apkg$/i;
+
+export interface ImportOptions {
+  /**
+   * Which month an Anki package's words should land in. Anki decks carry no
+   * month of their own, so the caller decides — normally the first month with
+   * nothing loaded in it, so an import cannot overwrite existing vocabulary.
+   */
+  apkgMonth?: () => string;
+}
 
 export interface ImportOutcome {
   loaded: number;
@@ -78,17 +90,72 @@ export async function importText(
   return outcome;
 }
 
+/**
+ * Import one Anki package.
+ *
+ * Separate from `importText` because a .apkg is binary, and because reading
+ * one pulls in sql.js — which should not load for a session that only ever
+ * touches JSON.
+ */
+export async function importApkgFile(
+  name: string,
+  bytes: Uint8Array,
+  loadMonth: LoadMonth,
+  monthKey: string,
+): Promise<ImportOutcome> {
+  try {
+    const [{ loadSqlJs }, { importApkg }] = await Promise.all([
+      import("@/lib/sql-loader"),
+      import("@/lib/anki-import"),
+    ]);
+    const SQL = await loadSqlJs();
+    const { month, skipped } = await importApkg(SQL, { bytes, monthKey });
+
+    const result = loadMonth(month);
+    if (!result.ok) {
+      return { loaded: 0, failed: 1, errors: [`${name}: ${result.error}`] };
+    }
+    return {
+      loaded: 1,
+      failed: 0,
+      errors:
+        skipped > 0
+          ? [`${name}: skipped ${skipped} note${skipped === 1 ? "" : "s"} with no usable word or meaning`]
+          : [],
+    };
+  } catch (e) {
+    const reason = e instanceof Error ? e.message : "could not be read";
+    return { loaded: 0, failed: 1, errors: [`${name}: ${reason}`] };
+  }
+}
+
 /** Import every acceptable file in a list, ignoring the rest. */
 export async function importFiles(
   files: Iterable<File>,
   loadMonth: LoadMonth,
+  options: ImportOptions = {},
 ): Promise<ImportOutcome> {
   let outcome = EMPTY;
   for (const file of files) {
     if (!ACCEPTED_FILE.test(file.name)) continue;
+    if (BINARY_FILE.test(file.name)) {
+      const monthKey = options.apkgMonth?.() ?? currentMonthKey();
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      outcome = merge(
+        outcome,
+        await importApkgFile(file.name, bytes, loadMonth, monthKey),
+      );
+      continue;
+    }
     outcome = merge(outcome, await importText(file.name, await file.text(), loadMonth));
   }
   return outcome;
+}
+
+/** Fallback target month for an Anki import when the caller names none. */
+function currentMonthKey(): string {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
 }
 
 /**

@@ -24,20 +24,8 @@ import { useVocabStore } from "@/store/useVocabStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useAppStore } from "@/store/useAppStore";
 import { generateMonth, WORDS_PER_DAY } from "@/lib/generate";
-import { allWordsInMonth } from "@/lib/vocabulary";
-import { toMonthKey, formatMonthKey, addDays } from "@/lib/date-utils";
-
-/** First month key from today that has no vocabulary loaded yet. */
-function firstFreeMonth(loaded: Record<string, unknown>): string {
-  let cursor = new Date();
-  for (let i = 0; i < 24; i++) {
-    const key = toMonthKey(cursor);
-    if (!(key in loaded)) return key;
-    // Step into the next month by walking past its end.
-    cursor = addDays(new Date(cursor.getFullYear(), cursor.getMonth(), 1), 32);
-  }
-  return toMonthKey(new Date());
-}
+import { allWordsInMonth, firstFreeMonthKey } from "@/lib/vocabulary";
+import { formatMonthKey } from "@/lib/date-utils";
 
 export function VocabGenerator() {
   const months = useVocabStore((s) => s.months);
@@ -49,13 +37,13 @@ export function VocabGenerator() {
   const [open, setOpen] = useState(false);
   const [topic, setTopic] = useState("");
   const [wordCount, setWordCount] = useState(30);
-  const [monthKey, setMonthKey] = useState(() => firstFreeMonth(months));
+  const [monthKey, setMonthKey] = useState(() => firstFreeMonthKey(months));
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
   function openDialog() {
-    setMonthKey(firstFreeMonth(months));
+    setMonthKey(firstFreeMonthKey(months));
     setError(null);
     setOpen(true);
   }

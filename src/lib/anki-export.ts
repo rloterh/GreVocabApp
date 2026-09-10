@@ -13,6 +13,7 @@
  */
 
 import { buildAnkiCollection, type AnkiExportOptions } from "@/lib/anki-collection";
+import { loadSqlJs } from "@/lib/sql-loader";
 
 export type { AnkiExportOptions };
 
@@ -34,13 +35,7 @@ export interface AnkiExportResult {
 export async function exportApkg(
   options: AnkiExportOptions,
 ): Promise<AnkiExportResult> {
-  const [initSqlJs, fflate, wasmUrl] = await Promise.all([
-    import("sql.js").then((m) => m.default),
-    import("fflate"),
-    import("sql.js/dist/sql-wasm.wasm?url").then((m) => m.default),
-  ]);
-
-  const SQL = await initSqlJs({ locateFile: () => wasmUrl });
+  const [SQL, fflate] = await Promise.all([loadSqlJs(), import("fflate")]);
   const collection = await buildAnkiCollection(SQL, options);
 
   const zipped = fflate.zipSync(

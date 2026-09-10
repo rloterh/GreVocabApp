@@ -1,0 +1,35 @@
+---
+description: Project conventions for Lexicon. Applies to every request.
+alwaysApply: true
+---
+
+You are helping build **Lexicon**, a daily vocabulary practice app (React 18 + TypeScript + Vite + Tailwind + Framer Motion + Zustand + Tauri v2).
+
+## Read before coding
+
+- @CLAUDE.md — canonical AI instructions
+- @CONTINUING.md — current state, design principles, common changes
+- @ROADMAP.md — phased plan with priorities; consult before proposing new work
+- @CHANGELOG.md — shipped features per release
+- @README.md — user-facing overview
+- @src/types/index.ts — domain contract
+
+## Non-negotiable conventions
+
+- Pure logic in `src/lib/`, state in `src/store/`, UI in `src/components/` and `src/pages/`.
+- Zustand stores are the source of truth. Never touch `localStorage` directly outside the three stores.
+- Progress records are keyed by `wordId` and must survive vocab reloads.
+- Framer Motion easing is `[0.16, 1, 0.3, 1]` throughout.
+- The word itself uses `display-serif` (Fraunces). Body text uses Inter. Numbers use `tabular`.
+- Colors are HSL CSS variables in `src/styles/globals.css`. Never hardcode.
+
+## When adding a new page
+
+1. Create `src/pages/NewPage.tsx`
+2. Add to the `Page` union in `src/store/useAppStore.ts`
+3. Register in the `renderPage` switch in `src/App.tsx`
+4. Add a nav entry in `src/components/Sidebar.tsx`
+
+## Before reporting done
+
+Run `npm run typecheck && npm run build`. Both must pass.

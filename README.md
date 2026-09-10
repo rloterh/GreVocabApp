@@ -1,0 +1,142 @@
+# Lexicon
+
+A premium daily vocabulary practice app. Learn a few new words each day, track your growth over months and years, quiz yourself, and write sentences that get checked for grammar and correct usage.
+
+Built with React 18, TypeScript, Tailwind, Framer Motion, and Tauri v2 — runs as either a native desktop app or a plain web app.
+
+> **New to this codebase?** Start with [`CONTINUING.md`](./CONTINUING.md) for state and conventions, then [`ROADMAP.md`](./ROADMAP.md) for what's next. [`CHANGELOG.md`](./CHANGELOG.md) records what shipped. AI coding assistants also pick up [`CLAUDE.md`](./CLAUDE.md), [`AGENTS.md`](./AGENTS.md), [`.cursor/rules/main.mdc`](./.cursor/rules/main.mdc), and [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) automatically.
+
+## Features
+
+- **Daily practice** — animated flashcards with definition, example, and mnemonic
+- **Custom calendar** — jump to any month, quarter, or day; days without vocabulary are dimmed
+- **Quiz mode** — three modes (word→def, def→word, mixed) with any pool: mastered, current month, or everything
+- **Sentence builder** — write practice sentences; get feedback via Anthropic API or local heuristics
+- **Progress tracking** — activity heatmap, monthly/quarterly/yearly charts, current & longest streaks
+- **Archive** — every month you've loaded, always browsable
+- **Search** — full-text across all loaded vocabulary
+- **JSON-driven** — one file per month, dropped in a folder. Load, unload, keep as many as you want
+- **Backup / restore** — export everything as JSON
+- **Light & dark themes** — with warm off-white / near-black palettes
+
+## Quick start (web app)
+
+```bash
+npm install
+npm run dev
+```
+
+Opens at http://localhost:1420. Comes pre-seeded with April and May 2026 (180 GRE-level words).
+
+## Quick start (desktop app via Tauri)
+
+Prerequisites: [Rust toolchain](https://www.rust-lang.org/tools/install), plus platform-specific build tools ([macOS](https://tauri.app/start/prerequisites/#macos), [Windows](https://tauri.app/start/prerequisites/#windows), [Linux](https://tauri.app/start/prerequisites/#linux)).
+
+```bash
+npm install
+npm run tauri:dev        # Development mode
+npm run tauri:build      # Produces installers in src-tauri/target/release/bundle/
+```
+
+## Loading your own vocabulary
+
+Vocabulary files are JSON with this shape:
+
+```json
+{
+  "month": "2026-06",
+  "displayName": "June 2026",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "word": "Ineffable",
+          "partOfSpeech": "adjective",
+          "definition": "Too great or extreme to be expressed in words.",
+          "example": "The view from the summit had an ineffable beauty.",
+          "mnemonic": "'In-' (not) + 'effable' (utterable) — cannot be uttered."
+        }
+      ]
+    }
+  ]
+}
+```
+
+Three ways to load:
+
+1. **Drop files** — click "Import JSON" on the Dashboard or Archive
+2. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
+3. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
+
+## Sentence verification
+
+Two modes, chosen based on Settings:
+
+- **AI verification** (recommended) — sends the word, its definition, and your sentences to Anthropic's API. Returns per-sentence feedback on grammar and correct usage. Add your API key in Settings; it's stored locally in your browser only.
+- **Heuristic** (fallback) — local checks: does the sentence use the word (with morphological variants), is it capitalized, does it have punctuation, is it long enough, does it look copy-pasted from the example.
+
+## Data model
+
+- `src/types/index.ts` — all interfaces
+- `src/lib/vocabulary.ts` — parser and validator
+- `src/lib/verify.ts` — heuristic + API verification
+- `src/lib/streak.ts` — streak calculation
+- `src/store/` — Zustand stores (vocab, progress, settings, app nav)
+
+Progress is stored in `localStorage` under keys prefixed with `lexicon.*`.
+
+## Project structure
+
+```
+src/
+├── App.tsx, main.tsx        Root
+├── components/              Presentation
+│   ├── ui/                  Primitives (Button, Card, Dialog, ...)
+│   ├── FlashCard.tsx        Flip-reveal word card
+│   ├── CalendarPicker.tsx   Custom calendar with unselectable days
+│   ├── JsonImporter.tsx     File / folder import
+│   ├── Sidebar.tsx          Navigation
+│   ├── Toast.tsx
+│   └── EmptyState.tsx
+├── pages/                   Route views
+│   ├── Dashboard.tsx        Overview + today's words
+│   ├── DailyPractice.tsx    Flashcards for a day
+│   ├── Quiz.tsx             Setup / play / results
+│   ├── SentenceBuilder.tsx  Write & verify
+│   ├── Calendar.tsx         Date picker + preview
+│   ├── Archive.tsx          All loaded months
+│   ├── ProgressPage.tsx     Heatmap + charts
+│   ├── Search.tsx           Full-text
+│   └── Settings.tsx         Theme, API key, backup, reset
+├── store/                   Zustand stores
+├── lib/                     Pure logic (no React)
+├── types/                   TypeScript types
+├── data/                    Bundled vocabulary
+└── styles/globals.css       Tailwind + design tokens
+```
+
+## Scripts
+
+| Command | What it does |
+| --- | --- |
+| `npm run dev` | Vite dev server at :1420 |
+| `npm run build` | Production build to `dist/` |
+| `npm run typecheck` | Type-check without emit |
+| `npm run lint` | ESLint |
+| `npm run tauri:dev` | Tauri desktop app in dev mode |
+| `npm run tauri:build` | Bundle native installers |
+
+## Roadmap
+
+See [`ROADMAP.md`](./ROADMAP.md) for the phased plan with priorities and acceptance criteria. High-level phases:
+
+1. **Foundation** — shipped in v0.1.0
+2. **Learning quality** — spaced repetition (SM-2), due-today deck
+3. **Content flow** — CSV import, Anki `.apkg` export, generate-with-AI
+4. **Multi-device & desktop parity** — real file-watching, native icons, mobile
+5. **Polish, community, sharing** — global shortcuts, deck sharing, onboarding
+
+## License
+
+MIT

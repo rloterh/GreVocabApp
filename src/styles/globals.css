@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme — warm off-white, subtle contrast */
+    --background: 40 20% 98%;
+    --foreground: 20 14% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 10%;
+
+    --primary: 20 14% 10%;
+    --primary-foreground: 40 20% 98%;
+
+    --secondary: 40 15% 94%;
+    --secondary-foreground: 20 14% 20%;
+
+    --muted: 40 12% 94%;
+    --muted-foreground: 20 8% 45%;
+
+    --accent: 160 50% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 160 55% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 32 88% 52%;
+    --warning-foreground: 20 20% 10%;
+
+    --border: 20 8% 90%;
+    --input: 20 8% 90%;
+    --ring: 20 14% 30%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Dark theme — near-black with warm undertone */
+    --background: 20 8% 6%;
+    --foreground: 40 15% 96%;
+
+    --card: 20 8% 9%;
+    --card-foreground: 40 15% 96%;
+
+    --popover: 20 8% 9%;
+    --popover-foreground: 40 15% 96%;
+
+    --primary: 40 15% 96%;
+    --primary-foreground: 20 8% 6%;
+
+    --secondary: 20 8% 14%;
+    --secondary-foreground: 40 15% 96%;
+
+    --muted: 20 8% 14%;
+    --muted-foreground: 40 8% 62%;
+
+    --accent: 160 50% 48%;
+    --accent-foreground: 20 8% 6%;
+
+    --destructive: 0 62% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 160 55% 48%;
+    --success-foreground: 20 8% 6%;
+
+    --warning: 32 88% 58%;
+    --warning-foreground: 20 20% 10%;
+
+    --border: 20 8% 18%;
+    --input: 20 8% 18%;
+    --ring: 40 15% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+    border: 2px solid hsl(var(--background));
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/40;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-accent/30 text-foreground;
+  }
+
+  /* Focus rings */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Glass-like card variant used sparingly */
+  .glass {
+    @apply bg-card/80 backdrop-blur-xl border-border/60;
+  }
+
+  /* Number rolling display */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Serif accent — for the word itself, big numbers */
+  .display-serif {
+    @apply font-serif;
+    font-feature-settings: "ss01", "ss02";
+    letter-spacing: -0.02em;
+  }
+
+  /* Subtle grid pattern for empty states */
+  .bg-grid {
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      hsl(var(--border)) 1px,
+      transparent 0
+    );
+    background-size: 20px 20px;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

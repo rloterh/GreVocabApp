@@ -1,0 +1,876 @@
+{
+  "month": "2026-05",
+  "displayName": "May 2026",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2026-05-aplomb",
+          "word": "Aplomb",
+          "partOfSpeech": "noun",
+          "definition": "Self-confidence or assurance, especially in a demanding situation.",
+          "example": "She handled the hostile questions with remarkable aplomb.",
+          "mnemonic": "Sounds like 'a-plum' \u2014 calmly holding up a ripe plum as if nothing could shake you."
+        },
+        {
+          "id": "2026-05-bucolic",
+          "word": "Bucolic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to the pleasant aspects of the countryside and country life.",
+          "example": "They retired to a bucolic cottage far from the city.",
+          "mnemonic": "'Bu-colic' \u2192 'bull colic' \u2192 cows in a pasture, classic country scene."
+        },
+        {
+          "id": "2026-05-circumspect",
+          "word": "Circumspect",
+          "partOfSpeech": "adjective",
+          "definition": "Wary and unwilling to take risks; cautious.",
+          "example": "Be circumspect when signing long contracts.",
+          "mnemonic": "'Circum-' (around) + 'spect' (look) \u2014 looking around carefully before acting."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2026-05-desultory",
+          "word": "Desultory",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking a plan, purpose, or enthusiasm; random.",
+          "example": "His desultory reading left him with bits of knowledge about everything and mastery of nothing.",
+          "mnemonic": "'De-sultry' \u2014 nothing sultry or exciting, just aimless hopping."
+        },
+        {
+          "id": "2026-05-enervate",
+          "word": "Enervate",
+          "partOfSpeech": "verb",
+          "definition": "To cause someone to feel drained of energy or vitality.",
+          "example": "The humid afternoon enervated the whole team.",
+          "mnemonic": "'E-' (out) + 'nerv-' (nerve). Looks like 'energize' but means the OPPOSITE."
+        },
+        {
+          "id": "2026-05-fortuitous",
+          "word": "Fortuitous",
+          "partOfSpeech": "adjective",
+          "definition": "Happening by chance, often a lucky chance.",
+          "example": "A fortuitous meeting at the airport led to a lifelong friendship.",
+          "mnemonic": "Shares its root with 'fortune' \u2014 a lucky turn of fortune."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2026-05-guile",
+          "word": "Guile",
+          "partOfSpeech": "noun",
+          "definition": "Sly or cunning intelligence; deceit.",
+          "example": "She won the negotiation through guile rather than honesty.",
+          "mnemonic": "Sounds like 'while' \u2014 'while you're distracted' is exactly how guile works."
+        },
+        {
+          "id": "2026-05-hegemony",
+          "word": "Hegemony",
+          "partOfSpeech": "noun",
+          "definition": "Leadership or dominance, especially by one country or group over others.",
+          "example": "The company's hegemony in the search market lasted over a decade.",
+          "mnemonic": "'He-gemon' \u2192 a leader gemstone everyone looks up to."
+        },
+        {
+          "id": "2026-05-inimical",
+          "word": "Inimical",
+          "partOfSpeech": "adjective",
+          "definition": "Tending to obstruct or harm; hostile.",
+          "example": "The new rules were inimical to innovation.",
+          "mnemonic": "Contains 'enemy' \u2014 inimical means enemy-like."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2026-05-juggernaut",
+          "word": "Juggernaut",
+          "partOfSpeech": "noun",
+          "definition": "A huge, powerful, and overwhelming force or institution.",
+          "example": "The streaming giant became a juggernaut no competitor could stop.",
+          "mnemonic": "From a Hindu festival cart said to crush anything in its path."
+        },
+        {
+          "id": "2026-05-knave",
+          "word": "Knave",
+          "partOfSpeech": "noun",
+          "definition": "A dishonest or unscrupulous man.",
+          "example": "That knave sold us a counterfeit painting.",
+          "mnemonic": "Rhymes with 'grave' \u2014 a knave's tricks can land you in trouble."
+        },
+        {
+          "id": "2026-05-limpid",
+          "word": "Limpid",
+          "partOfSpeech": "adjective",
+          "definition": "Completely clear and transparent; free of anything that darkens.",
+          "example": "The limpid pool reflected every leaf above.",
+          "mnemonic": "'Limp + id' \u2014 pure, soft, clear water lying limp and still."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2026-05-morose",
+          "word": "Morose",
+          "partOfSpeech": "adjective",
+          "definition": "Sullen and ill-tempered; gloomy.",
+          "example": "He sat morose in the corner, refusing to join the celebration.",
+          "mnemonic": "'More dose' of sadness \u2014 a heavy serving of gloom."
+        },
+        {
+          "id": "2026-05-noisome",
+          "word": "Noisome",
+          "partOfSpeech": "adjective",
+          "definition": "Having an extremely offensive smell; unpleasant.",
+          "example": "A noisome odor rose from the neglected trash bins.",
+          "mnemonic": "Despite looking like 'noisy,' it's about SMELL \u2014 think 'noxious + awful.'"
+        },
+        {
+          "id": "2026-05-odious",
+          "word": "Odious",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely unpleasant; repulsive.",
+          "example": "The king's odious decree outraged the peasantry.",
+          "mnemonic": "'Odi-' sounds like 'odor' \u2014 repulsive enough to produce a bad odor."
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2026-05-paucity",
+          "word": "Paucity",
+          "partOfSpeech": "noun",
+          "definition": "The presence of something in small or insufficient quantities; scarcity.",
+          "example": "There is a paucity of reliable data on the topic.",
+          "mnemonic": "Shares its root with 'poor' \u2014 a poor amount."
+        },
+        {
+          "id": "2026-05-quell",
+          "word": "Quell",
+          "partOfSpeech": "verb",
+          "definition": "To put an end to, typically by force; to subdue.",
+          "example": "Officers moved in to quell the disturbance.",
+          "mnemonic": "'Q-well' \u2192 quiet the well \u2192 silence the noise."
+        },
+        {
+          "id": "2026-05-rancor",
+          "word": "Rancor",
+          "partOfSpeech": "noun",
+          "definition": "Bitterness or resentfulness, especially when long-standing.",
+          "example": "Years of rancor between the families finally boiled over.",
+          "mnemonic": "Sounds like 'rank-or' \u2014 rank, spoiled feelings fester."
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2026-05-sagacious",
+          "word": "Sagacious",
+          "partOfSpeech": "adjective",
+          "definition": "Having or showing keen mental discernment; wise.",
+          "example": "The sagacious investor sold before the crash.",
+          "mnemonic": "Same root as 'sage' \u2014 a wise old sage."
+        },
+        {
+          "id": "2026-05-temerity",
+          "word": "Temerity",
+          "partOfSpeech": "noun",
+          "definition": "Excessive confidence or boldness; audacity.",
+          "example": "She had the temerity to question the CEO in public.",
+          "mnemonic": "Sounds like 'temper-ity' \u2014 bold enough to test someone's temper."
+        },
+        {
+          "id": "2026-05-unctuous",
+          "word": "Unctuous",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively flattering or ingratiating; oily.",
+          "example": "His unctuous compliments made everyone squirm.",
+          "mnemonic": "Related to 'ointment' \u2014 oily, slick, uncomfortable."
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2026-05-vapid",
+          "word": "Vapid",
+          "partOfSpeech": "adjective",
+          "definition": "Offering nothing that is stimulating or challenging.",
+          "example": "The conversation was vapid \u2014 all weather and celebrity gossip.",
+          "mnemonic": "'Va-pid' \u2192 vacant + insipid \u2014 empty and dull."
+        },
+        {
+          "id": "2026-05-wizened",
+          "word": "Wizened",
+          "partOfSpeech": "adjective",
+          "definition": "Shriveled or wrinkled with age.",
+          "example": "A wizened old man sat at the door of the shop.",
+          "mnemonic": "Picture a wise old face, 'wiz-ened' by time."
+        },
+        {
+          "id": "2026-05-zephyr",
+          "word": "Zephyr",
+          "partOfSpeech": "noun",
+          "definition": "A soft, gentle breeze.",
+          "example": "A zephyr stirred the curtains of the open window.",
+          "mnemonic": "The Greek god Zephyrus was the west wind \u2014 a gentle one."
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2026-05-alacrity",
+          "word": "Alacrity",
+          "partOfSpeech": "noun",
+          "definition": "Brisk and cheerful readiness.",
+          "example": "He accepted the invitation with alacrity.",
+          "mnemonic": "'A-lacrity' \u2192 lack nothing \u2014 willing and quick."
+        },
+        {
+          "id": "2026-05-brazen",
+          "word": "Brazen",
+          "partOfSpeech": "adjective",
+          "definition": "Bold and without shame.",
+          "example": "A brazen thief walked out with the painting in broad daylight.",
+          "mnemonic": "Made of brass \u2014 hard-faced, shameless."
+        },
+        {
+          "id": "2026-05-churlish",
+          "word": "Churlish",
+          "partOfSpeech": "adjective",
+          "definition": "Rude in a mean-spirited and surly way.",
+          "example": "It seemed churlish to refuse her generous offer.",
+          "mnemonic": "A 'churl' was an old word for a peasant \u2014 behaving like a stereotyped boor."
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2026-05-dilettante",
+          "word": "Dilettante",
+          "partOfSpeech": "noun",
+          "definition": "A person who dabbles in a subject for amusement without serious commitment.",
+          "example": "He was a dilettante of the arts \u2014 knowing names but never depths.",
+          "mnemonic": "From Italian 'dilettare' (to delight) \u2014 does it only for delight, not mastery."
+        },
+        {
+          "id": "2026-05-erudite",
+          "word": "Erudite",
+          "partOfSpeech": "adjective",
+          "definition": "Having or showing great knowledge or learning.",
+          "example": "Her erudite commentary enriched every discussion.",
+          "mnemonic": "'E-rude-ite' \u2192 not rude, but refined with deep learning."
+        },
+        {
+          "id": "2026-05-fractious",
+          "word": "Fractious",
+          "partOfSpeech": "adjective",
+          "definition": "Irritable and quarrelsome.",
+          "example": "Fractious passengers argued about overhead bin space.",
+          "mnemonic": "Shares a root with 'fracture' \u2014 relationships fractured by bickering."
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2026-05-gauche",
+          "word": "Gauche",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking ease or grace; socially awkward.",
+          "example": "His gauche remark embarrassed everyone at the table.",
+          "mnemonic": "French for 'left' \u2014 'left-handed' in the old sense of clumsy."
+        },
+        {
+          "id": "2026-05-hubris",
+          "word": "Hubris",
+          "partOfSpeech": "noun",
+          "definition": "Excessive pride or self-confidence, often leading to a fall.",
+          "example": "His hubris convinced him he couldn't lose.",
+          "mnemonic": "Hear 'who-bris' \u2014 'who but me?' The tragic hero's cry."
+        },
+        {
+          "id": "2026-05-intransigent",
+          "word": "Intransigent",
+          "partOfSpeech": "adjective",
+          "definition": "Unwilling to change one's views or agree; stubborn.",
+          "example": "Negotiations stalled because both parties were intransigent.",
+          "mnemonic": "'In-' (not) + 'transigent' (willing to compromise) \u2014 unwilling to budge."
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2026-05-jettison",
+          "word": "Jettison",
+          "partOfSpeech": "verb",
+          "definition": "To throw or drop from an aircraft or ship; to abandon.",
+          "example": "They jettisoned the old strategy entirely.",
+          "mnemonic": "'Jet-tison' \u2014 throwing things from a jet."
+        },
+        {
+          "id": "2026-05-kismet",
+          "word": "Kismet",
+          "partOfSpeech": "noun",
+          "definition": "Destiny; fate.",
+          "example": "Meeting her there felt like kismet.",
+          "mnemonic": "From Arabic/Turkish 'qisma' \u2014 your share of fate."
+        },
+        {
+          "id": "2026-05-loquacious",
+          "word": "Loquacious",
+          "partOfSpeech": "adjective",
+          "definition": "Tending to talk a great deal; talkative.",
+          "example": "The loquacious taxi driver entertained them with stories the whole ride.",
+          "mnemonic": "Latin 'loqui' (to speak) \u2014 same root as 'eloquent.'"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2026-05-malaise",
+          "word": "Malaise",
+          "partOfSpeech": "noun",
+          "definition": "A general feeling of discomfort or unease whose cause is unclear.",
+          "example": "An economic malaise hung over the region.",
+          "mnemonic": "'Mal-' (bad) + 'aise' (ease) \u2014 the opposite of being at ease."
+        },
+        {
+          "id": "2026-05-nonplussed",
+          "word": "Nonplussed",
+          "partOfSpeech": "adjective",
+          "definition": "Surprised and confused so much that one is unsure how to react.",
+          "example": "She was nonplussed by the strange question.",
+          "mnemonic": "'Non-plus' \u2192 cannot add one more thought \u2014 too stumped to respond."
+        },
+        {
+          "id": "2026-05-obstreperous",
+          "word": "Obstreperous",
+          "partOfSpeech": "adjective",
+          "definition": "Noisy and difficult to control.",
+          "example": "An obstreperous toddler disrupted the entire flight.",
+          "mnemonic": "Sounds like 'ob-STREP-erous' \u2014 a noisy, unruly burst of chaos."
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2026-05-pulchritude",
+          "word": "Pulchritude",
+          "partOfSpeech": "noun",
+          "definition": "Physical beauty.",
+          "example": "The pulchritude of the coastline astonished every visitor.",
+          "mnemonic": "Sounds unlovely but MEANS lovely \u2014 an ironically ugly word for beauty."
+        },
+        {
+          "id": "2026-05-quaff",
+          "word": "Quaff",
+          "partOfSpeech": "verb",
+          "definition": "To drink something heartily.",
+          "example": "The travelers quaffed cold ale after the long journey.",
+          "mnemonic": "'Q-off' \u2192 throw it off in one go \u2014 a hearty gulp."
+        },
+        {
+          "id": "2026-05-risible",
+          "word": "Risible",
+          "partOfSpeech": "adjective",
+          "definition": "Such as to provoke laughter; laughable.",
+          "example": "His excuse was so risible no one even tried to argue.",
+          "mnemonic": "Latin 'ridere' (to laugh) \u2014 same root as 'ridiculous.'"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2026-05-turpitude",
+          "word": "Turpitude",
+          "partOfSpeech": "noun",
+          "definition": "Depravity; wickedness.",
+          "example": "Moral turpitude was grounds for dismissal.",
+          "mnemonic": "'Turn-pit-ude' \u2014 one has turned toward the pit of wickedness."
+        },
+        {
+          "id": "2026-05-usury",
+          "word": "Usury",
+          "partOfSpeech": "noun",
+          "definition": "The practice of lending money at unreasonably high interest rates.",
+          "example": "Medieval laws forbade usury.",
+          "mnemonic": "'Use-ry' \u2192 abusing the use of a loan."
+        },
+        {
+          "id": "2026-05-vicissitude",
+          "word": "Vicissitude",
+          "partOfSpeech": "noun",
+          "definition": "A change of circumstances or fortune, typically unwelcome.",
+          "example": "The vicissitudes of the market tested every investor.",
+          "mnemonic": "Latin 'vicis' (change) \u2014 same root as 'vice versa.'"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2026-05-wheedle",
+          "word": "Wheedle",
+          "partOfSpeech": "verb",
+          "definition": "To use endearing or flattering words to persuade.",
+          "example": "He wheedled his way into getting an extension.",
+          "mnemonic": "'While' + 'needle' \u2014 needling sweetly until you yield."
+        },
+        {
+          "id": "2026-05-yen",
+          "word": "Yen",
+          "partOfSpeech": "noun",
+          "definition": "A longing or yearning.",
+          "example": "She had a yen for the salty air of the coast.",
+          "mnemonic": "Short and sharp \u2014 a 'yen' is a little ache of wanting."
+        },
+        {
+          "id": "2026-05-abjure",
+          "word": "Abjure",
+          "partOfSpeech": "verb",
+          "definition": "To solemnly renounce a belief, cause, or claim.",
+          "example": "He abjured violence after his conversion.",
+          "mnemonic": "'Ab-' (away) + 'jure' (swear) \u2014 swear away from something."
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2026-05-banal",
+          "word": "Banal",
+          "partOfSpeech": "adjective",
+          "definition": "So lacking in originality as to be obvious and boring.",
+          "example": "The film's banal dialogue sank every scene.",
+          "mnemonic": "Sounds like 'ba-null' \u2014 null of originality."
+        },
+        {
+          "id": "2026-05-contumacious",
+          "word": "Contumacious",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly disobedient to authority.",
+          "example": "The contumacious witness refused to answer a single question.",
+          "mnemonic": "Contains 'contumely' (insult) \u2014 an insulting kind of stubborn."
+        },
+        {
+          "id": "2026-05-discursive",
+          "word": "Discursive",
+          "partOfSpeech": "adjective",
+          "definition": "Digressing from subject to subject; rambling.",
+          "example": "His discursive lecture touched on ten topics but resolved none.",
+          "mnemonic": "'Dis-' (apart) + 'cursive' (running) \u2014 thought running apart from its course."
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2026-05-esoteric",
+          "word": "Esoteric",
+          "partOfSpeech": "adjective",
+          "definition": "Intended for or understood by only a small number with specialized knowledge.",
+          "example": "The esoteric jargon made the paper impenetrable.",
+          "mnemonic": "'Eso-' (within) \u2014 knowledge kept within an inner circle."
+        },
+        {
+          "id": "2026-05-fulsome",
+          "word": "Fulsome",
+          "partOfSpeech": "adjective",
+          "definition": "Excessive and insincere, especially flattery.",
+          "example": "Her fulsome praise struck everyone as calculated.",
+          "mnemonic": "'Full-some' \u2192 so full of praise it overflows into insincerity."
+        },
+        {
+          "id": "2026-05-gossamer",
+          "word": "Gossamer",
+          "partOfSpeech": "adjective",
+          "definition": "Very light, thin, and delicate; ethereal.",
+          "example": "A gossamer veil of mist covered the lawn.",
+          "mnemonic": "'Goose + summer' \u2192 down-light as a summer feather."
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2026-05-hoary",
+          "word": "Hoary",
+          "partOfSpeech": "adjective",
+          "definition": "Gray or white with age; old-fashioned.",
+          "example": "He told the same hoary joke every Thanksgiving.",
+          "mnemonic": "'Hoary' = whitened \u2192 grandpa's frosty beard and frosty jokes."
+        },
+        {
+          "id": "2026-05-impugn",
+          "word": "Impugn",
+          "partOfSpeech": "verb",
+          "definition": "To dispute the truth, validity, or honesty of.",
+          "example": "The report impugned the senator's integrity.",
+          "mnemonic": "'Im-' (against) + 'pugn' (fight) \u2014 fight against someone's claim."
+        },
+        {
+          "id": "2026-05-jaundiced",
+          "word": "Jaundiced",
+          "partOfSpeech": "adjective",
+          "definition": "Affected by bitterness, resentment, or envy; prejudiced.",
+          "example": "She took a jaundiced view of office promotions after being passed over.",
+          "mnemonic": "Jaundice yellows the skin \u2014 a jaundiced eye sees everything tinted with bitterness."
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2026-05-lambent",
+          "word": "Lambent",
+          "partOfSpeech": "adjective",
+          "definition": "Softly glowing or flickering; gentle.",
+          "example": "A lambent candle flame flickered on the altar.",
+          "mnemonic": "Sounds like 'lamp-ent' \u2014 a soft lamp glow."
+        },
+        {
+          "id": "2026-05-munificent",
+          "word": "Munificent",
+          "partOfSpeech": "adjective",
+          "definition": "Larger or more generous than is usual or necessary.",
+          "example": "The donor's munificent gift funded the new wing.",
+          "mnemonic": "'Muni-' (money) + '-ficent' (making) \u2014 making generous use of money."
+        },
+        {
+          "id": "2026-05-nugatory",
+          "word": "Nugatory",
+          "partOfSpeech": "adjective",
+          "definition": "Of no value or importance; trifling.",
+          "example": "The settlement was nugatory \u2014 hardly worth collecting.",
+          "mnemonic": "'Nug-' hints at 'nothing' \u2014 a nugatory amount is almost nothing."
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2026-05-obviate",
+          "word": "Obviate",
+          "partOfSpeech": "verb",
+          "definition": "To remove a need or difficulty; to prevent.",
+          "example": "The new tool obviates the need for manual edits.",
+          "mnemonic": "'Ob-' (against) + 'via' (way) \u2014 puts something out of the way."
+        },
+        {
+          "id": "2026-05-propitious",
+          "word": "Propitious",
+          "partOfSpeech": "adjective",
+          "definition": "Giving or indicating a good chance of success; favorable.",
+          "example": "The weather was propitious for sailing.",
+          "mnemonic": "Sounds like 'pro-patient-us' \u2014 everything works in our favor."
+        },
+        {
+          "id": "2026-05-quarry",
+          "word": "Quarry",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing being chased or sought.",
+          "example": "The detective lost sight of his quarry in the crowd.",
+          "mnemonic": "Think of hunting \u2014 your quarry is whatever you're after."
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2026-05-raillery",
+          "word": "Raillery",
+          "partOfSpeech": "noun",
+          "definition": "Good-humored teasing or banter.",
+          "example": "The dinner was full of affectionate raillery between old friends.",
+          "mnemonic": "From 'rail' (to complain playfully) \u2014 rails that bend into jokes."
+        },
+        {
+          "id": "2026-05-soporific",
+          "word": "Soporific",
+          "partOfSpeech": "adjective",
+          "definition": "Tending to induce drowsiness or sleep.",
+          "example": "His soporific voice could put any baby to sleep.",
+          "mnemonic": "'Sopor' (deep sleep) + '-ific' (making) \u2014 sleep-making."
+        },
+        {
+          "id": "2026-05-tautology",
+          "word": "Tautology",
+          "partOfSpeech": "noun",
+          "definition": "The saying of the same thing twice in different words.",
+          "example": "'A round circle' is a tautology.",
+          "mnemonic": "Greek 'tauto' (same) + 'logy' (word) \u2014 same word twice."
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2026-05-ululate",
+          "word": "Ululate",
+          "partOfSpeech": "verb",
+          "definition": "To howl or wail loudly, especially in grief or celebration.",
+          "example": "Mourners ululated outside the home.",
+          "mnemonic": "The word itself sounds like a wail: 'oo-loo-late.'"
+        },
+        {
+          "id": "2026-05-vitiate",
+          "word": "Vitiate",
+          "partOfSpeech": "verb",
+          "definition": "To spoil or impair the quality of; to weaken.",
+          "example": "The contract was vitiated by a single forged signature.",
+          "mnemonic": "Shares a root with 'vice' \u2014 a vice that ruins something good."
+        },
+        {
+          "id": "2026-05-wraith",
+          "word": "Wraith",
+          "partOfSpeech": "noun",
+          "definition": "A ghost or ghostlike image.",
+          "example": "A wraith of fog drifted through the graveyard.",
+          "mnemonic": "Rhymes with 'faith' \u2014 what you see when faith in the senses fails."
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2026-05-xenial",
+          "word": "Xenial",
+          "partOfSpeech": "adjective",
+          "definition": "Hospitable, especially to visiting strangers.",
+          "example": "Their xenial welcome included homemade bread and strong coffee.",
+          "mnemonic": "Greek 'xenos' (stranger) \u2014 opposite of xenophobic: friendly to strangers."
+        },
+        {
+          "id": "2026-05-yammer",
+          "word": "Yammer",
+          "partOfSpeech": "verb",
+          "definition": "To complain persistently and noisily.",
+          "example": "Stop yammering and help me move the couch.",
+          "mnemonic": "Sounds like 'yammer, hammer' \u2014 steady, annoying hammering of words."
+        },
+        {
+          "id": "2026-05-zeitgeist",
+          "word": "Zeitgeist",
+          "partOfSpeech": "noun",
+          "definition": "The defining spirit or mood of a particular period of history.",
+          "example": "The film captured the zeitgeist of the 1970s.",
+          "mnemonic": "German 'Zeit' (time) + 'Geist' (spirit) \u2014 spirit of the time."
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2026-05-ascetic",
+          "word": "Ascetic",
+          "partOfSpeech": "adjective",
+          "definition": "Practicing severe self-discipline and abstention from indulgence.",
+          "example": "The monks led an ascetic life of fasting and silence.",
+          "mnemonic": "'A-set-ic' \u2014 they set themselves apart from comforts."
+        },
+        {
+          "id": "2026-05-blandishment",
+          "word": "Blandishment",
+          "partOfSpeech": "noun",
+          "definition": "A flattering or pleasing statement used to persuade.",
+          "example": "No blandishment could change her mind.",
+          "mnemonic": "'Blanding-ment' \u2192 bland, pleasing words designed to soften resistance."
+        },
+        {
+          "id": "2026-05-calumny",
+          "word": "Calumny",
+          "partOfSpeech": "noun",
+          "definition": "The making of false and defamatory statements about someone.",
+          "example": "He sued the paper for calumny.",
+          "mnemonic": "Rhymes with 'column-y' \u2014 a slanderous column."
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2026-05-deleterious",
+          "word": "Deleterious",
+          "partOfSpeech": "adjective",
+          "definition": "Causing harm or damage.",
+          "example": "Smoking has deleterious effects on the lungs.",
+          "mnemonic": "'Delete-erious' \u2014 deletes serious things from your health."
+        },
+        {
+          "id": "2026-05-ennui",
+          "word": "Ennui",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of listlessness and dissatisfaction from lack of excitement.",
+          "example": "A sense of ennui settled over the long afternoon.",
+          "mnemonic": "Say 'on-wee' \u2014 as languid and drawn-out as the feeling itself."
+        },
+        {
+          "id": "2026-05-fervor",
+          "word": "Fervor",
+          "partOfSpeech": "noun",
+          "definition": "Intense and passionate feeling.",
+          "example": "She spoke with fervor about the reform.",
+          "mnemonic": "Same root as 'fever' \u2014 passion hot enough to feel feverish."
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2026-05-garner",
+          "word": "Garner",
+          "partOfSpeech": "verb",
+          "definition": "To gather or collect, especially information or approval.",
+          "example": "The film garnered awards at every festival.",
+          "mnemonic": "A 'garner' was once a granary \u2014 to garner is to gather into storage."
+        },
+        {
+          "id": "2026-05-hapless",
+          "word": "Hapless",
+          "partOfSpeech": "adjective",
+          "definition": "Unfortunate; lacking luck.",
+          "example": "The hapless traveler lost both his passport and his wallet.",
+          "mnemonic": "'Hap' (luck) + '-less' \u2014 without luck."
+        },
+        {
+          "id": "2026-05-iniquity",
+          "word": "Iniquity",
+          "partOfSpeech": "noun",
+          "definition": "Immoral or grossly unfair behavior.",
+          "example": "The iniquity of the regime shocked international observers.",
+          "mnemonic": "'In-' (not) + 'equity' (fairness) \u2014 lack of fairness."
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2026-05-juvenilia",
+          "word": "Juvenilia",
+          "partOfSpeech": "noun",
+          "definition": "Works produced by an author or artist while still young.",
+          "example": "The exhibit displayed Picasso's juvenilia from ages ten to fifteen.",
+          "mnemonic": "'Juvenile' (young) + '-ia' \u2014 youthful creations."
+        },
+        {
+          "id": "2026-05-kibitz",
+          "word": "Kibitz",
+          "partOfSpeech": "verb",
+          "definition": "To offer unwanted advice or commentary, especially on a game.",
+          "example": "Don't kibitz while I'm trying to think!",
+          "mnemonic": "From Yiddish \u2014 picture an uncle kibitzing from behind the card table."
+        },
+        {
+          "id": "2026-05-largesse",
+          "word": "Largesse",
+          "partOfSpeech": "noun",
+          "definition": "Generosity in giving, especially on a grand scale.",
+          "example": "The foundation's largesse funded hundreds of scholarships.",
+          "mnemonic": "Shares a root with 'large' \u2014 giving on a large scale."
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2026-05-missive",
+          "word": "Missive",
+          "partOfSpeech": "noun",
+          "definition": "A letter, especially a long or official one.",
+          "example": "The general's missive reached the troops at dawn.",
+          "mnemonic": "Related to 'dismiss' and 'emit' \u2014 something sent out."
+        },
+        {
+          "id": "2026-05-nostrum",
+          "word": "Nostrum",
+          "partOfSpeech": "noun",
+          "definition": "A medicine of unproven effectiveness; a favorite but dubious remedy.",
+          "example": "The politician's policy was dismissed as a nostrum for a complex problem.",
+          "mnemonic": "Latin 'noster' (our) \u2014 'our special remedy,' pitched by a snake-oil salesman."
+        },
+        {
+          "id": "2026-05-ostentatious",
+          "word": "Ostentatious",
+          "partOfSpeech": "adjective",
+          "definition": "Characterized by vulgar or pretentious display; showy.",
+          "example": "The ostentatious mansion dwarfed its modest neighbors.",
+          "mnemonic": "'Ostent-' (show) + '-atious' \u2014 all about showing off."
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "2026-05-paragon",
+          "word": "Paragon",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing regarded as a perfect example of a particular quality.",
+          "example": "She was the paragon of professionalism on the team.",
+          "mnemonic": "'Para-' (beyond) + '-gon' (standard) \u2014 beyond the standard; a perfect example."
+        },
+        {
+          "id": "2026-05-redoubtable",
+          "word": "Redoubtable",
+          "partOfSpeech": "adjective",
+          "definition": "Formidable, especially as an opponent.",
+          "example": "A redoubtable debater, she had never lost a round.",
+          "mnemonic": "Contains 'doubt' \u2014 one you'd doubt you could beat."
+        },
+        {
+          "id": "2026-05-sartorial",
+          "word": "Sartorial",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to tailoring, clothes, or style of dress.",
+          "example": "His sartorial choices were always impeccable.",
+          "mnemonic": "From Latin 'sartor' (tailor) \u2014 anything sartor-ial relates to tailoring."
+        }
+      ]
+    }
+  ]
+}

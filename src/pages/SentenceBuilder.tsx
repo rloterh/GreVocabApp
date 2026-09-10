@@ -51,13 +51,21 @@ export function SentenceBuilder() {
   >(saved?.verification);
   const [busy, setBusy] = useState(false);
 
-  // Reset sentence draft when word changes
-  useMemo(() => {
-    if (!currentWord) return;
+  // Reset the sentence draft when the selected word changes.
+  //
+  // This was a useMemo used for its side effects, which is not what useMemo
+  // is for — React is free to drop or re-run a memo, and the dependency list
+  // lied about reading `currentWord`. This is React's documented
+  // "adjusting state when a prop changes" pattern instead: a render-phase
+  // update guarded by the previous id. It keeps the original timing, so the
+  // new word's draft is right on the first render rather than one frame late.
+  const [lastWordId, setLastWordId] = useState(currentWord?.id);
+  if (currentWord && currentWord.id !== lastWordId) {
+    setLastWordId(currentWord.id);
     const s = getSaved(currentWord.id, today);
     setSentences(s?.sentences ?? ["", "", ""]);
     setVerification(s?.verification);
-  }, [currentWord?.id, getSaved, today]);
+  }
 
   if (!month) {
     return (

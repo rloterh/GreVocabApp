@@ -88,6 +88,10 @@ export function JsonImporter() {
         setBusy(false);
         showToast({
           title: `Loaded ${loaded} month${loaded === 1 ? "" : "s"}`,
+          description:
+            failed > 0
+              ? `${failed} file${failed === 1 ? "" : "s"} failed — check console`
+              : undefined,
           variant: "success",
         });
         return;
@@ -127,6 +131,10 @@ export function JsonImporter() {
       setBusy(false);
       showToast({
         title: `Loaded ${loaded} month${loaded === 1 ? "" : "s"}`,
+        description:
+          failed > 0
+            ? `${failed} file${failed === 1 ? "" : "s"} failed — check console`
+            : undefined,
         variant: "success",
       });
     } catch {

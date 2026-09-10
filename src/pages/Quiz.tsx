@@ -45,7 +45,10 @@ export function Quiz() {
   );
 
   const activeMonth = getActiveMonth();
-  const activeMonthWords = activeMonth ? allWordsInMonth(activeMonth) : [];
+  const activeMonthWords = useMemo(
+    () => (activeMonth ? allWordsInMonth(activeMonth) : []),
+    [activeMonth],
+  );
 
   const availablePool = useMemo(() => {
     switch (pool) {

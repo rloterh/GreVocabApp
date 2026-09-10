@@ -34,6 +34,9 @@ Keep these in mind when extending:
 | Tune spaced repetition | `src/lib/sm2.ts` — pure SM-2, no store or React imports. `useProgressStore.applyStudyRating` is its only caller |
 | Add a study deck | `StudyDeck` union in `src/types/index.ts`, then `poolFor`, `deckOptions` and the `counts` object in `Flashcards.tsx` — the union makes the compiler point at all three |
 | Add a setting | `Settings` in `src/types/index.ts`, a default in `DEFAULT_SETTINGS`, then a `SettingSection` in `Settings.tsx`. Backup export/restore picks it up for free |
+| Add an import format | Parse to a month-shaped object, then hand it to `loadMonth` — never build a second validator. `src/lib/csv.ts` is the worked example; `importText()` in `JsonImporter.tsx` is where formats are dispatched |
+| Change what Claude generates | `src/lib/generate.ts` — the prompt and the strict tool schema are next to each other. Day layout is done in code afterwards, deliberately |
+| Change the Anki output | `src/lib/anki-collection.ts` for the database, `anki-export.ts` for loading and zipping. Keep the WebAssembly import out of the former or it stops being runnable outside a browser |
 | Change sentence checks | `src/lib/verify.ts` — `heuristicVerify` and `apiVerify` are independent |
 | Add a chart type | `ProgressPage.tsx` uses Recharts — `LineChart`, `AreaChart`, `PieChart` all imported the same way |
 | Wire real Tauri file-watching | Add `notify` crate to `src-tauri/Cargo.toml`, emit events to frontend, listen with `@tauri-apps/api/event` |

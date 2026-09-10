@@ -19,16 +19,22 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-If you have an hour: pick a **P1** from Phase 2.
-If you have an afternoon: a real content-import path.
-If you have a weekend: content import + the desktop story.
+If you have an hour: a Phase 3 P2 (drag-and-drop import, Markdown export).
+If you have an afternoon: a test runner.
+If you have a weekend: the desktop story — Phase 4.
 
-**Phase 2 is complete.** Next:
+**Phases 2 and 3's P1 work are complete.** Next:
 
-1. **Real Tauri file-watching** (Phase 4, P0 for desktop story)
-2. **Anki `.apkg` export** (Phase 3, P1) — low effort, high delight
-3. **A test runner** — unphased, but `src/lib/sm2.ts` is the most logic-dense
-   file in the repo and nothing guards it. See the Phase 2 caveat below.
+1. **A test runner** — unphased and overdue. `src/lib/sm2.ts`, `csv.ts`,
+   `anki-collection.ts` and `generate.ts` are the logic-dense files in the repo
+   and nothing guards any of them. Each was built against a throwaway harness
+   (24, 36, 48 and 48 checks) that was thrown away. Landing those under Vitest
+   is the single highest-value thing left.
+2. **Real Tauri file-watching** (Phase 4, P0 for desktop story) — also the
+   prerequisite for real desktop notifications, which would lift the standing
+   limitation on study reminders.
+3. **The two Phase 3 P2s** — drag-and-drop import overlay, Markdown progress
+   export. Both small.
 
 ## Phase 2 — Learning quality
 
@@ -68,8 +74,14 @@ If you have a weekend: content import + the desktop story.
 
 ### Definition of done
 
-- User with 200 Anki cards can bring them into Lexicon in under 5 minutes.
-- User can leave Lexicon with their progress intact via export.
+- ~~User with 200 Anki cards can bring them into Lexicon in under 5 minutes.~~
+  Partly. CSV import covers the common path (Anki exports CSV natively), and it
+  takes one click. Reading an `.apkg` *in* is not implemented — only writing one
+  out. If that matters, it belongs in this phase as a new task.
+- ~~User can leave Lexicon with their progress intact via export.~~ Done, and
+  more literally than the line implies: Anki export carries SM-2 interval, ease
+  and repetition count, so progress survives the move rather than just the
+  words.
 
 ## Phase 4 — Multi-device & desktop parity
 

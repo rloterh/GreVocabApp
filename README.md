@@ -212,14 +212,22 @@ npm test              # once
 npm run test:watch    # while working
 ```
 
-Vitest, covering `src/lib/` — the spaced-repetition scheduler, the CSV parser,
-the Anki collection builder, the vocabulary generator, and sentence
-verification. Those are the files where a silent mistake is expensive, and
-`src/lib/` is pure by design, so they test without a DOM.
+Vitest, across three layers:
 
-The Anki tests build a real collection and read it back with real SQLite. The
-two files that call the Anthropic API are tested with `fetch` stubbed, which
-pins the request shape and every error path without spending anything.
+- **`src/lib/`** — the spaced-repetition scheduler, CSV parsing, the Anki reader
+  and writer, the vocabulary generator, sentence verification, Markdown export.
+- **`src/store/`** — the three Zustand stores, including the invariant that
+  progress survives reloading the same vocabulary.
+- **`src/components/`** — the drag-and-drop overlay's event handling and the
+  per-word detail modal.
+
+Most tests run in a node environment; component tests opt into jsdom with a
+`@vitest-environment jsdom` docblock, so the fast majority stays fast.
+
+The Anki tests build a real collection with the exporter and read it back with
+the importer, through real SQLite. The two files that call the Anthropic API are
+tested with `fetch` stubbed, which pins the request shape and every error path
+without spending anything.
 
 ## Scripts
 

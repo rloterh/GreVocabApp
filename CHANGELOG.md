@@ -43,8 +43,8 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   app. Shares one import path with the button and both folder pickers.
 - **Markdown study log export** — Settings → Backup writes totals, streaks, a
   per-month breakdown, what is due, and recent activity.
-- **Unit tests** — Vitest over `src/lib/` and the Zustand stores, running in CI
-  ahead of the build.
+- **Tests** — Vitest over `src/lib/`, the Zustand stores and components,
+  running in CI ahead of the build.
 
 ### Changed
 - Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).

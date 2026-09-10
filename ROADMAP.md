@@ -30,10 +30,12 @@ If you have a weekend: the desktop story — Phase 4.
    limitation on study reminders. **Note for whoever picks this up: it needs a
    Rust toolchain.** There was none in the environment Phases 2 and 3 were
    built in, so no Phase 4 work has been attempted rather than written blind.
-2. **Component tests.** `src/lib/` and the stores are covered (189 tests). Every
-   component is not, and that is now the only untested layer. It needs a DOM
-   environment and a decision about how much UI is worth pinning.
-3. **Phase 5.** Nothing there is started.
+2. **Phase 5.** Nothing there is started.
+3. **More component coverage.** 217 tests now span lib, stores and two
+   components (`DropOverlay`, `WordDetail`) — the two with real logic in them.
+   The pages are still uncovered; they are mostly composition, so this is a
+   judgement call about how much layout is worth pinning rather than an
+   obvious gap.
 
 ~~A test runner~~ — **DONE.** Vitest, `npm test`, running in CI ahead of the
 build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and

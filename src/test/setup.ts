@@ -35,3 +35,7 @@ if (typeof globalThis.localStorage === "undefined") {
     configurable: true,
   });
 }
+
+// Component tests use jest-dom matchers (toBeInTheDocument, toBeDisabled...).
+// Importing here keeps every test file from repeating it.
+import "@testing-library/jest-dom/vitest";

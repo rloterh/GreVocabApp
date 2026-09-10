@@ -25,16 +25,18 @@ If you have a weekend: the desktop story — Phase 4.
 
 **Phases 2 and 3's P1 work are complete.** Next:
 
-1. **A test runner** — unphased and overdue. `src/lib/sm2.ts`, `csv.ts`,
-   `anki-collection.ts` and `generate.ts` are the logic-dense files in the repo
-   and nothing guards any of them. Each was built against a throwaway harness
-   (24, 36, 48 and 48 checks) that was thrown away. Landing those under Vitest
-   is the single highest-value thing left.
-2. **Real Tauri file-watching** (Phase 4, P0 for desktop story) — also the
+1. **Real Tauri file-watching** (Phase 4, P0 for desktop story) — also the
    prerequisite for real desktop notifications, which would lift the standing
    limitation on study reminders.
-3. **The two Phase 3 P2s** — drag-and-drop import overlay, Markdown progress
+2. **The two Phase 3 P2s** — drag-and-drop import overlay, Markdown progress
    export. Both small.
+3. **Widen test coverage past `src/lib/`.** Vitest now runs in CI over the pure
+   logic (95 tests). The stores are the obvious next layer; components would
+   need a DOM environment and a decision about how much UI is worth pinning.
+
+~~A test runner~~ — **DONE.** Vitest, `npm test`, running in CI ahead of the
+build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
+`verify.ts` are covered.
 
 ## Phase 2 — Learning quality
 
@@ -56,7 +58,7 @@ If you have a weekend: the desktop story — Phase 4.
 - ~~Dashboard shows accurate "due today" count.~~ Done.
 - ~~A user who studies for 5 days sees exponentially spaced reviews for words they consistently rate "Good" or "Easy".~~ Done — consecutive "Good" yields intervals of 1, 6, 15, 38, 95, 238 days; consecutive "Easy" yields 1, 6, 17, 49, 147, 456.
 
-**Caveat:** the scheduler is pure and was verified against SM-2 reference values with a throwaway harness, but the repo still has no test runner, so nothing guards it in CI. Adding Vitest is the obvious next move.
+~~**Caveat:** ... no test runner ...~~ Resolved. The scheduler is covered by `src/lib/sm2.test.ts`, which runs in CI.
 
 ## Phase 3 — Content flow
 

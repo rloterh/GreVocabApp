@@ -130,16 +130,28 @@ export async function apiVerify(
         "anthropic-dangerous-direct-browser-access": "true",
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-5",
-        max_tokens: 1024,
+        model: "claude-opus-5",
+        // Room for the answer plus whatever reasoning the model does first.
+        max_tokens: 4096,
+        // Judging three sentences is not reasoning-heavy work, and this runs
+        // on the user's own key.
+        output_config: { effort: "low" },
         messages: [{ role: "user", content: prompt }],
       }),
     });
 
     if (!res.ok) throw new Error(`API error: ${res.status}`);
     const data = await res.json();
-    const text = data?.content?.[0]?.text;
-    if (!text) throw new Error("No content in API response");
+    if (data?.stop_reason === "refusal") {
+      throw new Error("Model declined to evaluate these sentences");
+    }
+    // Find the text block rather than assuming it is first: responses can lead
+    // with a thinking block, and indexing [0] would silently fall back to the
+    // heuristic on every call.
+    const text = (
+      data?.content as Array<{ type?: string; text?: string }> | undefined
+    )?.find((b) => b?.type === "text" && typeof b.text === "string")?.text;
+    if (!text) throw new Error("No text content in API response");
 
     const parsed = parseApiResponse(text, sentences);
     return {

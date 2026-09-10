@@ -42,6 +42,12 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - `npm run lint` passes and runs in CI, alongside typecheck and build.
 
 ### Fixed
+- **Sentence verification read the wrong content block.** It took
+  `content[0].text`, so any response that led with another block fell silently
+  back to the heuristic. It now finds the text block, and a regression test
+  covers it. The model moved to a current one, with effort set instead of a
+  token budget.
+
 - Production build was broken: `vite.config.ts` had no Node types and a
   `build.minify` ternary that widened to `string`. `npm run typecheck` missed
   both because it only compiles `src/`.

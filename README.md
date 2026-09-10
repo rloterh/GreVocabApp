@@ -171,6 +171,22 @@ src/
 └── styles/globals.css       Tailwind + design tokens
 ```
 
+## Tests
+
+```bash
+npm test              # once
+npm run test:watch    # while working
+```
+
+Vitest, covering `src/lib/` — the spaced-repetition scheduler, the CSV parser,
+the Anki collection builder, the vocabulary generator, and sentence
+verification. Those are the files where a silent mistake is expensive, and
+`src/lib/` is pure by design, so they test without a DOM.
+
+The Anki tests build a real collection and read it back with real SQLite. The
+two files that call the Anthropic API are tested with `fetch` stubbed, which
+pins the request shape and every error path without spending anything.
+
 ## Scripts
 
 | Command | What it does |

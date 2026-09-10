@@ -36,6 +36,7 @@ Keep these in mind when extending:
 | Add a setting | `Settings` in `src/types/index.ts`, a default in `DEFAULT_SETTINGS`, then a `SettingSection` in `Settings.tsx`. Backup export/restore picks it up for free |
 | Add an import format | Parse to a month-shaped object, then hand it to `loadMonth` — never build a second validator. `src/lib/csv.ts` is the worked example; `importText()` in `JsonImporter.tsx` is where formats are dispatched |
 | Change what Claude generates | `src/lib/generate.ts` — the prompt and the strict tool schema are next to each other. Day layout is done in code afterwards, deliberately |
+| Add a test | `src/lib/*.test.ts`, Vitest, node environment. Only `src/lib/` is covered — it is where the logic lives, and it is pure by design (principle 6). Tests that need a DOM would need an environment change first |
 | Change the Anki output | `src/lib/anki-collection.ts` for the database, `anki-export.ts` for loading and zipping. Keep the WebAssembly import out of the former or it stops being runnable outside a browser |
 | Change sentence checks | `src/lib/verify.ts` — `heuristicVerify` and `apiVerify` are independent |
 | Add a chart type | `ProgressPage.tsx` uses Recharts — `LineChart`, `AreaChart`, `PieChart` all imported the same way |
@@ -53,9 +54,11 @@ npm run dev
 # Desktop (needs Rust)
 npm run tauri:dev
 
-# Lint, type check — both run in CI
+# Lint, type check, unit tests — all run in CI
 npm run lint
 npm run typecheck
+npm test
+npm run test:watch     # while working on src/lib/
 
 # Production build
 npm run build          # web only

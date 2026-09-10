@@ -96,6 +96,22 @@ Errors name the line: `Line 4: 'day' must be a whole number 1-31, got "nope"`.
 2. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
 3. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
 
+## Exporting to Anki
+
+Settings has an **Anki export** section that writes every loaded month to a
+standard `.apkg` file. Choose one deck per month (as subdecks of a top-level
+deck you name) or a single deck for everything.
+
+Review scheduling travels with the cards. A word you have rated in Lexicon
+arrives in Anki as a *review* card with its interval, ease factor and
+repetition count intact, due on the same day Lexicon would have shown it —
+not reset to new. Words you have never rated arrive as new cards.
+
+The file is Anki's legacy schema 11, the format `genanki` produces and current
+Anki still imports. The SQLite and zip libraries needed to build it are
+downloaded only the first time you export, so they cost nothing to anyone who
+does not use the feature.
+
 ## Sentence verification
 
 Two modes, chosen based on Settings:

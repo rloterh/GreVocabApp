@@ -23,6 +23,15 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   open; permission is requested when you switch it on and reminders stay off if
   it is refused.
 
+- **CSV vocabulary import** — CSV is accepted anywhere JSON is, with forgiving
+  header names and per-line error messages. Hand-rolled parser, no new
+  dependency. See the README for the column list.
+- **Anki `.apkg` export** — Settings can write every loaded month to an Anki
+  deck, one deck per month or a single deck. SM-2 state travels with the
+  cards, so reviewed words arrive already scheduled rather than reset to new.
+  `sql.js` and `fflate` are dynamically imported and add nothing to the main
+  bundle.
+
 ### Changed
 - Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).
   `npm audit` is now clean.

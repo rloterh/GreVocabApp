@@ -17,9 +17,13 @@ import { cn } from "@/lib/utils";
 export function Settings() {
   const settings = useSettingsStore();
   const resetProgress = useProgressStore((s) => s.reset);
+  const wordsProgress = useProgressStore((s) => s.words);
   const vocab = useVocabStore();
   const showToast = useAppStore((s) => s.showToast);
   const [showKey, setShowKey] = useState(false);
+  const [ankiBusy, setAnkiBusy] = useState(false);
+  const [ankiDeckName, setAnkiDeckName] = useState("Lexicon");
+  const [ankiGrouping, setAnkiGrouping] = useState<"month" | "single">("month");
   const [permission, setPermission] = useState(notificationPermission());
 
   // Permission can be revoked from browser UI while the app is open.
@@ -61,6 +65,49 @@ export function Settings() {
   function saveKey() {
     settings.set({ anthropicApiKey: tempKey.trim() || null });
     showToast({ title: "API key saved", variant: "success" });
+  }
+
+  async function exportAnki() {
+    const months = Object.values(vocab.months);
+    if (months.length === 0) {
+      showToast({ title: "Nothing to export", variant: "error" });
+      return;
+    }
+    setAnkiBusy(true);
+    try {
+      // Dynamic import: sql.js carries a WebAssembly SQLite build, and there
+      // is no reason to ship it to someone who never exports.
+      const { exportApkg } = await import("@/lib/anki-export");
+      const result = await exportApkg({
+        months,
+        progress: wordsProgress,
+        grouping: ankiGrouping,
+        deckName: ankiDeckName.trim() || "Lexicon",
+      });
+      const url = URL.createObjectURL(result.blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = result.filename;
+      a.click();
+      URL.revokeObjectURL(url);
+      showToast({
+        title: `Exported ${result.noteCount} cards`,
+        description:
+          result.scheduledCount > 0
+            ? `${result.deckCount} deck${result.deckCount === 1 ? "" : "s"} · ${result.scheduledCount} arrive already scheduled`
+            : `${result.deckCount} deck${result.deckCount === 1 ? "" : "s"}`,
+        variant: "success",
+      });
+    } catch (e) {
+      console.error("Anki export failed", e);
+      showToast({
+        title: "Anki export failed",
+        description: e instanceof Error ? e.message : "Check the console",
+        variant: "error",
+      });
+    } finally {
+      setAnkiBusy(false);
+    }
   }
 
   function exportData() {
@@ -257,6 +304,61 @@ export function Settings() {
                 : permission === "granted"
                   ? "Notifications allowed. The nudge fires once a day, at or after the time above."
                   : "You will be asked for notification permission when you switch this on."}
+          </p>
+        </div>
+      </SettingSection>
+
+      <SettingSection
+        title="Anki export"
+        description="Write every loaded month to an .apkg file. Review scheduling travels with the cards, so words you already know arrive in Anki already scheduled rather than reset to new."
+      >
+        <div className="space-y-3">
+          <div>
+            <label
+              className="text-xs text-muted-foreground mb-1.5 block"
+              htmlFor="anki-deck-name"
+            >
+              Deck name
+            </label>
+            <Input
+              id="anki-deck-name"
+              value={ankiDeckName}
+              onChange={(e) => setAnkiDeckName(e.target.value)}
+              placeholder="Lexicon"
+              className="max-w-xs"
+            />
+          </div>
+
+          <div className="flex flex-wrap gap-2">
+            {(
+              [
+                { v: "month", label: "One deck per month" },
+                { v: "single", label: "One deck for everything" },
+              ] as const
+            ).map((opt) => (
+              <button
+                key={opt.v}
+                type="button"
+                onClick={() => setAnkiGrouping(opt.v)}
+                className={cn(
+                  "rounded-md border px-3 py-2 text-xs transition-colors",
+                  ankiGrouping === opt.v
+                    ? "border-accent bg-accent/10 text-foreground"
+                    : "border-border text-muted-foreground hover:text-foreground",
+                )}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+
+          <Button variant="outline" onClick={exportAnki} disabled={ankiBusy}>
+            {ankiBusy ? "Building deck…" : "Export .apkg"}
+          </Button>
+
+          <p className="text-[11px] text-muted-foreground leading-relaxed">
+            The SQLite and zip libraries this needs are only downloaded the
+            first time you export.
           </p>
         </div>
       </SettingSection>

@@ -43,6 +43,29 @@ Keep these in mind when extending:
 | Change folder watching | `src-tauri/src/watcher.rs` emits `vocab-file-changed`; `src/hooks/useWatchedFolder.ts` listens and imports. The event name is duplicated in both — keep them in step |
 | Change the app icon | Edit the geometry in `scripts/make-icon.mjs`, run it, then `npm run tauri icon src-tauri/icons/source.png`. Do not hand-edit the generated PNGs |
 
+## Gotchas that cost real time
+
+- **`cargo: program not found` right after installing Rust.** rustup adds
+  `~/.cargo/bin` to your *persisted* PATH, but a shell opened before the install
+  never sees it. `npm run tauri dev` then fails with
+  `failed to run 'cargo metadata' … program not found`. Open a new terminal, or
+  `$env:Path = "$env:USERPROFILE\.cargo\bin;$env:Path"` (PowerShell) /
+  `export PATH="$HOME/.cargo/bin:$PATH"` (bash). Nothing is actually broken.
+- **`tauri-build` refuses to compile without `src-tauri/icons/icon.ico`.** If
+  that file is missing, *nothing* Rust will build and the error names the icon
+  rather than the cause. Run `node scripts/make-icon.mjs` then
+  `npm run tauri icon src-tauri/icons/source.png`.
+- **Node 20 cannot run the component tests.** jsdom pulls in an undici that
+  needs `webidl.util.markAsUncloneable`, absent before Node 22 — the worker
+  fails to start and the other tests still pass, so the run looks half-healthy.
+  `engines` says >=22; CI pins 24.
+- **`user-event` hangs under `vi.useFakeTimers()`.** It waits on timers a frozen
+  clock never advances. Use the real clock in interaction tests; keep the fake
+  one only where a fixed "today" matters.
+- **A stale dev server on port 1420 will happily serve old code** and answer
+  200. If a change is not showing up, check what actually owns the port before
+  believing the page.
+
 ## Running the app
 
 ```bash
@@ -64,9 +87,11 @@ npm run test:watch     # while working on src/lib/
 # Node 22+ is required. jsdom (component tests) pulls in an undici that
 # needs a Node built-in absent from Node 20; the suite fails to start there.
 
-# Desktop (Rust). Needs rustup plus the MSVC build tools on Windows.
+# Desktop (Rust). Needs rustup plus a platform C toolchain — on Windows that
+# is the Visual Studio Build Tools with the C++ workload.
 cargo check --manifest-path src-tauri/Cargo.toml
 cargo test --lib --manifest-path src-tauri/Cargo.toml
+npm run tauri dev      # first run compiles the whole tree; minutes, then seconds
 
 # Regenerate the app icons from the mark
 node scripts/make-icon.mjs

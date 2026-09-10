@@ -96,6 +96,18 @@ Errors name the line: `Line 4: 'day' must be a whole number 1-31, got "nope"`.
 2. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
 3. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
 
+## Generating vocabulary with Claude
+
+Archive has a **Generate with AI** button. Give it a topic, a word count and a
+month, and Claude writes the words, definitions, examples and mnemonics.
+
+It uses the Anthropic API key from Settings and is billed to your account.
+Words you already have are sent along so the model does not repeat them.
+
+The response is constrained with a strict tool schema rather than parsed out of
+prose, and the result is still put through the same validation as an imported
+file — generated content is not trusted any more than a file you supplied.
+
 ## Exporting to Anki
 
 Settings has an **Anki export** section that writes every loaded month to a

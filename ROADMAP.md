@@ -60,9 +60,9 @@ If you have a weekend: content import + the desktop story.
 
 ### Tasks
 
-- **[P1] CSV import.** — Accept a CSV with columns `word,partOfSpeech,definition,example,mnemonic,day`. → New tab in `JsonImporter.tsx` for CSV; use PapaParse (already common) or hand-parse — dependency choice at implementation time.
-- **[P1] Anki `.apkg` export.** — One deck per month, or one deck for everything. → `src/lib/anki-export.ts`. Anki packages are SQLite + zip; use `sql.js` in browser (adds ~500KB but only when triggered).
-- **[P1] "Generate vocabulary" via API.** — Given a topic and count, Claude produces a month's worth. → Reuses the API key already in Settings. New page or new tab in Archive.
+- ~~**[P1] CSV import.**~~ **DONE.** `src/lib/csv.ts`, hand-parsed — the grammar is small and well specified, and PapaParse would ship in every bundle to serve one button. CSV is accepted everywhere JSON is (file input and both folder pickers), with forgiving header aliases and per-line error messages. It produces month-shaped objects fed to the existing `parseVocabMonth`, so there is one definition of a valid month.
+- ~~**[P1] Anki `.apkg` export.**~~ **DONE.** `src/lib/anki-collection.ts` builds the schema-11 SQLite database, `src/lib/anki-export.ts` owns the lazy loading and zipping. `sql.js` and `fflate` are dynamically imported and confirmed absent from the main bundle. SM-2 state carries across, so reviewed words land in Anki already scheduled — that is what satisfies "leave Lexicon with progress intact" below.
+- ~~**[P1] "Generate vocabulary" via API.**~~ **DONE.** `src/lib/generate.ts` plus a dialog in Archive. Output is constrained with a strict tool schema rather than parsed out of prose, and the result goes through `parseVocabMonth` like any import — generated content is not trusted more than a supplied file.
 - **[P2] Deck-file drag-and-drop overlay.** — Dropping a `.json` anywhere in the app triggers import. → Global drop handler in `App.tsx`.
 - **[P2] Markdown export of progress.** — For sharing a study log. Nice-to-have.
 

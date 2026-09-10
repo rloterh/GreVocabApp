@@ -7,6 +7,7 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/EmptyState";
 import { JsonImporter } from "@/components/JsonImporter";
+import { VocabGenerator } from "@/components/VocabGenerator";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
@@ -33,8 +34,13 @@ export function Archive() {
         <EmptyState
           icon={ArchiveIcon}
           title="Archive is empty"
-          description="Every month you load will appear here for revisiting."
-          action={<JsonImporter />}
+          description="Every month you load will appear here for revisiting, or generate one with Claude."
+          action={
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <JsonImporter />
+              <VocabGenerator />
+            </div>
+          }
         />
       </div>
     );
@@ -51,7 +57,10 @@ export function Archive() {
             All months.
           </h1>
         </div>
-        <JsonImporter />
+        <div className="flex flex-wrap items-center gap-2">
+          <JsonImporter />
+          <VocabGenerator />
+        </div>
       </div>
 
       <div className="grid md:grid-cols-2 gap-4">

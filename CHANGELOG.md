@@ -32,6 +32,10 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   `sql.js` and `fflate` are dynamically imported and add nothing to the main
   bundle.
 
+- **Generate vocabulary with Claude** — Archive can produce a month from a
+  topic and a word count using the Anthropic key already in Settings. Output is
+  schema-constrained and validated like any import.
+
 ### Changed
 - Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).
   `npm audit` is now clean.

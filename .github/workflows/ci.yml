@@ -13,7 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          # 24, matching local development. jsdom 30 pulls in an undici that
+          # needs webidl.util.markAsUncloneable, which Node 20 does not have —
+          # the component tests fail to start there. Node 20 is also deprecated
+          # on the runners.
+          node-version: "24"
           cache: "npm"
       - run: npm ci
       - run: npm run lint

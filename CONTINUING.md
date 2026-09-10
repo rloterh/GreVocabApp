@@ -61,6 +61,9 @@ npm run typecheck
 npm test
 npm run test:watch     # while working on src/lib/
 
+# Node 22+ is required. jsdom (component tests) pulls in an undici that
+# needs a Node built-in absent from Node 20; the suite fails to start there.
+
 # Desktop (Rust). Needs rustup plus the MSVC build tools on Windows.
 cargo check --manifest-path src-tauri/Cargo.toml
 cargo test --lib --manifest-path src-tauri/Cargo.toml

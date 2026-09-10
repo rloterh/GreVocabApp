@@ -47,8 +47,11 @@ Keep these in mind when extending:
 
 - **`cargo: program not found` right after installing Rust.** rustup adds
   `~/.cargo/bin` to your *persisted* PATH, but a shell opened before the install
-  never sees it. `npm run tauri dev` then fails with
-  `failed to run 'cargo metadata' … program not found`. Open a new terminal, or
+  never sees it, and Tauri reports it as
+  `failed to run 'cargo metadata' … program not found` — which sends people
+  looking for a broken Rust install that is fine. `scripts/tauri.mjs` now finds
+  cargo in the standard location and says what it is doing, so the npm scripts
+  work in a stale shell. To fix the shell itself, open a new terminal, or
   `$env:Path = "$env:USERPROFILE\.cargo\bin;$env:Path"` (PowerShell) /
   `export PATH="$HOME/.cargo/bin:$PATH"` (bash). Nothing is actually broken.
 - **`tauri-build` refuses to compile without `src-tauri/icons/icon.ico`.** If

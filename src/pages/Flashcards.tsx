@@ -30,6 +30,7 @@ import { useSettingsStore } from "@/store/useSettingsStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
 import { isDue } from "@/lib/sm2";
+import { playSound } from "@/lib/sound";
 import type {
   StudyDeck,
   StudyEvent,
@@ -270,6 +271,7 @@ export function Flashcards() {
         };
         addStudySession(session);
         setScreen("results");
+        playSound("complete");
       } else {
         setIdx((i) => i + 1);
         setFlipped(false);
@@ -306,6 +308,7 @@ export function Flashcards() {
       if (e.code === "Space" || e.key === " ") {
         e.preventDefault();
         setFlipped((f) => !f);
+        playSound("flip");
       } else if (e.key === "1" && flipped) rate("again");
       else if (e.key === "2" && flipped) rate("hard");
       else if (e.key === "3" && flipped) rate("good");
@@ -791,7 +794,10 @@ function PlayScreen({
               transformOrigin: "center",
             }}
             className="relative min-h-[420px] cursor-pointer select-none"
-            onClick={() => setFlipped((f) => !f)}
+            onClick={() => {
+              setFlipped((f) => !f);
+              playSound("flip");
+            }}
           >
             {/* Front */}
             <div
@@ -1047,6 +1053,15 @@ function ResultsScreen({
   onNewDeck: () => void;
   onShare: () => void;
 }) {
+  // A personal best means beating every previous session. The session just
+  // finished is already in the store, so compare against the rest.
+  const studies = useProgressStore((s) => s.studies);
+  const isPersonalBest = useMemo(() => {
+    if (bestStreak < 2) return false;
+    const previous = studies.slice(1).map((s) => s.bestStreak);
+    return previous.length > 0 && bestStreak > Math.max(...previous);
+  }, [studies, bestStreak]);
+
   const counts: Record<StudyRating, number> = {
     again: 0,
     hard: 0,
@@ -1086,8 +1101,15 @@ function ResultsScreen({
       transition={{ duration: 0.3 }}
       className="relative"
     >
-      {/* Confetti */}
-      {pct >= 65 && <Confetti />}
+      {/* A perfect run and a personal best each earn their own celebration;
+          anything decent still gets the ordinary confetti. */}
+      {pct >= 65 && (
+        <Confetti
+          variant={
+            pct === 100 ? "emoji" : isPersonalBest ? "streamers" : "confetti"
+          }
+        />
+      )}
 
       <div className="text-center mb-8 pt-6">
         <motion.div
@@ -1203,12 +1225,18 @@ function ResultsScreen({
 
 /* -------------------------------------------------------------------- */
 
-function Confetti() {
+/** Which celebration a result screen earns. */
+export type ConfettiVariant = "confetti" | "emoji" | "streamers";
+
+const EMOJI = ["🎉", "✨", "🧠", "📚", "🏆", "💫"];
+
+function Confetti({ variant = "confetti" }: { variant?: ConfettiVariant }) {
+  const count = variant === "streamers" ? 24 : 40;
   const pieces = useMemo(
     () =>
-      Array.from({ length: 40 }).map((_, i) => ({
+      Array.from({ length: count }).map((_, i) => ({
         id: i,
-        x: (Math.random() - 0.5) * 500,
+        x: (Math.random() - 0.5) * (variant === "streamers" ? 320 : 500),
         y: -Math.random() * 200 - 100,
         rot: Math.random() * 720 - 360,
         scale: 0.6 + Math.random() * 0.8,
@@ -1218,9 +1246,11 @@ function Confetti() {
           "hsl(var(--warning))",
           "hsl(var(--primary))",
         ][i % 4]!,
+        emoji: EMOJI[i % EMOJI.length]!,
         delay: Math.random() * 0.15,
       })),
-    [],
+    // Variant decides the shape of the burst, so it has to re-roll with it.
+    [count, variant],
   );
   return (
     <div className="absolute inset-x-0 top-0 h-0 pointer-events-none z-40">
@@ -1239,12 +1269,19 @@ function Confetti() {
             delay: p.delay,
             ease: [0.16, 1, 0.3, 1],
           }}
-          className="absolute left-1/2 top-8 w-2 h-3 rounded-sm origin-center"
+          className={cn(
+            "absolute left-1/2 top-8 origin-center",
+            variant === "emoji" && "text-2xl leading-none",
+            variant === "streamers" && "w-1 h-10 rounded-full",
+            variant === "confetti" && "w-2 h-3 rounded-sm",
+          )}
           style={{
-            backgroundColor: p.color,
+            backgroundColor: variant === "emoji" ? undefined : p.color,
             scale: p.scale,
           }}
-        />
+        >
+          {variant === "emoji" ? p.emoji : null}
+        </motion.div>
       ))}
     </div>
   );

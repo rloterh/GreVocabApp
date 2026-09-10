@@ -39,6 +39,7 @@ import {
   progressToMarkdown,
 } from "@/lib/markdown-export";
 import { applyTheme, THEMES } from "@/lib/theme";
+import { playSound } from "@/lib/sound";
 import { pickWatchedFolder } from "@/hooks/useWatchedFolder";
 import { isTauri } from "@/lib/utils";
 import type { Theme } from "@/types";
@@ -307,6 +308,34 @@ export function Settings() {
             />
             Prefer AI verification when API key is set
           </label>
+        </div>
+      </SettingSection>
+
+      <SettingSection
+        title="Sound"
+        description="A short click when a card flips, and a chime when a session ends. Off by default."
+      >
+        <div className="space-y-3">
+          <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <input
+              type="checkbox"
+              checked={settings.soundEnabled}
+              onChange={(e) => {
+                settings.set({ soundEnabled: e.target.checked });
+                // Play it on enable so the choice is audible immediately.
+                if (e.target.checked) playSound("correct", true);
+              }}
+              className="accent-accent"
+            />
+            Interface sounds
+          </label>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => settings.set({ hasOnboarded: false })}
+          >
+            Replay the walkthrough
+          </Button>
         </div>
       </SettingSection>
 

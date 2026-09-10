@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/EmptyState";
 import { JsonImporter } from "@/components/JsonImporter";
 import { VocabGenerator } from "@/components/VocabGenerator";
+import { ImportDeckButton, ShareDeckButton } from "@/components/DeckShare";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
@@ -39,6 +40,7 @@ export function Archive() {
             <div className="flex flex-wrap items-center justify-center gap-2">
               <JsonImporter />
               <VocabGenerator />
+              <ImportDeckButton />
             </div>
           }
         />
@@ -60,6 +62,7 @@ export function Archive() {
         <div className="flex flex-wrap items-center gap-2">
           <JsonImporter />
           <VocabGenerator />
+          <ImportDeckButton />
         </div>
       </div>
 
@@ -119,6 +122,7 @@ export function Archive() {
                       <BookOpen className="w-3.5 h-3.5" />
                       Open
                     </Button>
+                    <ShareDeckButton month={month} />
                     <Button
                       size="sm"
                       variant="ghost"

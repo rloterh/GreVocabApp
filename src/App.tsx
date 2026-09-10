@@ -13,11 +13,13 @@ import { Sidebar } from "@/components/Sidebar";
 import { Toast } from "@/components/Toast";
 import { DropOverlay } from "@/components/DropOverlay";
 import { ShortcutsHelp } from "@/components/ShortcutsHelp";
+import { Onboarding } from "@/components/Onboarding";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useStudyReminder } from "@/hooks/useStudyReminder";
 import { useShortcuts } from "@/hooks/useShortcuts";
 import { useWatchedFolder } from "@/hooks/useWatchedFolder";
+import { useDesktopEvents } from "@/hooks/useDesktopEvents";
 import { applyTheme } from "@/lib/theme";
 import { Dashboard } from "@/pages/Dashboard";
 import { DailyPractice } from "@/pages/DailyPractice";
@@ -36,8 +38,9 @@ export function App() {
 
   // No-op unless the user has enabled reminders and granted permission.
   useStudyReminder();
-  // Desktop only; inert in the browser.
+  // Desktop only; both inert in the browser.
   useWatchedFolder();
+  useDesktopEvents();
   const { helpOpen, setHelpOpen } = useShortcuts();
 
   // Apply the theme on mount and when it changes. When following the system,
@@ -72,6 +75,7 @@ export function App() {
         <Toast />
         <DropOverlay />
         <ShortcutsHelp open={helpOpen} onOpenChange={setHelpOpen} />
+        <Onboarding />
       </div>
     </TooltipProvider>
   );

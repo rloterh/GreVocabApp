@@ -1,3 +1,5 @@
+#[cfg(desktop)]
+mod desktop;
 mod watcher;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -8,6 +10,11 @@ pub fn run() {
         .plugin(tauri_plugin_fs::init())
         .setup(|app| {
             watcher::init(app.handle());
+            #[cfg(desktop)]
+            {
+                desktop::init_global_shortcut(app.handle());
+                desktop::init_tray(app.handle())?;
+            }
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![

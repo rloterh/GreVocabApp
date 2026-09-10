@@ -205,6 +205,31 @@ src/
 └── styles/globals.css       Tailwind + design tokens
 ```
 
+## Keyboard shortcuts
+
+Press `?` anywhere for the list. `/` jumps to search; `g` followed by a letter
+moves between pages (`g d` dashboard, `g f` flashcards, and so on). Shortcuts
+never fire while you are typing in a field.
+
+## Sharing a deck
+
+Archive has a share button on each month: it copies the deck as a `lex1:` code
+you can paste into a message. **Paste deck code** takes one back. Codes are
+gzipped and base64url, so they survive URLs and chat clients. Only the
+vocabulary travels — your review history stays yours.
+
+## Desktop extras
+
+The Tauri build adds things the browser cannot do:
+
+- **Watched folder** — point Lexicon at a folder in Settings, and any `.json`,
+  `.csv` or `.apkg` dropped into it loads immediately, with no re-import.
+- **System tray** — quick access to the window or straight into a session.
+- **Global shortcut** — `Ctrl/Cmd+Shift+L` opens Lexicon and starts studying.
+
+Building the desktop app needs a Rust toolchain (`rustup`) plus a platform C
+compiler — the MSVC build tools on Windows.
+
 ## Tests
 
 ```bash

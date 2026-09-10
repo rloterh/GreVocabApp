@@ -19,27 +19,21 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-If you have an hour: a Phase 3 P2 (drag-and-drop import, Markdown export).
-If you have an afternoon: a test runner.
-If you have a weekend: the desktop story — Phase 4.
+**Phases 1-5 are complete**, except one item. What is left:
 
-**Phases 2 and 3's P1 work are complete.** Next:
+1. **Mobile build** (Phase 4, P2) — the only unfinished roadmap task. Needs the
+   Android SDK/NDK or Xcode, and a bottom-bar navigation rather than the
+   sidebar. Nothing here is blocking it except tooling and a layout decision.
+2. **See it actually run.** Everything below is verified by lint, typecheck,
+   283 unit tests, a production build and `cargo check`/`cargo test` — but no
+   part of the UI has been exercised in a browser, and the desktop shell
+   (watcher, tray, global shortcut) has never been observed running. That is
+   the honest gap in all of it.
+3. **Page-level component tests.** `src/lib/`, the stores, and the two
+   components with real logic are covered. The pages are composition and are
+   not.
 
-1. **Real Tauri file-watching** (Phase 4, P0 for desktop story) — also the
-   prerequisite for real desktop notifications, which would lift the standing
-   limitation on study reminders. **Note for whoever picks this up: it needs a
-   Rust toolchain.** There was none in the environment Phases 2 and 3 were
-   built in, so no Phase 4 work has been attempted rather than written blind.
-2. **Phase 5.** Nothing there is started.
-3. **More component coverage.** 217 tests now span lib, stores and two
-   components (`DropOverlay`, `WordDetail`) — the two with real logic in them.
-   The pages are still uncovered; they are mostly composition, so this is a
-   judgement call about how much layout is worth pinning rather than an
-   obvious gap.
-
-~~A test runner~~ — **DONE.** Vitest, `npm test`, running in CI ahead of the
-build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
-`verify.ts` are covered.
+Ideas beyond the roadmap are in the parking lot at the bottom.
 
 ## Phase 2 — Learning quality
 
@@ -98,16 +92,16 @@ build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
 
 ### Tasks
 
-- **[P0] Real file-watching.** — Point at a folder; new JSON files appear in the app without re-import. → Add `notify` crate to `src-tauri/Cargo.toml`, emit events to frontend, listen with `@tauri-apps/api/event`. Settings gains a "Watched folder" path.
-- **[P0] Native app icons.** — Currently placeholder SVG. → Design a 1024×1024 source, run `npm run tauri icon`. See `src-tauri/icons/README.md`.
-- **[P1] Global shortcut to launch Flashcards.** — e.g. `Cmd+Shift+L` opens the app and drops straight into a due-today session. → `tauri-plugin-global-shortcut`.
-- **[P1] System tray icon.** — Quick-access on desktop. → `tauri-plugin-tray`.
-- **[P2] Mobile build.** — Tauri v2 supports iOS/Android. Layout needs review before this is real. → Separate mobile-specific navigation (bottom bar, not sidebar).
+- ~~**[P0] Real file-watching.**~~ **DONE.** `src-tauri/src/watcher.rs` on the `notify` crate, `src/hooks/useWatchedFolder.ts` on the frontend. Debounced at 400ms because editors write a file several times per save; only `.json`/`.csv`/`.apkg` are reported.
+- ~~**[P0] Native app icons.**~~ **DONE.** `scripts/make-icon.mjs` draws the mark to a 1024×1024 PNG with no dependencies, then `npm run tauri icon`. Regenerate rather than hand-editing the output. This was blocking everything: `tauri-build` refuses to compile without `icons/icon.ico`.
+- ~~**[P1] Global shortcut to launch Flashcards.**~~ **DONE.** `Ctrl/Cmd+Shift+L`, in `src-tauri/src/desktop.rs`. Registration failure is non-fatal — another app may own the binding.
+- ~~**[P1] System tray icon.**~~ **DONE.** Same file. Tauri v2 has tray built in behind the `tray-icon` feature; there is no `tauri-plugin-tray`.
+- **[P2] Mobile build.** — Still open, and now the only Phase 4 item that is. It needs the Android SDK/NDK or Xcode, neither of which was available. Layout also needs a bottom bar rather than the sidebar before this is real.
 
 ### Definition of done
 
-- Dropping a JSON into a watched folder loads it in <2 seconds without a refresh.
-- Desktop app has a real icon in the dock/taskbar.
+- ~~Dropping a JSON into a watched folder loads it in <2 seconds without a refresh.~~ Implemented. **Not observed running** — verifying it needs `npm run tauri dev`, which opens a desktop window this environment could not interact with. The Rust compiles and is unit-tested; the end-to-end path is not.
+- ~~Desktop app has a real icon in the dock/taskbar.~~ Done.
 
 ## Phase 5 — Polish, community, sharing
 
@@ -115,17 +109,17 @@ build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
 
 ### Tasks
 
-- **[P1] Global keyboard shortcuts everywhere.** — Not just Flashcards. `/` to open Search from anywhere, `g d` for Dashboard, etc. → New `src/hooks/useShortcuts.ts`.
-- **[P1] Onboarding tour.** — First-run walkthrough. Skippable. → Use `useSettingsStore` for `hasOnboarded`.
-- **[P1] Public deck sharing.** — Copy a deck to clipboard as a URL-safe blob; paste to import. → `src/lib/share.ts` — base64-encoded zstd or lz-string.
-- **[P2] Themes beyond light/dark.** — Solarized, high-contrast, sepia. → Extend `Settings.theme` union and swap CSS-var sets in `globals.css`.
-- **[P2] Sound effects.** — Subtle click on flip, satisfying ding on session complete. Opt-in in Settings.
-- **[P2] Confetti variants.** — Emoji rain for perfect runs, streamers for personal bests.
+- ~~**[P1] Global keyboard shortcuts everywhere.**~~ **DONE.** `src/lib/shortcuts.ts` holds the matching (pure, so the two-key sequences are testable without a DOM); `src/hooks/useShortcuts.ts` binds it. `/` for search, `?` for the help overlay, `g` then a letter for each page. Never fires while typing in a field.
+- ~~**[P1] Onboarding tour.**~~ **DONE.** `src/components/Onboarding.tsx`, four screens, skippable at every step, tracked as `hasOnboarded`. Settings can replay it.
+- ~~**[P1] Public deck sharing.**~~ **DONE.** `src/lib/share.ts`, using the platform's own `CompressionStream("gzip")` rather than lz-string — one less dependency. Codes are prefixed `lex1:` and base64url, so they survive a URL or a chat message. A pasted deck goes through `loadMonth` like a file: it is the least trustworthy input the app takes.
+- ~~**[P2] Themes beyond light/dark.**~~ **DONE.** Sepia, Solarized Dark and a high-contrast palette, as token blocks in `globals.css`. `src/lib/theme.ts` is the single place that knows which class goes on the root — the logic used to be duplicated between `App.tsx` and `Settings.tsx`.
+- ~~**[P2] Sound effects.**~~ **DONE.** `src/lib/sound.ts`, synthesised with Web Audio rather than shipped as files. Off by default.
+- ~~**[P2] Confetti variants.**~~ **DONE.** Emoji rain for a perfect run, streamers for a personal best, ordinary confetti otherwise.
 
 ### Definition of done
 
-- A friend can install the app, complete a session, and get to their second day without confusion.
-- Someone can share a deck link on Twitter and the recipient can import it in one click.
+- ~~A friend can install the app, complete a session, and get to their second day without confusion.~~ The onboarding tour and the shortcut overlay are in. Whether it is actually confusing is a question for a real person, not a test.
+- ~~Someone can share a deck link on Twitter and the recipient can import it in one click.~~ Done, with a caveat: a code is a paste, not a link. A deck of 90 words encodes to a few thousand characters, which is fine for a message or a gist but too long for a tweet. Turning it into a real link needs somewhere to host it, and hosting is explicitly not planned.
 
 ## Explicitly not planned
 

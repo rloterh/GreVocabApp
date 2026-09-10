@@ -46,6 +46,19 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - **Tests** — Vitest over `src/lib/`, the Zustand stores and components,
   running in CI ahead of the build.
 
+- **Desktop: folder watching** — point Lexicon at a folder and dropped files
+  load without a refresh (`notify` crate + a frontend listener).
+- **Desktop: real app icons**, generated from the mark by `scripts/make-icon.mjs`.
+- **Desktop: system tray and a global shortcut** (`Ctrl/Cmd+Shift+L`) that jump
+  straight into a study session.
+- **Global keyboard shortcuts** — `/` for search, `?` for the shortcut list,
+  `g` then a letter to move between pages.
+- **First-run walkthrough**, skippable, replayable from Settings.
+- **Deck sharing** — copy a month as a `lex1:` code and paste it anywhere.
+- **Three more themes** — sepia, Solarized Dark, high contrast.
+- **Optional interface sounds**, synthesised rather than shipped as files.
+- **Confetti variants** — emoji for a perfect run, streamers for a personal best.
+
 ### Changed
 - Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).
   `npm audit` is now clean.

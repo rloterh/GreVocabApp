@@ -9,6 +9,7 @@ import type {
   WordProgress,
 } from "@/types";
 import { toDateKey } from "@/lib/date-utils";
+import { schedule, schedulingStateOf } from "@/lib/sm2";
 
 interface ProgressState {
   /** Per-word progress by wordId */
@@ -225,6 +226,16 @@ export const useProgressStore = create<ProgressState>()(
           const wasFirstToday =
             !w.lastReviewed ||
             toDateKey(new Date(w.lastReviewed)) !== todayKey();
+          // SM-2 scheduling is independent of the mastery flag above: a word
+          // can be "mastered" and still come up for review, which is the whole
+          // point of spaced repetition.
+          const prior = schedulingStateOf(w);
+          const next = schedule(
+            rating,
+            prior.easeFactor,
+            prior.intervalDays,
+            prior.reps,
+          );
           return {
             words: {
               ...state.words,
@@ -234,6 +245,10 @@ export const useProgressStore = create<ProgressState>()(
                 masteredAt,
                 lastReviewed: now,
                 timesReviewed: w.timesReviewed + 1,
+                easeFactor: next.easeFactor,
+                intervalDays: next.intervalDays,
+                reps: next.reps,
+                dueAt: next.dueAt,
               },
             },
             activity: {

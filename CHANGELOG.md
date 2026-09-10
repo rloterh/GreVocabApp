@@ -4,7 +4,28 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ## [Unreleased]
 
-Nothing yet — see [`ROADMAP.md`](./ROADMAP.md) for what's next.
+### Added
+- **SM-2 spaced repetition** (`src/lib/sm2.ts`) — rating a flashcard now
+  schedules its next review. `WordProgress` carries `easeFactor`,
+  `intervalDays`, `reps` and `dueAt`; all four are optional, so progress saved
+  before this release keeps working and picks up scheduling on its next rating.
+- **"Due today" deck** — a `due` deck in Flashcards, selected automatically on
+  open when anything is due, plus a Dashboard card showing the count with a
+  jump straight into review.
+
+### Changed
+- Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).
+  `npm audit` is now clean.
+- `npm run lint` passes and runs in CI, alongside typecheck and build.
+
+### Fixed
+- Production build was broken: `vite.config.ts` had no Node types and a
+  `build.minify` ternary that widened to `string`. `npm run typecheck` missed
+  both because it only compiles `src/`.
+- The Tauri and File System Access import paths counted failed files and then
+  discarded the count, so partial import failures were silent.
+- `SentenceBuilder` reset its draft from inside a `useMemo` with an incomplete
+  dependency list; `Quiz` rebuilt a memo dependency on every render.
 
 ## [0.1.0] — 2026-09-09
 

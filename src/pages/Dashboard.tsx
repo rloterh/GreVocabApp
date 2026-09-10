@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import {
   BookOpen,
+  CalendarClock,
   Flame,
   GraduationCap,
   Sparkles,
@@ -17,6 +18,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { calculateStreaks } from "@/lib/streak";
 import { toMonthKey, formatMonthKey } from "@/lib/date-utils";
+import { countDue } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
 
 export function Dashboard() {
@@ -51,6 +53,20 @@ export function Dashboard() {
     0,
   );
   const accuracy = quizAttempts > 0 ? quizCorrect / quizAttempts : 0;
+
+  // Words the SM-2 scheduler has queued for today or earlier. Counted across
+  // every loaded month, not just the current one — a review is a review.
+  const allWordIds = useMemo(
+    () =>
+      Object.values(months).flatMap((m) =>
+        m.days.flatMap((d) => d.words.map((w) => w.id)),
+      ),
+    [months],
+  );
+  const dueCount = useMemo(
+    () => countDue(allWordIds, wordsProgress),
+    [allWordIds, wordsProgress],
+  );
 
   if (monthKeys.length === 0) {
     return (
@@ -126,6 +142,36 @@ export function Dashboard() {
           delay={0.15}
         />
       </div>
+
+      {dueCount > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.18 }}
+          className="mt-6"
+        >
+          <Card className="border-accent/40 bg-accent/[0.03]">
+            <CardContent className="p-5 flex flex-wrap items-center justify-between gap-4">
+              <div className="flex items-center gap-3 min-w-0">
+                <CalendarClock className="w-5 h-5 text-accent shrink-0" />
+                <div className="min-w-0">
+                  <p className="text-sm font-medium">
+                    <span className="tabular">{dueCount}</span>{" "}
+                    {dueCount === 1 ? "word is" : "words are"} due for review
+                  </p>
+                  <p className="text-xs text-muted-foreground">
+                    Spaced repetition schedules these before they fade.
+                  </p>
+                </div>
+              </div>
+              <Button onClick={() => navigate("flashcards")}>
+                <CalendarClock className="w-4 h-4" />
+                Review now
+              </Button>
+            </CardContent>
+          </Card>
+        </motion.div>
+      )}
 
       <motion.div
         initial={{ opacity: 0, y: 8 }}

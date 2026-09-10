@@ -28,6 +28,7 @@ import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
+import { isDue } from "@/lib/sm2";
 import type {
   StudyDeck,
   StudyEvent,
@@ -94,6 +95,7 @@ export function Flashcards() {
   const applyStudyRating = useProgressStore((s) => s.applyStudyRating);
   const addStudySession = useProgressStore((s) => s.addStudySession);
   const isMastered = useProgressStore((s) => s.isMastered);
+  const wordsProgress = useProgressStore((s) => s.words);
   const showToast = useAppStore((s) => s.showToast);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
 
@@ -161,9 +163,20 @@ export function Flashcards() {
     () => allEnriched.filter((w) => !isMastered(w.id)),
     [allEnriched, isMastered],
   );
+  // Evaluated once per render against a single timestamp, so every card in a
+  // session is judged against the same "today".
+  const duePool = useMemo(
+    () => {
+      const now = new Date();
+      return allEnriched.filter((w) => isDue(wordsProgress[w.id], now));
+    },
+    [allEnriched, wordsProgress],
+  );
 
   function poolFor(d: StudyDeck): EnrichedWord[] {
     switch (d) {
+      case "due":
+        return duePool;
       case "month":
         return activeMonthWords;
       case "day":
@@ -197,7 +210,18 @@ export function Flashcards() {
     cardShownAtRef.current = Date.now();
     setElapsedMs(0);
     setScreen("playing");
-  }, [deck, cardLimit, doShuffle, activeMonthWords, dayWords, masteredPool, unmasteredPool, allEnriched]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [deck, cardLimit, doShuffle, activeMonthWords, dayWords, masteredPool, unmasteredPool, duePool, allEnriched]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Open on the due deck when the scheduler has work, but only decide once
+  // per mount — after that the deck is the user's choice, and re-running this
+  // would yank the selection out from under them as duePool changes.
+  const initialDeckPicked = useRef(false);
+  useEffect(() => {
+    if (initialDeckPicked.current) return;
+    if (allEnriched.length === 0) return; // pools not populated yet
+    initialDeckPicked.current = true;
+    if (duePool.length > 0) setDeck("due");
+  }, [allEnriched.length, duePool.length]);
 
   const currentCard = cards[idx];
 
@@ -329,6 +353,7 @@ export function Flashcards() {
             setCardLimit={setCardLimit}
             availableCount={availableCount}
             counts={{
+              due: duePool.length,
               day: dayWords.length,
               month: activeMonthWords.length,
               mastered: masteredPool.length,
@@ -438,6 +463,12 @@ function SetupScreen({
     sub: string;
     count: number;
   }> = [
+    {
+      v: "due",
+      label: "Due today",
+      sub: "Scheduled by spaced repetition",
+      count: counts.due,
+    },
     {
       v: "day",
       label: `Day ${selectedDay}`,

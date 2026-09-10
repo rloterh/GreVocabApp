@@ -19,13 +19,14 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-If you have an hour: pick a **P0** from Phase 2.
-If you have an afternoon: knock out the SRS scheduler.
-If you have a weekend: SRS + a real content-import path.
+If you have an hour: pick a **P1** from Phase 2.
+If you have an afternoon: a real content-import path.
+If you have a weekend: content import + the desktop story.
 
-1. **SM-2 spaced repetition** (Phase 2, P0)
-2. **Real Tauri file-watching** (Phase 4, P0 for desktop story)
-3. **Anki `.apkg` export** (Phase 3, P1) — low effort, high delight
+1. **Real Tauri file-watching** (Phase 4, P0 for desktop story)
+2. **Anki `.apkg` export** (Phase 3, P1) — low effort, high delight
+3. **Per-word progress detail** (Phase 2, P1) — the SRS state is recorded but
+   not yet visible anywhere except the due count
 
 ## Phase 2 — Learning quality
 
@@ -35,17 +36,19 @@ If you have a weekend: SRS + a real content-import path.
 
 ### Tasks
 
-- **[P0] Implement SM-2 scheduler.** — Standard SuperMemo 2 algorithm. → New `src/lib/sm2.ts` exporting `schedule(rating, priorEF, priorInterval, priorReps): { ef, interval, dueDate }`. `WordProgress` gains `easeFactor`, `intervalDays`, `reps`, `dueAt` fields. `Flashcards.tsx` `applyStudyRating` calls the scheduler. Unit-testable in isolation.
-- **[P0] "Due today" deck.** — Surface the words the scheduler says are due. → New `StudyDeck` variant `"due"`. Dashboard shows a count; Flashcards defaults to this deck when it has any cards.
+- ~~**[P0] Implement SM-2 scheduler.**~~ **DONE.** `src/lib/sm2.ts`. Shipped signature is `schedule(rating, priorEF, priorInterval, priorReps, now?)` returning `{ easeFactor, intervalDays, reps, dueAt }` — the return keys were renamed from the sketch above to match the `WordProgress` field names exactly, so the store can spread the result, and `reps` was added because the caller cannot recompute it without duplicating the algorithm's branching. `now` is injected so scheduling is deterministic under test.
+- ~~**[P0] "Due today" deck.**~~ **DONE.** `StudyDeck` variant `"due"`; Flashcards opens on it when anything is due (decided once per mount, so it never overrides a user's later choice). The Dashboard count is a call-to-action card that appears only when something is due, rather than a fifth stat tile — the stat grid is a 4-column layout and a lone fifth cell wrapped badly.
 - **[P1] SRS onboarding hint.** — First time a user opens Flashcards after this ships, explain the four rating buttons in a one-time tooltip. → State stored under `useSettingsStore` as `hasSeenSrsIntro`.
 - **[P1] Per-word progress detail.** — Click a word in Search or Archive → modal showing review history, current EF, next due date. → New `WordDetail.tsx` component; opens as a Radix Dialog.
 - **[P2] Study reminders.** — Optional daily nudge (browser Notification API in web, Tauri notifications on desktop). → Settings toggle + time picker. Skip if the runtime doesn't have permission.
 
 ### Definition of done
 
-- Rating a card updates EF and interval per SM-2.
-- Dashboard shows accurate "due today" count.
-- A user who studies for 5 days sees exponentially spaced reviews for words they consistently rate "Good" or "Easy".
+- ~~Rating a card updates EF and interval per SM-2.~~ Done.
+- ~~Dashboard shows accurate "due today" count.~~ Done.
+- ~~A user who studies for 5 days sees exponentially spaced reviews for words they consistently rate "Good" or "Easy".~~ Done — consecutive "Good" yields intervals of 1, 6, 15, 38, 95, 238 days; consecutive "Easy" yields 1, 6, 17, 49, 147, 456.
+
+**Caveat:** the scheduler is pure and was verified against SM-2 reference values with a throwaway harness, but the repo still has no test runner, so nothing guards it in CI. Adding Vitest is the obvious next move.
 
 ## Phase 3 — Content flow
 

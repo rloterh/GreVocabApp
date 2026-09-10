@@ -51,6 +51,20 @@ export interface WordProgress {
   quizCorrect: number;
   lastReviewed: string | null; // ISO date
   masteredAt: string | null;
+
+  // SM-2 scheduling state. All optional: a progress record written before
+  // spaced repetition shipped simply has none, and `src/lib/sm2.ts` fills in
+  // defaults on the word's first flashcard rating. Never widen these to
+  // required — that would invalidate everything already in localStorage.
+
+  /** Ease factor, >= 1.3. Higher means the interval grows faster. */
+  easeFactor?: number;
+  /** Days between the last review and the next one. */
+  intervalDays?: number;
+  /** Consecutive successful repetitions; resets to 0 on an "again" rating. */
+  reps?: number;
+  /** ISO timestamp of the next scheduled review. */
+  dueAt?: string | null;
 }
 
 /** User-written practice sentences with verification */
@@ -113,7 +127,14 @@ export interface DayActivity {
 export type StudyRating = "again" | "hard" | "good" | "easy";
 
 /** Deck-selection scope for a study session */
-export type StudyDeck = "all" | "month" | "day" | "mastered" | "unmastered";
+export type StudyDeck =
+  | "all"
+  | "month"
+  | "day"
+  | "mastered"
+  | "unmastered"
+  /** Words the SM-2 scheduler says are due for review today or earlier. */
+  | "due";
 
 /** A single rated card in a study session */
 export interface StudyEvent {

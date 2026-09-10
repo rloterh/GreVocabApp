@@ -54,6 +54,15 @@ Keep these in mind when extending:
   work in a stale shell. To fix the shell itself, open a new terminal, or
   `$env:Path = "$env:USERPROFILE\.cargo\bin;$env:Path"` (PowerShell) /
   `export PATH="$HOME/.cargo/bin:$PATH"` (bash). Nothing is actually broken.
+- **`cargo build --release` is not `npm run tauri build`.** The plain cargo
+  build skips the `custom-protocol` feature that embeds the frontend, so the
+  window opens on the dev URL and shows the browser's "can't reach this page".
+  The binary runs; it is just not the one you want. Always bundle via the npm
+  script.
+- **Filesystem scope lives in `src-tauri/capabilities/`, not `tauri.conf.json`.**
+  A `plugins.fs.scope` block is Tauri v1 shape; v2 rejects it at *startup* with
+  `unknown field \`scope\``, so the app compiles, bundles, installs, and then
+  panics on launch. Nothing before runtime catches it.
 - **`tauri-build` refuses to compile without `src-tauri/icons/icon.ico`.** If
   that file is missing, *nothing* Rust will build and the error names the icon
   rather than the cause. Run `node scripts/make-icon.mjs` then

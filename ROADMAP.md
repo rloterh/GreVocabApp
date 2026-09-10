@@ -100,8 +100,15 @@ Ideas beyond the roadmap are in the parking lot at the bottom.
 
 ### Definition of done
 
-- ~~Dropping a JSON into a watched folder loads it in <2 seconds without a refresh.~~ Implemented. **Not observed running** — verifying it needs `npm run tauri dev`, which opens a desktop window this environment could not interact with. The Rust compiles and is unit-tested; the end-to-end path is not.
+- ~~Dropping a JSON into a watched folder loads it in <2 seconds without a refresh.~~ Implemented, and the desktop app is now confirmed to **launch and render its own UI** from a release bundle. The watcher's own round trip — drop a file, see it load — has still not been driven by hand.
 - ~~Desktop app has a real icon in the dock/taskbar.~~ Done.
+
+**Getting there found two runtime bugs that every other check passed.** The app
+had never been able to start: `tauri.conf.json` carried a v1-shaped
+`plugins.fs.scope` that the v2 fs plugin rejects during initialisation, so the
+binary compiled, bundled, installed and then panicked. `cargo check`, `cargo
+test`, CI and `tauri build` were all green throughout. It shipped in the
+initial commit.
 
 ## Phase 5 — Polish, community, sharing
 

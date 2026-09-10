@@ -39,12 +39,5 @@
     ],
     "shortDescription": "Daily vocabulary practice",
     "longDescription": "Lexicon is a premium daily vocabulary practice app with spaced-repetition flashcards, quizzes, sentence writing with AI verification, and progress tracking."
-  },
-  "plugins": {
-    "fs": {
-      "scope": {
-        "allow": ["$DOCUMENT/*", "$DOCUMENT/**"]
-      }
-    }
   }
 }

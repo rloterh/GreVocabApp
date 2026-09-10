@@ -27,12 +27,14 @@ If you have a weekend: the desktop story — Phase 4.
 
 1. **Real Tauri file-watching** (Phase 4, P0 for desktop story) — also the
    prerequisite for real desktop notifications, which would lift the standing
-   limitation on study reminders.
-2. **The two Phase 3 P2s** — drag-and-drop import overlay, Markdown progress
-   export. Both small.
-3. **Widen test coverage past `src/lib/`.** Vitest now runs in CI over the pure
-   logic (95 tests). The stores are the obvious next layer; components would
-   need a DOM environment and a decision about how much UI is worth pinning.
+   limitation on study reminders. **Note for whoever picks this up: it needs a
+   Rust toolchain.** There was none in the environment Phases 2 and 3 were
+   built in, so no Phase 4 work has been attempted rather than written blind.
+2. **Anki `.apkg` import.** We can write one but not read one. See the Phase 3
+   definition of done — that line is only half met.
+3. **Component tests.** `src/lib/` and the stores are covered (164 tests). Every
+   component is not, and that is now the only untested layer. It needs a DOM
+   environment and a decision about how much UI is worth pinning.
 
 ~~A test runner~~ — **DONE.** Vitest, `npm test`, running in CI ahead of the
 build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
@@ -71,8 +73,10 @@ build. `src/lib/sm2.ts`, `csv.ts`, `anki-collection.ts`, `generate.ts` and
 - ~~**[P1] CSV import.**~~ **DONE.** `src/lib/csv.ts`, hand-parsed — the grammar is small and well specified, and PapaParse would ship in every bundle to serve one button. CSV is accepted everywhere JSON is (file input and both folder pickers), with forgiving header aliases and per-line error messages. It produces month-shaped objects fed to the existing `parseVocabMonth`, so there is one definition of a valid month.
 - ~~**[P1] Anki `.apkg` export.**~~ **DONE.** `src/lib/anki-collection.ts` builds the schema-11 SQLite database, `src/lib/anki-export.ts` owns the lazy loading and zipping. `sql.js` and `fflate` are dynamically imported and confirmed absent from the main bundle. SM-2 state carries across, so reviewed words land in Anki already scheduled — that is what satisfies "leave Lexicon with progress intact" below.
 - ~~**[P1] "Generate vocabulary" via API.**~~ **DONE.** `src/lib/generate.ts` plus a dialog in Archive. Output is constrained with a strict tool schema rather than parsed out of prose, and the result goes through `parseVocabMonth` like any import — generated content is not trusted more than a supplied file.
-- **[P2] Deck-file drag-and-drop overlay.** — Dropping a `.json` anywhere in the app triggers import. → Global drop handler in `App.tsx`.
-- **[P2] Markdown export of progress.** — For sharing a study log. Nice-to-have.
+- ~~**[P2] Deck-file drag-and-drop overlay.**~~ **DONE.** `src/components/DropOverlay.tsx`, mounted at the root. Accepts `.csv` as well as `.json`. The drag counter is reference-counted because dragenter/dragleave fire per element and the overlay would otherwise flicker over every child.
+- ~~**[P2] Markdown export of progress.**~~ **DONE.** `src/lib/markdown-export.ts` — pure and clock-injectable. Summary, per-month breakdown, due list with interval and ease, and the last 30 active days. Empty sections are omitted rather than rendered as empty tables.
+
+**Phase 3 is complete.** The import paths were also unified in the process: `src/lib/import.ts` is now the one place a file becomes months, shared by the button, both folder pickers and the drop overlay.
 
 ### Definition of done
 

@@ -90,11 +90,14 @@ cogent,adjective,Clear and convincing.,She made a cogent argument.,"cogent = co-
 
 Errors name the line: `Line 4: 'day' must be a whole number 1-31, got "nope"`.
 
-### Three ways to load
+### Four ways to load
 
-1. **Drop files** — click "Import JSON / CSV" on the Dashboard or Archive
-2. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
-3. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
+1. **Drag and drop** — drop `.json` or `.csv` files anywhere in the app
+2. **Import button** — "Import JSON / CSV" on the Dashboard or Archive
+3. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
+4. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
+
+All four go through the same validation, so a file one accepts they all accept.
 
 ## Generating vocabulary with Claude
 
@@ -107,6 +110,13 @@ Words you already have are sent along so the model does not repeat them.
 The response is constrained with a strict tool schema rather than parsed out of
 prose, and the result is still put through the same validation as an imported
 file — generated content is not trusted any more than a file you supplied.
+
+## Exporting a study log
+
+Settings → Backup → **Export study log (Markdown)** writes a readable record:
+totals and streaks, a per-month breakdown, what is due with its interval and
+ease, and your last 30 active days. Useful for sharing progress or keeping a
+record outside the app.
 
 ## Exporting to Anki
 

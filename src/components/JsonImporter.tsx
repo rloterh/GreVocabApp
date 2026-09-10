@@ -4,7 +4,13 @@ import { Button } from "@/components/ui/button";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
 import { isTauri } from "@/lib/utils";
-import { csvToMonthObjects, monthFromFilename } from "@/lib/csv";
+import {
+  ACCEPTED_FILE,
+  describeOutcome,
+  importFiles,
+  importText,
+  type ImportOutcome,
+} from "@/lib/import";
 
 /** File System Access API type shims */
 declare global {
@@ -15,8 +21,7 @@ declare global {
   }
 }
 
-/** Files this importer will attempt. */
-const ACCEPTED = /\.(json|csv)$/i;
+const EMPTY: ImportOutcome = { loaded: 0, failed: 0, errors: [] };
 
 export function JsonImporter() {
   const fileRef = useRef<HTMLInputElement>(null);
@@ -24,64 +29,21 @@ export function JsonImporter() {
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const showToast = useAppStore((s) => s.showToast);
 
-  /**
-   * Turn one file's text into loaded months.
-   *
-   * CSV is converted to month-shaped objects and then handed to the same
-   * `loadMonth` validation as JSON, so there is only one definition of a valid
-   * month. A CSV may span several months, hence the count.
-   */
-  function importText(name: string, text: string): { loaded: number; failed: number } {
-    let loaded = 0;
-    let failed = 0;
-    try {
-      const objects = name.toLowerCase().endsWith(".csv")
-        ? csvToMonthObjects(text, {
-            fallbackMonth: monthFromFilename(name) ?? undefined,
-          })
-        : [JSON.parse(text)];
-      for (const obj of objects) {
-        const result = loadMonth(obj);
-        if (result.ok) loaded++;
-        else {
-          failed++;
-          console.warn(`${name}: ${result.error}`);
-        }
-      }
-    } catch (e) {
-      failed++;
-      console.warn(`${name}: ${e instanceof Error ? e.message : "parse error"}`, e);
-    }
-    return { loaded, failed };
+  /** Report an outcome the same way regardless of which path produced it. */
+  function report(outcome: ImportOutcome) {
+    for (const message of outcome.errors) console.warn(message);
+    showToast(describeOutcome(outcome));
   }
 
   async function handleFiles(files: FileList | null) {
     if (!files || files.length === 0) return;
     setBusy(true);
-    let loaded = 0;
-    let failed = 0;
-    for (const f of Array.from(files)) {
-      if (!ACCEPTED.test(f.name)) continue;
-      const r = importText(f.name, await f.text());
-      loaded += r.loaded;
-      failed += r.failed;
-    }
-    setBusy(false);
-    if (loaded > 0) {
-      showToast({
-        title: `Loaded ${loaded} month${loaded === 1 ? "" : "s"}`,
-        description:
-          failed > 0
-            ? `${failed} file${failed === 1 ? "" : "s"} failed — check console`
-            : undefined,
-        variant: "success",
-      });
-    } else if (failed > 0) {
-      showToast({
-        title: "Import failed",
-        description: `${failed} file${failed === 1 ? "" : "s"} could not be parsed`,
-        variant: "error",
-      });
+    try {
+      report(await importFiles(Array.from(files), loadMonth));
+    } finally {
+      setBusy(false);
+      // Let the same file be picked again after a failed import.
+      if (fileRef.current) fileRef.current.value = "";
     }
   }
 
@@ -97,30 +59,22 @@ export function JsonImporter() {
         if (!dir || typeof dir !== "string") return;
         setBusy(true);
         const entries = await readDir(dir);
-        let loaded = 0;
-        let failed = 0;
+        let outcome = EMPTY;
         for (const entry of entries) {
-          if (!entry.isFile || !ACCEPTED.test(entry.name)) continue;
-          try {
-            const text = await readTextFile(`${dir}/${entry.name}`);
-            const r = importText(entry.name, text);
-            loaded += r.loaded;
-            failed += r.failed;
-          } catch {
-            failed++;
-          }
+          if (!entry.isFile || !ACCEPTED_FILE.test(entry.name)) continue;
+          const text = await readTextFile(`${dir}/${entry.name}`);
+          const one = await importText(entry.name, text, loadMonth);
+          outcome = {
+            loaded: outcome.loaded + one.loaded,
+            failed: outcome.failed + one.failed,
+            errors: [...outcome.errors, ...one.errors],
+          };
         }
         setBusy(false);
-        showToast({
-          title: `Loaded ${loaded} month${loaded === 1 ? "" : "s"}`,
-          description:
-            failed > 0
-              ? `${failed} file${failed === 1 ? "" : "s"} failed — check console`
-              : undefined,
-          variant: "success",
-        });
+        report(outcome);
         return;
       } catch (e) {
+        setBusy(false);
         console.error("Tauri folder pick failed", e);
       }
     }
@@ -138,30 +92,16 @@ export function JsonImporter() {
     try {
       const dir = await window.showDirectoryPicker();
       setBusy(true);
-      let loaded = 0;
-      let failed = 0;
+      const files: File[] = [];
       // @ts-expect-error — values() exists on FileSystemDirectoryHandle
       for await (const entry of dir.values()) {
-        if (entry.kind !== "file" || !ACCEPTED.test(entry.name)) continue;
-        const file = await (entry as FileSystemFileHandle).getFile();
-        try {
-          const r = importText(entry.name, await file.text());
-          loaded += r.loaded;
-          failed += r.failed;
-        } catch {
-          failed++;
-        }
+        if (entry.kind !== "file" || !ACCEPTED_FILE.test(entry.name)) continue;
+        files.push(await (entry as FileSystemFileHandle).getFile());
       }
+      report(await importFiles(files, loadMonth));
       setBusy(false);
-      showToast({
-        title: `Loaded ${loaded} month${loaded === 1 ? "" : "s"}`,
-        description:
-          failed > 0
-            ? `${failed} file${failed === 1 ? "" : "s"} failed — check console`
-            : undefined,
-        variant: "success",
-      });
     } catch {
+      setBusy(false);
       // User cancelled
     }
   }
@@ -185,12 +125,7 @@ export function JsonImporter() {
         <Upload className="w-3.5 h-3.5" />
         Import JSON / CSV
       </Button>
-      <Button
-        size="sm"
-        variant="outline"
-        onClick={pickFolder}
-        disabled={busy}
-      >
+      <Button size="sm" variant="outline" onClick={pickFolder} disabled={busy}>
         <FolderOpen className="w-3.5 h-3.5" />
         Pick folder
       </Button>

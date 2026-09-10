@@ -11,6 +11,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Sidebar } from "@/components/Sidebar";
 import { Toast } from "@/components/Toast";
+import { DropOverlay } from "@/components/DropOverlay";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useStudyReminder } from "@/hooks/useStudyReminder";
@@ -65,6 +66,7 @@ export function App() {
           </AnimatePresence>
         </main>
         <Toast />
+        <DropOverlay />
       </div>
     </TooltipProvider>
   );

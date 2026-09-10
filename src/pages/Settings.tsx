@@ -12,12 +12,27 @@ import {
   notificationPermission,
   requestNotificationPermission,
 } from "@/hooks/useStudyReminder";
+import {
+  markdownFilename,
+  progressToMarkdown,
+} from "@/lib/markdown-export";
 import { cn } from "@/lib/utils";
+
+/** Hand a blob to the browser as a download. */
+function downloadBlob(blob: Blob, filename: string) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
 
 export function Settings() {
   const settings = useSettingsStore();
   const resetProgress = useProgressStore((s) => s.reset);
   const wordsProgress = useProgressStore((s) => s.words);
+  const activity = useProgressStore((s) => s.activity);
   const vocab = useVocabStore();
   const showToast = useAppStore((s) => s.showToast);
   const [showKey, setShowKey] = useState(false);
@@ -67,6 +82,19 @@ export function Settings() {
     showToast({ title: "API key saved", variant: "success" });
   }
 
+  function exportMarkdown() {
+    const markdown = progressToMarkdown({
+      months: vocab.months,
+      progress: wordsProgress,
+      activity,
+    });
+    downloadBlob(
+      new Blob([markdown], { type: "text/markdown" }),
+      markdownFilename(),
+    );
+    showToast({ title: "Study log exported", variant: "success" });
+  }
+
   async function exportAnki() {
     const months = Object.values(vocab.months);
     if (months.length === 0) {
@@ -84,12 +112,7 @@ export function Settings() {
         grouping: ankiGrouping,
         deckName: ankiDeckName.trim() || "Lexicon",
       });
-      const url = URL.createObjectURL(result.blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = result.filename;
-      a.click();
-      URL.revokeObjectURL(url);
+      downloadBlob(result.blob, result.filename);
       showToast({
         title: `Exported ${result.noteCount} cards`,
         description:
@@ -385,6 +408,9 @@ export function Settings() {
               <span className="cursor-pointer">Restore backup</span>
             </Button>
           </label>
+          <Button variant="outline" onClick={exportMarkdown}>
+            Export study log (Markdown)
+          </Button>
         </div>
       </SettingSection>
 

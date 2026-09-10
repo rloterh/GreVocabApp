@@ -1,0 +1,163 @@
+/**
+ * Markdown export of a study log.
+ *
+ * For sharing progress, or keeping a readable record outside the app. Pure and
+ * clock-injectable so the output is deterministic.
+ *
+ * See ROADMAP.md, Phase 3.
+ */
+
+import type {
+  DayActivity,
+  VocabMonth,
+  WordProgress,
+} from "@/types";
+import { allWordsInMonth } from "@/lib/vocabulary";
+import { format, toDateKey } from "@/lib/date-utils";
+import { calculateStreaks } from "@/lib/streak";
+import { isDue, schedulingStateOf } from "@/lib/sm2";
+
+export interface MarkdownExportOptions {
+  months: Record<string, VocabMonth>;
+  progress: Record<string, WordProgress>;
+  activity: Record<string, DayActivity>;
+  /** Injected clock, so the output is deterministic under test. */
+  now?: Date;
+}
+
+/** Escape the pipe and backslash characters that would break a table row. */
+function cell(text: string): string {
+  return text.replace(/\\/g, "\\\\").replace(/\|/g, "\\|");
+}
+
+function pct(n: number, d: number): string {
+  return d > 0 ? `${Math.round((n / d) * 100)}%` : "—";
+}
+
+/**
+ * Render a study log.
+ *
+ * Sections: a summary, a per-month table, what is due, and the most recently
+ * active days. Empty sections are omitted rather than rendered as "none" —
+ * a log full of empty tables is worse than a shorter one.
+ */
+export function progressToMarkdown(options: MarkdownExportOptions): string {
+  const { months, progress, activity } = options;
+  const now = options.now ?? new Date();
+
+  const allWords = Object.values(months).flatMap((m) => allWordsInMonth(m));
+  const total = allWords.length;
+  const mastered = allWords.filter((w) => progress[w.id]?.mastered).length;
+  const reviewed = allWords.filter(
+    (w) => (progress[w.id]?.timesReviewed ?? 0) > 0,
+  ).length;
+  const due = allWords.filter((w) => isDue(progress[w.id], now));
+
+  const quizAttempts = Object.values(progress).reduce(
+    (s, p) => s + p.quizAttempts,
+    0,
+  );
+  const quizCorrect = Object.values(progress).reduce(
+    (s, p) => s + p.quizCorrect,
+    0,
+  );
+  const streaks = calculateStreaks(activity);
+
+  const out: string[] = [];
+  out.push("# Lexicon study log");
+  out.push("");
+  out.push(`_Exported ${format(now, "d MMMM yyyy")}_`);
+  out.push("");
+
+  out.push("## Summary");
+  out.push("");
+  out.push("| | |");
+  out.push("| --- | --- |");
+  out.push(`| Words loaded | ${total} |`);
+  out.push(`| Mastered | ${mastered} (${pct(mastered, total)}) |`);
+  out.push(`| Reviewed at least once | ${reviewed} (${pct(reviewed, total)}) |`);
+  out.push(`| Due for review | ${due.length} |`);
+  out.push(`| Current streak | ${streaks.current} days |`);
+  out.push(`| Longest streak | ${streaks.longest} days |`);
+  out.push(
+    `| Quiz accuracy | ${quizAttempts > 0 ? `${pct(quizCorrect, quizAttempts)} (${quizCorrect}/${quizAttempts})` : "—"} |`,
+  );
+  out.push("");
+
+  const monthKeys = Object.keys(months).sort();
+  if (monthKeys.length > 0) {
+    out.push("## By month");
+    out.push("");
+    out.push("| Month | Words | Mastered | Due |");
+    out.push("| --- | ---: | ---: | ---: |");
+    for (const key of monthKeys) {
+      const words = allWordsInMonth(months[key]);
+      const m = words.filter((w) => progress[w.id]?.mastered).length;
+      const d = words.filter((w) => isDue(progress[w.id], now)).length;
+      out.push(
+        `| ${cell(months[key].displayName)} | ${words.length} | ${m} (${pct(m, words.length)}) | ${d} |`,
+      );
+    }
+    out.push("");
+  }
+
+  if (due.length > 0) {
+    out.push("## Due for review");
+    out.push("");
+    out.push("| Word | Interval | Ease | Due |");
+    out.push("| --- | ---: | ---: | --- |");
+    for (const word of due.slice(0, 100)) {
+      const p = progress[word.id];
+      const sm2 = schedulingStateOf(p);
+      out.push(
+        `| ${cell(word.word)} | ${sm2.intervalDays}d | ${sm2.easeFactor.toFixed(2)} | ${
+          p?.dueAt ? format(new Date(p.dueAt), "d MMM yyyy") : "—"
+        } |`,
+      );
+    }
+    if (due.length > 100) {
+      out.push("");
+      out.push(`_+ ${due.length - 100} more._`);
+    }
+    out.push("");
+  }
+
+  const recent = Object.values(activity)
+    .filter(
+      (a) =>
+        a.wordsReviewed > 0 ||
+        a.wordsMastered > 0 ||
+        a.quizzesTaken > 0 ||
+        a.sentencesWritten > 0,
+    )
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 30);
+
+  if (recent.length > 0) {
+    out.push("## Recent activity");
+    out.push("");
+    out.push("| Date | Reviewed | Mastered | Quizzes | Sentences |");
+    out.push("| --- | ---: | ---: | ---: | ---: |");
+    for (const day of recent) {
+      const label = day.date === toDateKey(now) ? `${day.date} (today)` : day.date;
+      out.push(
+        `| ${label} | ${day.wordsReviewed} | ${day.wordsMastered} | ${day.quizzesTaken} | ${day.sentencesWritten} |`,
+      );
+    }
+    out.push("");
+  }
+
+  out.push("---");
+  out.push("");
+  out.push(
+    "Generated by [Lexicon](https://github.com/rloterh/GreVocabApp). Progress is keyed by word, so re-importing the same vocabulary keeps it.",
+  );
+  out.push("");
+
+  return out.join("\n");
+}
+
+/** Suggested filename for a study log. */
+export function markdownFilename(now: Date = new Date()): string {
+  return `lexicon-progress-${toDateKey(now)}.md`;
+}

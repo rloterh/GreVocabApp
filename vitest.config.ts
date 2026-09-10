@@ -9,5 +9,6 @@ export default defineConfig({
     // Everything under test here is pure logic — no DOM needed.
     environment: "node",
     include: ["src/**/*.test.ts"],
+    setupFiles: ["src/test/setup.ts"],
   },
 });

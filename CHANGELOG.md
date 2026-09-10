@@ -12,6 +12,16 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - **"Due today" deck** — a `due` deck in Flashcards, selected automatically on
   open when anything is due, plus a Dashboard card showing the count with a
   jump straight into review.
+- **SRS onboarding hint** — a one-time, dismissible explainer above the rating
+  buttons covering what each rating does to the schedule. Tracked as
+  `hasSeenSrsIntro`.
+- **Per-word detail modal** (`src/components/WordDetail.tsx`) — click any
+  Search result for definition, mnemonic, mastery and quiz tallies, live SM-2
+  state (ease, interval, reps, next due) and the word's real review history.
+- **Optional daily study reminder** — Settings toggle and time picker, using
+  the web Notification API. Fires at most once a day, and only while the app is
+  open; permission is requested when you switch it on and reminders stay off if
+  it is refused.
 
 ### Changed
 - Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).

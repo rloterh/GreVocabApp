@@ -14,6 +14,10 @@ const DEFAULT_SETTINGS: Settings = {
   preferApiVerification: true,
   reduceMotion: false,
   fontSize: "md",
+  hasSeenSrsIntro: false,
+  studyReminderEnabled: false,
+  studyReminderTime: "19:00",
+  lastReminderDate: null,
 };
 
 export const useSettingsStore = create<SettingsState>()(

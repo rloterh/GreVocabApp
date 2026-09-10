@@ -13,6 +13,7 @@ import { Sidebar } from "@/components/Sidebar";
 import { Toast } from "@/components/Toast";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
+import { useStudyReminder } from "@/hooks/useStudyReminder";
 import { Dashboard } from "@/pages/Dashboard";
 import { DailyPractice } from "@/pages/DailyPractice";
 import { Flashcards } from "@/pages/Flashcards";
@@ -27,6 +28,9 @@ import { Settings } from "@/pages/Settings";
 export function App() {
   const page = useAppStore((s) => s.page);
   const theme = useSettingsStore((s) => s.theme);
+
+  // No-op unless the user has enabled reminders and granted permission.
+  useStudyReminder();
 
   // Apply theme on mount and when it changes
   useEffect(() => {

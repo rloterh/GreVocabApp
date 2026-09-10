@@ -13,6 +13,7 @@ import {
   Shuffle,
   Sparkles,
   Volume2,
+  CalendarClock,
   X,
   Zap,
 } from "lucide-react";
@@ -98,6 +99,8 @@ export function Flashcards() {
   const wordsProgress = useProgressStore((s) => s.words);
   const showToast = useAppStore((s) => s.showToast);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const hasSeenSrsIntro = useSettingsStore((s) => s.hasSeenSrsIntro);
+  const setSettings = useSettingsStore((s) => s.set);
 
   const [screen, setScreen] = useState<Screen>("setup");
   const [deck, setDeck] = useState<StudyDeck>("month");
@@ -380,6 +383,8 @@ export function Flashcards() {
             setPaused={setPaused}
             reduceMotion={reduceMotion}
             onRate={rate}
+            showSrsIntro={!hasSeenSrsIntro}
+            onDismissSrsIntro={() => setSettings({ hasSeenSrsIntro: true })}
             onSpeak={speak}
             onQuit={() => {
               if (
@@ -637,6 +642,8 @@ function PlayScreen({
   setPaused,
   reduceMotion,
   onRate,
+  showSrsIntro,
+  onDismissSrsIntro,
   onSpeak,
   onQuit,
   onPrev,
@@ -654,6 +661,8 @@ function PlayScreen({
   setPaused: (v: boolean) => void;
   reduceMotion: boolean;
   onRate: (r: StudyRating) => void;
+  showSrsIntro: boolean;
+  onDismissSrsIntro: () => void;
   onSpeak: () => void;
   onQuit: () => void;
   onPrev: () => void;
@@ -850,6 +859,50 @@ function PlayScreen({
           </motion.div>
         </motion.div>
       </div>
+
+      {/* One-time explainer for what the ratings now do. Shown above the
+          buttons rather than as a hover tooltip so it also works on touch,
+          and so dismissing it is a deliberate act we can persist. */}
+      <AnimatePresence>
+        {showSrsIntro && (
+          <motion.div
+            key="srs-intro"
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            className="mt-6 rounded-lg border border-accent/40 bg-accent/[0.06] p-4"
+            role="status"
+          >
+            <div className="flex items-start gap-3">
+              <CalendarClock className="w-4 h-4 text-accent shrink-0 mt-0.5" />
+              <div className="min-w-0 flex-1">
+                <p className="text-sm font-medium">
+                  Your rating schedules the next review
+                </p>
+                <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                  <span className="text-foreground font-medium">Again</span>{" "}
+                  brings the word back tomorrow.{" "}
+                  <span className="text-foreground font-medium">Hard</span>,{" "}
+                  <span className="text-foreground font-medium">Good</span> and{" "}
+                  <span className="text-foreground font-medium">Easy</span> all
+                  push it further out — the better you know it, the longer the
+                  gap. Be honest: guessing "Easy" only means seeing it again
+                  after you've forgotten it.
+                </p>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className="mt-3"
+                  onClick={onDismissSrsIntro}
+                >
+                  Got it
+                </Button>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Rating buttons */}
       <div className="mt-6 grid grid-cols-4 gap-2">

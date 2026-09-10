@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/EmptyState";
+import { WordDetail, type WordDetailTarget } from "@/components/WordDetail";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -19,6 +20,7 @@ export function Search() {
   const isMastered = useProgressStore((s) => s.isMastered);
   const navigate = useAppStore((s) => s.navigate);
   const [query, setQuery] = useState("");
+  const [detail, setDetail] = useState<WordDetailTarget | null>(null);
 
   const indexed = useMemo(() => {
     return Object.values(months).flatMap((m) =>
@@ -102,11 +104,16 @@ export function Search() {
               transition={{ delay: Math.min(i * 0.02, 0.3) }}
             >
               <Card
-                className="cursor-pointer hover:border-border/80 transition-colors"
-                onClick={() => {
-                  setActiveMonth(r.monthKey);
-                  setSelectedDay(r.day);
-                  navigate("practice");
+                role="button"
+                tabIndex={0}
+                aria-haspopup="dialog"
+                className="cursor-pointer hover:border-border/80 focus-visible:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring transition-colors"
+                onClick={() => setDetail(r)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    setDetail(r);
+                  }
                 }}
               >
                 <CardContent className="p-4">
@@ -142,6 +149,17 @@ export function Search() {
           ))}
         </div>
       </AnimatePresence>
+
+      <WordDetail
+        word={detail}
+        onOpenChange={(open) => !open && setDetail(null)}
+        onOpenPractice={(w) => {
+          setDetail(null);
+          setActiveMonth(w.monthKey);
+          setSelectedDay(w.day);
+          navigate("practice");
+        }}
+      />
 
       {q && results.length === 0 && (
         <p className="text-center text-sm text-muted-foreground py-12">

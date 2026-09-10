@@ -23,10 +23,12 @@ If you have an hour: pick a **P1** from Phase 2.
 If you have an afternoon: a real content-import path.
 If you have a weekend: content import + the desktop story.
 
+**Phase 2 is complete.** Next:
+
 1. **Real Tauri file-watching** (Phase 4, P0 for desktop story)
 2. **Anki `.apkg` export** (Phase 3, P1) — low effort, high delight
-3. **Per-word progress detail** (Phase 2, P1) — the SRS state is recorded but
-   not yet visible anywhere except the due count
+3. **A test runner** — unphased, but `src/lib/sm2.ts` is the most logic-dense
+   file in the repo and nothing guards it. See the Phase 2 caveat below.
 
 ## Phase 2 — Learning quality
 
@@ -38,9 +40,9 @@ If you have a weekend: content import + the desktop story.
 
 - ~~**[P0] Implement SM-2 scheduler.**~~ **DONE.** `src/lib/sm2.ts`. Shipped signature is `schedule(rating, priorEF, priorInterval, priorReps, now?)` returning `{ easeFactor, intervalDays, reps, dueAt }` — the return keys were renamed from the sketch above to match the `WordProgress` field names exactly, so the store can spread the result, and `reps` was added because the caller cannot recompute it without duplicating the algorithm's branching. `now` is injected so scheduling is deterministic under test.
 - ~~**[P0] "Due today" deck.**~~ **DONE.** `StudyDeck` variant `"due"`; Flashcards opens on it when anything is due (decided once per mount, so it never overrides a user's later choice). The Dashboard count is a call-to-action card that appears only when something is due, rather than a fifth stat tile — the stat grid is a 4-column layout and a lone fifth cell wrapped badly.
-- **[P1] SRS onboarding hint.** — First time a user opens Flashcards after this ships, explain the four rating buttons in a one-time tooltip. → State stored under `useSettingsStore` as `hasSeenSrsIntro`.
-- **[P1] Per-word progress detail.** — Click a word in Search or Archive → modal showing review history, current EF, next due date. → New `WordDetail.tsx` component; opens as a Radix Dialog.
-- **[P2] Study reminders.** — Optional daily nudge (browser Notification API in web, Tauri notifications on desktop). → Settings toggle + time picker. Skip if the runtime doesn't have permission.
+- ~~**[P1] SRS onboarding hint.**~~ **DONE.** `hasSeenSrsIntro` in `useSettingsStore`. Shipped as a dismissible callout directly above the rating row rather than a hover tooltip — a tooltip is unreachable on touch, and "seen once" needs a deliberate dismissal to persist honestly.
+- ~~**[P1] Per-word progress detail.**~~ **DONE.** `src/components/WordDetail.tsx`, a Radix Dialog showing card content, mastery and quiz tallies, live SM-2 state (ease, interval, reps, next due in plain words) and real review history reconstructed from stored study sessions. Wired into Search. **Not wired into Archive:** Archive lists months, not words, so there is nothing there to click — giving it a word list is a redesign, not a hook-up.
+- ~~**[P2] Study reminders.**~~ **DONE, with a real limit.** `src/hooks/useStudyReminder.ts` plus a Settings toggle and time picker. It uses the web Notification API and therefore **only fires while Lexicon is open**. Reaching a user with the app closed needs a service worker (web) or `tauri-plugin-notification` and Rust-side capability changes (desktop) — see Phase 4. The once-a-day guard is persisted as `lastReminderDate`, so a reload cannot double-notify.
 
 ### Definition of done
 

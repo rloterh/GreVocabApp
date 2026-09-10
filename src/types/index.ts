@@ -164,6 +164,14 @@ export interface Settings {
   preferApiVerification: boolean;
   reduceMotion: boolean;
   fontSize: "sm" | "md" | "lg";
+  /** Set once the user has dismissed the spaced-repetition explainer. */
+  hasSeenSrsIntro: boolean;
+  /** Opt-in daily nudge. Only fires while the app is open. */
+  studyReminderEnabled: boolean;
+  /** Local time for the nudge, "HH:mm". */
+  studyReminderTime: string;
+  /** Date key of the last reminder shown, so it fires at most once a day. */
+  lastReminderDate: string | null;
 }
 
 /** Aggregate stats for progress views */

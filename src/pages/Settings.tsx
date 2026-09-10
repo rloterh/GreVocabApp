@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { AlertTriangle, Check, Eye, EyeOff, Sun, Moon, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,6 +8,10 @@ import { useSettingsStore } from "@/store/useSettingsStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
+import {
+  notificationPermission,
+  requestNotificationPermission,
+} from "@/hooks/useStudyReminder";
 import { cn } from "@/lib/utils";
 
 export function Settings() {
@@ -16,6 +20,42 @@ export function Settings() {
   const vocab = useVocabStore();
   const showToast = useAppStore((s) => s.showToast);
   const [showKey, setShowKey] = useState(false);
+  const [permission, setPermission] = useState(notificationPermission());
+
+  // Permission can be revoked from browser UI while the app is open.
+  useEffect(() => {
+    const id = window.setInterval(
+      () => setPermission(notificationPermission()),
+      3000,
+    );
+    return () => window.clearInterval(id);
+  }, []);
+
+  async function toggleReminders(next: boolean) {
+    if (!next) {
+      settings.set({ studyReminderEnabled: false });
+      return;
+    }
+    const result = await requestNotificationPermission();
+    setPermission(result);
+    if (result !== "granted") {
+      settings.set({ studyReminderEnabled: false });
+      showToast({
+        title:
+          result === "unsupported"
+            ? "Notifications unavailable here"
+            : "Notification permission denied",
+        description:
+          result === "unsupported"
+            ? "This runtime has no Notification API. Desktop builds need tauri-plugin-notification."
+            : "Allow notifications for this site, then switch reminders back on.",
+        variant: "error",
+      });
+      return;
+    }
+    settings.set({ studyReminderEnabled: true });
+    showToast({ title: "Daily reminder on", variant: "success" });
+  }
   const [tempKey, setTempKey] = useState(settings.anthropicApiKey ?? "");
 
   function saveKey() {
@@ -171,6 +211,53 @@ export function Settings() {
             />
             Prefer AI verification when API key is set
           </label>
+        </div>
+      </SettingSection>
+
+      <SettingSection
+        title="Study reminders"
+        description="An optional daily nudge. It only fires while Lexicon is open — a reminder that reaches you with the app closed needs desktop notification support, which is not wired up yet."
+      >
+        <div className="space-y-3">
+          <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <input
+              type="checkbox"
+              checked={settings.studyReminderEnabled}
+              onChange={(e) => void toggleReminders(e.target.checked)}
+              className="accent-accent"
+              disabled={permission === "unsupported"}
+            />
+            Remind me daily
+          </label>
+
+          <div className="flex items-center gap-3">
+            <label
+              className="text-xs text-muted-foreground"
+              htmlFor="reminder-time"
+            >
+              Time
+            </label>
+            <Input
+              id="reminder-time"
+              type="time"
+              value={settings.studyReminderTime}
+              onChange={(e) =>
+                settings.set({ studyReminderTime: e.target.value })
+              }
+              className="w-32 tabular"
+              disabled={!settings.studyReminderEnabled}
+            />
+          </div>
+
+          <p className="text-[11px] text-muted-foreground leading-relaxed">
+            {permission === "unsupported"
+              ? "This runtime has no Notification API, so reminders cannot be enabled."
+              : permission === "denied"
+                ? "Notifications are blocked for this site. Allow them in your browser settings first."
+                : permission === "granted"
+                  ? "Notifications allowed. The nudge fires once a day, at or after the time above."
+                  : "You will be asked for notification permission when you switch this on."}
+          </p>
         </div>
       </SettingSection>
 

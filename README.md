@@ -63,9 +63,36 @@ Vocabulary files are JSON with this shape:
 }
 ```
 
-Three ways to load:
+### CSV
 
-1. **Drop files** — click "Import JSON" on the Dashboard or Archive
+CSV is accepted anywhere JSON is. It is converted to the shape above and then
+put through exactly the same validation, so the rules do not differ.
+
+```csv
+word,partOfSpeech,definition,example,mnemonic,day
+abate,verb,To lessen in intensity.,The storm abated by dawn.,"a-BATE, like bait shrinking",1
+cogent,adjective,Clear and convincing.,She made a cogent argument.,"cogent = co-agent, persuasive",1
+```
+
+- **Required columns:** `word`, `partOfSpeech`, `definition`, `example`,
+  `mnemonic`, `day`.
+- **Optional columns:** `month` (`YYYY-MM`), `id`, `synonyms`, `antonyms`.
+  Synonyms and antonyms are semicolon-separated: `terse;curt`.
+- **Header names are forgiving** — `Part of Speech`, `part_of_speech` and `POS`
+  all resolve to `partOfSpeech`; `Term` works for `word`, `Meaning` for
+  `definition`, `Memory Aid` for `mnemonic`.
+- **Which month?** A `month` column wins. Otherwise the filename is used if it
+  contains one (`2026-07.csv`), and failing that the current month. One CSV may
+  span several months; each becomes its own month, because a month is the unit
+  of loading everywhere in the app.
+- Quoted fields, embedded commas and newlines, and doubled quotes (`""`) are
+  handled per RFC 4180.
+
+Errors name the line: `Line 4: 'day' must be a whole number 1-31, got "nope"`.
+
+### Three ways to load
+
+1. **Drop files** — click "Import JSON / CSV" on the Dashboard or Archive
 2. **Pick a folder** — in browser (Chrome/Edge only) or Tauri, load a whole folder at once
 3. **Auto-seed** — files in `src/data/` are bundled and loaded on first run
 

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
 import { isTauri } from "@/lib/utils";
+import { csvToMonthObjects, monthFromFilename } from "@/lib/csv";
 
 /** File System Access API type shims */
 declare global {
@@ -14,11 +15,45 @@ declare global {
   }
 }
 
+/** Files this importer will attempt. */
+const ACCEPTED = /\.(json|csv)$/i;
+
 export function JsonImporter() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [busy, setBusy] = useState(false);
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const showToast = useAppStore((s) => s.showToast);
+
+  /**
+   * Turn one file's text into loaded months.
+   *
+   * CSV is converted to month-shaped objects and then handed to the same
+   * `loadMonth` validation as JSON, so there is only one definition of a valid
+   * month. A CSV may span several months, hence the count.
+   */
+  function importText(name: string, text: string): { loaded: number; failed: number } {
+    let loaded = 0;
+    let failed = 0;
+    try {
+      const objects = name.toLowerCase().endsWith(".csv")
+        ? csvToMonthObjects(text, {
+            fallbackMonth: monthFromFilename(name) ?? undefined,
+          })
+        : [JSON.parse(text)];
+      for (const obj of objects) {
+        const result = loadMonth(obj);
+        if (result.ok) loaded++;
+        else {
+          failed++;
+          console.warn(`${name}: ${result.error}`);
+        }
+      }
+    } catch (e) {
+      failed++;
+      console.warn(`${name}: ${e instanceof Error ? e.message : "parse error"}`, e);
+    }
+    return { loaded, failed };
+  }
 
   async function handleFiles(files: FileList | null) {
     if (!files || files.length === 0) return;
@@ -26,20 +61,10 @@ export function JsonImporter() {
     let loaded = 0;
     let failed = 0;
     for (const f of Array.from(files)) {
-      if (!f.name.endsWith(".json")) continue;
-      try {
-        const text = await f.text();
-        const raw = JSON.parse(text);
-        const result = loadMonth(raw);
-        if (result.ok) loaded++;
-        else {
-          failed++;
-          console.warn(`${f.name}: ${result.error}`);
-        }
-      } catch (e) {
-        failed++;
-        console.warn(`${f.name}: parse error`, e);
-      }
+      if (!ACCEPTED.test(f.name)) continue;
+      const r = importText(f.name, await f.text());
+      loaded += r.loaded;
+      failed += r.failed;
     }
     setBusy(false);
     if (loaded > 0) {
@@ -75,12 +100,12 @@ export function JsonImporter() {
         let loaded = 0;
         let failed = 0;
         for (const entry of entries) {
-          if (!entry.isFile || !entry.name.endsWith(".json")) continue;
+          if (!entry.isFile || !ACCEPTED.test(entry.name)) continue;
           try {
             const text = await readTextFile(`${dir}/${entry.name}`);
-            const result = loadMonth(JSON.parse(text));
-            if (result.ok) loaded++;
-            else failed++;
+            const r = importText(entry.name, text);
+            loaded += r.loaded;
+            failed += r.failed;
           } catch {
             failed++;
           }
@@ -117,13 +142,12 @@ export function JsonImporter() {
       let failed = 0;
       // @ts-expect-error — values() exists on FileSystemDirectoryHandle
       for await (const entry of dir.values()) {
-        if (entry.kind !== "file" || !entry.name.endsWith(".json")) continue;
+        if (entry.kind !== "file" || !ACCEPTED.test(entry.name)) continue;
         const file = await (entry as FileSystemFileHandle).getFile();
         try {
-          const raw = JSON.parse(await file.text());
-          const result = loadMonth(raw);
-          if (result.ok) loaded++;
-          else failed++;
+          const r = importText(entry.name, await file.text());
+          loaded += r.loaded;
+          failed += r.failed;
         } catch {
           failed++;
         }
@@ -147,7 +171,7 @@ export function JsonImporter() {
       <input
         ref={fileRef}
         type="file"
-        accept="application/json,.json"
+        accept="application/json,.json,text/csv,.csv"
         multiple
         className="hidden"
         onChange={(e) => handleFiles(e.target.files)}
@@ -159,7 +183,7 @@ export function JsonImporter() {
         disabled={busy}
       >
         <Upload className="w-3.5 h-3.5" />
-        Import JSON
+        Import JSON / CSV
       </Button>
       <Button
         size="sm"

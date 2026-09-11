@@ -1,4 +1,6 @@
 #[cfg(desktop)]
+mod ai_cli;
+#[cfg(desktop)]
 mod desktop;
 mod watcher;
 
@@ -8,6 +10,7 @@ pub fn run() {
         .plugin(tauri_plugin_shell::init())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_fs::init())
+        .plugin(tauri_plugin_http::init())
         .setup(|app| {
             watcher::init(app.handle());
             #[cfg(desktop)]
@@ -21,6 +24,10 @@ pub fn run() {
             watcher::start_watching,
             watcher::stop_watching,
             watcher::watched_folder,
+            #[cfg(desktop)]
+            ai_cli::detect_ai_clis,
+            #[cfg(desktop)]
+            ai_cli::run_ai_cli,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

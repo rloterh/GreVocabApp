@@ -198,6 +198,11 @@ export interface Settings {
   hasOnboarded: boolean;
   /** Opt-in interface sounds. */
   soundEnabled: boolean;
+  /**
+   * Ids of installed AI CLIs the user has explicitly enabled. Detection alone
+   * never grants permission — running one spends their subscription quota.
+   */
+  enabledAiTools: string[];
 }
 
 /**

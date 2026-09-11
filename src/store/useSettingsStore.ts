@@ -27,6 +27,7 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   watchedFolder: null,
   hasOnboarded: false,
   soundEnabled: false,
+  enabledAiTools: [],
 };
 
 export const useSettingsStore = create<SettingsStore>()(

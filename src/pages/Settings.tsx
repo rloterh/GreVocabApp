@@ -40,6 +40,8 @@ import {
 } from "@/lib/markdown-export";
 import { applyTheme, THEMES } from "@/lib/theme";
 import { playSound } from "@/lib/sound";
+import { installedClis } from "@/lib/ai/client";
+import type { DetectedCli } from "@/lib/ai/providers/cli";
 import { containsSecret, stripSecrets } from "@/lib/secrets";
 import { pickWatchedFolder } from "@/hooks/useWatchedFolder";
 import { isTauri } from "@/lib/utils";
@@ -68,6 +70,12 @@ export function Settings() {
   const [ankiDeckName, setAnkiDeckName] = useState("Lexicon");
   const [ankiGrouping, setAnkiGrouping] = useState<"month" | "single">("month");
   const [permission, setPermission] = useState(notificationPermission());
+  const [clis, setClis] = useState<DetectedCli[]>([]);
+
+  // Presence on PATH only — nothing is executed to find this out.
+  useEffect(() => {
+    void installedClis().then(setClis);
+  }, []);
 
   // Permission can be revoked from browser UI while the app is open.
   useEffect(() => {
@@ -334,6 +342,47 @@ export function Settings() {
           </label>
         </div>
       </SettingSection>
+
+      {clis.length > 0 && (
+        <SettingSection
+          title="Installed AI tools"
+          description="These are already on this machine and signed in. Turning one on lets Lexicon use it to generate vocabulary — no API key needed. Lexicon never reads their credentials; it runs the tool and the tool authenticates itself."
+        >
+          <div className="space-y-3">
+            {clis.map((cli) => {
+              const enabled = settings.enabledAiTools.includes(cli.id);
+              return (
+                <div key={cli.id} className="space-y-1">
+                  <label className="flex items-center gap-2 text-sm cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={enabled}
+                      onChange={(e) =>
+                        settings.set({
+                          enabledAiTools: e.target.checked
+                            ? [...settings.enabledAiTools, cli.id]
+                            : settings.enabledAiTools.filter(
+                                (id) => id !== cli.id,
+                              ),
+                        })
+                      }
+                      className="accent-accent"
+                    />
+                    Use {cli.label}
+                  </label>
+                  <p className="text-[11px] text-muted-foreground break-all pl-6">
+                    {cli.path}
+                  </p>
+                </div>
+              );
+            })}
+            <p className="text-[11px] text-muted-foreground leading-relaxed">
+              Requests run through your own subscription or quota for that tool,
+              and are subject to its terms.
+            </p>
+          </div>
+        </SettingSection>
+      )}
 
       <SettingSection
         title="Sound"

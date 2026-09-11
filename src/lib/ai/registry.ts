@@ -12,6 +12,7 @@ import { AiError } from "./errors";
 import { AnthropicProvider } from "./providers/anthropic";
 import { OpenAiCompatibleProvider } from "./providers/openai-compatible";
 import { fetchTransport, type Transport } from "./transport";
+import { CliProvider, type DetectedCli } from "./providers/cli";
 import type {
   Availability,
   Provider,
@@ -41,6 +42,10 @@ export interface RegistryConfig {
   secrets?: ProviderSecrets;
   /** When set, the cascade is skipped and this provider is used. */
   pinned?: ProviderId | null;
+  /** AI CLIs found on PATH. Desktop only; empty elsewhere. */
+  detectedClis?: DetectedCli[];
+  /** Which of those the user has turned on, by tool id. */
+  enabledClis?: string[];
 }
 
 /** Defaults that make a provider usable without the user configuring anything. */
@@ -87,6 +92,17 @@ export class ProviderRegistry {
           },
           this.transport,
         ),
+      );
+    }
+
+    // Tier 3 — an AI CLI the user already has. Detected, but never used
+    // until they enable it: running it spends their subscription quota.
+    for (const tool of this.config.detectedClis ?? []) {
+      providers.push(
+        new CliProvider({
+          tool,
+          enabled: (this.config.enabledClis ?? []).includes(tool.id),
+        }),
       );
     }
 

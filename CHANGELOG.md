@@ -67,6 +67,12 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - **Generate vocabulary with no API key at all.** "Generate elsewhere" copies a
   ready-made prompt you can paste into any AI you already use — then paste the
   reply back and it loads like any file. Commentary and code fences are ignored.
+- **Desktop: use an AI tool you already have.** If Claude Code, Codex or the
+  Gemini CLI is installed and signed in, switch it on in Settings and Lexicon
+  will use it — no API key. Lexicon never reads their credentials; it runs the
+  tool and the tool authenticates itself.
+- **Desktop: local model servers just work.** Requests go through Rust, so
+  Ollama and LM Studio are reachable without setting `OLLAMA_ORIGINS`.
 - **Any AI provider, not just Anthropic.** Local servers (Ollama, LM Studio,
   llama.cpp), OpenAI, Groq, OpenRouter, or any OpenAI-compatible endpoint. The
   app picks whichever is cheapest for you — on-device first — and names the one

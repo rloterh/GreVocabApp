@@ -9,7 +9,21 @@
 
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { ProviderRegistry } from "./registry";
+import { detectAiClis, type DetectedCli } from "./providers/cli";
+import { platformTransport } from "./tauri-transport";
 import type { Provider } from "./types";
+
+/**
+ * Installed CLIs, cached for the session. Detection shells out to look at
+ * PATH, which is cheap but not free, and the answer does not change while the
+ * app is open.
+ */
+let cachedClis: DetectedCli[] | null = null;
+
+export async function installedClis(): Promise<DetectedCli[]> {
+  cachedClis ??= await detectAiClis();
+  return cachedClis;
+}
 
 /**
  * A registry reflecting current settings.
@@ -18,10 +32,14 @@ import type { Provider } from "./types";
  * would keep using a key the user has replaced. Construction is cheap — it
  * builds a handful of objects and performs no I/O.
  */
-export function aiRegistry(): ProviderRegistry {
+export function aiRegistry(detectedClis: DetectedCli[] = []): ProviderRegistry {
   const settings = useSettingsStore.getState();
   return new ProviderRegistry({
+    // Rust on desktop so local servers are reachable at all; fetch on web.
+    transport: platformTransport(),
     secrets: { anthropicApiKey: settings.anthropicApiKey },
+    detectedClis,
+    enabledClis: settings.enabledAiTools,
   });
 }
 
@@ -32,5 +50,5 @@ export function aiRegistry(): ProviderRegistry {
  * constructing a provider, so the cascade applies uniformly.
  */
 export async function selectProvider(): Promise<Provider> {
-  return aiRegistry().select();
+  return aiRegistry(await installedClis()).select();
 }

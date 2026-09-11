@@ -22,6 +22,32 @@ subprocess.
 Detection is presence on `PATH` plus a cheap version probe. Nothing is invoked
 for real until the user enables that tool in settings.
 
+## Spike finding — this machine, 2026-09-11
+
+A detection-only probe of the routes that need no key:
+
+| Route | Result here |
+| --- | --- |
+| Browser built-in | `availability()` → `"unavailable"` (Edge and Chrome) |
+| Ollama `:11434`, LM Studio `:1234`, llama.cpp `:8080`, Jan `:1337` | nothing listening |
+| **`claude` on PATH** | **present**, at `~/.local/bin/claude` |
+| `ant`, `codex`, `gemini`, `ollama`, `llm` | absent |
+| WebGPU | adapter obtained |
+
+So on the machine this app is being built on, **the installed CLI is the only
+zero-configuration programmatic route that exists.** The browser model is
+unavailable and no local server is running.
+
+That is a single data point and not a user study. But it is a realistic one —
+a developer's machine with an AI CLI and no model server is a common shape —
+and it is enough to move this from P1 to P0. A cascade whose no-key tiers are
+all empty is not a cascade.
+
+**Nothing was invoked.** Presence on `PATH` was checked and the probe stopped
+there, because running the tool would have spent the owner's subscription quota
+without asking — which is the thing rule 2 below exists to prevent. The rule
+applied to its own spike.
+
 ## Rules
 
 1. **Never read another tool's credential store.** We invoke the program and let

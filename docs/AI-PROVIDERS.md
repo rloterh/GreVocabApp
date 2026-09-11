@@ -70,7 +70,7 @@ Detection is a capability probe with a short timeout, cached for the session:
 
 | Provider | Probe | Notes |
 | --- | --- | --- |
-| Browser built-in | `LanguageModel.availability()` (and the older `window.ai.*` shape) | Returns available / downloadable / unavailable. **API surface must be verified in the spike** — this area has changed repeatedly and is partly origin-trial gated. |
+| Browser built-in | `typeof globalThis.LanguageModel === "function"`, then `await LanguageModel.availability()` | **Measured 2026-09-11:** the global is present in Edge and Chrome 152 but `availability()` returns `"unavailable"` on this machine. Presence is not availability — always call it. The legacy `window.ai.*` shape is gone; do not implement it. |
 | Ollama | `GET /api/tags` on `127.0.0.1:11434` | Lists installed models. Blocked by CORS from a browser origin unless the user sets `OLLAMA_ORIGINS`; fine from Rust. |
 | LM Studio | `GET /v1/models` on `127.0.0.1:1234` | OpenAI-compatible. Serves CORS more liberally, but do not rely on it. |
 | llama.cpp | `GET /v1/models` on `127.0.0.1:8080` | OpenAI-compatible. |
@@ -78,6 +78,13 @@ Detection is a capability probe with a short timeout, cached for the session:
 | Installed CLI | The binary is on `PATH`, plus a cheap `--version` | Detected but never used until the user enables that tool. [ADR 0009](./adr/0009-installed-cli-providers.md) |
 | OAuth | A stored, unexpired token for that provider | Refresh on `Unauthorized`, once, then prompt to reconnect. |
 | Cloud | A key exists in settings for that provider | No network probe. Do not spend the user's money to answer "are you configured". |
+
+> **Spike result, 2026-09-11.** The browser built-in model was `"unavailable"`
+> on both Edge and Chrome here, headless and headed. The API is worth
+> supporting — free and fully private when it works — but it cannot be the
+> path that makes the app work out of the box. That weight falls on local
+> servers, installed CLIs and the prompt bridge. Details in
+> [ADR 0007](./adr/0007-authentication-strategy.md).
 
 Probes run in parallel with a ~1.5s budget, and the result is cached until
 settings change. A cold start must not block the UI: generation entry points

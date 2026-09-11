@@ -76,6 +76,47 @@ that has not agreed to it — no.
 - Each provider's OAuth availability is a spike finding, recorded here when
   known, not guessed at now.
 
+## Spike findings — browser built-in AI, 2026-09-11
+
+Measured on this machine rather than assumed. Edge and Chrome, both channels at
+Chromium 152, headless and headed, on a real `https://` origin.
+
+| Probe | Result |
+| --- | --- |
+| `typeof globalThis.LanguageModel` | `"function"` — **present in both browsers** |
+| `window.ai` / `window.ai.languageModel` | `undefined` — the legacy shape is gone |
+| `Summarizer`, `Translator`, `LanguageDetector` | present |
+| `Writer`, `Rewriter` | absent |
+| **`await LanguageModel.availability()`** | **`"unavailable"`** in both, both modes |
+| `navigator.gpu` + `requestAdapter()` | present, adapter obtained |
+
+### What this changes
+
+1. **Detect with the modern shape only.** `globalThis.LanguageModel` plus
+   `availability()`. Do not write a `window.ai.*` fallback; it is not there.
+2. **Presence is not availability.** The API surface exists while the model is
+   unusable. Any adapter that treats "the global is defined" as "I can use
+   this" will fail at the first request. `availability()` is mandatory.
+3. **The browser provider cannot be the primary path.** It returned
+   `"unavailable"` — not `"downloadable"` — so on this configuration the model
+   cannot be provisioned at all. Why is not determinable from a page probe:
+   plausible causes are hardware or free-disk gating, enterprise policy, or
+   regional rollout. The honest position is that a meaningful share of users
+   will get nothing here.
+4. **WebGPU is viable**, which makes the in-app model a real fallback on this
+   class of machine rather than a theoretical one.
+
+### Consequences for the plan
+
+The browser provider drops from P1 to P2. It stays worth building — it is free
+and perfectly private when it works — but the weight of "AI with no setup"
+shifts onto the routes that were measured to work: a **local server**, an
+**installed CLI**, and the **prompt bridge**, which needs nothing at all.
+
+This is the spike doing its job. Designing the cascade around a browser model
+that is unavailable on the developer's own machine would have produced a
+first-run experience that quietly did nothing.
+
 ## The privacy point that makes most of this moot
 
 A user studying alone on one device does not need to send anything anywhere.

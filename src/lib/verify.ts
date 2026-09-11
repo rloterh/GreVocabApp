@@ -1,5 +1,6 @@
 import type { SentenceVerification, VocabWord } from "@/types";
 import type { Provider } from "@/lib/ai/types";
+import { overlapRatio } from "@/lib/text-overlap";
 
 /**
  * Heuristic sentence check.
@@ -89,20 +90,9 @@ function containsWord(sentence: string, word: string): boolean {
 }
 
 function looksLikeExample(sentence: string, example: string): boolean {
-  const norm = (s: string) =>
-    s
-      .toLowerCase()
-      .replace(/["'.,!?;:—-]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-  const a = norm(sentence);
-  const b = norm(example);
-  if (!a || !b) return false;
-  // Very high overlap = probably copied
-  const words = new Set(a.split(" "));
-  const exWords = b.split(" ");
-  const shared = exWords.filter((w) => words.has(w)).length;
-  return shared / Math.max(exWords.length, 1) > 0.75;
+  // Shared with the generated-word checks, which ask the same question of a
+  // mnemonic and its definition. See src/lib/text-overlap.ts.
+  return overlapRatio(example, sentence) > 0.75;
 }
 
 function escapeRe(s: string): string {

@@ -12,7 +12,7 @@
  * See ROADMAP.md, Phase 3; docs/AI-PROVIDERS.md.
  */
 
-import type { VocabMonth } from "@/types";
+import type { VocabMonth, VocabWord } from "@/types";
 import { formatMonthKey, slugify } from "@/lib/date-utils";
 import type { Provider } from "@/lib/ai/types";
 
@@ -233,4 +233,62 @@ export function toMonth(
     description: `Generated: ${topic}`,
     createdAt: new Date().toISOString(),
   };
+}
+
+/**
+ * Card content for words that are already chosen.
+ *
+ * Two callers, same need: repairing a card that failed a quality check, and
+ * adding a word the user named to a month they already have. Neither is
+ * choosing words — the words are given — so this asks only for the definition,
+ * example and mnemonic.
+ *
+ * `notes` carry per-word instructions, which is what makes a repair targeted
+ * rather than a reroll: the model is told what was wrong with the last attempt.
+ */
+export async function generateCards(options: {
+  provider: Provider;
+  words: string[];
+  monthKey: string;
+  /** What to fix, where the words are being regenerated. */
+  notes?: string[];
+  signal?: AbortSignal;
+}): Promise<VocabWord[]> {
+  const { provider, words, monthKey, notes = [], signal } = options;
+  if (words.length === 0) return [];
+
+  const prompt = [
+    `Write a vocabulary card for each of these ${words.length} words:`,
+    words.map((w) => `- ${w}`).join("\n"),
+    "",
+    "Use exactly these words. Do not substitute, add or omit any.",
+    "",
+    "Requirements:",
+    "- The definition must be one clear sentence in plain English, and must",
+    "  never contain the word being defined or any form of it.",
+    "- The example must contain the word, and must make the meaning inferable",
+    "  from the situation rather than restating the definition.",
+    "- The mnemonic must be a sound-alike, a root breakdown, or a vivid image.",
+    "  Never a paraphrase of the definition.",
+    notes.length > 0
+      ? `\nFix these specific problems with the previous attempt:\n${notes.map((n) => `- ${n}`).join("\n")}`
+      : "",
+    "",
+    `Call the ${TOOL_NAME} tool exactly once with all ${words.length} cards.`,
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+  const raw = await provider.completeStructured<RawWord[]>({
+    name: TOOL_NAME,
+    prompt,
+    schema: VOCAB_SCHEMA,
+    signal,
+    maxOutputTokens: 8_000,
+    validate: validateWords,
+  });
+
+  // Reuse the same shaping as a generated month, then take the words back out:
+  // day layout is the caller's business here, not ours.
+  return toMonth(raw, monthKey, "cards").days.flatMap((day) => day.words);
 }

@@ -66,8 +66,11 @@ function fakeProvider(options: {
         words: words.slice(0, wanted).map((word) => ({
           word,
           partOfSpeech: "noun",
-          definition: `The state of ${word}.`,
-          example: `The ${word} was evident.`,
+          // Deliberately passes the quality checks, so these tests measure
+          // what they claim to. `The state of ${word}` is circular, and the
+          // repair pass would fire on every card and shift every call count.
+          definition: "A quality worth knowing.",
+          example: `The ${word} was evident throughout.`,
           mnemonic: `Sounds like ${word}.`,
           synonyms: [],
           antonyms: [],
@@ -430,5 +433,150 @@ describe("summarize", () => {
       commit: () => {},
     });
     expect(summarize(checkpoint).failed).toEqual(["2026-10"]);
+  });
+});
+
+describe("quality repair", () => {
+  /**
+   * A provider whose first batch is deliberately bad and whose repair is good.
+   *
+   * `emit_vocabulary` serves both the month request and the card repair, so the
+   * prompt is what distinguishes them.
+   */
+  function repairingProvider(options: { fixIt: boolean }) {
+    const prompts: string[] = [];
+    const provider = {
+      id: "openai",
+      label: "Fake",
+      tier: 6,
+      detect: async () => "available" as const,
+      capabilities: () => ({
+        onDevice: false,
+        streaming: false,
+        structuredOutput: "tool" as const,
+        maxOutputTokens: 16_000,
+      }),
+      complete: async () => ({ text: "", provider: "openai" as const }),
+      completeStructured: async <T,>(request: {
+        prompt: string;
+        validate?: (v: unknown) => T;
+      }): Promise<T> => {
+        prompts.push(request.prompt);
+        const repairing = /vocabulary card for each/.test(request.prompt);
+
+        const make = (word: string, good: boolean) => ({
+          word,
+          partOfSpeech: "noun",
+          // A circular definition: the classic failure.
+          definition: good ? "A state of calm." : `The quality of being ${word}.`,
+          example: good
+            ? `The ${word} of the room settled everyone.`
+            : `The ${word} of the room settled everyone.`,
+          mnemonic: good ? `${word} sounds like a lullaby.` : `The quality of being ${word}.`,
+          synonyms: [],
+          antonyms: [],
+        });
+
+        const wanted = repairing
+          ? (request.prompt.match(/^- \w+$/gm) ?? []).length
+          : Number(/exactly (\d+) vocabulary/.exec(request.prompt)?.[1] ?? 0);
+
+        const words = Array.from({ length: wanted }, (_, i) =>
+          make(`qrs${i}`, repairing && options.fixIt),
+        );
+        const payload = { words };
+        return request.validate ? request.validate(payload) : (payload as T);
+      },
+    } as unknown as Provider;
+    return { provider, prompts };
+  }
+
+  it("regenerates cards that fail a local check", async () => {
+    const { provider, prompts } = repairingProvider({ fixIt: true });
+    const { months, commit } = collect();
+
+    const checkpoint = await runPlan({
+      plan: plan({ horizon: "month", wordsPerDay: 1 }),
+      provider,
+      index: VocabIndex.from([]),
+      commit,
+    });
+
+    // A second request, aimed at the bad cards rather than the whole batch.
+    expect(prompts.some((p) => /vocabulary card for each/.test(p))).toBe(true);
+    expect(checkpoint.outcomes[0].repaired).toBeGreaterThan(0);
+
+    const words = months[0].days.flatMap((d) => d.words);
+    expect(words.every((w) => !/quality of being/.test(w.definition))).toBe(true);
+  });
+
+  it("tells the model what was actually wrong", async () => {
+    const { provider, prompts } = repairingProvider({ fixIt: true });
+    await runPlan({
+      plan: plan({ horizon: "month", wordsPerDay: 1 }),
+      provider,
+      index: VocabIndex.from([]),
+      commit: () => {},
+    });
+    const repair = prompts.find((p) => /vocabulary card for each/.test(p))!;
+    // A targeted repair, not a reroll.
+    expect(repair).toMatch(/uses the word itself/);
+  });
+
+  it("keeps the original when the repair is no better", async () => {
+    const { provider } = repairingProvider({ fixIt: false });
+    const { months, commit } = collect();
+
+    const checkpoint = await runPlan({
+      plan: plan({ horizon: "month", wordsPerDay: 1 }),
+      provider,
+      index: VocabIndex.from([]),
+      commit,
+    });
+
+    // A card is never dropped for failing, and a repair that fixes nothing is
+    // not applied — silently shrinking the month would be worse than an
+    // imperfect card.
+    expect(checkpoint.outcomes[0].repaired).toBe(0);
+    expect(months[0].days.flatMap((d) => d.words).length).toBeGreaterThan(0);
+  });
+
+  it("does not lose the month when the repair request fails", async () => {
+    let call = 0;
+    const { provider: base } = repairingProvider({ fixIt: true });
+    const provider = {
+      ...base,
+      completeStructured: async (request: { prompt: string; validate?: (v: unknown) => unknown }) => {
+        if (/vocabulary card for each/.test(request.prompt)) {
+          throw new Error("repair blew up");
+        }
+        call++;
+        return base.completeStructured(request as never);
+      },
+    } as unknown as Provider;
+
+    const { months, commit } = collect();
+    await runPlan({
+      plan: plan({ horizon: "month", wordsPerDay: 1 }),
+      provider,
+      index: VocabIndex.from([]),
+      commit,
+    });
+
+    // The words were already good enough to commit; losing them to a flaky
+    // repair would be absurd.
+    expect(call).toBe(1);
+    expect(months).toHaveLength(1);
+  });
+
+  it("counts repairs in the summary", async () => {
+    const { provider } = repairingProvider({ fixIt: true });
+    const checkpoint = await runPlan({
+      plan: plan({ horizon: "month", wordsPerDay: 1 }),
+      provider,
+      index: VocabIndex.from([]),
+      commit: () => {},
+    });
+    expect(summarize(checkpoint).repaired).toBeGreaterThan(0);
   });
 });

@@ -26,6 +26,18 @@ interface VocabState {
   removeMonth: (monthKey: string) => void;
   /** Let retired words be generated again. Explicit, never automatic. */
   releaseRetired: (monthKey?: string) => number;
+  /**
+   * Append words to a month that already exists.
+   *
+   * Existing days are left exactly as they are — a user part-way through a
+   * month should not find yesterday's words rearranged. New words fill the
+   * last day up to `wordsPerDay` and then start new ones.
+   */
+  addWordsToMonth: (
+    monthKey: string,
+    words: VocabWord[],
+    wordsPerDay?: number,
+  ) => { ok: true; added: number } | { ok: false; error: string };
   setActiveMonth: (monthKey: string) => void;
   setSelectedDay: (day: number) => void;
 
@@ -86,6 +98,35 @@ export const useVocabStore = create<VocabState>()(
 
           return { months: rest, retiredWords, activeMonthKey: nextActive };
         });
+      },
+
+      addWordsToMonth: (monthKey, words, wordsPerDay = 3) => {
+        const month = get().months[monthKey];
+        if (!month) return { ok: false as const, error: "That month is not loaded." };
+        if (words.length === 0) return { ok: true as const, added: 0 };
+
+        const days = month.days.map((day) => ({ ...day, words: [...day.words] }));
+        let remaining = [...words];
+
+        // Top up the last day before opening a new one, so a month does not
+        // end with a day of one word and a day of three.
+        const last = days[days.length - 1];
+        if (last && last.words.length < wordsPerDay) {
+          last.words.push(...remaining.splice(0, wordsPerDay - last.words.length));
+        }
+
+        let nextDay = (days[days.length - 1]?.day ?? 0) + 1;
+        while (remaining.length > 0 && nextDay <= 31) {
+          days.push({ day: nextDay, words: remaining.splice(0, wordsPerDay) });
+          nextDay++;
+        }
+
+        setStore((state) => ({
+          months: { ...state.months, [monthKey]: { ...month, days } },
+        }));
+
+        // A month is 31 days; anything past that has nowhere to go.
+        return { ok: true as const, added: words.length - remaining.length };
       },
 
       releaseRetired: (monthKey) => {

@@ -230,9 +230,9 @@ Design: [`docs/VOCAB-GENERATION.md`](./docs/VOCAB-GENERATION.md) ·
 - ~~**[P0] Generation plan.**~~ **DONE 2026-09-11.** — `src/lib/generation-plan.ts`: a value object with a difficulty curve across the horizon rather than a constant. `previewPlan` contacts nothing, which is the point of it. 36 tests.
 - ~~**[P0] Batched execution with overage.**~~ **DONE 2026-09-11.** — `src/lib/generation-run.ts`. Asks for 25% more, filters locally, tops up once, then accepts a short month and records the shortfall rather than blocking a year on one stubborn batch.
 - ~~**[P0] Resumable plans.**~~ **DONE 2026-09-11.** — `RunCheckpoint` after every month, committed or not. Tested by failing mid-run and resuming with a working provider: month 1 is not generated again.
-- **[P1] User-supplied word lists.** — Paste or type words that must appear. → Placed first, never dropped, warned about if already present.
-- **[P1] Add words to an existing month.** — Generate only the card content for a word the user names.
-- **[P1] Local quality checks.** — No circular definitions; examples that do not restate the definition; mnemonics that are actually mnemonics. → Reuses the overlap check already in `verify.ts`, one targeted regeneration per failure.
+- ~~**[P1] User-supplied word lists.**~~ **DONE 2026-09-11.** — A textarea in the plan builder, one per line or comma-separated. Distributed across the earliest months, named in the prompt as *additional* rather than instead of, and warned about — before anything is generated — when already present.
+- ~~**[P1] Add words to an existing month.**~~ **DONE 2026-09-11.** — `AddWordsButton` on each Archive month. The words are the user's, so only definition, example and mnemonic are generated. Existing days are left untouched; new words top up the last day before opening another. Collisions are named before generating, not after.
+- ~~**[P1] Local quality checks.**~~ **DONE 2026-09-11.** — `src/lib/word-quality.ts`: circular definitions (stem-based, so `abatement` in the definition of `abate` counts), examples missing the word or restating the definition, mnemonics that are the definition again. The overlap check moved out of `verify.ts` into `text-overlap.ts` so both callers share one implementation. One targeted regeneration per failure, and a repair is kept only if it is actually better — a card is never dropped for failing.
 
 ### Definition of done — library complete 2026-09-11
 
@@ -240,14 +240,14 @@ Design: [`docs/VOCAB-GENERATION.md`](./docs/VOCAB-GENERATION.md) ·
 - ~~Removing a month and regenerating does not hand back that month's words.~~ Tested at both the index and the store level, including across a simulated restart.
 - ~~A plan that fails partway resumes without repeating work.~~ Tested.
 
-**Wired to a screen 2026-09-11.** `PlanBuilder` is a second mode in the
-generate dialog: horizon, difficulty, register, and a word list, with a preview
-that contacts nothing. Months already loaded are skipped rather than
-overwritten. A failure mid-run keeps what finished and offers Resume. Driven in
-a browser against a stubbed provider: 15/15, including 450 words across months
-with zero repeats, and a deliberate mid-run failure followed by a resume.
+**Phase complete 2026-09-11.** `PlanBuilder` is a second mode in the generate
+dialog: horizon, difficulty, register, and a word list, with a preview that
+contacts nothing. Months already loaded are skipped rather than overwritten. A
+failure mid-run keeps what finished and offers Resume.
 
-The three P1 items below are what remain.
+Driven in a browser against a stubbed provider at every step: 15/15 for the
+plan builder (450 words across months, zero repeats, a deliberate mid-run
+failure and a resume that completed it) and 10/10 for adding words to a month.
 
 ## Phase 9 — Android
 

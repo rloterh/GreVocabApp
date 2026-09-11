@@ -268,3 +268,85 @@ describe("reloading a month that was retired", () => {
     expect(index.lookup("abate")?.retiredAt).toBeUndefined();
   });
 });
+
+describe("adding words to an existing month", () => {
+  /** Cards as `generateCards` returns them. */
+  function cards(...words: string[]) {
+    return words.map((w) => ({
+      id: `2026-04-${w}`,
+      word: w,
+      partOfSpeech: "noun",
+      definition: "A definition.",
+      example: "An example sentence.",
+      mnemonic: "A mnemonic.",
+    }));
+  }
+
+  beforeEach(() => {
+    store().loadMonth(namedMonth("2026-04", ["abate", "cogent"]));
+  });
+
+  it("appends them and reports how many landed", () => {
+    const result = store().addWordsToMonth("2026-04", cards("turgid"));
+    expect(result).toEqual({ ok: true, added: 1 });
+    const words = store()
+      .months["2026-04"].days.flatMap((d) => d.words)
+      .map((w) => w.word);
+    expect(words).toEqual(["abate", "cogent", "turgid"]);
+  });
+
+  it("leaves existing days exactly as they were", () => {
+    const before = JSON.stringify(store().months["2026-04"].days[0]);
+    store().addWordsToMonth("2026-04", cards("turgid", "laconic", "fervid", "dearth"));
+    // A user part-way through a month must not find yesterday rearranged.
+    expect(JSON.stringify(store().months["2026-04"].days[0])).toBe(before);
+  });
+
+  it("tops up the last day before opening a new one", () => {
+    // The seeded month has one word on its last day, so two more belong there
+    // rather than on a fresh day.
+    store().addWordsToMonth("2026-04", cards("turgid", "laconic"), 3);
+    const days = store().months["2026-04"].days;
+    expect(days).toHaveLength(2);
+    expect(days[1].words.map((w) => w.word)).toEqual(["cogent", "turgid", "laconic"]);
+  });
+
+  it("starts new days once the last one is full", () => {
+    store().addWordsToMonth(
+      "2026-04",
+      cards("a", "b", "c", "d", "e"),
+      3,
+    );
+    const days = store().months["2026-04"].days;
+    expect(days.map((d) => d.day)).toEqual([1, 2, 3]);
+    expect(days[2].words.map((w) => w.word)).toEqual(["c", "d", "e"]);
+  });
+
+  it("refuses a month that is not loaded", () => {
+    const result = store().addWordsToMonth("2026-09", cards("turgid"));
+    expect(result.ok).toBe(false);
+  });
+
+  it("is a no-op for an empty list", () => {
+    const before = JSON.stringify(store().months["2026-04"]);
+    expect(store().addWordsToMonth("2026-04", [])).toEqual({ ok: true, added: 0 });
+    expect(JSON.stringify(store().months["2026-04"])).toBe(before);
+  });
+
+  it("reports what did not fit rather than silently dropping it", () => {
+    // A month is 31 days. Anything past that has nowhere to go, and the
+    // caller has to be able to say so.
+    const many = cards(...Array.from({ length: 200 }, (_, i) => `w${i}`));
+    const result = store().addWordsToMonth("2026-04", many, 3);
+    expect(result.ok).toBe(true);
+    if (result.ok) {
+      expect(result.added).toBeLessThan(many.length);
+      expect(store().months["2026-04"].days.length).toBeLessThanOrEqual(31);
+    }
+  });
+
+  it("puts the new words into the index", () => {
+    store().addWordsToMonth("2026-04", cards("turgid"));
+    expect(store().getVocabIndex().has("turgid")).toBe(true);
+  });
+});

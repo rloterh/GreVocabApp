@@ -19,7 +19,8 @@
 
 import type { VocabMonth } from "@/types";
 import type { Provider } from "@/lib/ai/types";
-import { generateMonth } from "@/lib/generate";
+import { generateCards, generateMonth } from "@/lib/generate";
+import { checkWord, partitionByQuality } from "@/lib/word-quality";
 import { VocabIndex } from "@/lib/vocab-index";
 import {
   difficultyAt,
@@ -46,6 +47,8 @@ export interface MonthOutcome {
   produced: number;
   /** Rejected as duplicates of something already known. */
   duplicates: number;
+  /** Cards that failed a local quality check and were regenerated once. */
+  repaired: number;
   /** Set when the month came back short of what was asked for. */
   shortfall?: number;
   error?: string;
@@ -186,6 +189,7 @@ async function generateOneMonth(request: MonthRequest): Promise<MonthOutcome> {
           requested,
           produced: 0,
           duplicates,
+          repaired: 0,
           error: error instanceof Error ? error.message : String(error),
         };
       }
@@ -214,19 +218,79 @@ async function generateOneMonth(request: MonthRequest): Promise<MonthOutcome> {
       requested,
       produced: 0,
       duplicates,
+      repaired: 0,
       error: "Everything generated for this month was a word you already have.",
     };
   }
 
-  const month = layOut(kept, monthKey, plan, monthIndex);
+  const { words: checked, repaired } = await repairPoorCards(
+    kept,
+    provider,
+    monthKey,
+    signal,
+  );
+
+  const month = layOut(checked, monthKey, plan, monthIndex);
   return {
     monthKey,
     month,
     requested,
-    produced: kept.length,
+    produced: checked.length,
     duplicates,
-    shortfall: kept.length < needed ? needed - kept.length : undefined,
+    repaired,
+    shortfall: checked.length < needed ? needed - checked.length : undefined,
   };
+}
+
+/**
+ * One targeted regeneration for cards that failed a local check.
+ *
+ * A card is never dropped for failing: a definition that is slightly too long
+ * still teaches the word, and silently shrinking the month would be a worse
+ * outcome than an imperfect card. So the repair is kept only when it is
+ * actually better, measured the same way the original was judged.
+ *
+ * One round, and failures here are swallowed: the words are already good
+ * enough to commit, and losing a month to a flaky repair request would be
+ * absurd.
+ */
+async function repairPoorCards(
+  words: VocabMonth["days"][number]["words"],
+  provider: Provider,
+  monthKey: string,
+  signal?: AbortSignal,
+): Promise<{ words: VocabMonth["days"][number]["words"]; repaired: number }> {
+  const { bad } = partitionByQuality(words);
+  if (bad.length === 0) return { words, repaired: 0 };
+
+  let replacements: VocabMonth["days"][number]["words"] = [];
+  try {
+    replacements = await generateCards({
+      provider,
+      words: bad.map((entry) => entry.word.word),
+      monthKey,
+      notes: bad.flatMap((entry) => entry.issues.map((issue) => issue.message)),
+      signal,
+    });
+  } catch {
+    return { words, repaired: 0 };
+  }
+
+  const byWord = new Map(
+    replacements.map((word) => [word.word.toLowerCase(), word]),
+  );
+
+  let repaired = 0;
+  const result = words.map((original) => {
+    const candidate = byWord.get(original.word.toLowerCase());
+    if (!candidate) return original;
+    // Better, or not at all. A repair that introduces new problems is not one.
+    if (checkWord(candidate).length >= checkWord(original).length) return original;
+    repaired++;
+    return { ...candidate, id: original.id };
+  });
+
+  return { words: result, repaired };
 }
 
 /** The theme and difficulty for one month, as a prompt topic. */
@@ -281,20 +345,30 @@ export function summarize(checkpoint: RunCheckpoint): {
   months: number;
   words: number;
   duplicates: number;
+  repaired: number;
   short: string[];
   failed: string[];
 } {
   let words = 0;
   let duplicates = 0;
+  let repaired = 0;
   const short: string[] = [];
   const failed: string[] = [];
 
   for (const outcome of checkpoint.outcomes) {
     words += outcome.produced;
     duplicates += outcome.duplicates;
+    repaired += outcome.repaired;
     if (outcome.shortfall) short.push(outcome.monthKey);
     if (!outcome.month) failed.push(outcome.monthKey);
   }
 
-  return { months: checkpoint.completed.length, words, duplicates, short, failed };
+  return {
+    months: checkpoint.completed.length,
+    words,
+    duplicates,
+    repaired,
+    short,
+    failed,
+  };
 }

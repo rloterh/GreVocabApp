@@ -9,6 +9,7 @@ import { EmptyState } from "@/components/EmptyState";
 import { JsonImporter } from "@/components/JsonImporter";
 import { VocabGenerator } from "@/components/VocabGenerator";
 import { ImportDeckButton, ShareDeckButton } from "@/components/DeckShare";
+import { AddWordsButton } from "@/components/AddWordsButton";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
@@ -122,6 +123,7 @@ export function Archive() {
                       <BookOpen className="w-3.5 h-3.5" />
                       Open
                     </Button>
+                    <AddWordsButton month={month} />
                     <ShareDeckButton month={month} />
                     <Button
                       size="sm"

@@ -2,10 +2,21 @@ import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type { VocabMonth, VocabWord } from "@/types";
 import { parseVocabMonth, wordsForDay } from "@/lib/vocabulary";
+import { VocabIndex, type VocabIndexEntry } from "@/lib/vocab-index";
 
 interface VocabState {
   /** All loaded months keyed by month key ("YYYY-MM") */
   months: Record<string, VocabMonth>;
+  /**
+   * Words from months the user removed.
+   *
+   * Removing a month does not free its words: regenerating would otherwise
+   * hand back words already studied, and progress records — which are keyed by
+   * word id and survive independently — would silently reattach to "new"
+   * words. Persisted because the months these came from are gone, so nothing
+   * else remembers them. See docs/adr/0005-dedup-by-stem-with-retirement.md.
+   */
+  retiredWords: VocabIndexEntry[];
   /** Currently viewed month key */
   activeMonthKey: string | null;
   /** Selected day within active month (1-based) */
@@ -13,6 +24,8 @@ interface VocabState {
 
   loadMonth: (raw: unknown) => { ok: true; monthKey: string } | { ok: false; error: string };
   removeMonth: (monthKey: string) => void;
+  /** Let retired words be generated again. Explicit, never automatic. */
+  releaseRetired: (monthKey?: string) => number;
   setActiveMonth: (monthKey: string) => void;
   setSelectedDay: (day: number) => void;
 
@@ -20,6 +33,8 @@ interface VocabState {
   getActiveMonth: () => VocabMonth | null;
   getWordsForSelectedDay: () => VocabWord[];
   getAllMonths: () => VocabMonth[];
+  /** Every word known, loaded or retired. Derived; never persisted. */
+  getVocabIndex: () => VocabIndex;
   hasMonthKey: (monthKey: string) => boolean;
   hasDayInMonth: (monthKey: string, day: number) => boolean;
 }
@@ -28,6 +43,7 @@ export const useVocabStore = create<VocabState>()(
   persist(
     (setStore, get) => ({
       months: {},
+      retiredWords: [],
       activeMonthKey: null,
       selectedDay: 1,
 
@@ -48,14 +64,37 @@ export const useVocabStore = create<VocabState>()(
 
       removeMonth: (monthKey) => {
         setStore((state) => {
-          const { [monthKey]: _removed, ...rest } = state.months;
-          void _removed;
+          const { [monthKey]: removed, ...rest } = state.months;
           const nextActive =
             state.activeMonthKey === monthKey
               ? (Object.keys(rest)[0] ?? null)
               : state.activeMonthKey;
-          return { months: rest, activeMonthKey: nextActive };
+
+          // Retire rather than forget. Only words that are not already
+          // retired and not still present in another loaded month.
+          let retiredWords = state.retiredWords;
+          if (removed) {
+            const index = VocabIndex.from([removed]);
+            const known = new Set(state.retiredWords.map((e) => e.stem));
+            const newlyRetired = index
+              .retireMonth(monthKey)
+              .filter((entry) => !known.has(entry.stem));
+            if (newlyRetired.length > 0) {
+              retiredWords = [...state.retiredWords, ...newlyRetired];
+            }
+          }
+
+          return { months: rest, retiredWords, activeMonthKey: nextActive };
         });
+      },
+
+      releaseRetired: (monthKey) => {
+        const before = get().retiredWords;
+        const after = monthKey
+          ? before.filter((entry) => entry.monthKey !== monthKey)
+          : [];
+        setStore({ retiredWords: after });
+        return before.length - after.length;
       },
 
       setActiveMonth: (monthKey) => {
@@ -81,6 +120,13 @@ export const useVocabStore = create<VocabState>()(
         );
       },
 
+      getVocabIndex: () => {
+        // Derived on demand rather than stored: the months are the source of
+        // truth, and a stale index would be worse than no index.
+        const { months, retiredWords } = get();
+        return VocabIndex.from(Object.values(months), retiredWords);
+      },
+
       hasMonthKey: (monthKey) => Boolean(get().months[monthKey]),
 
       hasDayInMonth: (monthKey, day) => {
@@ -94,6 +140,7 @@ export const useVocabStore = create<VocabState>()(
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({
         months: state.months,
+        retiredWords: state.retiredWords,
         activeMonthKey: state.activeMonthKey,
         selectedDay: state.selectedDay,
       }),

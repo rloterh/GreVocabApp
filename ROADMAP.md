@@ -225,20 +225,24 @@ Design: [`docs/VOCAB-GENERATION.md`](./docs/VOCAB-GENERATION.md) ·
 
 ### Tasks
 
-- **[P0] Dedup index.** — Stem-based collision, retirement on month removal, derived at startup. → Property-style tests: no duplicate survives, variants collapse, a removed month still blocks its words.
-- **[P0] Conservative stemmer.** — `abate`/`abated`/`abatement` are one word; `industry`/`industrious` are two. → A rule set with a word-family fixture, deliberately under-aggressive.
-- **[P0] Generation plan.** — Horizon, difficulty curve, themes, must-include words, as an editable value object. → Previewed before a single token is spent.
-- **[P0] Batched execution with overage.** — Ask for 25% more than needed, filter locally, top up once, then accept a short month and say so. → Enforcement is local; the avoid-list in the prompt is only an optimisation.
-- **[P0] Resumable plans.** — A year that fails at month 9 resumes at month 9. → Checkpoint after each committed month.
+- ~~**[P0] Dedup index.**~~ **DONE 2026-09-11.** — `src/lib/vocab-index.ts`, derived from loaded months plus a persisted retired ledger, wired into `useVocabStore`. Catches duplicates inside a single batch too, which a model asked for 40 words will produce. 33 + 13 tests: variants collapse, a removed month still blocks its words, the block survives a restart.
+- ~~**[P0] Conservative stemmer.**~~ **DONE 2026-09-11.** — `src/lib/stem.ts`. 54 tests against a fixture of 17 real word families and 18 pairs that must *not* collide, because the two errors do not cost the same: a missed collision is visible and annoying, an over-match silently drops a legitimate word with no explanation.
+- ~~**[P0] Generation plan.**~~ **DONE 2026-09-11.** — `src/lib/generation-plan.ts`: a value object with a difficulty curve across the horizon rather than a constant. `previewPlan` contacts nothing, which is the point of it. 36 tests.
+- ~~**[P0] Batched execution with overage.**~~ **DONE 2026-09-11.** — `src/lib/generation-run.ts`. Asks for 25% more, filters locally, tops up once, then accepts a short month and records the shortfall rather than blocking a year on one stubborn batch.
+- ~~**[P0] Resumable plans.**~~ **DONE 2026-09-11.** — `RunCheckpoint` after every month, committed or not. Tested by failing mid-run and resuming with a working provider: month 1 is not generated again.
 - **[P1] User-supplied word lists.** — Paste or type words that must appear. → Placed first, never dropped, warned about if already present.
 - **[P1] Add words to an existing month.** — Generate only the card content for a word the user names.
 - **[P1] Local quality checks.** — No circular definitions; examples that do not restate the definition; mnemonics that are actually mnemonics. → Reuses the overlap check already in `verify.ts`, one targeted regeneration per failure.
 
-### Definition of done
+### Definition of done — library complete 2026-09-11
 
-- A year-long plan produces ~1,100 words with zero stem collisions.
-- Removing a month and regenerating does not hand back that month's words.
-- A plan that fails partway resumes without repeating work.
+- ~~A year-long plan produces ~1,100 words with zero stem collisions.~~ Tested end to end against a stub provider: 1,080 words, `new Set(stems).size === words.length`.
+- ~~Removing a month and regenerating does not hand back that month's words.~~ Tested at both the index and the store level, including across a simulated restart.
+- ~~A plan that fails partway resumes without repeating work.~~ Tested.
+
+**Not yet wired to a screen.** The engine is complete and tested; the existing
+`VocabGenerator` dialog still generates one month at a time through the old
+path. The plan builder UI, and the P1 items below, are what remain.
 
 ## Phase 9 — Android
 

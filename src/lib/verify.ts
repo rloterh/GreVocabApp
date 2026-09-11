@@ -1,4 +1,5 @@
 import type { SentenceVerification, VocabWord } from "@/types";
+import type { Provider } from "@/lib/ai/types";
 
 /**
  * Heuristic sentence check.
@@ -109,51 +110,26 @@ function escapeRe(s: string): string {
 }
 
 /**
- * API-backed verification via Anthropic.
- * Sends word + definition + user sentences, expects JSON back.
- * Falls back to heuristic on any failure.
+ * AI-backed verification, through whichever provider is available.
+ *
+ * Falls back to the heuristic on any failure, which is what makes this safe to
+ * attempt at all: a user writing sentences always gets feedback, even with no
+ * model, a rate limit, or a reply we cannot parse.
  */
 export async function apiVerify(
   word: VocabWord,
   sentences: string[],
-  apiKey: string,
+  provider: Provider,
 ): Promise<SentenceVerification> {
-  const prompt = buildVerifyPrompt(word, sentences);
-
   try {
-    const res = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
-        "anthropic-dangerous-direct-browser-access": "true",
-      },
-      body: JSON.stringify({
-        model: "claude-opus-5",
-        // Room for the answer plus whatever reasoning the model does first.
-        max_tokens: 4096,
-        // Judging three sentences is not reasoning-heavy work, and this runs
-        // on the user's own key.
-        output_config: { effort: "low" },
-        messages: [{ role: "user", content: prompt }],
-      }),
+    const parsed = await provider.completeStructured({
+      name: "grade_sentences",
+      prompt: buildVerifyPrompt(word, sentences),
+      schema: VERIFY_SCHEMA,
+      maxOutputTokens: 4096,
+      validate: (value) => validateVerification(value, sentences),
     });
 
-    if (!res.ok) throw new Error(`API error: ${res.status}`);
-    const data = await res.json();
-    if (data?.stop_reason === "refusal") {
-      throw new Error("Model declined to evaluate these sentences");
-    }
-    // Find the text block rather than assuming it is first: responses can lead
-    // with a thinking block, and indexing [0] would silently fall back to the
-    // heuristic on every call.
-    const text = (
-      data?.content as Array<{ type?: string; text?: string }> | undefined
-    )?.find((b) => b?.type === "text" && typeof b.text === "string")?.text;
-    if (!text) throw new Error("No text content in API response");
-
-    const parsed = parseApiResponse(text, sentences);
     return {
       method: "api",
       overall: parsed.overall,
@@ -161,10 +137,91 @@ export async function apiVerify(
       timestamp: new Date().toISOString(),
     };
   } catch (err) {
-    // Fall back to heuristic on any failure
-    console.warn("API verification failed, using heuristic:", err);
+    // Any failure at all falls back rather than surfacing. Sentence checking
+    // is a background nicety; blocking on it would be worse than a weaker
+    // answer.
+    console.warn("AI verification failed, using heuristic:", err);
     return heuristicVerify(word, sentences);
   }
+}
+
+/** The shape a grading reply must have. */
+export const VERIFY_SCHEMA: Record<string, unknown> = {
+  type: "object",
+  properties: {
+    overall: { type: "string", enum: ["excellent", "good", "needs-work"] },
+    perSentence: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          sentence: { type: "string" },
+          usesWordCorrectly: { type: "boolean" },
+          grammaticallyValid: { type: "boolean" },
+          correct: { type: "boolean" },
+          feedback: { type: "string" },
+          suggestion: { type: "string" },
+        },
+        required: [
+          "sentence",
+          "usesWordCorrectly",
+          "grammaticallyValid",
+          "correct",
+          "feedback",
+        ],
+        additionalProperties: false,
+      },
+    },
+  },
+  required: ["overall", "perSentence"],
+  additionalProperties: false,
+};
+
+/**
+ * Check a grading reply, and keep the user's own sentences.
+ *
+ * The model's echo of a sentence is not authoritative — it paraphrases, and
+ * showing someone feedback attached to a sentence they did not write is worse
+ * than no feedback.
+ */
+export function validateVerification(
+  value: unknown,
+  originalSentences: string[],
+): {
+  overall: "excellent" | "good" | "needs-work";
+  perSentence: SentenceVerification["perSentence"];
+} {
+  const parsed = value as {
+    overall?: unknown;
+    perSentence?: Array<Record<string, unknown>>;
+  };
+
+  const overall = parsed?.overall;
+  if (overall !== "excellent" && overall !== "good" && overall !== "needs-work") {
+    throw new Error(
+      'overall must be "excellent", "good" or "needs-work".',
+    );
+  }
+  if (!Array.isArray(parsed.perSentence)) {
+    throw new Error("perSentence must be an array.");
+  }
+
+  const perSentence = originalSentences.map((sentence, i) => {
+    const p = parsed.perSentence?.[i] ?? {};
+    return {
+      sentence,
+      correct: Boolean(p.correct),
+      usesWordCorrectly: Boolean(p.usesWordCorrectly),
+      grammaticallyValid: p.grammaticallyValid !== false,
+      feedback:
+        typeof p.feedback === "string" && p.feedback.trim()
+          ? p.feedback
+          : "No feedback provided.",
+      suggestion: typeof p.suggestion === "string" ? p.suggestion : undefined,
+    };
+  });
+
+  return { overall, perSentence };
 }
 
 function buildVerifyPrompt(word: VocabWord, sentences: string[]): string {
@@ -202,46 +259,4 @@ Respond ONLY with valid JSON in this exact shape, no prose before or after, no m
     }
   ]
 }`;
-}
-
-function parseApiResponse(
-  text: string,
-  originalSentences: string[],
-): {
-  overall: "excellent" | "good" | "needs-work";
-  perSentence: SentenceVerification["perSentence"];
-} {
-  // Strip potential markdown fences
-  const cleaned = text
-    .replace(/```json\s*/g, "")
-    .replace(/```\s*/g, "")
-    .trim();
-  const parsed = JSON.parse(cleaned) as {
-    overall: "excellent" | "good" | "needs-work";
-    perSentence: Array<{
-      sentence?: string;
-      usesWordCorrectly?: boolean;
-      grammaticallyValid?: boolean;
-      correct?: boolean;
-      feedback?: string;
-      suggestion?: string;
-    }>;
-  };
-
-  const perSentence = originalSentences.map((s, i) => {
-    const p = parsed.perSentence?.[i] ?? {};
-    return {
-      sentence: s,
-      correct: p.correct ?? false,
-      usesWordCorrectly: p.usesWordCorrectly ?? false,
-      grammaticallyValid: p.grammaticallyValid ?? true,
-      feedback: p.feedback ?? "No feedback provided.",
-      suggestion: p.suggestion,
-    };
-  });
-
-  return {
-    overall: parsed.overall ?? "needs-work",
-    perSentence,
-  };
 }

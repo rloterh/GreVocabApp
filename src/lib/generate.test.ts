@@ -1,11 +1,14 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { generateMonth, toMonth, WORDS_PER_DAY } from "@/lib/generate";
+import { describe, expect, it, vi } from "vitest";
+import { generateMonth, toMonth, validateWords, WORDS_PER_DAY } from "@/lib/generate";
 import { parseVocabMonth } from "@/lib/vocabulary";
+import type { Provider, StructuredRequest } from "@/lib/ai/types";
 
 /**
- * There is no API key here, so these tests stub fetch. That still pins the
- * things most likely to break silently: the request we send, and what the user
- * is told when the call goes wrong.
+ * These tests cover generation, not transport. What the HTTP request looks
+ * like, how a 429 is mapped and whether a key is sent are properties of the
+ * provider layer and are covered by `src/lib/ai/contract.test.ts` against every
+ * adapter — asserting them again here would pin this module to one provider,
+ * which is the thing the seam exists to prevent.
  */
 
 const word = (n: number) => ({
@@ -18,71 +21,37 @@ const word = (n: number) => ({
   antonyms: ["c"],
 });
 
+/** A provider that returns canned words and records what it was asked for. */
+function stubProvider(words: unknown[] = [word(1), word(2), word(3)]) {
+  const requests: StructuredRequest<unknown>[] = [];
+  const provider: Provider = {
+    id: "ollama",
+    label: "Stub",
+    tier: 2,
+    detect: async () => "available",
+    capabilities: () => ({
+      structuredOutput: "schema",
+      maxOutputTokens: 16_000,
+      contextTokens: 32_000,
+      onDevice: true,
+    }),
+    complete: async () => ({ text: "", provider: "ollama" }),
+    // Cast: the stub answers every T the same way, which the generic
+    // signature cannot express but is exactly what a test double wants.
+    completeStructured: vi.fn(async (req: StructuredRequest<unknown>) => {
+      requests.push(req);
+      // Exercise the real validator, the way a provider would.
+      return req.validate({ words });
+    }) as Provider["completeStructured"],
+  };
+  return { provider, requests };
+}
+
 const BASE = {
-  apiKey: "sk-test",
   topic: "GRE verbs",
   wordCount: 3,
   monthKey: "2026-07",
 };
-
-interface Captured {
-  url: string;
-  headers: Record<string, string>;
-  body: {
-    model: string;
-    max_tokens: number;
-    output_config?: { effort?: string };
-    thinking?: Record<string, unknown>;
-    tools: Array<{
-      name: string;
-      strict: boolean;
-      input_schema: {
-        additionalProperties: boolean;
-        properties: {
-          words: { items: { additionalProperties: boolean; required: string[] } };
-        };
-      };
-    }>;
-    tool_choice: unknown;
-    messages: Array<{ role: string; content: string }>;
-  };
-}
-
-let captured: Captured | null = null;
-
-/** Point fetch at a canned response and record what was sent. */
-function stubFetch(status: number, body: unknown) {
-  vi.stubGlobal(
-    "fetch",
-    vi.fn(async (url: string, init: RequestInit) => {
-      captured = {
-        url,
-        headers: init.headers as Record<string, string>,
-        body: JSON.parse(init.body as string),
-      };
-      return {
-        ok: status >= 200 && status < 300,
-        status,
-        json: async () => body,
-      } as Response;
-    }),
-  );
-}
-
-const toolUse = (words: unknown[]) => ({
-  stop_reason: "tool_use",
-  content: [
-    { type: "text", text: "here you go" },
-    { type: "tool_use", name: "emit_vocabulary", input: { words } },
-  ],
-});
-
-beforeEach(() => {
-  captured = null;
-});
-afterEach(() => {
-  vi.unstubAllGlobals();
-});
 
 describe("toMonth — day layout happens in code, not in the prompt", () => {
   it("fills days three words at a time", () => {
@@ -108,8 +77,7 @@ describe("toMonth — day layout happens in code, not in the prompt", () => {
   });
 
   it("produces something parseVocabMonth accepts", () => {
-    const m = toMonth([1, 2, 3, 4].map(word), "2026-07", "topic");
-    const validated = parseVocabMonth(m);
+    const validated = parseVocabMonth(toMonth([1, 2, 3, 4].map(word), "2026-07", "t"));
     expect(validated.days).toHaveLength(2);
     expect(validated.days[0].words[0].synonyms).toEqual(["a", "b"]);
   });
@@ -121,57 +89,62 @@ describe("toMonth — day layout happens in code, not in the prompt", () => {
   });
 });
 
-describe("input guards run before any network call", () => {
+describe("validateWords — its message is fed back to repair the output", () => {
+  it("accepts a well-formed batch", () => {
+    expect(validateWords({ words: [word(1)] })).toHaveLength(1);
+  });
+
   it.each([
-    ["a blank api key", { apiKey: "   " }, /API key/],
+    ["a missing words array", {}, /words.*array/i],
+    ["an empty batch", { words: [] }, /empty/i],
+    ["a non-array", { words: "nope" }, /array/i],
+  ])("rejects %s", (_name, value, message) => {
+    expect(() => validateWords(value)).toThrow(message);
+  });
+
+  it("names the field and the index that is wrong", () => {
+    // Specific enough for a model to act on. "Invalid" would not be.
+    expect(() =>
+      validateWords({ words: [word(1), { ...word(2), definition: "" }] }),
+    ).toThrow("words[1].definition");
+  });
+
+  it.each(["word", "partOfSpeech", "definition", "example", "mnemonic"])(
+    "requires %s",
+    (field) => {
+      const bad = { ...word(1), [field]: "" };
+      expect(() => validateWords({ words: [bad] })).toThrow(field);
+    },
+  );
+});
+
+describe("input guards run before the provider is called", () => {
+  it.each([
     ["zero words", { wordCount: 0 }, /between 1 and 90/],
     ["more than 90 words", { wordCount: 91 }, /between 1 and 90/],
     ["a fractional count", { wordCount: 2.5 }, /between 1 and 90/],
     ["a malformed month", { monthKey: "July" }, /2026-07/],
   ])("rejects %s", async (_name, over, message) => {
-    stubFetch(200, toolUse([word(1)]));
-    await expect(generateMonth({ ...BASE, ...over })).rejects.toThrow(message);
-    expect(captured).toBeNull();
+    const { provider, requests } = stubProvider();
+    await expect(
+      generateMonth({ ...BASE, ...over, provider }),
+    ).rejects.toThrow(message);
+    expect(requests).toHaveLength(0);
   });
 });
 
-describe("the request we send", () => {
-  beforeEach(async () => {
-    stubFetch(200, toolUse([word(1), word(2), word(3), word(4)]));
-    await generateMonth({
-      ...BASE,
-      wordCount: 4,
-      existingWords: ["abate", "cogent"],
-    });
-  });
+describe("what we ask the provider for", () => {
+  it("passes a schema that forbids extra properties", async () => {
+    const { provider, requests } = stubProvider();
+    await generateMonth({ ...BASE, provider });
 
-  it("posts to the messages endpoint with the browser-access header", () => {
-    expect(captured!.url).toBe("https://api.anthropic.com/v1/messages");
-    expect(captured!.headers["anthropic-version"]).toBe("2023-06-01");
-    expect(captured!.headers["x-api-key"]).toBe("sk-test");
-    expect(
-      captured!.headers["anthropic-dangerous-direct-browser-access"],
-    ).toBe("true");
-  });
-
-  it("uses a current model and current parameter shapes", () => {
-    expect(captured!.body.model).toBe("claude-opus-5");
-    expect(captured!.body.max_tokens).toBeGreaterThan(0);
-    expect(typeof captured!.body.output_config?.effort).toBe("string");
-    // budget_tokens is rejected by current models; effort replaced it.
-    expect(captured!.body.thinking ?? {}).not.toHaveProperty("budget_tokens");
-  });
-
-  it("constrains the output with a strict tool schema", () => {
-    const tool = captured!.body.tools[0];
-    expect(captured!.body.tools).toHaveLength(1);
-    expect(tool.name).toBe("emit_vocabulary");
-    expect(tool.strict).toBe(true);
-    expect(tool.input_schema.additionalProperties).toBe(false);
-    expect(tool.input_schema.properties.words.items.additionalProperties).toBe(
-      false,
-    );
-    expect(tool.input_schema.properties.words.items.required).toEqual([
+    const schema = requests[0].schema as Record<string, unknown>;
+    expect(schema.additionalProperties).toBe(false);
+    const words = (schema.properties as Record<string, Record<string, unknown>>)
+      .words;
+    const item = words.items as Record<string, unknown>;
+    expect(item.additionalProperties).toBe(false);
+    expect(item.required).toEqual([
       "word",
       "partOfSpeech",
       "definition",
@@ -182,73 +155,63 @@ describe("the request we send", () => {
     ]);
   });
 
-  it("asks for the tool rather than forcing it", () => {
-    // Forced tool_choice is rejected on some current models; auto plus an
-    // explicit instruction behaves the same everywhere.
-    expect(captured!.body.tool_choice).toEqual({ type: "auto" });
-    expect(captured!.body.messages[0].content).toContain("emit_vocabulary");
+  it("names the tool in both the schema request and the prompt", async () => {
+    const { provider, requests } = stubProvider();
+    await generateMonth({ ...BASE, provider });
+    expect(requests[0].name).toBe("emit_vocabulary");
+    expect(requests[0].prompt).toContain("emit_vocabulary");
   });
 
-  it("passes the topic and the words to avoid", () => {
-    const prompt = captured!.body.messages[0].content;
-    expect(prompt).toContain("GRE verbs");
-    expect(prompt).toContain("abate");
-    expect(prompt).toContain("cogent");
+  it("carries the topic and the words to avoid", async () => {
+    const { provider, requests } = stubProvider();
+    await generateMonth({
+      ...BASE,
+      provider,
+      existingWords: ["abate", "cogent"],
+    });
+    expect(requests[0].prompt).toContain("GRE verbs");
+    expect(requests[0].prompt).toContain("abate");
+    expect(requests[0].prompt).toContain("cogent");
   });
-});
 
-describe("the avoid-list is capped so it cannot dominate the prompt", () => {
-  it("sends at most 300 words", async () => {
-    stubFetch(200, toolUse([word(1)]));
+  it("caps the avoid-list so it cannot dominate the prompt", async () => {
+    const { provider, requests } = stubProvider([word(1)]);
     await generateMonth({
       ...BASE,
       wordCount: 1,
+      provider,
       existingWords: Array.from({ length: 500 }, (_, i) => `w${i}`),
     });
-    const prompt = captured!.body.messages[0].content;
-    expect(prompt).toContain("w299");
-    expect(prompt).not.toContain("w300");
+    expect(requests[0].prompt).toContain("w299");
+    expect(requests[0].prompt).not.toContain("w300");
+  });
+
+  it("forwards the abort signal", async () => {
+    const { provider, requests } = stubProvider();
+    const controller = new AbortController();
+    await generateMonth({ ...BASE, provider, signal: controller.signal });
+    expect(requests[0].signal).toBe(controller.signal);
   });
 });
 
-describe("failures are reported in terms the user can act on", () => {
-  it.each([
-    [
-      "a rejected key",
-      401,
-      { error: { message: "invalid x-api-key" } },
-      /invalid x-api-key/,
-    ],
-    ["an opaque server error", 500, null, /500/],
-    ["rate limiting", 429, {}, /Rate limited/],
-  ])("explains %s", async (_name, status, body, message) => {
-    stubFetch(status, body);
-    await expect(generateMonth(BASE)).rejects.toThrow(message);
+describe("the generated month", () => {
+  it("is laid out and validated like any import", async () => {
+    const { provider } = stubProvider([word(1), word(2), word(3), word(4)]);
+    const month = await generateMonth({ ...BASE, wordCount: 4, provider });
+    expect(month.month).toBe("2026-07");
+    expect(month.days).toHaveLength(2);
+    expect(parseVocabMonth(month).days).toHaveLength(2);
   });
 
-  it.each([
-    [
-      "a refusal",
-      {
-        stop_reason: "refusal",
-        stop_details: { explanation: "declined for policy" },
-        content: [],
-      },
-      /declined for policy/,
-    ],
-    [
-      "truncated output",
-      { stop_reason: "max_tokens", content: [{ type: "text", text: "partial" }] },
-      /fewer words/,
-    ],
-    [
-      "a reply with no tool call",
-      { stop_reason: "end_turn", content: [{ type: "text", text: "nope" }] },
-      /did not return any vocabulary/,
-    ],
-    ["an empty word list", toolUse([]), /empty word list/],
-  ])("explains %s", async (_name, body, message) => {
-    stubFetch(200, body);
-    await expect(generateMonth(BASE)).rejects.toThrow(message);
+  it("propagates a provider failure rather than swallowing it", async () => {
+    const provider = {
+      ...stubProvider().provider,
+      completeStructured: vi.fn(async () => {
+        throw new Error("rate limited, friend");
+      }),
+    } as unknown as Provider;
+    await expect(generateMonth({ ...BASE, provider })).rejects.toThrow(
+      "rate limited, friend",
+    );
   });
 });

@@ -20,6 +20,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useAppStore } from "@/store/useAppStore";
 import { apiVerify, heuristicVerify } from "@/lib/verify";
+import { aiRegistry } from "@/lib/ai/client";
 import { toDateKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
 import type {
@@ -33,7 +34,7 @@ export function SentenceBuilder() {
     useVocabStore();
   const saveSentences = useProgressStore((s) => s.saveSentences);
   const getSaved = useProgressStore((s) => s.getSentences);
-  const { anthropicApiKey, preferApiVerification } = useSettingsStore();
+  const { preferApiVerification } = useSettingsStore();
   const showToast = useAppStore((s) => s.showToast);
 
   const month = getActiveMonth();
@@ -104,8 +105,15 @@ export function SentenceBuilder() {
     }
     setBusy(true);
     let result: SentenceVerification;
-    if (anthropicApiKey && preferApiVerification) {
-      result = await apiVerify(currentWord, nonEmpty, anthropicApiKey);
+    if (preferApiVerification) {
+      // Any available provider will do — including a local one, which keeps
+      // the user's sentences on their machine.
+      const provider = await aiRegistry()
+        .select()
+        .catch(() => null);
+      result = provider
+        ? await apiVerify(currentWord, nonEmpty, provider)
+        : heuristicVerify(currentWord, nonEmpty);
     } else {
       result = heuristicVerify(currentWord, nonEmpty);
     }
@@ -159,7 +167,7 @@ export function SentenceBuilder() {
           Write with the word.
         </h1>
         <p className="text-sm text-muted-foreground mt-2">
-          {anthropicApiKey && preferApiVerification
+          {preferApiVerification
             ? "Claude will check grammar and correct usage."
             : "Heuristic checks — for smarter feedback, add an API key in Settings."}
         </p>

@@ -1,31 +1,40 @@
 /**
- * Generate a month of vocabulary with Claude.
+ * Generate a month of vocabulary with whatever AI is available.
  *
- * Uses the user's own Anthropic key from Settings — the same key and the same
- * raw-fetch call shape as `src/lib/verify.ts`, so there is one way this app
- * talks to the API and no SDK in the browser bundle.
- *
- * Output is constrained with a strict tool schema rather than by asking for
- * JSON in prose: `strict: true` guarantees the arguments validate against the
- * schema, which is the difference between parsing a response and hoping.
+ * This module knows about vocabulary, not about providers. It hands a schema
+ * and a prompt to `src/lib/ai/` and gets back a validated result; which model
+ * answered, whether it was on-device, and how JSON was constrained are all
+ * somebody else's problem.
  *
  * The result still goes through `parseVocabMonth`, exactly like a JSON or CSV
  * import. Generated content is not trusted more than a file the user supplied.
  *
- * See ROADMAP.md, Phase 3.
+ * See ROADMAP.md, Phase 3; docs/AI-PROVIDERS.md.
  */
 
 import type { VocabMonth } from "@/types";
 import { formatMonthKey, slugify } from "@/lib/date-utils";
+import type { Provider } from "@/lib/ai/types";
 
 /** Default words per day, matching the seed data. */
 export const WORDS_PER_DAY = 3;
 
-const API_URL = "https://api.anthropic.com/v1/messages";
-const API_VERSION = "2023-06-01";
-const MODEL = "claude-opus-5";
-
+/** Tool/schema name. Referenced in the prompt, so it must match. */
 const TOOL_NAME = "emit_vocabulary";
+
+/** The shape a generated batch must have. */
+export const VOCAB_SCHEMA = {
+  type: "object",
+  properties: {
+    words: {
+      type: "array",
+      description: "The generated words, in teaching order.",
+      items: undefined as unknown, // filled in below from WORD_SCHEMA
+    },
+  },
+  required: ["words"],
+  additionalProperties: false,
+} as Record<string, unknown>;
 
 const WORD_SCHEMA = {
   type: "object",
@@ -72,8 +81,14 @@ const WORD_SCHEMA = {
   additionalProperties: false,
 } as const;
 
+// Assembled after WORD_SCHEMA is defined, so the item shape is shared rather
+// than written twice.
+(VOCAB_SCHEMA.properties as Record<string, Record<string, unknown>>).words.items =
+  WORD_SCHEMA;
+
 export interface GenerateOptions {
-  apiKey: string;
+  /** Whoever is going to answer. Chosen by the registry, or pinned by the user. */
+  provider: Provider;
   /** What the month should be about, e.g. "GRE high-frequency verbs". */
   topic: string;
   /** How many words to produce. */
@@ -93,15 +108,6 @@ interface RawWord {
   mnemonic: string;
   synonyms?: string[];
   antonyms?: string[];
-}
-
-/** Anthropic error bodies are `{ error: { message } }`; fall back gracefully. */
-function messageFromErrorBody(body: unknown, status: number): string {
-  const err = (body as { error?: { message?: unknown } } | null)?.error;
-  if (err && typeof err.message === "string") return err.message;
-  if (status === 401) return "API key rejected. Check it in Settings.";
-  if (status === 429) return "Rate limited by the API. Try again shortly.";
-  return `API returned ${status}.`;
 }
 
 function buildPrompt(options: GenerateOptions): string {
@@ -142,11 +148,8 @@ function buildPrompt(options: GenerateOptions): string {
 export async function generateMonth(
   options: GenerateOptions,
 ): Promise<VocabMonth> {
-  const { apiKey, wordCount, monthKey, signal } = options;
+  const { provider, wordCount, monthKey, signal } = options;
 
-  if (!apiKey.trim()) {
-    throw new Error("No Anthropic API key set. Add one in Settings.");
-  }
   if (!Number.isInteger(wordCount) || wordCount < 1 || wordCount > 90) {
     throw new Error("Word count must be between 1 and 90.");
   }
@@ -154,91 +157,41 @@ export async function generateMonth(
     throw new Error("Month must look like 2026-07.");
   }
 
-  const res = await fetch(API_URL, {
-    method: "POST",
+  const words = await provider.completeStructured<RawWord[]>({
+    name: TOOL_NAME,
+    prompt: buildPrompt(options),
+    schema: VOCAB_SCHEMA,
     signal,
-    headers: {
-      "content-type": "application/json",
-      "x-api-key": apiKey,
-      "anthropic-version": API_VERSION,
-      // Required for calls made straight from a browser rather than a server.
-      "anthropic-dangerous-direct-browser-access": "true",
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 16000,
-      // Vocabulary writing is not a reasoning-heavy task; medium effort keeps
-      // the user's own bill down without visibly hurting the mnemonics.
-      output_config: { effort: "medium" },
-      tools: [
-        {
-          name: TOOL_NAME,
-          description: "Return the generated vocabulary words.",
-          strict: true,
-          input_schema: {
-            type: "object",
-            properties: {
-              words: {
-                type: "array",
-                items: WORD_SCHEMA,
-                description: "The generated words, in teaching order.",
-              },
-            },
-            required: ["words"],
-            additionalProperties: false,
-          },
-        },
-      ],
-      // `auto` plus an explicit instruction rather than a forced tool_choice:
-      // forced tool use is rejected on some current models, and this shape
-      // behaves the same everywhere.
-      tool_choice: { type: "auto" },
-      messages: [{ role: "user", content: buildPrompt(options) }],
-    }),
+    maxOutputTokens: 16_000,
+    validate: validateWords,
   });
 
-  let body: unknown = null;
-  try {
-    body = await res.json();
-  } catch {
-    // Fall through to the status-based message below.
-  }
-
-  if (!res.ok) {
-    throw new Error(messageFromErrorBody(body, res.status));
-  }
-
-  const data = body as {
-    stop_reason?: string;
-    stop_details?: { explanation?: string };
-    content?: Array<{ type: string; name?: string; input?: unknown }>;
-  };
-
-  if (data.stop_reason === "refusal") {
-    throw new Error(
-      data.stop_details?.explanation ??
-        "The model declined this request. Try a different topic.",
-    );
-  }
-
-  const call = data.content?.find(
-    (b) => b.type === "tool_use" && b.name === TOOL_NAME,
-  );
-  if (!call) {
-    if (data.stop_reason === "max_tokens") {
-      throw new Error(
-        "Ran out of output space before finishing. Ask for fewer words.",
-      );
-    }
-    throw new Error("The model did not return any vocabulary. Try again.");
-  }
-
-  const words = (call.input as { words?: RawWord[] } | undefined)?.words;
-  if (!Array.isArray(words) || words.length === 0) {
-    throw new Error("The model returned an empty word list. Try again.");
-  }
-
   return toMonth(words, monthKey, options.topic);
+}
+
+/**
+ * Check a generated batch.
+ *
+ * The message thrown here is not only for the user: it is fed back to the
+ * model as the repair prompt, so it has to say what was actually wrong.
+ */
+export function validateWords(value: unknown): RawWord[] {
+  const words = (value as { words?: unknown } | undefined)?.words;
+  if (!Array.isArray(words)) {
+    throw new Error("Expected an object with a `words` array.");
+  }
+  if (words.length === 0) {
+    throw new Error("The `words` array was empty.");
+  }
+  words.forEach((word, i) => {
+    const w = word as Record<string, unknown>;
+    for (const field of ["word", "partOfSpeech", "definition", "example", "mnemonic"]) {
+      if (typeof w?.[field] !== "string" || !(w[field] as string).trim()) {
+        throw new Error(`words[${i}].${field} must be a non-empty string.`);
+      }
+    }
+  });
+  return words as RawWord[];
 }
 
 /**

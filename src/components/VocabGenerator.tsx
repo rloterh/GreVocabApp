@@ -24,6 +24,8 @@ import { useVocabStore } from "@/store/useVocabStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useAppStore } from "@/store/useAppStore";
 import { generateMonth, WORDS_PER_DAY } from "@/lib/generate";
+import { selectProvider } from "@/lib/ai/client";
+import { AiError } from "@/lib/ai/errors";
 import { allWordsInMonth, firstFreeMonthKey } from "@/lib/vocabulary";
 import { formatMonthKey } from "@/lib/date-utils";
 
@@ -78,8 +80,11 @@ export function VocabGenerator() {
         .flatMap((m) => allWordsInMonth(m))
         .map((w) => w.word);
 
+      // The registry picks whichever provider is cheapest for the user —
+      // on-device first, cloud only if they configured one.
+      const provider = await selectProvider();
       const generated = await generateMonth({
-        apiKey: apiKey ?? "",
+        provider,
         topic: topic.trim(),
         wordCount,
         monthKey,
@@ -102,6 +107,7 @@ export function VocabGenerator() {
       });
     } catch (e) {
       if (controller.signal.aborted) return;
+      if (e instanceof AiError && e.kind === "cancelled") return;
       setError(e instanceof Error ? e.message : "Generation failed.");
     } finally {
       abortRef.current = null;

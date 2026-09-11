@@ -165,11 +165,22 @@ export type Theme =
   | "solarized"
   | "high-contrast";
 
-/** App settings */
+/**
+ * Credentials. Separated from `Settings` so that anything which must not
+ * leave the device — backups above all — can exclude them by type rather than
+ * by remembering to. Add a new credential here, never to `Settings`, and
+ * `stripSecrets` in `src/lib/secrets.ts` removes it from exports for free.
+ *
+ * See docs/adr/0010-secrets-handling.md.
+ */
+export interface Secrets {
+  anthropicApiKey: string | null;
+}
+
+/** App settings. Safe to write to a backup file. */
 export interface Settings {
   theme: Theme;
   dataDirectory: string | null; // Tauri filesystem path
-  anthropicApiKey: string | null;
   preferApiVerification: boolean;
   reduceMotion: boolean;
   fontSize: "sm" | "md" | "lg";
@@ -188,6 +199,12 @@ export interface Settings {
   /** Opt-in interface sounds. */
   soundEnabled: boolean;
 }
+
+/**
+ * What the settings store actually holds: preferences plus credentials.
+ * Anything that persists or transmits state should take `Settings`, not this.
+ */
+export type SettingsState = Settings & Secrets;
 
 /** Aggregate stats for progress views */
 export interface ProgressStats {

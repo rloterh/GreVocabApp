@@ -64,6 +64,13 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   `npm audit` is now clean.
 - `npm run lint` passes and runs in CI, alongside typecheck and build.
 
+### Security
+- **Backup exports no longer contain your API key.** `exportData()` serialised
+  the whole settings object, key included, into a file the app tells you to keep
+  — and people keep backups in cloud drives and email. Credentials now live in a
+  separate `Secrets` type that the export strips by construction. Restoring an
+  older backup drops any key it carried and says so.
+
 ### Fixed
 - **Sentence verification read the wrong content block.** It took
   `content[0].text`, so any response that led with another block fell silently

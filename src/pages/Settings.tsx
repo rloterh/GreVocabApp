@@ -40,6 +40,7 @@ import {
 } from "@/lib/markdown-export";
 import { applyTheme, THEMES } from "@/lib/theme";
 import { playSound } from "@/lib/sound";
+import { containsSecret, stripSecrets } from "@/lib/secrets";
 import { pickWatchedFolder } from "@/hooks/useWatchedFolder";
 import { isTauri } from "@/lib/utils";
 import type { Theme } from "@/types";
@@ -161,12 +162,21 @@ export function Settings() {
   }
 
   function exportData() {
+    // Credentials never enter a backup. The persisted settings blob is
+    // { state, version }, so the strip applies to `state`.
+    const persistedSettings = JSON.parse(
+      localStorage.getItem("lexicon.settings.v1") ?? "{}",
+    ) as { state?: Record<string, unknown> };
+    const safeSettings = persistedSettings.state
+      ? { ...persistedSettings, state: stripSecrets(persistedSettings.state) }
+      : persistedSettings;
+
     const data = {
       progress: JSON.parse(localStorage.getItem("lexicon.progress.v1") ?? "{}"),
       vocab: JSON.parse(localStorage.getItem("lexicon.vocab.v1") ?? "{}"),
-      settings: JSON.parse(localStorage.getItem("lexicon.settings.v1") ?? "{}"),
+      settings: safeSettings,
       exportedAt: new Date().toISOString(),
-      version: "1.0",
+      version: "1.1",
     };
     const blob = new Blob([JSON.stringify(data, null, 2)], {
       type: "application/json",
@@ -177,7 +187,11 @@ export function Settings() {
     a.download = `lexicon-backup-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
-    showToast({ title: "Backup downloaded", variant: "success" });
+    showToast({
+      title: "Backup downloaded",
+      description: "Your API key is not included.",
+      variant: "success",
+    });
   }
 
   async function importData(file: File) {
@@ -190,14 +204,24 @@ export function Settings() {
         );
       if (data.vocab)
         localStorage.setItem("lexicon.vocab.v1", JSON.stringify(data.vocab));
-      if (data.settings)
-        localStorage.setItem(
-          "lexicon.settings.v1",
-          JSON.stringify(data.settings),
-        );
+      // Older backups (version 1.0) carried the API key. Drop it rather than
+      // restoring a credential from a file that may have been shared, and say
+      // so — silently dropping it leaves the user wondering why their provider
+      // stopped working.
+      let droppedSecret = false;
+      if (data.settings) {
+        const incoming = data.settings as { state?: Record<string, unknown> };
+        if (incoming.state && containsSecret(incoming.state)) {
+          droppedSecret = true;
+          incoming.state = stripSecrets(incoming.state);
+        }
+        localStorage.setItem("lexicon.settings.v1", JSON.stringify(incoming));
+      }
       showToast({
         title: "Backup restored",
-        description: "Reloading…",
+        description: droppedSecret
+          ? "Your API key was not restored — re-enter it in Settings."
+          : "Reloading…",
         variant: "success",
       });
       setTimeout(() => window.location.reload(), 500);

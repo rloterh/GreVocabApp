@@ -1,13 +1,19 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import type { Settings } from "@/types";
+import type { SettingsState as PersistedSettings } from "@/types";
 
-interface SettingsState extends Settings {
-  set: (partial: Partial<Settings>) => void;
+/**
+ * The store holds preferences and credentials together for convenience, but
+ * the two are distinct types. Anything that persists or transmits state should
+ * take `Settings` and go through `stripSecrets` — see
+ * docs/adr/0010-secrets-handling.md.
+ */
+interface SettingsStore extends PersistedSettings {
+  set: (partial: Partial<PersistedSettings>) => void;
   reset: () => void;
 }
 
-const DEFAULT_SETTINGS: Settings = {
+const DEFAULT_SETTINGS: PersistedSettings = {
   theme: "dark",
   dataDirectory: null,
   anthropicApiKey: null,
@@ -23,7 +29,7 @@ const DEFAULT_SETTINGS: Settings = {
   soundEnabled: false,
 };
 
-export const useSettingsStore = create<SettingsState>()(
+export const useSettingsStore = create<SettingsStore>()(
   persist(
     (setStore) => ({
       ...DEFAULT_SETTINGS,

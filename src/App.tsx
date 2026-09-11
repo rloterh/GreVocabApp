@@ -17,6 +17,7 @@ import { Onboarding } from "@/components/Onboarding";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useStudyReminder } from "@/hooks/useStudyReminder";
+import { useOpenRouterCallback } from "@/hooks/useOpenRouterConnect";
 import { useShortcuts } from "@/hooks/useShortcuts";
 import { useWatchedFolder } from "@/hooks/useWatchedFolder";
 import { useDesktopEvents } from "@/hooks/useDesktopEvents";
@@ -42,6 +43,11 @@ export function App() {
   useEffect(() => {
     void migrateLegacySecrets();
   }, []);
+
+  // Finishes a web OpenRouter sign-in that redirected away and came back. The
+  // app reopens on the dashboard, not on Settings, so this cannot live in the
+  // panel that started it. Inert on desktop.
+  useOpenRouterCallback();
 
   // No-op unless the user has enabled reminders and granted permission.
   useStudyReminder();

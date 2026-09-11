@@ -4,12 +4,15 @@ mod ai_cli;
 mod keystore;
 #[cfg(desktop)]
 mod desktop;
+#[cfg(desktop)]
+mod oauth;
 mod watcher;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_shell::init())
+        .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_http::init())
@@ -36,6 +39,8 @@ pub fn run() {
             keystore::get_secret,
             #[cfg(desktop)]
             keystore::delete_secret,
+            #[cfg(desktop)]
+            oauth::oauth_authorize,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

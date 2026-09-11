@@ -76,7 +76,7 @@ Detection is a capability probe with a short timeout, cached for the session:
 | llama.cpp | `GET /v1/models` on `127.0.0.1:8080` | OpenAI-compatible. |
 | WebGPU | `navigator.gpu` present and an adapter obtainable | Presence is not sufficient; request an adapter. |
 | Installed CLI | The binary is on `PATH`, plus a cheap `--version` | Detected but never used until the user enables that tool. [ADR 0009](./adr/0009-installed-cli-providers.md) |
-| OAuth (OpenRouter) | A key obtained through the connect flow is stored | The flow returns a **user-controlled API key, not an expiring token**, so there is no refresh to perform — treat it exactly like a pasted key and prompt to reconnect on `Unauthorized`. |
+| OAuth (OpenRouter) | A key obtained through the connect flow is stored | **Built.** The flow returns a **user-controlled API key, not an expiring token**, so there is no refresh to perform — it is stored and detected exactly like a pasted key, and an `Unauthorized` prompts a reconnect. `src/lib/ai/oauth.ts` and `src/hooks/useOpenRouterConnect.ts`. |
 | Cloud | A key exists in settings for that provider | No network probe. Do not spend the user's money to answer "are you configured". |
 
 > **Spike result, 2026-09-11.** The browser built-in model was `"unavailable"`

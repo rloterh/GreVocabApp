@@ -12,12 +12,13 @@
  */
 
 import { useCallback, useEffect, useState } from "react";
-import { Check, Cpu, Globe, RefreshCw } from "lucide-react";
+import { Check, Cpu, Globe, LogIn, RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { aiRegistry, installedClis } from "@/lib/ai/client";
 import type { Availability, ProviderId } from "@/lib/ai/types";
+import { useOpenRouterConnect } from "@/hooks/useOpenRouterConnect";
 import { cn } from "@/lib/utils";
 
 interface Row {
@@ -41,6 +42,7 @@ export function ProviderSettings() {
   const setSettings = useSettingsStore((s) => s.set);
   const [rows, setRows] = useState<Row[]>([]);
   const [busy, setBusy] = useState(true);
+  const openrouter = useOpenRouterConnect();
 
   const refresh = useCallback(async () => {
     setBusy(true);
@@ -64,6 +66,12 @@ export function ProviderSettings() {
   useEffect(() => {
     void refresh();
   }, [refresh]);
+
+  // A new key changes what is available, and a stale list saying "Not found"
+  // next to a working connection reads as a failure.
+  useEffect(() => {
+    void refresh();
+  }, [openrouter.connected, refresh]);
 
   // What would actually answer right now: the pinned one, or the first ready.
   const active = pinned
@@ -154,6 +162,50 @@ export function ProviderSettings() {
           );
         })}
       </ul>
+
+      <div className="rounded-md border border-border/60 p-3 space-y-2">
+        <div className="flex items-center justify-between gap-3">
+          <div className="min-w-0">
+            {/* A div, not a p: Badge renders a div, and a div inside a p is
+                invalid nesting that React reparents at runtime. */}
+            <div className="text-sm font-medium flex items-center gap-2">
+              OpenRouter
+              {openrouter.connected && (
+                <Badge variant="success" className="text-[10px]">
+                  Connected
+                </Badge>
+              )}
+            </div>
+            <p className="text-[11px] text-muted-foreground leading-relaxed mt-0.5">
+              {openrouter.connected
+                ? "Signed in. Claude, GPT, Gemini and the open models all answer through one account."
+                : "Sign in with your browser instead of finding and pasting a key. One account reaches Claude, GPT, Gemini and the open models."}
+            </p>
+          </div>
+          <Button
+            size="sm"
+            variant={openrouter.connected ? "ghost" : "default"}
+            disabled={openrouter.busy}
+            onClick={() =>
+              void (openrouter.connected
+                ? openrouter.disconnect()
+                : openrouter.connect())
+            }
+          >
+            {!openrouter.connected && <LogIn className="w-3.5 h-3.5" />}
+            {openrouter.busy
+              ? "Waiting…"
+              : openrouter.connected
+                ? "Disconnect"
+                : "Connect"}
+          </Button>
+        </div>
+        {openrouter.busy && !openrouter.connected && (
+          <p className="text-[11px] text-muted-foreground">
+            Approve the sign-in in your browser, then come back here.
+          </p>
+        )}
+      </div>
 
       <p className="text-[11px] text-muted-foreground leading-relaxed">
         Providers are tried in order of what they cost you — on-device first,

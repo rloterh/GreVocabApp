@@ -39,11 +39,17 @@ export async function aiRegistry(
   const settings = useSettingsStore.getState();
   // From the keychain, never from the settings blob — that copy is the one
   // that used to reach exported backups. See docs/adr/0010-secrets-handling.md.
-  const anthropic = await getSecret("anthropicApiKey");
+  const [anthropic, openrouter] = await Promise.all([
+    getSecret("anthropicApiKey"),
+    getSecret("openrouterApiKey"),
+  ]);
   return new ProviderRegistry({
     // Rust on desktop so local servers are reachable at all; fetch on web.
     transport: platformTransport(),
-    secrets: { anthropicApiKey: anthropic?.reveal() ?? null },
+    secrets: {
+      anthropicApiKey: anthropic?.reveal() ?? null,
+      openrouterApiKey: openrouter?.reveal() ?? null,
+    },
     detectedClis,
     enabledClis: settings.enabledAiTools,
     pinned: (settings.pinnedProvider as ProviderId | null) ?? null,

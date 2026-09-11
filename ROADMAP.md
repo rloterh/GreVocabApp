@@ -19,19 +19,27 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-**Phases 1-5 are complete**, except one item. What is left:
+**Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
+scheduling, four import formats, an Anki round-trip, AI generation, sharing,
+themes, 283 tests, and a desktop bundle that has been launched and looked at.
 
-1. **Mobile build** (Phase 4, P2) — the only unfinished roadmap task. Needs the
-   Android SDK/NDK or Xcode, and a bottom-bar navigation rather than the
-   sidebar. Nothing here is blocking it except tooling and a layout decision.
-2. **See it actually run.** Everything below is verified by lint, typecheck,
-   283 unit tests, a production build and `cargo check`/`cargo test` — but no
-   part of the UI has been exercised in a browser, and the desktop shell
-   (watcher, tray, global shortcut) has never been observed running. That is
-   the honest gap in all of it.
-3. **Page-level component tests.** `src/lib/`, the stores, and the two
-   components with real logic are covered. The pages are composition and are
-   not.
+**Phases 6-12 are v1.0** — multi-platform, multi-provider, and a real testing
+suite. The design for all of it is in [`docs/`](./docs/); read
+[`docs/README.md`](./docs/README.md) first. Nothing in those documents is built
+until the phase below says so.
+
+Order is deliberate. Phase 6 is first because every later phase either uses the
+provider layer or is made harder by not having it. Phase 7 is second because
+mobile layout is verifiable in a browser and blocks the Android work.
+
+1. **Phase 6 — the AI provider layer.** Unblocks everything else.
+2. **Phase 7 — responsive shell.** Blocks Android; improves the web app today.
+3. **Phase 8 — generation at scale.** The dedup engine is the hard part.
+
+**One open decision** before Phase 11:
+[ADR 0006](./docs/adr/0006-fun-vs-no-gamification.md) — whether the standing
+"no gamification beyond streaks" rule holds. Everything currently scheduled
+respects it.
 
 Ideas beyond the roadmap are in the parking lot at the bottom.
 
@@ -127,6 +135,198 @@ initial commit.
 
 - ~~A friend can install the app, complete a session, and get to their second day without confusion.~~ The onboarding tour and the shortcut overlay are in. Whether it is actually confusing is a question for a real person, not a test.
 - ~~Someone can share a deck link on Twitter and the recipient can import it in one click.~~ Done, with a caveat: a code is a paste, not a link. A deck of 90 words encodes to a few thousand characters, which is fine for a message or a gist but too long for a tweet. Turning it into a real link needs somewhere to host it, and hosting is explicitly not planned.
+
+## Phase 6 — The AI provider layer
+
+**Goal.** The app finds a model on its own, from whatever the user already has,
+and every AI feature goes through one seam instead of a hand-rolled fetch.
+
+**Why it matters.** Today AI means "paste an Anthropic key". That excludes most
+people on first run, and `generate.ts` and `verify.ts` each carry their own copy
+of the HTTP, the model id and the error handling. Both problems have one fix.
+
+Design: [`docs/AI-PROVIDERS.md`](./docs/AI-PROVIDERS.md) ·
+[ADR 0001](./docs/adr/0001-provider-cascade.md) ·
+[ADR 0002](./docs/adr/0002-no-subscription-reuse.md) ·
+[ADR 0003](./docs/adr/0003-rust-http-transport.md)
+
+### Tasks
+
+- **[P0] Spike: browser built-in AI.** — The API has changed repeatedly and is partly origin-trial gated; the design assumes capability detection rather than a fixed shape. → A throwaway page reporting what this machine's Chrome and Edge actually expose, written into the ADR before any provider code depends on it.
+- **[P0] Provider interface and registry.** — One `Provider` shape, one `complete()` / `completeStructured()`. → `src/lib/ai/`, plus a contract test suite every adapter must pass against a stubbed transport.
+- **[P0] Structured-output façade.** — Providers express JSON schemas four different ways, and weak models express none. → `structured.ts` picks the strongest mechanism available and falls back to prompt-and-repair. Validation always runs, whatever the mechanism claimed.
+- **[P0] OpenAI-compatible adapter.** — One implementation covers OpenAI, Groq, OpenRouter, Together, DeepSeek, LM Studio, llama.cpp and any custom base URL. → The highest-leverage single file in the phase.
+- **[P0] Anthropic adapter.** — Port the existing strict-tool call, behaviour unchanged. → The 48 generator tests keep their meaning, re-pointed at the new seam.
+- **[P0] Local server detection.** — Ollama and LM Studio, probed in parallel on a 1.5s budget, cached per session. → Detected with no configuration on desktop.
+- **[P0] Rust HTTP transport.** — Escapes the CORS wall that stops a browser calling Ollama. → An `ai_request` command with a scheme and host allowlist and a response size cap. Not a general proxy, and must never become one.
+- **[P1] Browser built-in provider.** — Gated on the spike. → On-device, no key, no network.
+- **[P1] Provider settings UI.** — What was detected, what is in use, what it costs, an on-device badge. → One screen that makes the cascade legible instead of magic.
+- **[P1] Keys into OS secure storage.** — Desktop and mobile keychain rather than `localStorage`. → Includes migrating an existing Anthropic key out, and clearing it.
+- **[P1] Fix: API keys leak into backup exports.** — `exportData()` serialises the whole settings object, key included, into a file users put in cloud drives. → Exclude secrets from export. A live defect, not a v1.0 feature.
+- **[P2] WebGPU in-app model.** — No key, offline, but a multi-gigabyte download. → Opt-in, never automatic, with a clear size warning.
+
+### Definition of done
+
+- A user with Ollama running, or a current Chrome, generates vocabulary without
+  typing anything.
+- No AI feature contains a `fetch` to a provider.
+- Every adapter passes the same contract suite.
+- The provider in use is always visible in the UI.
+
+## Phase 7 — Responsive shell
+
+**Goal.** The app works on a phone-sized screen — in a browser today, in an
+Android app in Phase 9.
+
+**Why it matters.** A fixed 240px sidebar and a 53-column heatmap are unusable
+below ~640px. This is also the cheapest phase to verify: a browser at a phone
+viewport is the whole test rig.
+
+Design: [`docs/MOBILE.md`](./docs/MOBILE.md)
+
+### Tasks
+
+- **[P0] Responsive shell.** — One shell: sidebar at `lg` and up, bottom tab bar below. → Pages do not know which is showing; anything that needs to know is a layout bug to fix in the page.
+- **[P0] Bottom tab bar.** — Five destinations, the ones used daily; the rest behind More. → Safe-area padded, 44px minimum targets.
+- **[P0] Per-screen fixes.** — Stat grid, rating row, quiz options, heatmap, dialogs. → No horizontal page scroll at 360px; dialogs become full-screen sheets below `sm`.
+- **[P1] Touch and input hygiene.** — 44px targets, 16px input font so iOS does not zoom, no hover-only affordances. → The Archive share button is currently hover-only.
+- **[P1] Component tests at mobile viewports.** — The shell swap and the tab bar are logic, not composition. → jsdom at two widths.
+
+### Definition of done
+
+- Nothing scrolls the page horizontally at 360px.
+- Every interactive target is at least 44px.
+- Screenshots at 360, 768 and 1280 in the README.
+
+## Phase 8 — Generation at scale
+
+**Goal.** Generate a month, a quarter, six months or a year; never repeat a
+word; let the user insist on words of their own.
+
+**Why it matters.** Generating one month at a time is a demo. A year is the
+product — and a year is exactly where duplicates become inevitable without
+enforcement.
+
+Design: [`docs/VOCAB-GENERATION.md`](./docs/VOCAB-GENERATION.md) ·
+[ADR 0005](./docs/adr/0005-dedup-by-stem-with-retirement.md)
+
+### Tasks
+
+- **[P0] Dedup index.** — Stem-based collision, retirement on month removal, derived at startup. → Property-style tests: no duplicate survives, variants collapse, a removed month still blocks its words.
+- **[P0] Conservative stemmer.** — `abate`/`abated`/`abatement` are one word; `industry`/`industrious` are two. → A rule set with a word-family fixture, deliberately under-aggressive.
+- **[P0] Generation plan.** — Horizon, difficulty curve, themes, must-include words, as an editable value object. → Previewed before a single token is spent.
+- **[P0] Batched execution with overage.** — Ask for 25% more than needed, filter locally, top up once, then accept a short month and say so. → Enforcement is local; the avoid-list in the prompt is only an optimisation.
+- **[P0] Resumable plans.** — A year that fails at month 9 resumes at month 9. → Checkpoint after each committed month.
+- **[P1] User-supplied word lists.** — Paste or type words that must appear. → Placed first, never dropped, warned about if already present.
+- **[P1] Add words to an existing month.** — Generate only the card content for a word the user names.
+- **[P1] Local quality checks.** — No circular definitions; examples that do not restate the definition; mnemonics that are actually mnemonics. → Reuses the overlap check already in `verify.ts`, one targeted regeneration per failure.
+
+### Definition of done
+
+- A year-long plan produces ~1,100 words with zero stem collisions.
+- Removing a month and regenerating does not hand back that month's words.
+- A plan that fails partway resumes without repeating work.
+
+## Phase 9 — Android
+
+**Goal.** Lexicon on the Play Store.
+
+**Why it matters.** It is where vocabulary practice actually happens — in
+queues, on buses, in the five minutes before something starts.
+
+Design: [`docs/MOBILE.md`](./docs/MOBILE.md) ·
+[ADR 0004](./docs/adr/0004-android-first.md)
+
+### Tasks
+
+- **[P0] Android toolchain and `tauri android init`.** — JDK 17, SDK 34+, NDK, four Rust targets. → Written up as a runbook in CONTINUING.md, because this is the step that eats an afternoon.
+- **[P0] Platform capability gating.** — The watched folder is meaningless under scoped storage; tray and global shortcut are desktop-only. → Runtime capability checks, not platform branches scattered through the UI.
+- **[P0] System back button.** — Must navigate within the app before exiting it.
+- **[P0] Scheduled notifications.** — `tauri-plugin-notification`, plus the Android 13+ runtime permission. → This is what finally makes daily reminders fire with the app closed.
+- **[P1] Share-target intent.** — Receive a `.json`, `.csv` or `.apkg` shared from another app.
+- **[P1] Play Store submission.** — Keystore kept out of the repo, privacy policy, data-safety form declaring no collection, content rating, screenshots.
+- **[P2] Android CI.** — Build the APK on a runner, so the mobile build cannot rot the way the desktop build did.
+
+### Definition of done
+
+- A signed APK installs and runs on a real device.
+- A reminder fires with the app closed.
+- The Play listing is submitted.
+
+## Phase 10 — Testing suite
+
+**Goal.** Quizzes worth taking: instant, periodic, and a 100-question sectioned
+exam.
+
+**Why it matters.** Flashcards teach recognition. Testing under constraint is
+what reveals whether a word is actually known, and it is the thing a GRE
+candidate is preparing for.
+
+Design: [`docs/QUIZ-AND-EXAMS.md`](./docs/QUIZ-AND-EXAMS.md)
+
+### Tasks
+
+- **[P0] Distractor scoring.** — Same part of speech, similar definition length, same register; synonyms penalised hard. → A distractor that is arguably correct is the fastest way to lose trust in a quiz.
+- **[P0] Instant quiz with a scope picker.** — Scope, count, mode, then straight in; remembers the last choice. → Defaults to Due now whenever anything is due.
+- **[P0] Periodic tests.** — Daily 10, Weekly 25, Monthly 50, drawn from defined pools weighted toward low ease factors. → Uniform sampling mostly asks about words the user already knows.
+- **[P0] 100-question sectioned exam.** — Five sections of twenty, optional per-section timer, break screens without scores. → Persisted on every answer; closing the app mid-exam must not lose it.
+- **[P0] Wrong answers feed the scheduler.** — A missed word has its interval cut, as an "Again" would. → An exam is a study session, not only a measurement.
+- **[P1] Full per-question review.** — The word, your answer, the right answer, and the card.
+- **[P1] Test history and trend.** — Personal bests per period on the Progress page. → The point of testing on a schedule.
+- **[P2] AI-generated distractors.** — Better questions where a provider is available and the user opts in. → An enhancement; the heuristic is never removed.
+
+### Definition of done
+
+- A 100-question exam survives the app being closed and reopened.
+- No question has a distractor that is a synonym of its answer.
+- Missed words appear sooner in the flashcard schedule.
+
+## Phase 11 — Craft and delight
+
+**Goal.** The details that make people keep using it.
+
+**Gated on [ADR 0006](./docs/adr/0006-fun-vs-no-gamification.md).** Everything
+below respects the standing no-gamification rule. Nothing that would need that
+rule relaxed is scheduled until the decision is made.
+
+### Tasks
+
+- **[P0] Info dialog.** — A small `i` button opening "Designed by Robert Loterh · 2026", with version, licence and links.
+- **[P0] README with screenshots.** — What the app looks like, at desktop and mobile widths. → A vocabulary app with no screenshot in its README is asking a lot of a reader.
+- **[P1] Streak freeze.** — One token a week forgives a missed day. → Makes an existing feature kinder rather than adding a new axis of competition. The one mechanic worth arguing for.
+- **[P1] Word of the day** on the Dashboard, drawn from what is due.
+- **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
+- **[P1] Etymology and root families.** — Group by shared root; show the family while studying one. Genuinely aids retention.
+- **[P2] Confusable pairs drill.** — `affect`/`effect`, `discreet`/`discrete`.
+- **[P2] Session recap card.** — A shareable image of a session; the deck-share plumbing already exists.
+- **[P2] Empty and success state craft.**
+
+### Definition of done
+
+- The info dialog exists and names its designer.
+- The README shows the app.
+- Nothing built here violates ADR 0006 as decided.
+
+## Phase 12 — iOS
+
+**Blocked.** Needs a Mac and a paid Apple Developer account; neither exists for
+this project. Xcode is macOS-only and there is no cross-compilation path.
+
+Everything in Phases 7 and 9 is written to serve iOS too — responsive layout,
+safe areas, runtime capability detection — so this phase is short when it
+becomes possible rather than a rewrite.
+
+### Tasks
+
+- **[P0] Toolchain and `tauri ios init`.**
+- **[P0] Device and simulator testing.**
+- **[P0] App Store submission.** — Expect a review question about network calls; the answer is the consent dialog and the privacy policy.
+- **[P1] Screenshots at the required device sizes.**
+
+### Definition of done
+
+- The app runs on a physical iPhone.
+- The App Store listing is submitted.
 
 ## Explicitly not planned
 

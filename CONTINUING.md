@@ -6,6 +6,7 @@ Handoff document. If you're picking this project up in a fresh Claude session (F
 
 - **Shipped features** — see [`CHANGELOG.md`](./CHANGELOG.md).
 - **What's next, with priorities** — see [`ROADMAP.md`](./ROADMAP.md). The "Next up" section at the top names the three best things to start on.
+- **How v1.0 is designed** — see [`docs/`](./docs/). Phases 6-12 have design documents and decision records; do not start one of those phases without reading its document.
 - **Runs** — `npm install && npm run dev` (web, :1420) or `npm run tauri:dev` (desktop, needs Rust).
 
 The rest of this file is *conventions*, not status — those go in the two files above so this one doesn't drift.

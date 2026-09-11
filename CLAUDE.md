@@ -6,9 +6,10 @@ You are helping build **Lexicon**, a daily vocabulary practice app.
 
 1. **[CONTINUING.md](./CONTINUING.md)** — current state, design principles, where to make common changes, known rough edges. This is the primary handoff document.
 2. **[ROADMAP.md](./ROADMAP.md)** — phased plan with priorities and acceptance criteria. Consult this when the user asks "what should we build?" or "what's next?" — don't invent a plan from scratch.
-3. **[CHANGELOG.md](./CHANGELOG.md)** — shipped features per release.
-4. **[README.md](./README.md)** — user-facing feature set, data model, scripts.
-5. **[src/types/index.ts](./src/types/index.ts)** — the domain contract that everything else follows.
+3. **[docs/](./docs/)** — design documentation for v1.0 (Phases 6-12): the AI provider layer, generation and dedup, quizzes and exams, mobile, and the data model. Start at [docs/README.md](./docs/README.md). Decision records are in [docs/adr/](./docs/adr/) — read the relevant one before re-arguing a decision.
+4. **[CHANGELOG.md](./CHANGELOG.md)** — shipped features per release.
+5. **[README.md](./README.md)** — user-facing feature set, data model, scripts.
+6. **[src/types/index.ts](./src/types/index.ts)** — the domain contract that everything else follows.
 
 Do not begin coding without reading at least CONTINUING.md. When starting significant new work, also read the relevant phase in ROADMAP.md — if it doesn't fit any planned phase, say so before building.
 

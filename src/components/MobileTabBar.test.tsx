@@ -95,9 +95,10 @@ describe("More", () => {
   it("holds every destination that has no tab", () => {
     setup(true);
     const sheet = screen.getByRole("dialog", { name: "More destinations" });
-    const labels = [...sheet.querySelectorAll("button")].map((b) =>
-      b.textContent?.trim(),
-    );
+    // The About button shares the sheet but is not a destination.
+    const labels = [...sheet.querySelectorAll("button")]
+      .filter((b) => !b.getAttribute("aria-label"))
+      .map((b) => b.textContent?.trim());
     // Between the bar and the sheet, all ten must be reachable — a page that
     // appears in neither is unreachable on a phone.
     expect(labels).toEqual([

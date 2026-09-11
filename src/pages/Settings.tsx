@@ -3,26 +3,11 @@ import { motion } from "framer-motion";
 import {
   AlertTriangle,
   Check,
-  Contrast,
   Eye,
   EyeOff,
   FolderOpen,
-  Monitor,
-  Moon,
-  Palette,
-  ScrollText,
-  Sun,
 } from "lucide-react";
 
-/** Icons live here rather than in lib/theme.ts, which stays free of UI. */
-const THEME_ICONS: Record<Theme, React.ComponentType<{ className?: string }>> = {
-  light: Sun,
-  dark: Moon,
-  system: Monitor,
-  sepia: ScrollText,
-  solarized: Palette,
-  "high-contrast": Contrast,
-};
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -38,7 +23,8 @@ import {
   markdownFilename,
   progressToMarkdown,
 } from "@/lib/markdown-export";
-import { applyTheme, THEMES } from "@/lib/theme";
+import { ThemePicker } from "@/components/ThemePicker";
+import { WORD_ORDERS } from "@/lib/order";
 import { playSound } from "@/lib/sound";
 import { installedClis } from "@/lib/ai/client";
 import { getSecret, keystoreKind, setSecret } from "@/lib/ai/keystore";
@@ -47,7 +33,6 @@ import type { DetectedCli } from "@/lib/ai/providers/cli";
 import { containsSecret, stripSecrets } from "@/lib/secrets";
 import { pickWatchedFolder } from "@/hooks/useWatchedFolder";
 import { isTauri } from "@/lib/utils";
-import type { Theme } from "@/types";
 import { cn } from "@/lib/utils";
 
 /** Hand a blob to the browser as a download. */
@@ -281,36 +266,36 @@ export function Settings() {
         title="Appearance"
         description="Choose how Lexicon looks."
       >
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-          {THEMES.map((opt) => {
-            const Icon = THEME_ICONS[opt.value];
-            const active = settings.theme === opt.value;
-            return (
-              <button
-                key={opt.value}
-                type="button"
-                aria-pressed={active}
-                onClick={() => {
-                  settings.set({ theme: opt.value });
-                  applyTheme(opt.value);
-                }}
-                className={cn(
-                  "flex flex-col items-start gap-1 rounded-md border p-3 text-left transition-colors",
-                  active
-                    ? "border-accent bg-accent/10 text-foreground"
-                    : "border-border text-muted-foreground hover:text-foreground",
-                )}
-              >
-                <span className="flex items-center gap-1.5 text-xs font-medium">
-                  <Icon className="w-3.5 h-3.5" />
-                  {opt.label}
-                </span>
-                <span className="text-[10px] text-muted-foreground leading-tight">
-                  {opt.hint}
-                </span>
-              </button>
-            );
-          })}
+        <ThemePicker
+          value={settings.theme}
+          onChange={(theme) => settings.set({ theme })}
+        />
+      </SettingSection>
+
+      <SettingSection
+        title="Word order"
+        description="How a month's words are listed. Never changes what the scheduler shows you next, or the order of quiz questions."
+      >
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          {WORD_ORDERS.map((opt) => (
+            <button
+              key={opt.value}
+              type="button"
+              aria-pressed={settings.wordOrder === opt.value}
+              onClick={() => settings.set({ wordOrder: opt.value })}
+              className={cn(
+                "rounded-md border p-3 text-left transition-colors",
+                settings.wordOrder === opt.value
+                  ? "border-accent bg-accent/10 text-foreground"
+                  : "border-border text-muted-foreground hover:text-foreground",
+              )}
+            >
+              <span className="block text-xs font-medium">{opt.label}</span>
+              <span className="block text-[10px] text-muted-foreground leading-tight mt-0.5">
+                {opt.hint}
+              </span>
+            </button>
+          ))}
         </div>
       </SettingSection>
 

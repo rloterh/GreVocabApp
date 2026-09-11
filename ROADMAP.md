@@ -319,8 +319,8 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 
 ### Tasks
 
-- **[P0] Info dialog.** — A small `i` button opening "Designed by Robert Loterh · 2026", with version, licence and links.
-- **[P0] README with screenshots.** — What the app looks like, at desktop and mobile widths. → A vocabulary app with no screenshot in its README is asking a lot of a reader.
+- ~~**[P0] Info dialog.**~~ **DONE 2026-09-11.** — `AboutDialog`, beside Settings in the sidebar and in the mobile More sheet. The version comes from package.json through a Vite define, so it cannot claim a version the build is not.
+- ~~**[P0] README with screenshots.**~~ **DONE 2026-09-11**, in Phase 7 — `docs/screenshots/` at 390, 768 and 1280.
 - **[P1] Streak freeze.** — One token a week, spent automatically on a missed day. → Streaks motivate until one breaks, at which point they become a reason to stop. This removes the cliff without adding a number to chase.
 - **[P1] Word of the day** on the Dashboard, drawn from what is due.
 - **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
@@ -331,16 +331,16 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 
 #### Themes
 
-- **[P0] Four new themes.** — Midnight (cool indigo), Evergreen (deep forest), Porcelain (refined light), Claret (warm evening). → Full token blocks are specified in [`docs/THEMES.md`](./docs/THEMES.md); implementation is one CSS block and one `THEMES` entry each. Porcelain matters most: the existing set has five dark-ish themes and one light one.
-- **[P0] Automated contrast test.** — Ten themes is past the point where checking colours by eye is reliable, and the failure is silent. → Parse every theme block out of `globals.css`, compute relative luminance, assert the legibility pairs clear WCAG AA — and High contrast at AAA, since that is what it claims to be. Worth more than the themes it checks: it makes the eleventh theme safe for someone who has never seen the other ten.
-- **[P1] Grouped theme picker with palette previews.** — Ten swatches in a flat grid is a wall. → Group by System / Light / Dark / Accessibility; each button previews its own background, foreground and accent, so the choice is visible rather than a name to guess at.
+- ~~**[P0] Four new themes.**~~ **DONE 2026-09-11.** — Midnight, Evergreen, Porcelain and Claret, lifted from the token blocks in [`docs/THEMES.md`](./docs/THEMES.md) by script rather than retyped, since a transcription error would have been silent. Ten themes in all.
+- ~~**[P0] Automated contrast test.**~~ **DONE 2026-09-11.** — 108 assertions across ten palettes, parsed out of `globals.css` rather than copied. **It found six real legibility failures in themes that shipped months ago**, including white-on-accent at 3.21:1 in the default light theme — which is a button label. It also proved the `--border` threshold in the design doc wrong; both the doc and the test now record why.
+- ~~**[P1] Grouped theme picker with palette previews.**~~ **DONE 2026-09-11.** — `ThemePicker`, grouped Automatic / Light / Dark / Accessibility. Each swatch applies the theme's own class and reads the same custom properties the app renders with, so a preview cannot drift from what it previews.
 
 #### Word order
 
-- **[P0] `orderWords` and the `wordOrder` setting.** — Authored, alphabetical, or random. → `src/lib/order.ts`, pure, seed passed in rather than read from a clock — the same shape as `schedule(..., now)`. Default is **authored**, because a generated month builds difficulty deliberately and alphabetising it discards a teaching decision.
-- **[P0] Random means *stable*.** — Seeded by month, deck and day. → Stable within a day so position is a usable memory aid; different tomorrow so the ordering effect breaks. A shuffle that changes on every render moves the card you are reading.
-- **[P0] Scheduling and fairness win.** — The preference applies to Daily Practice, Archive listings and the month/day/mastered decks. It must **not** touch the due deck, quiz or exam question order, or search results. → Presentation never overrides scheduling or fairness. Tested for all three values.
-- **[P1] Fold the existing Flashcards shuffle toggle into it.** — Two independent controls over the same thing would confuse. → The preference sets the toggle's initial state; the toggle stays a per-session override and does not write back.
+- ~~**[P0] `orderWords` and the `wordOrder` setting.**~~ **DONE 2026-09-11.** — `src/lib/order.ts`, pure, seed passed in. Default authored. 30 tests.
+- ~~**[P0] Random means *stable*.**~~ **DONE 2026-09-11.** — Seeded by month, deck and day; FNV-1a into mulberry32, then Fisher–Yates. Verified in a browser that the order survives a reload unchanged.
+- **[P0] Scheduling and fairness win.** **PARTLY DONE 2026-09-11.** — Applied to Daily Practice, and to the Flashcards shuffle toggle's initial state. The due deck, quiz, exam and search were left untouched, which is the half that matters — but that is currently true because nothing calls `orderWords` there, not because a test says so. **Outstanding:** the guard test asserting the due deck and quiz order are unchanged across all three settings. Archive listings also do not honour it yet.
+- ~~**[P1] Fold the existing Flashcards shuffle toggle into it.**~~ **DONE 2026-09-11.** — The preference sets the toggle's initial state; the toggle stays a per-session override and never writes back.
 
 ### Definition of done
 

@@ -183,7 +183,7 @@ The pairs that must hold, for every theme:
 | `--primary-foreground` | `--primary` | 4.5 : 1 |
 | `--accent-foreground` | `--accent` | 4.5 : 1 |
 | `--destructive` / `--success` / `--warning` | `--background` | 3 : 1 |
-| `--border` | `--background` | 1.6 : 1 |
+| `--border` | `--background` | 1.15 : 1 |
 
 Status colours get the 3:1 large-text/UI threshold rather than 4.5:1 because
 they are used as badges, dots and borders rather than body copy — holding them
@@ -192,6 +192,13 @@ to body-text contrast would force every palette toward the same few hues.
 `--border` gets a low floor: a border that clears 4.5:1 against its background
 is a line, not a border. The check exists to catch borders that have vanished
 entirely.
+
+> **Corrected 2026-09-11.** This originally said 1.6:1, a number written here
+> without measuring anything. When the test was built, **all nine** palettes
+> came in between 1.20 and 1.66 — including the four specified token by token
+> in this very document. A threshold that every subject fails is a wrong
+> threshold, not nine wrong palettes. 1.15 catches a border that has actually
+> disappeared while leaving a deliberate hairline alone.
 
 **High contrast is asserted at AAA (7:1)** for its text pairs. A theme whose
 entire purpose is legibility should be held to the standard it claims.

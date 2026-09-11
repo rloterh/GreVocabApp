@@ -1,3 +1,5 @@
+import type { WordOrder } from "@/lib/order";
+
 /**
  * Core domain types — the contract everything else follows.
  *
@@ -163,7 +165,11 @@ export type Theme =
   | "system"
   | "sepia"
   | "solarized"
-  | "high-contrast";
+  | "high-contrast"
+  | "midnight"
+  | "evergreen"
+  | "porcelain"
+  | "claret";
 
 /**
  * Credentials. Separated from `Settings` so that anything which must not
@@ -189,6 +195,13 @@ export interface Settings {
   dataDirectory: string | null; // Tauri filesystem path
   preferApiVerification: boolean;
   reduceMotion: boolean;
+  /**
+   * How a month's words are ordered where nothing else has already decided.
+   *
+   * Presentation only. It must never reach the due deck, quiz or exam question
+   * order, or search results — see docs/WORD-ORDER.md.
+   */
+  wordOrder: WordOrder;
   fontSize: "sm" | "md" | "lg";
   /** Set once the user has dismissed the spaced-repetition explainer. */
   hasSeenSrsIntro: boolean;

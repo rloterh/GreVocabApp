@@ -5,6 +5,11 @@ export default defineConfig({
   resolve: {
     alias: { "@": path.resolve(__dirname, "./src") },
   },
+  // Matches the define in vite.config.ts, so components that show the
+  // version can be rendered in tests.
+  define: {
+    __APP_VERSION__: JSON.stringify("test"),
+  },
   test: {
     // Everything under test here is pure logic — no DOM needed.
     environment: "node",

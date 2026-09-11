@@ -21,9 +21,11 @@
     --secondary-foreground: 20 14% 20%;
 
     --muted: 40 12% 94%;
-    --muted-foreground: 20 8% 45%;
+    /* Raised to clear WCAG AA; see theme-contrast.test.ts. */
+    --muted-foreground: 20 8% 43%;
 
-    --accent: 160 50% 42%;
+    /* Raised to clear WCAG AA; see theme-contrast.test.ts. */
+    --accent: 160 50% 34%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
@@ -32,7 +34,8 @@
     --success: 160 55% 40%;
     --success-foreground: 0 0% 100%;
 
-    --warning: 32 88% 52%;
+    /* Raised to clear WCAG AA; see theme-contrast.test.ts. */
+    --warning: 32 88% 45%;
     --warning-foreground: 20 20% 10%;
 
     --border: 20 8% 90%;
@@ -97,7 +100,8 @@
     --secondary-foreground: 26 30% 22%;
 
     --muted: 36 28% 85%;
-    --muted-foreground: 28 18% 40%;
+    /* Raised to clear WCAG AA; see theme-contrast.test.ts. */
+    --muted-foreground: 28 18% 37%;
 
     --accent: 26 62% 40%;
     --accent-foreground: 38 46% 96%;
@@ -134,7 +138,8 @@
     --secondary-foreground: 180 7% 70%;
 
     --muted: 192 81% 17%;
-    --muted-foreground: 194 14% 50%;
+    /* Raised to clear WCAG AA; see theme-contrast.test.ts. */
+    --muted-foreground: 194 14% 63%;
 
     --accent: 175 59% 40%;
     --accent-foreground: 192 100% 11%;
@@ -189,6 +194,114 @@
     --border: 0 0% 55%;
     --input: 0 0% 55%;
     --ring: 52 100% 70%;
+  }
+
+  /* Navy dark, periwinkle accent. Colder and calmer than Dark. */
+  .midnight {
+    --background: 230 30% 9%;
+    --foreground: 225 20% 92%;
+    --card: 230 28% 12%;
+    --card-foreground: 225 20% 92%;
+    --popover: 230 28% 12%;
+    --popover-foreground: 225 20% 92%;
+    --primary: 225 20% 92%;
+    --primary-foreground: 230 30% 9%;
+    --secondary: 230 24% 17%;
+    --secondary-foreground: 225 20% 90%;
+    --muted: 230 24% 17%;
+    --muted-foreground: 228 12% 64%;
+    --accent: 250 70% 68%;
+    --accent-foreground: 230 30% 9%;
+    --destructive: 355 70% 62%;
+    --destructive-foreground: 230 30% 9%;
+    --success: 160 50% 52%;
+    --success-foreground: 230 30% 9%;
+    --warning: 38 90% 62%;
+    --warning-foreground: 230 30% 9%;
+    --border: 230 20% 22%;
+    --input: 230 20% 22%;
+    --ring: 250 70% 72%;
+  }
+
+  /* Deep forest with a moss accent. */
+  .evergreen {
+    --background: 160 22% 8%;
+    --foreground: 150 15% 92%;
+    --card: 160 20% 11%;
+    --card-foreground: 150 15% 92%;
+    --popover: 160 20% 11%;
+    --popover-foreground: 150 15% 92%;
+    --primary: 150 15% 92%;
+    --primary-foreground: 160 22% 8%;
+    --secondary: 160 18% 16%;
+    --secondary-foreground: 150 15% 90%;
+    --muted: 160 18% 16%;
+    --muted-foreground: 152 10% 64%;
+    --accent: 92 46% 58%;
+    --accent-foreground: 160 22% 8%;
+    --destructive: 8 66% 60%;
+    --destructive-foreground: 160 22% 8%;
+    --success: 140 50% 54%;
+    --success-foreground: 160 22% 8%;
+    --warning: 40 85% 60%;
+    --warning-foreground: 160 22% 8%;
+    --border: 160 16% 20%;
+    --input: 160 16% 20%;
+    --ring: 92 46% 62%;
+  }
+
+  /* Cool off-white, charcoal text, deep teal accent. */
+  .porcelain {
+    --background: 210 20% 97%;
+    --foreground: 215 25% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+    --primary: 215 25% 15%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 210 18% 92%;
+    --secondary-foreground: 215 25% 22%;
+    --muted: 210 16% 92%;
+    --muted-foreground: 215 12% 40%;
+    --accent: 190 65% 32%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 160 55% 30%;
+    --success-foreground: 0 0% 100%;
+    --warning: 32 85% 38%;
+    --warning-foreground: 0 0% 100%;
+    --border: 214 16% 87%;
+    --input: 214 16% 87%;
+    --ring: 190 55% 30%;
+  }
+
+  /* Burgundy and gold, for studying at night. */
+  .claret {
+    --background: 345 25% 9%;
+    --foreground: 25 20% 92%;
+    --card: 345 22% 12%;
+    --card-foreground: 25 20% 92%;
+    --popover: 345 22% 12%;
+    --popover-foreground: 25 20% 92%;
+    --primary: 25 20% 92%;
+    --primary-foreground: 345 25% 9%;
+    --secondary: 345 20% 17%;
+    --secondary-foreground: 25 20% 90%;
+    --muted: 345 20% 17%;
+    --muted-foreground: 350 10% 66%;
+    --accent: 38 76% 60%;
+    --accent-foreground: 345 25% 9%;
+    --destructive: 0 70% 62%;
+    --destructive-foreground: 345 25% 9%;
+    --success: 150 45% 52%;
+    --success-foreground: 345 25% 9%;
+    --warning: 30 85% 62%;
+    --warning-foreground: 345 25% 9%;
+    --border: 345 18% 22%;
+    --input: 345 18% 22%;
+    --ring: 38 76% 64%;
   }
 }
 

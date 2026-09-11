@@ -13,6 +13,7 @@ import {
   Archive as ArchiveIcon,
 } from "lucide-react";
 import { useAppStore, type Page } from "@/store/useAppStore";
+import { AboutDialog } from "@/components/AboutDialog";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -65,12 +66,12 @@ export function Sidebar() {
         </div>
       </nav>
 
-      <div className="p-3 border-t border-border/60">
+      <div className="p-3 border-t border-border/60 flex items-center gap-1">
         <button
           type="button"
           onClick={() => navigate("settings")}
           className={cn(
-            "w-full flex items-center gap-2.5 rounded-md px-2.5 py-2 text-sm font-medium transition-colors",
+            "flex-1 flex items-center gap-2.5 rounded-md px-2.5 py-2 text-sm font-medium transition-colors",
             page === "settings"
               ? "bg-secondary text-foreground"
               : "text-muted-foreground hover:bg-secondary/60 hover:text-foreground",
@@ -79,6 +80,7 @@ export function Sidebar() {
           <SettingsIcon className="w-4 h-4" />
           Settings
         </button>
+        <AboutDialog />
       </div>
     </aside>
   );

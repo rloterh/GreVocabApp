@@ -105,7 +105,11 @@ export function Flashcards() {
 
   const [screen, setScreen] = useState<Screen>("setup");
   const [deck, setDeck] = useState<StudyDeck>("month");
-  const [doShuffle, setDoShuffle] = useState(true);
+  // The global preference sets the initial state; this toggle stays a
+  // per-session override and never writes back. Two independent controls over
+  // the same thing would be confusing. See docs/WORD-ORDER.md.
+  const wordOrder = useSettingsStore((s) => s.wordOrder);
+  const [doShuffle, setDoShuffle] = useState(wordOrder === "random");
   const [cardLimit, setCardLimit] = useState(15);
 
   // Session state

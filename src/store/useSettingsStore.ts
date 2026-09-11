@@ -19,6 +19,7 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   anthropicApiKey: null,
   preferApiVerification: true,
   reduceMotion: false,
+  wordOrder: "authored",
   fontSize: "md",
   hasSeenSrsIntro: false,
   studyReminderEnabled: false,

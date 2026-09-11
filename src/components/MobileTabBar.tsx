@@ -25,6 +25,7 @@ import {
   Archive as ArchiveIcon,
 } from "lucide-react";
 import { useAppStore, type Page } from "@/store/useAppStore";
+import { AboutDialog } from "@/components/AboutDialog";
 import { cn } from "@/lib/utils";
 
 interface Destination {
@@ -121,6 +122,9 @@ export function MobileTabBar({
                     </button>
                   );
                 })}
+              </div>
+              <div className="mt-2 flex justify-center">
+                <AboutDialog />
               </div>
             </motion.div>
           </>

@@ -22,6 +22,8 @@ import {
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
+import { dayKey, orderWords, seedFor } from "@/lib/order";
+import { useSettingsStore } from "@/store/useSettingsStore";
 
 export function DailyPractice() {
   const {
@@ -32,6 +34,7 @@ export function DailyPractice() {
     getAllMonths,
   } = useVocabStore();
   const toggleMastered = useProgressStore((s) => s.toggleMastered);
+  const wordOrder = useSettingsStore((s) => s.wordOrder);
   const markReviewed = useProgressStore((s) => s.markReviewed);
   const isMastered = useProgressStore((s) => s.isMastered);
   const navigate = useAppStore((s) => s.navigate);
@@ -61,7 +64,17 @@ export function DailyPractice() {
     );
   }
 
-  const day = month.days.find((d) => d.day === selectedDay);
+  const rawDay = month.days.find((d) => d.day === selectedDay);
+  // Presentation of a fixed set, so the preference applies. The seed is stable
+  // for the day and deck, so the order does not move under a re-render.
+  const day = rawDay && {
+    ...rawDay,
+    words: orderWords(
+      rawDay.words,
+      wordOrder,
+      seedFor([month.month, `day-${selectedDay}`, dayKey(new Date())]),
+    ),
+  };
   const dayIdx = month.days.findIndex((d) => d.day === selectedDay);
   const totalMastered = day?.words.filter((w) => isMastered(w.id)).length ?? 0;
   const totalWords = day?.words.length ?? 0;

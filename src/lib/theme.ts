@@ -10,24 +10,69 @@
 
 import type { Theme } from "@/types";
 
+/**
+ * Which shelf a theme sits on in the picker.
+ *
+ * Ten swatches in a flat grid is a wall. Grouping turns "pick one of ten" into
+ * three short questions.
+ */
+export type ThemeGroup = "system" | "light" | "dark" | "accessibility";
+
 export interface ThemeSpec {
   value: Theme;
   label: string;
   /** One line for the settings UI. */
   hint: string;
+  group: ThemeGroup;
 }
 
 export const THEMES: ThemeSpec[] = [
-  { value: "light", label: "Light", hint: "Warm paper white" },
-  { value: "dark", label: "Dark", hint: "Near-black, mint accent" },
-  { value: "system", label: "System", hint: "Follow the OS" },
-  { value: "sepia", label: "Sepia", hint: "Aged paper, amber accent" },
-  { value: "solarized", label: "Solarized", hint: "The classic dark palette" },
+  { value: "system", label: "System", hint: "Follow the OS", group: "system" },
+
+  { value: "light", label: "Light", hint: "Warm paper white", group: "light" },
+  {
+    value: "porcelain",
+    label: "Porcelain",
+    hint: "Cool off-white, deep teal",
+    group: "light",
+  },
+  { value: "sepia", label: "Sepia", hint: "Aged paper, amber accent", group: "light" },
+
+  { value: "dark", label: "Dark", hint: "Near-black, mint accent", group: "dark" },
+  {
+    value: "midnight",
+    label: "Midnight",
+    hint: "Navy, periwinkle accent",
+    group: "dark",
+  },
+  {
+    value: "evergreen",
+    label: "Evergreen",
+    hint: "Deep forest, moss accent",
+    group: "dark",
+  },
+  { value: "claret", label: "Claret", hint: "Burgundy and gold", group: "dark" },
+  {
+    value: "solarized",
+    label: "Solarized",
+    hint: "The classic dark palette",
+    group: "dark",
+  },
+
   {
     value: "high-contrast",
     label: "High contrast",
     hint: "Maximum legibility",
+    group: "accessibility",
   },
+];
+
+/** The picker's shelves, in order, with a heading each. */
+export const THEME_GROUPS: Array<{ group: ThemeGroup; label: string }> = [
+  { group: "system", label: "Automatic" },
+  { group: "light", label: "Light" },
+  { group: "dark", label: "Dark" },
+  { group: "accessibility", label: "Accessibility" },
 ];
 
 /**

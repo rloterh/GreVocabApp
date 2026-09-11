@@ -13,7 +13,7 @@ works and where the one real boundary lies.
 | Use an on-device model built into the browser | **Yes.** Chrome and Edge ship a built-in model behind a JS API. No key, no network. |
 | Use a local server the user is already running | **Yes.** Ollama, LM Studio and llama.cpp expose HTTP on localhost. No key. CORS is the obstacle and the desktop build bypasses it. |
 | Use an AI CLI already installed and signed in on the machine | **Yes**, on desktop, with consent. We invoke the tool; it authenticates itself. [ADR 0009](./adr/0009-installed-cli-providers.md) |
-| Sign in with the provider, no key typed | **Where the provider offers third-party OAuth.** This is how Claude Code and the VS Code extensions work, and it is not credential-sharing — the browser authenticates the user and returns a scoped token. Availability is per provider. [ADR 0007](./adr/0007-authentication-strategy.md) |
+| Sign in with the provider, no key typed | **At OpenRouter, and nowhere else.** Measured across seven providers: only OpenRouter runs a PKCE flow open to an unregistered public client. Anthropic expressly prohibits third-party Claude.ai login; Google's OAuth reaches no text-generation method; the rest publish no third-party flow. It is not credential-sharing where it exists — the browser authenticates the user and hands back a key. [ADR 0007](./adr/0007-authentication-strategy.md) |
 | Run a model inside the app itself | **Yes.** WebGPU. No key, offline, but a multi-gigabyte download. |
 | Use the user's own cloud account via a pasted key | **Yes.** What the app does today for Anthropic. |
 | Use any AI at all, with no credential of any kind | **Yes** — the prompt bridge. The app writes the prompt, the user runs it in whatever AI they already have open, and pastes the result back. [ADR 0008](./adr/0008-prompt-bridge.md) |
@@ -40,8 +40,8 @@ the choice is remembered.
 3. Installed AI CLI        no key; the tool authenticates itself
                            opt-in per tool, desktop only        [ADR 0009]
 4. In-app WebGPU model     no key, offline after a one-time download (opt-in)
-5. Connected by OAuth      no key typed; scoped token in the OS keychain
-                           where the provider offers it         [ADR 0007]
+5. Connected by OAuth      no key typed; the returned key goes to the keychain
+                           OpenRouter only — measured           [ADR 0007]
 6. Cloud, user's own key   OpenAI · Anthropic · Google · Mistral · Groq ·
                            OpenRouter · DeepSeek · Together · any
                            OpenAI-compatible endpoint
@@ -76,7 +76,7 @@ Detection is a capability probe with a short timeout, cached for the session:
 | llama.cpp | `GET /v1/models` on `127.0.0.1:8080` | OpenAI-compatible. |
 | WebGPU | `navigator.gpu` present and an adapter obtainable | Presence is not sufficient; request an adapter. |
 | Installed CLI | The binary is on `PATH`, plus a cheap `--version` | Detected but never used until the user enables that tool. [ADR 0009](./adr/0009-installed-cli-providers.md) |
-| OAuth | A stored, unexpired token for that provider | Refresh on `Unauthorized`, once, then prompt to reconnect. |
+| OAuth (OpenRouter) | A key obtained through the connect flow is stored | The flow returns a **user-controlled API key, not an expiring token**, so there is no refresh to perform — treat it exactly like a pasted key and prompt to reconnect on `Unauthorized`. |
 | Cloud | A key exists in settings for that provider | No network probe. Do not spend the user's money to answer "are you configured". |
 
 > **Spike result, 2026-09-11.** The browser built-in model was `"unavailable"`

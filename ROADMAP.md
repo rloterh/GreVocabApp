@@ -301,6 +301,10 @@ feedback — not a second scoring system competing with the scheduler. The one
 exception is the streak freeze, which corrects an existing mechanic rather than
 adding a new one. No XP, levels, badges or comparison.
 
+Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
+[`docs/WORD-ORDER.md`](./docs/WORD-ORDER.md) ·
+[ADR 0006](./docs/adr/0006-fun-vs-no-gamification.md)
+
 ### Tasks
 
 - **[P0] Info dialog.** — A small `i` button opening "Designed by Robert Loterh · 2026", with version, licence and links.
@@ -313,10 +317,25 @@ adding a new one. No XP, levels, badges or comparison.
 - **[P2] Session recap card.** — A shareable image of a session; the deck-share plumbing already exists.
 - **[P2] Empty and success state craft.**
 
+#### Themes
+
+- **[P0] Four new themes.** — Midnight (cool indigo), Evergreen (deep forest), Porcelain (refined light), Claret (warm evening). → Full token blocks are specified in [`docs/THEMES.md`](./docs/THEMES.md); implementation is one CSS block and one `THEMES` entry each. Porcelain matters most: the existing set has five dark-ish themes and one light one.
+- **[P0] Automated contrast test.** — Ten themes is past the point where checking colours by eye is reliable, and the failure is silent. → Parse every theme block out of `globals.css`, compute relative luminance, assert the legibility pairs clear WCAG AA — and High contrast at AAA, since that is what it claims to be. Worth more than the themes it checks: it makes the eleventh theme safe for someone who has never seen the other ten.
+- **[P1] Grouped theme picker with palette previews.** — Ten swatches in a flat grid is a wall. → Group by System / Light / Dark / Accessibility; each button previews its own background, foreground and accent, so the choice is visible rather than a name to guess at.
+
+#### Word order
+
+- **[P0] `orderWords` and the `wordOrder` setting.** — Authored, alphabetical, or random. → `src/lib/order.ts`, pure, seed passed in rather than read from a clock — the same shape as `schedule(..., now)`. Default is **authored**, because a generated month builds difficulty deliberately and alphabetising it discards a teaching decision.
+- **[P0] Random means *stable*.** — Seeded by month, deck and day. → Stable within a day so position is a usable memory aid; different tomorrow so the ordering effect breaks. A shuffle that changes on every render moves the card you are reading.
+- **[P0] Scheduling and fairness win.** — The preference applies to Daily Practice, Archive listings and the month/day/mastered decks. It must **not** touch the due deck, quiz or exam question order, or search results. → Presentation never overrides scheduling or fairness. Tested for all three values.
+- **[P1] Fold the existing Flashcards shuffle toggle into it.** — Two independent controls over the same thing would confuse. → The preference sets the toggle's initial state; the toggle stays a per-session override and does not write back.
+
 ### Definition of done
 
 - The info dialog exists and names its designer.
 - The README shows the app.
+- Ten themes, every one passing the contrast test.
+- Changing word order never changes what the scheduler shows next.
 - Nothing here needs a legend to explain it. That is the test for "fun, not
   confusing" — if a feature would need a tooltip to justify itself, it is out.
 

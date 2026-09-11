@@ -13,6 +13,8 @@ Read in this order. Each document assumes the ones above it.
 | [VOCAB-GENERATION.md](./VOCAB-GENERATION.md) | Generating a month/quarter/year, never repeating a word, honouring user-supplied lists |
 | [QUIZ-AND-EXAMS.md](./QUIZ-AND-EXAMS.md) | Instant quizzes, periodic tests, and the 100-question sectioned exam |
 | [MOBILE.md](./MOBILE.md) | Android and iOS: layout, platform work, store submission |
+| [THEMES.md](./THEMES.md) | The palette system, four new themes, and the contrast test that keeps ten of them legible |
+| [WORD-ORDER.md](./WORD-ORDER.md) | Authored / alphabetical / random — and where a presentation preference must not override the scheduler |
 | [adr/](./adr/) | Decision records — the *why*, kept short, one per decision |
 
 **Start with [ADR 0007](./adr/0007-authentication-strategy.md)** if you are

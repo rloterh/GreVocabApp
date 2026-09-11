@@ -64,6 +64,16 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   `npm audit` is now clean.
 - `npm run lint` passes and runs in CI, alongside typecheck and build.
 
+- **Generate vocabulary with no API key at all.** "Generate elsewhere" copies a
+  ready-made prompt you can paste into any AI you already use — then paste the
+  reply back and it loads like any file. Commentary and code fences are ignored.
+- **Any AI provider, not just Anthropic.** Local servers (Ollama, LM Studio,
+  llama.cpp), OpenAI, Groq, OpenRouter, or any OpenAI-compatible endpoint. The
+  app picks whichever is cheapest for you — on-device first — and names the one
+  it used.
+- **Sentence checking works with a local model**, which means your own sentences
+  no longer have to leave your machine.
+
 ### Security
 - **Backup exports no longer contain your API key.** `exportData()` serialised
   the whole settings object, key included, into a file the app tells you to keep

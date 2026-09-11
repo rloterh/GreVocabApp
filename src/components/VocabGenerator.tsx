@@ -1,16 +1,21 @@
 /**
- * "Generate a month with Claude" dialog.
+ * "Generate a month" — two routes to the same place.
  *
- * Thin on purpose: the prompt, the schema and the API call live in
- * `src/lib/generate.ts`, and the result is handed to the vocab store's
- * `loadMonth`, so generated content is validated exactly like an imported
- * file. This component only collects three inputs and reports what happened.
+ * **Generate** uses whatever provider the registry finds: on-device, a local
+ * server, or a cloud key the user configured.
  *
- * See ROADMAP.md, Phase 3.
+ * **Generate elsewhere** needs no AI at all. The app writes the prompt, the
+ * user runs it in whatever they already have open, and pastes the reply back.
+ * That route is offered up front rather than buried as a fallback — for a user
+ * without a key it is the fastest path, not a consolation prize.
+ *
+ * Either way the result goes through `loadMonth`, exactly like a file.
+ *
+ * See ROADMAP.md Phases 3 and 6; docs/adr/0008-prompt-bridge.md.
  */
 
 import { useRef, useState } from "react";
-import { Sparkles } from "lucide-react";
+import { ClipboardCopy, Sparkles, Wand2 } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -21,31 +26,44 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useVocabStore } from "@/store/useVocabStore";
-import { useSettingsStore } from "@/store/useSettingsStore";
 import { useAppStore } from "@/store/useAppStore";
 import { generateMonth, WORDS_PER_DAY } from "@/lib/generate";
 import { selectProvider } from "@/lib/ai/client";
 import { AiError } from "@/lib/ai/errors";
+import {
+  buildBridgePrompt,
+  countDiscardedRows,
+  parsePastedVocab,
+} from "@/lib/prompt-bridge";
 import { allWordsInMonth, firstFreeMonthKey } from "@/lib/vocabulary";
 import { formatMonthKey } from "@/lib/date-utils";
+
+type Mode = "form" | "bridge";
 
 export function VocabGenerator() {
   const months = useVocabStore((s) => s.months);
   const loadMonth = useVocabStore((s) => s.loadMonth);
-  const apiKey = useSettingsStore((s) => s.anthropicApiKey);
   const showToast = useAppStore((s) => s.showToast);
-  const navigate = useAppStore((s) => s.navigate);
 
   const [open, setOpen] = useState(false);
+  const [mode, setMode] = useState<Mode>("form");
   const [topic, setTopic] = useState("");
   const [wordCount, setWordCount] = useState(30);
   const [monthKey, setMonthKey] = useState(() => firstFreeMonthKey(months));
+  const [pasted, setPasted] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
+  const existingWords = () =>
+    Object.values(months)
+      .flatMap((m) => allWordsInMonth(m))
+      .map((w) => w.word);
+
   function openDialog() {
     setMonthKey(firstFreeMonthKey(months));
+    setMode("form");
+    setPasted("");
     setError(null);
     setOpen(true);
   }
@@ -59,52 +77,58 @@ export function VocabGenerator() {
     setOpen(next);
   }
 
-  async function run() {
-    setError(null);
-    if (!topic.trim()) {
-      setError("Give it a topic first.");
-      return;
-    }
+  /** Shared guard, so both routes reject the same things the same way. */
+  function invalidInputs(): string | null {
+    if (!topic.trim()) return "Give it a topic first.";
     if (monthKey in months) {
-      setError(
-        `${formatMonthKey(monthKey)} is already loaded. Pick another month, or remove it first.`,
-      );
+      return `${formatMonthKey(monthKey)} is already loaded. Pick another month, or remove it first.`;
+    }
+    return null;
+  }
+
+  function commit(objects: unknown[], via: string): boolean {
+    let loaded = 0;
+    for (const object of objects) {
+      const result = loadMonth(object);
+      if (!result.ok) {
+        setError(`That did not validate: ${result.error}`);
+        return false;
+      }
+      loaded++;
+    }
+    setOpen(false);
+    setTopic("");
+    setPasted("");
+    showToast({
+      title: `Added ${formatMonthKey(monthKey)}`,
+      description: `${loaded} month${loaded === 1 ? "" : "s"} via ${via}`,
+      variant: "success",
+    });
+    return true;
+  }
+
+  async function generate() {
+    const invalid = invalidInputs();
+    if (invalid) {
+      setError(invalid);
       return;
     }
 
+    setError(null);
     setBusy(true);
     const controller = new AbortController();
     abortRef.current = controller;
     try {
-      const existingWords = Object.values(months)
-        .flatMap((m) => allWordsInMonth(m))
-        .map((w) => w.word);
-
-      // The registry picks whichever provider is cheapest for the user —
-      // on-device first, cloud only if they configured one.
       const provider = await selectProvider();
       const generated = await generateMonth({
         provider,
         topic: topic.trim(),
         wordCount,
         monthKey,
-        existingWords,
+        existingWords: existingWords(),
         signal: controller.signal,
       });
-
-      const result = loadMonth(generated);
-      if (!result.ok) {
-        setError(`The generated month did not validate: ${result.error}`);
-        return;
-      }
-
-      setOpen(false);
-      setTopic("");
-      showToast({
-        title: `Generated ${formatMonthKey(monthKey)}`,
-        description: `${wordCount} words across ${Math.ceil(wordCount / WORDS_PER_DAY)} days`,
-        variant: "success",
-      });
+      commit([generated], provider.label);
     } catch (e) {
       if (controller.signal.aborted) return;
       if (e instanceof AiError && e.kind === "cancelled") return;
@@ -114,6 +138,47 @@ export function VocabGenerator() {
       setBusy(false);
     }
   }
+
+  async function copyPrompt() {
+    const invalid = invalidInputs();
+    if (invalid) {
+      setError(invalid);
+      return;
+    }
+    setError(null);
+    try {
+      await navigator.clipboard.writeText(
+        buildBridgePrompt({
+          topic: topic.trim(),
+          wordCount,
+          existingWords: existingWords(),
+        }),
+      );
+      setMode("bridge");
+      showToast({
+        title: "Prompt copied",
+        description: "Paste it into any AI, then bring the reply back here.",
+        variant: "success",
+      });
+    } catch {
+      setError("Could not copy to the clipboard.");
+    }
+  }
+
+  function importPasted() {
+    setError(null);
+    try {
+      const discarded = countDiscardedRows(pasted);
+      if (commit(parsePastedVocab(pasted, monthKey), "your own AI") && discarded > 0) {
+        // Worth recording: the user cannot see what was dropped.
+        console.info(`prompt bridge: ignored ${discarded} non-CSV line(s)`);
+      }
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Could not read that reply.");
+    }
+  }
+
+  const days = Math.ceil(wordCount / WORDS_PER_DAY);
 
   return (
     <>
@@ -125,31 +190,17 @@ export function VocabGenerator() {
       <Dialog open={open} onOpenChange={closeDialog}>
         <DialogContent className="max-w-lg">
           <DialogHeader>
-            <DialogTitle>Generate a month</DialogTitle>
+            <DialogTitle>
+              {mode === "form" ? "Generate a month" : "Paste the reply"}
+            </DialogTitle>
             <DialogDescription>
-              Claude writes the words, definitions, examples and mnemonics.
-              Everything is checked against the same rules as an imported file
-              before it loads.
+              {mode === "form"
+                ? "Words, definitions, examples and mnemonics. Everything is checked against the same rules as an imported file before it loads."
+                : "Run the copied prompt in any AI, then paste its whole reply below. Extra commentary is ignored."}
             </DialogDescription>
           </DialogHeader>
 
-          {!apiKey ? (
-            <div className="space-y-3">
-              <p className="text-sm text-muted-foreground">
-                This uses your own Anthropic API key, which is not set yet. It
-                stays in this browser and is sent only to Anthropic.
-              </p>
-              <Button
-                variant="outline"
-                onClick={() => {
-                  setOpen(false);
-                  navigate("settings");
-                }}
-              >
-                Open Settings
-              </Button>
-            </div>
-          ) : (
+          {mode === "form" ? (
             <div className="space-y-4">
               <div>
                 <label
@@ -182,9 +233,7 @@ export function VocabGenerator() {
                     min={1}
                     max={90}
                     value={wordCount}
-                    onChange={(e) =>
-                      setWordCount(Number(e.target.value) || 1)
-                    }
+                    onChange={(e) => setWordCount(Number(e.target.value) || 1)}
                     className="tabular"
                     disabled={busy}
                   />
@@ -208,9 +257,8 @@ export function VocabGenerator() {
               </div>
 
               <p className="text-[11px] text-muted-foreground leading-relaxed">
-                {WORDS_PER_DAY} words per day, so {wordCount} words fills{" "}
-                {Math.ceil(wordCount / WORDS_PER_DAY)} days. This calls the
-                Anthropic API with your key and is billed to your account.
+                {WORDS_PER_DAY} words per day, so {wordCount} words fills {days}{" "}
+                {days === 1 ? "day" : "days"}.
               </p>
 
               {error && (
@@ -222,16 +270,59 @@ export function VocabGenerator() {
                 </p>
               )}
 
-              <div className="flex gap-2">
-                <Button onClick={run} disabled={busy}>
+              <div className="flex flex-wrap gap-2">
+                <Button onClick={generate} disabled={busy}>
+                  <Wand2 className="w-4 h-4" />
                   {busy ? "Generating…" : "Generate"}
                 </Button>
-                <Button
-                  variant="ghost"
-                  onClick={() => closeDialog(false)}
-                  disabled={!busy && !open}
+                <Button variant="outline" onClick={copyPrompt} disabled={busy}>
+                  <ClipboardCopy className="w-4 h-4" />
+                  Generate elsewhere
+                </Button>
+              </div>
+
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                <span className="text-foreground font-medium">
+                  Generate elsewhere
+                </span>{" "}
+                needs no API key: it copies a prompt you can paste into any AI
+                you already use, then brings the reply back here.
+              </p>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              <label className="sr-only" htmlFor="gen-pasted">
+                The reply
+              </label>
+              <textarea
+                id="gen-pasted"
+                value={pasted}
+                onChange={(e) => setPasted(e.target.value)}
+                placeholder={"word,partOfSpeech,definition,example,mnemonic,day\n…"}
+                rows={8}
+                autoFocus
+                className="w-full rounded-md border border-input bg-background p-3 text-xs font-mono resize-none focus:outline-none focus:ring-2 focus:ring-ring"
+              />
+
+              {error && (
+                <p
+                  className="text-xs text-destructive leading-relaxed"
+                  role="alert"
                 >
-                  {busy ? "Cancel" : "Close"}
+                  {error}
+                </p>
+              )}
+
+              <div className="flex flex-wrap gap-2">
+                <Button onClick={importPasted} disabled={!pasted.trim()}>
+                  Import
+                </Button>
+                <Button variant="outline" onClick={copyPrompt}>
+                  <ClipboardCopy className="w-4 h-4" />
+                  Copy prompt again
+                </Button>
+                <Button variant="ghost" onClick={() => setMode("form")}>
+                  Back
                 </Button>
               </div>
             </div>

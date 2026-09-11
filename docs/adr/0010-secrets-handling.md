@@ -107,3 +107,28 @@ forwarder.
 - The local-only routes — on-device, local server, installed CLI, prompt bridge —
   involve no secret at all. For those users this ADR is a no-op, which is
   another argument for keeping them first in the cascade.
+
+## Implementation status — 2026-09-11
+
+The decisions above are unchanged. This records how much of them exists in
+code, so nobody reads an accepted ADR as a description of the present.
+
+| Decision | State |
+| --- | --- |
+| 1 — secrets never enter an export | **Done.** `Settings` / `Secrets` split, `stripSecrets` on export, old backups dropped on restore, tested. |
+| 2 — OS keychain | **Done on desktop.** `src-tauri/src/keystore.rs` (`keyring` v3) behind `src/lib/ai/keystore.ts`. Web falls back to `localStorage` under `lexicon.secret.`, and the Settings copy says so in those words. Migration out of the settings blob runs on mount and is a move, not a copy. |
+| 3 — cannot be logged | **Done.** `Secret` redacts under interpolation, `String()`, concatenation, `JSON.stringify` and nesting. |
+| 4 — bound to its provider | **Partly.** `secretForUrl` enforces the binding and is tested against a lookalike host, a different provider and a malformed URL — but it is enforced where the registry builds a provider, not at the transport as this ADR says. Moving the check to the transport is the stronger form and is still open. |
+| 5 — custom base URL confirmed, plain `http://` refused off-loopback | **Not built.** Neither half exists, because no UI writes a custom base URL yet. Both land with that screen; until then the only reachable base URLs are the built-in ones. |
+| 6 — the Rust command is not a proxy | **Done differently.** `tauri-plugin-http` with an allowlist in `capabilities/`, where Tauri audits it, rather than a hand-rolled `ai_request` command. See ADR 0003. |
+
+Two things worth naming about the keychain work:
+
+- **The allowlist is the security boundary.** `get_secret` takes a key name
+  from the frontend. Without `ALLOWED_KEYS` those commands would read any
+  entry in the user's keychain, which would be a far worse hole than the one
+  this ADR closes. A Rust test asserts the rejections.
+- **A failed migration must not lose the key.** The settings copy is deleted
+  only after the keychain write returns. A test forces the write to throw and
+  asserts the original is still there — losing a user's key to a failed
+  migration would be worse than the leak the migration exists to fix.

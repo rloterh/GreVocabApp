@@ -21,6 +21,7 @@ import { useShortcuts } from "@/hooks/useShortcuts";
 import { useWatchedFolder } from "@/hooks/useWatchedFolder";
 import { useDesktopEvents } from "@/hooks/useDesktopEvents";
 import { applyTheme } from "@/lib/theme";
+import { migrateLegacySecrets } from "@/lib/ai/keystore";
 import { Dashboard } from "@/pages/Dashboard";
 import { DailyPractice } from "@/pages/DailyPractice";
 import { Flashcards } from "@/pages/Flashcards";
@@ -35,6 +36,12 @@ import { Settings } from "@/pages/Settings";
 export function App() {
   const page = useAppStore((s) => s.page);
   const theme = useSettingsStore((s) => s.theme);
+
+  // Move any key still sitting in the settings blob into the keychain. Runs
+  // once per launch and is a no-op after the first. ADR 0010.
+  useEffect(() => {
+    void migrateLegacySecrets();
+  }, []);
 
   // No-op unless the user has enabled reminders and granted permission.
   useStudyReminder();

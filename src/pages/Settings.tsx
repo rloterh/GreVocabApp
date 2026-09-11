@@ -41,6 +41,8 @@ import {
 import { applyTheme, THEMES } from "@/lib/theme";
 import { playSound } from "@/lib/sound";
 import { installedClis } from "@/lib/ai/client";
+import { getSecret, keystoreKind, setSecret } from "@/lib/ai/keystore";
+import { ProviderSettings } from "@/components/ProviderSettings";
 import type { DetectedCli } from "@/lib/ai/providers/cli";
 import { containsSecret, stripSecrets } from "@/lib/secrets";
 import { pickWatchedFolder } from "@/hooks/useWatchedFolder";
@@ -111,11 +113,35 @@ export function Settings() {
     settings.set({ studyReminderEnabled: true });
     showToast({ title: "Daily reminder on", variant: "success" });
   }
-  const [tempKey, setTempKey] = useState(settings.anthropicApiKey ?? "");
+  const [tempKey, setTempKey] = useState("");
 
-  function saveKey() {
-    settings.set({ anthropicApiKey: tempKey.trim() || null });
-    showToast({ title: "API key saved", variant: "success" });
+  // The key lives in the OS keychain on desktop, so reading it is a round trip
+  // and finding nothing is the ordinary case, not an error.
+  useEffect(() => {
+    void getSecret("anthropicApiKey").then((secret) => {
+      if (secret && !secret.isEmpty) setTempKey(secret.reveal());
+    });
+  }, []);
+
+  async function saveKey() {
+    const value = tempKey.trim();
+    try {
+      await setSecret("anthropicApiKey", value);
+    } catch (e) {
+      showToast({
+        title: "Could not save the key",
+        description: e instanceof Error ? e.message : "The keychain refused",
+        variant: "error",
+      });
+      return;
+    }
+    // Clear any copy left in the settings blob: that is the one that used to
+    // reach exported backups.
+    if (settings.anthropicApiKey) settings.set({ anthropicApiKey: null });
+    showToast({
+      title: value ? "API key saved" : "API key removed",
+      variant: "success",
+    });
   }
 
   function exportMarkdown() {
@@ -289,6 +315,13 @@ export function Settings() {
       </SettingSection>
 
       <SettingSection
+        title="AI provider"
+        description="Lexicon uses whichever AI costs you least — on-device first, then a local server or an installed tool, and only then a key you supplied."
+      >
+        <ProviderSettings />
+      </SettingSection>
+
+      <SettingSection
         title="Sentence verification"
         description="Add your Anthropic API key for AI-powered feedback. Without one, sentences are checked with local heuristics."
       >
@@ -324,8 +357,10 @@ export function Settings() {
               </Button>
             </div>
             <p className="text-[11px] text-muted-foreground mt-1.5 leading-relaxed">
-              Stored locally in your browser. Never sent anywhere except
-              directly to Anthropic during sentence checks.
+              {keystoreKind() === "keychain"
+                ? "Kept in your operating system's keychain, encrypted at rest — not in Lexicon's data file, and never in a backup you export."
+                : "Kept in this browser's storage, which is not encrypted: anyone with access to this browser profile can read it. The desktop app uses your OS keychain instead."}{" "}
+              It is sent nowhere except to Anthropic, during a sentence check.
             </p>
           </div>
 

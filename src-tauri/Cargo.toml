@@ -24,6 +24,9 @@ notify = "8"
 # Scoped HTTP for AI providers; escapes the CORS wall in front of local
 # model servers. See docs/adr/0003-rust-http-transport.md.
 tauri-plugin-http = "2"
+# OS credential store, so API keys are not a JSON blob on disk.
+# See docs/adr/0010-secrets-handling.md.
+keyring = { version = "3", features = ["apple-native", "windows-native", "sync-secret-service"] }
 
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
 # Global shortcut is desktop-only (ROADMAP.md, Phase 4).

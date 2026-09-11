@@ -174,6 +174,12 @@ export type Theme =
  * See docs/adr/0010-secrets-handling.md.
  */
 export interface Secrets {
+  /**
+   * @deprecated Read and write this through `src/lib/ai/keystore.ts`, which
+   * uses the OS keychain. The field survives only so `stripSecrets` can keep
+   * removing it from an old backup, and so startup can migrate a copy left
+   * here by a version before ADR 0010. Nothing should assign to it.
+   */
   anthropicApiKey: string | null;
 }
 
@@ -203,6 +209,12 @@ export interface Settings {
    * never grants permission — running one spends their subscription quota.
    */
   enabledAiTools: string[];
+  /**
+   * Provider id to use instead of the cascade, or null to let it choose.
+   * A pinned provider is used even if detection is pessimistic: the user
+   * asked for it, and a wrong probe should not override an instruction.
+   */
+  pinnedProvider: string | null;
 }
 
 /**

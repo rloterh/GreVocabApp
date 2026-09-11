@@ -28,6 +28,7 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   hasOnboarded: false,
   soundEnabled: false,
   enabledAiTools: [],
+  pinnedProvider: null,
 };
 
 export const useSettingsStore = create<SettingsStore>()(

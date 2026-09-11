@@ -70,3 +70,83 @@ export function redactSecrets<T extends object>(value: T): T {
   }
   return out as T;
 }
+
+/**
+ * A credential that cannot be logged by accident.
+ *
+ * The failure this prevents: a key reaching a console, an error report or a
+ * crash log because something stringified an object that happened to contain
+ * it. `toString` and `toJSON` both redact, so `${secret}`,
+ * `JSON.stringify({ secret })` and `console.log(config)` are all safe.
+ *
+ * Reading the value is deliberately a verb — `reveal()` — so the one place
+ * that needs it is greppable.
+ */
+export class Secret {
+  #value: string;
+
+  constructor(value: string) {
+    this.#value = value;
+  }
+
+  /** The real value. Call this only at the point of use. */
+  reveal(): string {
+    return this.#value;
+  }
+
+  get isEmpty(): boolean {
+    return this.#value.trim() === "";
+  }
+
+  toString(): string {
+    return REDACTED;
+  }
+
+  toJSON(): string {
+    return REDACTED;
+  }
+
+  /** Node's console.log uses this; without it, `#value` would be printed. */
+  [Symbol.for("nodejs.util.inspect.custom")](): string {
+    return REDACTED;
+  }
+}
+
+/**
+ * A credential bound to the provider and host it belongs to.
+ *
+ * One OpenAI-compatible adapter serves nine endpoints, including any base URL
+ * the user types. Binding means a key cannot be attached to a request to a
+ * host it was not issued for — checked at the point of use rather than assumed
+ * by the caller.
+ */
+export interface BoundSecret {
+  providerId: string;
+  /** Host this credential may be sent to, e.g. "api.openai.com". */
+  host: string;
+  secret: Secret;
+}
+
+/** Does this credential belong to the request about to be made? */
+export function secretMatchesHost(bound: BoundSecret, url: string): boolean {
+  try {
+    return new URL(url).host.toLowerCase() === bound.host.toLowerCase();
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * The credential for this URL, or none.
+ *
+ * Returning nothing on a mismatch rather than throwing is deliberate: a local
+ * provider legitimately has no credential, and the caller already handles
+ * "no key" as a normal case.
+ */
+export function secretForUrl(
+  bound: BoundSecret | undefined,
+  url: string,
+): string | undefined {
+  if (!bound || bound.secret.isEmpty) return undefined;
+  return secretMatchesHost(bound, url) ? bound.secret.reveal() : undefined;
+}

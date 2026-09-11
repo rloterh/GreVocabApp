@@ -1,6 +1,8 @@
 #[cfg(desktop)]
 mod ai_cli;
 #[cfg(desktop)]
+mod keystore;
+#[cfg(desktop)]
 mod desktop;
 mod watcher;
 
@@ -28,6 +30,12 @@ pub fn run() {
             ai_cli::detect_ai_clis,
             #[cfg(desktop)]
             ai_cli::run_ai_cli,
+            #[cfg(desktop)]
+            keystore::set_secret,
+            #[cfg(desktop)]
+            keystore::get_secret,
+            #[cfg(desktop)]
+            keystore::delete_secret,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

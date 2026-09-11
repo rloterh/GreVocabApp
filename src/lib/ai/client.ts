@@ -11,7 +11,8 @@ import { useSettingsStore } from "@/store/useSettingsStore";
 import { ProviderRegistry } from "./registry";
 import { detectAiClis, type DetectedCli } from "./providers/cli";
 import { platformTransport } from "./tauri-transport";
-import type { Provider } from "./types";
+import { getSecret } from "./keystore";
+import type { Provider, ProviderId } from "./types";
 
 /**
  * Installed CLIs, cached for the session. Detection shells out to look at
@@ -29,17 +30,23 @@ export async function installedClis(): Promise<DetectedCli[]> {
  * A registry reflecting current settings.
  *
  * Built per call rather than cached: settings change, and a stale registry
- * would keep using a key the user has replaced. Construction is cheap — it
- * builds a handful of objects and performs no I/O.
+ * would keep using a key the user has replaced. Async because the credential
+ * comes from the OS keychain, which is a round trip to another process.
  */
-export function aiRegistry(detectedClis: DetectedCli[] = []): ProviderRegistry {
+export async function aiRegistry(
+  detectedClis: DetectedCli[] = [],
+): Promise<ProviderRegistry> {
   const settings = useSettingsStore.getState();
+  // From the keychain, never from the settings blob — that copy is the one
+  // that used to reach exported backups. See docs/adr/0010-secrets-handling.md.
+  const anthropic = await getSecret("anthropicApiKey");
   return new ProviderRegistry({
     // Rust on desktop so local servers are reachable at all; fetch on web.
     transport: platformTransport(),
-    secrets: { anthropicApiKey: settings.anthropicApiKey },
+    secrets: { anthropicApiKey: anthropic?.reveal() ?? null },
     detectedClis,
     enabledClis: settings.enabledAiTools,
+    pinned: (settings.pinnedProvider as ProviderId | null) ?? null,
   });
 }
 
@@ -50,5 +57,6 @@ export function aiRegistry(detectedClis: DetectedCli[] = []): ProviderRegistry {
  * constructing a provider, so the cascade applies uniformly.
  */
 export async function selectProvider(): Promise<Provider> {
-  return aiRegistry(await installedClis()).select();
+  const registry = await aiRegistry(await installedClis());
+  return registry.select();
 }

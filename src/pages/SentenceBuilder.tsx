@@ -109,7 +109,7 @@ export function SentenceBuilder() {
       // Any available provider will do — including a local one, which keeps
       // the user's sentences on their machine.
       const provider = await aiRegistry()
-        .select()
+        .then((registry) => registry.select())
         .catch(() => null);
       result = provider
         ? await apiVerify(currentWord, nonEmpty, provider)

@@ -4,7 +4,11 @@ import {
   redactSecrets,
   REDACTED,
   SECRET_KEYS,
+  Secret,
+  secretForUrl,
+  secretMatchesHost,
   stripSecrets,
+  type BoundSecret,
 } from "@/lib/secrets";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import type { SettingsState } from "@/types";
@@ -110,5 +114,70 @@ describe("redactSecrets", () => {
   it("leaves an absent credential absent rather than redacting nothing", () => {
     const redacted = redactSecrets({ anthropicApiKey: null, theme: "dark" });
     expect(redacted.anthropicApiKey).toBeNull();
+  });
+});
+
+describe("Secret — cannot be logged by accident", () => {
+  const secret = new Secret(KEY);
+
+  it("reveals only when asked", () => {
+    expect(secret.reveal()).toBe(KEY);
+  });
+
+  it.each([
+    ["template interpolation", () => `${secret}`],
+    ["String()", () => String(secret)],
+    ["concatenation", () => "key=" + secret],
+    ["JSON.stringify", () => JSON.stringify({ secret })],
+    ["JSON.stringify of an array", () => JSON.stringify([secret])],
+    ["nested in a config object", () =>
+      JSON.stringify({ provider: "openai", auth: { secret } })],
+  ])("redacts under %s", (_name, render) => {
+    const output = render();
+    expect(output).not.toContain(KEY);
+    expect(output).toContain(REDACTED);
+  });
+
+  it("knows when it is empty", () => {
+    expect(new Secret("").isEmpty).toBe(true);
+    expect(new Secret("   ").isEmpty).toBe(true);
+    expect(secret.isEmpty).toBe(false);
+  });
+});
+
+describe("a credential is bound to its host", () => {
+  const bound: BoundSecret = {
+    providerId: "openai",
+    host: "api.openai.com",
+    secret: new Secret(KEY),
+  };
+
+  it("is sent to the host it belongs to", () => {
+    expect(secretForUrl(bound, "https://api.openai.com/v1/chat")).toBe(KEY);
+  });
+
+  it.each([
+    ["a different provider", "https://api.groq.com/openai/v1/chat"],
+    ["a custom endpoint the user typed", "https://evil.example.com/v1/chat"],
+    ["a lookalike host", "https://api.openai.com.evil.test/v1"],
+    ["a malformed url", "not a url"],
+  ])("is withheld from %s", (_name, url) => {
+    // The failure this prevents: one adapter serving nine endpoints, and a
+    // key going somewhere it was never issued for.
+    expect(secretForUrl(bound, url)).toBeUndefined();
+  });
+
+  it("ignores case in the host", () => {
+    expect(secretForUrl(bound, "https://API.OpenAI.com/v1")).toBe(KEY);
+  });
+
+  it("withholds an empty credential entirely", () => {
+    const empty: BoundSecret = { ...bound, secret: new Secret("") };
+    expect(secretForUrl(empty, "https://api.openai.com/v1")).toBeUndefined();
+  });
+
+  it("matches hosts directly too", () => {
+    expect(secretMatchesHost(bound, "https://api.openai.com/x")).toBe(true);
+    expect(secretMatchesHost(bound, "https://other.test/x")).toBe(false);
   });
 });

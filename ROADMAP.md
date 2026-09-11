@@ -240,9 +240,14 @@ Design: [`docs/VOCAB-GENERATION.md`](./docs/VOCAB-GENERATION.md) ·
 - ~~Removing a month and regenerating does not hand back that month's words.~~ Tested at both the index and the store level, including across a simulated restart.
 - ~~A plan that fails partway resumes without repeating work.~~ Tested.
 
-**Not yet wired to a screen.** The engine is complete and tested; the existing
-`VocabGenerator` dialog still generates one month at a time through the old
-path. The plan builder UI, and the P1 items below, are what remain.
+**Wired to a screen 2026-09-11.** `PlanBuilder` is a second mode in the
+generate dialog: horizon, difficulty, register, and a word list, with a preview
+that contacts nothing. Months already loaded are skipped rather than
+overwritten. A failure mid-run keeps what finished and offers Resume. Driven in
+a browser against a stubbed provider: 15/15, including 450 words across months
+with zero repeats, and a deliberate mid-run failure followed by a resume.
+
+The three P1 items below are what remain.
 
 ## Phase 9 — Android
 

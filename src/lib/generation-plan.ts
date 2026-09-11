@@ -151,6 +151,19 @@ export function distributeMustInclude(
   return spread;
 }
 
+/**
+ * A pasted or typed word list.
+ *
+ * Accepts one per line, comma-separated, or both, because users do both and
+ * neither is wrong.
+ */
+export function splitWordList(text: string): string[] {
+  return text
+    .split(/[\n,]/)
+    .map((word) => word.trim())
+    .filter(Boolean);
+}
+
 /** Requested words, normalised and de-duplicated against each other. */
 export function dedupeRequested(words: readonly string[]): string[] {
   const seen = new Set<string>();

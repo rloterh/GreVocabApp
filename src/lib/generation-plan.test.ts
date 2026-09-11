@@ -11,6 +11,7 @@ import {
   planMonths,
   previewPlan,
   requestCount,
+  splitWordList,
   totalWords,
   type GenerationPlan,
   type Horizon,
@@ -264,5 +265,40 @@ describe("planErrors", () => {
   ])("rejects %s", (_name, overrides) => {
     expect(planErrors(plan(overrides as Partial<GenerationPlan>)).length)
       .toBeGreaterThan(0);
+  });
+});
+
+describe("splitWordList", () => {
+  it("accepts one per line", () => {
+    expect(splitWordList("abate\ncogent\nlaconic")).toEqual([
+      "abate",
+      "cogent",
+      "laconic",
+    ]);
+  });
+
+  it("accepts commas", () => {
+    expect(splitWordList("abate, cogent,laconic")).toEqual([
+      "abate",
+      "cogent",
+      "laconic",
+    ]);
+  });
+
+  it("accepts both at once, because users do both and neither is wrong", () => {
+    expect(splitWordList("abate, cogent\nlaconic")).toEqual([
+      "abate",
+      "cogent",
+      "laconic",
+    ]);
+  });
+
+  it("ignores blank lines and stray separators", () => {
+    expect(splitWordList("\n\nabate,,\n  ,cogent\n")).toEqual(["abate", "cogent"]);
+  });
+
+  it("is empty for empty input", () => {
+    expect(splitWordList("")).toEqual([]);
+    expect(splitWordList("   \n  ")).toEqual([]);
   });
 });

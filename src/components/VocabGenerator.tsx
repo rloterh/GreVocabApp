@@ -37,8 +37,9 @@ import {
 } from "@/lib/prompt-bridge";
 import { allWordsInMonth, firstFreeMonthKey } from "@/lib/vocabulary";
 import { formatMonthKey } from "@/lib/date-utils";
+import { PlanBuilder } from "@/components/PlanBuilder";
 
-type Mode = "form" | "bridge";
+type Mode = "form" | "plan" | "bridge";
 
 export function VocabGenerator() {
   const months = useVocabStore((s) => s.months);
@@ -188,19 +189,53 @@ export function VocabGenerator() {
       </Button>
 
       <Dialog open={open} onOpenChange={closeDialog}>
-        <DialogContent className="max-w-lg">
+        <DialogContent className="sm:max-w-xl max-h-[85vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle>
-              {mode === "form" ? "Generate a month" : "Paste the reply"}
+              {mode === "form"
+                ? "Generate a month"
+                : mode === "plan"
+                  ? "Plan ahead"
+                  : "Paste the reply"}
             </DialogTitle>
             <DialogDescription>
               {mode === "form"
                 ? "Words, definitions, examples and mnemonics. Everything is checked against the same rules as an imported file before it loads."
-                : "Run the copied prompt in any AI, then paste its whole reply below. Extra commentary is ignored."}
+                : mode === "plan"
+                  ? "Generate several months at once, with difficulty that builds. No word is ever repeated — including words from months you have removed."
+                  : "Run the copied prompt in any AI, then paste its whole reply below. Extra commentary is ignored."}
             </DialogDescription>
           </DialogHeader>
 
-          {mode === "form" ? (
+          {mode !== "bridge" && (
+            <div className="flex gap-1 rounded-md bg-secondary/60 p-1">
+              {(
+                [
+                  ["form", "One month"],
+                  ["plan", "Plan ahead"],
+                ] as const
+              ).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  aria-pressed={mode === value}
+                  onClick={() => setMode(value)}
+                  className={
+                    "flex-1 rounded px-3 py-1.5 text-xs font-medium transition-colors " +
+                    (mode === value
+                      ? "bg-background text-foreground shadow-sm"
+                      : "text-muted-foreground hover:text-foreground")
+                  }
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {mode === "plan" ? (
+            <PlanBuilder onDone={() => setOpen(false)} />
+          ) : mode === "form" ? (
             <div className="space-y-4">
               <div>
                 <label

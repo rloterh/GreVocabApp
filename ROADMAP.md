@@ -147,8 +147,11 @@ of the HTTP, the model id and the error handling. Both problems have one fix.
 
 Design: [`docs/AI-PROVIDERS.md`](./docs/AI-PROVIDERS.md) ·
 [ADR 0001](./docs/adr/0001-provider-cascade.md) ·
-[ADR 0002](./docs/adr/0002-no-subscription-reuse.md) ·
-[ADR 0003](./docs/adr/0003-rust-http-transport.md)
+[ADR 0003](./docs/adr/0003-rust-http-transport.md) ·
+[ADR 0007](./docs/adr/0007-authentication-strategy.md) ·
+[ADR 0008](./docs/adr/0008-prompt-bridge.md) ·
+[ADR 0009](./docs/adr/0009-installed-cli-providers.md) ·
+[ADR 0010](./docs/adr/0010-secrets-handling.md)
 
 ### Tasks
 
@@ -162,16 +165,23 @@ Design: [`docs/AI-PROVIDERS.md`](./docs/AI-PROVIDERS.md) ·
 - **[P1] Browser built-in provider.** — Gated on the spike. → On-device, no key, no network.
 - **[P1] Provider settings UI.** — What was detected, what is in use, what it costs, an on-device badge. → One screen that makes the cascade legible instead of magic.
 - **[P1] Keys into OS secure storage.** — Desktop and mobile keychain rather than `localStorage`. → Includes migrating an existing Anthropic key out, and clearing it.
-- **[P1] Fix: API keys leak into backup exports.** — `exportData()` serialises the whole settings object, key included, into a file users put in cloud drives. → Exclude secrets from export. A live defect, not a v1.0 feature.
+- **[P0] Fix: API keys leak into backup exports.** — `exportData()` serialises the whole settings object, key included, into a file users put in cloud drives. → Split `Settings` from `Secrets` so the export cannot include one by construction, and drop keys found in old backups on restore. A live defect, and the most serious one in the codebase. [ADR 0010](./docs/adr/0010-secrets-handling.md)
+- **[P0] Prompt bridge.** — Generate vocabulary with no credential at all: the app writes the prompt, the user runs it in whatever AI they already have open, and pastes the result back. → The recommended path for anyone without a key, not a fallback for the desperate. CSV round-trip through the existing parser, with fence-stripping and per-line errors. [ADR 0008](./docs/adr/0008-prompt-bridge.md)
+- **[P1] Installed AI CLI providers.** — Detect `claude`, `codex`, `gemini` and similar on PATH; invoke with consent. → The tool authenticates itself; Lexicon never reads its credential store. Fixed allowlist, argument vectors, prompts via stdin, no shell. [ADR 0009](./docs/adr/0009-installed-cli-providers.md)
+- **[P1] OAuth connect, where the provider offers it.** — "Sign in with…" rather than a pasted key. → Spike first: establish per provider whether third-party client registration exists, and record it in ADR 0007. Token to the OS keychain.
+- **[P1] Secret hygiene.** — A `Secret` wrapper that redacts on stringify, per-provider binding so a key cannot go to the wrong host, and a confirmation naming the host before a custom base URL first receives one. → Tested: stringifying a populated config must contain no substring of the secret. [ADR 0010](./docs/adr/0010-secrets-handling.md)
 - **[P2] WebGPU in-app model.** — No key, offline, but a multi-gigabyte download. → Opt-in, never automatic, with a clear size warning.
 
 ### Definition of done
 
-- A user with Ollama running, or a current Chrome, generates vocabulary without
-  typing anything.
+- A user with Ollama running, a current Chrome, or Claude Code installed
+  generates vocabulary without typing anything.
+- **A user with none of those, and no API key, can still generate a month** via
+  the prompt bridge.
 - No AI feature contains a `fetch` to a provider.
 - Every adapter passes the same contract suite.
 - The provider in use is always visible in the UI.
+- A backup export contains no secret, and a test proves it.
 
 ## Phase 7 — Responsive shell
 
@@ -285,19 +295,21 @@ Design: [`docs/QUIZ-AND-EXAMS.md`](./docs/QUIZ-AND-EXAMS.md)
 
 **Goal.** The details that make people keep using it.
 
-**Gated on [ADR 0006](./docs/adr/0006-fun-vs-no-gamification.md).** Everything
-below respects the standing no-gamification rule. Nothing that would need that
-rule relaxed is scheduled until the decision is made.
+**[ADR 0006](./docs/adr/0006-fun-vs-no-gamification.md) is decided:** the
+no-gamification rule stands. Fun here means craft, surprise and satisfying
+feedback — not a second scoring system competing with the scheduler. The one
+exception is the streak freeze, which corrects an existing mechanic rather than
+adding a new one. No XP, levels, badges or comparison.
 
 ### Tasks
 
 - **[P0] Info dialog.** — A small `i` button opening "Designed by Robert Loterh · 2026", with version, licence and links.
 - **[P0] README with screenshots.** — What the app looks like, at desktop and mobile widths. → A vocabulary app with no screenshot in its README is asking a lot of a reader.
-- **[P1] Streak freeze.** — One token a week forgives a missed day. → Makes an existing feature kinder rather than adding a new axis of competition. The one mechanic worth arguing for.
+- **[P1] Streak freeze.** — One token a week, spent automatically on a missed day. → Streaks motivate until one breaks, at which point they become a reason to stop. This removes the cliff without adding a number to chase.
 - **[P1] Word of the day** on the Dashboard, drawn from what is due.
 - **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
 - **[P1] Etymology and root families.** — Group by shared root; show the family while studying one. Genuinely aids retention.
-- **[P2] Confusable pairs drill.** — `affect`/`effect`, `discreet`/`discrete`.
+- **[P1] Confusable pairs drill.** — `affect`/`effect`, `discreet`/`discrete`. → A real, repeated failure mode, and satisfying to finally nail.
 - **[P2] Session recap card.** — A shareable image of a session; the deck-share plumbing already exists.
 - **[P2] Empty and success state craft.**
 
@@ -305,7 +317,8 @@ rule relaxed is scheduled until the decision is made.
 
 - The info dialog exists and names its designer.
 - The README shows the app.
-- Nothing built here violates ADR 0006 as decided.
+- Nothing here needs a legend to explain it. That is the test for "fun, not
+  confusing" — if a feature would need a tooltip to justify itself, it is out.
 
 ## Phase 12 — iOS
 

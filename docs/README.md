@@ -15,6 +15,11 @@ Read in this order. Each document assumes the ones above it.
 | [MOBILE.md](./MOBILE.md) | Android and iOS: layout, platform work, store submission |
 | [adr/](./adr/) | Decision records — the *why*, kept short, one per decision |
 
+**Start with [ADR 0007](./adr/0007-authentication-strategy.md)** if you are
+touching anything AI-related: it supersedes ADR 0002, which was wrong, and it
+sets the boundary between what the app may and may not do with a user's
+existing accounts and tools.
+
 The phased plan that sequences all of this is [`../ROADMAP.md`](../ROADMAP.md).
 Conventions and the day-to-day handoff are in
 [`../CONTINUING.md`](../CONTINUING.md).

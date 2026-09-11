@@ -1,74 +1,78 @@
-# ADR 0006 — "Fun stuff" versus the no-gamification rule
+# ADR 0006 — Fun means craft, not points
 
-**Status:** OPEN — needs an owner decision · 2026-09-11
+**Status:** accepted · 2026-09-11
 
 ## Context
 
-ROADMAP.md has, since v0.1, listed under **Explicitly not planned**:
+ROADMAP.md has listed, since v0.1, under **Explicitly not planned**:
 
 > **Gamification beyond streaks.** — No XP bars, no levels, no leagues.
 > Streaks + heatmap are enough.
 
-The v1.0 brief asks for "additional enhancement and fun stuff that can be added
-if possible".
+The v1.0 brief asked for "fun stuff", and then, when the conflict was raised,
+for the best recommendation that keeps it **fun and not confusing**.
 
-These are in tension. Most of what makes a vocabulary app fun is exactly what
-that rule excludes, and silently building an XP bar because a later brief said
-"fun" would be overriding a deliberate product decision without saying so.
+Those two words are the decision. Most gamification is fun in the first week and
+confusing forever after: a number goes up, the user cannot say why, and the
+number is not the thing they came for. Vocabulary is the thing they came for.
 
-## The decision required
+## Decision
 
-Which of these is the rule?
+**The no-gamification rule stands.** Fun in Lexicon means craft, surprise and
+satisfying feedback — not a second scoring system layered on top of the one the
+scheduler already runs.
 
-**(a) The rule stands.** Fun means better craft, not more mechanics — sharper
-copy, better animation, satisfying sound, delightful details. No points, no
-levels, no streaks-as-pressure.
+One narrow exception, argued below: the **streak freeze**.
 
-**(b) The rule is relaxed, narrowly.** Named exceptions only, listed here, each
-argued. Everything else still excluded.
+### What ships (Phase 11)
 
-**(c) The rule is withdrawn.** Gamification is open; design it properly.
+Each of these is fun *and* does work for the learner. Nothing here needs
+explaining in a tooltip, which is the test for "not confusing".
 
-## Candidates, sorted by whether they need the rule relaxed
+| Feature | Why it is fun | Why it is not noise |
+| --- | --- | --- |
+| **Streak freeze** | Removes the dread of losing a 40-day streak to one bad day | Makes an existing feature kinder; no new number to track |
+| **Word of the day** | A small gift on opening the app | Drawn from what is actually due |
+| **Audio pronunciation** | Hearing a word makes it real | Extends the speak button that already exists |
+| **Etymology and root families** | "Oh — *that* is why it means that" | Roots are the highest-leverage vocabulary technique there is |
+| **Confusable pairs drill** | Genuinely satisfying to finally nail | `affect`/`effect` is a real, repeated failure |
+| **Session recap card** | Worth sharing | Uses the deck-share plumbing already built |
+| **Confetti variants** | Already shipped, already good | Costs nothing |
+| **Craft in empty and success states** | The app feels made rather than generated | — |
 
-### Compatible with the rule as written
+### What does not ship
 
-These add delight without adding mechanics, and need no decision:
+XP, points, levels, badges, achievements, daily-goal pressure, anything
+comparative. If it would need a legend to explain, it is out.
 
-- **Streak freeze / rest day.** One token a week that forgives a missed day.
-  Reduces the anxiety streaks create rather than amplifying it — arguably it
-  *serves* the existing rule rather than bending it.
-- **Word of the day** on the dashboard, pulled from what is due.
-- **Audio pronunciation.** The Web Speech API is already used for the flashcard
-  speak button; extending it is nearly free.
-- **Etymology and root families.** Group words by shared root, show the family
-  when studying one. Genuinely aids retention and is already in the parking lot.
-- **Confusable pairs drill.** `affect`/`effect`, `discreet`/`discrete`. High
-  educational value, no mechanics.
-- **Better empty and success states.** Craft, not points.
-- **Session recap card.** A shareable image of what you studied — the deck-share
-  code already proves the plumbing.
+## Why the streak freeze is the one exception
 
-### Require relaxing the rule
+It is not an addition — it is a **correction** to a mechanic already shipped.
 
-- Points, XP, levels
-- Badges and achievements
-- Daily goals with pressure mechanics
-- Any comparison against other people
+Streaks motivate until the day one is broken, at which point they become a
+reason to stop entirely: the user has lost the thing they were protecting and
+the app now reads as a record of failure. A freeze — one token a week, spent
+automatically on a missed day — keeps the motivation and removes the cliff.
 
-## Recommendation
+It adds no number to chase. It makes an existing number less punishing. That is
+why it passes a rule the rest of the list would fail.
 
-**(b), relaxed narrowly — and in practice that may mean nothing changes.**
+## Why not the rest
 
-Everything in the first list is worth building and none of it needs the rule
-touched. The list is long enough to satisfy "fun" on its own. Adopting XP and
-badges would make Lexicon resemble every other vocabulary app, and the current
-restraint is part of why it does not.
+Taking the strongest candidate seriously: an XP bar would be the most
+*expected* feature here, and that is precisely the objection. Every vocabulary
+app has one. Lexicon's actual differentiators are the scheduler, the four import
+formats, the Anki round-trip and the fact that it works with no account and no
+server. An XP bar competes with none of that and costs a permanent slice of
+screen space plus a second progress model that can disagree with the first.
 
-If a mechanic is wanted, the one worth arguing for is the **streak freeze**,
-because it makes an existing feature kinder rather than adding a new axis of
-competition.
+The moment a user can see both "87% mastered" and "Level 12", they have to work
+out which one is real. That is the confusion the brief asked to avoid.
 
-## Until this is decided
+## Consequences
 
-Only the first list is scheduled. Nothing in the second list is built.
+- Phase 11 is scoped to the table above. No task in it needs this ADR relaxed.
+- ROADMAP.md's "Explicitly not planned" section stands unchanged, with a pointer
+  here so the next reader finds the reasoning rather than re-arguing it.
+- Revisit only with evidence — a real user who stopped, and a specific mechanic
+  that would plausibly have kept them. Not a hunch.

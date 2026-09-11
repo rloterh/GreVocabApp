@@ -1,6 +1,15 @@
 # ADR 0002 — We do not reuse a user's AI subscription
 
-**Status:** accepted · 2026-09-11
+**Status:** SUPERSEDED by [ADR 0007](./0007-authentication-strategy.md) · 2026-09-11
+
+> **This decision record contains an error and is kept only for the record.**
+> It claimed that using a user's existing AI subscription would require
+> capturing their credentials, and likened it to phishing. That is wrong: tools
+> like Claude Code use OAuth, where the provider authenticates the user in a
+> browser and returns a scoped token, and the application never sees a
+> credential. The real constraint is narrower — a provider must offer
+> third-party client registration — and is stated correctly in ADR 0007.
+> Nothing below should be relied on.
 
 ## Context
 

@@ -4,25 +4,28 @@ How Lexicon gets a language model, ideally without asking anyone for an API key.
 
 ## The problem, stated honestly
 
-The goal is "connect to whatever AI the user already has". That splits into one
-thing that is easy, one that is fiddly, and one that is **impossible** — and the
-design is only sound if we are clear about which is which.
+The goal is "connect to whatever AI the user already has". Almost all of it is
+achievable; the design is only sound if we are precise about *how* each route
+works and where the one real boundary lies.
 
 | Ask | Reality |
 | --- | --- |
-| Use an on-device model built into the browser | **Possible.** Chrome and Edge ship a built-in model behind a JS API. No key, no network. |
-| Use a local server the user is already running | **Possible.** Ollama, LM Studio and llama.cpp all expose HTTP on localhost. No key. CORS is the obstacle, and the desktop build can bypass it. |
-| Run a model inside the app itself | **Possible.** WebGPU + WebLLM. No key, works offline, but a multi-gigabyte download. |
-| Use the user's own cloud account via a key they paste | **Possible.** This is what the app does today for Anthropic. |
-| **Silently reuse the user's ChatGPT Plus / Claude Pro / Gemini Advanced subscription** | **Not possible.** There is no API for it. Those subscriptions authenticate a person to a web app, not a third-party program. Doing it would mean taking their login credentials, which is exactly what a vocabulary app must never do. |
+| Use an on-device model built into the browser | **Yes.** Chrome and Edge ship a built-in model behind a JS API. No key, no network. |
+| Use a local server the user is already running | **Yes.** Ollama, LM Studio and llama.cpp expose HTTP on localhost. No key. CORS is the obstacle and the desktop build bypasses it. |
+| Use an AI CLI already installed and signed in on the machine | **Yes**, on desktop, with consent. We invoke the tool; it authenticates itself. [ADR 0009](./adr/0009-installed-cli-providers.md) |
+| Sign in with the provider, no key typed | **Where the provider offers third-party OAuth.** This is how Claude Code and the VS Code extensions work, and it is not credential-sharing — the browser authenticates the user and returns a scoped token. Availability is per provider. [ADR 0007](./adr/0007-authentication-strategy.md) |
+| Run a model inside the app itself | **Yes.** WebGPU. No key, offline, but a multi-gigabyte download. |
+| Use the user's own cloud account via a pasted key | **Yes.** What the app does today for Anthropic. |
+| Use any AI at all, with no credential of any kind | **Yes** — the prompt bridge. The app writes the prompt, the user runs it in whatever AI they already have open, and pastes the result back. [ADR 0008](./adr/0008-prompt-bridge.md) |
+| Read another app's stored token, or drive a logged-in web session | **No.** Not because it is hard, but because it is credential theft and a terms violation respectively. [ADR 0007](./adr/0007-authentication-strategy.md) |
 
-That last row is worth stating plainly because it is the natural reading of
-"auto-connect to any AI that is connected in the browser". What the app *can*
-do — and will — is find every source of AI that is genuinely reachable without
-credentials, and use it before ever asking for a key. For most users on a
-current Chrome, or anyone running Ollama, that means the app just works.
+The line is **ownership and consent**: the user's own tools, invoked by the
+user's own choice, on the user's own machine. Everything above that line is in
+scope; impersonating the user to a service that has not agreed to it is not.
 
-See [adr/0002-no-subscription-reuse.md](./adr/0002-no-subscription-reuse.md).
+For a user on a current Chrome, or running Ollama, or with Claude Code
+installed, or with any chat AI open in a tab — which is most people — the app
+works with nothing typed.
 
 ## The cascade
 
@@ -32,22 +35,32 @@ the choice is remembered.
 
 ```
 1. Browser built-in        on-device, no key, no network, no download
-2. Local server            no key, no network beyond localhost
+2. Local server            no key, localhost only
                            Ollama · LM Studio · llama.cpp · Jan · LocalAI
-3. In-app WebGPU model     no key, offline after a one-time download (opt-in)
-4. Cloud, user's own key   OpenAI · Anthropic · Google · Mistral · Groq ·
+3. Installed AI CLI        no key; the tool authenticates itself
+                           opt-in per tool, desktop only        [ADR 0009]
+4. In-app WebGPU model     no key, offline after a one-time download (opt-in)
+5. Connected by OAuth      no key typed; scoped token in the OS keychain
+                           where the provider offers it         [ADR 0007]
+6. Cloud, user's own key   OpenAI · Anthropic · Google · Mistral · Groq ·
                            OpenRouter · DeepSeek · Together · any
                            OpenAI-compatible endpoint
+
+   and, outside the cascade entirely:
+   Prompt bridge           no credential at all; the user runs the prompt
+                           in whatever AI they already use      [ADR 0008]
 ```
 
-**Nothing in tiers 1–3 requires a credential, and nothing in tier 4 can run
-without the user having pasted one.** That is the safety property that makes an
+**Tiers 1–4 require no credential; tiers 5 and 6 cannot run until the user has
+deliberately connected an account.** That is the safety property that makes an
 automatic cascade acceptable: the app cannot silently send a user's vocabulary
-to a third party, because it has no way to authenticate to one unless the user
-set it up.
+anywhere, because it has no way to authenticate to a remote service unless the
+user set one up.
 
-Tier 3 is opt-in despite needing no key, because a 1–4 GB download is not
-something to start on the user's behalf.
+Two tiers are opt-in despite needing no key: the WebGPU model, because a 1–4 GB
+download is not something to start on someone's behalf, and installed CLIs,
+because spending a user's subscription quota without asking is not acceptable
+even when it is technically possible.
 
 The user can pin any provider explicitly and the cascade is skipped.
 
@@ -62,6 +75,8 @@ Detection is a capability probe with a short timeout, cached for the session:
 | LM Studio | `GET /v1/models` on `127.0.0.1:1234` | OpenAI-compatible. Serves CORS more liberally, but do not rely on it. |
 | llama.cpp | `GET /v1/models` on `127.0.0.1:8080` | OpenAI-compatible. |
 | WebGPU | `navigator.gpu` present and an adapter obtainable | Presence is not sufficient; request an adapter. |
+| Installed CLI | The binary is on `PATH`, plus a cheap `--version` | Detected but never used until the user enables that tool. [ADR 0009](./adr/0009-installed-cli-providers.md) |
+| OAuth | A stored, unexpired token for that provider | Refresh on `Unauthorized`, once, then prompt to reconnect. |
 | Cloud | A key exists in settings for that provider | No network probe. Do not spend the user's money to answer "are you configured". |
 
 Probes run in parallel with a ~1.5s budget, and the result is cached until
@@ -77,7 +92,7 @@ OpenAI-compatible adapter.
 interface Provider {
   readonly id: ProviderId;
   readonly label: string;
-  readonly tier: 1 | 2 | 3 | 4;
+  readonly tier: 1 | 2 | 3 | 4 | 5 | 6;
   /** Cheap, cached, must not throw. */
   detect(): Promise<Availability>;
   capabilities(): Capabilities;
@@ -97,7 +112,7 @@ interface Capabilities {
   structuredOutput: "schema" | "tool" | "grammar" | "prompt-only";
   maxOutputTokens: number;
   streaming: boolean;
-  /** True for tiers 1-3. Drives the privacy badge in the UI. */
+  /** True for tiers 1-4: nothing leaves the machine. Drives the privacy badge. */
   onDevice: boolean;
   /** Rough, for warning before a 90-word generation on a tiny local model. */
   contextTokens: number;

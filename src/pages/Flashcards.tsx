@@ -569,20 +569,27 @@ function SetupScreen({
                 </p>
               </div>
             </div>
+            {/* The pill lives inside the button rather than being it: on a
+                touch pointer globals.css gives the button 44px, and a switch
+                that was its own target would inflate into a circle. */}
             <button
               type="button"
               onClick={() => setDoShuffle(!doShuffle)}
-              className={cn(
-                "relative w-10 h-6 rounded-full transition-colors",
-                doShuffle ? "bg-accent" : "bg-border",
-              )}
+              className="flex shrink-0 items-center justify-center"
               aria-pressed={doShuffle}
             >
-              <motion.div
-                className="absolute top-0.5 left-0.5 w-5 h-5 bg-background rounded-full shadow"
-                animate={{ x: doShuffle ? 16 : 0 }}
-                transition={{ type: "spring", stiffness: 500, damping: 30 }}
-              />
+              <span
+                className={cn(
+                  "relative block w-10 h-6 rounded-full transition-colors",
+                  doShuffle ? "bg-accent" : "bg-border",
+                )}
+              >
+                <motion.span
+                  className="absolute top-0.5 left-0.5 block w-5 h-5 bg-background rounded-full shadow"
+                  animate={{ x: doShuffle ? 16 : 0 }}
+                  transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                />
+              </span>
             </button>
           </div>
 
@@ -911,7 +918,9 @@ function PlayScreen({
       </AnimatePresence>
 
       {/* Rating buttons */}
-      <div className="mt-6 grid grid-cols-4 gap-2">
+      {/* 2x2 on a phone: four across leaves ~75px per target, and these are
+          pressed dozens of times a session. */}
+      <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-2">
         {(["again", "hard", "good", "easy"] as const).map((r) => {
           const meta = RATING_META[r];
           const Icon = meta.icon;

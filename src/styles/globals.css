@@ -291,3 +291,70 @@
     text-wrap: balance;
   }
 }
+
+/**
+ * Touch targets.
+ *
+ * Keyed to the pointer, not the viewport. A 360px-wide window on a desktop with
+ * a mouse does not need 44px targets, and a tablet at 1200px does — so a width
+ * breakpoint would get both cases wrong. `pointer: coarse` asks the question
+ * that actually matters: is a finger doing the tapping?
+ *
+ * One rule here rather than a size prop threaded through every call site, which
+ * would be forgotten at exactly the button nobody tested on a phone.
+ *
+ * See docs/MOBILE.md.
+ */
+@media (pointer: coarse) {
+  button,
+  [role="button"],
+  a[href],
+  summary {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Anything laid out in a row of its own should not also be forced wide. */
+  button.w-full,
+  [role="button"].w-full {
+    min-width: 0;
+  }
+
+  /*
+   * 16px is not a style choice: iOS Safari zooms the whole page when a focused
+   * input's font is smaller, and the user is then left scrolled sideways in a
+   * layout that was fine a moment earlier.
+   */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+  select,
+  textarea {
+    min-height: 44px;
+    font-size: 16px;
+  }
+
+  /*
+   * A range thumb is dragged, not tapped, but the track still has to be
+   * catchable. Height only — font-size is meaningless here.
+   */
+  input[type="range"] {
+    min-height: 44px;
+  }
+
+  /* A 13px checkbox is a coin toss with a fingertip. */
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*
+   * The box stays a box; the label is the target. Tapping a label toggles the
+   * control it wraps, so giving the label the 44px is what actually makes the
+   * control reachable — blowing the checkbox itself up to 44px would just look
+   * broken.
+   */
+  label:has(> input[type="checkbox"]),
+  label:has(> input[type="radio"]) {
+    min-height: 44px;
+  }
+}

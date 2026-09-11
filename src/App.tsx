@@ -6,10 +6,11 @@
  * in src/store/useAppStore.ts, register it in renderPage() below, and add a
  * nav entry in src/components/Sidebar.tsx.
  */
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Sidebar } from "@/components/Sidebar";
+import { MobileTabBar } from "@/components/MobileTabBar";
 import { Toast } from "@/components/Toast";
 import { DropOverlay } from "@/components/DropOverlay";
 import { ShortcutsHelp } from "@/components/ShortcutsHelp";
@@ -37,6 +38,7 @@ import { Settings } from "@/pages/Settings";
 export function App() {
   const page = useAppStore((s) => s.page);
   const theme = useSettingsStore((s) => s.theme);
+  const [moreOpen, setMoreOpen] = useState(false);
 
   // Move any key still sitting in the settings blob into the keychain. Runs
   // once per launch and is a no-op after the first. ADR 0010.
@@ -56,6 +58,10 @@ export function App() {
   useDesktopEvents();
   const { helpOpen, setHelpOpen } = useShortcuts();
 
+  useEffect(() => {
+    setMoreOpen(false);
+  }, [page]);
+
   // Apply the theme on mount and when it changes. When following the system,
   // keep following it — the OS can flip while the app is open.
   useEffect(() => {
@@ -71,7 +77,7 @@ export function App() {
     <TooltipProvider delayDuration={200}>
       <div className="flex h-screen w-screen overflow-hidden bg-background text-foreground">
         <Sidebar />
-        <main className="flex-1 overflow-y-auto">
+        <main className="flex-1 overflow-y-auto overflow-x-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={page}
@@ -79,12 +85,13 @@ export function App() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="min-h-full px-8"
+              className="min-h-full px-4 sm:px-6 lg:px-8 pb-24 lg:pb-0"
             >
               {renderPage(page)}
             </motion.div>
           </AnimatePresence>
         </main>
+        <MobileTabBar moreOpen={moreOpen} onMoreOpenChange={setMoreOpen} />
         <Toast />
         <DropOverlay />
         <ShortcutsHelp open={helpOpen} onOpenChange={setHelpOpen} />

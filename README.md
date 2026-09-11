@@ -6,6 +6,23 @@ Built with React 18, TypeScript, Tailwind, Framer Motion, and Tauri v2 — runs 
 
 > **New to this codebase?** Start with [`CONTINUING.md`](./CONTINUING.md) for state and conventions, then [`ROADMAP.md`](./ROADMAP.md) for what's next. [`CHANGELOG.md`](./CHANGELOG.md) records what shipped. AI coding assistants also pick up [`CLAUDE.md`](./CLAUDE.md), [`AGENTS.md`](./AGENTS.md), [`.cursor/rules/main.mdc`](./.cursor/rules/main.mdc), and [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) automatically.
 
+## How it looks
+
+One shell, three shapes. The sidebar appears at `lg` and up; below that the same
+pages get a bottom tab bar, with the six less-used destinations behind **More**.
+Pages never learn which is showing.
+
+| Phone — 390px | Tablet — 768px |
+| --- | --- |
+| <img src="docs/screenshots/mobile.png" alt="Lexicon on a phone-sized viewport, showing the dashboard above a five-item bottom tab bar" width="100%"> | <img src="docs/screenshots/tablet.png" alt="Lexicon at tablet width, showing a two-column stat grid and the bottom tab bar" width="100%"> |
+
+![Lexicon at desktop width, with the sidebar navigation beside the dashboard](docs/screenshots/desktop.png)
+
+Touch targets are keyed to the *pointer*, not the width — a narrow window on a
+desktop keeps its density, and a large tablet still gets 44px targets. Verified
+at 360, 768 and 1280: no page scrolls horizontally, and every target on a touch
+pointer is at least 44px.
+
 ## Features
 
 - **Daily practice** — animated flashcards with definition, example, and mnemonic
@@ -18,6 +35,7 @@ Built with React 18, TypeScript, Tailwind, Framer Motion, and Tauri v2 — runs 
 - **JSON-driven** — one file per month, dropped in a folder. Load, unload, keep as many as you want
 - **Backup / restore** — export everything as JSON
 - **Light & dark themes** — with warm off-white / near-black palettes
+- **Works on a phone** — responsive shell with a bottom tab bar below `lg`, 44px touch targets, safe-area aware
 
 ## Quick start (web app)
 

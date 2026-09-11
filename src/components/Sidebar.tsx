@@ -40,7 +40,7 @@ export function Sidebar() {
   const { page, navigate } = useAppStore();
 
   return (
-    <aside className="w-60 shrink-0 border-r border-border bg-card/40 flex flex-col h-full">
+    <aside className="hidden lg:flex w-60 shrink-0 border-r border-border bg-card/40 flex-col h-full">
       <div className="px-5 py-6 flex items-center gap-2.5">
         <div className="w-8 h-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center">
           <Sparkles className="w-4 h-4" />

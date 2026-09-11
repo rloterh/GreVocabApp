@@ -199,17 +199,17 @@ Design: [`docs/MOBILE.md`](./docs/MOBILE.md)
 
 ### Tasks
 
-- **[P0] Responsive shell.** — One shell: sidebar at `lg` and up, bottom tab bar below. → Pages do not know which is showing; anything that needs to know is a layout bug to fix in the page.
-- **[P0] Bottom tab bar.** — Five destinations, the ones used daily; the rest behind More. → Safe-area padded, 44px minimum targets.
-- **[P0] Per-screen fixes.** — Stat grid, rating row, quiz options, heatmap, dialogs. → No horizontal page scroll at 360px; dialogs become full-screen sheets below `sm`.
-- **[P1] Touch and input hygiene.** — 44px targets, 16px input font so iOS does not zoom, no hover-only affordances. → The Archive share button is currently hover-only.
-- **[P1] Component tests at mobile viewports.** — The shell swap and the tab bar are logic, not composition. → jsdom at two widths.
+- ~~**[P0] Responsive shell.**~~ **DONE 2026-09-11.** — Sidebar is `hidden lg:flex`; `MobileTabBar` is `lg:hidden`. No page learned anything about which is showing. → Content padding steps 16/24/32px and clears the bar.
+- ~~**[P0] Bottom tab bar.**~~ **DONE 2026-09-11.** — Home, Practice, Cards, Quiz, More; the other six in a sheet behind More, which stays lit while you are on one of them. Safe-area padded, 56px targets. 13 component tests.
+- ~~**[P0] Per-screen fixes.**~~ **DONE 2026-09-11.** — Rating row 2×2 below `sm`, quiz modes stacked, dialogs full-height sheets below `sm`. The heatmap already scrolled in its own container. → Measured: no page scrolls horizontally at 360px.
+- ~~**[P1] Touch and input hygiene.**~~ **DONE 2026-09-11.** — One `@media (pointer: coarse)` block rather than a size prop threaded through every call site, because the forgotten one is always the button nobody tested on a phone. Keyed to the pointer, not the width: a narrow desktop window keeps its density and a large tablet still gets 44px. → The Archive share button turned out not to be hover-only; that note was stale.
+- ~~**[P1] Component tests at mobile viewports.**~~ **DONE 2026-09-11.** — 13 tests on the tab bar: which destinations earn a tab, that all ten stay reachable between bar and sheet, that More lights up for a page behind it, Escape, and that choosing a destination closes the sheet. → jsdom has no layout, so the `lg:hidden` swap itself is proven in the browser audit instead, which is the honest split.
 
-### Definition of done
+### Definition of done — met 2026-09-11
 
-- Nothing scrolls the page horizontally at 360px.
-- Every interactive target is at least 44px.
-- Screenshots at 360, 768 and 1280 in the README.
+- ~~Nothing scrolls the page horizontally at 360px.~~ **Measured** across all ten pages at 360, 768 and 1280.
+- ~~Every interactive target is at least 44px.~~ **Measured**, on a touch pointer. A checkbox is judged by the label that wraps it, since that is what a finger actually hits.
+- ~~Screenshots at 360, 768 and 1280 in the README.~~ In `docs/screenshots/`.
 
 ## Phase 8 — Generation at scale
 

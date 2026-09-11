@@ -75,6 +75,12 @@ Keep these in mind when extending:
 - **`user-event` hangs under `vi.useFakeTimers()`.** It waits on timers a frozen
   clock never advances. Use the real clock in interaction tests; keep the fake
   one only where a fixed "today" matters.
+- **A test that times out is usually a slow dynamic import, not a bug.** The
+  CSV parser, the Anki reader and sql.js are all loaded by `await import()` at
+  the point of use; the first one in a worker pays for the transform. Vitest's
+  5s default was not enough on a loaded machine and produced a flake roughly one
+  run in four. `testTimeout`/`hookTimeout` in `vitest.config.ts` are set high
+  deliberately — they never mask a failing assertion, only a slow transform.
 - **A stale dev server on port 1420 will happily serve old code** and answer
   200. If a change is not showing up, check what actually owns the port before
   believing the page.

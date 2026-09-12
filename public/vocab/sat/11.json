@@ -1,0 +1,1194 @@
+{
+  "track": "sat",
+  "ordinal": 11,
+  "title": "Persuasion and rhetoric",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-oratory",
+          "word": "oratory",
+          "partOfSpeech": "noun",
+          "definition": "The art of speaking well in public to move or impress a crowd.",
+          "example": "Her closing argument was a masterpiece of oratory that left the jury spellbound.",
+          "mnemonic": "Sounds like 'oral' + 'story' — telling a story out loud with power.",
+          "synonyms": [
+            "eloquence",
+            "rhetoric",
+            "elocution"
+          ],
+          "antonyms": [
+            "muteness",
+            "inarticulacy"
+          ]
+        },
+        {
+          "id": "sat-dialectic",
+          "word": "dialectic",
+          "partOfSpeech": "noun",
+          "definition": "A method of examining truth through logical argument between opposing viewpoints.",
+          "example": "Through careful dialectic, the two philosophers refined each other's positions into a sharper truth.",
+          "mnemonic": "'dia-' (across) + 'lect' (speak): speaking across two sides to reach truth.",
+          "synonyms": [
+            "reasoning",
+            "argumentation",
+            "logic"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-persuade",
+          "word": "persuade",
+          "partOfSpeech": "verb",
+          "definition": "To make someone agree or act by offering reasons or appeals.",
+          "example": "It took an hour, but she finally persuaded her father to lend her the car.",
+          "mnemonic": "per- (thoroughly) + 'suave' — sweet-talk someone all the way to yes.",
+          "synonyms": [
+            "convince",
+            "coax",
+            "sway"
+          ],
+          "antonyms": [
+            "dissuade",
+            "discourage"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-coax",
+          "word": "coax",
+          "partOfSpeech": "verb",
+          "definition": "To gently and patiently urge someone toward doing what you want.",
+          "example": "She coaxed the frightened kitten out from under the porch with a saucer of milk.",
+          "mnemonic": "Sounds like 'coke's' — offer someone a Coke to gently win them over.",
+          "synonyms": [
+            "cajole",
+            "wheedle",
+            "persuade"
+          ],
+          "antonyms": [
+            "force",
+            "compel"
+          ]
+        },
+        {
+          "id": "sat-cajole",
+          "word": "cajole",
+          "partOfSpeech": "verb",
+          "definition": "To coax someone with flattery, teasing, or sweet promises.",
+          "example": "He cajoled his sister into covering his chores by promising to wash her car.",
+          "mnemonic": "ca-JOLE sounds like 'jolly' — jolly someone along with charm until they give in.",
+          "synonyms": [
+            "wheedle",
+            "coax",
+            "flatter"
+          ],
+          "antonyms": [
+            "bully",
+            "coerce"
+          ]
+        },
+        {
+          "id": "sat-entreat",
+          "word": "entreat",
+          "partOfSpeech": "verb",
+          "definition": "To ask someone earnestly and humbly for something you badly want.",
+          "example": "The refugees entreated the guards to let their children cross the border first.",
+          "mnemonic": "en- + 'treat' — beg someone to treat you kindly.",
+          "synonyms": [
+            "beg",
+            "implore",
+            "plead"
+          ],
+          "antonyms": [
+            "demand",
+            "command"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-implore",
+          "word": "implore",
+          "partOfSpeech": "verb",
+          "definition": "To beg someone urgently and emotionally for help or mercy.",
+          "example": "'Please don't go,' she implored, gripping his sleeve as the train pulled in.",
+          "mnemonic": "Sounds like 'I'm poor' — a beggar pleading desperately for help.",
+          "synonyms": [
+            "beg",
+            "beseech",
+            "entreat"
+          ],
+          "antonyms": [
+            "demand",
+            "command"
+          ]
+        },
+        {
+          "id": "sat-beseech",
+          "word": "beseech",
+          "partOfSpeech": "verb",
+          "definition": "To beg someone eagerly and anxiously to do something.",
+          "example": "The villagers beseeched the king to spare their harvest from the heavy tax.",
+          "mnemonic": "Sounds like 'be-seek' — you seek help so hard that you beg for it.",
+          "synonyms": [
+            "implore",
+            "entreat",
+            "plead"
+          ],
+          "antonyms": [
+            "demand",
+            "order"
+          ]
+        },
+        {
+          "id": "sat-exhort",
+          "word": "exhort",
+          "partOfSpeech": "verb",
+          "definition": "To strongly urge or encourage someone to make an effort.",
+          "example": "The coach exhorted his exhausted players to push through the final minutes.",
+          "mnemonic": "'egg-zort' — egg someone on toward a great effort.",
+          "synonyms": [
+            "urge",
+            "encourage",
+            "rouse"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-rouse",
+          "word": "rouse",
+          "partOfSpeech": "verb",
+          "definition": "To stir someone from rest or calm into strong feeling or action.",
+          "example": "The general's speech roused the weary troops to charge one more time.",
+          "mnemonic": "Rhymes with 'house' — a fire alarm rouses the whole house awake.",
+          "synonyms": [
+            "stir",
+            "awaken",
+            "incite"
+          ],
+          "antonyms": [
+            "calm",
+            "lull",
+            "soothe"
+          ]
+        },
+        {
+          "id": "sat-inspire",
+          "word": "inspire",
+          "partOfSpeech": "verb",
+          "definition": "To fill someone with the urge or confidence to do something great.",
+          "example": "The teacher's own love of science inspired half her students to become engineers.",
+          "mnemonic": "in- + 'spire' (breath, as in respire) — to breathe energy and ideas into someone.",
+          "synonyms": [
+            "motivate",
+            "encourage",
+            "stir"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter"
+          ]
+        },
+        {
+          "id": "sat-motivate",
+          "word": "motivate",
+          "partOfSpeech": "verb",
+          "definition": "To give someone a reason or drive to take action.",
+          "example": "The promise of a bonus motivated the team to finish the project a week early.",
+          "mnemonic": "Contains 'motive' and 'motor' — a motive is the motor that drives you.",
+          "synonyms": [
+            "drive",
+            "spur",
+            "inspire"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-sway",
+          "word": "sway",
+          "partOfSpeech": "verb",
+          "definition": "To influence someone's opinion or make it lean one way.",
+          "example": "A single tearful witness swayed the undecided jurors toward acquittal.",
+          "mnemonic": "Picture a tree swaying in wind — arguments make your opinion lean and swing.",
+          "synonyms": [
+            "influence",
+            "persuade",
+            "convince"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-wheedle",
+          "word": "wheedle",
+          "partOfSpeech": "verb",
+          "definition": "To get something by using soft flattery and coaxing words.",
+          "example": "The child wheedled an extra scoop of ice cream from his doting grandmother.",
+          "mnemonic": "Sounds like 'needle' — you gently needle and sweet-talk until they give in.",
+          "synonyms": [
+            "cajole",
+            "coax",
+            "flatter"
+          ],
+          "antonyms": [
+            "bully",
+            "coerce"
+          ]
+        },
+        {
+          "id": "sat-prevail",
+          "word": "prevail",
+          "partOfSpeech": "verb",
+          "definition": "To prove stronger and win out, or to successfully urge someone to agree.",
+          "example": "She finally prevailed upon her reluctant boss to approve the extra vacation days.",
+          "mnemonic": "Contains 'vail' like 'valiant' — the valiant side proves stronger and wins.",
+          "synonyms": [
+            "triumph",
+            "win",
+            "persuade"
+          ],
+          "antonyms": [
+            "lose",
+            "fail",
+            "yield"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-advocate",
+          "word": "advocate",
+          "partOfSpeech": "verb",
+          "definition": "To publicly support or argue in favor of a particular cause or policy.",
+          "example": "She advocates for cleaner rivers at every town council meeting.",
+          "mnemonic": "ad- + Latin 'vocare' (to call): you 'call out' on behalf of a cause.",
+          "synonyms": [
+            "support",
+            "back",
+            "promote"
+          ],
+          "antonyms": [
+            "oppose",
+            "discourage"
+          ]
+        },
+        {
+          "id": "sat-champion",
+          "word": "champion",
+          "partOfSpeech": "verb",
+          "definition": "To actively fight for, defend, or promote a person or cause.",
+          "example": "He championed workers' rights long before it was popular to do so.",
+          "mnemonic": "A prize-fighting champion steps into the ring to battle for someone's side.",
+          "synonyms": [
+            "defend",
+            "uphold",
+            "back"
+          ],
+          "antonyms": [
+            "oppose",
+            "attack"
+          ]
+        },
+        {
+          "id": "sat-espouse",
+          "word": "espouse",
+          "partOfSpeech": "verb",
+          "definition": "To adopt and give loyal support to a belief, cause, or way of life.",
+          "example": "The senator openly espouses stricter limits on factory emissions.",
+          "mnemonic": "Sounds like 'spouse' — you marry yourself to an idea and stay faithful to it.",
+          "synonyms": [
+            "embrace",
+            "adopt",
+            "support"
+          ],
+          "antonyms": [
+            "reject",
+            "renounce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-propound",
+          "word": "propound",
+          "partOfSpeech": "verb",
+          "definition": "To put forward an idea or theory for others to consider.",
+          "example": "The scientist propounded a bold theory about the planet's origin.",
+          "mnemonic": "pro- (forward) + 'pound': you pound your idea forward onto the table for debate.",
+          "synonyms": [
+            "propose",
+            "posit",
+            "suggest"
+          ],
+          "antonyms": [
+            "withdraw",
+            "retract"
+          ]
+        },
+        {
+          "id": "sat-clarify",
+          "word": "clarify",
+          "partOfSpeech": "verb",
+          "definition": "To make something easier to understand by removing confusion or vagueness.",
+          "example": "Could you clarify what you meant when you said the deadline was 'flexible'?",
+          "mnemonic": "'clear' + -ify: literally to make clear.",
+          "synonyms": [
+            "explain",
+            "elucidate",
+            "illuminate"
+          ],
+          "antonyms": [
+            "confuse",
+            "obscure",
+            "muddle"
+          ]
+        },
+        {
+          "id": "sat-illustrate",
+          "word": "illustrate",
+          "partOfSpeech": "verb",
+          "definition": "To make an idea plain using examples, pictures, or comparisons.",
+          "example": "He used a simple graph to illustrate how quickly the debt had grown.",
+          "mnemonic": "Hidden Latin 'lustrare' (to light up): to shine light on an idea.",
+          "synonyms": [
+            "exemplify",
+            "depict",
+            "clarify"
+          ],
+          "antonyms": [
+            "obscure",
+            "confuse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-demonstrate",
+          "word": "demonstrate",
+          "partOfSpeech": "verb",
+          "definition": "To show clearly that something is true or how it works through evidence or action.",
+          "example": "The instructor demonstrated how to tie the knot step by step.",
+          "mnemonic": "A 'demo' demonstrates — it shows you exactly how the thing works.",
+          "synonyms": [
+            "show",
+            "prove",
+            "exhibit"
+          ],
+          "antonyms": [
+            "conceal",
+            "hide"
+          ]
+        },
+        {
+          "id": "sat-rationalize",
+          "word": "rationalize",
+          "partOfSpeech": "verb",
+          "definition": "To invent logical-sounding excuses for behavior really driven by other motives.",
+          "example": "He rationalized skipping the gym by insisting the walk to work was enough.",
+          "mnemonic": "'rational' + -ize: you dress up a choice to make it seem reasonable after the fact.",
+          "synonyms": [
+            "justify",
+            "excuse",
+            "explain away"
+          ],
+          "antonyms": [
+            "admit",
+            "confess"
+          ]
+        },
+        {
+          "id": "sat-counter",
+          "word": "counter",
+          "partOfSpeech": "verb",
+          "definition": "To respond to an argument or action with an opposing one.",
+          "example": "She countered his objection with fresh data from the study.",
+          "mnemonic": "A boxer's counter-punch: you hit back the moment your opponent strikes.",
+          "synonyms": [
+            "rebut",
+            "oppose",
+            "refute"
+          ],
+          "antonyms": [
+            "agree",
+            "concede",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-dispute",
+          "word": "dispute",
+          "partOfSpeech": "verb",
+          "definition": "To argue against the truth or validity of something.",
+          "example": "The two families disputed the ownership of the land for years.",
+          "mnemonic": "dis- (against) + Latin 'putare' (to think): to think against what someone claims.",
+          "synonyms": [
+            "challenge",
+            "contest",
+            "question"
+          ],
+          "antonyms": [
+            "accept",
+            "concede",
+            "agree"
+          ]
+        },
+        {
+          "id": "sat-proclaim",
+          "word": "proclaim",
+          "partOfSpeech": "verb",
+          "definition": "To announce something officially or publicly with great emphasis.",
+          "example": "The king proclaimed a national holiday from the palace balcony.",
+          "mnemonic": "pro- (forth) + 'claim': you claim it forth, loudly, for everyone to hear.",
+          "synonyms": [
+            "announce",
+            "declare",
+            "broadcast"
+          ],
+          "antonyms": [
+            "conceal",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-pronounce",
+          "word": "pronounce",
+          "partOfSpeech": "verb",
+          "definition": "To declare something formally, or to make the sound of a word.",
+          "example": "The judge pronounced the defendant not guilty, and the courtroom erupted.",
+          "mnemonic": "pro- + Latin 'nuntiare' (to announce): to announce a verdict or a sound officially.",
+          "synonyms": [
+            "declare",
+            "announce",
+            "articulate"
+          ],
+          "antonyms": [
+            "mumble",
+            "withhold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-bombastic",
+          "word": "bombastic",
+          "partOfSpeech": "adjective",
+          "definition": "Using inflated, pompous language that sounds impressive but means little.",
+          "example": "His bombastic victory speech was crammed with grand phrases and empty promises.",
+          "mnemonic": "Think 'bomb-blast': loud explosions of big words that leave nothing behind.",
+          "synonyms": [
+            "pompous",
+            "grandiose",
+            "inflated"
+          ],
+          "antonyms": [
+            "modest",
+            "understated",
+            "plain"
+          ]
+        },
+        {
+          "id": "sat-grandiloquent",
+          "word": "grandiloquent",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by lofty, showy speech intended to impress listeners.",
+          "example": "The professor's grandiloquent lecture left students dazzled but no wiser.",
+          "mnemonic": "'grand' + 'eloquent': grandness of speech pushed way past good taste.",
+          "synonyms": [
+            "bombastic",
+            "magniloquent",
+            "pompous"
+          ],
+          "antonyms": [
+            "plain",
+            "simple",
+            "unaffected"
+          ]
+        },
+        {
+          "id": "sat-pretentious",
+          "word": "pretentious",
+          "partOfSpeech": "adjective",
+          "definition": "Trying to appear more important, talented, or cultured than is actually true.",
+          "example": "The café's pretentious menu described plain toast as 'artisanal grain craft.'",
+          "mnemonic": "Contains 'pretend': you're pretending to be grander than you really are.",
+          "synonyms": [
+            "affected",
+            "ostentatious",
+            "showy"
+          ],
+          "antonyms": [
+            "modest",
+            "unassuming",
+            "humble"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-florid",
+          "word": "florid",
+          "partOfSpeech": "adjective",
+          "definition": "Full of elaborate flourishes and showy decoration, especially in style, language, or a ruddy complexion.",
+          "example": "His florid prose was so crammed with flourishes that readers lost the actual point.",
+          "mnemonic": "Florid sounds like 'floral' — picture over-decorated writing smothered in blossoms.",
+          "synonyms": [
+            "ornate",
+            "flowery",
+            "elaborate"
+          ],
+          "antonyms": [
+            "plain",
+            "spare",
+            "austere"
+          ]
+        },
+        {
+          "id": "sat-ornate",
+          "word": "ornate",
+          "partOfSpeech": "adjective",
+          "definition": "Elaborately decorated with complex, showy detail.",
+          "example": "The ornate ceiling dripped with gold leaf, carved cherubs, and swirling plasterwork.",
+          "mnemonic": "Ornate contains 'ornament' — imagine a room buried under ornaments.",
+          "synonyms": [
+            "elaborate",
+            "fancy",
+            "decorated"
+          ],
+          "antonyms": [
+            "plain",
+            "simple",
+            "austere"
+          ]
+        },
+        {
+          "id": "sat-pithy",
+          "word": "pithy",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing much meaning briefly and forcefully in few words.",
+          "example": "Her pithy one-liner said more than the speaker's hour-long lecture.",
+          "mnemonic": "Pith is the concentrated core of a stem — pithy speech is all core, no filler.",
+          "synonyms": [
+            "concise",
+            "terse",
+            "succinct"
+          ],
+          "antonyms": [
+            "verbose",
+            "wordy",
+            "rambling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-voluble",
+          "word": "voluble",
+          "partOfSpeech": "adjective",
+          "definition": "Talking easily, freely, and at great length.",
+          "example": "So voluble was the guide that she barely paused for breath during the entire tour.",
+          "mnemonic": "Voluble sounds like 'volume' — a person whose volume of words never shuts off.",
+          "synonyms": [
+            "talkative",
+            "garrulous",
+            "loquacious"
+          ],
+          "antonyms": [
+            "taciturn",
+            "reticent",
+            "terse"
+          ]
+        },
+        {
+          "id": "sat-fervid",
+          "word": "fervid",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling or showing intense, passionate emotion.",
+          "example": "The candidate's fervid supporters chanted late into the night, hoarse but tireless.",
+          "mnemonic": "Fervid shares a root with 'fervent' and 'fever' — a feverish heat of feeling.",
+          "synonyms": [
+            "passionate",
+            "ardent",
+            "impassioned"
+          ],
+          "antonyms": [
+            "apathetic",
+            "indifferent",
+            "cool"
+          ]
+        },
+        {
+          "id": "sat-stubborn",
+          "word": "stubborn",
+          "partOfSpeech": "adjective",
+          "definition": "Refusing to change one's mind or course despite good reasons.",
+          "example": "The stubborn toddler folded his arms and flatly refused to leave the playground.",
+          "mnemonic": "Picture a stubborn tree stub in the ground — you can push all day and it won't budge.",
+          "synonyms": [
+            "obstinate",
+            "headstrong",
+            "inflexible"
+          ],
+          "antonyms": [
+            "flexible",
+            "compliant",
+            "amenable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-partisan",
+          "word": "partisan",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly favoring one party, cause, or group over all others.",
+          "example": "The debate collapsed into partisan bickering, each side cheering only its own team.",
+          "mnemonic": "Partisan contains 'part' — someone who always takes the part of one side.",
+          "synonyms": [
+            "factional",
+            "one-sided",
+            "sectarian"
+          ],
+          "antonyms": [
+            "nonpartisan",
+            "neutral",
+            "impartial"
+          ]
+        },
+        {
+          "id": "sat-biased",
+          "word": "biased",
+          "partOfSpeech": "adjective",
+          "definition": "Unfairly favoring one side, person, or viewpoint over another.",
+          "example": "The referee seemed biased, awarding every close call to the home team.",
+          "mnemonic": "In lawn bowling, a 'bias' is a weight that makes the ball curve one way — biased judgment always curves.",
+          "synonyms": [
+            "prejudiced",
+            "partial",
+            "one-sided"
+          ],
+          "antonyms": [
+            "impartial",
+            "neutral",
+            "objective"
+          ]
+        },
+        {
+          "id": "sat-impartial",
+          "word": "impartial",
+          "partOfSpeech": "adjective",
+          "definition": "Treating all sides equally without favoring anyone.",
+          "example": "As an impartial judge, she weighed both arguments carefully before ruling.",
+          "mnemonic": "Im- (not) + partial — literally 'not taking a part' or side.",
+          "synonyms": [
+            "neutral",
+            "unbiased",
+            "even-handed"
+          ],
+          "antonyms": [
+            "biased",
+            "partisan",
+            "prejudiced"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-objective",
+          "word": "objective",
+          "partOfSpeech": "adjective",
+          "definition": "Based on facts and evidence rather than personal feelings or opinions.",
+          "example": "The report stuck to objective measurements: temperatures, distances, and dated timestamps.",
+          "mnemonic": "An 'object' is a real thing out in the world — objective means grounded in external facts.",
+          "synonyms": [
+            "unbiased",
+            "factual",
+            "impartial"
+          ],
+          "antonyms": [
+            "subjective",
+            "biased",
+            "partial"
+          ]
+        },
+        {
+          "id": "sat-subjective",
+          "word": "subjective",
+          "partOfSpeech": "adjective",
+          "definition": "Based on personal feelings, tastes, or opinions rather than outside facts.",
+          "example": "Beauty is subjective — the painting that moved her left him completely cold.",
+          "mnemonic": "The 'subject' is the person perceiving — subjective is filtered through one mind.",
+          "synonyms": [
+            "personal",
+            "individual",
+            "biased"
+          ],
+          "antonyms": [
+            "objective",
+            "impartial",
+            "factual"
+          ]
+        },
+        {
+          "id": "sat-prejudice",
+          "word": "prejudice",
+          "partOfSpeech": "noun",
+          "definition": "An unfair opinion formed before knowing the facts.",
+          "example": "Her prejudice against the neighborhood vanished once she actually lived there.",
+          "mnemonic": "Pre- (before) + judice (judge) — to judge before you know anything.",
+          "synonyms": [
+            "bias",
+            "bigotry",
+            "preconception"
+          ],
+          "antonyms": [
+            "fairness",
+            "impartiality",
+            "open-mindedness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-propaganda",
+          "word": "propaganda",
+          "partOfSpeech": "noun",
+          "definition": "Biased information spread to promote a cause or damage an opponent.",
+          "example": "Wartime posters were pure propaganda, painting the enemy as monstrous and cowardly.",
+          "mnemonic": "Propaganda 'propagates' — it spreads a one-sided message like fast-growing weeds.",
+          "synonyms": [
+            "disinformation",
+            "spin",
+            "indoctrination"
+          ],
+          "antonyms": [
+            "facts",
+            "truth"
+          ]
+        },
+        {
+          "id": "sat-demagogue",
+          "word": "demagogue",
+          "partOfSpeech": "noun",
+          "definition": "A leader who wins support by stirring emotions and prejudices instead of reason.",
+          "example": "The demagogue whipped the crowd into fury with scapegoats and empty promises.",
+          "mnemonic": "Greek demos (people) + agogos (leader) — but the kind who manipulates the mob.",
+          "synonyms": [
+            "rabble-rouser",
+            "agitator",
+            "firebrand"
+          ],
+          "antonyms": [
+            "statesman"
+          ]
+        },
+        {
+          "id": "sat-coherent",
+          "word": "coherent",
+          "partOfSpeech": "adjective",
+          "definition": "Logically connected, clear, and easy to follow.",
+          "example": "After a coffee, her scattered notes finally formed a coherent argument.",
+          "mnemonic": "Co- (together) + here (stick) — coherent thoughts all stick together.",
+          "synonyms": [
+            "logical",
+            "consistent",
+            "lucid"
+          ],
+          "antonyms": [
+            "incoherent",
+            "disjointed",
+            "muddled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-lucid",
+          "word": "lucid",
+          "partOfSpeech": "adjective",
+          "definition": "Easy to understand and expressed in a clear, coherent way.",
+          "example": "Despite her high fever, she gave a lucid account of exactly what had happened that night.",
+          "mnemonic": "From Latin 'lux' (light) — a lucid explanation sheds light on a murky topic.",
+          "synonyms": [
+            "clear",
+            "coherent",
+            "intelligible"
+          ],
+          "antonyms": [
+            "confusing",
+            "muddled",
+            "obscure"
+          ]
+        },
+        {
+          "id": "sat-dissemble",
+          "word": "dissemble",
+          "partOfSpeech": "verb",
+          "definition": "To disguise or conceal one's true feelings, motives, or beliefs.",
+          "example": "He tried to dissemble his disappointment, forcing a cheerful smile for the cameras.",
+          "mnemonic": "Sounds like 'disassemble' — you take the truth apart and hide the pieces.",
+          "synonyms": [
+            "feign",
+            "pretend",
+            "mask"
+          ],
+          "antonyms": [
+            "reveal",
+            "expose",
+            "confess"
+          ]
+        },
+        {
+          "id": "sat-fabricate",
+          "word": "fabricate",
+          "partOfSpeech": "verb",
+          "definition": "To invent a false story or make up information in order to deceive.",
+          "example": "The witness was caught fabricating an alibi that the security footage clearly disproved.",
+          "mnemonic": "A 'fabric' is woven from threads — you weave a whole story out of nothing.",
+          "synonyms": [
+            "invent",
+            "concoct",
+            "falsify"
+          ],
+          "antonyms": [
+            "verify",
+            "substantiate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-embellish",
+          "word": "embellish",
+          "partOfSpeech": "verb",
+          "definition": "To add extra, often untrue or fancy details to make something more appealing.",
+          "example": "Grandpa loved to embellish his war stories, adding a new hero every time he told them.",
+          "mnemonic": "Contains 'bell' — hang pretty bells on a plain tale to dress it up.",
+          "synonyms": [
+            "decorate",
+            "adorn",
+            "overstate"
+          ],
+          "antonyms": [
+            "simplify",
+            "understate"
+          ]
+        },
+        {
+          "id": "sat-exaggerate",
+          "word": "exaggerate",
+          "partOfSpeech": "verb",
+          "definition": "To describe something as bigger, better, or worse than it really is.",
+          "example": "When he claimed he had waited a thousand years in that line, he was surely exaggerating.",
+          "mnemonic": "'Ex-AGGER-ate' — aggregate piles everything up far past its real size.",
+          "synonyms": [
+            "overstate",
+            "inflate",
+            "magnify"
+          ],
+          "antonyms": [
+            "understate",
+            "minimize",
+            "downplay"
+          ]
+        },
+        {
+          "id": "sat-hyperbole",
+          "word": "hyperbole",
+          "partOfSpeech": "noun",
+          "definition": "A figure of speech using extreme overstatement for emphasis, not meant literally.",
+          "example": "Saying 'I've told you a million times' is pure hyperbole, not an actual tally.",
+          "mnemonic": "'Hyper + bowl' — a hyperactive bowl overflowing way past the rim.",
+          "synonyms": [
+            "overstatement",
+            "exaggeration"
+          ],
+          "antonyms": [
+            "understatement",
+            "litotes"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-euphemism",
+          "word": "euphemism",
+          "partOfSpeech": "noun",
+          "definition": "A mild or indirect word used in place of one considered harsh or blunt.",
+          "example": "'Passed away' is a gentle euphemism people reach for instead of saying 'died.'",
+          "mnemonic": "Greek 'eu' (good) + 'pheme' (speech) — good-sounding speech for an ugly thing.",
+          "synonyms": [
+            "polite term",
+            "substitute"
+          ],
+          "antonyms": [
+            "dysphemism",
+            "bluntness"
+          ]
+        },
+        {
+          "id": "sat-jargon",
+          "word": "jargon",
+          "partOfSpeech": "noun",
+          "definition": "Specialized words used by a particular profession or group, hard for outsiders.",
+          "example": "The lawyers' jargon left the jury baffled by terms like 'tortfeasor' and 'estoppel.'",
+          "mnemonic": "Sounds like 'jar-gone' — the meaning is sealed in a jar, gone to outsiders.",
+          "synonyms": [
+            "terminology",
+            "lingo",
+            "argot"
+          ],
+          "antonyms": [
+            "plain language",
+            "layman's terms"
+          ]
+        },
+        {
+          "id": "sat-innuendo",
+          "word": "innuendo",
+          "partOfSpeech": "noun",
+          "definition": "An indirect hint or sly remark suggesting something, usually negative or improper.",
+          "example": "She never accused him outright, but her innuendo left everyone suspecting the worst.",
+          "mnemonic": "'In-you-end-o' — a hint that slips in at the end, never stated straight.",
+          "synonyms": [
+            "insinuation",
+            "hint",
+            "implication"
+          ],
+          "antonyms": [
+            "direct statement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-allusion",
+          "word": "allusion",
+          "partOfSpeech": "noun",
+          "definition": "An indirect or passing reference to a person, event, or work of art.",
+          "example": "Calling the overgrown garden 'an Eden' was an allusion to the biblical paradise.",
+          "mnemonic": "Unlike 'illusion,' an allusion a-LU-des — points away to something already known.",
+          "synonyms": [
+            "reference",
+            "hint",
+            "intimation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-anecdote",
+          "word": "anecdote",
+          "partOfSpeech": "noun",
+          "definition": "A short, often amusing account of a real incident or person.",
+          "example": "To break the ice, she opened her speech with an anecdote about her disastrous first job.",
+          "mnemonic": "'Anec-dote' sounds like 'antidote' — a little story to cure a dull moment.",
+          "synonyms": [
+            "story",
+            "tale",
+            "reminiscence"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-rebuttal",
+          "word": "rebuttal",
+          "partOfSpeech": "noun",
+          "definition": "A response that argues against and tries to disprove a previous claim.",
+          "example": "After the prosecutor's charge, the defense offered a sharp rebuttal pointing to the timeline.",
+          "mnemonic": "'Re-BUT-tal' — the 'but...' that pushes straight back against an argument.",
+          "synonyms": [
+            "counterargument",
+            "refutation",
+            "response"
+          ],
+          "antonyms": [
+            "agreement",
+            "concession",
+            "endorsement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-concession",
+          "word": "concession",
+          "partOfSpeech": "noun",
+          "definition": "Something granted or admitted, especially a point yielded in an argument.",
+          "example": "As a concession to the strikers, management agreed to shorten the weekend shifts.",
+          "mnemonic": "To 'concede' is to cede (give up) ground; the concession is the ground handed over.",
+          "synonyms": [
+            "compromise",
+            "acknowledgment",
+            "yielding"
+          ],
+          "antonyms": [
+            "denial",
+            "refusal",
+            "rebuttal"
+          ]
+        },
+        {
+          "id": "sat-goad",
+          "word": "goad",
+          "partOfSpeech": "verb",
+          "definition": "To provoke or prod someone into action, often by teasing or annoying them.",
+          "example": "His rivals goaded him into taking the dangerous jump by calling him a coward.",
+          "mnemonic": "A 'goad' is a pointed stick for driving cattle — you poke someone into moving.",
+          "synonyms": [
+            "provoke",
+            "prod",
+            "incite"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter",
+            "restrain"
+          ]
+        },
+        {
+          "id": "sat-solicit",
+          "word": "solicit",
+          "partOfSpeech": "verb",
+          "definition": "To ask for or try to obtain something from someone.",
+          "example": "The charity volunteers stood outside the station to solicit donations from commuters.",
+          "mnemonic": "'So-LI-cit' — think of a solicitor (lawyer) who is always asking you for things.",
+          "synonyms": [
+            "request",
+            "seek",
+            "petition"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-retort",
+          "word": "retort",
+          "partOfSpeech": "noun",
+          "definition": "A quick, sharp, and often witty reply, especially one that turns criticism back on its speaker.",
+          "example": "When he mocked her cooking, she shot back a retort so cutting the whole table went silent.",
+          "mnemonic": "Sounds like 'RE-TORT' — you 'torque' the insult back, twisting the other person's words to fling them in return.",
+          "synonyms": [
+            "riposte",
+            "comeback",
+            "rejoinder"
+          ],
+          "antonyms": [
+            "question",
+            "prompt"
+          ]
+        },
+        {
+          "id": "sat-ingratiate",
+          "word": "ingratiate",
+          "partOfSpeech": "verb",
+          "definition": "To deliberately win someone's favor or approval through flattery and eager, pleasing behavior.",
+          "example": "The new intern tried to ingratiate himself with the boss by laughing loudly at every joke and fetching her coffee unasked.",
+          "mnemonic": "Hear 'in-GRATIA-te' — Latin 'gratia' means favor or grace, so you work your way INTO someone's good GRACES.",
+          "synonyms": [
+            "flatter",
+            "curry favor",
+            "butter up"
+          ],
+          "antonyms": [
+            "alienate",
+            "estrange",
+            "antagonize"
+          ]
+        },
+        {
+          "id": "sat-didactic",
+          "word": "didactic",
+          "partOfSpeech": "adjective",
+          "definition": "Intended to teach or instruct, sometimes in an overbearing, moralizing way.",
+          "example": "The film's story stalled whenever a character paused to deliver a didactic little speech about honesty.",
+          "mnemonic": "'DIDACT-ic' shares its root with the Greek 'didaskein', to teach — picture a stern professor whose every sentence is a lesson.",
+          "synonyms": [
+            "instructive",
+            "educational",
+            "moralistic"
+          ],
+          "antonyms": [
+            "entertaining",
+            "recreational"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:52:28.283Z"
+}

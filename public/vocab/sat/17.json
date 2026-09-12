@@ -1,0 +1,872 @@
+{
+  "track": "sat",
+  "ordinal": 17,
+  "title": "History and memory",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-commemorate",
+          "word": "commemorate",
+          "partOfSpeech": "verb",
+          "definition": "To honor and remember an important person or event through a ceremony or action.",
+          "example": "Every year the town gathers at dawn to commemorate the soldiers who never came home.",
+          "mnemonic": "Break it up: co- (together) + memor (mindful, as in memory) + -ate — a group brings a memory to mind together.",
+          "synonyms": [
+            "honor",
+            "celebrate",
+            "observe"
+          ],
+          "antonyms": [
+            "forget",
+            "ignore"
+          ]
+        },
+        {
+          "id": "sat-memorialize",
+          "word": "memorialize",
+          "partOfSpeech": "verb",
+          "definition": "To keep the remembrance of a person or event alive, often with a lasting structure or record.",
+          "example": "They memorialized the fallen firefighters with a bronze statue outside the station.",
+          "mnemonic": "You take a 'memorial' and -ize it — turn a feeling of remembrance into a permanent thing.",
+          "synonyms": [
+            "commemorate",
+            "immortalize",
+            "enshrine"
+          ],
+          "antonyms": [
+            "forget",
+            "overlook"
+          ]
+        },
+        {
+          "id": "sat-nostalgia",
+          "word": "nostalgia",
+          "partOfSpeech": "noun",
+          "definition": "A bittersweet longing for happier times or places from earlier in life.",
+          "example": "Hearing that old summer song filled her with nostalgia for her grandmother's porch.",
+          "mnemonic": "From Greek nostos (homecoming) + algos (pain) — the sweet ache to return home.",
+          "synonyms": [
+            "longing",
+            "wistfulness",
+            "yearning"
+          ],
+          "antonyms": [
+            "indifference"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-reminisce",
+          "word": "reminisce",
+          "partOfSpeech": "verb",
+          "definition": "To talk or think fondly about pleasant experiences from the past.",
+          "example": "The old friends sat by the fire and reminisced about their college road trips.",
+          "mnemonic": "Sounds like 'remind us' — the stories remind us of who we used to be.",
+          "synonyms": [
+            "recall",
+            "recollect",
+            "remember"
+          ],
+          "antonyms": [
+            "forget"
+          ]
+        },
+        {
+          "id": "sat-recollect",
+          "word": "recollect",
+          "partOfSpeech": "verb",
+          "definition": "To bring a past fact or experience back into the mind.",
+          "example": "She frowned, trying to recollect exactly where she had left her keys the night before.",
+          "mnemonic": "re- + collect: you go back and 'collect' scattered pieces of the past again.",
+          "synonyms": [
+            "remember",
+            "recall",
+            "reminisce"
+          ],
+          "antonyms": [
+            "forget",
+            "overlook"
+          ]
+        },
+        {
+          "id": "sat-retrospect",
+          "word": "retrospect",
+          "partOfSpeech": "noun",
+          "definition": "A looking back at events that already happened, judged from the present.",
+          "example": "In retrospect, quitting that safe job to start the bakery was the smartest thing he ever did.",
+          "mnemonic": "retro- (backward) + -spect (look) — the same 'spect' as inspect; you look backward.",
+          "synonyms": [
+            "hindsight",
+            "reflection",
+            "review"
+          ],
+          "antonyms": [
+            "foresight",
+            "anticipation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-posterity",
+          "word": "posterity",
+          "partOfSpeech": "noun",
+          "definition": "All the people who will live in future generations.",
+          "example": "The author kept meticulous journals so that posterity could understand daily life in her era.",
+          "mnemonic": "Like 'posterior' — what comes after and behind you: the generations that follow.",
+          "synonyms": [
+            "descendants",
+            "offspring",
+            "heirs"
+          ],
+          "antonyms": [
+            "ancestors",
+            "forebears"
+          ]
+        },
+        {
+          "id": "sat-lineage",
+          "word": "lineage",
+          "partOfSpeech": "noun",
+          "definition": "The sequence of family members from whom a person is descended.",
+          "example": "He proudly traced his lineage back to a family of shipbuilders in the 1700s.",
+          "mnemonic": "line + age — a family 'line' followed down through the ages.",
+          "synonyms": [
+            "ancestry",
+            "descent",
+            "pedigree"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-ancestral",
+          "word": "ancestral",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to or inherited from family members who lived in earlier generations.",
+          "example": "The family returned to their ancestral village to see the stone house their great-grandparents built.",
+          "mnemonic": "You can see 'ancestor' hiding inside it — anything of the ancestors.",
+          "synonyms": [
+            "hereditary",
+            "inherited",
+            "familial"
+          ],
+          "antonyms": [
+            "modern",
+            "contemporary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-artifact",
+          "word": "artifact",
+          "partOfSpeech": "noun",
+          "definition": "An object made by humans, especially one of historical or cultural interest.",
+          "example": "The museum displayed a cracked clay pot and other artifacts dug from the ancient city.",
+          "mnemonic": "From Latin arte factum, 'made by skill' — art + fact = a thing crafted by human hands.",
+          "synonyms": [
+            "relic",
+            "antiquity",
+            "object"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-testament",
+          "word": "testament",
+          "partOfSpeech": "noun",
+          "definition": "Something that serves as clear proof or evidence of a quality or fact.",
+          "example": "The bridge, still standing after two centuries, is a testament to its builders' skill.",
+          "mnemonic": "Shares a root with 'testify' — it testifies, standing as proof of something true.",
+          "synonyms": [
+            "proof",
+            "evidence",
+            "tribute"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-monument",
+          "word": "monument",
+          "partOfSpeech": "noun",
+          "definition": "A structure built to honor a notable person or event.",
+          "example": "Tourists gathered around the towering stone monument dedicated to the city's founder.",
+          "mnemonic": "From Latin monere, 'to remind' (like 'admonish') — a big structure that reminds everyone.",
+          "synonyms": [
+            "memorial",
+            "landmark",
+            "shrine"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-archive",
+          "word": "archive",
+          "partOfSpeech": "noun",
+          "definition": "A collection of historical documents or records kept for reference.",
+          "example": "The journalist spent weeks in the newspaper's archive hunting for articles from 1950.",
+          "mnemonic": "Sounds like 'ark hive' — an ark that shelters records in an orderly hive of shelves.",
+          "synonyms": [
+            "records",
+            "repository",
+            "register"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-annals",
+          "word": "annals",
+          "partOfSpeech": "noun",
+          "definition": "A written record of events arranged in order, year by year.",
+          "example": "That impossible comeback earned the team a permanent place in the annals of the sport.",
+          "mnemonic": "From Latin annus, 'year' (like 'annual') — history kept one year at a time.",
+          "synonyms": [
+            "chronicles",
+            "records",
+            "history"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-memoir",
+          "word": "memoir",
+          "partOfSpeech": "noun",
+          "definition": "A written account of the author's own life and personal experiences.",
+          "example": "In her memoir, the retired diplomat revealed secrets from decades of quiet negotiations.",
+          "mnemonic": "From French mémoire — say it aloud and you hear 'memory'; a whole book of yours.",
+          "synonyms": [
+            "autobiography",
+            "reminiscence",
+            "journal"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-recall",
+          "word": "recall",
+          "partOfSpeech": "verb",
+          "definition": "To bring something back into your mind after having known it before.",
+          "example": "Under pressure, she could barely recall her own phone number.",
+          "mnemonic": "re- (again) + call: you 'call back' a memory from storage.",
+          "synonyms": [
+            "remember",
+            "recollect",
+            "retrieve"
+          ],
+          "antonyms": [
+            "forget",
+            "overlook"
+          ]
+        },
+        {
+          "id": "sat-oblivion",
+          "word": "oblivion",
+          "partOfSpeech": "noun",
+          "definition": "The state of being completely forgotten, or of noticing nothing at all.",
+          "example": "The once-famous singer faded into oblivion after his final album flopped.",
+          "mnemonic": "Sounds like 'oblivious' — both mean blank, unaware, gone from notice.",
+          "synonyms": [
+            "nothingness",
+            "obscurity",
+            "unconsciousness"
+          ],
+          "antonyms": [
+            "awareness",
+            "fame",
+            "remembrance"
+          ]
+        },
+        {
+          "id": "sat-amnesia",
+          "word": "amnesia",
+          "partOfSpeech": "noun",
+          "definition": "A condition in which a person loses part or all of their memory.",
+          "example": "After the car crash, he suffered amnesia and couldn't name his own children.",
+          "mnemonic": "a- (without) + -mnesia (memory, as in 'mnemonic') = without memory.",
+          "synonyms": [
+            "memory loss",
+            "blackout"
+          ],
+          "antonyms": [
+            "recollection",
+            "remembrance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-efface",
+          "word": "efface",
+          "partOfSpeech": "verb",
+          "definition": "To rub out or remove something so it can no longer be seen.",
+          "example": "Years of rain had effaced the names carved on the old gravestones.",
+          "mnemonic": "ef- + face: strip the 'face' or surface markings clean off something.",
+          "synonyms": [
+            "erase",
+            "obliterate",
+            "expunge"
+          ],
+          "antonyms": [
+            "preserve",
+            "restore",
+            "inscribe"
+          ]
+        },
+        {
+          "id": "sat-enshrine",
+          "word": "enshrine",
+          "partOfSpeech": "verb",
+          "definition": "To protect an idea or right and treat it as very special or sacred.",
+          "example": "The right to free speech is enshrined in the country's constitution.",
+          "mnemonic": "en- + shrine: place something inside a shrine, keeping it holy and safe.",
+          "synonyms": [
+            "preserve",
+            "cherish",
+            "consecrate"
+          ],
+          "antonyms": [
+            "discard",
+            "abolish",
+            "desecrate"
+          ]
+        },
+        {
+          "id": "sat-epoch",
+          "word": "epoch",
+          "partOfSpeech": "noun",
+          "definition": "A long, distinct period of history marked by notable events or features.",
+          "example": "The invention of the printing press opened a new epoch in human communication.",
+          "mnemonic": "Sounds like 'epic' — an epic, sweeping stretch of time.",
+          "synonyms": [
+            "era",
+            "age",
+            "period"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-precedent",
+          "word": "precedent",
+          "partOfSpeech": "noun",
+          "definition": "An earlier action or decision used as a guide for similar situations later.",
+          "example": "The court's ruling set a precedent that judges would follow for decades.",
+          "mnemonic": "pre- (before) + -cedent (going, as in 'proceed'): something that goes before.",
+          "synonyms": [
+            "example",
+            "model",
+            "standard"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-hindsight",
+          "word": "hindsight",
+          "partOfSpeech": "noun",
+          "definition": "Clear understanding of a situation only after it has already happened.",
+          "example": "In hindsight, selling the house before the crash was a brilliant move.",
+          "mnemonic": "hind (rear/behind) + sight: seeing clearly by looking backward.",
+          "synonyms": [
+            "retrospect",
+            "afterthought"
+          ],
+          "antonyms": [
+            "foresight",
+            "foreknowledge"
+          ]
+        },
+        {
+          "id": "sat-foresight",
+          "word": "foresight",
+          "partOfSpeech": "noun",
+          "definition": "The ability to predict what will happen and prepare for it in advance.",
+          "example": "Her foresight in buying extra supplies saved the team when the storm hit.",
+          "mnemonic": "fore (before) + sight: seeing ahead of the event, not after it.",
+          "synonyms": [
+            "prudence",
+            "anticipation",
+            "foreknowledge"
+          ],
+          "antonyms": [
+            "hindsight",
+            "shortsightedness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-reminiscent",
+          "word": "reminiscent",
+          "partOfSpeech": "adjective",
+          "definition": "Bringing to mind something from the past because of a close similarity.",
+          "example": "The smell of the bakery was reminiscent of her grandmother's kitchen.",
+          "mnemonic": "Cousin of 'reminisce' — it tugs you back toward old memories.",
+          "synonyms": [
+            "evocative",
+            "suggestive"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-venerable",
+          "word": "venerable",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving great respect because of age, wisdom, or long service.",
+          "example": "The venerable professor had taught at the university for over fifty years.",
+          "mnemonic": "Root of 'venerate' (to worship) — someone worthy of veneration.",
+          "synonyms": [
+            "respected",
+            "esteemed",
+            "revered"
+          ],
+          "antonyms": [
+            "disreputable",
+            "dishonorable"
+          ]
+        },
+        {
+          "id": "sat-uphold",
+          "word": "uphold",
+          "partOfSpeech": "verb",
+          "definition": "To support or maintain a law, decision, or principle so it continues.",
+          "example": "The higher court chose to uphold the original verdict.",
+          "mnemonic": "up + hold: hold something up so it doesn't collapse or fall.",
+          "synonyms": [
+            "support",
+            "maintain",
+            "sustain"
+          ],
+          "antonyms": [
+            "overturn",
+            "abolish",
+            "reject"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-indict",
+          "word": "indict",
+          "partOfSpeech": "verb",
+          "definition": "To formally accuse someone of committing a serious crime.",
+          "example": "A grand jury voted to indict the executive on charges of fraud.",
+          "mnemonic": "Say it 'in-DITE' — you write someone 'in' to a criminal charge.",
+          "synonyms": [
+            "charge",
+            "accuse",
+            "arraign"
+          ],
+          "antonyms": [
+            "acquit",
+            "exonerate",
+            "absolve"
+          ]
+        },
+        {
+          "id": "sat-adduce",
+          "word": "adduce",
+          "partOfSpeech": "verb",
+          "definition": "To offer facts or reasons as proof to support an argument.",
+          "example": "The lawyer adduced several documents to prove her client's innocence.",
+          "mnemonic": "ad- (toward) + -duce (to lead, as in 'produce'): lead facts toward your point.",
+          "synonyms": [
+            "cite",
+            "present",
+            "offer"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-fortify",
+          "word": "fortify",
+          "partOfSpeech": "verb",
+          "definition": "To make something stronger or better able to resist attack.",
+          "example": "Soldiers worked through the night to fortify the town's walls.",
+          "mnemonic": "Hear 'fort' inside it — turn a place into a sturdy fort.",
+          "synonyms": [
+            "strengthen",
+            "reinforce",
+            "bolster"
+          ],
+          "antonyms": [
+            "weaken",
+            "undermine"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-rhetorical",
+          "word": "rhetorical",
+          "partOfSpeech": "adjective",
+          "definition": "Concerned with using language for persuasive or striking effect rather than genuine meaning.",
+          "example": "Her rhetorical question hung in the air, and no one was expected to answer it.",
+          "mnemonic": "Sounds like 'rhetor' — the ancient Greek public speaker trained to sway a crowd with words.",
+          "synonyms": [
+            "oratorical",
+            "persuasive",
+            "grandiloquent"
+          ],
+          "antonyms": [
+            "plain",
+            "literal",
+            "straightforward"
+          ]
+        },
+        {
+          "id": "sat-lampoon",
+          "word": "lampoon",
+          "partOfSpeech": "verb",
+          "definition": "To publicly ridicule a person using humor, mockery, or biting satire.",
+          "example": "The cartoonist lampooned the mayor, drawing him as a bumbling clown tripping over his own promises.",
+          "mnemonic": "Sounds like 'harpoon' — a satirist harpoons a public figure with sharp jokes.",
+          "synonyms": [
+            "satirize",
+            "mock",
+            "ridicule"
+          ],
+          "antonyms": [
+            "praise",
+            "flatter",
+            "honor"
+          ]
+        },
+        {
+          "id": "sat-undertone",
+          "word": "undertone",
+          "partOfSpeech": "noun",
+          "definition": "A subtle, underlying quality, feeling, or meaning hidden beneath the surface.",
+          "example": "There was an undertone of anger in his calm, carefully measured reply.",
+          "mnemonic": "under + tone — a tone running underneath whatever is openly being said.",
+          "synonyms": [
+            "hint",
+            "trace",
+            "nuance"
+          ],
+          "antonyms": [
+            "overtness",
+            "explicitness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-register",
+          "word": "register",
+          "partOfSpeech": "noun",
+          "definition": "The level of formality in language chosen to suit a particular situation or audience.",
+          "example": "She shifted into a formal register the moment the job interview began.",
+          "mnemonic": "A cash register picks the exact amount; a language register picks the exact level of formality.",
+          "synonyms": [
+            "style",
+            "tone",
+            "level"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-diction",
+          "word": "diction",
+          "partOfSpeech": "noun",
+          "definition": "A speaker or writer's particular choice and arrangement of words and phrases.",
+          "example": "The poet's precise diction made every single line feel carefully deliberate.",
+          "mnemonic": "Shares its root with 'dictionary' (Latin dicere, to say) — it's about which words you pick to say.",
+          "synonyms": [
+            "word choice",
+            "phrasing",
+            "wording"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-residue",
+          "word": "residue",
+          "partOfSpeech": "noun",
+          "definition": "A small amount of something that stays behind after the main part is gone.",
+          "example": "A sticky residue coated the pan after all the syrup had boiled away.",
+          "mnemonic": "re- (back) + 'sit' (settle) — what settles back and lingers behind.",
+          "synonyms": [
+            "remnant",
+            "remains",
+            "leftover"
+          ],
+          "antonyms": [
+            "whole",
+            "entirety"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-predecessor",
+          "word": "predecessor",
+          "partOfSpeech": "noun",
+          "definition": "A person who held a job or position before someone else took it over.",
+          "example": "The new principal continued the reforms her predecessor had begun years earlier.",
+          "mnemonic": "pre- (before) + '-cessor' (goer) — the one who goes before you into the role.",
+          "synonyms": [
+            "forerunner",
+            "precursor",
+            "antecedent"
+          ],
+          "antonyms": [
+            "successor",
+            "heir"
+          ]
+        },
+        {
+          "id": "sat-remembrance",
+          "word": "remembrance",
+          "partOfSpeech": "noun",
+          "definition": "The act of holding a person or event in the mind, often to honor them.",
+          "example": "They planted an oak tree in remembrance of the soldiers who never came home.",
+          "mnemonic": "Hidden inside is 'member' — reassembling the members, or pieces, of the past in your mind.",
+          "synonyms": [
+            "memorial",
+            "commemoration",
+            "memory"
+          ],
+          "antonyms": [
+            "oblivion",
+            "forgetfulness"
+          ]
+        },
+        {
+          "id": "sat-elegy",
+          "word": "elegy",
+          "partOfSpeech": "noun",
+          "definition": "A sorrowful poem or song written to mourn someone who has died.",
+          "example": "The composer wrote an elegy for his late mentor, every note heavy with grief.",
+          "mnemonic": "From Greek 'elegos', a mournful song — picture a lone violin ('e-LEG-y') playing beside a grave.",
+          "synonyms": [
+            "lament",
+            "dirge",
+            "requiem"
+          ],
+          "antonyms": [
+            "ode",
+            "paean"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-lament",
+          "word": "lament",
+          "partOfSpeech": "verb",
+          "definition": "To express deep sorrow, grief, or regret about something openly.",
+          "example": "The farmers lamented the drought that had withered their crops for a second year.",
+          "mnemonic": "Sounds like 'la-moan' — a long, drawn-out moan of sorrow.",
+          "synonyms": [
+            "mourn",
+            "grieve",
+            "bewail"
+          ],
+          "antonyms": [
+            "rejoice",
+            "celebrate"
+          ]
+        },
+        {
+          "id": "sat-undercut",
+          "word": "undercut",
+          "partOfSpeech": "verb",
+          "definition": "To weaken something or make it less effective, often quietly or indirectly.",
+          "example": "His sarcastic tone completely undercut the sincerity of the apology he was offering.",
+          "mnemonic": "under + cut — to cut the ground out from beneath something, weakening it.",
+          "synonyms": [
+            "undermine",
+            "weaken",
+            "sabotage"
+          ],
+          "antonyms": [
+            "strengthen",
+            "reinforce",
+            "bolster"
+          ]
+        },
+        {
+          "id": "sat-foreground",
+          "word": "foreground",
+          "partOfSpeech": "verb",
+          "definition": "To bring something to the front so it receives the most attention.",
+          "example": "The essay foregrounds the voices of women that traditional history usually ignores.",
+          "mnemonic": "fore (front) + ground — the patch of ground nearest the viewer, the part you notice first.",
+          "synonyms": [
+            "emphasize",
+            "highlight",
+            "spotlight"
+          ],
+          "antonyms": [
+            "background",
+            "downplay",
+            "obscure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-caricature",
+          "word": "caricature",
+          "partOfSpeech": "noun",
+          "definition": "A picture or description that exaggerates someone's features for comic or mocking effect.",
+          "example": "The street artist drew a caricature of the tourist with an enormous nose and tiny body.",
+          "mnemonic": "From Italian 'caricare', to load — a face loaded up with exaggerated features.",
+          "synonyms": [
+            "parody",
+            "cartoon",
+            "lampoon"
+          ],
+          "antonyms": [
+            "portrait",
+            "likeness"
+          ]
+        },
+        {
+          "id": "sat-overstate",
+          "word": "overstate",
+          "partOfSpeech": "verb",
+          "definition": "To describe something as larger, better, or worse than it truly is.",
+          "example": "He overstated his role, claiming he had run a project he had merely joined late.",
+          "mnemonic": "over + state — to state something over the top, pushing it beyond the truth.",
+          "synonyms": [
+            "exaggerate",
+            "inflate",
+            "embellish"
+          ],
+          "antonyms": [
+            "understate",
+            "minimize",
+            "downplay"
+          ]
+        },
+        {
+          "id": "sat-understate",
+          "word": "understate",
+          "partOfSpeech": "verb",
+          "definition": "To describe something as smaller or less important than it actually is.",
+          "example": "Calling the hurricane 'a bit of wind,' she badly understated the danger heading their way.",
+          "mnemonic": "under + state — to state something under the truth, deliberately playing it down.",
+          "synonyms": [
+            "downplay",
+            "minimize",
+            "play down"
+          ],
+          "antonyms": [
+            "exaggerate",
+            "overstate",
+            "inflate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-pedantic",
+          "word": "pedantic",
+          "partOfSpeech": "adjective",
+          "definition": "Overly concerned with tiny rules and formal details, often to flaunt one's own learning.",
+          "example": "Her pedantic supervisor returned the report twice over a single misplaced comma.",
+          "mnemonic": "Sounds like 'pedal antics' — picture a fussy instructor making a scene over exactly which foot-pedal you touched.",
+          "synonyms": [
+            "nitpicky",
+            "fussy",
+            "hairsplitting"
+          ],
+          "antonyms": [
+            "easygoing",
+            "casual"
+          ]
+        },
+        {
+          "id": "sat-poignant",
+          "word": "poignant",
+          "partOfSpeech": "adjective",
+          "definition": "Deeply affecting the emotions, especially stirring sadness or a bittersweet ache.",
+          "example": "The old soldier's poignant letter to his late wife left the whole room in tears.",
+          "mnemonic": "From Latin 'pungere' (to prick), the root of 'puncture' — such a moment pricks your heart like a pin.",
+          "synonyms": [
+            "touching",
+            "moving",
+            "heartrending"
+          ],
+          "antonyms": [
+            "unemotional",
+            "unmoving"
+          ]
+        },
+        {
+          "id": "sat-evocative",
+          "word": "evocative",
+          "partOfSpeech": "adjective",
+          "definition": "Bringing strong images, memories, or feelings vividly to mind.",
+          "example": "The evocative smell of woodsmoke instantly carried her back to childhood campfires.",
+          "mnemonic": "Break it into 'e-' (out) + 'voc' (voice), as in 'vocal' — it calls old memories out of you.",
+          "synonyms": [
+            "reminiscent",
+            "suggestive",
+            "redolent"
+          ],
+          "antonyms": [
+            "unmemorable",
+            "bland"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:33:19.490Z"
+}

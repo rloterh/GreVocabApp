@@ -1,0 +1,1178 @@
+{
+  "track": "sat",
+  "ordinal": 19,
+  "title": "Work and ambition",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-assiduous",
+          "word": "assiduous",
+          "partOfSpeech": "adjective",
+          "definition": "Showing great care and steady, constant effort over a long period of time.",
+          "example": "The assiduous intern arrived early each day and double-checked every figure before the meeting.",
+          "mnemonic": "From Latin 'assidēre,' to sit down to — picture someone always sitting at the desk, working: 'a-SIT-uous.'",
+          "synonyms": [
+            "diligent",
+            "industrious",
+            "sedulous"
+          ],
+          "antonyms": [
+            "lazy",
+            "negligent"
+          ]
+        },
+        {
+          "id": "sat-slothful",
+          "word": "slothful",
+          "partOfSpeech": "adjective",
+          "definition": "Unwilling to work or exert energy; habitually inactive and idle.",
+          "example": "So slothful was he that the lawn went uncut for the entire summer.",
+          "mnemonic": "Think of the sloth, the animal so slow it barely stirs from its branch.",
+          "synonyms": [
+            "lazy",
+            "indolent",
+            "idle"
+          ],
+          "antonyms": [
+            "industrious",
+            "energetic"
+          ]
+        },
+        {
+          "id": "sat-lethargic",
+          "word": "lethargic",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling drowsy, sluggish, and drained of energy or enthusiasm.",
+          "example": "After the heavy lunch, the whole office grew lethargic and struggled to focus.",
+          "mnemonic": "'Leth' echoes Lethe, the mythical river whose waters made souls forget and grow drowsy.",
+          "synonyms": [
+            "sluggish",
+            "listless",
+            "torpid"
+          ],
+          "antonyms": [
+            "energetic",
+            "lively",
+            "alert"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-relentless",
+          "word": "relentless",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing without pause or mercy; refusing to ease off or give up.",
+          "example": "The relentless rain battered the coast for three days without a single break.",
+          "mnemonic": "Someone who never 'relents' — 'relent-less' means less letting up, ever.",
+          "synonyms": [
+            "unrelenting",
+            "persistent",
+            "unremitting"
+          ],
+          "antonyms": [
+            "merciful",
+            "yielding",
+            "sporadic"
+          ]
+        },
+        {
+          "id": "sat-aspire",
+          "word": "aspire",
+          "partOfSpeech": "verb",
+          "definition": "To have a strong desire to reach a high goal or achievement.",
+          "example": "She aspired to become the first doctor in her family.",
+          "mnemonic": "Hear 'a spire' — you reach upward toward a tall church spire, aiming high.",
+          "synonyms": [
+            "aim",
+            "seek",
+            "yearn"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-aspiration",
+          "word": "aspiration",
+          "partOfSpeech": "noun",
+          "definition": "A strong hope or ambition to accomplish a significant goal.",
+          "example": "Her lifelong aspiration was to sail solo around the world.",
+          "mnemonic": "Contains 'a spire' — a hope pointed high, like a spire reaching toward the sky.",
+          "synonyms": [
+            "ambition",
+            "goal",
+            "dream"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-ambitious",
+          "word": "ambitious",
+          "partOfSpeech": "adjective",
+          "definition": "Having a strong drive to succeed, gain power, or reach high goals.",
+          "example": "The ambitious young lawyer set her sights on becoming a partner within five years.",
+          "mnemonic": "Hides 'bit' — but such a person never wants just a little bit; they want it all.",
+          "synonyms": [
+            "driven",
+            "aspiring",
+            "determined"
+          ],
+          "antonyms": [
+            "unambitious",
+            "apathetic",
+            "content"
+          ]
+        },
+        {
+          "id": "sat-enterprising",
+          "word": "enterprising",
+          "partOfSpeech": "adjective",
+          "definition": "Ready to start new ventures and full of resourceful, energetic ideas.",
+          "example": "The enterprising teenager built a lawn-mowing business across three neighborhoods.",
+          "mnemonic": "Contains 'enterprise' — the trait of someone eager to launch a bold new business.",
+          "synonyms": [
+            "resourceful",
+            "inventive",
+            "go-getting"
+          ],
+          "antonyms": [
+            "unimaginative",
+            "passive"
+          ]
+        },
+        {
+          "id": "sat-initiative",
+          "word": "initiative",
+          "partOfSpeech": "noun",
+          "definition": "The power or willingness to begin and pursue action on one's own.",
+          "example": "Without being asked, she took the initiative and reorganized the entire filing system.",
+          "mnemonic": "Begins with 'init,' like 'initial' — being the first to start something.",
+          "synonyms": [
+            "enterprise",
+            "drive",
+            "resourcefulness"
+          ],
+          "antonyms": [
+            "passivity",
+            "apathy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-vocation",
+          "word": "vocation",
+          "partOfSpeech": "noun",
+          "definition": "A career or occupation that someone feels strongly called to pursue.",
+          "example": "Teaching was less a job than a vocation for her, a true calling.",
+          "mnemonic": "Shares a root with 'voice' (Latin 'vocare,' to call) — a calling that calls to you.",
+          "synonyms": [
+            "calling",
+            "career",
+            "occupation"
+          ],
+          "antonyms": [
+            "hobby",
+            "pastime"
+          ]
+        },
+        {
+          "id": "sat-toil",
+          "word": "toil",
+          "partOfSpeech": "noun",
+          "definition": "Long, hard, and tiring physical or mental work.",
+          "example": "After a day of toil in the fields, the farmers slept deeply.",
+          "mnemonic": "Rhymes with 'boil' — you sweat and boil from exhausting labor.",
+          "synonyms": [
+            "labor",
+            "drudgery",
+            "grind"
+          ],
+          "antonyms": [
+            "leisure",
+            "rest",
+            "idleness"
+          ]
+        },
+        {
+          "id": "sat-exertion",
+          "word": "exertion",
+          "partOfSpeech": "noun",
+          "definition": "The use of much physical or mental energy to accomplish something.",
+          "example": "Climbing the steep trail took such exertion that his legs trembled at the top.",
+          "mnemonic": "Contains 'exert' — you exert force, pushing hard with all your energy.",
+          "synonyms": [
+            "effort",
+            "labor",
+            "strain"
+          ],
+          "antonyms": [
+            "rest",
+            "relaxation",
+            "ease"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-endeavor",
+          "word": "endeavor",
+          "partOfSpeech": "verb",
+          "definition": "To make a serious and determined attempt to achieve something.",
+          "example": "The team endeavored to finish the bridge before the winter storms arrived.",
+          "mnemonic": "Sounds like 'end' + 'favor' — you push hard so things end in your favor.",
+          "synonyms": [
+            "strive",
+            "attempt",
+            "try"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-strive",
+          "word": "strive",
+          "partOfSpeech": "verb",
+          "definition": "To make great efforts to achieve or obtain something difficult.",
+          "example": "Even after three failed attempts, she continued to strive for a perfect score on the exam.",
+          "mnemonic": "Sounds like 'drive' — you strive when you have the inner drive to push hard toward a goal.",
+          "synonyms": [
+            "endeavor",
+            "struggle",
+            "toil"
+          ],
+          "antonyms": [
+            "idle",
+            "neglect"
+          ]
+        },
+        {
+          "id": "sat-persevere",
+          "word": "persevere",
+          "partOfSpeech": "verb",
+          "definition": "To keep trying and not give up despite obstacles or discouragement.",
+          "example": "Though the experiment failed twenty times, she persevered until it finally worked.",
+          "mnemonic": "'Per' (through) + 'severe' — push through severe hardship without quitting.",
+          "synonyms": [
+            "persist",
+            "endure",
+            "continue"
+          ],
+          "antonyms": [
+            "quit",
+            "surrender",
+            "give up"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-perseverance",
+          "word": "perseverance",
+          "partOfSpeech": "noun",
+          "definition": "The steady refusal to give up on a goal despite difficulty, failure, or delay.",
+          "example": "Her perseverance carried her through four failed attempts before the experiment finally worked.",
+          "mnemonic": "Break it up: 'persevere' hides 'severe' — you keep going even when things get severe.",
+          "synonyms": [
+            "persistence",
+            "tenacity",
+            "determination"
+          ],
+          "antonyms": [
+            "surrender",
+            "quitting"
+          ]
+        },
+        {
+          "id": "sat-productivity",
+          "word": "productivity",
+          "partOfSpeech": "noun",
+          "definition": "The rate at which useful work or output gets done in a given amount of time.",
+          "example": "After switching off notifications, his productivity jumped and he cleared the whole backlog by noon.",
+          "mnemonic": "Root 'produce' + '-tivity' — how much stuff you can produce in an hour.",
+          "synonyms": [
+            "output",
+            "efficiency",
+            "yield"
+          ],
+          "antonyms": [
+            "idleness",
+            "inefficiency"
+          ]
+        },
+        {
+          "id": "sat-efficient",
+          "word": "efficient",
+          "partOfSpeech": "adjective",
+          "definition": "Achieving a result with little wasted effort, time, or resources.",
+          "example": "The new engine is so efficient that it travels twice as far on the same tank of fuel.",
+          "mnemonic": "Sounds like 'a fish went' — a fish glides through water wasting no motion.",
+          "synonyms": [
+            "streamlined",
+            "economical",
+            "effective"
+          ],
+          "antonyms": [
+            "wasteful",
+            "inefficient"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-competent",
+          "word": "competent",
+          "partOfSpeech": "adjective",
+          "definition": "Having the skill and knowledge needed to do something to an acceptable standard.",
+          "example": "You want a competent electrician for this job, not someone guessing at the wiring.",
+          "mnemonic": "'Compete' + 'ent' — you're skilled enough to actually compete for the job.",
+          "synonyms": [
+            "capable",
+            "qualified",
+            "able"
+          ],
+          "antonyms": [
+            "incompetent",
+            "unqualified"
+          ]
+        },
+        {
+          "id": "sat-adept",
+          "word": "adept",
+          "partOfSpeech": "adjective",
+          "definition": "Highly skilled at a particular activity through practice or natural talent.",
+          "example": "She is remarkably adept at defusing arguments before they turn into shouting matches.",
+          "mnemonic": "'A' + 'dept' — go to any department and this person is the expert there.",
+          "synonyms": [
+            "skilled",
+            "deft",
+            "accomplished"
+          ],
+          "antonyms": [
+            "clumsy",
+            "inept"
+          ]
+        },
+        {
+          "id": "sat-proficient",
+          "word": "proficient",
+          "partOfSpeech": "adjective",
+          "definition": "Well practiced and reliably good at a skill, though not necessarily a master.",
+          "example": "Two years of lessons left him proficient enough to hold a conversation in Japanese.",
+          "mnemonic": "'Pro' + 'efficient' — a pro who does the task efficiently every time.",
+          "synonyms": [
+            "skilled",
+            "capable",
+            "accomplished"
+          ],
+          "antonyms": [
+            "incompetent",
+            "unskilled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-expertise",
+          "word": "expertise",
+          "partOfSpeech": "noun",
+          "definition": "Deep specialized knowledge or skill gained from long experience in a field.",
+          "example": "When the bridge cracked, the city called in an engineer whose expertise was structural failure.",
+          "mnemonic": "'Expert' + '-ise' — literally the state of being an expert.",
+          "synonyms": [
+            "proficiency",
+            "know-how",
+            "mastery"
+          ],
+          "antonyms": [
+            "ignorance",
+            "inexperience"
+          ]
+        },
+        {
+          "id": "sat-mastery",
+          "word": "mastery",
+          "partOfSpeech": "noun",
+          "definition": "Complete command of a subject or skill, at the highest level of ability.",
+          "example": "His mastery of the violin was obvious the moment his bow touched the strings.",
+          "mnemonic": "A 'master' craftsman has it — '-y' turns master into the thing they possess.",
+          "synonyms": [
+            "command",
+            "expertise",
+            "proficiency"
+          ],
+          "antonyms": [
+            "incompetence",
+            "ignorance"
+          ]
+        },
+        {
+          "id": "sat-accomplished",
+          "word": "accomplished",
+          "partOfSpeech": "adjective",
+          "definition": "Highly skilled and successful, having reached an impressive level in some pursuit.",
+          "example": "By thirty she was an accomplished pianist who had toured three continents.",
+          "mnemonic": "Contains 'accomplish' — you've clearly accomplished a lot to earn the label.",
+          "synonyms": [
+            "skilled",
+            "expert",
+            "talented"
+          ],
+          "antonyms": [
+            "amateur",
+            "unskilled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-conscientious",
+          "word": "conscientious",
+          "partOfSpeech": "adjective",
+          "definition": "Careful to do tasks correctly and to fulfill duties honestly and responsibly.",
+          "example": "A conscientious nurse, she double-checked every dosage before it reached a patient.",
+          "mnemonic": "Hear 'conscience' inside it — your conscience nags you to do the job right.",
+          "synonyms": [
+            "diligent",
+            "meticulous",
+            "dutiful"
+          ],
+          "antonyms": [
+            "careless",
+            "negligent"
+          ]
+        },
+        {
+          "id": "sat-painstaking",
+          "word": "painstaking",
+          "partOfSpeech": "adjective",
+          "definition": "Done with great care and attention to every small detail.",
+          "example": "Restoring the old painting was painstaking work, one square inch cleaned at a time.",
+          "mnemonic": "'Pains' + 'taking' — you take pains, going to great trouble over details.",
+          "synonyms": [
+            "meticulous",
+            "thorough",
+            "careful"
+          ],
+          "antonyms": [
+            "careless",
+            "slapdash"
+          ]
+        },
+        {
+          "id": "sat-thorough",
+          "word": "thorough",
+          "partOfSpeech": "adjective",
+          "definition": "Complete and careful, leaving out no detail or part of the task.",
+          "example": "The detective gave the room such a thorough search that even the floorboards came up.",
+          "mnemonic": "It goes 'through' everything — spelled like 'through' with an extra 'o'.",
+          "synonyms": [
+            "comprehensive",
+            "meticulous",
+            "exhaustive"
+          ],
+          "antonyms": [
+            "superficial",
+            "cursory"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-exacting",
+          "word": "exacting",
+          "partOfSpeech": "adjective",
+          "definition": "Demanding great care, effort, or precision; hard to satisfy.",
+          "example": "The watchmaker held her apprentices to exacting standards, rejecting any gear a hair off size.",
+          "mnemonic": "From 'exact' — it demands you be exact, down to the tiniest measurement.",
+          "synonyms": [
+            "demanding",
+            "rigorous",
+            "strict"
+          ],
+          "antonyms": [
+            "lenient",
+            "easygoing"
+          ]
+        },
+        {
+          "id": "sat-resourceful",
+          "word": "resourceful",
+          "partOfSpeech": "adjective",
+          "definition": "Clever at finding quick, practical ways to solve problems with what is available.",
+          "example": "Stranded with a flat tire and no jack, the resourceful driver used a log and a boulder.",
+          "mnemonic": "'Resource' + 'full' — full of resources, always finding a way out.",
+          "synonyms": [
+            "inventive",
+            "ingenious",
+            "enterprising"
+          ],
+          "antonyms": [
+            "helpless",
+            "unimaginative"
+          ]
+        },
+        {
+          "id": "sat-devoted",
+          "word": "devoted",
+          "partOfSpeech": "adjective",
+          "definition": "Deeply loyal and committed to a person, cause, or activity.",
+          "example": "A devoted fan, he has attended every home game for the past twenty seasons.",
+          "mnemonic": "From 'vow' — someone devoted has taken a vow and sticks to it.",
+          "synonyms": [
+            "dedicated",
+            "loyal",
+            "committed"
+          ],
+          "antonyms": [
+            "indifferent",
+            "disloyal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-dedicated",
+          "word": "dedicated",
+          "partOfSpeech": "adjective",
+          "definition": "Committed and hardworking, giving much time and energy to a cause or purpose.",
+          "example": "The dedicated nurse stayed hours past her shift to comfort frightened patients.",
+          "mnemonic": "From Latin 'dicare', to devote — picture solemnly devoting a monument, pouring all your effort into it.",
+          "synonyms": [
+            "committed",
+            "devoted",
+            "diligent"
+          ],
+          "antonyms": [
+            "apathetic",
+            "indifferent",
+            "lazy"
+          ]
+        },
+        {
+          "id": "sat-perfunctory",
+          "word": "perfunctory",
+          "partOfSpeech": "adjective",
+          "definition": "Done as a routine duty, without real interest, care, or effort.",
+          "example": "He gave the report a perfunctory glance and signed it without reading a word.",
+          "mnemonic": "'Perform' + 'functory' → just going through the functions and motions, nothing more.",
+          "synonyms": [
+            "cursory",
+            "superficial",
+            "mechanical"
+          ],
+          "antonyms": [
+            "thorough",
+            "careful",
+            "diligent"
+          ]
+        },
+        {
+          "id": "sat-cursory",
+          "word": "cursory",
+          "partOfSpeech": "adjective",
+          "definition": "Hasty and shallow, not paying attention to detail.",
+          "example": "A cursory glance at the contract missed the clause that later cost her thousands.",
+          "mnemonic": "Sounds like 'cursor' — your mouse cursor zips quickly across the screen, only skimming the surface.",
+          "synonyms": [
+            "hasty",
+            "superficial",
+            "quick"
+          ],
+          "antonyms": [
+            "thorough",
+            "detailed",
+            "meticulous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-negligent",
+          "word": "negligent",
+          "partOfSpeech": "adjective",
+          "definition": "Failing to give proper care or attention to something one is responsible for.",
+          "example": "The negligent landlord ignored the broken smoke alarm for months.",
+          "mnemonic": "Hidden inside is 'neglect' — to neglect is to leave undone what you should do.",
+          "synonyms": [
+            "careless",
+            "remiss",
+            "lax"
+          ],
+          "antonyms": [
+            "careful",
+            "attentive",
+            "conscientious"
+          ]
+        },
+        {
+          "id": "sat-remiss",
+          "word": "remiss",
+          "partOfSpeech": "adjective",
+          "definition": "Careless about a duty; failing to do what should be done.",
+          "example": "I would be remiss if I didn't thank the volunteers who made tonight possible.",
+          "mnemonic": "'Re-MISS' — you keep missing your responsibilities again and again.",
+          "synonyms": [
+            "negligent",
+            "careless",
+            "lax"
+          ],
+          "antonyms": [
+            "diligent",
+            "attentive",
+            "scrupulous"
+          ]
+        },
+        {
+          "id": "sat-idle",
+          "word": "idle",
+          "partOfSpeech": "adjective",
+          "definition": "Not working or being used; spending time doing nothing.",
+          "example": "With the factory closed, the machines sat idle and the workers waited for news.",
+          "mnemonic": "Sounds like 'idol' — a statue idol just stands there, unmoving and unused.",
+          "synonyms": [
+            "inactive",
+            "unoccupied",
+            "dormant"
+          ],
+          "antonyms": [
+            "busy",
+            "active",
+            "occupied"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-listless",
+          "word": "listless",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking energy, enthusiasm, or the will to do anything.",
+          "example": "Feverish and listless, the child pushed away even her favorite toys.",
+          "mnemonic": "'List-less' — no list of things you feel like doing; no desire, no spark.",
+          "synonyms": [
+            "lethargic",
+            "languid",
+            "apathetic"
+          ],
+          "antonyms": [
+            "energetic",
+            "lively",
+            "spirited"
+          ]
+        },
+        {
+          "id": "sat-languid",
+          "word": "languid",
+          "partOfSpeech": "adjective",
+          "definition": "Moving slowly and with little energy; pleasantly relaxed or drooping.",
+          "example": "The languid afternoon heat left everyone sprawled in hammocks, too drowsy to move.",
+          "mnemonic": "Sounds like 'languish' and 'lag' — you lag and droop, slow and heavy.",
+          "synonyms": [
+            "sluggish",
+            "lethargic",
+            "listless"
+          ],
+          "antonyms": [
+            "vigorous",
+            "energetic",
+            "brisk"
+          ]
+        },
+        {
+          "id": "sat-procrastinate",
+          "word": "procrastinate",
+          "partOfSpeech": "verb",
+          "definition": "To keep putting off something that should be done now.",
+          "example": "She procrastinated all week and ended up writing the essay at 3 a.m.",
+          "mnemonic": "Contains Latin 'cras', meaning tomorrow — always saying 'I'll do it tomorrow.'",
+          "synonyms": [
+            "delay",
+            "stall",
+            "postpone"
+          ],
+          "antonyms": [
+            "hasten",
+            "expedite",
+            "act"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-dawdle",
+          "word": "dawdle",
+          "partOfSpeech": "verb",
+          "definition": "To waste time or move so slowly that a task takes far too long.",
+          "example": "Stop dawdling over your cereal or you'll miss the school bus!",
+          "mnemonic": "Sounds like 'doodle' — instead of working you doodle and drift, letting time slip by.",
+          "synonyms": [
+            "dally",
+            "linger",
+            "loiter"
+          ],
+          "antonyms": [
+            "hurry",
+            "rush",
+            "hasten"
+          ]
+        },
+        {
+          "id": "sat-shirk",
+          "word": "shirk",
+          "partOfSpeech": "verb",
+          "definition": "To avoid or neglect a duty, responsibility, or task.",
+          "example": "He shirked the dishes every night, leaving them piled up for his roommate.",
+          "mnemonic": "Rhymes with 'work' — but a shirker shrinks from work instead of doing it.",
+          "synonyms": [
+            "evade",
+            "dodge",
+            "avoid"
+          ],
+          "antonyms": [
+            "fulfill",
+            "embrace",
+            "undertake"
+          ]
+        },
+        {
+          "id": "sat-squander",
+          "word": "squander",
+          "partOfSpeech": "verb",
+          "definition": "To waste money, time, or resources in a careless, foolish way.",
+          "example": "He squandered his inheritance on fast cars and lost bets within a single year.",
+          "mnemonic": "Ends like 'wander' — let your cash wander off aimlessly until it's gone.",
+          "synonyms": [
+            "waste",
+            "fritter",
+            "blow"
+          ],
+          "antonyms": [
+            "save",
+            "conserve",
+            "hoard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-fritter",
+          "word": "fritter",
+          "partOfSpeech": "verb",
+          "definition": "To waste time or money little by little on unimportant things.",
+          "example": "She frittered away the whole morning scrolling aimlessly through her phone.",
+          "mnemonic": "Picture a fried fritter crumbling into little bits — just as you waste time bit by bit.",
+          "synonyms": [
+            "squander",
+            "dissipate",
+            "waste"
+          ],
+          "antonyms": [
+            "save",
+            "conserve",
+            "invest"
+          ]
+        },
+        {
+          "id": "sat-flounder",
+          "word": "flounder",
+          "partOfSpeech": "verb",
+          "definition": "To struggle clumsily or helplessly, unsure of what to do next.",
+          "example": "New to the language, he floundered through the interview, grasping for words.",
+          "mnemonic": "A flounder is a flatfish — picture it flopping helplessly on the deck, struggling to move.",
+          "synonyms": [
+            "struggle",
+            "stumble",
+            "fumble"
+          ],
+          "antonyms": [
+            "thrive",
+            "flourish",
+            "prosper"
+          ]
+        },
+        {
+          "id": "sat-falter",
+          "word": "falter",
+          "partOfSpeech": "verb",
+          "definition": "To hesitate, stumble, or lose strength and confidence in action or speech.",
+          "example": "Her voice faltered as she read the last letter her mother had written.",
+          "mnemonic": "'Fault' + 'alter' — a fault makes your steps alter and waver, almost falling.",
+          "synonyms": [
+            "waver",
+            "hesitate",
+            "stumble"
+          ],
+          "antonyms": [
+            "persevere",
+            "persist",
+            "steady"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-prosper",
+          "word": "prosper",
+          "partOfSpeech": "verb",
+          "definition": "To grow strong, wealthy, or successful over a period of time.",
+          "example": "After years of hard work, the small bakery began to prosper and opened three new locations.",
+          "mnemonic": "Sounds like 'prosperity' — picture a 'pro' who 'spurs' growth until money piles up.",
+          "synonyms": [
+            "thrive",
+            "flourish",
+            "succeed"
+          ],
+          "antonyms": [
+            "fail",
+            "decline",
+            "struggle"
+          ]
+        },
+        {
+          "id": "sat-excel",
+          "word": "excel",
+          "partOfSpeech": "verb",
+          "definition": "To perform far better than others or above the usual standard.",
+          "example": "She always excelled in mathematics, solving problems her classmates found impossible.",
+          "mnemonic": "Hidden inside 'excellent' — to do this is to be excellent at the task.",
+          "synonyms": [
+            "shine",
+            "dominate",
+            "outperform"
+          ],
+          "antonyms": [
+            "fail",
+            "flounder",
+            "lag"
+          ]
+        },
+        {
+          "id": "sat-surpass",
+          "word": "surpass",
+          "partOfSpeech": "verb",
+          "definition": "To be greater than, or go beyond, a limit, rival, or expectation.",
+          "example": "The new phone's sales surpassed every forecast the company had made.",
+          "mnemonic": "'Sur-' means over (as in surplus) plus 'pass' — to pass right over and beyond.",
+          "synonyms": [
+            "exceed",
+            "outdo",
+            "eclipse"
+          ],
+          "antonyms": [
+            "trail",
+            "lag",
+            "fall short"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-outstrip",
+          "word": "outstrip",
+          "partOfSpeech": "verb",
+          "definition": "To leave behind or exceed by moving faster or growing greater.",
+          "example": "Demand for the vaccine quickly outstripped the available supply.",
+          "mnemonic": "'Out' + 'strip' — imagine running so fast you strip past everyone on the track.",
+          "synonyms": [
+            "outpace",
+            "overtake",
+            "exceed"
+          ],
+          "antonyms": [
+            "lag",
+            "trail",
+            "fall behind"
+          ]
+        },
+        {
+          "id": "sat-eclipse",
+          "word": "eclipse",
+          "partOfSpeech": "verb",
+          "definition": "To make something seem far less important by being much more impressive.",
+          "example": "Her groundbreaking discovery eclipsed all the work done before her.",
+          "mnemonic": "Like a solar eclipse, the moon blots out the sun — one thing overshadows another.",
+          "synonyms": [
+            "overshadow",
+            "outshine",
+            "surpass"
+          ],
+          "antonyms": [
+            "trail",
+            "underperform",
+            "highlight"
+          ]
+        },
+        {
+          "id": "sat-attain",
+          "word": "attain",
+          "partOfSpeech": "verb",
+          "definition": "To reach or gain something through sustained effort.",
+          "example": "After months of training, he finally attained his black belt in judo.",
+          "mnemonic": "'A-tain' sounds like 'a train' pulling into its station — you arrive at your goal.",
+          "synonyms": [
+            "achieve",
+            "reach",
+            "accomplish"
+          ],
+          "antonyms": [
+            "lose",
+            "forfeit",
+            "miss"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-fulfill",
+          "word": "fulfill",
+          "partOfSpeech": "verb",
+          "definition": "To carry out, complete, or satisfy a duty, promise, or need.",
+          "example": "The company fulfilled its promise to plant a tree for every order placed.",
+          "mnemonic": "'Full' + 'fill' — you fill the obligation completely full, satisfying it.",
+          "synonyms": [
+            "satisfy",
+            "complete",
+            "honor"
+          ],
+          "antonyms": [
+            "neglect",
+            "abandon",
+            "fail"
+          ]
+        },
+        {
+          "id": "sat-consummate",
+          "word": "consummate",
+          "partOfSpeech": "verb",
+          "definition": "To complete or bring to a perfect, final finish.",
+          "example": "They consummated the merger with a handshake and a signed contract.",
+          "mnemonic": "'Con-' + 'summate' (sum) — you sum everything up and seal the deal.",
+          "synonyms": [
+            "complete",
+            "finalize",
+            "accomplish"
+          ],
+          "antonyms": [
+            "begin",
+            "start",
+            "abandon"
+          ]
+        },
+        {
+          "id": "sat-garner",
+          "word": "garner",
+          "partOfSpeech": "verb",
+          "definition": "To gather or collect something, especially support, praise, or information.",
+          "example": "The film garnered widespread acclaim at the festival.",
+          "mnemonic": "Echoes 'granary' — a barn where you gather and store the harvested grain.",
+          "synonyms": [
+            "gather",
+            "collect",
+            "accumulate"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse",
+            "lose"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-amass",
+          "word": "amass",
+          "partOfSpeech": "verb",
+          "definition": "To gather together a large quantity of something over time.",
+          "example": "Over decades, the collector amassed thousands of rare stamps.",
+          "mnemonic": "'A' + 'mass' — you build up a huge mass of stuff into one heap.",
+          "synonyms": [
+            "accumulate",
+            "gather",
+            "hoard"
+          ],
+          "antonyms": [
+            "disperse",
+            "scatter",
+            "squander"
+          ]
+        },
+        {
+          "id": "sat-arduous",
+          "word": "arduous",
+          "partOfSpeech": "adjective",
+          "definition": "Requiring great effort and hard to endure.",
+          "example": "The arduous climb up the mountain left the hikers utterly exhausted.",
+          "mnemonic": "'Ard' rhymes with 'hard' — an arduous job is punishingly hard.",
+          "synonyms": [
+            "strenuous",
+            "grueling",
+            "taxing"
+          ],
+          "antonyms": [
+            "easy",
+            "effortless",
+            "simple"
+          ]
+        },
+        {
+          "id": "sat-laborious",
+          "word": "laborious",
+          "partOfSpeech": "adjective",
+          "definition": "Needing a lot of time and painstaking effort to complete.",
+          "example": "Copying the entire manuscript by hand was a laborious process that took months.",
+          "mnemonic": "Contains 'labor' — this kind of work demands heavy, sweaty labor.",
+          "synonyms": [
+            "tedious",
+            "painstaking",
+            "toilsome"
+          ],
+          "antonyms": [
+            "easy",
+            "effortless",
+            "quick"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-tireless",
+          "word": "tireless",
+          "partOfSpeech": "adjective",
+          "definition": "Working with great energy for a long time without becoming weary.",
+          "example": "The nurse was tireless, taking double shifts throughout the whole crisis.",
+          "mnemonic": "'Tire' + 'less' — someone with less capacity to grow weary, always going.",
+          "synonyms": [
+            "indefatigable",
+            "energetic",
+            "unflagging"
+          ],
+          "antonyms": [
+            "lazy",
+            "weary",
+            "lethargic"
+          ]
+        },
+        {
+          "id": "sat-aptitude",
+          "word": "aptitude",
+          "partOfSpeech": "noun",
+          "definition": "A natural talent or capacity to learn or do something well.",
+          "example": "Her aptitude for languages let her pick up Spanish in just a few weeks.",
+          "mnemonic": "'Apt' means suited or capable — this is a fittingly natural skill.",
+          "synonyms": [
+            "talent",
+            "knack",
+            "flair"
+          ],
+          "antonyms": [
+            "inability",
+            "ineptitude",
+            "weakness"
+          ]
+        },
+        {
+          "id": "sat-procure",
+          "word": "procure",
+          "partOfSpeech": "verb",
+          "definition": "To obtain something, especially with care, effort, or cunning.",
+          "example": "The chef procured fresh truffles from a specialist supplier in Italy.",
+          "mnemonic": "'Pro-' + 'cure' — a doctor gets hold of the cure by obtaining the right medicine.",
+          "synonyms": [
+            "obtain",
+            "acquire",
+            "secure"
+          ],
+          "antonyms": [
+            "lose",
+            "forfeit",
+            "relinquish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-tenacity",
+          "word": "tenacity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of holding firmly to a goal despite difficulty or opposition.",
+          "example": "Her tenacity kept her training through two injuries until she finally made the Olympic team.",
+          "mnemonic": "Sounds like 'ten-acity' — picture gripping a rope with all ten fingers and refusing to let go.",
+          "synonyms": [
+            "persistence",
+            "determination",
+            "grit"
+          ],
+          "antonyms": [
+            "apathy",
+            "weakness"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:47:10.726Z"
+}

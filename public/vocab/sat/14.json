@@ -1,0 +1,967 @@
+{
+  "track": "sat",
+  "ordinal": 14,
+  "title": "Nature and environment",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-deem",
+          "word": "deem",
+          "partOfSpeech": "verb",
+          "definition": "To regard or judge someone or something in a particular way.",
+          "example": "The referee deemed the tackle dangerous and stopped play immediately.",
+          "mnemonic": "Deem rhymes with 'seem' — you judge how things seem to be.",
+          "synonyms": [
+            "consider",
+            "regard",
+            "judge"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-contest",
+          "word": "contest",
+          "partOfSpeech": "verb",
+          "definition": "To dispute or challenge the validity or fairness of something.",
+          "example": "She decided to contest the will in court after being left out.",
+          "mnemonic": "Con- (against) + test — a test set up against someone's claim.",
+          "synonyms": [
+            "dispute",
+            "challenge",
+            "oppose"
+          ],
+          "antonyms": [
+            "accept",
+            "concede"
+          ]
+        },
+        {
+          "id": "sat-tenor",
+          "word": "tenor",
+          "partOfSpeech": "noun",
+          "definition": "The general sense, character, or direction of something spoken or written.",
+          "example": "One angry email shifted the whole tenor of the meeting.",
+          "mnemonic": "A tenor singer carries the main melody — the overall drift of the song.",
+          "synonyms": [
+            "gist",
+            "drift",
+            "tone"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-irony",
+          "word": "irony",
+          "partOfSpeech": "noun",
+          "definition": "A contrast between what is expected and what actually happens or is meant.",
+          "example": "It was pure irony that the fire station itself burned down.",
+          "mnemonic": "Sounds like 'I-rony' — you say one thing but slyly mean the opposite.",
+          "synonyms": [
+            "incongruity",
+            "paradox"
+          ],
+          "antonyms": [
+            "sincerity"
+          ]
+        },
+        {
+          "id": "sat-satire",
+          "word": "satire",
+          "partOfSpeech": "noun",
+          "definition": "The use of humor or exaggeration to expose and criticize people's faults.",
+          "example": "The magazine's satire mocked politicians by blowing their worst habits out of proportion.",
+          "mnemonic": "Sounds like 'sat-fire' — humor that sets fire to folly.",
+          "synonyms": [
+            "mockery",
+            "lampoon",
+            "ridicule"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-parody",
+          "word": "parody",
+          "partOfSpeech": "noun",
+          "definition": "A humorous imitation of a serious work, exaggerated for comic effect.",
+          "example": "Their song was a parody of the anthem, with silly lyrics about pizza.",
+          "mnemonic": "Parallel + melody = parody — a comic tune running alongside the original.",
+          "synonyms": [
+            "spoof",
+            "send-up",
+            "takeoff"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-wit",
+          "word": "wit",
+          "partOfSpeech": "noun",
+          "definition": "The ability to say clever, amusing things quickly.",
+          "example": "Her sharp wit had the whole table laughing within minutes.",
+          "mnemonic": "Keep your 'wits' about you — a quick, witty spark of cleverness.",
+          "synonyms": [
+            "humor",
+            "cleverness",
+            "repartee"
+          ],
+          "antonyms": [
+            "dullness"
+          ]
+        },
+        {
+          "id": "sat-levity",
+          "word": "levity",
+          "partOfSpeech": "noun",
+          "definition": "Humor or lack of seriousness, especially at an unsuitable moment.",
+          "example": "A touch of levity during the tense negotiation helped everyone relax.",
+          "mnemonic": "Same root as 'levitate' — light-heartedness that lifts the mood.",
+          "synonyms": [
+            "frivolity",
+            "light-heartedness"
+          ],
+          "antonyms": [
+            "gravity",
+            "seriousness",
+            "solemnity"
+          ]
+        },
+        {
+          "id": "sat-measured",
+          "word": "measured",
+          "partOfSpeech": "adjective",
+          "definition": "Careful, controlled, and deliberate in speech or action.",
+          "example": "He gave a slow, measured reply, weighing each word before he spoke.",
+          "mnemonic": "Like using a ruler to measure — every word carefully sized before use.",
+          "synonyms": [
+            "deliberate",
+            "controlled",
+            "calculated"
+          ],
+          "antonyms": [
+            "hasty",
+            "impulsive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-restrained",
+          "word": "restrained",
+          "partOfSpeech": "adjective",
+          "definition": "Controlled, calm, and not showing strong emotion or excess.",
+          "example": "Despite the insult, her response stayed polite and restrained.",
+          "mnemonic": "Held back by 'reins,' like a horse pulled in from bolting.",
+          "synonyms": [
+            "controlled",
+            "reserved",
+            "subdued"
+          ],
+          "antonyms": [
+            "unrestrained",
+            "extravagant",
+            "wild"
+          ]
+        },
+        {
+          "id": "sat-detached",
+          "word": "detached",
+          "partOfSpeech": "adjective",
+          "definition": "Emotionally uninvolved or kept separate from a situation.",
+          "example": "The surgeon stayed detached, handling the emergency calmly and without panic.",
+          "mnemonic": "De- + 'tached' — the attachment tacked off, so you're not stuck in.",
+          "synonyms": [
+            "aloof",
+            "dispassionate",
+            "distant"
+          ],
+          "antonyms": [
+            "involved",
+            "engaged",
+            "attached"
+          ]
+        },
+        {
+          "id": "sat-indifferent",
+          "word": "indifferent",
+          "partOfSpeech": "adjective",
+          "definition": "Having no interest, concern, or preference about something.",
+          "example": "She shrugged, indifferent to whether they ate pizza or pasta.",
+          "mnemonic": "In- (not) + different — it makes no difference to you, so you don't care.",
+          "synonyms": [
+            "unconcerned",
+            "uninterested",
+            "apathetic"
+          ],
+          "antonyms": [
+            "interested",
+            "concerned",
+            "eager"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-apathetic",
+          "word": "apathetic",
+          "partOfSpeech": "adjective",
+          "definition": "Showing no emotion, enthusiasm, or interest at all.",
+          "example": "The apathetic students slumped in their seats, unmoved by the lecture.",
+          "mnemonic": "A- (without) + 'pathos' (feeling) — literally without feeling.",
+          "synonyms": [
+            "indifferent",
+            "unmotivated",
+            "listless"
+          ],
+          "antonyms": [
+            "passionate",
+            "enthusiastic",
+            "caring"
+          ]
+        },
+        {
+          "id": "sat-complacent",
+          "word": "complacent",
+          "partOfSpeech": "adjective",
+          "definition": "Smugly satisfied with oneself and unaware of possible dangers or flaws.",
+          "example": "After one easy win, the team grew complacent and lost the next match.",
+          "mnemonic": "Shares a root with 'please' — so pleased with yourself you stop trying.",
+          "synonyms": [
+            "smug",
+            "self-satisfied"
+          ],
+          "antonyms": [
+            "alert",
+            "dissatisfied",
+            "cautious"
+          ]
+        },
+        {
+          "id": "sat-contemplative",
+          "word": "contemplative",
+          "partOfSpeech": "adjective",
+          "definition": "Deeply thoughtful and inclined to reflect quietly.",
+          "example": "In the still garden she grew contemplative, turning the problem over in her mind.",
+          "mnemonic": "Picture a 'temple' — a quiet place set aside for deep, still thought.",
+          "synonyms": [
+            "reflective",
+            "meditative",
+            "thoughtful"
+          ],
+          "antonyms": [
+            "thoughtless",
+            "impulsive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-pristine",
+          "word": "pristine",
+          "partOfSpeech": "adjective",
+          "definition": "In perfect original condition, clean and untouched by any damage or use.",
+          "example": "The hikers reached a pristine alpine lake, its surface unmarred by a single footprint or wrapper.",
+          "mnemonic": "Sounds like \"prissy-clean\" — a prissy person keeps everything spotless and untouched.",
+          "synonyms": [
+            "immaculate",
+            "unspoiled",
+            "spotless"
+          ],
+          "antonyms": [
+            "dirty",
+            "spoiled",
+            "sullied"
+          ]
+        },
+        {
+          "id": "sat-verdant",
+          "word": "verdant",
+          "partOfSpeech": "adjective",
+          "definition": "Covered with rich green plants or grass; fresh and leafy in color.",
+          "example": "After the spring rains, the once-brown hills turned verdant, blanketed in new grass.",
+          "mnemonic": "\"Verd\" comes from Latin/French *vert* meaning green — think \"Verde\" on a map.",
+          "synonyms": [
+            "green",
+            "grassy",
+            "leafy"
+          ],
+          "antonyms": [
+            "barren",
+            "arid",
+            "brown"
+          ]
+        },
+        {
+          "id": "sat-lush",
+          "word": "lush",
+          "partOfSpeech": "adjective",
+          "definition": "Growing thickly and abundantly; rich in healthy vegetation or luxurious detail.",
+          "example": "Vines and ferns crowded the lush jungle floor, so dense we could barely push through.",
+          "mnemonic": "\"Lush\" rhymes with \"gush\" — plants gush out everywhere, thick and overflowing.",
+          "synonyms": [
+            "luxuriant",
+            "abundant",
+            "dense"
+          ],
+          "antonyms": [
+            "sparse",
+            "barren",
+            "meager"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-barren",
+          "word": "barren",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to produce plants, crops, or offspring; empty and lifeless.",
+          "example": "Nothing grew on the barren plateau, just cracked rock stretching to the horizon.",
+          "mnemonic": "Picture a \"bare\" plain plus \"wren\" that finds no food — bare land, no life.",
+          "synonyms": [
+            "infertile",
+            "desolate",
+            "unproductive"
+          ],
+          "antonyms": [
+            "fertile",
+            "lush",
+            "verdant"
+          ]
+        },
+        {
+          "id": "sat-arid",
+          "word": "arid",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely dry, with too little rainfall to support most plant life.",
+          "example": "The camels crossed the arid stretch for days without finding a single spring.",
+          "mnemonic": "\"Arid\" sounds like \"a rid\" — the land is rid of all water.",
+          "synonyms": [
+            "dry",
+            "parched",
+            "waterless"
+          ],
+          "antonyms": [
+            "humid",
+            "moist",
+            "fertile"
+          ]
+        },
+        {
+          "id": "sat-fertile",
+          "word": "fertile",
+          "partOfSpeech": "adjective",
+          "definition": "Rich enough to support strong growth of crops, plants, or new life.",
+          "example": "Farmers prized the fertile valley soil, where seeds sprouted almost as soon as they were sown.",
+          "mnemonic": "Shares a root with \"fertilizer\" — the stuff that makes soil produce abundantly.",
+          "synonyms": [
+            "fruitful",
+            "productive",
+            "rich"
+          ],
+          "antonyms": [
+            "barren",
+            "arid",
+            "infertile"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-teeming",
+          "word": "teeming",
+          "partOfSpeech": "adjective",
+          "definition": "Full of living things that move about in great, crowded numbers.",
+          "example": "The tide pool was teeming with crabs, snails, and tiny darting fish.",
+          "mnemonic": "Sounds like \"team-ing\" — imagine countless teams of creatures swarming together.",
+          "synonyms": [
+            "swarming",
+            "abounding",
+            "crawling"
+          ],
+          "antonyms": [
+            "empty",
+            "barren",
+            "deserted"
+          ]
+        },
+        {
+          "id": "sat-desolate",
+          "word": "desolate",
+          "partOfSpeech": "adjective",
+          "definition": "Empty, abandoned, and bleak, giving a feeling of loneliness or gloom.",
+          "example": "Wind whistled through the desolate ghost town, where no one had lived for decades.",
+          "mnemonic": "\"De-SOLE-ate\" — the only sole (person) left has gone, leaving it deserted.",
+          "synonyms": [
+            "bleak",
+            "forlorn",
+            "deserted"
+          ],
+          "antonyms": [
+            "bustling",
+            "populous",
+            "cheerful"
+          ]
+        },
+        {
+          "id": "sat-serene",
+          "word": "serene",
+          "partOfSpeech": "adjective",
+          "definition": "Calm, peaceful, and untroubled, without any disturbance or worry.",
+          "example": "A serene smile stayed on her face even as the crowd around her panicked.",
+          "mnemonic": "Sounds like \"see rain\" gently falling on a still pond — utterly calming.",
+          "synonyms": [
+            "calm",
+            "peaceful",
+            "placid"
+          ],
+          "antonyms": [
+            "turbulent",
+            "agitated",
+            "frantic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-tranquil",
+          "word": "tranquil",
+          "partOfSpeech": "adjective",
+          "definition": "Free from noise, motion, or disturbance; deeply quiet and still.",
+          "example": "At dawn the harbor was tranquil, the boats resting on water like glass.",
+          "mnemonic": "Hidden inside is \"tranquilizer\" — a drug that makes you calm and still.",
+          "synonyms": [
+            "peaceful",
+            "calm",
+            "still"
+          ],
+          "antonyms": [
+            "turbulent",
+            "chaotic",
+            "restless"
+          ]
+        },
+        {
+          "id": "sat-turbulent",
+          "word": "turbulent",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by violent, unsteady motion or wild disorder and conflict.",
+          "example": "The raft pitched wildly as it hit the turbulent rapids below the falls.",
+          "mnemonic": "Related to \"turbine\" and \"disturb\" — churning, spinning water that disturbs everything.",
+          "synonyms": [
+            "stormy",
+            "chaotic",
+            "tumultuous"
+          ],
+          "antonyms": [
+            "calm",
+            "serene",
+            "tranquil"
+          ]
+        },
+        {
+          "id": "sat-deplete",
+          "word": "deplete",
+          "partOfSpeech": "verb",
+          "definition": "To use up or reduce a supply until little or nothing remains.",
+          "example": "Weeks of drought had depleted the town's reservoir to a muddy puddle.",
+          "mnemonic": "\"De-\" (down) + \"-plete\" (fill, as in *complete*) — to un-fill, to empty out.",
+          "synonyms": [
+            "exhaust",
+            "drain",
+            "consume"
+          ],
+          "antonyms": [
+            "replenish",
+            "restore",
+            "fill"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-ravage",
+          "word": "ravage",
+          "partOfSpeech": "verb",
+          "definition": "To cause severe, widespread destruction across an area or thing.",
+          "example": "Locusts swept in and ravaged the fields, leaving the farmers with nothing to harvest.",
+          "mnemonic": "Sounds like \"ravage\" = \"savage\" rampage — a savage force tearing everything apart.",
+          "synonyms": [
+            "devastate",
+            "destroy",
+            "wreck"
+          ],
+          "antonyms": [
+            "restore",
+            "rebuild",
+            "preserve"
+          ]
+        },
+        {
+          "id": "sat-despoil",
+          "word": "despoil",
+          "partOfSpeech": "verb",
+          "definition": "To rob a place of its beauty or riches, leaving it damaged.",
+          "example": "Illegal miners despoiled the forest, stripping its trees and poisoning its streams.",
+          "mnemonic": "\"De-\" + \"spoil\" — to thoroughly spoil something by plundering it.",
+          "synonyms": [
+            "plunder",
+            "ransack",
+            "pillage"
+          ],
+          "antonyms": [
+            "preserve",
+            "protect",
+            "enrich"
+          ]
+        },
+        {
+          "id": "sat-contaminate",
+          "word": "contaminate",
+          "partOfSpeech": "verb",
+          "definition": "To make something impure or unsafe by adding harmful or dirty matter.",
+          "example": "A cracked pipe let sewage contaminate the well, and the whole village fell ill.",
+          "mnemonic": "Contains \"contact\" — harmful contact with a taint makes something poisoned.",
+          "synonyms": [
+            "pollute",
+            "taint",
+            "poison"
+          ],
+          "antonyms": [
+            "purify",
+            "cleanse",
+            "decontaminate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-fragile",
+          "word": "fragile",
+          "partOfSpeech": "adjective",
+          "definition": "Easily broken, damaged, or destroyed.",
+          "example": "The 'fragile' sticker warned the movers to handle the box of glassware gently.",
+          "mnemonic": "FRAGILE sounds like 'fracture' — things that fracture at the slightest knock.",
+          "synonyms": [
+            "delicate",
+            "brittle",
+            "breakable"
+          ],
+          "antonyms": [
+            "sturdy",
+            "durable",
+            "robust"
+          ]
+        },
+        {
+          "id": "sat-resilient",
+          "word": "resilient",
+          "partOfSpeech": "adjective",
+          "definition": "Able to recover quickly after hardship, setbacks, or damage.",
+          "example": "After losing the first two games, the resilient team bounced back to win the title.",
+          "mnemonic": "From Latin re- (again) + salire (to jump) — you jump back up again.",
+          "synonyms": [
+            "tough",
+            "hardy",
+            "adaptable"
+          ],
+          "antonyms": [
+            "fragile",
+            "brittle",
+            "vulnerable"
+          ]
+        },
+        {
+          "id": "sat-finite",
+          "word": "finite",
+          "partOfSpeech": "adjective",
+          "definition": "Having set limits or a clear end; not endless.",
+          "example": "We carry only a finite supply of oxygen, so the dive cannot last all day.",
+          "mnemonic": "FINite starts with FIN — French for 'the end' flashed at a movie's close.",
+          "synonyms": [
+            "limited",
+            "bounded",
+            "measurable"
+          ],
+          "antonyms": [
+            "infinite",
+            "endless",
+            "boundless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-cultivate",
+          "word": "cultivate",
+          "partOfSpeech": "verb",
+          "definition": "To foster the growth of plants, skills, or relationships through steady effort.",
+          "example": "She spent years working to cultivate a loyal circle of clients.",
+          "mnemonic": "CULT-ivate: a devoted 'cult' of care tends the soil until culture grows.",
+          "synonyms": [
+            "nurture",
+            "foster",
+            "develop"
+          ],
+          "antonyms": [
+            "neglect",
+            "abandon",
+            "stunt"
+          ]
+        },
+        {
+          "id": "sat-replenish",
+          "word": "replenish",
+          "partOfSpeech": "verb",
+          "definition": "To fill up again or restore a supply that has been used.",
+          "example": "After the long hike, they stopped at a spring to replenish their water bottles.",
+          "mnemonic": "RE- (again) + 'plenish' echoes 'plenty' — make it plenty once more.",
+          "synonyms": [
+            "refill",
+            "restock",
+            "renew"
+          ],
+          "antonyms": [
+            "deplete",
+            "drain",
+            "exhaust"
+          ]
+        },
+        {
+          "id": "sat-connotation",
+          "word": "connotation",
+          "partOfSpeech": "noun",
+          "definition": "The suggested feelings or ideas a word carries beyond its literal sense.",
+          "example": "The word 'home' has a warm connotation that the word 'house' simply lacks.",
+          "mnemonic": "CON (with) + NOTE — the extra emotional notes that travel WITH a word.",
+          "synonyms": [
+            "implication",
+            "undertone",
+            "nuance"
+          ],
+          "antonyms": [
+            "denotation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-subtext",
+          "word": "subtext",
+          "partOfSpeech": "noun",
+          "definition": "An unstated meaning hidden beneath the surface of what is said.",
+          "example": "Her polite reply carried an angry subtext that everyone in the room felt.",
+          "mnemonic": "SUB- (under) + TEXT — the message running underneath the spoken text.",
+          "synonyms": [
+            "undertone",
+            "implication",
+            "undercurrent"
+          ],
+          "antonyms": [
+            "explicit statement"
+          ]
+        },
+        {
+          "id": "sat-stance",
+          "word": "stance",
+          "partOfSpeech": "noun",
+          "definition": "A publicly stated opinion or position on a matter.",
+          "example": "The senator took a firm stance against raising the fuel tax.",
+          "mnemonic": "STANCE is how you STAND — your position is literally where you stand.",
+          "synonyms": [
+            "position",
+            "viewpoint",
+            "attitude"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-cite",
+          "word": "cite",
+          "partOfSpeech": "verb",
+          "definition": "To mention a source or example in order to support a claim.",
+          "example": "In her essay she was careful to cite every study she had drawn on.",
+          "mnemonic": "CITE sounds like 'sight' — you aim your sight at the source you name.",
+          "synonyms": [
+            "quote",
+            "reference",
+            "mention"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-invoke",
+          "word": "invoke",
+          "partOfSpeech": "verb",
+          "definition": "To call upon a power, law, or name for support or effect.",
+          "example": "The lawyer chose to invoke an old statute to defend her client.",
+          "mnemonic": "IN + VOKE (Latin vocare, 'to call') — to call IN a higher voice or power.",
+          "synonyms": [
+            "appeal to",
+            "call on",
+            "summon"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-ponder",
+          "word": "ponder",
+          "partOfSpeech": "verb",
+          "definition": "To think about something carefully and at length.",
+          "example": "He sat by the window to ponder whether he should accept the offer.",
+          "mnemonic": "PONDER shares a root with 'pound' (Latin pondus, weight) — you weigh it in your mind.",
+          "synonyms": [
+            "contemplate",
+            "mull",
+            "reflect"
+          ],
+          "antonyms": [
+            "dismiss",
+            "ignore"
+          ]
+        },
+        {
+          "id": "sat-deliberate",
+          "word": "deliberate",
+          "partOfSpeech": "adjective",
+          "definition": "Done consciously and on purpose after thought; not accidental.",
+          "example": "The pause before her answer was deliberate, timed to build suspense.",
+          "mnemonic": "De-LIBERATE: you free the choice only after weighing it, so it's fully intended.",
+          "synonyms": [
+            "intentional",
+            "purposeful",
+            "calculated"
+          ],
+          "antonyms": [
+            "accidental",
+            "unintentional",
+            "impulsive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-skeptical",
+          "word": "skeptical",
+          "partOfSpeech": "adjective",
+          "definition": "Inclined to doubt or question rather than accept claims at face value.",
+          "example": "She stayed skeptical of the salesman's promise that the pills cured everything.",
+          "mnemonic": "A SKEPTIC squints and asks 'is that really so?' — picture the raised eyebrow.",
+          "synonyms": [
+            "doubtful",
+            "dubious",
+            "unconvinced"
+          ],
+          "antonyms": [
+            "credulous",
+            "trusting",
+            "gullible"
+          ]
+        },
+        {
+          "id": "sat-elegiac",
+          "word": "elegiac",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing sorrow or mourning, especially for what is lost or past.",
+          "example": "The film's elegiac final scene mourned a way of life that had vanished.",
+          "mnemonic": "ELEGIAC grows from 'elegy' — a slow funeral poem of grief.",
+          "synonyms": [
+            "mournful",
+            "sorrowful",
+            "plaintive"
+          ],
+          "antonyms": [
+            "joyful",
+            "cheerful",
+            "celebratory"
+          ]
+        },
+        {
+          "id": "sat-irreverent",
+          "word": "irreverent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing a mocking lack of respect for things others treat as serious.",
+          "example": "His irreverent jokes about the ceremony shocked the older guests.",
+          "mnemonic": "IR- (not) + reverent — the opposite of hushed, respectful reverence.",
+          "synonyms": [
+            "disrespectful",
+            "flippant",
+            "cheeky"
+          ],
+          "antonyms": [
+            "reverent",
+            "respectful",
+            "solemn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-encroach",
+          "word": "encroach",
+          "partOfSpeech": "verb",
+          "definition": "To advance gradually beyond proper limits onto someone else's land, space, or rights.",
+          "example": "As the new fences went up, the developers began to encroach on land the farmers had grazed for generations.",
+          "mnemonic": "Sounds like 'en-ROACH' — picture a cockroach slowly creeping across your counter onto your food, going where it has no right to be.",
+          "synonyms": [
+            "intrude",
+            "trespass",
+            "infringe"
+          ],
+          "antonyms": [
+            "withdraw",
+            "retreat"
+          ]
+        },
+        {
+          "id": "sat-polemical",
+          "word": "polemical",
+          "partOfSpeech": "adjective",
+          "definition": "Fiercely attacking or disputing a belief in a hostile, argumentative manner.",
+          "example": "Her polemical op-ed didn't just disagree with the policy; it savaged everyone who supported it.",
+          "mnemonic": "From Greek 'polemos' = war. A polemical essay is verbal warfare — two thinkers at opposite POLES jabbing poles at each other.",
+          "synonyms": [
+            "contentious",
+            "combative",
+            "argumentative"
+          ],
+          "antonyms": [
+            "conciliatory",
+            "agreeable"
+          ]
+        },
+        {
+          "id": "sat-stagnant",
+          "word": "stagnant",
+          "partOfSpeech": "adjective",
+          "definition": "Not moving, flowing, or developing, and therefore often dull or foul.",
+          "example": "After weeks without rain, the pond turned stagnant, its surface green and thick with a foul smell.",
+          "mnemonic": "'Stag-NANT' — picture a STAG standing dead-still in a scummy pond that hasn't moved in months.",
+          "synonyms": [
+            "motionless",
+            "static",
+            "inert"
+          ],
+          "antonyms": [
+            "flowing",
+            "dynamic",
+            "thriving"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-degradation",
+          "word": "degradation",
+          "partOfSpeech": "noun",
+          "definition": "The act of lowering something to a worse, weaker, or more damaged condition.",
+          "example": "Years of overgrazing led to the slow degradation of the soil, until nothing would grow there anymore.",
+          "mnemonic": "Break it into 'de-GRADE' — grades sliding down, one step lower and lower on the ladder.",
+          "synonyms": [
+            "deterioration",
+            "decline",
+            "decay"
+          ],
+          "antonyms": [
+            "improvement",
+            "enhancement",
+            "restoration"
+          ]
+        },
+        {
+          "id": "sat-erosion",
+          "word": "erosion",
+          "partOfSpeech": "noun",
+          "definition": "The gradual wearing away of something by wind, water, or steady pressure.",
+          "example": "Without tree roots to hold the hillside, erosion carried the topsoil down into the river after every storm.",
+          "mnemonic": "From Latin 'rodere' = to gnaw (like a rodent). Erosion is the earth being gnawed away, grain by grain.",
+          "synonyms": [
+            "wearing",
+            "corrosion",
+            "abrasion"
+          ],
+          "antonyms": [
+            "buildup",
+            "accumulation",
+            "deposition"
+          ]
+        },
+        {
+          "id": "sat-conservation",
+          "word": "conservation",
+          "partOfSpeech": "noun",
+          "definition": "The careful protection and management of nature or resources to prevent loss.",
+          "example": "The park's conservation program fenced off the wetlands so the rare birds could nest undisturbed.",
+          "mnemonic": "A 'conserve' is jam that keeps fruit from spoiling — conservation keeps nature from spoiling the same way.",
+          "synonyms": [
+            "preservation",
+            "protection",
+            "stewardship"
+          ],
+          "antonyms": [
+            "destruction",
+            "waste",
+            "depletion"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:12:51.659Z"
+}

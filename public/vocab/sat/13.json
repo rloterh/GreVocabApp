@@ -1,0 +1,1292 @@
+{
+  "track": "sat",
+  "ordinal": 13,
+  "title": "Science and experiment",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-theoretical",
+          "word": "theoretical",
+          "partOfSpeech": "adjective",
+          "definition": "Concerned with ideas and principles rather than practical application or real-world use.",
+          "example": "Her knowledge of engines was purely theoretical—she had never actually taken one apart.",
+          "mnemonic": "Hear 'theory' hiding inside it: THEORY-etical describes something living in ideas, not in the workshop.",
+          "synonyms": [
+            "abstract",
+            "hypothetical",
+            "conceptual"
+          ],
+          "antonyms": [
+            "practical",
+            "applied",
+            "empirical"
+          ]
+        },
+        {
+          "id": "sat-observe",
+          "word": "observe",
+          "partOfSpeech": "verb",
+          "definition": "To watch or notice something carefully in order to learn about it.",
+          "example": "The scientists sat motionless for hours to observe how the wolves hunted at dusk.",
+          "mnemonic": "'ob-SERVE': a good waiter serves you by carefully watching your table's every need.",
+          "synonyms": [
+            "watch",
+            "notice",
+            "monitor"
+          ],
+          "antonyms": [
+            "ignore",
+            "overlook"
+          ]
+        },
+        {
+          "id": "sat-observation",
+          "word": "observation",
+          "partOfSpeech": "noun",
+          "definition": "The act of watching something closely, or a remark about what was noticed.",
+          "example": "After a week of quiet observation, the birdwatcher knew exactly which flowers the hummingbirds preferred.",
+          "mnemonic": "Picture an 'observation deck'—the platform you stand on just to watch the view below.",
+          "synonyms": [
+            "monitoring",
+            "scrutiny",
+            "remark"
+          ],
+          "antonyms": [
+            "inattention",
+            "disregard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-analyze",
+          "word": "analyze",
+          "partOfSpeech": "verb",
+          "definition": "To examine something in detail by breaking it into separate parts.",
+          "example": "The coach stayed up late to analyze the game footage frame by frame.",
+          "mnemonic": "Ends in '-lyze', like 'lysis'—to split apart; you split a thing into pieces to study it.",
+          "synonyms": [
+            "examine",
+            "dissect",
+            "evaluate"
+          ],
+          "antonyms": [
+            "synthesize",
+            "combine"
+          ]
+        },
+        {
+          "id": "sat-analysis",
+          "word": "analysis",
+          "partOfSpeech": "noun",
+          "definition": "A detailed examination of the separate parts of something to understand it.",
+          "example": "The lab's analysis of the tap water revealed alarming traces of lead.",
+          "mnemonic": "Ends in '-lysis' like dialysis, where blood is broken down and filtered part by part.",
+          "synonyms": [
+            "examination",
+            "evaluation",
+            "breakdown"
+          ],
+          "antonyms": [
+            "synthesis"
+          ]
+        },
+        {
+          "id": "sat-synthesize",
+          "word": "synthesize",
+          "partOfSpeech": "verb",
+          "definition": "To combine separate elements into a single unified whole.",
+          "example": "Plants synthesize sugar from nothing more than sunlight, water, and air.",
+          "mnemonic": "'syn-' means together (like synchronize); a synth combines many tones into one sound.",
+          "synonyms": [
+            "combine",
+            "integrate",
+            "merge"
+          ],
+          "antonyms": [
+            "analyze",
+            "separate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-synthesis",
+          "word": "synthesis",
+          "partOfSpeech": "noun",
+          "definition": "The combining of separate parts into a unified whole.",
+          "example": "Her essay was a clever synthesis of ideas borrowed from three rival philosophers.",
+          "mnemonic": "'syn-' = together; think of a synthesizer fusing many notes into one blended sound.",
+          "synonyms": [
+            "combination",
+            "integration",
+            "fusion"
+          ],
+          "antonyms": [
+            "analysis",
+            "separation"
+          ]
+        },
+        {
+          "id": "sat-deduction",
+          "word": "deduction",
+          "partOfSpeech": "noun",
+          "definition": "A conclusion reached by reasoning logically from known facts or general rules.",
+          "example": "From the muddy boots and dripping umbrella, the detective made the deduction that it was raining.",
+          "mnemonic": "'de-' (down) + 'duce' (lead): you are led down from clues to a conclusion, Sherlock-style.",
+          "synonyms": [
+            "inference",
+            "conclusion",
+            "reasoning"
+          ],
+          "antonyms": [
+            "guess",
+            "assumption"
+          ]
+        },
+        {
+          "id": "sat-causation",
+          "word": "causation",
+          "partOfSpeech": "noun",
+          "definition": "The relationship in which one event directly produces or brings about another.",
+          "example": "The study found a link between coffee and long life, but never proved causation.",
+          "mnemonic": "It's 'cause' + '-ation': the machinery by which one thing actually makes another happen.",
+          "synonyms": [
+            "origination",
+            "cause"
+          ],
+          "antonyms": [
+            "correlation",
+            "coincidence"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-variable",
+          "word": "variable",
+          "partOfSpeech": "noun",
+          "definition": "A factor or quantity that can change within an experiment or situation.",
+          "example": "In the experiment, temperature was the one variable the students were allowed to adjust.",
+          "mnemonic": "Read it as 'vary-able'—a thing that is able to vary, shifting from value to value.",
+          "synonyms": [
+            "factor",
+            "element",
+            "parameter"
+          ],
+          "antonyms": [
+            "constant",
+            "invariable"
+          ]
+        },
+        {
+          "id": "sat-replicate",
+          "word": "replicate",
+          "partOfSpeech": "verb",
+          "definition": "To copy or repeat something exactly.",
+          "example": "Three other labs tried to replicate the experiment but kept getting different results.",
+          "mnemonic": "'re-' (again) + '-plicate' (fold, as in duplicate): to fold out another identical copy.",
+          "synonyms": [
+            "duplicate",
+            "copy",
+            "reproduce"
+          ],
+          "antonyms": [
+            "originate",
+            "differ"
+          ]
+        },
+        {
+          "id": "sat-reproducibility",
+          "word": "reproducibility",
+          "partOfSpeech": "noun",
+          "definition": "The quality of a result being obtainable again under the same conditions.",
+          "example": "The findings lacked reproducibility, since no other team could get the same outcome twice.",
+          "mnemonic": "Break it up: 're-produce-ibility'—the ability to produce the very same thing again.",
+          "synonyms": [
+            "repeatability",
+            "consistency"
+          ],
+          "antonyms": [
+            "irregularity",
+            "inconsistency"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-validity",
+          "word": "validity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being logically sound, well-founded, and defensible.",
+          "example": "The lawyer attacked the validity of the confession because it had been coerced.",
+          "mnemonic": "From Latin 'validus' (strong); like a 'valid' ticket, it stands up strongly to a challenge.",
+          "synonyms": [
+            "soundness",
+            "legitimacy",
+            "cogency"
+          ],
+          "antonyms": [
+            "invalidity",
+            "fallacy"
+          ]
+        },
+        {
+          "id": "sat-reliability",
+          "word": "reliability",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being consistently trustworthy and dependable over time.",
+          "example": "The old truck's reliability meant it started every winter morning without fail for a decade.",
+          "mnemonic": "Hear 'rely' inside it: the ability of something you can rely on again and again.",
+          "synonyms": [
+            "dependability",
+            "consistency",
+            "trustworthiness"
+          ],
+          "antonyms": [
+            "unreliability",
+            "inconsistency"
+          ]
+        },
+        {
+          "id": "sat-quantify",
+          "word": "quantify",
+          "partOfSpeech": "verb",
+          "definition": "To measure or express something as a number or amount.",
+          "example": "It's hard to quantify just how much joy the new puppy brought the family.",
+          "mnemonic": "'quant-' (how much, as in quantity) + '-ify' (to make): to put an exact number on it.",
+          "synonyms": [
+            "measure",
+            "calculate",
+            "count"
+          ],
+          "antonyms": [
+            "estimate",
+            "guess"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-calibrate",
+          "word": "calibrate",
+          "partOfSpeech": "verb",
+          "definition": "To adjust a measuring instrument so its readings are accurate against a known standard.",
+          "example": "Before the experiment, she carefully calibrated the thermometer against a block of melting ice.",
+          "mnemonic": "Sounds like 'caliper' — picture a lab tech fine-tuning a machine with calipers until it's exactly right.",
+          "synonyms": [
+            "adjust",
+            "fine-tune",
+            "standardize"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-gauge",
+          "word": "gauge",
+          "partOfSpeech": "verb",
+          "definition": "To measure or judge the size, amount, or nature of something.",
+          "example": "He glanced around the room to gauge how the audience was reacting to his speech.",
+          "mnemonic": "Rhymes with 'cage'; picture a fuel gauge you read to judge how much is left in the tank.",
+          "synonyms": [
+            "measure",
+            "assess",
+            "judge"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-estimate",
+          "word": "estimate",
+          "partOfSpeech": "verb",
+          "definition": "To form a rough judgment of a value, size, or cost without exact measurement.",
+          "example": "The contractor estimated that the repairs would take about three weeks.",
+          "mnemonic": "Hides 'est.' — the abbreviation you scribble beside a number when it's only a ballpark guess.",
+          "synonyms": [
+            "approximate",
+            "reckon",
+            "gauge"
+          ],
+          "antonyms": [
+            "calculate",
+            "measure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-approximate",
+          "word": "approximate",
+          "partOfSpeech": "verb",
+          "definition": "To come close to a value or quality without being exactly correct.",
+          "example": "The model's prediction approximates the real temperature to within a degree or two.",
+          "mnemonic": "Contains 'proxim-' as in 'proximity' — being near the mark but not landing on it.",
+          "synonyms": [
+            "estimate",
+            "resemble",
+            "near"
+          ],
+          "antonyms": [
+            "equal",
+            "match"
+          ]
+        },
+        {
+          "id": "sat-evidence",
+          "word": "evidence",
+          "partOfSpeech": "noun",
+          "definition": "Facts or signs that help prove whether something is true or false.",
+          "example": "The muddy footprints by the door were the only evidence that someone had slipped inside.",
+          "mnemonic": "Say 'it is e-VIDENT' — evidence is what makes a truth plainly visible.",
+          "synonyms": [
+            "proof",
+            "grounds",
+            "support"
+          ],
+          "antonyms": [
+            "speculation",
+            "conjecture"
+          ]
+        },
+        {
+          "id": "sat-confirm",
+          "word": "confirm",
+          "partOfSpeech": "verb",
+          "definition": "To show that something is definitely true or correct.",
+          "example": "A second blood test confirmed the original diagnosis.",
+          "mnemonic": "Con-FIRM — to make a shaky idea 'firm' and settled, no longer in doubt.",
+          "synonyms": [
+            "verify",
+            "corroborate",
+            "substantiate"
+          ],
+          "antonyms": [
+            "deny",
+            "refute",
+            "falsify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-falsify",
+          "word": "falsify",
+          "partOfSpeech": "verb",
+          "definition": "To prove a statement wrong, or to tamper with records dishonestly.",
+          "example": "The scientist designed an experiment that could, in principle, falsify her own hypothesis.",
+          "mnemonic": "'False' + '-ify' — to make-into or expose-as false.",
+          "synonyms": [
+            "disprove",
+            "refute",
+            "fake"
+          ],
+          "antonyms": [
+            "confirm",
+            "verify",
+            "prove"
+          ]
+        },
+        {
+          "id": "sat-assess",
+          "word": "assess",
+          "partOfSpeech": "verb",
+          "definition": "To carefully consider something in order to judge its value, quality, or importance.",
+          "example": "The teacher paused to assess whether the class had really grasped the lesson.",
+          "mnemonic": "Sounds like 'a session' — sit in session and weigh the facts before deciding.",
+          "synonyms": [
+            "evaluate",
+            "appraise",
+            "judge"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-evaluate",
+          "word": "evaluate",
+          "partOfSpeech": "verb",
+          "definition": "To judge the worth, amount, or significance of something after careful thought.",
+          "example": "Reviewers will evaluate each grant proposal on originality and feasibility.",
+          "mnemonic": "Contains 'value' — to e-VALU-ate is literally to find the value of something.",
+          "synonyms": [
+            "assess",
+            "appraise",
+            "gauge"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-appraise",
+          "word": "appraise",
+          "partOfSpeech": "verb",
+          "definition": "To judge the quality or monetary worth of something, often officially.",
+          "example": "A jeweler appraised the ring at twice what she had paid for it.",
+          "mnemonic": "Hear 'a-PRICE' inside it — to appraise is to set a price on something's worth.",
+          "synonyms": [
+            "value",
+            "assess",
+            "evaluate"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-interpret",
+          "word": "interpret",
+          "partOfSpeech": "verb",
+          "definition": "To explain or decide the meaning of something, or to translate between languages.",
+          "example": "It was hard to interpret her silence — was it anger, or simply exhaustion?",
+          "mnemonic": "'Inter-' (between) + 'pret' — you go between the lines and carry the meaning out.",
+          "synonyms": [
+            "explain",
+            "construe",
+            "decode"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-construe",
+          "word": "construe",
+          "partOfSpeech": "verb",
+          "definition": "To understand a word, action, or situation in a particular way.",
+          "example": "Please don't construe my silence as agreement; I just had nothing to add.",
+          "mnemonic": "Sounds like 'construct' a view — you build the meaning you take from something.",
+          "synonyms": [
+            "interpret",
+            "read",
+            "take"
+          ],
+          "antonyms": [
+            "misconstrue"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-classify",
+          "word": "classify",
+          "partOfSpeech": "verb",
+          "definition": "To arrange things into groups based on shared features.",
+          "example": "Biologists classify the newly discovered insect among the beetles.",
+          "mnemonic": "Put into a 'class' — like sorting students into the right classroom.",
+          "synonyms": [
+            "categorize",
+            "sort",
+            "group"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-categorize",
+          "word": "categorize",
+          "partOfSpeech": "verb",
+          "definition": "To place items into defined classes according to their type or purpose.",
+          "example": "The app lets you categorize expenses as essentials, savings, or treats.",
+          "mnemonic": "Holds 'category' — to drop each thing into its proper category bin.",
+          "synonyms": [
+            "classify",
+            "group",
+            "sort"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-systematic",
+          "word": "systematic",
+          "partOfSpeech": "adjective",
+          "definition": "Done according to a fixed, organized plan or method rather than at random.",
+          "example": "Her systematic search of the attic, box by box, finally turned up the old letters.",
+          "mnemonic": "Follows a 'system' — step by step, nothing left to chance.",
+          "synonyms": [
+            "methodical",
+            "organized",
+            "orderly"
+          ],
+          "antonyms": [
+            "random",
+            "haphazard",
+            "chaotic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-methodical",
+          "word": "methodical",
+          "partOfSpeech": "adjective",
+          "definition": "Following an ordered, step-by-step system with careful attention to detail.",
+          "example": "She unpacked every box in a methodical order, labeling each one before opening the next.",
+          "mnemonic": "METHODical — someone who always follows a METHOD, one deliberate step after another.",
+          "synonyms": [
+            "systematic",
+            "orderly",
+            "organized"
+          ],
+          "antonyms": [
+            "haphazard",
+            "chaotic",
+            "random"
+          ]
+        },
+        {
+          "id": "sat-rigorous",
+          "word": "rigorous",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely thorough, careful, and demanding in meeting strict standards.",
+          "example": "Every sample went through rigorous testing before the team dared to publish a result.",
+          "mnemonic": "Rigor = rigid; RIGOROUS rules are stiff and unbending, like a drill sergeant who won't relax them.",
+          "synonyms": [
+            "thorough",
+            "strict",
+            "exacting"
+          ],
+          "antonyms": [
+            "lax",
+            "lenient",
+            "careless"
+          ]
+        },
+        {
+          "id": "sat-precise",
+          "word": "precise",
+          "partOfSpeech": "adjective",
+          "definition": "Exact and clearly defined, with no vagueness or error.",
+          "example": "Give me the precise time — not 'around noon,' but exactly 12:03.",
+          "mnemonic": "PRE-CISE sounds like 'pre-scissors': an exact, clean cut with no ragged edges.",
+          "synonyms": [
+            "exact",
+            "definite",
+            "accurate"
+          ],
+          "antonyms": [
+            "vague",
+            "approximate",
+            "rough"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-accurate",
+          "word": "accurate",
+          "partOfSpeech": "adjective",
+          "definition": "Correct and free from mistakes; matching the true value.",
+          "example": "The new scale is so accurate it registers a single grain of rice.",
+          "mnemonic": "From Latin 'accuratus' (done with care) — think 'a cure' that works exactly, hitting the target right.",
+          "synonyms": [
+            "correct",
+            "exact",
+            "faithful"
+          ],
+          "antonyms": [
+            "wrong",
+            "mistaken",
+            "erroneous"
+          ]
+        },
+        {
+          "id": "sat-preliminary",
+          "word": "preliminary",
+          "partOfSpeech": "adjective",
+          "definition": "Coming before the main part, as preparation or introduction.",
+          "example": "The preliminary sketches were drawn weeks before the artist touched the final canvas.",
+          "mnemonic": "PRE- (before) + 'limin' (Latin limen, threshold): what happens before you cross the threshold.",
+          "synonyms": [
+            "introductory",
+            "initial",
+            "preparatory"
+          ],
+          "antonyms": [
+            "final",
+            "concluding",
+            "main"
+          ]
+        },
+        {
+          "id": "sat-implausible",
+          "word": "implausible",
+          "partOfSpeech": "adjective",
+          "definition": "Hard to believe; unlikely to be true.",
+          "example": "His excuse — that aliens ate his homework — was completely implausible.",
+          "mnemonic": "IM- (not) + 'plausible' (from Latin plaudere, to applaud): a tale so unbelievable you can't applaud it.",
+          "synonyms": [
+            "unbelievable",
+            "unlikely",
+            "far-fetched"
+          ],
+          "antonyms": [
+            "believable",
+            "credible",
+            "likely"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-anomalous",
+          "word": "anomalous",
+          "partOfSpeech": "adjective",
+          "definition": "Different from what is normal or expected; irregular.",
+          "example": "The thermometer showed an anomalous spike no one could explain on such a cold day.",
+          "mnemonic": "A-NOMAL-ous: 'a' (not) plus 'nomal,' which sounds like NORMAL — so, not normal.",
+          "synonyms": [
+            "abnormal",
+            "irregular",
+            "unusual"
+          ],
+          "antonyms": [
+            "normal",
+            "typical",
+            "regular"
+          ]
+        },
+        {
+          "id": "sat-consistent",
+          "word": "consistent",
+          "partOfSpeech": "adjective",
+          "definition": "Staying the same over time; steady and free of contradiction.",
+          "example": "Her grades were consistent all year — never a surprise, high or low.",
+          "mnemonic": "CON- (with) + 'sist' (Latin sistere, to stand): parts that stand together and agree.",
+          "synonyms": [
+            "steady",
+            "uniform",
+            "reliable"
+          ],
+          "antonyms": [
+            "erratic",
+            "variable",
+            "contradictory"
+          ]
+        },
+        {
+          "id": "sat-inconsistent",
+          "word": "inconsistent",
+          "partOfSpeech": "adjective",
+          "definition": "Not staying the same; changeable or self-contradictory.",
+          "example": "His story was inconsistent — the times he gave kept shifting with each retelling.",
+          "mnemonic": "IN- (not) + consistent: the parts refuse to stand together, so they don't hold.",
+          "synonyms": [
+            "erratic",
+            "contradictory",
+            "unreliable"
+          ],
+          "antonyms": [
+            "steady",
+            "uniform",
+            "reliable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-outlier",
+          "word": "outlier",
+          "partOfSpeech": "noun",
+          "definition": "A value or person sitting far away from all the others in a group.",
+          "example": "In a class of average scores, her perfect 100 was a clear outlier.",
+          "mnemonic": "OUT + LIE: it lies OUTside the pack, way off from where everyone else sits.",
+          "synonyms": [
+            "anomaly",
+            "exception",
+            "deviation"
+          ],
+          "antonyms": [
+            "norm",
+            "average",
+            "typical"
+          ]
+        },
+        {
+          "id": "sat-phenomenon",
+          "word": "phenomenon",
+          "partOfSpeech": "noun",
+          "definition": "An observable event or fact, especially one that is remarkable.",
+          "example": "The northern lights are a phenomenon travelers cross the globe to witness.",
+          "mnemonic": "From Greek 'phainein' (to show) — something that shows itself, appearing for all to see.",
+          "synonyms": [
+            "occurrence",
+            "event",
+            "marvel"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-mechanism",
+          "word": "mechanism",
+          "partOfSpeech": "noun",
+          "definition": "A system of parts working together, or the way a process operates.",
+          "example": "Scientists finally uncovered the mechanism by which the drug lowers blood pressure.",
+          "mnemonic": "Hear 'machine' inside MECHANISM — picture the gears and inner workings that make it run.",
+          "synonyms": [
+            "system",
+            "apparatus",
+            "workings"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-procedure",
+          "word": "procedure",
+          "partOfSpeech": "noun",
+          "definition": "An established series of steps for doing something.",
+          "example": "The nurse followed the emergency procedure exactly, step by careful step.",
+          "mnemonic": "PROCEED + -ure: it spells out how you proceed from one action to the next.",
+          "synonyms": [
+            "process",
+            "method",
+            "routine"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-protocol",
+          "word": "protocol",
+          "partOfSpeech": "noun",
+          "definition": "The official rules for how something should be done or handled.",
+          "example": "Hospital protocol requires two nurses to verify the dosage before any injection.",
+          "mnemonic": "Greek 'protos' (first) + 'kolla' (glue): the first sheet glued to a document, laying down the rules.",
+          "synonyms": [
+            "rules",
+            "etiquette",
+            "convention"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-paradigm",
+          "word": "paradigm",
+          "partOfSpeech": "noun",
+          "definition": "A typical model or pattern of thinking that shapes how people understand something.",
+          "example": "Einstein's ideas created a new paradigm that replaced Newton's view of the universe.",
+          "mnemonic": "Greek 'para' (beside) + 'deigma' (example): a model set beside you to copy — say it 'PAIR-a-dime.'",
+          "synonyms": [
+            "model",
+            "pattern",
+            "framework"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-framework",
+          "word": "framework",
+          "partOfSpeech": "noun",
+          "definition": "A supporting structure of ideas or rules used to organize a plan or system.",
+          "example": "Before writing any code, the team agreed on a framework for how the modules would talk to each other.",
+          "mnemonic": "Break it into 'frame' + 'work' — the wooden frame workers raise before any walls go up.",
+          "synonyms": [
+            "structure",
+            "scaffolding",
+            "system"
+          ],
+          "antonyms": [
+            "chaos",
+            "disorder"
+          ]
+        },
+        {
+          "id": "sat-construct",
+          "word": "construct",
+          "partOfSpeech": "verb",
+          "definition": "To build or form something by putting parts together.",
+          "example": "Engineers will construct the bridge from prefabricated steel sections shipped overnight.",
+          "mnemonic": "con- (together) + Latin 'struere' (to build) — the same root gives us 'structure.'",
+          "synonyms": [
+            "build",
+            "assemble",
+            "erect"
+          ],
+          "antonyms": [
+            "demolish",
+            "dismantle"
+          ]
+        },
+        {
+          "id": "sat-abstraction",
+          "word": "abstraction",
+          "partOfSpeech": "noun",
+          "definition": "A general idea formed apart from any specific real object or event.",
+          "example": "To a hungry child, freedom is just an abstraction; a warm meal is not.",
+          "mnemonic": "Latin 'abstrahere' = to draw away — an idea drawn away from the physical thing.",
+          "synonyms": [
+            "concept",
+            "generalization",
+            "notion"
+          ],
+          "antonyms": [
+            "reality",
+            "instance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-concrete",
+          "word": "concrete",
+          "partOfSpeech": "adjective",
+          "definition": "Existing as a real, physical thing that can be touched or clearly seen.",
+          "example": "Stop giving me vague promises and hand me a concrete plan with actual dates.",
+          "mnemonic": "Picture the gray building material — solid, hard, and right there under your feet.",
+          "synonyms": [
+            "tangible",
+            "specific",
+            "real"
+          ],
+          "antonyms": [
+            "abstract",
+            "vague"
+          ]
+        },
+        {
+          "id": "sat-dispassionate",
+          "word": "dispassionate",
+          "partOfSpeech": "adjective",
+          "definition": "Not swayed by strong emotion; calm and fair when judging.",
+          "example": "The judge delivered a dispassionate ruling, unmoved by the crowd's shouting.",
+          "mnemonic": "dis- (without) + passionate — literally without the heat of feeling.",
+          "synonyms": [
+            "impartial",
+            "detached",
+            "calm"
+          ],
+          "antonyms": [
+            "emotional",
+            "fervent"
+          ]
+        },
+        {
+          "id": "sat-disinterested",
+          "word": "disinterested",
+          "partOfSpeech": "adjective",
+          "definition": "Having no personal stake, and therefore able to judge fairly.",
+          "example": "We asked a disinterested neighbor to settle the argument, since neither of us could be trusted to be fair.",
+          "mnemonic": "A referee is dis-interested — no money riding on either team, so his calls stay fair.",
+          "synonyms": [
+            "impartial",
+            "neutral",
+            "unbiased"
+          ],
+          "antonyms": [
+            "biased",
+            "partial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-unbiased",
+          "word": "unbiased",
+          "partOfSpeech": "adjective",
+          "definition": "Free from prejudice; treating every side equally.",
+          "example": "A good scientist reports unbiased results even when they disprove her own theory.",
+          "mnemonic": "un- (not) + bias — the arrow isn't tilted toward one side.",
+          "synonyms": [
+            "fair",
+            "impartial",
+            "even-handed"
+          ],
+          "antonyms": [
+            "prejudiced",
+            "partial"
+          ]
+        },
+        {
+          "id": "sat-logical",
+          "word": "logical",
+          "partOfSpeech": "adjective",
+          "definition": "Following clear reasoning; sensible and internally consistent.",
+          "example": "It's the only logical conclusion: if the door was bolted from inside, no intruder came through it.",
+          "mnemonic": "From Greek 'logos' (reason) — a step-by-step path where each step earns the next.",
+          "synonyms": [
+            "rational",
+            "reasonable",
+            "sound"
+          ],
+          "antonyms": [
+            "illogical",
+            "irrational"
+          ]
+        },
+        {
+          "id": "sat-theorize",
+          "word": "theorize",
+          "partOfSpeech": "verb",
+          "definition": "To form ideas explaining why something happens, often before proof exists.",
+          "example": "Detectives began to theorize that the fire had been set deliberately.",
+          "mnemonic": "From Greek 'theoria' (a viewing) — you stage an explanation in your mind before checking the facts.",
+          "synonyms": [
+            "hypothesize",
+            "speculate",
+            "conjecture"
+          ],
+          "antonyms": [
+            "prove",
+            "verify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-generalize",
+          "word": "generalize",
+          "partOfSpeech": "verb",
+          "definition": "To draw one broad conclusion from only a few specific cases.",
+          "example": "You can't generalize about an entire country after visiting a single city.",
+          "mnemonic": "A 'general' commands the whole army, not one soldier — you sweep across everything at once.",
+          "synonyms": [
+            "universalize",
+            "broaden",
+            "extrapolate"
+          ],
+          "antonyms": [
+            "specify",
+            "particularize"
+          ]
+        },
+        {
+          "id": "sat-grant",
+          "word": "grant",
+          "partOfSpeech": "verb",
+          "definition": "To give or allow something formally, usually after a request.",
+          "example": "The king agreed to grant the villagers the right to farm his land.",
+          "mnemonic": "Hear the genie: 'Your wish is granted' — he hands the thing over.",
+          "synonyms": [
+            "give",
+            "bestow",
+            "allow"
+          ],
+          "antonyms": [
+            "deny",
+            "refuse"
+          ]
+        },
+        {
+          "id": "sat-refine",
+          "word": "refine",
+          "partOfSpeech": "verb",
+          "definition": "To improve something through small, careful changes that remove flaws.",
+          "example": "After the rough first draft, she spent a week polishing and working to refine every paragraph.",
+          "mnemonic": "re- (again) + 'fine' — make it fine again, buffing out the rough spots.",
+          "synonyms": [
+            "polish",
+            "hone",
+            "perfect"
+          ],
+          "antonyms": [
+            "coarsen",
+            "worsen"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-revise",
+          "word": "revise",
+          "partOfSpeech": "verb",
+          "definition": "To change or update a piece of work after looking it over again.",
+          "example": "The editor asked me to revise the ending because it felt rushed.",
+          "mnemonic": "re- (again) + Latin 'videre' (to see) — to see it again and fix what's wrong.",
+          "synonyms": [
+            "edit",
+            "rework",
+            "alter"
+          ],
+          "antonyms": [
+            "retain",
+            "preserve"
+          ]
+        },
+        {
+          "id": "sat-amend",
+          "word": "amend",
+          "partOfSpeech": "verb",
+          "definition": "To make small changes to a text or law in order to improve it.",
+          "example": "Congress voted to amend the bill by adding two new clauses.",
+          "mnemonic": "Read it as 'a-mend' — you mend, or patch, a document.",
+          "synonyms": [
+            "modify",
+            "adjust",
+            "alter"
+          ],
+          "antonyms": [
+            "worsen",
+            "corrupt"
+          ]
+        },
+        {
+          "id": "sat-integrate",
+          "word": "integrate",
+          "partOfSpeech": "verb",
+          "definition": "To combine separate parts into one unified whole.",
+          "example": "The new software helps integrate sales and shipping data onto a single dashboard.",
+          "mnemonic": "From Latin 'integer' (whole) — the same root as a whole number; you make the pieces whole together.",
+          "synonyms": [
+            "combine",
+            "merge",
+            "unify"
+          ],
+          "antonyms": [
+            "separate",
+            "segregate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-summarize",
+          "word": "summarize",
+          "partOfSpeech": "verb",
+          "definition": "To give a short version of something, covering only its most important points.",
+          "example": "After the two-hour meeting, she summarized the outcome in three quick bullet points.",
+          "mnemonic": "Sum + marize — you add up the 'sum' of the main ideas and leave the rest out.",
+          "synonyms": [
+            "condense",
+            "recap",
+            "abridge"
+          ],
+          "antonyms": [
+            "expand",
+            "elaborate",
+            "detail"
+          ]
+        },
+        {
+          "id": "sat-paraphrase",
+          "word": "paraphrase",
+          "partOfSpeech": "verb",
+          "definition": "To express someone else's idea again in your own words while keeping the meaning.",
+          "example": "Rather than quote the professor directly, he paraphrased her argument in simpler terms.",
+          "mnemonic": "'para' (beside) + 'phrase' — you set a fresh phrase beside the original one.",
+          "synonyms": [
+            "reword",
+            "rephrase",
+            "restate"
+          ],
+          "antonyms": [
+            "quote",
+            "cite"
+          ]
+        },
+        {
+          "id": "sat-reiterate",
+          "word": "reiterate",
+          "partOfSpeech": "verb",
+          "definition": "To say or do something again, usually to make a point unmistakably clear.",
+          "example": "The coach reiterated the safety rules before letting anyone touch the equipment.",
+          "mnemonic": "'re' (again) + 'iterate' (loop through) — to run through it one more time.",
+          "synonyms": [
+            "repeat",
+            "restate",
+            "echo"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-emphasize",
+          "word": "emphasize",
+          "partOfSpeech": "verb",
+          "definition": "To give special importance or attention to something in speech or writing.",
+          "example": "She emphasized the deadline by writing it in red on the board.",
+          "mnemonic": "Say 'em-PHA-size' — you make one part big and loud so it stands out.",
+          "synonyms": [
+            "stress",
+            "highlight",
+            "underscore"
+          ],
+          "antonyms": [
+            "downplay",
+            "understate",
+            "minimize"
+          ]
+        },
+        {
+          "id": "sat-accentuate",
+          "word": "accentuate",
+          "partOfSpeech": "verb",
+          "definition": "To make a feature or quality more noticeable or prominent.",
+          "example": "The tailored jacket accentuated his broad shoulders.",
+          "mnemonic": "Hidden inside is 'accent' — an accent mark makes one syllable pop.",
+          "synonyms": [
+            "highlight",
+            "intensify",
+            "heighten"
+          ],
+          "antonyms": [
+            "downplay",
+            "mask",
+            "diminish"
+          ]
+        },
+        {
+          "id": "sat-exemplify",
+          "word": "exemplify",
+          "partOfSpeech": "verb",
+          "definition": "To serve as a clear, typical instance that shows what something is like.",
+          "example": "Her calm response under pressure exemplified true professionalism.",
+          "mnemonic": "'exempl-' like 'example' + '-ify' (to make) — to turn into a model case.",
+          "synonyms": [
+            "illustrate",
+            "embody",
+            "typify"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-epitomize",
+          "word": "epitomize",
+          "partOfSpeech": "verb",
+          "definition": "To be a perfect representation of a particular quality or type.",
+          "example": "With his tireless generosity, he epitomized what it means to be a good neighbor.",
+          "mnemonic": "From 'epitome' — the flawless, boiled-down model of a thing.",
+          "synonyms": [
+            "embody",
+            "typify",
+            "personify"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-characterize",
+          "word": "characterize",
+          "partOfSpeech": "verb",
+          "definition": "To describe the distinctive qualities of something, or be a typical feature of it.",
+          "example": "Critics characterized the film as slow but deeply moving.",
+          "mnemonic": "Contains 'character' — you sketch the traits, the character, of something.",
+          "synonyms": [
+            "describe",
+            "portray",
+            "define"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-contention",
+          "word": "contention",
+          "partOfSpeech": "noun",
+          "definition": "A point or opinion that a person strongly puts forward as true in an argument.",
+          "example": "Her central contention was that the policy would hurt small businesses.",
+          "mnemonic": "'contend' + '-tion' — a contention is exactly what you contend for.",
+          "synonyms": [
+            "assertion",
+            "claim",
+            "argument"
+          ],
+          "antonyms": [
+            "concession",
+            "agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-implication",
+          "word": "implication",
+          "partOfSpeech": "noun",
+          "definition": "Something suggested or made likely without being directly stated.",
+          "example": "He said nothing rude, but the implication of his cold silence was clear.",
+          "mnemonic": "From Latin 'plicare' (to fold) — a meaning folded in rather than spoken aloud.",
+          "synonyms": [
+            "suggestion",
+            "insinuation",
+            "consequence"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-underlie",
+          "word": "underlie",
+          "partOfSpeech": "verb",
+          "definition": "To form the hidden basis or foundation of something more visible.",
+          "example": "A deep anxiety about failure seemed to underlie his relentless need to win every argument.",
+          "mnemonic": "Break it down: 'under' + 'lie' — the cause that literally lies under the surface of what you see.",
+          "synonyms": [
+            "underpin",
+            "ground",
+            "support"
+          ],
+          "antonyms": []
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:07:05.885Z"
+}

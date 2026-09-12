@@ -1,0 +1,1008 @@
+{
+  "track": "sat",
+  "ordinal": 36,
+  "title": "Discovery and exploration",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-unearth",
+          "word": "unearth",
+          "partOfSpeech": "verb",
+          "definition": "To discover or bring to light something that was hidden or buried.",
+          "example": "Renovating the old cottage, they unearthed a rusted tin packed with Victorian coins.",
+          "mnemonic": "un- + earth — you take it out of the earth.",
+          "synonyms": [
+            "uncover",
+            "dig up",
+            "discover"
+          ],
+          "antonyms": [
+            "bury",
+            "conceal",
+            "hide"
+          ]
+        },
+        {
+          "id": "sat-fathom",
+          "word": "fathom",
+          "partOfSpeech": "verb",
+          "definition": "To understand something complex or puzzling after careful thought.",
+          "example": "No one could fathom why she abandoned a brilliant career at its very peak.",
+          "mnemonic": "A fathom measures deep water; to fathom is to reach the deep bottom of an idea.",
+          "synonyms": [
+            "comprehend",
+            "grasp",
+            "understand"
+          ],
+          "antonyms": [
+            "misunderstand",
+            "misjudge"
+          ]
+        },
+        {
+          "id": "sat-glean",
+          "word": "glean",
+          "partOfSpeech": "verb",
+          "definition": "To collect information or material gradually, a little at a time.",
+          "example": "From scattered receipts, the detective gleaned the suspect's movements over the week.",
+          "mnemonic": "Gleaners walked harvested fields picking up leftover grain one stalk at a time.",
+          "synonyms": [
+            "gather",
+            "harvest",
+            "extract"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-reconnoiter",
+          "word": "reconnoiter",
+          "partOfSpeech": "verb",
+          "definition": "To explore an area to gather information, especially about an enemy or terrain.",
+          "example": "Two scouts crept ahead to reconnoiter the ridge before the column advanced.",
+          "mnemonic": "Starts with 'recon' — the soldier's word for scouting ahead.",
+          "synonyms": [
+            "scout",
+            "survey",
+            "explore"
+          ],
+          "antonyms": [
+            "ignore",
+            "overlook"
+          ]
+        },
+        {
+          "id": "sat-delve",
+          "word": "delve",
+          "partOfSpeech": "verb",
+          "definition": "To search deeply and thoroughly into a subject or source.",
+          "example": "The biographer delved into dusty archives to trace the poet's forgotten childhood.",
+          "mnemonic": "From Old English 'delfan', to dig — you dig down into a topic.",
+          "synonyms": [
+            "probe",
+            "investigate",
+            "dig"
+          ],
+          "antonyms": [
+            "skim",
+            "gloss over"
+          ]
+        },
+        {
+          "id": "sat-excavate",
+          "word": "excavate",
+          "partOfSpeech": "verb",
+          "definition": "To remove earth carefully in order to reveal buried remains or form a hole.",
+          "example": "Archaeologists spent the whole summer excavating the buried Roman bathhouse.",
+          "mnemonic": "ex- (out) + 'cave' — you hollow out a cave by digging.",
+          "synonyms": [
+            "dig",
+            "unearth",
+            "hollow out"
+          ],
+          "antonyms": [
+            "fill",
+            "bury"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-ascertain",
+          "word": "ascertain",
+          "partOfSpeech": "verb",
+          "definition": "To find out something with certainty through checking or inquiry.",
+          "example": "Doctors ran a battery of tests to ascertain the cause of her recurring fevers.",
+          "mnemonic": "Hear 'a-CERTAIN' inside it — to make a thing certain.",
+          "synonyms": [
+            "determine",
+            "confirm",
+            "verify"
+          ],
+          "antonyms": [
+            "guess",
+            "assume"
+          ]
+        },
+        {
+          "id": "sat-illuminate",
+          "word": "illuminate",
+          "partOfSpeech": "verb",
+          "definition": "To make something clear and understandable, or to light it up brightly.",
+          "example": "Her patient lecture illuminated a theory I had always found baffling.",
+          "mnemonic": "il-LUMEN-ate — 'lumen' is Latin for light.",
+          "synonyms": [
+            "clarify",
+            "enlighten",
+            "brighten"
+          ],
+          "antonyms": [
+            "obscure",
+            "darken",
+            "confuse"
+          ]
+        },
+        {
+          "id": "sat-voyage",
+          "word": "voyage",
+          "partOfSpeech": "noun",
+          "definition": "A long journey, usually made by sea or through space.",
+          "example": "The crew stocked the ship for a six-month voyage across the Pacific.",
+          "mnemonic": "From French 'voie' (way, road) — a long trip along the way.",
+          "synonyms": [
+            "journey",
+            "expedition",
+            "crossing"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-odyssey",
+          "word": "odyssey",
+          "partOfSpeech": "noun",
+          "definition": "A long, eventful journey full of changing fortunes and adventures.",
+          "example": "Her decade-long odyssey through refugee camps finally ended in a quiet town.",
+          "mnemonic": "From Homer's Odysseus, whose voyage home dragged on for ten years.",
+          "synonyms": [
+            "journey",
+            "quest",
+            "pilgrimage"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-foray",
+          "word": "foray",
+          "partOfSpeech": "noun",
+          "definition": "A brief first attempt at an activity outside one's usual field.",
+          "example": "The novelist's first foray into screenwriting genuinely surprised the critics.",
+          "mnemonic": "Sounds like 'for a day' — a short venture out and back.",
+          "synonyms": [
+            "venture",
+            "excursion",
+            "raid"
+          ],
+          "antonyms": [
+            "retreat",
+            "withdrawal"
+          ]
+        },
+        {
+          "id": "sat-vista",
+          "word": "vista",
+          "partOfSpeech": "noun",
+          "definition": "A pleasing wide view, often seen through a long narrow opening.",
+          "example": "From the mountain hut, a vista of glittering lakes opened up below them.",
+          "mnemonic": "Italian for 'view', from 'vedere', to see.",
+          "synonyms": [
+            "view",
+            "prospect",
+            "outlook"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-panorama",
+          "word": "panorama",
+          "partOfSpeech": "noun",
+          "definition": "An unbroken view of a wide area surrounding the observer.",
+          "example": "The rooftop bar offered a breathtaking panorama of the entire glittering city.",
+          "mnemonic": "pan- (all) + Greek 'horama' (view) — an all-around view.",
+          "synonyms": [
+            "vista",
+            "view",
+            "scene"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-uncharted",
+          "word": "uncharted",
+          "partOfSpeech": "adjective",
+          "definition": "Not yet mapped, explored, or recorded.",
+          "example": "The submarine drifted into uncharted trenches no vessel had ever reached before.",
+          "mnemonic": "un- + chart — a region with no chart (map) drawn for it yet.",
+          "synonyms": [
+            "unmapped",
+            "unexplored",
+            "unknown"
+          ],
+          "antonyms": [
+            "mapped",
+            "familiar",
+            "explored"
+          ]
+        },
+        {
+          "id": "sat-vantage",
+          "word": "vantage",
+          "partOfSpeech": "noun",
+          "definition": "A position giving a good view of or advantage over something.",
+          "example": "From his vantage on the hill, the general watched both armies wheel into place.",
+          "mnemonic": "It's 'advantage' with the 'ad' dropped — a position of advantage.",
+          "synonyms": [
+            "viewpoint",
+            "perspective",
+            "position"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-prospect",
+          "word": "prospect",
+          "partOfSpeech": "noun",
+          "definition": "The likelihood or expectation that something will happen in the future.",
+          "example": "The prospect of a promotion kept her working late every night.",
+          "mnemonic": "PRO + SPECT (to look): you look forward pro-actively at what lies ahead.",
+          "synonyms": [
+            "likelihood",
+            "expectation",
+            "possibility"
+          ],
+          "antonyms": [
+            "improbability",
+            "unlikelihood"
+          ]
+        },
+        {
+          "id": "sat-inquisitive",
+          "word": "inquisitive",
+          "partOfSpeech": "adjective",
+          "definition": "Eager to learn about things by asking many questions.",
+          "example": "The inquisitive toddler opened every drawer and asked 'why?' a hundred times.",
+          "mnemonic": "IN + QUIS (Latin 'to seek'): someone forever seeking answers, like a 'quiz' that never ends.",
+          "synonyms": [
+            "curious",
+            "probing",
+            "nosy"
+          ],
+          "antonyms": [
+            "indifferent",
+            "uninterested"
+          ]
+        },
+        {
+          "id": "sat-inquiry",
+          "word": "inquiry",
+          "partOfSpeech": "noun",
+          "definition": "An act of asking for information or a formal investigation.",
+          "example": "After the crash, the government launched an inquiry into what went wrong.",
+          "mnemonic": "Shares the root of 'query' and 'quest' (Latin quaerere, to seek) — a search for facts.",
+          "synonyms": [
+            "investigation",
+            "query",
+            "probe"
+          ],
+          "antonyms": [
+            "answer",
+            "reply"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-scrutiny",
+          "word": "scrutiny",
+          "partOfSpeech": "noun",
+          "definition": "Careful and detailed examination of something.",
+          "example": "Her tax returns came under intense scrutiny from the auditors.",
+          "mnemonic": "Sounds like 'SCREW-tiny': picture studying a tiny screw under a magnifying glass.",
+          "synonyms": [
+            "examination",
+            "inspection",
+            "analysis"
+          ],
+          "antonyms": [
+            "neglect",
+            "glance"
+          ]
+        },
+        {
+          "id": "sat-novelty",
+          "word": "novelty",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being fresh, original, or unusual.",
+          "example": "The novelty of the gadget wore off within a week, and it gathered dust.",
+          "mnemonic": "From Latin novus, 'new' — the same root as 'novel' and 'innovate.'",
+          "synonyms": [
+            "originality",
+            "freshness",
+            "newness"
+          ],
+          "antonyms": [
+            "familiarity",
+            "tradition"
+          ]
+        },
+        {
+          "id": "sat-savant",
+          "word": "savant",
+          "partOfSpeech": "noun",
+          "definition": "A person with deep knowledge or exceptional skill in a field.",
+          "example": "The chess savant could recall every move of games played decades ago.",
+          "mnemonic": "From French savoir, 'to know' — sounds like 'savvy,' someone who truly knows.",
+          "synonyms": [
+            "expert",
+            "genius",
+            "scholar"
+          ],
+          "antonyms": [
+            "amateur",
+            "novice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-sage",
+          "word": "sage",
+          "partOfSpeech": "noun",
+          "definition": "A person respected for deep wisdom and sound judgment.",
+          "example": "Villagers climbed the mountain to ask the old sage for advice.",
+          "mnemonic": "Grey like the sage herb and a wise elder's beard — calm, seasoned, knowing.",
+          "synonyms": [
+            "wise man",
+            "philosopher",
+            "oracle"
+          ],
+          "antonyms": [
+            "fool",
+            "ignoramus"
+          ]
+        },
+        {
+          "id": "sat-profuse",
+          "word": "profuse",
+          "partOfSpeech": "adjective",
+          "definition": "Produced or existing in very large amounts.",
+          "example": "She offered profuse apologies, thanking everyone over and over.",
+          "mnemonic": "PRO + FUSE (Latin fundere, to pour): liquids pouring out freely and overflowing.",
+          "synonyms": [
+            "abundant",
+            "copious",
+            "lavish"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse",
+            "meager"
+          ]
+        },
+        {
+          "id": "sat-cornucopia",
+          "word": "cornucopia",
+          "partOfSpeech": "noun",
+          "definition": "An overflowing, abundant supply of good things.",
+          "example": "The autumn market was a cornucopia of pumpkins, apples, and squash.",
+          "mnemonic": "The 'horn of plenty' (cornu = horn): a curved horn spilling out corn and fruit.",
+          "synonyms": [
+            "abundance",
+            "plenty",
+            "wealth"
+          ],
+          "antonyms": [
+            "scarcity",
+            "dearth",
+            "lack"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-trove",
+          "word": "trove",
+          "partOfSpeech": "noun",
+          "definition": "A valuable collection of discovered or hidden items.",
+          "example": "The dusty attic held a trove of rare coins and old love letters.",
+          "mnemonic": "From 'treasure trove' — 'trove' comes from French trouver, to find.",
+          "synonyms": [
+            "hoard",
+            "cache",
+            "collection"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-reservoir",
+          "word": "reservoir",
+          "partOfSpeech": "noun",
+          "definition": "A large supply or store of something kept for later use.",
+          "example": "Years of reading gave him a deep reservoir of obscure facts.",
+          "mnemonic": "It holds water in RESERVE — 'reserve' + oir.",
+          "synonyms": [
+            "store",
+            "supply",
+            "stock"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-repository",
+          "word": "repository",
+          "partOfSpeech": "noun",
+          "definition": "A place or container where things are stored or kept.",
+          "example": "The library serves as a repository for the town's historical records.",
+          "mnemonic": "RE + POSIT (to place): the spot where you deposit and re-place things.",
+          "synonyms": [
+            "store",
+            "depot",
+            "warehouse"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-compendium",
+          "word": "compendium",
+          "partOfSpeech": "noun",
+          "definition": "A concise collection of detailed information on a subject.",
+          "example": "The guidebook is a compendium of every hiking trail in the region.",
+          "mnemonic": "'Compile' + 'dium': knowledge compiled and weighed together into one handy volume.",
+          "synonyms": [
+            "digest",
+            "handbook",
+            "summary"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-tome",
+          "word": "tome",
+          "partOfSpeech": "noun",
+          "definition": "A large, heavy, and often scholarly book.",
+          "example": "He lugged a thousand-page tome on medieval history to class.",
+          "mnemonic": "Rhymes with 'home' — so huge it could fill a whole home shelf by itself.",
+          "synonyms": [
+            "volume",
+            "book"
+          ],
+          "antonyms": [
+            "pamphlet",
+            "leaflet"
+          ]
+        },
+        {
+          "id": "sat-dissertation",
+          "word": "dissertation",
+          "partOfSpeech": "noun",
+          "definition": "A long, formal written work based on original research.",
+          "example": "She spent three years writing her doctoral dissertation on bee behavior.",
+          "mnemonic": "'Discuss' at length: you dis-sert (set forth) a topic fully to earn a degree.",
+          "synonyms": [
+            "thesis",
+            "treatise",
+            "essay"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-taxonomy",
+          "word": "taxonomy",
+          "partOfSpeech": "noun",
+          "definition": "A system for classifying things into ordered groups based on shared traits.",
+          "example": "The biologist spent years refining the taxonomy that sorts beetles into families and genera.",
+          "mnemonic": "Sounds like 'tax on me' — a government sorting citizens into income brackets is a classification scheme.",
+          "synonyms": [
+            "classification",
+            "categorization",
+            "systematics"
+          ],
+          "antonyms": [
+            "disorder",
+            "jumble"
+          ]
+        },
+        {
+          "id": "sat-lexicon",
+          "word": "lexicon",
+          "partOfSpeech": "noun",
+          "definition": "The full stock of words known or used in a language or by one person.",
+          "example": "Every new field forces you to learn its lexicon before the meetings start to make sense.",
+          "mnemonic": "'Lex' is Latin for word or law, plus 'icon' — a book full of word-icons.",
+          "synonyms": [
+            "vocabulary",
+            "wordstock",
+            "glossary"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-nomenclature",
+          "word": "nomenclature",
+          "partOfSpeech": "noun",
+          "definition": "A formal system of names used within a particular field or discipline.",
+          "example": "Chemistry's nomenclature turns a tangle of atoms into a single unambiguous name.",
+          "mnemonic": "Latin 'nomen' (name) + 'clature' (to call) — literally the business of naming.",
+          "synonyms": [
+            "terminology",
+            "naming system"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-idiom",
+          "word": "idiom",
+          "partOfSpeech": "noun",
+          "definition": "A phrase whose meaning cannot be guessed from its individual words.",
+          "example": "'Kick the bucket' baffled the exchange student until someone explained the idiom meant to die.",
+          "mnemonic": "Sounds like 'I dim' — the literal sense goes dim, and only the figurative one shines.",
+          "synonyms": [
+            "expression",
+            "saying",
+            "phrase"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-dialect",
+          "word": "dialect",
+          "partOfSpeech": "noun",
+          "definition": "A regional or social variety of a language with distinct words and pronunciation.",
+          "example": "Her grandmother's mountain dialect used words the city cousins had never heard.",
+          "mnemonic": "'Dia-' (across) + 'lect' (speak) — how speech shifts as you move across a region.",
+          "synonyms": [
+            "vernacular",
+            "variety",
+            "patois"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-subtlety",
+          "word": "subtlety",
+          "partOfSpeech": "noun",
+          "definition": "A fine, easily missed detail or a delicate distinction.",
+          "example": "The joke's subtlety went over their heads, so nobody in the room laughed.",
+          "mnemonic": "'Subtle' hides a silent 'b' — the letter itself is a small detail you almost miss.",
+          "synonyms": [
+            "nuance",
+            "delicacy",
+            "refinement"
+          ],
+          "antonyms": [
+            "obviousness",
+            "bluntness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-continuum",
+          "word": "continuum",
+          "partOfSpeech": "noun",
+          "definition": "A continuous sequence in which adjacent parts differ only slightly.",
+          "example": "Gender, the professor argued, is better pictured as a continuum than as two boxes.",
+          "mnemonic": "'Continue' + 'um' — something that just keeps continuing with no breaks.",
+          "synonyms": [
+            "spectrum",
+            "gradient",
+            "range"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-trajectory",
+          "word": "trajectory",
+          "partOfSpeech": "noun",
+          "definition": "The curved path an object or process follows through space or time.",
+          "example": "After the promotion, her career's trajectory pointed straight toward the boardroom.",
+          "mnemonic": "Say it 'tra-JET-ory' — picture a jet's arcing flight path across the sky.",
+          "synonyms": [
+            "path",
+            "course",
+            "arc"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-exhaustive",
+          "word": "exhaustive",
+          "partOfSpeech": "adjective",
+          "definition": "Including every possible detail; thoroughly complete.",
+          "example": "The detective's exhaustive search left not a single drawer unopened.",
+          "mnemonic": "Think 'exhaust' — you use up every option until the tank is empty.",
+          "synonyms": [
+            "thorough",
+            "comprehensive",
+            "complete"
+          ],
+          "antonyms": [
+            "cursory",
+            "superficial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-apprehend",
+          "word": "apprehend",
+          "partOfSpeech": "verb",
+          "definition": "To seize a suspect in custody, or to grasp the meaning of something.",
+          "example": "Officers moved quietly to apprehend the burglar before he reached the fence.",
+          "mnemonic": "Sounds like 'app-a-hand' — a hand reaching out to grab a crook, or to grab an idea.",
+          "synonyms": [
+            "arrest",
+            "seize",
+            "grasp"
+          ],
+          "antonyms": [
+            "release",
+            "misunderstand"
+          ]
+        },
+        {
+          "id": "sat-unravel",
+          "word": "unravel",
+          "partOfSpeech": "verb",
+          "definition": "To solve something complicated, or to come apart thread by thread.",
+          "example": "It took three seasons for the show to unravel who the killer really was.",
+          "mnemonic": "'Un-' + 'ravel' — picture pulling one loose thread until the whole sweater comes apart.",
+          "synonyms": [
+            "untangle",
+            "solve",
+            "disentangle"
+          ],
+          "antonyms": [
+            "tangle",
+            "complicate"
+          ]
+        },
+        {
+          "id": "sat-plumb",
+          "word": "plumb",
+          "partOfSpeech": "verb",
+          "definition": "To explore or measure the full depth of something.",
+          "example": "Years of therapy let him plumb feelings he had buried since childhood.",
+          "mnemonic": "A plumber drops a lead 'plumb' weight on a line to measure how deep the water runs.",
+          "synonyms": [
+            "fathom",
+            "probe",
+            "sound"
+          ],
+          "antonyms": [
+            "skim",
+            "graze"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-winnow",
+          "word": "winnow",
+          "partOfSpeech": "verb",
+          "definition": "To narrow a large group down to the best or essential few.",
+          "example": "The committee had to winnow two hundred applicants down to a shortlist of five.",
+          "mnemonic": "'Winner' + 'now' — you keep the winners and let the wind blow the useless husks away.",
+          "synonyms": [
+            "sift",
+            "cull",
+            "filter"
+          ],
+          "antonyms": [
+            "augment",
+            "expand"
+          ]
+        },
+        {
+          "id": "sat-scour",
+          "word": "scour",
+          "partOfSpeech": "verb",
+          "definition": "To search a place thoroughly, or to clean by hard rubbing.",
+          "example": "They scoured the beach at dawn for the ring she had lost in the sand.",
+          "mnemonic": "Sounds like 'scout' + 'hour' — you scout every inch of a place for an hour.",
+          "synonyms": [
+            "comb",
+            "search",
+            "scrub"
+          ],
+          "antonyms": [
+            "glance",
+            "ignore"
+          ]
+        },
+        {
+          "id": "sat-presage",
+          "word": "presage",
+          "partOfSpeech": "verb",
+          "definition": "To warn of or point toward something that will happen later.",
+          "example": "The still, heavy air seemed to presage a violent storm before nightfall.",
+          "mnemonic": "'Pre-' (before) + 'sage' (a wise seer) — a sage who foretells before it happens.",
+          "synonyms": [
+            "foreshadow",
+            "portend",
+            "herald"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-serendipity",
+          "word": "serendipity",
+          "partOfSpeech": "noun",
+          "definition": "The good fortune of stumbling upon something valuable or delightful entirely by chance.",
+          "example": "Finding my favorite bookshop while lost on a side street was pure serendipity.",
+          "mnemonic": "From the fairy tale 'The Three Princes of Serendip,' who kept making lucky discoveries by accident.",
+          "synonyms": [
+            "luck",
+            "fluke",
+            "happy accident"
+          ],
+          "antonyms": [
+            "misfortune",
+            "design"
+          ]
+        },
+        {
+          "id": "sat-serendipitous",
+          "word": "serendipitous",
+          "partOfSpeech": "adjective",
+          "definition": "Occurring by a lucky, unplanned chance in a welcome and pleasant way.",
+          "example": "Our serendipitous meeting at the airport gate grew into a lifelong friendship.",
+          "mnemonic": "Same root as the Princes of Serendip — describes the moment a happy accident lands in your lap.",
+          "synonyms": [
+            "fortunate",
+            "chance",
+            "fortuitous"
+          ],
+          "antonyms": [
+            "planned",
+            "unlucky"
+          ]
+        },
+        {
+          "id": "sat-venturesome",
+          "word": "venturesome",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to take risks and eager to try daring or bold new things.",
+          "example": "The venturesome hikers ignored the paved trail and scrambled up the unmarked ridge instead.",
+          "mnemonic": "'Venture' + '-some' — someone brimming with the urge to venture into the unknown.",
+          "synonyms": [
+            "daring",
+            "adventurous",
+            "bold"
+          ],
+          "antonyms": [
+            "cautious",
+            "timid"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-auspicious",
+          "word": "auspicious",
+          "partOfSpeech": "adjective",
+          "definition": "Showing signs that promise success or good things to come.",
+          "example": "A bright, cloudless sky on moving day felt like an auspicious start to their new life.",
+          "mnemonic": "From the Roman 'auspex,' a priest who read good omens in the flight of birds.",
+          "synonyms": [
+            "promising",
+            "favorable",
+            "encouraging"
+          ],
+          "antonyms": [
+            "ominous",
+            "unfavorable"
+          ]
+        },
+        {
+          "id": "sat-seminal",
+          "word": "seminal",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly shaping later developments by serving as an original source of ideas.",
+          "example": "Darwin's seminal book reshaped how every biologist after him understood living things.",
+          "mnemonic": "Shares its root with 'semen/seed' — a work that plants seeds which grow into a whole field.",
+          "synonyms": [
+            "influential",
+            "groundbreaking",
+            "formative"
+          ],
+          "antonyms": [
+            "derivative",
+            "trivial"
+          ]
+        },
+        {
+          "id": "sat-epiphany",
+          "word": "epiphany",
+          "partOfSpeech": "noun",
+          "definition": "A sudden, striking realization that makes something confusing instantly clear.",
+          "example": "Halfway through her shower, she had an epiphany about how to fix the broken ending.",
+          "mnemonic": "Picture a light bulb flashing on — a tiny 'pip' of insight that suddenly illuminates everything.",
+          "synonyms": [
+            "revelation",
+            "insight",
+            "eureka moment"
+          ],
+          "antonyms": [
+            "confusion",
+            "bewilderment"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-indefatigable",
+          "word": "indefatigable",
+          "partOfSpeech": "adjective",
+          "definition": "Never getting tired; able to keep going with seemingly endless energy.",
+          "example": "The indefatigable nurse worked three straight shifts and never once lost her cheer.",
+          "mnemonic": "Break it down: 'in-' (not) + 'defatigable' (able to be worn out) — literally cannot be exhausted.",
+          "synonyms": [
+            "tireless",
+            "untiring",
+            "relentless"
+          ],
+          "antonyms": [
+            "lazy",
+            "weary"
+          ]
+        },
+        {
+          "id": "sat-avid",
+          "word": "avid",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely eager and enthusiastic about a particular interest or pursuit.",
+          "example": "An avid reader, he devoured four thick novels during a single week of vacation.",
+          "mnemonic": "'Avid' sounds like 'have it' — an avid fan has simply GOT to have it.",
+          "synonyms": [
+            "keen",
+            "enthusiastic",
+            "ardent"
+          ],
+          "antonyms": [
+            "indifferent",
+            "apathetic"
+          ]
+        },
+        {
+          "id": "sat-yearn",
+          "word": "yearn",
+          "partOfSpeech": "verb",
+          "definition": "To feel a deep, aching desire for something or someone.",
+          "example": "Stuck in the crowded city, she yearned for the quiet fields of her childhood.",
+          "mnemonic": "'Yearn' sounds like 'earn' — you long for it so badly you'd earn it any way you could.",
+          "synonyms": [
+            "long",
+            "crave",
+            "pine"
+          ],
+          "antonyms": [
+            "dread",
+            "spurn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-unveil",
+          "word": "unveil",
+          "partOfSpeech": "verb",
+          "definition": "To reveal or make publicly known something that was previously hidden.",
+          "example": "The mayor will unveil the new bronze statue at tomorrow morning's ceremony.",
+          "mnemonic": "'un-' + 'veil' — lift the veil off something to show what lies underneath.",
+          "synonyms": [
+            "reveal",
+            "disclose",
+            "present"
+          ],
+          "antonyms": [
+            "conceal",
+            "hide"
+          ]
+        },
+        {
+          "id": "sat-prodigious",
+          "word": "prodigious",
+          "partOfSpeech": "adjective",
+          "definition": "Remarkably great in size, amount, or degree; strikingly impressive.",
+          "example": "The young pianist showed prodigious talent, mastering pieces that stumped seasoned adults.",
+          "mnemonic": "Think 'prodigy' — a prodigy displays impressively enormous, jaw-dropping ability.",
+          "synonyms": [
+            "enormous",
+            "immense",
+            "extraordinary"
+          ],
+          "antonyms": [
+            "tiny",
+            "meager"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T22:39:53.768Z"
+}

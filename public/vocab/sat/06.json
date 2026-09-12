@@ -1,0 +1,1736 @@
+{
+  "track": "sat",
+  "ordinal": 6,
+  "title": "Change over time",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-transient",
+          "word": "transient",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only a brief while before passing or disappearing.",
+          "example": "The hostel was full of transient guests who moved on after a single night.",
+          "mnemonic": "Sounds like 'transit' — a passenger just passing through, never staying.",
+          "synonyms": [
+            "fleeting",
+            "temporary",
+            "momentary"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "sat-ephemeral",
+          "word": "ephemeral",
+          "partOfSpeech": "adjective",
+          "definition": "Existing or useful for only a markedly short period.",
+          "example": "Mayflies lead an ephemeral existence, dying within a day of hatching.",
+          "mnemonic": "From Greek 'ephemeros' (lasting a day) — picture a diary entry that expires by nightfall.",
+          "synonyms": [
+            "short-lived",
+            "fleeting",
+            "transient"
+          ],
+          "antonyms": [
+            "permanent",
+            "everlasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "sat-fleeting",
+          "word": "fleeting",
+          "partOfSpeech": "adjective",
+          "definition": "Passing swiftly and gone almost at once.",
+          "example": "She caught a fleeting glimpse of the deer before it bolted into the trees.",
+          "mnemonic": "Fleeting = 'fleeing' — it runs away before you can hold it.",
+          "synonyms": [
+            "brief",
+            "momentary",
+            "transient"
+          ],
+          "antonyms": [
+            "lasting",
+            "permanent",
+            "enduring"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-transitory",
+          "word": "transitory",
+          "partOfSpeech": "adjective",
+          "definition": "Existing only briefly and soon over.",
+          "example": "His fame proved transitory, forgotten within a single season.",
+          "mnemonic": "Like a 'transit' station — you are only there in passing.",
+          "synonyms": [
+            "temporary",
+            "fleeting",
+            "short-lived"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "sat-evanescent",
+          "word": "evanescent",
+          "partOfSpeech": "adjective",
+          "definition": "Quickly fading from sight, sound, or memory.",
+          "example": "The evanescent scent of the perfume was gone before she reached the door.",
+          "mnemonic": "'Vanish' hides inside it — e-VANESC-ent.",
+          "synonyms": [
+            "fading",
+            "fleeting",
+            "ephemeral"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "sat-perpetual",
+          "word": "perpetual",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing forever without interruption.",
+          "example": "The waterfall's perpetual roar never let the campers sleep.",
+          "mnemonic": "Think of a 'perpetual-motion' machine that runs through all time.",
+          "synonyms": [
+            "everlasting",
+            "endless",
+            "unceasing"
+          ],
+          "antonyms": [
+            "temporary",
+            "brief",
+            "fleeting"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-incessant",
+          "word": "incessant",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing without any pause or break.",
+          "example": "The incessant dripping of the tap kept him awake all night.",
+          "mnemonic": "'In-' (not) + 'cess' (cease) — it never ceases.",
+          "synonyms": [
+            "constant",
+            "relentless",
+            "unremitting"
+          ],
+          "antonyms": [
+            "intermittent",
+            "occasional",
+            "sporadic"
+          ]
+        },
+        {
+          "id": "sat-ceaseless",
+          "word": "ceaseless",
+          "partOfSpeech": "adjective",
+          "definition": "Going on and on without ever stopping.",
+          "example": "The ceaseless waves battered the cliff face for centuries.",
+          "mnemonic": "'Cease' + 'less' — literally without any stopping.",
+          "synonyms": [
+            "constant",
+            "endless",
+            "unremitting"
+          ],
+          "antonyms": [
+            "intermittent",
+            "sporadic",
+            "occasional"
+          ]
+        },
+        {
+          "id": "sat-enduring",
+          "word": "enduring",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing strongly over a long stretch of time.",
+          "example": "Their enduring friendship survived decades and three continents.",
+          "mnemonic": "'En-during' — it holds up 'during' all the hard times.",
+          "synonyms": [
+            "lasting",
+            "durable",
+            "persistent"
+          ],
+          "antonyms": [
+            "fleeting",
+            "transient",
+            "ephemeral"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-permanent",
+          "word": "permanent",
+          "partOfSpeech": "adjective",
+          "definition": "Meant to last indefinitely without change or end.",
+          "example": "After years of short contracts, she finally landed a permanent job.",
+          "mnemonic": "'Per-' (through) + 'man' — a man-made monument built to stay through time.",
+          "synonyms": [
+            "lasting",
+            "enduring",
+            "fixed"
+          ],
+          "antonyms": [
+            "temporary",
+            "fleeting",
+            "transient"
+          ]
+        },
+        {
+          "id": "sat-static",
+          "word": "static",
+          "partOfSpeech": "adjective",
+          "definition": "Not moving, active, or changing.",
+          "example": "The negotiations stayed static for weeks, with neither side budging.",
+          "mnemonic": "A 'statue' is static — frozen in one pose.",
+          "synonyms": [
+            "motionless",
+            "unchanging",
+            "fixed"
+          ],
+          "antonyms": [
+            "dynamic",
+            "changing",
+            "moving"
+          ]
+        },
+        {
+          "id": "sat-dynamic",
+          "word": "dynamic",
+          "partOfSpeech": "adjective",
+          "definition": "Full of energy, motion, and constant change.",
+          "example": "The startup's dynamic culture reinvented itself every few months.",
+          "mnemonic": "Think 'dynamite' — bursting with energy and force.",
+          "synonyms": [
+            "energetic",
+            "active",
+            "vibrant"
+          ],
+          "antonyms": [
+            "static",
+            "stagnant",
+            "inert"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-evolve",
+          "word": "evolve",
+          "partOfSpeech": "verb",
+          "definition": "To develop gradually into a different or better state.",
+          "example": "Their garage band slowly evolved into a stadium-filling act.",
+          "mnemonic": "'E-volve' — picture a 'volume' knob turning up step by step.",
+          "synonyms": [
+            "develop",
+            "progress",
+            "mature"
+          ],
+          "antonyms": [
+            "stagnate",
+            "regress",
+            "deteriorate"
+          ]
+        },
+        {
+          "id": "sat-transform",
+          "word": "transform",
+          "partOfSpeech": "verb",
+          "definition": "To change something completely in shape or nature.",
+          "example": "A single coat of paint can transform a dingy room into a bright one.",
+          "mnemonic": "'Trans-' (across) + 'form' — carry a form across to a whole new shape.",
+          "synonyms": [
+            "convert",
+            "alter",
+            "remake"
+          ],
+          "antonyms": [
+            "preserve",
+            "maintain",
+            "retain"
+          ]
+        },
+        {
+          "id": "sat-metamorphosis",
+          "word": "metamorphosis",
+          "partOfSpeech": "noun",
+          "definition": "A complete change of form or character.",
+          "example": "The caterpillar's metamorphosis into a butterfly amazed the children.",
+          "mnemonic": "Greek 'meta' (change) + 'morph' (shape) — a changing of shape.",
+          "synonyms": [
+            "transformation",
+            "conversion",
+            "changeover"
+          ],
+          "antonyms": [
+            "stasis",
+            "permanence",
+            "stagnation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-mutable",
+          "word": "mutable",
+          "partOfSpeech": "adjective",
+          "definition": "Capable of being altered or transformed over time.",
+          "example": "Unlike a printed book, a shared online document is mutable, so any editor can rewrite it.",
+          "mnemonic": "Shares a root with 'mutate' — like a virus that mutates, a mutable thing keeps shifting shape.",
+          "synonyms": [
+            "changeable",
+            "variable",
+            "adaptable"
+          ],
+          "antonyms": [
+            "fixed",
+            "permanent",
+            "constant"
+          ]
+        },
+        {
+          "id": "sat-immutable",
+          "word": "immutable",
+          "partOfSpeech": "adjective",
+          "definition": "Fixed and permanently incapable of being altered.",
+          "example": "The laws of physics feel immutable: gravity behaves the same way today as it did a billion years ago.",
+          "mnemonic": "'im-' means 'not' + 'mutable' (changeable) — literally 'not changeable,' locked forever.",
+          "synonyms": [
+            "unchangeable",
+            "permanent",
+            "fixed"
+          ],
+          "antonyms": [
+            "changeable",
+            "variable",
+            "flexible"
+          ]
+        },
+        {
+          "id": "sat-flux",
+          "word": "flux",
+          "partOfSpeech": "noun",
+          "definition": "A state of constant motion, shifting, and instability.",
+          "example": "The startup's plans were in such flux that no one knew the strategy from one week to the next.",
+          "mnemonic": "Sounds like 'flush' — water flushing and flowing, never staying still.",
+          "synonyms": [
+            "turmoil",
+            "instability",
+            "fluctuation"
+          ],
+          "antonyms": [
+            "stability",
+            "stasis",
+            "permanence"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-gradual",
+          "word": "gradual",
+          "partOfSpeech": "adjective",
+          "definition": "Happening slowly by small steps over a long period.",
+          "example": "Her recovery was gradual; she regained a little more strength each week rather than all at once.",
+          "mnemonic": "Hidden 'grade' — like a gentle grade on a ramp, you rise a little at a time.",
+          "synonyms": [
+            "progressive",
+            "incremental",
+            "steady"
+          ],
+          "antonyms": [
+            "sudden",
+            "abrupt",
+            "instant"
+          ]
+        },
+        {
+          "id": "sat-abrupt",
+          "word": "abrupt",
+          "partOfSpeech": "adjective",
+          "definition": "Sudden and unexpected, without any warning or transition.",
+          "example": "The music's abrupt stop left the dancers frozen mid-step, unsure what had happened.",
+          "mnemonic": "'A-BRUPT' sounds like 'a rupture' — something that snaps open suddenly.",
+          "synonyms": [
+            "sudden",
+            "unexpected",
+            "hasty"
+          ],
+          "antonyms": [
+            "gradual",
+            "gentle",
+            "expected"
+          ]
+        },
+        {
+          "id": "sat-obsolete",
+          "word": "obsolete",
+          "partOfSpeech": "adjective",
+          "definition": "No longer produced, used, or considered current.",
+          "example": "Floppy disks are so obsolete that most new computers can't even read them anymore.",
+          "mnemonic": "'Oh, so late!' — it showed up too late to still be useful, already left behind.",
+          "synonyms": [
+            "outdated",
+            "outmoded",
+            "defunct"
+          ],
+          "antonyms": [
+            "current",
+            "modern",
+            "cutting-edge"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-antiquated",
+          "word": "antiquated",
+          "partOfSpeech": "adjective",
+          "definition": "Old-fashioned and outdated compared with modern standards.",
+          "example": "The office still ran on an antiquated fax system while competitors had moved to instant messaging.",
+          "mnemonic": "Contains 'antique' — belongs in an antique shop, not in use today.",
+          "synonyms": [
+            "archaic",
+            "outdated",
+            "old-fashioned"
+          ],
+          "antonyms": [
+            "modern",
+            "current",
+            "up-to-date"
+          ]
+        },
+        {
+          "id": "sat-decay",
+          "word": "decay",
+          "partOfSpeech": "verb",
+          "definition": "To rot or break down slowly into a worse condition.",
+          "example": "The abandoned barn began to decay, its roof caving in a little more each rainy season.",
+          "mnemonic": "'De-' (down) + 'cay' sounds like 'cake' left out — a cake going bad and falling apart.",
+          "synonyms": [
+            "rot",
+            "spoil",
+            "crumble"
+          ],
+          "antonyms": [
+            "flourish",
+            "grow",
+            "thrive"
+          ]
+        },
+        {
+          "id": "sat-deteriorate",
+          "word": "deteriorate",
+          "partOfSpeech": "verb",
+          "definition": "To become progressively worse in quality or condition.",
+          "example": "Without regular maintenance, the roads deteriorate until they are full of potholes.",
+          "mnemonic": "Hear 'deter' at the start — conditions get so bad they deter you from staying.",
+          "synonyms": [
+            "worsen",
+            "degrade",
+            "decline"
+          ],
+          "antonyms": [
+            "improve",
+            "recover",
+            "strengthen"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-degenerate",
+          "word": "degenerate",
+          "partOfSpeech": "verb",
+          "definition": "To sink into a lower, worse, or less functional state.",
+          "example": "The calm debate began to degenerate into shouting once tempers flared.",
+          "mnemonic": "'De-' (down) + 'generate' — instead of generating up, it generates downward into something worse.",
+          "synonyms": [
+            "worsen",
+            "decline",
+            "deteriorate"
+          ],
+          "antonyms": [
+            "improve",
+            "develop",
+            "advance"
+          ]
+        },
+        {
+          "id": "sat-erode",
+          "word": "erode",
+          "partOfSpeech": "verb",
+          "definition": "To wear away gradually through steady natural forces.",
+          "example": "Years of crashing waves erode the cliff, carrying grains of rock into the sea.",
+          "mnemonic": "'E-rode' — the road got ridden over so many times it wore down to nothing.",
+          "synonyms": [
+            "wear away",
+            "abrade",
+            "corrode"
+          ],
+          "antonyms": [
+            "build up",
+            "accumulate",
+            "reinforce"
+          ]
+        },
+        {
+          "id": "sat-atrophy",
+          "word": "atrophy",
+          "partOfSpeech": "verb",
+          "definition": "To waste away, especially from lack of use or nourishment.",
+          "example": "After weeks in a cast, the muscles in his arm began to atrophy and grew visibly thinner.",
+          "mnemonic": "'A-trophy' — no trophy, no training; the unused muscle shrinks away.",
+          "synonyms": [
+            "waste away",
+            "shrivel",
+            "weaken"
+          ],
+          "antonyms": [
+            "strengthen",
+            "grow",
+            "develop"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-wither",
+          "word": "wither",
+          "partOfSpeech": "verb",
+          "definition": "To dry up, shrivel, and lose freshness or vitality.",
+          "example": "Left unwatered in the heat, the flowers began to wither and droop over the pot's edge.",
+          "mnemonic": "Sounds like 'weather' — harsh weather makes a plant shrivel and fade.",
+          "synonyms": [
+            "shrivel",
+            "wilt",
+            "dry up"
+          ],
+          "antonyms": [
+            "bloom",
+            "flourish",
+            "thrive"
+          ]
+        },
+        {
+          "id": "sat-decline",
+          "word": "decline",
+          "partOfSpeech": "verb",
+          "definition": "To decrease steadily in strength, amount, or quality.",
+          "example": "Ticket sales continued to decline every year until the theater finally closed.",
+          "mnemonic": "'De-' (down) + 'cline' (lean/slope) — leaning downhill, sliding lower and lower.",
+          "synonyms": [
+            "decrease",
+            "diminish",
+            "dwindle"
+          ],
+          "antonyms": [
+            "increase",
+            "rise",
+            "grow"
+          ]
+        },
+        {
+          "id": "sat-regress",
+          "word": "regress",
+          "partOfSpeech": "verb",
+          "definition": "To return to an earlier, less developed or worse condition.",
+          "example": "Under stress, the toddler would regress and start using baby talk he had outgrown.",
+          "mnemonic": "'Re-' (back) + 'gress' (step, as in 'progress') — stepping backward instead of forward.",
+          "synonyms": [
+            "revert",
+            "backslide",
+            "relapse"
+          ],
+          "antonyms": [
+            "progress",
+            "advance",
+            "develop"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-mature",
+          "word": "mature",
+          "partOfSpeech": "verb",
+          "definition": "To grow into a fully developed adult or finished state over time.",
+          "example": "The wine was left in oak barrels to mature for a decade before bottling.",
+          "mnemonic": "Sounds like 'ma-TOUR' — like a mother who has fully grown into her role after a long tour of life.",
+          "synonyms": [
+            "develop",
+            "age",
+            "ripen"
+          ],
+          "antonyms": [
+            "regress",
+            "wither"
+          ]
+        },
+        {
+          "id": "sat-ripen",
+          "word": "ripen",
+          "partOfSpeech": "verb",
+          "definition": "To become fully grown and ready to eat, usually said of fruit.",
+          "example": "We left the green tomatoes on the windowsill so they would ripen in the sun.",
+          "mnemonic": "'Rip' + 'en' — you rip open a fruit only when it's ready, and 'en' means to make it so.",
+          "synonyms": [
+            "mellow",
+            "mature"
+          ],
+          "antonyms": [
+            "rot",
+            "spoil"
+          ]
+        },
+        {
+          "id": "sat-flourish",
+          "word": "flourish",
+          "partOfSpeech": "verb",
+          "definition": "To grow strongly and succeed, especially under good conditions.",
+          "example": "With plenty of rain and sun, the garden began to flourish in a riot of color.",
+          "mnemonic": "Hear 'flour' in it — add flour and a bakery's business booms and grows.",
+          "synonyms": [
+            "thrive",
+            "prosper",
+            "bloom"
+          ],
+          "antonyms": [
+            "wither",
+            "decline"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-thrive",
+          "word": "thrive",
+          "partOfSpeech": "verb",
+          "definition": "To do very well and grow vigorously, physically or financially.",
+          "example": "Some cacti thrive in the desert where almost nothing else can survive.",
+          "mnemonic": "Rhymes with 'drive' — a driven person, full of energy, powers ahead and does great.",
+          "synonyms": [
+            "flourish",
+            "prosper",
+            "boom"
+          ],
+          "antonyms": [
+            "languish",
+            "struggle"
+          ]
+        },
+        {
+          "id": "sat-stagnate",
+          "word": "stagnate",
+          "partOfSpeech": "verb",
+          "definition": "To stop moving, growing, or developing and become dull or inactive.",
+          "example": "Without new investment, the town's economy began to stagnate and shops closed.",
+          "mnemonic": "A 'stagnant' pond — water that sits still, goes green, and never flows anywhere.",
+          "synonyms": [
+            "idle",
+            "languish"
+          ],
+          "antonyms": [
+            "flourish",
+            "progress"
+          ]
+        },
+        {
+          "id": "sat-languish",
+          "word": "languish",
+          "partOfSpeech": "verb",
+          "definition": "To lose strength or vitality and remain in an unpleasant, neglected situation.",
+          "example": "The proposal was left to languish in a drawer for years before anyone read it.",
+          "mnemonic": "Sounds like 'anguish' — someone weak and suffering, slowly fading with no help.",
+          "synonyms": [
+            "wither",
+            "flag",
+            "decline"
+          ],
+          "antonyms": [
+            "thrive",
+            "flourish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-revive",
+          "word": "revive",
+          "partOfSpeech": "verb",
+          "definition": "To bring something back to life, use, or awareness after it has faded.",
+          "example": "A splash of cold water helped revive the fainting runner at the finish line.",
+          "mnemonic": "'Re-' (again) + 'vive' (life, as in 'vivid') — to give life again.",
+          "synonyms": [
+            "resurrect",
+            "reawaken"
+          ],
+          "antonyms": [
+            "kill",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-rejuvenate",
+          "word": "rejuvenate",
+          "partOfSpeech": "verb",
+          "definition": "To make someone or something feel young, fresh, or energetic again.",
+          "example": "A week by the sea seemed to rejuvenate my exhausted grandmother completely.",
+          "mnemonic": "Contains 'juven' (as in 'juvenile' = young) — to make young once more.",
+          "synonyms": [
+            "refresh",
+            "revitalize"
+          ],
+          "antonyms": [
+            "exhaust",
+            "age"
+          ]
+        },
+        {
+          "id": "sat-renew",
+          "word": "renew",
+          "partOfSpeech": "verb",
+          "definition": "To begin something again or extend it for a further period.",
+          "example": "I had to renew my library card because it expired last month.",
+          "mnemonic": "'Re-' (again) + 'new' — to make new again.",
+          "synonyms": [
+            "extend",
+            "resume",
+            "refresh"
+          ],
+          "antonyms": [
+            "cancel",
+            "end"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-restore",
+          "word": "restore",
+          "partOfSpeech": "verb",
+          "definition": "To bring something back to its original or former good condition.",
+          "example": "Experts spent two years working to restore the faded fresco on the chapel ceiling.",
+          "mnemonic": "'Re-' + 'store' — to put something back in the store, or back the way it was.",
+          "synonyms": [
+            "repair",
+            "reinstate",
+            "mend"
+          ],
+          "antonyms": [
+            "damage",
+            "ruin"
+          ]
+        },
+        {
+          "id": "sat-resurgence",
+          "word": "resurgence",
+          "partOfSpeech": "noun",
+          "definition": "A fresh rise or return of something after a period of decline.",
+          "example": "Vinyl records have seen a surprising resurgence among younger music fans.",
+          "mnemonic": "Hear 'surge' inside — a wave that had fallen suddenly surges upward again.",
+          "synonyms": [
+            "revival",
+            "comeback",
+            "rebirth"
+          ],
+          "antonyms": [
+            "decline",
+            "downturn"
+          ]
+        },
+        {
+          "id": "sat-renaissance",
+          "word": "renaissance",
+          "partOfSpeech": "noun",
+          "definition": "A revival of interest, activity, or achievement, often in art or culture.",
+          "example": "The neighborhood is enjoying a culinary renaissance, with new restaurants opening weekly.",
+          "mnemonic": "French for 'rebirth' — think of the Renaissance, when art and learning were reborn.",
+          "synonyms": [
+            "revival",
+            "rebirth",
+            "resurgence"
+          ],
+          "antonyms": [
+            "decline",
+            "stagnation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-revert",
+          "word": "revert",
+          "partOfSpeech": "verb",
+          "definition": "To return to a previous state, habit, or condition.",
+          "example": "If you delete these edits, the document will revert to how it looked yesterday.",
+          "mnemonic": "'Re-' (back) + 'vert' (turn, as in 'U-turn') — to turn back to before.",
+          "synonyms": [
+            "return",
+            "regress"
+          ],
+          "antonyms": [
+            "advance",
+            "progress"
+          ]
+        },
+        {
+          "id": "sat-relapse",
+          "word": "relapse",
+          "partOfSpeech": "verb",
+          "definition": "To fall back into a worse or former condition after improving.",
+          "example": "The patient recovered well but began to relapse when she stopped her medication.",
+          "mnemonic": "'Re-' (again) + 'lapse' (a slip) — to slip back down again after doing better.",
+          "synonyms": [
+            "regress",
+            "backslide"
+          ],
+          "antonyms": [
+            "recover",
+            "improve"
+          ]
+        },
+        {
+          "id": "sat-transition",
+          "word": "transition",
+          "partOfSpeech": "noun",
+          "definition": "The process of changing from one state or stage to another.",
+          "example": "The transition from high school to college can feel overwhelming at first.",
+          "mnemonic": "'Trans-' means across — like 'transit' moving across, a shift across from one stage to the next.",
+          "synonyms": [
+            "shift",
+            "change",
+            "passage"
+          ],
+          "antonyms": [
+            "stasis",
+            "constancy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-vacillate",
+          "word": "vacillate",
+          "partOfSpeech": "verb",
+          "definition": "To keep switching between different opinions or choices, unable to decide.",
+          "example": "She vacillated for an hour, picking up the dress and putting it back a dozen times.",
+          "mnemonic": "Sounds like 'vase-ill-late' — picture a vase wobbling on a table's edge, never settling one way or the other.",
+          "synonyms": [
+            "waver",
+            "dither",
+            "hesitate"
+          ],
+          "antonyms": [
+            "resolve",
+            "decide"
+          ]
+        },
+        {
+          "id": "sat-fluctuate",
+          "word": "fluctuate",
+          "partOfSpeech": "verb",
+          "definition": "To rise and fall or change repeatedly in an irregular way.",
+          "example": "Gas prices fluctuate so much that filling up costs me a different amount every week.",
+          "mnemonic": "Contains 'flux', from Latin fluctus meaning 'wave' — picture waves heaving up and dropping down.",
+          "synonyms": [
+            "vary",
+            "shift",
+            "swing"
+          ],
+          "antonyms": [
+            "stabilize",
+            "hold steady"
+          ]
+        },
+        {
+          "id": "sat-oscillate",
+          "word": "oscillate",
+          "partOfSpeech": "verb",
+          "definition": "To swing steadily back and forth between two points or states.",
+          "example": "The fan's head oscillated slowly, sweeping a breeze across the whole room.",
+          "mnemonic": "Think of an oscillating fan — 'oss-ill-ate' — the classic image of a head panning side to side.",
+          "synonyms": [
+            "swing",
+            "sway",
+            "vibrate"
+          ],
+          "antonyms": [
+            "remain still",
+            "fix"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-waver",
+          "word": "waver",
+          "partOfSpeech": "verb",
+          "definition": "To hesitate or become unsteady, weakening in resolve or movement.",
+          "example": "His voice wavered as he read the eulogy, threatening to break at every line.",
+          "mnemonic": "Hear 'wave' inside it — a flag wavers, rippling unsteadily in a gusting wind.",
+          "synonyms": [
+            "falter",
+            "hesitate",
+            "teeter"
+          ],
+          "antonyms": [
+            "hold firm",
+            "steady"
+          ]
+        },
+        {
+          "id": "sat-perennial",
+          "word": "perennial",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting or recurring through many years; continuing without stopping.",
+          "example": "Traffic is a perennial complaint here — every generation grumbles about the same jammed roads.",
+          "mnemonic": "'Per-' (through) + 'ennial' (from annus, year) — a perennial plant lives on through the years.",
+          "synonyms": [
+            "enduring",
+            "persistent",
+            "everlasting"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary"
+          ]
+        },
+        {
+          "id": "sat-momentary",
+          "word": "momentary",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only a very short time; over almost as soon as it begins.",
+          "example": "There was a momentary flicker of the lights before the power steadied again.",
+          "mnemonic": "'Moment' sits right inside it — it lasts no longer than a single moment, a snap of the fingers.",
+          "synonyms": [
+            "brief",
+            "fleeting",
+            "transient"
+          ],
+          "antonyms": [
+            "lasting",
+            "enduring",
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-temporal",
+          "word": "temporal",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to time, or to the physical world rather than spiritual matters.",
+          "example": "The physicist studied the temporal order of events, mapping which one came before which.",
+          "mnemonic": "'Tempo' — the beat of time — hides inside it, and Latin 'tempus' means time.",
+          "synonyms": [
+            "chronological",
+            "worldly",
+            "secular"
+          ],
+          "antonyms": [
+            "spiritual",
+            "eternal",
+            "timeless"
+          ]
+        },
+        {
+          "id": "sat-chronic",
+          "word": "chronic",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing for a long time or constantly recurring, especially an illness or problem.",
+          "example": "Her chronic back pain had bothered her every single day for over a decade.",
+          "mnemonic": "From Greek 'chronos' (time), like Father Time — a chronic condition drags on and on.",
+          "synonyms": [
+            "persistent",
+            "long-standing",
+            "recurring"
+          ],
+          "antonyms": [
+            "acute",
+            "temporary",
+            "fleeting"
+          ]
+        },
+        {
+          "id": "sat-nascent",
+          "word": "nascent",
+          "partOfSpeech": "adjective",
+          "definition": "Just coming into existence; still at a very early stage of development.",
+          "example": "The nascent startup had only three employees and a whiteboard full of ideas.",
+          "mnemonic": "Shares a root with 'natal' and 'nativity' — nascent means freshly born.",
+          "synonyms": [
+            "emerging",
+            "budding",
+            "embryonic"
+          ],
+          "antonyms": [
+            "mature",
+            "developed",
+            "established"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-incipient",
+          "word": "incipient",
+          "partOfSpeech": "adjective",
+          "definition": "At an initial stage; starting to appear but not yet fully formed.",
+          "example": "The doctor spotted an incipient infection before any real symptoms had shown.",
+          "mnemonic": "Say 'in-SIP-ient' — take the first sip; it's only just getting started.",
+          "synonyms": [
+            "beginning",
+            "developing",
+            "emerging"
+          ],
+          "antonyms": [
+            "full-blown",
+            "mature",
+            "advanced"
+          ]
+        },
+        {
+          "id": "sat-embryonic",
+          "word": "embryonic",
+          "partOfSpeech": "adjective",
+          "definition": "At an early, undeveloped stage; not yet formed or matured.",
+          "example": "The plan was still embryonic — a few scribbled notes rather than a real strategy.",
+          "mnemonic": "Think 'embryo' — a tiny, unborn thing, undeveloped and just taking shape.",
+          "synonyms": [
+            "undeveloped",
+            "rudimentary",
+            "nascent"
+          ],
+          "antonyms": [
+            "developed",
+            "mature",
+            "advanced"
+          ]
+        },
+        {
+          "id": "sat-budding",
+          "word": "budding",
+          "partOfSpeech": "adjective",
+          "definition": "Beginning to develop and showing signs of future promise or growth.",
+          "example": "The budding pianist practiced four hours a day, dreaming of the concert stage.",
+          "mnemonic": "Picture a flower bud about to open — a budding talent is on the verge of blooming.",
+          "synonyms": [
+            "developing",
+            "promising",
+            "emerging"
+          ],
+          "antonyms": [
+            "established",
+            "mature",
+            "seasoned"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-fledgling",
+          "word": "fledgling",
+          "partOfSpeech": "adjective",
+          "definition": "New and inexperienced; only recently started and not yet established.",
+          "example": "The fledgling airline owned just two planes and flew to a single city.",
+          "mnemonic": "A fledgling is a baby bird just growing feathers, testing its wings for the first time.",
+          "synonyms": [
+            "new",
+            "inexperienced",
+            "emerging"
+          ],
+          "antonyms": [
+            "experienced",
+            "established",
+            "veteran"
+          ]
+        },
+        {
+          "id": "sat-emergent",
+          "word": "emergent",
+          "partOfSpeech": "adjective",
+          "definition": "In the process of coming into being or becoming noticeable and prominent.",
+          "example": "Scientists watched an emergent pattern rise from the chaos of the raw data.",
+          "mnemonic": "Hear 'emerge' — something emergent is rising into view, like a swimmer breaking the surface.",
+          "synonyms": [
+            "emerging",
+            "developing",
+            "arising"
+          ],
+          "antonyms": [
+            "established",
+            "declining",
+            "vanishing"
+          ]
+        },
+        {
+          "id": "sat-inception",
+          "word": "inception",
+          "partOfSpeech": "noun",
+          "definition": "The start or beginning of something, such as an organization or activity.",
+          "example": "The club has welcomed dogs since its inception, when two friends founded it in a garage.",
+          "mnemonic": "The film 'Inception' plants an idea at its very start — inception is the beginning point.",
+          "synonyms": [
+            "beginning",
+            "start",
+            "outset"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "termination"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-onset",
+          "word": "onset",
+          "partOfSpeech": "noun",
+          "definition": "The start or early stage of something, frequently something unpleasant or difficult.",
+          "example": "At the onset of the storm, everyone scrambled to bring the chairs indoors.",
+          "mnemonic": "Picture a film crew arriving 'ON SET' — that's when the shoot begins.",
+          "synonyms": [
+            "beginning",
+            "commencement",
+            "start"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "finish"
+          ]
+        },
+        {
+          "id": "sat-genesis",
+          "word": "genesis",
+          "partOfSpeech": "noun",
+          "definition": "The origin or point at which something first comes into being.",
+          "example": "The genesis of the company was a late-night chat between two friends in a garage.",
+          "mnemonic": "Genesis is the first book of the Bible — the story of how everything started.",
+          "synonyms": [
+            "origin",
+            "birth",
+            "inception"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "termination"
+          ]
+        },
+        {
+          "id": "sat-advent",
+          "word": "advent",
+          "partOfSpeech": "noun",
+          "definition": "The arrival or coming of an important person, event, or thing.",
+          "example": "The advent of the smartphone completely reshaped how people stay in touch.",
+          "mnemonic": "An Advent calendar counts down the days to the arrival of Christmas.",
+          "synonyms": [
+            "arrival",
+            "coming",
+            "emergence"
+          ],
+          "antonyms": [
+            "departure",
+            "disappearance",
+            "exit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-demise",
+          "word": "demise",
+          "partOfSpeech": "noun",
+          "definition": "The death or ending of a person, institution, or activity.",
+          "example": "Streaming services hastened the demise of the neighborhood video rental store.",
+          "mnemonic": "Break it as 'de-' (down) + 'mise' — picture a king brought down from his throne forever.",
+          "synonyms": [
+            "death",
+            "downfall",
+            "collapse"
+          ],
+          "antonyms": [
+            "birth",
+            "rise",
+            "beginning"
+          ]
+        },
+        {
+          "id": "sat-obsolescence",
+          "word": "obsolescence",
+          "partOfSpeech": "noun",
+          "definition": "The process of falling out of use and becoming outdated or no longer wanted.",
+          "example": "Planned obsolescence means gadgets are engineered to fail after just a few years.",
+          "mnemonic": "Hear 'obsolete' inside it — like floppy disks that nobody can even read anymore.",
+          "synonyms": [
+            "disuse",
+            "outdatedness",
+            "decline"
+          ],
+          "antonyms": [
+            "currency",
+            "relevance",
+            "modernity"
+          ]
+        },
+        {
+          "id": "sat-vestige",
+          "word": "vestige",
+          "partOfSpeech": "noun",
+          "definition": "A small trace or sign of something that once existed but is now gone.",
+          "example": "The crumbling stone wall was the last vestige of the ancient fortress.",
+          "mnemonic": "Sounds like 'vest' — an old vest forgotten in the closet, a trace of a past style.",
+          "synonyms": [
+            "trace",
+            "remnant",
+            "remains"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-relic",
+          "word": "relic",
+          "partOfSpeech": "noun",
+          "definition": "An object or custom that has survived from a much earlier period.",
+          "example": "The museum's prized relic was a jeweled cup from a medieval monastery.",
+          "mnemonic": "From Latin 'relinquere,' to leave behind — a relic is what the past left behind.",
+          "synonyms": [
+            "artifact",
+            "antique",
+            "keepsake"
+          ],
+          "antonyms": [
+            "novelty"
+          ]
+        },
+        {
+          "id": "sat-remnant",
+          "word": "remnant",
+          "partOfSpeech": "noun",
+          "definition": "A small part or quantity left after the rest is used or gone.",
+          "example": "She stitched a colorful quilt entirely from remnants of old dresses.",
+          "mnemonic": "You can see 'remain' hiding inside — what remains is a remnant.",
+          "synonyms": [
+            "remainder",
+            "leftover",
+            "scrap"
+          ],
+          "antonyms": [
+            "whole",
+            "entirety"
+          ]
+        },
+        {
+          "id": "sat-residual",
+          "word": "residual",
+          "partOfSpeech": "adjective",
+          "definition": "Remaining or left over after the greater part has been removed or dealt with.",
+          "example": "Even after airing out the room, a residual smell of smoke clung to the curtains.",
+          "mnemonic": "Shares its root with 'residue' — the residue that stubbornly stays behind.",
+          "synonyms": [
+            "remaining",
+            "leftover",
+            "lingering"
+          ],
+          "antonyms": [
+            "whole",
+            "complete"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-legacy",
+          "word": "legacy",
+          "partOfSpeech": "noun",
+          "definition": "Something handed down from a predecessor or from earlier times.",
+          "example": "Her grandmother's fearless generosity was a legacy she carried her whole life.",
+          "mnemonic": "'LEG-acy' — the leg-up your ancestors give you, passed down like a relay baton.",
+          "synonyms": [
+            "inheritance",
+            "bequest",
+            "birthright"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-heritage",
+          "word": "heritage",
+          "partOfSpeech": "noun",
+          "definition": "Traditions, culture, and qualities passed down from previous generations.",
+          "example": "The summer festival proudly celebrates the town's rich cultural heritage.",
+          "mnemonic": "Hear 'inHERIT' inside it — heritage is everything you inherit from your ancestors.",
+          "synonyms": [
+            "tradition",
+            "inheritance",
+            "birthright"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-conventional",
+          "word": "conventional",
+          "partOfSpeech": "adjective",
+          "definition": "Following accepted customs and traditional ways rather than being original.",
+          "example": "They opted for a conventional wedding, complete with a church and a white gown.",
+          "mnemonic": "Think of a CONVENTION where everyone agrees on the same normal way of doing things.",
+          "synonyms": [
+            "traditional",
+            "standard",
+            "orthodox"
+          ],
+          "antonyms": [
+            "unconventional",
+            "unusual",
+            "radical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-unprecedented",
+          "word": "unprecedented",
+          "partOfSpeech": "adjective",
+          "definition": "Never having happened, existed, or been done before.",
+          "example": "Scientists recorded an unprecedented spike in ocean temperatures this year.",
+          "mnemonic": "'Un-' + 'precedent' — there is no precedent, nothing that came before it.",
+          "synonyms": [
+            "unparalleled",
+            "novel",
+            "unheard-of"
+          ],
+          "antonyms": [
+            "common",
+            "routine",
+            "familiar"
+          ]
+        },
+        {
+          "id": "sat-innovative",
+          "word": "innovative",
+          "partOfSpeech": "adjective",
+          "definition": "Introducing fresh ideas, methods, or creative ways of doing things.",
+          "example": "The startup's innovative app let users pay for coffee with a fingerprint.",
+          "mnemonic": "'In + nova' (Latin for new star) — bringing something brand new into the world.",
+          "synonyms": [
+            "inventive",
+            "original",
+            "groundbreaking"
+          ],
+          "antonyms": [
+            "conventional",
+            "traditional",
+            "unoriginal"
+          ]
+        },
+        {
+          "id": "sat-contemporary",
+          "word": "contemporary",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to or happening in the present time; modern.",
+          "example": "The gallery specializes in contemporary art created within the last decade.",
+          "mnemonic": "'Con-' (with) + 'tempor' (time) — moving right along with the current times.",
+          "synonyms": [
+            "modern",
+            "current",
+            "present-day"
+          ],
+          "antonyms": [
+            "old-fashioned",
+            "antiquated",
+            "ancient"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-antiquity",
+          "word": "antiquity",
+          "partOfSpeech": "noun",
+          "definition": "The ancient past, especially the era of early civilizations before the Middle Ages.",
+          "example": "The museum's pottery and coins date back to remote antiquity, long before Rome was founded.",
+          "mnemonic": "Sounds like 'antique' + 'city' — picture an ancient city full of antiques from thousands of years ago.",
+          "synonyms": [
+            "ancient times",
+            "olden days",
+            "the distant past"
+          ],
+          "antonyms": [
+            "modernity",
+            "the present",
+            "the future"
+          ]
+        },
+        {
+          "id": "sat-bygone",
+          "word": "bygone",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to an earlier time that is now over and finished.",
+          "example": "Looking at the old photographs, she smiled at the fashions of a bygone era.",
+          "mnemonic": "Break it into 'by-gone' — days that have gone by and won't come back.",
+          "synonyms": [
+            "past",
+            "former",
+            "olden"
+          ],
+          "antonyms": [
+            "present",
+            "current",
+            "future"
+          ]
+        },
+        {
+          "id": "sat-latent",
+          "word": "latent",
+          "partOfSpeech": "adjective",
+          "definition": "Present but hidden, not yet developed, active, or visible.",
+          "example": "His latent talent for painting surfaced only after he retired and finally picked up a brush.",
+          "mnemonic": "'Late' + 'ent' — it's running LATE, waiting quietly to show up later.",
+          "synonyms": [
+            "dormant",
+            "hidden",
+            "potential"
+          ],
+          "antonyms": [
+            "active",
+            "manifest",
+            "obvious"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-dormant",
+          "word": "dormant",
+          "partOfSpeech": "adjective",
+          "definition": "Temporarily inactive or asleep, but able to become active again later.",
+          "example": "The volcano had lain dormant for centuries before it suddenly rumbled back to life.",
+          "mnemonic": "From Latin 'dormire' (to sleep) — same root as 'dormitory,' a place to sleep.",
+          "synonyms": [
+            "inactive",
+            "sleeping",
+            "latent"
+          ],
+          "antonyms": [
+            "active",
+            "awake",
+            "erupting"
+          ]
+        },
+        {
+          "id": "sat-quiescent",
+          "word": "quiescent",
+          "partOfSpeech": "adjective",
+          "definition": "In a quiet, still state of temporary rest or inactivity.",
+          "example": "After the surgery the disease remained quiescent for years, showing no symptoms at all.",
+          "mnemonic": "Starts like 'quiet' — a quiescent thing is quiet and resting.",
+          "synonyms": [
+            "inactive",
+            "still",
+            "resting"
+          ],
+          "antonyms": [
+            "active",
+            "restless",
+            "agitated"
+          ]
+        },
+        {
+          "id": "sat-incubate",
+          "word": "incubate",
+          "partOfSpeech": "verb",
+          "definition": "To keep something developing gradually until it is ready to emerge.",
+          "example": "Startups come here to incubate their ideas, slowly building prototypes before any public launch.",
+          "mnemonic": "Think of a hen on eggs in an INCUBATOR, patiently warming them until they hatch.",
+          "synonyms": [
+            "nurture",
+            "develop",
+            "hatch"
+          ],
+          "antonyms": [
+            "neglect",
+            "abandon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-perpetuate",
+          "word": "perpetuate",
+          "partOfSpeech": "verb",
+          "definition": "To cause something to continue indefinitely, often a condition or belief.",
+          "example": "Repeating those tired stereotypes only serves to perpetuate prejudice for another generation.",
+          "mnemonic": "Contains 'perpetual' — to make something perpetual, going on and on forever.",
+          "synonyms": [
+            "continue",
+            "maintain",
+            "prolong"
+          ],
+          "antonyms": [
+            "end",
+            "abolish",
+            "halt"
+          ]
+        },
+        {
+          "id": "sat-sustain",
+          "word": "sustain",
+          "partOfSpeech": "verb",
+          "definition": "To keep something going or maintain it over a period of time.",
+          "example": "A few granola bars were enough to sustain the hikers until they reached the next town.",
+          "mnemonic": "'Sus-' (up) + 'tain' (hold, as in 'retain') — to hold something up so it keeps going.",
+          "synonyms": [
+            "maintain",
+            "support",
+            "nourish"
+          ],
+          "antonyms": [
+            "abandon",
+            "starve",
+            "discontinue"
+          ]
+        },
+        {
+          "id": "sat-preserve",
+          "word": "preserve",
+          "partOfSpeech": "verb",
+          "definition": "To keep something in its original condition and protect it from harm.",
+          "example": "They vacuum-sealed the documents to preserve them from moisture and decay.",
+          "mnemonic": "Think of jam 'preserves' in a jar — sealed up and kept fresh for later.",
+          "synonyms": [
+            "protect",
+            "conserve",
+            "maintain"
+          ],
+          "antonyms": [
+            "destroy",
+            "spoil",
+            "neglect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-entrench",
+          "word": "entrench",
+          "partOfSpeech": "verb",
+          "definition": "To establish something so firmly that it becomes very hard to change.",
+          "example": "Years of favorable coverage helped entrench the party's grip on power.",
+          "mnemonic": "Picture soldiers digging a TRENCH so deep they can't be dislodged — firmly dug in.",
+          "synonyms": [
+            "establish",
+            "embed",
+            "lodge"
+          ],
+          "antonyms": [
+            "dislodge",
+            "uproot",
+            "remove"
+          ]
+        },
+        {
+          "id": "sat-ingrained",
+          "word": "ingrained",
+          "partOfSpeech": "adjective",
+          "definition": "Firmly fixed and hard to change, especially a habit or belief.",
+          "example": "Politeness was so ingrained in him that he apologized even to the furniture he bumped into.",
+          "mnemonic": "Like a stain worked deep into the GRAIN of wood — impossible to scrub out.",
+          "synonyms": [
+            "deep-seated",
+            "fixed",
+            "habitual"
+          ],
+          "antonyms": [
+            "superficial",
+            "temporary",
+            "fleeting"
+          ]
+        },
+        {
+          "id": "sat-fossilize",
+          "word": "fossilize",
+          "partOfSpeech": "verb",
+          "definition": "To turn slowly into hardened stone-like remains within rock over ages.",
+          "example": "Under the right conditions, a leaf can fossilize and leave a perfect imprint in the rock.",
+          "mnemonic": "Think 'fossil' — a dinosaur bone hardened and stuck in the distant past.",
+          "synonyms": [
+            "petrify",
+            "harden",
+            "calcify"
+          ],
+          "antonyms": [
+            "evolve",
+            "modernize",
+            "adapt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-petrify",
+          "word": "petrify",
+          "partOfSpeech": "verb",
+          "definition": "To turn matter into stone, or to freeze someone stiff with fear.",
+          "example": "The sudden roar in the dark was enough to petrify the campers where they stood.",
+          "mnemonic": "From Greek 'petra' (rock) — the root in 'petroleum'; to turn to rock or freeze stiff.",
+          "synonyms": [
+            "harden",
+            "calcify",
+            "terrify"
+          ],
+          "antonyms": [
+            "soften",
+            "soothe",
+            "calm"
+          ]
+        },
+        {
+          "id": "sat-ossify",
+          "word": "ossify",
+          "partOfSpeech": "verb",
+          "definition": "To harden into bone, or to become rigid and unwilling to change.",
+          "example": "Without new members, the club's rules began to ossify into tradition no one dared question.",
+          "mnemonic": "Latin 'os' = bone (as in 'osseous') — turn into bone, then stiff and set.",
+          "synonyms": [
+            "harden",
+            "stiffen",
+            "calcify"
+          ],
+          "antonyms": [
+            "soften",
+            "loosen",
+            "adapt"
+          ]
+        },
+        {
+          "id": "sat-crystallize",
+          "word": "crystallize",
+          "partOfSpeech": "verb",
+          "definition": "To become clear, definite, and settled in form or thought.",
+          "example": "During the long walk, her vague plans finally began to crystallize into a clear decision.",
+          "mnemonic": "Picture scattered sugar molecules snapping into a sharp CRYSTAL — a fuzzy idea taking shape.",
+          "synonyms": [
+            "clarify",
+            "take shape",
+            "solidify"
+          ],
+          "antonyms": [
+            "blur",
+            "confuse",
+            "muddle"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:17:10.026Z"
+}

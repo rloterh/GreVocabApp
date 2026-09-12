@@ -1,0 +1,833 @@
+{
+  "track": "sat",
+  "ordinal": 22,
+  "title": "Technology and invention",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-connote",
+          "word": "connote",
+          "partOfSpeech": "verb",
+          "definition": "To imply an additional idea or feeling beyond a word's literal meaning.",
+          "example": "For many people the word 'home' connotes warmth and safety, not just a building.",
+          "mnemonic": "con- (with) + note — a word carries an extra 'note' along with it.",
+          "synonyms": [
+            "imply",
+            "suggest",
+            "evoke"
+          ],
+          "antonyms": [
+            "denote",
+            "state"
+          ]
+        },
+        {
+          "id": "sat-denote",
+          "word": "denote",
+          "partOfSpeech": "verb",
+          "definition": "To indicate or stand for something directly and literally.",
+          "example": "On this map, a small red dot denotes a hospital.",
+          "mnemonic": "de- (down) + note — it writes down exactly what is meant.",
+          "synonyms": [
+            "signify",
+            "indicate",
+            "represent"
+          ],
+          "antonyms": [
+            "connote"
+          ]
+        },
+        {
+          "id": "sat-juxtaposition",
+          "word": "juxtaposition",
+          "partOfSpeech": "noun",
+          "definition": "The act of placing two things close together for contrasting effect.",
+          "example": "The juxtaposition of the gleaming new tower and the crumbling church startled visitors.",
+          "mnemonic": "juxta (Latin 'beside') + position — a position right beside something.",
+          "synonyms": [
+            "contrast",
+            "comparison",
+            "proximity"
+          ],
+          "antonyms": [
+            "separation",
+            "isolation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-colloquial",
+          "word": "colloquial",
+          "partOfSpeech": "adjective",
+          "definition": "Used in ordinary, informal conversation rather than formal writing or speech.",
+          "example": "'Gonna' is a colloquial way of saying 'going to.'",
+          "mnemonic": "co-LOQUI-al — from 'loqui' (to speak); picture co-workers chatting casually.",
+          "synonyms": [
+            "informal",
+            "conversational",
+            "vernacular"
+          ],
+          "antonyms": [
+            "formal",
+            "literary"
+          ]
+        },
+        {
+          "id": "sat-innovate",
+          "word": "innovate",
+          "partOfSpeech": "verb",
+          "definition": "To introduce fresh methods, ideas, or products.",
+          "example": "The startup hoped to innovate by replacing door keys with facial recognition.",
+          "mnemonic": "in + nova (Latin 'new') — a nova is a bright new star; you bring in the new.",
+          "synonyms": [
+            "pioneer",
+            "invent",
+            "revolutionize"
+          ],
+          "antonyms": [
+            "stagnate",
+            "imitate"
+          ]
+        },
+        {
+          "id": "sat-ingenious",
+          "word": "ingenious",
+          "partOfSpeech": "adjective",
+          "definition": "Cleverly original and inventive in design or method.",
+          "example": "She found an ingenious way to open the stuck jar using only a rubber band.",
+          "mnemonic": "Hear 'genius' inside it — an ingenious solution shows genius.",
+          "synonyms": [
+            "clever",
+            "inventive",
+            "resourceful"
+          ],
+          "antonyms": [
+            "clumsy",
+            "unimaginative"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-ingenuity",
+          "word": "ingenuity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being clever, original, and inventive.",
+          "example": "It took real ingenuity to build a working radio out of scrap parts.",
+          "mnemonic": "in-GENIUS-ity — the state of having genius.",
+          "synonyms": [
+            "cleverness",
+            "inventiveness",
+            "resourcefulness"
+          ],
+          "antonyms": [
+            "ineptitude",
+            "dullness"
+          ]
+        },
+        {
+          "id": "sat-novel",
+          "word": "novel",
+          "partOfSpeech": "adjective",
+          "definition": "New, original, and unlike anything known before.",
+          "example": "The chef's novel pairing of chocolate and chili surprised the judges.",
+          "mnemonic": "From Latin 'novus' (new); a story you've never read presents a novel idea.",
+          "synonyms": [
+            "new",
+            "original",
+            "fresh"
+          ],
+          "antonyms": [
+            "familiar",
+            "conventional",
+            "old"
+          ]
+        },
+        {
+          "id": "sat-pioneer",
+          "word": "pioneer",
+          "partOfSpeech": "noun",
+          "definition": "A person who is first to explore or develop a new area or method.",
+          "example": "She was a pioneer of space medicine, studying effects no one had measured before.",
+          "mnemonic": "Like the front-line foot soldier ('pion') who marches out ahead of everyone.",
+          "synonyms": [
+            "trailblazer",
+            "innovator",
+            "founder"
+          ],
+          "antonyms": [
+            "follower",
+            "latecomer"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-automate",
+          "word": "automate",
+          "partOfSpeech": "verb",
+          "definition": "To run a process using machines or software instead of people.",
+          "example": "The factory decided to automate packing so workers could focus on quality checks.",
+          "mnemonic": "auto (self) + mate — the machine takes on the task and does it by itself.",
+          "synonyms": [
+            "mechanize",
+            "computerize"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-prototype",
+          "word": "prototype",
+          "partOfSpeech": "noun",
+          "definition": "An early sample or model built to test a concept before mass production.",
+          "example": "Engineers crashed the car prototype repeatedly before approving the final design.",
+          "mnemonic": "proto (first) + type — the very first type of a thing that gets made.",
+          "synonyms": [
+            "model",
+            "mock-up",
+            "template"
+          ],
+          "antonyms": [
+            "final version",
+            "finished product"
+          ]
+        },
+        {
+          "id": "sat-iterate",
+          "word": "iterate",
+          "partOfSpeech": "verb",
+          "definition": "To repeat a process, usually improving it a little each time.",
+          "example": "The team iterated on the app, releasing a slightly better version every week.",
+          "mnemonic": "From Latin 'iterum' (again); think of 'reiterate' — to say it again.",
+          "synonyms": [
+            "repeat",
+            "reiterate",
+            "refine"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-emulate",
+          "word": "emulate",
+          "partOfSpeech": "verb",
+          "definition": "To imitate someone admired in order to match or surpass them.",
+          "example": "The young pianist practiced daily, hoping to emulate her idol's speed.",
+          "mnemonic": "Sounds like 'imitate' with an E — a software emulator copies another machine.",
+          "synonyms": [
+            "imitate",
+            "mimic",
+            "model after"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-augment",
+          "word": "augment",
+          "partOfSpeech": "verb",
+          "definition": "To make something larger or stronger by adding to it.",
+          "example": "He took a second job to augment his monthly income.",
+          "mnemonic": "From Latin 'augere' (to increase); 'augmented reality' adds to what you see.",
+          "synonyms": [
+            "increase",
+            "boost",
+            "supplement"
+          ],
+          "antonyms": [
+            "reduce",
+            "diminish",
+            "decrease"
+          ]
+        },
+        {
+          "id": "sat-counterargument",
+          "word": "counterargument",
+          "partOfSpeech": "noun",
+          "definition": "A point raised to oppose or challenge a previously stated position.",
+          "example": "For every claim in the debate, she had a sharp counterargument ready.",
+          "mnemonic": "counter (against) + argument — an argument that runs against yours.",
+          "synonyms": [
+            "rebuttal",
+            "refutation",
+            "objection"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-coherence",
+          "word": "coherence",
+          "partOfSpeech": "noun",
+          "definition": "The quality of forming a unified, logical whole where parts connect clearly.",
+          "example": "The essay's argument flowed so smoothly that its coherence impressed every reviewer.",
+          "mnemonic": "Break it down: co- (together) + here — ideas that stick 'here together' hold together.",
+          "synonyms": [
+            "consistency",
+            "unity",
+            "clarity"
+          ],
+          "antonyms": [
+            "confusion",
+            "disorder",
+            "chaos"
+          ]
+        },
+        {
+          "id": "sat-optimize",
+          "word": "optimize",
+          "partOfSpeech": "verb",
+          "definition": "To adjust something so it works as well as it possibly can.",
+          "example": "Engineers reworked the code to optimize load times on slower phones.",
+          "mnemonic": "From Latin 'optimus' (best) — you push something toward its 'opt'imum, its best.",
+          "synonyms": [
+            "improve",
+            "streamline",
+            "refine"
+          ],
+          "antonyms": [
+            "worsen",
+            "impair"
+          ]
+        },
+        {
+          "id": "sat-digitize",
+          "word": "digitize",
+          "partOfSpeech": "verb",
+          "definition": "To convert physical records or signals into electronic form for a computer.",
+          "example": "The library began to digitize its old manuscripts so anyone could read them online.",
+          "mnemonic": "Turn it into digits (0s and 1s) — that's what the -ize ending does.",
+          "synonyms": [
+            "scan",
+            "encode",
+            "computerize"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-simulate",
+          "word": "simulate",
+          "partOfSpeech": "verb",
+          "definition": "To create a realistic imitation of a real process or situation, often for practice.",
+          "example": "The flight software can simulate a storm so pilots train without real danger.",
+          "mnemonic": "Hear 'similar' inside it — you make something similar to the real thing.",
+          "synonyms": [
+            "imitate",
+            "mimic",
+            "replicate"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-invent",
+          "word": "invent",
+          "partOfSpeech": "verb",
+          "definition": "To create or design something entirely new for the first time.",
+          "example": "She hoped to invent a device that could purify water using only sunlight.",
+          "mnemonic": "'in + vent' — a fresh idea rushes in through the vent of imagination.",
+          "synonyms": [
+            "create",
+            "devise",
+            "originate"
+          ],
+          "antonyms": [
+            "copy",
+            "imitate"
+          ]
+        },
+        {
+          "id": "sat-apparatus",
+          "word": "apparatus",
+          "partOfSpeech": "noun",
+          "definition": "A set of equipment or tools used for a particular purpose.",
+          "example": "The chemistry lab's apparatus included beakers, burners, and tangled glass tubes.",
+          "mnemonic": "Sound it out: 'a-pair-of-tubes' set up on the bench for an experiment.",
+          "synonyms": [
+            "equipment",
+            "gear",
+            "machinery"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-utilitarian",
+          "word": "utilitarian",
+          "partOfSpeech": "adjective",
+          "definition": "Designed to be practical and useful rather than attractive.",
+          "example": "The office furniture was plain and utilitarian, built for work rather than show.",
+          "mnemonic": "See 'utility' inside — it's all about utility, never about looks.",
+          "synonyms": [
+            "practical",
+            "functional",
+            "useful"
+          ],
+          "antonyms": [
+            "decorative",
+            "ornamental"
+          ]
+        },
+        {
+          "id": "sat-adapt",
+          "word": "adapt",
+          "partOfSpeech": "verb",
+          "definition": "To change in order to suit new conditions or situations.",
+          "example": "Desert foxes adapt to scorching heat by hunting only after sunset.",
+          "mnemonic": "'add-apt': you add whatever is apt (suitable) for the new setting.",
+          "synonyms": [
+            "adjust",
+            "modify",
+            "acclimate"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-disrupt",
+          "word": "disrupt",
+          "partOfSpeech": "verb",
+          "definition": "To interrupt or throw into disorder a process or event.",
+          "example": "Protesters tried to disrupt the meeting by shouting over the speakers.",
+          "mnemonic": "'dis + rupt' (rupture, break) — you break apart the normal flow.",
+          "synonyms": [
+            "interrupt",
+            "upset",
+            "derail"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-disruptive",
+          "word": "disruptive",
+          "partOfSpeech": "adjective",
+          "definition": "Causing disturbance or radical change to normal operations.",
+          "example": "The startup's disruptive app forced older banks to rethink everything.",
+          "mnemonic": "'dis + rupt' (break) + -ive — a quality that shatters the status quo.",
+          "synonyms": [
+            "unruly",
+            "disturbing",
+            "revolutionary"
+          ],
+          "antonyms": [
+            "calm",
+            "orderly"
+          ]
+        },
+        {
+          "id": "sat-rudimentary",
+          "word": "rudimentary",
+          "partOfSpeech": "adjective",
+          "definition": "Basic and undeveloped, involving only the simplest elements.",
+          "example": "His rudimentary Spanish was enough to order food but not to hold a conversation.",
+          "mnemonic": "'rude-imentary' — a rude, rough, unfinished first draft of a skill.",
+          "synonyms": [
+            "basic",
+            "elementary",
+            "primitive"
+          ],
+          "antonyms": [
+            "advanced",
+            "sophisticated"
+          ]
+        },
+        {
+          "id": "sat-sophisticated",
+          "word": "sophisticated",
+          "partOfSpeech": "adjective",
+          "definition": "Highly developed, complex, or refined in design or thinking.",
+          "example": "The camera used sophisticated software to sharpen photos taken in near darkness.",
+          "mnemonic": "From Greek 'sophia' (wisdom) — such things carry deep, worldly cleverness.",
+          "synonyms": [
+            "advanced",
+            "refined",
+            "complex"
+          ],
+          "antonyms": [
+            "crude",
+            "rudimentary",
+            "basic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-claim",
+          "word": "claim",
+          "partOfSpeech": "verb",
+          "definition": "To state that something is true, often without offering proof.",
+          "example": "The salesman would claim his pills cured everything, but doctors disagreed.",
+          "mnemonic": "Hear 'exclaim' — you loudly announce that something is so.",
+          "synonyms": [
+            "assert",
+            "allege",
+            "maintain"
+          ],
+          "antonyms": [
+            "deny",
+            "disprove"
+          ]
+        },
+        {
+          "id": "sat-proponent",
+          "word": "proponent",
+          "partOfSpeech": "noun",
+          "definition": "A person who supports and argues for an idea or cause.",
+          "example": "As a leading proponent of solar power, she urged the city to ditch coal.",
+          "mnemonic": "'pro' (for) + 'ponent' (to put forth) — one who puts a case forward in favor.",
+          "synonyms": [
+            "advocate",
+            "supporter",
+            "champion"
+          ],
+          "antonyms": [
+            "opponent",
+            "critic"
+          ]
+        },
+        {
+          "id": "sat-robust",
+          "word": "robust",
+          "partOfSpeech": "adjective",
+          "definition": "Strong, healthy, and able to withstand difficult conditions.",
+          "example": "The bridge was robust enough to survive earthquakes and decades of heavy traffic.",
+          "mnemonic": "Sounds like 'row-bust' — so tough it could bust through anything.",
+          "synonyms": [
+            "sturdy",
+            "strong",
+            "resilient"
+          ],
+          "antonyms": [
+            "fragile",
+            "weak",
+            "flimsy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-probative",
+          "word": "probative",
+          "partOfSpeech": "adjective",
+          "definition": "Serving to test, prove, or provide evidence toward establishing whether something is true.",
+          "example": "The detective set aside the gossip and focused only on the probative details: fingerprints, timestamps, and the muddy tire tracks.",
+          "mnemonic": "Shares a root with 'probe' and 'prove' — a probative fact probes for the truth and helps prove the case.",
+          "synonyms": [
+            "evidential",
+            "corroborative",
+            "confirming"
+          ],
+          "antonyms": [
+            "irrelevant",
+            "inconclusive",
+            "immaterial"
+          ]
+        },
+        {
+          "id": "sat-unassailable",
+          "word": "unassailable",
+          "partOfSpeech": "adjective",
+          "definition": "So strong or well-founded that it cannot be attacked, challenged, or disproven.",
+          "example": "With three independent labs confirming the result, her conclusion stood unassailable against every critic in the room.",
+          "mnemonic": "un + assail (to attack) + able — 'not able to be assailed,' like a fortress no army can storm.",
+          "synonyms": [
+            "invulnerable",
+            "impregnable",
+            "indisputable"
+          ],
+          "antonyms": [
+            "vulnerable",
+            "questionable",
+            "flimsy"
+          ]
+        },
+        {
+          "id": "sat-cavil",
+          "word": "cavil",
+          "partOfSpeech": "verb",
+          "definition": "To raise trivial, petty objections or find fault over unimportant matters.",
+          "example": "Instead of praising the ambitious plan, he chose to cavil about the font used on the cover page.",
+          "mnemonic": "Sounds like 'gravel' — a caviler tosses tiny gravel-sized complaints into every conversation.",
+          "synonyms": [
+            "quibble",
+            "carp",
+            "nitpick"
+          ],
+          "antonyms": [
+            "approve",
+            "praise",
+            "endorse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-refutation",
+          "word": "refutation",
+          "partOfSpeech": "noun",
+          "definition": "The act of proving a statement or argument to be false or wrong.",
+          "example": "The scientist's careful data amounted to a complete refutation of the rival theory, which soon vanished from textbooks.",
+          "mnemonic": "Think 'refute' + '-ation' — the noun for the moment you shut down a claim with proof.",
+          "synonyms": [
+            "rebuttal",
+            "disproof",
+            "confutation"
+          ],
+          "antonyms": [
+            "confirmation",
+            "proof",
+            "corroboration"
+          ]
+        },
+        {
+          "id": "sat-prowess",
+          "word": "prowess",
+          "partOfSpeech": "noun",
+          "definition": "Great skill or ability, especially in combat or a demanding activity.",
+          "example": "The chess champion displayed such prowess that his opponents resigned within twenty moves.",
+          "mnemonic": "Starts with 'pro' — a true pro shows off what they can do.",
+          "synonyms": [
+            "expertise",
+            "mastery",
+            "skill"
+          ],
+          "antonyms": [
+            "ineptitude",
+            "incompetence"
+          ]
+        },
+        {
+          "id": "sat-vigor",
+          "word": "vigor",
+          "partOfSpeech": "noun",
+          "definition": "Physical strength, energy, and healthy liveliness.",
+          "example": "After a week of rest, she attacked the garden with such vigor that it was weeded by noon.",
+          "mnemonic": "From Latin 'vigere,' to be lively — picture a tiger bursting out of its cage.",
+          "synonyms": [
+            "energy",
+            "vitality",
+            "stamina"
+          ],
+          "antonyms": [
+            "lethargy",
+            "weakness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-persist",
+          "word": "persist",
+          "partOfSpeech": "verb",
+          "definition": "To continue doing something firmly despite obstacles or discouragement.",
+          "example": "Even after three rejections, he persisted and mailed his manuscript to a fourth publisher.",
+          "mnemonic": "Break it: 'per' (through) + 'sist' (stand) — you keep standing through everything.",
+          "synonyms": [
+            "persevere",
+            "continue",
+            "endure"
+          ],
+          "antonyms": [
+            "quit",
+            "abandon",
+            "desist"
+          ]
+        },
+        {
+          "id": "sat-covet",
+          "word": "covet",
+          "partOfSpeech": "verb",
+          "definition": "To strongly desire something that belongs to someone else.",
+          "example": "He coveted his neighbor's sports car, glancing at it enviously every single morning.",
+          "mnemonic": "Sounds like 'cover it' — you want it so badly you'd hide it away under the covers.",
+          "synonyms": [
+            "crave",
+            "envy",
+            "desire"
+          ],
+          "antonyms": [
+            "reject",
+            "spurn"
+          ]
+        },
+        {
+          "id": "sat-venture",
+          "word": "venture",
+          "partOfSpeech": "verb",
+          "definition": "To dare to go somewhere or do something risky and uncertain.",
+          "example": "They ventured deep into the cave, unsure whether the narrow passage led anywhere at all.",
+          "mnemonic": "Hidden inside 'adventure' — a venture is the daring first step an adventure begins with.",
+          "synonyms": [
+            "dare",
+            "risk",
+            "embark"
+          ],
+          "antonyms": [
+            "retreat",
+            "avoid"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-fixate",
+          "word": "fixate",
+          "partOfSpeech": "verb",
+          "definition": "To focus attention obsessively on one single thing.",
+          "example": "She fixated on the one negative review, ignoring the hundred glowing ones beside it.",
+          "mnemonic": "Picture your eyes glued to a single spot, stuck fast and unable to look away.",
+          "synonyms": [
+            "obsess",
+            "dwell",
+            "concentrate"
+          ],
+          "antonyms": [
+            "ignore",
+            "disregard"
+          ]
+        },
+        {
+          "id": "sat-prestige",
+          "word": "prestige",
+          "partOfSpeech": "noun",
+          "definition": "Widespread respect and admiration earned through achievement or quality.",
+          "example": "Graduating from that university carries enormous prestige among the top employers.",
+          "mnemonic": "Recall the magician film 'The Prestige' — the dazzling finale that leaves the crowd in awe.",
+          "synonyms": [
+            "status",
+            "esteem",
+            "standing"
+          ],
+          "antonyms": [
+            "disgrace",
+            "shame"
+          ]
+        },
+        {
+          "id": "sat-renown",
+          "word": "renown",
+          "partOfSpeech": "noun",
+          "definition": "The state of being widely celebrated and honored by many people.",
+          "example": "The violinist's renown spread until concert halls sold out on every continent.",
+          "mnemonic": "Break it: 're' + 'known' — someone known again and again, everywhere.",
+          "synonyms": [
+            "fame",
+            "celebrity",
+            "eminence"
+          ],
+          "antonyms": [
+            "obscurity",
+            "anonymity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-ascend",
+          "word": "ascend",
+          "partOfSpeech": "verb",
+          "definition": "To move or climb upward to a higher position.",
+          "example": "The balloon ascended until it was a tiny dot against the clouds.",
+          "mnemonic": "'A-scend' — think of an escalator carrying you steadily up.",
+          "synonyms": [
+            "rise",
+            "climb",
+            "mount"
+          ],
+          "antonyms": [
+            "descend",
+            "fall",
+            "drop"
+          ]
+        },
+        {
+          "id": "sat-futile",
+          "word": "futile",
+          "partOfSpeech": "adjective",
+          "definition": "Incapable of producing any useful result; completely pointless.",
+          "example": "Bailing the sinking rowboat with a teacup proved futile within a couple of minutes.",
+          "mnemonic": "Sounds like 'few tiles' — roofing a whole house with a few tiles gets nowhere.",
+          "synonyms": [
+            "pointless",
+            "useless",
+            "vain"
+          ],
+          "antonyms": [
+            "effective",
+            "fruitful",
+            "productive"
+          ]
+        },
+        {
+          "id": "sat-inept",
+          "word": "inept",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking skill; clumsy and awkward at doing things.",
+          "example": "So inept with tools, he needed a full hour just to hang one picture frame.",
+          "mnemonic": "'In' (not) + 'ept' (as in 'apt') — not apt, therefore not able.",
+          "synonyms": [
+            "incompetent",
+            "clumsy",
+            "bungling"
+          ],
+          "antonyms": [
+            "skilled",
+            "competent",
+            "adept"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T21:03:51.632Z"
+}

@@ -228,9 +228,29 @@ describe("inflections the stemmer does not fully reduce", () => {
     ["rebuff", "Every time he tried to help, she rebuffed him coldly."],
     ["abate", "The storm abated by morning."],
     ["quash", "The judge quashed the subpoena without comment."],
+    // The `-ie/-ied` family. `belie` stems to `beli` and `belied` to `bely`:
+    // they differ in the last character, so no prefix rule reaches across
+    // them. Found in the SAT corpus, on the only card the audit flagged.
+    ["belie", "Her calm voice belied the panic she felt as the plane dropped."],
+    ["vie", "The two candidates vied for the same handful of votes."],
+    ["tie", "She tied the parcel with string before posting it."],
   ])("accepts %s in an example that inflects it", (word, example) => {
     const issues = checkWord(card({ word, id: word, example }));
     expect(issues.filter((i) => i.field === "example")).toEqual([]);
+  });
+
+  it("does not let the y/i merge match unrelated words", () => {
+    // The merge is one ending, not a licence. "carry" must not satisfy
+    // "carp" — nor anything else that merely starts the same way.
+    const issues = checkWord(
+      card({
+        word: "belie",
+        id: "belie",
+        definition: "To give a false impression of something.",
+        example: "The bell rang twice before anyone answered the door.",
+      }),
+    );
+    expect(issues.some((i) => i.message.includes("does not use the word"))).toBe(true);
   });
 
   it("still catches an example that omits the word entirely", () => {

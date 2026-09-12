@@ -1,0 +1,928 @@
+{
+  "track": "sat",
+  "ordinal": 33,
+  "title": "Isolation and connection",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-sequester",
+          "word": "sequester",
+          "partOfSpeech": "verb",
+          "definition": "To keep a person or thing apart from others in isolation.",
+          "example": "The jury was sequestered in a hotel so no news could reach them.",
+          "mnemonic": "Sounds like 'seek + rest' — you seek rest by tucking yourself away where no one can find you.",
+          "synonyms": [
+            "isolate",
+            "seclude",
+            "segregate"
+          ],
+          "antonyms": [
+            "integrate",
+            "mingle",
+            "reunite"
+          ]
+        },
+        {
+          "id": "sat-solitary",
+          "word": "solitary",
+          "partOfSpeech": "adjective",
+          "definition": "Existing or done alone, without any others present.",
+          "example": "A solitary lighthouse keeper spent months without ever seeing another human being.",
+          "mnemonic": "Starts with 'sol' (sun) — picture a single sun hanging in an empty sky, all by itself.",
+          "synonyms": [
+            "lone",
+            "isolated",
+            "single"
+          ],
+          "antonyms": [
+            "accompanied",
+            "crowded",
+            "sociable"
+          ]
+        },
+        {
+          "id": "sat-solitude",
+          "word": "solitude",
+          "partOfSpeech": "noun",
+          "definition": "The state of being by oneself, away from other people.",
+          "example": "After the noisy party, she craved the solitude of a long, quiet walk.",
+          "mnemonic": "'Sol' (sun) + 'attitude' — a sunny attitude you enjoy entirely on your own.",
+          "synonyms": [
+            "seclusion",
+            "isolation",
+            "privacy"
+          ],
+          "antonyms": [
+            "company",
+            "togetherness",
+            "companionship"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-sunder",
+          "word": "sunder",
+          "partOfSpeech": "verb",
+          "definition": "To split something into separate pieces or break it apart forcefully.",
+          "example": "The earthquake sundered the highway, leaving a gaping crack between the two halves.",
+          "mnemonic": "Rhymes with 'thunder' — imagine a thunderbolt ripping the sky violently in two.",
+          "synonyms": [
+            "split",
+            "sever",
+            "divide"
+          ],
+          "antonyms": [
+            "join",
+            "unite",
+            "fuse"
+          ]
+        },
+        {
+          "id": "sat-fragment",
+          "word": "fragment",
+          "partOfSpeech": "noun",
+          "definition": "A small piece broken off or detached from a larger whole.",
+          "example": "Archaeologists pieced together a shattered vase from dozens of tiny fragments.",
+          "mnemonic": "Shares 'frag' with 'fracture' — a fracture always leaves little broken bits behind.",
+          "synonyms": [
+            "piece",
+            "shard",
+            "bit"
+          ],
+          "antonyms": [
+            "whole",
+            "entirety",
+            "mass"
+          ]
+        },
+        {
+          "id": "sat-partition",
+          "word": "partition",
+          "partOfSpeech": "noun",
+          "definition": "A barrier or division that separates one area into smaller sections.",
+          "example": "A thin partition split the open office into two cramped little rooms.",
+          "mnemonic": "Contains 'part' — a partition literally carves one space into separate parts.",
+          "synonyms": [
+            "divider",
+            "barrier",
+            "screen"
+          ],
+          "antonyms": [
+            "opening",
+            "whole",
+            "union"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-disperse",
+          "word": "disperse",
+          "partOfSpeech": "verb",
+          "definition": "To spread out or drive apart across a wide area.",
+          "example": "Police used loudspeakers to disperse the crowd before it grew unruly.",
+          "mnemonic": "'Dis-' (apart) + 'perse' like a 'purse' tipping over so coins fly apart everywhere.",
+          "synonyms": [
+            "scatter",
+            "dissipate",
+            "disband"
+          ],
+          "antonyms": [
+            "gather",
+            "assemble",
+            "collect"
+          ]
+        },
+        {
+          "id": "sat-scatter",
+          "word": "scatter",
+          "partOfSpeech": "verb",
+          "definition": "To throw or spread things loosely in many directions.",
+          "example": "The autumn wind scattered the leaves across the entire lawn.",
+          "mnemonic": "Sounds like 'shatter' — when glass shatters, the pieces fly off every which way.",
+          "synonyms": [
+            "strew",
+            "disperse",
+            "sprinkle"
+          ],
+          "antonyms": [
+            "gather",
+            "collect",
+            "amass"
+          ]
+        },
+        {
+          "id": "sat-disband",
+          "word": "disband",
+          "partOfSpeech": "verb",
+          "definition": "To formally break up a group so it no longer exists.",
+          "example": "After the war ended, the militia was ordered to disband and return home.",
+          "mnemonic": "'Dis-' (undo) + 'band' — undo the band, and the whole group falls apart.",
+          "synonyms": [
+            "dissolve",
+            "dismiss",
+            "break up"
+          ],
+          "antonyms": [
+            "assemble",
+            "organize",
+            "form"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-withdraw",
+          "word": "withdraw",
+          "partOfSpeech": "verb",
+          "definition": "To pull back, remove, or retreat from a place or commitment.",
+          "example": "Feeling overwhelmed, he chose to withdraw from the competition at the last minute.",
+          "mnemonic": "'With-' + 'draw' — you draw yourself back, pulling away from the action.",
+          "synonyms": [
+            "retreat",
+            "retract",
+            "remove"
+          ],
+          "antonyms": [
+            "advance",
+            "deposit",
+            "engage"
+          ]
+        },
+        {
+          "id": "sat-standoffish",
+          "word": "standoffish",
+          "partOfSpeech": "adjective",
+          "definition": "Unfriendly and distant in manner, reluctant to be warm or sociable.",
+          "example": "New colleagues found her standoffish until they realized she was simply shy.",
+          "mnemonic": "Picture someone who 'stands off' at a distance instead of stepping in close.",
+          "synonyms": [
+            "aloof",
+            "distant",
+            "cold"
+          ],
+          "antonyms": [
+            "friendly",
+            "warm",
+            "approachable"
+          ]
+        },
+        {
+          "id": "sat-unapproachable",
+          "word": "unapproachable",
+          "partOfSpeech": "adjective",
+          "definition": "So distant or intimidating that others feel unable to come near or speak.",
+          "example": "The stern professor seemed so unapproachable that students rarely asked him questions.",
+          "mnemonic": "Break it up: 'un-' + 'approach' + '-able' — you are NOT able to walk up to this person.",
+          "synonyms": [
+            "aloof",
+            "remote",
+            "forbidding"
+          ],
+          "antonyms": [
+            "friendly",
+            "welcoming",
+            "accessible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-cohere",
+          "word": "cohere",
+          "partOfSpeech": "verb",
+          "definition": "To hold or stick together as a consistent, unified whole.",
+          "example": "The team's scattered ideas finally began to cohere into a single workable plan.",
+          "mnemonic": "'Co-' (together) + 'here' — everyone stays right here together, clinging as one.",
+          "synonyms": [
+            "unite",
+            "bond",
+            "stick"
+          ],
+          "antonyms": [
+            "separate",
+            "disperse",
+            "scatter"
+          ]
+        },
+        {
+          "id": "sat-unify",
+          "word": "unify",
+          "partOfSpeech": "verb",
+          "definition": "To bring separate things together into a single whole.",
+          "example": "A common enemy can unify bitter rivals into one determined alliance.",
+          "mnemonic": "'Uni' means one — to unify is to fold the many down into one.",
+          "synonyms": [
+            "unite",
+            "merge",
+            "consolidate"
+          ],
+          "antonyms": [
+            "divide",
+            "split",
+            "separate"
+          ]
+        },
+        {
+          "id": "sat-communion",
+          "word": "communion",
+          "partOfSpeech": "noun",
+          "definition": "A deep sharing of thoughts, feelings, or fellowship among people.",
+          "example": "Sitting quietly beneath the trees, she felt a peaceful communion with nature.",
+          "mnemonic": "Hides 'common' + 'union' — a common union of spirits sharing one another deeply.",
+          "synonyms": [
+            "fellowship",
+            "intimacy",
+            "rapport"
+          ],
+          "antonyms": [
+            "estrangement",
+            "isolation",
+            "alienation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-forge",
+          "word": "forge",
+          "partOfSpeech": "verb",
+          "definition": "To create or shape something strong and lasting through effort or heat.",
+          "example": "The soldiers forged a lifelong friendship during their years of service.",
+          "mnemonic": "A blacksmith's FORGE: metal heated in fire and hammered into a solid new shape.",
+          "synonyms": [
+            "create",
+            "shape",
+            "establish"
+          ],
+          "antonyms": [
+            "destroy",
+            "dissolve",
+            "break"
+          ]
+        },
+        {
+          "id": "sat-interweave",
+          "word": "interweave",
+          "partOfSpeech": "verb",
+          "definition": "To combine different elements so they cross and blend together.",
+          "example": "The author interweaves real history and invented characters throughout her novel.",
+          "mnemonic": "inter- (between) + weave: threads passing between one another on a loom.",
+          "synonyms": [
+            "blend",
+            "intertwine",
+            "mesh"
+          ],
+          "antonyms": [
+            "separate",
+            "unravel",
+            "disentangle"
+          ]
+        },
+        {
+          "id": "sat-entwine",
+          "word": "entwine",
+          "partOfSpeech": "verb",
+          "definition": "To twist or wrap two or more things around each other.",
+          "example": "The ivy slowly entwined itself around the old stone pillar.",
+          "mnemonic": "en- + twine (string): picture string twisting tightly around something.",
+          "synonyms": [
+            "coil",
+            "wrap",
+            "twist"
+          ],
+          "antonyms": [
+            "untangle",
+            "separate",
+            "unwind"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-intertwine",
+          "word": "intertwine",
+          "partOfSpeech": "verb",
+          "definition": "To link two or more things by twisting them closely together.",
+          "example": "Their fingers intertwined as they walked along the moonlit beach.",
+          "mnemonic": "inter- (between) + twine: two hands' fingers looping between each other.",
+          "synonyms": [
+            "interlace",
+            "weave",
+            "entwine"
+          ],
+          "antonyms": [
+            "separate",
+            "disentangle",
+            "part"
+          ]
+        },
+        {
+          "id": "sat-knit",
+          "word": "knit",
+          "partOfSpeech": "verb",
+          "definition": "To join people or things closely together into a unified whole.",
+          "example": "Years of shared hardship knit the small village into one family.",
+          "mnemonic": "Picture knitting needles looping loose yarn into a single connected fabric.",
+          "synonyms": [
+            "bind",
+            "unite",
+            "join"
+          ],
+          "antonyms": [
+            "unravel",
+            "separate",
+            "loosen"
+          ]
+        },
+        {
+          "id": "sat-incorporate",
+          "word": "incorporate",
+          "partOfSpeech": "verb",
+          "definition": "To include or absorb something as part of a larger whole.",
+          "example": "The chef incorporated fresh basil into the simmering sauce.",
+          "mnemonic": "in- + corpor- (Latin corpus, 'body'): taking something into the body.",
+          "synonyms": [
+            "integrate",
+            "absorb",
+            "include"
+          ],
+          "antonyms": [
+            "exclude",
+            "remove",
+            "separate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-meld",
+          "word": "meld",
+          "partOfSpeech": "verb",
+          "definition": "To combine elements so completely they seem like one thing.",
+          "example": "The band melds jazz and hip-hop into a genuinely fresh sound.",
+          "mnemonic": "Sounds like 'melt' + 'weld': things melting and welding into one.",
+          "synonyms": [
+            "blend",
+            "merge",
+            "fuse"
+          ],
+          "antonyms": [
+            "separate",
+            "divide",
+            "split"
+          ]
+        },
+        {
+          "id": "sat-fuse",
+          "word": "fuse",
+          "partOfSpeech": "verb",
+          "definition": "To join or blend things together, often by heat, into one unit.",
+          "example": "Intense heat fused the two metal plates into a single sheet.",
+          "mnemonic": "Think of metals melting under a lit fuse and running together into one.",
+          "synonyms": [
+            "weld",
+            "merge",
+            "combine"
+          ],
+          "antonyms": [
+            "separate",
+            "split",
+            "detach"
+          ]
+        },
+        {
+          "id": "sat-congregate",
+          "word": "congregate",
+          "partOfSpeech": "verb",
+          "definition": "To come together into a group or crowd in one place.",
+          "example": "Fans congregated outside the stadium hours before kickoff.",
+          "mnemonic": "con- (together) + greg- (Latin flock): a flock gathering, like a congregation.",
+          "synonyms": [
+            "gather",
+            "assemble",
+            "flock"
+          ],
+          "antonyms": [
+            "disperse",
+            "scatter",
+            "separate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-cluster",
+          "word": "cluster",
+          "partOfSpeech": "verb",
+          "definition": "To gather closely together in a small, tight group.",
+          "example": "The children clustered around the storyteller to hear every word.",
+          "mnemonic": "Picture a cluster of grapes: many small things bunched tightly on one stem.",
+          "synonyms": [
+            "bunch",
+            "group",
+            "huddle"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse",
+            "spread"
+          ]
+        },
+        {
+          "id": "sat-throng",
+          "word": "throng",
+          "partOfSpeech": "verb",
+          "definition": "To crowd together in large numbers, filling a space.",
+          "example": "Shoppers thronged the market on the final day of the sale.",
+          "mnemonic": "Rhymes with 'strong': a strong, dense mass of people pressing together.",
+          "synonyms": [
+            "crowd",
+            "swarm",
+            "flock"
+          ],
+          "antonyms": [
+            "disperse",
+            "scatter",
+            "empty"
+          ]
+        },
+        {
+          "id": "sat-commune",
+          "word": "commune",
+          "partOfSpeech": "verb",
+          "definition": "To share thoughts or feelings in a close, intimate way.",
+          "example": "She hiked alone into the hills to commune quietly with nature.",
+          "mnemonic": "Shares a root with 'communicate': deep sharing of what you hold in common.",
+          "synonyms": [
+            "connect",
+            "communicate",
+            "bond"
+          ],
+          "antonyms": [
+            "withdraw",
+            "isolate",
+            "detach"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-mingle",
+          "word": "mingle",
+          "partOfSpeech": "verb",
+          "definition": "To mix together or socialize with many different people.",
+          "example": "Guests mingled freely, drifting from one conversation to another.",
+          "mnemonic": "Sounds like 'mix' + 'jingle': people mixing and jingling around a party.",
+          "synonyms": [
+            "mix",
+            "socialize",
+            "blend"
+          ],
+          "antonyms": [
+            "separate",
+            "isolate",
+            "avoid"
+          ]
+        },
+        {
+          "id": "sat-consort",
+          "word": "consort",
+          "partOfSpeech": "verb",
+          "definition": "To regularly keep company or associate with certain people.",
+          "example": "The senator was criticized for consorting with known criminals.",
+          "mnemonic": "con- (with) + sort: spending your time with your own 'sort' of people.",
+          "synonyms": [
+            "associate",
+            "fraternize",
+            "mingle"
+          ],
+          "antonyms": [
+            "avoid",
+            "shun",
+            "separate"
+          ]
+        },
+        {
+          "id": "sat-bond",
+          "word": "bond",
+          "partOfSpeech": "verb",
+          "definition": "To form a close connection or relationship with someone.",
+          "example": "The new puppy quickly bonded with the youngest child in the house.",
+          "mnemonic": "Think of glue or a tie of trust: a bond holds two things firmly together.",
+          "synonyms": [
+            "connect",
+            "attach",
+            "unite"
+          ],
+          "antonyms": [
+            "separate",
+            "detach",
+            "alienate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-inexorable",
+          "word": "inexorable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to stop, slow down, or persuade away from its course.",
+          "example": "The glacier's inexorable advance crushed everything in its path, indifferent to our pleas.",
+          "mnemonic": "In-EX-orable — 'in' (not) + 'exorable' (able to be begged); you cannot beg it to change.",
+          "synonyms": [
+            "relentless",
+            "unstoppable",
+            "implacable"
+          ],
+          "antonyms": [
+            "yielding",
+            "stoppable"
+          ]
+        },
+        {
+          "id": "sat-relinquish",
+          "word": "relinquish",
+          "partOfSpeech": "verb",
+          "definition": "To voluntarily let go of something you hold, own, or control.",
+          "example": "After forty years at the helm, the founder finally relinquished the company to his daughter.",
+          "mnemonic": "Sounds like 'reling-quish' — picture your hand un-clenching and letting the reins slip away.",
+          "synonyms": [
+            "surrender",
+            "cede",
+            "renounce"
+          ],
+          "antonyms": [
+            "retain",
+            "keep",
+            "seize"
+          ]
+        },
+        {
+          "id": "sat-eschew",
+          "word": "eschew",
+          "partOfSpeech": "verb",
+          "definition": "To deliberately stay away from something on principle or by choice.",
+          "example": "A committed minimalist, she eschews clutter and owns barely a dozen possessions.",
+          "mnemonic": "Say it 'es-CHEW' — like sneezing 'achoo' at something you refuse to touch or chew.",
+          "synonyms": [
+            "avoid",
+            "shun",
+            "abstain from"
+          ],
+          "antonyms": [
+            "embrace",
+            "seek",
+            "adopt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-enmesh",
+          "word": "enmesh",
+          "partOfSpeech": "verb",
+          "definition": "To catch or involve someone deeply in something difficult to escape.",
+          "example": "One small favor enmeshed him in a web of debts he could never repay.",
+          "mnemonic": "en + MESH — trapped inside a net's mesh, tangled and unable to break free.",
+          "synonyms": [
+            "entangle",
+            "ensnare",
+            "embroil"
+          ],
+          "antonyms": [
+            "free",
+            "disentangle",
+            "release"
+          ]
+        },
+        {
+          "id": "sat-reciprocity",
+          "word": "reciprocity",
+          "partOfSpeech": "noun",
+          "definition": "The practice of giving and receiving benefits equally between two sides.",
+          "example": "Their friendship thrived on reciprocity: every favor was quietly returned in kind.",
+          "mnemonic": "Root 'reciproc-' as in 'recipe' shared back and forth — I cook for you, you cook for me.",
+          "synonyms": [
+            "mutuality",
+            "exchange",
+            "give-and-take"
+          ],
+          "antonyms": [
+            "one-sidedness",
+            "selfishness"
+          ]
+        },
+        {
+          "id": "sat-dissociate",
+          "word": "dissociate",
+          "partOfSpeech": "verb",
+          "definition": "To separate or disconnect one thing from another in your mind.",
+          "example": "The company scrambled to dissociate its brand from the scandal engulfing its former partner.",
+          "mnemonic": "dis- (apart) + 'associate' — undo the association, pull the two apart.",
+          "synonyms": [
+            "separate",
+            "detach",
+            "disconnect"
+          ],
+          "antonyms": [
+            "associate",
+            "link",
+            "connect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-surfeit",
+          "word": "surfeit",
+          "partOfSpeech": "noun",
+          "definition": "An amount so large it becomes excessive or sickening.",
+          "example": "After the holidays, a surfeit of chocolate left the children queasy and sick of sweets.",
+          "mnemonic": "'Sir Fit' ate so much at the feast that a SURFEIT made him unfit.",
+          "synonyms": [
+            "excess",
+            "glut",
+            "overabundance"
+          ],
+          "antonyms": [
+            "scarcity",
+            "shortage",
+            "lack"
+          ]
+        },
+        {
+          "id": "sat-inert",
+          "word": "inert",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking the power to move or the will to act.",
+          "example": "The patient lay inert on the couch, too exhausted to lift even a finger.",
+          "mnemonic": "Sounds like 'in-hurt' but really 'in-ert' — an INERT gas won't react; it just sits still.",
+          "synonyms": [
+            "motionless",
+            "inactive",
+            "sluggish"
+          ],
+          "antonyms": [
+            "active",
+            "lively",
+            "dynamic"
+          ]
+        },
+        {
+          "id": "sat-permeate",
+          "word": "permeate",
+          "partOfSpeech": "verb",
+          "definition": "To spread through every part of something, often gradually and completely.",
+          "example": "The smell of fresh bread permeated the whole house within minutes.",
+          "mnemonic": "per- (through) + 'meate' like 'meet' — it goes through to meet every corner.",
+          "synonyms": [
+            "saturate",
+            "penetrate",
+            "infuse"
+          ],
+          "antonyms": [
+            "repel",
+            "seal out"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-pervade",
+          "word": "pervade",
+          "partOfSpeech": "verb",
+          "definition": "To be present and felt throughout all of a place or thing.",
+          "example": "A quiet sense of dread pervaded the empty station as midnight approached.",
+          "mnemonic": "per- (through) + 'vade' (go, as in 'invade') — it goes through and invades everywhere.",
+          "synonyms": [
+            "permeate",
+            "suffuse",
+            "fill"
+          ],
+          "antonyms": [
+            "vacate",
+            "withdraw"
+          ]
+        },
+        {
+          "id": "sat-suffuse",
+          "word": "suffuse",
+          "partOfSpeech": "verb",
+          "definition": "To gradually spread color, light, or feeling across a surface or space.",
+          "example": "A warm pink glow suffused the sky as the sun slipped below the hills.",
+          "mnemonic": "suf- (under) + 'fuse' — light gets fused underneath everything, flooding it softly.",
+          "synonyms": [
+            "flood",
+            "bathe",
+            "infuse"
+          ],
+          "antonyms": [
+            "drain",
+            "empty"
+          ]
+        },
+        {
+          "id": "sat-imbue",
+          "word": "imbue",
+          "partOfSpeech": "verb",
+          "definition": "To fill someone or something deeply with a quality or feeling.",
+          "example": "Her grandmother's stories imbued her with a lifelong love of the sea.",
+          "mnemonic": "Sounds like 'im-BREW' — steep a teabag until the water is brewed full of flavor.",
+          "synonyms": [
+            "instill",
+            "inspire",
+            "steep"
+          ],
+          "antonyms": [
+            "deprive",
+            "drain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-bleak",
+          "word": "bleak",
+          "partOfSpeech": "adjective",
+          "definition": "Cold, bare, and offering no warmth, comfort, or hope.",
+          "example": "The job outlook was so bleak that graduates were leaving the town entirely.",
+          "mnemonic": "Rhymes with 'weak' and 'bleach' — a BLEAK moor is bleached grey, weak of life.",
+          "synonyms": [
+            "desolate",
+            "grim",
+            "dismal"
+          ],
+          "antonyms": [
+            "hopeful",
+            "cheerful",
+            "inviting"
+          ]
+        },
+        {
+          "id": "sat-recluse",
+          "word": "recluse",
+          "partOfSpeech": "noun",
+          "definition": "A person who lives alone and avoids contact with others.",
+          "example": "The famous author became a recluse, refusing all interviews and seeing almost no one.",
+          "mnemonic": "re- (back) + 'cluse' (closed, like 'seclude') — someone closed away from the world.",
+          "synonyms": [
+            "hermit",
+            "loner",
+            "introvert"
+          ],
+          "antonyms": [
+            "socialite",
+            "extrovert"
+          ]
+        },
+        {
+          "id": "sat-hermetic",
+          "word": "hermetic",
+          "partOfSpeech": "adjective",
+          "definition": "Sealed so completely that no air or outside influence can enter.",
+          "example": "The rare manuscripts are kept in a hermetic vault where humidity never fluctuates.",
+          "mnemonic": "From Hermes Trismegistus, whose 'hermetic seal' locked out all air — airtight and closed off.",
+          "synonyms": [
+            "airtight",
+            "sealed",
+            "impervious"
+          ],
+          "antonyms": [
+            "open",
+            "porous",
+            "leaky"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-adhere",
+          "word": "adhere",
+          "partOfSpeech": "verb",
+          "definition": "To stick firmly to a surface, or to follow a rule, plan, or belief closely.",
+          "example": "The nurse pressed the bandage down so it would adhere to his skin despite the sweat.",
+          "mnemonic": "Sounds like 'a-HERE' — glue keeps something right HERE, stuck in place.",
+          "synonyms": [
+            "cling",
+            "stick",
+            "comply"
+          ],
+          "antonyms": [
+            "detach",
+            "ignore",
+            "disregard"
+          ]
+        },
+        {
+          "id": "sat-convene",
+          "word": "convene",
+          "partOfSpeech": "verb",
+          "definition": "To come together or bring people together for a formal meeting or purpose.",
+          "example": "The committee will convene at nine to vote on the new budget.",
+          "mnemonic": "Break it as 'con-VENE' — think 'come + venue': people arrive at a venue together.",
+          "synonyms": [
+            "assemble",
+            "gather",
+            "summon"
+          ],
+          "antonyms": [
+            "disperse",
+            "adjourn",
+            "scatter"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T22:18:48.192Z"
+}

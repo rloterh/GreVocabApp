@@ -45,6 +45,22 @@ const ROOT = flag("--out", argv[0] && !argv[0].startsWith("--") ? argv[0] : "pub
 const DIR = join(ROOT, TRACK);
 const SEED = "src/data";
 const PER_MONTH = 90;
+
+/**
+ * Which months to touch, and how far to fill them.
+ *
+ * Topping every short month back to 90 was the right default when a corpus
+ * was short because a generator had run twice. It is the wrong one for a
+ * corpus that is short because it has reached the end of its vocabulary:
+ * asking for 850 more SAT words that must all differ from the 2,389 already
+ * used is hours of generation that returns almost nothing.
+ *
+ * So: only months below `--floor` are repaired, and only up to `--target`.
+ * The audit asserts a floor rather than uniformity for the same reason —
+ * padding to a round number means reaching for obscurities.
+ */
+const FLOOR = Number(flag("--floor", String(PER_MONTH)));
+const TARGET = Number(flag("--target", String(PER_MONTH)));
 const WORDS_PER_DAY = 3;
 const CARD_BATCH = 15;
 
@@ -129,16 +145,22 @@ for (const month of months) {
 console.log(`removed ${removed} duplicate words`);
 
 // --- Pass 2: top up -----------------------------------------------------------
-const short = months.filter((m) => countWords(m) < PER_MONTH);
-const shortfall = short.reduce((n, m) => n + (PER_MONTH - countWords(m)), 0);
-console.log(`${short.length} months short, ${shortfall} words to generate\n`);
+const short = months.filter((m) => countWords(m) < FLOOR);
+const shortfall = short.reduce((n, m) => n + (TARGET - countWords(m)), 0);
+console.log(
+  `${short.length} months under ${FLOOR}, ${shortfall} words to generate up to ${TARGET}\n`,
+);
 
 for (const month of months) {
-  const need = PER_MONTH - countWords(month);
+  if (countWords(month) >= FLOOR) continue;
+  const need = TARGET - countWords(month);
   if (need <= 0) continue;
   console.log(`${month.track}/${String(month.ordinal).padStart(2, "0")}  needs ${need}`);
 
-  const words = await selectWords(need, month.description ?? "GRE vocabulary");
+  const words = await selectWords(
+    need,
+    month.description ?? `${TRACK.toUpperCase()} vocabulary`,
+  );
   if (words.length === 0) {
     console.log(`  nothing usable came back; leaving it short`);
     continue;
@@ -156,7 +178,7 @@ for (const month of months) {
 
   const good = cards.filter((c) => checkWord(c).length === 0);
   const existing = month.days.flatMap((d) => d.words);
-  month.days = layOut([...existing, ...good].slice(0, PER_MONTH));
+  month.days = layOut([...existing, ...good].slice(0, TARGET));
   console.log(`  added ${good.length}, now ${countWords(month)}`);
 }
 

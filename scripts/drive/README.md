@@ -106,3 +106,14 @@ and so fell below Tailwind's `md` — the smallest iPad was still getting the
 phone layout. Two of its own assertions were wrong before the app was: a
 `display: none` aside still reports its declared width in Chromium, and an
 input's accessible name comes from its label, not from its text content.
+
+## `library-smoke.mjs`
+
+Loads the whole bundled corpus through the library and checks it lands: months
+marked rather than re-offered, nothing fetched until asked for, everything
+surviving a reload, and no word repeated across the track.
+
+It waits for the month count to **stop moving** rather than for a fixed few
+seconds. Loading is sequential and each month rewrites a store that grows
+toward a megabyte, so a fixed wait counted a run still in progress and reported
+a working feature as broken — twice, with a different number each time.

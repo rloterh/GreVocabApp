@@ -1,0 +1,1737 @@
+{
+  "track": "sat",
+  "ordinal": 9,
+  "title": "Praise and criticism",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-laud",
+          "word": "laud",
+          "partOfSpeech": "verb",
+          "definition": "To praise someone or something highly, with great approval and enthusiasm.",
+          "example": "Critics lauded her debut novel, calling it the finest work of the decade.",
+          "mnemonic": "Sounds like 'applaud' with the 'app' knocked off — to loudly praise.",
+          "synonyms": [
+            "praise",
+            "extol",
+            "commend"
+          ],
+          "antonyms": [
+            "criticize",
+            "condemn"
+          ]
+        },
+        {
+          "id": "sat-extol",
+          "word": "extol",
+          "partOfSpeech": "verb",
+          "definition": "To praise something very highly and with great eagerness.",
+          "example": "He extolled the virtues of early rising to anyone who would listen.",
+          "mnemonic": "'Ex + toll' — as you exit, you pay a toll of glowing praise.",
+          "synonyms": [
+            "laud",
+            "glorify",
+            "acclaim"
+          ],
+          "antonyms": [
+            "criticize",
+            "disparage"
+          ]
+        },
+        {
+          "id": "sat-exalt",
+          "word": "exalt",
+          "partOfSpeech": "verb",
+          "definition": "To lift someone to a position of great honor, dignity, or status.",
+          "example": "The victorious general was exalted above every other officer in the empire.",
+          "mnemonic": "Sounds like 'ex-alt(itude)' — raise someone to a higher altitude of honor.",
+          "synonyms": [
+            "elevate",
+            "glorify",
+            "ennoble"
+          ],
+          "antonyms": [
+            "degrade",
+            "debase",
+            "humble"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-commend",
+          "word": "commend",
+          "partOfSpeech": "verb",
+          "definition": "To express formal approval of someone, often publicly and for good conduct.",
+          "example": "The officer was commended for bravery after pulling the child from the river.",
+          "mnemonic": "You 'recommend' what you approve of — commend is that public stamp of approval.",
+          "synonyms": [
+            "praise",
+            "applaud",
+            "laud"
+          ],
+          "antonyms": [
+            "criticize",
+            "censure"
+          ]
+        },
+        {
+          "id": "sat-acclaim",
+          "word": "acclaim",
+          "partOfSpeech": "verb",
+          "definition": "To welcome or approve of someone loudly and publicly, with great enthusiasm.",
+          "example": "The film was acclaimed at festivals worldwide before it ever reached theaters.",
+          "mnemonic": "'Ac + claim' — the crowd loudly claims you as its hero.",
+          "synonyms": [
+            "applaud",
+            "hail",
+            "praise"
+          ],
+          "antonyms": [
+            "criticize",
+            "denounce"
+          ]
+        },
+        {
+          "id": "sat-applaud",
+          "word": "applaud",
+          "partOfSpeech": "verb",
+          "definition": "To show approval, often by clapping the hands together.",
+          "example": "The audience rose to applaud as the dancers took their final bow.",
+          "mnemonic": "Hear a 'plaudit' inside it — a plaudit is praise, and you clap to give it.",
+          "synonyms": [
+            "clap",
+            "cheer",
+            "praise"
+          ],
+          "antonyms": [
+            "boo",
+            "jeer"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-tout",
+          "word": "tout",
+          "partOfSpeech": "verb",
+          "definition": "To promote or praise something boastfully to attract interest or buyers.",
+          "example": "The salesman touted the vacuum as the last one you'd ever need to buy.",
+          "mnemonic": "Rhymes with 'shout' — you shout out how great something is to sell it.",
+          "synonyms": [
+            "promote",
+            "plug",
+            "hype"
+          ],
+          "antonyms": [
+            "disparage",
+            "criticize"
+          ]
+        },
+        {
+          "id": "sat-eulogize",
+          "word": "eulogize",
+          "partOfSpeech": "verb",
+          "definition": "To speak or write in high praise of someone, especially at a funeral.",
+          "example": "She eulogized her grandmother, recalling decades of quiet generosity.",
+          "mnemonic": "Greek 'eu' (good) + 'logos' (words) — good words spoken about a person.",
+          "synonyms": [
+            "praise",
+            "extol",
+            "laud"
+          ],
+          "antonyms": [
+            "criticize",
+            "condemn"
+          ]
+        },
+        {
+          "id": "sat-venerate",
+          "word": "venerate",
+          "partOfSpeech": "verb",
+          "definition": "To regard someone or something with deep respect and reverence, almost as sacred.",
+          "example": "In the village, elders are venerated and consulted before any big decision.",
+          "mnemonic": "Romans venerated Venus — the root 'vener' means to worship.",
+          "synonyms": [
+            "revere",
+            "honor",
+            "worship"
+          ],
+          "antonyms": [
+            "despise",
+            "scorn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-revere",
+          "word": "revere",
+          "partOfSpeech": "verb",
+          "definition": "To feel and show deep, often awed, respect for someone or something.",
+          "example": "Students revered the old professor, hanging on his every word.",
+          "mnemonic": "Sounds like 'reverend' — you revere a reverend.",
+          "synonyms": [
+            "venerate",
+            "honor",
+            "esteem"
+          ],
+          "antonyms": [
+            "despise",
+            "disdain"
+          ]
+        },
+        {
+          "id": "sat-esteem",
+          "word": "esteem",
+          "partOfSpeech": "verb",
+          "definition": "To hold someone in high regard because of their qualities or achievements.",
+          "example": "Her colleagues esteemed her so highly that no meeting felt complete without her.",
+          "mnemonic": "Break it as 'e-STEAM' — genuine respect rises like warm steam.",
+          "synonyms": [
+            "respect",
+            "admire",
+            "value"
+          ],
+          "antonyms": [
+            "despise",
+            "disdain"
+          ]
+        },
+        {
+          "id": "sat-admire",
+          "word": "admire",
+          "partOfSpeech": "verb",
+          "definition": "To regard someone or something with respect, warm approval, or pleasure.",
+          "example": "She stood before the painting for an hour, admiring every brushstroke.",
+          "mnemonic": "From Latin 'mirari' (to wonder at) — same root as 'miracle' and 'mirror.'",
+          "synonyms": [
+            "respect",
+            "esteem",
+            "revere"
+          ],
+          "antonyms": [
+            "despise",
+            "scorn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-flatter",
+          "word": "flatter",
+          "partOfSpeech": "verb",
+          "definition": "To praise someone excessively or insincerely, usually to win favor.",
+          "example": "He flattered the manager shamelessly, hoping to be picked for the promotion.",
+          "mnemonic": "Contains 'flat' — lay the praise on thick and flat, and it rings hollow.",
+          "synonyms": [
+            "compliment",
+            "fawn",
+            "butter up"
+          ],
+          "antonyms": [
+            "insult",
+            "criticize"
+          ]
+        },
+        {
+          "id": "sat-lionize",
+          "word": "lionize",
+          "partOfSpeech": "verb",
+          "definition": "To treat someone as a celebrity, giving them great attention and importance.",
+          "example": "After the discovery, the young scientist was lionized by the press and invited everywhere.",
+          "mnemonic": "Treat the person like a 'lion' — the celebrated king of beasts.",
+          "synonyms": [
+            "celebrate",
+            "glorify",
+            "exalt"
+          ],
+          "antonyms": [
+            "ignore",
+            "snub"
+          ]
+        },
+        {
+          "id": "sat-glorify",
+          "word": "glorify",
+          "partOfSpeech": "verb",
+          "definition": "To honor greatly, or to make something seem more splendid than it truly is.",
+          "example": "The old film glorifies war, hiding its horror behind heroic music.",
+          "mnemonic": "'Glory' + '-ify' — literally to fill something with glory.",
+          "synonyms": [
+            "exalt",
+            "extol",
+            "honor"
+          ],
+          "antonyms": [
+            "degrade",
+            "debase"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-idolize",
+          "word": "idolize",
+          "partOfSpeech": "verb",
+          "definition": "To admire and love someone so intensely that you treat them as perfect.",
+          "example": "Teenagers idolize pop stars, plastering their bedroom walls with glossy posters.",
+          "mnemonic": "Idol + ize — you turn an ordinary person into an idol you worship.",
+          "synonyms": [
+            "worship",
+            "adore",
+            "revere"
+          ],
+          "antonyms": [
+            "despise",
+            "scorn"
+          ]
+        },
+        {
+          "id": "sat-hail",
+          "word": "hail",
+          "partOfSpeech": "verb",
+          "definition": "To greet or acclaim someone enthusiastically, often in public.",
+          "example": "Critics hailed the young director as the future of cinema.",
+          "mnemonic": "Like you 'hail a taxi' — you call out loudly and eagerly to get its attention.",
+          "synonyms": [
+            "acclaim",
+            "salute",
+            "applaud"
+          ],
+          "antonyms": [
+            "criticize",
+            "condemn"
+          ]
+        },
+        {
+          "id": "sat-celebrate",
+          "word": "celebrate",
+          "partOfSpeech": "verb",
+          "definition": "To honor an event or person joyfully, often with festivity or ceremony.",
+          "example": "The town celebrated its founder with a parade and fireworks.",
+          "mnemonic": "A 'celebrity' is literally someone we celebrate.",
+          "synonyms": [
+            "honor",
+            "commemorate",
+            "fete"
+          ],
+          "antonyms": [
+            "mourn",
+            "ignore"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-adulation",
+          "word": "adulation",
+          "partOfSpeech": "noun",
+          "definition": "Excessive flattery and admiration heaped on someone.",
+          "example": "The singer basked in the adulation of thousands of screaming fans.",
+          "mnemonic": "From Latin adulari, 'to fawn' — picture a dog wagging its tail and fawning for attention.",
+          "synonyms": [
+            "hero-worship",
+            "flattery",
+            "veneration"
+          ],
+          "antonyms": [
+            "criticism",
+            "contempt"
+          ]
+        },
+        {
+          "id": "sat-accolade",
+          "word": "accolade",
+          "partOfSpeech": "noun",
+          "definition": "An award or public honor given for a notable achievement.",
+          "example": "Winning the Nobel Prize is the highest accolade in science.",
+          "mnemonic": "A knight kneels and gets a sword tapped on his neck (Latin collum) — that ceremonial tap is the accolade.",
+          "synonyms": [
+            "honor",
+            "award",
+            "distinction"
+          ],
+          "antonyms": [
+            "criticism",
+            "censure"
+          ]
+        },
+        {
+          "id": "sat-plaudit",
+          "word": "plaudit",
+          "partOfSpeech": "noun",
+          "definition": "An enthusiastic expression of approval or applause for someone's work.",
+          "example": "Her debut novel earned plaudits from reviewers around the world.",
+          "mnemonic": "Same root as 'applaud' (Latin plaudere, to clap) — a plaudit is clapping put into words.",
+          "synonyms": [
+            "acclaim",
+            "praise",
+            "approval"
+          ],
+          "antonyms": [
+            "criticism",
+            "censure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-commendation",
+          "word": "commendation",
+          "partOfSpeech": "noun",
+          "definition": "Official praise or an award recognizing good work or bravery.",
+          "example": "The firefighter received a commendation for pulling the child from the flames.",
+          "mnemonic": "You 'commend' someone by speaking well of them — like when you recommend a friend.",
+          "synonyms": [
+            "praise",
+            "tribute",
+            "citation"
+          ],
+          "antonyms": [
+            "condemnation",
+            "reprimand"
+          ]
+        },
+        {
+          "id": "sat-tribute",
+          "word": "tribute",
+          "partOfSpeech": "noun",
+          "definition": "Something said, given, or done to show respect and gratitude.",
+          "example": "The all-night concert was a tribute to the late guitarist.",
+          "mnemonic": "Like 'contribute' — you contribute a gift or gesture to honor someone.",
+          "synonyms": [
+            "homage",
+            "testimonial",
+            "honor"
+          ],
+          "antonyms": [
+            "insult",
+            "criticism"
+          ]
+        },
+        {
+          "id": "sat-homage",
+          "word": "homage",
+          "partOfSpeech": "noun",
+          "definition": "Public respect or honor shown to someone greatly admired.",
+          "example": "The film pays homage to the classic westerns of the 1950s.",
+          "mnemonic": "From homme (man) — a medieval vassal knelt and pledged to be his lord's 'man,' showing homage.",
+          "synonyms": [
+            "tribute",
+            "reverence",
+            "respect"
+          ],
+          "antonyms": [
+            "disrespect",
+            "contempt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-ovation",
+          "word": "ovation",
+          "partOfSpeech": "noun",
+          "definition": "A long, enthusiastic burst of clapping from a crowd.",
+          "example": "The soprano received a standing ovation after her final aria.",
+          "mnemonic": "The crowd goes 'OH!' — an OH-vation of roaring applause.",
+          "synonyms": [
+            "applause",
+            "acclaim",
+            "cheers"
+          ],
+          "antonyms": [
+            "booing",
+            "jeers"
+          ]
+        },
+        {
+          "id": "sat-panegyric",
+          "word": "panegyric",
+          "partOfSpeech": "noun",
+          "definition": "A formal speech or piece of writing that lavishly praises someone.",
+          "example": "The professor delivered a glowing panegyric honoring the retiring dean.",
+          "mnemonic": "'Pan' (all) + assembly — praise spoken before ALL the people gathered.",
+          "synonyms": [
+            "eulogy",
+            "encomium",
+            "tribute"
+          ],
+          "antonyms": [
+            "diatribe",
+            "criticism"
+          ]
+        },
+        {
+          "id": "sat-encomium",
+          "word": "encomium",
+          "partOfSpeech": "noun",
+          "definition": "Warm, glowing formal praise given in speech or writing.",
+          "example": "Her colleagues offered heartfelt encomiums at the farewell dinner.",
+          "mnemonic": "Sounds like 'en-COME-ee-um' — everyone COMES together to sing your praises.",
+          "synonyms": [
+            "panegyric",
+            "tribute",
+            "eulogy"
+          ],
+          "antonyms": [
+            "criticism",
+            "censure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-approbation",
+          "word": "approbation",
+          "partOfSpeech": "noun",
+          "definition": "Formal approval or hearty praise for something.",
+          "example": "The proposal won the committee's approbation without a single objection.",
+          "mnemonic": "Shares a root with 'approve' and 'prove' (Latin probare) — approbation is approval made official.",
+          "synonyms": [
+            "approval",
+            "endorsement",
+            "praise"
+          ],
+          "antonyms": [
+            "disapproval",
+            "condemnation"
+          ]
+        },
+        {
+          "id": "sat-kudos",
+          "word": "kudos",
+          "partOfSpeech": "noun",
+          "definition": "Praise and recognition earned for an achievement.",
+          "example": "Kudos to the volunteers who cleaned the entire beach in one afternoon.",
+          "mnemonic": "Sounds like 'cool-dos' — you did something cool, so cool-dos to you.",
+          "synonyms": [
+            "acclaim",
+            "credit",
+            "praise"
+          ],
+          "antonyms": [
+            "blame",
+            "criticism"
+          ]
+        },
+        {
+          "id": "sat-eulogy",
+          "word": "eulogy",
+          "partOfSpeech": "noun",
+          "definition": "A speech of high praise, especially for a person who has died.",
+          "example": "At the funeral, she gave a moving eulogy for her grandfather.",
+          "mnemonic": "'Eu' (good, as in euphoria) + 'logy' (words) — good words spoken about someone.",
+          "synonyms": [
+            "tribute",
+            "panegyric",
+            "encomium"
+          ],
+          "antonyms": [
+            "criticism",
+            "condemnation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-reverence",
+          "word": "reverence",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of deep respect and awe toward someone or something.",
+          "example": "She spoke of her late mentor with such reverence that the whole room fell silent.",
+          "mnemonic": "Sounds like 'reverend' — you treat a reverend with deep, awed respect.",
+          "synonyms": [
+            "awe",
+            "veneration",
+            "homage"
+          ],
+          "antonyms": [
+            "contempt",
+            "scorn",
+            "disdain"
+          ]
+        },
+        {
+          "id": "sat-admiration",
+          "word": "admiration",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of warm approval and respect for someone or something.",
+          "example": "The crowd watched the gymnast's flawless landing with open admiration.",
+          "mnemonic": "Hear 'ad-MIRROR-ation': you gaze as if into a mirror at something you find wonderful.",
+          "synonyms": [
+            "esteem",
+            "respect",
+            "approval"
+          ],
+          "antonyms": [
+            "contempt",
+            "disdain",
+            "scorn"
+          ]
+        },
+        {
+          "id": "sat-laudatory",
+          "word": "laudatory",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing strong approval or high praise.",
+          "example": "The critic's laudatory review of the film sent ticket sales soaring.",
+          "mnemonic": "Sounds like 'a lot of glory' — and shares a root with 'applaud.'",
+          "synonyms": [
+            "complimentary",
+            "approving",
+            "glowing"
+          ],
+          "antonyms": [
+            "critical",
+            "disparaging",
+            "condemnatory"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-fulsome",
+          "word": "fulsome",
+          "partOfSpeech": "adjective",
+          "definition": "So excessive or insincere that it becomes distasteful.",
+          "example": "His fulsome flattery of the boss made his coworkers cringe.",
+          "mnemonic": "Read it as 'full' + 'some' — so full of flattery it turns your stomach.",
+          "synonyms": [
+            "excessive",
+            "gushing",
+            "cloying"
+          ],
+          "antonyms": [
+            "sincere",
+            "restrained",
+            "understated"
+          ]
+        },
+        {
+          "id": "sat-complimentary",
+          "word": "complimentary",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing approval or admiration for someone or something.",
+          "example": "The teacher was complimentary about the clarity of my argument.",
+          "mnemonic": "Complimentary with an 'i' is for 'I like it!'; complementary with an 'e' completes a set.",
+          "synonyms": [
+            "laudatory",
+            "flattering",
+            "approving"
+          ],
+          "antonyms": [
+            "critical",
+            "insulting",
+            "disparaging"
+          ]
+        },
+        {
+          "id": "sat-glowing",
+          "word": "glowing",
+          "partOfSpeech": "adjective",
+          "definition": "Full of warmth, enthusiasm, and strong approval.",
+          "example": "Her professor wrote a glowing recommendation that landed her the internship.",
+          "mnemonic": "A report so warm and positive it seems to shine, like something that literally glows.",
+          "synonyms": [
+            "enthusiastic",
+            "complimentary",
+            "laudatory"
+          ],
+          "antonyms": [
+            "scathing",
+            "critical",
+            "damning"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-praiseworthy",
+          "word": "praiseworthy",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving approval and admiration.",
+          "example": "Volunteering at the shelter every weekend is a truly praiseworthy commitment.",
+          "mnemonic": "Break it into 'praise' + 'worthy' — worth being praised.",
+          "synonyms": [
+            "commendable",
+            "admirable",
+            "meritorious"
+          ],
+          "antonyms": [
+            "blameworthy",
+            "contemptible",
+            "shameful"
+          ]
+        },
+        {
+          "id": "sat-meritorious",
+          "word": "meritorious",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving reward or honor because of good conduct.",
+          "example": "The officer received a medal for meritorious service during the rescue.",
+          "mnemonic": "Spot 'merit' inside it — actions that earn merit.",
+          "synonyms": [
+            "commendable",
+            "praiseworthy",
+            "admirable"
+          ],
+          "antonyms": [
+            "dishonorable",
+            "unworthy",
+            "blameworthy"
+          ]
+        },
+        {
+          "id": "sat-exemplary",
+          "word": "exemplary",
+          "partOfSpeech": "adjective",
+          "definition": "Serving as a perfect model worthy of imitation.",
+          "example": "Her exemplary attendance meant she never missed a single class all year.",
+          "mnemonic": "Hidden inside is 'example' — it sets the example for everyone else.",
+          "synonyms": [
+            "model",
+            "ideal",
+            "commendable"
+          ],
+          "antonyms": [
+            "deplorable",
+            "shameful",
+            "substandard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-stellar",
+          "word": "stellar",
+          "partOfSpeech": "adjective",
+          "definition": "Outstanding and extremely impressive.",
+          "example": "The rookie's stellar first season earned her a spot on the national team.",
+          "mnemonic": "From Latin 'stella' (star) — a star performance.",
+          "synonyms": [
+            "outstanding",
+            "exceptional",
+            "superb"
+          ],
+          "antonyms": [
+            "mediocre",
+            "poor",
+            "dismal"
+          ]
+        },
+        {
+          "id": "sat-denigrate",
+          "word": "denigrate",
+          "partOfSpeech": "verb",
+          "definition": "To criticize unfairly so as to damage someone's reputation.",
+          "example": "Rather than debate her ideas, he tried to denigrate her in front of the committee.",
+          "mnemonic": "From Latin 'niger' (black) — to blacken someone's good name.",
+          "synonyms": [
+            "disparage",
+            "belittle",
+            "malign"
+          ],
+          "antonyms": [
+            "praise",
+            "extol",
+            "laud"
+          ]
+        },
+        {
+          "id": "sat-deprecate",
+          "word": "deprecate",
+          "partOfSpeech": "verb",
+          "definition": "To express strong disapproval of something.",
+          "example": "The senior engineer would deprecate his own achievements, brushing them off as mere luck.",
+          "mnemonic": "'De-' (down) + 'pray' — to pray something down, wishing it away.",
+          "synonyms": [
+            "disparage",
+            "belittle",
+            "denounce"
+          ],
+          "antonyms": [
+            "praise",
+            "approve",
+            "commend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-belittle",
+          "word": "belittle",
+          "partOfSpeech": "verb",
+          "definition": "To make someone or something seem unimportant or small.",
+          "example": "Don't belittle his fears just because they seem irrational to you.",
+          "mnemonic": "'Be' + 'little' — to make someone feel little.",
+          "synonyms": [
+            "disparage",
+            "denigrate",
+            "minimize"
+          ],
+          "antonyms": [
+            "praise",
+            "magnify",
+            "exalt"
+          ]
+        },
+        {
+          "id": "sat-malign",
+          "word": "malign",
+          "partOfSpeech": "verb",
+          "definition": "To say harmful and untrue things about someone.",
+          "example": "The tabloid maligned the actor with stories everyone later proved false.",
+          "mnemonic": "Starts with 'mal-' (bad, as in malice) — to speak badly of someone.",
+          "synonyms": [
+            "slander",
+            "defame",
+            "vilify"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-vilify",
+          "word": "vilify",
+          "partOfSpeech": "verb",
+          "definition": "To spread hostile claims portraying someone as evil.",
+          "example": "Political ads often vilify opponents instead of discussing real policies.",
+          "mnemonic": "Contains 'vile' — to make someone out to be vile.",
+          "synonyms": [
+            "malign",
+            "defame",
+            "denigrate"
+          ],
+          "antonyms": [
+            "praise",
+            "glorify",
+            "extol"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-defame",
+          "word": "defame",
+          "partOfSpeech": "verb",
+          "definition": "To harm a person's good name by spreading false, damaging claims about them.",
+          "example": "The tabloid tried to defame the senator by printing lies about his private finances.",
+          "mnemonic": "Break it down: de- (down) + fame → to bring someone's fame down.",
+          "synonyms": [
+            "slander",
+            "malign",
+            "vilify"
+          ],
+          "antonyms": [
+            "praise",
+            "honor",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-slander",
+          "word": "slander",
+          "partOfSpeech": "verb",
+          "definition": "To make false spoken remarks that injure someone's reputation.",
+          "example": "She sued her business rival for slander after he claimed on radio that she stole money.",
+          "mnemonic": "SLANDER starts with 'S' for Spoken — lies said out loud.",
+          "synonyms": [
+            "defame",
+            "malign",
+            "smear"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "commend"
+          ]
+        },
+        {
+          "id": "sat-libel",
+          "word": "libel",
+          "partOfSpeech": "verb",
+          "definition": "To publish a false written statement that unfairly damages a person's reputation.",
+          "example": "The newspaper was found guilty of libel for printing the fabricated story about the doctor.",
+          "mnemonic": "Sounds like 'label' — pinning a false written label on someone in print.",
+          "synonyms": [
+            "smear",
+            "calumny",
+            "malign"
+          ],
+          "antonyms": [
+            "praise",
+            "tribute",
+            "vindicate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-lambaste",
+          "word": "lambaste",
+          "partOfSpeech": "verb",
+          "definition": "To scold or attack someone very harshly with words.",
+          "example": "The coach lambasted the team at halftime for their lazy, careless play.",
+          "mnemonic": "'Lamb' + 'baste' — like basting a lamb, you roast someone verbally.",
+          "synonyms": [
+            "berate",
+            "censure",
+            "excoriate"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "laud"
+          ]
+        },
+        {
+          "id": "sat-castigate",
+          "word": "castigate",
+          "partOfSpeech": "verb",
+          "definition": "To punish or criticize someone severely for a fault.",
+          "example": "The judge castigated the company for repeatedly ignoring basic safety rules.",
+          "mnemonic": "Picture CASTing a GATE of blame crashing down on the wrongdoer.",
+          "synonyms": [
+            "rebuke",
+            "chastise",
+            "reprimand"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "reward"
+          ]
+        },
+        {
+          "id": "sat-chastise",
+          "word": "chastise",
+          "partOfSpeech": "verb",
+          "definition": "To scold or punish someone strongly for doing wrong.",
+          "example": "The teacher chastised the students who had cheated on the final exam.",
+          "mnemonic": "Contains 'chaste' — old-fashioned punishment meant to make one behave properly.",
+          "synonyms": [
+            "scold",
+            "rebuke",
+            "reprimand"
+          ],
+          "antonyms": [
+            "praise",
+            "reward",
+            "commend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-reproach",
+          "word": "reproach",
+          "partOfSpeech": "verb",
+          "definition": "To express disappointment or blame toward someone for a fault.",
+          "example": "She reproached him quietly for forgetting her birthday yet again.",
+          "mnemonic": "Sounds like 're-approach' — you approach someone again to point out their fault.",
+          "synonyms": [
+            "rebuke",
+            "admonish",
+            "criticize"
+          ],
+          "antonyms": [
+            "praise",
+            "approve",
+            "commend"
+          ]
+        },
+        {
+          "id": "sat-reprove",
+          "word": "reprove",
+          "partOfSpeech": "verb",
+          "definition": "To gently tell someone they have done something wrong.",
+          "example": "The librarian reproved the children for talking too loudly near the study desks.",
+          "mnemonic": "RE-PROVE: to prove again that someone slipped up — but done mildly.",
+          "synonyms": [
+            "rebuke",
+            "admonish",
+            "correct"
+          ],
+          "antonyms": [
+            "praise",
+            "approve",
+            "applaud"
+          ]
+        },
+        {
+          "id": "sat-admonish",
+          "word": "admonish",
+          "partOfSpeech": "verb",
+          "definition": "To warn or gently scold someone about their behavior.",
+          "example": "The officer admonished the driver to slow down whenever he passed a school.",
+          "mnemonic": "From Latin monere, 'to warn' — 'add a monition' (a warning) to someone.",
+          "synonyms": [
+            "warn",
+            "caution",
+            "rebuke"
+          ],
+          "antonyms": [
+            "praise",
+            "applaud",
+            "commend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-reprimand",
+          "word": "reprimand",
+          "partOfSpeech": "verb",
+          "definition": "To officially and sharply criticize someone for wrongdoing.",
+          "example": "The manager reprimanded the employee in writing for arriving late every morning.",
+          "mnemonic": "'Re-' + 'command' — a stern command handed down after a mistake.",
+          "synonyms": [
+            "rebuke",
+            "censure",
+            "admonish"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "compliment"
+          ]
+        },
+        {
+          "id": "sat-upbraid",
+          "word": "upbraid",
+          "partOfSpeech": "verb",
+          "definition": "To scold someone angrily for a mistake or fault.",
+          "example": "His mother upbraided him at the door for lying about where he had been.",
+          "mnemonic": "Picture 'up' + 'braid' — someone yanks your braid upward while shouting at you.",
+          "synonyms": [
+            "scold",
+            "rebuke",
+            "berate"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "commend"
+          ]
+        },
+        {
+          "id": "sat-excoriate",
+          "word": "excoriate",
+          "partOfSpeech": "verb",
+          "definition": "To criticize someone extremely harshly and severely.",
+          "example": "Reviewers excoriated the film for its clumsy plot and wooden acting.",
+          "mnemonic": "From Latin corium, 'skin' (ex- = off) — to strip the skin off with words.",
+          "synonyms": [
+            "censure",
+            "lambaste",
+            "denounce"
+          ],
+          "antonyms": [
+            "praise",
+            "laud",
+            "extol"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-mock",
+          "word": "mock",
+          "partOfSpeech": "verb",
+          "definition": "To laugh at or make fun of someone in a cruel way.",
+          "example": "The other kids mocked his accent until he stopped speaking in class.",
+          "mnemonic": "Rhymes with 'knock' — you knock someone down with scornful laughter.",
+          "synonyms": [
+            "ridicule",
+            "deride",
+            "taunt"
+          ],
+          "antonyms": [
+            "praise",
+            "respect",
+            "admire"
+          ]
+        },
+        {
+          "id": "sat-taunt",
+          "word": "taunt",
+          "partOfSpeech": "verb",
+          "definition": "To insult or provoke someone repeatedly in order to upset them.",
+          "example": "The bullies taunted him about his height every time he walked past.",
+          "mnemonic": "Sounds like 'haunt' — cruel words that haunt and needle you.",
+          "synonyms": [
+            "jeer",
+            "mock",
+            "tease"
+          ],
+          "antonyms": [
+            "praise",
+            "encourage",
+            "compliment"
+          ]
+        },
+        {
+          "id": "sat-jeer",
+          "word": "jeer",
+          "partOfSpeech": "verb",
+          "definition": "To shout rude, mocking remarks at someone.",
+          "example": "The crowd jeered at the referee after his unfair call cost the home team.",
+          "mnemonic": "Rhymes with 'sneer' — a loud, sneering shout of scorn.",
+          "synonyms": [
+            "mock",
+            "taunt",
+            "heckle"
+          ],
+          "antonyms": [
+            "cheer",
+            "applaud",
+            "praise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-sneer",
+          "word": "sneer",
+          "partOfSpeech": "noun/verb",
+          "definition": "To show contempt through a mocking smile or a scornful remark.",
+          "example": "She gave a sneer at his cheap suit before turning away.",
+          "mnemonic": "Say it slow: 's' + 'jeer' — a sneer is a scornful jeer.",
+          "synonyms": [
+            "scoff",
+            "jeer",
+            "smirk"
+          ],
+          "antonyms": [
+            "praise",
+            "admire"
+          ]
+        },
+        {
+          "id": "sat-revile",
+          "word": "revile",
+          "partOfSpeech": "verb",
+          "definition": "To attack a person with harsh, abusive language.",
+          "example": "Critics reviled the mayor for months after the corruption scandal broke.",
+          "mnemonic": "re + VILE — to call someone vile, over and over.",
+          "synonyms": [
+            "abuse",
+            "denounce",
+            "vilify"
+          ],
+          "antonyms": [
+            "praise",
+            "laud",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-deplore",
+          "word": "deplore",
+          "partOfSpeech": "verb",
+          "definition": "To express strong disapproval of or deep regret over something.",
+          "example": "We deplore the senseless violence that has torn this town apart.",
+          "mnemonic": "Hidden 'plore' as in 'implore' — you beg something so bad to stop; think 'deplorable'.",
+          "synonyms": [
+            "lament",
+            "bemoan",
+            "censure"
+          ],
+          "antonyms": [
+            "praise",
+            "applaud",
+            "commend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-condemn",
+          "word": "condemn",
+          "partOfSpeech": "verb",
+          "definition": "To declare something utterly wrong, or to sentence someone to punishment.",
+          "example": "World leaders united to condemn the attack on unarmed civilians.",
+          "mnemonic": "The '-demn' sounds like 'damn' — to condemn is to damn a deed outright.",
+          "synonyms": [
+            "denounce",
+            "censure",
+            "damn"
+          ],
+          "antonyms": [
+            "praise",
+            "condone",
+            "approve"
+          ]
+        },
+        {
+          "id": "sat-criticize",
+          "word": "criticize",
+          "partOfSpeech": "verb",
+          "definition": "To point out the faults or flaws in someone or something.",
+          "example": "My editor criticized every paragraph until the essay finally read well.",
+          "mnemonic": "Built on 'critic' — a critic's whole job is to do this.",
+          "synonyms": [
+            "fault",
+            "censure",
+            "knock"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "commend"
+          ]
+        },
+        {
+          "id": "sat-pillory",
+          "word": "pillory",
+          "partOfSpeech": "noun/verb",
+          "definition": "To expose someone to open public scorn and ridicule.",
+          "example": "The tabloids pilloried the actor for weeks over one careless remark.",
+          "mnemonic": "A pillory was the wooden frame that locked your head and hands in the town square so everyone could mock you.",
+          "synonyms": [
+            "ridicule",
+            "denounce",
+            "lambaste"
+          ],
+          "antonyms": [
+            "praise",
+            "honor",
+            "exalt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-inveigh",
+          "word": "inveigh",
+          "partOfSpeech": "verb",
+          "definition": "To protest or speak bitterly and at length against something.",
+          "example": "The preacher inveighed against greed from the pulpit every Sunday.",
+          "mnemonic": "Sounds like 'in-VAY' — picture a finger wagging 'in vain' as someone rants on.",
+          "synonyms": [
+            "rail",
+            "protest",
+            "denounce"
+          ],
+          "antonyms": [
+            "praise",
+            "endorse",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-fulminate",
+          "word": "fulminate",
+          "partOfSpeech": "verb",
+          "definition": "To express loud, vehement protest, as if exploding in anger.",
+          "example": "The senator fulminated against the new tax for a solid hour.",
+          "mnemonic": "From Latin 'fulmen' (thunderbolt) — to hurl verbal thunderbolts.",
+          "synonyms": [
+            "rail",
+            "rage",
+            "denounce"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "applaud"
+          ]
+        },
+        {
+          "id": "sat-calumny",
+          "word": "calumny",
+          "partOfSpeech": "noun",
+          "definition": "A false statement made deliberately to damage someone's reputation.",
+          "example": "His rivals spread calumny about him, inventing scandals that never happened.",
+          "mnemonic": "Hear 'call-uhm-lie' — calling someone a name built on a lie.",
+          "synonyms": [
+            "slander",
+            "defamation",
+            "aspersion"
+          ],
+          "antonyms": [
+            "praise",
+            "tribute",
+            "compliment"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-aspersion",
+          "word": "aspersion",
+          "partOfSpeech": "noun",
+          "definition": "A damaging or false remark that attacks someone's good name.",
+          "example": "How dare you cast aspersions on my honesty without a shred of proof!",
+          "mnemonic": "From Latin 'aspergere', to sprinkle — you sprinkle dirt on someone's name.",
+          "synonyms": [
+            "slur",
+            "smear",
+            "calumny"
+          ],
+          "antonyms": [
+            "compliment",
+            "praise",
+            "tribute"
+          ]
+        },
+        {
+          "id": "sat-invective",
+          "word": "invective",
+          "partOfSpeech": "noun",
+          "definition": "Harsh, abusive, or insulting language.",
+          "example": "The debate collapsed into a stream of invective, with neither side making a real argument.",
+          "mnemonic": "Sounds like 'in-VECTOR' — words launched at you like a weapon.",
+          "synonyms": [
+            "abuse",
+            "vituperation",
+            "diatribe"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "flattery"
+          ]
+        },
+        {
+          "id": "sat-diatribe",
+          "word": "diatribe",
+          "partOfSpeech": "noun",
+          "definition": "A long, bitter, and forceful verbal attack against someone or something.",
+          "example": "His after-dinner speech turned into a diatribe against modern art.",
+          "mnemonic": "'die-a-tribe' — a whole tribe wilts under the long, bitter rant.",
+          "synonyms": [
+            "tirade",
+            "harangue",
+            "screed"
+          ],
+          "antonyms": [
+            "praise",
+            "tribute",
+            "panegyric"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-tirade",
+          "word": "tirade",
+          "partOfSpeech": "noun",
+          "definition": "A long, angry speech full of criticism or accusation.",
+          "example": "When the coach saw the score, he launched into a ten-minute tirade.",
+          "mnemonic": "Sounds like 'tired' — the endless angry rant leaves everyone tired.",
+          "synonyms": [
+            "diatribe",
+            "harangue",
+            "rant"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "commendation"
+          ]
+        },
+        {
+          "id": "sat-harangue",
+          "word": "harangue",
+          "partOfSpeech": "noun/verb",
+          "definition": "A long, aggressive, often lecturing speech aimed at an audience.",
+          "example": "The commander harangued the exhausted troops about discipline for an hour.",
+          "mnemonic": "Say 'ha-RANG' — your ears rang after that long scolding lecture.",
+          "synonyms": [
+            "tirade",
+            "diatribe",
+            "lecture"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "whisper"
+          ]
+        },
+        {
+          "id": "sat-vitriol",
+          "word": "vitriol",
+          "partOfSpeech": "noun",
+          "definition": "Cruel and bitter language, harsh enough to feel corrosive.",
+          "example": "The online comments were full of vitriol, attacking her looks instead of her ideas.",
+          "mnemonic": "Vitriol is an old name for sulfuric acid — the words burn like acid.",
+          "synonyms": [
+            "venom",
+            "acrimony",
+            "spite"
+          ],
+          "antonyms": [
+            "kindness",
+            "praise",
+            "warmth"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-opprobrium",
+          "word": "opprobrium",
+          "partOfSpeech": "noun",
+          "definition": "Harsh public scorn and blame directed at someone for shameful behavior.",
+          "example": "After the scandal broke, the disgraced senator faced weeks of public opprobrium.",
+          "mnemonic": "Say it 'op-PROBE-rium': opponents probe your past and heap shame on you.",
+          "synonyms": [
+            "disgrace",
+            "scorn",
+            "obloquy"
+          ],
+          "antonyms": [
+            "praise",
+            "honor"
+          ]
+        },
+        {
+          "id": "sat-obloquy",
+          "word": "obloquy",
+          "partOfSpeech": "noun",
+          "definition": "Abusive, condemnatory language aimed at a person, or the disgrace it causes.",
+          "example": "The whistleblower endured the obloquy of colleagues who called her a traitor.",
+          "mnemonic": "'ob' (against) + Latin 'loqui' (to speak): speaking against someone, as in eloquent.",
+          "synonyms": [
+            "vilification",
+            "calumny",
+            "opprobrium"
+          ],
+          "antonyms": [
+            "praise",
+            "commendation"
+          ]
+        },
+        {
+          "id": "sat-reproof",
+          "word": "reproof",
+          "partOfSpeech": "noun",
+          "definition": "A spoken expression of blame or disapproval directed at a wrongdoer.",
+          "example": "A stern reproof from the teacher was enough to silence the giggling students.",
+          "mnemonic": "'re-PROOF': handing someone the proof of their fault again, right to their face.",
+          "synonyms": [
+            "rebuke",
+            "reprimand",
+            "admonishment"
+          ],
+          "antonyms": [
+            "praise",
+            "approval"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-disapprobation",
+          "word": "disapprobation",
+          "partOfSpeech": "noun",
+          "definition": "Strong moral condemnation or the sense that something is wrong.",
+          "example": "Her parents' silent disapprobation was clear from the way they left the room.",
+          "mnemonic": "'dis' (not) + 'approbation' (approval): the formal, frowning opposite of a thumbs-up.",
+          "synonyms": [
+            "condemnation",
+            "censure",
+            "reprobation"
+          ],
+          "antonyms": [
+            "approval",
+            "approbation",
+            "praise"
+          ]
+        },
+        {
+          "id": "sat-critique",
+          "word": "critique",
+          "partOfSpeech": "noun",
+          "definition": "A detailed evaluation pointing out the strengths and weaknesses of a work or idea.",
+          "example": "The professor's critique of my essay filled three pages with margin notes.",
+          "mnemonic": "Hidden inside is 'critic'; picture a French art critic saying 'cri-TEEK'.",
+          "synonyms": [
+            "analysis",
+            "assessment",
+            "appraisal"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-damning",
+          "word": "damning",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly indicating that someone is guilty or that something is very wrong.",
+          "example": "The leaked emails were damning, proving the executive had known about the defect all along.",
+          "mnemonic": "It literally holds 'damn': evidence so bad it damns you to a guilty verdict.",
+          "synonyms": [
+            "incriminating",
+            "condemnatory",
+            "damaging"
+          ],
+          "antonyms": [
+            "exonerating",
+            "vindicating"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-sarcastic",
+          "word": "sarcastic",
+          "partOfSpeech": "adjective",
+          "definition": "Using bitter, mocking remarks that mean the opposite of what is said.",
+          "example": "'Oh, great, another Monday,' she muttered in a sarcastic tone.",
+          "mnemonic": "From Greek 'sarkazein', to tear flesh; a sharp, caustic jab that 'tears' at you.",
+          "synonyms": [
+            "mocking",
+            "sardonic",
+            "snide"
+          ],
+          "antonyms": [
+            "sincere",
+            "genuine"
+          ]
+        },
+        {
+          "id": "sat-astute",
+          "word": "astute",
+          "partOfSpeech": "adjective",
+          "definition": "Quick to grasp situations and clever at turning them to advantage.",
+          "example": "An astute investor, she sold her shares just before the market crashed.",
+          "mnemonic": "'a-STUTE' sounds like 'a-cute' mind — acute, razor-sharp perception.",
+          "synonyms": [
+            "shrewd",
+            "perceptive",
+            "sharp"
+          ],
+          "antonyms": [
+            "obtuse",
+            "naive"
+          ]
+        },
+        {
+          "id": "sat-sagacious",
+          "word": "sagacious",
+          "partOfSpeech": "adjective",
+          "definition": "Showing keen practical wisdom and sound judgment.",
+          "example": "The sagacious old lawyer foresaw every objection the opposing counsel would raise.",
+          "mnemonic": "Spot 'sage' at the front: a sage is wise, so sage-acious means full of wisdom.",
+          "synonyms": [
+            "wise",
+            "sage",
+            "discerning"
+          ],
+          "antonyms": [
+            "foolish",
+            "obtuse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-eloquent",
+          "word": "eloquent",
+          "partOfSpeech": "adjective",
+          "definition": "Speaking or writing fluently, vividly, and persuasively.",
+          "example": "Her eloquent closing argument moved several jurors to tears.",
+          "mnemonic": "'e' (out) + Latin 'loqui' (speak): the words flow out beautifully.",
+          "synonyms": [
+            "articulate",
+            "fluent",
+            "persuasive"
+          ],
+          "antonyms": [
+            "inarticulate",
+            "tongue-tied"
+          ]
+        },
+        {
+          "id": "sat-verbose",
+          "word": "verbose",
+          "partOfSpeech": "adjective",
+          "definition": "Using far more words than are needed to express something.",
+          "example": "His verbose emails buried a single request under six rambling paragraphs.",
+          "mnemonic": "Starts with 'verb' (Latin 'verbum', word): stuffed with words, words, words.",
+          "synonyms": [
+            "wordy",
+            "long-winded",
+            "prolix"
+          ],
+          "antonyms": [
+            "concise",
+            "succinct",
+            "terse"
+          ]
+        },
+        {
+          "id": "sat-concise",
+          "word": "concise",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing much in few, well-chosen words.",
+          "example": "The manual's concise instructions fit on a single index card.",
+          "mnemonic": "'con-CISE' shares its root with scissors and incise: everything extra is cut away.",
+          "synonyms": [
+            "succinct",
+            "terse",
+            "brief"
+          ],
+          "antonyms": [
+            "verbose",
+            "wordy",
+            "rambling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-succinct",
+          "word": "succinct",
+          "partOfSpeech": "adjective",
+          "definition": "Stated briefly and clearly, with no wasted words.",
+          "example": "'Yes, we'll ship Friday,' was his succinct reply to the long inquiry.",
+          "mnemonic": "Sounds like 'cinch': the message is belted in tight, nothing loose.",
+          "synonyms": [
+            "concise",
+            "terse",
+            "pithy"
+          ],
+          "antonyms": [
+            "verbose",
+            "rambling",
+            "long-winded"
+          ]
+        },
+        {
+          "id": "sat-tactful",
+          "word": "tactful",
+          "partOfSpeech": "adjective",
+          "definition": "Careful not to offend or upset people when saying difficult things.",
+          "example": "She gave the grieving family a tactful, gentle explanation of what had happened.",
+          "mnemonic": "'tact' (Latin 'tangere', to touch) + 'ful': handling people with a light, careful touch.",
+          "synonyms": [
+            "diplomatic",
+            "sensitive",
+            "discreet"
+          ],
+          "antonyms": [
+            "tactless",
+            "blunt",
+            "undiplomatic"
+          ]
+        },
+        {
+          "id": "sat-diplomatic",
+          "word": "diplomatic",
+          "partOfSpeech": "adjective",
+          "definition": "Skilled at dealing with people and situations without causing offense.",
+          "example": "The manager took a diplomatic approach, praising both teams before suggesting the merger.",
+          "mnemonic": "Think of a 'diplomat', the envoy whose whole job is smoothing over conflict.",
+          "synonyms": [
+            "tactful",
+            "sensitive",
+            "politic"
+          ],
+          "antonyms": [
+            "tactless",
+            "undiplomatic",
+            "blunt"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:39:29.925Z"
+}

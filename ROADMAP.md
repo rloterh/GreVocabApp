@@ -23,10 +23,11 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
 
-**Phases 13 to 16 are done** — tracks, ordinal content, the schedule and its
-migration, the start-date screens, the flashcard edge arrows and swipe, and the
-tablet shell. **Next is Phase 17**, the SAT corpus: three years of it, to the
-standard the GRE corpus was held to.
+**Phases 13 to 17 are done** — tracks, ordinal content, the schedule and its
+migration, the start-date screens, the flashcard edge arrows and swipe, the
+tablet shell, and three years of SAT vocabulary audited to the same standard as
+the GRE corpus. **Next is Phase 18**, the v1.1 release: CHANGELOG, tablet
+screenshots, CONTINUING.md, and the merge to `main`.
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -519,17 +520,24 @@ Three years of SAT vocabulary, to the standard the GRE corpus was held to.
 
 ### Tasks
 
-- **[P0] Generate 36 ordinal months.** — No repetition within the track. Overlap with GRE is expected and is not a failure ([ADR 0013](./docs/adr/0013-cross-track-overlap.md)).
-- **[P0] SAT-specific difficulty banding.** — The academic register a strong high-school reader is reaching for, which is a level below the GRE corpus, not a subset of it.
-- **[P0] `audit-corpus.ts` becomes per-track.** — Asserts uniqueness within each track and **reports** the cross-track overlap as information. An overlap near zero would be as suspicious as one near total.
-- **[P0] Repair pass.** — The same loop the GRE corpus went through, until the audit says the corpus is sound.
-- **[P1] Both corpora ship as defaults.** — Generation is for going beyond them, never a prerequisite for using the app.
+- ~~**[P0] Generate 36 ordinal months.**~~ **DONE 2026-09-12.** — 2,416 words, no word twice in the track. About three and a half hours unattended through the `claude` CLI.
+- ~~**[P0] SAT-specific difficulty banding.**~~ **DONE 2026-09-12.** — Core academic, then argument and evidence, then advanced literary and scientific, with its own themes drawn from what the test reads rather than from GRE's abstractions.
+- ~~**[P0] `audit-corpus.ts` becomes per-track.**~~ **DONE** in Phase 13. It reports the overlap at **59%**, which is higher than [ADR 0013](./docs/adr/0013-cross-track-overlap.md) guessed; the record now says so and says which lever would change it.
+- ~~**[P0] Repair pass.**~~ **DONE 2026-09-12.** — And it mostly failed, which is the interesting part: four months finished under the 45-word floor, and asking for 118 more words returned 27. The track had reached the end of its vocabulary. `rebalance-corpus.ts` moved 40 words from two fat months into three thin ones **within the same band**, which is safe for the same reason reshuffling is safe — ids do not name a month. Months now run 45—90, mean 67.
+- ~~**[P1] Both corpora ship as defaults.**~~ **DONE** — 72 months and 5,241 words in `public/vocab/`, listed by track and fetched only when asked for.
 
-### Definition of done
+### Definition of done — met 2026-09-12
 
-- `audit-corpus.ts` passes for `gre` and for `sat`.
-- No word appears twice within either track.
-- The overlap between tracks is reported, and is plausible for two exams that genuinely share a register.
+- ~~`audit-corpus.ts` passes for `gre` and for `sat`.~~ "corpus is sound", both tracks, **zero** quality failures across 5,241 cards.
+- ~~No word appears twice within either track.~~
+- ~~The overlap between tracks is reported.~~ 59%, and argued with rather than waved through.
+
+The audit's one complaint was a card it was wrong about. `belie` stems to
+`beli` and `belied` to `bely`, so a shared-prefix test could not bridge them
+and "Her calm voice belied the panic" read as not containing its own word —
+along with every other verb in the `-ie/-ied` family. That is the third time
+in this project a measurement has been wrong rather than the thing measured,
+after contrast without alpha compositing and input names without labels.
 
 ## Phase 18 — v1.1 release
 

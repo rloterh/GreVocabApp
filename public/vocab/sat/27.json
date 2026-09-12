@@ -1,0 +1,1438 @@
+{
+  "track": "sat",
+  "ordinal": 27,
+  "title": "Risk and caution",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-peril",
+          "word": "peril",
+          "partOfSpeech": "noun",
+          "definition": "A state of serious and immediate danger to one's safety or life.",
+          "example": "The sailors faced great peril as the storm splintered their mast.",
+          "mnemonic": "Sounds like 'pear ill' — a pear so rotten that eating it could make you deathly ill.",
+          "synonyms": [
+            "danger",
+            "jeopardy",
+            "risk"
+          ],
+          "antonyms": [
+            "safety",
+            "security"
+          ]
+        },
+        {
+          "id": "sat-perilous",
+          "word": "perilous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of danger or great risk to life and well-being.",
+          "example": "The climbers took a perilous route along the crumbling edge of the cliff.",
+          "mnemonic": "peril + -ous = literally 'full of peril'.",
+          "synonyms": [
+            "dangerous",
+            "hazardous",
+            "risky"
+          ],
+          "antonyms": [
+            "safe",
+            "secure"
+          ]
+        },
+        {
+          "id": "sat-jeopardy",
+          "word": "jeopardy",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being exposed to possible harm, loss, or failure.",
+          "example": "One careless late-night tweet put his entire career in jeopardy.",
+          "mnemonic": "The quiz show 'Jeopardy!' — one wrong answer and all your winnings are at stake.",
+          "synonyms": [
+            "danger",
+            "peril",
+            "risk"
+          ],
+          "antonyms": [
+            "safety",
+            "security"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-hazardous",
+          "word": "hazardous",
+          "partOfSpeech": "adjective",
+          "definition": "Involving a strong likelihood of injury, harm, or loss.",
+          "example": "The workers wore thick sealed suits before handling the hazardous chemicals.",
+          "mnemonic": "Think of a yellow 'hazard' road sign warning you of trouble ahead.",
+          "synonyms": [
+            "dangerous",
+            "perilous",
+            "unsafe"
+          ],
+          "antonyms": [
+            "safe",
+            "harmless"
+          ]
+        },
+        {
+          "id": "sat-precarious",
+          "word": "precarious",
+          "partOfSpeech": "adjective",
+          "definition": "Not securely held or supported, and likely to fall or fail at any moment.",
+          "example": "The vase teetered in a precarious position at the very edge of the shelf.",
+          "mnemonic": "Sounds like 'pray-carious' — a spot so shaky you can only pray it holds.",
+          "synonyms": [
+            "unstable",
+            "insecure",
+            "shaky"
+          ],
+          "antonyms": [
+            "stable",
+            "secure"
+          ]
+        },
+        {
+          "id": "sat-treacherous",
+          "word": "treacherous",
+          "partOfSpeech": "adjective",
+          "definition": "Hiding unexpected dangers, or guilty of betraying someone's trust.",
+          "example": "The treacherous mountain pass had already claimed two unwary hikers that winter.",
+          "mnemonic": "Contains 'treachery' — like a traitor, the icy ground betrays your footing.",
+          "synonyms": [
+            "dangerous",
+            "deceptive",
+            "disloyal"
+          ],
+          "antonyms": [
+            "safe",
+            "loyal",
+            "trustworthy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-precipitous",
+          "word": "precipitous",
+          "partOfSpeech": "adjective",
+          "definition": "Dangerously steep, or done with sudden and rash haste.",
+          "example": "The trail ended in a precipitous drop straight down to the valley floor.",
+          "mnemonic": "Hear 'precipice' inside it — the sheer, sudden edge of a cliff.",
+          "synonyms": [
+            "steep",
+            "sheer",
+            "abrupt"
+          ],
+          "antonyms": [
+            "gradual",
+            "gentle"
+          ]
+        },
+        {
+          "id": "sat-vigilance",
+          "word": "vigilance",
+          "partOfSpeech": "noun",
+          "definition": "The quality of watching carefully and steadily for possible danger.",
+          "example": "The night guard's tireless vigilance kept the museum's treasures untouched.",
+          "mnemonic": "Root 'vigil' — staying awake and alert through the whole night.",
+          "synonyms": [
+            "watchfulness",
+            "alertness",
+            "attentiveness"
+          ],
+          "antonyms": [
+            "negligence",
+            "carelessness"
+          ]
+        },
+        {
+          "id": "sat-prudence",
+          "word": "prudence",
+          "partOfSpeech": "noun",
+          "definition": "The use of caution and sound judgment in practical affairs.",
+          "example": "With her usual prudence, she tucked away a third of every paycheck.",
+          "mnemonic": "A 'prude' is over-careful about conduct; this is being carefully careful about decisions.",
+          "synonyms": [
+            "caution",
+            "discretion",
+            "foresight"
+          ],
+          "antonyms": [
+            "recklessness",
+            "folly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-heed",
+          "word": "heed",
+          "partOfSpeech": "verb",
+          "definition": "To pay close attention to a warning or piece of advice.",
+          "example": "If he had heeded the lifeguard's shouts, he never would have swum past the rocks.",
+          "mnemonic": "Rhymes with 'need' — you need to heed a warning.",
+          "synonyms": [
+            "mind",
+            "obey",
+            "note"
+          ],
+          "antonyms": [
+            "ignore",
+            "disregard"
+          ]
+        },
+        {
+          "id": "sat-forewarn",
+          "word": "forewarn",
+          "partOfSpeech": "verb",
+          "definition": "To tell someone about a problem or threat before it happens.",
+          "example": "The weather service forewarned coastal residents to evacuate hours before the hurricane hit.",
+          "mnemonic": "'fore' (before) + 'warn' — the proverb 'forewarned is forearmed.'",
+          "synonyms": [
+            "alert",
+            "caution",
+            "notify"
+          ],
+          "antonyms": [
+            "blindside",
+            "surprise"
+          ]
+        },
+        {
+          "id": "sat-reckless",
+          "word": "reckless",
+          "partOfSpeech": "adjective",
+          "definition": "Acting without any thought or concern for the possible consequences.",
+          "example": "His reckless driving through the school zone cost him his license.",
+          "mnemonic": "Sounds like 'wreck-less' — but drive this way and you're bound to cause a wreck.",
+          "synonyms": [
+            "rash",
+            "careless",
+            "heedless"
+          ],
+          "antonyms": [
+            "cautious",
+            "careful",
+            "prudent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-impulsive",
+          "word": "impulsive",
+          "partOfSpeech": "adjective",
+          "definition": "Tending to act on sudden urges without stopping to think things through.",
+          "example": "On an impulsive whim, she quit her job and booked a one-way flight overseas.",
+          "mnemonic": "Root 'impulse' — a sudden electric jolt that pushes you to act right now.",
+          "synonyms": [
+            "rash",
+            "spontaneous",
+            "hasty"
+          ],
+          "antonyms": [
+            "cautious",
+            "deliberate",
+            "calculated"
+          ]
+        },
+        {
+          "id": "sat-temerity",
+          "word": "temerity",
+          "partOfSpeech": "noun",
+          "definition": "Foolish boldness or nerve that ignores danger or good manners.",
+          "example": "He had the temerity to ask for a raise on his very first day at work.",
+          "mnemonic": "From Latin 'temere' (blindly, rashly) — daring enough to leap in with eyes shut.",
+          "synonyms": [
+            "audacity",
+            "nerve",
+            "gall"
+          ],
+          "antonyms": [
+            "caution",
+            "timidity"
+          ]
+        },
+        {
+          "id": "sat-audacity",
+          "word": "audacity",
+          "partOfSpeech": "noun",
+          "definition": "Bold daring or nerve, often paired with a shocking lack of respect.",
+          "example": "She had the audacity to show up uninvited and demand a seat at the head table.",
+          "mnemonic": "From Latin 'audax' (bold) — say it as 'a-DARE-city,' a whole city of daring.",
+          "synonyms": [
+            "boldness",
+            "nerve",
+            "gall"
+          ],
+          "antonyms": [
+            "timidity",
+            "meekness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-brash",
+          "word": "brash",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving with bold, tactless confidence and little regard for consequences.",
+          "example": "He made a brash remark about the boss's plan without thinking about how it would land.",
+          "mnemonic": "Sounds like 'brass' — picture a loud brass band shoving rudely to the front.",
+          "synonyms": [
+            "bold",
+            "impudent",
+            "cocky"
+          ],
+          "antonyms": [
+            "timid",
+            "cautious",
+            "meek"
+          ]
+        },
+        {
+          "id": "sat-dauntless",
+          "word": "dauntless",
+          "partOfSpeech": "adjective",
+          "definition": "Showing courage and resolve even when facing danger.",
+          "example": "The dauntless firefighter pushed into the collapsing building to reach the trapped child.",
+          "mnemonic": "'Daunt' (to intimidate) + '-less' (without) = someone who cannot be intimidated.",
+          "synonyms": [
+            "fearless",
+            "intrepid",
+            "valiant"
+          ],
+          "antonyms": [
+            "cowardly",
+            "timid",
+            "fearful"
+          ]
+        },
+        {
+          "id": "sat-gamble",
+          "word": "gamble",
+          "partOfSpeech": "verb",
+          "definition": "To risk money or something valuable on an uncertain outcome.",
+          "example": "She chose to gamble her savings on the new restaurant, praying it would take off.",
+          "mnemonic": "Hear 'game' inside it — a casino game where you bet and hope.",
+          "synonyms": [
+            "bet",
+            "wager",
+            "risk"
+          ],
+          "antonyms": [
+            "insure",
+            "secure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-safeguard",
+          "word": "safeguard",
+          "partOfSpeech": "verb",
+          "definition": "To protect someone or something from harm or danger.",
+          "example": "They built a tall fence to safeguard the children from the busy road.",
+          "mnemonic": "'Safe' + 'guard' — a guard standing watch to keep things safe.",
+          "synonyms": [
+            "protect",
+            "shield",
+            "defend"
+          ],
+          "antonyms": [
+            "endanger",
+            "expose",
+            "imperil"
+          ]
+        },
+        {
+          "id": "sat-precaution",
+          "word": "precaution",
+          "partOfSpeech": "noun",
+          "definition": "A measure taken in advance to prevent something bad from happening.",
+          "example": "As a precaution, she packed an umbrella even though the sky looked clear.",
+          "mnemonic": "'Pre-' (before) + 'caution' — caution exercised beforehand.",
+          "synonyms": [
+            "safeguard",
+            "preventive measure",
+            "insurance"
+          ],
+          "antonyms": [
+            "negligence",
+            "carelessness"
+          ]
+        },
+        {
+          "id": "sat-allay",
+          "word": "allay",
+          "partOfSpeech": "verb",
+          "definition": "To reduce or calm someone's fear, worry, or doubt.",
+          "example": "The doctor's steady voice helped allay the patient's nerves before surgery.",
+          "mnemonic": "Sounds like 'a-lay' — you lay someone's worries down to rest.",
+          "synonyms": [
+            "calm",
+            "ease",
+            "soothe"
+          ],
+          "antonyms": [
+            "aggravate",
+            "intensify",
+            "provoke"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-dread",
+          "word": "dread",
+          "partOfSpeech": "verb",
+          "definition": "To feel intense fear or anxiety about something expected to come.",
+          "example": "She began to dread Mondays because of the endless string of meetings.",
+          "mnemonic": "Sounds like 'dead' — you fear the thing ahead as if it were fatal.",
+          "synonyms": [
+            "fear",
+            "terror",
+            "apprehension"
+          ],
+          "antonyms": [
+            "eagerness",
+            "confidence"
+          ]
+        },
+        {
+          "id": "sat-apprehensive",
+          "word": "apprehensive",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling worried or uneasy that something bad might happen.",
+          "example": "He grew apprehensive as he sat waiting outside the principal's office.",
+          "mnemonic": "Contains 'apprehend' — you apprehend, or anticipate, trouble ahead.",
+          "synonyms": [
+            "anxious",
+            "uneasy",
+            "nervous"
+          ],
+          "antonyms": [
+            "confident",
+            "assured",
+            "calm"
+          ]
+        },
+        {
+          "id": "sat-ominous",
+          "word": "ominous",
+          "partOfSpeech": "adjective",
+          "definition": "Giving the impression that something bad is about to happen.",
+          "example": "Ominous black clouds massed overhead as the hikers hurried down the ridge.",
+          "mnemonic": "Rooted in 'omen' — an omen signaling bad things to come.",
+          "synonyms": [
+            "threatening",
+            "foreboding",
+            "sinister"
+          ],
+          "antonyms": [
+            "promising",
+            "auspicious",
+            "reassuring"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-portentous",
+          "word": "portentous",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming to signal that something momentous or bad is approaching.",
+          "example": "A portentous hush settled over the courtroom just before the verdict was read.",
+          "mnemonic": "Holds 'portent' — a portent is a sign of what is to come.",
+          "synonyms": [
+            "ominous",
+            "foreboding",
+            "momentous"
+          ],
+          "antonyms": [
+            "unremarkable",
+            "insignificant",
+            "reassuring"
+          ]
+        },
+        {
+          "id": "sat-dire",
+          "word": "dire",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely serious, urgent, or close to disaster.",
+          "example": "The stranded villagers were in dire need of food and clean water.",
+          "mnemonic": "Sounds like 'die' — a situation so bad it could kill you.",
+          "synonyms": [
+            "desperate",
+            "grave",
+            "critical"
+          ],
+          "antonyms": [
+            "mild",
+            "trivial",
+            "favorable"
+          ]
+        },
+        {
+          "id": "sat-menace",
+          "word": "menace",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing likely to cause harm or danger.",
+          "example": "The reckless driver was a menace to everyone on the road that night.",
+          "mnemonic": "Think 'Dennis the Menace' — the troublemaker who terrorizes the neighborhood.",
+          "synonyms": [
+            "threat",
+            "danger",
+            "peril"
+          ],
+          "antonyms": [
+            "safety",
+            "protection",
+            "safeguard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-vulnerable",
+          "word": "vulnerable",
+          "partOfSpeech": "adjective",
+          "definition": "Easily hurt, attacked, or harmed, physically or emotionally.",
+          "example": "Without their mother nearby, the newborn cubs were vulnerable to predators.",
+          "mnemonic": "From Latin 'vulnus' (wound) — able to be wounded.",
+          "synonyms": [
+            "exposed",
+            "defenseless",
+            "unprotected"
+          ],
+          "antonyms": [
+            "secure",
+            "protected",
+            "shielded"
+          ]
+        },
+        {
+          "id": "sat-fraught",
+          "word": "fraught",
+          "partOfSpeech": "adjective",
+          "definition": "Filled with or causing anxiety, tension, or trouble.",
+          "example": "The negotiations were fraught with tension as neither side would budge.",
+          "mnemonic": "Sounds like 'fought' — a situation full of struggle and stress.",
+          "synonyms": [
+            "tense",
+            "anxious",
+            "laden"
+          ],
+          "antonyms": [
+            "calm",
+            "relaxed",
+            "untroubled"
+          ]
+        },
+        {
+          "id": "sat-brink",
+          "word": "brink",
+          "partOfSpeech": "noun",
+          "definition": "The very edge or moment just before something happens.",
+          "example": "After the border clash, the two nations stood on the brink of war.",
+          "mnemonic": "Sounds like 'brim' — the brim of a cup about to overflow.",
+          "synonyms": [
+            "edge",
+            "verge",
+            "threshold"
+          ],
+          "antonyms": [
+            "middle",
+            "center",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-verge",
+          "word": "verge",
+          "partOfSpeech": "noun",
+          "definition": "The edge or border of something, especially the point where a new state is about to begin.",
+          "example": "After months of unpaid bills, the company was on the verge of bankruptcy.",
+          "mnemonic": "Sounds like 'urge' — standing at the edge, you feel the urge to step over.",
+          "synonyms": [
+            "brink",
+            "edge",
+            "threshold"
+          ],
+          "antonyms": [
+            "center",
+            "middle"
+          ]
+        },
+        {
+          "id": "sat-gingerly",
+          "word": "gingerly",
+          "partOfSpeech": "adverb",
+          "definition": "In a very careful and cautious manner, so as to avoid harm or noise.",
+          "example": "She gingerly lifted the sleeping baby so as not to wake her.",
+          "mnemonic": "Handle it like fresh ginger root — delicately, as if it might bruise.",
+          "synonyms": [
+            "cautiously",
+            "warily",
+            "carefully"
+          ],
+          "antonyms": [
+            "carelessly",
+            "recklessly"
+          ]
+        },
+        {
+          "id": "sat-skittish",
+          "word": "skittish",
+          "partOfSpeech": "adjective",
+          "definition": "Nervous, easily startled, and inclined to shy away or bolt suddenly.",
+          "example": "The skittish horse bolted the moment a firecracker went off.",
+          "mnemonic": "'Skit' — it skitters and darts away at the slightest scare.",
+          "synonyms": [
+            "jumpy",
+            "nervous",
+            "flighty"
+          ],
+          "antonyms": [
+            "calm",
+            "composed",
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-chary",
+          "word": "chary",
+          "partOfSpeech": "adjective",
+          "definition": "Cautiously reluctant to do something or to give something away; guarded.",
+          "example": "Burned once before, he was chary of lending money to friends.",
+          "mnemonic": "Rhymes with 'wary' — chary and wary both mean holding back.",
+          "synonyms": [
+            "wary",
+            "cautious",
+            "guarded"
+          ],
+          "antonyms": [
+            "reckless",
+            "careless",
+            "generous"
+          ]
+        },
+        {
+          "id": "sat-premonition",
+          "word": "premonition",
+          "partOfSpeech": "noun",
+          "definition": "A strong feeling that something, often unpleasant, is about to happen.",
+          "example": "She had a premonition of disaster and canceled the flight at the last minute.",
+          "mnemonic": "'Pre-' (before) + 'monition' (warning) — a warning that arrives before the event.",
+          "synonyms": [
+            "foreboding",
+            "hunch",
+            "presentiment"
+          ],
+          "antonyms": [
+            "hindsight",
+            "retrospection"
+          ]
+        },
+        {
+          "id": "sat-scruple",
+          "word": "scruple",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of moral doubt that makes one hesitate before acting.",
+          "example": "He had no scruple about lying if it helped him close the deal.",
+          "mnemonic": "From Latin 'scrupulus,' a tiny sharp pebble — a moral stone in your shoe that pricks the conscience.",
+          "synonyms": [
+            "qualm",
+            "misgiving",
+            "compunction"
+          ],
+          "antonyms": [
+            "indifference",
+            "shamelessness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-deterrent",
+          "word": "deterrent",
+          "partOfSpeech": "noun",
+          "definition": "Something that discourages or prevents an action through fear of the consequences.",
+          "example": "Steep fines act as a deterrent to illegal dumping along the river.",
+          "mnemonic": "Sounds like 'detergent' — it scrubs away bad behavior before it starts.",
+          "synonyms": [
+            "disincentive",
+            "hindrance",
+            "check"
+          ],
+          "antonyms": [
+            "incentive",
+            "encouragement",
+            "lure"
+          ]
+        },
+        {
+          "id": "sat-bulwark",
+          "word": "bulwark",
+          "partOfSpeech": "noun",
+          "definition": "A strong wall or defense that protects against danger or attack.",
+          "example": "A free and independent press is a bulwark against tyranny.",
+          "mnemonic": "'Bull' + 'work' — a mighty bull working to guard the wall.",
+          "synonyms": [
+            "rampart",
+            "defense",
+            "safeguard"
+          ],
+          "antonyms": [
+            "weakness",
+            "vulnerability"
+          ]
+        },
+        {
+          "id": "sat-insulate",
+          "word": "insulate",
+          "partOfSpeech": "verb",
+          "definition": "To shield from heat, cold, or unwanted influence by surrounding with a barrier.",
+          "example": "Their family wealth insulated them from the worst of the recession.",
+          "mnemonic": "From Latin 'insula' (island) — to cut off like an island, safe from outside forces.",
+          "synonyms": [
+            "shield",
+            "protect",
+            "cushion"
+          ],
+          "antonyms": [
+            "expose",
+            "conduct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-buffer",
+          "word": "buffer",
+          "partOfSpeech": "noun",
+          "definition": "Something that softens a shock or reduces the impact between opposing forces.",
+          "example": "A small savings account gives you a buffer against unexpected expenses.",
+          "mnemonic": "A 'buff' pad — it cushions and absorbs the blow.",
+          "synonyms": [
+            "cushion",
+            "shield",
+            "barrier"
+          ],
+          "antonyms": [
+            "intensifier",
+            "catalyst"
+          ]
+        },
+        {
+          "id": "sat-respite",
+          "word": "respite",
+          "partOfSpeech": "noun",
+          "definition": "A short period of rest or relief from something difficult or unpleasant.",
+          "example": "The cool evening breeze brought a welcome respite from the day's heat.",
+          "mnemonic": "Say it 'rest-bite' — a little bite of rest in the middle of hardship.",
+          "synonyms": [
+            "break",
+            "reprieve",
+            "lull"
+          ],
+          "antonyms": [
+            "continuation",
+            "burden"
+          ]
+        },
+        {
+          "id": "sat-evade",
+          "word": "evade",
+          "partOfSpeech": "verb",
+          "definition": "To escape or avoid someone or something by cleverness, trickery, or maneuvering.",
+          "example": "The suspect evaded the police for three weeks before he was finally caught.",
+          "mnemonic": "'E-' (out) + Latin 'vadere' (to go) — to go out of the way; the opposite of 'invade.'",
+          "synonyms": [
+            "dodge",
+            "sidestep",
+            "duck"
+          ],
+          "antonyms": [
+            "confront",
+            "face"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-elude",
+          "word": "elude",
+          "partOfSpeech": "verb",
+          "definition": "To slip away from capture, or to remain beyond someone's grasp or understanding.",
+          "example": "The right answer eluded her no matter how hard she concentrated.",
+          "mnemonic": "'E-' (out) + Latin 'ludere' (to play) — it plays its way out of your grip, slipping off like an eel.",
+          "synonyms": [
+            "evade",
+            "dodge",
+            "escape"
+          ],
+          "antonyms": [
+            "confront",
+            "catch"
+          ]
+        },
+        {
+          "id": "sat-circumvent",
+          "word": "circumvent",
+          "partOfSpeech": "verb",
+          "definition": "To find a clever way around an obstacle, rule, or problem.",
+          "example": "They circumvented the export ban by routing shipments through a third country.",
+          "mnemonic": "'Circum-' (around) + 'vent' (come) — to come around it, drawing a circle past the barrier.",
+          "synonyms": [
+            "bypass",
+            "sidestep",
+            "outwit"
+          ],
+          "antonyms": [
+            "confront",
+            "comply"
+          ]
+        },
+        {
+          "id": "sat-foil",
+          "word": "foil",
+          "partOfSpeech": "verb",
+          "definition": "To stop a plan or effort from succeeding; to thwart it.",
+          "example": "An alert night guard foiled the robbery before the thieves reached the vault.",
+          "mnemonic": "Picture a fencer's foil parrying every thrust — each attack blocked and frustrated.",
+          "synonyms": [
+            "thwart",
+            "frustrate",
+            "stymie"
+          ],
+          "antonyms": [
+            "assist",
+            "promote",
+            "enable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-repel",
+          "word": "repel",
+          "partOfSpeech": "verb",
+          "definition": "To drive back an attacker or force, or to cause strong dislike.",
+          "example": "The castle's thick walls helped the defenders repel the invading army.",
+          "mnemonic": "re- + Latin 'pellere' (to push) — to push back, again and again.",
+          "synonyms": [
+            "repulse",
+            "deter",
+            "resist"
+          ],
+          "antonyms": [
+            "attract",
+            "draw",
+            "lure"
+          ]
+        },
+        {
+          "id": "sat-rebuff",
+          "word": "rebuff",
+          "partOfSpeech": "verb",
+          "definition": "To reject or refuse someone or something in an abrupt, unfriendly way.",
+          "example": "She rebuffed his dinner invitation with a cold, dismissive wave.",
+          "mnemonic": "re- + 'buff' — picture briskly buffing someone away, brushing them off.",
+          "synonyms": [
+            "snub",
+            "spurn",
+            "reject"
+          ],
+          "antonyms": [
+            "welcome",
+            "accept",
+            "embrace"
+          ]
+        },
+        {
+          "id": "sat-embolden",
+          "word": "embolden",
+          "partOfSpeech": "verb",
+          "definition": "To give someone the confidence or courage to act.",
+          "example": "The crowd's cheers emboldened the nervous speaker to raise her voice.",
+          "mnemonic": "em- + 'bold' + -en — literally to make someone bold.",
+          "synonyms": [
+            "encourage",
+            "hearten",
+            "inspire"
+          ],
+          "antonyms": [
+            "discourage",
+            "dishearten",
+            "intimidate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-brave",
+          "word": "brave",
+          "partOfSpeech": "adjective",
+          "definition": "Ready to face danger or pain without showing fear.",
+          "example": "The brave firefighter rushed into the burning building to save the child.",
+          "mnemonic": "Sounds like 'bravo!' — the shout you give someone who acts with courage.",
+          "synonyms": [
+            "courageous",
+            "valiant",
+            "fearless"
+          ],
+          "antonyms": [
+            "cowardly",
+            "timid",
+            "fearful"
+          ]
+        },
+        {
+          "id": "sat-contingency",
+          "word": "contingency",
+          "partOfSpeech": "noun",
+          "definition": "A future event or situation that might happen but cannot be predicted for certain.",
+          "example": "The company set extra funds aside as a contingency for emergencies.",
+          "mnemonic": "Hear 'con-TINGE' — a tinge of doubt about what might come to pass.",
+          "synonyms": [
+            "possibility",
+            "eventuality",
+            "emergency"
+          ],
+          "antonyms": [
+            "certainty",
+            "inevitability"
+          ]
+        },
+        {
+          "id": "sat-liability",
+          "word": "liability",
+          "partOfSpeech": "noun",
+          "definition": "A debt or responsibility, or a person who causes problems and disadvantage.",
+          "example": "His constant lateness made him a liability to the whole team.",
+          "mnemonic": "From 'liable' — you're on the hook, stuck carrying a burden or debt.",
+          "synonyms": [
+            "burden",
+            "drawback",
+            "debt"
+          ],
+          "antonyms": [
+            "asset",
+            "advantage",
+            "benefit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-mundane",
+          "word": "mundane",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking interest or excitement; ordinary and part of dull everyday routine.",
+          "example": "After the thrilling holiday, her office paperwork felt unbearably mundane.",
+          "mnemonic": "Sounds like 'Monday' — the dull, ordinary grind of the workweek.",
+          "synonyms": [
+            "ordinary",
+            "humdrum",
+            "routine"
+          ],
+          "antonyms": [
+            "extraordinary",
+            "exciting",
+            "remarkable"
+          ]
+        },
+        {
+          "id": "sat-incautious",
+          "word": "incautious",
+          "partOfSpeech": "adjective",
+          "definition": "Acting without proper care or attention to possible danger.",
+          "example": "One incautious step on the icy path sent him sliding down the hill.",
+          "mnemonic": "in- (not) + 'cautious' — simply the opposite of careful.",
+          "synonyms": [
+            "careless",
+            "reckless",
+            "rash"
+          ],
+          "antonyms": [
+            "careful",
+            "wary",
+            "prudent"
+          ]
+        },
+        {
+          "id": "sat-imprudent",
+          "word": "imprudent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing a lack of good judgment or thought about future consequences.",
+          "example": "Spending his entire savings on lottery tickets was an imprudent choice.",
+          "mnemonic": "im- (not) + Prudence, the wise careful girl — so, unwise.",
+          "synonyms": [
+            "unwise",
+            "rash",
+            "indiscreet"
+          ],
+          "antonyms": [
+            "sensible",
+            "cautious",
+            "judicious"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-wanton",
+          "word": "wanton",
+          "partOfSpeech": "adjective",
+          "definition": "Cruel or harmful for no reason, or lacking any moral restraint.",
+          "example": "The soldiers were charged with the wanton destruction of the peaceful village.",
+          "mnemonic": "Sounds like 'want one' — grabbing whatever you want with no restraint.",
+          "synonyms": [
+            "reckless",
+            "gratuitous",
+            "unrestrained"
+          ],
+          "antonyms": [
+            "restrained",
+            "justified",
+            "disciplined"
+          ]
+        },
+        {
+          "id": "sat-hasty",
+          "word": "hasty",
+          "partOfSpeech": "adjective",
+          "definition": "Done too quickly, without enough thought or care.",
+          "example": "His hasty reply, fired off before reading the full email, caused confusion.",
+          "mnemonic": "From 'haste' — remember the saying, 'haste makes waste.'",
+          "synonyms": [
+            "hurried",
+            "rushed",
+            "rash"
+          ],
+          "antonyms": [
+            "careful",
+            "deliberate",
+            "unhurried"
+          ]
+        },
+        {
+          "id": "sat-prescient",
+          "word": "prescient",
+          "partOfSpeech": "adjective",
+          "definition": "Able to know or sense what will happen before it occurs.",
+          "example": "Her prescient warning about the market crash saved investors millions.",
+          "mnemonic": "pre- (before) + 'scient' (knowing, as in science) — knowing beforehand.",
+          "synonyms": [
+            "prophetic",
+            "foresighted",
+            "clairvoyant"
+          ],
+          "antonyms": [
+            "unaware",
+            "shortsighted"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-disquiet",
+          "word": "disquiet",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of worry or anxiety that disturbs one's peace of mind.",
+          "example": "A growing disquiet spread through the crowd as the results were delayed.",
+          "mnemonic": "dis- (not) + 'quiet' — no inner quiet, so a troubled, uneasy mind.",
+          "synonyms": [
+            "unease",
+            "anxiety",
+            "worry"
+          ],
+          "antonyms": [
+            "calm",
+            "peace",
+            "serenity"
+          ]
+        },
+        {
+          "id": "sat-fortitude",
+          "word": "fortitude",
+          "partOfSpeech": "noun",
+          "definition": "Strength of mind that lets one endure pain or hardship with courage.",
+          "example": "She bore the long illness with remarkable fortitude and never once complained.",
+          "mnemonic": "Starts with 'fort' — a strong fortress inside you that withstands hardship.",
+          "synonyms": [
+            "endurance",
+            "resilience",
+            "grit"
+          ],
+          "antonyms": [
+            "weakness",
+            "cowardice",
+            "frailty"
+          ]
+        },
+        {
+          "id": "sat-mettle",
+          "word": "mettle",
+          "partOfSpeech": "noun",
+          "definition": "A person's spirited ability to face difficulty with courage and determination.",
+          "example": "The championship final truly tested the young athlete's mettle.",
+          "mnemonic": "Sounds like 'metal' — it reveals what tough metal you're made of.",
+          "synonyms": [
+            "courage",
+            "spirit",
+            "grit"
+          ],
+          "antonyms": [
+            "cowardice",
+            "timidity",
+            "weakness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-gambit",
+          "word": "gambit",
+          "partOfSpeech": "noun",
+          "definition": "A calculated opening move made to gain an advantage, often involving some risk.",
+          "example": "She opened the negotiation with a bold gambit, offering to cut her fee first.",
+          "mnemonic": "Sounds like 'gamble it' — a risky opening move you make to get ahead.",
+          "synonyms": [
+            "ploy",
+            "stratagem",
+            "maneuver"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-wager",
+          "word": "wager",
+          "partOfSpeech": "verb",
+          "definition": "To risk money or something valuable on the outcome of an uncertain event.",
+          "example": "He wagered fifty dollars that his team would win the championship final.",
+          "mnemonic": "Contains 'wage' — you put your wages on the line and hope to win.",
+          "synonyms": [
+            "bet",
+            "stake",
+            "gamble"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-augur",
+          "word": "augur",
+          "partOfSpeech": "verb",
+          "definition": "To predict or serve as a sign of what is likely to happen ahead.",
+          "example": "The calm seas and clear skies augured well for their long voyage.",
+          "mnemonic": "A Roman 'augur' read the flight of birds to foretell what was coming.",
+          "synonyms": [
+            "foretell",
+            "presage",
+            "bode"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-portend",
+          "word": "portend",
+          "partOfSpeech": "verb",
+          "definition": "To be a warning sign that something, often bad, is about to happen.",
+          "example": "The heavy black clouds portended a violent storm before nightfall.",
+          "mnemonic": "Think 'portent' — a spooky omen that points to a dark ending.",
+          "synonyms": [
+            "foreshadow",
+            "presage",
+            "herald"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-cagey",
+          "word": "cagey",
+          "partOfSpeech": "adjective",
+          "definition": "Cautious and unwilling to share information or reveal one's real plans.",
+          "example": "The politician stayed cagey about whether he would run for office again.",
+          "mnemonic": "Keeping your secrets locked up in a 'cage' where no one can reach them.",
+          "synonyms": [
+            "secretive",
+            "evasive",
+            "guarded"
+          ],
+          "antonyms": [
+            "forthcoming",
+            "candid",
+            "open"
+          ]
+        },
+        {
+          "id": "sat-hazard",
+          "word": "hazard",
+          "partOfSpeech": "noun",
+          "definition": "A potential source of danger or harm to people or things.",
+          "example": "The icy road was a serious hazard for drivers heading home that evening.",
+          "mnemonic": "Workers wear HAZmat suits to protect against a HAZard.",
+          "synonyms": [
+            "danger",
+            "risk",
+            "peril"
+          ],
+          "antonyms": [
+            "safety",
+            "security"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-dither",
+          "word": "dither",
+          "partOfSpeech": "verb",
+          "definition": "To hesitate and act indecisively, unable to make up one's mind.",
+          "example": "She dithered over the menu for ten minutes while the waiter patiently waited.",
+          "mnemonic": "Rhymes with 'wither' — you wither away the time, too unsure to choose.",
+          "synonyms": [
+            "vacillate",
+            "waver",
+            "hesitate"
+          ],
+          "antonyms": [
+            "decide",
+            "resolve"
+          ]
+        },
+        {
+          "id": "sat-flinch",
+          "word": "flinch",
+          "partOfSpeech": "verb",
+          "definition": "To make a sudden small backward movement from fear, pain, or surprise.",
+          "example": "He flinched as the trainer's whip cracked loudly right beside his ear.",
+          "mnemonic": "A sharp 'pinch' makes you flinch — the two even sound alike.",
+          "synonyms": [
+            "wince",
+            "cringe",
+            "start"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-recoil",
+          "word": "recoil",
+          "partOfSpeech": "verb",
+          "definition": "To spring or draw back suddenly in fear, horror, or disgust.",
+          "example": "She recoiled at the sight of the spider crawling across her pillow.",
+          "mnemonic": "Break it into 're-coil' — like a spring or a fired gun snapping back.",
+          "synonyms": [
+            "retreat",
+            "shrink",
+            "flinch"
+          ],
+          "antonyms": [
+            "advance",
+            "approach"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-cower",
+          "word": "cower",
+          "partOfSpeech": "verb",
+          "definition": "To crouch or shrink down low in fear of someone or something.",
+          "example": "The puppy cowered under the table during the crashing thunderstorm.",
+          "mnemonic": "A 'coward' will cower, crouching down to hide from the threat.",
+          "synonyms": [
+            "cringe",
+            "quail",
+            "crouch"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-brace",
+          "word": "brace",
+          "partOfSpeech": "verb",
+          "definition": "To prepare yourself physically or mentally for something difficult ahead.",
+          "example": "Passengers gripped their armrests and braced as the plane hit heavy turbulence.",
+          "mnemonic": "A metal 'brace' stiffens a wall to hold steady before an impact.",
+          "synonyms": [
+            "steady",
+            "fortify",
+            "prepare"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-anticipate",
+          "word": "anticipate",
+          "partOfSpeech": "verb",
+          "definition": "To expect something in advance and get ready for it before it arrives.",
+          "example": "The store anticipated a rush and stocked extra shelves before the holiday sale.",
+          "mnemonic": "'Anti' (before) + 'cip' (take) — to take action before the thing comes.",
+          "synonyms": [
+            "expect",
+            "foresee",
+            "await"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-foresee",
+          "word": "foresee",
+          "partOfSpeech": "verb",
+          "definition": "To know or predict that something will happen before it actually does.",
+          "example": "No one could foresee how quickly the little startup would collapse.",
+          "mnemonic": "'Fore' (before) + 'see' — literally to see it coming beforehand.",
+          "synonyms": [
+            "predict",
+            "foretell",
+            "envision"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-pernicious",
+          "word": "pernicious",
+          "partOfSpeech": "adjective",
+          "definition": "Causing serious harm in a gradual, subtle, or hidden way.",
+          "example": "The pernicious rumor quietly destroyed her reputation over several months.",
+          "mnemonic": "Sounds like 'vicious' — thoroughly (per-) vicious harm that creeps in slowly.",
+          "synonyms": [
+            "destructive",
+            "insidious",
+            "harmful"
+          ],
+          "antonyms": [
+            "harmless",
+            "beneficial"
+          ]
+        },
+        {
+          "id": "sat-noxious",
+          "word": "noxious",
+          "partOfSpeech": "adjective",
+          "definition": "Harmful or poisonous to living things, especially through fumes or chemicals.",
+          "example": "Noxious fumes from the burning factory forced nearby residents to evacuate.",
+          "mnemonic": "Related to 'obnoxious' — from Latin 'noxa,' meaning harm or injury.",
+          "synonyms": [
+            "toxic",
+            "poisonous",
+            "harmful"
+          ],
+          "antonyms": [
+            "harmless",
+            "wholesome"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-deleterious",
+          "word": "deleterious",
+          "partOfSpeech": "adjective",
+          "definition": "Causing harm or damage, often gradually and not obviously at first.",
+          "example": "Years of skipping sleep had a deleterious effect on her memory and mood.",
+          "mnemonic": "Sounds like 'delete-serious' — something serious enough to delete your health.",
+          "synonyms": [
+            "harmful",
+            "damaging",
+            "injurious"
+          ],
+          "antonyms": [
+            "beneficial",
+            "helpful",
+            "harmless"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T21:36:41.725Z"
+}

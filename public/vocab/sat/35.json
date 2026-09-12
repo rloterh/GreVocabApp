@@ -1,0 +1,1471 @@
+{
+  "track": "sat",
+  "ordinal": 35,
+  "title": "Migration and place",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-exodus",
+          "word": "exodus",
+          "partOfSpeech": "noun",
+          "definition": "A mass departure of many people from a place, usually all at once.",
+          "example": "When the factory closed, the town saw an exodus of families searching for work elsewhere.",
+          "mnemonic": "'Exit' + 'us' — a whole crowd of 'us' heading for the exit at the same time (as in the biblical Book of Exodus).",
+          "synonyms": [
+            "departure",
+            "migration",
+            "flight"
+          ],
+          "antonyms": [
+            "influx",
+            "arrival",
+            "immigration"
+          ]
+        },
+        {
+          "id": "sat-sojourn",
+          "word": "sojourn",
+          "partOfSpeech": "noun",
+          "definition": "A short, temporary stay in a place before moving on.",
+          "example": "Her brief sojourn in Rome left her longing to return for a full year.",
+          "mnemonic": "Sounds like 'so' + 'journey' — a little pause partway through a journey. From Latin 'sub-' + 'diurnum' (a day).",
+          "synonyms": [
+            "stay",
+            "visit",
+            "stopover"
+          ],
+          "antonyms": [
+            "permanent residence"
+          ]
+        },
+        {
+          "id": "sat-influx",
+          "word": "influx",
+          "partOfSpeech": "noun",
+          "definition": "The arrival of a large number of people or things into a place.",
+          "example": "The seaside resort braces for an influx of tourists every July.",
+          "mnemonic": "'In' + 'flux' (flow) — a flowing-in, from Latin 'in' + 'fluere' (to flow).",
+          "synonyms": [
+            "inflow",
+            "arrival",
+            "inrush"
+          ],
+          "antonyms": [
+            "exodus",
+            "outflow",
+            "departure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-hinterland",
+          "word": "hinterland",
+          "partOfSpeech": "noun",
+          "definition": "A remote region lying inland, far from cities, coasts, or main routes.",
+          "example": "Supplies had to be trucked from the port deep into the hinterland.",
+          "mnemonic": "German 'hinter' (behind) + 'land' — the land tucked behind the coast.",
+          "synonyms": [
+            "backcountry",
+            "outback",
+            "backwoods"
+          ],
+          "antonyms": [
+            "metropolis",
+            "city center"
+          ]
+        },
+        {
+          "id": "sat-vagrant",
+          "word": "vagrant",
+          "partOfSpeech": "noun",
+          "definition": "A person with no settled home who wanders from place to place.",
+          "example": "A vagrant slept beneath the bridge, his belongings stuffed into a single sack.",
+          "mnemonic": "Shares the root 'vag-' (to wander) with 'vague' — a life with no fixed direction. Latin 'vagari', to roam.",
+          "synonyms": [
+            "drifter",
+            "tramp",
+            "wanderer"
+          ],
+          "antonyms": [
+            "resident",
+            "homeowner"
+          ]
+        },
+        {
+          "id": "sat-vagabond",
+          "word": "vagabond",
+          "partOfSpeech": "noun",
+          "definition": "A carefree wanderer who roams without a permanent home or fixed plans.",
+          "example": "He spent his twenties as a vagabond, hitchhiking across three continents.",
+          "mnemonic": "'Vaga-' (wander) + '-bond' — bonded to nowhere, free to drift.",
+          "synonyms": [
+            "rover",
+            "drifter",
+            "nomad"
+          ],
+          "antonyms": [
+            "settler",
+            "homebody"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-wayfarer",
+          "word": "wayfarer",
+          "partOfSpeech": "noun",
+          "definition": "A person who travels from place to place, especially on foot.",
+          "example": "The inn welcomed every weary wayfarer who arrived on the old mountain road.",
+          "mnemonic": "'Way' (road) + 'farer' (one who fares, or travels) — one who fares along the way.",
+          "synonyms": [
+            "traveler",
+            "journeyer",
+            "pilgrim"
+          ],
+          "antonyms": [
+            "homebody",
+            "stay-at-home"
+          ]
+        },
+        {
+          "id": "sat-transience",
+          "word": "transience",
+          "partOfSpeech": "noun",
+          "definition": "The quality of lasting only a short time before passing away.",
+          "example": "Photographs try to capture the transience of childhood, gone almost before you notice it.",
+          "mnemonic": "'Trans-' (across) — like a train passing across the platform: here for a moment, then gone.",
+          "synonyms": [
+            "impermanence",
+            "fleetingness",
+            "brevity"
+          ],
+          "antonyms": [
+            "permanence",
+            "durability",
+            "constancy"
+          ]
+        },
+        {
+          "id": "sat-dislocation",
+          "word": "dislocation",
+          "partOfSpeech": "noun",
+          "definition": "A state of being moved or forced out of a proper or usual place.",
+          "example": "The war caused massive dislocation, scattering families far from the villages they knew.",
+          "mnemonic": "'Dis-' (apart) + 'location' — knocked apart from its rightful location.",
+          "synonyms": [
+            "displacement",
+            "disruption",
+            "upheaval"
+          ],
+          "antonyms": [
+            "stability",
+            "order",
+            "settlement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-wilderness",
+          "word": "wilderness",
+          "partOfSpeech": "noun",
+          "definition": "A wild, uncultivated region where few people live and nature runs untamed.",
+          "example": "They trekked for days through the wilderness without seeing a single road or house.",
+          "mnemonic": "'Wild' + '-erness' — the wildness of a place turned into a noun.",
+          "synonyms": [
+            "wilds",
+            "backcountry",
+            "wasteland"
+          ],
+          "antonyms": [
+            "civilization",
+            "city",
+            "cultivation"
+          ]
+        },
+        {
+          "id": "sat-expanse",
+          "word": "expanse",
+          "partOfSpeech": "noun",
+          "definition": "A wide, open, and continuous area of something spread out before you.",
+          "example": "From the cliff, a vast expanse of blue ocean stretched to the horizon.",
+          "mnemonic": "Sounds like 'expand' — an area that has expanded wide and open.",
+          "synonyms": [
+            "stretch",
+            "sweep",
+            "extent"
+          ],
+          "antonyms": [
+            "patch",
+            "speck"
+          ]
+        },
+        {
+          "id": "sat-periphery",
+          "word": "periphery",
+          "partOfSpeech": "noun",
+          "definition": "The outer edge or boundary area of something, away from its center.",
+          "example": "New housing sprang up on the periphery of the city, far from downtown.",
+          "mnemonic": "Greek 'peri-' (around) + 'pherein' (to carry) — carried around the outside; think of what your side vision catches at the edges.",
+          "synonyms": [
+            "edge",
+            "margin",
+            "outskirts"
+          ],
+          "antonyms": [
+            "center",
+            "core",
+            "middle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-environs",
+          "word": "environs",
+          "partOfSpeech": "noun",
+          "definition": "The surrounding district or area around a particular place.",
+          "example": "Tourists explored Kyoto and its environs, visiting temples scattered through the nearby hills.",
+          "mnemonic": "Hidden inside 'environment' — the surroundings that encircle a place.",
+          "synonyms": [
+            "surroundings",
+            "outskirts",
+            "vicinity"
+          ],
+          "antonyms": [
+            "center"
+          ]
+        },
+        {
+          "id": "sat-locale",
+          "word": "locale",
+          "partOfSpeech": "noun",
+          "definition": "A particular spot or setting where an event or activity takes place.",
+          "example": "The director chose a windswept coastal locale as the backdrop for the film's finale.",
+          "mnemonic": "'Local' with an 'e' on the end — the local spot, the setting. French for 'place'.",
+          "synonyms": [
+            "setting",
+            "spot",
+            "site"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-vicinity",
+          "word": "vicinity",
+          "partOfSpeech": "noun",
+          "definition": "The area near or surrounding a particular place; the neighborhood around it.",
+          "example": "Police searched every house in the vicinity of the crime scene.",
+          "mnemonic": "From Latin 'vicinus' (neighbor) — the vicinity is simply where your neighbors are, close by.",
+          "synonyms": [
+            "neighborhood",
+            "proximity",
+            "surroundings"
+          ],
+          "antonyms": [
+            "distance",
+            "remoteness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-homeland",
+          "word": "homeland",
+          "partOfSpeech": "noun",
+          "definition": "The native country a person comes from or feels deep loyalty toward.",
+          "example": "After twenty years abroad, she wept when the plane finally touched down in her homeland.",
+          "mnemonic": "home + land — the land you call home, the ground you belong to.",
+          "synonyms": [
+            "motherland",
+            "fatherland",
+            "native country"
+          ],
+          "antonyms": [
+            "foreign land",
+            "exile"
+          ]
+        },
+        {
+          "id": "sat-frontier",
+          "word": "frontier",
+          "partOfSpeech": "noun",
+          "definition": "The far edge of settled territory, bordering wild or unexplored regions.",
+          "example": "The wagons pushed west toward the frontier, where no roads or towns yet existed.",
+          "mnemonic": "front-ier — the 'front line' where civilization ends and the wilderness begins.",
+          "synonyms": [
+            "borderland",
+            "boundary",
+            "edge"
+          ],
+          "antonyms": [
+            "heartland",
+            "interior",
+            "metropolis"
+          ]
+        },
+        {
+          "id": "sat-pilgrimage",
+          "word": "pilgrimage",
+          "partOfSpeech": "noun",
+          "definition": "A long journey to a sacred site made for religious or devotional reasons.",
+          "example": "Every year millions travel to Mecca on a pilgrimage that many save their whole lives to afford.",
+          "mnemonic": "pilgrim + age — think of the Pilgrims sailing across an ocean toward a holy new world.",
+          "synonyms": [
+            "hajj",
+            "sacred journey",
+            "crusade"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-trek",
+          "word": "trek",
+          "partOfSpeech": "noun",
+          "definition": "A long, arduous journey made mostly on foot over difficult ground.",
+          "example": "The trek to base camp took six days across icy ridges and thin mountain air.",
+          "mnemonic": "Star Trek — a long, grueling voyage 'to boldly go' into the unknown.",
+          "synonyms": [
+            "hike",
+            "expedition",
+            "march"
+          ],
+          "antonyms": [
+            "stroll",
+            "saunter"
+          ]
+        },
+        {
+          "id": "sat-refuge",
+          "word": "refuge",
+          "partOfSpeech": "noun",
+          "definition": "A safe place giving shelter or protection from danger or hardship.",
+          "example": "During the storm, the hikers found refuge in a small cave until the winds died down.",
+          "mnemonic": "re-FUGE — a 'refugee' flees to it; Latin fugere, to flee.",
+          "synonyms": [
+            "shelter",
+            "sanctuary",
+            "haven"
+          ],
+          "antonyms": [
+            "danger",
+            "exposure"
+          ]
+        },
+        {
+          "id": "sat-haven",
+          "word": "haven",
+          "partOfSpeech": "noun",
+          "definition": "A place of safety, calm, or comfortable retreat.",
+          "example": "The quiet library became her haven from the chaos of the crowded dormitory.",
+          "mnemonic": "haven sounds like 'heaven' — a peaceful, protected spot.",
+          "synonyms": [
+            "sanctuary",
+            "retreat",
+            "refuge"
+          ],
+          "antonyms": [
+            "hazard",
+            "danger"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-bastion",
+          "word": "bastion",
+          "partOfSpeech": "noun",
+          "definition": "A stronghold, or an institution strongly defending a principle or way of life.",
+          "example": "The old university remained a bastion of free thought when censorship spread elsewhere.",
+          "mnemonic": "bastion sounds like the 'Bastille' — a fortified fortress holding firm.",
+          "synonyms": [
+            "stronghold",
+            "fortress",
+            "bulwark"
+          ],
+          "antonyms": [
+            "weakness",
+            "vulnerability"
+          ]
+        },
+        {
+          "id": "sat-outpost",
+          "word": "outpost",
+          "partOfSpeech": "noun",
+          "definition": "A small military or trading station set up far from the main base.",
+          "example": "The soldiers manned a lonely outpost on the desert border, days from the nearest city.",
+          "mnemonic": "out + post — a guard posted 'out' beyond the main settlement.",
+          "synonyms": [
+            "station",
+            "garrison",
+            "base"
+          ],
+          "antonyms": [
+            "headquarters",
+            "center"
+          ]
+        },
+        {
+          "id": "sat-settlement",
+          "word": "settlement",
+          "partOfSpeech": "noun",
+          "definition": "A place where people establish homes and begin living, often newly founded.",
+          "example": "The first settlement on the river grew from a dozen huts into a thriving port town.",
+          "mnemonic": "settle + ment — the spot where pioneers settle down to stay.",
+          "synonyms": [
+            "colony",
+            "village",
+            "community"
+          ],
+          "antonyms": [
+            "wilderness",
+            "metropolis"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-migration",
+          "word": "migration",
+          "partOfSpeech": "noun",
+          "definition": "The movement of people or animals from one region to another to live.",
+          "example": "The annual migration of wildebeest sends millions of animals across the Serengeti in search of grass.",
+          "mnemonic": "from Latin migrare, to move — picture birds flying south each winter.",
+          "synonyms": [
+            "relocation",
+            "exodus",
+            "movement"
+          ],
+          "antonyms": [
+            "stasis",
+            "settlement"
+          ]
+        },
+        {
+          "id": "sat-citadel",
+          "word": "citadel",
+          "partOfSpeech": "noun",
+          "definition": "A fortress on high ground that protects or dominates a city.",
+          "example": "From the citadel above the town, guards could spot any army approaching for miles.",
+          "mnemonic": "cita- like 'city' + del — the mighty keep guarding the city.",
+          "synonyms": [
+            "fortress",
+            "stronghold",
+            "bastion"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-terrain",
+          "word": "terrain",
+          "partOfSpeech": "noun",
+          "definition": "The physical features and surface character of a stretch of ground.",
+          "example": "The jeep struggled over rocky terrain full of loose gravel and steep gullies.",
+          "mnemonic": "terra = earth (Latin) — terrain is simply the lay of the earth underfoot.",
+          "synonyms": [
+            "ground",
+            "landscape",
+            "topography"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-topography",
+          "word": "topography",
+          "partOfSpeech": "noun",
+          "definition": "The arrangement of the natural and physical features of an area's surface.",
+          "example": "Mapmakers studied the region's topography, charting every hill, valley, and river bend.",
+          "mnemonic": "topo (place) + graphy (writing) — mapping the shape of a place.",
+          "synonyms": [
+            "terrain",
+            "landscape",
+            "relief"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-domicile",
+          "word": "domicile",
+          "partOfSpeech": "noun",
+          "definition": "The place where a person legally and permanently lives.",
+          "example": "For tax purposes, he had to prove his domicile was in the state where he actually resided.",
+          "mnemonic": "domus = house (Latin), as in 'domestic' — your official house of record.",
+          "synonyms": [
+            "residence",
+            "dwelling",
+            "abode"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-abode",
+          "word": "abode",
+          "partOfSpeech": "noun",
+          "definition": "The place where someone lives; a dwelling or house.",
+          "example": "\"Welcome to my humble abode,\" he said, opening the door to a cozy little cottage.",
+          "mnemonic": "linked to 'abide' — where you abide day to day is your abode.",
+          "synonyms": [
+            "dwelling",
+            "residence",
+            "home"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-precinct",
+          "word": "precinct",
+          "partOfSpeech": "noun",
+          "definition": "A defined district of a town or city, often used for policing or voting.",
+          "example": "After the robbery, officers hauled the suspect down to the local precinct for questioning.",
+          "mnemonic": "Pre- + 'cinct' (as in cincture, a belt) — an area 'belted off' or enclosed around something.",
+          "synonyms": [
+            "district",
+            "zone",
+            "ward"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-provenance",
+          "word": "provenance",
+          "partOfSpeech": "noun",
+          "definition": "The place of origin or earliest known history of something.",
+          "example": "The gallery could not sell the painting until experts traced its provenance back to the 1600s.",
+          "mnemonic": "From French 'provenir,' to come forth — think 'PROVE the ENtrance' of where a thing came from.",
+          "synonyms": [
+            "origin",
+            "source",
+            "pedigree"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-expulsion",
+          "word": "expulsion",
+          "partOfSpeech": "noun",
+          "definition": "The act of forcing a person or thing out of a place or group.",
+          "example": "Repeated cheating led to his expulsion from the university.",
+          "mnemonic": "Ex- (out) + 'puls' (push/pulse) — a forceful push that drives you OUT.",
+          "synonyms": [
+            "ejection",
+            "banishment",
+            "removal"
+          ],
+          "antonyms": [
+            "admission",
+            "inclusion"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-peripatetic",
+          "word": "peripatetic",
+          "partOfSpeech": "adjective",
+          "definition": "Traveling from one place to another, rarely staying long in a single spot.",
+          "example": "A peripatetic salesman, he rarely slept in the same town twice.",
+          "mnemonic": "Peri- (around) + 'pat' (the pitter-patter of feet) — always walking about, like Aristotle's pacing pupils.",
+          "synonyms": [
+            "itinerant",
+            "nomadic",
+            "roving"
+          ],
+          "antonyms": [
+            "sedentary",
+            "settled"
+          ]
+        },
+        {
+          "id": "sat-arable",
+          "word": "arable",
+          "partOfSpeech": "adjective",
+          "definition": "Suitable for plowing and growing crops.",
+          "example": "The valley's rich, arable soil made it ideal for wheat farming.",
+          "mnemonic": "Read it as 'ARE-able' to plow — land that is able to be farmed.",
+          "synonyms": [
+            "farmable",
+            "fertile",
+            "cultivable"
+          ],
+          "antonyms": [
+            "barren",
+            "infertile"
+          ]
+        },
+        {
+          "id": "sat-remote",
+          "word": "remote",
+          "partOfSpeech": "adjective",
+          "definition": "Situated far away from other places or people.",
+          "example": "They built the cabin in a remote corner of the mountains, hours from the nearest road.",
+          "mnemonic": "Re-MOVE far off — a TV remote controls things from a distance, so remote means distant.",
+          "synonyms": [
+            "distant",
+            "isolated",
+            "secluded"
+          ],
+          "antonyms": [
+            "nearby",
+            "accessible",
+            "central"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-bucolic",
+          "word": "bucolic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to the pleasant, peaceful aspects of the countryside.",
+          "example": "They traded city noise for a bucolic life among rolling pastures and grazing sheep.",
+          "mnemonic": "From Greek 'boukolos,' a cowherd — hear the 'cow' sound and picture cattle in green fields.",
+          "synonyms": [
+            "pastoral",
+            "rural",
+            "rustic"
+          ],
+          "antonyms": [
+            "urban",
+            "metropolitan"
+          ]
+        },
+        {
+          "id": "sat-pastoral",
+          "word": "pastoral",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to the countryside, shepherds, or idealized rural living.",
+          "example": "The poem painted a pastoral scene of shepherds resting beside a quiet stream.",
+          "mnemonic": "'Pastoral' holds 'pasture' — the open fields where sheep and cattle graze.",
+          "synonyms": [
+            "rural",
+            "bucolic",
+            "rustic"
+          ],
+          "antonyms": [
+            "urban",
+            "industrial"
+          ]
+        },
+        {
+          "id": "sat-sylvan",
+          "word": "sylvan",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to or characteristic of woods and forests.",
+          "example": "Sunlight filtered through the canopy, lending the sylvan path a green, cathedral-like calm.",
+          "mnemonic": "Latin 'silva' = forest; think of Pennsylvania, literally 'Penn's woods,' or the name Sylvia.",
+          "synonyms": [
+            "wooded",
+            "forested",
+            "leafy"
+          ],
+          "antonyms": [
+            "urban",
+            "barren"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-rustic",
+          "word": "rustic",
+          "partOfSpeech": "adjective",
+          "definition": "Plain, simple, or rough in a way typical of the countryside.",
+          "example": "The inn's rustic furniture, all rough timber and iron, suited its mountain setting.",
+          "mnemonic": "'Rustic' sounds like 'rust' — picture rusty old farm tools, plain and country-made.",
+          "synonyms": [
+            "rural",
+            "plain",
+            "unsophisticated"
+          ],
+          "antonyms": [
+            "urban",
+            "refined",
+            "sophisticated"
+          ]
+        },
+        {
+          "id": "sat-squalid",
+          "word": "squalid",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely dirty and run-down, often from poverty or neglect.",
+          "example": "The refugees were crammed into squalid barracks with no running water or clean bedding.",
+          "mnemonic": "'Squalid' echoes 'squalor' and 'squelch' — imagine squelching through filthy mud and grime.",
+          "synonyms": [
+            "filthy",
+            "dingy",
+            "wretched"
+          ],
+          "antonyms": [
+            "clean",
+            "pristine",
+            "immaculate"
+          ]
+        },
+        {
+          "id": "sat-sprawling",
+          "word": "sprawling",
+          "partOfSpeech": "adjective",
+          "definition": "Spreading out widely and irregularly over a large area.",
+          "example": "The sprawling estate covered three hills, its gardens wandering off in every direction.",
+          "mnemonic": "Picture someone 'sprawled' across a couch, limbs flung everywhere — spread out loosely and wide.",
+          "synonyms": [
+            "expansive",
+            "straggling",
+            "rambling"
+          ],
+          "antonyms": [
+            "compact",
+            "cramped",
+            "concentrated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-boundless",
+          "word": "boundless",
+          "partOfSpeech": "adjective",
+          "definition": "Having no apparent limits; seemingly without end.",
+          "example": "A child's boundless energy left the exhausted parents begging for a nap.",
+          "mnemonic": "'Bound' (a boundary or limit) + '-less' (without) — without any boundary.",
+          "synonyms": [
+            "limitless",
+            "infinite",
+            "endless"
+          ],
+          "antonyms": [
+            "limited",
+            "finite",
+            "restricted"
+          ]
+        },
+        {
+          "id": "sat-expansive",
+          "word": "expansive",
+          "partOfSpeech": "adjective",
+          "definition": "Covering a wide area; great in extent or range.",
+          "example": "From the rooftop, they enjoyed an expansive view stretching all the way to the sea.",
+          "mnemonic": "Think 'expand' — something that has grown wider and wider outward.",
+          "synonyms": [
+            "extensive",
+            "broad",
+            "wide-ranging"
+          ],
+          "antonyms": [
+            "narrow",
+            "limited",
+            "confined"
+          ]
+        },
+        {
+          "id": "sat-untamed",
+          "word": "untamed",
+          "partOfSpeech": "adjective",
+          "definition": "Wild and not brought under human control.",
+          "example": "The untamed river crashed over boulders, refusing to be channeled by any dam.",
+          "mnemonic": "Un- (not) + 'tamed' — picture a horse no one has broken in, still wild.",
+          "synonyms": [
+            "wild",
+            "feral",
+            "unbridled"
+          ],
+          "antonyms": [
+            "tame",
+            "domesticated",
+            "controlled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-primeval",
+          "word": "primeval",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to the earliest ages of the world; ancient and untouched by human activity.",
+          "example": "Deep in the primeval forest, no axe had ever touched the towering, moss-draped trees.",
+          "mnemonic": "PRIME + EVAL → the 'prime' (first) era of time, the very beginning of everything.",
+          "synonyms": [
+            "ancient",
+            "primordial",
+            "prehistoric"
+          ],
+          "antonyms": [
+            "modern",
+            "contemporary",
+            "recent"
+          ]
+        },
+        {
+          "id": "sat-salubrious",
+          "word": "salubrious",
+          "partOfSpeech": "adjective",
+          "definition": "Good for one's health; pleasant and wholesome to live in.",
+          "example": "After the smog of the city, the salubrious mountain air cleared her lungs within days.",
+          "mnemonic": "Sounds like 'salute'/'salut' — Latin 'salus' meaning health, so salubrious gives health.",
+          "synonyms": [
+            "healthful",
+            "wholesome",
+            "invigorating"
+          ],
+          "antonyms": [
+            "unhealthy",
+            "harmful",
+            "noxious"
+          ]
+        },
+        {
+          "id": "sat-inhospitable",
+          "word": "inhospitable",
+          "partOfSpeech": "adjective",
+          "definition": "Harsh and difficult to live in, or unwelcoming to guests.",
+          "example": "The inhospitable desert offered no water and little shade for miles in any direction.",
+          "mnemonic": "in- (not) + hospitable — think of a 'hospital' or 'host' that welcomes you; the 'in-' cancels it.",
+          "synonyms": [
+            "unwelcoming",
+            "barren",
+            "harsh"
+          ],
+          "antonyms": [
+            "welcoming",
+            "hospitable",
+            "friendly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-windswept",
+          "word": "windswept",
+          "partOfSpeech": "adjective",
+          "definition": "Exposed to strong gusts of air, or blown about by them.",
+          "example": "Her hair tangled wildly on the windswept cliff above the crashing grey sea.",
+          "mnemonic": "Picture a bare hilltop 'swept' clean by the wind, hair and grass flattened flat.",
+          "synonyms": [
+            "gusty",
+            "blustery",
+            "exposed"
+          ],
+          "antonyms": [
+            "sheltered",
+            "calm",
+            "protected"
+          ]
+        },
+        {
+          "id": "sat-landlocked",
+          "word": "landlocked",
+          "partOfSpeech": "adjective",
+          "definition": "Enclosed by ground on all sides, with no access to the sea.",
+          "example": "Being landlocked, the country relied on its neighbors' ports to ship goods abroad.",
+          "mnemonic": "land + locked → the country is 'locked in' by land, with no door to the ocean.",
+          "synonyms": [
+            "enclosed",
+            "inland",
+            "surrounded"
+          ],
+          "antonyms": [
+            "coastal",
+            "maritime",
+            "seaside"
+          ]
+        },
+        {
+          "id": "sat-populous",
+          "word": "populous",
+          "partOfSpeech": "adjective",
+          "definition": "Containing a large number of inhabitants living in one area.",
+          "example": "Tokyo is so populous that its trains run packed from early dawn until midnight.",
+          "mnemonic": "'popul-' as in 'people' + '-ous' (full of) → full of people.",
+          "synonyms": [
+            "crowded",
+            "teeming",
+            "dense"
+          ],
+          "antonyms": [
+            "deserted",
+            "sparse",
+            "empty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-outlying",
+          "word": "outlying",
+          "partOfSpeech": "adjective",
+          "definition": "Situated far from a center or main area; remote.",
+          "example": "Mail reached the outlying villages days later than the town at the valley's heart.",
+          "mnemonic": "'lying out' beyond the edges — set apart, away from the busy middle.",
+          "synonyms": [
+            "remote",
+            "distant",
+            "peripheral"
+          ],
+          "antonyms": [
+            "central",
+            "nearby",
+            "inner"
+          ]
+        },
+        {
+          "id": "sat-uproot",
+          "word": "uproot",
+          "partOfSpeech": "verb",
+          "definition": "To pull a plant fully from the soil, or displace someone from home.",
+          "example": "The storm uprooted the old oak and flung it clear across the road.",
+          "mnemonic": "up + root → to yank something 'up' out of the ground by its roots.",
+          "synonyms": [
+            "displace",
+            "dislodge",
+            "extract"
+          ],
+          "antonyms": [
+            "plant",
+            "root",
+            "settle"
+          ]
+        },
+        {
+          "id": "sat-transplant",
+          "word": "transplant",
+          "partOfSpeech": "verb",
+          "definition": "To move something, especially a growing thing or a person, from one place to another.",
+          "example": "When his job changed, the family transplanted itself from Ohio to Oregon overnight.",
+          "mnemonic": "trans- (across) + plant → to set something down 'across' in a fresh spot.",
+          "synonyms": [
+            "relocate",
+            "transfer",
+            "move"
+          ],
+          "antonyms": [
+            "leave",
+            "keep",
+            "retain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-resettle",
+          "word": "resettle",
+          "partOfSpeech": "verb",
+          "definition": "To move to and make a new home in a different place.",
+          "example": "After the flood, the government helped hundreds of families resettle on higher ground.",
+          "mnemonic": "re- (again) + settle → to settle down once again somewhere new.",
+          "synonyms": [
+            "relocate",
+            "rehouse",
+            "migrate"
+          ],
+          "antonyms": [
+            "stay",
+            "remain",
+            "uproot"
+          ]
+        },
+        {
+          "id": "sat-immigrate",
+          "word": "immigrate",
+          "partOfSpeech": "verb",
+          "definition": "To come into a foreign country to live there permanently.",
+          "example": "Her grandparents immigrated to Canada in 1952 with two suitcases and almost nothing else.",
+          "mnemonic": "im- ('into') + migrate → you migrate INTO a new land to stay (vs. Emigrate = Exit).",
+          "synonyms": [
+            "relocate",
+            "migrate",
+            "arrive"
+          ],
+          "antonyms": [
+            "emigrate",
+            "leave",
+            "depart"
+          ]
+        },
+        {
+          "id": "sat-wander",
+          "word": "wander",
+          "partOfSpeech": "verb",
+          "definition": "To move about slowly with no fixed destination or purpose.",
+          "example": "The toddler wandered off among the market stalls while her father counted his change.",
+          "mnemonic": "Sounds like 'wonder' — you 'wonder' where you'll end up as you drift along.",
+          "synonyms": [
+            "roam",
+            "ramble",
+            "meander"
+          ],
+          "antonyms": [
+            "stay",
+            "remain",
+            "settle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-roam",
+          "word": "roam",
+          "partOfSpeech": "verb",
+          "definition": "To travel over a wide area without a set route or aim.",
+          "example": "Wild horses roam the open plains, grazing wherever the grass grows tall and green.",
+          "mnemonic": "'roam' sounds like 'Rome' — when in Rome, you freely roam the ancient streets.",
+          "synonyms": [
+            "wander",
+            "rove",
+            "range"
+          ],
+          "antonyms": [
+            "stay",
+            "settle",
+            "remain"
+          ]
+        },
+        {
+          "id": "sat-rove",
+          "word": "rove",
+          "partOfSpeech": "verb",
+          "definition": "To move about a large area restlessly, without settling anywhere.",
+          "example": "The scout roved far ahead of the wagons, scanning the horizon for any sign of danger.",
+          "mnemonic": "A 'Land Rover' is built to rove across rough, wide-open country.",
+          "synonyms": [
+            "wander",
+            "roam",
+            "range"
+          ],
+          "antonyms": [
+            "stay",
+            "settle",
+            "remain"
+          ]
+        },
+        {
+          "id": "sat-traverse",
+          "word": "traverse",
+          "partOfSpeech": "verb",
+          "definition": "To travel or move across a large area or distance.",
+          "example": "It took the explorers three exhausting weeks to traverse the frozen ice sheet.",
+          "mnemonic": "trans- (across) + 'verse' → think 'a-cross'; a skier's traverse cuts across the slope.",
+          "synonyms": [
+            "cross",
+            "cover",
+            "navigate"
+          ],
+          "antonyms": [
+            "stay",
+            "remain",
+            "halt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-drift",
+          "word": "drift",
+          "partOfSpeech": "verb",
+          "definition": "To move slowly and passively, carried along by water, air, or circumstances.",
+          "example": "With the engine dead, the small boat began to drift toward the rocks.",
+          "mnemonic": "Think 'adrift' — a raft with no oars floating wherever the water carries it.",
+          "synonyms": [
+            "float",
+            "wander",
+            "coast"
+          ],
+          "antonyms": [
+            "steer",
+            "anchor"
+          ]
+        },
+        {
+          "id": "sat-repatriate",
+          "word": "repatriate",
+          "partOfSpeech": "verb",
+          "definition": "To send or bring a person back to the nation of their citizenship or origin.",
+          "example": "After the war ended, the government worked to repatriate thousands of stranded refugees.",
+          "mnemonic": "Re- (back) + patria (fatherland, as in 'patriot') = send someone back to the fatherland.",
+          "synonyms": [
+            "return",
+            "restore"
+          ],
+          "antonyms": [
+            "deport",
+            "exile",
+            "banish"
+          ]
+        },
+        {
+          "id": "sat-deport",
+          "word": "deport",
+          "partOfSpeech": "verb",
+          "definition": "To officially force a foreigner to leave a nation, usually for legal reasons.",
+          "example": "Immigration officials threatened to deport him after his visa expired.",
+          "mnemonic": "De- (away) + port (harbor gate) — shipped away out through the port.",
+          "synonyms": [
+            "expel",
+            "banish",
+            "extradite"
+          ],
+          "antonyms": [
+            "admit",
+            "welcome"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-evict",
+          "word": "evict",
+          "partOfSpeech": "verb",
+          "definition": "To legally force someone to leave a house or land they occupy.",
+          "example": "When they missed three months of rent, the landlord moved to evict them.",
+          "mnemonic": "E- (out) + vict (conquer, as in 'victory') — the landlord's legal victory throws you out.",
+          "synonyms": [
+            "expel",
+            "oust",
+            "remove"
+          ],
+          "antonyms": [
+            "admit",
+            "house",
+            "shelter"
+          ]
+        },
+        {
+          "id": "sat-oust",
+          "word": "oust",
+          "partOfSpeech": "verb",
+          "definition": "To force someone out of a job, office, or position of power.",
+          "example": "The board voted to oust the CEO after the scandal broke.",
+          "mnemonic": "Oust rhymes with 'ousted from the house' — shoved OUT the door.",
+          "synonyms": [
+            "depose",
+            "unseat",
+            "expel"
+          ],
+          "antonyms": [
+            "install",
+            "appoint",
+            "instate"
+          ]
+        },
+        {
+          "id": "sat-abscond",
+          "word": "abscond",
+          "partOfSpeech": "verb",
+          "definition": "To run away quickly and secretly, often after stealing or to escape the law.",
+          "example": "The treasurer chose to abscond with the funds before the auditors arrived.",
+          "mnemonic": "Ab-SCOND — 'absent' in a 'second': gone in a flash before anyone notices.",
+          "synonyms": [
+            "flee",
+            "bolt",
+            "decamp"
+          ],
+          "antonyms": [
+            "remain",
+            "stay",
+            "surrender"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-decamp",
+          "word": "decamp",
+          "partOfSpeech": "verb",
+          "definition": "To depart suddenly and often secretly from a place.",
+          "example": "The con artist would decamp to a new town whenever suspicions began to rise.",
+          "mnemonic": "De- (away) + camp — pack up the camp and slip off in the night.",
+          "synonyms": [
+            "flee",
+            "abscond",
+            "bolt"
+          ],
+          "antonyms": [
+            "stay",
+            "remain",
+            "settle"
+          ]
+        },
+        {
+          "id": "sat-embark",
+          "word": "embark",
+          "partOfSpeech": "verb",
+          "definition": "To board a vessel or set out on a new journey or undertaking.",
+          "example": "The passengers lined up on the dock, eager to embark before sunset.",
+          "mnemonic": "Em- (into) + bark (an old word for a small ship) — step into the boat.",
+          "synonyms": [
+            "board",
+            "begin",
+            "commence"
+          ],
+          "antonyms": [
+            "disembark",
+            "conclude",
+            "land"
+          ]
+        },
+        {
+          "id": "sat-disembark",
+          "word": "disembark",
+          "partOfSpeech": "verb",
+          "definition": "To get off a ship, plane, or other vehicle after a journey.",
+          "example": "As the ferry docked, tired travelers began to disembark onto the pier.",
+          "mnemonic": "Dis- (reverse) undoes boarding — step back down out of the boat.",
+          "synonyms": [
+            "land",
+            "alight",
+            "deplane"
+          ],
+          "antonyms": [
+            "embark",
+            "board"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-populate",
+          "word": "populate",
+          "partOfSpeech": "verb",
+          "definition": "To live in an area as its residents, or to fill a place with people.",
+          "example": "Settlers came from every corner of Europe to populate the frontier towns.",
+          "mnemonic": "Shares its root with 'population' and 'people' — fill the place with people.",
+          "synonyms": [
+            "inhabit",
+            "settle",
+            "occupy"
+          ],
+          "antonyms": [
+            "evacuate",
+            "abandon"
+          ]
+        },
+        {
+          "id": "sat-inhabit",
+          "word": "inhabit",
+          "partOfSpeech": "verb",
+          "definition": "To live in or occupy a particular place as one's home.",
+          "example": "Strange blind fish inhabit the dark pools deep inside the cave.",
+          "mnemonic": "In- (in) + habit — your daily habits happen in the place where you live.",
+          "synonyms": [
+            "occupy",
+            "dwell",
+            "reside"
+          ],
+          "antonyms": [
+            "abandon",
+            "vacate",
+            "leave"
+          ]
+        },
+        {
+          "id": "sat-straddle",
+          "word": "straddle",
+          "partOfSpeech": "verb",
+          "definition": "To sit or stand with a leg on each side, or to extend across a boundary.",
+          "example": "She had to straddle the fence to climb over into the neighboring field.",
+          "mnemonic": "Sounds like 'stride + saddle' — legs spread wide as if sitting a saddle.",
+          "synonyms": [
+            "bestride",
+            "span",
+            "bridge"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-colonize",
+          "word": "colonize",
+          "partOfSpeech": "verb",
+          "definition": "To settle in and take control of a new territory, often a foreign one.",
+          "example": "European powers raced to colonize vast stretches of Africa in the 1800s.",
+          "mnemonic": "Comes straight from 'colony' — plant a colony and rule the new land.",
+          "synonyms": [
+            "settle",
+            "occupy",
+            "annex"
+          ],
+          "antonyms": [
+            "abandon",
+            "liberate",
+            "withdraw"
+          ]
+        },
+        {
+          "id": "sat-navigate",
+          "word": "navigate",
+          "partOfSpeech": "verb",
+          "definition": "To plan, direct, and steer a course through water, air, or difficult terrain.",
+          "example": "Using only the stars, the sailors managed to navigate across the open ocean.",
+          "mnemonic": "Hides 'navy' (nav = ship in Latin) — a ship carefully finding its way.",
+          "synonyms": [
+            "steer",
+            "pilot",
+            "maneuver"
+          ],
+          "antonyms": [
+            "drift",
+            "wander"
+          ]
+        },
+        {
+          "id": "sat-harbor",
+          "word": "harbor",
+          "partOfSpeech": "verb",
+          "definition": "To give shelter or refuge to someone, or to hold a feeling in the mind.",
+          "example": "They were arrested for helping to harbor a fugitive in their basement.",
+          "mnemonic": "Picture a harbor keeping ships safe from storms — a place that shields and hides them.",
+          "synonyms": [
+            "shelter",
+            "shield",
+            "conceal"
+          ],
+          "antonyms": [
+            "expel",
+            "evict",
+            "surrender"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-relocate",
+          "word": "relocate",
+          "partOfSpeech": "verb",
+          "definition": "To move a person, business, or thing from one place to another.",
+          "example": "After the factory closed, the company offered to relocate its workers to a plant three states away.",
+          "mnemonic": "Re- (again) + locate — you 'locate' yourself in a new spot all over again.",
+          "synonyms": [
+            "move",
+            "resettle",
+            "transfer"
+          ],
+          "antonyms": [
+            "stay",
+            "remain"
+          ]
+        },
+        {
+          "id": "sat-threshold",
+          "word": "threshold",
+          "partOfSpeech": "noun",
+          "definition": "The point or level at which something begins, or a strip of floor beneath a doorway.",
+          "example": "The groom carried his bride over the threshold and into their new home.",
+          "mnemonic": "Sounds like 'thresh-hold' — where farmers once threshed grain, held back by a raised board at the door.",
+          "synonyms": [
+            "doorway",
+            "brink",
+            "starting point"
+          ],
+          "antonyms": [
+            "ceiling",
+            "limit"
+          ]
+        },
+        {
+          "id": "sat-errant",
+          "word": "errant",
+          "partOfSpeech": "adjective",
+          "definition": "Straying from the proper course, rules, or accepted standards of behavior.",
+          "example": "One errant golf ball sailed over the fence and cracked a neighbor's window.",
+          "mnemonic": "From Latin 'errare' (to wander) — the root of 'error'; an errant thing has wandered off track.",
+          "synonyms": [
+            "stray",
+            "wayward",
+            "misbehaving"
+          ],
+          "antonyms": [
+            "obedient",
+            "well-behaved",
+            "orderly"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T22:33:39.522Z"
+}

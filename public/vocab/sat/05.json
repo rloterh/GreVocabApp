@@ -1,0 +1,1749 @@
+{
+  "track": "sat",
+  "ordinal": 5,
+  "title": "Comparison and contrast",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-analogous",
+          "word": "analogous",
+          "partOfSpeech": "adjective",
+          "definition": "Similar in some respects to something else, so a useful comparison can be drawn.",
+          "example": "The heart is analogous to a pump, pushing fluid through a network of pipes.",
+          "mnemonic": "ana- ('according to') + logos ('ratio') → things in the same proportion; like an analog clock mirroring a digital one.",
+          "synonyms": [
+            "similar",
+            "comparable",
+            "parallel"
+          ],
+          "antonyms": [
+            "dissimilar",
+            "unrelated"
+          ]
+        },
+        {
+          "id": "sat-disparate",
+          "word": "disparate",
+          "partOfSpeech": "adjective",
+          "definition": "So fundamentally unlike as to have almost nothing in common.",
+          "example": "The festival somehow united disparate crowds—metalheads, grandmothers, and toddlers.",
+          "mnemonic": "Hear 'dis-SEPARATE': things set firmly apart from one another.",
+          "synonyms": [
+            "dissimilar",
+            "distinct",
+            "divergent"
+          ],
+          "antonyms": [
+            "similar",
+            "alike",
+            "uniform"
+          ]
+        },
+        {
+          "id": "sat-comparable",
+          "word": "comparable",
+          "partOfSpeech": "adjective",
+          "definition": "Similar enough in size or quality to be reasonably measured against each other.",
+          "example": "Their salaries are comparable, though one of them works in a far bigger city.",
+          "mnemonic": "Say 'com-PAIR-able': you can pair the two up as near equals.",
+          "synonyms": [
+            "similar",
+            "equivalent",
+            "parallel"
+          ],
+          "antonyms": [
+            "dissimilar",
+            "unequal",
+            "incomparable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-akin",
+          "word": "akin",
+          "partOfSpeech": "adjective",
+          "definition": "Closely related or similar in nature or character.",
+          "example": "The dull ache in his chest was akin to homesickness, though he had never left home.",
+          "mnemonic": "A-KIN: your kin are family, and things akin to each other are 'family'—closely related.",
+          "synonyms": [
+            "related",
+            "similar",
+            "kindred"
+          ],
+          "antonyms": [
+            "unrelated",
+            "different"
+          ]
+        },
+        {
+          "id": "sat-tantamount",
+          "word": "tantamount",
+          "partOfSpeech": "adjective",
+          "definition": "Equal in seriousness or effect to something else, though not literally identical.",
+          "example": "Walking out of the meeting was tantamount to resigning on the spot.",
+          "mnemonic": "'Tant-AMOUNT': it comes to the same amount—picture two mountains of equal height.",
+          "synonyms": [
+            "equivalent",
+            "equal",
+            "commensurate"
+          ],
+          "antonyms": [
+            "different",
+            "unequal"
+          ]
+        },
+        {
+          "id": "sat-equivalent",
+          "word": "equivalent",
+          "partOfSpeech": "adjective",
+          "definition": "Equal in value, meaning, or function to something else.",
+          "example": "A mile is roughly equivalent to 1.6 kilometers.",
+          "mnemonic": "equi- ('equal') + -valent (from valere, 'to be worth') → of equal worth.",
+          "synonyms": [
+            "equal",
+            "identical",
+            "tantamount"
+          ],
+          "antonyms": [
+            "different",
+            "unequal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-homogeneous",
+          "word": "homogeneous",
+          "partOfSpeech": "adjective",
+          "definition": "Made up of parts that are all of the same kind or nature.",
+          "example": "The suburb was strikingly homogeneous—every house beige, every lawn trimmed to the same height.",
+          "mnemonic": "homo- ('same') + genus ('kind'); think 'homogenized milk,' stirred until every part is identical.",
+          "synonyms": [
+            "uniform",
+            "consistent",
+            "identical"
+          ],
+          "antonyms": [
+            "heterogeneous",
+            "diverse",
+            "varied"
+          ]
+        },
+        {
+          "id": "sat-heterogeneous",
+          "word": "heterogeneous",
+          "partOfSpeech": "adjective",
+          "definition": "Made up of parts that are of many different kinds or natures.",
+          "example": "New York's heterogeneous population speaks more than two hundred languages.",
+          "mnemonic": "hetero- ('different') + genus ('kind') → different kinds; the opposite of homogenized.",
+          "synonyms": [
+            "diverse",
+            "varied",
+            "mixed"
+          ],
+          "antonyms": [
+            "homogeneous",
+            "uniform",
+            "consistent"
+          ]
+        },
+        {
+          "id": "sat-disparity",
+          "word": "disparity",
+          "partOfSpeech": "noun",
+          "definition": "A noticeable, often unfair, difference between two or more things.",
+          "example": "The disparity between executive pay and worker wages keeps widening every year.",
+          "mnemonic": "dis- ('not') + parity ('equality') → not on par, off-even.",
+          "synonyms": [
+            "inequality",
+            "gap",
+            "imbalance"
+          ],
+          "antonyms": [
+            "parity",
+            "equality",
+            "similarity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-discrepancy",
+          "word": "discrepancy",
+          "partOfSpeech": "noun",
+          "definition": "An inconsistency between two things that are supposed to match.",
+          "example": "The auditor flagged a discrepancy between the receipts and the ledger totals.",
+          "mnemonic": "Picture 'dis-CREPE-ancy': two crepes that don't stack evenly because they don't agree.",
+          "synonyms": [
+            "inconsistency",
+            "mismatch",
+            "difference"
+          ],
+          "antonyms": [
+            "agreement",
+            "consistency",
+            "correspondence"
+          ]
+        },
+        {
+          "id": "sat-divergent",
+          "word": "divergent",
+          "partOfSpeech": "adjective",
+          "definition": "Moving or developing in different directions; growing increasingly unlike each other.",
+          "example": "The twins held divergent views on nearly every subject, from politics to pizza toppings.",
+          "mnemonic": "di- ('apart') + vergere ('to bend') → bending apart; picture a fork in the road splitting in two.",
+          "synonyms": [
+            "differing",
+            "conflicting",
+            "distinct"
+          ],
+          "antonyms": [
+            "convergent",
+            "aligned",
+            "similar"
+          ]
+        },
+        {
+          "id": "sat-converge",
+          "word": "converge",
+          "partOfSpeech": "verb",
+          "definition": "To move toward and meet at a single common point.",
+          "example": "Protesters converged on the capital from every corner of the country.",
+          "mnemonic": "con- ('together') + vergere ('to bend') → bending together; think of highway lanes merging into one.",
+          "synonyms": [
+            "meet",
+            "merge",
+            "unite"
+          ],
+          "antonyms": [
+            "diverge",
+            "separate",
+            "scatter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-diverge",
+          "word": "diverge",
+          "partOfSpeech": "verb",
+          "definition": "To separate and move in different directions from a shared starting point.",
+          "example": "Two roads diverged in the wood, and the traveler paused, unsure which to take.",
+          "mnemonic": "di- ('apart') + vergere ('to bend') → bending apart; the exact opposite of merge.",
+          "synonyms": [
+            "separate",
+            "split",
+            "branch"
+          ],
+          "antonyms": [
+            "converge",
+            "meet",
+            "merge"
+          ]
+        },
+        {
+          "id": "sat-juxtapose",
+          "word": "juxtapose",
+          "partOfSpeech": "verb",
+          "definition": "To place two things side by side, often to highlight their contrast.",
+          "example": "The gallery juxtaposed a Renaissance portrait with a smartphone selfie on the same wall.",
+          "mnemonic": "juxta- (Latin 'beside') + pose ('to place') → 'just-a-pose' the two right next to each other.",
+          "synonyms": [
+            "contrast",
+            "pair",
+            "compare"
+          ],
+          "antonyms": [
+            "separate",
+            "isolate"
+          ]
+        },
+        {
+          "id": "sat-analogy",
+          "word": "analogy",
+          "partOfSpeech": "noun",
+          "definition": "A comparison between two things that points out a shared similarity.",
+          "example": "She explained memory with an analogy: the brain is a library, and forgetting is a misfiled book.",
+          "mnemonic": "ana- ('according to') + logos ('ratio') → a matching ratio: 'A is to B as C is to D.'",
+          "synonyms": [
+            "comparison",
+            "parallel",
+            "correspondence"
+          ],
+          "antonyms": [
+            "difference",
+            "contrast"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-parallel",
+          "word": "parallel",
+          "partOfSpeech": "adjective",
+          "definition": "Running side by side at a constant distance, or being similar and occurring at the same time.",
+          "example": "The two hiking trails ran parallel to each other along the ridge.",
+          "mnemonic": "The two 'l's in paral-l-el stand side by side like two parallel lines.",
+          "synonyms": [
+            "analogous",
+            "corresponding",
+            "side-by-side"
+          ],
+          "antonyms": [
+            "divergent",
+            "intersecting",
+            "converging"
+          ]
+        },
+        {
+          "id": "sat-parity",
+          "word": "parity",
+          "partOfSpeech": "noun",
+          "definition": "The state of being equal, especially in amount, value, or status.",
+          "example": "Workers demanded pay parity with colleagues doing identical jobs.",
+          "mnemonic": "Sounds like 'pair-ity' — a pair matched evenly on both sides.",
+          "synonyms": [
+            "equality",
+            "equivalence",
+            "par"
+          ],
+          "antonyms": [
+            "disparity",
+            "imbalance",
+            "inequality"
+          ]
+        },
+        {
+          "id": "sat-incongruous",
+          "word": "incongruous",
+          "partOfSpeech": "adjective",
+          "definition": "Not in harmony or keeping with the surroundings or with other things present.",
+          "example": "The neon sign looked incongruous on the quiet medieval street.",
+          "mnemonic": "In- (not) + congruous (fitting): something that simply does NOT fit.",
+          "synonyms": [
+            "out of place",
+            "inconsistent",
+            "discordant"
+          ],
+          "antonyms": [
+            "fitting",
+            "harmonious",
+            "appropriate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-congruent",
+          "word": "congruent",
+          "partOfSpeech": "adjective",
+          "definition": "In agreement or matching; corresponding perfectly in shape or character.",
+          "example": "Her actions were congruent with the values she preached.",
+          "mnemonic": "Hidden 'gru' echoes 'agree' — congruent things agree and line up.",
+          "synonyms": [
+            "matching",
+            "compatible",
+            "harmonious"
+          ],
+          "antonyms": [
+            "conflicting",
+            "incompatible",
+            "discordant"
+          ]
+        },
+        {
+          "id": "sat-uniform",
+          "word": "uniform",
+          "partOfSpeech": "adjective",
+          "definition": "Always the same; not changing or varying in form or quality.",
+          "example": "The bricks were baked to a uniform shade of red.",
+          "mnemonic": "Uni- (one) + form: one single form all the way through.",
+          "synonyms": [
+            "consistent",
+            "even",
+            "homogeneous"
+          ],
+          "antonyms": [
+            "varied",
+            "irregular",
+            "uneven"
+          ]
+        },
+        {
+          "id": "sat-distinction",
+          "word": "distinction",
+          "partOfSpeech": "noun",
+          "definition": "A noticeable difference or contrast between similar things.",
+          "example": "He drew a sharp distinction between being confident and being arrogant.",
+          "mnemonic": "Di-STINCT-ion: what is distinct clearly stands apart from the rest.",
+          "synonyms": [
+            "difference",
+            "contrast",
+            "differentiation"
+          ],
+          "antonyms": [
+            "similarity",
+            "sameness",
+            "uniformity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-differentiate",
+          "word": "differentiate",
+          "partOfSpeech": "verb",
+          "definition": "To recognize or express what makes two or more things unlike each other.",
+          "example": "A good sommelier can differentiate wines by a single sip.",
+          "mnemonic": "To spot the 'different' bits buried inside the word.",
+          "synonyms": [
+            "distinguish",
+            "contrast",
+            "tell apart"
+          ],
+          "antonyms": [
+            "confuse",
+            "conflate",
+            "equate"
+          ]
+        },
+        {
+          "id": "sat-distinguish",
+          "word": "distinguish",
+          "partOfSpeech": "verb",
+          "definition": "To perceive or point out one thing as separate from another.",
+          "example": "In the fog, she could barely distinguish the shoreline from the sky.",
+          "mnemonic": "Rhymes with 'extinguish' — you extinguish confusion by telling things apart.",
+          "synonyms": [
+            "differentiate",
+            "discern",
+            "tell apart"
+          ],
+          "antonyms": [
+            "confuse",
+            "muddle",
+            "mix up"
+          ]
+        },
+        {
+          "id": "sat-discern",
+          "word": "discern",
+          "partOfSpeech": "verb",
+          "definition": "To perceive or detect something that is not immediately obvious.",
+          "example": "Through the static, he could just discern a faint voice.",
+          "mnemonic": "From Latin 'cernere', to sift — you sift the truth out of the noise.",
+          "synonyms": [
+            "perceive",
+            "detect",
+            "make out"
+          ],
+          "antonyms": [
+            "overlook",
+            "miss",
+            "ignore"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-discriminate",
+          "word": "discriminate",
+          "partOfSpeech": "verb",
+          "definition": "To recognize a fine difference between things, or to treat groups unequally and unjustly.",
+          "example": "A trained ear can discriminate between nearly identical musical tones.",
+          "mnemonic": "At its worst, 'dis-CRIMINATE' treats a whole group like criminals.",
+          "synonyms": [
+            "distinguish",
+            "differentiate",
+            "tell apart"
+          ],
+          "antonyms": [
+            "confuse",
+            "conflate",
+            "lump together"
+          ]
+        },
+        {
+          "id": "sat-nuance",
+          "word": "nuance",
+          "partOfSpeech": "noun",
+          "definition": "A very slight, subtle difference in meaning, expression, or tone.",
+          "example": "A skilled translator captures every nuance of the original poem.",
+          "mnemonic": "From Latin for 'cloud' — subtle shades that blend like clouds.",
+          "synonyms": [
+            "subtlety",
+            "shade",
+            "gradation"
+          ],
+          "antonyms": [
+            "obviousness",
+            "bluntness"
+          ]
+        },
+        {
+          "id": "sat-gradation",
+          "word": "gradation",
+          "partOfSpeech": "noun",
+          "definition": "A series of small, successive steps or stages between two extremes.",
+          "example": "The painting showed a smooth gradation from deep blue to pale pink.",
+          "mnemonic": "Contains 'grade' — like grades stepping down from A to F.",
+          "synonyms": [
+            "progression",
+            "scale",
+            "gradient"
+          ],
+          "antonyms": [
+            "abruptness",
+            "leap"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-spectrum",
+          "word": "spectrum",
+          "partOfSpeech": "noun",
+          "definition": "A broad range of related qualities, ideas, or positions between two extremes.",
+          "example": "Opinions on the issue cover the entire political spectrum.",
+          "mnemonic": "Think of a rainbow's 'spectacle' of colors spread across a range.",
+          "synonyms": [
+            "range",
+            "scale",
+            "gamut"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-dichotomy",
+          "word": "dichotomy",
+          "partOfSpeech": "noun",
+          "definition": "A division or contrast between two things that are opposed or entirely different.",
+          "example": "The film explores the dichotomy between duty and desire.",
+          "mnemonic": "Di- (two) + '-chotomy' (cut): a clean cut into two halves.",
+          "synonyms": [
+            "division",
+            "split",
+            "contrast"
+          ],
+          "antonyms": [
+            "unity",
+            "agreement",
+            "similarity"
+          ]
+        },
+        {
+          "id": "sat-antithesis",
+          "word": "antithesis",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that is the direct opposite of another.",
+          "example": "His calm patience was the antithesis of his brother's fiery temper.",
+          "mnemonic": "Anti- (against) + thesis (position): a stance set squarely against another.",
+          "synonyms": [
+            "opposite",
+            "reverse",
+            "contrary"
+          ],
+          "antonyms": [
+            "equivalent",
+            "duplicate",
+            "match"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-counterpart",
+          "word": "counterpart",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing matching another in role or function within a different group.",
+          "example": "The foreign minister met her counterpart from France to discuss the treaty.",
+          "mnemonic": "counter + part — someone playing the matching part on the other side of the counter.",
+          "synonyms": [
+            "equivalent",
+            "peer",
+            "analog"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-commensurate",
+          "word": "commensurate",
+          "partOfSpeech": "adjective",
+          "definition": "Matching in size or degree; kept in proper balance with something else.",
+          "example": "Her salary was finally commensurate with her years of experience.",
+          "mnemonic": "com- (together) + measure — things measured together, in equal measure.",
+          "synonyms": [
+            "proportionate",
+            "corresponding",
+            "equivalent"
+          ],
+          "antonyms": [
+            "disproportionate",
+            "unequal"
+          ]
+        },
+        {
+          "id": "sat-proportionate",
+          "word": "proportionate",
+          "partOfSpeech": "adjective",
+          "definition": "Sized or scaled to match another thing in a fair, balanced way.",
+          "example": "The punishment should be proportionate to the crime committed.",
+          "mnemonic": "pro-PORTION — the right portion for the size, portions kept in balance.",
+          "synonyms": [
+            "commensurate",
+            "balanced",
+            "corresponding"
+          ],
+          "antonyms": [
+            "disproportionate",
+            "uneven"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-disproportionate",
+          "word": "disproportionate",
+          "partOfSpeech": "adjective",
+          "definition": "Too big or too small in comparison with something else; badly balanced.",
+          "example": "He spent a disproportionate amount of time on one tiny detail.",
+          "mnemonic": "dis- (not) + proportionate — not in proportion, tipped out of balance.",
+          "synonyms": [
+            "unequal",
+            "uneven",
+            "excessive"
+          ],
+          "antonyms": [
+            "proportionate",
+            "commensurate",
+            "balanced"
+          ]
+        },
+        {
+          "id": "sat-resemblance",
+          "word": "resemblance",
+          "partOfSpeech": "noun",
+          "definition": "A likeness or similarity between two people or things.",
+          "example": "The resemblance between the twins was so strong that teachers confused them.",
+          "mnemonic": "re-SEMBLE sounds like 'assemble' look-alikes — resemble = look alike.",
+          "synonyms": [
+            "likeness",
+            "similarity",
+            "semblance"
+          ],
+          "antonyms": [
+            "difference",
+            "dissimilarity"
+          ]
+        },
+        {
+          "id": "sat-affinity",
+          "word": "affinity",
+          "partOfSpeech": "noun",
+          "definition": "A natural liking for or attraction toward someone or something.",
+          "example": "She had a strong affinity for cats and adopted three of them.",
+          "mnemonic": "Think 'a-FIN' — two fish whose fins keep them swimming together, naturally drawn.",
+          "synonyms": [
+            "attraction",
+            "rapport",
+            "fondness"
+          ],
+          "antonyms": [
+            "aversion",
+            "dislike",
+            "antipathy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-kinship",
+          "word": "kinship",
+          "partOfSpeech": "noun",
+          "definition": "A family bond, or a strong feeling of connection between people.",
+          "example": "Meeting other survivors, he felt an instant kinship with them.",
+          "mnemonic": "kin + ship — the 'ship' (bond) that holds your kin together.",
+          "synonyms": [
+            "relationship",
+            "bond",
+            "connection"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-correspond",
+          "word": "correspond",
+          "partOfSpeech": "verb",
+          "definition": "To match or be in agreement with something; also, to exchange letters.",
+          "example": "The witness's account did not correspond with the video footage.",
+          "mnemonic": "co- (together) + respond — two things respond together, so they match.",
+          "synonyms": [
+            "match",
+            "agree",
+            "align"
+          ],
+          "antonyms": [
+            "differ",
+            "contradict",
+            "conflict"
+          ]
+        },
+        {
+          "id": "sat-contradict",
+          "word": "contradict",
+          "partOfSpeech": "verb",
+          "definition": "To state the opposite of what someone says, or to be inconsistent with it.",
+          "example": "The new evidence seemed to contradict everything the suspect had claimed.",
+          "mnemonic": "contra- (against) + dict (speak) — to speak against.",
+          "synonyms": [
+            "deny",
+            "oppose",
+            "dispute"
+          ],
+          "antonyms": [
+            "confirm",
+            "corroborate",
+            "agree"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-ambivalent",
+          "word": "ambivalent",
+          "partOfSpeech": "adjective",
+          "definition": "Having mixed or conflicting feelings toward something at the same time.",
+          "example": "She felt ambivalent about the move, excited yet sad to leave home.",
+          "mnemonic": "ambi- (both) + valent (strength/value) — pulled both ways at once.",
+          "synonyms": [
+            "uncertain",
+            "conflicted",
+            "undecided"
+          ],
+          "antonyms": [
+            "certain",
+            "decisive",
+            "resolute"
+          ]
+        },
+        {
+          "id": "sat-arbitrary",
+          "word": "arbitrary",
+          "partOfSpeech": "adjective",
+          "definition": "Based on random choice or personal whim rather than any clear reason.",
+          "example": "The referee's arbitrary decision left both teams confused and angry.",
+          "mnemonic": "An arbiter (judge) ruling on a whim — a moody arbiter's arbitrary call.",
+          "synonyms": [
+            "random",
+            "capricious",
+            "whimsical"
+          ],
+          "antonyms": [
+            "reasoned",
+            "principled",
+            "systematic"
+          ]
+        },
+        {
+          "id": "sat-inherent",
+          "word": "inherent",
+          "partOfSpeech": "adjective",
+          "definition": "Existing as a natural, permanent, and inseparable part of something.",
+          "example": "There is an inherent risk in any extreme sport.",
+          "mnemonic": "in-HERE-nt — the quality is 'in here,' built right into the thing.",
+          "synonyms": [
+            "intrinsic",
+            "innate",
+            "built-in"
+          ],
+          "antonyms": [
+            "extrinsic",
+            "external",
+            "acquired"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-intrinsic",
+          "word": "intrinsic",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging naturally to something; part of its essential, basic nature.",
+          "example": "The intrinsic value of gold has nothing to do with its shine.",
+          "mnemonic": "intr- (into/inside) — the worth is inside, built into the thing itself.",
+          "synonyms": [
+            "inherent",
+            "innate",
+            "essential"
+          ],
+          "antonyms": [
+            "extrinsic",
+            "external",
+            "incidental"
+          ]
+        },
+        {
+          "id": "sat-extrinsic",
+          "word": "extrinsic",
+          "partOfSpeech": "adjective",
+          "definition": "Coming from outside something rather than being part of its basic nature.",
+          "example": "Money is an extrinsic reward, while pride in the work comes from within.",
+          "mnemonic": "ex- (out/external) — extrinsic comes from the exterior, the outside.",
+          "synonyms": [
+            "external",
+            "outer",
+            "extraneous"
+          ],
+          "antonyms": [
+            "intrinsic",
+            "inherent",
+            "innate"
+          ]
+        },
+        {
+          "id": "sat-innate",
+          "word": "innate",
+          "partOfSpeech": "adjective",
+          "definition": "Present from birth and natural, rather than learned or acquired.",
+          "example": "Some people seem to have an innate talent for music.",
+          "mnemonic": "in + nate (natus = born) — you were born with it, it's inborn.",
+          "synonyms": [
+            "inborn",
+            "natural",
+            "inherent"
+          ],
+          "antonyms": [
+            "learned",
+            "acquired",
+            "taught"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-ubiquitous",
+          "word": "ubiquitous",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming to be present everywhere at the same time; found in all places.",
+          "example": "Smartphones have become so ubiquitous that it's rare to see anyone without one.",
+          "mnemonic": "From Latin 'ubique' (everywhere); think 'you-be-quick' to spot it — it's already all around you.",
+          "synonyms": [
+            "omnipresent",
+            "universal",
+            "pervasive"
+          ],
+          "antonyms": [
+            "rare",
+            "scarce"
+          ]
+        },
+        {
+          "id": "sat-pervasive",
+          "word": "pervasive",
+          "partOfSpeech": "adjective",
+          "definition": "Spreading widely and present in every part of something.",
+          "example": "A pervasive smell of smoke seeped into every room of the house.",
+          "mnemonic": "'Per-' (through) + 'vade' (go): it goes through everything, like a fog per-vading a valley.",
+          "synonyms": [
+            "widespread",
+            "prevalent",
+            "rampant"
+          ],
+          "antonyms": [
+            "contained",
+            "localized"
+          ]
+        },
+        {
+          "id": "sat-prevalent",
+          "word": "prevalent",
+          "partOfSpeech": "adjective",
+          "definition": "Common or widespread in a particular place or at a particular time.",
+          "example": "Colds are especially prevalent during the damp winter months.",
+          "mnemonic": "'Prevail' + '-ent': whatever prevails is what you'll see most often.",
+          "synonyms": [
+            "common",
+            "widespread",
+            "rife"
+          ],
+          "antonyms": [
+            "rare",
+            "uncommon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-sporadic",
+          "word": "sporadic",
+          "partOfSpeech": "adjective",
+          "definition": "Happening at irregular intervals; scattered and not constant.",
+          "example": "Sporadic gunfire broke the night's silence, then long quiet stretches returned.",
+          "mnemonic": "Sounds like 'spores' scattered by a plant — landing here and there, unpredictably.",
+          "synonyms": [
+            "intermittent",
+            "occasional",
+            "irregular"
+          ],
+          "antonyms": [
+            "constant",
+            "continuous",
+            "regular"
+          ]
+        },
+        {
+          "id": "sat-myriad",
+          "word": "myriad",
+          "partOfSpeech": "noun",
+          "definition": "A very great or countless number of things.",
+          "example": "The clear night sky revealed a myriad of stars too numerous to count.",
+          "mnemonic": "From Greek 'myrias' (ten thousand); 'my-riad' sounds like 'my riot' — a riot of countless things.",
+          "synonyms": [
+            "multitude",
+            "countless",
+            "host"
+          ],
+          "antonyms": [
+            "few",
+            "handful"
+          ]
+        },
+        {
+          "id": "sat-ostensible",
+          "word": "ostensible",
+          "partOfSpeech": "adjective",
+          "definition": "Stated or appearing to be true, though not necessarily so.",
+          "example": "The ostensible reason for his visit was friendship, but he really came for money.",
+          "mnemonic": "Root 'ostend' (to show); it's the version shown on the surface, not the real one underneath.",
+          "synonyms": [
+            "apparent",
+            "supposed",
+            "purported"
+          ],
+          "antonyms": [
+            "genuine",
+            "real",
+            "actual"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-tacit",
+          "word": "tacit",
+          "partOfSpeech": "adjective",
+          "definition": "Understood or implied without being directly expressed in words.",
+          "example": "By staying silent when the plan was announced, she gave her tacit approval.",
+          "mnemonic": "Latin 'tacitus' (silent), same root as 'taciturn' — an agreement made in silence.",
+          "synonyms": [
+            "implied",
+            "unspoken",
+            "understood"
+          ],
+          "antonyms": [
+            "explicit",
+            "stated",
+            "spoken"
+          ]
+        },
+        {
+          "id": "sat-implicit",
+          "word": "implicit",
+          "partOfSpeech": "adjective",
+          "definition": "Suggested or understood though not directly stated.",
+          "example": "There was an implicit warning in her tone, though she never actually threatened him.",
+          "mnemonic": "'Im-' (in) + 'plicit' (folded): the meaning is folded inside, not laid out on the surface.",
+          "synonyms": [
+            "implied",
+            "tacit",
+            "inferred"
+          ],
+          "antonyms": [
+            "explicit",
+            "express",
+            "stated"
+          ]
+        },
+        {
+          "id": "sat-explicit",
+          "word": "explicit",
+          "partOfSpeech": "adjective",
+          "definition": "Stated clearly and in full detail, leaving no room for confusion.",
+          "example": "The instructions were explicit: press the red button only in an emergency.",
+          "mnemonic": "'Ex-' (out) + 'plicit' (folded): everything unfolded and laid out in the open.",
+          "synonyms": [
+            "clear",
+            "definite",
+            "unambiguous"
+          ],
+          "antonyms": [
+            "implicit",
+            "vague",
+            "ambiguous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-overt",
+          "word": "overt",
+          "partOfSpeech": "adjective",
+          "definition": "Done or shown openly and not secretly.",
+          "example": "His overt hostility was plain to everyone at the meeting.",
+          "mnemonic": "'Overt' = 'over the table' — out in the open where all can see it.",
+          "synonyms": [
+            "open",
+            "obvious",
+            "manifest"
+          ],
+          "antonyms": [
+            "covert",
+            "hidden",
+            "concealed"
+          ]
+        },
+        {
+          "id": "sat-covert",
+          "word": "covert",
+          "partOfSpeech": "adjective",
+          "definition": "Kept secret or hidden; not openly shown or acknowledged.",
+          "example": "The agency ran a covert operation the public knew nothing about.",
+          "mnemonic": "'Covert' has 'cover' in it — something kept under cover.",
+          "synonyms": [
+            "secret",
+            "clandestine",
+            "concealed"
+          ],
+          "antonyms": [
+            "overt",
+            "open",
+            "obvious"
+          ]
+        },
+        {
+          "id": "sat-blatant",
+          "word": "blatant",
+          "partOfSpeech": "adjective",
+          "definition": "Done openly and unashamedly, in a way that offends.",
+          "example": "The referee somehow missed a blatant foul that the whole stadium saw.",
+          "mnemonic": "'Blatant' sounds like 'blaring' — as loud and shameless as a blaring horn.",
+          "synonyms": [
+            "flagrant",
+            "glaring",
+            "brazen"
+          ],
+          "antonyms": [
+            "subtle",
+            "discreet",
+            "inconspicuous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-subtle",
+          "word": "subtle",
+          "partOfSpeech": "adjective",
+          "definition": "So delicate or slight as to be hard to notice or describe.",
+          "example": "There was a subtle shift in her expression that only close friends would catch.",
+          "mnemonic": "The silent 'b' in 'subtle' is itself subtle — you barely notice it's there.",
+          "synonyms": [
+            "understated",
+            "faint",
+            "nuanced"
+          ],
+          "antonyms": [
+            "obvious",
+            "blatant",
+            "conspicuous"
+          ]
+        },
+        {
+          "id": "sat-conspicuous",
+          "word": "conspicuous",
+          "partOfSpeech": "adjective",
+          "definition": "Clearly visible and standing out so as to attract attention.",
+          "example": "In her bright red coat, she was conspicuous among the crowd of gray suits.",
+          "mnemonic": "'Con-' + 'spic' (to look, as in 'spectacles'): everyone's eyes are drawn to look at it.",
+          "synonyms": [
+            "prominent",
+            "noticeable",
+            "striking"
+          ],
+          "antonyms": [
+            "inconspicuous",
+            "hidden",
+            "unnoticeable"
+          ]
+        },
+        {
+          "id": "sat-inconspicuous",
+          "word": "inconspicuous",
+          "partOfSpeech": "adjective",
+          "definition": "Not clearly visible and not attracting attention.",
+          "example": "He chose an inconspicuous corner table where no one would notice him.",
+          "mnemonic": "'In-' (not) added to 'conspicuous' — think of a beige wall your eyes just slide past.",
+          "synonyms": [
+            "unobtrusive",
+            "discreet",
+            "unnoticeable"
+          ],
+          "antonyms": [
+            "conspicuous",
+            "obvious",
+            "prominent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-discreet",
+          "word": "discreet",
+          "partOfSpeech": "adjective",
+          "definition": "Careful and tactful in what you say or do so as to avoid drawing attention.",
+          "example": "She gave a discreet nod across the room so no one else would notice.",
+          "mnemonic": "The two e's sit quietly side by side at the end — discreEt keeps a secret between them.",
+          "synonyms": [
+            "tactful",
+            "prudent",
+            "circumspect"
+          ],
+          "antonyms": [
+            "indiscreet",
+            "tactless",
+            "rash"
+          ]
+        },
+        {
+          "id": "sat-discrete",
+          "word": "discrete",
+          "partOfSpeech": "adjective",
+          "definition": "Separate and individually distinct; not joined to others.",
+          "example": "The course is split into five discrete modules, each with its own final exam.",
+          "mnemonic": "discreTe = separaTe — the t keeps the two e's apart, each standing alone.",
+          "synonyms": [
+            "separate",
+            "distinct",
+            "individual"
+          ],
+          "antonyms": [
+            "continuous",
+            "connected",
+            "merged"
+          ]
+        },
+        {
+          "id": "sat-superfluous",
+          "word": "superfluous",
+          "partOfSpeech": "adjective",
+          "definition": "More than is wanted or useful; beyond what a situation requires.",
+          "example": "Once the point had been proven three times, any further argument felt superfluous.",
+          "mnemonic": "super + fluous — a 'super flow' that overflows past what you actually need.",
+          "synonyms": [
+            "excessive",
+            "surplus",
+            "unneeded"
+          ],
+          "antonyms": [
+            "essential",
+            "necessary",
+            "vital"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-redundant",
+          "word": "redundant",
+          "partOfSpeech": "adjective",
+          "definition": "No longer useful because it duplicates something already in place.",
+          "example": "After the new system went live, the old backup server was redundant and switched off.",
+          "mnemonic": "re-DONE-dant — it's been 'redone' so many times the extra copy is pointless.",
+          "synonyms": [
+            "superfluous",
+            "excess",
+            "unnecessary"
+          ],
+          "antonyms": [
+            "essential",
+            "necessary",
+            "indispensable"
+          ]
+        },
+        {
+          "id": "sat-extraneous",
+          "word": "extraneous",
+          "partOfSpeech": "adjective",
+          "definition": "Not relevant to the matter at hand; coming from outside and unconnected.",
+          "example": "The editor trimmed extraneous details that pulled the reader away from the main story.",
+          "mnemonic": "Starts with 'extra' — it's extra stuff from the outside, not part of the core.",
+          "synonyms": [
+            "irrelevant",
+            "unrelated",
+            "external"
+          ],
+          "antonyms": [
+            "relevant",
+            "essential",
+            "intrinsic"
+          ]
+        },
+        {
+          "id": "sat-pertinent",
+          "word": "pertinent",
+          "partOfSpeech": "adjective",
+          "definition": "Directly relevant and clearly connected to the subject under discussion.",
+          "example": "The lawyer asked only questions that were pertinent to the fraud charge.",
+          "mnemonic": "It 'pertains' to the topic — pertinent things pertain directly to the matter.",
+          "synonyms": [
+            "relevant",
+            "applicable",
+            "apposite"
+          ],
+          "antonyms": [
+            "irrelevant",
+            "unrelated",
+            "extraneous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-cognate",
+          "word": "cognate",
+          "partOfSpeech": "adjective",
+          "definition": "Sharing the same origin or ancestry, especially languages or words.",
+          "example": "English 'mother' and German 'Mutter' are cognate, both descending from one ancient root.",
+          "mnemonic": "co ('together') + gnate ('born', as in natal) — words born together from one family.",
+          "synonyms": [
+            "related",
+            "kindred",
+            "akin"
+          ],
+          "antonyms": [
+            "unrelated",
+            "unconnected",
+            "foreign"
+          ]
+        },
+        {
+          "id": "sat-germane",
+          "word": "germane",
+          "partOfSpeech": "adjective",
+          "definition": "Closely relevant and fitting to what is being considered.",
+          "example": "Please keep your remarks germane to the agenda; we have no time for tangents.",
+          "mnemonic": "Sounds like 'German' — picture a German cousin, a close relative of the topic (as in 'brothers-german').",
+          "synonyms": [
+            "relevant",
+            "pertinent",
+            "apposite"
+          ],
+          "antonyms": [
+            "irrelevant",
+            "extraneous",
+            "unrelated"
+          ]
+        },
+        {
+          "id": "sat-salient",
+          "word": "salient",
+          "partOfSpeech": "adjective",
+          "definition": "Most noticeable or prominent; standing out above the rest.",
+          "example": "The analyst highlighted the report's salient points on the opening slide.",
+          "mnemonic": "From Latin 'salire', to leap — a salient fact leaps right out and grabs your eye.",
+          "synonyms": [
+            "prominent",
+            "conspicuous",
+            "striking"
+          ],
+          "antonyms": [
+            "minor",
+            "inconspicuous",
+            "unremarkable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-paramount",
+          "word": "paramount",
+          "partOfSpeech": "adjective",
+          "definition": "Greater in importance or rank than all others; supreme.",
+          "example": "For any surgeon, the patient's safety is paramount and comes before everything else.",
+          "mnemonic": "para + mount — positioned above the mountain, sitting at the very top.",
+          "synonyms": [
+            "supreme",
+            "foremost",
+            "dominant"
+          ],
+          "antonyms": [
+            "minor",
+            "secondary",
+            "trivial"
+          ]
+        },
+        {
+          "id": "sat-pivotal",
+          "word": "pivotal",
+          "partOfSpeech": "adjective",
+          "definition": "Crucially important in deciding how something develops or turns out.",
+          "example": "Her testimony proved pivotal, swinging the whole jury toward acquittal.",
+          "mnemonic": "Think 'pivot' — everything turns on it, the point the outcome spins around.",
+          "synonyms": [
+            "crucial",
+            "critical",
+            "decisive"
+          ],
+          "antonyms": [
+            "unimportant",
+            "minor",
+            "peripheral"
+          ]
+        },
+        {
+          "id": "sat-quintessential",
+          "word": "quintessential",
+          "partOfSpeech": "adjective",
+          "definition": "Being the most perfect or typical example of a quality or kind.",
+          "example": "With its checkered tablecloths and zinc bar, the café was the quintessential Parisian bistro.",
+          "mnemonic": "quint ('fifth') + essence — the rarefied 'fifth essence', the purest distilled form of a thing.",
+          "synonyms": [
+            "archetypal",
+            "classic",
+            "definitive"
+          ],
+          "antonyms": [
+            "atypical",
+            "uncharacteristic",
+            "unusual"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-negligible",
+          "word": "negligible",
+          "partOfSpeech": "adjective",
+          "definition": "So small or unimportant that it is not worth considering.",
+          "example": "The price gap between the two models was negligible, only a few cents.",
+          "mnemonic": "Shares a root with 'neglect' — small enough that you can safely neglect it.",
+          "synonyms": [
+            "insignificant",
+            "trifling",
+            "minuscule"
+          ],
+          "antonyms": [
+            "significant",
+            "substantial",
+            "considerable"
+          ]
+        },
+        {
+          "id": "sat-innocuous",
+          "word": "innocuous",
+          "partOfSpeech": "adjective",
+          "definition": "Not harmful or offensive; causing no injury or upset.",
+          "example": "What seemed an innocuous comment somehow set off the entire family argument.",
+          "mnemonic": "in ('not') + noc ('harm', as in noxious) — literally 'not harmful'.",
+          "synonyms": [
+            "harmless",
+            "inoffensive",
+            "benign"
+          ],
+          "antonyms": [
+            "harmful",
+            "noxious",
+            "dangerous"
+          ]
+        },
+        {
+          "id": "sat-marginal",
+          "word": "marginal",
+          "partOfSpeech": "adjective",
+          "definition": "Small in importance or amount; at the edge rather than the center.",
+          "example": "The expensive ad campaign had only a marginal effect on monthly sales.",
+          "mnemonic": "Think 'margin' — scribbled out at the edge of the page, off to the side, not central.",
+          "synonyms": [
+            "slight",
+            "minor",
+            "peripheral"
+          ],
+          "antonyms": [
+            "central",
+            "significant",
+            "substantial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-nominal",
+          "word": "nominal",
+          "partOfSpeech": "adjective",
+          "definition": "Existing in name only, or too small to matter much.",
+          "example": "The museum charges a nominal fee of one dollar, barely enough to cover printing tickets.",
+          "mnemonic": "From Latin 'nomen' (name) — a nominal amount is real in name only.",
+          "synonyms": [
+            "token",
+            "minimal",
+            "symbolic"
+          ],
+          "antonyms": [
+            "substantial",
+            "significant"
+          ]
+        },
+        {
+          "id": "sat-substantial",
+          "word": "substantial",
+          "partOfSpeech": "adjective",
+          "definition": "Large in amount, size, or importance.",
+          "example": "After years of saving, she had a substantial sum in the bank.",
+          "mnemonic": "It holds the word 'substance' — something substantial has real substance to it.",
+          "synonyms": [
+            "considerable",
+            "significant",
+            "sizable"
+          ],
+          "antonyms": [
+            "nominal",
+            "meager",
+            "paltry"
+          ]
+        },
+        {
+          "id": "sat-copious",
+          "word": "copious",
+          "partOfSpeech": "adjective",
+          "definition": "Present in large quantities; more than enough.",
+          "example": "The student took copious notes, filling three notebooks during one lecture.",
+          "mnemonic": "Sounds like 'copy us' — imagine copies piling up in overwhelming heaps.",
+          "synonyms": [
+            "abundant",
+            "plentiful",
+            "ample"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse",
+            "meager"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-abundant",
+          "word": "abundant",
+          "partOfSpeech": "adjective",
+          "definition": "Existing in very large quantities; plentiful.",
+          "example": "Fish were so abundant in the lake that everyone caught their limit within an hour.",
+          "mnemonic": "Hear 'a-bun-dant' — a bakery with so many buns they overflow the shelves.",
+          "synonyms": [
+            "plentiful",
+            "copious",
+            "ample"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse",
+            "meager"
+          ]
+        },
+        {
+          "id": "sat-scarce",
+          "word": "scarce",
+          "partOfSpeech": "adjective",
+          "definition": "Available in very small amounts; hard to find.",
+          "example": "During the drought, clean water became scarce and people waited hours in line.",
+          "mnemonic": "Sounds like 'scare' — a scary shortage when there's barely any left.",
+          "synonyms": [
+            "insufficient",
+            "rare",
+            "limited"
+          ],
+          "antonyms": [
+            "abundant",
+            "plentiful",
+            "copious"
+          ]
+        },
+        {
+          "id": "sat-sparse",
+          "word": "sparse",
+          "partOfSpeech": "adjective",
+          "definition": "Thinly spread or scattered; not dense.",
+          "example": "The old man's sparse hair barely covered his scalp.",
+          "mnemonic": "Sounds like 'spare' — only a spare bit, spread thin over a wide area.",
+          "synonyms": [
+            "scattered",
+            "scanty",
+            "thin"
+          ],
+          "antonyms": [
+            "dense",
+            "abundant",
+            "thick"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-meager",
+          "word": "meager",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking in quantity or quality; inadequate.",
+          "example": "He tried to survive on the meager wages of a part-time job.",
+          "mnemonic": "Sounds like 'meek' — a meek, tiny portion that leaves you still hungry.",
+          "synonyms": [
+            "scanty",
+            "paltry",
+            "insufficient"
+          ],
+          "antonyms": [
+            "ample",
+            "abundant",
+            "generous"
+          ]
+        },
+        {
+          "id": "sat-paltry",
+          "word": "paltry",
+          "partOfSpeech": "adjective",
+          "definition": "So small or trivial as to deserve contempt.",
+          "example": "They offered a paltry ten dollars for a painting worth thousands.",
+          "mnemonic": "Sounds like 'poultry' — a scrawny little chicken hardly worth the trouble.",
+          "synonyms": [
+            "measly",
+            "trifling",
+            "meager"
+          ],
+          "antonyms": [
+            "substantial",
+            "generous",
+            "ample"
+          ]
+        },
+        {
+          "id": "sat-ample",
+          "word": "ample",
+          "partOfSpeech": "adjective",
+          "definition": "Enough or more than enough for a purpose.",
+          "example": "The hall had ample room for all two hundred guests to dance.",
+          "mnemonic": "Read it as 'a full sample' — a generous, roomy helping.",
+          "synonyms": [
+            "plentiful",
+            "abundant",
+            "sufficient"
+          ],
+          "antonyms": [
+            "meager",
+            "scarce",
+            "paltry"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-plethora",
+          "word": "plethora",
+          "partOfSpeech": "noun",
+          "definition": "An overly large amount of something; an excess.",
+          "example": "The new phone comes with a plethora of features that most people never use.",
+          "mnemonic": "Sounds like 'plenty-thora' — plenty, and then a whole lot more.",
+          "synonyms": [
+            "excess",
+            "surplus",
+            "glut"
+          ],
+          "antonyms": [
+            "dearth",
+            "scarcity",
+            "lack"
+          ]
+        },
+        {
+          "id": "sat-surplus",
+          "word": "surplus",
+          "partOfSpeech": "noun",
+          "definition": "An amount left over after needs are met.",
+          "example": "The farm produced a surplus of corn, so they sold the extra at market.",
+          "mnemonic": "'Sur-' means over (as in surcharge) plus more — an overage stacking up.",
+          "synonyms": [
+            "excess",
+            "glut",
+            "overflow"
+          ],
+          "antonyms": [
+            "deficit",
+            "shortage",
+            "dearth"
+          ]
+        },
+        {
+          "id": "sat-deficit",
+          "word": "deficit",
+          "partOfSpeech": "noun",
+          "definition": "The amount by which something falls short of what is needed.",
+          "example": "The company ran a deficit this year, spending far more than it earned.",
+          "mnemonic": "Shares a root with 'deficient' — a deficit means you're short and lacking.",
+          "synonyms": [
+            "shortfall",
+            "shortage",
+            "deficiency"
+          ],
+          "antonyms": [
+            "surplus",
+            "excess"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-dearth",
+          "word": "dearth",
+          "partOfSpeech": "noun",
+          "definition": "A scarcity or lack of something.",
+          "example": "There was a dearth of qualified applicants, so the position stayed open for months.",
+          "mnemonic": "Rhymes with 'earth' — picture barren earth yielding almost nothing.",
+          "synonyms": [
+            "scarcity",
+            "shortage",
+            "paucity"
+          ],
+          "antonyms": [
+            "abundance",
+            "plethora",
+            "surplus"
+          ]
+        },
+        {
+          "id": "sat-paucity",
+          "word": "paucity",
+          "partOfSpeech": "noun",
+          "definition": "Smallness of number or quantity; scarcity.",
+          "example": "The report suffered from a paucity of hard data to back its claims.",
+          "mnemonic": "Sounds like 'pauper-ity' — a pauper who owns very little.",
+          "synonyms": [
+            "dearth",
+            "scarcity",
+            "shortage"
+          ],
+          "antonyms": [
+            "abundance",
+            "plethora",
+            "plenty"
+          ]
+        },
+        {
+          "id": "sat-abound",
+          "word": "abound",
+          "partOfSpeech": "verb",
+          "definition": "To exist or be present in very large numbers.",
+          "example": "Rumors abound about who will be chosen as the next team captain.",
+          "mnemonic": "Contains 'bound' — picture things bounding around everywhere, too many to count.",
+          "synonyms": [
+            "proliferate",
+            "teem",
+            "flourish"
+          ],
+          "antonyms": [
+            "lack",
+            "want"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:10:03.499Z"
+}

@@ -1,0 +1,853 @@
+{
+  "track": "sat",
+  "ordinal": 21,
+  "title": "Education and learning",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-elaborate",
+          "word": "elaborate",
+          "partOfSpeech": "verb",
+          "definition": "To explain something in greater detail or develop it more fully.",
+          "example": "When the professor asked her to elaborate, she gave three more reasons for her claim.",
+          "mnemonic": "e-LABOR-ate: it takes labor to add all those extra details.",
+          "synonyms": [
+            "expand",
+            "expound",
+            "develop"
+          ],
+          "antonyms": [
+            "summarize",
+            "condense",
+            "abridge"
+          ]
+        },
+        {
+          "id": "sat-metaphor",
+          "word": "metaphor",
+          "partOfSpeech": "noun",
+          "definition": "A figure of speech that describes one thing as if it were another.",
+          "example": "Calling the crowded city a jungle is a metaphor for its chaos and danger.",
+          "mnemonic": "META (beyond) + PHOR (carry): it carries meaning beyond the literal words.",
+          "synonyms": [
+            "analogy",
+            "comparison",
+            "trope"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-imagery",
+          "word": "imagery",
+          "partOfSpeech": "noun",
+          "definition": "Vivid descriptive language that makes readers picture sights, sounds, or feelings.",
+          "example": "The poem's imagery of frost and bare branches made the winter feel real.",
+          "mnemonic": "IMAGE-ry: language that hangs pictures in the gallery of your mind.",
+          "synonyms": [
+            "symbolism",
+            "description",
+            "figuration"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-oversimplify",
+          "word": "oversimplify",
+          "partOfSpeech": "verb",
+          "definition": "To describe something as less complex than it really is, losing accuracy.",
+          "example": "Saying the war had one single cause is to oversimplify a tangled history.",
+          "mnemonic": "OVER + SIMPLE: you make it TOO plain, stripping away the messy truth.",
+          "synonyms": [
+            "understate",
+            "dumb down",
+            "reduce"
+          ],
+          "antonyms": [
+            "complicate",
+            "overcomplicate",
+            "elaborate"
+          ]
+        },
+        {
+          "id": "sat-misconstrue",
+          "word": "misconstrue",
+          "partOfSpeech": "verb",
+          "definition": "To understand or interpret something wrongly.",
+          "example": "Don't misconstrue my silence as agreement; I simply had nothing to add.",
+          "mnemonic": "MIS (wrong) + CONSTRUE (interpret): you construct the wrong meaning.",
+          "synonyms": [
+            "misinterpret",
+            "misunderstand",
+            "misread"
+          ],
+          "antonyms": [
+            "understand",
+            "grasp",
+            "comprehend"
+          ]
+        },
+        {
+          "id": "sat-distort",
+          "word": "distort",
+          "partOfSpeech": "verb",
+          "definition": "To twist or change something so it no longer represents the truth.",
+          "example": "The tabloid distorted her quote until it meant the opposite of her intent.",
+          "mnemonic": "DIS + TORT (twist, like 'torque'): to twist a thing out of shape.",
+          "synonyms": [
+            "twist",
+            "warp",
+            "misrepresent"
+          ],
+          "antonyms": [
+            "preserve",
+            "clarify",
+            "represent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-pedagogy",
+          "word": "pedagogy",
+          "partOfSpeech": "noun",
+          "definition": "The method and practice of teaching.",
+          "example": "Her pedagogy relied on probing questions rather than lectures to spark thinking.",
+          "mnemonic": "PED (child, Greek 'paidos') + AGOGY (lead): leading children, i.e. teaching.",
+          "synonyms": [
+            "instruction",
+            "teaching",
+            "education"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-erudite",
+          "word": "erudite",
+          "partOfSpeech": "adjective",
+          "definition": "Having or showing deep, wide knowledge gained from study.",
+          "example": "The erudite old librarian could cite sources on nearly any subject you raised.",
+          "mnemonic": "E-RUDE-ite: not rude at all, but so polished by learning it's the opposite.",
+          "synonyms": [
+            "learned",
+            "scholarly",
+            "knowledgeable"
+          ],
+          "antonyms": [
+            "ignorant",
+            "unlearned",
+            "uneducated"
+          ]
+        },
+        {
+          "id": "sat-scholarly",
+          "word": "scholarly",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to serious academic study or the people who pursue it.",
+          "example": "The journal only publishes scholarly articles backed by rigorous research.",
+          "mnemonic": "SCHOOL-arly: it sounds like school, the natural home of academic work.",
+          "synonyms": [
+            "academic",
+            "erudite",
+            "learned"
+          ],
+          "antonyms": [
+            "amateur",
+            "uneducated",
+            "ignorant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-rote",
+          "word": "rote",
+          "partOfSpeech": "noun",
+          "definition": "Memorizing by repetition without grasping the meaning.",
+          "example": "He learned the times tables by rote, chanting them until they simply stuck.",
+          "mnemonic": "ROTE sounds like 'wrote': you wrote it a hundred times to burn it in.",
+          "synonyms": [
+            "repetition",
+            "memorization",
+            "routine"
+          ],
+          "antonyms": [
+            "understanding",
+            "comprehension",
+            "reasoning"
+          ]
+        },
+        {
+          "id": "sat-edify",
+          "word": "edify",
+          "partOfSpeech": "verb",
+          "definition": "To improve someone morally or intellectually through instruction.",
+          "example": "She chose documentaries that would edify her children, not just entertain them.",
+          "mnemonic": "EDIFY is kin to EDIFICE (a building): you build up someone's mind.",
+          "synonyms": [
+            "enlighten",
+            "instruct",
+            "uplift"
+          ],
+          "antonyms": [
+            "mislead",
+            "corrupt",
+            "degrade"
+          ]
+        },
+        {
+          "id": "sat-enlighten",
+          "word": "enlighten",
+          "partOfSpeech": "verb",
+          "definition": "To give someone knowledge or understanding they lacked before.",
+          "example": "A quick chat with the mechanic enlightened me about what the rattling noise meant.",
+          "mnemonic": "EN + LIGHTEN: to switch on the light so someone can finally see clearly.",
+          "synonyms": [
+            "inform",
+            "educate",
+            "illuminate"
+          ],
+          "antonyms": [
+            "confuse",
+            "mislead",
+            "obscure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-inculcate",
+          "word": "inculcate",
+          "partOfSpeech": "verb",
+          "definition": "To fix an idea or habit in someone through persistent repetition.",
+          "example": "Their coach worked to inculcate discipline through daily, unvarying drills.",
+          "mnemonic": "IN + CULCATE (Latin 'calcare', to stamp with the heel): stamp it in.",
+          "synonyms": [
+            "instill",
+            "implant",
+            "ingrain"
+          ],
+          "antonyms": [
+            "eradicate",
+            "uproot"
+          ]
+        },
+        {
+          "id": "sat-conflate",
+          "word": "conflate",
+          "partOfSpeech": "verb",
+          "definition": "To merge two distinct things into one, treating them as the same.",
+          "example": "Critics conflate the author with her narrator, blaming her for his ugly views.",
+          "mnemonic": "CON (together) + FLATE (blow, as in 'inflate'): blow two things into one.",
+          "synonyms": [
+            "merge",
+            "blend",
+            "combine"
+          ],
+          "antonyms": [
+            "separate",
+            "distinguish",
+            "differentiate"
+          ]
+        },
+        {
+          "id": "sat-interrogate",
+          "word": "interrogate",
+          "partOfSpeech": "verb",
+          "definition": "To question someone closely and often aggressively.",
+          "example": "Detectives interrogated the suspect for hours, pressing him on every small detail.",
+          "mnemonic": "INTER + ROGATE (Latin 'rogare', to ask): to keep asking, insistently.",
+          "synonyms": [
+            "question",
+            "grill",
+            "quiz"
+          ],
+          "antonyms": [
+            "answer",
+            "respond",
+            "reply"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-proviso",
+          "word": "proviso",
+          "partOfSpeech": "noun",
+          "definition": "A condition or stipulation attached to an agreement that must be met.",
+          "example": "She agreed to fund the trip, with the proviso that he keep every receipt.",
+          "mnemonic": "Sounds like 'pro-VISA' — a visa granted only if you meet certain terms.",
+          "synonyms": [
+            "condition",
+            "stipulation",
+            "clause"
+          ],
+          "antonyms": [
+            "guarantee"
+          ]
+        },
+        {
+          "id": "sat-instructive",
+          "word": "instructive",
+          "partOfSpeech": "adjective",
+          "definition": "Useful for teaching something or providing helpful knowledge.",
+          "example": "Watching the master carpenter fix his own mistake was more instructive than any lecture.",
+          "mnemonic": "Contains 'instruct' — something that instructs you leaves you knowing more.",
+          "synonyms": [
+            "enlightening",
+            "educational",
+            "illuminating"
+          ],
+          "antonyms": [
+            "useless",
+            "unhelpful"
+          ]
+        },
+        {
+          "id": "sat-scholastic",
+          "word": "scholastic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to schools, academic study, or formal education.",
+          "example": "His scholastic record earned him a scholarship to the university.",
+          "mnemonic": "'Scholar' hides inside it — a scholar's world is the world of the classroom.",
+          "synonyms": [
+            "academic",
+            "educational",
+            "pedagogical"
+          ],
+          "antonyms": [
+            "nonacademic",
+            "vocational"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-sagacity",
+          "word": "sagacity",
+          "partOfSpeech": "noun",
+          "definition": "Keen good judgment and the ability to make wise decisions.",
+          "example": "The old farmer predicted the storm days early, a sagacity born of decades outdoors.",
+          "mnemonic": "A 'sage' has it — sage + acity = the quality of a wise sage.",
+          "synonyms": [
+            "wisdom",
+            "shrewdness",
+            "discernment"
+          ],
+          "antonyms": [
+            "foolishness",
+            "stupidity"
+          ]
+        },
+        {
+          "id": "sat-insight",
+          "word": "insight",
+          "partOfSpeech": "noun",
+          "definition": "A deep, clear understanding of the true nature of something.",
+          "example": "Her years as a nurse gave her real insight into why patients hide their pain.",
+          "mnemonic": "'In' + 'sight' — the power to see into a thing, past its surface.",
+          "synonyms": [
+            "understanding",
+            "perception",
+            "discernment"
+          ],
+          "antonyms": [
+            "ignorance",
+            "obliviousness"
+          ]
+        },
+        {
+          "id": "sat-contemplate",
+          "word": "contemplate",
+          "partOfSpeech": "verb",
+          "definition": "To think about something carefully and for a long time.",
+          "example": "He sat by the window to contemplate whether to accept the job across the country.",
+          "mnemonic": "'Con-TEMPLE-ate' — picture sitting quietly in a temple, deep in thought.",
+          "synonyms": [
+            "ponder",
+            "consider",
+            "muse"
+          ],
+          "antonyms": [
+            "ignore",
+            "dismiss"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-rejoinder",
+          "word": "rejoinder",
+          "partOfSpeech": "noun",
+          "definition": "A sharp or witty reply, especially one answering a previous remark.",
+          "example": "Stung by the insult, she fired back a rejoinder so cutting the room went silent.",
+          "mnemonic": "RE-JOIN-der: you RE-JOIN the verbal fight with a quick comeback.",
+          "synonyms": [
+            "retort",
+            "riposte",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "prompt",
+            "opening remark"
+          ]
+        },
+        {
+          "id": "sat-gainsay",
+          "word": "gainsay",
+          "partOfSpeech": "verb",
+          "definition": "To deny, contradict, or declare something false.",
+          "example": "The evidence was so overwhelming that not even his rivals dared to gainsay it.",
+          "mnemonic": "'Gain' + 'say' — old English 'gain' meant 'against,' so to speak AGAINST.",
+          "synonyms": [
+            "deny",
+            "contradict",
+            "dispute"
+          ],
+          "antonyms": [
+            "affirm",
+            "confirm",
+            "support"
+          ]
+        },
+        {
+          "id": "sat-controvert",
+          "word": "controvert",
+          "partOfSpeech": "verb",
+          "definition": "To argue against or attempt to prove wrong.",
+          "example": "The lawyer produced receipts to controvert the witness's claim that no money changed hands.",
+          "mnemonic": "CONTRA (against) + VERT (turn) — turn against a statement to challenge it.",
+          "synonyms": [
+            "refute",
+            "rebut",
+            "challenge"
+          ],
+          "antonyms": [
+            "confirm",
+            "corroborate",
+            "validate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-demonstrable",
+          "word": "demonstrable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be clearly shown or proven to be true.",
+          "example": "There is a demonstrable link between the new policy and the drop in traffic accidents.",
+          "mnemonic": "'Demonstrate' + '-able' — able to be DEMONSTRATED for all to see.",
+          "synonyms": [
+            "provable",
+            "verifiable",
+            "evident"
+          ],
+          "antonyms": [
+            "unprovable",
+            "doubtful",
+            "unverifiable"
+          ]
+        },
+        {
+          "id": "sat-crux",
+          "word": "crux",
+          "partOfSpeech": "noun",
+          "definition": "The central or most important point of a problem or issue.",
+          "example": "We can debate details later, but the crux is whether we can afford the project at all.",
+          "mnemonic": "Latin for 'cross' — the crux is where all the roads of an argument CROSS.",
+          "synonyms": [
+            "core",
+            "heart",
+            "essence"
+          ],
+          "antonyms": [
+            "triviality",
+            "side issue",
+            "footnote"
+          ]
+        },
+        {
+          "id": "sat-confute",
+          "word": "confute",
+          "partOfSpeech": "verb",
+          "definition": "To prove a person or argument to be wrong.",
+          "example": "One well-designed experiment was enough to confute the theory the professor had defended for years.",
+          "mnemonic": "Sounds like 'CON-fute' — a CON artist gets exposed when you fute (foil) his story.",
+          "synonyms": [
+            "disprove",
+            "refute",
+            "rebut"
+          ],
+          "antonyms": [
+            "prove",
+            "verify",
+            "substantiate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-moot",
+          "word": "moot",
+          "partOfSpeech": "adjective",
+          "definition": "Having no practical relevance because it is already settled or hypothetical.",
+          "example": "Once the flight was cancelled, arguing over the best seat became entirely moot.",
+          "mnemonic": "A cow's 'MOO' about spilled milk — pointless to keep debating it.",
+          "synonyms": [
+            "irrelevant",
+            "academic",
+            "hypothetical"
+          ],
+          "antonyms": [
+            "relevant",
+            "decisive",
+            "pertinent"
+          ]
+        },
+        {
+          "id": "sat-tangential",
+          "word": "tangential",
+          "partOfSpeech": "adjective",
+          "definition": "Only slightly connected to the main subject; peripheral.",
+          "example": "Her question was so tangential that the speaker gently steered the discussion back on track.",
+          "mnemonic": "Think of a TANGENT line just grazing a circle — barely touching the main point.",
+          "synonyms": [
+            "peripheral",
+            "incidental",
+            "digressive"
+          ],
+          "antonyms": [
+            "central",
+            "relevant",
+            "pertinent"
+          ]
+        },
+        {
+          "id": "sat-meritocracy",
+          "word": "meritocracy",
+          "partOfSpeech": "noun",
+          "definition": "A system in which people advance based on talent and achievement.",
+          "example": "In a true meritocracy, the best coder gets promoted, not the boss's nephew.",
+          "mnemonic": "'Merit' + 'cracy' (rule) — power that is earned by merit alone.",
+          "synonyms": [
+            "meritocratic system"
+          ],
+          "antonyms": [
+            "nepotism",
+            "aristocracy",
+            "oligarchy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-democracy",
+          "word": "democracy",
+          "partOfSpeech": "noun",
+          "definition": "A system of government in which citizens vote to choose their leaders and shape decisions.",
+          "example": "After decades of dictatorship, the nation finally embraced democracy and held its first free elections.",
+          "mnemonic": "From Greek 'demos' (people) + 'kratos' (power) — literally 'power of the people.'",
+          "synonyms": [
+            "self-government",
+            "republic",
+            "popular rule"
+          ],
+          "antonyms": [
+            "dictatorship",
+            "tyranny",
+            "autocracy"
+          ]
+        },
+        {
+          "id": "sat-polity",
+          "word": "polity",
+          "partOfSpeech": "noun",
+          "definition": "An organized community or state with a structured form of government.",
+          "example": "Ancient Athens was a small but remarkably influential polity in the Greek world.",
+          "mnemonic": "From Greek 'polis' (city-state) — a city organized into a single governed body.",
+          "synonyms": [
+            "state",
+            "commonwealth",
+            "body politic"
+          ],
+          "antonyms": [
+            "anarchy"
+          ]
+        },
+        {
+          "id": "sat-commonwealth",
+          "word": "commonwealth",
+          "partOfSpeech": "noun",
+          "definition": "A political community founded for the collective good of everyone in it.",
+          "example": "The former colonies joined together to form a commonwealth of independent states.",
+          "mnemonic": "'common' + 'wealth' = wealth and well-being held in common by all.",
+          "synonyms": [
+            "republic",
+            "nation",
+            "federation"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-welfare",
+          "word": "welfare",
+          "partOfSpeech": "noun",
+          "definition": "The health, happiness, and good fortune of a person or group.",
+          "example": "The charity works tirelessly to protect the welfare of orphaned children.",
+          "mnemonic": "Think 'fare well' — to wish someone fares well is to care for their welfare.",
+          "synonyms": [
+            "well-being",
+            "prosperity",
+            "wellness"
+          ],
+          "antonyms": [
+            "hardship",
+            "misfortune"
+          ]
+        },
+        {
+          "id": "sat-philanthropy",
+          "word": "philanthropy",
+          "partOfSpeech": "noun",
+          "definition": "The practice of donating money and effort to help those in need.",
+          "example": "Her philanthropy funded three new hospitals across the poorest regions of the country.",
+          "mnemonic": "Greek 'philo' (love) + 'anthropos' (humankind) = love of humankind.",
+          "synonyms": [
+            "charity",
+            "benevolence",
+            "generosity"
+          ],
+          "antonyms": [
+            "misanthropy",
+            "greed"
+          ]
+        },
+        {
+          "id": "sat-altruism",
+          "word": "altruism",
+          "partOfSpeech": "noun",
+          "definition": "Unselfish concern for the well-being and happiness of others.",
+          "example": "Diving into the icy river to save a stranger was an act of pure altruism.",
+          "mnemonic": "Sounds like 'alter' (other) — putting the other person first.",
+          "synonyms": [
+            "selflessness",
+            "benevolence"
+          ],
+          "antonyms": [
+            "selfishness",
+            "egoism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-benevolence",
+          "word": "benevolence",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being kind, caring, and wishing to do good.",
+          "example": "The old shopkeeper's benevolence showed in the free meals he quietly gave the poor.",
+          "mnemonic": "Latin 'bene' (good) + 'volent' (wishing) = well-wishing.",
+          "synonyms": [
+            "kindness",
+            "goodwill",
+            "charity"
+          ],
+          "antonyms": [
+            "malevolence",
+            "cruelty"
+          ]
+        },
+        {
+          "id": "sat-charity",
+          "word": "charity",
+          "partOfSpeech": "noun",
+          "definition": "Generous giving of help or money to people in need.",
+          "example": "Every December they donate warm coats to charity for the city's homeless.",
+          "mnemonic": "Think 'cherish' — you cherish others by giving freely to them.",
+          "synonyms": [
+            "philanthropy",
+            "almsgiving",
+            "benevolence"
+          ],
+          "antonyms": [
+            "selfishness",
+            "greed"
+          ]
+        },
+        {
+          "id": "sat-generosity",
+          "word": "generosity",
+          "partOfSpeech": "noun",
+          "definition": "Willingness to give freely, more than is expected or required.",
+          "example": "His generosity was legendary; he never once let a friend pay for dinner.",
+          "mnemonic": "'Gener-' as in 'generate' — a generator that keeps producing gifts to give.",
+          "synonyms": [
+            "liberality",
+            "munificence",
+            "largesse"
+          ],
+          "antonyms": [
+            "stinginess",
+            "greed",
+            "meanness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-munificent",
+          "word": "munificent",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely generous in giving; lavishly openhanded.",
+          "example": "The billionaire made a munificent gift of one billion dollars to the university.",
+          "mnemonic": "Sounds like 'magnificent' — a magnificent, big-hearted giver.",
+          "synonyms": [
+            "lavish",
+            "bountiful",
+            "openhanded"
+          ],
+          "antonyms": [
+            "stingy",
+            "miserly"
+          ]
+        },
+        {
+          "id": "sat-largesse",
+          "word": "largesse",
+          "partOfSpeech": "noun",
+          "definition": "Generous giving of gifts or money, often by someone wealthy or powerful.",
+          "example": "Thanks to the patron's largesse, every artist in the village received a monthly stipend.",
+          "mnemonic": "Contains 'large' — giving in large, sweeping amounts.",
+          "synonyms": [
+            "generosity",
+            "munificence",
+            "bounty"
+          ],
+          "antonyms": [
+            "stinginess",
+            "meanness"
+          ]
+        },
+        {
+          "id": "sat-humanitarian",
+          "word": "humanitarian",
+          "partOfSpeech": "adjective",
+          "definition": "Devoted to relieving suffering and promoting the welfare of others.",
+          "example": "Doctors flew into the war zone on a humanitarian mission to treat the wounded.",
+          "mnemonic": "Built on the root 'human' — caring for all human beings.",
+          "synonyms": [
+            "charitable",
+            "benevolent",
+            "philanthropic"
+          ],
+          "antonyms": [
+            "cruel",
+            "inhumane"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-compassion",
+          "word": "compassion",
+          "partOfSpeech": "noun",
+          "definition": "A deep sympathy for the suffering of others, with a wish to help.",
+          "example": "Filled with compassion, she knelt beside the weeping child and held her hand.",
+          "mnemonic": "Latin 'com' (with) + 'passion' (suffering) = suffering alongside someone.",
+          "synonyms": [
+            "empathy",
+            "pity",
+            "mercy"
+          ],
+          "antonyms": [
+            "cruelty",
+            "indifference"
+          ]
+        },
+        {
+          "id": "sat-empathy",
+          "word": "empathy",
+          "partOfSpeech": "noun",
+          "definition": "The ability to understand and share another person's feelings.",
+          "example": "Having lost her own mother young, she felt deep empathy for the grieving boy.",
+          "mnemonic": "'em' (in) + 'pathy' (feeling) = feeling your way into another's shoes.",
+          "synonyms": [
+            "compassion",
+            "understanding"
+          ],
+          "antonyms": [
+            "indifference",
+            "apathy"
+          ]
+        },
+        {
+          "id": "sat-sympathy",
+          "word": "sympathy",
+          "partOfSpeech": "noun",
+          "definition": "Feelings of pity and sorrow for someone else's misfortune.",
+          "example": "She sent a handwritten card expressing her sympathy after his father passed away.",
+          "mnemonic": "'sym' (together) + 'pathy' (feeling) = feeling together with someone.",
+          "synonyms": [
+            "compassion",
+            "commiseration",
+            "condolence"
+          ],
+          "antonyms": [
+            "indifference",
+            "antipathy"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:58:41.873Z"
+}

@@ -51,6 +51,30 @@ The tracks are separate curricula, not two halves of one.
   overlap near zero would be as suspicious as one near total: it would mean one
   of the corpora is not what it claims to be.
 
+## What it turned out to be
+
+The SAT corpus was generated in Phase 17 and the audit measured the overlap:
+
+> gre and sat share 1,420 words (59% of the smaller corpus)
+
+That is **higher than this record guessed**. The context section above says
+"perhaps a third", and a third was wrong: nearly three in five SAT words are
+also GRE words. Two things account for it, and only one is about the language.
+
+The real one is that the register genuinely converges. *Candid*, *austere*,
+*fastidious*, *laconic* belong on both lists, and an SAT corpus that excluded
+them would not be an SAT corpus. The other is a property of how these were
+made: the same model wrote both, and the exclusion list it sees while choosing
+SAT words contains only SAT words, so nothing pushes it away from vocabulary
+it had already reached for once.
+
+The figure is recorded rather than corrected because it is the kind of number
+that should be argued with evidence. If a future reader thinks 59% is too high
+for two corpora that claim to be different levels, the lever is the generation
+prompt — ask for words *below* the GRE register rather than merely for SAT
+words — not a dedup rule. Forcing disjointness remains the wrong fix, for the
+reasons above.
+
 ## The one thing this must not become
 
 Silent duplication *within* a track, excused by "it is in the other one too".

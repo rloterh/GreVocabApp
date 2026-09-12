@@ -1,0 +1,1231 @@
+{
+  "track": "sat",
+  "ordinal": 26,
+  "title": "Freedom and restriction",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-unfettered",
+          "word": "unfettered",
+          "partOfSpeech": "adjective",
+          "definition": "Free from restrictions or controls; able to act without limits.",
+          "example": "Once the strict curfew was lifted, the students enjoyed an unfettered summer of late-night adventures.",
+          "mnemonic": "un- (not) + fetter (a foot chain): picture the chains cut off your ankles so you can run free.",
+          "synonyms": [
+            "unrestrained",
+            "unrestricted",
+            "free"
+          ],
+          "antonyms": [
+            "restricted",
+            "confined",
+            "bound"
+          ]
+        },
+        {
+          "id": "sat-autonomous",
+          "word": "autonomous",
+          "partOfSpeech": "adjective",
+          "definition": "Able to govern oneself and act independently without outside control.",
+          "example": "The region operates as an autonomous zone, setting its own laws without approval from the central government.",
+          "mnemonic": "auto (self) + nomos (law) = 'self-law', like an auto that drives itself with no one at the wheel.",
+          "synonyms": [
+            "independent",
+            "self-governing",
+            "sovereign"
+          ],
+          "antonyms": [
+            "dependent",
+            "subordinate",
+            "controlled"
+          ]
+        },
+        {
+          "id": "sat-sovereign",
+          "word": "sovereign",
+          "partOfSpeech": "adjective",
+          "definition": "Having supreme authority and full independent control over a territory.",
+          "example": "The small island became a sovereign nation, answering to no foreign power after the treaty was signed.",
+          "mnemonic": "Break it into 'so-reign': the one who reigns above all — picture a lone crowned monarch on a throne.",
+          "synonyms": [
+            "supreme",
+            "autonomous",
+            "independent"
+          ],
+          "antonyms": [
+            "subordinate",
+            "dependent",
+            "subject"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-confine",
+          "word": "confine",
+          "partOfSpeech": "verb",
+          "definition": "To keep someone or something within set boundaries or a small space.",
+          "example": "The vet told us to confine the recovering puppy to one quiet room until its leg healed.",
+          "mnemonic": "con- + 'fine': imagine being fined and boxed into a tiny cell as your punishment.",
+          "synonyms": [
+            "restrict",
+            "enclose",
+            "imprison"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "liberate"
+          ]
+        },
+        {
+          "id": "sat-fetter",
+          "word": "fetter",
+          "partOfSpeech": "noun",
+          "definition": "A chain or metal band placed on the feet to prevent movement.",
+          "example": "The prisoner shuffled slowly across the yard, each step limited by the heavy fetter around his ankles.",
+          "mnemonic": "It rhymes with 'better', but a chain on your 'feet' makes nothing better — feet + iron.",
+          "synonyms": [
+            "shackle",
+            "chain",
+            "restraint"
+          ],
+          "antonyms": [
+            "freedom",
+            "release",
+            "liberty"
+          ]
+        },
+        {
+          "id": "sat-shackle",
+          "word": "shackle",
+          "partOfSpeech": "noun",
+          "definition": "A metal ring or cuff used to bind a person's wrists or ankles.",
+          "example": "The museum displayed a rusted shackle once clamped onto the wrists of enslaved workers.",
+          "mnemonic": "Sounds like 'shake + cackle': a captive shakes the iron cuffs while the jailer cackles.",
+          "synonyms": [
+            "fetter",
+            "manacle",
+            "chain"
+          ],
+          "antonyms": [
+            "release",
+            "freedom",
+            "liberty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-tether",
+          "word": "tether",
+          "partOfSpeech": "noun",
+          "definition": "A rope or chain that ties something to a fixed spot.",
+          "example": "The goat could graze only in a small circle, kept close by the tether staked to the ground.",
+          "mnemonic": "Rhymes with 'feather': picture a light balloon tied on a string so it can't float away.",
+          "synonyms": [
+            "leash",
+            "line",
+            "tie"
+          ],
+          "antonyms": [
+            "release",
+            "free",
+            "untie"
+          ]
+        },
+        {
+          "id": "sat-bondage",
+          "word": "bondage",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being enslaved or held under another person's total control.",
+          "example": "The novel follows a family's escape from generations of bondage on a cotton plantation.",
+          "mnemonic": "'bond' + age: ties (bonds) that hold you for an age — ropes you cannot loosen.",
+          "synonyms": [
+            "slavery",
+            "captivity",
+            "servitude"
+          ],
+          "antonyms": [
+            "freedom",
+            "liberty",
+            "emancipation"
+          ]
+        },
+        {
+          "id": "sat-captivity",
+          "word": "captivity",
+          "partOfSpeech": "noun",
+          "definition": "The state of being confined and unable to leave or escape freely.",
+          "example": "The rescued eagle had spent so long in captivity that it had forgotten how to hunt.",
+          "mnemonic": "Hear 'captive city': a walled city you are held inside and cannot leave.",
+          "synonyms": [
+            "imprisonment",
+            "confinement",
+            "bondage"
+          ],
+          "antonyms": [
+            "freedom",
+            "liberty",
+            "release"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-imprison",
+          "word": "imprison",
+          "partOfSpeech": "verb",
+          "definition": "To lock someone up and hold them against their will.",
+          "example": "The corrupt regime would imprison anyone who dared to criticize its leader in public.",
+          "mnemonic": "Literally 'im- (in) + prison': to put someone IN a PRISON.",
+          "synonyms": [
+            "incarcerate",
+            "jail",
+            "confine"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "liberate"
+          ]
+        },
+        {
+          "id": "sat-incarcerate",
+          "word": "incarcerate",
+          "partOfSpeech": "verb",
+          "definition": "To confine a person in a jail or penal institution.",
+          "example": "Judges may incarcerate repeat offenders for years, even for relatively minor crimes.",
+          "mnemonic": "From Latin 'carcer' (prison): to put someone into the 'carcer' — in-CARCER-ate.",
+          "synonyms": [
+            "imprison",
+            "jail",
+            "confine"
+          ],
+          "antonyms": [
+            "release",
+            "free",
+            "liberate"
+          ]
+        },
+        {
+          "id": "sat-detain",
+          "word": "detain",
+          "partOfSpeech": "verb",
+          "definition": "To hold someone officially, preventing them from leaving.",
+          "example": "Airport security may detain a traveler for questioning if their documents seem suspicious.",
+          "mnemonic": "de- + 'tain' (Latin tenere, to hold): think 'delay + retain' — you are held back from leaving.",
+          "synonyms": [
+            "hold",
+            "confine",
+            "delay"
+          ],
+          "antonyms": [
+            "release",
+            "free",
+            "discharge"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-duress",
+          "word": "duress",
+          "partOfSpeech": "noun",
+          "definition": "Threats or force used to make someone act against their will.",
+          "example": "She later argued the contract was invalid because she had signed it under duress.",
+          "mnemonic": "Sounds like 'do-or-stress': from Latin 'durus' (hard) — hard pressure forcing you to act.",
+          "synonyms": [
+            "coercion",
+            "pressure",
+            "force"
+          ],
+          "antonyms": [
+            "consent",
+            "freedom",
+            "choice"
+          ]
+        },
+        {
+          "id": "sat-enslave",
+          "word": "enslave",
+          "partOfSpeech": "verb",
+          "definition": "To make someone the property of another and force their labor.",
+          "example": "Colonizers would enslave entire populations to work the sugar and coffee fields.",
+          "mnemonic": "en- (to make) + 'slave': to turn a free person into a slave — chains and forced work.",
+          "synonyms": [
+            "subjugate",
+            "dominate",
+            "bind"
+          ],
+          "antonyms": [
+            "free",
+            "liberate",
+            "emancipate"
+          ]
+        },
+        {
+          "id": "sat-servitude",
+          "word": "servitude",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being forced to work for another without freedom.",
+          "example": "The workers were trapped in a form of servitude, laboring for years just to pay off a fake debt.",
+          "mnemonic": "'serve' + -itude: a lasting state of forced serving — a servant with no way out.",
+          "synonyms": [
+            "slavery",
+            "bondage",
+            "subjugation"
+          ],
+          "antonyms": [
+            "freedom",
+            "liberty",
+            "independence"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-deliverance",
+          "word": "deliverance",
+          "partOfSpeech": "noun",
+          "definition": "Rescue or release from danger, bondage, or serious difficulty.",
+          "example": "After forty days lost at sea, the sight of a rescue ship felt like deliverance.",
+          "mnemonic": "de-LIVER-ance — picture a hero who 'delivers' you out of danger.",
+          "synonyms": [
+            "rescue",
+            "liberation",
+            "salvation"
+          ],
+          "antonyms": [
+            "captivity",
+            "imprisonment",
+            "bondage"
+          ]
+        },
+        {
+          "id": "sat-unbridled",
+          "word": "unbridled",
+          "partOfSpeech": "adjective",
+          "definition": "Not held back or controlled in any way.",
+          "example": "The crowd greeted the last-minute winning goal with unbridled joy.",
+          "mnemonic": "A horse with no bridle runs wild — nothing on its head to rein it in.",
+          "synonyms": [
+            "unrestrained",
+            "uncontrolled",
+            "rampant"
+          ],
+          "antonyms": [
+            "restrained",
+            "controlled",
+            "checked"
+          ]
+        },
+        {
+          "id": "sat-inhibit",
+          "word": "inhibit",
+          "partOfSpeech": "verb",
+          "definition": "To hold back, slow down, or discourage an action or process.",
+          "example": "Cold weather can inhibit the growth of these tropical plants.",
+          "mnemonic": "Sounds like 'in-habit' — a habit that keeps you in and holds you back.",
+          "synonyms": [
+            "hinder",
+            "restrain",
+            "impede"
+          ],
+          "antonyms": [
+            "encourage",
+            "promote",
+            "enable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-muzzle",
+          "word": "muzzle",
+          "partOfSpeech": "verb",
+          "definition": "To force someone or something into silence or block free expression.",
+          "example": "The new law tried to muzzle journalists who criticized the government.",
+          "mnemonic": "A dog's muzzle straps over its mouth so it can't bark or bite.",
+          "synonyms": [
+            "silence",
+            "gag",
+            "suppress"
+          ],
+          "antonyms": [
+            "free",
+            "unleash",
+            "amplify"
+          ]
+        },
+        {
+          "id": "sat-censor",
+          "word": "censor",
+          "partOfSpeech": "verb",
+          "definition": "To examine material and remove parts judged unacceptable or harmful.",
+          "example": "The studio cut several scenes to censor the film before its teen release.",
+          "mnemonic": "A censor grabs 'scissors' (censors) to snip out the objectionable bits.",
+          "synonyms": [
+            "suppress",
+            "redact",
+            "edit"
+          ],
+          "antonyms": [
+            "permit",
+            "publish",
+            "release"
+          ]
+        },
+        {
+          "id": "sat-embargo",
+          "word": "embargo",
+          "partOfSpeech": "noun",
+          "definition": "An official order that stops trade or exchange with a country.",
+          "example": "The oil embargo left drivers waiting in long lines at empty gas stations.",
+          "mnemonic": "em-BAR-go — a 'bar' slammed down so goods can't go.",
+          "synonyms": [
+            "ban",
+            "prohibition",
+            "blockade"
+          ],
+          "antonyms": [
+            "permission",
+            "trade",
+            "free flow"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-quarantine",
+          "word": "quarantine",
+          "partOfSpeech": "noun",
+          "definition": "A period of isolation used to stop the spread of disease.",
+          "example": "The sick travelers were kept in quarantine for two weeks before release.",
+          "mnemonic": "From Italian 'quaranta' (forty) — plague ships waited forty days offshore.",
+          "synonyms": [
+            "isolation",
+            "confinement",
+            "sequestration"
+          ],
+          "antonyms": [
+            "release",
+            "freedom",
+            "mingling"
+          ]
+        },
+        {
+          "id": "sat-cloister",
+          "word": "cloister",
+          "partOfSpeech": "verb",
+          "definition": "To shut away in a quiet, secluded place, apart from the world.",
+          "example": "The scholar cloistered himself in the library for months to finish his book.",
+          "mnemonic": "A cloister is a monastery where monks live 'closed' off — cloister/closed.",
+          "synonyms": [
+            "seclude",
+            "confine",
+            "isolate"
+          ],
+          "antonyms": [
+            "expose",
+            "release",
+            "mingle"
+          ]
+        },
+        {
+          "id": "sat-seclude",
+          "word": "seclude",
+          "partOfSpeech": "verb",
+          "definition": "To keep apart or hidden from other people.",
+          "example": "They secluded themselves in a remote cabin far from any neighbors.",
+          "mnemonic": "se- (apart) + clude (close) — closed off, away from everyone.",
+          "synonyms": [
+            "isolate",
+            "sequester",
+            "cloister"
+          ],
+          "antonyms": [
+            "expose",
+            "integrate",
+            "socialize"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-entrap",
+          "word": "entrap",
+          "partOfSpeech": "verb",
+          "definition": "To catch or trick someone into a situation they cannot escape.",
+          "example": "The spider's sticky web entrapped every insect that flew too close.",
+          "mnemonic": "en- + trap — literally to put someone 'in a trap.'",
+          "synonyms": [
+            "ensnare",
+            "trick",
+            "catch"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "liberate"
+          ]
+        },
+        {
+          "id": "sat-latitude",
+          "word": "latitude",
+          "partOfSpeech": "noun",
+          "definition": "Freedom to act, think, or choose within wide limits.",
+          "example": "Her boss gave her plenty of latitude to design the project as she saw fit.",
+          "mnemonic": "Latitude lines wrap the whole globe — lots of room, lots of freedom.",
+          "synonyms": [
+            "freedom",
+            "leeway",
+            "scope"
+          ],
+          "antonyms": [
+            "restriction",
+            "constraint",
+            "limitation"
+          ]
+        },
+        {
+          "id": "sat-leeway",
+          "word": "leeway",
+          "partOfSpeech": "noun",
+          "definition": "Extra room or flexibility to move, act, or make decisions.",
+          "example": "Leaving early gave us enough leeway to reach the airport despite the traffic.",
+          "mnemonic": "On a boat the sheltered 'lee' side gives room to drift safely — a margin.",
+          "synonyms": [
+            "margin",
+            "latitude",
+            "flexibility"
+          ],
+          "antonyms": [
+            "restriction",
+            "constraint",
+            "limit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-prerogative",
+          "word": "prerogative",
+          "partOfSpeech": "noun",
+          "definition": "A special right or privilege belonging to a particular person or group.",
+          "example": "Naming the newborn was the mother's prerogative alone.",
+          "mnemonic": "pre- (before) + rogative (ask) — a king was asked first; it was his exclusive right.",
+          "synonyms": [
+            "right",
+            "privilege",
+            "entitlement"
+          ],
+          "antonyms": [
+            "duty",
+            "obligation",
+            "restriction"
+          ]
+        },
+        {
+          "id": "sat-unconstrained",
+          "word": "unconstrained",
+          "partOfSpeech": "adjective",
+          "definition": "Free from limits, rules, or forces that hold something back.",
+          "example": "In the empty field the puppy ran unconstrained, chasing every falling leaf.",
+          "mnemonic": "un- + constrained — the opposite of tied down; no straps on it at all.",
+          "synonyms": [
+            "unrestricted",
+            "free",
+            "unlimited"
+          ],
+          "antonyms": [
+            "restricted",
+            "confined",
+            "bound"
+          ]
+        },
+        {
+          "id": "sat-untrammeled",
+          "word": "untrammeled",
+          "partOfSpeech": "adjective",
+          "definition": "Not limited or hampered by anything; completely free.",
+          "example": "The artist enjoyed untrammeled freedom to paint whatever she imagined.",
+          "mnemonic": "A 'trammel' is a net or shackle — un-trammeled means no net can hold you.",
+          "synonyms": [
+            "unhampered",
+            "unrestricted",
+            "free"
+          ],
+          "antonyms": [
+            "restricted",
+            "hampered",
+            "confined"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-autocracy",
+          "word": "autocracy",
+          "partOfSpeech": "noun",
+          "definition": "A system where a single ruler holds unlimited power over everyone else.",
+          "example": "Under the general's autocracy, no law could pass without his personal signature.",
+          "mnemonic": "auto- (self) + -cracy (rule): one person rules entirely by self, answering to no one.",
+          "synonyms": [
+            "dictatorship",
+            "despotism",
+            "tyranny"
+          ],
+          "antonyms": [
+            "democracy",
+            "republic"
+          ]
+        },
+        {
+          "id": "sat-dominion",
+          "word": "dominion",
+          "partOfSpeech": "noun",
+          "definition": "Supreme control or authority over a territory or people.",
+          "example": "The empire held dominion over lands stretching from the sea to the mountains.",
+          "mnemonic": "Sounds like 'dominate' — the domain you dominate becomes your dominion.",
+          "synonyms": [
+            "sovereignty",
+            "rule",
+            "control"
+          ],
+          "antonyms": [
+            "subjection",
+            "subordination"
+          ]
+        },
+        {
+          "id": "sat-thrall",
+          "word": "thrall",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being under another's power, like a slave.",
+          "example": "Held in thrall by the sorcerer, the villagers obeyed his every command.",
+          "mnemonic": "Thrall lives inside 'enthrall' — captivated and captive, held completely.",
+          "synonyms": [
+            "bondage",
+            "servitude",
+            "slavery"
+          ],
+          "antonyms": [
+            "freedom",
+            "liberty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-indenture",
+          "word": "indenture",
+          "partOfSpeech": "noun",
+          "definition": "A binding contract forcing a person to work for another for a set time.",
+          "example": "He signed an indenture that bound him to the shipyard for seven years.",
+          "mnemonic": "In-DENT-ure: the old contract had a 'dented' notched edge — and it bit into your freedom.",
+          "synonyms": [
+            "contract",
+            "bond",
+            "obligation"
+          ],
+          "antonyms": [
+            "freedom",
+            "release"
+          ]
+        },
+        {
+          "id": "sat-regiment",
+          "word": "regiment",
+          "partOfSpeech": "verb",
+          "definition": "To organize people or things into a strict, controlled system.",
+          "example": "The headmaster tried to regiment every minute of the students' day.",
+          "mnemonic": "A military regiment marches in rigid rows — to regiment is to force that order onto life.",
+          "synonyms": [
+            "organize",
+            "systematize",
+            "discipline"
+          ],
+          "antonyms": [
+            "liberate",
+            "loosen"
+          ]
+        },
+        {
+          "id": "sat-dominate",
+          "word": "dominate",
+          "partOfSpeech": "verb",
+          "definition": "To control or have power over someone or something completely.",
+          "example": "One loud voice can dominate a meeting so that no one else gets to speak.",
+          "mnemonic": "Picture a 'dome' — you stand on top of it, above and over everyone below.",
+          "synonyms": [
+            "control",
+            "rule",
+            "overshadow"
+          ],
+          "antonyms": [
+            "submit",
+            "yield"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-banish",
+          "word": "banish",
+          "partOfSpeech": "verb",
+          "definition": "To force someone to leave a place, usually as a punishment.",
+          "example": "The king chose to banish the traitor rather than execute him.",
+          "mnemonic": "Ban + vanish: you're banned, so now vanish — be gone from here.",
+          "synonyms": [
+            "exile",
+            "expel",
+            "deport"
+          ],
+          "antonyms": [
+            "welcome",
+            "admit"
+          ]
+        },
+        {
+          "id": "sat-expel",
+          "word": "expel",
+          "partOfSpeech": "verb",
+          "definition": "To officially force someone to leave a school, group, or place.",
+          "example": "The school will expel any student caught cheating on the final exam.",
+          "mnemonic": "ex- (out) + -pel (push, as in 'propel'): literally pushed out.",
+          "synonyms": [
+            "eject",
+            "oust",
+            "dismiss"
+          ],
+          "antonyms": [
+            "admit",
+            "enroll"
+          ]
+        },
+        {
+          "id": "sat-relegate",
+          "word": "relegate",
+          "partOfSpeech": "verb",
+          "definition": "To move someone or something to a lower or less important rank.",
+          "example": "After a losing season, the team was relegated to the second division.",
+          "mnemonic": "RE-LEG-ate: sent back to the last 'leg' of the race — down to the bottom.",
+          "synonyms": [
+            "demote",
+            "downgrade",
+            "consign"
+          ],
+          "antonyms": [
+            "promote",
+            "elevate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-isolate",
+          "word": "isolate",
+          "partOfSpeech": "verb",
+          "definition": "To keep someone or something separate and alone, apart from others.",
+          "example": "Doctors isolate patients with contagious diseases to protect everyone else.",
+          "mnemonic": "'Isola' is Italian for island — to isolate is to make an island of someone.",
+          "synonyms": [
+            "separate",
+            "seclude",
+            "quarantine"
+          ],
+          "antonyms": [
+            "integrate",
+            "unite"
+          ]
+        },
+        {
+          "id": "sat-blockade",
+          "word": "blockade",
+          "partOfSpeech": "noun",
+          "definition": "The sealing off of a place to stop goods or people from entering or leaving.",
+          "example": "The navy set up a blockade so no ships could reach the enemy port.",
+          "mnemonic": "Block + -ade: a barricade that blocks the way both in and out.",
+          "synonyms": [
+            "siege",
+            "barricade",
+            "embargo"
+          ],
+          "antonyms": [
+            "access",
+            "opening"
+          ]
+        },
+        {
+          "id": "sat-infringe",
+          "word": "infringe",
+          "partOfSpeech": "verb",
+          "definition": "To break a rule or law, or to intrude on someone's rights.",
+          "example": "Copying that logo would infringe on the company's trademark.",
+          "mnemonic": "Hear 'in-fringe' — stepping onto the fringe, the edge of someone else's territory.",
+          "synonyms": [
+            "violate",
+            "encroach",
+            "breach"
+          ],
+          "antonyms": [
+            "respect",
+            "obey"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-usurp",
+          "word": "usurp",
+          "partOfSpeech": "verb",
+          "definition": "To take power, a position, or rights by force and without the right to.",
+          "example": "The general plotted to usurp the throne while the queen was away.",
+          "mnemonic": "'You slurp' up power that isn't yours — usurp: slurping up someone else's authority.",
+          "synonyms": [
+            "seize",
+            "appropriate",
+            "commandeer"
+          ],
+          "antonyms": [
+            "relinquish",
+            "surrender"
+          ]
+        },
+        {
+          "id": "sat-ascetic",
+          "word": "ascetic",
+          "partOfSpeech": "adjective",
+          "definition": "Choosing a strict, simple life that avoids comfort and pleasure.",
+          "example": "The monk led an ascetic life, sleeping on a bare floor and eating only rice.",
+          "mnemonic": "Sounds like 'acidic' — a bitter, austere life with none of the sweetness.",
+          "synonyms": [
+            "austere",
+            "self-denying",
+            "spartan"
+          ],
+          "antonyms": [
+            "indulgent",
+            "luxurious"
+          ]
+        },
+        {
+          "id": "sat-profound",
+          "word": "profound",
+          "partOfSpeech": "adjective",
+          "definition": "Very deep in meaning, feeling, or knowledge.",
+          "example": "Her speech had a profound effect on everyone who heard it.",
+          "mnemonic": "pro- + -found (Latin 'fundus', bottom): reaching all the way to the bottom — very deep.",
+          "synonyms": [
+            "deep",
+            "intense",
+            "penetrating"
+          ],
+          "antonyms": [
+            "shallow",
+            "superficial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-equanimity",
+          "word": "equanimity",
+          "partOfSpeech": "noun",
+          "definition": "Calmness and steadiness of mind, especially under stress or difficulty.",
+          "example": "Even as the plane hit turbulence, she sipped her tea with perfect equanimity.",
+          "mnemonic": "Equal + animus (mind): keeping an 'equal mind' no matter what happens.",
+          "synonyms": [
+            "composure",
+            "serenity",
+            "poise"
+          ],
+          "antonyms": [
+            "agitation",
+            "panic",
+            "anxiety"
+          ]
+        },
+        {
+          "id": "sat-tumultuous",
+          "word": "tumultuous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of noise, confusion, or violent disorder.",
+          "example": "The crowd gave a tumultuous welcome, stamping and roaring as the champion stepped out.",
+          "mnemonic": "Sounds like 'too-much-tuous' — too much commotion happening all at once.",
+          "synonyms": [
+            "turbulent",
+            "chaotic",
+            "riotous"
+          ],
+          "antonyms": [
+            "calm",
+            "peaceful",
+            "orderly"
+          ]
+        },
+        {
+          "id": "sat-cacophony",
+          "word": "cacophony",
+          "partOfSpeech": "noun",
+          "definition": "A harsh, jarring mixture of sounds heard together.",
+          "example": "A cacophony of car horns, drills, and shouting rose from the street below.",
+          "mnemonic": "Greek kakos (bad) + phone (sound) = literally 'bad sound.'",
+          "synonyms": [
+            "din",
+            "racket",
+            "discord"
+          ],
+          "antonyms": [
+            "harmony",
+            "melody",
+            "euphony"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-dissonance",
+          "word": "dissonance",
+          "partOfSpeech": "noun",
+          "definition": "A lack of harmony or agreement between sounds, ideas, or feelings.",
+          "example": "There was a clear dissonance between his cheerful words and his trembling hands.",
+          "mnemonic": "dis- (apart) + -sonance (sound): sounds or ideas that pull apart.",
+          "synonyms": [
+            "discord",
+            "conflict",
+            "clash"
+          ],
+          "antonyms": [
+            "harmony",
+            "agreement",
+            "accord"
+          ]
+        },
+        {
+          "id": "sat-vociferous",
+          "word": "vociferous",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing feelings or opinions loudly and forcefully.",
+          "example": "The fans were vociferous in their protest, chanting until the referee reversed the call.",
+          "mnemonic": "voci- (voice, like 'vocal') + -ferous (carrying): carrying a very loud voice.",
+          "synonyms": [
+            "clamorous",
+            "strident",
+            "loud"
+          ],
+          "antonyms": [
+            "quiet",
+            "silent",
+            "reserved"
+          ]
+        },
+        {
+          "id": "sat-restrict",
+          "word": "restrict",
+          "partOfSpeech": "verb",
+          "definition": "To put limits on what someone can do or how much of something exists.",
+          "example": "The new rules restrict visitors to two hours inside the gallery.",
+          "mnemonic": "Re-STRICT: being strict again, tightening the rules around you.",
+          "synonyms": [
+            "limit",
+            "confine",
+            "curb"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "expand"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-unleash",
+          "word": "unleash",
+          "partOfSpeech": "verb",
+          "definition": "To suddenly release a powerful force or feeling that was held back.",
+          "example": "One careless comment was enough to unleash years of pent-up anger.",
+          "mnemonic": "un- + leash: take the leash off the dog and let it run wild.",
+          "synonyms": [
+            "release",
+            "let loose",
+            "unchain"
+          ],
+          "antonyms": [
+            "restrain",
+            "contain",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-liberty",
+          "word": "liberty",
+          "partOfSpeech": "noun",
+          "definition": "The state of being free to act, speak, or think as one wishes.",
+          "example": "After years in prison, he savored the simple liberty of walking wherever he pleased.",
+          "mnemonic": "Latin liber = free; the same root as 'liberate' and 'liberal.'",
+          "synonyms": [
+            "freedom",
+            "independence",
+            "autonomy"
+          ],
+          "antonyms": [
+            "captivity",
+            "slavery",
+            "oppression"
+          ]
+        },
+        {
+          "id": "sat-despot",
+          "word": "despot",
+          "partOfSpeech": "noun",
+          "definition": "A ruler who holds absolute power and uses it cruelly.",
+          "example": "Under the despot, a single critical word could cost a family their home.",
+          "mnemonic": "From Greek despotes, 'master' — picture a ruler who puts you 'on the spot' and crushes you.",
+          "synonyms": [
+            "tyrant",
+            "dictator",
+            "autocrat"
+          ],
+          "antonyms": [
+            "liberator",
+            "democrat"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-subservient",
+          "word": "subservient",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to obey others completely and put their wishes first.",
+          "example": "He was so subservient to his boss that he never once voiced his own opinion.",
+          "mnemonic": "sub- (under) + serve: serving from underneath, below everyone else.",
+          "synonyms": [
+            "submissive",
+            "obedient",
+            "deferential"
+          ],
+          "antonyms": [
+            "domineering",
+            "rebellious",
+            "assertive"
+          ]
+        },
+        {
+          "id": "sat-totalitarian",
+          "word": "totalitarian",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to a government that controls every part of people's lives.",
+          "example": "In the totalitarian state, even private letters were read by government censors.",
+          "mnemonic": "Built on 'total' — the regime demands total control over everything.",
+          "synonyms": [
+            "authoritarian",
+            "dictatorial",
+            "autocratic"
+          ],
+          "antonyms": [
+            "democratic",
+            "free",
+            "liberal"
+          ]
+        },
+        {
+          "id": "sat-serf",
+          "word": "serf",
+          "partOfSpeech": "noun",
+          "definition": "A laborer in feudal times bound to work a master's land.",
+          "example": "As a serf, he could not leave the estate or marry without the lord's permission.",
+          "mnemonic": "Sounds like 'serve' — he serves the lord and the land, stuck in place.",
+          "synonyms": [
+            "peasant",
+            "vassal",
+            "bondman"
+          ],
+          "antonyms": [
+            "lord",
+            "master",
+            "freeman"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-yoke",
+          "word": "yoke",
+          "partOfSpeech": "noun",
+          "definition": "A wooden crossbar joining animals, or a figurative burden of oppression.",
+          "example": "The colonies finally threw off the yoke of the empire and declared themselves free.",
+          "mnemonic": "Sounds like 'yolk,' but a yoke is a heavy bar pressing down on an ox's neck.",
+          "synonyms": [
+            "burden",
+            "bondage",
+            "harness"
+          ],
+          "antonyms": [
+            "freedom",
+            "liberation",
+            "release"
+          ]
+        },
+        {
+          "id": "sat-constrict",
+          "word": "constrict",
+          "partOfSpeech": "verb",
+          "definition": "To make narrower or tighter, limiting movement or flow.",
+          "example": "The tight collar seemed to constrict his throat until he could barely swallow.",
+          "mnemonic": "con- (together) + strict: drawn tightly together, like a boa constrictor squeezing.",
+          "synonyms": [
+            "tighten",
+            "squeeze",
+            "compress"
+          ],
+          "antonyms": [
+            "expand",
+            "widen",
+            "loosen"
+          ]
+        },
+        {
+          "id": "sat-tyrannical",
+          "word": "tyrannical",
+          "partOfSpeech": "adjective",
+          "definition": "Using power in a cruel, unfair, and controlling way.",
+          "example": "The tyrannical manager fired anyone who dared to question his decisions.",
+          "mnemonic": "From 'tyrant' — a tyrannical boss rules like a cruel tyrant of old.",
+          "synonyms": [
+            "oppressive",
+            "despotic",
+            "domineering"
+          ],
+          "antonyms": [
+            "lenient",
+            "fair",
+            "benevolent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-warden",
+          "word": "warden",
+          "partOfSpeech": "noun",
+          "definition": "A person in charge of running a prison or supervising a specific place or rule.",
+          "example": "The warden walked the cell block each morning, jangling the keys that locked every gate behind him.",
+          "mnemonic": "Sounds like \"guard-en\" — a warden GUARDs the pen (prison).",
+          "synonyms": [
+            "guardian",
+            "keeper",
+            "custodian"
+          ],
+          "antonyms": [
+            "prisoner",
+            "inmate",
+            "captive"
+          ]
+        },
+        {
+          "id": "sat-manacle",
+          "word": "manacle",
+          "partOfSpeech": "noun",
+          "definition": "A metal band or chain fastened around the wrists to restrain a person.",
+          "example": "The guard snapped a cold iron manacle onto each of the captive's wrists before the march.",
+          "mnemonic": "\"MAN + shackle\" — a shackle clamped on a man's hands.",
+          "synonyms": [
+            "handcuff",
+            "shackle",
+            "fetter"
+          ],
+          "antonyms": [
+            "release",
+            "freedom"
+          ]
+        },
+        {
+          "id": "sat-coercion",
+          "word": "coercion",
+          "partOfSpeech": "noun",
+          "definition": "The act of forcing someone to do something through threats or pressure.",
+          "example": "She signed the contract only under coercion, after they threatened to fire her husband.",
+          "mnemonic": "\"CO-erce\" shares its root with \"force\" — think of being FORCED together against your will.",
+          "synonyms": [
+            "intimidation",
+            "duress",
+            "compulsion"
+          ],
+          "antonyms": [
+            "persuasion",
+            "consent",
+            "free will"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T21:28:47.611Z"
+}

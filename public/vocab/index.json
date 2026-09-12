@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T15:21:58.944Z",
+  "generatedAt": "2026-09-12T22:54:57.661Z",
   "months": [
     {
       "track": "gre",
@@ -575,6 +575,582 @@
         "luster",
         "eclipse",
         "umbrageous"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 1,
+      "title": "Describing character",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "austere",
+        "meticulous",
+        "aloof",
+        "despondent",
+        "impudent",
+        "obstinate"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 2,
+      "title": "Tone and attitude",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "brusque",
+        "scathing",
+        "bashful",
+        "somber",
+        "unruly",
+        "hubris"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 3,
+      "title": "Claims and evidence",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "corroborate",
+        "cogent",
+        "postulate",
+        "bolster",
+        "axiom",
+        "speculate"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 4,
+      "title": "Cause and effect",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "catalyst",
+        "entail",
+        "precursor",
+        "aggravate",
+        "quell",
+        "subside"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 5,
+      "title": "Comparison and contrast",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "analogous",
+        "parallel",
+        "counterpart",
+        "ubiquitous",
+        "discreet",
+        "nominal"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 6,
+      "title": "Change over time",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "transient",
+        "mutable",
+        "mature",
+        "vacillate",
+        "onset",
+        "antiquity"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 7,
+      "title": "Problems and solutions",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "remedy",
+        "impasse",
+        "bane",
+        "besiege",
+        "mediate",
+        "liberate"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 8,
+      "title": "Belief and scepticism",
+      "description": "Core academic",
+      "words": 75,
+      "days": 25,
+      "sample": [
+        "skeptic",
+        "leery",
+        "assume",
+        "incontrovertible",
+        "disdain",
+        "duplicity"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 9,
+      "title": "Praise and criticism",
+      "description": "Core academic",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "laud",
+        "idolize",
+        "reverence",
+        "defame",
+        "sneer",
+        "opprobrium"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 10,
+      "title": "Certainty and hedging",
+      "description": "Core academic",
+      "words": 62,
+      "days": 21,
+      "sample": [
+        "emphatic",
+        "speculative",
+        "enigmatic",
+        "apocryphal",
+        "imply",
+        "prognosis"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 11,
+      "title": "Persuasion and rhetoric",
+      "description": "Core academic",
+      "words": 63,
+      "days": 21,
+      "sample": [
+        "oratory",
+        "inspire",
+        "demonstrate",
+        "ornate",
+        "propaganda",
+        "jargon"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 12,
+      "title": "Clarity and confusion",
+      "description": "Core academic",
+      "words": 82,
+      "days": 28,
+      "sample": [
+        "ambiguity",
+        "addle",
+        "perceptible",
+        "verbiage",
+        "distracted",
+        "haphazard"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 13,
+      "title": "Science and experiment",
+      "description": "Argument and evidence",
+      "words": 71,
+      "days": 24,
+      "sample": [
+        "theoretical",
+        "reproducibility",
+        "evaluate",
+        "implausible",
+        "abstraction",
+        "integrate"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 14,
+      "title": "Nature and environment",
+      "description": "Argument and evidence",
+      "words": 51,
+      "days": 17,
+      "sample": [
+        "deem",
+        "measured",
+        "lush",
+        "turbulent",
+        "replenish",
+        "skeptical"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 15,
+      "title": "Society and community",
+      "description": "Argument and evidence",
+      "words": 61,
+      "days": 21,
+      "sample": [
+        "civic",
+        "stratify",
+        "populace",
+        "conformity",
+        "reform",
+        "tradition"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 16,
+      "title": "Government and citizenship",
+      "description": "Argument and evidence",
+      "words": 62,
+      "days": 21,
+      "sample": [
+        "sanguine",
+        "contrast",
+        "adjudicate",
+        "petition",
+        "comply",
+        "nonpartisan"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 17,
+      "title": "History and memory",
+      "description": "Argument and evidence",
+      "words": 48,
+      "days": 16,
+      "sample": [
+        "commemorate",
+        "ancestral",
+        "oblivion",
+        "reminiscent",
+        "undertone",
+        "undercut"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 18,
+      "title": "Conflict and cooperation",
+      "description": "Argument and evidence",
+      "words": 48,
+      "days": 16,
+      "sample": [
+        "foreshadow",
+        "discord",
+        "altercation",
+        "spite",
+        "collaborate",
+        "schism"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 19,
+      "title": "Work and ambition",
+      "description": "Argument and evidence",
+      "words": 61,
+      "days": 21,
+      "sample": [
+        "assiduous",
+        "toil",
+        "proficient",
+        "dedicated",
+        "shirk",
+        "attain"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 20,
+      "title": "Wealth and inequality",
+      "description": "Argument and evidence",
+      "words": 48,
+      "days": 16,
+      "sample": [
+        "trivialize",
+        "extravagant",
+        "privilege",
+        "hoard",
+        "bequeath",
+        "allocate"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 21,
+      "title": "Education and learning",
+      "description": "Argument and evidence",
+      "words": 45,
+      "days": 15,
+      "sample": [
+        "elaborate",
+        "erudite",
+        "proviso",
+        "gainsay",
+        "democracy",
+        "charity"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 22,
+      "title": "Technology and invention",
+      "description": "Argument and evidence",
+      "words": 45,
+      "days": 15,
+      "sample": [
+        "connote",
+        "novel",
+        "coherence",
+        "adapt",
+        "probative",
+        "covet"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 23,
+      "title": "Art and expression",
+      "description": "Argument and evidence",
+      "words": 51,
+      "days": 17,
+      "sample": [
+        "aesthetic",
+        "luminous",
+        "masterful",
+        "stilted",
+        "haunting",
+        "oblique"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 24,
+      "title": "Tradition and reform",
+      "description": "Argument and evidence",
+      "words": 45,
+      "days": 15,
+      "sample": [
+        "evince",
+        "customary",
+        "defunct",
+        "subvert",
+        "verisimilitude",
+        "repress"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 25,
+      "title": "Identity and belonging",
+      "description": "Advanced literary and scientific",
+      "words": 66,
+      "days": 22,
+      "sample": [
+        "estrange",
+        "cosmopolitan",
+        "displaced",
+        "outcast",
+        "vicarious",
+        "inclusive"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 26,
+      "title": "Freedom and restriction",
+      "description": "Advanced literary and scientific",
+      "words": 63,
+      "days": 21,
+      "sample": [
+        "unfettered",
+        "incarcerate",
+        "quarantine",
+        "dominion",
+        "usurp",
+        "liberty"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 27,
+      "title": "Risk and caution",
+      "description": "Advanced literary and scientific",
+      "words": 76,
+      "days": 26,
+      "sample": [
+        "peril",
+        "impulsive",
+        "dire",
+        "insulate",
+        "liability",
+        "portend"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 28,
+      "title": "Growth and decline",
+      "description": "Advanced literary and scientific",
+      "words": 70,
+      "days": 24,
+      "sample": [
+        "fester",
+        "decompose",
+        "distend",
+        "recuperate",
+        "haggard",
+        "wilt"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 29,
+      "title": "Leadership and influence",
+      "description": "Advanced literary and scientific",
+      "words": 66,
+      "days": 22,
+      "sample": [
+        "charisma",
+        "overbearing",
+        "mentor",
+        "inveigle",
+        "predominate",
+        "formidable"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 30,
+      "title": "Truth and misinformation",
+      "description": "Advanced literary and scientific",
+      "words": 54,
+      "days": 18,
+      "sample": [
+        "mendacity",
+        "disclose",
+        "counterfeit",
+        "collude",
+        "illusory",
+        "protean"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 31,
+      "title": "Emotion and composure",
+      "description": "Advanced literary and scientific",
+      "words": 76,
+      "days": 26,
+      "sample": [
+        "composure",
+        "chasten",
+        "delirium",
+        "giddy",
+        "glower",
+        "rue"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 32,
+      "title": "Humour and irony",
+      "description": "Advanced literary and scientific",
+      "words": 65,
+      "days": 22,
+      "sample": [
+        "satirize",
+        "ludicrous",
+        "mischievous",
+        "snicker",
+        "bemused",
+        "badinage"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 33,
+      "title": "Isolation and connection",
+      "description": "Advanced literary and scientific",
+      "words": 47,
+      "days": 16,
+      "sample": [
+        "sequester",
+        "scatter",
+        "forge",
+        "congregate",
+        "relinquish",
+        "pervade"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 34,
+      "title": "Justice and fairness",
+      "description": "Advanced literary and scientific",
+      "words": 61,
+      "days": 21,
+      "sample": [
+        "equitable",
+        "amnesty",
+        "grievance",
+        "revoke",
+        "heinous",
+        "exorbitant"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 35,
+      "title": "Migration and place",
+      "description": "Advanced literary and scientific",
+      "words": 78,
+      "days": 26,
+      "sample": [
+        "exodus",
+        "locale",
+        "terrain",
+        "rustic",
+        "uproot",
+        "abscond"
+      ]
+    },
+    {
+      "track": "sat",
+      "ordinal": 36,
+      "title": "Discovery and exploration",
+      "description": "Advanced literary and scientific",
+      "words": 56,
+      "days": 19,
+      "sample": [
+        "unearth",
+        "odyssey",
+        "scrutiny",
+        "tome",
+        "trajectory",
+        "serendipitous"
       ]
     }
   ]

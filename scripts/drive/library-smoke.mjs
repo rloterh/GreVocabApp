@@ -25,7 +25,12 @@ page.on("console", (m) => {
 const fetched = [];
 page.on("request", (r) => {
   const url = r.url();
-  if (/\/vocab\/\d{4}-\d{2}\.json$/.test(url)) fetched.push(url.split("/").pop());
+  // Month files moved to `/vocab/<track>/NN.json` when content stopped
+  // carrying a calendar. This pattern still matching the old shape meant the
+  // driver reported that nothing had been downloaded while 36 files were.
+  if (/\/vocab\/(gre|sat)\/\d{2}\.json$/.test(url)) {
+    fetched.push(url.split("/").slice(-2).join("/"));
+  }
 });
 
 await page.addInitScript(() => {
@@ -67,7 +72,23 @@ const before = await page.evaluate(() => {
 });
 
 await page.locator("main").getByRole("button", { name: /Load all/ }).first().click();
-await page.waitForTimeout(4000);
+
+// Wait for the count to stop moving rather than for a fixed few seconds.
+// Loading is sequential and each month rewrites a store that grows to a
+// megabyte, so a fixed wait counted a run still in progress and reported a
+// working feature as broken — twice, with a different number each time.
+const monthCount = () =>
+  page.evaluate(() => {
+    const raw = JSON.parse(localStorage.getItem("lexicon.vocab.v1") ?? "{}");
+    return Object.keys(raw.state?.months ?? {}).length;
+  });
+let settled = -1;
+for (let i = 0; i < 60; i++) {
+  await page.waitForTimeout(1000);
+  const now = await monthCount();
+  if (now === settled) break;
+  settled = now;
+}
 
 const after = await page.evaluate(() => {
   const raw = JSON.parse(localStorage.getItem("lexicon.vocab.v1") ?? "{}");
@@ -108,8 +129,10 @@ check(
   `${dupes.total} words, repeats: ${dupes.repeated.slice(0, 5).join(", ")}`,
 );
 
-fs.mkdirSync(OUT, { recursive: true });
-await page.screenshot({ path: `${OUT}/library.png` });
+if (OUT) {
+  fs.mkdirSync(OUT, { recursive: true });
+  await page.screenshot({ path: `${OUT}/library.png` });
+}
 check("no uncaught errors", errors.length === 0, errors.slice(0, 2).join(" | "));
 
 await browser.close();

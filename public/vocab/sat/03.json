@@ -1,0 +1,1703 @@
+{
+  "track": "sat",
+  "ordinal": 3,
+  "title": "Claims and evidence",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-corroborate",
+          "word": "corroborate",
+          "partOfSpeech": "verb",
+          "definition": "To confirm or give support to a claim with additional evidence or testimony.",
+          "example": "Two other witnesses corroborated her account of exactly what happened that night.",
+          "mnemonic": "Co- (together) + robor- (Latin robur, 'strength'): together you make a story stronger.",
+          "synonyms": [
+            "confirm",
+            "verify",
+            "back up"
+          ],
+          "antonyms": [
+            "contradict",
+            "disprove",
+            "undermine"
+          ]
+        },
+        {
+          "id": "sat-substantiate",
+          "word": "substantiate",
+          "partOfSpeech": "verb",
+          "definition": "To prove the truth of something by providing solid evidence.",
+          "example": "The reporter could not substantiate the rumor, so the editor killed the story.",
+          "mnemonic": "You add real 'substance' to a claim, turning hot air into hard proof.",
+          "synonyms": [
+            "prove",
+            "verify",
+            "validate"
+          ],
+          "antonyms": [
+            "disprove",
+            "refute",
+            "contradict"
+          ]
+        },
+        {
+          "id": "sat-refute",
+          "word": "refute",
+          "partOfSpeech": "verb",
+          "definition": "To prove that a statement or argument is wrong or false.",
+          "example": "She used lab data to refute the theory that the drug was harmless.",
+          "mnemonic": "Sounds like 'refuse' — you refuse to accept the claim by proving it false.",
+          "synonyms": [
+            "disprove",
+            "rebut",
+            "debunk"
+          ],
+          "antonyms": [
+            "confirm",
+            "prove",
+            "corroborate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-rebut",
+          "word": "rebut",
+          "partOfSpeech": "verb",
+          "definition": "To argue against a claim by offering opposing reasons or evidence.",
+          "example": "The defense attorney rose to rebut the prosecutor's closing argument point by point.",
+          "mnemonic": "Re-BUTT: you butt heads right back against the other side's argument.",
+          "synonyms": [
+            "counter",
+            "contradict",
+            "refute"
+          ],
+          "antonyms": [
+            "concede",
+            "agree",
+            "support"
+          ]
+        },
+        {
+          "id": "sat-repudiate",
+          "word": "repudiate",
+          "partOfSpeech": "verb",
+          "definition": "To reject or refuse to accept or be associated with something.",
+          "example": "The senator publicly repudiated the extremist group that had endorsed his campaign.",
+          "mnemonic": "Re-PU! — 'pew, that stinks' — so you push it away and disown it.",
+          "synonyms": [
+            "disown",
+            "reject",
+            "renounce"
+          ],
+          "antonyms": [
+            "embrace",
+            "accept",
+            "endorse"
+          ]
+        },
+        {
+          "id": "sat-vindicate",
+          "word": "vindicate",
+          "partOfSpeech": "verb",
+          "definition": "To clear someone of blame, or to show that a decision was right.",
+          "example": "The new DNA evidence finally vindicated the man who had spent years in prison.",
+          "mnemonic": "Hear 'win-dicate': you WIN your good name back and are cleared.",
+          "synonyms": [
+            "exonerate",
+            "absolve",
+            "justify"
+          ],
+          "antonyms": [
+            "blame",
+            "incriminate",
+            "convict"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-validate",
+          "word": "validate",
+          "partOfSpeech": "verb",
+          "definition": "To check or confirm that something is correct, sound, or officially acceptable.",
+          "example": "Please validate your parking ticket at the front desk before you leave the garage.",
+          "mnemonic": "Make it VALID — stamp it as approved and correct.",
+          "synonyms": [
+            "confirm",
+            "verify",
+            "authenticate"
+          ],
+          "antonyms": [
+            "invalidate",
+            "nullify",
+            "disprove"
+          ]
+        },
+        {
+          "id": "sat-authenticate",
+          "word": "authenticate",
+          "partOfSpeech": "verb",
+          "definition": "To prove that something is genuine, real, or truly what it claims to be.",
+          "example": "An expert was hired to authenticate the painting before the auction house would list it.",
+          "mnemonic": "Make sure it's AUTHENTIC — the real thing, not a knockoff.",
+          "synonyms": [
+            "verify",
+            "certify",
+            "confirm"
+          ],
+          "antonyms": [
+            "forge",
+            "falsify",
+            "fake"
+          ]
+        },
+        {
+          "id": "sat-credible",
+          "word": "credible",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be believed; trustworthy and convincing.",
+          "example": "Her calm, detailed testimony made her a highly credible witness in the eyes of the jury.",
+          "mnemonic": "Think 'street cred' — from Latin credere, 'to believe'; people believe you.",
+          "synonyms": [
+            "believable",
+            "trustworthy",
+            "reliable"
+          ],
+          "antonyms": [
+            "unbelievable",
+            "doubtful",
+            "implausible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-plausible",
+          "word": "plausible",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming reasonable or likely to be true, though perhaps not certain.",
+          "example": "He offered a plausible excuse for being late, so his boss let it slide without questions.",
+          "mnemonic": "Sounds like 'applause' — an idea smooth enough to earn a clap on first hearing.",
+          "synonyms": [
+            "believable",
+            "reasonable",
+            "credible"
+          ],
+          "antonyms": [
+            "implausible",
+            "unlikely",
+            "far-fetched"
+          ]
+        },
+        {
+          "id": "sat-tenable",
+          "word": "tenable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be defended or maintained against attack or objection.",
+          "example": "Once his data was debunked, his position was no longer tenable and he quietly resigned.",
+          "mnemonic": "From Latin tenere, 'to hold' — a stance solid enough to hold onto.",
+          "synonyms": [
+            "defensible",
+            "justifiable",
+            "sound"
+          ],
+          "antonyms": [
+            "indefensible",
+            "untenable",
+            "flimsy"
+          ]
+        },
+        {
+          "id": "sat-spurious",
+          "word": "spurious",
+          "partOfSpeech": "adjective",
+          "definition": "False or fake; not genuine despite appearing real or authentic.",
+          "example": "The website spread spurious health claims that had no scientific basis whatsoever.",
+          "mnemonic": "A 'spur'-ious spur looks like a real one but pricks you and leads you astray.",
+          "synonyms": [
+            "false",
+            "bogus",
+            "counterfeit"
+          ],
+          "antonyms": [
+            "genuine",
+            "authentic",
+            "real"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-dubious",
+          "word": "dubious",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by doubt; questionable, uncertain, or not to be trusted.",
+          "example": "The used car had a dubious repair history, so we walked away from the deal.",
+          "mnemonic": "From Latin dubius, 'wavering between two' — like being of 'double' mind, unsure.",
+          "synonyms": [
+            "doubtful",
+            "questionable",
+            "suspect"
+          ],
+          "antonyms": [
+            "certain",
+            "trustworthy",
+            "reliable"
+          ]
+        },
+        {
+          "id": "sat-specious",
+          "word": "specious",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming true or correct on the surface but actually false or misleading.",
+          "example": "His argument sounded convincing at first, but it was specious and collapsed under scrutiny.",
+          "mnemonic": "From Latin specere, 'to look' — all good looks and shine, nothing real beneath.",
+          "synonyms": [
+            "misleading",
+            "deceptive",
+            "sophistic"
+          ],
+          "antonyms": [
+            "valid",
+            "genuine",
+            "sound"
+          ]
+        },
+        {
+          "id": "sat-fallacious",
+          "word": "fallacious",
+          "partOfSpeech": "adjective",
+          "definition": "Based on faulty reasoning or mistaken belief; logically unsound.",
+          "example": "The claim that the moon landing was staged rests on fallacious reasoning at every step.",
+          "mnemonic": "Hear 'fall' inside it — a fallacious argument falls apart because it stands on a fallacy.",
+          "synonyms": [
+            "illogical",
+            "erroneous",
+            "unsound"
+          ],
+          "antonyms": [
+            "valid",
+            "logical",
+            "sound"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-cogent",
+          "word": "cogent",
+          "partOfSpeech": "adjective",
+          "definition": "Clear, logical, and forceful enough to win agreement.",
+          "example": "Her cogent summary of the budget left even the skeptics nodding in agreement.",
+          "mnemonic": "Sounds like 'co-agent' — a partner whose argument is so tight it forces you to sign on.",
+          "synonyms": [
+            "convincing",
+            "compelling",
+            "persuasive"
+          ],
+          "antonyms": [
+            "unconvincing",
+            "weak",
+            "feeble"
+          ]
+        },
+        {
+          "id": "sat-compelling",
+          "word": "compelling",
+          "partOfSpeech": "adjective",
+          "definition": "So powerful or interesting that you cannot look away or disagree.",
+          "example": "The documentary was so compelling that nobody left the theater until the credits ended.",
+          "mnemonic": "COMPEL — it compels you, pulling you in like a magnet you can't resist.",
+          "synonyms": [
+            "gripping",
+            "riveting",
+            "convincing"
+          ],
+          "antonyms": [
+            "dull",
+            "boring",
+            "unconvincing"
+          ]
+        },
+        {
+          "id": "sat-persuasive",
+          "word": "persuasive",
+          "partOfSpeech": "adjective",
+          "definition": "Good at making people believe or do something through reasoning or appeal.",
+          "example": "The salesman was so persuasive that I drove home in a car I never planned to buy.",
+          "mnemonic": "'Per-suede' — a smooth suede glove that gently nudges you toward saying yes.",
+          "synonyms": [
+            "convincing",
+            "compelling",
+            "cogent"
+          ],
+          "antonyms": [
+            "unconvincing",
+            "ineffective",
+            "feeble"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-tentative",
+          "word": "tentative",
+          "partOfSpeech": "adjective",
+          "definition": "Not final; done cautiously and open to change.",
+          "example": "We made a tentative plan to meet Friday, but nothing is locked in yet.",
+          "mnemonic": "TENT-ative — like a tent, it's easy to fold up and move because nothing is permanent.",
+          "synonyms": [
+            "provisional",
+            "hesitant",
+            "unconfirmed"
+          ],
+          "antonyms": [
+            "definite",
+            "firm",
+            "conclusive"
+          ]
+        },
+        {
+          "id": "sat-conclusive",
+          "word": "conclusive",
+          "partOfSpeech": "adjective",
+          "definition": "Settling a question for good, leaving no room for doubt.",
+          "example": "The DNA match was conclusive, so the jury reached a verdict within an hour.",
+          "mnemonic": "Ends on 'close it' — it slams the case shut for the final time.",
+          "synonyms": [
+            "decisive",
+            "definitive",
+            "final"
+          ],
+          "antonyms": [
+            "inconclusive",
+            "ambiguous",
+            "uncertain"
+          ]
+        },
+        {
+          "id": "sat-inconclusive",
+          "word": "inconclusive",
+          "partOfSpeech": "adjective",
+          "definition": "Failing to settle a matter or reach a definite result.",
+          "example": "The blood test came back inconclusive, so the doctor ordered another round of scans.",
+          "mnemonic": "IN- (not) glued onto 'conclusive' — literally 'no conclusion reached.'",
+          "synonyms": [
+            "indefinite",
+            "ambiguous",
+            "unresolved"
+          ],
+          "antonyms": [
+            "conclusive",
+            "decisive",
+            "definitive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-empirical",
+          "word": "empirical",
+          "partOfSpeech": "adjective",
+          "definition": "Based on real observation or experiment rather than pure theory.",
+          "example": "Instead of guessing, she gathered empirical data by measuring each plant every morning.",
+          "mnemonic": "An EMPIRE built brick by measured brick — on tested facts, not fairy tales.",
+          "synonyms": [
+            "observed",
+            "experimental",
+            "factual"
+          ],
+          "antonyms": [
+            "theoretical",
+            "speculative",
+            "hypothetical"
+          ]
+        },
+        {
+          "id": "sat-anecdotal",
+          "word": "anecdotal",
+          "partOfSpeech": "adjective",
+          "definition": "Based on personal stories rather than solid data or research.",
+          "example": "The remedy's success is purely anecdotal — a few neighbors swear by it, but no study backs it.",
+          "mnemonic": "'A neck-dote' — grandma dotes with neck-craning tales at dinner, not statistics.",
+          "synonyms": [
+            "informal",
+            "unscientific",
+            "story-based"
+          ],
+          "antonyms": [
+            "empirical",
+            "scientific",
+            "statistical"
+          ]
+        },
+        {
+          "id": "sat-hypothesis",
+          "word": "hypothesis",
+          "partOfSpeech": "noun",
+          "definition": "A proposed explanation offered as a starting point for testing.",
+          "example": "Her hypothesis was that sugar speeds plant growth, so she designed an experiment to check it.",
+          "mnemonic": "HYPO (under) + THESIS — an idea placed 'under' the thesis, waiting to be tested.",
+          "synonyms": [
+            "theory",
+            "conjecture",
+            "supposition"
+          ],
+          "antonyms": [
+            "fact",
+            "certainty",
+            "proof"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-premise",
+          "word": "premise",
+          "partOfSpeech": "noun",
+          "definition": "A statement taken as true and used as the base of an argument.",
+          "example": "The whole business plan rests on the premise that shoppers will pay extra for speed.",
+          "mnemonic": "PRE- (before) + MISE (placed) — what you set down before drawing your conclusion.",
+          "synonyms": [
+            "assumption",
+            "presupposition",
+            "basis"
+          ],
+          "antonyms": [
+            "conclusion",
+            "inference",
+            "result"
+          ]
+        },
+        {
+          "id": "sat-inference",
+          "word": "inference",
+          "partOfSpeech": "noun",
+          "definition": "A conclusion reached from evidence and reasoning rather than a direct statement.",
+          "example": "Seeing his muddy boots by the door, she made the inference that he'd cut through the garden.",
+          "mnemonic": "'Inner-sense' — you sense the answer inside from the clues around you.",
+          "synonyms": [
+            "deduction",
+            "conclusion",
+            "reasoning"
+          ],
+          "antonyms": [
+            "observation",
+            "fact",
+            "statement"
+          ]
+        },
+        {
+          "id": "sat-deduce",
+          "word": "deduce",
+          "partOfSpeech": "verb",
+          "definition": "To reach a conclusion by logical reasoning from known facts.",
+          "example": "From the locked door and the open window, Holmes could deduce how the thief slipped out.",
+          "mnemonic": "DE- (down) + DUCE (lead) — you lead your mind down from facts to the answer.",
+          "synonyms": [
+            "conclude",
+            "reason",
+            "work out"
+          ],
+          "antonyms": [
+            "guess",
+            "assume",
+            "speculate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-infer",
+          "word": "infer",
+          "partOfSpeech": "verb",
+          "definition": "To work out something from clues instead of being told directly.",
+          "example": "From her long silence on the phone, I inferred that she was still upset with me.",
+          "mnemonic": "Latin 'ferre' = to carry — you carry the meaning IN from the clues.",
+          "synonyms": [
+            "deduce",
+            "gather",
+            "surmise"
+          ],
+          "antonyms": [
+            "state",
+            "specify",
+            "declare"
+          ]
+        },
+        {
+          "id": "sat-extrapolate",
+          "word": "extrapolate",
+          "partOfSpeech": "verb",
+          "definition": "To estimate unknown values by extending a known pattern or trend.",
+          "example": "Using this month's sales figures, we can extrapolate what next year's revenue might look like.",
+          "mnemonic": "EXTRA + -polate — you add 'extra' points that reach beyond the edge of your data.",
+          "synonyms": [
+            "project",
+            "extend",
+            "estimate"
+          ],
+          "antonyms": [
+            "interpolate",
+            "measure",
+            "observe"
+          ]
+        },
+        {
+          "id": "sat-posit",
+          "word": "posit",
+          "partOfSpeech": "verb",
+          "definition": "To put forward an idea as true, usually to begin an argument.",
+          "example": "The astronomer posits that the planet's rings formed from a shattered moon.",
+          "mnemonic": "Like 'position' — you set your idea firmly into position on the table.",
+          "synonyms": [
+            "propose",
+            "postulate",
+            "assume"
+          ],
+          "antonyms": [
+            "deny",
+            "refute",
+            "disprove"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-postulate",
+          "word": "postulate",
+          "partOfSpeech": "verb",
+          "definition": "To claim or assume that something is true as a starting point for an argument.",
+          "example": "The scientist postulated that a hidden planet was tugging on the comet's orbit.",
+          "mnemonic": "POST-you-late: you POST a claim before the meeting starts and everyone just takes it as given.",
+          "synonyms": [
+            "posit",
+            "hypothesize",
+            "assume"
+          ],
+          "antonyms": [
+            "prove",
+            "disprove"
+          ]
+        },
+        {
+          "id": "sat-assert",
+          "word": "assert",
+          "partOfSpeech": "verb",
+          "definition": "To state something firmly and confidently as true.",
+          "example": "She asserted her innocence, looking the detective straight in the eye.",
+          "mnemonic": "aSSERT sounds like 'a certainty' — you say it as if it were certain.",
+          "synonyms": [
+            "declare",
+            "affirm",
+            "maintain"
+          ],
+          "antonyms": [
+            "deny",
+            "retract"
+          ]
+        },
+        {
+          "id": "sat-allege",
+          "word": "allege",
+          "partOfSpeech": "verb",
+          "definition": "To claim someone did something wrong, usually without offering proof yet.",
+          "example": "The article alleged that the mayor took bribes, though no charges were ever filed.",
+          "mnemonic": "alLEGE: a LEGAL charge that isn't proven in court yet.",
+          "synonyms": [
+            "claim",
+            "charge",
+            "accuse"
+          ],
+          "antonyms": [
+            "prove",
+            "substantiate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-contend",
+          "word": "contend",
+          "partOfSpeech": "verb",
+          "definition": "To argue strongly that something is the case.",
+          "example": "The lawyer contended that the witness had misremembered the entire evening.",
+          "mnemonic": "conTEND: you TEND your argument like a garden, defending every part of it.",
+          "synonyms": [
+            "argue",
+            "maintain",
+            "assert"
+          ],
+          "antonyms": [
+            "concede",
+            "agree"
+          ]
+        },
+        {
+          "id": "sat-aver",
+          "word": "aver",
+          "partOfSpeech": "verb",
+          "definition": "To state firmly that something is definitely true.",
+          "example": "He averred, under oath, that he had never met the defendant.",
+          "mnemonic": "aVER: from Latin 'verus' (true) — you swear it's VERy true.",
+          "synonyms": [
+            "affirm",
+            "declare",
+            "asseverate"
+          ],
+          "antonyms": [
+            "deny",
+            "dispute"
+          ]
+        },
+        {
+          "id": "sat-concede",
+          "word": "concede",
+          "partOfSpeech": "verb",
+          "definition": "To admit, often reluctantly, that something is true or that you have lost.",
+          "example": "After the recount confirmed the result, the candidate finally conceded the election.",
+          "mnemonic": "conCEDE: you CEDE (give up) ground in the debate.",
+          "synonyms": [
+            "admit",
+            "acknowledge",
+            "yield"
+          ],
+          "antonyms": [
+            "deny",
+            "dispute"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-testimony",
+          "word": "testimony",
+          "partOfSpeech": "noun",
+          "definition": "A formal statement, often given under oath, about what one saw or knows.",
+          "example": "The bank teller's testimony placed the suspect at the scene that afternoon.",
+          "mnemonic": "TESTImony: a TEST of your honesty, given aloud in court.",
+          "synonyms": [
+            "statement",
+            "evidence",
+            "deposition"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-attest",
+          "word": "attest",
+          "partOfSpeech": "verb",
+          "definition": "To confirm or provide evidence that something is true or genuine.",
+          "example": "Anyone who has tasted her cooking can attest to her extraordinary skill.",
+          "mnemonic": "atTEST: you give a TEST-imony that vouches for something.",
+          "synonyms": [
+            "confirm",
+            "certify",
+            "vouch"
+          ],
+          "antonyms": [
+            "deny",
+            "contradict"
+          ]
+        },
+        {
+          "id": "sat-warrant",
+          "word": "warrant",
+          "partOfSpeech": "verb",
+          "definition": "To provide good enough reason for an action to be necessary.",
+          "example": "The strange grinding noise from the engine warranted an immediate stop.",
+          "mnemonic": "WAR-rant: a threat big enough to WARrant taking action.",
+          "synonyms": [
+            "justify",
+            "merit",
+            "deserve"
+          ],
+          "antonyms": [
+            "preclude",
+            "prohibit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-justify",
+          "word": "justify",
+          "partOfSpeech": "verb",
+          "definition": "To show that an action or belief is fair, right, or reasonable.",
+          "example": "No excuse could justify leaving the child alone in the locked car.",
+          "mnemonic": "JUST-ify: to make something seem JUST (fair and right).",
+          "synonyms": [
+            "warrant",
+            "defend",
+            "vindicate"
+          ],
+          "antonyms": [
+            "condemn",
+            "refute"
+          ]
+        },
+        {
+          "id": "sat-ratify",
+          "word": "ratify",
+          "partOfSpeech": "verb",
+          "definition": "To make an agreement or treaty official by formally approving it.",
+          "example": "The senate voted to ratify the trade treaty late on Thursday night.",
+          "mnemonic": "RATE-ify: the members RATE it good and lock it in as official.",
+          "synonyms": [
+            "approve",
+            "confirm",
+            "sanction"
+          ],
+          "antonyms": [
+            "reject",
+            "veto"
+          ]
+        },
+        {
+          "id": "sat-endorse",
+          "word": "endorse",
+          "partOfSpeech": "verb",
+          "definition": "To publicly declare your approval or support for someone or something.",
+          "example": "The famous athlete endorsed the new running shoe in every commercial.",
+          "mnemonic": "enDORSE: you sign the back (dorsal side) of a check to approve it.",
+          "synonyms": [
+            "support",
+            "back",
+            "approve"
+          ],
+          "antonyms": [
+            "oppose",
+            "condemn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-discredit",
+          "word": "discredit",
+          "partOfSpeech": "verb",
+          "definition": "To damage someone's reputation or make their claims seem false.",
+          "example": "The defense tried to discredit the witness by exposing his past lies.",
+          "mnemonic": "DIS-credit: to strip away someone's CREDIT, the trust others place in them.",
+          "synonyms": [
+            "disprove",
+            "debunk",
+            "undermine"
+          ],
+          "antonyms": [
+            "validate",
+            "vindicate"
+          ]
+        },
+        {
+          "id": "sat-debunk",
+          "word": "debunk",
+          "partOfSpeech": "verb",
+          "definition": "To show that a belief or claim is false or exaggerated.",
+          "example": "The documentary debunked the myth that we use only ten percent of our brains.",
+          "mnemonic": "de-BUNK: to remove the BUNK (nonsense) from an idea.",
+          "synonyms": [
+            "disprove",
+            "expose",
+            "refute"
+          ],
+          "antonyms": [
+            "prove",
+            "confirm"
+          ]
+        },
+        {
+          "id": "sat-undermine",
+          "word": "undermine",
+          "partOfSpeech": "verb",
+          "definition": "To weaken or damage something gradually and often secretly.",
+          "example": "Constant criticism from his boss slowly undermined his confidence at work.",
+          "mnemonic": "UNDER-mine: digging a MINE UNDER a wall quietly weakens its foundation.",
+          "synonyms": [
+            "weaken",
+            "sabotage",
+            "erode"
+          ],
+          "antonyms": [
+            "strengthen",
+            "bolster"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-bolster",
+          "word": "bolster",
+          "partOfSpeech": "verb",
+          "definition": "To strengthen or give extra support to a position, feeling, or claim.",
+          "example": "The fresh sales figures bolstered her case for opening a second store.",
+          "mnemonic": "A bolster is that long firm pillow that props you up in bed — it holds you steady.",
+          "synonyms": [
+            "strengthen",
+            "reinforce",
+            "support"
+          ],
+          "antonyms": [
+            "undermine",
+            "weaken"
+          ]
+        },
+        {
+          "id": "sat-buttress",
+          "word": "buttress",
+          "partOfSpeech": "verb",
+          "definition": "To hold up or strengthen an argument, structure, or idea with added support.",
+          "example": "He buttressed his theory with data drawn from three separate studies.",
+          "mnemonic": "Picture a flying buttress — the stone arm that leans in to prop up a cathedral wall.",
+          "synonyms": [
+            "prop up",
+            "reinforce",
+            "support"
+          ],
+          "antonyms": [
+            "undermine",
+            "weaken"
+          ]
+        },
+        {
+          "id": "sat-reinforce",
+          "word": "reinforce",
+          "partOfSpeech": "verb",
+          "definition": "To make something stronger by adding extra material or support.",
+          "example": "Steel bars reinforce the concrete so the bridge can carry heavy trucks.",
+          "mnemonic": "RE + FORCE — you apply force again, adding strength on top of what's there.",
+          "synonyms": [
+            "strengthen",
+            "fortify",
+            "bolster"
+          ],
+          "antonyms": [
+            "weaken",
+            "undermine"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-underpin",
+          "word": "underpin",
+          "partOfSpeech": "verb",
+          "definition": "To form the solid foundation on which something else rests.",
+          "example": "A steady economy underpins the whole country's political stability.",
+          "mnemonic": "UNDER + PIN — a pin placed underneath keeps the entire structure fixed in place.",
+          "synonyms": [
+            "underlie",
+            "support",
+            "buttress"
+          ],
+          "antonyms": [
+            "undermine",
+            "weaken"
+          ]
+        },
+        {
+          "id": "sat-underscore",
+          "word": "underscore",
+          "partOfSpeech": "verb",
+          "definition": "To emphasize or draw special attention to a point.",
+          "example": "The coach underscored the curfew by repeating it three times before the trip.",
+          "mnemonic": "An underscore draws a line beneath a word — you're stressing it, calling it out.",
+          "synonyms": [
+            "emphasize",
+            "highlight",
+            "stress"
+          ],
+          "antonyms": [
+            "downplay",
+            "understate"
+          ]
+        },
+        {
+          "id": "sat-qualify",
+          "word": "qualify",
+          "partOfSpeech": "verb",
+          "definition": "To limit or soften a statement by attaching conditions or exceptions.",
+          "example": "She qualified her praise, adding that the report was strong but a week late.",
+          "mnemonic": "You add a 'qualifier' — a condition that narrows and restricts what you just claimed.",
+          "synonyms": [
+            "modify",
+            "temper",
+            "limit"
+          ],
+          "antonyms": [
+            "assert",
+            "generalize"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-hedge",
+          "word": "hedge",
+          "partOfSpeech": "verb",
+          "definition": "To avoid committing yourself by giving cautious, noncommittal answers.",
+          "example": "Asked whether he would run, the senator hedged and quickly changed the subject.",
+          "mnemonic": "A hedge is a bush you can hide behind — you duck for cover instead of answering straight.",
+          "synonyms": [
+            "dodge",
+            "stall",
+            "equivocate"
+          ],
+          "antonyms": [
+            "commit",
+            "specify"
+          ]
+        },
+        {
+          "id": "sat-equivocate",
+          "word": "equivocate",
+          "partOfSpeech": "verb",
+          "definition": "To use vague language on purpose in order to mislead or dodge the truth.",
+          "example": "The witness equivocated, giving replies that could be read two completely different ways.",
+          "mnemonic": "EQUI (equal) + VOC (voice) — two equal voices at once, both saying opposite things.",
+          "synonyms": [
+            "hedge",
+            "prevaricate",
+            "waffle"
+          ],
+          "antonyms": [
+            "specify",
+            "clarify"
+          ]
+        },
+        {
+          "id": "sat-prevaricate",
+          "word": "prevaricate",
+          "partOfSpeech": "verb",
+          "definition": "To speak or act evasively so as to hide what is really true.",
+          "example": "Stop prevaricating and tell me exactly where you were last night.",
+          "mnemonic": "Sounds like 'pre-vary' — you keep varying the story rather than give a straight answer.",
+          "synonyms": [
+            "equivocate",
+            "dodge",
+            "fib"
+          ],
+          "antonyms": [
+            "confess",
+            "level"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-obfuscate",
+          "word": "obfuscate",
+          "partOfSpeech": "verb",
+          "definition": "To make something unclear or confusing, usually on purpose.",
+          "example": "The contract's dense jargon obfuscated the fees buried in the fine print.",
+          "mnemonic": "Say it as 'ob-FOG-scate' — you throw fog over the facts so no one can see them.",
+          "synonyms": [
+            "muddle",
+            "cloud",
+            "confuse"
+          ],
+          "antonyms": [
+            "clarify",
+            "illuminate"
+          ]
+        },
+        {
+          "id": "sat-ambiguous",
+          "word": "ambiguous",
+          "partOfSpeech": "adjective",
+          "definition": "Open to more than one interpretation; not clearly defined.",
+          "example": "Her ambiguous reply left us unsure whether she had agreed or objected.",
+          "mnemonic": "AMBI means 'both' (as in ambidextrous) — it can be taken both ways.",
+          "synonyms": [
+            "unclear",
+            "vague",
+            "equivocal"
+          ],
+          "antonyms": [
+            "clear",
+            "explicit"
+          ]
+        },
+        {
+          "id": "sat-equivocal",
+          "word": "equivocal",
+          "partOfSpeech": "adjective",
+          "definition": "Having a doubtful, uncertain meaning that could be taken two ways.",
+          "example": "The test results were equivocal, so the doctor ordered a second scan to be sure.",
+          "mnemonic": "EQUI + VOC — equal voices; the meaning points in two directions at the same time.",
+          "synonyms": [
+            "ambiguous",
+            "uncertain",
+            "vague"
+          ],
+          "antonyms": [
+            "clear",
+            "definite"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-unequivocal",
+          "word": "unequivocal",
+          "partOfSpeech": "adjective",
+          "definition": "Leaving no room for doubt; expressed clearly and firmly.",
+          "example": "The board gave an unequivocal yes, with every single member voting in favor.",
+          "mnemonic": "UN (not) glued onto 'equivocal' — the exact opposite of two-way; only one meaning possible.",
+          "synonyms": [
+            "clear",
+            "definite",
+            "categorical"
+          ],
+          "antonyms": [
+            "ambiguous",
+            "vague"
+          ]
+        },
+        {
+          "id": "sat-categorical",
+          "word": "categorical",
+          "partOfSpeech": "adjective",
+          "definition": "Stated absolutely, without any conditions, hedging, or exceptions.",
+          "example": "He issued a categorical denial, insisting he had never once met the man.",
+          "mnemonic": "Think 'category' — you drop the claim flatly into one box, no maybes allowed.",
+          "synonyms": [
+            "absolute",
+            "unconditional",
+            "unequivocal"
+          ],
+          "antonyms": [
+            "qualified",
+            "tentative"
+          ]
+        },
+        {
+          "id": "sat-definitive",
+          "word": "definitive",
+          "partOfSpeech": "adjective",
+          "definition": "Final, authoritative, and not open to improvement or dispute.",
+          "example": "This biography remains the definitive account; no later book has ever matched it.",
+          "mnemonic": "Shares roots with 'define' and 'final' — it settles the matter once and for all.",
+          "synonyms": [
+            "conclusive",
+            "authoritative",
+            "final"
+          ],
+          "antonyms": [
+            "provisional",
+            "tentative"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-axiom",
+          "word": "axiom",
+          "partOfSpeech": "noun",
+          "definition": "A statement regarded as obviously true and accepted without requiring any proof.",
+          "example": "In geometry, we begin from the simple axiom that a straight line joins any two points.",
+          "mnemonic": "Sounds like 'ax' + 'I-om' — an idea so sharp it cuts through debate with no proof needed.",
+          "synonyms": [
+            "postulate",
+            "truism",
+            "principle"
+          ],
+          "antonyms": [
+            "fallacy",
+            "paradox"
+          ]
+        },
+        {
+          "id": "sat-axiomatic",
+          "word": "axiomatic",
+          "partOfSpeech": "adjective",
+          "definition": "So obviously true that it needs no proof or further explanation.",
+          "example": "It is axiomatic among chefs that fresh ingredients taste better than stale ones.",
+          "mnemonic": "Axiom + -atic: having the quality of an axiom — a self-evident given.",
+          "synonyms": [
+            "self-evident",
+            "unquestionable",
+            "obvious"
+          ],
+          "antonyms": [
+            "dubious",
+            "questionable"
+          ]
+        },
+        {
+          "id": "sat-dogma",
+          "word": "dogma",
+          "partOfSpeech": "noun",
+          "definition": "A set of beliefs laid down by an authority as unquestionably true.",
+          "example": "The young professor dared to challenge a dogma that had gone unexamined for decades.",
+          "mnemonic": "'Dog-ma': a stubborn mom's dog that won't budge — a fixed belief you can't argue with.",
+          "synonyms": [
+            "doctrine",
+            "creed",
+            "tenet"
+          ],
+          "antonyms": [
+            "doubt",
+            "skepticism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-dogmatic",
+          "word": "dogmatic",
+          "partOfSpeech": "adjective",
+          "definition": "Asserting beliefs as absolutely true while refusing any argument or doubt.",
+          "example": "He was so dogmatic about his diet that he dismissed every study contradicting it.",
+          "mnemonic": "A 'dog' that 'mad'ly guards one belief and bites anyone who questions it.",
+          "synonyms": [
+            "opinionated",
+            "imperious",
+            "assertive"
+          ],
+          "antonyms": [
+            "open-minded",
+            "tentative"
+          ]
+        },
+        {
+          "id": "sat-orthodox",
+          "word": "orthodox",
+          "partOfSpeech": "adjective",
+          "definition": "Following traditional, widely accepted beliefs or established customs.",
+          "example": "Her orthodox approach to teaching relied on textbooks and lectures, never experiments.",
+          "mnemonic": "Greek 'ortho' (correct/straight) + 'dox' (opinion): holding the 'correct,' established opinion.",
+          "synonyms": [
+            "conventional",
+            "traditional",
+            "established"
+          ],
+          "antonyms": [
+            "unconventional",
+            "heretical"
+          ]
+        },
+        {
+          "id": "sat-heterodox",
+          "word": "heterodox",
+          "partOfSpeech": "adjective",
+          "definition": "Departing from accepted or traditional beliefs and standards.",
+          "example": "His heterodox economic theories scandalized colleagues who clung to mainstream models.",
+          "mnemonic": "Greek 'hetero' (different) + 'dox' (opinion): holding a different opinion from the accepted one.",
+          "synonyms": [
+            "unorthodox",
+            "dissident",
+            "heretical"
+          ],
+          "antonyms": [
+            "orthodox",
+            "conventional"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-tenet",
+          "word": "tenet",
+          "partOfSpeech": "noun",
+          "definition": "A principle or belief firmly held by a person or group.",
+          "example": "Nonviolence is a central tenet of the movement he founded.",
+          "mnemonic": "A 'tenet' is what a group holds, like a 'tenant' holds a lease — both from Latin 'tenere,' to hold.",
+          "synonyms": [
+            "principle",
+            "belief",
+            "doctrine"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-doctrine",
+          "word": "doctrine",
+          "partOfSpeech": "noun",
+          "definition": "A set of principles or teachings held and promoted by a group.",
+          "example": "The military's new doctrine emphasized rapid deployment over sustained occupation.",
+          "mnemonic": "Shares a root with 'doctor' and 'document' — Latin 'docere,' to teach; what the teachers lay down.",
+          "synonyms": [
+            "creed",
+            "dogma",
+            "teaching"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-precept",
+          "word": "precept",
+          "partOfSpeech": "noun",
+          "definition": "A rule guiding how one should behave or think.",
+          "example": "She lived by her grandmother's precept: always finish what you start.",
+          "mnemonic": "'Pre-' (before) + 'cept' (take): a rule you take in beforehand to guide your conduct.",
+          "synonyms": [
+            "rule",
+            "maxim",
+            "principle"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-corollary",
+          "word": "corollary",
+          "partOfSpeech": "noun",
+          "definition": "Something that naturally follows from an already established fact or proposition.",
+          "example": "Higher rainfall, and as a corollary richer harvests, transformed the valley's economy.",
+          "mnemonic": "Sounds like 'co-related' — a result that rides along with the main thing already proven.",
+          "synonyms": [
+            "consequence",
+            "result",
+            "upshot"
+          ],
+          "antonyms": [
+            "cause",
+            "premise"
+          ]
+        },
+        {
+          "id": "sat-rationale",
+          "word": "rationale",
+          "partOfSpeech": "noun",
+          "definition": "The underlying reasons or logic behind a decision or belief.",
+          "example": "Before voting, the committee asked her to explain the rationale for the budget cuts.",
+          "mnemonic": "Hidden inside is 'rational' — the rational thinking that explains why you did something.",
+          "synonyms": [
+            "reasoning",
+            "justification",
+            "basis"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-presuppose",
+          "word": "presuppose",
+          "partOfSpeech": "verb",
+          "definition": "To assume something is true beforehand as the basis for an argument.",
+          "example": "Your question presupposes that I already agreed to go, which I never did.",
+          "mnemonic": "'Pre-' (before) + 'suppose': to suppose something in advance, before anything is proven.",
+          "synonyms": [
+            "assume",
+            "presume",
+            "take for granted"
+          ],
+          "antonyms": [
+            "doubt",
+            "question"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-presumption",
+          "word": "presumption",
+          "partOfSpeech": "noun",
+          "definition": "Something believed to be true in advance without full proof.",
+          "example": "The legal system rests on the presumption that the accused is innocent until proven guilty.",
+          "mnemonic": "'Pre-' (before) + 'sume' (take): an idea you take to be true before the facts arrive.",
+          "synonyms": [
+            "assumption",
+            "supposition",
+            "belief"
+          ],
+          "antonyms": [
+            "proof",
+            "certainty"
+          ]
+        },
+        {
+          "id": "sat-conjecture",
+          "word": "conjecture",
+          "partOfSpeech": "noun",
+          "definition": "An opinion or conclusion formed from incomplete information or guesswork.",
+          "example": "Without any hard data, the detective's theory was pure conjecture.",
+          "mnemonic": "'Con-' (together) + 'jecture' (throw, as in 'project'): you throw ideas together into a guess.",
+          "synonyms": [
+            "speculation",
+            "guess",
+            "supposition"
+          ],
+          "antonyms": [
+            "fact",
+            "certainty"
+          ]
+        },
+        {
+          "id": "sat-surmise",
+          "word": "surmise",
+          "partOfSpeech": "verb",
+          "definition": "To guess or conclude something using little evidence.",
+          "example": "From the muddy boots by the door, she surmised he'd been walking in the fields.",
+          "mnemonic": "'Sir, my eyes' — using only what your eyes catch to guess the rest.",
+          "synonyms": [
+            "infer",
+            "conjecture",
+            "deduce"
+          ],
+          "antonyms": [
+            "know",
+            "verify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-speculate",
+          "word": "speculate",
+          "partOfSpeech": "verb",
+          "definition": "To form theories or guesses about a matter without firm evidence.",
+          "example": "Analysts began to speculate about who would run the company once the CEO resigned.",
+          "mnemonic": "'Spec' like spectacles — you peer through foggy glasses at possibilities you can't yet see clearly.",
+          "synonyms": [
+            "conjecture",
+            "surmise",
+            "theorize"
+          ],
+          "antonyms": [
+            "know",
+            "prove"
+          ]
+        },
+        {
+          "id": "sat-hypothesize",
+          "word": "hypothesize",
+          "partOfSpeech": "verb",
+          "definition": "To propose a tentative explanation as a starting point for further investigation.",
+          "example": "The scientist hypothesized that the plants grew faster under blue light and set up a test.",
+          "mnemonic": "'Hypo' = under + 'thesis' = a placing: an idea placed underneath, waiting to be tested.",
+          "synonyms": [
+            "theorize",
+            "posit",
+            "conjecture"
+          ],
+          "antonyms": [
+            "prove",
+            "demonstrate"
+          ]
+        },
+        {
+          "id": "sat-syllogism",
+          "word": "syllogism",
+          "partOfSpeech": "noun",
+          "definition": "A logical argument that draws a conclusion from two stated premises.",
+          "example": "\"All men are mortal; Socrates is a man; therefore Socrates is mortal\" is the classic syllogism.",
+          "mnemonic": "Say it slowly: syl-LOGIC-ism — logic sits right in the middle of the word.",
+          "synonyms": [
+            "deduction",
+            "inference",
+            "argument"
+          ],
+          "antonyms": [
+            "fallacy",
+            "non sequitur"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-sophistry",
+          "word": "sophistry",
+          "partOfSpeech": "noun",
+          "definition": "Clever but deliberately misleading reasoning meant to deceive.",
+          "example": "His speech sounded airtight, but it was pure sophistry designed to dodge the real question.",
+          "mnemonic": "So-FIST-ry: a sneaky ancient Sophist punching holes in truth with fake logic.",
+          "synonyms": [
+            "casuistry",
+            "fallacy",
+            "speciousness"
+          ],
+          "antonyms": [
+            "logic",
+            "soundness"
+          ]
+        },
+        {
+          "id": "sat-rhetoric",
+          "word": "rhetoric",
+          "partOfSpeech": "noun",
+          "definition": "The art of using language persuasively in speech or writing.",
+          "example": "The senator's soaring rhetoric stirred the crowd but offered few concrete plans.",
+          "mnemonic": "A 'rhetor' was the ancient Greek orator — picture him roaring to sway the crowd.",
+          "synonyms": [
+            "eloquence",
+            "oratory",
+            "persuasion"
+          ],
+          "antonyms": [
+            "plain speech",
+            "silence"
+          ]
+        },
+        {
+          "id": "sat-polemic",
+          "word": "polemic",
+          "partOfSpeech": "noun",
+          "definition": "A forceful spoken or written attack on an opinion or position.",
+          "example": "Her polemic against factory farming pulled no punches and named names.",
+          "mnemonic": "From Greek 'polemos' = war — a polemic is a war of words. Sounds like 'PUMMEL-ick.'",
+          "synonyms": [
+            "diatribe",
+            "tirade",
+            "invective"
+          ],
+          "antonyms": [
+            "praise",
+            "panegyric"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-treatise",
+          "word": "treatise",
+          "partOfSpeech": "noun",
+          "definition": "A long, formal written work that examines a subject systematically.",
+          "example": "He spent a decade writing a treatise on the history of monetary policy.",
+          "mnemonic": "It 'treats' a topic exhaustively — a treat-ISE served up for scholars.",
+          "synonyms": [
+            "dissertation",
+            "monograph",
+            "thesis"
+          ],
+          "antonyms": [
+            "note",
+            "summary"
+          ]
+        },
+        {
+          "id": "sat-discourse",
+          "word": "discourse",
+          "partOfSpeech": "noun",
+          "definition": "Extended, serious communication about a topic, spoken or written.",
+          "example": "The panel elevated the public discourse on climate policy far above the usual shouting.",
+          "mnemonic": "'This course' of talk runs on and on, coursing steadily through the subject.",
+          "synonyms": [
+            "discussion",
+            "dialogue",
+            "disquisition"
+          ],
+          "antonyms": [
+            "silence",
+            "muteness"
+          ]
+        },
+        {
+          "id": "sat-exposition",
+          "word": "exposition",
+          "partOfSpeech": "noun",
+          "definition": "A clear, detailed explanation of an idea or theory.",
+          "example": "Her exposition of quantum theory made the strange ideas surprisingly easy to follow.",
+          "mnemonic": "Ex + pose = to set out in the open; it exposes the meaning for all to see.",
+          "synonyms": [
+            "explanation",
+            "elucidation",
+            "account"
+          ],
+          "antonyms": [
+            "obfuscation",
+            "concealment"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-elucidate",
+          "word": "elucidate",
+          "partOfSpeech": "verb",
+          "definition": "To make something clear by explaining it plainly.",
+          "example": "Could you elucidate the second step? I still don't see how you got the answer.",
+          "mnemonic": "e-LUCID-ate: LUCID means clear, from Latin 'lux' (light) — you shed light on it.",
+          "synonyms": [
+            "clarify",
+            "illuminate",
+            "explain"
+          ],
+          "antonyms": [
+            "obscure",
+            "muddle"
+          ]
+        },
+        {
+          "id": "sat-expound",
+          "word": "expound",
+          "partOfSpeech": "verb",
+          "definition": "To set out and explain something in careful detail.",
+          "example": "The professor loved to expound on medieval trade routes for hours at a stretch.",
+          "mnemonic": "Ex + pound: you pound OUT your points one by one until nothing is left unsaid.",
+          "synonyms": [
+            "elaborate",
+            "detail",
+            "explicate"
+          ],
+          "antonyms": [
+            "summarize",
+            "condense"
+          ]
+        },
+        {
+          "id": "sat-explicate",
+          "word": "explicate",
+          "partOfSpeech": "verb",
+          "definition": "To analyze an idea or text and develop its meaning in detail.",
+          "example": "The critic explicated the poem line by line, unpacking every buried image.",
+          "mnemonic": "From Latin 'plicare' = to fold; to ex-plicate is to unfold the meaning — same root as 'explicit.'",
+          "synonyms": [
+            "interpret",
+            "elucidate",
+            "unpack"
+          ],
+          "antonyms": [
+            "obscure",
+            "confuse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-delineate",
+          "word": "delineate",
+          "partOfSpeech": "verb",
+          "definition": "To describe or mark out something precisely.",
+          "example": "The contract delineates each partner's duties down to the smallest task.",
+          "mnemonic": "de-LINE-ate: draw the LINES around something to show exactly where its edges fall.",
+          "synonyms": [
+            "outline",
+            "define",
+            "sketch"
+          ],
+          "antonyms": [
+            "blur",
+            "obscure"
+          ]
+        },
+        {
+          "id": "sat-articulate",
+          "word": "articulate",
+          "partOfSpeech": "verb",
+          "definition": "To express thoughts clearly and effectively in words.",
+          "example": "She articulated her objections so well that the board reversed its decision on the spot.",
+          "mnemonic": "From Latin 'articulus' = a joint; you join your words neatly, like well-fitted bones.",
+          "synonyms": [
+            "express",
+            "enunciate",
+            "voice"
+          ],
+          "antonyms": [
+            "mumble",
+            "garble"
+          ]
+        },
+        {
+          "id": "sat-enumerate",
+          "word": "enumerate",
+          "partOfSpeech": "verb",
+          "definition": "To name or list things one by one.",
+          "example": "The auditor enumerated every expense, from paperclips to transatlantic airfare.",
+          "mnemonic": "e-NUMER-ate: a NUMBER hides inside — you number the items off, one after another.",
+          "synonyms": [
+            "list",
+            "itemize",
+            "catalog"
+          ],
+          "antonyms": [
+            "generalize"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T18:55:37.793Z"
+}

@@ -1,0 +1,1116 @@
+{
+  "track": "sat",
+  "ordinal": 15,
+  "title": "Society and community",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-civic",
+          "word": "civic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to a community or its residents and their shared public duties.",
+          "example": "She felt a strong civic duty to vote in every local election.",
+          "mnemonic": "Think of a Honda Civic, the car everyone in the city seems to drive — civic is about the city and its people.",
+          "synonyms": [
+            "municipal",
+            "public",
+            "communal"
+          ],
+          "antonyms": [
+            "private",
+            "personal"
+          ]
+        },
+        {
+          "id": "sat-communal",
+          "word": "communal",
+          "partOfSpeech": "adjective",
+          "definition": "Shared by all members of a group rather than owned by one person.",
+          "example": "The tenants cooked their meals in a communal kitchen at the end of the hall.",
+          "mnemonic": "Hidden inside is 'commune' — a place where everyone shares everything.",
+          "synonyms": [
+            "shared",
+            "collective",
+            "public"
+          ],
+          "antonyms": [
+            "private",
+            "individual"
+          ]
+        },
+        {
+          "id": "sat-collective",
+          "word": "collective",
+          "partOfSpeech": "adjective",
+          "definition": "Done or shared by all members of a group acting together.",
+          "example": "The factory workers reached a collective decision to strike.",
+          "mnemonic": "Collect + ive — you collect everyone together into one unit.",
+          "synonyms": [
+            "joint",
+            "shared",
+            "combined"
+          ],
+          "antonyms": [
+            "individual",
+            "single"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-solidarity",
+          "word": "solidarity",
+          "partOfSpeech": "noun",
+          "definition": "Unity and mutual support among people who share a cause.",
+          "example": "The strikers stood in solidarity, refusing to cross the picket line.",
+          "mnemonic": "Hear 'solid' — a group standing rock-solid behind one another.",
+          "synonyms": [
+            "unity",
+            "unanimity",
+            "cohesion"
+          ],
+          "antonyms": [
+            "division",
+            "discord"
+          ]
+        },
+        {
+          "id": "sat-cohesion",
+          "word": "cohesion",
+          "partOfSpeech": "noun",
+          "definition": "The quality of sticking together to form a united whole.",
+          "example": "Years of playing together gave the team a cohesion no rival could match.",
+          "mnemonic": "Co + adhesion — parts that adhere and stick as one.",
+          "synonyms": [
+            "unity",
+            "togetherness",
+            "solidarity"
+          ],
+          "antonyms": [
+            "division",
+            "fragmentation"
+          ]
+        },
+        {
+          "id": "sat-fraternity",
+          "word": "fraternity",
+          "partOfSpeech": "noun",
+          "definition": "A brotherhood or association of people sharing a common interest or profession.",
+          "example": "He joined a college fraternity and moved in with his new brothers.",
+          "mnemonic": "Latin 'frater' means brother, so it is a band of brothers.",
+          "synonyms": [
+            "brotherhood",
+            "guild",
+            "association"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-camaraderie",
+          "word": "camaraderie",
+          "partOfSpeech": "noun",
+          "definition": "A warm feeling of trust and friendship among companions.",
+          "example": "The soldiers shared a deep camaraderie forged during long months at war.",
+          "mnemonic": "Hear 'comrade' inside — comrades are the ones who share it.",
+          "synonyms": [
+            "friendship",
+            "rapport",
+            "fellowship"
+          ],
+          "antonyms": [
+            "hostility",
+            "discord"
+          ]
+        },
+        {
+          "id": "sat-fellowship",
+          "word": "fellowship",
+          "partOfSpeech": "noun",
+          "definition": "A friendly bond among people who share interests or good company.",
+          "example": "After the service, the congregation lingered for food and fellowship.",
+          "mnemonic": "A ship full of fellows sailing together — picture the Fellowship of the Ring.",
+          "synonyms": [
+            "companionship",
+            "camaraderie",
+            "community"
+          ],
+          "antonyms": [
+            "isolation",
+            "solitude"
+          ]
+        },
+        {
+          "id": "sat-egalitarian",
+          "word": "egalitarian",
+          "partOfSpeech": "adjective",
+          "definition": "Believing that everyone deserves the same rights and status.",
+          "example": "Their egalitarian household split every chore evenly between the partners.",
+          "mnemonic": "French 'égal' means equal — this outlook wants everyone égal.",
+          "synonyms": [
+            "fair",
+            "democratic",
+            "level"
+          ],
+          "antonyms": [
+            "elitist",
+            "hierarchical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-hierarchy",
+          "word": "hierarchy",
+          "partOfSpeech": "noun",
+          "definition": "A system that ranks people or things by status or authority.",
+          "example": "In the company hierarchy, interns answered to managers who answered to directors.",
+          "mnemonic": "Say it as 'higher-archy' — it's all about who sits higher up.",
+          "synonyms": [
+            "ranking",
+            "pecking order",
+            "ladder"
+          ],
+          "antonyms": [
+            "equality"
+          ]
+        },
+        {
+          "id": "sat-stratify",
+          "word": "stratify",
+          "partOfSpeech": "verb",
+          "definition": "To arrange people or things into separate ranked layers.",
+          "example": "Extreme wealth gaps tend to stratify a society into rich and poor worlds.",
+          "mnemonic": "'Strata' are the layers of rock geologists study — to make layers.",
+          "synonyms": [
+            "layer",
+            "rank",
+            "classify"
+          ],
+          "antonyms": [
+            "integrate",
+            "mix"
+          ]
+        },
+        {
+          "id": "sat-marginalize",
+          "word": "marginalize",
+          "partOfSpeech": "verb",
+          "definition": "To push a person or group aside and treat them as unimportant.",
+          "example": "The new policy marginalized older workers who lacked computer skills.",
+          "mnemonic": "Shoved out to the margin — the blank edge of the page where nothing matters.",
+          "synonyms": [
+            "sideline",
+            "exclude",
+            "belittle"
+          ],
+          "antonyms": [
+            "include",
+            "empower"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-ostracize",
+          "word": "ostracize",
+          "partOfSpeech": "verb",
+          "definition": "To deliberately exclude someone from a group or from society.",
+          "example": "After he was caught cheating, his teammates ostracized him for the rest of the season.",
+          "mnemonic": "Ancient Greeks scratched names on 'ostraca' (pottery shards) to vote a person out.",
+          "synonyms": [
+            "shun",
+            "banish",
+            "exclude"
+          ],
+          "antonyms": [
+            "welcome",
+            "embrace"
+          ]
+        },
+        {
+          "id": "sat-alienate",
+          "word": "alienate",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel unwelcome or turn them against you.",
+          "example": "His constant criticism alienated the very friends he most needed.",
+          "mnemonic": "Make someone feel like an alien — a stranger who does not belong.",
+          "synonyms": [
+            "estrange",
+            "isolate",
+            "distance"
+          ],
+          "antonyms": [
+            "unite",
+            "reconcile"
+          ]
+        },
+        {
+          "id": "sat-assimilate",
+          "word": "assimilate",
+          "partOfSpeech": "verb",
+          "definition": "To absorb people or ideas fully into a larger group or culture.",
+          "example": "Newcomers often work hard to assimilate into their adopted country's customs.",
+          "mnemonic": "Hear 'similar' — you become similar to the group around you.",
+          "synonyms": [
+            "integrate",
+            "absorb",
+            "blend"
+          ],
+          "antonyms": [
+            "alienate",
+            "segregate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-segregate",
+          "word": "segregate",
+          "partOfSpeech": "verb",
+          "definition": "To separate or set apart one group from others, often by race or class.",
+          "example": "For decades the city tried to segregate its schools by neighborhood, keeping children apart by race.",
+          "mnemonic": "Sounds like 'separate gate' — a gate built to keep groups apart.",
+          "synonyms": [
+            "separate",
+            "isolate",
+            "partition"
+          ],
+          "antonyms": [
+            "integrate",
+            "unite",
+            "combine"
+          ]
+        },
+        {
+          "id": "sat-inclusion",
+          "word": "inclusion",
+          "partOfSpeech": "noun",
+          "definition": "The practice of making sure everyone is welcomed and actively involved.",
+          "example": "The new hiring policy emphasized inclusion, opening doors to candidates of every background.",
+          "mnemonic": "Starts with 'in' — it's about bringing people IN, never leaving them out.",
+          "synonyms": [
+            "incorporation",
+            "involvement",
+            "belonging"
+          ],
+          "antonyms": [
+            "exclusion",
+            "segregation",
+            "rejection"
+          ]
+        },
+        {
+          "id": "sat-disenfranchise",
+          "word": "disenfranchise",
+          "partOfSpeech": "verb",
+          "definition": "To strip a person or group of the legal right to vote.",
+          "example": "Poll taxes were designed to disenfranchise poor voters who couldn't afford to pay them.",
+          "mnemonic": "'Dis-' (remove) + 'franchise' (your vote) = your vote gets taken away.",
+          "synonyms": [
+            "disqualify",
+            "silence",
+            "marginalize"
+          ],
+          "antonyms": [
+            "enfranchise",
+            "empower"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-enfranchise",
+          "word": "enfranchise",
+          "partOfSpeech": "verb",
+          "definition": "To grant someone the legal right to vote or the full rights of citizenship.",
+          "example": "The 1920 amendment finally enfranchised women, letting them cast ballots for the first time.",
+          "mnemonic": "Break it down: en- (to make) + franchise. A 'franchise' is the right to vote, so to enfranchise is to give someone that franchise.",
+          "synonyms": [
+            "empower",
+            "emancipate",
+            "liberate"
+          ],
+          "antonyms": [
+            "disenfranchise",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-citizenry",
+          "word": "citizenry",
+          "partOfSpeech": "noun",
+          "definition": "The whole body of people who legally belong to a nation or place.",
+          "example": "The mayor urged the entire citizenry to turn out and vote on Tuesday.",
+          "mnemonic": "'Citizen' + '-ry' (a collective, like 'peasantry') = all the citizens together.",
+          "synonyms": [
+            "population",
+            "public",
+            "people"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-populace",
+          "word": "populace",
+          "partOfSpeech": "noun",
+          "definition": "The ordinary people living in a particular country or area.",
+          "example": "News of the tax hike angered the populace, and crowds soon filled the streets.",
+          "mnemonic": "Sounds like 'populate' — the people who populate a place.",
+          "synonyms": [
+            "public",
+            "people",
+            "masses"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-demographic",
+          "word": "demographic",
+          "partOfSpeech": "noun",
+          "definition": "A specific segment of a population sharing traits like age or income.",
+          "example": "Advertisers targeted a young, urban demographic with the new streaming service.",
+          "mnemonic": "'Demo-' (Greek for people) + '-graphic' (measuring) = a measured slice of people.",
+          "synonyms": [
+            "segment",
+            "cohort",
+            "group"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-constituency",
+          "word": "constituency",
+          "partOfSpeech": "noun",
+          "definition": "The group of voters represented by an elected official.",
+          "example": "The senator flew home to hear concerns from her constituency before the big vote.",
+          "mnemonic": "Shares its root with 'constitute' — the voters who constitute a district.",
+          "synonyms": [
+            "electorate",
+            "voters",
+            "base"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-faction",
+          "word": "faction",
+          "partOfSpeech": "noun",
+          "definition": "A small, often self-interested group within a larger organization or party.",
+          "example": "A rebel faction broke away from the main party over the terms of the peace deal.",
+          "mnemonic": "Hides 'fract-' as in 'fracture' — a piece fractured off from the whole.",
+          "synonyms": [
+            "bloc",
+            "camp",
+            "splinter group"
+          ],
+          "antonyms": [
+            "whole",
+            "majority"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-coalition",
+          "word": "coalition",
+          "partOfSpeech": "noun",
+          "definition": "A temporary union of groups or parties for combined action.",
+          "example": "Three small parties formed a coalition to build a governing majority.",
+          "mnemonic": "Like separate lumps of 'coal' brought together into one fire — groups uniting.",
+          "synonyms": [
+            "alliance",
+            "bloc",
+            "union"
+          ],
+          "antonyms": [
+            "split",
+            "division"
+          ]
+        },
+        {
+          "id": "sat-alliance",
+          "word": "alliance",
+          "partOfSpeech": "noun",
+          "definition": "A formal agreement between nations or groups to cooperate and support each other.",
+          "example": "The two nations signed an alliance to defend one another if either was attacked.",
+          "mnemonic": "Contains 'ally' — allies bound together by a pact.",
+          "synonyms": [
+            "partnership",
+            "union",
+            "pact"
+          ],
+          "antonyms": [
+            "rivalry",
+            "enmity",
+            "opposition"
+          ]
+        },
+        {
+          "id": "sat-affiliation",
+          "word": "affiliation",
+          "partOfSpeech": "noun",
+          "definition": "An official connection or membership with a group or organization.",
+          "example": "She listed her affiliation with the local chess club on the application form.",
+          "mnemonic": "Hear 'a-FILE-iation' — you get filed under a group you belong to.",
+          "synonyms": [
+            "association",
+            "connection",
+            "membership"
+          ],
+          "antonyms": [
+            "independence",
+            "disconnection"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-allegiance",
+          "word": "allegiance",
+          "partOfSpeech": "noun",
+          "definition": "Loyalty or commitment owed to a leader, country, or cause.",
+          "example": "The soldiers swore allegiance to the crown before marching off to war.",
+          "mnemonic": "Hear 'a-LIEGE-ance' — a liege is the lord you stay loyal to.",
+          "synonyms": [
+            "loyalty",
+            "fidelity",
+            "devotion"
+          ],
+          "antonyms": [
+            "betrayal",
+            "treachery",
+            "disloyalty"
+          ]
+        },
+        {
+          "id": "sat-dissent",
+          "word": "dissent",
+          "partOfSpeech": "noun",
+          "definition": "Strong disagreement with an officially held opinion or decision.",
+          "example": "A single justice voiced dissent, arguing the majority's ruling was deeply unjust.",
+          "mnemonic": "'Dis-' (apart) + 'sent' (to feel, as in sentiment) = feeling differently from the rest.",
+          "synonyms": [
+            "disagreement",
+            "objection",
+            "protest"
+          ],
+          "antonyms": [
+            "agreement",
+            "consensus",
+            "assent"
+          ]
+        },
+        {
+          "id": "sat-dissident",
+          "word": "dissident",
+          "partOfSpeech": "noun",
+          "definition": "A person who publicly opposes the policies of their government.",
+          "example": "The dissident was jailed for essays that mocked the regime and its leaders.",
+          "mnemonic": "From 'dis-' + 'sedere' (to sit) — one who 'sits apart' from official views.",
+          "synonyms": [
+            "rebel",
+            "protester",
+            "nonconformist"
+          ],
+          "antonyms": [
+            "conformist",
+            "loyalist",
+            "supporter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-conformity",
+          "word": "conformity",
+          "partOfSpeech": "noun",
+          "definition": "Behavior that matches a group's accepted rules, standards, or expectations.",
+          "example": "The strict dress code enforced a dull conformity, with every student looking identical.",
+          "mnemonic": "Conform + -ity: to 'form with' the group — shaping yourself to match everyone around you.",
+          "synonyms": [
+            "compliance",
+            "obedience",
+            "uniformity"
+          ],
+          "antonyms": [
+            "rebellion",
+            "dissent",
+            "individuality"
+          ]
+        },
+        {
+          "id": "sat-nonconformist",
+          "word": "nonconformist",
+          "partOfSpeech": "noun",
+          "definition": "A person who refuses to follow society's usual customs, beliefs, or expected behavior.",
+          "example": "While the others wore suits, she showed up in paint-stained overalls, a proud nonconformist.",
+          "mnemonic": "Non + conformist: NOT one who forms with the crowd — the person who won't fit the mold.",
+          "synonyms": [
+            "maverick",
+            "rebel",
+            "individualist"
+          ],
+          "antonyms": [
+            "conformist",
+            "traditionalist",
+            "follower"
+          ]
+        },
+        {
+          "id": "sat-insurgent",
+          "word": "insurgent",
+          "partOfSpeech": "noun",
+          "definition": "Someone who rises in armed opposition against an established government or authority.",
+          "example": "The insurgents seized the radio station and broadcast their demands to the capital.",
+          "mnemonic": "Sounds like 'in-surge' — a surge of fighters rising up against the rulers.",
+          "synonyms": [
+            "rebel",
+            "guerrilla",
+            "mutineer"
+          ],
+          "antonyms": [
+            "loyalist",
+            "supporter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-subversive",
+          "word": "subversive",
+          "partOfSpeech": "adjective",
+          "definition": "Trying to secretly weaken or overthrow an established system, government, or institution.",
+          "example": "The pamphlets were banned as subversive, since they quietly urged workers to disobey the regime.",
+          "mnemonic": "Sub (under) + verse (turn): turning things over from underneath, secretly.",
+          "synonyms": [
+            "seditious",
+            "insurrectionary",
+            "undermining"
+          ],
+          "antonyms": [
+            "loyal",
+            "supportive",
+            "conservative"
+          ]
+        },
+        {
+          "id": "sat-insurrection",
+          "word": "insurrection",
+          "partOfSpeech": "noun",
+          "definition": "A violent, organized attempt by many people to overthrow their rulers.",
+          "example": "The failed insurrection ended with tanks in the square and its leaders in prison.",
+          "mnemonic": "In-sur-RECT-ion: people 'surrect' (like resurrect, to rise) against the state.",
+          "synonyms": [
+            "rebellion",
+            "mutiny",
+            "coup"
+          ],
+          "antonyms": [
+            "obedience",
+            "submission",
+            "order"
+          ]
+        },
+        {
+          "id": "sat-uprising",
+          "word": "uprising",
+          "partOfSpeech": "noun",
+          "definition": "A popular act of resistance or rebellion against a government or authority.",
+          "example": "News of the tax spread quickly, and by dawn a full uprising had gripped three provinces.",
+          "mnemonic": "Picture people literally 'up-rising' from their seats to fight the king.",
+          "synonyms": [
+            "revolt",
+            "rebellion",
+            "insurgency"
+          ],
+          "antonyms": [
+            "compliance",
+            "peace",
+            "submission"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-revolt",
+          "word": "revolt",
+          "partOfSpeech": "verb",
+          "definition": "To rebel violently against those in power.",
+          "example": "When wages were cut again, the miners finally revolted and stormed the company office.",
+          "mnemonic": "Re-VOLT: an electric jolt of anger that makes people turn against their leaders.",
+          "synonyms": [
+            "rebel",
+            "mutiny",
+            "rise up"
+          ],
+          "antonyms": [
+            "obey",
+            "submit",
+            "comply"
+          ]
+        },
+        {
+          "id": "sat-mobilize",
+          "word": "mobilize",
+          "partOfSpeech": "verb",
+          "definition": "To organize and prepare a group of people or resources for action.",
+          "example": "Within hours the organizers mobilized thousands of volunteers to sandbag the flooding riverbank.",
+          "mnemonic": "Mobile + -ize: make a crowd mobile — get them moving into action.",
+          "synonyms": [
+            "rally",
+            "marshal",
+            "muster"
+          ],
+          "antonyms": [
+            "demobilize",
+            "disband",
+            "immobilize"
+          ]
+        },
+        {
+          "id": "sat-agitate",
+          "word": "agitate",
+          "partOfSpeech": "verb",
+          "definition": "To stir up strong public feeling, usually for or against a cause.",
+          "example": "For years she agitated for prison reform, giving speeches until lawmakers finally listened.",
+          "mnemonic": "Like an agitator in a washing machine, stirring everything up violently.",
+          "synonyms": [
+            "campaign",
+            "incite",
+            "stir up"
+          ],
+          "antonyms": [
+            "pacify",
+            "calm",
+            "soothe"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-unrest",
+          "word": "unrest",
+          "partOfSpeech": "noun",
+          "definition": "A state of angry dissatisfaction that often leads to protests or disturbances.",
+          "example": "Rising food prices sparked weeks of unrest, with crowds blocking roads across the city.",
+          "mnemonic": "Un + rest: no rest — a society too troubled to sit still.",
+          "synonyms": [
+            "turmoil",
+            "agitation",
+            "discontent"
+          ],
+          "antonyms": [
+            "calm",
+            "stability",
+            "tranquility"
+          ]
+        },
+        {
+          "id": "sat-reform",
+          "word": "reform",
+          "partOfSpeech": "verb",
+          "definition": "To make something better by changing or correcting its faults.",
+          "example": "The new mayor promised to reform the crumbling school system within her first term.",
+          "mnemonic": "Re-form: 'form again' — reshape something broken into a better shape.",
+          "synonyms": [
+            "improve",
+            "overhaul",
+            "amend"
+          ],
+          "antonyms": [
+            "worsen",
+            "corrupt",
+            "preserve"
+          ]
+        },
+        {
+          "id": "sat-progressive",
+          "word": "progressive",
+          "partOfSpeech": "adjective",
+          "definition": "Favoring social improvement and new ideas rather than tradition.",
+          "example": "Her progressive policies on childcare and clean energy attracted younger voters.",
+          "mnemonic": "Progress-ive: always pushing forward toward progress and new ideas.",
+          "synonyms": [
+            "forward-thinking",
+            "reformist",
+            "liberal"
+          ],
+          "antonyms": [
+            "conservative",
+            "reactionary",
+            "traditional"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-radical",
+          "word": "radical",
+          "partOfSpeech": "adjective",
+          "definition": "Supporting extreme or fundamental change, especially in politics.",
+          "example": "His radical plan would scrap the entire tax code and start over from scratch.",
+          "mnemonic": "From Latin 'radix' = root; radical change goes down to the very root.",
+          "synonyms": [
+            "extreme",
+            "revolutionary",
+            "drastic"
+          ],
+          "antonyms": [
+            "moderate",
+            "conservative",
+            "conventional"
+          ]
+        },
+        {
+          "id": "sat-ideology",
+          "word": "ideology",
+          "partOfSpeech": "noun",
+          "definition": "A system of ideas and beliefs that guides a group's politics or economics.",
+          "example": "The two parties clashed less over facts than over their opposing ideologies.",
+          "mnemonic": "Idea + -ology: the 'study or system of ideas' a group holds.",
+          "synonyms": [
+            "doctrine",
+            "philosophy",
+            "worldview"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-credo",
+          "word": "credo",
+          "partOfSpeech": "noun",
+          "definition": "A set of guiding beliefs or principles that someone lives by.",
+          "example": "\"Leave every campsite cleaner than you found it\" was the old ranger's lifelong credo.",
+          "mnemonic": "Latin 'credo' = 'I believe' (same root as 'creed').",
+          "synonyms": [
+            "creed",
+            "doctrine",
+            "philosophy"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-ethos",
+          "word": "ethos",
+          "partOfSpeech": "noun",
+          "definition": "The guiding spirit and shared values that define a community or group.",
+          "example": "The startup's ethos of 'move fast, share credit' shaped every meeting.",
+          "mnemonic": "Ethos sounds like 'ethics' — both from Greek; picture a group's shared ethics-spirit.",
+          "synonyms": [
+            "spirit",
+            "character",
+            "values"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-mores",
+          "word": "mores",
+          "partOfSpeech": "noun",
+          "definition": "The essential moral rules and accepted behaviors of a particular society.",
+          "example": "Loud haggling was fine at the bazaar but violated the mores of the quiet gallery.",
+          "mnemonic": "Latin 'mos/mores' gives us 'morals' — mores are a group's shared morals.",
+          "synonyms": [
+            "customs",
+            "conventions",
+            "values"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-norm",
+          "word": "norm",
+          "partOfSpeech": "noun",
+          "definition": "A standard or typical pattern of behavior expected within a group.",
+          "example": "Working from home became the norm after the downtown office closed.",
+          "mnemonic": "A carpenter's 'norma' was a right-angle square — the standard everything is measured against.",
+          "synonyms": [
+            "standard",
+            "rule",
+            "average"
+          ],
+          "antonyms": [
+            "anomaly",
+            "exception",
+            "aberration"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-convention",
+          "word": "convention",
+          "partOfSpeech": "noun",
+          "definition": "A widely accepted practice or unspoken agreement that most people follow.",
+          "example": "By convention, the host sits at the head of the table.",
+          "mnemonic": "People CONVENE (come together) and settle on a shared way — a convention.",
+          "synonyms": [
+            "custom",
+            "practice",
+            "norm"
+          ],
+          "antonyms": [
+            "deviation",
+            "anomaly"
+          ]
+        },
+        {
+          "id": "sat-custom",
+          "word": "custom",
+          "partOfSpeech": "noun",
+          "definition": "A traditional, repeated way of doing something within a culture.",
+          "example": "It is their custom to remove shoes before entering the house.",
+          "mnemonic": "A 'customer' returns out of habit — a custom is a habitual practice of a people.",
+          "synonyms": [
+            "tradition",
+            "practice",
+            "habit"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-tradition",
+          "word": "tradition",
+          "partOfSpeech": "noun",
+          "definition": "A belief or practice passed down through generations over time.",
+          "example": "Lighting candles on the last night of the year is a family tradition.",
+          "mnemonic": "Latin 'tradere' means to hand over — tradition is handed down through the ages.",
+          "synonyms": [
+            "custom",
+            "heritage",
+            "convention"
+          ],
+          "antonyms": [
+            "novelty",
+            "innovation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-institution",
+          "word": "institution",
+          "partOfSpeech": "noun",
+          "definition": "An established organization or long-standing practice within a society.",
+          "example": "Marriage is one of the oldest institutions in human history.",
+          "mnemonic": "From Latin 'statuere', to set up (like a 'statue') — firmly set in place.",
+          "synonyms": [
+            "establishment",
+            "organization",
+            "foundation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-bureaucracy",
+          "word": "bureaucracy",
+          "partOfSpeech": "noun",
+          "definition": "A system of administration run by many officials following rigid rules.",
+          "example": "Getting the permit meant weeks lost in bureaucracy and endless paperwork.",
+          "mnemonic": "'Bureau' (desk) + '-cracy' (rule) = rule by desks and paperwork.",
+          "synonyms": [
+            "administration",
+            "officialdom",
+            "red tape"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-governance",
+          "word": "governance",
+          "partOfSpeech": "noun",
+          "definition": "The process and manner of controlling and directing an organization or state.",
+          "example": "Poor governance left the company with no clear way to make decisions.",
+          "mnemonic": "Greek 'kybernan' means to steer a ship — a governor steers the organization.",
+          "synonyms": [
+            "administration",
+            "management",
+            "oversight"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-autonomy",
+          "word": "autonomy",
+          "partOfSpeech": "noun",
+          "definition": "The right or ability to govern oneself and make independent decisions.",
+          "example": "The region was granted autonomy and now sets its own laws.",
+          "mnemonic": "'auto' (self) + 'nomos' (law) = making your own laws; self-rule.",
+          "synonyms": [
+            "independence",
+            "self-rule",
+            "freedom"
+          ],
+          "antonyms": [
+            "dependence",
+            "subjection",
+            "control"
+          ]
+        },
+        {
+          "id": "sat-sovereignty",
+          "word": "sovereignty",
+          "partOfSpeech": "noun",
+          "definition": "The supreme power and full authority of a state to rule itself.",
+          "example": "The nation defended its sovereignty against foreign interference in its elections.",
+          "mnemonic": "A sovereign sits above all (think 'super') — sovereignty is that supreme power.",
+          "synonyms": [
+            "supremacy",
+            "autonomy",
+            "independence"
+          ],
+          "antonyms": [
+            "subjugation",
+            "dependence"
+          ]
+        },
+        {
+          "id": "sat-jurisdiction",
+          "word": "jurisdiction",
+          "partOfSpeech": "noun",
+          "definition": "The official power to make legal decisions within a defined area or scope.",
+          "example": "The local police had no jurisdiction over crimes committed across the state line.",
+          "mnemonic": "Latin 'juris' (law) + 'diction' (speaking) = the power to speak the law.",
+          "synonyms": [
+            "authority",
+            "control",
+            "purview"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-mandate",
+          "word": "mandate",
+          "partOfSpeech": "noun",
+          "definition": "An official order or granted authority to carry out a specific policy.",
+          "example": "Winning by a landslide gave the president a clear mandate for reform.",
+          "mnemonic": "Latin 'manus' (hand) + 'dare' (give) = handed the authority to act.",
+          "synonyms": [
+            "authority",
+            "directive",
+            "commission"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-decree",
+          "word": "decree",
+          "partOfSpeech": "noun",
+          "definition": "An official order issued by a ruler that carries the force of law.",
+          "example": "By royal decree, the harvest festival was declared a public holiday.",
+          "mnemonic": "Latin 'decernere', to decide — a decree is a ruler's decided command handed down.",
+          "synonyms": [
+            "order",
+            "edict",
+            "proclamation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-edict",
+          "word": "edict",
+          "partOfSpeech": "noun",
+          "definition": "A formal command or public proclamation issued by an authority.",
+          "example": "The emperor's edict banned all trade with the rival kingdom.",
+          "mnemonic": "'e' (out) + 'dict' (speak, as in dictate) = a command spoken out to everyone.",
+          "synonyms": [
+            "decree",
+            "proclamation",
+            "order"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-statute",
+          "word": "statute",
+          "partOfSpeech": "noun",
+          "definition": "A formal written rule made and enforced by the governing body of a country or state.",
+          "example": "A new statute now requires every landlord to install smoke alarms in each bedroom.",
+          "mnemonic": "Sounds like 'stat' (immediately) — a written rule carved on a statue's base that you must obey stat.",
+          "synonyms": [
+            "law",
+            "act",
+            "ordinance"
+          ],
+          "antonyms": []
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:20:07.277Z"
+}

@@ -1,0 +1,1735 @@
+{
+  "month": "2027-02",
+  "displayName": "February 2027",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2027-02-plethora",
+          "word": "plethora",
+          "partOfSpeech": "noun",
+          "definition": "An amount far greater than what is needed or can be used.",
+          "example": "The new intern was overwhelmed by a plethora of logins, badges, and forms on her first day.",
+          "mnemonic": "Sounds like 'PLENTY-thora' — plenty, and then a whole lot more.",
+          "synonyms": [
+            "excess",
+            "overabundance",
+            "surplus"
+          ],
+          "antonyms": [
+            "scarcity",
+            "dearth",
+            "lack"
+          ]
+        },
+        {
+          "id": "2027-02-surfeit",
+          "word": "surfeit",
+          "partOfSpeech": "noun",
+          "definition": "An excessive amount, especially of food or drink, causing discomfort.",
+          "example": "After the holidays, a surfeit of rich food left him queasy and sluggish for a week.",
+          "mnemonic": "'SUR-' means over (like surplus) + 'feit' — you're so over-full you can't fit into your clothes.",
+          "synonyms": [
+            "excess",
+            "glut",
+            "overindulgence"
+          ],
+          "antonyms": [
+            "shortage",
+            "dearth",
+            "deficiency"
+          ]
+        },
+        {
+          "id": "2027-02-glut",
+          "word": "glut",
+          "partOfSpeech": "noun",
+          "definition": "A supply so large that it exceeds demand and drives down value.",
+          "example": "A glut of avocados flooded the market, and prices dropped to almost nothing.",
+          "mnemonic": "'Glut' lives inside 'glutton' — a glutton overeats, a market glut is overstuffed.",
+          "synonyms": [
+            "oversupply",
+            "surplus",
+            "excess"
+          ],
+          "antonyms": [
+            "shortage",
+            "scarcity",
+            "deficit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2027-02-profusion",
+          "word": "profusion",
+          "partOfSpeech": "noun",
+          "definition": "A very large quantity of something, spread out lavishly.",
+          "example": "In spring the meadow bursts into a profusion of wildflowers in every color.",
+          "mnemonic": "From Latin 'profundere', to pour forth — say 'pro-FUSE' and picture color pouring out everywhere.",
+          "synonyms": [
+            "abundance",
+            "wealth",
+            "riot"
+          ],
+          "antonyms": [
+            "scarcity",
+            "sparseness",
+            "dearth"
+          ]
+        },
+        {
+          "id": "2027-02-cornucopia",
+          "word": "cornucopia",
+          "partOfSpeech": "noun",
+          "definition": "A horn-shaped emblem overflowing with fruit that symbolizes a rich, plentiful supply.",
+          "example": "The farmers' market in autumn was a cornucopia of squash, apples, and fresh-baked bread.",
+          "mnemonic": "Latin 'cornu' (horn) + 'copia' (plenty): literally the 'horn of plenty' tipping over with fruit.",
+          "synonyms": [
+            "abundance",
+            "wealth",
+            "plenty"
+          ],
+          "antonyms": [
+            "scarcity",
+            "lack",
+            "dearth"
+          ]
+        },
+        {
+          "id": "2027-02-affluence",
+          "word": "affluence",
+          "partOfSpeech": "noun",
+          "definition": "The state of having a great deal of money and material wealth.",
+          "example": "The gated neighborhood, with its manicured lawns and imported cars, radiated quiet affluence.",
+          "mnemonic": "Hear 'a-FLU-ence' — from Latin 'fluere', to flow: money flows steadily toward you.",
+          "synonyms": [
+            "wealth",
+            "prosperity",
+            "riches"
+          ],
+          "antonyms": [
+            "poverty",
+            "destitution",
+            "penury"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2027-02-opulence",
+          "word": "opulence",
+          "partOfSpeech": "noun",
+          "definition": "Great luxury, richness, and lavish display of wealth.",
+          "example": "Gold ceilings and crystal chandeliers gave the ballroom an air of dizzying opulence.",
+          "mnemonic": "Sounds like 'opal-ence' — imagine every room studded with glittering opals and jewels.",
+          "synonyms": [
+            "luxury",
+            "lavishness",
+            "splendor"
+          ],
+          "antonyms": [
+            "poverty",
+            "austerity",
+            "squalor"
+          ]
+        },
+        {
+          "id": "2027-02-plenitude",
+          "word": "plenitude",
+          "partOfSpeech": "noun",
+          "definition": "A full or complete amount; a great supply.",
+          "example": "The library offered a plenitude of resources, from rare manuscripts to online archives.",
+          "mnemonic": "'Plen-' (Latin 'plenus', full) + '-itude' — the quality of being brim-full.",
+          "synonyms": [
+            "abundance",
+            "fullness",
+            "profusion"
+          ],
+          "antonyms": [
+            "scarcity",
+            "lack",
+            "want"
+          ]
+        },
+        {
+          "id": "2027-02-bounty",
+          "word": "bounty",
+          "partOfSpeech": "noun",
+          "definition": "A generous, plentiful yield or gift, especially from nature or a harvest.",
+          "example": "The autumn harvest gave them a bounty of pumpkins, corn, and crisp apples.",
+          "mnemonic": "Root 'bon' means good (Latin 'bonus') — a bounty is a heap of good things given freely.",
+          "synonyms": [
+            "abundance",
+            "generosity",
+            "largesse"
+          ],
+          "antonyms": [
+            "scarcity",
+            "meagerness",
+            "dearth"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2027-02-superfluity",
+          "word": "superfluity",
+          "partOfSpeech": "noun",
+          "definition": "An amount beyond what is needed or useful; a needless extra.",
+          "example": "The report was padded with a superfluity of charts nobody actually read.",
+          "mnemonic": "'Super' (over) + 'fluere' (flow) — so much it flows over the top and spills to waste.",
+          "synonyms": [
+            "excess",
+            "surplus",
+            "redundancy"
+          ],
+          "antonyms": [
+            "scarcity",
+            "necessity",
+            "lack"
+          ]
+        },
+        {
+          "id": "2027-02-largesse",
+          "word": "largesse",
+          "partOfSpeech": "noun",
+          "definition": "Generosity in giving money or gifts to others.",
+          "example": "Thanks to the donor's largesse, every student received a full scholarship.",
+          "mnemonic": "Hear 'LARGE' inside it — giving on a large, open-handed scale.",
+          "synonyms": [
+            "generosity",
+            "munificence",
+            "bounty"
+          ],
+          "antonyms": [
+            "stinginess",
+            "miserliness",
+            "meanness"
+          ]
+        },
+        {
+          "id": "2027-02-abundance",
+          "word": "abundance",
+          "partOfSpeech": "noun",
+          "definition": "A very large quantity; more than enough of something.",
+          "example": "After the rains, the region enjoyed an abundance of clean water for the first time in years.",
+          "mnemonic": "Picture 'a bun dance' — so many buns they're dancing across the table.",
+          "synonyms": [
+            "plenty",
+            "profusion",
+            "wealth"
+          ],
+          "antonyms": [
+            "scarcity",
+            "shortage",
+            "lack"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2027-02-plenty",
+          "word": "plenty",
+          "partOfSpeech": "noun",
+          "definition": "A large enough amount to fully meet a need.",
+          "example": "Don't worry about running out — there's plenty of soup for everyone.",
+          "mnemonic": "'Plen-' from Latin 'plenus', full; it also rhymes with 'twenty' — picture twenty of everything.",
+          "synonyms": [
+            "abundance",
+            "sufficiency",
+            "ampleness"
+          ],
+          "antonyms": [
+            "scarcity",
+            "lack",
+            "shortage"
+          ]
+        },
+        {
+          "id": "2027-02-copious",
+          "word": "copious",
+          "partOfSpeech": "adjective",
+          "definition": "Large in amount or number; present in great quantity.",
+          "example": "She took copious notes during the lecture, filling three notebooks by the end.",
+          "mnemonic": "Sounds like 'copy-us' — imagine a photocopier spitting out endless copies.",
+          "synonyms": [
+            "abundant",
+            "plentiful",
+            "ample"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse",
+            "meager"
+          ]
+        },
+        {
+          "id": "2027-02-plentiful",
+          "word": "plentiful",
+          "partOfSpeech": "adjective",
+          "definition": "Existing in large amounts; more than enough.",
+          "example": "Fish were so plentiful in the bay that nets came up full within minutes.",
+          "mnemonic": "Read it as 'plenty + full' — full of plenty.",
+          "synonyms": [
+            "abundant",
+            "ample",
+            "copious"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse",
+            "meager"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2027-02-bountiful",
+          "word": "bountiful",
+          "partOfSpeech": "adjective",
+          "definition": "Present in large amounts, or freely giving much to others.",
+          "example": "The bountiful harvest filled every barn on the farm and still left grain to spare.",
+          "mnemonic": "Sounds like 'bounty-full' — a treasure chest crammed full of bounty.",
+          "synonyms": [
+            "abundant",
+            "generous",
+            "ample"
+          ],
+          "antonyms": [
+            "scarce",
+            "meager"
+          ]
+        },
+        {
+          "id": "2027-02-bounteous",
+          "word": "bounteous",
+          "partOfSpeech": "adjective",
+          "definition": "Generous in giving, or supplied in large amounts.",
+          "example": "Their bounteous host kept refilling plates until no guest could eat another bite.",
+          "mnemonic": "'Bounty' + '-eous' — a giver so full of bounty it feels beauteous.",
+          "synonyms": [
+            "generous",
+            "abundant",
+            "liberal"
+          ],
+          "antonyms": [
+            "stingy",
+            "sparse"
+          ]
+        },
+        {
+          "id": "2027-02-plenteous",
+          "word": "plenteous",
+          "partOfSpeech": "adjective",
+          "definition": "Existing in great abundance; more than enough.",
+          "example": "After the rains, water was plenteous, and the wells never ran dry that summer.",
+          "mnemonic": "'Plenty' + '-eous' — so much on hand there's plenty for everyone.",
+          "synonyms": [
+            "abundant",
+            "ample",
+            "copious"
+          ],
+          "antonyms": [
+            "scant",
+            "scarce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2027-02-replete",
+          "word": "replete",
+          "partOfSpeech": "adjective",
+          "definition": "Completely filled or well stocked with something.",
+          "example": "The museum's archive was replete with letters, maps, and photographs from every decade.",
+          "mnemonic": "'Re-PLETE' echoes 'complete' — filled right up to completion.",
+          "synonyms": [
+            "full",
+            "brimming",
+            "stocked"
+          ],
+          "antonyms": [
+            "empty",
+            "lacking"
+          ]
+        },
+        {
+          "id": "2027-02-teeming",
+          "word": "teeming",
+          "partOfSpeech": "adjective",
+          "definition": "Swarming or crowded with a large number of things.",
+          "example": "The tide pool was teeming with crabs, snails, and darting silver fish.",
+          "mnemonic": "Sounds like 'teaming' up — countless creatures forming one huge team.",
+          "synonyms": [
+            "swarming",
+            "abounding",
+            "crawling"
+          ],
+          "antonyms": [
+            "empty",
+            "deserted"
+          ]
+        },
+        {
+          "id": "2027-02-rife",
+          "word": "rife",
+          "partOfSpeech": "adjective",
+          "definition": "Widespread and common, often referring to something unwelcome.",
+          "example": "Rumors were rife in the office after the sudden resignation of the director.",
+          "mnemonic": "Rhymes with 'life' — trouble so common it becomes a way of life.",
+          "synonyms": [
+            "widespread",
+            "prevalent",
+            "rampant"
+          ],
+          "antonyms": [
+            "rare",
+            "scarce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2027-02-opulent",
+          "word": "opulent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing great wealth, luxury, or richness.",
+          "example": "The opulent ballroom glittered with gold chandeliers, silk drapes, and marble floors.",
+          "mnemonic": "Sounds like 'opal-lent' — a place dripping with opals and jewels.",
+          "synonyms": [
+            "luxurious",
+            "lavish",
+            "sumptuous"
+          ],
+          "antonyms": [
+            "plain",
+            "austere"
+          ]
+        },
+        {
+          "id": "2027-02-lavish",
+          "word": "lavish",
+          "partOfSpeech": "adjective",
+          "definition": "Spending or given generously, often in an extravagant way.",
+          "example": "She threw a lavish party with a five-course dinner and a live orchestra.",
+          "mnemonic": "Rhymes with 'ravish' — spending so extravagantly it dazzles the eye.",
+          "synonyms": [
+            "extravagant",
+            "opulent",
+            "profuse"
+          ],
+          "antonyms": [
+            "frugal",
+            "sparing"
+          ]
+        },
+        {
+          "id": "2027-02-sumptuous",
+          "word": "sumptuous",
+          "partOfSpeech": "adjective",
+          "definition": "Splendid and costly-looking; richly luxurious.",
+          "example": "The hotel served a sumptuous breakfast of fresh pastries, smoked salmon, and tropical fruit.",
+          "mnemonic": "Hear the 'sum' — a huge sum was spent to make it this grand.",
+          "synonyms": [
+            "luxurious",
+            "opulent",
+            "lavish"
+          ],
+          "antonyms": [
+            "modest",
+            "plain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2027-02-prodigal",
+          "word": "prodigal",
+          "partOfSpeech": "adjective",
+          "definition": "Spending money or resources recklessly and wastefully.",
+          "example": "His prodigal habits drained the inheritance within a single reckless year.",
+          "mnemonic": "The 'Prodigal Son' squandered his whole fortune — prodigal means wildly wasteful.",
+          "synonyms": [
+            "wasteful",
+            "extravagant",
+            "spendthrift"
+          ],
+          "antonyms": [
+            "frugal",
+            "thrifty"
+          ]
+        },
+        {
+          "id": "2027-02-exuberant",
+          "word": "exuberant",
+          "partOfSpeech": "adjective",
+          "definition": "Overflowing with lively energy, excitement, and high spirits.",
+          "example": "The children were exuberant, racing and laughing across the yard on the last day of school.",
+          "mnemonic": "'Ex-uber-ant' — an 'uber' amount of enthusiasm bursting right out.",
+          "synonyms": [
+            "enthusiastic",
+            "ebullient",
+            "lively"
+          ],
+          "antonyms": [
+            "subdued",
+            "listless"
+          ]
+        },
+        {
+          "id": "2027-02-luxuriant",
+          "word": "luxuriant",
+          "partOfSpeech": "adjective",
+          "definition": "Growing thickly and abundantly; lush and rich.",
+          "example": "Luxuriant vines covered the old cottage, their leaves so dense the walls vanished.",
+          "mnemonic": "'Luxury-plant' — foliage growing in thick, lush, over-the-top abundance.",
+          "synonyms": [
+            "lush",
+            "profuse",
+            "dense"
+          ],
+          "antonyms": [
+            "sparse",
+            "barren"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2027-02-prolific",
+          "word": "prolific",
+          "partOfSpeech": "adjective",
+          "definition": "Producing many works, offspring, or results in great numbers.",
+          "example": "The prolific author published three novels and dozens of short stories in one decade.",
+          "mnemonic": "'Pro-life-ic' — a pro at churning out life or output nonstop.",
+          "synonyms": [
+            "productive",
+            "fruitful",
+            "fertile"
+          ],
+          "antonyms": [
+            "unproductive",
+            "barren"
+          ]
+        },
+        {
+          "id": "2027-02-fecund",
+          "word": "fecund",
+          "partOfSpeech": "adjective",
+          "definition": "Highly productive or capable of producing much offspring.",
+          "example": "The fecund soil of the river delta yielded three crops every year.",
+          "mnemonic": "Shares a root with 'fetus' — bursting with the ability to make new life.",
+          "synonyms": [
+            "fertile",
+            "fruitful",
+            "productive"
+          ],
+          "antonyms": [
+            "barren",
+            "sterile"
+          ]
+        },
+        {
+          "id": "2027-02-fertile",
+          "word": "fertile",
+          "partOfSpeech": "adjective",
+          "definition": "Able to produce abundant crops, offspring, or ideas.",
+          "example": "The fertile valley grew everything from wheat to grapes without much irrigation.",
+          "mnemonic": "Same root as 'fertilizer' — what you add to make land produce.",
+          "synonyms": [
+            "fruitful",
+            "productive",
+            "fecund"
+          ],
+          "antonyms": [
+            "barren",
+            "infertile"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2027-02-fruitful",
+          "word": "fruitful",
+          "partOfSpeech": "adjective",
+          "definition": "Producing plentiful positive results or achievements.",
+          "example": "Their weekend brainstorming session was fruitful, generating five ideas the team actually launched.",
+          "mnemonic": "A tree heavy with fruit yields a rich harvest — full of fruit, full of results.",
+          "synonyms": [
+            "productive",
+            "prolific",
+            "rewarding"
+          ],
+          "antonyms": [
+            "barren",
+            "unproductive",
+            "futile"
+          ]
+        },
+        {
+          "id": "2027-02-prodigious",
+          "word": "prodigious",
+          "partOfSpeech": "adjective",
+          "definition": "Impressively enormous in size, amount, or degree.",
+          "example": "The young pianist showed a prodigious talent, memorizing entire symphonies at age six.",
+          "mnemonic": "Sounds like 'prodigy' — a child prodigy has prodigious gifts.",
+          "synonyms": [
+            "colossal",
+            "immense",
+            "stupendous"
+          ],
+          "antonyms": [
+            "tiny",
+            "negligible",
+            "modest"
+          ]
+        },
+        {
+          "id": "2027-02-ample",
+          "word": "ample",
+          "partOfSpeech": "adjective",
+          "definition": "More than enough for what is needed.",
+          "example": "The hall had ample seating, so nobody had to stand during the lecture.",
+          "mnemonic": "Ample rhymes with 'sample' — there's enough for everyone to sample and plenty left.",
+          "synonyms": [
+            "plentiful",
+            "sufficient",
+            "generous"
+          ],
+          "antonyms": [
+            "meager",
+            "scanty",
+            "insufficient"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2027-02-munificent",
+          "word": "munificent",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely generous, especially in giving money.",
+          "example": "The munificent donor funded the entire new wing of the children's hospital.",
+          "mnemonic": "Money + magnificent = a munificent, magnificently generous gift.",
+          "synonyms": [
+            "generous",
+            "lavish",
+            "bountiful"
+          ],
+          "antonyms": [
+            "stingy",
+            "miserly",
+            "parsimonious"
+          ]
+        },
+        {
+          "id": "2027-02-superfluous",
+          "word": "superfluous",
+          "partOfSpeech": "adjective",
+          "definition": "Beyond what is needed; serving no useful purpose.",
+          "example": "Once the summary said it all, the extra ten slides felt superfluous.",
+          "mnemonic": "Super + fluous (flow) — an extra flow that spills over past what's required.",
+          "synonyms": [
+            "excess",
+            "redundant",
+            "unnecessary"
+          ],
+          "antonyms": [
+            "essential",
+            "necessary",
+            "vital"
+          ]
+        },
+        {
+          "id": "2027-02-abundant",
+          "word": "abundant",
+          "partOfSpeech": "adjective",
+          "definition": "Present in very large quantities; plentiful.",
+          "example": "Rain was abundant that spring, and the reservoirs overflowed for months.",
+          "mnemonic": "A-BUN-dant — picture a bakery with a bun for everyone and thousands still left.",
+          "synonyms": [
+            "plentiful",
+            "copious",
+            "profuse"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse",
+            "deficient"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2027-02-myriad",
+          "word": "myriad",
+          "partOfSpeech": "adjective",
+          "definition": "Consisting of countless or very many elements.",
+          "example": "From the hilltop we saw a myriad of city lights flickering below.",
+          "mnemonic": "Myriad sounds like 'my riot' — a riot of too many things to count.",
+          "synonyms": [
+            "countless",
+            "innumerable",
+            "manifold"
+          ],
+          "antonyms": [
+            "few",
+            "limited",
+            "scarce"
+          ]
+        },
+        {
+          "id": "2027-02-manifold",
+          "word": "manifold",
+          "partOfSpeech": "adjective",
+          "definition": "Many and varied in kind or number.",
+          "example": "Her reasons for leaving were manifold, ranging from money to family to health.",
+          "mnemonic": "Many + fold — folded over again and again into many different kinds.",
+          "synonyms": [
+            "numerous",
+            "diverse",
+            "multifarious"
+          ],
+          "antonyms": [
+            "single",
+            "uniform",
+            "singular"
+          ]
+        },
+        {
+          "id": "2027-02-multitudinous",
+          "word": "multitudinous",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely numerous; existing in great numbers.",
+          "example": "The multitudinous stars scattered across the desert sky defied any attempt to count them.",
+          "mnemonic": "Hidden inside is 'multitude' — a multitude of things is multitudinous.",
+          "synonyms": [
+            "innumerable",
+            "teeming",
+            "countless"
+          ],
+          "antonyms": [
+            "few",
+            "sparse",
+            "scant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2027-02-abound",
+          "word": "abound",
+          "partOfSpeech": "verb",
+          "definition": "To exist in great numbers or amounts.",
+          "example": "Rumors abound whenever a celebrity cancels an appearance without explanation.",
+          "mnemonic": "A + BOUND — imagine things leaping and bounding around everywhere in swarms.",
+          "synonyms": [
+            "teem",
+            "swarm",
+            "proliferate"
+          ],
+          "antonyms": [
+            "lack",
+            "want",
+            "dwindle"
+          ]
+        },
+        {
+          "id": "2027-02-saturate",
+          "word": "saturate",
+          "partOfSpeech": "verb",
+          "definition": "To fill or soak something completely until no more fits.",
+          "example": "The heavy rain saturated the field, leaving mud that squelched with every step.",
+          "mnemonic": "SAT-urate — think of a sponge that 'sat' in a bucket until it could hold no more.",
+          "synonyms": [
+            "soak",
+            "drench",
+            "permeate"
+          ],
+          "antonyms": [
+            "dry",
+            "dehydrate",
+            "parch"
+          ]
+        },
+        {
+          "id": "2027-02-inundate",
+          "word": "inundate",
+          "partOfSpeech": "verb",
+          "definition": "To overwhelm someone or something with a very large amount.",
+          "example": "After the ad aired, calls inundated the switchboard and operators couldn't keep up.",
+          "mnemonic": "From Latin 'unda' (wave) — waves come flooding IN, one after another.",
+          "synonyms": [
+            "overwhelm",
+            "swamp",
+            "flood"
+          ],
+          "antonyms": [
+            "drain",
+            "trickle",
+            "deplete"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2027-02-deluge",
+          "word": "deluge",
+          "partOfSpeech": "noun",
+          "definition": "A great flood or an overwhelming rush of something.",
+          "example": "The post went viral, and a deluge of emails buried her inbox overnight.",
+          "mnemonic": "Deluge sounds like 'the luge' — picture water sledding downhill in an unstoppable torrent.",
+          "synonyms": [
+            "flood",
+            "torrent",
+            "downpour"
+          ],
+          "antonyms": [
+            "drought",
+            "trickle",
+            "drip"
+          ]
+        },
+        {
+          "id": "2027-02-engorge",
+          "word": "engorge",
+          "partOfSpeech": "verb",
+          "definition": "To swell or fill up with fluid, often to bursting.",
+          "example": "The leech engorged itself with blood until it was three times its normal size.",
+          "mnemonic": "EN + GORGE — to gorge and stuff something until it swells fat.",
+          "synonyms": [
+            "swell",
+            "distend",
+            "bloat"
+          ],
+          "antonyms": [
+            "shrink",
+            "drain",
+            "deflate"
+          ]
+        },
+        {
+          "id": "2027-02-satiate",
+          "word": "satiate",
+          "partOfSpeech": "verb",
+          "definition": "To satisfy an appetite or desire completely.",
+          "example": "The enormous holiday feast finally satiated even the hungriest guests at the table.",
+          "mnemonic": "Sounds like 'say she ate' — she ate until fully satisfied and could take no more.",
+          "synonyms": [
+            "satisfy",
+            "sate",
+            "gratify"
+          ],
+          "antonyms": [
+            "starve",
+            "deprive",
+            "famish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2027-02-sate",
+          "word": "sate",
+          "partOfSpeech": "verb",
+          "definition": "To fill someone completely with food or pleasure until no more is wanted.",
+          "example": "After three helpings of stew, the hikers were finally sated and pushed their bowls away.",
+          "mnemonic": "Ends in 'ate' — once you've truly ATE enough, you are sate-d.",
+          "synonyms": [
+            "satisfy",
+            "satiate",
+            "gratify"
+          ],
+          "antonyms": [
+            "starve",
+            "deprive"
+          ]
+        },
+        {
+          "id": "2027-02-cloy",
+          "word": "cloy",
+          "partOfSpeech": "verb",
+          "definition": "To cause disgust by being far too sweet, rich, or sentimental.",
+          "example": "The frosting was pleasant at first, but by the third cupcake its sweetness began to cloy.",
+          "mnemonic": "Rhymes with 'ahoy' — too much sugary 'oy!' makes your stomach turn.",
+          "synonyms": [
+            "sicken",
+            "surfeit",
+            "satiate"
+          ],
+          "antonyms": [
+            "refresh",
+            "whet"
+          ]
+        },
+        {
+          "id": "2027-02-brim",
+          "word": "brim",
+          "partOfSpeech": "verb",
+          "definition": "To be filled all the way up to the very edge.",
+          "example": "Her eyes began to brim with tears the moment the letter mentioned home.",
+          "mnemonic": "Think of a hat's BRIM — the top edge; liquid reaches that line.",
+          "synonyms": [
+            "overflow",
+            "well up",
+            "teem"
+          ],
+          "antonyms": [
+            "empty",
+            "drain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2027-02-overflow",
+          "word": "overflow",
+          "partOfSpeech": "verb",
+          "definition": "To spill over the top because a container holds more than it can keep.",
+          "example": "She forgot the running tap, and soon water began to overflow onto the kitchen floor.",
+          "mnemonic": "OVER + FLOW — the liquid literally flows over the top.",
+          "synonyms": [
+            "brim over",
+            "spill",
+            "flood"
+          ],
+          "antonyms": [
+            "drain",
+            "recede"
+          ]
+        },
+        {
+          "id": "2027-02-replenish",
+          "word": "replenish",
+          "partOfSpeech": "verb",
+          "definition": "To fill a supply back up after some of it has been used.",
+          "example": "Every autumn the squirrels rush to replenish their winter store of acorns.",
+          "mnemonic": "RE- (again) + 'plenish' like 'plenty' — make it plenty once more.",
+          "synonyms": [
+            "restock",
+            "refill",
+            "renew"
+          ],
+          "antonyms": [
+            "deplete",
+            "drain",
+            "exhaust"
+          ]
+        },
+        {
+          "id": "2027-02-swarm",
+          "word": "swarm",
+          "partOfSpeech": "verb",
+          "definition": "To move or gather in a large, dense, restless crowd.",
+          "example": "Fans began to swarm the stage the instant the band walked off.",
+          "mnemonic": "SWARM sounds like a 'warm' buzz of bees pressing together.",
+          "synonyms": [
+            "throng",
+            "teem",
+            "flock"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2027-02-gorge",
+          "word": "gorge",
+          "partOfSpeech": "verb",
+          "definition": "To eat something eagerly in very large amounts.",
+          "example": "The children would gorge on candy every Halloween until they felt sick.",
+          "mnemonic": "Your GORGE is your throat (old meaning) — you stuff it when you overeat.",
+          "synonyms": [
+            "stuff",
+            "devour",
+            "guzzle"
+          ],
+          "antonyms": [
+            "nibble",
+            "fast",
+            "abstain"
+          ]
+        },
+        {
+          "id": "2027-02-glutton",
+          "word": "glutton",
+          "partOfSpeech": "noun",
+          "definition": "A person who habitually eats and drinks far too much.",
+          "example": "Such a glutton was he that he ordered a second dinner before finishing the first.",
+          "mnemonic": "Contains 'glut' — a glut is an oversupply, and this person craves an oversupply of food.",
+          "synonyms": [
+            "gormandizer",
+            "guzzler",
+            "pig"
+          ],
+          "antonyms": [
+            "ascetic",
+            "abstainer"
+          ]
+        },
+        {
+          "id": "2027-02-gluttonous",
+          "word": "gluttonous",
+          "partOfSpeech": "adjective",
+          "definition": "Given to eating and drinking far more than the body needs.",
+          "example": "His gluttonous habit of clearing every buffet tray left little for anyone else.",
+          "mnemonic": "Hear 'glut' inside it — a glut, or excess, of eating.",
+          "synonyms": [
+            "greedy",
+            "ravenous",
+            "piggish"
+          ],
+          "antonyms": [
+            "temperate",
+            "abstemious"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2027-02-voracious",
+          "word": "voracious",
+          "partOfSpeech": "adjective",
+          "definition": "Wanting huge amounts of food, or eager for a great deal of something.",
+          "example": "A voracious reader, she finished four thick novels over a single weekend.",
+          "mnemonic": "Shares 'vor' with 'deVOUR' (Latin vorare, to swallow whole).",
+          "synonyms": [
+            "ravenous",
+            "insatiable",
+            "greedy"
+          ],
+          "antonyms": [
+            "sated",
+            "indifferent"
+          ]
+        },
+        {
+          "id": "2027-02-rapacious",
+          "word": "rapacious",
+          "partOfSpeech": "adjective",
+          "definition": "Aggressively grasping for far more money or goods than one needs.",
+          "example": "The rapacious landlord kept raising rents until half the tenants were forced out.",
+          "mnemonic": "Shares 'rap' with 'rapture' — Latin rapere, to seize or snatch away.",
+          "synonyms": [
+            "grasping",
+            "predatory",
+            "avaricious"
+          ],
+          "antonyms": [
+            "generous",
+            "giving"
+          ]
+        },
+        {
+          "id": "2027-02-insatiable",
+          "word": "insatiable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to satisfy, no matter how much is given.",
+          "example": "Her insatiable curiosity meant every answer only led her to ten new questions.",
+          "mnemonic": "IN- (not) + 'satiable' from 'satisfy' — it can never be satisfied.",
+          "synonyms": [
+            "unquenchable",
+            "voracious",
+            "ravenous"
+          ],
+          "antonyms": [
+            "satisfied",
+            "content"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2027-02-avaricious",
+          "word": "avaricious",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely eager to gain and hoard money.",
+          "example": "The avaricious banker counted his coins twice nightly and gave nothing to charity.",
+          "mnemonic": "Say 'a-VARI-cious' — picture a miser hungry for VARIous piles of gold.",
+          "synonyms": [
+            "greedy",
+            "grasping",
+            "rapacious"
+          ],
+          "antonyms": [
+            "generous",
+            "charitable"
+          ]
+        },
+        {
+          "id": "2027-02-avarice",
+          "word": "avarice",
+          "partOfSpeech": "noun",
+          "definition": "An extreme desire to pile up and keep wealth.",
+          "example": "Blinded by avarice, he betrayed his oldest friend for a share of the treasure.",
+          "mnemonic": "Sounds like 'have-a-rich' — the endless drive to have riches.",
+          "synonyms": [
+            "greed",
+            "cupidity",
+            "covetousness"
+          ],
+          "antonyms": [
+            "generosity",
+            "charity"
+          ]
+        },
+        {
+          "id": "2027-02-cupidity",
+          "word": "cupidity",
+          "partOfSpeech": "noun",
+          "definition": "A strong, selfish craving for money and possessions.",
+          "example": "The auctioneer played on the crowd's cupidity, and bids climbed far past reason.",
+          "mnemonic": "Looks like 'Cupid,' but this longing is for cash, not love.",
+          "synonyms": [
+            "greed",
+            "avarice",
+            "covetousness"
+          ],
+          "antonyms": [
+            "generosity",
+            "altruism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2027-02-covetous",
+          "word": "covetous",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by a strong, envious longing for what other people possess.",
+          "example": "He cast a covetous glance at his neighbor's gleaming new sports car.",
+          "mnemonic": "Sounds like 'covet us' — someone eyeing what's ours and aching to have it.",
+          "synonyms": [
+            "greedy",
+            "grasping",
+            "envious"
+          ],
+          "antonyms": [
+            "generous",
+            "content"
+          ]
+        },
+        {
+          "id": "2027-02-covet",
+          "word": "covet",
+          "partOfSpeech": "verb",
+          "definition": "To wish enviously to own something that belongs to another person.",
+          "example": "She had quietly coveted the corner office with its river view for years.",
+          "mnemonic": "Break it into 'co-vet': two vets both wanting the same rare pet.",
+          "synonyms": [
+            "crave",
+            "desire",
+            "envy"
+          ],
+          "antonyms": [
+            "renounce",
+            "spurn"
+          ]
+        },
+        {
+          "id": "2027-02-acquisitive",
+          "word": "acquisitive",
+          "partOfSpeech": "adjective",
+          "definition": "Keenly eager to obtain and keep money or possessions.",
+          "example": "His acquisitive nature filled the house with objects he never once used.",
+          "mnemonic": "Rooted in 'acquire' — an acquisitive person is always out to acquire more.",
+          "synonyms": [
+            "grasping",
+            "materialistic",
+            "greedy"
+          ],
+          "antonyms": [
+            "generous",
+            "altruistic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2027-02-hoard",
+          "word": "hoard",
+          "partOfSpeech": "verb",
+          "definition": "To secretly store up a large supply, often far more than needed.",
+          "example": "During the shortage, some families hoarded canned food in their basements.",
+          "mnemonic": "Homophone of 'horde' — picture a horde of stuff piled up in a hidden stash.",
+          "synonyms": [
+            "stockpile",
+            "stash",
+            "squirrel away"
+          ],
+          "antonyms": [
+            "squander",
+            "distribute"
+          ]
+        },
+        {
+          "id": "2027-02-amass",
+          "word": "amass",
+          "partOfSpeech": "verb",
+          "definition": "To gather together a great quantity of something over time.",
+          "example": "Over the decades she amassed one of the world's finest stamp collections.",
+          "mnemonic": "A + MASS: you build up a growing mass of something.",
+          "synonyms": [
+            "accumulate",
+            "gather",
+            "collect"
+          ],
+          "antonyms": [
+            "disperse",
+            "scatter"
+          ]
+        },
+        {
+          "id": "2027-02-accrue",
+          "word": "accrue",
+          "partOfSpeech": "verb",
+          "definition": "To build up gradually, especially as interest or added benefit.",
+          "example": "Interest accrues on the loan every month until the balance is repaid.",
+          "mnemonic": "Sounds like 'a crew' that keeps swelling as more hands sign on.",
+          "synonyms": [
+            "build up",
+            "mount",
+            "gather"
+          ],
+          "antonyms": [
+            "dwindle",
+            "diminish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2027-02-accumulate",
+          "word": "accumulate",
+          "partOfSpeech": "verb",
+          "definition": "To collect a growing amount of something little by little.",
+          "example": "Dust had accumulated on the shelves during the long summer vacation.",
+          "mnemonic": "Think of a 'cumulus' cloud that grows by piling up more and more.",
+          "synonyms": [
+            "amass",
+            "gather",
+            "pile up"
+          ],
+          "antonyms": [
+            "dissipate",
+            "scatter"
+          ]
+        },
+        {
+          "id": "2027-02-aggregate",
+          "word": "aggregate",
+          "partOfSpeech": "verb",
+          "definition": "To combine separate items into one collected mass or total.",
+          "example": "The website aggregates headlines from hundreds of sources onto a single page.",
+          "mnemonic": "From Latin 'grex' (flock) — you herd a scattered flock into one group.",
+          "synonyms": [
+            "combine",
+            "collect",
+            "total"
+          ],
+          "antonyms": [
+            "separate",
+            "disperse"
+          ]
+        },
+        {
+          "id": "2027-02-garner",
+          "word": "garner",
+          "partOfSpeech": "verb",
+          "definition": "To gather or earn something, such as support, praise, or resources.",
+          "example": "Her documentary garnered enthusiastic reviews at every festival it entered.",
+          "mnemonic": "Linked to 'granary' — the barn where grain is gathered and stored.",
+          "synonyms": [
+            "gather",
+            "collect",
+            "earn"
+          ],
+          "antonyms": [
+            "squander",
+            "lose"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2027-02-accretion",
+          "word": "accretion",
+          "partOfSpeech": "noun",
+          "definition": "Slow growth or increase caused by the gradual addition of layers.",
+          "example": "The coral reef expanded through the steady accretion of tiny skeletons.",
+          "mnemonic": "Related to 'concrete' setting — matter hardening on, layer by layer.",
+          "synonyms": [
+            "buildup",
+            "accumulation",
+            "growth"
+          ],
+          "antonyms": [
+            "erosion",
+            "depletion"
+          ]
+        },
+        {
+          "id": "2027-02-dearth",
+          "word": "dearth",
+          "partOfSpeech": "noun",
+          "definition": "A serious lack or shortage of something that is needed.",
+          "example": "The remote village suffered from a dearth of trained doctors.",
+          "mnemonic": "'Dear' things become expensive — when there's a dearth, supply is nearly gone.",
+          "synonyms": [
+            "scarcity",
+            "shortage",
+            "lack"
+          ],
+          "antonyms": [
+            "abundance",
+            "surplus"
+          ]
+        },
+        {
+          "id": "2027-02-paucity",
+          "word": "paucity",
+          "partOfSpeech": "noun",
+          "definition": "The presence of something in unusually small amounts.",
+          "example": "A paucity of hard evidence forced the jury to acquit the defendant.",
+          "mnemonic": "From Latin 'paucus' (few) — a paucity means pitifully few.",
+          "synonyms": [
+            "scarcity",
+            "dearth",
+            "shortage"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2027-02-scarcity",
+          "word": "scarcity",
+          "partOfSpeech": "noun",
+          "definition": "A condition of not having enough to meet demand.",
+          "example": "Water scarcity turned the once-green fields into cracked, dusty earth.",
+          "mnemonic": "Built from 'scarce'; it also sounds like 'scare' — it's scary when supplies run dry.",
+          "synonyms": [
+            "shortage",
+            "dearth",
+            "paucity"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty"
+          ]
+        },
+        {
+          "id": "2027-02-penury",
+          "word": "penury",
+          "partOfSpeech": "noun",
+          "definition": "The state of being extremely poor and without resources.",
+          "example": "After the business collapsed, the family lived in penury for years.",
+          "mnemonic": "Sounds like 'penny-ury' — scraping by on your very last penny.",
+          "synonyms": [
+            "poverty",
+            "destitution",
+            "indigence"
+          ],
+          "antonyms": [
+            "wealth",
+            "affluence"
+          ]
+        },
+        {
+          "id": "2027-02-indigence",
+          "word": "indigence",
+          "partOfSpeech": "noun",
+          "definition": "A condition of severe poverty and constant material want.",
+          "example": "The charity was founded to relieve the indigence of the city's poorest residents.",
+          "mnemonic": "Hear 'in dig' — so broke you're digging in the dirt for scraps.",
+          "synonyms": [
+            "poverty",
+            "destitution",
+            "penury"
+          ],
+          "antonyms": [
+            "affluence",
+            "wealth"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2027-02-privation",
+          "word": "privation",
+          "partOfSpeech": "noun",
+          "definition": "A state of lacking essential things like food, shelter, or comfort.",
+          "example": "The refugees endured months of privation, surviving on scraps and sleeping in the cold.",
+          "mnemonic": "Sounds like 'deprived nation' — a nation stripped of basics lives in privation.",
+          "synonyms": [
+            "hardship",
+            "destitution",
+            "need"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty",
+            "comfort"
+          ]
+        },
+        {
+          "id": "2027-02-deficiency",
+          "word": "deficiency",
+          "partOfSpeech": "noun",
+          "definition": "A lack of something necessary for health, function, or completeness.",
+          "example": "A vitamin D deficiency left her bones weak and prone to fracture.",
+          "mnemonic": "De-FISH-ency — picture a fish tank drained of water; something essential is missing.",
+          "synonyms": [
+            "lack",
+            "shortfall",
+            "inadequacy"
+          ],
+          "antonyms": [
+            "sufficiency",
+            "abundance",
+            "surplus"
+          ]
+        },
+        {
+          "id": "2027-02-deficit",
+          "word": "deficit",
+          "partOfSpeech": "noun",
+          "definition": "The amount by which money spent exceeds money earned or available.",
+          "example": "The government ran a huge deficit after spending far more than it collected in taxes.",
+          "mnemonic": "DEF-i-sit — the budget can't 'sit' level; a definite gap tips it over.",
+          "synonyms": [
+            "shortfall",
+            "arrears",
+            "loss"
+          ],
+          "antonyms": [
+            "surplus",
+            "profit",
+            "excess"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2027-02-shortage",
+          "word": "shortage",
+          "partOfSpeech": "noun",
+          "definition": "A situation where the available supply falls below what people need.",
+          "example": "A water shortage during the drought forced the town to ration every drop.",
+          "mnemonic": "SHORT + age — an age when things run short and the shelves go empty.",
+          "synonyms": [
+            "scarcity",
+            "deficit",
+            "lack"
+          ],
+          "antonyms": [
+            "abundance",
+            "surplus",
+            "glut"
+          ]
+        },
+        {
+          "id": "2027-02-insufficiency",
+          "word": "insufficiency",
+          "partOfSpeech": "noun",
+          "definition": "The condition of not having enough of what is required.",
+          "example": "Cardiac insufficiency meant his heart could no longer pump enough blood to his limbs.",
+          "mnemonic": "In (not) + 'suffice' — when something does not suffice, you face insufficiency.",
+          "synonyms": [
+            "inadequacy",
+            "deficiency",
+            "shortfall"
+          ],
+          "antonyms": [
+            "adequacy",
+            "abundance",
+            "plenty"
+          ]
+        },
+        {
+          "id": "2027-02-famine",
+          "word": "famine",
+          "partOfSpeech": "noun",
+          "definition": "An extreme and widespread scarcity of food across a region.",
+          "example": "The failed harvest brought a famine that claimed thousands of lives that winter.",
+          "mnemonic": "FAM-ine — a whole 'family' left famished with nothing to eat.",
+          "synonyms": [
+            "starvation",
+            "dearth",
+            "hunger"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty",
+            "feast"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2027-02-austerity",
+          "word": "austerity",
+          "partOfSpeech": "noun",
+          "definition": "Strict economic conditions or a plain, self-denying way of living.",
+          "example": "During the war, austerity meant no sugar, no new clothes, and one small meal a day.",
+          "mnemonic": "Sounds like 'a stern city' — austerity runs life by stern, cut-back rules.",
+          "synonyms": [
+            "severity",
+            "sternness",
+            "restraint"
+          ],
+          "antonyms": [
+            "luxury",
+            "indulgence",
+            "extravagance"
+          ]
+        },
+        {
+          "id": "2027-02-frugality",
+          "word": "frugality",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being careful and sparing with money or resources.",
+          "example": "Her frugality was legendary; she darned socks for years rather than buy new ones.",
+          "mnemonic": "FRU-gal — 'a gal who saves every fruit' and lets nothing go to waste.",
+          "synonyms": [
+            "thrift",
+            "economy",
+            "prudence"
+          ],
+          "antonyms": [
+            "extravagance",
+            "wastefulness",
+            "lavishness"
+          ]
+        },
+        {
+          "id": "2027-02-parsimony",
+          "word": "parsimony",
+          "partOfSpeech": "noun",
+          "definition": "Extreme unwillingness to spend money or use resources; stinginess.",
+          "example": "His parsimony was so severe he reused tea bags and refused to heat the house.",
+          "mnemonic": "PARSE-money — someone who 'parses' every coin, splitting hairs over cash.",
+          "synonyms": [
+            "stinginess",
+            "miserliness",
+            "meanness"
+          ],
+          "antonyms": [
+            "generosity",
+            "extravagance",
+            "liberality"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2027-02-thrift",
+          "word": "thrift",
+          "partOfSpeech": "noun",
+          "definition": "Careful management of money and the avoidance of waste.",
+          "example": "Through years of thrift she saved enough to buy the cottage outright.",
+          "mnemonic": "THRIFT store — where careful savers shop to stretch every dollar.",
+          "synonyms": [
+            "frugality",
+            "economy",
+            "prudence"
+          ],
+          "antonyms": [
+            "extravagance",
+            "wastefulness",
+            "prodigality"
+          ]
+        },
+        {
+          "id": "2027-02-deprivation",
+          "word": "deprivation",
+          "partOfSpeech": "noun",
+          "definition": "The state of lacking or being denied basic needs or benefits.",
+          "example": "Sleep deprivation left the new parents dazed and unable to concentrate.",
+          "mnemonic": "De-PRIVE — to 'pry' something away; what's pried loose becomes your deprivation.",
+          "synonyms": [
+            "lack",
+            "denial",
+            "loss"
+          ],
+          "antonyms": [
+            "provision",
+            "abundance",
+            "fulfillment"
+          ]
+        },
+        {
+          "id": "2027-02-want",
+          "word": "want",
+          "partOfSpeech": "noun",
+          "definition": "A lack or absence of something needed or desired.",
+          "example": "For want of a nail the shoe was lost, and for want of a shoe the kingdom fell.",
+          "mnemonic": "WANT — the thing you 'want' is precisely the thing you are missing.",
+          "synonyms": [
+            "lack",
+            "need",
+            "scarcity"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty",
+            "surplus"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "2027-02-scant",
+          "word": "scant",
+          "partOfSpeech": "adjective",
+          "definition": "Barely enough; very small in amount or degree.",
+          "example": "They paid scant attention to the warnings and pressed on into the storm.",
+          "mnemonic": "SCANT rhymes with 'can't' — there's so little you can't get by on it.",
+          "synonyms": [
+            "meager",
+            "minimal",
+            "sparse"
+          ],
+          "antonyms": [
+            "ample",
+            "abundant",
+            "plentiful"
+          ]
+        },
+        {
+          "id": "2027-02-scanty",
+          "word": "scanty",
+          "partOfSpeech": "adjective",
+          "definition": "Too small or limited in amount to be adequate.",
+          "example": "The hikers rationed their scanty supply of water, unsure when they'd find more.",
+          "mnemonic": "SCANTY — 'scant' plus -y; a scanty outfit barely covers anything.",
+          "synonyms": [
+            "meager",
+            "sparse",
+            "skimpy"
+          ],
+          "antonyms": [
+            "abundant",
+            "ample",
+            "copious"
+          ]
+        },
+        {
+          "id": "2027-02-meager",
+          "word": "meager",
+          "partOfSpeech": "adjective",
+          "definition": "Small in amount and clearly not enough.",
+          "example": "He tried to stretch his meager wages across a whole month of rent and food.",
+          "mnemonic": "MEAGER sounds like 'meek ogre' — even an ogre turns meek on such tiny portions.",
+          "synonyms": [
+            "scanty",
+            "sparse",
+            "paltry"
+          ],
+          "antonyms": [
+            "abundant",
+            "plentiful",
+            "generous"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "core high-frequency — abundance and scarcity",
+  "createdAt": "2026-09-12T06:50:31.713Z"
+}

@@ -26,11 +26,20 @@ const badgeVariants = cva(
 );
 
 export interface BadgeProps
-  extends React.HTMLAttributes<HTMLDivElement>,
+  extends React.HTMLAttributes<HTMLSpanElement>,
     VariantProps<typeof badgeVariants> {}
 
+/**
+ * A span, not a div.
+ *
+ * The styling is `inline-flex` either way, so nothing moves — but a badge is
+ * almost always placed beside text, and a div inside a `<p>` is invalid
+ * nesting that React reparents at runtime. That produced the same bug twice in
+ * this codebase (ProviderSettings, VocabLibrary) before the element was the
+ * thing that changed rather than each call site.
+ */
 function Badge({ className, variant, ...props }: BadgeProps) {
-  return <div className={cn(badgeVariants({ variant }), className)} {...props} />;
+  return <span className={cn(badgeVariants({ variant }), className)} {...props} />;
 }
 
 export { Badge, badgeVariants };

@@ -12,6 +12,7 @@ import { ProviderRegistry } from "./registry";
 import { detectAiClis, type DetectedCli } from "./providers/cli";
 import { platformTransport } from "./tauri-transport";
 import { getSecret } from "./keystore";
+import { guardCredentials } from "./credential-guard";
 import type { Provider, ProviderId } from "./types";
 
 /**
@@ -44,8 +45,10 @@ export async function aiRegistry(
     getSecret("openrouterApiKey"),
   ]);
   return new ProviderRegistry({
-    // Rust on desktop so local servers are reachable at all; fetch on web.
-    transport: platformTransport(),
+    // Rust on desktop so local servers are reachable at all; fetch on web —
+    // wrapped so a credential cannot reach a host it was not issued for,
+    // whatever an adapter or a mistyped base URL asks for. ADR 0010.
+    transport: guardCredentials(platformTransport()),
     secrets: {
       anthropicApiKey: anthropic?.reveal() ?? null,
       openrouterApiKey: openrouter?.reveal() ?? null,

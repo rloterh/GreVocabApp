@@ -1,0 +1,1731 @@
+{
+  "month": "2028-02",
+  "displayName": "February 2028",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2028-02-inaugurate",
+          "word": "inaugurate",
+          "partOfSpeech": "verb",
+          "definition": "To mark the formal start of something with an official ceremony or event.",
+          "example": "The mayor cut the ribbon to inaugurate the new bridge across the river.",
+          "mnemonic": "in-AUGUR-ate: ancient Roman 'augurs' read bird omens before an official could formally take up a post.",
+          "synonyms": [
+            "launch",
+            "install",
+            "usher in"
+          ],
+          "antonyms": [
+            "conclude",
+            "terminate",
+            "close"
+          ]
+        },
+        {
+          "id": "2028-02-inaugural",
+          "word": "inaugural",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to the very first occurrence or official start of something.",
+          "example": "Thousands gathered to hear the president's inaugural address on the steps of the capitol.",
+          "mnemonic": "Think of an 'inaugural flight' — the very first trip an airline ever runs on a route.",
+          "synonyms": [
+            "first",
+            "opening",
+            "maiden"
+          ],
+          "antonyms": [
+            "final",
+            "closing",
+            "last"
+          ]
+        },
+        {
+          "id": "2028-02-initiate",
+          "word": "initiate",
+          "partOfSpeech": "verb",
+          "definition": "To cause a process or action to begin.",
+          "example": "She clicked the button to initiate the download before leaving her desk for lunch.",
+          "mnemonic": "'in + it' — you put 'it' into motion; also the 'init' routine that boots up a computer.",
+          "synonyms": [
+            "begin",
+            "commence",
+            "trigger"
+          ],
+          "antonyms": [
+            "end",
+            "finish",
+            "halt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2028-02-originate",
+          "word": "originate",
+          "partOfSpeech": "verb",
+          "definition": "To come into being or have a starting point in a particular place.",
+          "example": "Many English words originate from Latin and Greek roots carried in by scholars.",
+          "mnemonic": "Hear 'origin' inside it — to trace where a thing's origin lies.",
+          "synonyms": [
+            "arise",
+            "stem",
+            "spring"
+          ],
+          "antonyms": [
+            "end",
+            "terminate",
+            "conclude"
+          ]
+        },
+        {
+          "id": "2028-02-genesis",
+          "word": "genesis",
+          "partOfSpeech": "noun",
+          "definition": "The point at which something first comes into existence.",
+          "example": "The genesis of the company was a late-night idea scribbled on a napkin.",
+          "mnemonic": "Genesis is the first book of the Bible — the start of everything.",
+          "synonyms": [
+            "origin",
+            "birth",
+            "inception"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "finale"
+          ]
+        },
+        {
+          "id": "2028-02-advent",
+          "word": "advent",
+          "partOfSpeech": "noun",
+          "definition": "The arrival or first appearance of an important person, event, or thing.",
+          "example": "The advent of the smartphone changed how people communicate forever.",
+          "mnemonic": "'ad + vent' (Latin venire, to come) — like an Advent calendar counting down to something arriving.",
+          "synonyms": [
+            "arrival",
+            "emergence",
+            "coming"
+          ],
+          "antonyms": [
+            "departure",
+            "disappearance",
+            "exit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2028-02-dawn",
+          "word": "dawn",
+          "partOfSpeech": "noun",
+          "definition": "The first light of morning, or the beginning of a period or event.",
+          "example": "At the dawn of the industrial age, factories began springing up across the countryside.",
+          "mnemonic": "Picture the sky going pale as day breaks — the opening moment of the day.",
+          "synonyms": [
+            "daybreak",
+            "sunrise",
+            "outset"
+          ],
+          "antonyms": [
+            "dusk",
+            "sunset",
+            "twilight"
+          ]
+        },
+        {
+          "id": "2028-02-rudimentary",
+          "word": "rudimentary",
+          "partOfSpeech": "adjective",
+          "definition": "Involving only the most basic, crude, or undeveloped stage of something.",
+          "example": "He had only a rudimentary grasp of French, enough to order coffee and little more.",
+          "mnemonic": "Sounds like 'rude' — rough, crude, unpolished basics that aren't refined yet.",
+          "synonyms": [
+            "basic",
+            "elementary",
+            "crude"
+          ],
+          "antonyms": [
+            "advanced",
+            "sophisticated",
+            "refined"
+          ]
+        },
+        {
+          "id": "2028-02-rudiment",
+          "word": "rudiment",
+          "partOfSpeech": "noun",
+          "definition": "A first or basic element of a subject, learned before the advanced parts.",
+          "example": "Before playing songs, the drummer spent months drilling the rudiments of stick control.",
+          "mnemonic": "Shares a root with 'rude' — the raw, unrefined starting pieces of a skill.",
+          "synonyms": [
+            "basics",
+            "fundamentals",
+            "essentials"
+          ],
+          "antonyms": [
+            "refinements",
+            "complexities",
+            "subtleties"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2028-02-primordial",
+          "word": "primordial",
+          "partOfSpeech": "adjective",
+          "definition": "Existing from the earliest stage of the world or of time.",
+          "example": "Life first stirred in the primordial soup of the planet's early oceans.",
+          "mnemonic": "'prime + ordial' (order) — first in order, dating from the prime of all time.",
+          "synonyms": [
+            "primeval",
+            "ancient",
+            "original"
+          ],
+          "antonyms": [
+            "modern",
+            "recent",
+            "new"
+          ]
+        },
+        {
+          "id": "2028-02-primeval",
+          "word": "primeval",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to the earliest ages of the world; extremely ancient.",
+          "example": "The explorers hacked their way through a primeval forest untouched by humans.",
+          "mnemonic": "'prime + aevum' (Latin for age) — the prime, very first age of the earth.",
+          "synonyms": [
+            "prehistoric",
+            "ancient",
+            "primordial"
+          ],
+          "antonyms": [
+            "modern",
+            "contemporary",
+            "recent"
+          ]
+        },
+        {
+          "id": "2028-02-primal",
+          "word": "primal",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to an early stage of development, or to deep basic instincts.",
+          "example": "When the bear charged, a primal urge to run seized everyone at the campsite.",
+          "mnemonic": "'prim' = first — your first, gut-level instincts before any thinking kicks in.",
+          "synonyms": [
+            "instinctive",
+            "fundamental",
+            "visceral"
+          ],
+          "antonyms": [
+            "learned",
+            "refined",
+            "civilized"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2028-02-pristine",
+          "word": "pristine",
+          "partOfSpeech": "adjective",
+          "definition": "In a perfectly clean or unspoiled condition, as if brand new.",
+          "example": "The vintage car was kept in pristine condition, its paint gleaming like the day it sold.",
+          "mnemonic": "Sounds like 'crisp' and 'clean' — picture untouched white snow nobody has walked on.",
+          "synonyms": [
+            "immaculate",
+            "spotless",
+            "unspoiled"
+          ],
+          "antonyms": [
+            "dirty",
+            "spoiled",
+            "tarnished"
+          ]
+        },
+        {
+          "id": "2028-02-seminal",
+          "word": "seminal",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly influencing later work and containing the seeds of future development.",
+          "example": "Her seminal paper on genetics inspired decades of research that followed it.",
+          "mnemonic": "From Latin 'semen' = seed — a seminal idea plants seeds that everything later grows from.",
+          "synonyms": [
+            "influential",
+            "groundbreaking",
+            "formative"
+          ],
+          "antonyms": [
+            "derivative",
+            "unoriginal",
+            "trivial"
+          ]
+        },
+        {
+          "id": "2028-02-germinal",
+          "word": "germinal",
+          "partOfSpeech": "adjective",
+          "definition": "Being in the earliest stage and capable of developing into something larger.",
+          "example": "The project was still in its germinal phase, just a rough sketch and a few scattered notes.",
+          "mnemonic": "Think 'germ' — a seed or germ from which bigger things sprout and grow.",
+          "synonyms": [
+            "embryonic",
+            "nascent",
+            "developing"
+          ],
+          "antonyms": [
+            "mature",
+            "developed",
+            "full-grown"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2028-02-formative",
+          "word": "formative",
+          "partOfSpeech": "adjective",
+          "definition": "Having a deep and lasting influence on someone's character or growth during early stages.",
+          "example": "Her summers exploring tide pools were the most formative years of her childhood.",
+          "mnemonic": "Root 'form' + '-ative' — these are the experiences that FORM who you become.",
+          "synonyms": [
+            "developmental",
+            "influential",
+            "shaping"
+          ],
+          "antonyms": [
+            "insignificant",
+            "negligible"
+          ]
+        },
+        {
+          "id": "2028-02-gestate",
+          "word": "gestate",
+          "partOfSpeech": "verb",
+          "definition": "To carry developing young inside the body before birth, or to let an idea mature slowly.",
+          "example": "Elephants gestate for nearly two years before a single calf is finally born.",
+          "mnemonic": "Sounds like 'just ate' — a pregnant belly swells as though it just ate a huge meal.",
+          "synonyms": [
+            "develop",
+            "incubate",
+            "mature"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-02-incubate",
+          "word": "incubate",
+          "partOfSpeech": "verb",
+          "definition": "To keep eggs warm until they hatch, or to nurture something quietly as it develops.",
+          "example": "The hen patiently incubated her clutch for three weeks until the chicks pecked free.",
+          "mnemonic": "IN a CUBE — picture eggs kept snug inside a heated cube box until they hatch.",
+          "synonyms": [
+            "hatch",
+            "brood",
+            "nurture"
+          ],
+          "antonyms": [
+            "neglect",
+            "abandon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2028-02-spawn",
+          "word": "spawn",
+          "partOfSpeech": "verb",
+          "definition": "To give rise to or produce something, often rapidly and in large numbers.",
+          "example": "The viral clip spawned dozens of copycat videos within a single week.",
+          "mnemonic": "Think of a video game 'spawn point' where new enemies keep popping into existence.",
+          "synonyms": [
+            "generate",
+            "produce",
+            "breed"
+          ],
+          "antonyms": [
+            "destroy",
+            "eliminate"
+          ]
+        },
+        {
+          "id": "2028-02-engender",
+          "word": "engender",
+          "partOfSpeech": "verb",
+          "definition": "To cause a feeling, condition, or situation to come into being.",
+          "example": "His calm honesty engendered trust among even the most skeptical members of the team.",
+          "mnemonic": "en-GENDER — 'gen' as in generate; it generates or brings feelings into being.",
+          "synonyms": [
+            "cause",
+            "produce",
+            "provoke"
+          ],
+          "antonyms": [
+            "suppress",
+            "prevent"
+          ]
+        },
+        {
+          "id": "2028-02-beget",
+          "word": "beget",
+          "partOfSpeech": "verb",
+          "definition": "To father a child, or to bring about a result as a direct consequence.",
+          "example": "Left unaddressed, poverty can beget crime when people run out of honest options.",
+          "mnemonic": "be-GET — you 'get' something into being; what you sow, you beget.",
+          "synonyms": [
+            "father",
+            "sire",
+            "cause"
+          ],
+          "antonyms": [
+            "prevent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2028-02-kindle",
+          "word": "kindle",
+          "partOfSpeech": "verb",
+          "definition": "To set something alight, or to stir up a feeling or interest.",
+          "example": "A single stray spark kindled the dry brush into a roaring blaze.",
+          "mnemonic": "Kindling — the small dry twigs you use to start a campfire.",
+          "synonyms": [
+            "ignite",
+            "spark",
+            "arouse"
+          ],
+          "antonyms": [
+            "extinguish",
+            "smother",
+            "quench"
+          ]
+        },
+        {
+          "id": "2028-02-embark",
+          "word": "embark",
+          "partOfSpeech": "verb",
+          "definition": "To board a ship or aircraft, or to begin a new venture.",
+          "example": "After graduation, she embarked on a solo journey across South America.",
+          "mnemonic": "em-BARK — step onto the 'barque' (a boat) and set off on your voyage.",
+          "synonyms": [
+            "begin",
+            "commence",
+            "launch"
+          ],
+          "antonyms": [
+            "disembark",
+            "conclude"
+          ]
+        },
+        {
+          "id": "2028-02-debut",
+          "word": "debut",
+          "partOfSpeech": "noun",
+          "definition": "A first public appearance or performance by a person or product.",
+          "example": "The young violinist made her debut at Carnegie Hall to thunderous applause.",
+          "mnemonic": "Sounds like 'day-boo' — the day you first step out and hope nobody boos.",
+          "synonyms": [
+            "premiere",
+            "introduction",
+            "unveiling"
+          ],
+          "antonyms": [
+            "finale",
+            "farewell"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2028-02-prelude",
+          "word": "prelude",
+          "partOfSpeech": "noun",
+          "definition": "An event or short piece of music that comes before and leads into something bigger.",
+          "example": "The quiet back-channel talks were merely a prelude to the historic peace treaty.",
+          "mnemonic": "pre- ('before') + 'lude' (Latin ludus, play) — it plays before the main event.",
+          "synonyms": [
+            "introduction",
+            "preliminary",
+            "curtain-raiser"
+          ],
+          "antonyms": [
+            "conclusion",
+            "finale",
+            "aftermath"
+          ]
+        },
+        {
+          "id": "2028-02-preamble",
+          "word": "preamble",
+          "partOfSpeech": "noun",
+          "definition": "An opening statement that explains the purpose of a document or speech.",
+          "example": "The constitution's preamble lays out its goals before any actual laws appear.",
+          "mnemonic": "pre- ('before') + 'amble' (to walk) — you walk in first, before the real text.",
+          "synonyms": [
+            "introduction",
+            "foreword",
+            "preface"
+          ],
+          "antonyms": [
+            "conclusion",
+            "epilogue",
+            "appendix"
+          ]
+        },
+        {
+          "id": "2028-02-prologue",
+          "word": "prologue",
+          "partOfSpeech": "noun",
+          "definition": "An introductory section of a book or play that sets up what follows.",
+          "example": "The novel's prologue hints at the murder long before the first chapter begins.",
+          "mnemonic": "pro- ('before') + 'logue' (logos, speech) — the words spoken before the story.",
+          "synonyms": [
+            "introduction",
+            "preface",
+            "foreword"
+          ],
+          "antonyms": [
+            "epilogue",
+            "conclusion",
+            "afterword"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2028-02-overture",
+          "word": "overture",
+          "partOfSpeech": "noun",
+          "definition": "An orchestral opening to a performance, or a first approach made to begin talks.",
+          "example": "The rival company made a friendly overture, quietly suggesting the two firms merge.",
+          "mnemonic": "OVERTURE opens the door — the music that swings the opera curtain wide.",
+          "synonyms": [
+            "prelude",
+            "approach",
+            "proposal"
+          ],
+          "antonyms": [
+            "finale",
+            "conclusion",
+            "rejection"
+          ]
+        },
+        {
+          "id": "2028-02-harbinger",
+          "word": "harbinger",
+          "partOfSpeech": "noun",
+          "definition": "A sign or person that announces the approach of something yet to come.",
+          "example": "The first robin on the lawn is often a harbinger of spring.",
+          "mnemonic": "'HARBOR-inger' — a harbor lookout who shouts a warning, 'a ship is coming!'",
+          "synonyms": [
+            "omen",
+            "forerunner",
+            "sign"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-02-herald",
+          "word": "herald",
+          "partOfSpeech": "verb",
+          "definition": "To announce or signal the arrival of something, often with fanfare.",
+          "example": "Church bells heralded the arrival of the new year exactly at midnight.",
+          "mnemonic": "A 'Herald' newspaper proclaims the day's news — a herald announces what's coming.",
+          "synonyms": [
+            "announce",
+            "proclaim",
+            "signal"
+          ],
+          "antonyms": [
+            "conceal",
+            "suppress"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2028-02-precursor",
+          "word": "precursor",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that comes before and paves the way for another.",
+          "example": "The steam engine was a precursor to the modern locomotive.",
+          "mnemonic": "pre- (before) + cursor: the blinking cursor that runs ahead of what you type.",
+          "synonyms": [
+            "forerunner",
+            "harbinger",
+            "herald"
+          ],
+          "antonyms": [
+            "successor",
+            "descendant",
+            "sequel"
+          ]
+        },
+        {
+          "id": "2028-02-progenitor",
+          "word": "progenitor",
+          "partOfSpeech": "noun",
+          "definition": "An ancestor or the originator of a family, line, or idea.",
+          "example": "Bach is often called the progenitor of the modern keyboard fugue.",
+          "mnemonic": "pro- (forth) + gen (birth): one who brings forth generations.",
+          "synonyms": [
+            "ancestor",
+            "forebear",
+            "founder"
+          ],
+          "antonyms": [
+            "descendant",
+            "offspring",
+            "heir"
+          ]
+        },
+        {
+          "id": "2028-02-foreshadow",
+          "word": "foreshadow",
+          "partOfSpeech": "verb",
+          "definition": "To hint at or give a warning of something before it happens.",
+          "example": "The dark clouds in chapter one foreshadow the tragedy to come.",
+          "mnemonic": "A shadow falls before (fore) the object arrives — you see the shadow first.",
+          "synonyms": [
+            "presage",
+            "portend",
+            "augur"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2028-02-prefigure",
+          "word": "prefigure",
+          "partOfSpeech": "verb",
+          "definition": "To represent or indicate beforehand what will come later.",
+          "example": "Early Renaissance sketches prefigure the grand frescoes he later painted.",
+          "mnemonic": "pre- (before) + figure: you figure it out before it actually shows up.",
+          "synonyms": [
+            "foreshadow",
+            "presage",
+            "herald"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-02-emergent",
+          "word": "emergent",
+          "partOfSpeech": "adjective",
+          "definition": "In the process of coming into being or becoming prominent.",
+          "example": "The startup operates in an emergent market that barely existed five years ago.",
+          "mnemonic": "e- (out) + merge: qualities that rise out of a system as it forms.",
+          "synonyms": [
+            "nascent",
+            "budding",
+            "developing"
+          ],
+          "antonyms": [
+            "established",
+            "mature",
+            "declining"
+          ]
+        },
+        {
+          "id": "2028-02-emanate",
+          "word": "emanate",
+          "partOfSpeech": "verb",
+          "definition": "To flow out, issue, or spread from a source.",
+          "example": "A warm glow seemed to emanate from the old fireplace.",
+          "mnemonic": "e- (out) + 'a man ate' garlic — the odor emanates from him.",
+          "synonyms": [
+            "emit",
+            "radiate",
+            "exude"
+          ],
+          "antonyms": [
+            "absorb",
+            "withhold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2028-02-emerge",
+          "word": "emerge",
+          "partOfSpeech": "verb",
+          "definition": "To come out into view or become known after being hidden.",
+          "example": "After hours underground, the miners finally emerged into the sunlight.",
+          "mnemonic": "e- (out) + merge: to un-merge from the crowd and step out.",
+          "synonyms": [
+            "appear",
+            "surface",
+            "arise"
+          ],
+          "antonyms": [
+            "disappear",
+            "submerge",
+            "vanish"
+          ]
+        },
+        {
+          "id": "2028-02-materialize",
+          "word": "materialize",
+          "partOfSpeech": "verb",
+          "definition": "To appear suddenly or become an actual fact.",
+          "example": "The promised bonus never materialized, despite months of assurances.",
+          "mnemonic": "To turn into matter/material — becoming solid stuff you can touch.",
+          "synonyms": [
+            "appear",
+            "emerge",
+            "manifest"
+          ],
+          "antonyms": [
+            "vanish",
+            "disappear",
+            "dissolve"
+          ]
+        },
+        {
+          "id": "2028-02-sprout",
+          "word": "sprout",
+          "partOfSpeech": "verb",
+          "definition": "To begin to grow or shoot forth, as a young plant does.",
+          "example": "Within a week, tiny green shoots began to sprout from the soil.",
+          "mnemonic": "Rhymes with 'shoot out' — a seed shoots out a little sprout.",
+          "synonyms": [
+            "germinate",
+            "bud",
+            "shoot"
+          ],
+          "antonyms": [
+            "wither",
+            "wilt",
+            "die"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2028-02-archetype",
+          "word": "archetype",
+          "partOfSpeech": "noun",
+          "definition": "A perfect or original model on which others are based.",
+          "example": "The wise old wizard is an archetype found in countless fantasy tales.",
+          "mnemonic": "arch- (chief, as in archbishop) + type: the master pattern of a thing.",
+          "synonyms": [
+            "prototype",
+            "model",
+            "paradigm"
+          ],
+          "antonyms": [
+            "copy",
+            "imitation",
+            "derivative"
+          ]
+        },
+        {
+          "id": "2028-02-prototype",
+          "word": "prototype",
+          "partOfSpeech": "noun",
+          "definition": "A first or preliminary model from which later versions are developed.",
+          "example": "Engineers tested the prototype for months before mass production began.",
+          "mnemonic": "proto- (first) + type: the first type ever built.",
+          "synonyms": [
+            "model",
+            "mock-up",
+            "template"
+          ],
+          "antonyms": [
+            "finished product",
+            "replica"
+          ]
+        },
+        {
+          "id": "2028-02-pioneer",
+          "word": "pioneer",
+          "partOfSpeech": "noun",
+          "definition": "A person who is among the first to explore or develop something new.",
+          "example": "She was a pioneer of heart surgery when few believed it possible.",
+          "mnemonic": "Sounds like 'pie on ear' — picture the first bold settler wearing a pie, going where none went.",
+          "synonyms": [
+            "trailblazer",
+            "forerunner",
+            "innovator"
+          ],
+          "antonyms": [
+            "follower",
+            "successor",
+            "latecomer"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2028-02-actuate",
+          "word": "actuate",
+          "partOfSpeech": "verb",
+          "definition": "To set a mechanism into motion or trigger it to operate.",
+          "example": "A small sensor actuates the valve when water pressure rises.",
+          "mnemonic": "'act-you-ate': eating an ACT bar gives you the energy to throw the lever.",
+          "synonyms": [
+            "activate",
+            "trigger",
+            "propel"
+          ],
+          "antonyms": [
+            "halt",
+            "stop",
+            "deactivate"
+          ]
+        },
+        {
+          "id": "2028-02-catalyze",
+          "word": "catalyze",
+          "partOfSpeech": "verb",
+          "definition": "To speed up or bring about a reaction or change.",
+          "example": "Her bold speech catalyzed a wave of reforms across the country.",
+          "mnemonic": "From chemistry's catalyst — it accelerates a reaction without being used up itself.",
+          "synonyms": [
+            "accelerate",
+            "spark",
+            "trigger"
+          ],
+          "antonyms": [
+            "hinder",
+            "impede",
+            "slow"
+          ]
+        },
+        {
+          "id": "2028-02-galvanize",
+          "word": "galvanize",
+          "partOfSpeech": "verb",
+          "definition": "To shock or stir someone into sudden, energetic action.",
+          "example": "The coach's halftime speech galvanized the exhausted team into a comeback.",
+          "mnemonic": "Named after Galvani, who made frog legs twitch with electricity — a jolt into motion.",
+          "synonyms": [
+            "spur",
+            "rouse",
+            "electrify"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter",
+            "pacify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2028-02-mobilize",
+          "word": "mobilize",
+          "partOfSpeech": "verb",
+          "definition": "To gather and prepare a group or resources for a particular purpose or action.",
+          "example": "When the flood warning came, the town mobilized volunteers to fill sandbags overnight.",
+          "mnemonic": "MOBILE-ize — make everyone mobile, get them moving together toward one goal.",
+          "synonyms": [
+            "rally",
+            "marshal",
+            "muster"
+          ],
+          "antonyms": [
+            "disband",
+            "scatter"
+          ]
+        },
+        {
+          "id": "2028-02-spur",
+          "word": "spur",
+          "partOfSpeech": "verb",
+          "definition": "To urge someone onward or prompt an activity to happen more quickly.",
+          "example": "Her rival's success spurred him to train even harder for the championship.",
+          "mnemonic": "A spur is the metal spike on a cowboy's boot that pokes a horse to go faster.",
+          "synonyms": [
+            "prompt",
+            "goad",
+            "stimulate"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter",
+            "hinder"
+          ]
+        },
+        {
+          "id": "2028-02-usher",
+          "word": "usher",
+          "partOfSpeech": "verb",
+          "definition": "To guide or escort someone to a place, or to help something begin.",
+          "example": "A staff member ushered the guests to their seats before the ceremony began.",
+          "mnemonic": "An usher at a theater walks you to your seat — 'us-here,' pointing you right here.",
+          "synonyms": [
+            "escort",
+            "guide",
+            "conduct"
+          ],
+          "antonyms": [
+            "eject",
+            "expel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2028-02-nucleus",
+          "word": "nucleus",
+          "partOfSpeech": "noun",
+          "definition": "The central and most important part of something, around which other parts gather.",
+          "example": "Three veteran players formed the nucleus around which the coach built his team.",
+          "mnemonic": "Say 'new-clee-us' — the nut at the very center of an atom or a cell.",
+          "synonyms": [
+            "core",
+            "center",
+            "heart"
+          ],
+          "antonyms": [
+            "periphery",
+            "edge",
+            "outskirts"
+          ]
+        },
+        {
+          "id": "2028-02-ancestral",
+          "word": "ancestral",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to relatives from earlier generations or things passed down from them.",
+          "example": "The family returned to their ancestral village to see the house their great-grandparents built.",
+          "mnemonic": "Ancestral = 'ancient' relatives — the old family line stretching far back.",
+          "synonyms": [
+            "hereditary",
+            "inherited",
+            "familial"
+          ],
+          "antonyms": [
+            "modern",
+            "contemporary"
+          ]
+        },
+        {
+          "id": "2028-02-forebear",
+          "word": "forebear",
+          "partOfSpeech": "noun",
+          "definition": "A person from whom one is descended; a relative of past generations.",
+          "example": "Portraits of her forebears, going back six generations, lined the staircase wall.",
+          "mnemonic": "Fore (before) + bear (to bring forth) — one who came before and brought forth your line.",
+          "synonyms": [
+            "ancestor",
+            "forefather",
+            "progenitor"
+          ],
+          "antonyms": [
+            "descendant",
+            "offspring"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2028-02-lineage",
+          "word": "lineage",
+          "partOfSpeech": "noun",
+          "definition": "The line of people from whom someone is descended; ancestry.",
+          "example": "He could trace his lineage back to a knight who fought in the Crusades.",
+          "mnemonic": "LINE + age — the family line traced through the ages.",
+          "synonyms": [
+            "ancestry",
+            "descent",
+            "pedigree"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-02-renewal",
+          "word": "renewal",
+          "partOfSpeech": "noun",
+          "definition": "The act of restoring something to a fresh or valid condition after it lapsed.",
+          "example": "The spring rains brought a renewal of green across the drought-stricken fields.",
+          "mnemonic": "RE (again) + NEW — making something new once more.",
+          "synonyms": [
+            "restoration",
+            "revival",
+            "regeneration"
+          ],
+          "antonyms": [
+            "decline",
+            "decay"
+          ]
+        },
+        {
+          "id": "2028-02-revival",
+          "word": "revival",
+          "partOfSpeech": "noun",
+          "definition": "The act of bringing something back to life, use, or popularity.",
+          "example": "The old theater's revival brought sold-out crowds back to a building once slated for demolition.",
+          "mnemonic": "RE + VIVA (life, as in shouting 'viva!') — brought back to life.",
+          "synonyms": [
+            "resurgence",
+            "renaissance",
+            "comeback"
+          ],
+          "antonyms": [
+            "decline",
+            "demise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2028-02-resurgence",
+          "word": "resurgence",
+          "partOfSpeech": "noun",
+          "definition": "A rise or increase again after a period of little activity or decline.",
+          "example": "The city saw a resurgence of interest in vinyl records among young listeners.",
+          "mnemonic": "RE (again) + SURGE — a surge that comes rolling back.",
+          "synonyms": [
+            "revival",
+            "comeback",
+            "upswing"
+          ],
+          "antonyms": [
+            "decline",
+            "ebb"
+          ]
+        },
+        {
+          "id": "2028-02-resurgent",
+          "word": "resurgent",
+          "partOfSpeech": "adjective",
+          "definition": "Rising or becoming strong again after a period of decline.",
+          "example": "A resurgent economy pushed unemployment to its lowest level in a decade.",
+          "mnemonic": "Like a wave that SURGES back up — RE-surgent, cresting once more.",
+          "synonyms": [
+            "rebounding",
+            "recovering",
+            "reviving"
+          ],
+          "antonyms": [
+            "declining",
+            "waning"
+          ]
+        },
+        {
+          "id": "2028-02-renascent",
+          "word": "renascent",
+          "partOfSpeech": "adjective",
+          "definition": "Being reborn or becoming active and popular once more.",
+          "example": "A renascent folk-music scene filled the town's cafes with banjos and fiddles again.",
+          "mnemonic": "Same root as 'renaissance'; 'nascent' means being born, so renascent = born again.",
+          "synonyms": [
+            "reborn",
+            "revived",
+            "resurgent"
+          ],
+          "antonyms": [
+            "dying",
+            "fading"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2028-02-rejuvenate",
+          "word": "rejuvenate",
+          "partOfSpeech": "verb",
+          "definition": "To make someone or something feel young, fresh, or energetic once more.",
+          "example": "A week by the sea rejuvenated her, and she returned to work full of energy.",
+          "mnemonic": "RE + JUVENILE (young) — to make young again.",
+          "synonyms": [
+            "revitalize",
+            "refresh",
+            "renew"
+          ],
+          "antonyms": [
+            "exhaust",
+            "drain"
+          ]
+        },
+        {
+          "id": "2028-02-regenerate",
+          "word": "regenerate",
+          "partOfSpeech": "verb",
+          "definition": "To grow or form again, or to restore something to a healthier state.",
+          "example": "A lizard can regenerate its tail after losing it to a predator.",
+          "mnemonic": "RE (again) + GENERATE — to bring into being once more.",
+          "synonyms": [
+            "renew",
+            "restore",
+            "revive"
+          ],
+          "antonyms": [
+            "degenerate",
+            "destroy"
+          ]
+        },
+        {
+          "id": "2028-02-reinvigorate",
+          "word": "reinvigorate",
+          "partOfSpeech": "verb",
+          "definition": "To give fresh energy, strength, or enthusiasm to a person or thing.",
+          "example": "The new coach reinvigorated a tired squad, and they won their next five games.",
+          "mnemonic": "RE + INVIGORATE (from 'vigor,' meaning energy) — to fill with vigor again.",
+          "synonyms": [
+            "energize",
+            "revitalize",
+            "refresh"
+          ],
+          "antonyms": [
+            "exhaust",
+            "deplete",
+            "weaken"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2028-02-rekindle",
+          "word": "rekindle",
+          "partOfSpeech": "verb",
+          "definition": "To reawaken a feeling or relationship that had faded or grown cold.",
+          "example": "After years apart, the reunion rekindled their old friendship almost instantly.",
+          "mnemonic": "Re- (again) + kindle (to light a fire): to light the fire again.",
+          "synonyms": [
+            "reignite",
+            "reawaken",
+            "revive"
+          ],
+          "antonyms": [
+            "extinguish",
+            "smother"
+          ]
+        },
+        {
+          "id": "2028-02-resuscitate",
+          "word": "resuscitate",
+          "partOfSpeech": "verb",
+          "definition": "To bring an unconscious or nearly dead person back to consciousness or life.",
+          "example": "Paramedics worked frantically to resuscitate the drowning swimmer on the beach.",
+          "mnemonic": "Sounds like 'rescue-sitate' — you rescue a stopped heart by pumping the chest.",
+          "synonyms": [
+            "revive",
+            "revivify",
+            "restore"
+          ],
+          "antonyms": [
+            "kill",
+            "suffocate"
+          ]
+        },
+        {
+          "id": "2028-02-revive",
+          "word": "revive",
+          "partOfSpeech": "verb",
+          "definition": "To restore strength, consciousness, or activity to something weakened.",
+          "example": "A splash of cold water revived him after he fainted in the heat.",
+          "mnemonic": "Re- (again) + Latin 'vivere' (to live): to live again.",
+          "synonyms": [
+            "resuscitate",
+            "restore",
+            "reawaken"
+          ],
+          "antonyms": [
+            "kill",
+            "deaden"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2028-02-reconstitute",
+          "word": "reconstitute",
+          "partOfSpeech": "verb",
+          "definition": "To restore something to its original state, often by adding water to a dried form.",
+          "example": "Add boiling water to reconstitute the freeze-dried soup into a hot meal.",
+          "mnemonic": "Re- (again) + constitute (to form): form it back together — just add water and it's whole.",
+          "synonyms": [
+            "reconstruct",
+            "restore",
+            "reassemble"
+          ],
+          "antonyms": [
+            "dehydrate",
+            "dismantle"
+          ]
+        },
+        {
+          "id": "2028-02-rehabilitate",
+          "word": "rehabilitate",
+          "partOfSpeech": "verb",
+          "definition": "To restore someone to good health, normal life, or former good reputation.",
+          "example": "The clinic helped rehabilitate the injured athlete until she could run again.",
+          "mnemonic": "Re- (again) + Latin 'habilis' (able): to make able again.",
+          "synonyms": [
+            "reform",
+            "restore",
+            "mend"
+          ],
+          "antonyms": [
+            "damage",
+            "harm"
+          ]
+        },
+        {
+          "id": "2028-02-terminate",
+          "word": "terminate",
+          "partOfSpeech": "verb",
+          "definition": "To bring to an end or stop something completely.",
+          "example": "The company decided to terminate his contract after repeated absences.",
+          "mnemonic": "Picture the Terminator — he shows up to finish things off for good.",
+          "synonyms": [
+            "end",
+            "conclude",
+            "cease"
+          ],
+          "antonyms": [
+            "begin",
+            "initiate",
+            "start"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2028-02-terminus",
+          "word": "terminus",
+          "partOfSpeech": "noun",
+          "definition": "The final stop or endpoint of a railway line, bus route, or journey.",
+          "example": "The train sat empty at the terminus, having reached the last station on the line.",
+          "mnemonic": "Terminus was the Roman god of boundaries — the boundary where the line stops.",
+          "synonyms": [
+            "endpoint",
+            "destination",
+            "end"
+          ],
+          "antonyms": [
+            "origin",
+            "start",
+            "beginning"
+          ]
+        },
+        {
+          "id": "2028-02-terminal",
+          "word": "terminal",
+          "partOfSpeech": "adjective",
+          "definition": "Describing an illness that leads to death, or the last point of something.",
+          "example": "Doctors gave the terminal patient only a few months to live.",
+          "mnemonic": "It marks where your 'term' of time runs out — a term-inal condition ends the term.",
+          "synonyms": [
+            "fatal",
+            "incurable",
+            "final"
+          ],
+          "antonyms": [
+            "curable",
+            "initial",
+            "beginning"
+          ]
+        },
+        {
+          "id": "2028-02-finale",
+          "word": "finale",
+          "partOfSpeech": "noun",
+          "definition": "The concluding part of a musical work, show, or series of events.",
+          "example": "The orchestra brought the audience to its feet with a thunderous finale.",
+          "mnemonic": "Say it 'final-eh' — Italian for the last piece that closes the show.",
+          "synonyms": [
+            "conclusion",
+            "climax",
+            "ending"
+          ],
+          "antonyms": [
+            "overture",
+            "opening",
+            "prelude"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2028-02-denouement",
+          "word": "denouement",
+          "partOfSpeech": "noun",
+          "definition": "The final part of a story where the plot is resolved and loose ends tie up.",
+          "example": "In the novel's denouement, the detective reveals who committed the murder.",
+          "mnemonic": "From French 'dénouer' (to untie): the untying of the plot's knot.",
+          "synonyms": [
+            "resolution",
+            "conclusion",
+            "outcome"
+          ],
+          "antonyms": [
+            "introduction",
+            "setup",
+            "complication"
+          ]
+        },
+        {
+          "id": "2028-02-epilogue",
+          "word": "epilogue",
+          "partOfSpeech": "noun",
+          "definition": "A short concluding section that rounds off a book or play after the main action.",
+          "example": "The epilogue jumps forward ten years to show what became of the characters.",
+          "mnemonic": "Epi- (after) + Greek 'logos' (speech): the words tacked on after the story.",
+          "synonyms": [
+            "afterword",
+            "postscript",
+            "conclusion"
+          ],
+          "antonyms": [
+            "prologue",
+            "preface",
+            "introduction"
+          ]
+        },
+        {
+          "id": "2028-02-coda",
+          "word": "coda",
+          "partOfSpeech": "noun",
+          "definition": "A concluding passage of a piece of music or a final rounding-off event.",
+          "example": "The film's quiet coda showed the empty house years after everyone had left.",
+          "mnemonic": "Coda is Italian for 'tail' (Latin 'cauda') — the tail end of the piece.",
+          "synonyms": [
+            "conclusion",
+            "finale",
+            "ending"
+          ],
+          "antonyms": [
+            "introduction",
+            "prelude",
+            "opening"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2028-02-valediction",
+          "word": "valediction",
+          "partOfSpeech": "noun",
+          "definition": "The act of saying goodbye, especially in a formal speech or written closing.",
+          "example": "Her graceful valediction left the audience misty-eyed as she stepped off the stage.",
+          "mnemonic": "Latin 'vale' (farewell) + 'dicere' (to say): a saying of farewell.",
+          "synonyms": [
+            "farewell",
+            "goodbye",
+            "send-off"
+          ],
+          "antonyms": [
+            "greeting",
+            "welcome",
+            "salutation"
+          ]
+        },
+        {
+          "id": "2028-02-valedictory",
+          "word": "valedictory",
+          "partOfSpeech": "adjective",
+          "definition": "Serving as a farewell; expressing goodbye, as in a final speech.",
+          "example": "In his valedictory address, the retiring principal thanked three decades of students.",
+          "mnemonic": "Same 'vale' (farewell) + 'dicere' (to say) root — the goodbye-saying kind of speech.",
+          "synonyms": [
+            "farewell",
+            "parting",
+            "leave-taking"
+          ],
+          "antonyms": [
+            "introductory",
+            "welcoming",
+            "inaugural"
+          ]
+        },
+        {
+          "id": "2028-02-twilight",
+          "word": "twilight",
+          "partOfSpeech": "noun",
+          "definition": "The dim glow in the sky after sunset, or a period of decline near an end.",
+          "example": "In the fading twilight, the hikers could barely make out the trail ahead.",
+          "mnemonic": "'Twi-' (two, between) + light: the between-time when day and night meet.",
+          "synonyms": [
+            "dusk",
+            "gloaming",
+            "nightfall"
+          ],
+          "antonyms": [
+            "dawn",
+            "daybreak",
+            "noon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2028-02-dusk",
+          "word": "dusk",
+          "partOfSpeech": "noun",
+          "definition": "The dim period after sunset when daylight fades and night begins to fall.",
+          "example": "We packed up the picnic as the first bats swooped through the fading light at dusk.",
+          "mnemonic": "Sounds like 'dust' — picture dust hanging golden in the air as the sun sinks below the hills.",
+          "synonyms": [
+            "twilight",
+            "nightfall",
+            "gloaming"
+          ],
+          "antonyms": [
+            "dawn",
+            "daybreak",
+            "sunrise"
+          ]
+        },
+        {
+          "id": "2028-02-moribund",
+          "word": "moribund",
+          "partOfSpeech": "adjective",
+          "definition": "Near death or in terminal decline, with little chance of recovery.",
+          "example": "The old mill town felt moribund, its shops shuttered and its streets nearly empty.",
+          "mnemonic": "Latin 'mori' = to die (as in mortal, mortuary) — something 'bound' for the morgue.",
+          "synonyms": [
+            "dying",
+            "declining",
+            "failing"
+          ],
+          "antonyms": [
+            "thriving",
+            "flourishing",
+            "reviving"
+          ]
+        },
+        {
+          "id": "2028-02-defunct",
+          "word": "defunct",
+          "partOfSpeech": "adjective",
+          "definition": "No longer operating, active, or in use.",
+          "example": "She found a paycheck stub from a company that had been defunct for over thirty years.",
+          "mnemonic": "'de-' (un) + 'funct' (function) — it has lost its function and no longer works.",
+          "synonyms": [
+            "obsolete",
+            "inoperative",
+            "dead"
+          ],
+          "antonyms": [
+            "active",
+            "operational",
+            "functioning"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2028-02-extinct",
+          "word": "extinct",
+          "partOfSpeech": "adjective",
+          "definition": "Having died out completely, with no living members left anywhere.",
+          "example": "The dodo became extinct after sailors and their animals killed off the last of the birds.",
+          "mnemonic": "'ex-' (out) + 'tinct' (like a tint snuffed out) — the whole species has been blotted out.",
+          "synonyms": [
+            "vanished",
+            "wiped out",
+            "died out"
+          ],
+          "antonyms": [
+            "extant",
+            "living",
+            "thriving"
+          ]
+        },
+        {
+          "id": "2028-02-extinguish",
+          "word": "extinguish",
+          "partOfSpeech": "verb",
+          "definition": "To put out a fire or light, or to bring something to a complete end.",
+          "example": "Firefighters worked through the night to extinguish the blaze before it reached the houses.",
+          "mnemonic": "Hidden 'sting' — ex-STING-uish: you remove the sting of the flame by snuffing it out.",
+          "synonyms": [
+            "quench",
+            "douse",
+            "snuff out"
+          ],
+          "antonyms": [
+            "ignite",
+            "kindle",
+            "light"
+          ]
+        },
+        {
+          "id": "2028-02-abolish",
+          "word": "abolish",
+          "partOfSpeech": "verb",
+          "definition": "To formally put an end to a law, system, or practice.",
+          "example": "Reformers campaigned for years to abolish the cruel punishment from the legal code.",
+          "mnemonic": "Sounds like 'demolish' — you tear the whole institution down to the ground.",
+          "synonyms": [
+            "eliminate",
+            "eradicate",
+            "do away with"
+          ],
+          "antonyms": [
+            "establish",
+            "institute",
+            "create"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2028-02-abrogate",
+          "word": "abrogate",
+          "partOfSpeech": "verb",
+          "definition": "To officially cancel or set aside a law, treaty, or agreement by authority.",
+          "example": "The new government moved to abrogate the treaty that its predecessor had signed.",
+          "mnemonic": "'ab-' (away) + 'rogate' (to propose, as in interrogate) — the proposal is carried away.",
+          "synonyms": [
+            "repeal",
+            "revoke",
+            "annul"
+          ],
+          "antonyms": [
+            "uphold",
+            "ratify",
+            "establish"
+          ]
+        },
+        {
+          "id": "2028-02-annul",
+          "word": "annul",
+          "partOfSpeech": "verb",
+          "definition": "To declare a marriage or legal agreement invalid, as though it never existed.",
+          "example": "After only a month together, she asked the court to annul the hasty marriage.",
+          "mnemonic": "'a-NULL' — to reduce something to null, a zero, nothing at all.",
+          "synonyms": [
+            "void",
+            "invalidate",
+            "cancel"
+          ],
+          "antonyms": [
+            "validate",
+            "uphold",
+            "confirm"
+          ]
+        },
+        {
+          "id": "2028-02-nullify",
+          "word": "nullify",
+          "partOfSpeech": "verb",
+          "definition": "To make something legally void or to cancel out its effect entirely.",
+          "example": "A single missing signature was enough to nullify the whole contract.",
+          "mnemonic": "'null' + '-ify' — to make it null, to turn it into a zero.",
+          "synonyms": [
+            "negate",
+            "void",
+            "cancel"
+          ],
+          "antonyms": [
+            "validate",
+            "confirm",
+            "enforce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2028-02-rescind",
+          "word": "rescind",
+          "partOfSpeech": "verb",
+          "definition": "To officially cancel or withdraw a decision, order, or law.",
+          "example": "The company was forced to rescind the job offer after the budget was slashed.",
+          "mnemonic": "Sounds like 're-signed' backwards — you take your signature back off the deal.",
+          "synonyms": [
+            "revoke",
+            "repeal",
+            "withdraw"
+          ],
+          "antonyms": [
+            "uphold",
+            "enact",
+            "confirm"
+          ]
+        },
+        {
+          "id": "2028-02-revoke",
+          "word": "revoke",
+          "partOfSpeech": "verb",
+          "definition": "To officially cancel or take back a right, license, or permission.",
+          "example": "The state will revoke your driver's license if you rack up too many points.",
+          "mnemonic": "'re-' (back) + 'voke' (voice/call, as in invoke) — you call back what was granted.",
+          "synonyms": [
+            "withdraw",
+            "rescind",
+            "cancel"
+          ],
+          "antonyms": [
+            "grant",
+            "authorize",
+            "restore"
+          ]
+        },
+        {
+          "id": "2028-02-repeal",
+          "word": "repeal",
+          "partOfSpeech": "verb",
+          "definition": "To officially reverse or remove a law through an act of legislation.",
+          "example": "Congress voted to repeal the tax that had angered small business owners.",
+          "mnemonic": "Sounds like 're-peel' — you peel a law right back off the books.",
+          "synonyms": [
+            "revoke",
+            "rescind",
+            "abolish"
+          ],
+          "antonyms": [
+            "enact",
+            "pass",
+            "institute"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "2028-02-expire",
+          "word": "expire",
+          "partOfSpeech": "verb",
+          "definition": "To reach the end of a valid period, or to die.",
+          "example": "Use the coupon before you shop, because it will expire at midnight tonight.",
+          "mnemonic": "'ex-' (out) + 'spire' (breathe, as in respire) — to breathe out one final time.",
+          "synonyms": [
+            "lapse",
+            "terminate",
+            "elapse"
+          ],
+          "antonyms": [
+            "begin",
+            "commence",
+            "continue"
+          ]
+        },
+        {
+          "id": "2028-02-perish",
+          "word": "perish",
+          "partOfSpeech": "verb",
+          "definition": "To die or be destroyed, often suddenly or under harsh conditions.",
+          "example": "Hundreds of climbers have perished on the mountain's icy upper slopes.",
+          "mnemonic": "Think of 'perishable' food — left out, it spoils and is gone; to perish is to be lost.",
+          "synonyms": [
+            "die",
+            "succumb",
+            "expire"
+          ],
+          "antonyms": [
+            "survive",
+            "endure",
+            "live"
+          ]
+        },
+        {
+          "id": "2028-02-demise",
+          "word": "demise",
+          "partOfSpeech": "noun",
+          "definition": "The end or death of a person, institution, or activity.",
+          "example": "Streaming services hastened the demise of the neighborhood video rental store.",
+          "mnemonic": "From French 'mettre' (to put) + 'de-' (down) — the final laying-down, put to rest for good.",
+          "synonyms": [
+            "death",
+            "downfall",
+            "collapse"
+          ],
+          "antonyms": [
+            "birth",
+            "rise",
+            "beginning"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "mid-frequency and academic register — beginnings and endings",
+  "createdAt": "2026-09-12T08:28:48.267Z"
+}

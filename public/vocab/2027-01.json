@@ -1,0 +1,1749 @@
+{
+  "month": "2027-01",
+  "displayName": "January 2027",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2027-01-mutable",
+          "word": "mutable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be changed or altered over time.",
+          "example": "Software settings are mutable, so you can adjust them whenever your needs shift.",
+          "mnemonic": "Latin 'mutare' (to change) — the same root as 'mutation,' which rewrites DNA.",
+          "synonyms": [
+            "changeable",
+            "variable",
+            "alterable"
+          ],
+          "antonyms": [
+            "fixed",
+            "permanent",
+            "unchangeable"
+          ]
+        },
+        {
+          "id": "2027-01-immutable",
+          "word": "immutable",
+          "partOfSpeech": "adjective",
+          "definition": "Fixed and impossible to alter in any way.",
+          "example": "The laws of physics are immutable, holding true no matter what we wish.",
+          "mnemonic": "im- (not) + 'mutable' — picture an immovable stone monument that never shifts.",
+          "synonyms": [
+            "unchangeable",
+            "fixed",
+            "permanent"
+          ],
+          "antonyms": [
+            "changeable",
+            "variable",
+            "flexible"
+          ]
+        },
+        {
+          "id": "2027-01-ephemeral",
+          "word": "ephemeral",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only a brief moment before disappearing.",
+          "example": "The mayfly's ephemeral life spans barely a single day.",
+          "mnemonic": "Greek 'epi-hemera' = upon a day; mayflies (order Ephemeroptera) live about one day.",
+          "synonyms": [
+            "short-lived",
+            "momentary",
+            "fleeting"
+          ],
+          "antonyms": [
+            "lasting",
+            "permanent",
+            "eternal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2027-01-transient",
+          "word": "transient",
+          "partOfSpeech": "adjective",
+          "definition": "Staying or existing for only a short period.",
+          "example": "The motel catered to transient guests who rarely stayed more than one night.",
+          "mnemonic": "Shares its root with 'transit' — a transient is just passing through, like traffic in transit.",
+          "synonyms": [
+            "temporary",
+            "passing",
+            "brief"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "2027-01-transitory",
+          "word": "transitory",
+          "partOfSpeech": "adjective",
+          "definition": "Not lasting; soon passing away.",
+          "example": "Fame proved transitory for the singer, fading within a single season.",
+          "mnemonic": "Also built on 'transit' — plus -tory, like a story that ends as soon as it begins.",
+          "synonyms": [
+            "temporary",
+            "brief",
+            "momentary"
+          ],
+          "antonyms": [
+            "permanent",
+            "enduring",
+            "lasting"
+          ]
+        },
+        {
+          "id": "2027-01-fleeting",
+          "word": "fleeting",
+          "partOfSpeech": "adjective",
+          "definition": "Passing very quickly and gone in an instant.",
+          "example": "She caught only a fleeting glimpse of the deer before it bolted into the trees.",
+          "mnemonic": "A fleet moves fast, and a fleeting moment flees before you can hold it.",
+          "synonyms": [
+            "brief",
+            "momentary",
+            "quick"
+          ],
+          "antonyms": [
+            "lasting",
+            "permanent",
+            "enduring"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2027-01-evanescent",
+          "word": "evanescent",
+          "partOfSpeech": "adjective",
+          "definition": "Quickly fading from sight or memory.",
+          "example": "The evanescent morning mist burned away the moment the sun rose over the hills.",
+          "mnemonic": "Hear 'vanish' inside it — evaneSCENT, a scent that vanishes into thin air.",
+          "synonyms": [
+            "fading",
+            "fleeting",
+            "vanishing"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "2027-01-perennial",
+          "word": "perennial",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing or recurring year after year.",
+          "example": "Traffic congestion is a perennial complaint that returns every summer.",
+          "mnemonic": "Latin 'per-annus' = through the years; perennial plants bloom every year (per-annual).",
+          "synonyms": [
+            "recurring",
+            "continual",
+            "lasting"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary",
+            "transient"
+          ]
+        },
+        {
+          "id": "2027-01-perpetual",
+          "word": "perpetual",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing forever without interruption.",
+          "example": "The waterfall's perpetual roar never quieted, day or night.",
+          "mnemonic": "Think of a perpetual-motion machine — the fantasy device that supposedly never stops.",
+          "synonyms": [
+            "everlasting",
+            "constant",
+            "endless"
+          ],
+          "antonyms": [
+            "temporary",
+            "fleeting",
+            "intermittent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2027-01-enduring",
+          "word": "enduring",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting over a long period despite hardship or difficulty.",
+          "example": "Their friendship proved enduring, surviving decades apart and half a world of distance.",
+          "mnemonic": "From Latin 'durare' (to harden, to last) — the same root as 'durable' steel.",
+          "synonyms": [
+            "lasting",
+            "durable",
+            "persistent"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary",
+            "ephemeral"
+          ]
+        },
+        {
+          "id": "2027-01-abiding",
+          "word": "abiding",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing steadily for a long time without fading.",
+          "example": "He had an abiding love of the sea that stayed with him all his life.",
+          "mnemonic": "To 'abide' is to stay or dwell — an abiding guest is the one who never leaves.",
+          "synonyms": [
+            "lasting",
+            "steadfast",
+            "persistent"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary",
+            "transient"
+          ]
+        },
+        {
+          "id": "2027-01-inexorable",
+          "word": "inexorable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to stop, prevent, or persuade against.",
+          "example": "The inexorable advance of the glacier crushed everything in its path.",
+          "mnemonic": "in- (not) + 'exorable' (movable by pleading) — no amount of begging will turn it aside.",
+          "synonyms": [
+            "relentless",
+            "unstoppable",
+            "unyielding"
+          ],
+          "antonyms": [
+            "stoppable",
+            "yielding",
+            "flexible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2027-01-capricious",
+          "word": "capricious",
+          "partOfSpeech": "adjective",
+          "definition": "Prone to sudden, unpredictable shifts in mood or behavior.",
+          "example": "The capricious manager praised the plan on Monday and scrapped it by Tuesday.",
+          "mnemonic": "From Italian 'capra' (goat) — picture a capering goat leaping unpredictably this way and that.",
+          "synonyms": [
+            "fickle",
+            "whimsical",
+            "unpredictable"
+          ],
+          "antonyms": [
+            "steady",
+            "consistent",
+            "constant"
+          ]
+        },
+        {
+          "id": "2027-01-mercurial",
+          "word": "mercurial",
+          "partOfSpeech": "adjective",
+          "definition": "Changing moods quickly and unpredictably.",
+          "example": "His mercurial temper could swing from laughter to fury within minutes.",
+          "mnemonic": "Named for Mercury — the swift messenger god, and the metal that darts around when touched.",
+          "synonyms": [
+            "volatile",
+            "temperamental",
+            "fickle"
+          ],
+          "antonyms": [
+            "stable",
+            "steady",
+            "constant"
+          ]
+        },
+        {
+          "id": "2027-01-volatile",
+          "word": "volatile",
+          "partOfSpeech": "adjective",
+          "definition": "Likely to change suddenly or turn dangerous without warning.",
+          "example": "The stock market turned volatile, swinging wildly with every passing rumor.",
+          "mnemonic": "Latin 'volare' (to fly) — volatile liquids fly off as vapor, ready to 'fly off the handle.'",
+          "synonyms": [
+            "unstable",
+            "explosive",
+            "erratic"
+          ],
+          "antonyms": [
+            "stable",
+            "steady",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2027-01-protean",
+          "word": "protean",
+          "partOfSpeech": "adjective",
+          "definition": "Able to change shape, role, or character with great ease.",
+          "example": "The protean actor slipped from cackling villain to grieving father between two scenes.",
+          "mnemonic": "From Proteus, the Greek sea god who kept changing shape to escape capture.",
+          "synonyms": [
+            "mutable",
+            "versatile",
+            "changeable"
+          ],
+          "antonyms": [
+            "fixed",
+            "rigid",
+            "constant"
+          ]
+        },
+        {
+          "id": "2027-01-metamorphosis",
+          "word": "metamorphosis",
+          "partOfSpeech": "noun",
+          "definition": "A complete change of form, structure, or character in a living thing or situation.",
+          "example": "Watching the caterpillar's metamorphosis, the class cheered when the wet-winged butterfly finally emerged.",
+          "mnemonic": "Break it down: 'meta' (change) + 'morph' (form) — a change of form.",
+          "synonyms": [
+            "transformation",
+            "transmutation",
+            "conversion"
+          ],
+          "antonyms": [
+            "stasis",
+            "stagnation"
+          ]
+        },
+        {
+          "id": "2027-01-transmute",
+          "word": "transmute",
+          "partOfSpeech": "verb",
+          "definition": "To change one thing into another, especially into something of higher value.",
+          "example": "Alchemists spent lifetimes trying to transmute dull lead into gleaming gold.",
+          "mnemonic": "'trans-' (across) + 'mute' (from mutare, to change) — mutate all the way across into something new.",
+          "synonyms": [
+            "convert",
+            "transform",
+            "alter"
+          ],
+          "antonyms": [
+            "preserve",
+            "retain",
+            "fix"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2027-01-transfigure",
+          "word": "transfigure",
+          "partOfSpeech": "verb",
+          "definition": "To change the outward appearance of something, often making it more beautiful or spiritual.",
+          "example": "Dawn light poured in and transfigured the drab alley into something almost holy.",
+          "mnemonic": "'trans-' (change) + 'figure' — change the very figure or shape into a finer one.",
+          "synonyms": [
+            "transform",
+            "exalt",
+            "glorify"
+          ],
+          "antonyms": [
+            "disfigure",
+            "mar"
+          ]
+        },
+        {
+          "id": "2027-01-vicissitude",
+          "word": "vicissitude",
+          "partOfSpeech": "noun",
+          "definition": "An unpredictable change or variation in one's circumstances or fortune over time.",
+          "example": "Through every vicissitude of her long career, she carried the same battered notebook.",
+          "mnemonic": "Say 'vi-SIS-i-tude' — picture a fickle sis (sister) whose moods and luck keep swinging.",
+          "synonyms": [
+            "fluctuation",
+            "upheaval",
+            "reversal"
+          ],
+          "antonyms": [
+            "stability",
+            "constancy"
+          ]
+        },
+        {
+          "id": "2027-01-permutation",
+          "word": "permutation",
+          "partOfSpeech": "noun",
+          "definition": "One of the possible ways a set of things can be ordered or arranged.",
+          "example": "He gave up on the lock; there were far too many permutations to try by hand.",
+          "mnemonic": "'per' + 'mutation' — each mutation is one reshuffled ordering of the same pieces.",
+          "synonyms": [
+            "arrangement",
+            "variation",
+            "combination"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2027-01-aberration",
+          "word": "aberration",
+          "partOfSpeech": "noun",
+          "definition": "A departure from the normal, usual, or expected, often a one-off lapse.",
+          "example": "His outburst was an aberration; usually he's the calmest person in the room.",
+          "mnemonic": "'ab-' (away) + 'err' (to stray) — a straying away from the normal path.",
+          "synonyms": [
+            "deviation",
+            "anomaly",
+            "lapse"
+          ],
+          "antonyms": [
+            "norm",
+            "regularity"
+          ]
+        },
+        {
+          "id": "2027-01-anomaly",
+          "word": "anomaly",
+          "partOfSpeech": "noun",
+          "definition": "Something that differs from what is standard, normal, or expected.",
+          "example": "The satellite flagged a heat anomaly right in the middle of the frozen lake.",
+          "mnemonic": "Hear it as 'a-NOM-aly' → 'a not-normal-y' — a thing that just isn't normal.",
+          "synonyms": [
+            "irregularity",
+            "deviation",
+            "aberration"
+          ],
+          "antonyms": [
+            "norm",
+            "regularity",
+            "conformity"
+          ]
+        },
+        {
+          "id": "2027-01-stagnant",
+          "word": "stagnant",
+          "partOfSpeech": "adjective",
+          "definition": "Not moving or flowing, and therefore stale, or showing no growth or activity.",
+          "example": "Mosquitoes bred in the stagnant water pooled at the bottom of the abandoned pool.",
+          "mnemonic": "Picture a 'stag' standing dead-still in a pond — from Latin 'stagnum', a still pool.",
+          "synonyms": [
+            "motionless",
+            "stale",
+            "inactive"
+          ],
+          "antonyms": [
+            "flowing",
+            "dynamic",
+            "thriving"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2027-01-inert",
+          "word": "inert",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking the power to move or act; sluggish or chemically unreactive.",
+          "example": "After the anesthetic wore off slowly, his arm still lay inert on the table.",
+          "mnemonic": "Sounds like 'in a rut' — stuck, no get-up-and-go; 'in-' means 'not'.",
+          "synonyms": [
+            "motionless",
+            "unreactive",
+            "passive"
+          ],
+          "antonyms": [
+            "active",
+            "dynamic",
+            "reactive"
+          ]
+        },
+        {
+          "id": "2027-01-entrench",
+          "word": "entrench",
+          "partOfSpeech": "verb",
+          "definition": "To establish something so firmly that it becomes very hard to change.",
+          "example": "Decades of habit had entrenched the ritual so deeply that no one dared skip it.",
+          "mnemonic": "Dig a 'trench' — soldiers dug into a trench are firmly set and hard to dislodge.",
+          "synonyms": [
+            "embed",
+            "establish",
+            "ingrain"
+          ],
+          "antonyms": [
+            "dislodge",
+            "uproot",
+            "remove"
+          ]
+        },
+        {
+          "id": "2027-01-ossify",
+          "word": "ossify",
+          "partOfSpeech": "verb",
+          "definition": "To harden into bone, or to become rigid and resistant to change.",
+          "example": "Over the years the committee's thinking ossified into a set of untouchable rules.",
+          "mnemonic": "Latin 'os' (bone) + '-ify' (to make) — literally to turn into bone.",
+          "synonyms": [
+            "harden",
+            "stiffen",
+            "fossilize"
+          ],
+          "antonyms": [
+            "soften",
+            "loosen",
+            "adapt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2027-01-calcify",
+          "word": "calcify",
+          "partOfSpeech": "verb",
+          "definition": "To harden through mineral deposits, or to become fixed and unchanging.",
+          "example": "His early curiosity had calcified into stubborn certainty by the time he turned fifty.",
+          "mnemonic": "Think 'calcium' building up until soft tissue turns hard and chalky.",
+          "synonyms": [
+            "harden",
+            "stiffen",
+            "set"
+          ],
+          "antonyms": [
+            "soften",
+            "dissolve",
+            "loosen"
+          ]
+        },
+        {
+          "id": "2027-01-atrophy",
+          "word": "atrophy",
+          "partOfSpeech": "verb",
+          "definition": "To waste away or weaken, especially from lack of use or nourishment.",
+          "example": "Months trapped in the cast left the muscles of his leg visibly atrophied.",
+          "mnemonic": "'a-' (without) + 'trophy' (from Greek 'trophe', nourishment) — without nourishment, it withers.",
+          "synonyms": [
+            "wither",
+            "waste",
+            "degenerate"
+          ],
+          "antonyms": [
+            "grow",
+            "strengthen",
+            "develop"
+          ]
+        },
+        {
+          "id": "2027-01-wane",
+          "word": "wane",
+          "partOfSpeech": "verb",
+          "definition": "To gradually decrease in size, strength, or intensity over time.",
+          "example": "As the festival wore on, the crowd's energy began to wane and people drifted home.",
+          "mnemonic": "Sounds like 'wain' — picture a wagon (an old 'wain') slowly rolling downhill, getting smaller as it fades from view.",
+          "synonyms": [
+            "diminish",
+            "dwindle",
+            "fade"
+          ],
+          "antonyms": [
+            "wax",
+            "grow",
+            "increase"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2027-01-wax",
+          "word": "wax",
+          "partOfSpeech": "verb",
+          "definition": "To gradually grow larger, stronger, or more intense over time.",
+          "example": "As the moon began to wax, each night it appeared a little fuller than before.",
+          "mnemonic": "Picture a candle building up as hot drips pile on and grow — 'wax' the noun becomes 'wax' the verb: it keeps growing.",
+          "synonyms": [
+            "increase",
+            "grow",
+            "swell"
+          ],
+          "antonyms": [
+            "wane",
+            "diminish",
+            "shrink"
+          ]
+        },
+        {
+          "id": "2027-01-ebb",
+          "word": "ebb",
+          "partOfSpeech": "verb",
+          "definition": "To gradually decline, recede, or fade away in strength or amount.",
+          "example": "As the tide began to ebb, wet sand and stranded shells stretched further from the water.",
+          "mnemonic": "'Ebb' sounds like the deflating 'ehhh' of a balloon losing air — energy draining out and pulling back.",
+          "synonyms": [
+            "recede",
+            "decline",
+            "subside"
+          ],
+          "antonyms": [
+            "flow",
+            "rise",
+            "surge"
+          ]
+        },
+        {
+          "id": "2027-01-dwindle",
+          "word": "dwindle",
+          "partOfSpeech": "verb",
+          "definition": "To become steadily smaller in size, amount, or number.",
+          "example": "Their savings dwindled after months without work, until only a few coins remained.",
+          "mnemonic": "Sounds like 'wind'll' — wind blowing away a pile until little is left.",
+          "synonyms": [
+            "shrink",
+            "diminish",
+            "decrease"
+          ],
+          "antonyms": [
+            "grow",
+            "increase",
+            "expand"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2027-01-abate",
+          "word": "abate",
+          "partOfSpeech": "verb",
+          "definition": "To become less intense, severe, or forceful.",
+          "example": "Only when the storm abated could the ferries finally leave the harbor.",
+          "mnemonic": "A-BAIT: pull the bait off the hook and the fish's frenzy calms down.",
+          "synonyms": [
+            "subside",
+            "diminish",
+            "ease"
+          ],
+          "antonyms": [
+            "intensify",
+            "increase",
+            "worsen"
+          ]
+        },
+        {
+          "id": "2027-01-subside",
+          "word": "subside",
+          "partOfSpeech": "verb",
+          "definition": "To sink to a lower level or grow calmer and quieter.",
+          "example": "She waited for the swelling in her ankle to subside before trying to walk.",
+          "mnemonic": "SUB-side → settling toward the underside, sinking down.",
+          "synonyms": [
+            "recede",
+            "abate",
+            "diminish"
+          ],
+          "antonyms": [
+            "rise",
+            "increase",
+            "intensify"
+          ]
+        },
+        {
+          "id": "2027-01-burgeon",
+          "word": "burgeon",
+          "partOfSpeech": "verb",
+          "definition": "To begin growing rapidly and thrive.",
+          "example": "The startup burgeoned from three friends in a garage into a thousand-person company.",
+          "mnemonic": "Sounds like a 'bursting garden' — buds popping open all over in spring.",
+          "synonyms": [
+            "flourish",
+            "expand",
+            "mushroom"
+          ],
+          "antonyms": [
+            "shrink",
+            "wither",
+            "dwindle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2027-01-proliferate",
+          "word": "proliferate",
+          "partOfSpeech": "verb",
+          "definition": "To multiply or spread quickly in great numbers.",
+          "example": "Cheap knockoffs proliferated online until the market was flooded with them.",
+          "mnemonic": "PRO-LIFE-erate → life multiplying fast, cells dividing again and again.",
+          "synonyms": [
+            "multiply",
+            "mushroom",
+            "spread"
+          ],
+          "antonyms": [
+            "dwindle",
+            "decrease",
+            "diminish"
+          ]
+        },
+        {
+          "id": "2027-01-flourish",
+          "word": "flourish",
+          "partOfSpeech": "verb",
+          "definition": "To thrive, develop strongly, and be at one's healthiest or most successful.",
+          "example": "Ferns flourished in the damp, shady corner where nothing else would take root.",
+          "mnemonic": "Hidden 'flour' → well-fed plants and bakers alike thrive with plenty on hand.",
+          "synonyms": [
+            "thrive",
+            "prosper",
+            "bloom"
+          ],
+          "antonyms": [
+            "wither",
+            "decline",
+            "languish"
+          ]
+        },
+        {
+          "id": "2027-01-wither",
+          "word": "wither",
+          "partOfSpeech": "verb",
+          "definition": "To dry up, shrivel, and lose vitality, as a plant starved of water.",
+          "example": "Left unwatered for a week, the basil on the sill withered to brown stalks.",
+          "mnemonic": "Sounds like 'weather' — plants left out in harsh weather shrivel and droop.",
+          "synonyms": [
+            "shrivel",
+            "wilt",
+            "droop"
+          ],
+          "antonyms": [
+            "flourish",
+            "thrive",
+            "bloom"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2027-01-degenerate",
+          "word": "degenerate",
+          "partOfSpeech": "verb",
+          "definition": "To decline into a worse, lower, or less functional condition.",
+          "example": "The polite debate degenerated into a shouting match within minutes.",
+          "mnemonic": "DE-GENE-rate → moving away (de-) from a good origin (gene), breaking down.",
+          "synonyms": [
+            "decline",
+            "deteriorate",
+            "worsen"
+          ],
+          "antonyms": [
+            "improve",
+            "develop",
+            "advance"
+          ]
+        },
+        {
+          "id": "2027-01-deteriorate",
+          "word": "deteriorate",
+          "partOfSpeech": "verb",
+          "definition": "To become progressively worse in quality or condition.",
+          "example": "His handwriting deteriorated as his hand tired near the end of the long exam.",
+          "mnemonic": "Sounds like 'the tire ate' — the old tire ate itself away, getting worse daily.",
+          "synonyms": [
+            "worsen",
+            "decline",
+            "degrade"
+          ],
+          "antonyms": [
+            "improve",
+            "recover",
+            "strengthen"
+          ]
+        },
+        {
+          "id": "2027-01-erode",
+          "word": "erode",
+          "partOfSpeech": "verb",
+          "definition": "To wear away gradually through water, wind, or friction.",
+          "example": "Years of crashing waves eroded the cliff until the lighthouse teetered at its edge.",
+          "mnemonic": "E-RODE → water 'rode' over the rock again and again, wearing it down.",
+          "synonyms": [
+            "wear away",
+            "abrade",
+            "wear down"
+          ],
+          "antonyms": [
+            "build up",
+            "accumulate",
+            "deposit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2027-01-corrode",
+          "word": "corrode",
+          "partOfSpeech": "verb",
+          "definition": "To slowly eat away or destroy metal through chemical reaction such as rust.",
+          "example": "Salt spray corroded the ship's bolts until they crumbled at a touch.",
+          "mnemonic": "CORE-rode → acid riding into the core, rusting it from within.",
+          "synonyms": [
+            "rust",
+            "eat away",
+            "oxidize"
+          ],
+          "antonyms": [
+            "strengthen",
+            "protect",
+            "preserve"
+          ]
+        },
+        {
+          "id": "2027-01-decay",
+          "word": "decay",
+          "partOfSpeech": "verb",
+          "definition": "To rot or break down through natural decomposition.",
+          "example": "The fallen apples decayed into the soil, drawing clouds of fruit flies.",
+          "mnemonic": "Sounds like 'a decade' — leave anything a decade and it rots away.",
+          "synonyms": [
+            "rot",
+            "decompose",
+            "spoil"
+          ],
+          "antonyms": [
+            "flourish",
+            "grow",
+            "thrive"
+          ]
+        },
+        {
+          "id": "2027-01-disintegrate",
+          "word": "disintegrate",
+          "partOfSpeech": "verb",
+          "definition": "To break apart completely into small fragments or pieces.",
+          "example": "The ancient scroll disintegrated the moment he tried to unroll it.",
+          "mnemonic": "DIS-INTEGRATE → the opposite of integrating; parts coming un-joined into bits.",
+          "synonyms": [
+            "crumble",
+            "fragment",
+            "shatter"
+          ],
+          "antonyms": [
+            "unite",
+            "combine",
+            "integrate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2027-01-obsolete",
+          "word": "obsolete",
+          "partOfSpeech": "adjective",
+          "definition": "No longer in use because something newer or better has replaced it.",
+          "example": "Floppy disks became obsolete once cheap USB drives arrived.",
+          "mnemonic": "Sounds like 'ob-so-LATE' — so late to the party that nobody uses it anymore.",
+          "synonyms": [
+            "outdated",
+            "outmoded",
+            "superseded"
+          ],
+          "antonyms": [
+            "current",
+            "modern",
+            "cutting-edge"
+          ]
+        },
+        {
+          "id": "2027-01-antiquated",
+          "word": "antiquated",
+          "partOfSpeech": "adjective",
+          "definition": "Very old-fashioned and poorly suited to present-day needs or standards.",
+          "example": "The office still ran on an antiquated filing system of paper index cards.",
+          "mnemonic": "Contains 'antique' — as dated and dusty as an antique in a museum case.",
+          "synonyms": [
+            "old-fashioned",
+            "archaic",
+            "outdated"
+          ],
+          "antonyms": [
+            "modern",
+            "up-to-date",
+            "novel"
+          ]
+        },
+        {
+          "id": "2027-01-moribund",
+          "word": "moribund",
+          "partOfSpeech": "adjective",
+          "definition": "Close to ending or dying, and drained of energy and vitality.",
+          "example": "After years of shrinking sales, the once-mighty firm was clearly moribund.",
+          "mnemonic": "'Mori' is Latin for death (as in mortuary) — a moribund thing is bound for the grave.",
+          "synonyms": [
+            "dying",
+            "declining",
+            "stagnant"
+          ],
+          "antonyms": [
+            "thriving",
+            "flourishing",
+            "vigorous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2027-01-defunct",
+          "word": "defunct",
+          "partOfSpeech": "adjective",
+          "definition": "No longer existing, operating, or working.",
+          "example": "We found brochures from a travel agency that had shut its doors and gone defunct a decade ago.",
+          "mnemonic": "'De-' (not) + 'funct' (function) — it simply no longer functions.",
+          "synonyms": [
+            "extinct",
+            "inoperative",
+            "dead"
+          ],
+          "antonyms": [
+            "active",
+            "operational",
+            "living"
+          ]
+        },
+        {
+          "id": "2027-01-nascent",
+          "word": "nascent",
+          "partOfSpeech": "adjective",
+          "definition": "Just coming into being and starting to show signs of future growth.",
+          "example": "The nascent startup had only three employees and a single rough prototype.",
+          "mnemonic": "Shares a root with 'natal' and 'native' (Latin 'nasci', to be born) — a nascent thing is newborn.",
+          "synonyms": [
+            "emerging",
+            "budding",
+            "developing"
+          ],
+          "antonyms": [
+            "mature",
+            "established",
+            "developed"
+          ]
+        },
+        {
+          "id": "2027-01-incipient",
+          "word": "incipient",
+          "partOfSpeech": "adjective",
+          "definition": "At an early stage, just starting to appear or happen.",
+          "example": "The doctor caught an incipient infection before any real symptoms showed.",
+          "mnemonic": "Say 'in-SIP-ient' — you've taken only the first sip, so it has barely begun.",
+          "synonyms": [
+            "beginning",
+            "emerging",
+            "budding"
+          ],
+          "antonyms": [
+            "full-blown",
+            "developed",
+            "mature"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2027-01-embryonic",
+          "word": "embryonic",
+          "partOfSpeech": "adjective",
+          "definition": "At a very early, undeveloped stage that is not yet fully formed.",
+          "example": "The plan is still embryonic — more a scribble on a napkin than a blueprint.",
+          "mnemonic": "From 'embryo' — as tiny and unformed as an embryo in the womb.",
+          "synonyms": [
+            "rudimentary",
+            "undeveloped",
+            "immature"
+          ],
+          "antonyms": [
+            "mature",
+            "advanced",
+            "finished"
+          ]
+        },
+        {
+          "id": "2027-01-fledgling",
+          "word": "fledgling",
+          "partOfSpeech": "adjective",
+          "definition": "New, inexperienced, and only just getting started.",
+          "example": "The fledgling airline owned just two planes and flew a single route.",
+          "mnemonic": "A fledgling is a baby bird growing its first flight feathers — new and untested in the air.",
+          "synonyms": [
+            "budding",
+            "emerging",
+            "novice"
+          ],
+          "antonyms": [
+            "experienced",
+            "established",
+            "veteran"
+          ]
+        },
+        {
+          "id": "2027-01-inchoate",
+          "word": "inchoate",
+          "partOfSpeech": "adjective",
+          "definition": "Only partly formed, vague, and not yet clearly worked out.",
+          "example": "She had inchoate ideas for the novel but no plot or characters yet.",
+          "mnemonic": "Say 'in-KO-ate' and picture 'in-cocoon' — still wrapped up and shapeless.",
+          "synonyms": [
+            "unformed",
+            "vague",
+            "rudimentary"
+          ],
+          "antonyms": [
+            "complete",
+            "developed",
+            "fully-formed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2027-01-germinate",
+          "word": "germinate",
+          "partOfSpeech": "verb",
+          "definition": "To sprout and begin growing, the way a seed does.",
+          "example": "The beans germinate within a week if the soil stays warm and damp.",
+          "mnemonic": "Contains 'germ' — a seed's germ is the living part that bursts into growth.",
+          "synonyms": [
+            "sprout",
+            "bud",
+            "develop"
+          ],
+          "antonyms": [
+            "wither",
+            "decay",
+            "die"
+          ]
+        },
+        {
+          "id": "2027-01-evolve",
+          "word": "evolve",
+          "partOfSpeech": "verb",
+          "definition": "To develop gradually into a different or more complex form.",
+          "example": "Her weekend hobby slowly evolved into a full-time business.",
+          "mnemonic": "'E-' (out) + 'volve' (roll) — to unroll gradually, like a scroll opening bit by bit.",
+          "synonyms": [
+            "develop",
+            "progress",
+            "transform"
+          ],
+          "antonyms": [
+            "stagnate",
+            "regress",
+            "deteriorate"
+          ]
+        },
+        {
+          "id": "2027-01-adapt",
+          "word": "adapt",
+          "partOfSpeech": "verb",
+          "definition": "To adjust or change so as to fit new conditions.",
+          "example": "Desert foxes have huge ears that help them adapt to the brutal heat.",
+          "mnemonic": "'Ad-' (to) + 'apt' (fitting) — to make yourself apt, or well-suited, to a situation.",
+          "synonyms": [
+            "adjust",
+            "modify",
+            "accommodate"
+          ],
+          "antonyms": [
+            "resist",
+            "stagnate",
+            "remain unchanged"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2027-01-amend",
+          "word": "amend",
+          "partOfSpeech": "verb",
+          "definition": "To make small changes to a text or law in order to improve it.",
+          "example": "Congress voted to amend the bill by adding two new clauses.",
+          "mnemonic": "Hidden inside is 'mend' — you mend a document by fixing its flaws.",
+          "synonyms": [
+            "revise",
+            "alter",
+            "modify"
+          ],
+          "antonyms": [
+            "worsen",
+            "corrupt",
+            "leave intact"
+          ]
+        },
+        {
+          "id": "2027-01-revise",
+          "word": "revise",
+          "partOfSpeech": "verb",
+          "definition": "To look over something again and change it to correct or improve it.",
+          "example": "After the editor's notes, he had to revise the third chapter twice.",
+          "mnemonic": "'Re-' (again) + 'vise' (see, as in 'vision') — to see it again and change what's there.",
+          "synonyms": [
+            "edit",
+            "amend",
+            "rework"
+          ],
+          "antonyms": [
+            "retain",
+            "preserve",
+            "keep"
+          ]
+        },
+        {
+          "id": "2027-01-recast",
+          "word": "recast",
+          "partOfSpeech": "verb",
+          "definition": "To arrange, form, or present something in a new way.",
+          "example": "The director recast the gloomy report as a story of hard-won progress.",
+          "mnemonic": "'Re-' (again) + 'cast' — to melt it down and pour it into a fresh mold.",
+          "synonyms": [
+            "reshape",
+            "remodel",
+            "reframe"
+          ],
+          "antonyms": [
+            "retain",
+            "preserve",
+            "leave as is"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2027-01-transform",
+          "word": "transform",
+          "partOfSpeech": "verb",
+          "definition": "To completely change the shape, appearance, or nature of something.",
+          "example": "A fresh coat of paint and new lights can transform a dull room into a cozy space.",
+          "mnemonic": "TRANS- (across) + FORM: you carry a thing across into a whole new form.",
+          "synonyms": [
+            "convert",
+            "alter",
+            "reshape"
+          ],
+          "antonyms": [
+            "preserve",
+            "maintain"
+          ]
+        },
+        {
+          "id": "2027-01-revamp",
+          "word": "revamp",
+          "partOfSpeech": "verb",
+          "definition": "To give something a new and improved structure, look, or arrangement.",
+          "example": "The company decided to revamp its outdated website with a cleaner layout and faster checkout.",
+          "mnemonic": "RE- + VAMP: put a fresh 'vamp' (the front of a shoe) on an old boot to make it new again.",
+          "synonyms": [
+            "overhaul",
+            "modernize",
+            "refurbish"
+          ],
+          "antonyms": [
+            "neglect",
+            "preserve"
+          ]
+        },
+        {
+          "id": "2027-01-renovate",
+          "word": "renovate",
+          "partOfSpeech": "verb",
+          "definition": "To repair and restore an old building or structure to good condition.",
+          "example": "They spent a year renovating the crumbling farmhouse, replacing the roof and rotten floors.",
+          "mnemonic": "RE- (again) + NOV (new, as in 'novel'): make it new again.",
+          "synonyms": [
+            "restore",
+            "refurbish",
+            "remodel"
+          ],
+          "antonyms": [
+            "dilapidate",
+            "damage"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2027-01-rejuvenate",
+          "word": "rejuvenate",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel or look young, fresh, and full of energy again.",
+          "example": "A week by the sea rejuvenated her, and she returned to work bursting with energy.",
+          "mnemonic": "RE- + JUVEN (Latin 'juvenis' = young, like 'juvenile'): become young again.",
+          "synonyms": [
+            "refresh",
+            "revive",
+            "reinvigorate"
+          ],
+          "antonyms": [
+            "exhaust",
+            "age"
+          ]
+        },
+        {
+          "id": "2027-01-revitalize",
+          "word": "revitalize",
+          "partOfSpeech": "verb",
+          "definition": "To bring new strength, activity, or vigor to something that has weakened.",
+          "example": "New shops and a riverside park revitalized the once-empty downtown district.",
+          "mnemonic": "RE- + VITAL (life): put the 'vital' life force back in.",
+          "synonyms": [
+            "reinvigorate",
+            "reenergize",
+            "restore"
+          ],
+          "antonyms": [
+            "deaden",
+            "sap"
+          ]
+        },
+        {
+          "id": "2027-01-resurgence",
+          "word": "resurgence",
+          "partOfSpeech": "noun",
+          "definition": "A fresh rise or return of something after a period of decline.",
+          "example": "Vinyl records saw a surprising resurgence, with sales climbing every year for a decade.",
+          "mnemonic": "RE- + SURGE: a wave that surges back up after pulling away.",
+          "synonyms": [
+            "revival",
+            "comeback",
+            "upsurge"
+          ],
+          "antonyms": [
+            "decline",
+            "downturn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2027-01-renaissance",
+          "word": "renaissance",
+          "partOfSpeech": "noun",
+          "definition": "A revival of interest, activity, or achievement in art, culture, or a field.",
+          "example": "The neighborhood is enjoying a culinary renaissance, with bold new restaurants opening monthly.",
+          "mnemonic": "French for 'rebirth' — RE- + NAISS (born, like 'natal'): born anew.",
+          "synonyms": [
+            "rebirth",
+            "revival",
+            "flowering"
+          ],
+          "antonyms": [
+            "decline",
+            "stagnation"
+          ]
+        },
+        {
+          "id": "2027-01-regeneration",
+          "word": "regeneration",
+          "partOfSpeech": "noun",
+          "definition": "The natural regrowth or renewal of tissue, systems, or a damaged area.",
+          "example": "A lizard's tail is capable of regeneration, growing back after it breaks off.",
+          "mnemonic": "RE- + GENERATE: to generate (create) once more.",
+          "synonyms": [
+            "renewal",
+            "regrowth",
+            "restoration"
+          ],
+          "antonyms": [
+            "decay",
+            "degeneration"
+          ]
+        },
+        {
+          "id": "2027-01-relapse",
+          "word": "relapse",
+          "partOfSpeech": "noun",
+          "definition": "A return to a worse state after a period of improvement, especially in illness.",
+          "example": "The patient was recovering well until a sudden relapse sent her back to the hospital.",
+          "mnemonic": "RE- + LAPSE: you lapse (slip) back down again.",
+          "synonyms": [
+            "setback",
+            "recurrence",
+            "backslide"
+          ],
+          "antonyms": [
+            "recovery",
+            "improvement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2027-01-revert",
+          "word": "revert",
+          "partOfSpeech": "verb",
+          "definition": "To go back to a previous condition, habit, or topic.",
+          "example": "After the trial ended, the software would revert to its original locked settings.",
+          "mnemonic": "RE- + VERT (turn, as in 'U-turn'): turn back to where you were.",
+          "synonyms": [
+            "return",
+            "regress",
+            "relapse"
+          ],
+          "antonyms": [
+            "advance",
+            "progress"
+          ]
+        },
+        {
+          "id": "2027-01-recede",
+          "word": "recede",
+          "partOfSpeech": "verb",
+          "definition": "To move back, withdraw, or gradually grow fainter and more distant.",
+          "example": "As the tide receded, a wide stretch of wet sand and stranded shells appeared.",
+          "mnemonic": "RE- + CEDE (go, as in 'proceed'): go backward.",
+          "synonyms": [
+            "retreat",
+            "withdraw",
+            "ebb"
+          ],
+          "antonyms": [
+            "advance",
+            "approach"
+          ]
+        },
+        {
+          "id": "2027-01-regress",
+          "word": "regress",
+          "partOfSpeech": "verb",
+          "definition": "To move backward to a less developed or worse condition.",
+          "example": "Without daily practice, his piano skills began to regress to a beginner's level.",
+          "mnemonic": "RE- + GRESS (step, like 'progress'): step backward instead of forward.",
+          "synonyms": [
+            "deteriorate",
+            "backslide",
+            "decline"
+          ],
+          "antonyms": [
+            "progress",
+            "advance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2027-01-entropy",
+          "word": "entropy",
+          "partOfSpeech": "noun",
+          "definition": "A gradual slide into disorder, randomness, or breakdown within any system.",
+          "example": "Left untended for years, the garden gave in to entropy, choked with weeds and fallen branches.",
+          "mnemonic": "EN- + TROP (turning, Greek 'trope'): a system turning inward toward chaos.",
+          "synonyms": [
+            "disorder",
+            "chaos",
+            "decay"
+          ],
+          "antonyms": [
+            "order",
+            "organization"
+          ]
+        },
+        {
+          "id": "2027-01-perpetuate",
+          "word": "perpetuate",
+          "partOfSpeech": "verb",
+          "definition": "To cause something to continue or be preserved for a very long time.",
+          "example": "Repeating the rumor only perpetuates a myth that scientists disproved decades ago.",
+          "mnemonic": "PERPETU- (as in 'perpetual', never-ending): keep it going forever.",
+          "synonyms": [
+            "sustain",
+            "prolong",
+            "maintain"
+          ],
+          "antonyms": [
+            "end",
+            "halt"
+          ]
+        },
+        {
+          "id": "2027-01-immortalize",
+          "word": "immortalize",
+          "partOfSpeech": "verb",
+          "definition": "To ensure someone or something is remembered forever, often through art or writing.",
+          "example": "The poet immortalized the small fishing village in verses still read three centuries later.",
+          "mnemonic": "IM- (not) + MORTAL (able to die): make it never die in memory.",
+          "synonyms": [
+            "memorialize",
+            "enshrine",
+            "commemorate"
+          ],
+          "antonyms": [
+            "forget",
+            "erase"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2027-01-enshrine",
+          "word": "enshrine",
+          "partOfSpeech": "verb",
+          "definition": "To place or protect an idea, right, or memory as cherished and permanent.",
+          "example": "The right to a fair trial is enshrined in the constitution.",
+          "mnemonic": "en- + SHRINE: you put something inside a shrine to honor and protect it forever.",
+          "synonyms": [
+            "preserve",
+            "consecrate",
+            "cherish"
+          ],
+          "antonyms": [
+            "discard",
+            "desecrate"
+          ]
+        },
+        {
+          "id": "2027-01-indelible",
+          "word": "indelible",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to erase, remove, or forget once it has been made.",
+          "example": "The disaster left an indelible mark on everyone who lived through it.",
+          "mnemonic": "in- (not) + 'delible' (think DELETE): it cannot be deleted.",
+          "synonyms": [
+            "permanent",
+            "lasting",
+            "unforgettable"
+          ],
+          "antonyms": [
+            "erasable",
+            "temporary",
+            "fleeting"
+          ]
+        },
+        {
+          "id": "2027-01-ingrained",
+          "word": "ingrained",
+          "partOfSpeech": "adjective",
+          "definition": "Deeply fixed in someone's nature and very hard to change.",
+          "example": "Politeness was so ingrained in her that she thanked even the rudest clerk.",
+          "mnemonic": "Worked into the GRAIN of the wood — soaked deep into the fibers, not just the surface.",
+          "synonyms": [
+            "deep-seated",
+            "entrenched",
+            "fixed"
+          ],
+          "antonyms": [
+            "superficial",
+            "fleeting"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2027-01-inveterate",
+          "word": "inveterate",
+          "partOfSpeech": "adjective",
+          "definition": "Having a long-established, firmly settled habit that is unlikely to change.",
+          "example": "An inveterate gambler, he could not walk past a casino without going in.",
+          "mnemonic": "'veter-' as in VETERAN: a long-serving veteran of the habit, at it for years.",
+          "synonyms": [
+            "confirmed",
+            "habitual",
+            "chronic"
+          ],
+          "antonyms": [
+            "occasional",
+            "casual"
+          ]
+        },
+        {
+          "id": "2027-01-chronic",
+          "word": "chronic",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting a long time or constantly recurring, especially an illness or problem.",
+          "example": "Her chronic back pain flared up every winter for a decade.",
+          "mnemonic": "CHRONos, the Greek god of time — it drags on and on through time.",
+          "synonyms": [
+            "persistent",
+            "long-standing",
+            "recurrent"
+          ],
+          "antonyms": [
+            "acute",
+            "temporary",
+            "fleeting"
+          ]
+        },
+        {
+          "id": "2027-01-habitual",
+          "word": "habitual",
+          "partOfSpeech": "adjective",
+          "definition": "Done regularly and repeatedly until it becomes second nature.",
+          "example": "His habitual lateness eventually cost him the job.",
+          "mnemonic": "You wear it like a monk's HABIT — the same robe pulled on every single day.",
+          "synonyms": [
+            "customary",
+            "routine",
+            "regular"
+          ],
+          "antonyms": [
+            "occasional",
+            "rare"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2027-01-durable",
+          "word": "durable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to last a long time without breaking or wearing out.",
+          "example": "These boots are durable enough to survive years of mountain hiking.",
+          "mnemonic": "From Latin 'durare', to last — the same root as ENDURE.",
+          "synonyms": [
+            "long-lasting",
+            "sturdy",
+            "hard-wearing"
+          ],
+          "antonyms": [
+            "flimsy",
+            "fragile",
+            "perishable"
+          ]
+        },
+        {
+          "id": "2027-01-resilient",
+          "word": "resilient",
+          "partOfSpeech": "adjective",
+          "definition": "Able to recover quickly from difficulty, shock, or damage.",
+          "example": "After the flood, the resilient community rebuilt within a single year.",
+          "mnemonic": "Like a rubber band that springs back — 'resile' literally means to spring back.",
+          "synonyms": [
+            "tough",
+            "adaptable",
+            "hardy"
+          ],
+          "antonyms": [
+            "fragile",
+            "brittle"
+          ]
+        },
+        {
+          "id": "2027-01-tenacious",
+          "word": "tenacious",
+          "partOfSpeech": "adjective",
+          "definition": "Holding firmly to a purpose and refusing to give up.",
+          "example": "Her tenacious pursuit of the story eventually exposed the whole scandal.",
+          "mnemonic": "From Latin 'tenere', to hold — a TENANT holds tight to the lease and won't let go.",
+          "synonyms": [
+            "persistent",
+            "determined",
+            "dogged"
+          ],
+          "antonyms": [
+            "irresolute",
+            "weak-willed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2027-01-obstinate",
+          "word": "obstinate",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly refusing to change one's opinion or course of action.",
+          "example": "The obstinate child ate nothing but plain toast for an entire week.",
+          "mnemonic": "OB-STANDS-in-the-way: it plants its feet in your path and won't move.",
+          "synonyms": [
+            "stubborn",
+            "headstrong",
+            "willful"
+          ],
+          "antonyms": [
+            "flexible",
+            "compliant",
+            "amenable"
+          ]
+        },
+        {
+          "id": "2027-01-intractable",
+          "word": "intractable",
+          "partOfSpeech": "adjective",
+          "definition": "Very hard to control, manage, or solve.",
+          "example": "The negotiators finally gave up on the intractable border dispute.",
+          "mnemonic": "in- (not) + 'tract' (to pull/handle): it gives no TRACTION, so you can't get a grip on it.",
+          "synonyms": [
+            "unmanageable",
+            "stubborn",
+            "thorny"
+          ],
+          "antonyms": [
+            "manageable",
+            "tractable",
+            "docile"
+          ]
+        },
+        {
+          "id": "2027-01-recalcitrant",
+          "word": "recalcitrant",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly resisting authority, control, or discipline.",
+          "example": "The recalcitrant recruit ignored every order the sergeant barked.",
+          "mnemonic": "From Latin 'calcitrare', to kick with the heel — a recalcitrant mule kicks back against the reins.",
+          "synonyms": [
+            "defiant",
+            "unruly",
+            "disobedient"
+          ],
+          "antonyms": [
+            "obedient",
+            "compliant",
+            "docile"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "2027-01-obdurate",
+          "word": "obdurate",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly refusing to change, often without pity or remorse.",
+          "example": "The judge remained obdurate despite the family's tearful pleas.",
+          "mnemonic": "ob- + DURA (hard, as in 'dura mater'): hardened all the way through, heart and all.",
+          "synonyms": [
+            "unrelenting",
+            "hardhearted",
+            "stubborn"
+          ],
+          "antonyms": [
+            "yielding",
+            "merciful",
+            "soft"
+          ]
+        },
+        {
+          "id": "2027-01-inflexible",
+          "word": "inflexible",
+          "partOfSpeech": "adjective",
+          "definition": "Unwilling to change or compromise; rigid in rules or attitude.",
+          "example": "The airline's inflexible policy refused any refund, even for a hospital stay.",
+          "mnemonic": "in- (not) + FLEXIBLE: it simply won't flex or bend, no matter the pressure.",
+          "synonyms": [
+            "rigid",
+            "unbending",
+            "uncompromising"
+          ],
+          "antonyms": [
+            "adaptable",
+            "lenient",
+            "flexible"
+          ]
+        },
+        {
+          "id": "2027-01-unyielding",
+          "word": "unyielding",
+          "partOfSpeech": "adjective",
+          "definition": "Firm and refusing to give way under pressure or persuasion.",
+          "example": "The captain was unyielding, steering into the storm despite the crew's protests.",
+          "mnemonic": "un- (not) + YIELDING: like a driver who ignores every YIELD sign and never slows.",
+          "synonyms": [
+            "firm",
+            "resolute",
+            "adamant"
+          ],
+          "antonyms": [
+            "submissive",
+            "compliant",
+            "flexible"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "core high-frequency — change and permanence",
+  "createdAt": "2026-09-12T06:43:17.738Z"
+}

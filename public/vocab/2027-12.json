@@ -1,0 +1,1717 @@
+{
+  "month": "2027-12",
+  "displayName": "December 2027",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2027-12-evanescent",
+          "word": "evanescent",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only a very short time before fading away.",
+          "example": "The evanescent glow of the fireflies vanished the instant I reached for them.",
+          "mnemonic": "Sounds like 'ever-vanishing' — evan-ESCENT slips off like vapor escaping the air.",
+          "synonyms": [
+            "fleeting",
+            "transient",
+            "ephemeral"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "eternal"
+          ]
+        },
+        {
+          "id": "2027-12-transitory",
+          "word": "transitory",
+          "partOfSpeech": "adjective",
+          "definition": "Existing or continuing for only a brief period of time.",
+          "example": "Fame in that industry proved transitory; last year's stars are already forgotten.",
+          "mnemonic": "Think 'transit' — like a train passing through a station, it doesn't stay.",
+          "synonyms": [
+            "temporary",
+            "brief",
+            "passing"
+          ],
+          "antonyms": [
+            "permanent",
+            "enduring",
+            "lasting"
+          ]
+        },
+        {
+          "id": "2027-12-perennial",
+          "word": "perennial",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing or recurring again and again through the years.",
+          "example": "Complaints about parking are a perennial topic at every neighborhood meeting.",
+          "mnemonic": "Per + ennial (annual) means 'through the years' — perennial flowers bloom every spring.",
+          "synonyms": [
+            "recurring",
+            "constant",
+            "enduring"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary",
+            "occasional"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2027-12-perpetual",
+          "word": "perpetual",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing forever or without any interruption.",
+          "example": "The toddler kept up a perpetual stream of questions from dawn until bedtime.",
+          "mnemonic": "Picture a 'perpetual motion machine' that spins on and never stops.",
+          "synonyms": [
+            "endless",
+            "constant",
+            "unceasing"
+          ],
+          "antonyms": [
+            "temporary",
+            "brief",
+            "intermittent"
+          ]
+        },
+        {
+          "id": "2027-12-incessant",
+          "word": "incessant",
+          "partOfSpeech": "adjective",
+          "definition": "Going on and on without any pause, especially something irritating.",
+          "example": "The incessant dripping of the faucet kept me awake all night.",
+          "mnemonic": "In + cease + ant = 'not ceasing' — the ants that never stop marching.",
+          "synonyms": [
+            "constant",
+            "relentless",
+            "unremitting"
+          ],
+          "antonyms": [
+            "occasional",
+            "intermittent",
+            "sporadic"
+          ]
+        },
+        {
+          "id": "2027-12-ceaseless",
+          "word": "ceaseless",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing steadily without ever coming to an end.",
+          "example": "The ceaseless roar of the waterfall drowned out every attempt at conversation.",
+          "mnemonic": "Cease + less — 'less ceasing', so it simply never ceases.",
+          "synonyms": [
+            "unending",
+            "constant",
+            "continual"
+          ],
+          "antonyms": [
+            "intermittent",
+            "occasional",
+            "sporadic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2027-12-interminable",
+          "word": "interminable",
+          "partOfSpeech": "adjective",
+          "definition": "Seemingly without end, especially because dull or tiresome.",
+          "example": "The professor's interminable lecture left half the class asleep at their desks.",
+          "mnemonic": "In + terminable = 'cannot be terminated' — no terminal, no exit, no end.",
+          "synonyms": [
+            "endless",
+            "unending",
+            "ceaseless"
+          ],
+          "antonyms": [
+            "brief",
+            "short",
+            "finite"
+          ]
+        },
+        {
+          "id": "2027-12-protracted",
+          "word": "protracted",
+          "partOfSpeech": "adjective",
+          "definition": "Made to last longer than expected or necessary.",
+          "example": "After protracted negotiations spanning three months, the two sides finally signed.",
+          "mnemonic": "Pro + tract (to pull) — like a tractor dragging something out ever longer.",
+          "synonyms": [
+            "prolonged",
+            "extended",
+            "drawn-out"
+          ],
+          "antonyms": [
+            "brief",
+            "shortened",
+            "curtailed"
+          ]
+        },
+        {
+          "id": "2027-12-prolonged",
+          "word": "prolonged",
+          "partOfSpeech": "adjective",
+          "definition": "Continued for a greater length of time than usual.",
+          "example": "A prolonged drought left the reservoir at its lowest level in decades.",
+          "mnemonic": "Pro + long — literally something that has been 'made long'.",
+          "synonyms": [
+            "extended",
+            "protracted",
+            "lengthy"
+          ],
+          "antonyms": [
+            "brief",
+            "short",
+            "curtailed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2027-12-abiding",
+          "word": "abiding",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing steadily over a long time without weakening or changing.",
+          "example": "She had an abiding love of the sea that never once left her.",
+          "mnemonic": "From 'abide' — to dwell and bide your time; it stays put and remains.",
+          "synonyms": [
+            "steadfast",
+            "lasting",
+            "permanent"
+          ],
+          "antonyms": [
+            "fleeting",
+            "transient",
+            "short-lived"
+          ]
+        },
+        {
+          "id": "2027-12-enduring",
+          "word": "enduring",
+          "partOfSpeech": "adjective",
+          "definition": "Continuing to exist or last over a long period.",
+          "example": "Their friendship proved enduring, surviving decades apart on different continents.",
+          "mnemonic": "En + during — it keeps going 'during' every hardship thrown at it.",
+          "synonyms": [
+            "lasting",
+            "persistent",
+            "long-lived"
+          ],
+          "antonyms": [
+            "fleeting",
+            "transient",
+            "temporary"
+          ]
+        },
+        {
+          "id": "2027-12-durable",
+          "word": "durable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to withstand wear and last a long time without breaking.",
+          "example": "These boots are durable enough to survive years of rugged mountain hiking.",
+          "mnemonic": "Latin 'durare' (to harden) — the root in 'endure'; built to take a beating.",
+          "synonyms": [
+            "sturdy",
+            "robust",
+            "long-lasting"
+          ],
+          "antonyms": [
+            "flimsy",
+            "fragile",
+            "perishable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2027-12-immemorial",
+          "word": "immemorial",
+          "partOfSpeech": "adjective",
+          "definition": "Originating so long ago that no one recalls the beginning.",
+          "example": "The villagers have fished these waters since time immemorial.",
+          "mnemonic": "im- (not) + memorial (memory) — stretching back beyond anyone's memory.",
+          "synonyms": [
+            "ancient",
+            "age-old",
+            "timeless"
+          ],
+          "antonyms": [
+            "recent",
+            "modern",
+            "new"
+          ]
+        },
+        {
+          "id": "2027-12-antiquated",
+          "word": "antiquated",
+          "partOfSpeech": "adjective",
+          "definition": "Too old-fashioned to be useful in the present day.",
+          "example": "The office still relied on antiquated fax machines while rivals had gone fully digital.",
+          "mnemonic": "Antique + -ated — turned into an antique that belongs in a museum.",
+          "synonyms": [
+            "outdated",
+            "obsolete",
+            "old-fashioned"
+          ],
+          "antonyms": [
+            "modern",
+            "current",
+            "up-to-date"
+          ]
+        },
+        {
+          "id": "2027-12-archaic",
+          "word": "archaic",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to a much earlier era and no longer in common use.",
+          "example": "Legal documents are full of archaic words like 'hereinafter' and 'whereof'.",
+          "mnemonic": "Share the 'arch-' of 'archaeology' — digging up something very, very old.",
+          "synonyms": [
+            "ancient",
+            "antiquated",
+            "obsolete"
+          ],
+          "antonyms": [
+            "modern",
+            "contemporary",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2027-12-obsolete",
+          "word": "obsolete",
+          "partOfSpeech": "adjective",
+          "definition": "No longer in use because something newer has taken its place.",
+          "example": "Floppy disks are now obsolete, replaced by cloud storage and tiny USB drives.",
+          "mnemonic": "Sounds like 'obviously so late' — it showed up too late and got left behind.",
+          "synonyms": [
+            "outdated",
+            "antiquated",
+            "defunct"
+          ],
+          "antonyms": [
+            "current",
+            "modern",
+            "up-to-date"
+          ]
+        },
+        {
+          "id": "2027-12-antecedent",
+          "word": "antecedent",
+          "partOfSpeech": "noun",
+          "definition": "Something that existed or happened before another thing.",
+          "example": "Jazz was a clear antecedent of the rock music that dominated later decades.",
+          "mnemonic": "Latin 'ante' (before) + 'cedere' (go): the thing that goes before.",
+          "synonyms": [
+            "precursor",
+            "forerunner",
+            "predecessor"
+          ],
+          "antonyms": [
+            "consequence",
+            "result",
+            "sequel"
+          ]
+        },
+        {
+          "id": "2027-12-posterity",
+          "word": "posterity",
+          "partOfSpeech": "noun",
+          "definition": "All the people who will live in future generations.",
+          "example": "She saved her grandmother's letters for posterity, so her descendants would know their history.",
+          "mnemonic": "Think 'posterior' (behind/after) — the ones who come after us.",
+          "synonyms": [
+            "descendants",
+            "offspring",
+            "future generations"
+          ],
+          "antonyms": [
+            "ancestors",
+            "forebears",
+            "predecessors"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2027-12-erstwhile",
+          "word": "erstwhile",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to an earlier time; existing in the past but not now.",
+          "example": "My erstwhile business partner now runs a rival company across town.",
+          "mnemonic": "'Erst' is German for 'earlier' + 'while' (time): from an earlier time.",
+          "synonyms": [
+            "former",
+            "previous",
+            "onetime"
+          ],
+          "antonyms": [
+            "current",
+            "present",
+            "future"
+          ]
+        },
+        {
+          "id": "2027-12-incipient",
+          "word": "incipient",
+          "partOfSpeech": "adjective",
+          "definition": "In an early stage and just starting to appear.",
+          "example": "The doctor caught the incipient infection before it could spread through her body.",
+          "mnemonic": "Shares a root with 'inception' — the very start of something.",
+          "synonyms": [
+            "nascent",
+            "emerging",
+            "budding"
+          ],
+          "antonyms": [
+            "mature",
+            "developed",
+            "established"
+          ]
+        },
+        {
+          "id": "2027-12-embryonic",
+          "word": "embryonic",
+          "partOfSpeech": "adjective",
+          "definition": "At a very early and undeveloped stage.",
+          "example": "The startup's plans were still embryonic, sketched on napkins with no funding yet.",
+          "mnemonic": "Think 'embryo' — an unborn baby: something in its earliest form.",
+          "synonyms": [
+            "rudimentary",
+            "undeveloped",
+            "nascent"
+          ],
+          "antonyms": [
+            "mature",
+            "developed",
+            "advanced"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2027-12-fledgling",
+          "word": "fledgling",
+          "partOfSpeech": "adjective",
+          "definition": "New, inexperienced, and still in an early stage of growth.",
+          "example": "The fledgling airline owned just two planes and flew to only three cities.",
+          "mnemonic": "A fledgling is a baby bird just growing its feathers to fledge — brand new at flying.",
+          "synonyms": [
+            "budding",
+            "emerging",
+            "novice"
+          ],
+          "antonyms": [
+            "established",
+            "mature",
+            "seasoned"
+          ]
+        },
+        {
+          "id": "2027-12-burgeoning",
+          "word": "burgeoning",
+          "partOfSpeech": "adjective",
+          "definition": "Growing or expanding quickly and flourishing.",
+          "example": "The city's burgeoning tech scene attracted thousands of new workers every month.",
+          "mnemonic": "Sounds like 'bursting' — a bud bursting open and shooting upward.",
+          "synonyms": [
+            "flourishing",
+            "expanding",
+            "thriving"
+          ],
+          "antonyms": [
+            "shrinking",
+            "declining",
+            "dwindling"
+          ]
+        },
+        {
+          "id": "2027-12-germinate",
+          "word": "germinate",
+          "partOfSpeech": "verb",
+          "definition": "To sprout, or for an idea to start to take root and develop.",
+          "example": "The seeds germinate faster if you keep the soil warm and moist.",
+          "mnemonic": "Think 'germ' — a tiny seed of life beginning to grow.",
+          "synonyms": [
+            "sprout",
+            "bud",
+            "develop"
+          ],
+          "antonyms": [
+            "wither",
+            "die",
+            "decay"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2027-12-wane",
+          "word": "wane",
+          "partOfSpeech": "verb",
+          "definition": "To gradually decrease in size, strength, or intensity.",
+          "example": "As the party dragged past midnight, the guests' energy began to wane.",
+          "mnemonic": "The moon wanes — it grows smaller and thinner each night.",
+          "synonyms": [
+            "diminish",
+            "decline",
+            "fade"
+          ],
+          "antonyms": [
+            "wax",
+            "grow",
+            "increase"
+          ]
+        },
+        {
+          "id": "2027-12-ebb",
+          "word": "ebb",
+          "partOfSpeech": "verb",
+          "definition": "To move back or slowly fall away in amount or strength.",
+          "example": "The tide began to ebb, leaving wet sand and stranded starfish behind.",
+          "mnemonic": "Ebb tide flows OUT — the 'e' pulls away from shore, like the sea retreating.",
+          "synonyms": [
+            "recede",
+            "decline",
+            "subside"
+          ],
+          "antonyms": [
+            "flow",
+            "rise",
+            "surge"
+          ]
+        },
+        {
+          "id": "2027-12-dwindle",
+          "word": "dwindle",
+          "partOfSpeech": "verb",
+          "definition": "To gradually become smaller in amount or number.",
+          "example": "Their savings dwindled until only a few coins remained in the jar.",
+          "mnemonic": "Sounds like 'diminish' shrinking down — dwindle whittles away to little.",
+          "synonyms": [
+            "diminish",
+            "shrink",
+            "decrease"
+          ],
+          "antonyms": [
+            "grow",
+            "increase",
+            "multiply"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2027-12-subside",
+          "word": "subside",
+          "partOfSpeech": "verb",
+          "definition": "To become less intense, or to sink to a lower level.",
+          "example": "Once the medication worked, the swelling in his ankle slowly subsided.",
+          "mnemonic": "'Sub' (down) + 'side' — it settles down and sits lower.",
+          "synonyms": [
+            "abate",
+            "diminish",
+            "lessen"
+          ],
+          "antonyms": [
+            "intensify",
+            "increase",
+            "rise"
+          ]
+        },
+        {
+          "id": "2027-12-recede",
+          "word": "recede",
+          "partOfSpeech": "verb",
+          "definition": "To move back or withdraw from a previous position.",
+          "example": "As the floodwater receded, families returned to inspect their damaged homes.",
+          "mnemonic": "'Re' (back) + 'cede' (go): to go back — like a receding hairline.",
+          "synonyms": [
+            "retreat",
+            "withdraw",
+            "ebb"
+          ],
+          "antonyms": [
+            "advance",
+            "approach",
+            "proceed"
+          ]
+        },
+        {
+          "id": "2027-12-linger",
+          "word": "linger",
+          "partOfSpeech": "verb",
+          "definition": "To stay somewhere longer than expected, or be slow to disappear.",
+          "example": "The smell of woodsmoke lingered in her coat long after the campfire died.",
+          "mnemonic": "Linger sounds like 'longer' — you hang around for longer.",
+          "synonyms": [
+            "remain",
+            "tarry",
+            "dawdle"
+          ],
+          "antonyms": [
+            "leave",
+            "depart",
+            "rush"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2027-12-tarry",
+          "word": "tarry",
+          "partOfSpeech": "verb",
+          "definition": "To stay in one place longer than needed, or be slow to leave.",
+          "example": "Don't tarry at the gate; the train leaves in two minutes.",
+          "mnemonic": "Sounds like 'tar-y' — imagine your shoes stuck in tar, keeping you from leaving.",
+          "synonyms": [
+            "linger",
+            "loiter",
+            "dawdle"
+          ],
+          "antonyms": [
+            "hurry",
+            "rush",
+            "hasten"
+          ]
+        },
+        {
+          "id": "2027-12-procrastinate",
+          "word": "procrastinate",
+          "partOfSpeech": "verb",
+          "definition": "To keep delaying a task you should be doing, usually out of reluctance.",
+          "example": "He would procrastinate all evening, cleaning his desk instead of writing the essay.",
+          "mnemonic": "'Pro-crastinate' from Latin 'cras' (tomorrow) — you're a pro at pushing things to tomorrow.",
+          "synonyms": [
+            "delay",
+            "stall",
+            "dally"
+          ],
+          "antonyms": [
+            "expedite",
+            "hasten"
+          ]
+        },
+        {
+          "id": "2027-12-postpone",
+          "word": "postpone",
+          "partOfSpeech": "verb",
+          "definition": "To move an event or action to a later time.",
+          "example": "Heavy rain forced them to postpone the outdoor wedding until next month.",
+          "mnemonic": "'Post-' means after — you place the event after its original spot on the calendar.",
+          "synonyms": [
+            "defer",
+            "reschedule",
+            "delay"
+          ],
+          "antonyms": [
+            "advance",
+            "expedite"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2027-12-dally",
+          "word": "dally",
+          "partOfSpeech": "verb",
+          "definition": "To waste time idly or move without any sense of urgency.",
+          "example": "The children dallied by the pond, poking sticks in the mud instead of coming home.",
+          "mnemonic": "Rhymes with 'rally' — but instead of rallying to act, you dally and drift.",
+          "synonyms": [
+            "dawdle",
+            "loiter",
+            "linger"
+          ],
+          "antonyms": [
+            "hurry",
+            "rush"
+          ]
+        },
+        {
+          "id": "2027-12-elapse",
+          "word": "elapse",
+          "partOfSpeech": "verb",
+          "definition": "Said of time, to go by or pass gradually.",
+          "example": "Three hours seemed to elapse before the doctor finally called her name.",
+          "mnemonic": "'E-lapse' — think of a 'lap' on a clock face ticking away as time slips past.",
+          "synonyms": [
+            "pass",
+            "go by",
+            "slip away"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-lapse",
+          "word": "lapse",
+          "partOfSpeech": "noun",
+          "definition": "A brief failure, slip, or gap in something normally maintained.",
+          "example": "A momentary lapse in concentration caused him to miss his exit on the highway.",
+          "mnemonic": "Picture a 'gap' where you 'let it slip' — l(et)-a-p(s)e, a small break in the flow.",
+          "synonyms": [
+            "slip",
+            "oversight",
+            "gap"
+          ],
+          "antonyms": [
+            "maintenance",
+            "continuation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2027-12-intermittent",
+          "word": "intermittent",
+          "partOfSpeech": "adjective",
+          "definition": "Starting and stopping repeatedly rather than staying constant.",
+          "example": "The intermittent buzzing of the faulty light made it hard to concentrate.",
+          "mnemonic": "'Inter-mit' — like an intermission that keeps interrupting, on and off, on and off.",
+          "synonyms": [
+            "fitful",
+            "sporadic",
+            "spasmodic"
+          ],
+          "antonyms": [
+            "continuous",
+            "constant",
+            "steady"
+          ]
+        },
+        {
+          "id": "2027-12-sporadic",
+          "word": "sporadic",
+          "partOfSpeech": "adjective",
+          "definition": "Happening at scattered, irregular times with no clear pattern.",
+          "example": "Only sporadic gunfire broke the silence, never at any predictable moment.",
+          "mnemonic": "Sounds like 'spores' scattered by a mushroom — landing here and there, randomly.",
+          "synonyms": [
+            "irregular",
+            "occasional",
+            "scattered"
+          ],
+          "antonyms": [
+            "constant",
+            "regular",
+            "frequent"
+          ]
+        },
+        {
+          "id": "2027-12-periodic",
+          "word": "periodic",
+          "partOfSpeech": "adjective",
+          "definition": "Happening at regular, evenly spaced intervals of time.",
+          "example": "The nurse made periodic checks on the patient, exactly every hour on the dot.",
+          "mnemonic": "Think of 'period' as a fixed stretch of time — it repeats each period, like the periodic table's rows.",
+          "synonyms": [
+            "regular",
+            "recurring",
+            "cyclical"
+          ],
+          "antonyms": [
+            "constant",
+            "sporadic",
+            "irregular"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2027-12-cyclical",
+          "word": "cyclical",
+          "partOfSpeech": "adjective",
+          "definition": "Following a repeating pattern that returns to its starting point.",
+          "example": "The economy is cyclical, swinging from boom to bust and back to boom again.",
+          "mnemonic": "Contains 'cycle' — a bicycle wheel turning round and round to the same spot.",
+          "synonyms": [
+            "recurring",
+            "periodic",
+            "rotating"
+          ],
+          "antonyms": [
+            "linear",
+            "constant"
+          ]
+        },
+        {
+          "id": "2027-12-recurrent",
+          "word": "recurrent",
+          "partOfSpeech": "adjective",
+          "definition": "Coming back again and again over time.",
+          "example": "A recurrent nightmare of falling woke her almost every week.",
+          "mnemonic": "'Re-current' — the current keeps flowing back, returning like a repeated event.",
+          "synonyms": [
+            "repeated",
+            "recurring",
+            "frequent"
+          ],
+          "antonyms": [
+            "isolated",
+            "one-off",
+            "singular"
+          ]
+        },
+        {
+          "id": "2027-12-episodic",
+          "word": "episodic",
+          "partOfSpeech": "adjective",
+          "definition": "Occurring in separate, occasional bursts rather than steadily.",
+          "example": "His interest in the piano was episodic, flaring up for a week and then vanishing for months.",
+          "mnemonic": "From 'episode' — like a TV series, it comes in distinct installments, not one continuous stream.",
+          "synonyms": [
+            "intermittent",
+            "occasional",
+            "sporadic"
+          ],
+          "antonyms": [
+            "continuous",
+            "steady",
+            "constant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2027-12-chronic",
+          "word": "chronic",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting a very long time or constantly returning; long-term.",
+          "example": "Her chronic back pain had troubled her every single day for a decade.",
+          "mnemonic": "From Greek 'chronos' (time) — like a 'chronicle,' it stretches on and on through time.",
+          "synonyms": [
+            "persistent",
+            "long-standing",
+            "enduring"
+          ],
+          "antonyms": [
+            "acute",
+            "temporary",
+            "brief"
+          ]
+        },
+        {
+          "id": "2027-12-perpetuate",
+          "word": "perpetuate",
+          "partOfSpeech": "verb",
+          "definition": "To cause something to continue indefinitely or keep it alive.",
+          "example": "Repeating the old rumor only serves to perpetuate a myth that was never true.",
+          "mnemonic": "Contains 'perpetual' — you make it perpetual, keeping it going forever.",
+          "synonyms": [
+            "sustain",
+            "prolong",
+            "maintain"
+          ],
+          "antonyms": [
+            "end",
+            "abolish",
+            "halt"
+          ]
+        },
+        {
+          "id": "2027-12-expedite",
+          "word": "expedite",
+          "partOfSpeech": "verb",
+          "definition": "To make a process happen faster or more efficiently.",
+          "example": "Paying the extra fee will expedite your passport so it arrives within three days.",
+          "mnemonic": "Think 'express delivery' — an 'exped-ition' that gets your feet moving quickly toward the goal.",
+          "synonyms": [
+            "accelerate",
+            "hasten",
+            "speed up"
+          ],
+          "antonyms": [
+            "delay",
+            "postpone",
+            "hinder"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2027-12-hasten",
+          "word": "hasten",
+          "partOfSpeech": "verb",
+          "definition": "To do something quickly or to make an event happen sooner.",
+          "example": "She hastened down the platform when she heard the train's doors beginning to close.",
+          "mnemonic": "Sounds like 'haste' plus '-en' — haste means speed, so to hasten is to add speed to something.",
+          "synonyms": [
+            "hurry",
+            "rush",
+            "quicken"
+          ],
+          "antonyms": [
+            "dawdle",
+            "delay",
+            "linger"
+          ]
+        },
+        {
+          "id": "2027-12-accelerate",
+          "word": "accelerate",
+          "partOfSpeech": "verb",
+          "definition": "To make something move or happen faster, or to increase in speed over time.",
+          "example": "As the traffic light turned green, she pressed the pedal to accelerate onto the open highway.",
+          "mnemonic": "Sounds like 'a-cellar-ate' — imagine racing so fast you 'ate' up the road all the way down to the cellar.",
+          "synonyms": [
+            "hasten",
+            "quicken",
+            "speed up"
+          ],
+          "antonyms": [
+            "decelerate",
+            "slow",
+            "brake"
+          ]
+        },
+        {
+          "id": "2027-12-precipitate",
+          "word": "precipitate",
+          "partOfSpeech": "verb",
+          "definition": "To cause an event to happen suddenly or sooner than expected.",
+          "example": "A single careless remark precipitated a quarrel that split the family for years.",
+          "mnemonic": "Think 'precipice' — pushing something off a cliff makes it fall suddenly, just as you precipitate an event.",
+          "synonyms": [
+            "trigger",
+            "provoke",
+            "hasten"
+          ],
+          "antonyms": [
+            "prevent",
+            "delay",
+            "forestall"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2027-12-imminent",
+          "word": "imminent",
+          "partOfSpeech": "adjective",
+          "definition": "About to occur very soon or at any moment.",
+          "example": "Dark clouds massed on the horizon, and the sailors knew a storm was imminent.",
+          "mnemonic": "Sounds like 'in a minute' — something imminent is arriving in a minute.",
+          "synonyms": [
+            "impending",
+            "looming",
+            "approaching"
+          ],
+          "antonyms": [
+            "distant",
+            "remote",
+            "faraway"
+          ]
+        },
+        {
+          "id": "2027-12-impending",
+          "word": "impending",
+          "partOfSpeech": "adjective",
+          "definition": "Looming or approaching, often with a sense of threat.",
+          "example": "The memo about layoffs filled the office with a sense of impending doom.",
+          "mnemonic": "Root 'pend' means to hang (as in 'pendant') — something impending hangs over you, ready to drop.",
+          "synonyms": [
+            "imminent",
+            "looming",
+            "approaching"
+          ],
+          "antonyms": [
+            "distant",
+            "remote",
+            "receding"
+          ]
+        },
+        {
+          "id": "2027-12-belated",
+          "word": "belated",
+          "partOfSpeech": "adjective",
+          "definition": "Coming or happening later than it should have.",
+          "example": "He sent a belated birthday card a full week after the party had ended.",
+          "mnemonic": "It literally hides 'late' — be-LATE-d means made late.",
+          "synonyms": [
+            "overdue",
+            "tardy",
+            "delayed"
+          ],
+          "antonyms": [
+            "early",
+            "prompt",
+            "timely"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2027-12-tardy",
+          "word": "tardy",
+          "partOfSpeech": "adjective",
+          "definition": "Arriving or occurring after the expected time.",
+          "example": "The teacher marked him tardy again when he slipped in after the bell had rung.",
+          "mnemonic": "Picture wading through sticky 'tar' — it would drag you down and make you slow and late.",
+          "synonyms": [
+            "late",
+            "overdue",
+            "belated"
+          ],
+          "antonyms": [
+            "punctual",
+            "prompt",
+            "early"
+          ]
+        },
+        {
+          "id": "2027-12-premature",
+          "word": "premature",
+          "partOfSpeech": "adjective",
+          "definition": "Occurring before the right, natural, or expected time.",
+          "example": "Celebrating the win at halftime proved premature when the other team scored twice.",
+          "mnemonic": "'pre-' means before plus 'mature' means ripe — premature is before ripeness.",
+          "synonyms": [
+            "early",
+            "untimely",
+            "hasty"
+          ],
+          "antonyms": [
+            "overdue",
+            "belated",
+            "timely"
+          ]
+        },
+        {
+          "id": "2027-12-untimely",
+          "word": "untimely",
+          "partOfSpeech": "adjective",
+          "definition": "Happening at an awkward or inappropriate moment, or too soon.",
+          "example": "His untimely joke during the funeral left everyone shifting uncomfortably in their seats.",
+          "mnemonic": "'un-' (not) plus 'timely' (well-timed) — the opposite of well-timed.",
+          "synonyms": [
+            "inopportune",
+            "premature",
+            "ill-timed"
+          ],
+          "antonyms": [
+            "opportune",
+            "timely",
+            "convenient"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2027-12-opportune",
+          "word": "opportune",
+          "partOfSpeech": "adjective",
+          "definition": "Happening at a favorable or especially suitable moment.",
+          "example": "The reporter's question came at an opportune moment, just as the minister let his guard down.",
+          "mnemonic": "Hidden inside 'opportunity' — an opportune time is when opportunity knocks.",
+          "synonyms": [
+            "timely",
+            "favorable",
+            "apt"
+          ],
+          "antonyms": [
+            "inopportune",
+            "untimely",
+            "inconvenient"
+          ]
+        },
+        {
+          "id": "2027-12-interim",
+          "word": "interim",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only for the span between two events; provisional.",
+          "example": "The board named an interim director to run the company until a permanent hire was found.",
+          "mnemonic": "Latin 'inter' means between — the interim is the stretch in between.",
+          "synonyms": [
+            "temporary",
+            "provisional",
+            "stopgap"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "2027-12-provisional",
+          "word": "provisional",
+          "partOfSpeech": "adjective",
+          "definition": "Arranged for the present and likely to be changed later.",
+          "example": "The peace deal was only provisional, pending approval by both parliaments.",
+          "mnemonic": "Contains 'provision' — a provisional plan is a stopgap provision until the real one arrives.",
+          "synonyms": [
+            "temporary",
+            "tentative",
+            "interim"
+          ],
+          "antonyms": [
+            "permanent",
+            "definite",
+            "final"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2027-12-temporary",
+          "word": "temporary",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting for a limited period and not permanent.",
+          "example": "The bridge closure is only temporary; crews expect to reopen the lanes by Friday.",
+          "mnemonic": "Root 'tempor' means time (as in 'tempo') — it lasts only a little time.",
+          "synonyms": [
+            "transient",
+            "fleeting",
+            "provisional"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        },
+        {
+          "id": "2027-12-momentary",
+          "word": "momentary",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only a brief instant before passing.",
+          "example": "There was a momentary flicker of the lights before the power steadied again.",
+          "mnemonic": "Contains 'moment' — it lasts just a moment.",
+          "synonyms": [
+            "brief",
+            "fleeting",
+            "transient"
+          ],
+          "antonyms": [
+            "lasting",
+            "permanent",
+            "enduring"
+          ]
+        },
+        {
+          "id": "2027-12-concurrent",
+          "word": "concurrent",
+          "partOfSpeech": "adjective",
+          "definition": "Existing or occurring at the same time as something else.",
+          "example": "The judge ordered the two sentences to run concurrent, so he served them together.",
+          "mnemonic": "'con-' (together) plus 'current' — two currents running together at once.",
+          "synonyms": [
+            "simultaneous",
+            "coincident",
+            "parallel"
+          ],
+          "antonyms": [
+            "consecutive",
+            "sequential",
+            "successive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2027-12-simultaneous",
+          "word": "simultaneous",
+          "partOfSpeech": "adjective",
+          "definition": "Occurring or existing at the same moment in time.",
+          "example": "The two sprinters crossed the line in a simultaneous burst, and judges needed the photo to separate them.",
+          "mnemonic": "Latin 'simul' means together — SIMUL-taneous events all happen together in the same instant.",
+          "synonyms": [
+            "concurrent",
+            "synchronous",
+            "coincident"
+          ],
+          "antonyms": [
+            "sequential",
+            "consecutive",
+            "asynchronous"
+          ]
+        },
+        {
+          "id": "2027-12-contemporaneous",
+          "word": "contemporaneous",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to or produced during the same stretch of time as something else.",
+          "example": "The diary and the soldier's letters are contemporaneous, both written inside the same besieged city.",
+          "mnemonic": "con- (together) + tempor (time) — sharing the same time, like two 'temporary' things running side by side.",
+          "synonyms": [
+            "contemporary",
+            "coeval",
+            "concurrent"
+          ],
+          "antonyms": [
+            "anachronistic",
+            "earlier",
+            "later"
+          ]
+        },
+        {
+          "id": "2027-12-coeval",
+          "word": "coeval",
+          "partOfSpeech": "adjective",
+          "definition": "Having the same age, date, or origin as another thing.",
+          "example": "These granite peaks are coeval with the earliest dinosaurs, thrust up in that same ancient age.",
+          "mnemonic": "co- (together) + 'ev' from Latin aevum (age) — of one shared age.",
+          "synonyms": [
+            "contemporaneous",
+            "contemporary",
+            "concurrent"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2027-12-subsequent",
+          "word": "subsequent",
+          "partOfSpeech": "adjective",
+          "definition": "Coming or happening after something else in time or order.",
+          "example": "The first meeting was frosty, but every subsequent one grew a little warmer.",
+          "mnemonic": "sub- + sequ (to follow, as in 'sequence') — it follows along behind.",
+          "synonyms": [
+            "following",
+            "succeeding",
+            "later"
+          ],
+          "antonyms": [
+            "previous",
+            "prior",
+            "preceding"
+          ]
+        },
+        {
+          "id": "2027-12-ensuing",
+          "word": "ensuing",
+          "partOfSpeech": "adjective",
+          "definition": "Following afterward, often as a direct consequence of what came before.",
+          "example": "A wire sparked, and in the ensuing panic everyone forgot exactly where the exits were.",
+          "mnemonic": "Sounds like 'in-suing' — one event 'sues' and the next comes chasing right after it.",
+          "synonyms": [
+            "following",
+            "subsequent",
+            "resulting"
+          ],
+          "antonyms": [
+            "preceding",
+            "prior",
+            "previous"
+          ]
+        },
+        {
+          "id": "2027-12-eventual",
+          "word": "eventual",
+          "partOfSpeech": "adjective",
+          "definition": "Occurring at last as the final result of a process or wait.",
+          "example": "Years of quiet saving led to her eventual purchase of the little farmhouse.",
+          "mnemonic": "Picture a long DMV line: your number is EVENTUAL — it truly comes, but only at the very end.",
+          "synonyms": [
+            "ultimate",
+            "final",
+            "resulting"
+          ],
+          "antonyms": [
+            "immediate",
+            "initial",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2027-12-penultimate",
+          "word": "penultimate",
+          "partOfSpeech": "adjective",
+          "definition": "Coming immediately before the last one in a series.",
+          "example": "On the penultimate page she finally guessed the killer, just one chapter shy of the reveal.",
+          "mnemonic": "pen- from Latin paene ('almost') + ultimate — almost the ultimate, so next-to-last.",
+          "synonyms": [
+            "next-to-last",
+            "second-to-last"
+          ],
+          "antonyms": [
+            "last",
+            "final",
+            "first"
+          ]
+        },
+        {
+          "id": "2027-12-duration",
+          "word": "duration",
+          "partOfSpeech": "noun",
+          "definition": "The length of time that something continues or lasts.",
+          "example": "For the duration of the storm, the ferries stayed roped to the dock.",
+          "mnemonic": "dur- from Latin durare ('to last') — how long a thing endures.",
+          "synonyms": [
+            "length",
+            "span",
+            "period"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-interval",
+          "word": "interval",
+          "partOfSpeech": "noun",
+          "definition": "A gap of time or space between two points or events.",
+          "example": "The tower bells rang at regular intervals, one chime every quarter hour.",
+          "mnemonic": "inter- (between) + 'val' from vallum (rampart) — the open space between the walls.",
+          "synonyms": [
+            "gap",
+            "pause",
+            "break"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2027-12-epoch",
+          "word": "epoch",
+          "partOfSpeech": "noun",
+          "definition": "A particular period in history marked by notable events or features.",
+          "example": "The printing press opened a new epoch of learning that spread across Europe.",
+          "mnemonic": "Say it 'EP-ick' — an epoch is an EPIC stretch of time worth carving into stone.",
+          "synonyms": [
+            "era",
+            "age",
+            "period"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-era",
+          "word": "era",
+          "partOfSpeech": "noun",
+          "definition": "A long, distinct stretch of history sharing one character or spirit.",
+          "example": "The fall of the wall marked the end of an era split by rival ideologies.",
+          "mnemonic": "Rhymes with 'aura' — each era carries its own distinct aura, a whole age with one mood.",
+          "synonyms": [
+            "age",
+            "epoch",
+            "period"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-juncture",
+          "word": "juncture",
+          "partOfSpeech": "noun",
+          "definition": "A critical point in time, especially where a decision must be made.",
+          "example": "At this juncture, with the funds nearly gone, the founders had to choose: sell or fight on.",
+          "mnemonic": "junct- (join, as in 'junction') — a juncture is the joining point where roads and choices meet.",
+          "synonyms": [
+            "point",
+            "moment",
+            "crossroads"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2027-12-threshold",
+          "word": "threshold",
+          "partOfSpeech": "noun",
+          "definition": "The point at which something begins or a critical level is reached.",
+          "example": "Standing at the threshold of adulthood, she felt both eager and afraid.",
+          "mnemonic": "It's the strip you step over in a doorway — cross it and you enter what lies beyond.",
+          "synonyms": [
+            "brink",
+            "verge",
+            "doorstep"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-onset",
+          "word": "onset",
+          "partOfSpeech": "noun",
+          "definition": "The beginning or early stage of something, often unwelcome.",
+          "example": "At the first onset of fever, she cancelled the trip and climbed into bed.",
+          "mnemonic": "on + set — the moment things are 'set on', switched on and starting to move.",
+          "synonyms": [
+            "beginning",
+            "start",
+            "commencement"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "finish"
+          ]
+        },
+        {
+          "id": "2027-12-inception",
+          "word": "inception",
+          "partOfSpeech": "noun",
+          "definition": "The start or founding moment of a plan, institution, or activity.",
+          "example": "The club has welcomed dogs since its inception in 1920, the very year it was founded.",
+          "mnemonic": "in- + cept (from capere, 'to take') — the taking-hold point where it all begins; recall the film planting an idea at its very start.",
+          "synonyms": [
+            "beginning",
+            "origin",
+            "start"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "termination"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2027-12-outset",
+          "word": "outset",
+          "partOfSpeech": "noun",
+          "definition": "The point at which something begins.",
+          "example": "From the outset of the trip, everyone sensed it would end in disaster.",
+          "mnemonic": "You SET OUT on a journey — the outset is where you start.",
+          "synonyms": [
+            "beginning",
+            "start",
+            "onset"
+          ],
+          "antonyms": [
+            "end",
+            "conclusion",
+            "finish"
+          ]
+        },
+        {
+          "id": "2027-12-commencement",
+          "word": "commencement",
+          "partOfSpeech": "noun",
+          "definition": "The act or moment of beginning something.",
+          "example": "A trumpet fanfare signalled the commencement of the royal ceremony.",
+          "mnemonic": "'Commence' means to begin — even graduation is called this because a new life begins.",
+          "synonyms": [
+            "beginning",
+            "start",
+            "initiation"
+          ],
+          "antonyms": [
+            "conclusion",
+            "ending",
+            "termination"
+          ]
+        },
+        {
+          "id": "2027-12-culmination",
+          "word": "culmination",
+          "partOfSpeech": "noun",
+          "definition": "The highest or climactic point reached after a long process.",
+          "example": "Winning Olympic gold was the culmination of twenty years of daily training.",
+          "mnemonic": "Latin 'culmen' means summit — picture reaching the very peak of a mountain.",
+          "synonyms": [
+            "climax",
+            "peak",
+            "apex"
+          ],
+          "antonyms": [
+            "beginning",
+            "start",
+            "nadir"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2027-12-cessation",
+          "word": "cessation",
+          "partOfSpeech": "noun",
+          "definition": "A complete stopping or halting of some activity.",
+          "example": "The sudden cessation of gunfire let medics rush toward the wounded.",
+          "mnemonic": "'Cease' + 'station' — the station where all activity ceases.",
+          "synonyms": [
+            "stoppage",
+            "halt",
+            "discontinuation"
+          ],
+          "antonyms": [
+            "continuation",
+            "commencement",
+            "start"
+          ]
+        },
+        {
+          "id": "2027-12-hiatus",
+          "word": "hiatus",
+          "partOfSpeech": "noun",
+          "definition": "A gap or break in the continuity of something.",
+          "example": "The band went on a three-year hiatus before touring again.",
+          "mnemonic": "HIGH-AY-tus — say it and your mouth gapes open, just like the gap it names.",
+          "synonyms": [
+            "break",
+            "gap",
+            "pause"
+          ],
+          "antonyms": [
+            "continuation",
+            "continuity"
+          ]
+        },
+        {
+          "id": "2027-12-respite",
+          "word": "respite",
+          "partOfSpeech": "noun",
+          "definition": "A short period of rest from something difficult or unpleasant.",
+          "example": "The shade of the oak gave the hikers a welcome respite from the blazing sun.",
+          "mnemonic": "REST + a little bite — a small bite of rest during hardship.",
+          "synonyms": [
+            "break",
+            "rest",
+            "reprieve"
+          ],
+          "antonyms": [
+            "continuation",
+            "ordeal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2027-12-lull",
+          "word": "lull",
+          "partOfSpeech": "noun",
+          "definition": "A brief period of calm or quiet in noise or activity.",
+          "example": "During a lull in the conversation, she quietly slipped out the door.",
+          "mnemonic": "A LULLaby quiets a baby — a lull is that same calm hush.",
+          "synonyms": [
+            "pause",
+            "calm",
+            "break"
+          ],
+          "antonyms": [
+            "surge",
+            "flurry"
+          ]
+        },
+        {
+          "id": "2027-12-interlude",
+          "word": "interlude",
+          "partOfSpeech": "noun",
+          "definition": "An intervening stretch of time between two events or stages.",
+          "example": "The picnic was a pleasant interlude between two exhausting meetings.",
+          "mnemonic": "INTER (between) + LUDE (Latin 'ludus', play) — a little play staged between the acts.",
+          "synonyms": [
+            "interval",
+            "break",
+            "spell"
+          ],
+          "antonyms": [
+            "continuation"
+          ]
+        },
+        {
+          "id": "2027-12-intermission",
+          "word": "intermission",
+          "partOfSpeech": "noun",
+          "definition": "A scheduled pause between parts of a play, film, or concert.",
+          "example": "We bought ice cream during the intermission before the second act began.",
+          "mnemonic": "INTER + MISSION — a break in the middle of the show's mission.",
+          "synonyms": [
+            "interval",
+            "break",
+            "pause"
+          ],
+          "antonyms": [
+            "continuation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2027-12-moratorium",
+          "word": "moratorium",
+          "partOfSpeech": "noun",
+          "definition": "An officially declared temporary ban on some activity.",
+          "example": "The council imposed a moratorium on new building near the flooded river.",
+          "mnemonic": "Latin 'mora' means delay — a moratorium presses pause and says 'more delay'.",
+          "synonyms": [
+            "ban",
+            "suspension",
+            "freeze"
+          ],
+          "antonyms": [
+            "continuation",
+            "resumption"
+          ]
+        },
+        {
+          "id": "2027-12-vestige",
+          "word": "vestige",
+          "partOfSpeech": "noun",
+          "definition": "A small trace or sign left by something no longer present.",
+          "example": "A single crumbling tower was the only vestige of the medieval fortress.",
+          "mnemonic": "Latin 'vestigium' means footprint — a faint footprint left by the past.",
+          "synonyms": [
+            "trace",
+            "mark",
+            "remnant"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-relic",
+          "word": "relic",
+          "partOfSpeech": "noun",
+          "definition": "An object that has survived from an earlier time.",
+          "example": "The museum displayed a rusted relic recovered from a sunken warship.",
+          "mnemonic": "Sounds like 'relinquish' — something left behind and surviving from long ago.",
+          "synonyms": [
+            "artifact",
+            "antique",
+            "keepsake"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "2027-12-remnant",
+          "word": "remnant",
+          "partOfSpeech": "noun",
+          "definition": "A small piece left over after the rest is used or gone.",
+          "example": "She stitched a colorful quilt from remnants of her children's old shirts.",
+          "mnemonic": "'Remain' is hidden inside — a remnant is what remains.",
+          "synonyms": [
+            "remainder",
+            "fragment",
+            "scrap"
+          ],
+          "antonyms": [
+            "whole",
+            "entirety"
+          ]
+        },
+        {
+          "id": "2027-12-residue",
+          "word": "residue",
+          "partOfSpeech": "noun",
+          "definition": "Matter that stays behind after a process or removal.",
+          "example": "A sticky residue coated the pan long after the syrup had boiled away.",
+          "mnemonic": "Sounds like 'reside' — it's what resides and stays put after everything else leaves.",
+          "synonyms": [
+            "remainder",
+            "remains",
+            "leftovers"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2027-12-antiquity",
+          "word": "antiquity",
+          "partOfSpeech": "noun",
+          "definition": "The distant past, especially the era before the Middle Ages.",
+          "example": "Scholars of antiquity spend their careers studying Greece and Rome.",
+          "mnemonic": "ANTIQUE + ity — the age of antiques, the very old world.",
+          "synonyms": [
+            "ancient times",
+            "old age"
+          ],
+          "antonyms": [
+            "modernity",
+            "present"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "mid-frequency and academic register — time and duration",
+  "createdAt": "2026-09-12T08:12:21.815Z"
+}

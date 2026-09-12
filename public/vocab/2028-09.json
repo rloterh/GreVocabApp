@@ -1,0 +1,1665 @@
+{
+  "month": "2028-09",
+  "displayName": "September 2028",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2028-09-proliferate",
+          "word": "proliferate",
+          "partOfSpeech": "verb",
+          "definition": "To multiply or spread rapidly in large numbers.",
+          "example": "After the first clip went viral, copycat videos began to proliferate across the platform.",
+          "mnemonic": "Sounds like 'pro-life-rate' — the rate at which new life keeps multiplying.",
+          "synonyms": [
+            "multiply",
+            "mushroom",
+            "snowball"
+          ],
+          "antonyms": [
+            "dwindle",
+            "decrease"
+          ]
+        },
+        {
+          "id": "2028-09-blossom",
+          "word": "blossom",
+          "partOfSpeech": "verb",
+          "definition": "To develop and flourish into something fuller or more attractive.",
+          "example": "Under her mentor's guidance, the shy intern blossomed into a confident leader.",
+          "mnemonic": "Picture a tight 'blob' of bud that suddenly bursts open — bl-ossom opening wide.",
+          "synonyms": [
+            "flourish",
+            "bloom",
+            "thrive"
+          ],
+          "antonyms": [
+            "wither",
+            "wilt"
+          ]
+        },
+        {
+          "id": "2028-09-efflorescence",
+          "word": "efflorescence",
+          "partOfSpeech": "noun",
+          "definition": "The peak period of flowering, growth, or full development.",
+          "example": "The Renaissance marked an efflorescence of art, science, and philosophy across Europe.",
+          "mnemonic": "'Ef-FLOR-escence' — the FLORa hitting its fullest flower.",
+          "synonyms": [
+            "flowering",
+            "blooming",
+            "zenith"
+          ],
+          "antonyms": [
+            "decline",
+            "decay"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2028-09-fertile",
+          "word": "fertile",
+          "partOfSpeech": "adjective",
+          "definition": "Able to produce abundant crops, offspring, or ideas.",
+          "example": "The volcanic soil was so fertile that farmers harvested three times a year.",
+          "mnemonic": "Shares its root with 'fertilizer' — ground primed to grow anything.",
+          "synonyms": [
+            "fruitful",
+            "productive",
+            "rich"
+          ],
+          "antonyms": [
+            "barren",
+            "sterile"
+          ]
+        },
+        {
+          "id": "2028-09-prolific",
+          "word": "prolific",
+          "partOfSpeech": "adjective",
+          "definition": "Producing many works, results, or offspring.",
+          "example": "A prolific author, she published nearly forty novels in twenty years.",
+          "mnemonic": "'Pro-LIFE-ic' — a pro at making life, with output pouring out.",
+          "synonyms": [
+            "productive",
+            "fecund",
+            "fruitful"
+          ],
+          "antonyms": [
+            "unproductive",
+            "barren"
+          ]
+        },
+        {
+          "id": "2028-09-verdant",
+          "word": "verdant",
+          "partOfSpeech": "adjective",
+          "definition": "Green and covered with lush vegetation.",
+          "example": "After the monsoon, the once-dusty hills turned verdant and cool.",
+          "mnemonic": "Hides 'verde' — Spanish and Italian for green.",
+          "synonyms": [
+            "lush",
+            "leafy",
+            "grassy"
+          ],
+          "antonyms": [
+            "barren",
+            "arid"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2028-09-vernal",
+          "word": "vernal",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to or occurring in the spring.",
+          "example": "The vernal thaw sent meltwater rushing down every mountain stream.",
+          "mnemonic": "Think of the vernal equinox in March — 'vernal' tags the season of spring.",
+          "synonyms": [
+            "springlike",
+            "springtime"
+          ],
+          "antonyms": [
+            "autumnal",
+            "wintry"
+          ]
+        },
+        {
+          "id": "2028-09-quicken",
+          "word": "quicken",
+          "partOfSpeech": "verb",
+          "definition": "To make or become faster, or to stir into life.",
+          "example": "Her pulse quickened as the footsteps drew closer in the dark.",
+          "mnemonic": "'Quick' + en — to make quick, the instant something springs to life.",
+          "synonyms": [
+            "accelerate",
+            "hasten",
+            "enliven"
+          ],
+          "antonyms": [
+            "slow",
+            "deaden"
+          ]
+        },
+        {
+          "id": "2028-09-ripen",
+          "word": "ripen",
+          "partOfSpeech": "verb",
+          "definition": "To reach full maturity or readiness, especially fruit.",
+          "example": "We left the green tomatoes on the windowsill to ripen in the sun.",
+          "mnemonic": "Sounds like 'rip in' — you can rip into the fruit once it's ready.",
+          "synonyms": [
+            "mature",
+            "mellow",
+            "develop"
+          ],
+          "antonyms": [
+            "decay",
+            "shrivel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2028-09-foster",
+          "word": "foster",
+          "partOfSpeech": "verb",
+          "definition": "To encourage the growth or development of something.",
+          "example": "Small discussion groups foster a sense of belonging among new students.",
+          "mnemonic": "A 'foster' parent raises a child not their own — foster means help something grow.",
+          "synonyms": [
+            "encourage",
+            "promote",
+            "nurture"
+          ],
+          "antonyms": [
+            "hinder",
+            "suppress"
+          ]
+        },
+        {
+          "id": "2028-09-nurture",
+          "word": "nurture",
+          "partOfSpeech": "verb",
+          "definition": "To care for and encourage the growth of someone or something.",
+          "example": "Good teachers nurture curiosity instead of merely demanding answers.",
+          "mnemonic": "Sounds like 'nurse' — a nurse tends to something so it grows strong.",
+          "synonyms": [
+            "nourish",
+            "cultivate",
+            "foster"
+          ],
+          "antonyms": [
+            "neglect",
+            "deprive"
+          ]
+        },
+        {
+          "id": "2028-09-cultivate",
+          "word": "cultivate",
+          "partOfSpeech": "verb",
+          "definition": "To prepare land for crops, or to develop something carefully over time.",
+          "example": "Over the years he cultivated a wide network of loyal clients.",
+          "mnemonic": "Root of 'culture' — you tend and grow it, whether soil or a following.",
+          "synonyms": [
+            "develop",
+            "foster",
+            "tend"
+          ],
+          "antonyms": [
+            "neglect",
+            "abandon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2028-09-accretion",
+          "word": "accretion",
+          "partOfSpeech": "noun",
+          "definition": "Gradual growth or increase by the addition of layers or parts.",
+          "example": "The coastline expanded through the slow accretion of sand over centuries.",
+          "mnemonic": "'Ac-CRETE-ion' — like concrete building up, layer by layer.",
+          "synonyms": [
+            "accumulation",
+            "buildup",
+            "growth"
+          ],
+          "antonyms": [
+            "erosion",
+            "reduction"
+          ]
+        },
+        {
+          "id": "2028-09-augment",
+          "word": "augment",
+          "partOfSpeech": "verb",
+          "definition": "To make something larger or greater by adding to it.",
+          "example": "He took a second job to augment his modest salary.",
+          "mnemonic": "Think 'augmented reality' — extra layers added onto what's already there.",
+          "synonyms": [
+            "increase",
+            "boost",
+            "supplement"
+          ],
+          "antonyms": [
+            "diminish",
+            "reduce"
+          ]
+        },
+        {
+          "id": "2028-09-amplify",
+          "word": "amplify",
+          "partOfSpeech": "verb",
+          "definition": "To increase the strength, volume, or intensity of something.",
+          "example": "Social media can amplify a single complaint into a national outcry.",
+          "mnemonic": "An 'amplifier' makes a guitar louder — amplify means crank it up.",
+          "synonyms": [
+            "intensify",
+            "boost",
+            "magnify"
+          ],
+          "antonyms": [
+            "reduce",
+            "muffle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2028-09-escalate",
+          "word": "escalate",
+          "partOfSpeech": "verb",
+          "definition": "To grow quickly and steadily in size, seriousness, or scope.",
+          "example": "A minor disagreement over parking began to escalate until the neighbors stopped speaking entirely.",
+          "mnemonic": "Think of an escalator carrying you steadily upward — things that escalate keep rising.",
+          "synonyms": [
+            "intensify",
+            "mount",
+            "heighten"
+          ],
+          "antonyms": [
+            "de-escalate",
+            "diminish",
+            "subside"
+          ]
+        },
+        {
+          "id": "2028-09-distend",
+          "word": "distend",
+          "partOfSpeech": "verb",
+          "definition": "To swell outward because of pressure building from within.",
+          "example": "After the feast, his stomach began to distend until his belt no longer fit.",
+          "mnemonic": "From Latin dis- + tendere, 'to stretch apart' — a full balloon stretches its skin outward.",
+          "synonyms": [
+            "swell",
+            "bloat",
+            "balloon"
+          ],
+          "antonyms": [
+            "contract",
+            "shrink",
+            "deflate"
+          ]
+        },
+        {
+          "id": "2028-09-dilate",
+          "word": "dilate",
+          "partOfSpeech": "verb",
+          "definition": "To become wider, more open, or fully expanded.",
+          "example": "When she stepped from the bright street into the dark theater, her pupils began to dilate.",
+          "mnemonic": "Root di- + Latin latus, 'wide' — the eye doctor's drops make pupils go wide.",
+          "synonyms": [
+            "widen",
+            "expand",
+            "enlarge"
+          ],
+          "antonyms": [
+            "constrict",
+            "contract",
+            "narrow"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2028-09-wax",
+          "word": "wax",
+          "partOfSpeech": "verb",
+          "definition": "To grow larger, brighter, or more powerful over time.",
+          "example": "As the days passed, the moon began to wax, throwing more light across the fields each night.",
+          "mnemonic": "Half of the pair 'wax and wane' — like candle wax building up drip by drip.",
+          "synonyms": [
+            "grow",
+            "increase",
+            "swell"
+          ],
+          "antonyms": [
+            "wane",
+            "diminish",
+            "dwindle"
+          ]
+        },
+        {
+          "id": "2028-09-decompose",
+          "word": "decompose",
+          "partOfSpeech": "verb",
+          "definition": "To rot and break apart into simpler chemical substances.",
+          "example": "The gardener buried the scraps so they would decompose and enrich the soil by spring.",
+          "mnemonic": "de- (undo) + compose — it's the undoing of something built, back into raw pieces.",
+          "synonyms": [
+            "rot",
+            "decay",
+            "disintegrate"
+          ],
+          "antonyms": [
+            "preserve",
+            "form",
+            "combine"
+          ]
+        },
+        {
+          "id": "2028-09-molder",
+          "word": "molder",
+          "partOfSpeech": "verb",
+          "definition": "To crumble and rot slowly from age and neglect.",
+          "example": "The abandoned library was left to molder, its pages curling and gray with damp.",
+          "mnemonic": "Sounds like 'mold' + 'older' — old bread grows mold and slowly molders away.",
+          "synonyms": [
+            "decay",
+            "rot",
+            "crumble"
+          ],
+          "antonyms": [
+            "flourish",
+            "endure",
+            "preserve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2028-09-putrefy",
+          "word": "putrefy",
+          "partOfSpeech": "verb",
+          "definition": "To rot and give off a foul, offensive odor.",
+          "example": "The forgotten fish began to putrefy, and the smell drove everyone from the kitchen.",
+          "mnemonic": "Latin root putr- ('rotten') + -fy ('make') — literally 'to make rotten'.",
+          "synonyms": [
+            "rot",
+            "decay",
+            "spoil"
+          ],
+          "antonyms": [
+            "preserve",
+            "freshen",
+            "purify"
+          ]
+        },
+        {
+          "id": "2028-09-putrid",
+          "word": "putrid",
+          "partOfSpeech": "adjective",
+          "definition": "Decayed, spoiled, and giving off a disgusting smell.",
+          "example": "One whiff of the putrid meat told them the refrigerator had failed days ago.",
+          "mnemonic": "Say 'PU!' — the sound you make holding your nose — then '-trid'.",
+          "synonyms": [
+            "rotten",
+            "foul",
+            "decayed"
+          ],
+          "antonyms": [
+            "fresh",
+            "wholesome",
+            "fragrant"
+          ]
+        },
+        {
+          "id": "2028-09-putrescent",
+          "word": "putrescent",
+          "partOfSpeech": "adjective",
+          "definition": "In the process of rotting and starting to give off a foul stench.",
+          "example": "The swamp air was thick and putrescent, heavy with the odor of dead leaves and mud.",
+          "mnemonic": "putr- ('rotten') + -escent ('becoming'), like fluorescent — this is 'becoming rotten'.",
+          "synonyms": [
+            "rotting",
+            "decaying",
+            "festering"
+          ],
+          "antonyms": [
+            "fresh",
+            "wholesome",
+            "preserved"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2028-09-fester",
+          "word": "fester",
+          "partOfSpeech": "verb",
+          "definition": "To become infected and inflamed, or to steadily grow worse.",
+          "example": "The tiny splinter he ignored began to fester, and by morning his thumb was red and throbbing.",
+          "mnemonic": "Rhymes with 'pester' — an untreated wound keeps pestering you and gets worse.",
+          "synonyms": [
+            "suppurate",
+            "rankle",
+            "worsen"
+          ],
+          "antonyms": [
+            "heal",
+            "mend",
+            "soothe"
+          ]
+        },
+        {
+          "id": "2028-09-rancid",
+          "word": "rancid",
+          "partOfSpeech": "adjective",
+          "definition": "Spoiled, with the sour smell or taste of stale fat or oil.",
+          "example": "The butter had gone rancid, leaving a bitter, greasy film on the toast.",
+          "mnemonic": "Sounds like 'rank acid' — old oil turns rank and sharply sour.",
+          "synonyms": [
+            "sour",
+            "spoiled",
+            "stale"
+          ],
+          "antonyms": [
+            "fresh",
+            "sweet",
+            "wholesome"
+          ]
+        },
+        {
+          "id": "2028-09-wither",
+          "word": "wither",
+          "partOfSpeech": "verb",
+          "definition": "To dry up, shrink, and lose freshness or vigor.",
+          "example": "Without rain, the roses began to wither until only brittle brown stems remained.",
+          "mnemonic": "Picture a witch's touch — 'wither' starts like 'witch', and her curse drains all life.",
+          "synonyms": [
+            "shrivel",
+            "wilt",
+            "dry up"
+          ],
+          "antonyms": [
+            "flourish",
+            "bloom",
+            "thrive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2028-09-shrivel",
+          "word": "shrivel",
+          "partOfSpeech": "verb",
+          "definition": "To dry out and contract into wrinkles.",
+          "example": "Left too long in the sun, the grapes began to shrivel into wrinkled little raisins.",
+          "mnemonic": "Sounds like 'shrink' — a shriveled grape shrinks and crinkles into a raisin.",
+          "synonyms": [
+            "wrinkle",
+            "shrink",
+            "wither"
+          ],
+          "antonyms": [
+            "swell",
+            "plump",
+            "expand"
+          ]
+        },
+        {
+          "id": "2028-09-wilt",
+          "word": "wilt",
+          "partOfSpeech": "verb",
+          "definition": "To droop and lose firmness, usually from heat or lack of water.",
+          "example": "By noon the freshly cut daisies began to wilt, their heads bowing over the vase's rim.",
+          "mnemonic": "A thirsty flower has lost its 'will' — wi-l-t — and simply flops over.",
+          "synonyms": [
+            "droop",
+            "sag",
+            "flag"
+          ],
+          "antonyms": [
+            "perk up",
+            "revive",
+            "flourish"
+          ]
+        },
+        {
+          "id": "2028-09-atrophy",
+          "word": "atrophy",
+          "partOfSpeech": "verb",
+          "definition": "To waste away and weaken from lack of use or nourishment.",
+          "example": "After weeks in the cast, the muscles in his leg had begun to atrophy and looked thin.",
+          "mnemonic": "a- ('without') + Greek trophē ('nourishment') — 'no nourishment', so the muscle shrinks away.",
+          "synonyms": [
+            "waste away",
+            "degenerate",
+            "wither"
+          ],
+          "antonyms": [
+            "strengthen",
+            "develop",
+            "grow"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2028-09-decrepit",
+          "word": "decrepit",
+          "partOfSpeech": "adjective",
+          "definition": "Worn out, weak, or broken down from old age or long, hard use.",
+          "example": "The decrepit farmhouse sagged on its foundations, its shutters hanging by a single rusted hinge.",
+          "mnemonic": "Sounds like 'the CREPT-in' — so old and feeble it can barely creep in the door.",
+          "synonyms": [
+            "dilapidated",
+            "rickety",
+            "worn-out"
+          ],
+          "antonyms": [
+            "sturdy",
+            "robust",
+            "new"
+          ]
+        },
+        {
+          "id": "2028-09-decrepitude",
+          "word": "decrepitude",
+          "partOfSpeech": "noun",
+          "definition": "The state of being weak and broken down from old age or long neglect.",
+          "example": "Years of poverty and illness had reduced the once-proud manor, and its owner, to utter decrepitude.",
+          "mnemonic": "'decrepit' + '-tude' — the -tude ending turns the crumbling adjective into the condition itself.",
+          "synonyms": [
+            "infirmity",
+            "dilapidation",
+            "feebleness"
+          ],
+          "antonyms": [
+            "vigor",
+            "robustness",
+            "soundness"
+          ]
+        },
+        {
+          "id": "2028-09-dilapidated",
+          "word": "dilapidated",
+          "partOfSpeech": "adjective",
+          "definition": "Fallen into partial ruin or disrepair through age or neglect.",
+          "example": "Squatters had moved into the dilapidated tenement, sleeping beneath a ceiling that leaked at every seam.",
+          "mnemonic": "From Latin 'lapis' (stone) — literally the stones falling out of a wall, like a de-LAP-idated building shedding rocks.",
+          "synonyms": [
+            "ramshackle",
+            "run-down",
+            "decrepit"
+          ],
+          "antonyms": [
+            "pristine",
+            "well-kept",
+            "renovated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2028-09-senescence",
+          "word": "senescence",
+          "partOfSpeech": "noun",
+          "definition": "The gradual process of growing old and declining in function.",
+          "example": "The biologist studied why some cells enter senescence and stop dividing while their neighbors keep multiplying.",
+          "mnemonic": "Shares its root with 'senior' and 'senile' — 'sen-' always means old.",
+          "synonyms": [
+            "aging",
+            "senility"
+          ],
+          "antonyms": [
+            "youth",
+            "rejuvenation"
+          ]
+        },
+        {
+          "id": "2028-09-senescent",
+          "word": "senescent",
+          "partOfSpeech": "adjective",
+          "definition": "Growing old; declining or deteriorating with advancing age.",
+          "example": "The senescent oak dropped fewer acorns each autumn, its hollow trunk home only to owls.",
+          "mnemonic": "'sen-' (old, as in senior) + '-escent' (becoming, as in adolescent) — becoming old.",
+          "synonyms": [
+            "aging",
+            "declining",
+            "waning"
+          ],
+          "antonyms": [
+            "youthful",
+            "vigorous",
+            "flourishing"
+          ]
+        },
+        {
+          "id": "2028-09-diminish",
+          "word": "diminish",
+          "partOfSpeech": "verb",
+          "definition": "To make or become smaller, weaker, or less in amount.",
+          "example": "As the medication took hold, the throbbing in her temples began to diminish until it was barely noticeable.",
+          "mnemonic": "Hidden inside is 'mini' — to diminish is to make things more mini.",
+          "synonyms": [
+            "decrease",
+            "lessen",
+            "shrink"
+          ],
+          "antonyms": [
+            "increase",
+            "grow",
+            "augment"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2028-09-erode",
+          "word": "erode",
+          "partOfSpeech": "verb",
+          "definition": "To wear away gradually by wind, water, or steady pressure over time.",
+          "example": "Decades of crashing surf had eroded the cliff until the lighthouse teetered at the very edge.",
+          "mnemonic": "'e-RODE' — picture a river that rode over rock for centuries, grinding it down.",
+          "synonyms": [
+            "wear away",
+            "abrade",
+            "wash out"
+          ],
+          "antonyms": [
+            "build up",
+            "deposit",
+            "accumulate"
+          ]
+        },
+        {
+          "id": "2028-09-corrode",
+          "word": "corrode",
+          "partOfSpeech": "verb",
+          "definition": "To eat away or destroy a material slowly by chemical action, especially rust.",
+          "example": "Saltwater had corroded the ship's bolts, leaving orange flakes crumbling at the slightest touch.",
+          "mnemonic": "'cor-RODE' with the 'ro' of rust — rust rides in and rots the metal.",
+          "synonyms": [
+            "rust",
+            "eat away",
+            "oxidize"
+          ],
+          "antonyms": [
+            "preserve",
+            "protect",
+            "coat"
+          ]
+        },
+        {
+          "id": "2028-09-degenerate",
+          "word": "degenerate",
+          "partOfSpeech": "verb",
+          "definition": "To decline from a higher to a lower or worse condition.",
+          "example": "The calm debate quickly degenerated into a shouting match, with insults flying across the room.",
+          "mnemonic": "'de-' (down) + 'gener' (kind/type, as in genes) — sinking down below your original kind.",
+          "synonyms": [
+            "decline",
+            "worsen",
+            "deteriorate"
+          ],
+          "antonyms": [
+            "improve",
+            "flourish",
+            "advance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2028-09-deteriorate",
+          "word": "deteriorate",
+          "partOfSpeech": "verb",
+          "definition": "To become progressively worse in quality, value, or condition.",
+          "example": "Without maintenance, the road surface deteriorated into a stretch of potholes within a single winter.",
+          "mnemonic": "From Latin 'deterior' (worse) — think 'de-TERROR-ate,' things getting terribly worse.",
+          "synonyms": [
+            "worsen",
+            "decline",
+            "degrade"
+          ],
+          "antonyms": [
+            "improve",
+            "recover",
+            "strengthen"
+          ]
+        },
+        {
+          "id": "2028-09-sap",
+          "word": "sap",
+          "partOfSpeech": "verb",
+          "definition": "To drain or weaken someone's strength, energy, or resolve gradually.",
+          "example": "The relentless heat sapped the marchers until they could barely lift their feet.",
+          "mnemonic": "A tree bleeds out its sap and grows weak — draining the sap drains the life.",
+          "synonyms": [
+            "drain",
+            "weaken",
+            "deplete"
+          ],
+          "antonyms": [
+            "bolster",
+            "invigorate",
+            "strengthen"
+          ]
+        },
+        {
+          "id": "2028-09-debilitate",
+          "word": "debilitate",
+          "partOfSpeech": "verb",
+          "definition": "To seriously weaken the strength or energy of a person or thing.",
+          "example": "The fever debilitated him so thoroughly that climbing a single flight of stairs left him breathless.",
+          "mnemonic": "Hear 'de-BILITY' from 'ability' — stripping away someone's ability, leaving debility.",
+          "synonyms": [
+            "weaken",
+            "enfeeble",
+            "incapacitate"
+          ],
+          "antonyms": [
+            "strengthen",
+            "fortify",
+            "energize"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2028-09-emaciated",
+          "word": "emaciated",
+          "partOfSpeech": "adjective",
+          "definition": "Abnormally thin and wasted from hunger, illness, or lack of nourishment.",
+          "example": "The rescued dog was so emaciated that every rib pressed sharply against its dull, matted coat.",
+          "mnemonic": "From Latin 'macer' (lean) — think 'e-MACE-iated,' skinny enough to swing like a thin mace.",
+          "synonyms": [
+            "gaunt",
+            "wasted",
+            "skeletal"
+          ],
+          "antonyms": [
+            "plump",
+            "robust",
+            "well-fed"
+          ]
+        },
+        {
+          "id": "2028-09-blight",
+          "word": "blight",
+          "partOfSpeech": "noun",
+          "definition": "Something that spoils, damages, or destroys, especially a plant disease or spreading decay.",
+          "example": "A creeping blight swept through the potato fields, turning healthy leaves black within days.",
+          "mnemonic": "Rhymes with 'night' — a dark blight falls over crops like a sudden killing night.",
+          "synonyms": [
+            "scourge",
+            "affliction",
+            "plague"
+          ],
+          "antonyms": [
+            "blessing",
+            "boon",
+            "flourishing"
+          ]
+        },
+        {
+          "id": "2028-09-canker",
+          "word": "canker",
+          "partOfSpeech": "noun",
+          "definition": "A spreading sore or source of corruption that slowly destroys from within.",
+          "example": "Greed spread through the company like a canker, rotting its values long before the scandal broke.",
+          "mnemonic": "Related to 'cancer' — both come from Latin 'cancer' (crab), an eating, spreading ulcer.",
+          "synonyms": [
+            "ulcer",
+            "blight",
+            "corruption"
+          ],
+          "antonyms": [
+            "cure",
+            "remedy",
+            "healing"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2028-09-effete",
+          "word": "effete",
+          "partOfSpeech": "adjective",
+          "definition": "Having lost strength, energy, or the ability to be effective.",
+          "example": "Years of easy luxury had left the once-fierce dynasty effete, unable to defend its own borders.",
+          "mnemonic": "Say it 'eh-FEET' — feet so tired and weak they can't perform a single feat anymore.",
+          "synonyms": [
+            "enervated",
+            "decadent",
+            "worn-out"
+          ],
+          "antonyms": [
+            "vigorous",
+            "virile",
+            "energetic"
+          ]
+        },
+        {
+          "id": "2028-09-desiccate",
+          "word": "desiccate",
+          "partOfSpeech": "verb",
+          "definition": "To remove all moisture from something, leaving it completely dry.",
+          "example": "The scorching desert wind will desiccate any fruit left uncovered within a few hours.",
+          "mnemonic": "'de-SICC-ate' — Latin siccus means dry; the sun makes it sick until bone dry.",
+          "synonyms": [
+            "dehydrate",
+            "dry",
+            "parch"
+          ],
+          "antonyms": [
+            "moisten",
+            "hydrate",
+            "soak"
+          ]
+        },
+        {
+          "id": "2028-09-parch",
+          "word": "parch",
+          "partOfSpeech": "verb",
+          "definition": "To dry out from heat, or make someone extremely thirsty.",
+          "example": "A long march under the blazing sun left the soldiers' throats parched and cracking.",
+          "mnemonic": "Sounds like a 'porch' baking in the summer heat until everything on it is cracked-dry.",
+          "synonyms": [
+            "dry",
+            "scorch",
+            "desiccate"
+          ],
+          "antonyms": [
+            "soak",
+            "drench",
+            "moisten"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2028-09-gnarled",
+          "word": "gnarled",
+          "partOfSpeech": "adjective",
+          "definition": "Twisted, knotted, and rough, as from age or hard weather.",
+          "example": "The old sailor's gnarled hands gripped the rope, every knuckle swollen from decades at sea.",
+          "mnemonic": "'Gnarly' old tree — full of knots and twists, its bark knurled and lumpy.",
+          "synonyms": [
+            "knotted",
+            "twisted",
+            "contorted"
+          ],
+          "antonyms": [
+            "smooth",
+            "straight",
+            "sleek"
+          ]
+        },
+        {
+          "id": "2028-09-superannuated",
+          "word": "superannuated",
+          "partOfSpeech": "adjective",
+          "definition": "Too old to be useful or effective; retired or outdated because of age.",
+          "example": "The office still ran a superannuated computer that no modern software could even install on.",
+          "mnemonic": "super + annus (Latin 'year') — piled up with so many years it's been put out to pasture.",
+          "synonyms": [
+            "obsolete",
+            "antiquated",
+            "outdated"
+          ],
+          "antonyms": [
+            "modern",
+            "current",
+            "new"
+          ]
+        },
+        {
+          "id": "2028-09-obsolescence",
+          "word": "obsolescence",
+          "partOfSpeech": "noun",
+          "definition": "The process of falling out of use as something newer replaces it.",
+          "example": "Planned obsolescence ensures each phone slows down just as the next model hits the shelves.",
+          "mnemonic": "Hear 'obsolete essence' — the very essence of a thing no longer being wanted.",
+          "synonyms": [
+            "disuse",
+            "antiquation",
+            "decline"
+          ],
+          "antonyms": [
+            "modernity",
+            "currency",
+            "novelty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2028-09-obsolescent",
+          "word": "obsolescent",
+          "partOfSpeech": "adjective",
+          "definition": "Gradually passing out of use and heading toward being outdated.",
+          "example": "By the late 1990s the fax machine was clearly obsolescent, though many offices clung to it.",
+          "mnemonic": "The '-escent' ending means 'in the process of' — like an adolescent, but becoming extinct.",
+          "synonyms": [
+            "declining",
+            "waning",
+            "dying"
+          ],
+          "antonyms": [
+            "emerging",
+            "current",
+            "rising"
+          ]
+        },
+        {
+          "id": "2028-09-attenuate",
+          "word": "attenuate",
+          "partOfSpeech": "verb",
+          "definition": "To reduce the force, strength, or thickness of something.",
+          "example": "Thick lead walls attenuate the radiation until it is finally safe to approach the core.",
+          "mnemonic": "'a-TEN-u-ate' hides 'tenuous' — make it thin and slight.",
+          "synonyms": [
+            "weaken",
+            "diminish",
+            "dilute"
+          ],
+          "antonyms": [
+            "strengthen",
+            "intensify",
+            "amplify"
+          ]
+        },
+        {
+          "id": "2028-09-deplete",
+          "word": "deplete",
+          "partOfSpeech": "verb",
+          "definition": "To use up or greatly reduce the amount of something available.",
+          "example": "Decades of overfishing have depleted the cod stocks that once seemed inexhaustible.",
+          "mnemonic": "de- (away) + -plete (fill, as in 'replete') — to un-fill, to empty out.",
+          "synonyms": [
+            "exhaust",
+            "drain",
+            "consume"
+          ],
+          "antonyms": [
+            "replenish",
+            "fill",
+            "restore"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2028-09-denude",
+          "word": "denude",
+          "partOfSpeech": "verb",
+          "definition": "To strip something of its covering, protection, or natural growth.",
+          "example": "Clear-cutting denuded the hillside, leaving raw soil to wash away in the first heavy rains.",
+          "mnemonic": "de + nude — to make nude, to strip it bare.",
+          "synonyms": [
+            "strip",
+            "bare",
+            "expose"
+          ],
+          "antonyms": [
+            "cover",
+            "clothe",
+            "cloak"
+          ]
+        },
+        {
+          "id": "2028-09-abrade",
+          "word": "abrade",
+          "partOfSpeech": "verb",
+          "definition": "To wear away or scrape off a surface through rubbing or friction.",
+          "example": "The rope, dragged over the same rock ledge for years, was abraded down to a few frayed threads.",
+          "mnemonic": "Picture 'a blade' scraping across a surface — same root as 'abrasive'.",
+          "synonyms": [
+            "scrape",
+            "erode",
+            "chafe"
+          ],
+          "antonyms": [
+            "polish",
+            "soothe",
+            "smooth"
+          ]
+        },
+        {
+          "id": "2028-09-efface",
+          "word": "efface",
+          "partOfSpeech": "verb",
+          "definition": "To erase or wipe out, making something no longer visible.",
+          "example": "Centuries of wind had effaced the inscription until the tombstone was completely blank.",
+          "mnemonic": "ef + face — rub the 'face' right off the surface.",
+          "synonyms": [
+            "erase",
+            "obliterate",
+            "expunge"
+          ],
+          "antonyms": [
+            "inscribe",
+            "mark",
+            "restore"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2028-09-crumble",
+          "word": "crumble",
+          "partOfSpeech": "verb",
+          "definition": "To break apart into small pieces, or slowly fall into ruin.",
+          "example": "The ancient wall crumbled at a touch, the mortar turning to dust between the bricks.",
+          "mnemonic": "Think 'crumbs' — like an apple crumble, it falls apart into little pieces.",
+          "synonyms": [
+            "disintegrate",
+            "fragment",
+            "collapse"
+          ],
+          "antonyms": [
+            "cohere",
+            "consolidate",
+            "solidify"
+          ]
+        },
+        {
+          "id": "2028-09-ossify",
+          "word": "ossify",
+          "partOfSpeech": "verb",
+          "definition": "To harden into bone, or become rigidly set and resistant to change.",
+          "example": "Over the decades the committee's thinking ossified, rejecting every new idea on principle.",
+          "mnemonic": "'os' is Latin for bone (as in 'osseous') — ossify means to turn bony and hard.",
+          "synonyms": [
+            "harden",
+            "stiffen",
+            "set"
+          ],
+          "antonyms": [
+            "soften",
+            "loosen",
+            "adapt"
+          ]
+        },
+        {
+          "id": "2028-09-calcify",
+          "word": "calcify",
+          "partOfSpeech": "verb",
+          "definition": "To harden through calcium deposits, or become fixed and unyielding.",
+          "example": "An X-ray showed the arteries had begun to calcify, growing stiff with mineral buildup.",
+          "mnemonic": "'calc-' as in calcium and chalk — turn hard and chalky like stone.",
+          "synonyms": [
+            "harden",
+            "petrify",
+            "stiffen"
+          ],
+          "antonyms": [
+            "soften",
+            "dissolve",
+            "loosen"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2028-09-tarnish",
+          "word": "tarnish",
+          "partOfSpeech": "verb",
+          "definition": "To dull the shine of metal, or to damage a good reputation.",
+          "example": "A single scandal was enough to tarnish a career built over decades.",
+          "mnemonic": "Sounds like 'tar' + 'varnish' — tar smeared over bright varnish leaves it dull and stained.",
+          "synonyms": [
+            "stain",
+            "sully",
+            "besmirch"
+          ],
+          "antonyms": [
+            "polish",
+            "brighten"
+          ]
+        },
+        {
+          "id": "2028-09-taint",
+          "word": "taint",
+          "partOfSpeech": "verb",
+          "definition": "To spoil something by introducing a trace of contamination or corruption.",
+          "example": "Rumors of bribery taint every decision the committee makes.",
+          "mnemonic": "'Taint' hides 'ain't' — once it's spoiled, it ain't clean anymore.",
+          "synonyms": [
+            "contaminate",
+            "pollute",
+            "corrupt"
+          ],
+          "antonyms": [
+            "purify",
+            "cleanse"
+          ]
+        },
+        {
+          "id": "2028-09-addle",
+          "word": "addle",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone's thinking, or to cause an egg to go rotten.",
+          "example": "Too little sleep can addle your brain until simple sums feel impossible.",
+          "mnemonic": "Rhymes with 'muddle' — an addled mind is a muddled one.",
+          "synonyms": [
+            "confuse",
+            "muddle",
+            "befuddle"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2028-09-curdle",
+          "word": "curdle",
+          "partOfSpeech": "verb",
+          "definition": "To cause milk to thicken and separate into lumps, especially when soured.",
+          "example": "A squeeze of lemon juice will curdle warm milk within seconds.",
+          "mnemonic": "Contains 'curd' — cheese curds form when milk goes this way.",
+          "synonyms": [
+            "coagulate",
+            "clot",
+            "congeal"
+          ],
+          "antonyms": [
+            "liquefy",
+            "dissolve"
+          ]
+        },
+        {
+          "id": "2028-09-ferment",
+          "word": "ferment",
+          "partOfSpeech": "verb",
+          "definition": "To undergo a chemical change driven by yeast or bacteria, often producing alcohol.",
+          "example": "Leave the grape juice in the sealed barrel and it will ferment into wine.",
+          "mnemonic": "'Ferment' echoes 'fervent' — picture a fervent, bubbling vat of activity.",
+          "synonyms": [
+            "brew",
+            "effervesce",
+            "stew"
+          ],
+          "antonyms": [
+            "settle",
+            "stabilize"
+          ]
+        },
+        {
+          "id": "2028-09-regress",
+          "word": "regress",
+          "partOfSpeech": "verb",
+          "definition": "To return to an earlier or less developed condition.",
+          "example": "Without practice, his fluent Spanish began to regress to a few halting phrases.",
+          "mnemonic": "'Re-' (back) + 'gress' (step, as in progress) — to step backward.",
+          "synonyms": [
+            "revert",
+            "backslide",
+            "deteriorate"
+          ],
+          "antonyms": [
+            "progress",
+            "advance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2028-09-devolve",
+          "word": "devolve",
+          "partOfSpeech": "verb",
+          "definition": "To sink into a worse state, or to pass duties down to another party.",
+          "example": "The calm debate quickly devolved into shouting and name-calling.",
+          "mnemonic": "The opposite of 'evolve' — 'de-' means down, so things wind downward.",
+          "synonyms": [
+            "degenerate",
+            "deteriorate",
+            "decline"
+          ],
+          "antonyms": [
+            "evolve",
+            "improve"
+          ]
+        },
+        {
+          "id": "2028-09-pullulate",
+          "word": "pullulate",
+          "partOfSpeech": "verb",
+          "definition": "To multiply or swarm rapidly, filling a place with teeming life.",
+          "example": "In the stagnant pond, mosquito larvae pullulate through the summer heat.",
+          "mnemonic": "Sounds like 'pullet' (a young hen) + 'populate' — chicks populating everywhere.",
+          "synonyms": [
+            "teem",
+            "swarm",
+            "proliferate"
+          ],
+          "antonyms": [
+            "dwindle",
+            "diminish"
+          ]
+        },
+        {
+          "id": "2028-09-fructify",
+          "word": "fructify",
+          "partOfSpeech": "verb",
+          "definition": "To bear fruit, or to make an effort productive and rewarding.",
+          "example": "Years of patient research finally fructified into a working vaccine.",
+          "mnemonic": "'Fruct' is Latin for fruit (as in fructose) — to turn something into fruit.",
+          "synonyms": [
+            "yield",
+            "produce",
+            "flourish"
+          ],
+          "antonyms": [
+            "wither",
+            "fail"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2028-09-fruition",
+          "word": "fruition",
+          "partOfSpeech": "noun",
+          "definition": "The point at which a plan or effort is fully achieved.",
+          "example": "After a decade of saving, their dream of a bakery finally came to fruition.",
+          "mnemonic": "Rooted in 'fruit' — your long labor at last bears fruit and ripens.",
+          "synonyms": [
+            "fulfillment",
+            "realization",
+            "completion"
+          ],
+          "antonyms": [
+            "failure",
+            "abandonment"
+          ]
+        },
+        {
+          "id": "2028-09-mushroom",
+          "word": "mushroom",
+          "partOfSpeech": "verb",
+          "definition": "To grow or increase very quickly in size or number.",
+          "example": "What began as a garage hobby mushroomed into a global company.",
+          "mnemonic": "Picture a mushroom cloud billowing outward — sudden, rapid expansion.",
+          "synonyms": [
+            "proliferate",
+            "burgeon",
+            "escalate"
+          ],
+          "antonyms": [
+            "shrink",
+            "contract"
+          ]
+        },
+        {
+          "id": "2028-09-swell",
+          "word": "swell",
+          "partOfSpeech": "verb",
+          "definition": "To grow larger in size, volume, or number, often gradually.",
+          "example": "The river began to swell as the rain fell for a third straight day.",
+          "mnemonic": "An ocean swell rises and bulges — the sound and image of growing bulk.",
+          "synonyms": [
+            "expand",
+            "bulge",
+            "inflate"
+          ],
+          "antonyms": [
+            "shrink",
+            "deflate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2028-09-balloon",
+          "word": "balloon",
+          "partOfSpeech": "verb",
+          "definition": "To increase quickly to a large size or amount.",
+          "example": "Medical bills can balloon into tens of thousands after a long hospital stay.",
+          "mnemonic": "Picture a party balloon blowing up fast — rapid, visible inflation.",
+          "synonyms": [
+            "swell",
+            "inflate",
+            "soar"
+          ],
+          "antonyms": [
+            "shrink",
+            "deflate"
+          ]
+        },
+        {
+          "id": "2028-09-detritus",
+          "word": "detritus",
+          "partOfSpeech": "noun",
+          "definition": "Loose debris or waste left behind after destruction, decay, or use.",
+          "example": "After the festival, volunteers cleared the detritus of cups and wrappers from the field.",
+          "mnemonic": "Sounds like 'debris' crossed with 'detrition' (wearing away) — worn-down leftover bits.",
+          "synonyms": [
+            "debris",
+            "rubble",
+            "refuse"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-09-husk",
+          "word": "husk",
+          "partOfSpeech": "noun",
+          "definition": "The dry outer covering of a seed or grain, or an empty outer shell.",
+          "example": "She peeled back the husk to reveal the golden kernels of corn.",
+          "mnemonic": "'Husk' and 'hull' both start with h — the dry jacket wrapped around a seed.",
+          "synonyms": [
+            "shell",
+            "hull",
+            "rind"
+          ],
+          "antonyms": [
+            "kernel",
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2028-09-friable",
+          "word": "friable",
+          "partOfSpeech": "adjective",
+          "definition": "Easily broken into small fragments or reduced to powder.",
+          "example": "The dried clay was so friable that it fell apart between her fingers.",
+          "mnemonic": "Sounds like 'fry-able' — food fried to a crisp crumbles apart at a touch.",
+          "synonyms": [
+            "crumbly",
+            "brittle",
+            "powdery"
+          ],
+          "antonyms": [
+            "solid",
+            "firm",
+            "compact"
+          ]
+        },
+        {
+          "id": "2028-09-musty",
+          "word": "musty",
+          "partOfSpeech": "adjective",
+          "definition": "Having a stale, damp, or moldy smell from age or lack of air.",
+          "example": "The old library books gave off a musty odor of forgotten decades.",
+          "mnemonic": "Rhymes with 'dusty' — picture a dusty, unopened attic thick with damp air.",
+          "synonyms": [
+            "moldy",
+            "stale",
+            "dank"
+          ],
+          "antonyms": [
+            "fresh",
+            "airy",
+            "fragrant"
+          ]
+        },
+        {
+          "id": "2028-09-fusty",
+          "word": "fusty",
+          "partOfSpeech": "adjective",
+          "definition": "Smelling stale and stuffy; also rigidly old-fashioned in outlook.",
+          "example": "He rejected every new idea, clinging to fusty rules from another century.",
+          "mnemonic": "Blend of 'fussy' and 'dusty' — a fussy old man in a dusty, airless study.",
+          "synonyms": [
+            "stale",
+            "antiquated",
+            "stuffy"
+          ],
+          "antonyms": [
+            "fresh",
+            "modern",
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2028-09-gaunt",
+          "word": "gaunt",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely thin and bony, often from hunger, illness, or hardship.",
+          "example": "After months lost at sea, the sailor returned gaunt, his cheeks sunken and hollow.",
+          "mnemonic": "Sounds like 'gone' — so much flesh is gone that only bone remains.",
+          "synonyms": [
+            "emaciated",
+            "skeletal",
+            "scrawny"
+          ],
+          "antonyms": [
+            "plump",
+            "robust",
+            "fleshy"
+          ]
+        },
+        {
+          "id": "2028-09-haggard",
+          "word": "haggard",
+          "partOfSpeech": "adjective",
+          "definition": "Looking exhausted and unwell, especially from stress or lack of sleep.",
+          "example": "Three sleepless nights with the newborn left her haggard and hollow-eyed.",
+          "mnemonic": "Contains 'hag' — a worn, wild-eyed witch drained by too many sleepless nights.",
+          "synonyms": [
+            "drawn",
+            "careworn",
+            "wan"
+          ],
+          "antonyms": [
+            "fresh",
+            "radiant",
+            "rested"
+          ]
+        },
+        {
+          "id": "2028-09-cadaverous",
+          "word": "cadaverous",
+          "partOfSpeech": "adjective",
+          "definition": "Resembling a corpse in being pale, thin, and deathly in appearance.",
+          "example": "His cadaverous pallor made the nurses fear he would not last the night.",
+          "mnemonic": "From Latin 'cadaver' (corpse) — imagine a face like one laid out on a slab.",
+          "synonyms": [
+            "corpselike",
+            "ghastly",
+            "deathly"
+          ],
+          "antonyms": [
+            "healthy",
+            "ruddy",
+            "vigorous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2028-09-etiolated",
+          "word": "etiolated",
+          "partOfSpeech": "adjective",
+          "definition": "Pale and spindly, or weakened, from growing without enough sunlight.",
+          "example": "The seedlings grew etiolated in the dark closet, leggy and ghostly white.",
+          "mnemonic": "Hear 'eat-no-light' — a plant starved of light turns pale and stretched thin.",
+          "synonyms": [
+            "blanched",
+            "pallid",
+            "wan"
+          ],
+          "antonyms": [
+            "verdant",
+            "sunlit",
+            "robust"
+          ]
+        },
+        {
+          "id": "2028-09-derelict",
+          "word": "derelict",
+          "partOfSpeech": "adjective",
+          "definition": "Abandoned and left to fall into ruin; also failing in one's duty.",
+          "example": "Squatters now sheltered inside the derelict factory's crumbling shell.",
+          "mnemonic": "'De-' (away) + 'relinquish' — something relinquished and left to rot.",
+          "synonyms": [
+            "abandoned",
+            "dilapidated",
+            "neglected"
+          ],
+          "antonyms": [
+            "maintained",
+            "occupied",
+            "pristine"
+          ]
+        },
+        {
+          "id": "2028-09-ramshackle",
+          "word": "ramshackle",
+          "partOfSpeech": "adjective",
+          "definition": "Loosely held together and likely to collapse; badly built or run-down.",
+          "example": "The ramshackle barn swayed and groaned with every gust of wind.",
+          "mnemonic": "Picture a 'ram' shaking a 'shack' until it's on the verge of falling down.",
+          "synonyms": [
+            "rickety",
+            "decrepit",
+            "tumbledown"
+          ],
+          "antonyms": [
+            "sturdy",
+            "solid",
+            "sound"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2028-09-revitalize",
+          "word": "revitalize",
+          "partOfSpeech": "verb",
+          "definition": "To give fresh energy, strength, or life to something again.",
+          "example": "New cafés and murals helped revitalize the long-neglected waterfront district.",
+          "mnemonic": "'Re-' (again) + 'vital' — to pump living force back into something tired.",
+          "synonyms": [
+            "rejuvenate",
+            "renew",
+            "reinvigorate"
+          ],
+          "antonyms": [
+            "deplete",
+            "drain",
+            "exhaust"
+          ]
+        },
+        {
+          "id": "2028-09-recrudescence",
+          "word": "recrudescence",
+          "partOfSpeech": "noun",
+          "definition": "The return of something harmful after a period of calm or inactivity.",
+          "example": "Doctors feared a recrudescence of the fever once the medication was stopped.",
+          "mnemonic": "'Re-' (again) + Latin 'crudus' (raw) — an old wound turning raw once more.",
+          "synonyms": [
+            "resurgence",
+            "relapse",
+            "recurrence"
+          ],
+          "antonyms": [
+            "remission",
+            "abatement",
+            "subsidence"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "mid-frequency and academic register — growth and decay",
+  "createdAt": "2026-09-12T09:20:19.607Z"
+}

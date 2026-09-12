@@ -1,0 +1,1523 @@
+{
+  "month": "2027-11",
+  "displayName": "November 2027",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2027-11-fervid",
+          "word": "fervid",
+          "partOfSpeech": "adjective",
+          "definition": "Showing very strong, heated emotion or enthusiasm about something.",
+          "example": "Her fervid speech left the crowd chanting long after she had stepped down.",
+          "mnemonic": "Sounds like 'fever' — a fervid person burns with a fever of passion.",
+          "synonyms": [
+            "ardent",
+            "impassioned",
+            "zealous"
+          ],
+          "antonyms": [
+            "apathetic",
+            "indifferent",
+            "cool"
+          ]
+        },
+        {
+          "id": "2027-11-rapturous",
+          "word": "rapturous",
+          "partOfSpeech": "adjective",
+          "definition": "Filled with or expressing overwhelming joy and delight.",
+          "example": "The reunited soldiers embraced to rapturous cheers from the waiting families.",
+          "mnemonic": "Rapt + your + us: you're so 'rapt' with joy it seems to wrap around all of us.",
+          "synonyms": [
+            "ecstatic",
+            "elated",
+            "euphoric"
+          ],
+          "antonyms": [
+            "miserable",
+            "dejected",
+            "gloomy"
+          ]
+        },
+        {
+          "id": "2027-11-mawkish",
+          "word": "mawkish",
+          "partOfSpeech": "adjective",
+          "definition": "Overly sentimental in a sickly, embarrassing way.",
+          "example": "The film's mawkish ending, all swelling violins and slow-motion hugs, made even soft hearts groan.",
+          "mnemonic": "Maw + kiss: a big gooey kiss straight in the maw — too much sugary feeling to stomach.",
+          "synonyms": [
+            "maudlin",
+            "saccharine",
+            "sentimental"
+          ],
+          "antonyms": [
+            "unsentimental",
+            "stoic",
+            "matter-of-fact"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2027-11-disconsolate",
+          "word": "disconsolate",
+          "partOfSpeech": "adjective",
+          "definition": "So unhappy that nothing can bring comfort.",
+          "example": "After losing the championship, the disconsolate goalkeeper sat alone and refused to speak.",
+          "mnemonic": "dis- (not) + console: someone you simply cannot console.",
+          "synonyms": [
+            "inconsolable",
+            "heartbroken",
+            "forlorn"
+          ],
+          "antonyms": [
+            "cheerful",
+            "comforted",
+            "content"
+          ]
+        },
+        {
+          "id": "2027-11-melancholy",
+          "word": "melancholy",
+          "partOfSpeech": "noun",
+          "definition": "A lingering, gentle sadness, often without a clear cause.",
+          "example": "A quiet melancholy settled over him as he watched the last train leave the empty platform.",
+          "mnemonic": "Greek 'melas' = black; black bile was once thought to be the cause of low, heavy spirits.",
+          "synonyms": [
+            "sorrow",
+            "gloom",
+            "wistfulness"
+          ],
+          "antonyms": [
+            "joy",
+            "cheerfulness",
+            "elation"
+          ]
+        },
+        {
+          "id": "2027-11-plaintive",
+          "word": "plaintive",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing a sad, mournful, or pleading feeling, especially in sound.",
+          "example": "The plaintive cry of a lone gull carried across the deserted beach.",
+          "mnemonic": "Hear 'plaint' as in 'complaint' — a plaintive voice complains sorrowfully.",
+          "synonyms": [
+            "mournful",
+            "wistful",
+            "sorrowful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "joyful",
+            "upbeat"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2027-11-doleful",
+          "word": "doleful",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing deep sorrow or gloom.",
+          "example": "The dog gave a doleful look as its owner packed a suitcase by the door.",
+          "mnemonic": "'Dole' is an old word for grief, so doleful literally means full of grief.",
+          "synonyms": [
+            "mournful",
+            "woeful",
+            "sorrowful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "merry",
+            "jovial"
+          ]
+        },
+        {
+          "id": "2027-11-peevish",
+          "word": "peevish",
+          "partOfSpeech": "adjective",
+          "definition": "Easily irritated and inclined to complain about small things.",
+          "example": "By the third delayed flight, the toddler grew peevish and whined at everything.",
+          "mnemonic": "Sounds like 'peeve' — a pet peeve is exactly what makes someone peevish.",
+          "synonyms": [
+            "irritable",
+            "petulant",
+            "querulous"
+          ],
+          "antonyms": [
+            "good-natured",
+            "easygoing",
+            "agreeable"
+          ]
+        },
+        {
+          "id": "2027-11-choleric",
+          "word": "choleric",
+          "partOfSpeech": "adjective",
+          "definition": "Quick to become angry; hot-tempered.",
+          "example": "The choleric chef hurled a pan whenever an order came back to his kitchen.",
+          "mnemonic": "From 'choler' (yellow bile), one of the four humors once blamed for a fiery disposition.",
+          "synonyms": [
+            "irascible",
+            "hot-tempered",
+            "testy"
+          ],
+          "antonyms": [
+            "calm",
+            "placid",
+            "even-tempered"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2027-11-splenetic",
+          "word": "splenetic",
+          "partOfSpeech": "adjective",
+          "definition": "Full of bitterness, spite, and ill will.",
+          "example": "His splenetic reply to the mild review shocked everyone at the meeting.",
+          "mnemonic": "From 'spleen' — the organ once believed to be the seat of bad temper and spite.",
+          "synonyms": [
+            "spiteful",
+            "irritable",
+            "rancorous"
+          ],
+          "antonyms": [
+            "genial",
+            "amiable",
+            "good-humored"
+          ]
+        },
+        {
+          "id": "2027-11-irate",
+          "word": "irate",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling or showing extreme anger.",
+          "example": "An irate customer slammed the receipt on the counter and demanded the manager.",
+          "mnemonic": "Latin 'ira' = anger; the same root gives us 'ire.'",
+          "synonyms": [
+            "furious",
+            "incensed",
+            "livid"
+          ],
+          "antonyms": [
+            "calm",
+            "pleased",
+            "content"
+          ]
+        },
+        {
+          "id": "2027-11-seethe",
+          "word": "seethe",
+          "partOfSpeech": "verb",
+          "definition": "To feel intense anger that is barely held inside.",
+          "example": "She said nothing, but you could see her seethe as the insult sank in.",
+          "mnemonic": "Picture a covered pot of boiling water — it seethes and steams, just like anger under a lid.",
+          "synonyms": [
+            "fume",
+            "boil",
+            "simmer"
+          ],
+          "antonyms": [
+            "calm down",
+            "soothe",
+            "relax"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2027-11-chafe",
+          "word": "chafe",
+          "partOfSpeech": "verb",
+          "definition": "To feel or show irritation and impatience at a restriction.",
+          "example": "New recruits chafe under rules that forbid phones during training.",
+          "mnemonic": "A rough collar chafes your neck; strict rules chafe your patience — both rub you raw.",
+          "synonyms": [
+            "fret",
+            "bristle",
+            "fume"
+          ],
+          "antonyms": [
+            "acquiesce",
+            "relax",
+            "accept"
+          ]
+        },
+        {
+          "id": "2027-11-temper",
+          "word": "temper",
+          "partOfSpeech": "verb",
+          "definition": "To soften or moderate the force of something.",
+          "example": "She learned to temper her criticism with a few words of encouragement.",
+          "mnemonic": "Like tempering steel — repeated heating and cooling makes it less brittle and better balanced.",
+          "synonyms": [
+            "moderate",
+            "soften",
+            "mitigate"
+          ],
+          "antonyms": [
+            "intensify",
+            "aggravate",
+            "heighten"
+          ]
+        },
+        {
+          "id": "2027-11-tranquil",
+          "word": "tranquil",
+          "partOfSpeech": "adjective",
+          "definition": "Free from disturbance; calm and peaceful.",
+          "example": "The lake was so tranquil that the mountains mirrored perfectly on its surface.",
+          "mnemonic": "Sounds like 'tranquilizer' — a drug given precisely to make someone calm.",
+          "synonyms": [
+            "serene",
+            "peaceful",
+            "placid"
+          ],
+          "antonyms": [
+            "agitated",
+            "turbulent",
+            "chaotic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2027-11-serene",
+          "word": "serene",
+          "partOfSpeech": "adjective",
+          "definition": "Completely calm, peaceful, and untroubled by stress or disturbance.",
+          "example": "Even as the deadline loomed, she remained serene, sipping her tea without a hint of panic.",
+          "mnemonic": "From Latin 'serenus', a clear, cloudless sky — picture a still lake mirroring a bright blue heaven.",
+          "synonyms": [
+            "tranquil",
+            "placid",
+            "untroubled"
+          ],
+          "antonyms": [
+            "agitated",
+            "turbulent",
+            "anxious"
+          ]
+        },
+        {
+          "id": "2027-11-composure",
+          "word": "composure",
+          "partOfSpeech": "noun",
+          "definition": "The state of staying calm and in control of one's feelings under pressure.",
+          "example": "The pilot kept his composure as the engine sputtered, calmly guiding the plane to a safe landing.",
+          "mnemonic": "Compose yourself the way a musician composes — you arrange scattered emotions into ordered calm.",
+          "synonyms": [
+            "poise",
+            "equanimity",
+            "self-possession"
+          ],
+          "antonyms": [
+            "agitation",
+            "panic",
+            "fluster"
+          ]
+        },
+        {
+          "id": "2027-11-sangfroid",
+          "word": "sangfroid",
+          "partOfSpeech": "noun",
+          "definition": "Coolness and self-control shown in difficult or dangerous circumstances.",
+          "example": "With remarkable sangfroid, the surgeon kept operating even after the lights flickered out.",
+          "mnemonic": "French for 'cold blood': sang (blood) + froid (cold) — a cold-blooded, unflappable calm.",
+          "synonyms": [
+            "coolness",
+            "poise",
+            "composure"
+          ],
+          "antonyms": [
+            "panic",
+            "agitation",
+            "nervousness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2027-11-stoic",
+          "word": "stoic",
+          "partOfSpeech": "adjective",
+          "definition": "Enduring pain or hardship without showing feelings or complaining.",
+          "example": "He gave a stoic nod at the grim diagnosis and quietly asked what the next step would be.",
+          "mnemonic": "The ancient Stoic philosophers preached calm acceptance of fate — picture a statue-still sage unmoved by chaos.",
+          "synonyms": [
+            "impassive",
+            "unemotional",
+            "phlegmatic"
+          ],
+          "antonyms": [
+            "emotional",
+            "excitable",
+            "demonstrative"
+          ]
+        },
+        {
+          "id": "2027-11-dispassionate",
+          "word": "dispassionate",
+          "partOfSpeech": "adjective",
+          "definition": "Not swayed by strong feelings; calm, rational, and impartial in judgment.",
+          "example": "The judge delivered a dispassionate ruling, weighing only the facts and ignoring the crowd's outrage.",
+          "mnemonic": "'Dis-' (without) + passion — literally without passion, coolly objective.",
+          "synonyms": [
+            "impartial",
+            "objective",
+            "detached"
+          ],
+          "antonyms": [
+            "emotional",
+            "biased",
+            "fervent"
+          ]
+        },
+        {
+          "id": "2027-11-temperate",
+          "word": "temperate",
+          "partOfSpeech": "adjective",
+          "definition": "Showing moderation and self-restraint, especially in behavior or appetite.",
+          "example": "A temperate eater, he pushed the dessert tray away after a single small bite.",
+          "mnemonic": "Same root as 'temper' and 'temperature' — you keep things moderate, neither too hot nor too cold.",
+          "synonyms": [
+            "moderate",
+            "restrained",
+            "mild"
+          ],
+          "antonyms": [
+            "excessive",
+            "immoderate",
+            "extreme"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2027-11-sober",
+          "word": "sober",
+          "partOfSpeech": "adjective",
+          "definition": "Serious, solemn, and marked by self-control rather than excess or excitement.",
+          "example": "After the accident, the crew held a sober meeting to review exactly what had gone wrong.",
+          "mnemonic": "Picture a 'so-bear' — a serious, upright bear who refuses the party and stays grave.",
+          "synonyms": [
+            "serious",
+            "solemn",
+            "grave"
+          ],
+          "antonyms": [
+            "frivolous",
+            "giddy",
+            "flippant"
+          ]
+        },
+        {
+          "id": "2027-11-staid",
+          "word": "staid",
+          "partOfSpeech": "adjective",
+          "definition": "Serious, settled, and conventional in a way that seems dull or overly proper.",
+          "example": "The staid old bank, all dark wood and hushed clerks, felt frozen in another century.",
+          "mnemonic": "Sounds like 'stayed' — someone who stayed put, set in stiff, unchanging ways.",
+          "synonyms": [
+            "sedate",
+            "prim",
+            "proper"
+          ],
+          "antonyms": [
+            "frivolous",
+            "adventurous",
+            "lively"
+          ]
+        },
+        {
+          "id": "2027-11-sedate",
+          "word": "sedate",
+          "partOfSpeech": "adjective",
+          "definition": "Calm, dignified, and unhurried in pace or manner.",
+          "example": "They took a sedate stroll through the garden, in no rush to reach anywhere at all.",
+          "mnemonic": "A 'sedative' slows you down and calms you — sedate shares the root; picture someone gently eased into stillness.",
+          "synonyms": [
+            "unhurried",
+            "composed",
+            "leisurely"
+          ],
+          "antonyms": [
+            "frantic",
+            "lively",
+            "agitated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2027-11-reserved",
+          "word": "reserved",
+          "partOfSpeech": "adjective",
+          "definition": "Slow to reveal emotions or opinions; restrained and undemonstrative in manner.",
+          "example": "New to the office, she stayed reserved, listening far more than she ever spoke.",
+          "mnemonic": "Like a 'reserved' seat held back for later — a reserved person holds their feelings back.",
+          "synonyms": [
+            "reticent",
+            "restrained",
+            "aloof"
+          ],
+          "antonyms": [
+            "outgoing",
+            "gregarious",
+            "effusive"
+          ]
+        },
+        {
+          "id": "2027-11-trepidation",
+          "word": "trepidation",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of fear or nervous worry about something that may happen.",
+          "example": "With visible trepidation, the young diver inched toward the edge of the high board.",
+          "mnemonic": "Sounds like 'trip + hesitation' — you hesitate to take the trip because you're scared.",
+          "synonyms": [
+            "dread",
+            "apprehension",
+            "anxiety"
+          ],
+          "antonyms": [
+            "composure",
+            "confidence",
+            "calm"
+          ]
+        },
+        {
+          "id": "2027-11-apprehension",
+          "word": "apprehension",
+          "partOfSpeech": "noun",
+          "definition": "Anxiety or unease about a future event that might turn out badly.",
+          "example": "A wave of apprehension swept over him as the examiner broke the seal on the test packet.",
+          "mnemonic": "To 'apprehend' is to grasp — apprehension is your mind clutching at what could go wrong.",
+          "synonyms": [
+            "trepidation",
+            "dread",
+            "unease"
+          ],
+          "antonyms": [
+            "confidence",
+            "assurance",
+            "composure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2027-11-foreboding",
+          "word": "foreboding",
+          "partOfSpeech": "noun",
+          "definition": "A strong feeling that something bad is about to happen.",
+          "example": "The sudden silence of the birds filled the hikers with foreboding.",
+          "mnemonic": "'Fore-' (before) + boding (an omen) — a dark warning felt before disaster strikes.",
+          "synonyms": [
+            "premonition",
+            "dread",
+            "misgiving"
+          ],
+          "antonyms": [
+            "reassurance",
+            "optimism",
+            "confidence"
+          ]
+        },
+        {
+          "id": "2027-11-disquiet",
+          "word": "disquiet",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of worry or unease that disturbs one's peace of mind.",
+          "example": "News of the layoffs spread a growing disquiet through the once-cheerful office.",
+          "mnemonic": "'Dis-' (undo) + quiet — the undoing of your inner quiet, an unrest that stirs within.",
+          "synonyms": [
+            "unease",
+            "restlessness",
+            "anxiety"
+          ],
+          "antonyms": [
+            "calm",
+            "tranquility",
+            "reassurance"
+          ]
+        },
+        {
+          "id": "2027-11-perturb",
+          "word": "perturb",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel anxious, unsettled, or worried.",
+          "example": "Nothing seemed to perturb the veteran nurse, not even the chaos of a packed emergency room.",
+          "mnemonic": "'Per-' + 'turb' (as in turbulence and disturb) — to stir up turbulence in someone's calm.",
+          "synonyms": [
+            "unsettle",
+            "disturb",
+            "agitate"
+          ],
+          "antonyms": [
+            "calm",
+            "soothe",
+            "reassure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2027-11-discompose",
+          "word": "discompose",
+          "partOfSpeech": "verb",
+          "definition": "To disturb someone's calm and leave them feeling agitated or unsettled.",
+          "example": "The unexpected question during the interview seemed to discompose her, and she stumbled over her words.",
+          "mnemonic": "dis- (undo) + compose: to un-compose a person, breaking apart their carefully arranged calm.",
+          "synonyms": [
+            "disturb",
+            "unsettle",
+            "ruffle"
+          ],
+          "antonyms": [
+            "calm",
+            "reassure",
+            "settle"
+          ]
+        },
+        {
+          "id": "2027-11-fluster",
+          "word": "fluster",
+          "partOfSpeech": "verb",
+          "definition": "To make someone nervous, confused, and unable to think clearly.",
+          "example": "The barrage of questions from reporters began to fluster the young mayor.",
+          "mnemonic": "Sounds like 'flurry' + 'bluster' — a sudden flurry leaves you in a bluster of confusion.",
+          "synonyms": [
+            "rattle",
+            "agitate",
+            "unnerve"
+          ],
+          "antonyms": [
+            "calm",
+            "compose",
+            "relax"
+          ]
+        },
+        {
+          "id": "2027-11-unnerve",
+          "word": "unnerve",
+          "partOfSpeech": "verb",
+          "definition": "To make someone lose courage or confidence and feel deeply uneasy.",
+          "example": "The eerie silence of the abandoned house began to unnerve even the veteran detective.",
+          "mnemonic": "un- + nerve: to strip away your nerve (your steadiness), leaving you shaky.",
+          "synonyms": [
+            "intimidate",
+            "rattle",
+            "daunt"
+          ],
+          "antonyms": [
+            "reassure",
+            "embolden",
+            "hearten"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2027-11-vex",
+          "word": "vex",
+          "partOfSpeech": "verb",
+          "definition": "To annoy or irritate someone, especially in a small but persistent way.",
+          "example": "The children would deliberately vex their babysitter by hiding her keys every evening.",
+          "mnemonic": "Sounds like 'vexed' rhyming with 'hexed' — a witch's hex makes you frustrated and annoyed.",
+          "synonyms": [
+            "irritate",
+            "annoy",
+            "aggravate"
+          ],
+          "antonyms": [
+            "soothe",
+            "calm",
+            "please"
+          ]
+        },
+        {
+          "id": "2027-11-nettle",
+          "word": "nettle",
+          "partOfSpeech": "verb",
+          "definition": "To irritate or provoke someone into feeling annoyed.",
+          "example": "Her smug tone nettled him so much that he snapped back a sharp reply.",
+          "mnemonic": "A nettle plant stings the skin on contact — being nettled is that same stinging irritation.",
+          "synonyms": [
+            "irritate",
+            "annoy",
+            "provoke"
+          ],
+          "antonyms": [
+            "soothe",
+            "calm",
+            "please"
+          ]
+        },
+        {
+          "id": "2027-11-exasperate",
+          "word": "exasperate",
+          "partOfSpeech": "verb",
+          "definition": "To irritate someone intensely until they feel frustrated and out of patience.",
+          "example": "The child's endless 'why?' questions eventually exasperated even his patient grandmother.",
+          "mnemonic": "ex- + 'asper' (rough, as in asperity) — to roughen someone's temper past its breaking point.",
+          "synonyms": [
+            "infuriate",
+            "aggravate",
+            "frustrate"
+          ],
+          "antonyms": [
+            "pacify",
+            "appease",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2027-11-pique",
+          "word": "pique",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of irritation or resentment caused by having one's pride wounded.",
+          "example": "In a fit of pique, she tore up the invitation and refused to attend the party.",
+          "mnemonic": "From French 'piquer' (to prick); sounds like 'peak' — your pride peaks, then bristles when pricked.",
+          "synonyms": [
+            "resentment",
+            "irritation",
+            "umbrage"
+          ],
+          "antonyms": [
+            "pleasure",
+            "delight",
+            "contentment"
+          ]
+        },
+        {
+          "id": "2027-11-acrimony",
+          "word": "acrimony",
+          "partOfSpeech": "noun",
+          "definition": "Bitterness or harshness in the way people speak or feel toward each other.",
+          "example": "The divorce was settled with surprising speed and none of the acrimony everyone had expected.",
+          "mnemonic": "'acri-' means sharp or bitter (as in 'acrid') — acrimony is a sharp, bitter mood.",
+          "synonyms": [
+            "bitterness",
+            "rancor",
+            "hostility"
+          ],
+          "antonyms": [
+            "goodwill",
+            "warmth",
+            "cordiality"
+          ]
+        },
+        {
+          "id": "2027-11-animus",
+          "word": "animus",
+          "partOfSpeech": "noun",
+          "definition": "A strong feeling of hostility or ill will directed toward someone.",
+          "example": "There was clear animus behind his review; he seemed determined to ruin the restaurant.",
+          "mnemonic": "Shares its root with 'animosity' — picture an angry animal (anima) baring its teeth.",
+          "synonyms": [
+            "hostility",
+            "animosity",
+            "antagonism"
+          ],
+          "antonyms": [
+            "goodwill",
+            "affection",
+            "amity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2027-11-embittered",
+          "word": "embittered",
+          "partOfSpeech": "adjective",
+          "definition": "Made to feel resentful, sour, and cynical after painful experiences.",
+          "example": "Years of being passed over for promotion had left him embittered toward the whole company.",
+          "mnemonic": "em- (to make) + 'bitter' — made full of bitterness, like a drink gone sour.",
+          "synonyms": [
+            "resentful",
+            "jaded",
+            "sour"
+          ],
+          "antonyms": [
+            "content",
+            "cheerful",
+            "grateful"
+          ]
+        },
+        {
+          "id": "2027-11-disgruntled",
+          "word": "disgruntled",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling angry or dissatisfied because things did not go as hoped.",
+          "example": "A disgruntled customer demanded to speak with the manager about the broken product.",
+          "mnemonic": "dis- + 'gruntled' — imagine a pig's discontented grunt when it doesn't get fed.",
+          "synonyms": [
+            "dissatisfied",
+            "discontented",
+            "aggrieved"
+          ],
+          "antonyms": [
+            "satisfied",
+            "content",
+            "pleased"
+          ]
+        },
+        {
+          "id": "2027-11-restive",
+          "word": "restive",
+          "partOfSpeech": "adjective",
+          "definition": "Impatient and unable to stay still or calm, especially under restraint.",
+          "example": "The horses grew restive as the thunderstorm approached, stamping and pulling at their reins.",
+          "mnemonic": "Counterintuitively the opposite of 'restful' — the 'rest-' root, but far too antsy to rest.",
+          "synonyms": [
+            "restless",
+            "fidgety",
+            "impatient"
+          ],
+          "antonyms": [
+            "calm",
+            "relaxed",
+            "docile"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2027-11-fretful",
+          "word": "fretful",
+          "partOfSpeech": "adjective",
+          "definition": "Anxious, irritable, and inclined to complain or worry over small things.",
+          "example": "The fretful toddler whimpered all night, unable to settle without his mother nearby.",
+          "mnemonic": "To 'fret' means to worry and to wear away — a fretful person is worn down by worry.",
+          "synonyms": [
+            "anxious",
+            "irritable",
+            "peevish"
+          ],
+          "antonyms": [
+            "calm",
+            "serene",
+            "content"
+          ]
+        },
+        {
+          "id": "2027-11-forbearance",
+          "word": "forbearance",
+          "partOfSpeech": "noun",
+          "definition": "Patient self-control and restraint shown when dealing with provocation or delay.",
+          "example": "The landlord showed great forbearance, waiting three months before asking about the overdue rent.",
+          "mnemonic": "for- + 'bear' — to bear with something, holding yourself back instead of reacting.",
+          "synonyms": [
+            "patience",
+            "tolerance",
+            "restraint"
+          ],
+          "antonyms": [
+            "impatience",
+            "intolerance",
+            "harshness"
+          ]
+        },
+        {
+          "id": "2027-11-abstain",
+          "word": "abstain",
+          "partOfSpeech": "verb",
+          "definition": "To choose not to do or consume something, especially by deliberate restraint.",
+          "example": "She decided to abstain from dessert while training for the marathon.",
+          "mnemonic": "'abs-' (away) + 'tain' (to hold, as in 'retain') — to hold yourself away from something.",
+          "synonyms": [
+            "refrain",
+            "forgo",
+            "desist"
+          ],
+          "antonyms": [
+            "indulge",
+            "partake",
+            "consume"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2027-11-refrain",
+          "word": "refrain",
+          "partOfSpeech": "verb",
+          "definition": "To stop yourself from doing something you might otherwise do.",
+          "example": "She had to refrain from laughing during the solemn ceremony.",
+          "mnemonic": "RE-FRAIN sounds like 'rein' — you pull the reins to hold a horse back.",
+          "synonyms": [
+            "abstain",
+            "forbear",
+            "resist"
+          ],
+          "antonyms": [
+            "indulge",
+            "yield"
+          ]
+        },
+        {
+          "id": "2027-11-moderate",
+          "word": "moderate",
+          "partOfSpeech": "adjective",
+          "definition": "Average in amount or degree; avoiding extremes.",
+          "example": "He kept a moderate pace so he wouldn't tire before the finish.",
+          "mnemonic": "MODE-rate: keep things set to the middle 'mode', the average setting.",
+          "synonyms": [
+            "reasonable",
+            "temperate",
+            "mild"
+          ],
+          "antonyms": [
+            "extreme",
+            "excessive"
+          ]
+        },
+        {
+          "id": "2027-11-curtail",
+          "word": "curtail",
+          "partOfSpeech": "verb",
+          "definition": "To cut short or reduce the extent of something.",
+          "example": "Budget cuts forced the school to curtail its after-school programs.",
+          "mnemonic": "CURT-TAIL: cut the tail short — 'curt' means brief.",
+          "synonyms": [
+            "shorten",
+            "restrict",
+            "trim"
+          ],
+          "antonyms": [
+            "extend",
+            "expand",
+            "lengthen"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2027-11-continence",
+          "word": "continence",
+          "partOfSpeech": "noun",
+          "definition": "Self-control, especially over one's appetites, urges, or bodily functions.",
+          "example": "The monk's continence extended to fasting and long vows of silence.",
+          "mnemonic": "CONTINENCE ~ 'contain' — you contain your urges rather than letting them out.",
+          "synonyms": [
+            "self-restraint",
+            "temperance",
+            "abstinence"
+          ],
+          "antonyms": [
+            "indulgence",
+            "excess"
+          ]
+        },
+        {
+          "id": "2027-11-measured",
+          "word": "measured",
+          "partOfSpeech": "adjective",
+          "definition": "Deliberate and controlled, done with careful thought rather than haste.",
+          "example": "In a measured tone, she answered every accusation without raising her voice.",
+          "mnemonic": "You 'measure' twice before you cut — measured means careful and unhurried.",
+          "synonyms": [
+            "deliberate",
+            "controlled",
+            "calculated"
+          ],
+          "antonyms": [
+            "hasty",
+            "impulsive",
+            "rash"
+          ]
+        },
+        {
+          "id": "2027-11-understated",
+          "word": "understated",
+          "partOfSpeech": "adjective",
+          "definition": "Presented in a subtle, restrained way without drawing attention.",
+          "example": "Her understated black dress drew quiet admiration rather than gasps.",
+          "mnemonic": "UNDER-STATED: less is said than could be — the effect is held back.",
+          "synonyms": [
+            "subtle",
+            "restrained",
+            "muted"
+          ],
+          "antonyms": [
+            "flashy",
+            "ostentatious",
+            "showy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2027-11-modulate",
+          "word": "modulate",
+          "partOfSpeech": "verb",
+          "definition": "To adjust, soften, or vary something to a suitable level or tone.",
+          "example": "The speaker modulated her voice, dropping to a whisper for the saddest part.",
+          "mnemonic": "Picture a MODULE on a synth — a knob you turn to tune the sound up or down.",
+          "synonyms": [
+            "adjust",
+            "temper",
+            "regulate"
+          ],
+          "antonyms": [
+            "amplify",
+            "intensify"
+          ]
+        },
+        {
+          "id": "2027-11-elation",
+          "word": "elation",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of great joy and high spirits.",
+          "example": "Crossing the finish line first, she felt a rush of pure elation.",
+          "mnemonic": "E-LATION ~ 'elevation' — your mood is lifted way up high.",
+          "synonyms": [
+            "joy",
+            "exhilaration",
+            "delight"
+          ],
+          "antonyms": [
+            "despair",
+            "dejection",
+            "misery"
+          ]
+        },
+        {
+          "id": "2027-11-euphoria",
+          "word": "euphoria",
+          "partOfSpeech": "noun",
+          "definition": "An intense feeling of happiness and excitement.",
+          "example": "A wave of euphoria swept the stadium as the winning goal went in.",
+          "mnemonic": "EU (good, as in 'eulogy') + PHORIA — a 'good feeling' carried through you.",
+          "synonyms": [
+            "bliss",
+            "ecstasy",
+            "rapture"
+          ],
+          "antonyms": [
+            "misery",
+            "despair",
+            "melancholy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2027-11-jubilant",
+          "word": "jubilant",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling or showing great joy, especially after a success.",
+          "example": "The jubilant fans poured onto the pitch, chanting their team's name.",
+          "mnemonic": "JUBILANT ~ 'jubilee' — a huge, joyful celebration.",
+          "synonyms": [
+            "triumphant",
+            "exultant",
+            "overjoyed"
+          ],
+          "antonyms": [
+            "despondent",
+            "downcast",
+            "mournful"
+          ]
+        },
+        {
+          "id": "2027-11-buoyant",
+          "word": "buoyant",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerful and full of light-hearted optimism.",
+          "example": "Despite the setback, she stayed buoyant, sure the next attempt would work.",
+          "mnemonic": "A BUOY floats and bobs up — a buoyant mood keeps rising.",
+          "synonyms": [
+            "cheerful",
+            "upbeat",
+            "optimistic"
+          ],
+          "antonyms": [
+            "gloomy",
+            "depressed",
+            "downcast"
+          ]
+        },
+        {
+          "id": "2027-11-giddy",
+          "word": "giddy",
+          "partOfSpeech": "adjective",
+          "definition": "Excited to the point of feeling dizzy or lightheaded with joy.",
+          "example": "The children were giddy with excitement the night before the trip.",
+          "mnemonic": "GIDDY ~ 'giddy-up' spinning — a happy, spinning head.",
+          "synonyms": [
+            "dizzy",
+            "lightheaded",
+            "elated"
+          ],
+          "antonyms": [
+            "composed",
+            "serious",
+            "steady"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2027-11-mirth",
+          "word": "mirth",
+          "partOfSpeech": "noun",
+          "definition": "Amusement expressed through laughter and good humor.",
+          "example": "The comedian's story filled the room with mirth.",
+          "mnemonic": "MIRTH rhymes with 'birth' — the birth of a good laugh.",
+          "synonyms": [
+            "merriment",
+            "hilarity",
+            "gaiety"
+          ],
+          "antonyms": [
+            "gloom",
+            "solemnity",
+            "sorrow"
+          ]
+        },
+        {
+          "id": "2027-11-glee",
+          "word": "glee",
+          "partOfSpeech": "noun",
+          "definition": "Great delight, often at one's own good fortune or another's mishap.",
+          "example": "The boy rubbed his hands in glee as he unwrapped the enormous present.",
+          "mnemonic": "GLEE ~ picture a 'gleeful' grin, all teeth and sparkle.",
+          "synonyms": [
+            "delight",
+            "joy",
+            "exuberance"
+          ],
+          "antonyms": [
+            "sorrow",
+            "gloom",
+            "misery"
+          ]
+        },
+        {
+          "id": "2027-11-levity",
+          "word": "levity",
+          "partOfSpeech": "noun",
+          "definition": "Humor or light-heartedness, especially when seriousness is expected.",
+          "example": "A touch of levity from the pilot eased the nervous passengers.",
+          "mnemonic": "LEVITY ~ 'levitate' — a lightness that lifts the mood off the ground.",
+          "synonyms": [
+            "light-heartedness",
+            "frivolity",
+            "humor"
+          ],
+          "antonyms": [
+            "gravity",
+            "seriousness",
+            "solemnity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2027-11-contrite",
+          "word": "contrite",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling sincere sorrow and regret for having done something wrong.",
+          "example": "After breaking his sister's laptop, Marco was so contrite that he offered to pay for it from his savings.",
+          "mnemonic": "Contrite sounds like 'con-tried' — someone who tried a bad trick, got caught, and is now full of regret.",
+          "synonyms": [
+            "penitent",
+            "remorseful",
+            "apologetic"
+          ],
+          "antonyms": [
+            "unrepentant",
+            "defiant"
+          ]
+        },
+        {
+          "id": "2027-11-penitent",
+          "word": "penitent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing genuine sorrow and a wish to make up for wrongdoing.",
+          "example": "The penitent student stayed after class to apologize for cheating and promised never to do it again.",
+          "mnemonic": "Penitent shares its root with 'penitentiary' — a prison where people are meant to repent.",
+          "synonyms": [
+            "contrite",
+            "repentant",
+            "remorseful"
+          ],
+          "antonyms": [
+            "unrepentant",
+            "defiant"
+          ]
+        },
+        {
+          "id": "2027-11-remorse",
+          "word": "remorse",
+          "partOfSpeech": "noun",
+          "definition": "A gnawing feeling of guilt over something bad one has done.",
+          "example": "She felt a wave of remorse the moment she saw how badly her harsh words had hurt him.",
+          "mnemonic": "Remorse = 're-' + Latin 'mordere' (to bite) — a guilt that bites you again and again.",
+          "synonyms": [
+            "guilt",
+            "regret",
+            "contrition"
+          ],
+          "antonyms": [
+            "indifference",
+            "satisfaction"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2027-11-rue",
+          "word": "rue",
+          "partOfSpeech": "verb",
+          "definition": "To bitterly regret an action and wish it had never been done.",
+          "example": "He would rue the day he ignored the warnings and poured his savings into the scheme.",
+          "mnemonic": "Rue is a bitter-tasting herb; bitterly regretting a choice leaves the same bitter taste in your mouth.",
+          "synonyms": [
+            "regret",
+            "lament",
+            "repent"
+          ],
+          "antonyms": [
+            "celebrate",
+            "rejoice"
+          ]
+        },
+        {
+          "id": "2027-11-compunction",
+          "word": "compunction",
+          "partOfSpeech": "noun",
+          "definition": "A slight, uneasy feeling of guilt that holds you back from acting.",
+          "example": "The thief felt not the slightest compunction as he slipped the wallet into his pocket.",
+          "mnemonic": "Compunction hides 'punct' (puncture/point) — a guilty conscience pricks you like a pin before you act.",
+          "synonyms": [
+            "qualm",
+            "scruple",
+            "misgiving"
+          ],
+          "antonyms": [
+            "indifference",
+            "shamelessness"
+          ]
+        },
+        {
+          "id": "2027-11-chagrin",
+          "word": "chagrin",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of annoyance and distress caused by failure or humiliation.",
+          "example": "To her chagrin, she realized she had been mispronouncing her new boss's name for the entire meeting.",
+          "mnemonic": "Chagrin sounds like 'shah grin' — the king's forced grin trying to hide his embarrassment after a defeat.",
+          "synonyms": [
+            "embarrassment",
+            "mortification",
+            "vexation"
+          ],
+          "antonyms": [
+            "delight",
+            "pride"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2027-11-mortify",
+          "word": "mortify",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel deeply ashamed or embarrassed.",
+          "example": "It would mortify him to learn that his baby photos were being projected at the class reunion.",
+          "mnemonic": "'Mort-' means death (as in 'mortal') — to be mortified is to be so embarrassed you could die.",
+          "synonyms": [
+            "embarrass",
+            "humiliate",
+            "shame"
+          ],
+          "antonyms": [
+            "honor",
+            "delight"
+          ]
+        },
+        {
+          "id": "2027-11-abash",
+          "word": "abash",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel awkward, self-conscious, or ashamed.",
+          "example": "The teacher's sudden question seemed to abash the whispering students into silence.",
+          "mnemonic": "Abash sounds like 'a bash' — a sudden verbal bash leaves you flustered and ashamed.",
+          "synonyms": [
+            "embarrass",
+            "disconcert",
+            "fluster"
+          ],
+          "antonyms": [
+            "reassure",
+            "embolden"
+          ]
+        },
+        {
+          "id": "2027-11-crestfallen",
+          "word": "crestfallen",
+          "partOfSpeech": "adjective",
+          "definition": "Sad and disappointed after hopes are suddenly dashed.",
+          "example": "When the coach read the team list and left off his name, the boy looked utterly crestfallen.",
+          "mnemonic": "Picture a proud rooster whose crest has fallen flat — its spirits are visibly down.",
+          "synonyms": [
+            "downcast",
+            "dejected",
+            "disheartened"
+          ],
+          "antonyms": [
+            "elated",
+            "jubilant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2027-11-dejected",
+          "word": "dejected",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling low in spirits and unhappy.",
+          "example": "After failing the audition, she walked home dejected, staring at the pavement the whole way.",
+          "mnemonic": "De- (down) + 'ject' (throw), like 'eject' — your mood has been thrown downward.",
+          "synonyms": [
+            "downcast",
+            "despondent",
+            "gloomy"
+          ],
+          "antonyms": [
+            "cheerful",
+            "elated"
+          ]
+        },
+        {
+          "id": "2027-11-compassion",
+          "word": "compassion",
+          "partOfSpeech": "noun",
+          "definition": "Sympathy and concern for the suffering of others.",
+          "example": "Moved by compassion, the nurse sat with the frightened patient long after her shift had ended.",
+          "mnemonic": "Com- (with) + 'passion' (suffering) — you suffer with someone, feeling their pain as your own.",
+          "synonyms": [
+            "sympathy",
+            "empathy",
+            "mercy"
+          ],
+          "antonyms": [
+            "cruelty",
+            "indifference"
+          ]
+        },
+        {
+          "id": "2027-11-solicitude",
+          "word": "solicitude",
+          "partOfSpeech": "noun",
+          "definition": "Careful, anxious concern for another person's wellbeing.",
+          "example": "His constant solicitude for his aging mother showed in the daily calls and the carefully stocked fridge.",
+          "mnemonic": "Solicitude sounds like 'solicit' — you actively solicit ways to care for someone you worry about.",
+          "synonyms": [
+            "concern",
+            "care",
+            "attentiveness"
+          ],
+          "antonyms": [
+            "indifference",
+            "neglect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2027-11-poignant",
+          "word": "poignant",
+          "partOfSpeech": "adjective",
+          "definition": "Sharply affecting the feelings; deeply touching and moving.",
+          "example": "The old soldier's poignant letter to his wife brought the entire room to tears.",
+          "mnemonic": "Poignant shares 'poign/pung' with 'puncture' — it pierces straight to your heart.",
+          "synonyms": [
+            "touching",
+            "moving",
+            "heartrending"
+          ],
+          "antonyms": [
+            "unemotional",
+            "dull"
+          ]
+        },
+        {
+          "id": "2027-11-pathos",
+          "word": "pathos",
+          "partOfSpeech": "noun",
+          "definition": "A quality in something that stirs feelings of pity or sorrow.",
+          "example": "There was such pathos in the stray dog's eyes that passersby couldn't help but stop.",
+          "mnemonic": "Pathos is the root of 'sympathy' and 'pathetic' — the tug on your emotions that makes you feel pity.",
+          "synonyms": [
+            "poignancy",
+            "sadness",
+            "pity"
+          ],
+          "antonyms": [
+            "comedy",
+            "hilarity"
+          ]
+        },
+        {
+          "id": "2027-11-commiserate",
+          "word": "commiserate",
+          "partOfSpeech": "verb",
+          "definition": "To share in another's sorrow by expressing sympathy.",
+          "example": "After both teams lost, the rival captains met to commiserate over the disappointing season.",
+          "mnemonic": "Com- (with) + 'miser' (misery) — to be miserable together, sharing another's grief.",
+          "synonyms": [
+            "sympathize",
+            "condole",
+            "console"
+          ],
+          "antonyms": [
+            "gloat",
+            "rejoice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2027-11-woebegone",
+          "word": "woebegone",
+          "partOfSpeech": "adjective",
+          "definition": "Appearing deeply sad, gloomy, and miserable, especially in one's face or overall manner.",
+          "example": "The woebegone puppy sat alone in the rain, ears drooping, watching every car pass without stopping.",
+          "mnemonic": "It literally starts with 'woe' — picture a face so heavy with woe that all its joy has 'gone.'",
+          "synonyms": [
+            "forlorn",
+            "mournful",
+            "doleful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "jubilant",
+            "buoyant"
+          ]
+        },
+        {
+          "id": "2027-11-allay",
+          "word": "allay",
+          "partOfSpeech": "verb",
+          "definition": "To calm or lessen someone's fear, worry, doubt, or suffering.",
+          "example": "The pilot's steady voice over the intercom helped allay the nervous passengers during the turbulence.",
+          "mnemonic": "Sounds like 'a-lay' — you gently lay a person's worries down to rest.",
+          "synonyms": [
+            "soothe",
+            "ease",
+            "calm"
+          ],
+          "antonyms": [
+            "aggravate",
+            "intensify",
+            "provoke"
+          ]
+        },
+        {
+          "id": "2027-11-decorum",
+          "word": "decorum",
+          "partOfSpeech": "noun",
+          "definition": "Polite, dignified behavior that suits a formal or social occasion.",
+          "example": "Even as the debate grew heated, the ambassadors kept their decorum and never once raised their voices.",
+          "mnemonic": "Think 'decorate a room' — good manners are what tastefully decorate any social setting.",
+          "synonyms": [
+            "propriety",
+            "etiquette",
+            "politeness"
+          ],
+          "antonyms": [
+            "rudeness",
+            "impropriety",
+            "vulgarity"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "mid-frequency and academic register — emotion and restraint",
+  "createdAt": "2026-09-12T08:05:27.929Z"
+}

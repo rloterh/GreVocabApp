@@ -1,0 +1,1262 @@
+{
+  "month": "2029-02",
+  "displayName": "February 2029",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2029-02-syllogism",
+          "word": "syllogism",
+          "partOfSpeech": "noun",
+          "definition": "A form of reasoning in which a conclusion is drawn from two given premises.",
+          "example": "All men are mortal; Socrates is a man; therefore Socrates is mortal — that syllogism is the textbook example.",
+          "mnemonic": "SILL-o-gism: picture two premises sitting on a window SILL, and the conclusion dropping off the edge (Greek syllogismos, 'a reckoning together').",
+          "synonyms": [
+            "deduction",
+            "inference",
+            "argument"
+          ],
+          "antonyms": [
+            "fallacy",
+            "non sequitur"
+          ]
+        },
+        {
+          "id": "2029-02-syllogistic",
+          "word": "syllogistic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to formal reasoning that derives a conclusion from two stated premises.",
+          "example": "Her essay advanced in tight syllogistic steps, each claim resting squarely on the two before it.",
+          "mnemonic": "Same root as its parent form; the suffix '-istic' means 'in the style of' — the style of stacking two premises to force a result.",
+          "synonyms": [
+            "deductive",
+            "logical",
+            "inferential"
+          ],
+          "antonyms": [
+            "illogical",
+            "intuitive"
+          ]
+        },
+        {
+          "id": "2029-02-dialectic",
+          "word": "dialectic",
+          "partOfSpeech": "noun",
+          "definition": "Inquiry that pursues truth by weighing opposing arguments against each other.",
+          "example": "Through a patient dialectic of thesis and counter-thesis, the seminar edged toward a shared view.",
+          "mnemonic": "DIA- ('across') + -lect ('speak'): two voices speaking across each other. Sounds like 'dial-a-tick' — dialing back and forth between two sides.",
+          "synonyms": [
+            "debate",
+            "argumentation",
+            "discourse"
+          ],
+          "antonyms": [
+            "monologue",
+            "dogma"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2029-02-sophistic",
+          "word": "sophistic",
+          "partOfSpeech": "adjective",
+          "definition": "Using arguments that seem clever and plausible but are actually misleading or false.",
+          "example": "The lawyer's sophistic patter dazzled the jury until the prosecutor exposed the hollow logic beneath it.",
+          "mnemonic": "The ancient Sophists were paid to win arguments, not find truth — 'so-FIST-ic' = a slick fist of fake reasoning.",
+          "synonyms": [
+            "specious",
+            "fallacious",
+            "captious"
+          ],
+          "antonyms": [
+            "sound",
+            "valid",
+            "cogent"
+          ]
+        },
+        {
+          "id": "2029-02-casuist",
+          "word": "casuist",
+          "partOfSpeech": "noun",
+          "definition": "A person who uses subtle, often misleading reasoning, especially about matters of right and wrong.",
+          "example": "A practiced casuist, he could justify almost any broken promise with a tidy little exception.",
+          "mnemonic": "CASE + -ist: one who splits every moral CASE into finer and finer hairs until the rule quietly vanishes.",
+          "synonyms": [
+            "sophist",
+            "quibbler"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-02-paralogism",
+          "word": "paralogism",
+          "partOfSpeech": "noun",
+          "definition": "A flawed piece of reasoning made without any intent to deceive.",
+          "example": "His conclusion collapsed on inspection — a paralogism that quietly confused correlation with cause.",
+          "mnemonic": "PARA- ('beside, off') + logic: reasoning that slips off to the side of true logic — like a line that looks parallel but veers away.",
+          "synonyms": [
+            "fallacy",
+            "non sequitur"
+          ],
+          "antonyms": [
+            "proof",
+            "valid argument"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2029-02-tautological",
+          "word": "tautological",
+          "partOfSpeech": "adjective",
+          "definition": "Needlessly repeating the same idea in different words, or true merely by its own terms.",
+          "example": "Saying 'a free gift' is tautological, since a gift is by definition already free.",
+          "mnemonic": "Greek 'tauto' means 'the same' — picture a taut rope pulled tight between two identical ends, looping back on itself.",
+          "synonyms": [
+            "redundant",
+            "circular",
+            "repetitive"
+          ],
+          "antonyms": [
+            "concise",
+            "informative"
+          ]
+        },
+        {
+          "id": "2029-02-apodictic",
+          "word": "apodictic",
+          "partOfSpeech": "adjective",
+          "definition": "Established as certain beyond any possible doubt.",
+          "example": "Mathematicians treat 2 + 2 = 4 as apodictic — no future evidence could ever overturn it.",
+          "mnemonic": "Sounds like 'a-po-DIC-tate': it dictates a truth you simply cannot argue back against (Greek apodeiktikos, 'capable of proof').",
+          "synonyms": [
+            "incontrovertible",
+            "indisputable",
+            "certain"
+          ],
+          "antonyms": [
+            "dubious",
+            "debatable",
+            "conjectural"
+          ]
+        },
+        {
+          "id": "2029-02-probative",
+          "word": "probative",
+          "partOfSpeech": "adjective",
+          "definition": "Serving to test something or to furnish evidence in support of a claim.",
+          "example": "The DNA match was highly probative, tipping the jury decisively toward a guilty verdict.",
+          "mnemonic": "PROBATIVE ~ PROBE: it probes a claim and thereby proves it (Latin probare, 'to test, prove').",
+          "synonyms": [
+            "evidential",
+            "corroborative",
+            "telling"
+          ],
+          "antonyms": [
+            "irrelevant",
+            "immaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2029-02-dispositive",
+          "word": "dispositive",
+          "partOfSpeech": "adjective",
+          "definition": "Bringing an issue to a final and conclusive settlement.",
+          "example": "One overlooked receipt proved dispositive, ending the whole dispute before lunch.",
+          "mnemonic": "Think DISPOSE: a dispositive fact disposes of the question entirely, leaving nothing left to argue.",
+          "synonyms": [
+            "decisive",
+            "conclusive",
+            "determinative"
+          ],
+          "antonyms": [
+            "inconclusive",
+            "indecisive"
+          ]
+        },
+        {
+          "id": "2029-02-evince",
+          "word": "evince",
+          "partOfSpeech": "verb",
+          "definition": "To reveal or make plainly evident, especially a feeling or quality.",
+          "example": "Even as a toddler she evinced a fierce love of music, humming melodies before she could speak.",
+          "mnemonic": "e-VINCE looks like 'evidence' with the 'd' knocked out — to give evidence of something within.",
+          "synonyms": [
+            "display",
+            "manifest",
+            "demonstrate"
+          ],
+          "antonyms": [
+            "conceal",
+            "hide",
+            "mask"
+          ]
+        },
+        {
+          "id": "2029-02-interpolate",
+          "word": "interpolate",
+          "partOfSpeech": "verb",
+          "definition": "To insert extra material into a text, or to estimate a value lying between known ones.",
+          "example": "A later scribe seems to have interpolated a paragraph the original author never wrote.",
+          "mnemonic": "INTER- ('between') + '-pole': you plant a new pole between two poles already standing.",
+          "synonyms": [
+            "insert",
+            "interject",
+            "intercalate"
+          ],
+          "antonyms": [
+            "delete",
+            "remove",
+            "extract"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2029-02-deductive",
+          "word": "deductive",
+          "partOfSpeech": "adjective",
+          "definition": "Reasoning from general rules toward a specific, logically guaranteed conclusion.",
+          "example": "Starting from established physical laws, she reached her answer by purely deductive steps.",
+          "mnemonic": "DE- ('down') + duce ('lead'): you lead the truth DOWN from a broad rule to a single case.",
+          "synonyms": [
+            "inferential",
+            "a priori",
+            "logical"
+          ],
+          "antonyms": [
+            "inductive",
+            "empirical"
+          ]
+        },
+        {
+          "id": "2029-02-inductive",
+          "word": "inductive",
+          "partOfSpeech": "adjective",
+          "definition": "Reasoning from particular observations toward a broader, probable generalization.",
+          "example": "After watching a thousand sunrises, he drew the inductive conclusion that the sun rises every day.",
+          "mnemonic": "IN- ('into') + duce ('lead'): many small facts lead INTO one big rule — the reverse of leading down.",
+          "synonyms": [
+            "empirical",
+            "a posteriori",
+            "probabilistic"
+          ],
+          "antonyms": [
+            "deductive",
+            "a priori"
+          ]
+        },
+        {
+          "id": "2029-02-epistemic",
+          "word": "epistemic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to knowledge and the grounds on which we claim to know things.",
+          "example": "The witness's admission created serious epistemic doubt about everything else she had claimed.",
+          "mnemonic": "Greek 'episteme' means knowledge (the root of epistemology) — hear the STEM in epi-STEM-ic: the stem of what you know.",
+          "synonyms": [
+            "cognitive",
+            "epistemological"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2029-02-epistemology",
+          "word": "epistemology",
+          "partOfSpeech": "noun",
+          "definition": "The branch of philosophy concerned with the nature, sources, and limits of human knowledge.",
+          "example": "Her epistemology led her to distrust any claim that couldn't be tested or observed firsthand.",
+          "mnemonic": "Greek epistēmē (knowledge) + -logy (study). Hear 'epi-STEM': the study of how we know what we know.",
+          "synonyms": [
+            "theory of knowledge",
+            "gnoseology"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-02-veridical",
+          "word": "veridical",
+          "partOfSpeech": "adjective",
+          "definition": "Coinciding with fact; genuinely truthful and accurate.",
+          "example": "The witness gave a veridical account that matched every detail the security cameras had captured.",
+          "mnemonic": "Latin veritas = truth, same root as 'verify'. A veridical dream is one that comes true.",
+          "synonyms": [
+            "truthful",
+            "accurate",
+            "genuine"
+          ],
+          "antonyms": [
+            "false",
+            "illusory",
+            "deceptive"
+          ]
+        },
+        {
+          "id": "2029-02-incontrovertible",
+          "word": "incontrovertible",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to deny or dispute because it is so clearly certain.",
+          "example": "The DNA match was incontrovertible, and even the defense lawyers stopped arguing.",
+          "mnemonic": "in- (not) + contro-vert (turn against, as in 'controversy') — you can't turn it around on itself.",
+          "synonyms": [
+            "indisputable",
+            "undeniable",
+            "irrefutable"
+          ],
+          "antonyms": [
+            "questionable",
+            "disputable",
+            "doubtful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2029-02-irrefragable",
+          "word": "irrefragable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to refute or argue against.",
+          "example": "She built an irrefragable case, brick by brick, until no one could poke a single hole in it.",
+          "mnemonic": "ir- (not) + think 'FRAG' — an argument that cannot be fragmented or broken apart.",
+          "synonyms": [
+            "indisputable",
+            "irrefutable",
+            "incontestable"
+          ],
+          "antonyms": [
+            "refutable",
+            "disputable",
+            "questionable"
+          ]
+        },
+        {
+          "id": "2029-02-premise",
+          "word": "premise",
+          "partOfSpeech": "noun",
+          "definition": "A statement taken as true and used as the basis for reasoning or a conclusion.",
+          "example": "His whole business plan rested on the premise that interest rates would stay low.",
+          "mnemonic": "pre- (before) + mise (put/send) — what you put down before the conclusion. It comes first.",
+          "synonyms": [
+            "assumption",
+            "proposition",
+            "supposition"
+          ],
+          "antonyms": [
+            "conclusion",
+            "inference"
+          ]
+        },
+        {
+          "id": "2029-02-corollary",
+          "word": "corollary",
+          "partOfSpeech": "noun",
+          "definition": "A statement that follows logically and easily from one already proven.",
+          "example": "Higher wages were a welcome corollary of the region's sudden economic boom.",
+          "mnemonic": "From Latin corolla, 'little garland' — a bonus wreath that comes attached. Picture a 'collar' that follows the shirt.",
+          "synonyms": [
+            "consequence",
+            "result",
+            "upshot"
+          ],
+          "antonyms": [
+            "cause",
+            "premise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2029-02-axiomatic",
+          "word": "axiomatic",
+          "partOfSpeech": "adjective",
+          "definition": "Regarded as obviously true and needing no proof.",
+          "example": "It is axiomatic in medicine that prevention costs far less than a cure.",
+          "mnemonic": "From 'axiom' (Greek axios = worthy). Say 'axe-io-MATIC': a truth so solid it's automatic.",
+          "synonyms": [
+            "self-evident",
+            "unquestionable",
+            "given"
+          ],
+          "antonyms": [
+            "dubious",
+            "questionable",
+            "unproven"
+          ]
+        },
+        {
+          "id": "2029-02-sophism",
+          "word": "sophism",
+          "partOfSpeech": "noun",
+          "definition": "A clever argument that seems sound but is deliberately deceptive or false.",
+          "example": "The salesman's pitch was pure sophism, dressing a bad deal in flawless-sounding logic.",
+          "mnemonic": "Greek sophos = wise (as in 'sophisticated'), but it only looks wise — hear 'so-phony'.",
+          "synonyms": [
+            "fallacy",
+            "casuistry",
+            "sophistry"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-02-delirium",
+          "word": "delirium",
+          "partOfSpeech": "noun",
+          "definition": "A disturbed mental state marked by confusion, restlessness, and sometimes hallucinations.",
+          "example": "By nightfall the fever had risen so high that she slipped into delirium, muttering to people who weren't there.",
+          "mnemonic": "Latin delirare = to go off the furrow (de- + lira, the plowed ridge) — the mind leaves its track.",
+          "synonyms": [
+            "frenzy",
+            "derangement",
+            "hallucination"
+          ],
+          "antonyms": [
+            "lucidity",
+            "sanity",
+            "clarity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2029-02-delirious",
+          "word": "delirious",
+          "partOfSpeech": "adjective",
+          "definition": "Suffering confused, incoherent thinking, often from fever; also wildly and joyfully excited.",
+          "example": "The fans were delirious when the final whistle confirmed the championship.",
+          "mnemonic": "Same 'off the furrow' root as its noun cousin — a serious fever makes you 'de-LEER-ious'.",
+          "synonyms": [
+            "raving",
+            "frenzied",
+            "feverish"
+          ],
+          "antonyms": [
+            "lucid",
+            "calm",
+            "coherent"
+          ]
+        },
+        {
+          "id": "2029-02-deranged",
+          "word": "deranged",
+          "partOfSpeech": "adjective",
+          "definition": "Mentally disturbed to the point of behaving in a wild or irrational way.",
+          "example": "The letters grew stranger each week, until they read like the work of a deranged mind.",
+          "mnemonic": "de- (undo) + range/arrange — someone whose thoughts are un-arranged, knocked completely out of order.",
+          "synonyms": [
+            "insane",
+            "unhinged",
+            "crazed"
+          ],
+          "antonyms": [
+            "sane",
+            "rational",
+            "lucid"
+          ]
+        },
+        {
+          "id": "2029-02-demented",
+          "word": "demented",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in a mad, irrational, or wildly foolish manner.",
+          "example": "He drove with a demented recklessness, weaving through traffic at twice the speed limit.",
+          "mnemonic": "de- (away) + -ment- (mind, as in 'mental') — the mind driven away. Think 'de-minded'.",
+          "synonyms": [
+            "insane",
+            "crazed",
+            "unhinged"
+          ],
+          "antonyms": [
+            "sane",
+            "rational",
+            "sound"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2029-02-dementia",
+          "word": "dementia",
+          "partOfSpeech": "noun",
+          "definition": "A progressive decline in memory and reasoning caused by disease of the brain.",
+          "example": "As the dementia advanced, her grandfather could no longer recognize his own children.",
+          "mnemonic": "de- (away) + -ment- (mind) + -ia (condition) — a condition of the mind slipping away.",
+          "synonyms": [
+            "senility",
+            "cognitive decline"
+          ],
+          "antonyms": [
+            "lucidity",
+            "mental acuity"
+          ]
+        },
+        {
+          "id": "2029-02-lunacy",
+          "word": "lunacy",
+          "partOfSpeech": "noun",
+          "definition": "Extreme foolishness or madness; a wildly senseless act or idea.",
+          "example": "Spending the entire year's budget on fireworks was sheer lunacy.",
+          "mnemonic": "Latin luna = moon; once blamed on the full moon — picture 'moon-madness'.",
+          "synonyms": [
+            "madness",
+            "folly",
+            "insanity"
+          ],
+          "antonyms": [
+            "sanity",
+            "prudence",
+            "sense"
+          ]
+        },
+        {
+          "id": "2029-02-mania",
+          "word": "mania",
+          "partOfSpeech": "noun",
+          "definition": "A state of abnormally elevated mood and energy, or an intense obsessive enthusiasm.",
+          "example": "Tulip mania gripped the country until fortunes were traded for a single bulb.",
+          "mnemonic": "Greek mania = madness, sharing a root with 'maniac' — an unstoppable high or craving.",
+          "synonyms": [
+            "obsession",
+            "frenzy",
+            "craze"
+          ],
+          "antonyms": [
+            "apathy",
+            "indifference",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2029-02-manic",
+          "word": "manic",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by frantic, uncontrolled excitement or wildly restless energy.",
+          "example": "He scrubbed the entire house at 3 a.m. in a manic burst that left everyone bewildered.",
+          "mnemonic": "Sounds like 'panic' — a panicked mind races and can't sit still.",
+          "synonyms": [
+            "frantic",
+            "frenzied",
+            "hyperactive"
+          ],
+          "antonyms": [
+            "calm",
+            "placid",
+            "composed"
+          ]
+        },
+        {
+          "id": "2029-02-frenzy",
+          "word": "frenzy",
+          "partOfSpeech": "noun",
+          "definition": "A state of wild, uncontrolled excitement or agitation.",
+          "example": "The shoppers descended on the half-price rack in a frenzy, grabbing armfuls before anyone else could.",
+          "mnemonic": "Picture sharks in a feeding frenzy — thrashing water, all instinct, no control.",
+          "synonyms": [
+            "mania",
+            "hysteria",
+            "fever"
+          ],
+          "antonyms": [
+            "calm",
+            "serenity",
+            "tranquility"
+          ]
+        },
+        {
+          "id": "2029-02-frenetic",
+          "word": "frenetic",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by fast, chaotic, and disordered activity.",
+          "example": "The kitchen turned frenetic during the dinner rush, cooks shouting over clattering pans.",
+          "mnemonic": "Hear 'frantic' inside it — from Greek 'phren' (mind), an out-of-mind pace.",
+          "synonyms": [
+            "frantic",
+            "hectic",
+            "feverish"
+          ],
+          "antonyms": [
+            "calm",
+            "leisurely",
+            "relaxed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2029-02-hysteria",
+          "word": "hysteria",
+          "partOfSpeech": "noun",
+          "definition": "Overwhelming, uncontrollable fear or emotion that often spreads through a group.",
+          "example": "When the alarm blared, hysteria swept the theater and people trampled one another at the doors.",
+          "mnemonic": "Read it as 'his-teary-a' — everyone in tears and out of their minds.",
+          "synonyms": [
+            "panic",
+            "frenzy",
+            "delirium"
+          ],
+          "antonyms": [
+            "calm",
+            "composure",
+            "serenity"
+          ]
+        },
+        {
+          "id": "2029-02-hysterical",
+          "word": "hysterical",
+          "partOfSpeech": "adjective",
+          "definition": "Wildly emotional and completely out of control.",
+          "example": "She grew hysterical when the news came, sobbing and shaking so hard she couldn't speak.",
+          "mnemonic": "Same root as 'hysteria' — 'his-teary-cal', too upset to hold it together.",
+          "synonyms": [
+            "frantic",
+            "overwrought",
+            "uncontrollable"
+          ],
+          "antonyms": [
+            "calm",
+            "composed",
+            "collected"
+          ]
+        },
+        {
+          "id": "2029-02-distraught",
+          "word": "distraught",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely worried, upset, or emotionally distressed.",
+          "example": "The distraught father searched the crowded fairground for his missing daughter.",
+          "mnemonic": "'Distracted' plus 'fraught' — so troubled your mind is pulled apart.",
+          "synonyms": [
+            "anguished",
+            "distressed",
+            "frantic"
+          ],
+          "antonyms": [
+            "calm",
+            "composed",
+            "untroubled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2029-02-febrile",
+          "word": "febrile",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by feverish intensity or nervous, restless excitement.",
+          "example": "In the febrile final hours before the vote, campaigners barely slept and jumped at every phone call.",
+          "mnemonic": "From Latin 'febris' (fever) — a febrile brow burns hot.",
+          "synonyms": [
+            "feverish",
+            "frenzied",
+            "agitated"
+          ],
+          "antonyms": [
+            "calm",
+            "cool",
+            "composed"
+          ]
+        },
+        {
+          "id": "2029-02-rabid",
+          "word": "rabid",
+          "partOfSpeech": "adjective",
+          "definition": "Having extreme, fanatical, or uncontrolled feelings or enthusiasm.",
+          "example": "He's a rabid supporter who paints his whole body in team colors for every match.",
+          "mnemonic": "Think of an animal with rabies — foaming, frothing, out of control.",
+          "synonyms": [
+            "fanatical",
+            "zealous",
+            "frenzied"
+          ],
+          "antonyms": [
+            "moderate",
+            "indifferent",
+            "apathetic"
+          ]
+        },
+        {
+          "id": "2029-02-delusional",
+          "word": "delusional",
+          "partOfSpeech": "adjective",
+          "definition": "Believing things that are clearly untrue despite strong evidence against them.",
+          "example": "He was delusional, certain that TV anchors were sending him coded personal messages.",
+          "mnemonic": "Hear 'illusion' inside it — living in an illusion your mind treats as real.",
+          "synonyms": [
+            "deluded",
+            "irrational",
+            "misguided"
+          ],
+          "antonyms": [
+            "realistic",
+            "rational",
+            "clear-headed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2029-02-hallucination",
+          "word": "hallucination",
+          "partOfSpeech": "noun",
+          "definition": "A false perception of something that is not actually present.",
+          "example": "Feverish and dehydrated, the hiker had a hallucination of a shimmering lake in the empty desert.",
+          "mnemonic": "'Hall-you-see-nation' — you see a whole nation crowding an empty hall.",
+          "synonyms": [
+            "vision",
+            "mirage",
+            "delusion"
+          ],
+          "antonyms": [
+            "reality",
+            "actuality",
+            "fact"
+          ]
+        },
+        {
+          "id": "2029-02-paranoia",
+          "word": "paranoia",
+          "partOfSpeech": "noun",
+          "definition": "Extreme, irrational distrust or suspicion of other people.",
+          "example": "His paranoia grew until he taped over every webcam and suspected even his own family.",
+          "mnemonic": "Greek 'para' (beside) + 'nous' (mind) — your mind slips beside itself into suspicion.",
+          "synonyms": [
+            "suspicion",
+            "distrust",
+            "mistrust"
+          ],
+          "antonyms": [
+            "trust",
+            "confidence",
+            "security"
+          ]
+        },
+        {
+          "id": "2029-02-monomania",
+          "word": "monomania",
+          "partOfSpeech": "noun",
+          "definition": "An excessive preoccupation with one single idea or subject.",
+          "example": "Captain Ahab's monomania drove him to chase one white whale to his own destruction.",
+          "mnemonic": "'Mono' (one) + 'mania' (obsession) — a single fixation that crowds out everything else.",
+          "synonyms": [
+            "obsession",
+            "fixation",
+            "preoccupation"
+          ],
+          "antonyms": [
+            "indifference",
+            "disinterest",
+            "apathy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2029-02-irrational",
+          "word": "irrational",
+          "partOfSpeech": "adjective",
+          "definition": "Not guided by reason or sound judgment.",
+          "example": "She has an irrational fear of butterflies, even though she knows they can't hurt her.",
+          "mnemonic": "The prefix 'ir-' means 'not' — it flips the switch: not thinking straight.",
+          "synonyms": [
+            "illogical",
+            "unreasonable",
+            "absurd"
+          ],
+          "antonyms": [
+            "logical",
+            "sensible",
+            "reasonable"
+          ]
+        },
+        {
+          "id": "2029-02-absurdity",
+          "word": "absurdity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being wildly unreasonable, silly, or senseless.",
+          "example": "The absurdity of two grown men fighting over a parking spot finally made them both laugh.",
+          "mnemonic": "From Latin 'absurdus' (out of tune) — an idea so off-key it collapses; hear 'ab-sturdy', not sturdy enough to stand.",
+          "synonyms": [
+            "ridiculousness",
+            "folly",
+            "nonsense"
+          ],
+          "antonyms": [
+            "sense",
+            "logic",
+            "reasonableness"
+          ]
+        },
+        {
+          "id": "2029-02-nonsensical",
+          "word": "nonsensical",
+          "partOfSpeech": "adjective",
+          "definition": "Having no meaning or logic; foolish and utterly absurd.",
+          "example": "His nonsensical directions told us to turn left at a corner that doesn't even exist.",
+          "mnemonic": "Break it as 'non + sense + ical' — literally not making sense.",
+          "synonyms": [
+            "senseless",
+            "illogical",
+            "absurd"
+          ],
+          "antonyms": [
+            "logical",
+            "sensible",
+            "coherent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2029-02-incoherence",
+          "word": "incoherence",
+          "partOfSpeech": "noun",
+          "definition": "The state of speech or thought lacking logical connection and being impossible to follow.",
+          "example": "By the third hour of the fever, his mumbled sentences dissolved into pure incoherence, and no one could follow him.",
+          "mnemonic": "in- (not) + cohere (stick together): thoughts that refuse to stick together.",
+          "synonyms": [
+            "confusion",
+            "disjointedness",
+            "unintelligibility"
+          ],
+          "antonyms": [
+            "clarity",
+            "lucidity",
+            "consistency"
+          ]
+        },
+        {
+          "id": "2029-02-aberrant",
+          "word": "aberrant",
+          "partOfSpeech": "adjective",
+          "definition": "Departing markedly from what is normal, usual, or expected.",
+          "example": "The lab flagged one aberrant reading that sat far outside every other result on the chart.",
+          "mnemonic": "Hear 'ab-errant': an errant knight who wanders off the correct path.",
+          "synonyms": [
+            "abnormal",
+            "deviant",
+            "atypical"
+          ],
+          "antonyms": [
+            "normal",
+            "typical",
+            "standard"
+          ]
+        },
+        {
+          "id": "2029-02-distemper",
+          "word": "distemper",
+          "partOfSpeech": "noun",
+          "definition": "A contagious viral disease of dogs and other animals, marked by fever and coughing.",
+          "example": "The shelter quarantined the litter after a puppy showed the fever and twitching that signal distemper.",
+          "mnemonic": "dis- + temper: a body knocked out of its proper temper (balance) by illness.",
+          "synonyms": [
+            "ailment",
+            "malady",
+            "sickness"
+          ],
+          "antonyms": [
+            "health",
+            "wellness",
+            "soundness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2029-02-unhinged",
+          "word": "unhinged",
+          "partOfSpeech": "adjective",
+          "definition": "Mentally unbalanced; behaving in a wild, irrational way.",
+          "example": "After days without sleep, she started laughing at nothing and muttering to the walls, completely unhinged.",
+          "mnemonic": "A door off its hinges swings wildly and uncontrollably — so does a mind off its hinges.",
+          "synonyms": [
+            "deranged",
+            "unbalanced",
+            "crazed"
+          ],
+          "antonyms": [
+            "sane",
+            "rational",
+            "stable"
+          ]
+        },
+        {
+          "id": "2029-02-nonplus",
+          "word": "nonplus",
+          "partOfSpeech": "verb",
+          "definition": "To leave someone so surprised or confused that they cannot think how to react.",
+          "example": "The witness's calm confession seemed to nonplus the prosecutor, who paused and shuffled his notes in silence.",
+          "mnemonic": "Sounds like \"non-plus\" — your brain can add nothing more; the math of thought stalls at zero.",
+          "synonyms": [
+            "bewilder",
+            "baffle",
+            "perplex"
+          ],
+          "antonyms": [
+            "enlighten",
+            "reassure"
+          ]
+        },
+        {
+          "id": "2029-02-stupefy",
+          "word": "stupefy",
+          "partOfSpeech": "verb",
+          "definition": "To make someone unable to think clearly, often through shock or boredom.",
+          "example": "The lecture droned on so long that it stupefied the entire class into glassy-eyed silence.",
+          "mnemonic": "'stupe-' echoes 'stupid' + -fy (to make): to make the mind stupid and dazed.",
+          "synonyms": [
+            "astound",
+            "daze",
+            "dumbfound"
+          ],
+          "antonyms": [
+            "enlighten",
+            "stimulate",
+            "invigorate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2029-02-disorient",
+          "word": "disorient",
+          "partOfSpeech": "verb",
+          "definition": "To cause someone to lose their sense of direction or grasp of surroundings.",
+          "example": "The windowless corridors and identical doors disoriented him until he no longer knew which way led out.",
+          "mnemonic": "dis- (undo) + orient (find your east/bearings): to undo a person's bearings.",
+          "synonyms": [
+            "confuse",
+            "befuddle",
+            "bewilder"
+          ],
+          "antonyms": [
+            "orient",
+            "guide",
+            "ground"
+          ]
+        },
+        {
+          "id": "2029-02-fatuity",
+          "word": "fatuity",
+          "partOfSpeech": "noun",
+          "definition": "Smug, complacent foolishness, or a remark showing it.",
+          "example": "His grinning fatuity, boasting about a plan everyone could see would fail, embarrassed the whole table.",
+          "mnemonic": "From Latin 'fatuus' (foolish); picture a 'fat-headed' grin too self-satisfied to notice the folly.",
+          "synonyms": [
+            "foolishness",
+            "silliness",
+            "absurdity"
+          ],
+          "antonyms": [
+            "wisdom",
+            "sense",
+            "prudence"
+          ]
+        },
+        {
+          "id": "2029-02-inanity",
+          "word": "inanity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being silly, empty, or utterly lacking in substance.",
+          "example": "She could not sit through another dinner of gossip and inanity that added nothing to anyone's life.",
+          "mnemonic": "From Latin 'inanis' (empty): an empty-headed comment with nothing inside it.",
+          "synonyms": [
+            "silliness",
+            "absurdity",
+            "emptiness"
+          ],
+          "antonyms": [
+            "profundity",
+            "wisdom",
+            "significance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2029-02-vacuity",
+          "word": "vacuity",
+          "partOfSpeech": "noun",
+          "definition": "The state of being empty, especially empty of ideas or intelligence.",
+          "example": "Behind his confident smile lay a startling vacuity; he had not one real idea to offer.",
+          "mnemonic": "vacuity = vacuum + -ity: a vacuum sitting where a thought should be.",
+          "synonyms": [
+            "emptiness",
+            "blankness",
+            "vacancy"
+          ],
+          "antonyms": [
+            "fullness",
+            "substance",
+            "profundity"
+          ]
+        },
+        {
+          "id": "2029-02-asinine",
+          "word": "asinine",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely stupid or foolish.",
+          "example": "Texting while crossing a busy highway is an asinine thing to do.",
+          "mnemonic": "From Latin 'asinus' (donkey/ass): acting like a braying, stubborn donkey.",
+          "synonyms": [
+            "idiotic",
+            "foolish",
+            "absurd"
+          ],
+          "antonyms": [
+            "sensible",
+            "intelligent",
+            "wise"
+          ]
+        },
+        {
+          "id": "2029-02-puerile",
+          "word": "puerile",
+          "partOfSpeech": "adjective",
+          "definition": "Childishly silly and immature.",
+          "example": "The senators traded puerile insults about each other's haircuts instead of debating the budget.",
+          "mnemonic": "From Latin 'puer' (boy): behaving like a squabbling little boy.",
+          "synonyms": [
+            "childish",
+            "immature",
+            "juvenile"
+          ],
+          "antonyms": [
+            "mature",
+            "adult",
+            "sensible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2029-02-injudicious",
+          "word": "injudicious",
+          "partOfSpeech": "adjective",
+          "definition": "Showing a lack of good sense; unwise or imprudent.",
+          "example": "Announcing the layoffs by mass email the night before the holidays was a deeply injudicious move.",
+          "mnemonic": "in- (not) + judicious (like a wise judge): lacking a judge's careful good sense.",
+          "synonyms": [
+            "unwise",
+            "imprudent",
+            "rash"
+          ],
+          "antonyms": [
+            "prudent",
+            "sensible",
+            "wise"
+          ]
+        },
+        {
+          "id": "2029-02-cerebrate",
+          "word": "cerebrate",
+          "partOfSpeech": "verb",
+          "definition": "To use the brain; to think deeply about something.",
+          "example": "Give me a quiet hour to cerebrate on the problem before you ask me for an answer.",
+          "mnemonic": "'cerebrum' is the brain: to cerebrate is to put your cerebrum to work.",
+          "synonyms": [
+            "think",
+            "ponder",
+            "reason"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-02-disconcert",
+          "word": "disconcert",
+          "partOfSpeech": "verb",
+          "definition": "To unsettle or fluster someone, disturbing their composure.",
+          "example": "The interviewer's long, unblinking stare disconcerted the candidate into forgetting her rehearsed answer.",
+          "mnemonic": "dis- + concert: when players are no longer 'in concert,' everything feels jarring and off.",
+          "synonyms": [
+            "unsettle",
+            "fluster",
+            "ruffle"
+          ],
+          "antonyms": [
+            "reassure",
+            "compose",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2029-02-maunder",
+          "word": "maunder",
+          "partOfSpeech": "verb",
+          "definition": "To talk or move in a rambling, aimless way without any clear purpose.",
+          "example": "Grandpa would maunder on about the weather for a half hour before finally saying why he'd phoned.",
+          "mnemonic": "Sounds almost like 'meander' — a river that maunders wanders with no direction, and so does the talker.",
+          "synonyms": [
+            "ramble",
+            "meander",
+            "drift"
+          ],
+          "antonyms": [
+            "focus",
+            "concentrate"
+          ]
+        },
+        {
+          "id": "2029-02-besotted",
+          "word": "besotted",
+          "partOfSpeech": "adjective",
+          "definition": "Foolishly and completely infatuated with, or devoted to, someone or something.",
+          "example": "He was so besotted with her that he forgot his own address the moment she smiled at him.",
+          "mnemonic": "Break it as 'be + sot': a 'sot' is a drunkard, so to be besotted is to be drunk — on love instead of liquor.",
+          "synonyms": [
+            "smitten",
+            "infatuated",
+            "enamored"
+          ],
+          "antonyms": [
+            "indifferent",
+            "detached"
+          ]
+        },
+        {
+          "id": "2029-02-distrait",
+          "word": "distrait",
+          "partOfSpeech": "adjective",
+          "definition": "Absent-minded and inattentive, usually because of worry or anxiety.",
+          "example": "So distrait was the pilot after the phone call that he taxied straight past his own gate.",
+          "mnemonic": "Say it like 'distract' with a French accent — a distrait mind is one that something has already distracted.",
+          "synonyms": [
+            "preoccupied",
+            "abstracted",
+            "inattentive"
+          ],
+          "antonyms": [
+            "attentive",
+            "focused"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2029-02-ineluctable",
+          "word": "ineluctable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to avoid, resist, or escape.",
+          "example": "Once the debts kept mounting, bankruptcy became ineluctable, a wall he simply could not climb over.",
+          "mnemonic": "From Latin 'e-luctari', to struggle out, plus 'in-', not — no matter how you struggle, there is no getting out.",
+          "synonyms": [
+            "inescapable",
+            "inevitable",
+            "unavoidable"
+          ],
+          "antonyms": [
+            "avoidable",
+            "escapable"
+          ]
+        },
+        {
+          "id": "2029-02-phantasmagoria",
+          "word": "phantasmagoria",
+          "partOfSpeech": "noun",
+          "definition": "A shifting, dreamlike sequence of real or imagined figures and images.",
+          "example": "The fever turned his bedroom into a phantasmagoria of melting walls and shadows that whispered his name.",
+          "mnemonic": "Hear 'phantasm' (a ghost or illusion) at the front — picture a whole parade of phantoms drifting past.",
+          "synonyms": [
+            "hallucination",
+            "fantasy",
+            "kaleidoscope"
+          ],
+          "antonyms": [
+            "reality",
+            "actuality"
+          ]
+        },
+        {
+          "id": "2029-02-vagary",
+          "word": "vagary",
+          "partOfSpeech": "noun",
+          "definition": "An unpredictable or capricious change in behavior, mood, or circumstances.",
+          "example": "By some vagary of the postal system, the birthday card finally arrived three years after it was mailed.",
+          "mnemonic": "Same Latin root 'vagari' (to wander) as 'vagabond' — a vagary is a whim that wanders off wherever it likes.",
+          "synonyms": [
+            "whim",
+            "caprice",
+            "quirk"
+          ],
+          "antonyms": [
+            "constant",
+            "certainty"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "advanced and low-frequency — reason and unreason",
+  "createdAt": "2026-09-12T10:02:13.512Z"
+}

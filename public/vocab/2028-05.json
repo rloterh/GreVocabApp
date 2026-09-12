@@ -1,0 +1,1091 @@
+{
+  "month": "2028-05",
+  "displayName": "May 2028",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2028-05-perspicuous",
+          "word": "perspicuous",
+          "partOfSpeech": "adjective",
+          "definition": "Expressed so clearly and simply that it is easily understood.",
+          "example": "Her perspicuous explanation of the tax code left no one in the room confused.",
+          "mnemonic": "per-SPEC-uous — like looking through a clean SPEC(tacle) lens: you see the point perfectly.",
+          "synonyms": [
+            "lucid",
+            "clear",
+            "intelligible"
+          ],
+          "antonyms": [
+            "confusing",
+            "obscure",
+            "muddled"
+          ]
+        },
+        {
+          "id": "2028-05-perspicuity",
+          "word": "perspicuity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being lucid and easy to follow in speech or writing.",
+          "example": "Reviewers praised the manual's perspicuity, saying even beginners could assemble the machine.",
+          "mnemonic": "Hidden inside is 'pic' — it paints a clear PICture in words.",
+          "synonyms": [
+            "clarity",
+            "lucidity",
+            "transparency"
+          ],
+          "antonyms": [
+            "obscurity",
+            "vagueness",
+            "confusion"
+          ]
+        },
+        {
+          "id": "2028-05-translucent",
+          "word": "translucent",
+          "partOfSpeech": "adjective",
+          "definition": "Letting some light pass through without being fully see-through.",
+          "example": "The bathroom window was translucent, softening the morning light into a milky glow.",
+          "mnemonic": "trans + lucent (Latin lucere, 'to shine') — light shines across but not straight through.",
+          "synonyms": [
+            "semitransparent",
+            "frosted",
+            "pellucid"
+          ],
+          "antonyms": [
+            "opaque",
+            "solid",
+            "impenetrable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2028-05-opacity",
+          "word": "opacity",
+          "partOfSpeech": "noun",
+          "definition": "The condition of blocking light so that nothing can be seen through.",
+          "example": "The paint's opacity was so high that a single coat hid the dark wall completely.",
+          "mnemonic": "OPA-city — imagine a city so smog-choked that no light gets in.",
+          "synonyms": [
+            "cloudiness",
+            "murkiness",
+            "density"
+          ],
+          "antonyms": [
+            "transparency",
+            "clarity",
+            "translucence"
+          ]
+        },
+        {
+          "id": "2028-05-hazy",
+          "word": "hazy",
+          "partOfSpeech": "adjective",
+          "definition": "Misty or unclear, so that things are hard to see or remember.",
+          "example": "My memory of that trip is hazy, but I think we drove through three states.",
+          "mnemonic": "Sounds like the heat 'haze' shimmering over a summer road — everything goes blurry.",
+          "synonyms": [
+            "misty",
+            "foggy",
+            "indistinct"
+          ],
+          "antonyms": [
+            "clear",
+            "sharp",
+            "distinct"
+          ]
+        },
+        {
+          "id": "2028-05-vague",
+          "word": "vague",
+          "partOfSpeech": "adjective",
+          "definition": "Not stated clearly or precisely, and lacking exact detail.",
+          "example": "His directions were so vague that we circled the neighborhood for an hour.",
+          "mnemonic": "Rhymes with 'plague' — a plague of doubt where nothing is pinned down.",
+          "synonyms": [
+            "imprecise",
+            "unclear",
+            "indefinite"
+          ],
+          "antonyms": [
+            "precise",
+            "specific",
+            "definite"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2028-05-ambiguity",
+          "word": "ambiguity",
+          "partOfSpeech": "noun",
+          "definition": "The state of having more than one possible meaning or interpretation.",
+          "example": "The contract's ambiguity meant both sides read the same clause in opposite ways.",
+          "mnemonic": "ambi- means 'both' (as in ambidextrous) — both meanings pull at you at once.",
+          "synonyms": [
+            "vagueness",
+            "equivocation",
+            "doubtfulness"
+          ],
+          "antonyms": [
+            "clarity",
+            "precision",
+            "certainty"
+          ]
+        },
+        {
+          "id": "2028-05-enigma",
+          "word": "enigma",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that is very hard to understand or explain.",
+          "example": "Decades after his disappearance, the pilot remains an enigma to investigators.",
+          "mnemonic": "The WWII Enigma machine scrambled messages into an unreadable puzzle.",
+          "synonyms": [
+            "mystery",
+            "puzzle",
+            "riddle"
+          ],
+          "antonyms": [
+            "clue",
+            "certainty",
+            "answer"
+          ]
+        },
+        {
+          "id": "2028-05-occlude",
+          "word": "occlude",
+          "partOfSpeech": "verb",
+          "definition": "To block or close off a passage so nothing can pass through.",
+          "example": "A clot began to occlude the artery, cutting off blood to the muscle.",
+          "mnemonic": "oc + clude (Latin claudere, 'to close') — like 'exclude,' but it slams a passage shut.",
+          "synonyms": [
+            "block",
+            "obstruct",
+            "seal"
+          ],
+          "antonyms": [
+            "open",
+            "clear",
+            "unblock"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2028-05-blur",
+          "word": "blur",
+          "partOfSpeech": "verb",
+          "definition": "To make something indistinct or hard to see clearly.",
+          "example": "Tears began to blur the words on the letter until she could barely read them.",
+          "mnemonic": "Say it fast — 'bl-urr' — the smeared sound of a shaken photograph.",
+          "synonyms": [
+            "smudge",
+            "obscure",
+            "cloud"
+          ],
+          "antonyms": [
+            "sharpen",
+            "focus",
+            "clarify"
+          ]
+        },
+        {
+          "id": "2028-05-labyrinthine",
+          "word": "labyrinthine",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely complicated, with many confusing twists and passages.",
+          "example": "Navigating the labyrinthine bureaucracy took months of forms and dead ends.",
+          "mnemonic": "The Labyrinth that trapped the Minotaur — an endless, inescapable maze.",
+          "synonyms": [
+            "mazelike",
+            "convoluted",
+            "intricate"
+          ],
+          "antonyms": [
+            "straightforward",
+            "simple",
+            "direct"
+          ]
+        },
+        {
+          "id": "2028-05-tortuous",
+          "word": "tortuous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of many bends, turns, or complicated, roundabout steps.",
+          "example": "The tortuous mountain road doubled back on itself a dozen times before the summit.",
+          "mnemonic": "Shares a root with 'torque' — a twisting force that keeps winding around.",
+          "synonyms": [
+            "winding",
+            "twisting",
+            "circuitous"
+          ],
+          "antonyms": [
+            "straight",
+            "direct",
+            "simple"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2028-05-turbid",
+          "word": "turbid",
+          "partOfSpeech": "adjective",
+          "definition": "Cloudy or muddy from particles that have been stirred up in liquid.",
+          "example": "After the storm the river ran turbid, thick with brown silt and debris.",
+          "mnemonic": "Turbid = disTURBed water — stir the pond and it clouds to mud.",
+          "synonyms": [
+            "murky",
+            "cloudy",
+            "muddy"
+          ],
+          "antonyms": [
+            "clear",
+            "limpid",
+            "pure"
+          ]
+        },
+        {
+          "id": "2028-05-perceive",
+          "word": "perceive",
+          "partOfSpeech": "verb",
+          "definition": "To notice or become aware of something through the senses or mind.",
+          "example": "Dogs can perceive sounds far too high for any human ear to catch.",
+          "mnemonic": "per- ('through') + -ceive (Latin capere, 'to seize') — to seize a thing with the mind.",
+          "synonyms": [
+            "notice",
+            "discern",
+            "detect"
+          ],
+          "antonyms": [
+            "overlook",
+            "miss",
+            "ignore"
+          ]
+        },
+        {
+          "id": "2028-05-perception",
+          "word": "perception",
+          "partOfSpeech": "noun",
+          "definition": "The act of noticing or understanding something through the senses or mind.",
+          "example": "Grief can distort your perception, making familiar rooms feel strange and cold.",
+          "mnemonic": "Same '-cept/-ceive' root as 'receive' — it's what the mind takes in.",
+          "synonyms": [
+            "awareness",
+            "insight",
+            "discernment"
+          ],
+          "antonyms": [
+            "ignorance",
+            "oblivion",
+            "blindness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2028-05-penetrating",
+          "word": "penetrating",
+          "partOfSpeech": "adjective",
+          "definition": "Showing sharp understanding and an ability to see into the heart of things.",
+          "example": "Her penetrating gaze seemed to read every thought I was trying to hide.",
+          "mnemonic": "It pierces through the surface, penetrating right down to what lies beneath.",
+          "synonyms": [
+            "perceptive",
+            "sharp",
+            "acute"
+          ],
+          "antonyms": [
+            "superficial",
+            "shallow"
+          ]
+        },
+        {
+          "id": "2028-05-keen",
+          "word": "keen",
+          "partOfSpeech": "adjective",
+          "definition": "Having a quick, sharp, and eager mind or power of perception.",
+          "example": "A good detective needs a keen eye for the details everyone else overlooks.",
+          "mnemonic": "'Keen' rhymes with 'seen' — a keen mind has already clearly seen the point.",
+          "synonyms": [
+            "astute",
+            "shrewd",
+            "sharp"
+          ],
+          "antonyms": [
+            "dull",
+            "obtuse"
+          ]
+        },
+        {
+          "id": "2028-05-insightful",
+          "word": "insightful",
+          "partOfSpeech": "adjective",
+          "definition": "Showing a deep and accurate grasp of a person or situation.",
+          "example": "His insightful remark revealed a truth the rest of us had completely missed.",
+          "mnemonic": "Break it down: 'in + sight' — the gift of seeing INto things.",
+          "synonyms": [
+            "perceptive",
+            "discerning",
+            "astute"
+          ],
+          "antonyms": [
+            "superficial",
+            "obtuse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2028-05-coherence",
+          "word": "coherence",
+          "partOfSpeech": "noun",
+          "definition": "The quality of forming a logical, consistent, and well-connected whole.",
+          "example": "The essay lacked coherence, lurching between ideas with nothing tying them together.",
+          "mnemonic": "'Co + here' — the parts all stick together HERE as one unit.",
+          "synonyms": [
+            "consistency",
+            "unity",
+            "cohesion"
+          ],
+          "antonyms": [
+            "disorder",
+            "confusion"
+          ]
+        },
+        {
+          "id": "2028-05-manifest",
+          "word": "manifest",
+          "partOfSpeech": "adjective",
+          "definition": "Easily perceived by the senses or the mind; needing no proof.",
+          "example": "His manifest joy at the news lit up the entire room.",
+          "mnemonic": "'Mani-' means hand — as plain and obvious as something held in your hand.",
+          "synonyms": [
+            "obvious",
+            "apparent",
+            "clear"
+          ],
+          "antonyms": [
+            "hidden",
+            "obscure"
+          ]
+        },
+        {
+          "id": "2028-05-evident",
+          "word": "evident",
+          "partOfSpeech": "adjective",
+          "definition": "Plain and clear, so that anyone can see or understand it.",
+          "example": "It was evident from her tears that the goodbye had been painful.",
+          "mnemonic": "'E-VIDE-nt' hides Latin 'videre', to see — you can SEE it right there.",
+          "synonyms": [
+            "obvious",
+            "apparent",
+            "clear"
+          ],
+          "antonyms": [
+            "unclear",
+            "hidden"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2028-05-patent",
+          "word": "patent",
+          "partOfSpeech": "adjective",
+          "definition": "So openly visible or intelligible that it cannot be missed.",
+          "example": "The excuse was a patent lie, and nobody in the room believed a word of it.",
+          "mnemonic": "A 'patent' document lies OPEN to the public — Latin 'patere', to lie open.",
+          "synonyms": [
+            "blatant",
+            "glaring",
+            "obvious"
+          ],
+          "antonyms": [
+            "hidden",
+            "obscure"
+          ]
+        },
+        {
+          "id": "2028-05-palpable",
+          "word": "palpable",
+          "partOfSpeech": "adjective",
+          "definition": "So intense that it seems able to be touched or physically felt.",
+          "example": "The tension in the courtroom was palpable as the verdict was read aloud.",
+          "mnemonic": "Doctors 'palpate' by touching — this feeling is so strong you could almost touch it.",
+          "synonyms": [
+            "tangible",
+            "perceptible",
+            "tactile"
+          ],
+          "antonyms": [
+            "intangible",
+            "imperceptible"
+          ]
+        },
+        {
+          "id": "2028-05-overt",
+          "word": "overt",
+          "partOfSpeech": "adjective",
+          "definition": "Done or shown openly, with no attempt to conceal it.",
+          "example": "He made no overt threat, but the menace behind his words was unmistakable.",
+          "mnemonic": "'Overt' is out in the OPEN — the exact opposite of its cousin 'covert'.",
+          "synonyms": [
+            "open",
+            "undisguised",
+            "blatant"
+          ],
+          "antonyms": [
+            "covert",
+            "hidden"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2028-05-conspicuous",
+          "word": "conspicuous",
+          "partOfSpeech": "adjective",
+          "definition": "Standing out so plainly that it draws attention at once.",
+          "example": "In his bright orange suit, he was conspicuous among the sea of gray commuters.",
+          "mnemonic": "'Con-SPIC-uous' holds Latin 'specere', to look — everyone's eyes are drawn to look.",
+          "synonyms": [
+            "noticeable",
+            "prominent",
+            "striking"
+          ],
+          "antonyms": [
+            "inconspicuous",
+            "unobtrusive"
+          ]
+        },
+        {
+          "id": "2028-05-distinct",
+          "word": "distinct",
+          "partOfSpeech": "adjective",
+          "definition": "Clearly different or separate, and easily noticed by the senses.",
+          "example": "Each spice added a distinct flavor you could pick out in the finished dish.",
+          "mnemonic": "'Di-STINCT' — like a sting you feel sharply and separately from everything else.",
+          "synonyms": [
+            "definite",
+            "separate",
+            "clear"
+          ],
+          "antonyms": [
+            "vague",
+            "blurred"
+          ]
+        },
+        {
+          "id": "2028-05-vivid",
+          "word": "vivid",
+          "partOfSpeech": "adjective",
+          "definition": "Producing strong, bright, lifelike images in the mind.",
+          "example": "She gave such a vivid description that I could picture every street she named.",
+          "mnemonic": "'VIV-' comes from Latin 'vivere', to live — so alive it leaps off the page.",
+          "synonyms": [
+            "bright",
+            "striking",
+            "lifelike"
+          ],
+          "antonyms": [
+            "dull",
+            "faint"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2028-05-graphic",
+          "word": "graphic",
+          "partOfSpeech": "adjective",
+          "definition": "Giving a clear, detailed picture, often strikingly explicit.",
+          "example": "The witness gave a graphic account of the crash, sparing us no gruesome detail.",
+          "mnemonic": "Think 'graph' or drawing — it paints a full picture in your mind with words.",
+          "synonyms": [
+            "explicit",
+            "detailed",
+            "vivid"
+          ],
+          "antonyms": [
+            "vague",
+            "sketchy"
+          ]
+        },
+        {
+          "id": "2028-05-precise",
+          "word": "precise",
+          "partOfSpeech": "adjective",
+          "definition": "Exact, accurate, and stated with no room for vagueness.",
+          "example": "Follow the precise measurements on the recipe or the cake simply will not rise.",
+          "mnemonic": "'Pre-CISE' sounds like scissors — a clean, sharp, exact cut every time.",
+          "synonyms": [
+            "exact",
+            "accurate",
+            "definite"
+          ],
+          "antonyms": [
+            "vague",
+            "approximate"
+          ]
+        },
+        {
+          "id": "2028-05-limn",
+          "word": "limn",
+          "partOfSpeech": "verb",
+          "definition": "To depict or describe something, whether in words or in paint.",
+          "example": "The novel limns village life with the tender care of a portrait painter.",
+          "mnemonic": "Sounds like 'limb' — an artist outlines each limb to draw a figure; to limn is to sketch.",
+          "synonyms": [
+            "depict",
+            "portray",
+            "describe"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2028-05-interpret",
+          "word": "interpret",
+          "partOfSpeech": "verb",
+          "definition": "To explain the meaning of something or convey it in another language.",
+          "example": "A local guide helped interpret the ancient carvings for the puzzled tourists.",
+          "mnemonic": "INTER (between) + PRET — a translator stands between two people and presents the meaning to each side.",
+          "synonyms": [
+            "explain",
+            "translate",
+            "construe"
+          ],
+          "antonyms": [
+            "misconstrue",
+            "confuse"
+          ]
+        },
+        {
+          "id": "2028-05-gloss",
+          "word": "gloss",
+          "partOfSpeech": "noun",
+          "definition": "A brief note explaining a difficult word or passage in a text.",
+          "example": "In the margin, a tiny gloss clarified the archaic legal term for readers.",
+          "mnemonic": "From Greek 'glossa' (tongue) — a little note that gives a hard word its own tongue to speak clearly.",
+          "synonyms": [
+            "annotation",
+            "note",
+            "explanation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-05-annotate",
+          "word": "annotate",
+          "partOfSpeech": "verb",
+          "definition": "To add explanatory notes or comments to a text or diagram.",
+          "example": "She annotated her worn copy of the novel with sticky notes on every chapter.",
+          "mnemonic": "AN-NOTE-ate — from Latin 'nota'; you literally add a NOTE.",
+          "synonyms": [
+            "note",
+            "comment",
+            "gloss"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2028-05-exposition",
+          "word": "exposition",
+          "partOfSpeech": "noun",
+          "definition": "A detailed written or spoken account that explains an idea or theory.",
+          "example": "The professor's crisp exposition of the theorem left the whole class nodding.",
+          "mnemonic": "EXPO-sition — like an EXPO where everything is laid out on display and set forth to be understood.",
+          "synonyms": [
+            "explanation",
+            "account",
+            "elucidation"
+          ],
+          "antonyms": [
+            "concealment"
+          ]
+        },
+        {
+          "id": "2028-05-treatise",
+          "word": "treatise",
+          "partOfSpeech": "noun",
+          "definition": "A long, formal written work that deals systematically with one subject.",
+          "example": "He spent a decade writing an exhaustive treatise on the ethics of war.",
+          "mnemonic": "TREAT-ise — a scholar TREATS a single subject at ease, page after page after page.",
+          "synonyms": [
+            "dissertation",
+            "discourse",
+            "monograph"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2028-05-disquisition",
+          "word": "disquisition",
+          "partOfSpeech": "noun",
+          "definition": "A long, elaborate discussion or essay on a particular subject.",
+          "example": "Over dinner the guest launched into a lengthy disquisition on French wine regions.",
+          "mnemonic": "dis-QUISITION — like an in-QUISITION of a topic, questioning it at exhausting length.",
+          "synonyms": [
+            "discourse",
+            "treatise",
+            "dissertation"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2028-05-covert",
+          "word": "covert",
+          "partOfSpeech": "adjective",
+          "definition": "Kept secret or hidden, not openly acknowledged or shown.",
+          "example": "The agents ran a covert operation that the public never learned about.",
+          "mnemonic": "COVERT — picture something kept under COVER, tucked out of sight.",
+          "synonyms": [
+            "secret",
+            "hidden",
+            "clandestine"
+          ],
+          "antonyms": [
+            "overt",
+            "open",
+            "public"
+          ]
+        },
+        {
+          "id": "2028-05-stealthy",
+          "word": "stealthy",
+          "partOfSpeech": "adjective",
+          "definition": "Moving or acting quietly and secretly to avoid being noticed.",
+          "example": "The cat made a stealthy approach toward the unsuspecting sparrow.",
+          "mnemonic": "STEAL-thy — you move like a thief who STEALs past everyone unseen.",
+          "synonyms": [
+            "furtive",
+            "surreptitious",
+            "sneaky"
+          ],
+          "antonyms": [
+            "overt",
+            "conspicuous",
+            "obvious"
+          ]
+        },
+        {
+          "id": "2028-05-elliptical",
+          "word": "elliptical",
+          "partOfSpeech": "adjective",
+          "definition": "Expressed with such economy that the meaning becomes unclear; also oval in shape.",
+          "example": "His elliptical replies left the reporters guessing what he actually meant.",
+          "mnemonic": "Think ELLIPSIS (…) — words left out, so little said that the sense goes murky.",
+          "synonyms": [
+            "cryptic",
+            "terse",
+            "obscure"
+          ],
+          "antonyms": [
+            "clear",
+            "explicit",
+            "verbose"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2028-05-unfathomable",
+          "word": "unfathomable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to understand fully or measure; too deep to grasp.",
+          "example": "The sheer scale of the universe is unfathomable to the human mind.",
+          "mnemonic": "un-FATHOM-able — a fathom measures water depth; this is too deep to ever measure.",
+          "synonyms": [
+            "incomprehensible",
+            "inscrutable",
+            "baffling"
+          ],
+          "antonyms": [
+            "comprehensible",
+            "understandable",
+            "clear"
+          ]
+        },
+        {
+          "id": "2028-05-impenetrable",
+          "word": "impenetrable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to pass through, enter, or understand.",
+          "example": "The jungle grew so dense it seemed impenetrable to the exhausted explorers.",
+          "mnemonic": "im- (not) + PENETRATE — nothing can pierce or push its way through.",
+          "synonyms": [
+            "impassable",
+            "dense",
+            "inscrutable"
+          ],
+          "antonyms": [
+            "penetrable",
+            "accessible",
+            "clear"
+          ]
+        },
+        {
+          "id": "2028-05-amorphous",
+          "word": "amorphous",
+          "partOfSpeech": "adjective",
+          "definition": "Without a clear shape, form, or organization.",
+          "example": "The committee's plans were still amorphous, with no firm structure agreed upon.",
+          "mnemonic": "a- (without) + MORPH (shape) — a blob that refuses to hold any form.",
+          "synonyms": [
+            "shapeless",
+            "formless",
+            "vague"
+          ],
+          "antonyms": [
+            "defined",
+            "structured",
+            "distinct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2028-05-indeterminate",
+          "word": "indeterminate",
+          "partOfSpeech": "adjective",
+          "definition": "Not fixed or known exactly; left uncertain or vague.",
+          "example": "The painting was of indeterminate age, and no expert could date it.",
+          "mnemonic": "in- (not) + DETERMINE — nothing has been settled or pinned down.",
+          "synonyms": [
+            "undefined",
+            "uncertain",
+            "vague"
+          ],
+          "antonyms": [
+            "definite",
+            "fixed",
+            "precise"
+          ]
+        },
+        {
+          "id": "2028-05-obscurantism",
+          "word": "obscurantism",
+          "partOfSpeech": "noun",
+          "definition": "The practice of deliberately keeping facts or ideas from being clear.",
+          "example": "Critics accused the regime of obscurantism for hiding its research from citizens.",
+          "mnemonic": "Rooted in OBSCURE — the deliberate art of keeping people in the dark.",
+          "synonyms": [
+            "concealment",
+            "mystification"
+          ],
+          "antonyms": [
+            "transparency",
+            "clarity",
+            "openness"
+          ]
+        },
+        {
+          "id": "2028-05-hermetic",
+          "word": "hermetic",
+          "partOfSpeech": "adjective",
+          "definition": "Completely sealed so no air can enter; also difficult for outsiders to grasp.",
+          "example": "The antique jar had a hermetic seal that kept its contents perfectly fresh.",
+          "mnemonic": "From Hermes Trismegistus, the legendary sealer of magic vessels — airtight and mysterious.",
+          "synonyms": [
+            "airtight",
+            "sealed",
+            "impervious"
+          ],
+          "antonyms": [
+            "open",
+            "leaky",
+            "porous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2028-05-legible",
+          "word": "legible",
+          "partOfSpeech": "adjective",
+          "definition": "Written or printed clearly enough to be read without difficulty.",
+          "example": "Despite the faded ink, the century-old letter was still legible under the lamp.",
+          "mnemonic": "From Latin 'legere' (to read) — the same root in 'lecture' and 'legend'; if it's legible, your eyes can read it.",
+          "synonyms": [
+            "readable",
+            "decipherable",
+            "clear"
+          ],
+          "antonyms": [
+            "illegible",
+            "unreadable",
+            "indecipherable"
+          ]
+        },
+        {
+          "id": "2028-05-illegible",
+          "word": "illegible",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible or very hard to read because of messy writing or poor printing.",
+          "example": "The prescription was so illegible that the pharmacist phoned the doctor to confirm the dose.",
+          "mnemonic": "'il-' (not) glued to 'legible' — picture 'ill' handwriting, so sick and scrawled you can't read it.",
+          "synonyms": [
+            "unreadable",
+            "indecipherable",
+            "scrawled"
+          ],
+          "antonyms": [
+            "legible",
+            "readable",
+            "clear"
+          ]
+        },
+        {
+          "id": "2028-05-intelligible",
+          "word": "intelligible",
+          "partOfSpeech": "adjective",
+          "definition": "Clear enough in meaning to be grasped by a listener or reader.",
+          "example": "After a few sips of water, the panicked caller became intelligible and gave her address.",
+          "mnemonic": "Shares its root with 'intelligence' — if it's intelligible, your intelligence can handle it.",
+          "synonyms": [
+            "understandable",
+            "comprehensible",
+            "coherent"
+          ],
+          "antonyms": [
+            "unintelligible",
+            "incomprehensible",
+            "garbled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2028-05-unintelligible",
+          "word": "unintelligible",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to understand or make sense of.",
+          "example": "The announcement over the crackling loudspeakers was completely unintelligible.",
+          "mnemonic": "'un-' + intelligible — even your intelligence throws up its hands and quits.",
+          "synonyms": [
+            "incomprehensible",
+            "garbled",
+            "incoherent"
+          ],
+          "antonyms": [
+            "intelligible",
+            "clear",
+            "comprehensible"
+          ]
+        },
+        {
+          "id": "2028-05-luminous",
+          "word": "luminous",
+          "partOfSpeech": "adjective",
+          "definition": "Giving off or full of bright light; glowing.",
+          "example": "The luminous hands of the watch glowed softly inside the dark tent.",
+          "mnemonic": "Latin 'lumen' = light, as in 'illuminate' and 'luminary'; sounds like 'loomin'' — light looming in the dark.",
+          "synonyms": [
+            "glowing",
+            "radiant",
+            "shining"
+          ],
+          "antonyms": [
+            "dark",
+            "dim",
+            "dull"
+          ]
+        },
+        {
+          "id": "2028-05-crystalline",
+          "word": "crystalline",
+          "partOfSpeech": "adjective",
+          "definition": "Perfectly clear and transparent, like ice or fine glass.",
+          "example": "The crystalline lake was so clear that swimmers could count the pebbles on its bed.",
+          "mnemonic": "Hear 'crystal' inside it — as clear and see-through as a polished crystal.",
+          "synonyms": [
+            "transparent",
+            "limpid",
+            "pellucid"
+          ],
+          "antonyms": [
+            "cloudy",
+            "opaque",
+            "murky"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2028-05-unambiguous",
+          "word": "unambiguous",
+          "partOfSpeech": "adjective",
+          "definition": "Having only one possible meaning and leaving no room for doubt.",
+          "example": "The referee's signal was unambiguous: the goal did not count.",
+          "mnemonic": "'un-' (not) + 'ambi' (two, as in ambidextrous) — not two meanings, just one.",
+          "synonyms": [
+            "explicit",
+            "definite",
+            "clear-cut"
+          ],
+          "antonyms": [
+            "ambiguous",
+            "vague",
+            "equivocal"
+          ]
+        },
+        {
+          "id": "2028-05-gnomic",
+          "word": "gnomic",
+          "partOfSpeech": "adjective",
+          "definition": "Expressed in brief, puzzling sayings that are hard to interpret.",
+          "example": "The coach offered only a gnomic reply: 'The slow horse drinks first.'",
+          "mnemonic": "Picture a garden GNOME muttering tiny cryptic proverbs (Greek 'gnome' = a maxim or judgment).",
+          "synonyms": [
+            "enigmatic",
+            "cryptic",
+            "aphoristic"
+          ],
+          "antonyms": [
+            "straightforward",
+            "plain",
+            "explicit"
+          ]
+        },
+        {
+          "id": "2028-05-occult",
+          "word": "occult",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to hidden, mysterious, or supernatural forces beyond ordinary knowledge.",
+          "example": "She kept a shelf of occult books on alchemy, spells, and secret rituals.",
+          "mnemonic": "Read it as 'o-cult' — a secret cult meeting in the shadows (Latin 'occulere', to hide).",
+          "synonyms": [
+            "esoteric",
+            "arcane",
+            "supernatural"
+          ],
+          "antonyms": [
+            "obvious",
+            "evident",
+            "mundane"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2028-05-connote",
+          "word": "connote",
+          "partOfSpeech": "verb",
+          "definition": "To suggest an idea or feeling beyond a word's literal meaning.",
+          "example": "For many people the word 'home' connotes warmth and safety, not just a building.",
+          "mnemonic": "'con-' (along with) + 'note' — the extra notes a word carries with it; contrast with 'denote' (the literal fact).",
+          "synonyms": [
+            "imply",
+            "suggest",
+            "evoke"
+          ],
+          "antonyms": [
+            "denote",
+            "state",
+            "specify"
+          ]
+        },
+        {
+          "id": "2028-05-indistinct",
+          "word": "indistinct",
+          "partOfSpeech": "adjective",
+          "definition": "Not clearly seen, heard, or defined; blurry or faint.",
+          "example": "Through the fog, the approaching ship was only an indistinct gray shape.",
+          "mnemonic": "'in-' (not) + 'distinct' — the opposite of sharp, so the edges all blur together.",
+          "synonyms": [
+            "blurry",
+            "faint",
+            "hazy"
+          ],
+          "antonyms": [
+            "distinct",
+            "clear",
+            "sharp"
+          ]
+        },
+        {
+          "id": "2028-05-oracular",
+          "word": "oracular",
+          "partOfSpeech": "adjective",
+          "definition": "Sounding wise and prophetic, often in a mysterious or hard-to-interpret way.",
+          "example": "The old sailor spoke in oracular tones, hinting that he already knew how the voyage would end.",
+          "mnemonic": "Hear 'oracle' inside it — think of the Oracle at Delphi delivering cryptic prophecies.",
+          "synonyms": [
+            "prophetic",
+            "prescient",
+            "cryptic"
+          ],
+          "antonyms": [
+            "plain",
+            "clear",
+            "mundane"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "mid-frequency and academic register — clarity and obscurity",
+  "createdAt": "2026-09-12T08:50:24.269Z"
+}

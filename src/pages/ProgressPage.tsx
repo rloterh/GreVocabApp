@@ -30,6 +30,7 @@ import {
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
+import { scoreExam } from "@/lib/exam";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { daysInMonth, format, formatMonthKey, toDateKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
@@ -46,6 +47,7 @@ export function ProgressPage() {
   const [range, setRange] = useState<Range>("month");
 
   // One missed day a week does not end a run. ADR 0006.
+  const exams = useProgressStore((s) => s.exams);
   const streaks = useMemo(
     () => calculateStreaksWithFreezes(activity),
     [activity],
@@ -219,6 +221,45 @@ export function ProgressPage() {
           </CardContent>
         </Card>
       </section>
+
+      {exams.length > 0 && (
+        <section>
+          <h2 className="text-lg font-semibold mb-4">Exam history</h2>
+          <Card>
+            <CardContent className="p-5 space-y-3">
+              {/* The point of testing on a schedule is seeing the line move. */}
+              <div className="flex items-end gap-1 h-20">
+                {exams
+                  .slice(0, 20)
+                  .reverse()
+                  .map((exam) => {
+                    const percent = scoreExam(exam).percent;
+                    return (
+                      <div
+                        key={exam.id}
+                        className="flex-1 bg-accent/70 rounded-t min-h-[2px]"
+                        style={{ height: `${Math.max(percent, 2)}%` }}
+                        title={`${percent}%`}
+                      />
+                    );
+                  })}
+              </div>
+              <div className="flex items-baseline justify-between text-xs">
+                <span className="text-muted-foreground">
+                  {exams.length} exam{exams.length === 1 ? "" : "s"} taken
+                </span>
+                <span className="tabular">
+                  Best {Math.max(...exams.map((e) => scoreExam(e).percent))}%
+                  <span className="text-muted-foreground">
+                    {" "}
+                    · latest {scoreExam(exams[0]).percent}%
+                  </span>
+                </span>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+      )}
 
       <section>
         <div className="flex items-center justify-between mb-4">

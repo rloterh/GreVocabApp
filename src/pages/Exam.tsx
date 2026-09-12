@@ -330,6 +330,44 @@ function Results({
           </p>
         )}
 
+        {/* The review is the part that teaches. A score alone tells you that
+            you got eleven wrong; this tells you which eleven and what they
+            actually mean. */}
+        <details className="border-t border-border/60 pt-4">
+          <summary className="text-sm font-medium cursor-pointer">
+            Review every question
+          </summary>
+          <div className="mt-3 space-y-2">
+            {session.sections.flatMap((section) =>
+              section.questions.map((question, i) => {
+                const given = section.answers[i];
+                const right = given?.correct ?? false;
+                return (
+                  <div
+                    key={`${section.title}-${i}`}
+                    className={cn(
+                      "rounded-md border p-3 text-xs space-y-1",
+                      right ? "border-border/60" : "border-destructive/40",
+                    )}
+                  >
+                    <p className="font-medium">{question.prompt}</p>
+                    {!right && (
+                      <p className="text-destructive">
+                        You said:{" "}
+                        {given ? given.chosen : <em>nothing — unanswered</em>}
+                      </p>
+                    )}
+                    <p className={right ? "text-success" : "text-muted-foreground"}>
+                      {right ? "Correct: " : "Answer: "}
+                      {question.correct}
+                    </p>
+                  </div>
+                );
+              }),
+            )}
+          </div>
+        </details>
+
         <div className="flex justify-center">
           <Button onClick={onRestart}>
             <RotateCcw className="w-4 h-4" />

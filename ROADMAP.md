@@ -293,8 +293,8 @@ Design: [`docs/QUIZ-AND-EXAMS.md`](./docs/QUIZ-AND-EXAMS.md)
 - ~~**[P0] Periodic tests.**~~ **DONE 2026-09-12.** — Daily 10, Weekly 25, Monthly 50. Due words first, then the period's material, then a top-up weighted toward low ease factors and words with no consecutive successes behind them (`reps`, which SM-2 resets on an "again", since there is no `lapses` field).
 - ~~**[P0] 100-question sectioned exam.**~~ **DONE 2026-09-12.** — `src/lib/exam.ts` plus `src/pages/Exam.tsx`, 33 tests. Persisted on every answer; break screens show progress and never a score. Proved in a browser: seven questions in, reload, resumes on question seven with answers intact.
 - ~~**[P0] Wrong answers feed the scheduler.**~~ **DONE 2026-09-12.** — In both the exam and the instant quiz. Verified in a browser that answering moves a word into the schedule.
-- **[P1] Full per-question review.** — The word, your answer, the right answer, and the card.
-- **[P1] Test history and trend.** — Personal bests per period on the Progress page. → The point of testing on a schedule.
+- ~~**[P1] Full per-question review.**~~ **DONE 2026-09-12.** — A collapsed section under the exam result: every question, what you said where you were wrong, and the right answer. A score alone tells you that you got eleven wrong; this tells you which eleven.
+- ~~**[P1] Test history and trend.**~~ **DONE 2026-09-12.** — Exam history on the Progress page: the last twenty scores as a bar trend, with best and latest.
 - **[P2] AI-generated distractors.** — Better questions where a provider is available and the user opts in. → An enhancement; the heuristic is never removed.
 
 ### Definition of done — P0 met 2026-09-12
@@ -303,9 +303,9 @@ Design: [`docs/QUIZ-AND-EXAMS.md`](./docs/QUIZ-AND-EXAMS.md)
 - ~~No question has a distractor that is a synonym of its answer.~~ Enforced as a disqualification, checked by stem in both directions.
 - ~~Missed words appear sooner in the flashcard schedule.~~ Both surfaces.
 
-**Outstanding (P1/P2):** full per-question review after an exam, test history
-and trend on the Progress page, and AI-generated distractors. The exam shows a
-per-section breakdown but not yet a question-by-question walkthrough.
+**Outstanding:** only the P2 items — AI-generated distractors, where a provider
+is available and the user opts in. The heuristic is never removed, so this is an
+enhancement rather than a dependency.
 
 ## Phase 11 — Craft and delight
 

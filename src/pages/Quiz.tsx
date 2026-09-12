@@ -495,7 +495,9 @@ function PlayScreen({
             )}
           </div>
 
-          <div className="space-y-2">
+          {/* Radio-group semantics rather than clickable divs, so the choice
+              is announced and navigable. docs/QUIZ-AND-EXAMS.md. */}
+          <div className="space-y-2" role="radiogroup" aria-label="Answer">
             {q.options.map((opt) => {
               const isCorrect = opt === q.correct;
               const isChosen = opt === chosen;
@@ -511,6 +513,8 @@ function PlayScreen({
                 <motion.button
                   key={opt}
                   type="button"
+                  role="radio"
+                  aria-checked={isChosen}
                   disabled={chosen !== null}
                   onClick={() => onAnswer(opt)}
                   whileHover={chosen === null ? { scale: 1.01 } : undefined}

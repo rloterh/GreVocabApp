@@ -116,6 +116,7 @@ export function JsonImporter() {
       <input
         ref={fileRef}
         type="file"
+        aria-label="Choose a vocabulary file"
         accept="application/json,.json,text/csv,.csv,.apkg"
         multiple
         className="hidden"

@@ -124,6 +124,7 @@ export function DailyPractice() {
           <Button
             size="icon"
             variant="outline"
+            aria-label="Open the calendar"
             onClick={() => navigate("calendar")}
           >
             <CalendarIcon className="w-4 h-4" />
@@ -135,6 +136,7 @@ export function DailyPractice() {
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <Button
+              aria-label="Previous day"
               size="icon"
               variant="ghost"
               className="h-7 w-7"
@@ -147,6 +149,7 @@ export function DailyPractice() {
               Day {dayIdx + 1} of {month.days.length}
             </p>
             <Button
+              aria-label="Next day"
               size="icon"
               variant="ghost"
               className="h-7 w-7"
@@ -191,6 +194,7 @@ export function DailyPractice() {
 
       <div className="flex items-center justify-between mt-8 pt-6 border-t border-border/60">
         <Button
+          aria-label="Previous day"
           variant="ghost"
           size="sm"
           onClick={prevDay}
@@ -200,6 +204,7 @@ export function DailyPractice() {
           Previous day
         </Button>
         <Button
+          aria-label="Next day"
           variant="ghost"
           size="sm"
           onClick={nextDay}

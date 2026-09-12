@@ -11,6 +11,7 @@
  * See docs/adr/0009-installed-cli-providers.md.
  */
 
+import { isTauri } from "@/lib/utils";
 import { AiError } from "../errors";
 import { withRepair, withSchemaInstruction } from "../structured";
 import type {
@@ -28,10 +29,18 @@ export interface DetectedCli {
   path: string;
 }
 
-/** Ask the Rust side which known tools are on PATH. Nothing is executed. */
+/**
+ * Ask the Rust side which known tools are on PATH. Nothing is executed.
+ *
+ * The import is inside the guard *and* the try. Outside either, the web build
+ * throws an unhandled rejection every time providers are detected — there is
+ * no `@tauri-apps/api/core` to fetch there, and "no CLIs available" is the
+ * correct answer rather than an error.
+ */
 export async function detectAiClis(): Promise<DetectedCli[]> {
-  const { invoke } = await import("@tauri-apps/api/core");
+  if (!isTauri()) return [];
   try {
+    const { invoke } = await import("@tauri-apps/api/core");
     return await invoke<DetectedCli[]>("detect_ai_clis");
   } catch {
     return [];
@@ -118,8 +127,8 @@ export class CliProvider implements Provider {
         { provider: this.id },
       );
     }
-    const { invoke } = await import("@tauri-apps/api/core");
     try {
+      const { invoke } = await import("@tauri-apps/api/core");
       const text = await invoke<string>("run_ai_cli", {
         tool: this.config.tool.id,
         prompt,

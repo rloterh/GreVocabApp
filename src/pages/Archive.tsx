@@ -142,6 +142,7 @@ export function Archive() {
                     <AddWordsButton month={month} />
                     <ShareDeckButton month={month} />
                     <Button
+                      aria-label="Remove this month"
                       size="sm"
                       variant="ghost"
                       className="text-muted-foreground hover:text-destructive"

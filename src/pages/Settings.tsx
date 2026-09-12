@@ -327,6 +327,7 @@ export function Settings() {
                 <button
                   type="button"
                   className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                  aria-label={showKey ? "Hide the key" : "Show the key"}
                   onClick={() => setShowKey((s) => !s)}
                 >
                   {showKey ? (
@@ -677,7 +678,9 @@ function SettingSection({
       <Card>
         <CardContent className="p-5">
           <div className="mb-4">
-            <h3 className="text-sm font-semibold">{title}</h3>
+            {/* h2, not h3: a section heading directly under the page h1.
+                Skipping a level leaves a screen reader guessing at structure. */}
+            <h2 className="text-sm font-semibold">{title}</h2>
             <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
               {description}
             </p>

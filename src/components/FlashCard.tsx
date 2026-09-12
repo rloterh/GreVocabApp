@@ -63,9 +63,11 @@ export function FlashCard({
           className="flex-1 text-left focus:outline-none"
         >
           <div className="flex items-baseline gap-3 flex-wrap">
-            <h3 className="display-serif text-3xl font-semibold text-foreground">
+            {/* h2: the word is the main heading of the card, and the card
+                sits directly under the page heading. */}
+            <h2 className="display-serif text-3xl font-semibold text-foreground">
               {word.word}
-            </h3>
+            </h2>
             <Badge variant="outline" className="text-[10px] uppercase tracking-wider">
               {word.partOfSpeech}
             </Badge>

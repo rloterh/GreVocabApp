@@ -415,6 +415,7 @@ function SetupScreen({
             </div>
             <input
               type="range"
+              aria-label="Number of questions"
               min={3}
               max={Math.max(3, Math.min(30, availableCount))}
               value={Math.min(questionCount, availableCount)}

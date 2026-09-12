@@ -590,6 +590,7 @@ function SetupScreen({
               onClick={() => setDoShuffle(!doShuffle)}
               className="flex shrink-0 items-center justify-center"
               aria-pressed={doShuffle}
+              aria-label="Shuffle cards" 
             >
               <span
                 className={cn(
@@ -615,6 +616,7 @@ function SetupScreen({
             </div>
             <input
               type="range"
+              aria-label="Cards in this session"
               min={3}
               max={Math.max(3, Math.min(50, availableCount))}
               value={Math.min(cardLimit, availableCount)}

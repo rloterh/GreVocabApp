@@ -94,6 +94,7 @@ export function CalendarPicker({
         </div>
         <div className="flex items-center gap-1">
           <Button
+            aria-label="Previous month"
             variant="ghost"
             size="icon"
             className="h-7 w-7"
@@ -102,6 +103,7 @@ export function CalendarPicker({
             <ChevronLeft className="w-4 h-4" />
           </Button>
           <Button
+            aria-label="Next month"
             variant="ghost"
             size="icon"
             className="h-7 w-7"

@@ -41,14 +41,36 @@ export function parseVocabMonth(raw: unknown): VocabMonth {
     throw new Error("Vocab file must contain a non-empty `days` array");
   }
 
+  // Ids are the key progress records hang off, so two words sharing one would
+  // mean mastering either marks both. "well-being" and "well being" slugify
+  // identically, which is not a hypothetical.
+  const seenIds = new Set<string>();
+  const seenDays = new Set<number>();
+
   const days = daysRaw.map((d, idx) => {
     if (!d || typeof d !== "object") {
       throw new Error(`Day at index ${idx} is not an object`);
     }
     const day = (d as Record<string, unknown>).day;
-    if (typeof day !== "number" || day < 1 || day > 31) {
+    // Integer, not merely a number: a day of 1.5 parses, is never equal to
+    // any day the UI asks for, and its words silently become unreachable.
+    if (
+      typeof day !== "number" ||
+      !Number.isInteger(day) ||
+      day < 1 ||
+      day > 31
+    ) {
       throw new Error(`Day at index ${idx} has invalid day number`);
     }
+    if (seenDays.has(day)) {
+      // Silently keeping both would show one and count both: the progress bar
+      // would read "0 of 2" beside a single word.
+      throw new Error(
+        `Day ${day} appears more than once. Each day may only be listed once.`,
+      );
+    }
+    seenDays.add(day);
+
     const wordsRaw = (d as Record<string, unknown>).words;
     if (!Array.isArray(wordsRaw) || wordsRaw.length === 0) {
       throw new Error(`Day ${day} has no words`);
@@ -76,10 +98,12 @@ export function parseVocabMonth(raw: unknown): VocabMonth {
         throw new Error(`${word} is missing 'mnemonic'`);
       }
       return {
-        id:
+        id: uniqueId(
           typeof wo.id === "string" && wo.id.trim()
             ? wo.id
             : `${month}-${slugify(word)}`,
+          seenIds,
+        ),
         word,
         partOfSpeech,
         definition,
@@ -109,6 +133,22 @@ export function parseVocabMonth(raw: unknown): VocabMonth {
     createdAt:
       typeof r.createdAt === "string" ? r.createdAt : undefined,
   };
+}
+
+/**
+ * A word id nothing else in this month is using.
+ *
+ * Deterministic: the same file parsed twice produces the same ids, which it
+ * must, because progress records are keyed by them and survive a reload.
+ * Suffixing rather than rejecting, because both words are legitimate — it is
+ * only the derived id that collides.
+ */
+function uniqueId(candidate: string, taken: Set<string>): string {
+  let id = candidate;
+  let n = 2;
+  while (taken.has(id)) id = `${candidate}-${n++}`;
+  taken.add(id);
+  return id;
 }
 
 /** Flatten all words from a month */

@@ -215,6 +215,27 @@ export function normalizeWord(input: string): string {
  * unusable rather than as a key.
  */
 export function stem(input: string): string {
+  const cached = CACHE.get(input);
+  if (cached !== undefined) return cached;
+  const result = computeStem(input);
+  // Vocabulary is finite and small; the cap exists so a pathological caller
+  // cannot grow this without bound, not because the working set is large.
+  if (CACHE.size < CACHE_LIMIT) CACHE.set(input, result);
+  return result;
+}
+
+/**
+ * Memoised because the callers are quadratic in disguise.
+ *
+ * Building a 100-question exam scores every word in the corpus against every
+ * question, and each score stems both sides several times — about a million
+ * calls for a three-year corpus, which was 3.6 seconds of blocked main thread
+ * before this cache existed. `stem` is pure, so caching it is free.
+ */
+const CACHE = new Map<string, string>();
+const CACHE_LIMIT = 50_000;
+
+function computeStem(input: string): string {
   const normalized = normalizeWord(input);
   if (!normalized) return "";
 

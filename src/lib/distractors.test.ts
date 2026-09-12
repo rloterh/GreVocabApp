@@ -223,3 +223,56 @@ describe("picking", () => {
     expect(pool.map((w) => w.id)).toEqual(order);
   });
 });
+
+describe("scaling to a real corpus", () => {
+  /** Three years of vocabulary is ~3,240 words. */
+  const many: VocabWord[] = Array.from({ length: 3000 }, (_, i) =>
+    word({
+      id: `w${i}`,
+      word: `word${i}`,
+      partOfSpeech: i % 3 === 0 ? "verb" : i % 3 === 1 ? "noun" : "adjective",
+      definition: `To do the ${i}th thing in a particular manner.`,
+    }),
+  );
+
+  it("still returns three distinct wrong answers", () => {
+    const picked = pickDistractors(many[0], { pool: many, progress: {} });
+    expect(picked).toHaveLength(3);
+    expect(new Set(picked.map((w) => w.id)).size).toBe(3);
+    expect(picked.map((w) => w.id)).not.toContain(many[0].id);
+  });
+
+  it("prefers the answer's part of speech when narrowing", () => {
+    // Narrowing is by the strongest signal, so a capped pool is better than a
+    // random slice of everything rather than worse.
+    const picked = pickDistractors(many[0], { pool: many, progress: {} });
+    expect(picked.every((w) => w.partOfSpeech === many[0].partOfSpeech)).toBe(true);
+  });
+
+  it("never selects a synonym, however the pool was narrowed", () => {
+    // Narrowing can only remove candidates, so the guarantee must survive it.
+    const answer = word({
+      id: "wane",
+      word: "wane",
+      partOfSpeech: "verb",
+      synonyms: ["ebb"],
+    });
+    const pool = [answer, word({ id: "ebb", word: "ebb", partOfSpeech: "verb" }), ...many];
+    for (let i = 0; i < 25; i++) {
+      expect(pickDistractors(answer, { pool, progress: {} }).map((w) => w.id)).not.toContain(
+        "ebb",
+      );
+    }
+  });
+
+  it("builds a hundred questions without blocking for seconds", () => {
+    // This was 3.6 s before the candidate cap — a visible freeze on pressing
+    // "Start the exam". The bound is generous; the point is the order of
+    // magnitude, not a precise budget.
+    const started = performance.now();
+    for (let i = 0; i < 100; i++) {
+      pickDistractors(many[i], { pool: many, progress: {} });
+    }
+    expect(performance.now() - started).toBeLessThan(2000);
+  });
+});

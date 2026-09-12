@@ -47,6 +47,22 @@ export const WEIGHTS = {
 /** Definition lengths within this fraction of each other count as similar. */
 const LENGTH_TOLERANCE = 0.4;
 
+/**
+ * How many candidates are worth scoring for one question.
+ *
+ * Scoring the whole corpus to choose three wrong answers is quadratic in
+ * disguise: a 100-question exam over three years of vocabulary scored a
+ * quarter of a million candidates and blocked the main thread for seconds.
+ *
+ * The cap costs nothing in quality. Candidates are narrowed to the same part
+ * of speech first — the strongest plausibility signal there is — so a capped
+ * pool is *better* than a random slice of everything, not worse.
+ */
+const CANDIDATE_CAP = 400;
+
+/** Below this, narrowing by part of speech leaves too little to choose from. */
+const MIN_NARROWED = 24;
+
 export interface DistractorContext {
   /** Everything that could serve as a wrong answer. */
   pool: readonly VocabWord[];
@@ -107,7 +123,7 @@ export function pickDistractors(
 ): VocabWord[] {
   const random = context.random ?? Math.random;
 
-  const scored = context.pool
+  const scored = narrow(context.pool, answer, random)
     .filter((candidate) => isUsable(candidate, answer))
     .map((candidate) => ({
       candidate,
@@ -119,6 +135,32 @@ export function pickDistractors(
 
   scored.sort((a, b) => b.score - a.score || a.jitter - b.jitter);
   return scored.slice(0, count).map((entry) => entry.candidate);
+}
+
+/**
+ * The candidates worth scoring.
+ *
+ * Same part of speech first, because that is the strongest signal and it is
+ * cheap to test; then a capped slice, offset randomly so repeated questions
+ * about the same word do not always consider the same candidates.
+ */
+function narrow<T extends VocabWord>(
+  pool: readonly T[],
+  answer: VocabWord,
+  random: () => number,
+): readonly T[] {
+  if (pool.length <= CANDIDATE_CAP) return pool;
+
+  const sameKind = pool.filter((candidate) => samePartOfSpeech(candidate, answer));
+  const source = sameKind.length >= MIN_NARROWED ? sameKind : pool;
+  if (source.length <= CANDIDATE_CAP) return source;
+
+  const offset = Math.floor(random() * source.length);
+  const window = source.slice(offset, offset + CANDIDATE_CAP);
+  // Wrap, so a window near the end is still a full one.
+  return window.length === CANDIDATE_CAP
+    ? window
+    : window.concat(source.slice(0, CANDIDATE_CAP - window.length));
 }
 
 /**

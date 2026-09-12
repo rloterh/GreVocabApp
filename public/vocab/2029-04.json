@@ -1,0 +1,771 @@
+{
+  "month": "2029-04",
+  "displayName": "April 2029",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2029-04-earnest",
+          "word": "earnest",
+          "partOfSpeech": "adjective",
+          "definition": "Showing deep sincerity and heartfelt seriousness of purpose.",
+          "example": "She made an earnest plea for donations, her voice trembling with conviction.",
+          "mnemonic": "Sounds like the name 'Ernest' — picture a boy named Ernest who solemnly means every single word he says.",
+          "synonyms": [
+            "serious",
+            "sincere",
+            "wholehearted"
+          ],
+          "antonyms": [
+            "flippant",
+            "frivolous",
+            "halfhearted"
+          ]
+        },
+        {
+          "id": "2029-04-genuine",
+          "word": "genuine",
+          "partOfSpeech": "adjective",
+          "definition": "Real and exactly what it appears to be, not fake.",
+          "example": "The dealer confirmed the painting was a genuine Rembrandt, not a clever copy.",
+          "mnemonic": "Gen-u-ine holds 'gene' — your genes are authentically yours and can't be counterfeited.",
+          "synonyms": [
+            "authentic",
+            "real",
+            "true"
+          ],
+          "antonyms": [
+            "fake",
+            "counterfeit",
+            "phony"
+          ]
+        },
+        {
+          "id": "2029-04-unaffected",
+          "word": "unaffected",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in a natural, sincere way without pretense or show.",
+          "example": "Despite her fame, she stayed unaffected, chatting with fans like they were old friends.",
+          "mnemonic": "Un-affected = no 'act' added on — nothing fake layered over the real person.",
+          "synonyms": [
+            "natural",
+            "sincere",
+            "down-to-earth"
+          ],
+          "antonyms": [
+            "pretentious",
+            "affected",
+            "contrived"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2029-04-heartfelt",
+          "word": "heartfelt",
+          "partOfSpeech": "adjective",
+          "definition": "Showing deep, sincere emotion from the core of one's being.",
+          "example": "In a heartfelt speech, he thanked his mother through streaming tears.",
+          "mnemonic": "Break it apart: 'heart' + 'felt' — emotion you literally felt straight in your heart.",
+          "synonyms": [
+            "sincere",
+            "genuine",
+            "earnest"
+          ],
+          "antonyms": [
+            "insincere",
+            "halfhearted",
+            "perfunctory"
+          ]
+        },
+        {
+          "id": "2029-04-posture",
+          "word": "posture",
+          "partOfSpeech": "noun",
+          "definition": "A false attitude adopted only to impress or mislead others.",
+          "example": "His tough talk was mere posture; he backed down the instant anyone challenged him.",
+          "mnemonic": "Like striking a 'pose' for a camera — a stance you strike purely for show, not for truth.",
+          "synonyms": [
+            "pose",
+            "pretense",
+            "stance"
+          ],
+          "antonyms": [
+            "sincerity",
+            "honesty",
+            "candor"
+          ]
+        },
+        {
+          "id": "2029-04-insincere",
+          "word": "insincere",
+          "partOfSpeech": "adjective",
+          "definition": "Not honestly meant; pretending to feel emotions you do not truly have.",
+          "example": "Her insincere apology fooled no one; she smirked the whole time she said sorry.",
+          "mnemonic": "In- (not) + sincere — picture a 'sinner' faking a sweet smile he doesn't mean.",
+          "synonyms": [
+            "fake",
+            "false",
+            "hollow"
+          ],
+          "antonyms": [
+            "sincere",
+            "genuine",
+            "honest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2029-04-hypocrisy",
+          "word": "hypocrisy",
+          "partOfSpeech": "noun",
+          "definition": "Pretending to hold moral standards that you do not actually follow.",
+          "example": "Preaching honesty while cheating on his taxes was pure hypocrisy.",
+          "mnemonic": "From Greek 'hypo' (under) — an actor spoke from under a mask, hiding his real face.",
+          "synonyms": [
+            "duplicity",
+            "pretense",
+            "sanctimony"
+          ],
+          "antonyms": [
+            "sincerity",
+            "honesty",
+            "integrity"
+          ]
+        },
+        {
+          "id": "2029-04-hypocritical",
+          "word": "hypocritical",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in a way that plainly contradicts your claimed beliefs.",
+          "example": "It was hypocritical of her to ban sweets while eating cake in secret.",
+          "mnemonic": "Spot the 'critic' inside it — someone who criticizes others for exactly what he secretly does.",
+          "synonyms": [
+            "two-faced",
+            "insincere",
+            "sanctimonious"
+          ],
+          "antonyms": [
+            "sincere",
+            "honest",
+            "principled"
+          ]
+        },
+        {
+          "id": "2029-04-deceitful",
+          "word": "deceitful",
+          "partOfSpeech": "adjective",
+          "definition": "Dishonest and deliberately misleading in order to hide the truth.",
+          "example": "The deceitful salesman hid the car's flood damage under a fresh coat of paint.",
+          "mnemonic": "De-CEIT sounds like 'the cheat' — a cheat who lies to your face.",
+          "synonyms": [
+            "dishonest",
+            "treacherous",
+            "underhanded"
+          ],
+          "antonyms": [
+            "honest",
+            "truthful",
+            "trustworthy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2029-04-bamboozle",
+          "word": "bamboozle",
+          "partOfSpeech": "verb",
+          "definition": "To trick or confuse someone, usually by cheating them.",
+          "example": "The street hustler bamboozled tourists with a rigged shell game.",
+          "mnemonic": "'Bamboo' + 'zle' — imagine being bonked dizzy with a bamboo stick until you're confused and fleeced.",
+          "synonyms": [
+            "hoodwink",
+            "dupe",
+            "swindle"
+          ],
+          "antonyms": [
+            "enlighten",
+            "undeceive",
+            "inform"
+          ]
+        },
+        {
+          "id": "2029-04-humbug",
+          "word": "humbug",
+          "partOfSpeech": "noun",
+          "definition": "Deceptive nonsense or empty pretense meant to mislead people.",
+          "example": "\"Christmas? Bah, humbug!\" Scrooge scoffed, dismissing it as sentimental rubbish.",
+          "mnemonic": "'Hum' + 'bug' — a bug that just hums fake noise, all sound and no substance.",
+          "synonyms": [
+            "hogwash",
+            "sham",
+            "claptrap"
+          ],
+          "antonyms": [
+            "truth",
+            "sincerity",
+            "fact"
+          ]
+        },
+        {
+          "id": "2029-04-histrionic",
+          "word": "histrionic",
+          "partOfSpeech": "adjective",
+          "definition": "Overly dramatic and theatrical, exaggerated to grab attention.",
+          "example": "Her histrionic sobbing over a broken nail had everyone rolling their eyes.",
+          "mnemonic": "From Latin 'histrio' (actor) — picture a ham actor wildly overacting on stage.",
+          "synonyms": [
+            "melodramatic",
+            "overwrought",
+            "affected"
+          ],
+          "antonyms": [
+            "restrained",
+            "understated",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2029-04-theatrical",
+          "word": "theatrical",
+          "partOfSpeech": "adjective",
+          "definition": "Exaggerated and showy, as if performing on a stage.",
+          "example": "With a theatrical sigh, he flung the door open and stormed out of the room.",
+          "mnemonic": "Rooted in 'theater' — imagine every gesture happening under spotlights before an audience.",
+          "synonyms": [
+            "dramatic",
+            "showy",
+            "ostentatious"
+          ],
+          "antonyms": [
+            "understated",
+            "natural",
+            "restrained"
+          ]
+        },
+        {
+          "id": "2029-04-oleaginous",
+          "word": "oleaginous",
+          "partOfSpeech": "adjective",
+          "definition": "Exaggeratedly and unpleasantly flattering; slick and oily in manner.",
+          "example": "The oleaginous waiter drenched every guest in greasy, over-the-top compliments.",
+          "mnemonic": "'Oleo' means oil (as in oleo-margarine) — picture a slick, greasy, too-smooth smile.",
+          "synonyms": [
+            "unctuous",
+            "oily",
+            "sycophantic"
+          ],
+          "antonyms": [
+            "sincere",
+            "blunt",
+            "genuine"
+          ]
+        },
+        {
+          "id": "2029-04-flattery",
+          "word": "flattery",
+          "partOfSpeech": "noun",
+          "definition": "Excessive praise offered to please someone or gain advantage.",
+          "example": "His constant flattery about her genius was really just a bid for a raise.",
+          "mnemonic": "It 'flatters' — laid on thick like butter spread flat to win someone's favor.",
+          "synonyms": [
+            "adulation",
+            "sweet-talk",
+            "fawning"
+          ],
+          "antonyms": [
+            "criticism",
+            "insult",
+            "censure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2029-04-palter",
+          "word": "palter",
+          "partOfSpeech": "verb",
+          "definition": "To speak or act insincerely, especially by using misleading half-truths to avoid a straight answer.",
+          "example": "The witness would palter and dodge, giving vague replies until the lawyer lost all patience.",
+          "mnemonic": "Sounds like 'falter' — a palterer falters around the truth, wobbling instead of saying it plainly.",
+          "synonyms": [
+            "equivocate",
+            "prevaricate",
+            "dissemble"
+          ],
+          "antonyms": [
+            "be candid",
+            "level with"
+          ]
+        },
+        {
+          "id": "2029-04-impute",
+          "word": "impute",
+          "partOfSpeech": "verb",
+          "definition": "To attribute a fault, crime, or quality to a person, often without solid proof.",
+          "example": "Critics were quick to impute selfish motives to her charity work.",
+          "mnemonic": "'Im-' (onto) + Latin 'putare' (to reckon) — to reckon a fault onto someone.",
+          "synonyms": [
+            "attribute",
+            "ascribe",
+            "credit"
+          ],
+          "antonyms": [
+            "exonerate",
+            "absolve"
+          ]
+        },
+        {
+          "id": "2029-04-calumniate",
+          "word": "calumniate",
+          "partOfSpeech": "verb",
+          "definition": "To make false, damaging statements about someone in order to harm their reputation.",
+          "example": "Rival candidates calumniated each other so viciously that voters distrusted them both.",
+          "mnemonic": "Hear 'column' inside it — imagine a column of lies stacked up against an innocent person.",
+          "synonyms": [
+            "slander",
+            "defame",
+            "malign"
+          ],
+          "antonyms": [
+            "praise",
+            "extol",
+            "laud"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2029-04-derogate",
+          "word": "derogate",
+          "partOfSpeech": "verb",
+          "definition": "To belittle or disparage; to take away from the worth or standing of something.",
+          "example": "He never missed a chance to derogate his colleagues' achievements during meetings.",
+          "mnemonic": "'De-' (down) + 'rogate' (to ask/propose) — to talk something down, to lower it.",
+          "synonyms": [
+            "disparage",
+            "belittle",
+            "denigrate"
+          ],
+          "antonyms": [
+            "praise",
+            "exalt",
+            "commend"
+          ]
+        },
+        {
+          "id": "2029-04-unfeigned",
+          "word": "unfeigned",
+          "partOfSpeech": "adjective",
+          "definition": "Genuine and sincere, not faked or put on for effect.",
+          "example": "Her unfeigned delight at the surprise party brought tears to everyone's eyes.",
+          "mnemonic": "'Un-' + 'feigned' (faked) — literally NOT faked, therefore the real thing.",
+          "synonyms": [
+            "genuine",
+            "sincere",
+            "heartfelt"
+          ],
+          "antonyms": [
+            "fake",
+            "insincere",
+            "affected"
+          ]
+        },
+        {
+          "id": "2029-04-sophist",
+          "word": "sophist",
+          "partOfSpeech": "noun",
+          "definition": "A person who argues cleverly but deceptively, using flawed reasoning to appear correct.",
+          "example": "The debate coach warned us never to become a sophist who wins by trickery rather than truth.",
+          "mnemonic": "Sounds like 'so-fist' — punches you with slick arguments; from Greek 'sophos' (wise), cunningly twisted.",
+          "synonyms": [
+            "quibbler",
+            "casuist"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2029-04-poseur",
+          "word": "poseur",
+          "partOfSpeech": "noun",
+          "definition": "A person who adopts a false manner or attitude to impress others.",
+          "example": "The café was full of poseurs clutching untouched philosophy books to look intellectual.",
+          "mnemonic": "French for 'one who poses' — strikes a pose for the camera but has no real substance behind it.",
+          "synonyms": [
+            "pretender",
+            "phony",
+            "fraud"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-04-sycophancy",
+          "word": "sycophancy",
+          "partOfSpeech": "noun",
+          "definition": "The practice of using insincere flattery to win favor from powerful people.",
+          "example": "The intern's constant sycophancy toward the boss annoyed everyone else in the office.",
+          "mnemonic": "Say 'sick-o-fancy' — it's sickening how fancy the flattery gets.",
+          "synonyms": [
+            "obsequiousness",
+            "servility",
+            "toadying"
+          ],
+          "antonyms": [
+            "candor",
+            "bluntness"
+          ]
+        },
+        {
+          "id": "2029-04-scruple",
+          "word": "scruple",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of doubt or hesitation about whether an action is morally right.",
+          "example": "She had no scruple about reading her sister's diary while she was out.",
+          "mnemonic": "From Latin 'scrupulus,' a tiny sharp stone in your shoe — a nagging moral pebble.",
+          "synonyms": [
+            "qualm",
+            "misgiving",
+            "compunction"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2029-04-unscrupulous",
+          "word": "unscrupulous",
+          "partOfSpeech": "adjective",
+          "definition": "Having no moral principles; willing to be dishonest or unfair in order to succeed.",
+          "example": "The unscrupulous landlord evicted tenants illegally just to raise the rent.",
+          "mnemonic": "A person with NO moral pebbles ([[scruple]]) in their shoe to slow them down.",
+          "synonyms": [
+            "unprincipled",
+            "dishonest",
+            "corrupt"
+          ],
+          "antonyms": [
+            "honest",
+            "ethical",
+            "principled"
+          ]
+        },
+        {
+          "id": "2029-04-abjure",
+          "word": "abjure",
+          "partOfSpeech": "verb",
+          "definition": "To formally reject or give up a belief, cause, or claim, often under oath.",
+          "example": "To gain citizenship, he had to abjure all allegiance to his former ruler.",
+          "mnemonic": "'Ab-' (away) + 'jure' (to swear, as in jury) — to swear something away.",
+          "synonyms": [
+            "renounce",
+            "forswear",
+            "repudiate"
+          ],
+          "antonyms": [
+            "embrace",
+            "affirm",
+            "uphold"
+          ]
+        },
+        {
+          "id": "2029-04-renege",
+          "word": "renege",
+          "partOfSpeech": "verb",
+          "definition": "To break a promise or fail to keep an agreement.",
+          "example": "The company reneged on its pledge to pay bonuses once profits fell.",
+          "mnemonic": "'Re-neg' — to negate again what you already agreed to.",
+          "synonyms": [
+            "back out",
+            "default",
+            "welsh"
+          ],
+          "antonyms": [
+            "honor",
+            "fulfill",
+            "keep"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2029-04-tergiversate",
+          "word": "tergiversate",
+          "partOfSpeech": "verb",
+          "definition": "To repeatedly change one's opinions or loyalties; to be deliberately ambiguous.",
+          "example": "Voters tired of a senator who would tergiversate on every issue to please each crowd.",
+          "mnemonic": "'Tergi' (back) + 'versate' (turn) — turning your back and spinning to face any direction.",
+          "synonyms": [
+            "equivocate",
+            "waffle",
+            "vacillate"
+          ],
+          "antonyms": [
+            "stand firm",
+            "commit"
+          ]
+        },
+        {
+          "id": "2029-04-delude",
+          "word": "delude",
+          "partOfSpeech": "verb",
+          "definition": "To make someone believe something that is not true; to fool the mind.",
+          "example": "He deluded himself into thinking the failing business would recover on its own.",
+          "mnemonic": "'De-' + 'lude' (Latin 'ludere,' to play) — to play a trick on someone's mind.",
+          "synonyms": [
+            "deceive",
+            "mislead",
+            "dupe"
+          ],
+          "antonyms": [
+            "enlighten",
+            "undeceive"
+          ]
+        },
+        {
+          "id": "2029-04-ostensibly",
+          "word": "ostensibly",
+          "partOfSpeech": "adverb",
+          "definition": "According to what is stated or appears true, though perhaps not really so.",
+          "example": "He arrived early ostensibly to help, but really to snoop through the files.",
+          "mnemonic": "From Latin 'ostendere' (to show) — what is shown on the surface, while reality hides beneath.",
+          "synonyms": [
+            "apparently",
+            "seemingly",
+            "supposedly"
+          ],
+          "antonyms": [
+            "genuinely",
+            "actually",
+            "truly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2029-04-purport",
+          "word": "purport",
+          "partOfSpeech": "verb",
+          "definition": "To claim or present oneself as being something, often without any truth behind it.",
+          "example": "The email purported to be from the bank, but the misspelled logo gave it away.",
+          "mnemonic": "Sounds like 'poor port' — a shady ship claiming to belong in a harbor where it has no business.",
+          "synonyms": [
+            "claim",
+            "profess",
+            "allege"
+          ],
+          "antonyms": [
+            "deny",
+            "disprove"
+          ]
+        },
+        {
+          "id": "2029-04-protestation",
+          "word": "protestation",
+          "partOfSpeech": "noun",
+          "definition": "A firm, emphatic public declaration that something is or is not true.",
+          "example": "Despite his loud protestations of innocence, the jury had already seen the security video.",
+          "mnemonic": "Hidden 'protest' inside it — a protestation is a strong protest-style declaration.",
+          "synonyms": [
+            "declaration",
+            "avowal",
+            "assertion"
+          ],
+          "antonyms": [
+            "denial",
+            "disavowal"
+          ]
+        },
+        {
+          "id": "2029-04-smarmy",
+          "word": "smarmy",
+          "partOfSpeech": "adjective",
+          "definition": "Overly flattering or polite in a way that feels insincere and slick.",
+          "example": "The smarmy salesman complimented her shoes three times before slipping in the warranty upsell.",
+          "mnemonic": "Smarmy = 'smear' + balmy: picture someone smearing oily charm all over you.",
+          "synonyms": [
+            "unctuous",
+            "oily",
+            "ingratiating"
+          ],
+          "antonyms": [
+            "sincere",
+            "genuine"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2029-04-saccharine",
+          "word": "saccharine",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively sweet or emotional to the point of feeling fake and sickening.",
+          "example": "The greeting card's saccharine verse about guardian angels made her roll her eyes.",
+          "mnemonic": "Saccharin is the artificial sweetener — a saccharine mood is that same fake, sugary overload.",
+          "synonyms": [
+            "cloying",
+            "sugary",
+            "mushy"
+          ],
+          "antonyms": [
+            "bitter",
+            "acerbic"
+          ]
+        },
+        {
+          "id": "2029-04-mawkish",
+          "word": "mawkish",
+          "partOfSpeech": "adjective",
+          "definition": "Feebly emotional or tearful in a way that feels forced and hard to stomach.",
+          "example": "The film's deathbed scene, drowning in swelling violins, felt mawkish rather than moving.",
+          "mnemonic": "'Mawk' is an old word for maggot — sappy feeling so overdone it makes you queasy.",
+          "synonyms": [
+            "maudlin",
+            "sentimental",
+            "cloying"
+          ],
+          "antonyms": [
+            "unsentimental",
+            "stoic"
+          ]
+        },
+        {
+          "id": "2029-04-trite",
+          "word": "trite",
+          "partOfSpeech": "adjective",
+          "definition": "Dull and lacking freshness because it has been repeated far too often.",
+          "example": "His graduation speech leaned on trite advice like 'follow your dreams and never give up.'",
+          "mnemonic": "Trite rhymes with 'right' — the safe phrase everyone reaches for, worn smooth from overuse.",
+          "synonyms": [
+            "banal",
+            "clichéd",
+            "stale"
+          ],
+          "antonyms": [
+            "original",
+            "fresh",
+            "novel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2029-04-hackneyed",
+          "word": "hackneyed",
+          "partOfSpeech": "adjective",
+          "definition": "Made stale and unoriginal through constant, tiresome repetition.",
+          "example": "The thriller relied on the hackneyed twist of the villain turning out to be a long-lost twin.",
+          "mnemonic": "A 'hackney' was a horse hired out over and over until worn out — the idea is that exhausted.",
+          "synonyms": [
+            "clichéd",
+            "overused",
+            "tired"
+          ],
+          "antonyms": [
+            "fresh",
+            "novel",
+            "inventive"
+          ]
+        },
+        {
+          "id": "2029-04-travesty",
+          "word": "travesty",
+          "partOfSpeech": "noun",
+          "definition": "A grotesque, absurd distortion that mocks something meant to be serious.",
+          "example": "Critics called the rushed, evidence-free trial a travesty of justice.",
+          "mnemonic": "From Latin 'trans-vestire,' to dress across — truth forced into a ridiculous costume.",
+          "synonyms": [
+            "mockery",
+            "sham",
+            "distortion"
+          ],
+          "antonyms": [
+            "faithful rendering"
+          ]
+        },
+        {
+          "id": "2029-04-caricature",
+          "word": "caricature",
+          "partOfSpeech": "noun",
+          "definition": "An exaggerated portrayal that comically overstates a person's features or traits.",
+          "example": "The street artist drew a caricature giving the tourist an enormous nose and a tiny body.",
+          "mnemonic": "From Italian 'caricare,' to load — the artist loads on the exaggeration until it's absurd.",
+          "synonyms": [
+            "parody",
+            "cartoon",
+            "lampoon"
+          ],
+          "antonyms": [
+            "portrait",
+            "likeness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2029-04-mimicry",
+          "word": "mimicry",
+          "partOfSpeech": "noun",
+          "definition": "The act of closely copying another's speech, behavior, or appearance.",
+          "example": "The parrot's mimicry was so precise it reproduced the exact ringtone of her phone.",
+          "mnemonic": "You can hear 'mimic' inside it — mimicry is simply what a skilled mimic does.",
+          "synonyms": [
+            "imitation",
+            "impersonation",
+            "aping"
+          ],
+          "antonyms": [
+            "originality",
+            "invention"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "advanced and low-frequency — sincerity and pretence",
+  "createdAt": "2026-09-12T10:09:36.925Z"
+}

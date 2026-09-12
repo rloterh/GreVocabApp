@@ -1,0 +1,851 @@
+{
+  "month": "2029-05",
+  "displayName": "May 2029",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "2029-05-satiety",
+          "word": "satiety",
+          "partOfSpeech": "noun",
+          "definition": "The feeling of being completely full or gratified after having enough of something.",
+          "example": "After the third helping of pie, a heavy satiety set in and he could not eat another bite.",
+          "mnemonic": "Root 'sate' (to fill fully) + -iety — the state of being sated.",
+          "synonyms": [
+            "fullness",
+            "satisfaction",
+            "repletion"
+          ],
+          "antonyms": [
+            "hunger",
+            "craving",
+            "emptiness"
+          ]
+        },
+        {
+          "id": "2029-05-excrescence",
+          "word": "excrescence",
+          "partOfSpeech": "noun",
+          "definition": "An abnormal or ugly growth protruding from a body or surface.",
+          "example": "A knotty excrescence bulged from the old oak's trunk like a fist of tangled wood.",
+          "mnemonic": "Latin 'crescere' = to grow (as in crescendo) — an unwanted thing that grew out.",
+          "synonyms": [
+            "outgrowth",
+            "protuberance",
+            "wart"
+          ],
+          "antonyms": [
+            "depression",
+            "hollow",
+            "indentation"
+          ]
+        },
+        {
+          "id": "2029-05-exorbitant",
+          "word": "exorbitant",
+          "partOfSpeech": "adjective",
+          "definition": "Far exceeding what is reasonable or customary, especially in price or amount.",
+          "example": "The tiny hotel room cost an exorbitant sum that drained half our vacation budget.",
+          "mnemonic": "Ex + orbit — a price so high it flies out of orbit.",
+          "synonyms": [
+            "extravagant",
+            "excessive",
+            "extortionate"
+          ],
+          "antonyms": [
+            "reasonable",
+            "modest",
+            "cheap"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "2029-05-immoderate",
+          "word": "immoderate",
+          "partOfSpeech": "adjective",
+          "definition": "Going beyond sensible limits; excessive in degree or amount.",
+          "example": "His immoderate spending left the account empty long before the month was over.",
+          "mnemonic": "im- (not) + moderate — literally 'not moderate'.",
+          "synonyms": [
+            "excessive",
+            "extravagant",
+            "unrestrained"
+          ],
+          "antonyms": [
+            "moderate",
+            "measured",
+            "temperate"
+          ]
+        },
+        {
+          "id": "2029-05-intemperate",
+          "word": "intemperate",
+          "partOfSpeech": "adjective",
+          "definition": "Showing a lack of self-control, especially in drinking or heated behavior.",
+          "example": "His intemperate outburst at the meeting embarrassed everyone and cost him the promotion.",
+          "mnemonic": "in- (not) + temper — can't keep your temper in check.",
+          "synonyms": [
+            "excessive",
+            "unrestrained",
+            "immoderate"
+          ],
+          "antonyms": [
+            "temperate",
+            "restrained",
+            "sober"
+          ]
+        },
+        {
+          "id": "2029-05-abstinence",
+          "word": "abstinence",
+          "partOfSpeech": "noun",
+          "definition": "The practice of deliberately choosing not to indulge in something, such as food or alcohol.",
+          "example": "During Lent she kept a strict abstinence from sweets, sugar, and rich desserts.",
+          "mnemonic": "abs-tighten: hold your abs tight and resist the snack.",
+          "synonyms": [
+            "sobriety",
+            "self-denial",
+            "temperance"
+          ],
+          "antonyms": [
+            "indulgence",
+            "excess",
+            "gluttony"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "2029-05-restraint",
+          "word": "restraint",
+          "partOfSpeech": "noun",
+          "definition": "Self-control, or the act of holding back an impulse or action.",
+          "example": "It took great restraint not to reply to the insulting email while he was still angry.",
+          "mnemonic": "re-STRAIN — like a leash straining to hold something back.",
+          "synonyms": [
+            "self-control",
+            "moderation",
+            "discipline"
+          ],
+          "antonyms": [
+            "indulgence",
+            "abandon",
+            "excess"
+          ]
+        },
+        {
+          "id": "2029-05-continence",
+          "word": "continence",
+          "partOfSpeech": "noun",
+          "definition": "The ability to control one's impulses or bodily functions.",
+          "example": "The monk's remarkable continence let him refuse every luxury offered to him.",
+          "mnemonic": "Sounds like 'contain' — you keep everything contained within yourself.",
+          "synonyms": [
+            "self-restraint",
+            "self-control",
+            "temperance"
+          ],
+          "antonyms": [
+            "indulgence",
+            "excess",
+            "abandon"
+          ]
+        },
+        {
+          "id": "2029-05-incontinent",
+          "word": "incontinent",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to control natural bodily functions, or lacking self-restraint.",
+          "example": "So incontinent were his desires that he bought every gadget he laid eyes on.",
+          "mnemonic": "in- (not) + contain — can't contain it.",
+          "synonyms": [
+            "unrestrained",
+            "uncontrolled",
+            "unchecked"
+          ],
+          "antonyms": [
+            "restrained",
+            "controlled",
+            "disciplined"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "2029-05-licentious",
+          "word": "licentious",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in a sexually unrestrained and morally unprincipled way.",
+          "example": "The novel scandalized readers with its licentious characters and their nightly escapades.",
+          "mnemonic": "Like 'license' — acting as if granted a license to break every moral rule.",
+          "synonyms": [
+            "lewd",
+            "promiscuous",
+            "dissolute"
+          ],
+          "antonyms": [
+            "chaste",
+            "moral",
+            "virtuous"
+          ]
+        },
+        {
+          "id": "2029-05-debauchery",
+          "word": "debauchery",
+          "partOfSpeech": "noun",
+          "definition": "Excessive indulgence in sensual pleasures such as drinking and sex.",
+          "example": "The weekend of debauchery left the mansion trashed and every guest hungover for days.",
+          "mnemonic": "Sounds like 'the-bawdy' — a scene of bawdy, sinful excess.",
+          "synonyms": [
+            "dissipation",
+            "excess",
+            "hedonism"
+          ],
+          "antonyms": [
+            "temperance",
+            "abstinence",
+            "virtue"
+          ]
+        },
+        {
+          "id": "2029-05-wanton",
+          "word": "wanton",
+          "partOfSpeech": "adjective",
+          "definition": "Done deliberately and maliciously without reason, or lacking moral restraint.",
+          "example": "The vandals smashed the windows in a fit of wanton destruction, for no reason at all.",
+          "mnemonic": "Sounds like 'want-on' — always wanting on and on with no limits.",
+          "synonyms": [
+            "gratuitous",
+            "reckless",
+            "unprovoked"
+          ],
+          "antonyms": [
+            "justified",
+            "restrained",
+            "deliberate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "2029-05-unbridled",
+          "word": "unbridled",
+          "partOfSpeech": "adjective",
+          "definition": "Not held back or controlled; completely free of limits.",
+          "example": "Her unbridled enthusiasm swept the whole room into cheering along with her.",
+          "mnemonic": "un + bridle — a horse with no bridle, running wild.",
+          "synonyms": [
+            "unrestrained",
+            "uncontrolled",
+            "unchecked"
+          ],
+          "antonyms": [
+            "restrained",
+            "controlled",
+            "checked"
+          ]
+        },
+        {
+          "id": "2029-05-overweening",
+          "word": "overweening",
+          "partOfSpeech": "adjective",
+          "definition": "Showing excessive pride, confidence, or arrogance.",
+          "example": "His overweening certainty that he would win made his eventual loss all the more humiliating.",
+          "mnemonic": "Sounds like 'over-winning' — someone sure he's always winning.",
+          "synonyms": [
+            "arrogant",
+            "presumptuous",
+            "conceited"
+          ],
+          "antonyms": [
+            "humble",
+            "modest",
+            "unassuming"
+          ]
+        },
+        {
+          "id": "2029-05-inordinate",
+          "word": "inordinate",
+          "partOfSpeech": "adjective",
+          "definition": "Far greater than what is usual, expected, or reasonable.",
+          "example": "She spent an inordinate amount of time choosing a font for a one-page flyer.",
+          "mnemonic": "in- (not) + ordinary — an amount that is beyond ordinary.",
+          "synonyms": [
+            "excessive",
+            "immoderate",
+            "disproportionate"
+          ],
+          "antonyms": [
+            "moderate",
+            "reasonable",
+            "modest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "2029-05-gluttony",
+          "word": "gluttony",
+          "partOfSpeech": "noun",
+          "definition": "The habit of eating and drinking far more than one actually needs.",
+          "example": "By his third helping of pie, his gluttony had drawn stares from the other guests.",
+          "mnemonic": "Sounds like 'glut' — a glut is an oversupply, and this is oversupplying yourself with food.",
+          "synonyms": [
+            "overindulgence",
+            "greed",
+            "voracity"
+          ],
+          "antonyms": [
+            "temperance",
+            "moderation",
+            "abstinence"
+          ]
+        },
+        {
+          "id": "2029-05-ravenous",
+          "word": "ravenous",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely hungry, to the point of wanting to eat right away.",
+          "example": "After the twelve-hour hike, the campers fell on their supper like ravenous wolves.",
+          "mnemonic": "A raven scavenging for scraps is always on the hunt — picture that bird, endlessly hungry.",
+          "synonyms": [
+            "famished",
+            "starving",
+            "voracious"
+          ],
+          "antonyms": [
+            "sated",
+            "full",
+            "satisfied"
+          ]
+        },
+        {
+          "id": "2029-05-gormandize",
+          "word": "gormandize",
+          "partOfSpeech": "verb",
+          "definition": "To eat greedily and in very large quantities.",
+          "example": "The children gormandized their way through the entire tray of cupcakes in minutes.",
+          "mnemonic": "Hidden inside is 'gourmand' — a gourmand who loses all restraint does this at the table.",
+          "synonyms": [
+            "devour",
+            "gorge",
+            "guzzle"
+          ],
+          "antonyms": [
+            "nibble",
+            "abstain",
+            "fast"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2029-05-hedonism",
+          "word": "hedonism",
+          "partOfSpeech": "noun",
+          "definition": "The belief that seeking pleasure is the most important thing in life.",
+          "example": "His weekend of nonstop parties and indulgence was hedonism at its purest.",
+          "mnemonic": "From Greek 'hedone' (pleasure); picture a permanent 'heyday' of fun with no other goal.",
+          "synonyms": [
+            "self-gratification",
+            "indulgence",
+            "sensualism"
+          ],
+          "antonyms": [
+            "asceticism",
+            "self-denial",
+            "austerity"
+          ]
+        },
+        {
+          "id": "2029-05-hedonistic",
+          "word": "hedonistic",
+          "partOfSpeech": "adjective",
+          "definition": "Devoted to seeking enjoyment and comfort above all else.",
+          "example": "The resort catered to a hedonistic crowd chasing sun, cocktails, and midnight dancing.",
+          "mnemonic": "Same Greek root 'hedone' (pleasure) — a 'hey-day' lifestyle turned into an adjective.",
+          "synonyms": [
+            "pleasure-seeking",
+            "self-indulgent",
+            "sybaritic"
+          ],
+          "antonyms": [
+            "ascetic",
+            "abstemious",
+            "austere"
+          ]
+        },
+        {
+          "id": "2029-05-sybarite",
+          "word": "sybarite",
+          "partOfSpeech": "noun",
+          "definition": "A person who loves luxury, comfort, and sensual pleasure.",
+          "example": "A true sybarite, she wouldn't travel unless the hotel had silk sheets and a private chef.",
+          "mnemonic": "From Sybaris, an ancient Greek city whose citizens were famous for extravagant, pampered living.",
+          "synonyms": [
+            "voluptuary",
+            "epicure",
+            "sensualist"
+          ],
+          "antonyms": [
+            "ascetic",
+            "stoic",
+            "puritan"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2029-05-epicurean",
+          "word": "epicurean",
+          "partOfSpeech": "adjective",
+          "definition": "Fond of and devoted to fine food, drink, and refined pleasures.",
+          "example": "The epicurean menu paired each course with a rare vintage from the cellar.",
+          "mnemonic": "Named for philosopher Epicurus; hear 'epic cuisine' and picture a magnificent meal.",
+          "synonyms": [
+            "gourmet",
+            "sybaritic",
+            "gastronomic"
+          ],
+          "antonyms": [
+            "ascetic",
+            "abstemious",
+            "spartan"
+          ]
+        },
+        {
+          "id": "2029-05-voluptuary",
+          "word": "voluptuary",
+          "partOfSpeech": "noun",
+          "definition": "Someone whose life centers on luxury and sensual gratification.",
+          "example": "The aging voluptuary surrounded himself with velvet cushions, fine wine, and soft music.",
+          "mnemonic": "It contains 'voluptuous' — this is the person who chases every voluptuous, sensual delight.",
+          "synonyms": [
+            "sybarite",
+            "sensualist",
+            "hedonist"
+          ],
+          "antonyms": [
+            "ascetic",
+            "puritan",
+            "stoic"
+          ]
+        },
+        {
+          "id": "2029-05-bacchanalian",
+          "word": "bacchanalian",
+          "partOfSpeech": "adjective",
+          "definition": "Involving wild, drunken celebration and uncontrolled merrymaking.",
+          "example": "The graduation party turned bacchanalian, with people dancing on tables until dawn.",
+          "mnemonic": "From Bacchus, the Roman god of wine, whose festivals were riotous drinking parties.",
+          "synonyms": [
+            "riotous",
+            "debauched",
+            "orgiastic"
+          ],
+          "antonyms": [
+            "sober",
+            "restrained",
+            "temperate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2029-05-orgiastic",
+          "word": "orgiastic",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by wild, unrestrained indulgence in pleasure or excess.",
+          "example": "The festival's orgiastic frenzy of music, food, and dance lasted three full nights.",
+          "mnemonic": "Built on 'orgy' — an orgy is unbridled excess, and this word describes that frenzy.",
+          "synonyms": [
+            "frenzied",
+            "bacchanalian",
+            "debauched"
+          ],
+          "antonyms": [
+            "restrained",
+            "subdued",
+            "moderate"
+          ]
+        },
+        {
+          "id": "2029-05-exuberance",
+          "word": "exuberance",
+          "partOfSpeech": "noun",
+          "definition": "The state of being full of energy, excitement, and cheerfulness.",
+          "example": "The puppy's exuberance sent it bounding around the yard, unable to sit still.",
+          "mnemonic": "'Ex-' (out) + Latin 'uber' (abundant) — abundance bursting outward.",
+          "synonyms": [
+            "enthusiasm",
+            "vitality",
+            "ebullience"
+          ],
+          "antonyms": [
+            "apathy",
+            "lethargy",
+            "gloom"
+          ]
+        },
+        {
+          "id": "2029-05-expatiate",
+          "word": "expatiate",
+          "partOfSpeech": "verb",
+          "definition": "To speak or write about something at great length and in detail.",
+          "example": "Given any chance, the professor would expatiate on medieval trade routes for a solid hour.",
+          "mnemonic": "'Ex-' (out) + Latin 'spatium' (space) — to roam out over a wide space of words.",
+          "synonyms": [
+            "elaborate",
+            "expound",
+            "dilate"
+          ],
+          "antonyms": [
+            "summarize",
+            "abridge",
+            "condense"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2029-05-modicum",
+          "word": "modicum",
+          "partOfSpeech": "noun",
+          "definition": "A small or moderate amount of something.",
+          "example": "If you had a modicum of sense, you'd bring an umbrella on a day like this.",
+          "mnemonic": "Sounds like 'modest' plus 'cup' — just a modest cupful, only a little.",
+          "synonyms": [
+            "bit",
+            "touch",
+            "trace"
+          ],
+          "antonyms": [
+            "abundance",
+            "glut",
+            "surplus"
+          ]
+        },
+        {
+          "id": "2029-05-smattering",
+          "word": "smattering",
+          "partOfSpeech": "noun",
+          "definition": "A small, superficial amount, especially of knowledge.",
+          "example": "He knew only a smattering of French, enough to order coffee and little else.",
+          "mnemonic": "Think 'scatter' — a few bits scattered thinly, never a full grasp.",
+          "synonyms": [
+            "sprinkling",
+            "dash",
+            "bit"
+          ],
+          "antonyms": [
+            "mastery",
+            "abundance",
+            "wealth"
+          ]
+        },
+        {
+          "id": "2029-05-scintilla",
+          "word": "scintilla",
+          "partOfSpeech": "noun",
+          "definition": "A tiny trace or spark of something.",
+          "example": "There wasn't a scintilla of evidence linking her to the crime.",
+          "mnemonic": "Related to 'scintillate' (to sparkle) — this is a single, tiny spark.",
+          "synonyms": [
+            "trace",
+            "iota",
+            "speck"
+          ],
+          "antonyms": [
+            "abundance",
+            "mass",
+            "heap"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2029-05-nimiety",
+          "word": "nimiety",
+          "partOfSpeech": "noun",
+          "definition": "The state of having far more of something than is needed or wanted.",
+          "example": "The nimiety of gifts under the tree left the children overwhelmed rather than delighted.",
+          "mnemonic": "From Latin 'nimis' meaning too much — a nimiety is simply too many.",
+          "synonyms": [
+            "excess",
+            "surplus",
+            "superfluity"
+          ],
+          "antonyms": [
+            "scarcity",
+            "dearth",
+            "lack"
+          ]
+        },
+        {
+          "id": "2029-05-rakish",
+          "word": "rakish",
+          "partOfSpeech": "adjective",
+          "definition": "Having a dashing, jaunty, and slightly disreputable stylish air.",
+          "example": "He wore his hat at a rakish angle, a cigarette dangling with careless confidence.",
+          "mnemonic": "A 'rake' was an old word for a fashionable scoundrel — rakish is his jaunty swagger.",
+          "synonyms": [
+            "dashing",
+            "jaunty",
+            "debonair"
+          ],
+          "antonyms": [
+            "dowdy",
+            "staid",
+            "drab"
+          ]
+        },
+        {
+          "id": "2029-05-carouse",
+          "word": "carouse",
+          "partOfSpeech": "verb",
+          "definition": "To drink alcohol and celebrate in a noisy, lively manner.",
+          "example": "The sailors caroused in the tavern until dawn, draining tankard after tankard.",
+          "mnemonic": "Sounds like 'car rouse' — rowdy drinkers rousing the whole street.",
+          "synonyms": [
+            "revel",
+            "roister",
+            "party"
+          ],
+          "antonyms": [
+            "abstain",
+            "refrain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "2029-05-revelry",
+          "word": "revelry",
+          "partOfSpeech": "noun",
+          "definition": "Noisy, lively celebration full of dancing, laughter, and merrymaking.",
+          "example": "The wedding revelry spilled into the garden, lasting well past midnight.",
+          "mnemonic": "Picture people who 'rebel' against calm — revelry is joyful rebellion against quiet.",
+          "synonyms": [
+            "festivity",
+            "merrymaking",
+            "carousal"
+          ],
+          "antonyms": [
+            "solemnity",
+            "mourning"
+          ]
+        },
+        {
+          "id": "2029-05-gourmand",
+          "word": "gourmand",
+          "partOfSpeech": "noun",
+          "definition": "A person who enjoys eating and often consumes food in large amounts.",
+          "example": "A true gourmand, he ordered three courses and finished every plate without hesitation.",
+          "mnemonic": "Sounds like 'gorge' plus 'demand' — someone who demands to gorge.",
+          "synonyms": [
+            "glutton",
+            "epicure",
+            "gastronome"
+          ],
+          "antonyms": [
+            "ascetic",
+            "abstainer"
+          ]
+        },
+        {
+          "id": "2029-05-tumid",
+          "word": "tumid",
+          "partOfSpeech": "adjective",
+          "definition": "Swollen or bulging; also describing inflated, pompous speech.",
+          "example": "His ankle grew tumid after the fall, straining against his shoelaces.",
+          "mnemonic": "Sounds like 'tummy' that's swollen — a tumid belly bulges outward.",
+          "synonyms": [
+            "swollen",
+            "bulging",
+            "turgid"
+          ],
+          "antonyms": [
+            "shrunken",
+            "deflated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "2029-05-staid",
+          "word": "staid",
+          "partOfSpeech": "adjective",
+          "definition": "Sedate, respectable, and unadventurous in manner or character.",
+          "example": "The staid old banker frowned at the boisterous crowd outside his office.",
+          "mnemonic": "Sounds like 'stayed' — someone who stayed put, settled and calm, never wild.",
+          "synonyms": [
+            "sedate",
+            "sober",
+            "demure"
+          ],
+          "antonyms": [
+            "frivolous",
+            "rakish",
+            "wild"
+          ]
+        },
+        {
+          "id": "2029-05-decadence",
+          "word": "decadence",
+          "partOfSpeech": "noun",
+          "definition": "A state of moral or cultural decline marked by excessive self-indulgence.",
+          "example": "The empire's final years were steeped in decadence: lavish feasts and idle luxury.",
+          "mnemonic": "Shares its root with 'decay' — picture a society decaying through too much luxury.",
+          "synonyms": [
+            "degeneracy",
+            "dissipation",
+            "decay"
+          ],
+          "antonyms": [
+            "virtue",
+            "asceticism",
+            "restraint"
+          ]
+        },
+        {
+          "id": "2029-05-sensuous",
+          "word": "sensuous",
+          "partOfSpeech": "adjective",
+          "definition": "Readily affected by or giving pleasure to the body rather than the mind.",
+          "example": "The sensuous music, warm candlelight, and scent of jasmine filled the room with delight.",
+          "mnemonic": "Contains 'sense' — it is all about pleasing what the body can feel.",
+          "synonyms": [
+            "voluptuous",
+            "luxurious",
+            "sensory"
+          ],
+          "antonyms": [
+            "ascetic",
+            "plain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2029-05-superabundant",
+          "word": "superabundant",
+          "partOfSpeech": "adjective",
+          "definition": "Existing in an extremely large or more than ample quantity.",
+          "example": "After the rains, the valley yielded superabundant crops, more than the villagers could store.",
+          "mnemonic": "'Super' piled onto 'abundant' — plenty taken over the top.",
+          "synonyms": [
+            "copious",
+            "plentiful",
+            "profuse"
+          ],
+          "antonyms": [
+            "scarce",
+            "scanty",
+            "meager"
+          ]
+        },
+        {
+          "id": "2029-05-sober",
+          "word": "sober",
+          "partOfSpeech": "adjective",
+          "definition": "Not affected by alcohol; also serious, calm, and restrained in manner.",
+          "example": "After the chaos of the party, she stayed sober and drove her tipsy friends home.",
+          "mnemonic": "Break it as 'so bare' — a clear, bare mind untouched by drink.",
+          "synonyms": [
+            "abstinent",
+            "serious",
+            "solemn"
+          ],
+          "antonyms": [
+            "drunk",
+            "intoxicated",
+            "frivolous"
+          ]
+        },
+        {
+          "id": "2029-05-moderate",
+          "word": "moderate",
+          "partOfSpeech": "adjective",
+          "definition": "Kept within reasonable limits; not extreme, excessive, or intense.",
+          "example": "She kept a moderate pace on the hike, neither rushing ahead nor lagging behind.",
+          "mnemonic": "Shares a root with 'modest' and 'mode' — holding to a modest middle.",
+          "synonyms": [
+            "temperate",
+            "reasonable",
+            "mild"
+          ],
+          "antonyms": [
+            "extreme",
+            "excessive",
+            "immoderate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2029-05-slake",
+          "word": "slake",
+          "partOfSpeech": "verb",
+          "definition": "To satisfy or quench a thirst, craving, or desire.",
+          "example": "A tall glass of cold water finally slaked his thirst after the long desert trek.",
+          "mnemonic": "Sounds like 'lake' — drink from a lake to slake your thirst.",
+          "synonyms": [
+            "quench",
+            "sate",
+            "satisfy"
+          ],
+          "antonyms": [
+            "intensify",
+            "aggravate"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "advanced and low-frequency — excess and moderation",
+  "createdAt": "2026-09-12T10:15:04.394Z"
+}

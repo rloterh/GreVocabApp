@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/EmptyState";
 import { JsonImporter } from "@/components/JsonImporter";
 import { VocabGenerator } from "@/components/VocabGenerator";
+import { VocabLibrary } from "@/components/VocabLibrary";
 import { ImportDeckButton, ShareDeckButton } from "@/components/DeckShare";
 import { AddWordsButton } from "@/components/AddWordsButton";
 import { useVocabStore } from "@/store/useVocabStore";
@@ -69,6 +70,11 @@ export function Archive() {
           <ImportDeckButton />
         </div>
       </div>
+
+      <section className="mb-8">
+        <h2 className="text-sm font-medium mb-3">Bundled vocabulary</h2>
+        <VocabLibrary />
+      </section>
 
       <div className="grid md:grid-cols-2 gap-4">
         {sorted.map((month, i) => {

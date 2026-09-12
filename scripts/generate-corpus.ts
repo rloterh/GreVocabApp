@@ -24,7 +24,7 @@
  */
 
 import { spawn } from "node:child_process";
-import { mkdirSync, writeFileSync, existsSync, readFileSync } from "node:fs";
+import { mkdirSync, writeFileSync, existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { stem } from "../src/lib/stem";
 import { checkWord } from "../src/lib/word-quality";
@@ -295,6 +295,20 @@ async function main() {
 
   // Resume: anything already written counts, and its words are already taken.
   const seen = new Map<string, string>();
+
+  // The app ships two seed months and loads them on first launch. A corpus
+  // that ignores them hands a user `denigrate` twice the moment they load
+  // both — which is the exact failure the dedup index exists to prevent.
+  for (const file of readdirSync("src/data").filter((f) => f.endsWith(".json"))) {
+    const month = JSON.parse(
+      readFileSync(join("src/data", file), "utf-8"),
+    ) as VocabMonth;
+    for (const day of month.days) {
+      for (const word of day.words) seen.set(stem(word.word), word.word);
+    }
+  }
+  console.log(`excluding ${seen.size} words already bundled with the app`);
+  const bundled = seen.size;
   for (const key of keys) {
     const path = join(options.out, `${key}.json`);
     if (!existsSync(path)) continue;
@@ -303,7 +317,10 @@ async function main() {
       for (const word of day.words) seen.set(stem(word.word), word.word);
     }
   }
-  if (seen.size > 0) console.log(`resuming: ${seen.size} words already written\n`);
+  // Counted separately from the bundled words above, so the number means
+  // "already generated" rather than "already known".
+  const generated = seen.size - bundled;
+  if (generated > 0) console.log(`resuming: ${generated} words already generated`);
 
   for (const [index, key] of keys.entries()) {
     if (options.only && index + 1 !== options.only) continue;

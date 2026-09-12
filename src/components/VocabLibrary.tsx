@@ -132,7 +132,9 @@ export function VocabLibrary() {
             >
               <div className="flex items-start justify-between gap-2">
                 <div className="min-w-0">
-                  <p className="text-sm font-medium flex items-center gap-1.5">
+                  {/* A div, not a p: Badge renders a div, and a div inside a
+                      p is invalid nesting React reparents at runtime. */}
+                  <div className="text-sm font-medium flex items-center gap-1.5">
                     <BookMarked className="w-3.5 h-3.5 shrink-0 text-muted-foreground" />
                     {entry.displayName}
                     {loaded && (
@@ -140,7 +142,7 @@ export function VocabLibrary() {
                         Loaded
                       </Badge>
                     )}
-                  </p>
+                  </div>
                   {entry.description && (
                     <p className="text-[11px] text-muted-foreground mt-0.5">
                       {entry.description}

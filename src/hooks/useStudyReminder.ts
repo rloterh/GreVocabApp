@@ -11,6 +11,7 @@
  */
 
 import { useEffect, useRef } from "react";
+import { canScheduleNotifications } from "@/lib/platform";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -19,6 +20,39 @@ import { countDue } from "@/lib/sm2";
 
 /** How often we re-check the clock. A minute is plenty for a daily nudge. */
 const TICK_MS = 60_000;
+
+/**
+ * Show a notification through the best route this build has.
+ *
+ * In a packaged build the OS notification service is used, which is what lets
+ * a reminder mean something when the app is not in front of the user. The web
+ * build falls back to the browser API, which only works while a tab is open —
+ * honest, but much weaker, and the UI says so.
+ */
+async function notify(title: string, body: string): Promise<void> {
+  if (canScheduleNotifications()) {
+    try {
+      const { sendNotification, isPermissionGranted, requestPermission } =
+        await import("@tauri-apps/plugin-notification");
+      // Android 13+ requires this at runtime; elsewhere it resolves granted.
+      if (!(await isPermissionGranted())) {
+        if ((await requestPermission()) !== "granted") return;
+      }
+      sendNotification({ title, body });
+      return;
+    } catch {
+      // Plugin missing or refused — fall through to the browser API rather
+      // than dropping the reminder entirely.
+    }
+  }
+
+  try {
+    new Notification(title, { body });
+  } catch {
+    // Some webviews expose Notification but refuse to construct it. Nothing
+    // useful to do; the slot is already claimed for today.
+  }
+}
 
 /** Does this runtime expose the Notification API at all? */
 export function supportsNotifications(): boolean {
@@ -78,7 +112,11 @@ export function useStudyReminder(): void {
 
   useEffect(() => {
     if (!enabled) return;
-    if (notificationPermission() !== "granted") return;
+    // The packaged build asks through the plugin at send time, including the
+    // Android 13+ runtime prompt; only the browser gates up front.
+    if (!canScheduleNotifications() && notificationPermission() !== "granted") {
+      return;
+    }
 
     const parsed = minutesOfDay(time);
     if (parsed === null) return;
@@ -106,12 +144,7 @@ export function useStudyReminder(): void {
         due > 0
           ? `${due} word${due === 1 ? "" : "s"} due for review.`
           : "No reviews due — a few minutes of practice still helps.";
-      try {
-        new Notification("Lexicon", { body });
-      } catch {
-        // Some webviews expose Notification but refuse to construct it.
-        // Nothing useful to do; the slot is already claimed for today.
-      }
+      void notify("Lexicon", body);
     }
 
     tick();

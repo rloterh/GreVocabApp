@@ -199,3 +199,100 @@ Recommended extensions:
 - **Tauri** (tauri-apps.tauri-vscode)
 
 Add a `.vscode/settings.json` if you want format-on-save with the Tailwind class sort.
+
+## Android: the toolchain runbook
+
+Phase 9's first task, written down because it is the step that eats an
+afternoon and because nothing about it is discoverable from an error message.
+
+**Status on this machine (checked 2026-09-12): none of it is installed.** No
+JDK, no Android SDK, no NDK, and `rustup target list --installed` shows only
+`x86_64-pc-windows-msvc`. Everything below is the recipe, not a description of
+what is here.
+
+### 1. JDK 17
+
+Tauri's Android build needs 17 specifically; 21 has caused Gradle
+incompatibilities.
+
+```powershell
+winget install --id EclipseAdoptium.Temurin.17.JDK
+```
+
+Then set `JAVA_HOME` to the install root (not `bin`) and add `%JAVA_HOME%\bin`
+to `PATH`. Confirm with `java -version` in a **new** shell — winget does not
+update the environment of an already-running one, which is the single most
+common false start here.
+
+### 2. Android SDK and NDK
+
+Android Studio is the easy path and installs both:
+
+```powershell
+winget install --id Google.AndroidStudio
+```
+
+Then in Studio: **SDK Manager → SDK Platforms** → Android 14 (API 34) or newer;
+**SDK Tools** → check *NDK (Side by side)*, *Android SDK Command-line Tools*,
+and *Android SDK Platform-Tools*.
+
+Command-line only, if Studio is unwanted: download `commandlinetools-win`, put
+it at `%LOCALAPPDATA%\Android\Sdk\cmdline-tools\latest`, then
+
+```powershell
+sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;27.0.12077973" "platform-tools"
+```
+
+### 3. Environment
+
+```powershell
+setx ANDROID_HOME "$env:LOCALAPPDATA\Android\Sdk"
+setx NDK_HOME "$env:LOCALAPPDATA\Android\Sdk\ndk\<version>"
+```
+
+`NDK_HOME` must point at the **versioned** directory, not at `ndk`. Tauri's
+error when it is wrong does not say so.
+
+### 4. Rust targets
+
+```bash
+rustup target add aarch64-linux-android armv7-linux-androideabi \
+  i686-linux-android x86_64-linux-android
+```
+
+`aarch64` is every real device; the other three are emulators and old hardware.
+
+### 5. Initialise and run
+
+```bash
+npm run tauri android init      # generates src-tauri/gen/android/, gitignored
+npm run tauri android dev       # needs a device or a running emulator
+npm run tauri android build     # APK/AAB in src-tauri/gen/android/app/build/outputs/
+```
+
+`src-tauri/gen/android/` is generated output and stays gitignored. Do not edit
+it by hand; anything that needs to survive belongs in `tauri.conf.json` or in
+the Rust source.
+
+### What is already done, without the toolchain
+
+Phase 9's code-side work does not depend on any of the above and is complete:
+
+- **Capability gating** — `src/lib/platform.ts` asks "can I watch a folder?"
+  rather than "is this Android?", with a capability table in its tests. The
+  watched folder is desktop-only because scoped storage makes watching a
+  directory the wrong model, not because an API is missing.
+- **The system back gesture** — `src/hooks/useSystemBack.ts`. Back navigates
+  within the app and only exits from the home screen.
+- **Notifications that fire with the app closed** — `tauri-plugin-notification`
+  is wired up, including the Android 13+ runtime permission, with the browser
+  API as the fallback the web build honestly admits to.
+
+### Known gaps
+
+- **No signing keystore.** It must be generated on the release machine and kept
+  out of the repo. Losing it means never updating the listing again.
+- **Nothing has run on a device.** Everything above is compiled and reasoned
+  about, not observed on hardware. The definition of done for this phase is a
+  signed APK on a real device, and that has not happened.
+- **Share-target intent** and the Play listing itself are still open.

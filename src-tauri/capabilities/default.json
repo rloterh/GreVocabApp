@@ -32,6 +32,8 @@
     "dialog:default",
     "dialog:allow-open",
     "shell:default",
+    "notification:default",
+    "opener:default",
     {
       "identifier": "http:default",
       "allow": [

@@ -261,19 +261,25 @@ Design: [`docs/MOBILE.md`](./docs/MOBILE.md) ·
 
 ### Tasks
 
-- **[P0] Android toolchain and `tauri android init`.** — JDK 17, SDK 34+, NDK, four Rust targets. → Written up as a runbook in CONTINUING.md, because this is the step that eats an afternoon.
-- **[P0] Platform capability gating.** — The watched folder is meaningless under scoped storage; tray and global shortcut are desktop-only. → Runtime capability checks, not platform branches scattered through the UI.
-- **[P0] System back button.** — Must navigate within the app before exiting it.
-- **[P0] Scheduled notifications.** — `tauri-plugin-notification`, plus the Android 13+ runtime permission. → This is what finally makes daily reminders fire with the app closed.
+- **[P0] Android toolchain and `tauri android init`.** **RUNBOOK WRITTEN; NOT INSTALLED.** — The recipe is in CONTINUING.md. This machine has no JDK, no SDK, no NDK and only the Windows Rust target, so nothing below has run on Android. Everything else in this phase was built without it, which was the point of doing it first.
+- ~~**[P0] Platform capability gating.**~~ **DONE 2026-09-12.** — `src/lib/platform.ts` asks "can I watch a folder?", never "is this Android?". Its tests are a capability table, so what works where is reviewable in one place. 37 tests.
+- ~~**[P0] System back button.**~~ **DONE 2026-09-12.** — `useSystemBack`, over the History API the gesture actually drives. Back navigates within the app and only exits from the home screen. **Unverified on a device.**
+- ~~**[P0] Scheduled notifications.**~~ **DONE 2026-09-12**, on the code side. `tauri-plugin-notification` registered and granted in capabilities; the reminder sends through the OS service when packaged and falls back to the browser API on the web, which the UI already describes honestly. The Android 13+ runtime prompt is requested at send time. **Unverified on a device.**
 - **[P1] Share-target intent.** — Receive a `.json`, `.csv` or `.apkg` shared from another app.
 - **[P1] Play Store submission.** — Keystore kept out of the repo, privacy policy, data-safety form declaring no collection, content rating, screenshots.
 - **[P2] Android CI.** — Build the APK on a runner, so the mobile build cannot rot the way the desktop build did.
 
-### Definition of done
+### Definition of done — NOT met
 
-- A signed APK installs and runs on a real device.
-- A reminder fires with the app closed.
-- The Play listing is submitted.
+- A signed APK installs and runs on a real device. **No.** No toolchain, no
+  device, no keystore.
+- A reminder fires with the app closed. **Unverified.** The code path exists
+  and compiles; it has not been observed on hardware.
+- The Play listing is submitted. **No.**
+
+The code-side work is done and the toolchain is written up. Everything
+remaining in this phase needs a machine with the Android SDK and a real
+device, and claiming otherwise would be claiming something untested.
 
 ## Phase 10 — Testing suite
 

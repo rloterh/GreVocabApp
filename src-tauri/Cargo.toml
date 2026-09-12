@@ -20,6 +20,9 @@ tauri-plugin-shell = "2"
 # Opens the user's real browser for the OpenRouter sign-in, rather than a
 # webview inside the app. See docs/adr/0007-authentication-strategy.md.
 tauri-plugin-opener = "2"
+# Reminders that fire with the app closed — the whole point of a daily
+# reminder. Needs the Android 13+ runtime permission. See docs/MOBILE.md.
+tauri-plugin-notification = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 # Folder watching for the desktop build (ROADMAP.md, Phase 4).

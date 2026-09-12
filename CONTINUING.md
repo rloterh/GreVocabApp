@@ -205,10 +205,10 @@ Add a `.vscode/settings.json` if you want format-on-save with the Tailwind class
 Phase 9's first task, written down because it is the step that eats an
 afternoon and because nothing about it is discoverable from an error message.
 
-**Status on this machine (checked 2026-09-12): none of it is installed.** No
-JDK, no Android SDK, no NDK, and `rustup target list --installed` shows only
-`x86_64-pc-windows-msvc`. Everything below is the recipe, not a description of
-what is here.
+**Status: installed and building as of 2026-09-12.** Android Studio's SDK,
+NDK 27.3.13750724, Temurin JDK 17, and all four Android Rust targets are
+present, and a signed arm64 APK has been produced. The section below records
+what this machine actually needed, including several traps.
 
 ### 1. JDK 17
 
@@ -296,3 +296,114 @@ Phase 9's code-side work does not depend on any of the above and is complete:
   about, not observed on hardware. The definition of done for this phase is a
   signed APK on a real device, and that has not happened.
 - **Share-target intent** and the Play listing itself are still open.
+
+### What actually worked, 2026-09-12
+
+The runbook above is the clean path. This is what this machine needed, and
+every deviation is a trap worth knowing about.
+
+**Versions that worked:** Android Studio's SDK (platform 34 and 37, build-tools
+36), NDK **27.3.13750724**, JDK **17.0.20.1** (Temurin), Gradle 8.14.3.
+
+#### 1. Do not use Android Studio's bundled JBR
+
+It is Java **25**, and Gradle 8.14.3 fails with
+
+```
+BUG! exception in phase 'semantic analysis' … Unsupported class file major version 69
+```
+
+which says nothing about Java versions. Install a real JDK 17 and point
+`JAVA_HOME` at it. Downloading the Temurin zip is far quicker than winget,
+which ran for the better part of an hour here without finishing:
+
+```bash
+curl -L -o jdk17.zip "https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jdk/hotspot/normal/eclipse"
+unzip jdk17.zip -d ~/jdks
+```
+
+#### 2. Android Studio does not install the NDK or the command-line tools
+
+Both are needed and neither is there by default. Fetch
+`commandlinetools-win` into `%LOCALAPPDATA%\Android\Sdk\cmdline-tools\latest`,
+then:
+
+```bash
+sdkmanager --licenses          # accept all
+sdkmanager "ndk;27.3.13750724" "platforms;android-34" "build-tools;34.0.0"
+```
+
+NDK 29 is offered and is newer than Tauri is tested against; 27 is the safe
+choice.
+
+#### 3. `tauri android build` fails on Windows without Developer Mode
+
+```
+Failed to create a symbolic link … Creation symbolic link is not allowed for this system.
+```
+
+The Rust cross-compile **succeeds** first — only the final step, symlinking the
+`.so` into `jniLibs`, fails. Enabling Developer Mode is the documented fix and
+needs an administrator. Without it, copy the library and drive Gradle directly:
+
+```bash
+cp src-tauri/target/aarch64-linux-android/release/liblexicon_lib.so \
+   src-tauri/gen/android/app/src/main/jniLibs/arm64-v8a/
+
+cd src-tauri/gen/android
+./gradlew assembleArm64Release \
+  -PabiList=arm64-v8a -ParchList=arm64 -PtargetList=aarch64 \
+  -x rustBuildArm64Release
+```
+
+The `-P` flags stop Gradle building all four ABIs when only arm64 was
+compiled. `-x rustBuildArm64Release` skips the task that re-invokes Tauri —
+necessary because that task runs `tauri android android-studio-script`, which
+is the **dev** path and panics on a release build:
+
+```
+failed to read missing addr file …com.lexicon.app-server-addr
+```
+
+#### 4. Signing
+
+The APK Gradle produces is unsigned. For testing:
+
+```bash
+keytool -genkeypair -keystore ~/lexicon-dev-keystore.jks -alias lexicon \
+  -keyalg RSA -keysize 2048 -validity 10000
+
+zipalign -f -p 4 app-arm64-release-unsigned.apk lexicon-arm64-signed.apk
+apksigner sign --ks ~/lexicon-dev-keystore.jks --ks-key-alias lexicon lexicon-arm64-signed.apk
+apksigner verify --print-certs lexicon-arm64-signed.apk
+```
+
+**The release keystore is not this one and must never be committed.** Losing
+the keystore used for a Play release means never updating that listing again.
+
+#### 5. Confirming the frontend is really in there
+
+Tauri embeds the web assets *into the Rust library*, compressed — they are not
+APK `assets/`, and grepping the `.so` for page text finds nothing. That looks
+exactly like a broken build. Check for asset **filenames**, which are stored as
+uncompressed keys:
+
+```bash
+for f in $(ls dist/assets | head -3); do
+  grep -qa "$f" src-tauri/target/aarch64-linux-android/release/liblexicon_lib.so \
+    && echo "$f FOUND"
+done
+```
+
+This matters because this project has already shipped a "working" release build
+whose window showed an error page.
+
+#### Result
+
+`lexicon-arm64-signed.apk`, 23.7 MB, signed and verified by `apksigner`,
+containing `lib/arm64-v8a/liblexicon_lib.so` (20.9 MB, frontend embedded).
+
+**It has not been installed or run on a device.** No physical device is
+attached and no emulator system image is installed here, so "a signed APK
+installs and runs on a real device" remains unmet. What is proven is that the
+project cross-compiles, packages, and signs.

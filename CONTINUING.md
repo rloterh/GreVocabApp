@@ -11,6 +11,19 @@ Handoff document. If you're picking this project up in a fresh Claude session (F
 
 The rest of this file is *conventions*, not status — those go in the two files above so this one doesn't drift.
 
+## Driving the app
+
+Unit tests cannot see composition, routing, persistence across a reload, or
+what the user is looking at. Several real defects in this project were invisible
+to `tsc`, `cargo check` and the unit suite — including a Tauri config error that
+meant the desktop app had never launched while everything was green.
+
+`scripts/drive/` holds browser drivers for the things that need a running app.
+See [`scripts/drive/README.md`](./scripts/drive/README.md). They are not wired
+into `npm test` on purpose: they need a dev server, and a unit suite that
+silently depends on one is worse than no unit suite.
+
+
 ## Design principles applied
 
 Keep these in mind when extending:

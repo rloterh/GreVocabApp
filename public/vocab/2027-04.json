@@ -40,28 +40,6 @@
           ]
         },
         {
-          "id": "2027-04-mercurial",
-          "word": "mercurial",
-          "partOfSpeech": "adjective",
-          "definition": "Prone to sudden and unpredictable changes of mood or mind.",
-          "example": "His mercurial temper meant a shared joke could curdle into fury before the punchline landed.",
-          "mnemonic": "Named for Mercury — the fast-darting messenger god and quicksilver, which never stays put.",
-          "synonyms": [
-            "volatile",
-            "capricious",
-            "fickle"
-          ],
-          "antonyms": [
-            "steady",
-            "constant"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "words": [
-        {
           "id": "2027-04-affable",
           "word": "affable",
           "partOfSpeech": "adjective",
@@ -77,7 +55,12 @@
             "aloof",
             "brusque"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
         {
           "id": "2027-04-amiable",
           "word": "amiable",
@@ -111,12 +94,7 @@
             "unpleasant",
             "incompatible"
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2027-04-misanthropic",
           "word": "misanthropic",
@@ -133,7 +111,12 @@
             "sociable",
             "philanthropic"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
         {
           "id": "2027-04-petulant",
           "word": "petulant",
@@ -167,12 +150,7 @@
             "agreeable",
             "good-natured"
           ]
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
+        },
         {
           "id": "2027-04-surly",
           "word": "surly",
@@ -189,7 +167,12 @@
             "pleasant",
             "cheerful"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
         {
           "id": "2027-04-sullen",
           "word": "sullen",
@@ -223,12 +206,7 @@
             "cheerful",
             "genial"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2027-04-saturnine",
           "word": "saturnine",
@@ -245,7 +223,12 @@
             "cheerful",
             "sunny"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-04-despondent",
           "word": "despondent",
@@ -279,12 +262,7 @@
             "content",
             "cheerful"
           ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2027-04-wistful",
           "word": "wistful",
@@ -302,7 +280,12 @@
             "indifferent",
             "unconcerned"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-04-jovial",
           "word": "jovial",
@@ -321,29 +304,6 @@
             "sullen"
           ]
         },
-        {
-          "id": "2027-04-exuberant",
-          "word": "exuberant",
-          "partOfSpeech": "adjective",
-          "definition": "Overflowing with lively energy, joy, and enthusiasm.",
-          "example": "The children were exuberant on the last day of school, shouting and sprinting across the field.",
-          "mnemonic": "'Ex-YOU-berant' — energy bursting out of you like a shaken soda can.",
-          "synonyms": [
-            "enthusiastic",
-            "ebullient",
-            "effervescent"
-          ],
-          "antonyms": [
-            "subdued",
-            "apathetic",
-            "lethargic"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
         {
           "id": "2027-04-vivacious",
           "word": "vivacious",
@@ -379,7 +339,12 @@
             "turbulent",
             "stormy"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2027-04-stolid",
           "word": "stolid",
@@ -397,12 +362,7 @@
             "emotional",
             "animated"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2027-04-impassive",
           "word": "impassive",
@@ -438,7 +398,12 @@
             "assertive",
             "bold"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-04-timorous",
           "word": "timorous",
@@ -456,12 +421,7 @@
             "fearless",
             "confident"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2027-04-pusillanimous",
           "word": "pusillanimous",
@@ -497,7 +457,12 @@
             "valiant",
             "heroic"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-04-intrepid",
           "word": "intrepid",
@@ -515,12 +480,7 @@
             "timid",
             "fearful"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-04-dauntless",
           "word": "dauntless",
@@ -556,7 +516,12 @@
             "cautious",
             "cowardly"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-04-indomitable",
           "word": "indomitable",
@@ -572,28 +537,6 @@
           "antonyms": [
             "weak",
             "submissive",
-            "yielding"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
-        {
-          "id": "2027-04-tenacious",
-          "word": "tenacious",
-          "partOfSpeech": "adjective",
-          "definition": "Refusing to give up; keeping a firm grip on a goal or belief.",
-          "example": "Despite three rejections, the tenacious reporter kept knocking until she finally got her interview.",
-          "mnemonic": "Sounds like 'ten-acious' — picture holding on with all TEN fingers and never letting go.",
-          "synonyms": [
-            "persistent",
-            "dogged",
-            "determined"
-          ],
-          "antonyms": [
-            "irresolute",
             "yielding"
           ]
         },
@@ -634,25 +577,8 @@
       ]
     },
     {
-      "day": 12,
+      "day": 11,
       "words": [
-        {
-          "id": "2027-04-obstinate",
-          "word": "obstinate",
-          "partOfSpeech": "adjective",
-          "definition": "Refusing to change one's mind or actions despite good reasons to do so.",
-          "example": "The obstinate toddler folded his arms and would not put on his shoes no matter what.",
-          "mnemonic": "Contains 'ob-STIN' — think of a stubborn STAIN that just won't wash out.",
-          "synonyms": [
-            "stubborn",
-            "headstrong",
-            "inflexible"
-          ],
-          "antonyms": [
-            "compliant",
-            "amenable"
-          ]
-        },
         {
           "id": "2027-04-headstrong",
           "word": "headstrong",
@@ -686,12 +612,7 @@
             "obedient",
             "manageable"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-04-wayward",
           "word": "wayward",
@@ -708,7 +629,12 @@
             "obedient",
             "compliant"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-04-fickle",
           "word": "fickle",
@@ -726,28 +652,6 @@
             "loyal"
           ]
         },
-        {
-          "id": "2027-04-volatile",
-          "word": "volatile",
-          "partOfSpeech": "adjective",
-          "definition": "Likely to change suddenly and unpredictably, often becoming dangerous or violent.",
-          "example": "The negotiations turned volatile, and within minutes shouting had replaced any polite discussion.",
-          "mnemonic": "Think 'vola-' (to fly) — like volatile fuel evaporating, ready to blow up any moment.",
-          "synonyms": [
-            "unstable",
-            "explosive",
-            "mercurial"
-          ],
-          "antonyms": [
-            "stable",
-            "steady"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
         {
           "id": "2027-04-whimsical",
           "word": "whimsical",
@@ -781,7 +685,12 @@
             "unruly",
             "headstrong"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2027-04-tractable",
           "word": "tractable",
@@ -798,12 +707,7 @@
             "unruly",
             "refractory"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2027-04-servile",
           "word": "servile",
@@ -837,7 +741,12 @@
             "candid",
             "critical"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2027-04-deferential",
           "word": "deferential",
@@ -854,12 +763,7 @@
             "disrespectful",
             "insolent"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2027-04-demure",
           "word": "demure",
@@ -895,7 +799,12 @@
             "lax",
             "negligent"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2027-04-scrupulous",
           "word": "scrupulous",
@@ -913,12 +822,7 @@
             "unprincipled",
             "dishonest"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2027-04-pedantic",
           "word": "pedantic",
@@ -954,7 +858,12 @@
             "modest",
             "meek"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2027-04-supercilious",
           "word": "supercilious",
@@ -972,12 +881,7 @@
             "deferential",
             "modest"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2027-04-insolent",
           "word": "insolent",
@@ -1013,7 +917,12 @@
             "respectful",
             "courteous"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2027-04-impertinent",
           "word": "impertinent",
@@ -1031,12 +940,7 @@
             "respectful",
             "courteous"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2027-04-magnanimous",
           "word": "magnanimous",
@@ -1072,7 +976,12 @@
             "cruel",
             "spiteful"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2027-04-benign",
           "word": "benign",
@@ -1090,12 +999,7 @@
             "harmful",
             "hostile"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2027-04-clement",
           "word": "clement",
@@ -1131,7 +1035,12 @@
             "harsh",
             "severe"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2027-04-indulgent",
           "word": "indulgent",
@@ -1149,12 +1058,7 @@
             "harsh",
             "austere"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2027-04-forbearing",
           "word": "forbearing",
@@ -1189,7 +1093,12 @@
             "indifferent",
             "neglectful"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2027-04-altruistic",
           "word": "altruistic",
@@ -1206,12 +1115,7 @@
             "selfish",
             "egotistical"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2027-04-compassionate",
           "word": "compassionate",
@@ -1245,7 +1149,12 @@
             "compassionate",
             "tender"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2027-04-ruthless",
           "word": "ruthless",
@@ -1262,12 +1171,7 @@
             "merciful",
             "gentle"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2027-04-implacable",
           "word": "implacable",
@@ -1283,24 +1187,6 @@
           "antonyms": [
             "lenient",
             "forgiving",
-            "yielding"
-          ]
-        },
-        {
-          "id": "2027-04-inexorable",
-          "word": "inexorable",
-          "partOfSpeech": "adjective",
-          "definition": "Impossible to stop, change, or persuade; advancing relentlessly.",
-          "example": "The inexorable rise of the floodwaters forced the whole town to flee overnight.",
-          "mnemonic": "'In-ex-orable' — cannot be prayed away; Latin 'orare' means 'to pray'.",
-          "synonyms": [
-            "unstoppable",
-            "relentless",
-            "unyielding"
-          ],
-          "antonyms": [
-            "stoppable",
-            "flexible",
             "yielding"
           ]
         },
@@ -1324,7 +1210,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 22,
       "words": [
         {
           "id": "2027-04-spiteful",
@@ -1382,7 +1268,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 23,
       "words": [
         {
           "id": "2027-04-boorish",
@@ -1439,7 +1325,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 24,
       "words": [
         {
           "id": "2027-04-effusive",
@@ -1498,7 +1384,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 25,
       "words": [
         {
           "id": "2027-04-vehement",
@@ -1557,7 +1443,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 26,
       "words": [
         {
           "id": "2027-04-ingenuous",
@@ -1596,29 +1482,6 @@
           ]
         },
         {
-          "id": "2027-04-disingenuous",
-          "word": "disingenuous",
-          "partOfSpeech": "adjective",
-          "definition": "Falsely sincere; concealing true motives behind a pretense of honesty.",
-          "example": "It was disingenuous of him to feign surprise when he'd secretly planned the whole thing.",
-          "mnemonic": "'Dis-' (not) + ingenuous (innocent) — the opposite of genuinely innocent.",
-          "synonyms": [
-            "insincere",
-            "deceitful",
-            "two-faced"
-          ],
-          "antonyms": [
-            "sincere",
-            "candid",
-            "honest"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 29,
-      "words": [
-        {
           "id": "2027-04-devious",
           "word": "devious",
           "partOfSpeech": "adjective",
@@ -1635,66 +1498,12 @@
             "honest",
             "aboveboard"
           ]
-        },
-        {
-          "id": "2027-04-duplicitous",
-          "word": "duplicitous",
-          "partOfSpeech": "adjective",
-          "definition": "Deceitfully saying one thing while intending or doing another.",
-          "example": "The duplicitous agent sold the same secrets to both governments at once.",
-          "mnemonic": "Shares 'dupli-' with 'duplicate' — two faces, two contradictory stories.",
-          "synonyms": [
-            "two-faced",
-            "deceitful",
-            "treacherous"
-          ],
-          "antonyms": [
-            "honest",
-            "sincere",
-            "straightforward"
-          ]
-        },
-        {
-          "id": "2027-04-furtive",
-          "word": "furtive",
-          "partOfSpeech": "adjective",
-          "definition": "Done quietly and secretly to escape notice.",
-          "example": "She cast a furtive glance at the exit, hoping no one would see her slip away.",
-          "mnemonic": "From Latin 'fur' (thief) — moving like a thief, on the sly.",
-          "synonyms": [
-            "stealthy",
-            "sneaky",
-            "covert"
-          ],
-          "antonyms": [
-            "open",
-            "overt",
-            "forthright"
-          ]
         }
       ]
     },
     {
-      "day": 30,
+      "day": 27,
       "words": [
-        {
-          "id": "2027-04-surreptitious",
-          "word": "surreptitious",
-          "partOfSpeech": "adjective",
-          "definition": "Kept secret or done stealthily to avoid disapproval.",
-          "example": "He took a surreptitious photo of the exam, hiding his phone beneath the desk.",
-          "mnemonic": "Think 'secret + reptile' — the act slithers past unseen.",
-          "synonyms": [
-            "clandestine",
-            "covert",
-            "stealthy"
-          ],
-          "antonyms": [
-            "open",
-            "overt",
-            "blatant"
-          ]
-        },
         {
           "id": "2027-04-wily",
           "word": "wily",
@@ -1729,6 +1538,123 @@
             "naive",
             "gullible",
             "obtuse"
+          ]
+        },
+        {
+          "id": "2027-04-brood",
+          "word": "brood",
+          "partOfSpeech": "verb",
+          "definition": "To dwell on gloomy or anxious thoughts for a long, unhappy stretch of time.",
+          "example": "After the rejection letter arrived, he sat by the window and brooded for hours.",
+          "mnemonic": "Sounds like 'brewed' — dark, bitter thoughts slowly brewing like a pot of cold coffee.",
+          "synonyms": [
+            "mope",
+            "ruminate",
+            "agonize"
+          ],
+          "antonyms": [
+            "rejoice",
+            "shrug off",
+            "cheer up"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2027-04-sulk",
+          "word": "sulk",
+          "partOfSpeech": "verb",
+          "definition": "To show silent, gloomy resentment, usually by withdrawing and refusing to speak.",
+          "example": "Denied dessert, the child crossed her arms and sulked in the corner all evening.",
+          "mnemonic": "Sounds like a small, quiet Hulk — furious inside, but pouting silently instead of smashing.",
+          "synonyms": [
+            "pout",
+            "mope",
+            "brood"
+          ],
+          "antonyms": [
+            "beam",
+            "rejoice",
+            "engage"
+          ]
+        },
+        {
+          "id": "2027-04-temperament",
+          "word": "temperament",
+          "partOfSpeech": "noun",
+          "definition": "A person's characteristic nature or disposition, shaping how they habitually feel and react.",
+          "example": "Her calm temperament made her the ideal negotiator during the tensest standoffs.",
+          "mnemonic": "Root 'temper' (Latin temperare, 'to mix') — your inner blend of moods and reactions.",
+          "synonyms": [
+            "disposition",
+            "nature",
+            "character"
+          ],
+          "antonyms": [
+            "conditioning",
+            "learned behavior"
+          ]
+        },
+        {
+          "id": "2027-04-truculence",
+          "word": "truculence",
+          "partOfSpeech": "noun",
+          "definition": "A fierce, defiant readiness to argue or fight, marked by open hostility.",
+          "example": "The union rep's truculence turned a routine meeting into a shouting match within minutes.",
+          "mnemonic": "Sounds like 'truck' — picture a defiant truck barreling through anyone who dares disagree.",
+          "synonyms": [
+            "belligerence",
+            "aggression",
+            "combativeness"
+          ],
+          "antonyms": [
+            "meekness",
+            "amiability",
+            "gentleness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2027-04-petulance",
+          "word": "petulance",
+          "partOfSpeech": "noun",
+          "definition": "Childish, sulky irritability expressed through peevish complaints over trivial annoyances.",
+          "example": "With a flash of petulance, the star stormed offstage because his coffee had gone cold.",
+          "mnemonic": "Sounds like 'petal' — a fragile flower snapping crossly at the slightest passing breeze.",
+          "synonyms": [
+            "peevishness",
+            "crankiness",
+            "irritability"
+          ],
+          "antonyms": [
+            "good humor",
+            "patience",
+            "cheerfulness"
+          ]
+        },
+        {
+          "id": "2027-04-choler",
+          "word": "choler",
+          "partOfSpeech": "noun",
+          "definition": "A hot-tempered readiness to flare into anger quickly and fiercely.",
+          "example": "His rising choler was obvious as his face reddened and his voice began to crack.",
+          "mnemonic": "Sounds like 'collar' — so enraged you're literally 'hot under the collar.'",
+          "synonyms": [
+            "irascibility",
+            "wrath",
+            "bad temper"
+          ],
+          "antonyms": [
+            "calmness",
+            "placidity",
+            "good humor"
           ]
         }
       ]

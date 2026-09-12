@@ -260,24 +260,6 @@
           ]
         },
         {
-          "id": "2027-03-dissemble",
-          "word": "dissemble",
-          "partOfSpeech": "verb",
-          "definition": "To hide your real feelings or intentions by pretending.",
-          "example": "When asked if he was upset, he dissembled and forced a cheerful smile.",
-          "mnemonic": "Read it as 'dis-resemble' — you make yourself resemble something you are not.",
-          "synonyms": [
-            "feign",
-            "pretend",
-            "fake"
-          ],
-          "antonyms": [
-            "reveal",
-            "confess",
-            "admit"
-          ]
-        },
-        {
           "id": "2027-03-dissimulate",
           "word": "dissimulate",
           "partOfSpeech": "verb",
@@ -293,28 +275,6 @@
             "reveal",
             "disclose",
             "confess"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
-        {
-          "id": "2027-03-feign",
-          "word": "feign",
-          "partOfSpeech": "verb",
-          "definition": "To pretend to have a feeling, illness, or reaction that you do not truly have.",
-          "example": "He feigned a headache so he wouldn't have to attend the tedious meeting.",
-          "mnemonic": "Feign sounds like 'fake reign' — a phony king faking his whole rule.",
-          "synonyms": [
-            "pretend",
-            "simulate",
-            "sham"
-          ],
-          "antonyms": [
-            "reveal",
-            "admit"
           ]
         },
         {
@@ -333,29 +293,11 @@
             "honesty",
             "candor"
           ]
-        },
-        {
-          "id": "2027-03-guile",
-          "word": "guile",
-          "partOfSpeech": "noun",
-          "definition": "Sly cunning used to mislead or outwit other people.",
-          "example": "With pure guile, the fox coaxed the hens out of their safe coop.",
-          "mnemonic": "Guile sounds like 'guy'll' — that guy'll con you before you notice.",
-          "synonyms": [
-            "cunning",
-            "craftiness",
-            "slyness"
-          ],
-          "antonyms": [
-            "honesty",
-            "sincerity",
-            "candor"
-          ]
         }
       ]
     },
     {
-      "day": 7,
+      "day": 6,
       "words": [
         {
           "id": "2027-03-artifice",
@@ -411,7 +353,7 @@
       ]
     },
     {
-      "day": 8,
+      "day": 7,
       "words": [
         {
           "id": "2027-03-chicanery",
@@ -468,7 +410,7 @@
       ]
     },
     {
-      "day": 9,
+      "day": 8,
       "words": [
         {
           "id": "2027-03-deception",
@@ -521,7 +463,7 @@
       ]
     },
     {
-      "day": 10,
+      "day": 9,
       "words": [
         {
           "id": "2027-03-occult",
@@ -541,83 +483,6 @@
           ]
         },
         {
-          "id": "2027-03-esoteric",
-          "word": "esoteric",
-          "partOfSpeech": "adjective",
-          "definition": "Understood by only a small group with special knowledge or interest.",
-          "example": "His lecture on esoteric medieval tax law lost everyone but two specialists.",
-          "mnemonic": "Greek 'eso' means within — esoteric knowledge stays inside a tight inner circle.",
-          "synonyms": [
-            "obscure",
-            "abstruse",
-            "specialized"
-          ],
-          "antonyms": [
-            "common",
-            "familiar",
-            "mainstream"
-          ]
-        },
-        {
-          "id": "2027-03-arcane",
-          "word": "arcane",
-          "partOfSpeech": "adjective",
-          "definition": "Mysterious and known or understood by very few people.",
-          "example": "The wizard guarded arcane spells that no living apprentice could still read.",
-          "mnemonic": "From Latin arca, a chest or box — arcane secrets are locked away in an ancient ark.",
-          "synonyms": [
-            "mysterious",
-            "obscure",
-            "cryptic"
-          ],
-          "antonyms": [
-            "obvious",
-            "clear",
-            "well-known"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
-        {
-          "id": "2027-03-abstruse",
-          "word": "abstruse",
-          "partOfSpeech": "adjective",
-          "definition": "Difficult for most people to understand because of its depth or complexity.",
-          "example": "The professor's lecture on quantum fields was so abstruse that even graduate students left confused.",
-          "mnemonic": "Sounds like 'abstract' + 'obtuse' — abstract ideas so obtuse that nobody can grasp them.",
-          "synonyms": [
-            "obscure",
-            "arcane",
-            "esoteric"
-          ],
-          "antonyms": [
-            "obvious",
-            "clear",
-            "simple"
-          ]
-        },
-        {
-          "id": "2027-03-recondite",
-          "word": "recondite",
-          "partOfSpeech": "adjective",
-          "definition": "Relating to knowledge so specialized that very few people are familiar with it.",
-          "example": "He spent hours poring over recondite footnotes about medieval tax law.",
-          "mnemonic": "Break it into 'reckon-hidden' — knowledge reckoned to be hidden away from ordinary folk.",
-          "synonyms": [
-            "obscure",
-            "esoteric",
-            "arcane"
-          ],
-          "antonyms": [
-            "familiar",
-            "mainstream",
-            "well-known"
-          ]
-        },
-        {
           "id": "2027-03-sequester",
           "word": "sequester",
           "partOfSpeech": "verb",
@@ -634,12 +499,7 @@
             "integrate",
             "mingle"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-03-ensconce",
           "word": "ensconce",
@@ -657,7 +517,12 @@
             "uproot",
             "expose"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-03-harbor",
           "word": "harbor",
@@ -693,12 +558,7 @@
             "expose",
             "display"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-03-suppress",
           "word": "suppress",
@@ -716,7 +576,12 @@
             "release",
             "incite"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-03-repress",
           "word": "repress",
@@ -752,12 +617,7 @@
             "grant",
             "release"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-03-stifle",
           "word": "stifle",
@@ -775,7 +635,12 @@
             "release",
             "foster"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-03-smother",
           "word": "smother",
@@ -811,29 +676,6 @@
             "validate",
             "enforce"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
-        {
-          "id": "2027-03-quell",
-          "word": "quell",
-          "partOfSpeech": "verb",
-          "definition": "To put an end to unrest or strong feelings, restoring calm and order.",
-          "example": "Extra police were sent in to quell the riot before it could spread downtown.",
-          "mnemonic": "'Quell' rings like a 'quiet bell' — ring it and the noisy crowd falls silent.",
-          "synonyms": [
-            "subdue",
-            "pacify",
-            "suppress"
-          ],
-          "antonyms": [
-            "incite",
-            "provoke",
-            "stir up"
-          ]
         },
         {
           "id": "2027-03-discreet",
@@ -852,29 +694,11 @@
             "reckless",
             "tactless"
           ]
-        },
-        {
-          "id": "2027-03-circumspect",
-          "word": "circumspect",
-          "partOfSpeech": "adjective",
-          "definition": "Cautious and careful to weigh all circumstances and consequences before acting.",
-          "example": "As a new manager, she stayed circumspect, listening for weeks before changing anything.",
-          "mnemonic": "Latin 'circum' (around) + 'spect' (look) — you look all around before you step.",
-          "synonyms": [
-            "cautious",
-            "wary",
-            "prudent"
-          ],
-          "antonyms": [
-            "reckless",
-            "rash",
-            "careless"
-          ]
         }
       ]
     },
     {
-      "day": 16,
+      "day": 13,
       "words": [
         {
           "id": "2027-03-insidious",
@@ -913,29 +737,6 @@
           ]
         },
         {
-          "id": "2027-03-mendacious",
-          "word": "mendacious",
-          "partOfSpeech": "adjective",
-          "definition": "Given to telling lies or being untruthful by habit.",
-          "example": "The mendacious salesman promised features the car simply did not have.",
-          "mnemonic": "Latin 'mendax' = liar; shares a root with 'amend' — a liar has much to amend.",
-          "synonyms": [
-            "untruthful",
-            "deceitful",
-            "false"
-          ],
-          "antonyms": [
-            "honest",
-            "truthful",
-            "frank"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
-        {
           "id": "2027-03-duplicitous",
           "word": "duplicitous",
           "partOfSpeech": "adjective",
@@ -952,7 +753,12 @@
             "straightforward",
             "sincere"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2027-03-underhanded",
           "word": "underhanded",
@@ -969,47 +775,6 @@
             "honest",
             "aboveboard",
             "fair"
-          ]
-        },
-        {
-          "id": "2027-03-tacit",
-          "word": "tacit",
-          "partOfSpeech": "adjective",
-          "definition": "Understood or implied without being openly said.",
-          "example": "By staying silent, the manager gave her tacit approval to proceed.",
-          "mnemonic": "Sounds like 'tacet' in music — a part that stays silent; agreement without words. Latin 'tacere' = to be silent.",
-          "synonyms": [
-            "unspoken",
-            "implied",
-            "understood"
-          ],
-          "antonyms": [
-            "explicit",
-            "stated",
-            "express"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
-        {
-          "id": "2027-03-implicit",
-          "word": "implicit",
-          "partOfSpeech": "adjective",
-          "definition": "Suggested or understood without being stated plainly.",
-          "example": "There was an implicit trust between the old partners that needed no contract.",
-          "mnemonic": "Root 'plic' = to fold (as in 'ply') — the meaning is folded inside, not spelled out.",
-          "synonyms": [
-            "implied",
-            "inherent",
-            "understood"
-          ],
-          "antonyms": [
-            "explicit",
-            "express",
-            "stated"
           ]
         },
         {
@@ -1051,44 +816,8 @@
       ]
     },
     {
-      "day": 19,
+      "day": 15,
       "words": [
-        {
-          "id": "2027-03-divulge",
-          "word": "divulge",
-          "partOfSpeech": "verb",
-          "definition": "To make secret or private information known to others.",
-          "example": "The lawyer refused to divulge what her client had told her in confidence.",
-          "mnemonic": "Latin 'vulgare' = to make common or public (as in 'vulgar') — a secret pushed out to the crowd.",
-          "synonyms": [
-            "reveal",
-            "disclose",
-            "tell"
-          ],
-          "antonyms": [
-            "conceal",
-            "withhold",
-            "hide"
-          ]
-        },
-        {
-          "id": "2027-03-disclose",
-          "word": "disclose",
-          "partOfSpeech": "verb",
-          "definition": "To make something previously hidden or unknown public.",
-          "example": "Companies must disclose any risks to investors before selling shares.",
-          "mnemonic": "dis- (un) + close — literally to 'un-close,' opening what was shut away.",
-          "synonyms": [
-            "reveal",
-            "divulge",
-            "expose"
-          ],
-          "antonyms": [
-            "conceal",
-            "hide",
-            "withhold"
-          ]
-        },
         {
           "id": "2027-03-reveal",
           "word": "reveal",
@@ -1106,12 +835,7 @@
             "hide",
             "mask"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2027-03-unveil",
           "word": "unveil",
@@ -1147,7 +871,12 @@
             "cover",
             "hide"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2027-03-betray",
           "word": "betray",
@@ -1165,12 +894,7 @@
             "conceal",
             "shield"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2027-03-unmask",
           "word": "unmask",
@@ -1206,7 +930,12 @@
             "hide",
             "bury"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2027-03-promulgate",
           "word": "promulgate",
@@ -1224,12 +953,7 @@
             "withhold",
             "repeal"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2027-03-disseminate",
           "word": "disseminate",
@@ -1265,29 +989,11 @@
             "contain",
             "stifle"
           ]
-        },
-        {
-          "id": "2027-03-proclaim",
-          "word": "proclaim",
-          "partOfSpeech": "verb",
-          "definition": "To announce something publicly and with great emphasis.",
-          "example": "The king climbed the palace steps and proclaimed a national day of celebration.",
-          "mnemonic": "pro- (forth) + claim (call): to call something forth loudly for all to hear.",
-          "synonyms": [
-            "declare",
-            "announce",
-            "pronounce"
-          ],
-          "antonyms": [
-            "conceal",
-            "suppress",
-            "whisper"
-          ]
         }
       ]
     },
     {
-      "day": 23,
+      "day": 18,
       "words": [
         {
           "id": "2027-03-herald",
@@ -1345,7 +1051,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 19,
       "words": [
         {
           "id": "2027-03-elicit",
@@ -1404,7 +1110,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 20,
       "words": [
         {
           "id": "2027-03-apprise",
@@ -1463,7 +1169,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 21,
       "words": [
         {
           "id": "2027-03-confess",
@@ -1519,7 +1225,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 22,
       "words": [
         {
           "id": "2027-03-overt",
@@ -1575,7 +1281,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 23,
       "words": [
         {
           "id": "2027-03-conspicuous",
@@ -1631,7 +1337,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 24,
       "words": [
         {
           "id": "2027-03-blatant",
@@ -1687,7 +1393,7 @@
       ]
     },
     {
-      "day": 30,
+      "day": 25,
       "words": [
         {
           "id": "2027-03-glaring",
@@ -1707,39 +1413,37 @@
           ]
         },
         {
-          "id": "2027-03-ostensible",
-          "word": "ostensible",
-          "partOfSpeech": "adjective",
-          "definition": "Claimed or appearing to be the reason, though the truth may differ.",
-          "example": "The ostensible purpose of his visit was business, but he really came to see her.",
-          "mnemonic": "From Latin 'ostendere', to show — it's only what's shown on the surface, not the real thing.",
+          "id": "2027-03-stealth",
+          "word": "stealth",
+          "partOfSpeech": "noun",
+          "definition": "The act of moving quietly and secretly to avoid being noticed.",
+          "example": "The cat crossed the room with such stealth that no one heard it approach.",
+          "mnemonic": "Sounds like 'steal' — a thief must steal with quiet, secret movement.",
           "synonyms": [
-            "apparent",
-            "supposed",
-            "professed"
+            "secrecy",
+            "furtiveness",
+            "covertness"
           ],
           "antonyms": [
-            "real",
-            "genuine",
-            "actual"
+            "openness",
+            "conspicuousness"
           ]
         },
         {
-          "id": "2027-03-ostentatious",
-          "word": "ostentatious",
-          "partOfSpeech": "adjective",
-          "definition": "Showy and designed to impress others with wealth or importance.",
-          "example": "The billionaire's ostentatious gold staircase left every visitor gawking.",
-          "mnemonic": "From 'ostentare', to display — a show-off puts everything ON DISPLAY; shares its root with ostensible.",
+          "id": "2027-03-cache",
+          "word": "cache",
+          "partOfSpeech": "noun",
+          "definition": "A hidden collection of items stored away for future use.",
+          "example": "The squirrel returned to its cache of nuts buried beneath the old oak.",
+          "mnemonic": "Sounds like 'cash' — you stash your cash in a secret hiding spot.",
           "synonyms": [
-            "showy",
-            "flashy",
-            "flamboyant"
+            "hoard",
+            "stockpile",
+            "stash"
           ],
           "antonyms": [
-            "modest",
-            "understated",
-            "plain"
+            "display",
+            "dispersal"
           ]
         }
       ]

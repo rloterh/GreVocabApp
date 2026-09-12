@@ -966,62 +966,6 @@
           ]
         },
         {
-          "id": "2027-08-suppress",
-          "word": "suppress",
-          "partOfSpeech": "verb",
-          "definition": "To forcibly stop or hold back something from happening or being expressed.",
-          "example": "The government tried to suppress the report before any journalist could read it.",
-          "mnemonic": "sub + press: to press something down and under so it can't rise.",
-          "synonyms": [
-            "quash",
-            "stifle",
-            "curb"
-          ],
-          "antonyms": [
-            "encourage",
-            "incite"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
-        {
-          "id": "2027-08-repress",
-          "word": "repress",
-          "partOfSpeech": "verb",
-          "definition": "To keep feelings or desires under control and prevent their expression.",
-          "example": "He repressed a laugh during the solemn ceremony, biting hard on his lip.",
-          "mnemonic": "re + press: to press it back down again, like shoving a memory out of mind.",
-          "synonyms": [
-            "restrain",
-            "subdue",
-            "bottle up"
-          ],
-          "antonyms": [
-            "express",
-            "release"
-          ]
-        },
-        {
-          "id": "2027-08-stifle",
-          "word": "stifle",
-          "partOfSpeech": "verb",
-          "definition": "To smother or hold back so that something cannot develop or escape.",
-          "example": "The thick smoke stifled the trapped miners, making every breath a struggle.",
-          "mnemonic": "Sounds like 'stuff-le' — you stuff a pillow over it so nothing gets out.",
-          "synonyms": [
-            "smother",
-            "choke",
-            "suppress"
-          ],
-          "antonyms": [
-            "release",
-            "encourage"
-          ]
-        },
-        {
           "id": "2027-08-throttle",
           "word": "throttle",
           "partOfSpeech": "verb",
@@ -1041,7 +985,7 @@
       ]
     },
     {
-      "day": 19,
+      "day": 18,
       "words": [
         {
           "id": "2027-08-muzzle",
@@ -1097,7 +1041,7 @@
       ]
     },
     {
-      "day": 20,
+      "day": 19,
       "words": [
         {
           "id": "2027-08-manacle",
@@ -1154,7 +1098,7 @@
       ]
     },
     {
-      "day": 21,
+      "day": 20,
       "words": [
         {
           "id": "2027-08-curb",
@@ -1213,7 +1157,7 @@
       ]
     },
     {
-      "day": 22,
+      "day": 21,
       "words": [
         {
           "id": "2027-08-harness",
@@ -1271,7 +1215,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 22,
       "words": [
         {
           "id": "2027-08-bully",
@@ -1330,7 +1274,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 23,
       "words": [
         {
           "id": "2027-08-dragoon",
@@ -1389,7 +1333,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 24,
       "words": [
         {
           "id": "2027-08-wield",
@@ -1448,7 +1392,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 25,
       "words": [
         {
           "id": "2027-08-preeminent",
@@ -1507,7 +1451,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 26,
       "words": [
         {
           "id": "2027-08-supremacy",
@@ -1566,7 +1510,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 27,
       "words": [
         {
           "id": "2027-08-predominant",
@@ -1624,7 +1568,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 28,
       "words": [
         {
           "id": "2027-08-echelon",
@@ -1679,7 +1623,7 @@
       ]
     },
     {
-      "day": 30,
+      "day": 29,
       "words": [
         {
           "id": "2027-08-autonomous",

@@ -205,23 +205,6 @@
       "day": 5,
       "words": [
         {
-          "id": "2029-03-indelible",
-          "word": "indelible",
-          "partOfSpeech": "adjective",
-          "definition": "Impossible to remove, erase, or forget.",
-          "example": "The teacher left an indelible impression that shaped his entire career.",
-          "mnemonic": "'in-' (not) + 'delible' (from 'delete') — literally not deletable.",
-          "synonyms": [
-            "permanent",
-            "lasting",
-            "ineradicable"
-          ],
-          "antonyms": [
-            "erasable",
-            "temporary"
-          ]
-        },
-        {
           "id": "2029-03-ineradicable",
           "word": "ineradicable",
           "partOfSpeech": "adjective",
@@ -254,12 +237,7 @@
             "forget",
             "ignore"
           ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2029-03-memorialize",
           "word": "memorialize",
@@ -277,7 +255,12 @@
             "neglect",
             "ignore"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2029-03-subliminal",
           "word": "subliminal",
@@ -313,12 +296,7 @@
             "materialize",
             "persist"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2029-03-fugacious",
           "word": "fugacious",
@@ -336,7 +314,12 @@
             "lasting",
             "enduring"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2029-03-residuum",
           "word": "residuum",
@@ -372,12 +355,7 @@
             "unmemorable",
             "dull"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2029-03-introspection",
           "word": "introspection",
@@ -394,7 +372,12 @@
             "extrospection",
             "distraction"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2029-03-retrospection",
           "word": "retrospection",
@@ -430,12 +413,7 @@
             "absent-minded",
             "leaky"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2029-03-engram",
           "word": "engram",
@@ -448,7 +426,12 @@
             "neural trace"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2029-03-amnesiac",
           "word": "amnesiac",
@@ -478,12 +461,7 @@
             "completeness",
             "continuity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2029-03-elude",
           "word": "elude",
@@ -501,7 +479,12 @@
             "face",
             "capture"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2029-03-betoken",
           "word": "betoken",
@@ -532,12 +515,7 @@
             "certainty",
             "knowledge"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2029-03-glimmer",
           "word": "glimmer",
@@ -554,7 +532,12 @@
             "blaze",
             "glare"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2029-03-languor",
           "word": "languor",
@@ -588,12 +571,7 @@
             "vigor",
             "alertness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2029-03-stupor",
           "word": "stupor",
@@ -610,7 +588,12 @@
             "alertness",
             "consciousness"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2029-03-dotage",
           "word": "dotage",
@@ -642,12 +625,7 @@
             "currency",
             "practice"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2029-03-abeyance",
           "word": "abeyance",
@@ -664,7 +642,12 @@
             "continuation",
             "revival"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2029-03-interregnum",
           "word": "interregnum",
@@ -698,12 +681,7 @@
             "deaden",
             "kill"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2029-03-remission",
           "word": "remission",
@@ -720,24 +698,12 @@
             "relapse",
             "worsening"
           ]
-        },
-        {
-          "id": "2029-03-relapse",
-          "word": "relapse",
-          "partOfSpeech": "verb",
-          "definition": "To fall back into a worse condition after a spell of improvement.",
-          "example": "Three weeks sober, he relapsed the night he lost his job.",
-          "mnemonic": "'Re' (again) + 'lapse' — to lapse a second time, slipping back down.",
-          "synonyms": [
-            "backslide",
-            "regress",
-            "recur"
-          ],
-          "antonyms": [
-            "recover",
-            "improve"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2029-03-revenant",
           "word": "revenant",
@@ -751,12 +717,7 @@
             "phantom"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2029-03-confabulate",
           "word": "confabulate",
@@ -786,7 +747,12 @@
           "antonyms": [
             "forget"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2029-03-extirpate",
           "word": "extirpate",
@@ -803,12 +769,7 @@
             "plant",
             "establish"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2029-03-excise",
           "word": "excise",
@@ -844,7 +805,12 @@
             "articulate",
             "pronounce"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2029-03-inure",
           "word": "inure",
@@ -861,12 +827,7 @@
             "sensitize",
             "soften"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2029-03-suffuse",
           "word": "suffuse",
@@ -900,7 +861,12 @@
             "drain",
             "deprive"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2029-03-descry",
           "word": "descry",
@@ -917,12 +883,7 @@
             "overlook",
             "miss"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2029-03-sublimate",
           "word": "sublimate",
@@ -955,7 +916,12 @@
           "antonyms": [
             "neglect"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2029-03-exhume",
           "word": "exhume",
@@ -972,12 +938,7 @@
             "bury",
             "inter"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2029-03-eidetic",
           "word": "eidetic",
@@ -1010,47 +971,12 @@
             "joyful",
             "cheerful"
           ]
-        },
-        {
-          "id": "2029-03-protean",
-          "word": "protean",
-          "partOfSpeech": "adjective",
-          "definition": "Able to change readily in shape, form, or character; remarkably versatile.",
-          "example": "A protean actor, he vanished into every role from tyrant to clown.",
-          "mnemonic": "Proteus, the Greek sea-god who shifted shapes to slip from any grip.",
-          "synonyms": [
-            "versatile",
-            "adaptable",
-            "mutable"
-          ],
-          "antonyms": [
-            "fixed",
-            "constant"
-          ]
         }
       ]
     },
     {
-      "day": 20,
+      "day": 19,
       "words": [
-        {
-          "id": "2029-03-mutable",
-          "word": "mutable",
-          "partOfSpeech": "adjective",
-          "definition": "Liable or able to be altered; subject to shifting and variation.",
-          "example": "Fashion is mutable, and last year's must-have looks absurd today.",
-          "mnemonic": "Same root as 'mutate' (Latin mutare, to change) — a thing you can mutate.",
-          "synonyms": [
-            "changeable",
-            "variable",
-            "protean"
-          ],
-          "antonyms": [
-            "fixed",
-            "permanent",
-            "constant"
-          ]
-        },
         {
           "id": "2029-03-cenotaph",
           "word": "cenotaph",
@@ -1076,12 +1002,7 @@
             "memorial"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2029-03-elegy",
           "word": "elegy",
@@ -1098,7 +1019,12 @@
             "paean",
             "celebration"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2029-03-penumbra",
           "word": "penumbra",
@@ -1132,12 +1058,7 @@
             "order",
             "uniformity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2029-03-interstice",
           "word": "interstice",
@@ -1154,7 +1075,12 @@
             "mass",
             "bulk"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2029-03-miscellany",
           "word": "miscellany",
@@ -1185,12 +1111,7 @@
             "ark"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2029-03-melange",
           "word": "melange",
@@ -1207,7 +1128,12 @@
             "uniformity",
             "purity"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2029-03-recrudesce",
           "word": "recrudesce",
@@ -1242,12 +1168,7 @@
             "incomprehension",
             "obliviousness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2029-03-slough",
           "word": "slough",
@@ -1264,7 +1185,12 @@
             "retain",
             "keep"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2029-03-antediluvian",
           "word": "antediluvian",
@@ -1299,6 +1225,242 @@
             "free",
             "release",
             "liberate"
+          ]
+        },
+        {
+          "id": "2029-03-amnesia",
+          "word": "amnesia",
+          "partOfSpeech": "noun",
+          "definition": "A partial or total loss of the ability to recall past events.",
+          "example": "After the car crash, she suffered amnesia and could not recognize her own children.",
+          "mnemonic": "a- (without) + -mnesia (memory, as in 'mnemonic') = without memory.",
+          "synonyms": [
+            "forgetfulness",
+            "memory loss",
+            "blackout"
+          ],
+          "antonyms": [
+            "recall",
+            "remembrance",
+            "recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2029-03-memento",
+          "word": "memento",
+          "partOfSpeech": "noun",
+          "definition": "An object kept as a reminder of a person, place, or event.",
+          "example": "She kept the little seashell as a memento of their honeymoon by the ocean.",
+          "mnemonic": "Sounds like 'memory' + 'note' — a note that jogs your memory.",
+          "synonyms": [
+            "souvenir",
+            "keepsake",
+            "token"
+          ],
+          "antonyms": [
+            "trifle",
+            "throwaway",
+            "junk"
+          ]
+        },
+        {
+          "id": "2029-03-remembrance",
+          "word": "remembrance",
+          "partOfSpeech": "noun",
+          "definition": "The act of keeping something in mind or honoring the memory of it.",
+          "example": "The town held a moment of remembrance for the soldiers who never returned.",
+          "mnemonic": "re- (again) + 'member' — to bring a 'member' of the past back into mind.",
+          "synonyms": [
+            "recollection",
+            "commemoration",
+            "memory"
+          ],
+          "antonyms": [
+            "oblivion",
+            "forgetfulness",
+            "amnesia"
+          ]
+        },
+        {
+          "id": "2029-03-recollect",
+          "word": "recollect",
+          "partOfSpeech": "verb",
+          "definition": "To bring back to mind something from the past.",
+          "example": "Try as he might, he could not recollect where he had left his keys.",
+          "mnemonic": "re- + 'collect' — to gather your scattered memories together again.",
+          "synonyms": [
+            "recall",
+            "remember",
+            "retrieve"
+          ],
+          "antonyms": [
+            "forget",
+            "overlook",
+            "disregard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2029-03-retention",
+          "word": "retention",
+          "partOfSpeech": "noun",
+          "definition": "The ability to keep or hold onto something, such as facts or fluid.",
+          "example": "Repeating the list aloud each night improved her retention of the new vocabulary.",
+          "mnemonic": "Latin 'tenere' means to hold — same root as 'tenant,' who holds property.",
+          "synonyms": [
+            "preservation",
+            "maintenance",
+            "holding"
+          ],
+          "antonyms": [
+            "release",
+            "loss",
+            "forgetting"
+          ]
+        },
+        {
+          "id": "2029-03-nepenthe",
+          "word": "nepenthe",
+          "partOfSpeech": "noun",
+          "definition": "A drug or drink that banishes grief and brings blissful forgetting.",
+          "example": "He drank deeply, hoping the wine would be a nepenthe for his heartbreak.",
+          "mnemonic": "ne- (not) + Greek 'penthos' (grief) = 'no grief.'",
+          "synonyms": [
+            "balm",
+            "anodyne",
+            "opiate"
+          ],
+          "antonyms": [
+            "irritant",
+            "sorrow",
+            "torment"
+          ]
+        },
+        {
+          "id": "2029-03-retrieve",
+          "word": "retrieve",
+          "partOfSpeech": "verb",
+          "definition": "To find and bring back something that was lost or stored away.",
+          "example": "The dog splashed into the lake to retrieve the stick her owner had thrown.",
+          "mnemonic": "Picture a golden 'retriever' — a dog bred to bring things back.",
+          "synonyms": [
+            "recover",
+            "regain",
+            "reclaim"
+          ],
+          "antonyms": [
+            "lose",
+            "misplace",
+            "abandon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2029-03-unmindful",
+          "word": "unmindful",
+          "partOfSpeech": "adjective",
+          "definition": "Not paying attention to or caring about something important.",
+          "example": "Unmindful of the time, she read until the library lights suddenly went dark.",
+          "mnemonic": "un- (not) + 'mindful' — literally 'not minding' what surrounds you.",
+          "synonyms": [
+            "heedless",
+            "oblivious",
+            "careless"
+          ],
+          "antonyms": [
+            "attentive",
+            "mindful",
+            "aware"
+          ]
+        },
+        {
+          "id": "2029-03-heedless",
+          "word": "heedless",
+          "partOfSpeech": "adjective",
+          "definition": "Careless and paying no attention to danger or advice.",
+          "example": "Heedless of the warning signs, the swimmers waded past the roped-off area.",
+          "mnemonic": "'Heed' means to pay attention; '-less' strips it away — no heed given.",
+          "synonyms": [
+            "reckless",
+            "careless",
+            "inattentive"
+          ],
+          "antonyms": [
+            "careful",
+            "cautious",
+            "attentive"
+          ]
+        },
+        {
+          "id": "2029-03-nostalgic",
+          "word": "nostalgic",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling a wistful, sentimental longing for happier times in the past.",
+          "example": "Old photographs made her nostalgic for summers spent at her grandmother's farm.",
+          "mnemonic": "Greek 'nostos' (homecoming) + 'algos' (pain) — the ache to return home.",
+          "synonyms": [
+            "wistful",
+            "sentimental",
+            "homesick"
+          ],
+          "antonyms": [
+            "indifferent",
+            "detached",
+            "forward-looking"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2029-03-keepsake",
+          "word": "keepsake",
+          "partOfSpeech": "noun",
+          "definition": "A small item held onto because of the memories attached to it.",
+          "example": "Her grandmother's thimble is a keepsake she will never sell or throw away.",
+          "mnemonic": "'Keep' + 'sake' — something you keep for the sake of remembering.",
+          "synonyms": [
+            "memento",
+            "souvenir",
+            "token"
+          ],
+          "antonyms": [
+            "clutter",
+            "castoff",
+            "junk"
+          ]
+        },
+        {
+          "id": "2029-03-perdurable",
+          "word": "perdurable",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting for an extremely long time; permanent and hard to destroy.",
+          "example": "The Roman aqueducts proved perdurable, still standing after nearly two thousand years.",
+          "mnemonic": "per- (through) + Latin 'durare' (to last) — lasting all the way through.",
+          "synonyms": [
+            "permanent",
+            "everlasting",
+            "imperishable"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary",
+            "ephemeral"
           ]
         }
       ]

@@ -374,23 +374,6 @@
           ]
         },
         {
-          "id": "2028-05-manifest",
-          "word": "manifest",
-          "partOfSpeech": "adjective",
-          "definition": "Easily perceived by the senses or the mind; needing no proof.",
-          "example": "His manifest joy at the news lit up the entire room.",
-          "mnemonic": "'Mani-' means hand — as plain and obvious as something held in your hand.",
-          "synonyms": [
-            "obvious",
-            "apparent",
-            "clear"
-          ],
-          "antonyms": [
-            "hidden",
-            "obscure"
-          ]
-        },
-        {
           "id": "2028-05-evident",
           "word": "evident",
           "partOfSpeech": "adjective",
@@ -405,84 +388,6 @@
           "antonyms": [
             "unclear",
             "hidden"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
-        {
-          "id": "2028-05-patent",
-          "word": "patent",
-          "partOfSpeech": "adjective",
-          "definition": "So openly visible or intelligible that it cannot be missed.",
-          "example": "The excuse was a patent lie, and nobody in the room believed a word of it.",
-          "mnemonic": "A 'patent' document lies OPEN to the public — Latin 'patere', to lie open.",
-          "synonyms": [
-            "blatant",
-            "glaring",
-            "obvious"
-          ],
-          "antonyms": [
-            "hidden",
-            "obscure"
-          ]
-        },
-        {
-          "id": "2028-05-palpable",
-          "word": "palpable",
-          "partOfSpeech": "adjective",
-          "definition": "So intense that it seems able to be touched or physically felt.",
-          "example": "The tension in the courtroom was palpable as the verdict was read aloud.",
-          "mnemonic": "Doctors 'palpate' by touching — this feeling is so strong you could almost touch it.",
-          "synonyms": [
-            "tangible",
-            "perceptible",
-            "tactile"
-          ],
-          "antonyms": [
-            "intangible",
-            "imperceptible"
-          ]
-        },
-        {
-          "id": "2028-05-overt",
-          "word": "overt",
-          "partOfSpeech": "adjective",
-          "definition": "Done or shown openly, with no attempt to conceal it.",
-          "example": "He made no overt threat, but the menace behind his words was unmistakable.",
-          "mnemonic": "'Overt' is out in the OPEN — the exact opposite of its cousin 'covert'.",
-          "synonyms": [
-            "open",
-            "undisguised",
-            "blatant"
-          ],
-          "antonyms": [
-            "covert",
-            "hidden"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
-        {
-          "id": "2028-05-conspicuous",
-          "word": "conspicuous",
-          "partOfSpeech": "adjective",
-          "definition": "Standing out so plainly that it draws attention at once.",
-          "example": "In his bright orange suit, he was conspicuous among the sea of gray commuters.",
-          "mnemonic": "'Con-SPIC-uous' holds Latin 'specere', to look — everyone's eyes are drawn to look.",
-          "synonyms": [
-            "noticeable",
-            "prominent",
-            "striking"
-          ],
-          "antonyms": [
-            "inconspicuous",
-            "unobtrusive"
           ]
         },
         {
@@ -501,7 +406,12 @@
             "vague",
             "blurred"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2028-05-vivid",
           "word": "vivid",
@@ -518,12 +428,7 @@
             "dull",
             "faint"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2028-05-graphic",
           "word": "graphic",
@@ -557,7 +462,12 @@
             "vague",
             "approximate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2028-05-limn",
           "word": "limn",
@@ -571,12 +481,7 @@
             "describe"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2028-05-interpret",
           "word": "interpret",
@@ -607,7 +512,12 @@
             "explanation"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2028-05-annotate",
           "word": "annotate",
@@ -621,12 +531,7 @@
             "gloss"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2028-05-exposition",
           "word": "exposition",
@@ -656,7 +561,12 @@
             "monograph"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2028-05-disquisition",
           "word": "disquisition",
@@ -670,47 +580,6 @@
             "dissertation"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
-        {
-          "id": "2028-05-covert",
-          "word": "covert",
-          "partOfSpeech": "adjective",
-          "definition": "Kept secret or hidden, not openly acknowledged or shown.",
-          "example": "The agents ran a covert operation that the public never learned about.",
-          "mnemonic": "COVERT — picture something kept under COVER, tucked out of sight.",
-          "synonyms": [
-            "secret",
-            "hidden",
-            "clandestine"
-          ],
-          "antonyms": [
-            "overt",
-            "open",
-            "public"
-          ]
-        },
-        {
-          "id": "2028-05-stealthy",
-          "word": "stealthy",
-          "partOfSpeech": "adjective",
-          "definition": "Moving or acting quietly and secretly to avoid being noticed.",
-          "example": "The cat made a stealthy approach toward the unsuspecting sparrow.",
-          "mnemonic": "STEAL-thy — you move like a thief who STEALs past everyone unseen.",
-          "synonyms": [
-            "furtive",
-            "surreptitious",
-            "sneaky"
-          ],
-          "antonyms": [
-            "overt",
-            "conspicuous",
-            "obvious"
-          ]
         },
         {
           "id": "2028-05-elliptical",
@@ -729,12 +598,7 @@
             "explicit",
             "verbose"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2028-05-unfathomable",
           "word": "unfathomable",
@@ -752,7 +616,12 @@
             "understandable",
             "clear"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2028-05-impenetrable",
           "word": "impenetrable",
@@ -788,12 +657,7 @@
             "structured",
             "distinct"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2028-05-indeterminate",
           "word": "indeterminate",
@@ -811,7 +675,12 @@
             "fixed",
             "precise"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2028-05-obscurantism",
           "word": "obscurantism",
@@ -846,12 +715,7 @@
             "leaky",
             "porous"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2028-05-legible",
           "word": "legible",
@@ -869,7 +733,12 @@
             "unreadable",
             "indecipherable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2028-05-illegible",
           "word": "illegible",
@@ -905,12 +774,7 @@
             "incomprehensible",
             "garbled"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2028-05-unintelligible",
           "word": "unintelligible",
@@ -928,7 +792,12 @@
             "clear",
             "comprehensible"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2028-05-luminous",
           "word": "luminous",
@@ -964,12 +833,7 @@
             "opaque",
             "murky"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2028-05-unambiguous",
           "word": "unambiguous",
@@ -987,7 +851,12 @@
             "vague",
             "equivocal"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2028-05-gnomic",
           "word": "gnomic",
@@ -1006,29 +875,6 @@
             "explicit"
           ]
         },
-        {
-          "id": "2028-05-occult",
-          "word": "occult",
-          "partOfSpeech": "adjective",
-          "definition": "Relating to hidden, mysterious, or supernatural forces beyond ordinary knowledge.",
-          "example": "She kept a shelf of occult books on alchemy, spells, and secret rituals.",
-          "mnemonic": "Read it as 'o-cult' — a secret cult meeting in the shadows (Latin 'occulere', to hide).",
-          "synonyms": [
-            "esoteric",
-            "arcane",
-            "supernatural"
-          ],
-          "antonyms": [
-            "obvious",
-            "evident",
-            "mundane"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
         {
           "id": "2028-05-connote",
           "word": "connote",
@@ -1064,7 +910,12 @@
             "clear",
             "sharp"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2028-05-oracular",
           "word": "oracular",
@@ -1081,6 +932,378 @@
             "plain",
             "clear",
             "mundane"
+          ]
+        },
+        {
+          "id": "2028-05-sesquipedalian",
+          "word": "sesquipedalian",
+          "partOfSpeech": "adjective",
+          "definition": "Given to using very long words, or marked by such lengthy, multisyllabic language.",
+          "example": "His sesquipedalian lectures sent students scrambling for their dictionaries every few minutes.",
+          "mnemonic": "Latin sesqui- ('one and a half') + ped ('foot'): words that run 'a foot and a half' long.",
+          "synonyms": [
+            "polysyllabic",
+            "long-winded",
+            "grandiloquent"
+          ],
+          "antonyms": [
+            "concise",
+            "terse",
+            "monosyllabic"
+          ]
+        },
+        {
+          "id": "2028-05-allusive",
+          "word": "allusive",
+          "partOfSpeech": "adjective",
+          "definition": "Full of indirect or hinted references to other things rather than plain statements.",
+          "example": "Her allusive poetry nods to Greek myth without ever naming a single god.",
+          "mnemonic": "Sounds like 'elusive'—it elusively points elsewhere instead of saying things outright.",
+          "synonyms": [
+            "suggestive",
+            "referential",
+            "evocative"
+          ],
+          "antonyms": [
+            "explicit",
+            "literal",
+            "direct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2028-05-periphrasis",
+          "word": "periphrasis",
+          "partOfSpeech": "noun",
+          "definition": "The use of excessive, roundabout wording instead of a plain, direct expression.",
+          "example": "Saying 'at this point in time' instead of 'now' is textbook periphrasis.",
+          "mnemonic": "peri- ('around') + phrasis ('speech'): talking all the way around a point.",
+          "synonyms": [
+            "circumlocution",
+            "verbosity",
+            "wordiness"
+          ],
+          "antonyms": [
+            "concision",
+            "directness",
+            "brevity"
+          ]
+        },
+        {
+          "id": "2028-05-truism",
+          "word": "truism",
+          "partOfSpeech": "noun",
+          "definition": "An obviously valid statement that adds nothing new or worth mentioning.",
+          "example": "'Practice makes perfect' is a truism your coach repeats until it loses all meaning.",
+          "mnemonic": "'true' + '-ism': a claim so plainly correct it barely needs stating.",
+          "synonyms": [
+            "platitude",
+            "cliché",
+            "banality"
+          ],
+          "antonyms": [
+            "paradox",
+            "revelation",
+            "insight"
+          ]
+        },
+        {
+          "id": "2028-05-aphorism",
+          "word": "aphorism",
+          "partOfSpeech": "noun",
+          "definition": "A short, pointed sentence expressing a general truth or wise observation.",
+          "example": "'Less is more' is the architect's favorite aphorism, printed above his desk.",
+          "mnemonic": "Say 'A-FOUR-ism': a nugget of wisdom that fits in about four words.",
+          "synonyms": [
+            "maxim",
+            "dictum",
+            "saying"
+          ],
+          "antonyms": [
+            "rambling",
+            "verbiage",
+            "circumlocution"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "2028-05-apothegm",
+          "word": "apothegm",
+          "partOfSpeech": "noun",
+          "definition": "A short, sharply pointed and instructive remark meant to teach or guide.",
+          "example": "The old sergeant governed by apothegm: 'Slow is smooth, smooth is fast.'",
+          "mnemonic": "Sounds like 'up-a-them'—a sharp little pearl of wisdom tossed up at them.",
+          "synonyms": [
+            "maxim",
+            "aphorism",
+            "dictum"
+          ],
+          "antonyms": [
+            "rambling",
+            "verbiage",
+            "digression"
+          ]
+        },
+        {
+          "id": "2028-05-maxim",
+          "word": "maxim",
+          "partOfSpeech": "noun",
+          "definition": "A short rule expressing a general principle of conduct or behavior.",
+          "example": "She lived by a simple maxim: never spend money you haven't earned.",
+          "mnemonic": "'MAX-im': the maximum wisdom packed into a minimum of words.",
+          "synonyms": [
+            "precept",
+            "principle",
+            "rule"
+          ],
+          "antonyms": [
+            "exception",
+            "whim",
+            "caprice"
+          ]
+        },
+        {
+          "id": "2028-05-adage",
+          "word": "adage",
+          "partOfSpeech": "noun",
+          "definition": "An old, familiar saying that expresses a widely accepted piece of wisdom.",
+          "example": "As the adage goes, the early bird catches the worm—so we started at dawn.",
+          "mnemonic": "Hear 'a-DAY-ge': a bit of folk wisdom passed down and aged over the days.",
+          "synonyms": [
+            "proverb",
+            "saying",
+            "byword"
+          ],
+          "antonyms": [
+            "novelty",
+            "innovation",
+            "neologism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "2028-05-proverb",
+          "word": "proverb",
+          "partOfSpeech": "noun",
+          "definition": "A short, well-known folk saying that offers practical advice or wisdom.",
+          "example": "Her grandmother had a proverb for everything, usually about pennies and pounds.",
+          "mnemonic": "'pro-verb' = 'for words': a worn phrase kept around 'for' handy guidance.",
+          "synonyms": [
+            "adage",
+            "saying",
+            "maxim"
+          ],
+          "antonyms": [
+            "nonsense",
+            "gibberish",
+            "improvisation"
+          ]
+        },
+        {
+          "id": "2028-05-epigram",
+          "word": "epigram",
+          "partOfSpeech": "noun",
+          "definition": "A brief, clever, and often satirical remark or short verse.",
+          "example": "Wilde could deflate any dinner party with a single, cutting epigram.",
+          "mnemonic": "'epi-gram': a tiny 'gram' of wit—small in weight, sharp on impact.",
+          "synonyms": [
+            "witticism",
+            "quip",
+            "aphorism"
+          ],
+          "antonyms": [
+            "ramble",
+            "monologue",
+            "verbiage"
+          ]
+        },
+        {
+          "id": "2028-05-paraphrase",
+          "word": "paraphrase",
+          "partOfSpeech": "verb",
+          "definition": "To express someone else's meaning again using different words.",
+          "example": "Rather than quote the ruling, the reporter chose to paraphrase it for clarity.",
+          "mnemonic": "para- ('alongside') + 'phrase': set a parallel phrasing beside the original.",
+          "synonyms": [
+            "reword",
+            "rephrase",
+            "restate"
+          ],
+          "antonyms": [
+            "quote",
+            "cite",
+            "transcribe"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "2028-05-distill",
+          "word": "distill",
+          "partOfSpeech": "verb",
+          "definition": "To extract the purest, most essential part from something larger.",
+          "example": "The editor managed to distill the sprawling report into three clear bullet points.",
+          "mnemonic": "Picture a whiskey still dripping out the pure essence, one drop at a time.",
+          "synonyms": [
+            "extract",
+            "refine",
+            "purify"
+          ],
+          "antonyms": [
+            "dilute",
+            "muddle",
+            "expand"
+          ]
+        },
+        {
+          "id": "2028-05-condense",
+          "word": "condense",
+          "partOfSpeech": "verb",
+          "definition": "To make something shorter or more compact while keeping its core content.",
+          "example": "Can you condense this ten-page memo into a single paragraph by noon?",
+          "mnemonic": "'con-DENSE': keep packing the ideas together until they grow dense.",
+          "synonyms": [
+            "compress",
+            "abridge",
+            "shorten"
+          ],
+          "antonyms": [
+            "expand",
+            "elaborate",
+            "amplify"
+          ]
+        },
+        {
+          "id": "2028-05-abridge",
+          "word": "abridge",
+          "partOfSpeech": "verb",
+          "definition": "To shorten a piece of writing while keeping its main substance.",
+          "example": "The publisher released an abridged edition for readers daunted by the original's length.",
+          "mnemonic": "'a-BRIDGE' spans a gap fast: it carries you quickly across to the end.",
+          "synonyms": [
+            "shorten",
+            "condense",
+            "truncate"
+          ],
+          "antonyms": [
+            "expand",
+            "lengthen",
+            "extend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2028-05-truncate",
+          "word": "truncate",
+          "partOfSpeech": "verb",
+          "definition": "To shorten something by cutting off its top or end abruptly.",
+          "example": "The database will truncate any comment longer than 200 characters.",
+          "mnemonic": "Think 'trunk': chop a tree down to its trunk, lopping the rest away.",
+          "synonyms": [
+            "curtail",
+            "clip",
+            "lop"
+          ],
+          "antonyms": [
+            "extend",
+            "lengthen",
+            "elongate"
+          ]
+        },
+        {
+          "id": "2028-05-synopsis",
+          "word": "synopsis",
+          "partOfSpeech": "noun",
+          "definition": "A brief general outline that condenses the main points of a longer work.",
+          "example": "Before the three-hour meeting, she skimmed the one-page synopsis instead of the full report.",
+          "mnemonic": "Greek syn- (together) + -opsis (seeing): you're seeing the whole thing together at a glance.",
+          "synonyms": [
+            "summary",
+            "outline",
+            "abstract"
+          ],
+          "antonyms": [
+            "full text",
+            "unabridged version",
+            "expansion"
+          ]
+        },
+        {
+          "id": "2028-05-compendium",
+          "word": "compendium",
+          "partOfSpeech": "noun",
+          "definition": "A concise yet comprehensive collection of information on a subject, gathered into one place.",
+          "example": "The gardener's shelf held a battered compendium covering every plant, pest, and soil type imaginable.",
+          "mnemonic": "com- (together) + pendere (to weigh): many facts weighed and bound together in one heavy book.",
+          "synonyms": [
+            "digest",
+            "handbook",
+            "collection"
+          ],
+          "antonyms": [
+            "excerpt",
+            "fragment",
+            "snippet"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2028-05-profundity",
+          "word": "profundity",
+          "partOfSpeech": "noun",
+          "definition": "Great intellectual depth, insight, or seriousness in thought and meaning.",
+          "example": "The old monk's plain, five-word answer carried a profundity that silenced the whole room.",
+          "mnemonic": "Sounds like 'profound' + depth — picture a well so profound you can't see its bottom.",
+          "synonyms": [
+            "depth",
+            "insight",
+            "wisdom"
+          ],
+          "antonyms": [
+            "shallowness",
+            "superficiality",
+            "triviality"
+          ]
+        },
+        {
+          "id": "2028-05-exegesis",
+          "word": "exegesis",
+          "partOfSpeech": "noun",
+          "definition": "A critical explanation or interpretation of a text, especially a scriptural or scholarly one.",
+          "example": "His careful exegesis of the ancient poem unpacked allusions that casual readers always overlooked.",
+          "mnemonic": "Greek ex- (out) + hegeisthai (to lead): a scholar leads the hidden meaning out of a text.",
+          "synonyms": [
+            "interpretation",
+            "explication",
+            "commentary"
+          ],
+          "antonyms": [
+            "obfuscation",
+            "misreading",
+            "distortion"
           ]
         }
       ]

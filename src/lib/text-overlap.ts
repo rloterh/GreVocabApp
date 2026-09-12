@@ -12,11 +12,17 @@
 
 /** Punctuation-free, lowercase, single-spaced. */
 export function normalizeText(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/["'.,!?;:—–-]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
+  return (
+    text
+      .toLowerCase()
+      // Replaced with a space, not removed. Deleting them turns
+      // "misfeasance—operating" into one nonsense token, so a check asking
+      // "does this sentence contain the word" answers no about a sentence
+      // that plainly does.
+      .replace(/["'.,!?;:—–-]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+  );
 }
 
 /**

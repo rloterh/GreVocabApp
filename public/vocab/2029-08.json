@@ -1470,6 +1470,24 @@
             "skim",
             "ignore"
           ]
+        },
+        {
+          "id": "2029-08-perseverance",
+          "word": "perseverance",
+          "partOfSpeech": "noun",
+          "definition": "Steady, continued effort to achieve a goal despite difficulty, delay, or failure.",
+          "example": "After forty rejection letters, it was sheer perseverance that kept her sending the manuscript out.",
+          "mnemonic": "Break it as 'per-SEVERE-ance' — you keep going even through the most SEVERE hardships.",
+          "synonyms": [
+            "persistence",
+            "tenacity",
+            "determination"
+          ],
+          "antonyms": [
+            "surrender",
+            "quitting",
+            "irresolution"
+          ]
         }
       ]
     }

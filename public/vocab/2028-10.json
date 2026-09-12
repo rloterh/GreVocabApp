@@ -1528,6 +1528,29 @@
           ]
         }
       ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2028-10-misprision",
+          "word": "misprision",
+          "partOfSpeech": "noun",
+          "definition": "The deliberate failure to report knowledge of a serious crime to the authorities.",
+          "example": "By saying nothing about the embezzlement he had witnessed, the accountant was later charged with misprision.",
+          "mnemonic": "Sounds like 'miss prison' — you 'miss' telling on a crook, so you end up in prison yourself.",
+          "synonyms": [
+            "concealment",
+            "cover-up",
+            "nondisclosure"
+          ],
+          "antonyms": [
+            "disclosure",
+            "report",
+            "revelation"
+          ]
+        }
+      ]
     }
   ],
   "description": "advanced and low-frequency — law and transgression",

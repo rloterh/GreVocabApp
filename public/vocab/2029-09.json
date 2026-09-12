@@ -1362,29 +1362,6 @@
           ]
         },
         {
-          "id": "2029-09-imperceptible",
-          "word": "imperceptible",
-          "partOfSpeech": "adjective",
-          "definition": "Too small, gradual, or faint to be noticed by the senses.",
-          "example": "The room cooled by an imperceptible degree each hour until we suddenly reached for sweaters.",
-          "mnemonic": "im- (not) + perceptible: below the threshold of what you can sense.",
-          "synonyms": [
-            "undetectable",
-            "negligible",
-            "faint"
-          ],
-          "antonyms": [
-            "obvious",
-            "noticeable",
-            "conspicuous"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
-        {
           "id": "2029-09-irradiate",
           "word": "irradiate",
           "partOfSpeech": "verb",
@@ -1400,7 +1377,12 @@
             "darken",
             "shade"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
         {
           "id": "2029-09-refract",
           "word": "refract",
@@ -1430,6 +1412,65 @@
           "antonyms": [
             "reappearance",
             "emergence"
+          ]
+        },
+        {
+          "id": "2029-09-luminescent",
+          "word": "luminescent",
+          "partOfSpeech": "adjective",
+          "definition": "Emitting soft light from a source other than heat, often glowing coolly in darkness.",
+          "example": "Deep in the cave, the divers were startled by a colony of luminescent jellyfish drifting like pale lanterns.",
+          "mnemonic": "From Latin 'lumen' (light) — think of a 'luminous' crescent moon casting its own glow.",
+          "synonyms": [
+            "glowing",
+            "radiant",
+            "phosphorescent"
+          ],
+          "antonyms": [
+            "dark",
+            "dim",
+            "opaque"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2029-09-nictitate",
+          "word": "nictitate",
+          "partOfSpeech": "verb",
+          "definition": "To wink or blink, especially with a thin inner eyelid found in birds and reptiles.",
+          "example": "The hawk would nictitate mid-dive, a translucent membrane sweeping its eye clean without ever closing it.",
+          "mnemonic": "Sounds like 'nick-tit-ate' — a quick 'nick' of the eyelid, a tiny flick that blinks.",
+          "synonyms": [
+            "blink",
+            "wink",
+            "flutter"
+          ],
+          "antonyms": [
+            "stare",
+            "gaze",
+            "gape"
+          ]
+        },
+        {
+          "id": "2029-09-pallor",
+          "word": "pallor",
+          "partOfSpeech": "noun",
+          "definition": "An unhealthy paleness of the face, usually from illness, fear, or shock.",
+          "example": "When she read the telegram, a sudden pallor washed over her cheeks and she gripped the table.",
+          "mnemonic": "Sounds like 'pale-or' — a face gone pale, drained of its color.",
+          "synonyms": [
+            "paleness",
+            "wanness",
+            "pallidness"
+          ],
+          "antonyms": [
+            "flush",
+            "ruddiness",
+            "glow"
           ]
         }
       ]

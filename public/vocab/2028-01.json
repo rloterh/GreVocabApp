@@ -531,23 +531,6 @@
           ]
         },
         {
-          "id": "2028-01-apprise",
-          "word": "apprise",
-          "partOfSpeech": "verb",
-          "definition": "To formally inform or notify someone about something.",
-          "example": "The nurse promised to apprise the family the very moment the surgery was over.",
-          "mnemonic": "Hear 'a-PRIZE' — you rush to tell someone they've won a prize, i.e. you inform them.",
-          "synonyms": [
-            "inform",
-            "notify",
-            "brief"
-          ],
-          "antonyms": [
-            "withhold",
-            "conceal"
-          ]
-        },
-        {
           "id": "2028-01-acquaint",
           "word": "acquaint",
           "partOfSpeech": "verb",
@@ -560,12 +543,7 @@
             "inform"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2028-01-glean",
           "word": "glean",
@@ -582,7 +560,12 @@
             "scatter",
             "disperse"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2028-01-apprehend",
           "word": "apprehend",
@@ -616,12 +599,7 @@
             "misunderstand",
             "misconstrue"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2028-01-ratiocinate",
           "word": "ratiocinate",
@@ -638,7 +616,12 @@
             "guess",
             "assume"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2028-01-muse",
           "word": "muse",
@@ -672,12 +655,7 @@
             "ignore",
             "dismiss"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2028-01-hypothesize",
           "word": "hypothesize",
@@ -694,7 +672,12 @@
             "prove",
             "verify"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2028-01-theorize",
           "word": "theorize",
@@ -728,12 +711,7 @@
             "deduce",
             "calculate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2028-01-presage",
           "word": "presage",
@@ -749,7 +727,12 @@
           "antonyms": [
             "recall"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2028-01-portend",
           "word": "portend",
@@ -777,12 +760,7 @@
             "bode"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2028-01-anticipate",
           "word": "anticipate",
@@ -799,7 +777,12 @@
             "recall",
             "overlook"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2028-01-prognosticate",
           "word": "prognosticate",
@@ -830,12 +813,7 @@
             "naive",
             "innocent"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2028-01-sophisticated",
           "word": "sophisticated",
@@ -853,7 +831,12 @@
             "crude",
             "unrefined"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2028-01-nescient",
           "word": "nescient",
@@ -889,12 +872,7 @@
             "attentive",
             "mindful"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2028-01-unwitting",
           "word": "unwitting",
@@ -912,7 +890,12 @@
             "knowing",
             "intentional"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2028-01-uninitiated",
           "word": "uninitiated",
@@ -948,12 +931,7 @@
             "comprehend",
             "grasp"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2028-01-delusion",
           "word": "delusion",
@@ -971,7 +949,12 @@
             "truth",
             "fact"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2028-01-fallacy",
           "word": "fallacy",
@@ -1007,12 +990,7 @@
             "truth",
             "soundness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2028-01-casuistry",
           "word": "casuistry",
@@ -1030,7 +1008,12 @@
             "candor",
             "straightforwardness"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2028-01-mystify",
           "word": "mystify",
@@ -1066,12 +1049,7 @@
             "guide",
             "clarify"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2028-01-perplex",
           "word": "perplex",
@@ -1089,7 +1067,12 @@
             "enlighten",
             "resolve"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2028-01-confound",
           "word": "confound",
@@ -1125,12 +1108,7 @@
             "clarify",
             "solve"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2028-01-flummox",
           "word": "flummox",
@@ -1147,7 +1125,12 @@
             "enlighten",
             "clarify"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2028-01-befuddle",
           "word": "befuddle",
@@ -1181,12 +1164,7 @@
             "dullness",
             "obtuseness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2028-01-cerebral",
           "word": "cerebral",
@@ -1204,7 +1182,12 @@
             "instinctive",
             "visceral"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2028-01-conversant",
           "word": "conversant",
@@ -1238,12 +1221,7 @@
             "encode",
             "encrypt"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2028-01-lore",
           "word": "lore",
@@ -1257,7 +1235,12 @@
             "mythology"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2028-01-credulity",
           "word": "credulity",
@@ -1290,12 +1273,7 @@
             "doubt",
             "skepticism"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2028-01-autodidact",
           "word": "autodidact",
@@ -1305,7 +1283,12 @@
           "mnemonic": "'auto' (self) + 'didact' (teach) — literally a self-teacher.",
           "synonyms": [],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
         {
           "id": "2028-01-neophyte",
           "word": "neophyte",
@@ -1338,6 +1321,142 @@
           "antonyms": [
             "expert",
             "master"
+          ]
+        },
+        {
+          "id": "2028-01-unlettered",
+          "word": "unlettered",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking formal schooling or the ability to read and write.",
+          "example": "Though unlettered, the old farmer could read the sky and predict rain better than any meteorologist.",
+          "mnemonic": "Picture someone who never received a single 'letter' of the alphabet in school — un + lettered.",
+          "synonyms": [
+            "illiterate",
+            "uneducated",
+            "untaught"
+          ],
+          "antonyms": [
+            "educated",
+            "literate",
+            "learned"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2028-01-ignoramus",
+          "word": "ignoramus",
+          "partOfSpeech": "noun",
+          "definition": "A person who knows embarrassingly little and openly shows it.",
+          "example": "He called everyone who disagreed with him an ignoramus, which only exposed his own emptiness.",
+          "mnemonic": "Sounds like 'ignore-a-muss': he ignores all knowledge and makes a muss of the facts.",
+          "synonyms": [
+            "dunce",
+            "fool",
+            "blockhead"
+          ],
+          "antonyms": [
+            "scholar",
+            "expert",
+            "genius"
+          ]
+        },
+        {
+          "id": "2028-01-dullard",
+          "word": "dullard",
+          "partOfSpeech": "noun",
+          "definition": "A slow-witted or mentally sluggish person.",
+          "example": "The teacher wrongly wrote the quiet boy off as a dullard, missing the sharp mind behind his silence.",
+          "mnemonic": "Dull + the '-ard' suffix from 'drunkard' and 'sluggard' — a person defined by that trait.",
+          "synonyms": [
+            "dimwit",
+            "dunce",
+            "simpleton"
+          ],
+          "antonyms": [
+            "genius",
+            "prodigy",
+            "intellectual"
+          ]
+        },
+        {
+          "id": "2028-01-untutored",
+          "word": "untutored",
+          "partOfSpeech": "adjective",
+          "definition": "Having received no formal instruction or training in a subject.",
+          "example": "Her untutored voice was raw and thrilling, though she had never set foot in a conservatory.",
+          "mnemonic": "un + tutored: no tutor ever sat down and taught you.",
+          "synonyms": [
+            "untrained",
+            "unschooled",
+            "self-taught"
+          ],
+          "antonyms": [
+            "trained",
+            "schooled",
+            "instructed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2028-01-pedant",
+          "word": "pedant",
+          "partOfSpeech": "noun",
+          "definition": "Someone who flaunts trivial rules or minor knowledge to seem learned.",
+          "example": "The pedant interrupted the wedding toast to correct the groom's Latin, and the whole room groaned.",
+          "mnemonic": "PED-ant: imagine a fussy little ant inspecting every crumb of a rulebook.",
+          "synonyms": [
+            "nitpicker",
+            "hairsplitter",
+            "doctrinaire"
+          ],
+          "antonyms": [
+            "generalist",
+            "free-thinker",
+            "big-picture thinker"
+          ]
+        },
+        {
+          "id": "2028-01-nescience",
+          "word": "nescience",
+          "partOfSpeech": "noun",
+          "definition": "A complete lack of knowledge; the state of not knowing.",
+          "example": "It was sheer nescience of basic hygiene, not cruelty, that let the illness sweep through the camp.",
+          "mnemonic": "ne- (not) + science (knowledge): literally 'not-science,' a blank where knowing should be.",
+          "synonyms": [
+            "ignorance",
+            "unawareness",
+            "unfamiliarity"
+          ],
+          "antonyms": [
+            "knowledge",
+            "awareness",
+            "erudition"
+          ]
+        },
+        {
+          "id": "2028-01-luminary",
+          "word": "luminary",
+          "partOfSpeech": "noun",
+          "definition": "A distinguished, inspiring expert who brightens and leads a field.",
+          "example": "As a luminary of modern physics, she drew packed halls wherever she agreed to lecture.",
+          "mnemonic": "From Latin 'lumen' (light) — a shining light who illuminates their whole field.",
+          "synonyms": [
+            "notable",
+            "leader",
+            "star"
+          ],
+          "antonyms": [
+            "nobody",
+            "unknown",
+            "nonentity"
           ]
         }
       ]

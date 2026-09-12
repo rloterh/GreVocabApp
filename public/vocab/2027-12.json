@@ -6,83 +6,6 @@
       "day": 1,
       "words": [
         {
-          "id": "2027-12-evanescent",
-          "word": "evanescent",
-          "partOfSpeech": "adjective",
-          "definition": "Lasting only a very short time before fading away.",
-          "example": "The evanescent glow of the fireflies vanished the instant I reached for them.",
-          "mnemonic": "Sounds like 'ever-vanishing' — evan-ESCENT slips off like vapor escaping the air.",
-          "synonyms": [
-            "fleeting",
-            "transient",
-            "ephemeral"
-          ],
-          "antonyms": [
-            "permanent",
-            "lasting",
-            "eternal"
-          ]
-        },
-        {
-          "id": "2027-12-transitory",
-          "word": "transitory",
-          "partOfSpeech": "adjective",
-          "definition": "Existing or continuing for only a brief period of time.",
-          "example": "Fame in that industry proved transitory; last year's stars are already forgotten.",
-          "mnemonic": "Think 'transit' — like a train passing through a station, it doesn't stay.",
-          "synonyms": [
-            "temporary",
-            "brief",
-            "passing"
-          ],
-          "antonyms": [
-            "permanent",
-            "enduring",
-            "lasting"
-          ]
-        },
-        {
-          "id": "2027-12-perennial",
-          "word": "perennial",
-          "partOfSpeech": "adjective",
-          "definition": "Continuing or recurring again and again through the years.",
-          "example": "Complaints about parking are a perennial topic at every neighborhood meeting.",
-          "mnemonic": "Per + ennial (annual) means 'through the years' — perennial flowers bloom every spring.",
-          "synonyms": [
-            "recurring",
-            "constant",
-            "enduring"
-          ],
-          "antonyms": [
-            "fleeting",
-            "temporary",
-            "occasional"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "words": [
-        {
-          "id": "2027-12-perpetual",
-          "word": "perpetual",
-          "partOfSpeech": "adjective",
-          "definition": "Continuing forever or without any interruption.",
-          "example": "The toddler kept up a perpetual stream of questions from dawn until bedtime.",
-          "mnemonic": "Picture a 'perpetual motion machine' that spins on and never stops.",
-          "synonyms": [
-            "endless",
-            "constant",
-            "unceasing"
-          ],
-          "antonyms": [
-            "temporary",
-            "brief",
-            "intermittent"
-          ]
-        },
-        {
           "id": "2027-12-incessant",
           "word": "incessant",
           "partOfSpeech": "adjective",
@@ -117,12 +40,7 @@
             "occasional",
             "sporadic"
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2027-12-interminable",
           "word": "interminable",
@@ -140,7 +58,12 @@
             "short",
             "finite"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
         {
           "id": "2027-12-protracted",
           "word": "protracted",
@@ -176,71 +99,7 @@
             "short",
             "curtailed"
           ]
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
-        {
-          "id": "2027-12-abiding",
-          "word": "abiding",
-          "partOfSpeech": "adjective",
-          "definition": "Continuing steadily over a long time without weakening or changing.",
-          "example": "She had an abiding love of the sea that never once left her.",
-          "mnemonic": "From 'abide' — to dwell and bide your time; it stays put and remains.",
-          "synonyms": [
-            "steadfast",
-            "lasting",
-            "permanent"
-          ],
-          "antonyms": [
-            "fleeting",
-            "transient",
-            "short-lived"
-          ]
         },
-        {
-          "id": "2027-12-enduring",
-          "word": "enduring",
-          "partOfSpeech": "adjective",
-          "definition": "Continuing to exist or last over a long period.",
-          "example": "Their friendship proved enduring, surviving decades apart on different continents.",
-          "mnemonic": "En + during — it keeps going 'during' every hardship thrown at it.",
-          "synonyms": [
-            "lasting",
-            "persistent",
-            "long-lived"
-          ],
-          "antonyms": [
-            "fleeting",
-            "transient",
-            "temporary"
-          ]
-        },
-        {
-          "id": "2027-12-durable",
-          "word": "durable",
-          "partOfSpeech": "adjective",
-          "definition": "Able to withstand wear and last a long time without breaking.",
-          "example": "These boots are durable enough to survive years of rugged mountain hiking.",
-          "mnemonic": "Latin 'durare' (to harden) — the root in 'endure'; built to take a beating.",
-          "synonyms": [
-            "sturdy",
-            "robust",
-            "long-lasting"
-          ],
-          "antonyms": [
-            "flimsy",
-            "fragile",
-            "perishable"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
         {
           "id": "2027-12-immemorial",
           "word": "immemorial",
@@ -258,25 +117,12 @@
             "modern",
             "new"
           ]
-        },
-        {
-          "id": "2027-12-antiquated",
-          "word": "antiquated",
-          "partOfSpeech": "adjective",
-          "definition": "Too old-fashioned to be useful in the present day.",
-          "example": "The office still relied on antiquated fax machines while rivals had gone fully digital.",
-          "mnemonic": "Antique + -ated — turned into an antique that belongs in a museum.",
-          "synonyms": [
-            "outdated",
-            "obsolete",
-            "old-fashioned"
-          ],
-          "antonyms": [
-            "modern",
-            "current",
-            "up-to-date"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
         {
           "id": "2027-12-archaic",
           "word": "archaic",
@@ -293,29 +139,6 @@
             "modern",
             "contemporary",
             "current"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
-        {
-          "id": "2027-12-obsolete",
-          "word": "obsolete",
-          "partOfSpeech": "adjective",
-          "definition": "No longer in use because something newer has taken its place.",
-          "example": "Floppy disks are now obsolete, replaced by cloud storage and tiny USB drives.",
-          "mnemonic": "Sounds like 'obviously so late' — it showed up too late and got left behind.",
-          "synonyms": [
-            "outdated",
-            "antiquated",
-            "defunct"
-          ],
-          "antonyms": [
-            "current",
-            "modern",
-            "up-to-date"
           ]
         },
         {
@@ -357,7 +180,7 @@
       ]
     },
     {
-      "day": 7,
+      "day": 4,
       "words": [
         {
           "id": "2027-12-erstwhile",
@@ -378,201 +201,6 @@
           ]
         },
         {
-          "id": "2027-12-incipient",
-          "word": "incipient",
-          "partOfSpeech": "adjective",
-          "definition": "In an early stage and just starting to appear.",
-          "example": "The doctor caught the incipient infection before it could spread through her body.",
-          "mnemonic": "Shares a root with 'inception' — the very start of something.",
-          "synonyms": [
-            "nascent",
-            "emerging",
-            "budding"
-          ],
-          "antonyms": [
-            "mature",
-            "developed",
-            "established"
-          ]
-        },
-        {
-          "id": "2027-12-embryonic",
-          "word": "embryonic",
-          "partOfSpeech": "adjective",
-          "definition": "At a very early and undeveloped stage.",
-          "example": "The startup's plans were still embryonic, sketched on napkins with no funding yet.",
-          "mnemonic": "Think 'embryo' — an unborn baby: something in its earliest form.",
-          "synonyms": [
-            "rudimentary",
-            "undeveloped",
-            "nascent"
-          ],
-          "antonyms": [
-            "mature",
-            "developed",
-            "advanced"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
-        {
-          "id": "2027-12-fledgling",
-          "word": "fledgling",
-          "partOfSpeech": "adjective",
-          "definition": "New, inexperienced, and still in an early stage of growth.",
-          "example": "The fledgling airline owned just two planes and flew to only three cities.",
-          "mnemonic": "A fledgling is a baby bird just growing its feathers to fledge — brand new at flying.",
-          "synonyms": [
-            "budding",
-            "emerging",
-            "novice"
-          ],
-          "antonyms": [
-            "established",
-            "mature",
-            "seasoned"
-          ]
-        },
-        {
-          "id": "2027-12-burgeoning",
-          "word": "burgeoning",
-          "partOfSpeech": "adjective",
-          "definition": "Growing or expanding quickly and flourishing.",
-          "example": "The city's burgeoning tech scene attracted thousands of new workers every month.",
-          "mnemonic": "Sounds like 'bursting' — a bud bursting open and shooting upward.",
-          "synonyms": [
-            "flourishing",
-            "expanding",
-            "thriving"
-          ],
-          "antonyms": [
-            "shrinking",
-            "declining",
-            "dwindling"
-          ]
-        },
-        {
-          "id": "2027-12-germinate",
-          "word": "germinate",
-          "partOfSpeech": "verb",
-          "definition": "To sprout, or for an idea to start to take root and develop.",
-          "example": "The seeds germinate faster if you keep the soil warm and moist.",
-          "mnemonic": "Think 'germ' — a tiny seed of life beginning to grow.",
-          "synonyms": [
-            "sprout",
-            "bud",
-            "develop"
-          ],
-          "antonyms": [
-            "wither",
-            "die",
-            "decay"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
-        {
-          "id": "2027-12-wane",
-          "word": "wane",
-          "partOfSpeech": "verb",
-          "definition": "To gradually decrease in size, strength, or intensity.",
-          "example": "As the party dragged past midnight, the guests' energy began to wane.",
-          "mnemonic": "The moon wanes — it grows smaller and thinner each night.",
-          "synonyms": [
-            "diminish",
-            "decline",
-            "fade"
-          ],
-          "antonyms": [
-            "wax",
-            "grow",
-            "increase"
-          ]
-        },
-        {
-          "id": "2027-12-ebb",
-          "word": "ebb",
-          "partOfSpeech": "verb",
-          "definition": "To move back or slowly fall away in amount or strength.",
-          "example": "The tide began to ebb, leaving wet sand and stranded starfish behind.",
-          "mnemonic": "Ebb tide flows OUT — the 'e' pulls away from shore, like the sea retreating.",
-          "synonyms": [
-            "recede",
-            "decline",
-            "subside"
-          ],
-          "antonyms": [
-            "flow",
-            "rise",
-            "surge"
-          ]
-        },
-        {
-          "id": "2027-12-dwindle",
-          "word": "dwindle",
-          "partOfSpeech": "verb",
-          "definition": "To gradually become smaller in amount or number.",
-          "example": "Their savings dwindled until only a few coins remained in the jar.",
-          "mnemonic": "Sounds like 'diminish' shrinking down — dwindle whittles away to little.",
-          "synonyms": [
-            "diminish",
-            "shrink",
-            "decrease"
-          ],
-          "antonyms": [
-            "grow",
-            "increase",
-            "multiply"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
-        {
-          "id": "2027-12-subside",
-          "word": "subside",
-          "partOfSpeech": "verb",
-          "definition": "To become less intense, or to sink to a lower level.",
-          "example": "Once the medication worked, the swelling in his ankle slowly subsided.",
-          "mnemonic": "'Sub' (down) + 'side' — it settles down and sits lower.",
-          "synonyms": [
-            "abate",
-            "diminish",
-            "lessen"
-          ],
-          "antonyms": [
-            "intensify",
-            "increase",
-            "rise"
-          ]
-        },
-        {
-          "id": "2027-12-recede",
-          "word": "recede",
-          "partOfSpeech": "verb",
-          "definition": "To move back or withdraw from a previous position.",
-          "example": "As the floodwater receded, families returned to inspect their damaged homes.",
-          "mnemonic": "'Re' (back) + 'cede' (go): to go back — like a receding hairline.",
-          "synonyms": [
-            "retreat",
-            "withdraw",
-            "ebb"
-          ],
-          "antonyms": [
-            "advance",
-            "approach",
-            "proceed"
-          ]
-        },
-        {
           "id": "2027-12-linger",
           "word": "linger",
           "partOfSpeech": "verb",
@@ -589,12 +217,7 @@
             "depart",
             "rush"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-12-tarry",
           "word": "tarry",
@@ -612,7 +235,12 @@
             "rush",
             "hasten"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-12-procrastinate",
           "word": "procrastinate",
@@ -646,12 +274,7 @@
             "advance",
             "expedite"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-12-dally",
           "word": "dally",
@@ -668,7 +291,12 @@
             "hurry",
             "rush"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-12-elapse",
           "word": "elapse",
@@ -699,12 +327,7 @@
             "maintenance",
             "continuation"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-12-intermittent",
           "word": "intermittent",
@@ -722,7 +345,12 @@
             "constant",
             "steady"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2027-12-sporadic",
           "word": "sporadic",
@@ -758,12 +386,7 @@
             "sporadic",
             "irregular"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-12-cyclical",
           "word": "cyclical",
@@ -780,7 +403,12 @@
             "linear",
             "constant"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-12-recurrent",
           "word": "recurrent",
@@ -816,47 +444,6 @@
             "steady",
             "constant"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
-        {
-          "id": "2027-12-chronic",
-          "word": "chronic",
-          "partOfSpeech": "adjective",
-          "definition": "Lasting a very long time or constantly returning; long-term.",
-          "example": "Her chronic back pain had troubled her every single day for a decade.",
-          "mnemonic": "From Greek 'chronos' (time) — like a 'chronicle,' it stretches on and on through time.",
-          "synonyms": [
-            "persistent",
-            "long-standing",
-            "enduring"
-          ],
-          "antonyms": [
-            "acute",
-            "temporary",
-            "brief"
-          ]
-        },
-        {
-          "id": "2027-12-perpetuate",
-          "word": "perpetuate",
-          "partOfSpeech": "verb",
-          "definition": "To cause something to continue indefinitely or keep it alive.",
-          "example": "Repeating the old rumor only serves to perpetuate a myth that was never true.",
-          "mnemonic": "Contains 'perpetual' — you make it perpetual, keeping it going forever.",
-          "synonyms": [
-            "sustain",
-            "prolong",
-            "maintain"
-          ],
-          "antonyms": [
-            "end",
-            "abolish",
-            "halt"
-          ]
         },
         {
           "id": "2027-12-expedite",
@@ -879,7 +466,7 @@
       ]
     },
     {
-      "day": 16,
+      "day": 9,
       "words": [
         {
           "id": "2027-12-hasten",
@@ -938,7 +525,7 @@
       ]
     },
     {
-      "day": 17,
+      "day": 10,
       "words": [
         {
           "id": "2027-12-imminent",
@@ -997,7 +584,7 @@
       ]
     },
     {
-      "day": 18,
+      "day": 11,
       "words": [
         {
           "id": "2027-12-tardy",
@@ -1056,7 +643,7 @@
       ]
     },
     {
-      "day": 19,
+      "day": 12,
       "words": [
         {
           "id": "2027-12-opportune",
@@ -1115,7 +702,7 @@
       ]
     },
     {
-      "day": 20,
+      "day": 13,
       "words": [
         {
           "id": "2027-12-temporary",
@@ -1174,7 +761,7 @@
       ]
     },
     {
-      "day": 21,
+      "day": 14,
       "words": [
         {
           "id": "2027-12-simultaneous",
@@ -1229,7 +816,7 @@
       ]
     },
     {
-      "day": 22,
+      "day": 15,
       "words": [
         {
           "id": "2027-12-subsequent",
@@ -1288,7 +875,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 16,
       "words": [
         {
           "id": "2027-12-penultimate",
@@ -1338,7 +925,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 17,
       "words": [
         {
           "id": "2027-12-epoch",
@@ -1385,7 +972,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 18,
       "words": [
         {
           "id": "2027-12-threshold",
@@ -1440,7 +1027,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 19,
       "words": [
         {
           "id": "2027-12-outset",
@@ -1499,7 +1086,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 20,
       "words": [
         {
           "id": "2027-12-cessation",
@@ -1556,7 +1143,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 21,
       "words": [
         {
           "id": "2027-12-lull",
@@ -1610,7 +1197,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 22,
       "words": [
         {
           "id": "2027-12-moratorium",
@@ -1660,7 +1247,7 @@
       ]
     },
     {
-      "day": 30,
+      "day": 23,
       "words": [
         {
           "id": "2027-12-remnant",
@@ -1707,6 +1294,183 @@
           "antonyms": [
             "modernity",
             "present"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2027-12-extant",
+          "word": "extant",
+          "partOfSpeech": "adjective",
+          "definition": "Still in existence and not lost, extinct, or destroyed.",
+          "example": "Only three copies of the medieval manuscript remain extant, each locked in a museum vault.",
+          "mnemonic": "Hear 'ex-STAND' — the thing still stands today instead of having fallen away.",
+          "synonyms": [
+            "surviving",
+            "remaining",
+            "existing"
+          ],
+          "antonyms": [
+            "extinct",
+            "vanished",
+            "lost"
+          ]
+        },
+        {
+          "id": "2027-12-venerable",
+          "word": "venerable",
+          "partOfSpeech": "adjective",
+          "definition": "Commanding deep respect because of age, wisdom, or dignity.",
+          "example": "When the venerable judge entered the courtroom, even the loudest attorneys fell silent.",
+          "mnemonic": "Sound-alike 'VEIN-erable': someone so old you can see their veins, yet everyone reveres them.",
+          "synonyms": [
+            "esteemed",
+            "revered",
+            "respected"
+          ],
+          "antonyms": [
+            "disreputable",
+            "dishonorable",
+            "callow"
+          ]
+        },
+        {
+          "id": "2027-12-chronology",
+          "word": "chronology",
+          "partOfSpeech": "noun",
+          "definition": "The arrangement of events in the order they occurred over time.",
+          "example": "The detective pinned photos to the wall to reconstruct the exact chronology of that night.",
+          "mnemonic": "Greek chronos (time, as in 'chronometer') + -logy (study): the study of time's order.",
+          "synonyms": [
+            "timeline",
+            "sequence",
+            "succession"
+          ],
+          "antonyms": [
+            "disorder",
+            "jumble",
+            "randomness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2027-12-tenure",
+          "word": "tenure",
+          "partOfSpeech": "noun",
+          "definition": "The period during which someone holds an office, job, or property.",
+          "example": "During her tenure as mayor, three new libraries opened and the budget finally balanced.",
+          "mnemonic": "From Latin tenere, 'to hold'; think 'ten-year' — the stretch of years you get to hold your post.",
+          "synonyms": [
+            "term",
+            "incumbency",
+            "occupancy"
+          ],
+          "antonyms": [
+            "dismissal",
+            "removal",
+            "ouster"
+          ]
+        },
+        {
+          "id": "2027-12-longevity",
+          "word": "longevity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of living or lasting for a very great span of time.",
+          "example": "The tortoise's astonishing longevity means some outlive the humans who first raised them.",
+          "mnemonic": "long + Latin aevum ('age'): a 'long age' — a life or thing stretched out across many years.",
+          "synonyms": [
+            "durability",
+            "endurance",
+            "persistence"
+          ],
+          "antonyms": [
+            "transience",
+            "impermanence",
+            "mortality"
+          ]
+        },
+        {
+          "id": "2027-12-forestall",
+          "word": "forestall",
+          "partOfSpeech": "verb",
+          "definition": "To prevent something by taking action ahead of time.",
+          "example": "She emailed an apology first, hoping to forestall the flood of angry complaints.",
+          "mnemonic": "fore- (before) + stall: you set up a stall in the road beforehand to block trouble from arriving.",
+          "synonyms": [
+            "preempt",
+            "avert",
+            "thwart"
+          ],
+          "antonyms": [
+            "permit",
+            "encourage",
+            "invite"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2027-12-diurnal",
+          "word": "diurnal",
+          "partOfSpeech": "adjective",
+          "definition": "Active or occurring during the daytime rather than at night.",
+          "example": "Unlike owls, hawks are diurnal, circling for prey while the sun blazes overhead.",
+          "mnemonic": "Latin dies ('day', as in 'diary' and 'journal') — the daytime opposite of nocturnal.",
+          "synonyms": [
+            "daytime",
+            "daylight",
+            "daily"
+          ],
+          "antonyms": [
+            "nocturnal",
+            "nightly",
+            "crepuscular"
+          ]
+        },
+        {
+          "id": "2027-12-perpetuity",
+          "word": "perpetuity",
+          "partOfSpeech": "noun",
+          "definition": "The state of continuing forever or without any foreseeable end.",
+          "example": "The donor's endowment funds the scholarship in perpetuity, so no student will ever be turned away.",
+          "mnemonic": "Same root as 'perpetual motion' — per- (through) + petere (to keep going): motion that never stops.",
+          "synonyms": [
+            "eternity",
+            "permanence",
+            "endlessness"
+          ],
+          "antonyms": [
+            "transience",
+            "termination",
+            "impermanence"
+          ]
+        },
+        {
+          "id": "2027-12-brevity",
+          "word": "brevity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of using few words or lasting only a short while.",
+          "example": "The general was famous for his brevity; his battle orders rarely filled a single line.",
+          "mnemonic": "Latin brevis ('short'), the root of 'abbreviate' — hear 'brief-ity'.",
+          "synonyms": [
+            "conciseness",
+            "terseness",
+            "succinctness"
+          ],
+          "antonyms": [
+            "verbosity",
+            "wordiness",
+            "long-windedness"
           ]
         }
       ]

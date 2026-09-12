@@ -64,24 +64,6 @@
       "day": 2,
       "words": [
         {
-          "id": "2027-06-discreet",
-          "word": "discreet",
-          "partOfSpeech": "adjective",
-          "definition": "Careful and tactful in speech and action so as to keep things private.",
-          "example": "The nurse was discreet, never mentioning which celebrities she had treated.",
-          "mnemonic": "Discreet vs. discrete: the twin e's are two sealed lips keeping a secret.",
-          "synonyms": [
-            "tactful",
-            "prudent",
-            "circumspect"
-          ],
-          "antonyms": [
-            "indiscreet",
-            "tactless",
-            "rash"
-          ]
-        },
-        {
           "id": "2027-06-acumen",
           "word": "acumen",
           "partOfSpeech": "noun",
@@ -114,12 +96,7 @@
             "foolishness",
             "stupidity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2027-06-incisive",
           "word": "incisive",
@@ -137,7 +114,12 @@
             "dull",
             "rambling"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
         {
           "id": "2027-06-percipient",
           "word": "percipient",
@@ -171,12 +153,7 @@
             "foolish",
             "senseless"
           ]
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
+        },
         {
           "id": "2027-06-appraise",
           "word": "appraise",
@@ -190,7 +167,12 @@
             "value"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
         {
           "id": "2027-06-assess",
           "word": "assess",
@@ -218,12 +200,7 @@
             "judge"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2027-06-gauge",
           "word": "gauge",
@@ -237,7 +214,12 @@
             "assess"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-06-scrutinize",
           "word": "scrutinize",
@@ -268,12 +250,7 @@
             "surveillance"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2027-06-peruse",
           "word": "peruse",
@@ -290,7 +267,12 @@
             "skim",
             "glance"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-06-obloquy",
           "word": "obloquy",
@@ -324,12 +306,7 @@
             "honor",
             "glory"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2027-06-odium",
           "word": "odium",
@@ -346,7 +323,12 @@
             "admiration",
             "affection"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2027-06-stigma",
           "word": "stigma",
@@ -380,12 +362,7 @@
             "praise",
             "commendation"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2027-06-reprehensible",
           "word": "reprehensible",
@@ -402,7 +379,12 @@
             "praiseworthy",
             "admirable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-06-culpable",
           "word": "culpable",
@@ -436,12 +418,7 @@
             "blameworthy",
             "unworthy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2027-06-exemplary",
           "word": "exemplary",
@@ -458,7 +435,12 @@
             "deplorable",
             "substandard"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-06-toady",
           "word": "toady",
@@ -492,12 +474,7 @@
             "oppose",
             "denounce"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-06-sanction",
           "word": "sanction",
@@ -515,7 +492,12 @@
             "approval",
             "authorization"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-06-ratify",
           "word": "ratify",
@@ -549,12 +531,7 @@
             "prohibit",
             "preclude"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-06-vindicate",
           "word": "vindicate",
@@ -572,7 +549,12 @@
             "accuse",
             "incriminate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-06-adjudicate",
           "word": "adjudicate",
@@ -600,12 +582,7 @@
             "adjudicator"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-06-impartial",
           "word": "impartial",
@@ -623,7 +600,12 @@
             "partisan",
             "prejudiced"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-06-unbiased",
           "word": "unbiased",
@@ -659,12 +641,7 @@
             "biased",
             "emotional"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-06-partisan",
           "word": "partisan",
@@ -682,7 +659,12 @@
             "neutral",
             "nonpartisan"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2027-06-prejudice",
           "word": "prejudice",
@@ -718,12 +700,7 @@
             "dislike",
             "distaste"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-06-proclivity",
           "word": "proclivity",
@@ -741,7 +718,12 @@
             "disinclination",
             "reluctance"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2027-06-propensity",
           "word": "propensity",
@@ -777,12 +759,7 @@
             "aversion",
             "distaste"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2027-06-predisposition",
           "word": "predisposition",
@@ -800,7 +777,12 @@
             "immunity",
             "disinclination"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2027-06-discretion",
           "word": "discretion",
@@ -836,12 +818,7 @@
             "gullible",
             "foolish"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2027-06-savvy",
           "word": "savvy",
@@ -858,7 +835,12 @@
             "naivety",
             "ignorance"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2027-06-ingenious",
           "word": "ingenious",
@@ -892,12 +874,7 @@
             "clumsy",
             "awkward"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2027-06-deft",
           "word": "deft",
@@ -914,7 +891,12 @@
             "clumsy",
             "ham-fisted"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2027-06-adept",
           "word": "adept",
@@ -948,12 +930,7 @@
             "clumsy",
             "fumbling"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2027-06-facile",
           "word": "facile",
@@ -970,7 +947,12 @@
             "profound",
             "thorough"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2027-06-nuance",
           "word": "nuance",
@@ -1004,12 +986,7 @@
             "blatant",
             "glaring"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2027-06-subtlety",
           "word": "subtlety",
@@ -1026,7 +1003,12 @@
             "obviousness",
             "crudeness"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2027-06-nicety",
           "word": "nicety",
@@ -1059,12 +1041,7 @@
             "confuse",
             "conflate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2027-06-distinguish",
           "word": "distinguish",
@@ -1081,7 +1058,12 @@
             "confuse",
             "mix up"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2027-06-perceptive",
           "word": "perceptive",
@@ -1116,12 +1098,7 @@
             "murky",
             "muddled"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2027-06-specious",
           "word": "specious",
@@ -1139,7 +1116,12 @@
             "valid",
             "sound"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2027-06-fallacious",
           "word": "fallacious",
@@ -1175,12 +1157,7 @@
             "accurate",
             "right"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2027-06-untenable",
           "word": "untenable",
@@ -1198,7 +1175,12 @@
             "justifiable",
             "sound"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2027-06-paradox",
           "word": "paradox",
@@ -1213,29 +1195,6 @@
           ],
           "antonyms": []
         },
-        {
-          "id": "2027-06-anomaly",
-          "word": "anomaly",
-          "partOfSpeech": "noun",
-          "definition": "Something that differs from what is normal, usual, or expected.",
-          "example": "The sudden spike in ocean temperature was an anomaly the scientists could not explain.",
-          "mnemonic": "'a-' (not) + 'nomaly' sounds like 'normally' — an anomaly is simply not normal.",
-          "synonyms": [
-            "aberration",
-            "irregularity",
-            "oddity"
-          ],
-          "antonyms": [
-            "norm",
-            "regularity",
-            "standard"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
         {
           "id": "2027-06-discrepancy",
           "word": "discrepancy",
@@ -1271,7 +1230,12 @@
             "fitting",
             "compatible"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2027-06-disparate",
           "word": "disparate",
@@ -1289,12 +1253,7 @@
             "alike",
             "uniform"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2027-06-pertinent",
           "word": "pertinent",
@@ -1311,24 +1270,6 @@
             "irrelevant",
             "unrelated",
             "immaterial"
-          ]
-        },
-        {
-          "id": "2027-06-salient",
-          "word": "salient",
-          "partOfSpeech": "adjective",
-          "definition": "Standing out as the most noticeable or important part of something.",
-          "example": "The teacher condensed the salient points of the chapter into three short bullets.",
-          "mnemonic": "From Latin salire, 'to leap' — a salient point leaps out at you, like a 'sail' catching the eye.",
-          "synonyms": [
-            "prominent",
-            "notable",
-            "conspicuous"
-          ],
-          "antonyms": [
-            "minor",
-            "insignificant",
-            "inconspicuous"
           ]
         },
         {
@@ -1352,7 +1293,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 24,
       "words": [
         {
           "id": "2027-06-quintessential",
@@ -1403,7 +1344,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 25,
       "words": [
         {
           "id": "2027-06-criterion",
@@ -1453,7 +1394,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 26,
       "words": [
         {
           "id": "2027-06-rectitude",
@@ -1511,7 +1452,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 27,
       "words": [
         {
           "id": "2027-06-arbitrary",
@@ -1565,7 +1506,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 28,
       "words": [
         {
           "id": "2027-06-construe",

@@ -42,29 +42,6 @@
           ]
         },
         {
-          "id": "2027-01-ephemeral",
-          "word": "ephemeral",
-          "partOfSpeech": "adjective",
-          "definition": "Lasting only a brief moment before disappearing.",
-          "example": "The mayfly's ephemeral life spans barely a single day.",
-          "mnemonic": "Greek 'epi-hemera' = upon a day; mayflies (order Ephemeroptera) live about one day.",
-          "synonyms": [
-            "short-lived",
-            "momentary",
-            "fleeting"
-          ],
-          "antonyms": [
-            "lasting",
-            "permanent",
-            "eternal"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "words": [
-        {
           "id": "2027-01-transient",
           "word": "transient",
           "partOfSpeech": "adjective",
@@ -81,7 +58,12 @@
             "lasting",
             "enduring"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
         {
           "id": "2027-01-transitory",
           "word": "transitory",
@@ -117,12 +99,7 @@
             "permanent",
             "enduring"
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2027-01-evanescent",
           "word": "evanescent",
@@ -140,7 +117,12 @@
             "lasting",
             "enduring"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
         {
           "id": "2027-01-perennial",
           "word": "perennial",
@@ -176,12 +158,7 @@
             "fleeting",
             "intermittent"
           ]
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
+        },
         {
           "id": "2027-01-enduring",
           "word": "enduring",
@@ -199,7 +176,12 @@
             "temporary",
             "ephemeral"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
         {
           "id": "2027-01-abiding",
           "word": "abiding",
@@ -235,29 +217,6 @@
             "yielding",
             "flexible"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
-        {
-          "id": "2027-01-capricious",
-          "word": "capricious",
-          "partOfSpeech": "adjective",
-          "definition": "Prone to sudden, unpredictable shifts in mood or behavior.",
-          "example": "The capricious manager praised the plan on Monday and scrapped it by Tuesday.",
-          "mnemonic": "From Italian 'capra' (goat) — picture a capering goat leaping unpredictably this way and that.",
-          "synonyms": [
-            "fickle",
-            "whimsical",
-            "unpredictable"
-          ],
-          "antonyms": [
-            "steady",
-            "consistent",
-            "constant"
-          ]
         },
         {
           "id": "2027-01-mercurial",
@@ -276,7 +235,12 @@
             "steady",
             "constant"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-01-volatile",
           "word": "volatile",
@@ -294,12 +258,7 @@
             "steady",
             "calm"
           ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2027-01-protean",
           "word": "protean",
@@ -334,7 +293,12 @@
             "stasis",
             "stagnation"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-01-transmute",
           "word": "transmute",
@@ -352,12 +316,7 @@
             "retain",
             "fix"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2027-01-transfigure",
           "word": "transfigure",
@@ -373,23 +332,6 @@
           "antonyms": [
             "disfigure",
             "mar"
-          ]
-        },
-        {
-          "id": "2027-01-vicissitude",
-          "word": "vicissitude",
-          "partOfSpeech": "noun",
-          "definition": "An unpredictable change or variation in one's circumstances or fortune over time.",
-          "example": "Through every vicissitude of her long career, she carried the same battered notebook.",
-          "mnemonic": "Say 'vi-SIS-i-tude' — picture a fickle sis (sister) whose moods and luck keep swinging.",
-          "synonyms": [
-            "fluctuation",
-            "upheaval",
-            "reversal"
-          ],
-          "antonyms": [
-            "stability",
-            "constancy"
           ]
         },
         {
@@ -409,25 +351,8 @@
       ]
     },
     {
-      "day": 8,
+      "day": 7,
       "words": [
-        {
-          "id": "2027-01-aberration",
-          "word": "aberration",
-          "partOfSpeech": "noun",
-          "definition": "A departure from the normal, usual, or expected, often a one-off lapse.",
-          "example": "His outburst was an aberration; usually he's the calmest person in the room.",
-          "mnemonic": "'ab-' (away) + 'err' (to stray) — a straying away from the normal path.",
-          "synonyms": [
-            "deviation",
-            "anomaly",
-            "lapse"
-          ],
-          "antonyms": [
-            "norm",
-            "regularity"
-          ]
-        },
         {
           "id": "2027-01-anomaly",
           "word": "anomaly",
@@ -463,12 +388,7 @@
             "dynamic",
             "thriving"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2027-01-inert",
           "word": "inert",
@@ -486,7 +406,12 @@
             "dynamic",
             "reactive"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-01-entrench",
           "word": "entrench",
@@ -522,12 +447,7 @@
             "loosen",
             "adapt"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-01-calcify",
           "word": "calcify",
@@ -545,7 +465,12 @@
             "dissolve",
             "loosen"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-01-atrophy",
           "word": "atrophy",
@@ -581,12 +506,7 @@
             "grow",
             "increase"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-01-wax",
           "word": "wax",
@@ -604,7 +524,12 @@
             "diminish",
             "shrink"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-01-ebb",
           "word": "ebb",
@@ -640,12 +565,7 @@
             "increase",
             "expand"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-01-abate",
           "word": "abate",
@@ -663,7 +583,12 @@
             "increase",
             "worsen"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-01-subside",
           "word": "subside",
@@ -699,12 +624,7 @@
             "wither",
             "dwindle"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-01-proliferate",
           "word": "proliferate",
@@ -722,7 +642,12 @@
             "decrease",
             "diminish"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-01-flourish",
           "word": "flourish",
@@ -758,12 +683,7 @@
             "thrive",
             "bloom"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-01-degenerate",
           "word": "degenerate",
@@ -781,7 +701,12 @@
             "develop",
             "advance"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2027-01-deteriorate",
           "word": "deteriorate",
@@ -817,12 +742,7 @@
             "accumulate",
             "deposit"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2027-01-corrode",
           "word": "corrode",
@@ -840,7 +760,12 @@
             "protect",
             "preserve"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2027-01-decay",
           "word": "decay",
@@ -876,12 +801,7 @@
             "combine",
             "integrate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2027-01-obsolete",
           "word": "obsolete",
@@ -899,7 +819,12 @@
             "modern",
             "cutting-edge"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2027-01-antiquated",
           "word": "antiquated",
@@ -935,12 +860,7 @@
             "flourishing",
             "vigorous"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2027-01-defunct",
           "word": "defunct",
@@ -958,25 +878,12 @@
             "operational",
             "living"
           ]
-        },
-        {
-          "id": "2027-01-nascent",
-          "word": "nascent",
-          "partOfSpeech": "adjective",
-          "definition": "Just coming into being and starting to show signs of future growth.",
-          "example": "The nascent startup had only three employees and a single rough prototype.",
-          "mnemonic": "Shares a root with 'natal' and 'native' (Latin 'nasci', to be born) — a nascent thing is newborn.",
-          "synonyms": [
-            "emerging",
-            "budding",
-            "developing"
-          ],
-          "antonyms": [
-            "mature",
-            "established",
-            "developed"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2027-01-incipient",
           "word": "incipient",
@@ -994,12 +901,7 @@
             "developed",
             "mature"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2027-01-embryonic",
           "word": "embryonic",
@@ -1035,29 +937,11 @@
             "established",
             "veteran"
           ]
-        },
-        {
-          "id": "2027-01-inchoate",
-          "word": "inchoate",
-          "partOfSpeech": "adjective",
-          "definition": "Only partly formed, vague, and not yet clearly worked out.",
-          "example": "She had inchoate ideas for the novel but no plot or characters yet.",
-          "mnemonic": "Say 'in-KO-ate' and picture 'in-cocoon' — still wrapped up and shapeless.",
-          "synonyms": [
-            "unformed",
-            "vague",
-            "rudimentary"
-          ],
-          "antonyms": [
-            "complete",
-            "developed",
-            "fully-formed"
-          ]
         }
       ]
     },
     {
-      "day": 19,
+      "day": 17,
       "words": [
         {
           "id": "2027-01-germinate",
@@ -1116,7 +1000,7 @@
       ]
     },
     {
-      "day": 20,
+      "day": 18,
       "words": [
         {
           "id": "2027-01-amend",
@@ -1175,7 +1059,7 @@
       ]
     },
     {
-      "day": 21,
+      "day": 19,
       "words": [
         {
           "id": "2027-01-transform",
@@ -1231,7 +1115,7 @@
       ]
     },
     {
-      "day": 22,
+      "day": 20,
       "words": [
         {
           "id": "2027-01-rejuvenate",
@@ -1287,7 +1171,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 21,
       "words": [
         {
           "id": "2027-01-renaissance",
@@ -1343,7 +1227,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 22,
       "words": [
         {
           "id": "2027-01-revert",
@@ -1399,7 +1283,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 23,
       "words": [
         {
           "id": "2027-01-entropy",
@@ -1455,7 +1339,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 24,
       "words": [
         {
           "id": "2027-01-enshrine",
@@ -1512,7 +1396,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 25,
       "words": [
         {
           "id": "2027-01-inveterate",
@@ -1569,7 +1453,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 26,
       "words": [
         {
           "id": "2027-01-durable",
@@ -1626,7 +1510,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 27,
       "words": [
         {
           "id": "2027-01-obstinate",
@@ -1665,47 +1549,6 @@
           ]
         },
         {
-          "id": "2027-01-recalcitrant",
-          "word": "recalcitrant",
-          "partOfSpeech": "adjective",
-          "definition": "Stubbornly resisting authority, control, or discipline.",
-          "example": "The recalcitrant recruit ignored every order the sergeant barked.",
-          "mnemonic": "From Latin 'calcitrare', to kick with the heel — a recalcitrant mule kicks back against the reins.",
-          "synonyms": [
-            "defiant",
-            "unruly",
-            "disobedient"
-          ],
-          "antonyms": [
-            "obedient",
-            "compliant",
-            "docile"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 30,
-      "words": [
-        {
-          "id": "2027-01-obdurate",
-          "word": "obdurate",
-          "partOfSpeech": "adjective",
-          "definition": "Stubbornly refusing to change, often without pity or remorse.",
-          "example": "The judge remained obdurate despite the family's tearful pleas.",
-          "mnemonic": "ob- + DURA (hard, as in 'dura mater'): hardened all the way through, heart and all.",
-          "synonyms": [
-            "unrelenting",
-            "hardhearted",
-            "stubborn"
-          ],
-          "antonyms": [
-            "yielding",
-            "merciful",
-            "soft"
-          ]
-        },
-        {
           "id": "2027-01-inflexible",
           "word": "inflexible",
           "partOfSpeech": "adjective",
@@ -1722,7 +1565,12 @@
             "lenient",
             "flexible"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
         {
           "id": "2027-01-unyielding",
           "word": "unyielding",
@@ -1739,6 +1587,24 @@
             "submissive",
             "compliant",
             "flexible"
+          ]
+        },
+        {
+          "id": "2027-01-permanence",
+          "word": "permanence",
+          "partOfSpeech": "noun",
+          "definition": "The quality of lasting or staying unchanged for a very long time.",
+          "example": "She loved the permanence of stone monuments, which outlast every generation that passes.",
+          "mnemonic": "Think 'per-MAN-ence' — a man who stays put forever, never leaving his post.",
+          "synonyms": [
+            "durability",
+            "endurance",
+            "stability"
+          ],
+          "antonyms": [
+            "impermanence",
+            "transience",
+            "fleetingness"
           ]
         }
       ]

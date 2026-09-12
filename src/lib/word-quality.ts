@@ -121,13 +121,34 @@ function isCircular(definition: string, word: string): boolean {
     .some((token) => stem(token) === target);
 }
 
-/** Does the sentence contain the word, in any inflection? */
+/**
+ * Does the sentence contain the word, in any inflection?
+ *
+ * Matched by shared prefix rather than by stem equality, because the stemmer
+ * is deliberately conservative and does not always reduce a word and its
+ * inflection to the same key: `rebuff` stems to `rebuff` but `rebuffed` to
+ * `rebuf`, and `compel` to `compel` but `compelled` to `compell`. Demanding
+ * equality reported four perfectly good cards as missing their own word.
+ *
+ * Leniency is the right direction here. This check exists to catch an example
+ * that omits the word *entirely*; a rare false match costs nothing, while a
+ * false alarm sends a good card back for regeneration.
+ */
 function containsWord(sentence: string, word: string): boolean {
   const target = stem(word);
-  if (!target) return false;
+  if (target.length < 3) return false;
+
   return normalizeText(sentence)
     .split(" ")
-    .some((token) => stem(token) === target);
+    .some((token) => {
+      const candidate = stem(token);
+      if (candidate.length < 3) return false;
+      const [shorter, longer] =
+        candidate.length <= target.length
+          ? [candidate, target]
+          : [target, candidate];
+      return longer.startsWith(shorter);
+    });
 }
 
 /**

@@ -318,23 +318,6 @@
           ]
         },
         {
-          "id": "2027-09-entropy",
-          "word": "entropy",
-          "partOfSpeech": "noun",
-          "definition": "The gradual slide of any system toward disorder and randomness.",
-          "example": "Left unattended for years, the garden succumbed to entropy, weeds swallowing the neat rows.",
-          "mnemonic": "En-TROP-y sounds like 'a trophy' left out to slowly rust into chaos.",
-          "synonyms": [
-            "disorder",
-            "chaos",
-            "decay"
-          ],
-          "antonyms": [
-            "order",
-            "organization"
-          ]
-        },
-        {
           "id": "2027-09-flux",
           "word": "flux",
           "partOfSpeech": "noun",
@@ -351,12 +334,7 @@
             "stasis",
             "constancy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2027-09-disrupt",
           "word": "disrupt",
@@ -373,7 +351,12 @@
             "order",
             "settle"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2027-09-dishevel",
           "word": "dishevel",
@@ -409,12 +392,7 @@
             "knot",
             "complicate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2027-09-fragment",
           "word": "fragment",
@@ -431,7 +409,12 @@
             "whole",
             "entirety"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-09-splinter",
           "word": "splinter",
@@ -465,12 +448,7 @@
             "mend",
             "repair"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2027-09-disperse",
           "word": "disperse",
@@ -488,7 +466,12 @@
             "assemble",
             "collect"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-09-scatter",
           "word": "scatter",
@@ -524,12 +507,7 @@
             "accumulate",
             "condense"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-09-dissolve",
           "word": "dissolve",
@@ -546,25 +524,12 @@
             "solidify",
             "congeal"
           ]
-        },
-        {
-          "id": "2027-09-disintegrate",
-          "word": "disintegrate",
-          "partOfSpeech": "verb",
-          "definition": "To break down completely into tiny parts and fall apart.",
-          "example": "The ancient parchment began to disintegrate the moment it was exposed to air.",
-          "mnemonic": "dis- (undo) + 'integrate' (make whole) — the undoing of wholeness into dust.",
-          "synonyms": [
-            "crumble",
-            "decompose",
-            "collapse"
-          ],
-          "antonyms": [
-            "unite",
-            "integrate",
-            "cohere"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-09-dismantle",
           "word": "dismantle",
@@ -582,12 +547,7 @@
             "build",
             "construct"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-09-systematic",
           "word": "systematic",
@@ -623,7 +583,12 @@
             "careless",
             "random"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-09-orderly",
           "word": "orderly",
@@ -641,12 +606,7 @@
             "messy",
             "unruly"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-09-regimented",
           "word": "regimented",
@@ -682,7 +642,12 @@
             "disjointed",
             "rambling"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-09-cohesive",
           "word": "cohesive",
@@ -700,12 +665,7 @@
             "divided",
             "disjointed"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-09-symmetry",
           "word": "symmetry",
@@ -741,7 +701,12 @@
             "instability",
             "disorder"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2027-09-stasis",
           "word": "stasis",
@@ -759,12 +724,7 @@
             "movement",
             "progress"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-09-consolidate",
           "word": "consolidate",
@@ -800,29 +760,11 @@
             "split",
             "disperse"
           ]
-        },
-        {
-          "id": "2027-09-aggregate",
-          "word": "aggregate",
-          "partOfSpeech": "verb",
-          "definition": "To gather separate items into a single collection or total.",
-          "example": "The app aggregates headlines from hundreds of sources onto one screen.",
-          "mnemonic": "ag- + 'greg' (Latin grex, a flock) — gather the whole flock into one.",
-          "synonyms": [
-            "collect",
-            "gather",
-            "accumulate"
-          ],
-          "antonyms": [
-            "separate",
-            "disperse",
-            "scatter"
-          ]
         }
       ]
     },
     {
-      "day": 15,
+      "day": 14,
       "words": [
         {
           "id": "2027-09-amalgamate",
@@ -881,7 +823,7 @@
       ]
     },
     {
-      "day": 16,
+      "day": 15,
       "words": [
         {
           "id": "2027-09-collate",
@@ -933,7 +875,7 @@
       ]
     },
     {
-      "day": 17,
+      "day": 16,
       "words": [
         {
           "id": "2027-09-demarcate",
@@ -989,7 +931,7 @@
       ]
     },
     {
-      "day": 18,
+      "day": 17,
       "words": [
         {
           "id": "2027-09-calibrate",
@@ -1043,7 +985,7 @@
       ]
     },
     {
-      "day": 19,
+      "day": 18,
       "words": [
         {
           "id": "2027-09-streamline",
@@ -1097,7 +1039,7 @@
       ]
     },
     {
-      "day": 20,
+      "day": 19,
       "words": [
         {
           "id": "2027-09-standardize",
@@ -1152,7 +1094,7 @@
       ]
     },
     {
-      "day": 21,
+      "day": 20,
       "words": [
         {
           "id": "2027-09-disjointed",
@@ -1211,7 +1153,7 @@
       ]
     },
     {
-      "day": 22,
+      "day": 21,
       "words": [
         {
           "id": "2027-09-unruly",
@@ -1270,7 +1212,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 22,
       "words": [
         {
           "id": "2027-09-unbridled",
@@ -1329,7 +1271,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 23,
       "words": [
         {
           "id": "2027-09-boisterous",
@@ -1388,7 +1330,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 24,
       "words": [
         {
           "id": "2027-09-jarring",
@@ -1447,7 +1389,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 25,
       "words": [
         {
           "id": "2027-09-commotion",
@@ -1467,106 +1409,6 @@
             "stillness"
           ]
         },
-        {
-          "id": "2027-09-profusion",
-          "word": "profusion",
-          "partOfSpeech": "noun",
-          "definition": "A very large, generous quantity of something, often overflowing.",
-          "example": "The garden erupted into a profusion of colors every spring.",
-          "mnemonic": "'Pro + fusion' — things fused together in such huge amounts they spill over.",
-          "synonyms": [
-            "abundance",
-            "wealth",
-            "bounty"
-          ],
-          "antonyms": [
-            "scarcity",
-            "dearth",
-            "lack"
-          ]
-        },
-        {
-          "id": "2027-09-plethora",
-          "word": "plethora",
-          "partOfSpeech": "noun",
-          "definition": "An excess of something; far more than is needed.",
-          "example": "The new phone came with a plethora of features most people never touched.",
-          "mnemonic": "Hear 'plenty-thora' — plenty, and then a whole lot more.",
-          "synonyms": [
-            "excess",
-            "surplus",
-            "overabundance"
-          ],
-          "antonyms": [
-            "shortage",
-            "scarcity",
-            "lack"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 27,
-      "words": [
-        {
-          "id": "2027-09-surfeit",
-          "word": "surfeit",
-          "partOfSpeech": "noun",
-          "definition": "An excessive amount, especially of food or something indulgent.",
-          "example": "After the holidays he felt sick from a surfeit of rich desserts.",
-          "mnemonic": "'Sur-' means over (like surplus) + 'feit' — an overfeeding until you're stuffed.",
-          "synonyms": [
-            "excess",
-            "glut",
-            "overindulgence"
-          ],
-          "antonyms": [
-            "lack",
-            "dearth",
-            "shortage"
-          ]
-        },
-        {
-          "id": "2027-09-glut",
-          "word": "glut",
-          "partOfSpeech": "noun",
-          "definition": "An oversupply of something that far exceeds demand.",
-          "example": "A glut of oil on the market sent prices crashing.",
-          "mnemonic": "Sounds like 'gulp' into your 'gut' — so much you're overfilled.",
-          "synonyms": [
-            "surplus",
-            "excess",
-            "oversupply"
-          ],
-          "antonyms": [
-            "shortage",
-            "scarcity",
-            "deficit"
-          ]
-        },
-        {
-          "id": "2027-09-deluge",
-          "word": "deluge",
-          "partOfSpeech": "noun",
-          "definition": "A great flood or an overwhelming rush of water or things.",
-          "example": "The office was hit by a deluge of complaints after the fee was announced.",
-          "mnemonic": "Picture 'the luge' — an icy chute with water gushing down it uncontrollably.",
-          "synonyms": [
-            "flood",
-            "downpour",
-            "inundation"
-          ],
-          "antonyms": [
-            "trickle",
-            "drought",
-            "drip"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 28,
-      "words": [
         {
           "id": "2027-09-torrent",
           "word": "torrent",
@@ -1601,29 +1443,11 @@
             "trickle",
             "drip"
           ]
-        },
-        {
-          "id": "2027-09-fleeting",
-          "word": "fleeting",
-          "partOfSpeech": "adjective",
-          "definition": "Lasting only a very short time; quickly passing.",
-          "example": "She caught only a fleeting glimpse of the deer before it vanished into the trees.",
-          "mnemonic": "Sounds like 'fleeing' — it runs off fast and is gone in a moment.",
-          "synonyms": [
-            "brief",
-            "transient",
-            "momentary"
-          ],
-          "antonyms": [
-            "lasting",
-            "permanent",
-            "enduring"
-          ]
         }
       ]
     },
     {
-      "day": 29,
+      "day": 26,
       "words": [
         {
           "id": "2027-09-mundane",
@@ -1644,83 +1468,6 @@
           ]
         },
         {
-          "id": "2027-09-copious",
-          "word": "copious",
-          "partOfSpeech": "adjective",
-          "definition": "Present in large amounts; plentiful.",
-          "example": "The student took copious notes throughout the three-hour lecture.",
-          "mnemonic": "'Copi' like 'copy' — imagine making so many copies you have loads.",
-          "synonyms": [
-            "abundant",
-            "plentiful",
-            "ample"
-          ],
-          "antonyms": [
-            "scarce",
-            "meager",
-            "sparse"
-          ]
-        },
-        {
-          "id": "2027-09-frugal",
-          "word": "frugal",
-          "partOfSpeech": "adjective",
-          "definition": "Careful and sparing with money or resources.",
-          "example": "Being frugal, she packed her lunch every day instead of eating out.",
-          "mnemonic": "Sounds like 'few-gal' — someone who spends on only a few things.",
-          "synonyms": [
-            "thrifty",
-            "economical",
-            "sparing"
-          ],
-          "antonyms": [
-            "wasteful",
-            "extravagant",
-            "lavish"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 30,
-      "words": [
-        {
-          "id": "2027-09-lavish",
-          "word": "lavish",
-          "partOfSpeech": "adjective",
-          "definition": "Very generous, abundant, or extravagant.",
-          "example": "They threw a lavish wedding with hundreds of guests and gold decorations.",
-          "mnemonic": "'La-VISH' sounds like 'ooh la la' — luxury poured on richly.",
-          "synonyms": [
-            "extravagant",
-            "opulent",
-            "sumptuous"
-          ],
-          "antonyms": [
-            "frugal",
-            "sparse",
-            "meager"
-          ]
-        },
-        {
-          "id": "2027-09-opulent",
-          "word": "opulent",
-          "partOfSpeech": "adjective",
-          "definition": "Displaying great wealth and luxury.",
-          "example": "The hotel lobby was opulent, with marble floors and crystal chandeliers.",
-          "mnemonic": "Think 'opal' — glittering gemstones dripping with riches.",
-          "synonyms": [
-            "luxurious",
-            "lavish",
-            "sumptuous"
-          ],
-          "antonyms": [
-            "poor",
-            "plain",
-            "austere"
-          ]
-        },
-        {
           "id": "2027-09-squander",
           "word": "squander",
           "partOfSpeech": "verb",
@@ -1736,6 +1483,106 @@
             "save",
             "conserve",
             "hoard"
+          ]
+        },
+        {
+          "id": "2027-09-maelstrom",
+          "word": "maelstrom",
+          "partOfSpeech": "noun",
+          "definition": "A violent whirlpool, or a situation of great turbulence and uncontrollable confusion.",
+          "example": "When the factory closed, the whole town was pulled into a maelstrom of panic, rumor, and frantic job-hunting.",
+          "mnemonic": "Sounds like 'mail storm' — picture a spinning funnel of water sucking down letters, boats, and everything nearby.",
+          "synonyms": [
+            "whirlpool",
+            "vortex",
+            "turmoil"
+          ],
+          "antonyms": [
+            "calm",
+            "stillness",
+            "order"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2027-09-systematize",
+          "word": "systematize",
+          "partOfSpeech": "verb",
+          "definition": "To arrange scattered parts into an orderly, methodical whole by following consistent rules.",
+          "example": "Before the merger, she spent weeks helping the two teams systematize their mismatched filing methods into one shared process.",
+          "mnemonic": "Break it down: 'system' + '-ize' — to turn loose, random things into a single tidy system.",
+          "synonyms": [
+            "organize",
+            "order",
+            "arrange"
+          ],
+          "antonyms": [
+            "scramble",
+            "jumble",
+            "disorder"
+          ]
+        },
+        {
+          "id": "2027-09-anarchic",
+          "word": "anarchic",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by the absence of authority, rules, or any governing order.",
+          "example": "The substitute teacher lost control, and the classroom turned anarchic, with kids shouting and paper airplanes flying everywhere.",
+          "mnemonic": "Greek roots: 'an-' (without) + '-arch' (ruler) — picture a kingdom with no king and no rules at all.",
+          "synonyms": [
+            "lawless",
+            "ungoverned",
+            "rebellious"
+          ],
+          "antonyms": [
+            "orderly",
+            "disciplined",
+            "regulated"
+          ]
+        },
+        {
+          "id": "2027-09-chaotic",
+          "word": "chaotic",
+          "partOfSpeech": "adjective",
+          "definition": "Completely disordered and confused, with no discernible arrangement or control.",
+          "example": "The morning commute became chaotic after a burst pipe flooded the station and every train stopped without warning.",
+          "mnemonic": "Picture a toddler's birthday party frozen in one snapshot: cake smeared, kids screaming, balloons ricocheting off the walls.",
+          "synonyms": [
+            "disordered",
+            "turbulent",
+            "frenzied"
+          ],
+          "antonyms": [
+            "orderly",
+            "calm",
+            "organized"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2027-09-regimen",
+          "word": "regimen",
+          "partOfSpeech": "noun",
+          "definition": "A systematic plan of diet, exercise, or treatment followed to improve health or performance.",
+          "example": "His doctor prescribed a strict regimen of morning walks, low-salt meals, and two pills taken before bed.",
+          "mnemonic": "Sounds like 'regiment' — imagine a regiment of soldiers marching through the same disciplined daily drill.",
+          "synonyms": [
+            "routine",
+            "program",
+            "protocol"
+          ],
+          "antonyms": [
+            "spontaneity",
+            "improvisation",
+            "randomness"
           ]
         }
       ]

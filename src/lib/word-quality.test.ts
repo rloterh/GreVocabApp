@@ -217,3 +217,41 @@ describe("the shared overlap measure", () => {
     expect(normalizeText("  Hello,   WORLD! ")).toBe("hello world");
   });
 });
+
+describe("inflections the stemmer does not fully reduce", () => {
+  // All four were reported as "the example does not use the word" by an
+  // earlier equality-based check, on cards that plainly do use it. The
+  // stemmer is deliberately conservative and its keys are asymmetric.
+  it.each([
+    ["sate", "After three helpings, the hikers were finally sated."],
+    ["compel", "A sense of duty compelled her to report the crime."],
+    ["rebuff", "Every time he tried to help, she rebuffed him coldly."],
+    ["abate", "The storm abated by morning."],
+    ["quash", "The judge quashed the subpoena without comment."],
+  ])("accepts %s in an example that inflects it", (word, example) => {
+    const issues = checkWord(card({ word, id: word, example }));
+    expect(issues.filter((i) => i.field === "example")).toEqual([]);
+  });
+
+  it("still catches an example that omits the word entirely", () => {
+    // The leniency must not go so far that the check stops working.
+    const issues = checkWord(
+      card({ word: "laconic", id: "laconic", example: "He said nothing at all." }),
+    );
+    expect(issues.some((i) => i.message.includes("does not use the word"))).toBe(true);
+  });
+
+  it("reads a word attached to punctuation", () => {
+    // "misfeasance—operating" was one token before punctuation became a
+    // separator, so the sentence read as not containing the word.
+    const issues = checkWord(
+      card({
+        word: "misfeasance",
+        id: "misfeasance",
+        definition: "Doing a lawful act in an improper way.",
+        example: "The surgeon's misfeasance—operating with unsterile tools—was plain.",
+      }),
+    );
+    expect(issues.filter((i) => i.field === "example")).toEqual([]);
+  });
+});

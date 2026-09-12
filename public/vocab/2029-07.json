@@ -1341,6 +1341,182 @@
             "succeed",
             "thrive"
           ]
+        },
+        {
+          "id": "2029-07-betide",
+          "word": "betide",
+          "partOfSpeech": "verb",
+          "definition": "To happen or occur, especially something bad affecting a particular person.",
+          "example": "Woe betide anyone who forgets to lock the vault before midnight.",
+          "mnemonic": "Split it as 'be' + 'tide' — a tide rolls in and reaches you whether you want it to or not.",
+          "synonyms": [
+            "befall",
+            "happen",
+            "occur"
+          ],
+          "antonyms": [
+            "avoid",
+            "miss",
+            "escape"
+          ]
+        },
+        {
+          "id": "2029-07-woe",
+          "word": "woe",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of deep sadness, grief, or a source of serious trouble.",
+          "example": "After the flood destroyed his farm, he poured out his tale of woe to the reporters.",
+          "mnemonic": "It sounds like the drawn-out groan 'ohh, woe' you let out when everything goes wrong.",
+          "synonyms": [
+            "sorrow",
+            "grief",
+            "misery"
+          ],
+          "antonyms": [
+            "joy",
+            "happiness",
+            "delight"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "2029-07-woeful",
+          "word": "woeful",
+          "partOfSpeech": "adjective",
+          "definition": "Full of sorrow, or pitifully poor and inadequate in quality.",
+          "example": "The team's woeful defending let in five goals before halftime.",
+          "mnemonic": "'woe' + 'ful' = literally full of woe — brimming with sadness or badness.",
+          "synonyms": [
+            "miserable",
+            "dismal",
+            "sorrowful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "excellent",
+            "joyful"
+          ]
+        },
+        {
+          "id": "2029-07-godsend",
+          "word": "godsend",
+          "partOfSpeech": "noun",
+          "definition": "Something helpful that arrives at exactly the right, much-needed moment.",
+          "example": "When my car died on the highway, the stranger's offer of a ride was a godsend.",
+          "mnemonic": "Read it as 'sent by a god' — a rescue that feels dropped from heaven just when you needed it.",
+          "synonyms": [
+            "blessing",
+            "boon",
+            "windfall"
+          ],
+          "antonyms": [
+            "curse",
+            "burden",
+            "misfortune"
+          ]
+        },
+        {
+          "id": "2029-07-soothsayer",
+          "word": "soothsayer",
+          "partOfSpeech": "noun",
+          "definition": "A person who claims to foretell coming events by supernatural means.",
+          "example": "The soothsayer warned Caesar to beware the ides of March.",
+          "mnemonic": "'sooth' is an old word for truth, so a soothsayer is a 'truth-sayer' about the future.",
+          "synonyms": [
+            "prophet",
+            "seer",
+            "oracle"
+          ],
+          "antonyms": [
+            "skeptic",
+            "historian",
+            "doubter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "2029-07-bode",
+          "word": "bode",
+          "partOfSpeech": "verb",
+          "definition": "To be a sign or omen of a particular outcome yet to come.",
+          "example": "The dark clouds massing over the harbor bode ill for the fishing fleet.",
+          "mnemonic": "Picture a black crow perched on your gate — its presence 'bodes' doom before it arrives.",
+          "synonyms": [
+            "portend",
+            "augur",
+            "foreshadow"
+          ],
+          "antonyms": [
+            "reassure",
+            "belie"
+          ]
+        },
+        {
+          "id": "2029-07-fluke",
+          "word": "fluke",
+          "partOfSpeech": "noun",
+          "definition": "A surprising result produced by chance rather than by skill or plan.",
+          "example": "Sinking the ball off three cushions was a total fluke, not real talent.",
+          "mnemonic": "'Fluke' nearly rhymes with 'luck' — a fluke is just dumb luck landing your way.",
+          "synonyms": [
+            "accident",
+            "coincidence",
+            "chance"
+          ],
+          "antonyms": [
+            "certainty",
+            "design",
+            "plan"
+          ]
+        },
+        {
+          "id": "2029-07-fatalism",
+          "word": "fatalism",
+          "partOfSpeech": "noun",
+          "definition": "The belief that all events are fixed in advance and cannot be changed.",
+          "example": "His fatalism meant he never made plans, convinced nothing he did could matter.",
+          "mnemonic": "'fatal' + 'ism' — the doctrine that your fate is already sealed no matter what.",
+          "synonyms": [
+            "determinism",
+            "resignation",
+            "predestination"
+          ],
+          "antonyms": [
+            "free will",
+            "optimism",
+            "self-determination"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2029-07-befall",
+          "word": "befall",
+          "partOfSpeech": "verb",
+          "definition": "To happen to someone, usually referring to an unfortunate event.",
+          "example": "She feared some disaster would befall them on the icy mountain pass.",
+          "mnemonic": "'be' + 'fall' — imagine trouble falling down onto you from above.",
+          "synonyms": [
+            "betide",
+            "happen",
+            "occur"
+          ],
+          "antonyms": [
+            "avoid",
+            "avert",
+            "escape"
+          ]
         }
       ]
     }

@@ -779,23 +779,6 @@
       "day": 16,
       "words": [
         {
-          "id": "2029-01-abound",
-          "word": "abound",
-          "partOfSpeech": "verb",
-          "definition": "To be present in very large amounts or numbers.",
-          "example": "In spring the meadow abounds with wildflowers and buzzing bees.",
-          "mnemonic": "a-BOUND — picture things bouncing around in huge, plentiful bounds.",
-          "synonyms": [
-            "teem",
-            "swarm",
-            "proliferate"
-          ],
-          "antonyms": [
-            "lack",
-            "want"
-          ]
-        },
-        {
           "id": "2029-01-cultivar",
           "word": "cultivar",
           "partOfSpeech": "noun",
@@ -827,12 +810,7 @@
             "rootstock",
             "ancestor"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2029-01-pollard",
           "word": "pollard",
@@ -846,7 +824,12 @@
             "trim"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2029-01-topiary",
           "word": "topiary",
@@ -872,12 +855,7 @@
             "pergola"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2029-01-bower",
           "word": "bower",
@@ -891,7 +869,12 @@
             "retreat"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2029-01-pergola",
           "word": "pergola",
@@ -917,12 +900,7 @@
             "frame"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2029-01-pasture",
           "word": "pasture",
@@ -936,7 +914,12 @@
             "grazing land"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2029-01-forage",
           "word": "forage",
@@ -963,12 +946,7 @@
             "provender"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2029-01-silage",
           "word": "silage",
@@ -981,7 +959,12 @@
             "feed"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2029-01-provender",
           "word": "provender",
@@ -1009,12 +992,7 @@
             "separate"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2029-01-thresh",
           "word": "thresh",
@@ -1027,7 +1005,12 @@
             "beat"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2029-01-harrow",
           "word": "harrow",
@@ -1052,12 +1035,7 @@
             "rootstock"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2029-01-corm",
           "word": "corm",
@@ -1069,7 +1047,12 @@
             "bulb"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2029-01-calyx",
           "word": "calyx",
@@ -1096,12 +1079,7 @@
           "antonyms": [
             "petal"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2029-01-stamen",
           "word": "stamen",
@@ -1114,7 +1092,12 @@
             "pistil",
             "carpel"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2029-01-bramble",
           "word": "bramble",
@@ -1140,12 +1123,7 @@
             "thornbush"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2029-01-bracken",
           "word": "bracken",
@@ -1157,7 +1135,12 @@
             "fern"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
         {
           "id": "2029-01-gorse",
           "word": "gorse",
@@ -1183,12 +1166,7 @@
             "whin"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2029-01-sedge",
           "word": "sedge",
@@ -1200,7 +1178,12 @@
             "rush"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
         {
           "id": "2029-01-lichen",
           "word": "lichen",
@@ -1222,12 +1205,7 @@
             "germ"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2029-01-mycelium",
           "word": "mycelium",
@@ -1240,7 +1218,12 @@
             "spawn"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
         {
           "id": "2029-01-canopy",
           "word": "canopy",
@@ -1271,12 +1254,7 @@
             "lawn"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 27,
-      "words": [
+        },
         {
           "id": "2029-01-herbage",
           "word": "herbage",
@@ -1290,7 +1268,12 @@
             "foliage"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
         {
           "id": "2029-01-pasturage",
           "word": "pasturage",
@@ -1322,12 +1305,7 @@
             "strive",
             "engage"
           ]
-        }
-      ]
-    },
-    {
-      "day": 28,
-      "words": [
+        },
         {
           "id": "2029-01-ramify",
           "word": "ramify",
@@ -1345,7 +1323,12 @@
             "merge",
             "unite"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
         {
           "id": "2029-01-inflorescence",
           "word": "inflorescence",
@@ -1374,12 +1357,7 @@
             "clothe",
             "cover"
           ]
-        }
-      ]
-    },
-    {
-      "day": 29,
-      "words": [
+        },
         {
           "id": "2029-01-floret",
           "word": "floret",
@@ -1392,7 +1370,12 @@
             "blossom"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
         {
           "id": "2029-01-arboretum",
           "word": "arboretum",

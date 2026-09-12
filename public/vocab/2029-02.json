@@ -188,24 +188,6 @@
           ]
         },
         {
-          "id": "2029-02-evince",
-          "word": "evince",
-          "partOfSpeech": "verb",
-          "definition": "To reveal or make plainly evident, especially a feeling or quality.",
-          "example": "Even as a toddler she evinced a fierce love of music, humming melodies before she could speak.",
-          "mnemonic": "e-VINCE looks like 'evidence' with the 'd' knocked out — to give evidence of something within.",
-          "synonyms": [
-            "display",
-            "manifest",
-            "demonstrate"
-          ],
-          "antonyms": [
-            "conceal",
-            "hide",
-            "mask"
-          ]
-        },
-        {
           "id": "2029-02-interpolate",
           "word": "interpolate",
           "partOfSpeech": "verb",
@@ -222,12 +204,7 @@
             "remove",
             "extract"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2029-02-deductive",
           "word": "deductive",
@@ -244,7 +221,12 @@
             "inductive",
             "empirical"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2029-02-inductive",
           "word": "inductive",
@@ -274,12 +256,7 @@
             "epistemological"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2029-02-epistemology",
           "word": "epistemology",
@@ -292,7 +269,12 @@
             "gnoseology"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2029-02-veridical",
           "word": "veridical",
@@ -328,12 +310,7 @@
             "disputable",
             "doubtful"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2029-02-irrefragable",
           "word": "irrefragable",
@@ -351,7 +328,12 @@
             "disputable",
             "questionable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2029-02-premise",
           "word": "premise",
@@ -385,12 +367,7 @@
             "cause",
             "premise"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2029-02-axiomatic",
           "word": "axiomatic",
@@ -408,7 +385,12 @@
             "questionable",
             "unproven"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2029-02-sophism",
           "word": "sophism",
@@ -440,12 +422,7 @@
             "sanity",
             "clarity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2029-02-delirious",
           "word": "delirious",
@@ -463,7 +440,12 @@
             "calm",
             "coherent"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2029-02-deranged",
           "word": "deranged",
@@ -499,12 +481,7 @@
             "rational",
             "sound"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2029-02-dementia",
           "word": "dementia",
@@ -520,7 +497,12 @@
             "lucidity",
             "mental acuity"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2029-02-lunacy",
           "word": "lunacy",
@@ -556,12 +538,7 @@
             "indifference",
             "calm"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2029-02-manic",
           "word": "manic",
@@ -579,7 +556,12 @@
             "placid",
             "composed"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2029-02-frenzy",
           "word": "frenzy",
@@ -615,12 +597,7 @@
             "leisurely",
             "relaxed"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2029-02-hysteria",
           "word": "hysteria",
@@ -638,7 +615,12 @@
             "composure",
             "serenity"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2029-02-hysterical",
           "word": "hysterical",
@@ -674,12 +656,7 @@
             "composed",
             "untroubled"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2029-02-febrile",
           "word": "febrile",
@@ -697,7 +674,12 @@
             "cool",
             "composed"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2029-02-rabid",
           "word": "rabid",
@@ -733,12 +715,7 @@
             "rational",
             "clear-headed"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2029-02-hallucination",
           "word": "hallucination",
@@ -756,7 +733,12 @@
             "actuality",
             "fact"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2029-02-paranoia",
           "word": "paranoia",
@@ -792,12 +774,7 @@
             "disinterest",
             "apathy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2029-02-irrational",
           "word": "irrational",
@@ -815,7 +792,12 @@
             "sensible",
             "reasonable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2029-02-absurdity",
           "word": "absurdity",
@@ -851,12 +833,7 @@
             "sensible",
             "coherent"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2029-02-incoherence",
           "word": "incoherence",
@@ -874,7 +851,12 @@
             "lucidity",
             "consistency"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2029-02-aberrant",
           "word": "aberrant",
@@ -910,12 +892,7 @@
             "wellness",
             "soundness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2029-02-unhinged",
           "word": "unhinged",
@@ -933,7 +910,12 @@
             "rational",
             "stable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2029-02-nonplus",
           "word": "nonplus",
@@ -968,12 +950,7 @@
             "stimulate",
             "invigorate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2029-02-disorient",
           "word": "disorient",
@@ -991,7 +968,12 @@
             "guide",
             "ground"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2029-02-fatuity",
           "word": "fatuity",
@@ -1027,12 +1009,7 @@
             "wisdom",
             "significance"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2029-02-vacuity",
           "word": "vacuity",
@@ -1050,7 +1027,12 @@
             "substance",
             "profundity"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2029-02-asinine",
           "word": "asinine",
@@ -1086,12 +1068,7 @@
             "adult",
             "sensible"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2029-02-injudicious",
           "word": "injudicious",
@@ -1109,7 +1086,12 @@
             "sensible",
             "wise"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2029-02-cerebrate",
           "word": "cerebrate",
@@ -1141,12 +1123,7 @@
             "compose",
             "calm"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2029-02-maunder",
           "word": "maunder",
@@ -1163,7 +1140,12 @@
             "focus",
             "concentrate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2029-02-besotted",
           "word": "besotted",
@@ -1197,12 +1179,7 @@
             "attentive",
             "focused"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2029-02-ineluctable",
           "word": "ineluctable",
@@ -1219,7 +1196,12 @@
             "avoidable",
             "escapable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2029-02-phantasmagoria",
           "word": "phantasmagoria",
@@ -1252,6 +1234,142 @@
           "antonyms": [
             "constant",
             "certainty"
+          ]
+        },
+        {
+          "id": "2029-02-excogitate",
+          "word": "excogitate",
+          "partOfSpeech": "verb",
+          "definition": "To devise or figure out a plan or idea through careful, deliberate thinking.",
+          "example": "She locked herself away for a week to excogitate a way out of the company's debt.",
+          "mnemonic": "ex- (out) + cogitate (to think): to think something OUT.",
+          "synonyms": [
+            "devise",
+            "contrive",
+            "formulate"
+          ],
+          "antonyms": [
+            "improvise",
+            "guess",
+            "overlook"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2029-02-preposterous",
+          "word": "preposterous",
+          "partOfSpeech": "adjective",
+          "definition": "Utterly absurd, contrary to common sense, or ridiculous to the point of disbelief.",
+          "example": "The claim that he swam across the ocean overnight is simply preposterous.",
+          "mnemonic": "Latin prae- (before) + posterus (after): 'before-after,' back-to-front and nonsensical.",
+          "synonyms": [
+            "absurd",
+            "ridiculous",
+            "ludicrous"
+          ],
+          "antonyms": [
+            "reasonable",
+            "sensible",
+            "plausible"
+          ]
+        },
+        {
+          "id": "2029-02-paroxysm",
+          "word": "paroxysm",
+          "partOfSpeech": "noun",
+          "definition": "A sudden, violent outburst of emotion, activity, or a bodily attack.",
+          "example": "At the punchline the whole room collapsed into a paroxysm of helpless laughter.",
+          "mnemonic": "Sounds like 'pair of spasms' — sudden, uncontrollable fits.",
+          "synonyms": [
+            "fit",
+            "outburst",
+            "spasm"
+          ],
+          "antonyms": [
+            "calm",
+            "composure",
+            "equanimity"
+          ]
+        },
+        {
+          "id": "2029-02-folly",
+          "word": "folly",
+          "partOfSpeech": "noun",
+          "definition": "A serious lack of good judgment, or a costly, senseless act.",
+          "example": "Building a mansion on the crumbling cliff proved to be an expensive folly.",
+          "mnemonic": "Sounds like 'follow' — blindly following a whim straight into trouble.",
+          "synonyms": [
+            "foolishness",
+            "stupidity",
+            "recklessness"
+          ],
+          "antonyms": [
+            "wisdom",
+            "prudence",
+            "sense"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "2029-02-fanaticism",
+          "word": "fanaticism",
+          "partOfSpeech": "noun",
+          "definition": "Excessive, uncritical enthusiasm or devotion, especially toward a religious or political cause.",
+          "example": "His fanaticism for the team drove him to attend every game across three continents.",
+          "mnemonic": "Hidden 'fan' — a super-fan whose devotion has spun completely out of proportion.",
+          "synonyms": [
+            "zealotry",
+            "extremism",
+            "dogmatism"
+          ],
+          "antonyms": [
+            "moderation",
+            "indifference",
+            "apathy"
+          ]
+        },
+        {
+          "id": "2029-02-zealotry",
+          "word": "zealotry",
+          "partOfSpeech": "noun",
+          "definition": "Fanatical, uncompromising devotion to a cause, pursued with relentless intensity.",
+          "example": "The reformer's zealotry alienated even the allies who shared his goals.",
+          "mnemonic": "A 'zealot' guarding a fortress gate, fierce and refusing all compromise.",
+          "synonyms": [
+            "fanaticism",
+            "extremism",
+            "militancy"
+          ],
+          "antonyms": [
+            "apathy",
+            "moderation",
+            "tolerance"
+          ]
+        },
+        {
+          "id": "2029-02-berserk",
+          "word": "berserk",
+          "partOfSpeech": "adjective",
+          "definition": "Wildly out of control, frenzied, or destructively enraged.",
+          "example": "When the printer jammed yet again, he went berserk and hurled it out the window.",
+          "mnemonic": "From Norse 'berserkers' — bear-shirted warriors who fought in a wild frenzy.",
+          "synonyms": [
+            "frenzied",
+            "crazed",
+            "wild"
+          ],
+          "antonyms": [
+            "calm",
+            "composed",
+            "serene"
           ]
         }
       ]

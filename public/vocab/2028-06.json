@@ -42,29 +42,6 @@
           ]
         },
         {
-          "id": "2028-06-flourish",
-          "word": "flourish",
-          "partOfSpeech": "verb",
-          "definition": "To grow well and develop in a healthy, vigorous way.",
-          "example": "With daily watering and sunlight, the once-dying ferns began to flourish across the balcony.",
-          "mnemonic": "Sounds like 'FLOUR-ish': when a bakery has plenty of flour, the business grows and blooms.",
-          "synonyms": [
-            "thrive",
-            "bloom",
-            "prosper"
-          ],
-          "antonyms": [
-            "wither",
-            "decline",
-            "fail"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "words": [
-        {
           "id": "2028-06-thrive",
           "word": "thrive",
           "partOfSpeech": "verb",
@@ -81,7 +58,12 @@
             "languish",
             "decline"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
         {
           "id": "2028-06-lucre",
           "word": "lucre",
@@ -109,12 +91,7 @@
             "wealth"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2028-06-patrimony",
           "word": "patrimony",
@@ -128,7 +105,12 @@
             "legacy"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
         {
           "id": "2028-06-inheritance",
           "word": "inheritance",
@@ -156,12 +138,7 @@
             "holdings"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
+        },
         {
           "id": "2028-06-solvent",
           "word": "solvent",
@@ -178,7 +155,12 @@
             "bankrupt",
             "broke"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
         {
           "id": "2028-06-solvency",
           "word": "solvency",
@@ -208,12 +190,7 @@
           "antonyms": [
             "democracy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2028-06-plutocrat",
           "word": "plutocrat",
@@ -229,7 +206,12 @@
           "antonyms": [
             "pauper"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2028-06-magnate",
           "word": "magnate",
@@ -257,12 +239,7 @@
             "baron"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2028-06-mogul",
           "word": "mogul",
@@ -280,7 +257,12 @@
             "nobody",
             "pauper"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2028-06-nabob",
           "word": "nabob",
@@ -316,12 +298,7 @@
             "destitute",
             "penniless"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2028-06-palatial",
           "word": "palatial",
@@ -339,7 +316,12 @@
             "modest",
             "humble"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2028-06-decadent",
           "word": "decadent",
@@ -375,12 +357,7 @@
             "ascetic",
             "spartan"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2028-06-epicurean",
           "word": "epicurean",
@@ -398,7 +375,12 @@
             "ascetic",
             "austere"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2028-06-flamboyant",
           "word": "flamboyant",
@@ -434,12 +416,7 @@
             "tasteful",
             "muted"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2028-06-gaudy",
           "word": "gaudy",
@@ -457,7 +434,12 @@
             "subdued",
             "elegant"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2028-06-ornate",
           "word": "ornate",
@@ -493,12 +475,7 @@
             "unadorned",
             "bare"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2028-06-pretentious",
           "word": "pretentious",
@@ -516,7 +493,12 @@
             "unassuming",
             "humble"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2028-06-hedonistic",
           "word": "hedonistic",
@@ -552,12 +534,7 @@
             "puritan",
             "abstainer"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2028-06-sumptuary",
           "word": "sumptuary",
@@ -573,7 +550,12 @@
             "permissive",
             "unrestricted"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2028-06-destitute",
           "word": "destitute",
@@ -609,29 +591,6 @@
             "wealthy",
             "well-off"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
-        {
-          "id": "2028-06-indigence",
-          "word": "indigence",
-          "partOfSpeech": "noun",
-          "definition": "A condition of severe poverty and lack of basic resources.",
-          "example": "Losing the factory job pushed the whole town toward indigence within a single winter.",
-          "mnemonic": "Think 'in dire gents' — dignified people fallen into dire want.",
-          "synonyms": [
-            "poverty",
-            "destitution",
-            "penury"
-          ],
-          "antonyms": [
-            "affluence",
-            "wealth",
-            "prosperity"
-          ]
         },
         {
           "id": "2028-06-impoverished",
@@ -650,7 +609,12 @@
             "prosperous",
             "wealthy"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2028-06-pauper",
           "word": "pauper",
@@ -668,12 +632,7 @@
             "tycoon",
             "magnate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2028-06-pauperize",
           "word": "pauperize",
@@ -709,7 +668,12 @@
             "donor",
             "provider"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2028-06-mendicancy",
           "word": "mendicancy",
@@ -727,12 +691,7 @@
             "affluence",
             "independence"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2028-06-insolvent",
           "word": "insolvent",
@@ -768,7 +727,12 @@
             "liquidity",
             "prosperity"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2028-06-bankrupt",
           "word": "bankrupt",
@@ -786,12 +750,7 @@
             "wealthy",
             "thriving"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2028-06-bankruptcy",
           "word": "bankruptcy",
@@ -827,7 +786,12 @@
             "wealthy",
             "self-sufficient"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2028-06-beggarly",
           "word": "beggarly",
@@ -845,12 +809,7 @@
             "lavish",
             "ample"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2028-06-threadbare",
           "word": "threadbare",
@@ -886,7 +845,12 @@
             "pristine",
             "immaculate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2028-06-squalor",
           "word": "squalor",
@@ -904,12 +868,7 @@
             "splendor",
             "luxury"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2028-06-hardscrabble",
           "word": "hardscrabble",
@@ -945,66 +904,12 @@
             "comfortable",
             "prosperous"
           ]
-        },
-        {
-          "id": "2028-06-privation",
-          "word": "privation",
-          "partOfSpeech": "noun",
-          "definition": "The state of lacking basic necessities such as food, warmth, or shelter.",
-          "example": "The explorers endured months of privation, rationing every crumb of biscuit.",
-          "mnemonic": "Sounds like 'private' — all the good things stay private, kept away from you.",
-          "synonyms": [
-            "hardship",
-            "want",
-            "destitution"
-          ],
-          "antonyms": [
-            "abundance",
-            "comfort",
-            "plenty"
-          ]
         }
       ]
     },
     {
-      "day": 18,
+      "day": 17,
       "words": [
-        {
-          "id": "2028-06-deprivation",
-          "word": "deprivation",
-          "partOfSpeech": "noun",
-          "definition": "The condition of being denied things regarded as necessities.",
-          "example": "Sleep deprivation left the new parents foggy and short-tempered.",
-          "mnemonic": "The 'de-' strips things away — what's private-to-life is removed and withheld.",
-          "synonyms": [
-            "loss",
-            "denial",
-            "dispossession"
-          ],
-          "antonyms": [
-            "provision",
-            "fulfillment",
-            "abundance"
-          ]
-        },
-        {
-          "id": "2028-06-scarcity",
-          "word": "scarcity",
-          "partOfSpeech": "noun",
-          "definition": "A shortage or insufficient supply of something people need or want.",
-          "example": "The drought caused a scarcity of clean water across the region.",
-          "mnemonic": "Sounds like 'scary city' — a place where there's never enough to go around.",
-          "synonyms": [
-            "shortage",
-            "dearth",
-            "paucity"
-          ],
-          "antonyms": [
-            "abundance",
-            "surplus",
-            "plenty"
-          ]
-        },
         {
           "id": "2028-06-pittance",
           "word": "pittance",
@@ -1022,12 +927,7 @@
             "windfall",
             "bounty"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2028-06-subsistence",
           "word": "subsistence",
@@ -1063,7 +963,12 @@
             "flourish",
             "prosper"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2028-06-immiseration",
           "word": "immiseration",
@@ -1081,12 +986,7 @@
             "prosperity",
             "upliftment"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2028-06-ruin",
           "word": "ruin",
@@ -1106,65 +1006,6 @@
           ]
         },
         {
-          "id": "2028-06-amass",
-          "word": "amass",
-          "partOfSpeech": "verb",
-          "definition": "To gather together a large amount of something, especially wealth, over time.",
-          "example": "Over decades she amassed a fortune in rare coins.",
-          "mnemonic": "a + MASS — you pile up a huge mass of stuff.",
-          "synonyms": [
-            "accumulate",
-            "gather",
-            "hoard"
-          ],
-          "antonyms": [
-            "squander",
-            "disperse",
-            "dissipate"
-          ]
-        },
-        {
-          "id": "2028-06-accrue",
-          "word": "accrue",
-          "partOfSpeech": "verb",
-          "definition": "To build up or be added gradually over time, as interest or benefits.",
-          "example": "Interest accrues on the loan every month until it is repaid.",
-          "mnemonic": "Sounds like 'a crew' that keeps growing — new members added bit by bit.",
-          "synonyms": [
-            "accumulate",
-            "build up",
-            "mount"
-          ],
-          "antonyms": [
-            "decrease",
-            "diminish",
-            "dwindle"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
-        {
-          "id": "2028-06-accumulate",
-          "word": "accumulate",
-          "partOfSpeech": "verb",
-          "definition": "To gather or build up a large amount of something gradually over time.",
-          "example": "Over twenty years the retired teacher managed to accumulate a vast collection of first-edition novels.",
-          "mnemonic": "Think of a 'cumulus' cloud that keeps piling up more and more — accumulate means to pile up.",
-          "synonyms": [
-            "amass",
-            "gather",
-            "stockpile"
-          ],
-          "antonyms": [
-            "disperse",
-            "dissipate",
-            "squander"
-          ]
-        },
-        {
           "id": "2028-06-procure",
           "word": "procure",
           "partOfSpeech": "verb",
@@ -1181,7 +1022,12 @@
             "forfeit",
             "surrender"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2028-06-acquire",
           "word": "acquire",
@@ -1198,29 +1044,6 @@
             "lose",
             "forfeit",
             "relinquish"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
-        {
-          "id": "2028-06-acquisitive",
-          "word": "acquisitive",
-          "partOfSpeech": "adjective",
-          "definition": "Eager to gain and own more possessions or money.",
-          "example": "His acquisitive nature meant no shelf in the house was ever left empty for long.",
-          "mnemonic": "Hear 'acquire' + 'itch' — an itch to own more and more.",
-          "synonyms": [
-            "greedy",
-            "grasping",
-            "materialistic"
-          ],
-          "antonyms": [
-            "generous",
-            "unselfish",
-            "altruistic"
           ]
         },
         {
@@ -1262,7 +1085,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 20,
       "words": [
         {
           "id": "2028-06-expropriate",
@@ -1321,7 +1144,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 21,
       "words": [
         {
           "id": "2028-06-exploit",
@@ -1380,7 +1203,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 22,
       "words": [
         {
           "id": "2028-06-retrench",
@@ -1439,7 +1262,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 23,
       "words": [
         {
           "id": "2028-06-remunerate",
@@ -1495,7 +1318,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 24,
       "words": [
         {
           "id": "2028-06-pecuniary",
@@ -1542,7 +1365,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 25,
       "words": [
         {
           "id": "2028-06-lucrative",
@@ -1594,7 +1417,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 26,
       "words": [
         {
           "id": "2028-06-predatory",
@@ -1645,7 +1468,7 @@
       ]
     },
     {
-      "day": 30,
+      "day": 27,
       "words": [
         {
           "id": "2028-06-stipend",
@@ -1691,6 +1514,29 @@
             "expenditure",
             "expense",
             "cost"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2028-06-mulct",
+          "word": "mulct",
+          "partOfSpeech": "verb",
+          "definition": "To penalize someone by taking money, or to cheat a person out of funds through deception.",
+          "example": "The crooked inspector would mulct small shop owners, pocketing fines he invented on the spot.",
+          "mnemonic": "Sounds like \"milk\" — a swindler will milk, or mulct, victims of their cash.",
+          "synonyms": [
+            "fine",
+            "penalize",
+            "swindle"
+          ],
+          "antonyms": [
+            "reimburse",
+            "compensate",
+            "repay"
           ]
         }
       ]

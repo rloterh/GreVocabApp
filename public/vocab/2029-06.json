@@ -119,24 +119,6 @@
       "day": 3,
       "words": [
         {
-          "id": "2029-06-sequester",
-          "word": "sequester",
-          "partOfSpeech": "verb",
-          "definition": "To set apart or hide someone or something away from others.",
-          "example": "The judge decided to sequester the jury in a hotel until they reached a verdict.",
-          "mnemonic": "Hidden inside is 'quest' — send someone off on a quest, away from everyone.",
-          "synonyms": [
-            "isolate",
-            "seclude",
-            "segregate"
-          ],
-          "antonyms": [
-            "integrate",
-            "mingle",
-            "release"
-          ]
-        },
-        {
           "id": "2029-06-insular",
           "word": "insular",
           "partOfSpeech": "adjective",
@@ -169,12 +151,7 @@
             "philanthropist",
             "humanitarian"
           ]
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
+        },
         {
           "id": "2029-06-misanthropy",
           "word": "misanthropy",
@@ -191,7 +168,12 @@
             "altruism",
             "benevolence"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
         {
           "id": "2029-06-coterie",
           "word": "coterie",
@@ -222,12 +204,7 @@
             "session"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2029-06-retinue",
           "word": "retinue",
@@ -241,7 +218,12 @@
             "train"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2029-06-entourage",
           "word": "entourage",
@@ -269,12 +251,7 @@
             "sanctuary"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2029-06-reticence",
           "word": "reticence",
@@ -292,7 +269,12 @@
             "candor",
             "talkativeness"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2029-06-diffidence",
           "word": "diffidence",
@@ -327,12 +309,7 @@
             "optimist",
             "sweetheart"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2029-06-ostracize",
           "word": "ostracize",
@@ -350,7 +327,12 @@
             "embrace",
             "include"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2029-06-ostracism",
           "word": "ostracism",
@@ -386,12 +368,7 @@
             "welcome",
             "embrace"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2029-06-rebuff",
           "word": "rebuff",
@@ -409,7 +386,12 @@
             "accept",
             "encourage"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2029-06-pariah",
           "word": "pariah",
@@ -445,12 +427,7 @@
             "reinstate",
             "welcome"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2029-06-relegate",
           "word": "relegate",
@@ -468,7 +445,12 @@
             "elevate",
             "upgrade"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2029-06-marginalize",
           "word": "marginalize",
@@ -504,12 +486,7 @@
             "available",
             "connected"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2029-06-monastic",
           "word": "monastic",
@@ -527,7 +504,12 @@
             "lavish",
             "indulgent"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2029-06-celibate",
           "word": "celibate",
@@ -562,12 +544,7 @@
             "coldness",
             "surliness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2029-06-consort",
           "word": "consort",
@@ -584,7 +561,12 @@
             "avoid",
             "shun"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2029-06-hobnob",
           "word": "hobnob",
@@ -618,12 +600,7 @@
             "disperse",
             "scatter"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2029-06-convene",
           "word": "convene",
@@ -640,7 +617,12 @@
             "adjourn",
             "disperse"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2029-06-agglomerate",
           "word": "agglomerate",
@@ -675,12 +657,7 @@
             "elite",
             "aristocracy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2029-06-citizenry",
           "word": "citizenry",
@@ -694,7 +671,12 @@
             "residents"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2029-06-bourgeois",
           "word": "bourgeois",
@@ -730,12 +712,7 @@
             "aristocratic",
             "refined"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2029-06-patrician",
           "word": "patrician",
@@ -753,7 +730,12 @@
             "common",
             "lowborn"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2029-06-gentry",
           "word": "gentry",
@@ -788,12 +770,7 @@
             "broad-minded",
             "worldly"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2029-06-provincial",
           "word": "provincial",
@@ -811,7 +788,12 @@
             "urbane",
             "sophisticated"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2029-06-cosmopolitan",
           "word": "cosmopolitan",
@@ -847,12 +829,7 @@
             "boorish",
             "uncouth"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2029-06-secede",
           "word": "secede",
@@ -870,7 +847,12 @@
             "unite",
             "merge"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2029-06-companionable",
           "word": "companionable",
@@ -906,12 +888,7 @@
             "welcoming",
             "open"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2029-06-solipsism",
           "word": "solipsism",
@@ -929,7 +906,12 @@
             "empathy",
             "selflessness"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2029-06-solipsistic",
           "word": "solipsistic",
@@ -965,12 +947,7 @@
             "welcoming",
             "cosmopolitan"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2029-06-chauvinism",
           "word": "chauvinism",
@@ -988,7 +965,12 @@
             "open-mindedness",
             "egalitarianism"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2029-06-sectarian",
           "word": "sectarian",
@@ -1024,12 +1006,7 @@
             "good-natured",
             "affable"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2029-06-vituperative",
           "word": "vituperative",
@@ -1047,7 +1024,12 @@
             "praising",
             "laudatory"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2029-06-parvenu",
           "word": "parvenu",
@@ -1082,12 +1064,7 @@
             "member",
             "regular"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2029-06-gadfly",
           "word": "gadfly",
@@ -1105,7 +1082,12 @@
             "conformist",
             "sycophant"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2029-06-claque",
           "word": "claque",
@@ -1141,12 +1123,7 @@
             "hierarchical",
             "autocratic"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2029-06-clubbable",
           "word": "clubbable",
@@ -1164,7 +1141,12 @@
             "aloof",
             "standoffish"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2029-06-retiring",
           "word": "retiring",
@@ -1200,12 +1182,7 @@
             "welcome",
             "seek"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2029-06-commune",
           "word": "commune",
@@ -1222,7 +1199,12 @@
             "ignore",
             "alienate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2029-06-gallivant",
           "word": "gallivant",
@@ -1256,12 +1238,7 @@
             "rejoice",
             "be content"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2029-06-sodality",
           "word": "sodality",
@@ -1275,7 +1252,12 @@
             "guild"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2029-06-propinquity",
           "word": "propinquity",
@@ -1306,12 +1288,7 @@
             "environs"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2029-06-confrere",
           "word": "confrere",
@@ -1328,7 +1305,12 @@
             "rival",
             "stranger"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
         {
           "id": "2029-06-commensality",
           "word": "commensality",
@@ -1355,12 +1337,7 @@
             "lineage"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2029-06-communion",
           "word": "communion",
@@ -1377,7 +1354,12 @@
             "estrangement",
             "isolation"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
         {
           "id": "2029-06-anomie",
           "word": "anomie",
@@ -1410,12 +1392,7 @@
           "antonyms": [
             "urbanize"
           ]
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2029-06-seclude",
           "word": "seclude",
@@ -1433,7 +1410,12 @@
             "mingle",
             "integrate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
         {
           "id": "2029-06-confidant",
           "word": "confidant",
@@ -1450,6 +1432,142 @@
             "stranger",
             "adversary",
             "acquaintance"
+          ]
+        },
+        {
+          "id": "2029-06-segregate",
+          "word": "segregate",
+          "partOfSpeech": "verb",
+          "definition": "To set one group apart from others and keep them physically or socially isolated.",
+          "example": "The unjust old law tried to segregate people by race, forcing them onto separate buses and benches.",
+          "mnemonic": "Break it down: se- ('apart') + greg ('flock,' as in gregarious) = pulled away from the flock.",
+          "synonyms": [
+            "separate",
+            "isolate",
+            "partition"
+          ],
+          "antonyms": [
+            "integrate",
+            "unite",
+            "combine"
+          ]
+        },
+        {
+          "id": "2029-06-sociability",
+          "word": "sociability",
+          "partOfSpeech": "noun",
+          "definition": "The friendly trait of enjoying company and getting along easily with other people.",
+          "example": "Her natural sociability made every stranger at the party feel like an old friend within minutes.",
+          "mnemonic": "From Latin socius, 'companion' — the quality of being warm and easy around your companions.",
+          "synonyms": [
+            "friendliness",
+            "gregariousness",
+            "affability"
+          ],
+          "antonyms": [
+            "shyness",
+            "aloofness",
+            "reclusiveness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2029-06-kinship",
+          "word": "kinship",
+          "partOfSpeech": "noun",
+          "definition": "A close bond built on family ties or on a shared, deeply felt connection.",
+          "example": "Meeting a fellow orphan who had grown up on the same streets, she felt an instant kinship with him.",
+          "mnemonic": "'kin' (your relatives) + '-ship' (a state of being) = the state of being like family.",
+          "synonyms": [
+            "affinity",
+            "relationship",
+            "connection"
+          ],
+          "antonyms": [
+            "estrangement",
+            "alienation",
+            "disconnection"
+          ]
+        },
+        {
+          "id": "2029-06-expatriate",
+          "word": "expatriate",
+          "partOfSpeech": "noun",
+          "definition": "A person who lives in a foreign land rather than their own homeland.",
+          "example": "After twenty years in Lisbon, the American expatriate barely remembered what winter in Chicago felt like.",
+          "mnemonic": "ex- ('out of') + patria ('fatherland') = someone living out of their fatherland.",
+          "synonyms": [
+            "expat",
+            "émigré",
+            "emigrant"
+          ],
+          "antonyms": [
+            "native",
+            "citizen",
+            "national"
+          ]
+        },
+        {
+          "id": "2029-06-mingle",
+          "word": "mingle",
+          "partOfSpeech": "verb",
+          "definition": "To mix together and move casually among people while chatting.",
+          "example": "At the reception, guests were urged to mingle so that strangers might leave as acquaintances.",
+          "mnemonic": "Sounds like 'mix' + 'single' — singles mixing across the room at a party.",
+          "synonyms": [
+            "mix",
+            "socialize",
+            "circulate"
+          ],
+          "antonyms": [
+            "separate",
+            "segregate",
+            "withdraw"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "2029-06-standoffish",
+          "word": "standoffish",
+          "partOfSpeech": "adjective",
+          "definition": "Distant and cold in manner, keeping others at an emotional arm's length.",
+          "example": "New coworkers found him standoffish, though he was really just too shy to start a conversation.",
+          "mnemonic": "Picture someone who 'stands off' to the side, holding themselves apart from the crowd.",
+          "synonyms": [
+            "aloof",
+            "distant",
+            "unapproachable"
+          ],
+          "antonyms": [
+            "friendly",
+            "warm",
+            "approachable"
+          ]
+        },
+        {
+          "id": "2029-06-foregather",
+          "word": "foregather",
+          "partOfSpeech": "verb",
+          "definition": "To come together in a group, especially for a social occasion.",
+          "example": "Each Sunday the whole village would foregather in the square to trade news and share food.",
+          "mnemonic": "fore- ('together,' Old English) + gather — the two roots stack into the meaning 'gather together.'",
+          "synonyms": [
+            "assemble",
+            "congregate",
+            "convene"
+          ],
+          "antonyms": [
+            "disperse",
+            "scatter",
+            "separate"
           ]
         }
       ]

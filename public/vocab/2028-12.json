@@ -731,27 +731,6 @@
           ]
         },
         {
-          "id": "2028-12-wile",
-          "word": "wile",
-          "partOfSpeech": "noun",
-          "definition": "A cunning trick or scheme intended to deceive or ensnare someone.",
-          "example": "Through clever wiles, the fox lured the hens far from the farmer's watchful eye.",
-          "mnemonic": "Think Wile E. Coyote — forever hatching cunning traps to catch the Road Runner.",
-          "synonyms": [
-            "ruse",
-            "ploy",
-            "stratagem"
-          ],
-          "antonyms": [
-            "candor"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
-        {
           "id": "2028-12-meretricious",
           "word": "meretricious",
           "partOfSpeech": "adjective",
@@ -768,7 +747,12 @@
             "genuine",
             "understated"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2028-12-ersatz",
           "word": "ersatz",
@@ -804,12 +788,7 @@
             "natural",
             "spontaneous"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2028-12-simulacrum",
           "word": "simulacrum",
@@ -826,7 +805,12 @@
             "original",
             "authentic"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2028-12-charade",
           "word": "charade",
@@ -860,12 +844,7 @@
             "naturalness",
             "sincerity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2028-12-affected",
           "word": "affected",
@@ -883,7 +862,12 @@
             "genuine",
             "sincere"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2028-12-contrive",
           "word": "contrive",
@@ -913,12 +897,7 @@
             "tactic"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2028-12-artful",
           "word": "artful",
@@ -936,7 +915,12 @@
             "guileless",
             "naive"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2028-12-crafty",
           "word": "crafty",
@@ -972,29 +956,6 @@
             "honest",
             "frank"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
-        {
-          "id": "2028-12-duplicity",
-          "word": "duplicity",
-          "partOfSpeech": "noun",
-          "definition": "Deceitful behavior of saying one thing while secretly doing another.",
-          "example": "His duplicity surfaced when he praised her to her face but sabotaged her at work.",
-          "mnemonic": "Root \"dupl-\" means double — living a two-faced, double life.",
-          "synonyms": [
-            "deceit",
-            "double-dealing",
-            "treachery"
-          ],
-          "antonyms": [
-            "honesty",
-            "candor",
-            "sincerity"
-          ]
         },
         {
           "id": "2028-12-legerdemain",
@@ -1009,7 +970,12 @@
             "sleight of hand"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2028-12-prestidigitation",
           "word": "prestidigitation",
@@ -1023,12 +989,7 @@
             "sleight of hand"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2028-12-sleight",
           "word": "sleight",
@@ -1058,7 +1019,12 @@
             "deceive"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2028-12-gambit",
           "word": "gambit",
@@ -1072,12 +1038,7 @@
             "ruse"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2028-12-chimera",
           "word": "chimera",
@@ -1112,7 +1073,12 @@
             "feasible",
             "attainable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2028-12-illusory",
           "word": "illusory",
@@ -1130,12 +1096,7 @@
             "genuine",
             "actual"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2028-12-phantasm",
           "word": "phantasm",
@@ -1170,7 +1131,12 @@
             "amateurish",
             "incompetent"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2028-12-finesse",
           "word": "finesse",
@@ -1188,12 +1154,7 @@
             "crudeness",
             "awkwardness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2028-12-magniloquent",
           "word": "magniloquent",
@@ -1229,7 +1190,12 @@
             "simplicity",
             "understatement"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2028-12-orotund",
           "word": "orotund",
@@ -1247,12 +1213,7 @@
             "weak",
             "reedy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2028-12-byzantine",
           "word": "byzantine",
@@ -1288,7 +1249,12 @@
             "spontaneous",
             "unaffected"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
         {
           "id": "2028-12-palimpsest",
           "word": "palimpsest",
@@ -1298,12 +1264,7 @@
           "mnemonic": "Greek 'palin' (again) + 'psestos' (scraped) — something scraped clean and written on again.",
           "synonyms": [],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2028-12-pentimento",
           "word": "pentimento",
@@ -1331,7 +1292,12 @@
             "dim",
             "darken"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
         {
           "id": "2028-12-resplendent",
           "word": "resplendent",
@@ -1349,12 +1315,7 @@
             "dull",
             "dingy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2028-12-rarefied",
           "word": "rarefied",
@@ -1389,7 +1350,12 @@
             "wipe",
             "scrub"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
         {
           "id": "2028-12-frippery",
           "word": "frippery",
@@ -1407,12 +1373,7 @@
             "plainness",
             "austerity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 27,
-      "words": [
+        },
         {
           "id": "2028-12-ostentation",
           "word": "ostentation",
@@ -1447,7 +1408,12 @@
             "dismantle",
             "disassemble"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
         {
           "id": "2028-12-embroider",
           "word": "embroider",
@@ -1463,6 +1429,24 @@
           "antonyms": [
             "understate",
             "simplify"
+          ]
+        },
+        {
+          "id": "2028-12-bravura",
+          "word": "bravura",
+          "partOfSpeech": "noun",
+          "definition": "A dazzling display of great skill, boldness, or brilliant technique in performance.",
+          "example": "The pianist ended the concerto with such bravura that the audience leapt to their feet.",
+          "mnemonic": "Sounds like 'BRAVO!' shouted for a virtuoso — bravura is what earns the bravo.",
+          "synonyms": [
+            "virtuosity",
+            "brilliance",
+            "flair"
+          ],
+          "antonyms": [
+            "clumsiness",
+            "ineptitude",
+            "mediocrity"
           ]
         }
       ]

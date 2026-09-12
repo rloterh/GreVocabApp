@@ -182,22 +182,6 @@
           ]
         },
         {
-          "id": "2027-05-quash",
-          "word": "quash",
-          "partOfSpeech": "verb",
-          "definition": "To firmly put a stop to something, or to officially reject a legal decision.",
-          "example": "The judge moved to quash the indictment for lack of credible evidence.",
-          "mnemonic": "Sounds like 'squash' — you squash a rebellion or a ruling flat.",
-          "synonyms": [
-            "suppress",
-            "annul"
-          ],
-          "antonyms": [
-            "encourage",
-            "uphold"
-          ]
-        },
-        {
           "id": "2027-05-subdue",
           "word": "subdue",
           "partOfSpeech": "verb",
@@ -212,12 +196,7 @@
             "incite",
             "liberate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2027-05-vanquish",
           "word": "vanquish",
@@ -233,7 +212,12 @@
             "surrender",
             "lose"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-05-thwart",
           "word": "thwart",
@@ -265,12 +249,7 @@
             "assist",
             "aid"
           ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2027-05-stymie",
           "word": "stymie",
@@ -288,7 +267,12 @@
             "facilitate",
             "advance"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-05-impede",
           "word": "impede",
@@ -324,12 +308,7 @@
             "open",
             "unblock"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2027-05-belligerent",
           "word": "belligerent",
@@ -347,7 +326,12 @@
             "friendly",
             "amicable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2027-05-pugnacious",
           "word": "pugnacious",
@@ -383,12 +367,7 @@
             "peaceable",
             "conciliatory"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2027-05-antagonize",
           "word": "antagonize",
@@ -406,7 +385,12 @@
             "soothe",
             "befriend"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-05-provoke",
           "word": "provoke",
@@ -442,12 +426,7 @@
             "discourage",
             "quell"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2027-05-foment",
           "word": "foment",
@@ -465,7 +444,12 @@
             "suppress",
             "pacify"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-05-instigate",
           "word": "instigate",
@@ -501,12 +485,7 @@
             "deter",
             "dissuade"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-05-rankle",
           "word": "rankle",
@@ -524,7 +503,12 @@
             "comfort",
             "please"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-05-embroil",
           "word": "embroil",
@@ -560,12 +544,7 @@
             "accord",
             "agreement"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-05-strife",
           "word": "strife",
@@ -583,7 +562,12 @@
             "harmony",
             "concord"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-05-enmity",
           "word": "enmity",
@@ -619,12 +603,7 @@
             "goodwill",
             "friendship"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-05-antipathy",
           "word": "antipathy",
@@ -642,7 +621,12 @@
             "attraction",
             "fondness"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-05-feud",
           "word": "feud",
@@ -678,12 +662,7 @@
             "unity",
             "merger"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2027-05-rift",
           "word": "rift",
@@ -701,7 +680,12 @@
             "bond",
             "union"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2027-05-fray",
           "word": "fray",
@@ -737,12 +721,7 @@
             "peace",
             "ceasefire"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-05-altercation",
           "word": "altercation",
@@ -760,7 +739,12 @@
             "accord",
             "harmony"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2027-05-fracas",
           "word": "fracas",
@@ -796,12 +780,7 @@
             "calm",
             "peace"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2027-05-brawl",
           "word": "brawl",
@@ -819,7 +798,12 @@
             "calm",
             "truce"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2027-05-wrangle",
           "word": "wrangle",
@@ -855,12 +839,7 @@
             "harmony",
             "accord"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2027-05-spar",
           "word": "spar",
@@ -877,7 +856,12 @@
             "agree",
             "concur"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2027-05-vie",
           "word": "vie",
@@ -912,12 +896,7 @@
             "partnership",
             "alliance"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2027-05-truce",
           "word": "truce",
@@ -933,7 +912,12 @@
             "hostilities",
             "warfare"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2027-05-armistice",
           "word": "armistice",
@@ -966,12 +950,7 @@
             "disagreement",
             "discord"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2027-05-concord",
           "word": "concord",
@@ -988,7 +967,12 @@
             "discord",
             "strife"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2027-05-amity",
           "word": "amity",
@@ -1021,12 +1005,7 @@
             "estrangement",
             "rupture"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2027-05-reconcile",
           "word": "reconcile",
@@ -1043,7 +1022,12 @@
             "estrange",
             "alienate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2027-05-harmony",
           "word": "harmony",
@@ -1077,12 +1061,7 @@
             "resist",
             "persevere"
           ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
+        },
         {
           "id": "2027-05-acquiesce",
           "word": "acquiesce",
@@ -1100,7 +1079,12 @@
             "protest",
             "object"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2027-05-relent",
           "word": "relent",
@@ -1118,28 +1102,6 @@
             "harden"
           ]
         },
-        {
-          "id": "2027-05-concede",
-          "word": "concede",
-          "partOfSpeech": "verb",
-          "definition": "To admit something is true, or surrender a point after resisting.",
-          "example": "Trailing by thirty points, the coach conceded the game and rested his stars.",
-          "mnemonic": "conCEDE — to CEDE (hand over) ground, giving the argument or contest away.",
-          "synonyms": [
-            "admit",
-            "grant",
-            "yield"
-          ],
-          "antonyms": [
-            "deny",
-            "dispute"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
         {
           "id": "2027-05-atone",
           "word": "atone",
@@ -1172,7 +1134,12 @@
             "aggravate",
             "worsen"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2027-05-redress",
           "word": "redress",
@@ -1189,12 +1156,7 @@
             "injury",
             "harm"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2027-05-reparation",
           "word": "reparation",
@@ -1228,7 +1190,12 @@
             "confiscation",
             "theft"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2027-05-absolve",
           "word": "absolve",
@@ -1246,12 +1213,7 @@
             "condemn",
             "convict"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2027-05-exonerate",
           "word": "exonerate",
@@ -1286,7 +1248,12 @@
             "convict",
             "condemn"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2027-05-pardon",
           "word": "pardon",
@@ -1303,12 +1270,7 @@
             "punish",
             "condemn"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2027-05-clemency",
           "word": "clemency",
@@ -1344,7 +1306,12 @@
             "punish",
             "denounce"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
         {
           "id": "2027-05-mediate",
           "word": "mediate",
@@ -1361,12 +1328,7 @@
             "aggravate",
             "provoke"
           ]
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2027-05-arbitrate",
           "word": "arbitrate",
@@ -1397,7 +1359,12 @@
             "dictate",
             "impose"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
         {
           "id": "2027-05-parley",
           "word": "parley",
@@ -1411,12 +1378,7 @@
             "negotiation"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2027-05-broker",
           "word": "broker",
@@ -1430,24 +1392,6 @@
             "intermediary"
           ],
           "antonyms": []
-        },
-        {
-          "id": "2027-05-abate",
-          "word": "abate",
-          "partOfSpeech": "verb",
-          "definition": "To lessen in amount, degree, or intensity.",
-          "example": "We waited on the porch until the storm began to abate before driving home.",
-          "mnemonic": "A-BAIT: pull the bait off the hook and the feeding frenzy abates — it dies down.",
-          "synonyms": [
-            "subside",
-            "diminish",
-            "wane"
-          ],
-          "antonyms": [
-            "intensify",
-            "escalate",
-            "increase"
-          ]
         },
         {
           "id": "2027-05-abscond",
@@ -1470,26 +1414,8 @@
       ]
     },
     {
-      "day": 27,
+      "day": 26,
       "words": [
-        {
-          "id": "2027-05-transient",
-          "word": "transient",
-          "partOfSpeech": "adjective",
-          "definition": "Lasting only a short time; temporary and quickly passing.",
-          "example": "The town's population swells with transient workers during harvest, then empties by winter.",
-          "mnemonic": "TRANSIT: like a passenger in transit, a transient thing is only passing through.",
-          "synonyms": [
-            "fleeting",
-            "temporary",
-            "ephemeral"
-          ],
-          "antonyms": [
-            "permanent",
-            "lasting",
-            "enduring"
-          ]
-        },
         {
           "id": "2027-05-latent",
           "word": "latent",
@@ -1525,12 +1451,7 @@
             "localized",
             "confined"
           ]
-        }
-      ]
-    },
-    {
-      "day": 28,
-      "words": [
+        },
         {
           "id": "2027-05-innocuous",
           "word": "innocuous",
@@ -1548,25 +1469,12 @@
             "dangerous",
             "toxic"
           ]
-        },
-        {
-          "id": "2027-05-insidious",
-          "word": "insidious",
-          "partOfSpeech": "adjective",
-          "definition": "Working or spreading harmfully in a gradual, hidden way.",
-          "example": "The disease is insidious, causing no symptoms until the damage is already severe.",
-          "mnemonic": "Spot 'inside' in insidious: it sneaks inside and does its damage before you notice.",
-          "synonyms": [
-            "stealthy",
-            "subtle",
-            "treacherous"
-          ],
-          "antonyms": [
-            "harmless",
-            "obvious",
-            "straightforward"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
         {
           "id": "2027-05-noxious",
           "word": "noxious",
@@ -1584,12 +1492,7 @@
             "wholesome",
             "beneficial"
           ]
-        }
-      ]
-    },
-    {
-      "day": 29,
-      "words": [
+        },
         {
           "id": "2027-05-trite",
           "word": "trite",
@@ -1625,7 +1528,12 @@
             "rash",
             "careless"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
         {
           "id": "2027-05-astute",
           "word": "astute",
@@ -1643,12 +1551,7 @@
             "dull",
             "gullible"
           ]
-        }
-      ]
-    },
-    {
-      "day": 30,
-      "words": [
+        },
         {
           "id": "2027-05-perspicacious",
           "word": "perspicacious",
@@ -1684,7 +1587,12 @@
             "obtuse",
             "indiscriminate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
         {
           "id": "2027-05-obtuse",
           "word": "obtuse",

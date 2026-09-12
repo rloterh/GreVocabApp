@@ -201,24 +201,6 @@
           ]
         },
         {
-          "id": "2027-02-largesse",
-          "word": "largesse",
-          "partOfSpeech": "noun",
-          "definition": "Generosity in giving money or gifts to others.",
-          "example": "Thanks to the donor's largesse, every student received a full scholarship.",
-          "mnemonic": "Hear 'LARGE' inside it — giving on a large, open-handed scale.",
-          "synonyms": [
-            "generosity",
-            "munificence",
-            "bounty"
-          ],
-          "antonyms": [
-            "stinginess",
-            "miserliness",
-            "meanness"
-          ]
-        },
-        {
           "id": "2027-02-abundance",
           "word": "abundance",
           "partOfSpeech": "noun",
@@ -235,12 +217,7 @@
             "shortage",
             "lack"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2027-02-plenty",
           "word": "plenty",
@@ -258,7 +235,12 @@
             "lack",
             "shortage"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-02-copious",
           "word": "copious",
@@ -294,12 +276,7 @@
             "sparse",
             "meager"
           ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
+        },
         {
           "id": "2027-02-bountiful",
           "word": "bountiful",
@@ -316,7 +293,12 @@
             "scarce",
             "meager"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-02-bounteous",
           "word": "bounteous",
@@ -350,12 +332,7 @@
             "scant",
             "scarce"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2027-02-replete",
           "word": "replete",
@@ -372,7 +349,12 @@
             "empty",
             "lacking"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
         {
           "id": "2027-02-teeming",
           "word": "teeming",
@@ -406,12 +388,7 @@
             "rare",
             "scarce"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
+        },
         {
           "id": "2027-02-opulent",
           "word": "opulent",
@@ -428,7 +405,12 @@
             "plain",
             "austere"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-02-lavish",
           "word": "lavish",
@@ -462,12 +444,7 @@
             "modest",
             "plain"
           ]
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "words": [
+        },
         {
           "id": "2027-02-prodigal",
           "word": "prodigal",
@@ -484,7 +461,12 @@
             "frugal",
             "thrifty"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-02-exuberant",
           "word": "exuberant",
@@ -518,12 +500,7 @@
             "sparse",
             "barren"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-02-prolific",
           "word": "prolific",
@@ -540,24 +517,12 @@
             "unproductive",
             "barren"
           ]
-        },
-        {
-          "id": "2027-02-fecund",
-          "word": "fecund",
-          "partOfSpeech": "adjective",
-          "definition": "Highly productive or capable of producing much offspring.",
-          "example": "The fecund soil of the river delta yielded three crops every year.",
-          "mnemonic": "Shares a root with 'fetus' — bursting with the ability to make new life.",
-          "synonyms": [
-            "fertile",
-            "fruitful",
-            "productive"
-          ],
-          "antonyms": [
-            "barren",
-            "sterile"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-02-fertile",
           "word": "fertile",
@@ -574,12 +539,7 @@
             "barren",
             "infertile"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-02-fruitful",
           "word": "fruitful",
@@ -615,7 +575,12 @@
             "negligible",
             "modest"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-02-ample",
           "word": "ample",
@@ -632,29 +597,6 @@
             "meager",
             "scanty",
             "insufficient"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
-        {
-          "id": "2027-02-munificent",
-          "word": "munificent",
-          "partOfSpeech": "adjective",
-          "definition": "Extremely generous, especially in giving money.",
-          "example": "The munificent donor funded the entire new wing of the children's hospital.",
-          "mnemonic": "Money + magnificent = a munificent, magnificently generous gift.",
-          "synonyms": [
-            "generous",
-            "lavish",
-            "bountiful"
-          ],
-          "antonyms": [
-            "stingy",
-            "miserly",
-            "parsimonious"
           ]
         },
         {
@@ -696,7 +638,7 @@
       ]
     },
     {
-      "day": 13,
+      "day": 12,
       "words": [
         {
           "id": "2027-02-myriad",
@@ -755,7 +697,7 @@
       ]
     },
     {
-      "day": 14,
+      "day": 13,
       "words": [
         {
           "id": "2027-02-abound",
@@ -814,7 +756,7 @@
       ]
     },
     {
-      "day": 15,
+      "day": 14,
       "words": [
         {
           "id": "2027-02-deluge",
@@ -873,7 +815,7 @@
       ]
     },
     {
-      "day": 16,
+      "day": 15,
       "words": [
         {
           "id": "2027-02-sate",
@@ -929,7 +871,7 @@
       ]
     },
     {
-      "day": 17,
+      "day": 16,
       "words": [
         {
           "id": "2027-02-overflow",
@@ -986,7 +928,7 @@
       ]
     },
     {
-      "day": 18,
+      "day": 17,
       "words": [
         {
           "id": "2027-02-gorge",
@@ -1043,7 +985,7 @@
       ]
     },
     {
-      "day": 19,
+      "day": 18,
       "words": [
         {
           "id": "2027-02-voracious",
@@ -1099,7 +1041,7 @@
       ]
     },
     {
-      "day": 20,
+      "day": 19,
       "words": [
         {
           "id": "2027-02-avaricious",
@@ -1155,7 +1097,7 @@
       ]
     },
     {
-      "day": 21,
+      "day": 20,
       "words": [
         {
           "id": "2027-02-covetous",
@@ -1211,7 +1153,7 @@
       ]
     },
     {
-      "day": 22,
+      "day": 21,
       "words": [
         {
           "id": "2027-02-hoard",
@@ -1267,7 +1209,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 22,
       "words": [
         {
           "id": "2027-02-accumulate",
@@ -1304,28 +1246,6 @@
           ]
         },
         {
-          "id": "2027-02-garner",
-          "word": "garner",
-          "partOfSpeech": "verb",
-          "definition": "To gather or earn something, such as support, praise, or resources.",
-          "example": "Her documentary garnered enthusiastic reviews at every festival it entered.",
-          "mnemonic": "Linked to 'granary' — the barn where grain is gathered and stored.",
-          "synonyms": [
-            "gather",
-            "collect",
-            "earn"
-          ],
-          "antonyms": [
-            "squander",
-            "lose"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
-        {
           "id": "2027-02-accretion",
           "word": "accretion",
           "partOfSpeech": "noun",
@@ -1341,45 +1261,11 @@
             "erosion",
             "depletion"
           ]
-        },
-        {
-          "id": "2027-02-dearth",
-          "word": "dearth",
-          "partOfSpeech": "noun",
-          "definition": "A serious lack or shortage of something that is needed.",
-          "example": "The remote village suffered from a dearth of trained doctors.",
-          "mnemonic": "'Dear' things become expensive — when there's a dearth, supply is nearly gone.",
-          "synonyms": [
-            "scarcity",
-            "shortage",
-            "lack"
-          ],
-          "antonyms": [
-            "abundance",
-            "surplus"
-          ]
-        },
-        {
-          "id": "2027-02-paucity",
-          "word": "paucity",
-          "partOfSpeech": "noun",
-          "definition": "The presence of something in unusually small amounts.",
-          "example": "A paucity of hard evidence forced the jury to acquit the defendant.",
-          "mnemonic": "From Latin 'paucus' (few) — a paucity means pitifully few.",
-          "synonyms": [
-            "scarcity",
-            "dearth",
-            "shortage"
-          ],
-          "antonyms": [
-            "abundance",
-            "plenty"
-          ]
         }
       ]
     },
     {
-      "day": 25,
+      "day": 23,
       "words": [
         {
           "id": "2027-02-scarcity",
@@ -1435,7 +1321,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 24,
       "words": [
         {
           "id": "2027-02-privation",
@@ -1494,7 +1380,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 25,
       "words": [
         {
           "id": "2027-02-shortage",
@@ -1553,26 +1439,8 @@
       ]
     },
     {
-      "day": 28,
+      "day": 26,
       "words": [
-        {
-          "id": "2027-02-austerity",
-          "word": "austerity",
-          "partOfSpeech": "noun",
-          "definition": "Strict economic conditions or a plain, self-denying way of living.",
-          "example": "During the war, austerity meant no sugar, no new clothes, and one small meal a day.",
-          "mnemonic": "Sounds like 'a stern city' — austerity runs life by stern, cut-back rules.",
-          "synonyms": [
-            "severity",
-            "sternness",
-            "restraint"
-          ],
-          "antonyms": [
-            "luxury",
-            "indulgence",
-            "extravagance"
-          ]
-        },
         {
           "id": "2027-02-frugality",
           "word": "frugality",
@@ -1608,12 +1476,7 @@
             "extravagance",
             "liberality"
           ]
-        }
-      ]
-    },
-    {
-      "day": 29,
-      "words": [
+        },
         {
           "id": "2027-02-thrift",
           "word": "thrift",
@@ -1631,7 +1494,12 @@
             "wastefulness",
             "prodigality"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
         {
           "id": "2027-02-deprivation",
           "word": "deprivation",
@@ -1667,12 +1535,7 @@
             "plenty",
             "surplus"
           ]
-        }
-      ]
-    },
-    {
-      "day": 30,
-      "words": [
+        },
         {
           "id": "2027-02-scant",
           "word": "scant",
@@ -1690,7 +1553,12 @@
             "abundant",
             "plentiful"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
         {
           "id": "2027-02-scanty",
           "word": "scanty",
@@ -1725,6 +1593,24 @@
             "abundant",
             "plentiful",
             "generous"
+          ]
+        },
+        {
+          "id": "2027-02-sparse",
+          "word": "sparse",
+          "partOfSpeech": "adjective",
+          "definition": "Thinly scattered or present in only small amounts across an area.",
+          "example": "Only a handful of houses dotted the sparse settlement along the desert highway.",
+          "mnemonic": "Sounds like 'spare' — when you can only spare a little, there's very little around.",
+          "synonyms": [
+            "scanty",
+            "meager",
+            "scattered"
+          ],
+          "antonyms": [
+            "dense",
+            "abundant",
+            "plentiful"
           ]
         }
       ]

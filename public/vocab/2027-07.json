@@ -6,79 +6,6 @@
       "day": 1,
       "words": [
         {
-          "id": "2027-07-chicanery",
-          "word": "chicanery",
-          "partOfSpeech": "noun",
-          "definition": "The use of clever but dishonest methods to trick or mislead other people.",
-          "example": "The lawyer won through sheer chicanery, burying the truth under a blizzard of misleading motions.",
-          "mnemonic": "Sounds like \"chicken-ery\" — picture a sly chicken running cons around the barnyard.",
-          "synonyms": [
-            "trickery",
-            "skulduggery",
-            "duplicity"
-          ],
-          "antonyms": [
-            "honesty",
-            "candor"
-          ]
-        },
-        {
-          "id": "2027-07-artifice",
-          "word": "artifice",
-          "partOfSpeech": "noun",
-          "definition": "A crafty device or sly strategy used to fool someone.",
-          "example": "Her warmth was pure artifice; once the camera stopped, the smile vanished instantly.",
-          "mnemonic": "ART + IFICE — fake \"art,\" like artificial flowers, crafted to look real and fool you.",
-          "synonyms": [
-            "ploy",
-            "stratagem",
-            "cunning"
-          ],
-          "antonyms": [
-            "sincerity",
-            "genuineness"
-          ]
-        },
-        {
-          "id": "2027-07-subterfuge",
-          "word": "subterfuge",
-          "partOfSpeech": "noun",
-          "definition": "A sneaky plan used to hide a true aim or escape blame.",
-          "example": "To slip past the guards, the spies resorted to subterfuge, posing as delivery drivers.",
-          "mnemonic": "SUB (under) + fuge (flee, as in refuge) — you flee underneath notice with a secret trick.",
-          "synonyms": [
-            "deception",
-            "trickery",
-            "ruse"
-          ],
-          "antonyms": [
-            "openness",
-            "frankness"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "words": [
-        {
-          "id": "2027-07-ruse",
-          "word": "ruse",
-          "partOfSpeech": "noun",
-          "definition": "An action meant to mislead an opponent or conceal a real plan.",
-          "example": "The fake retreat was a ruse to lure the enemy cavalry into the canyon.",
-          "mnemonic": "Rhymes with \"use\" — it's a trick you use to fool someone.",
-          "synonyms": [
-            "ploy",
-            "gambit",
-            "trick"
-          ],
-          "antonyms": [
-            "truth",
-            "honesty"
-          ]
-        },
-        {
           "id": "2027-07-pretense",
           "word": "pretense",
           "partOfSpeech": "noun",
@@ -111,12 +38,7 @@
             "expert",
             "authority"
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2027-07-mountebank",
           "word": "mountebank",
@@ -133,7 +55,12 @@
             "specialist",
             "professional"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
         {
           "id": "2027-07-imposture",
           "word": "imposture",
@@ -167,12 +94,7 @@
             "genuine article",
             "reality"
           ]
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "words": [
+        },
         {
           "id": "2027-07-counterfeit",
           "word": "counterfeit",
@@ -189,7 +111,12 @@
             "genuine",
             "authentic"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
         {
           "id": "2027-07-bogus",
           "word": "bogus",
@@ -223,12 +150,7 @@
             "verify",
             "substantiate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "words": [
+        },
         {
           "id": "2027-07-forge",
           "word": "forge",
@@ -245,7 +167,12 @@
             "authenticate",
             "originate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
         {
           "id": "2027-07-deceive",
           "word": "deceive",
@@ -263,28 +190,6 @@
             "undeceive"
           ]
         },
-        {
-          "id": "2027-07-deceit",
-          "word": "deceit",
-          "partOfSpeech": "noun",
-          "definition": "Dishonest behavior meant to make others believe what is false.",
-          "example": "Their marriage crumbled under years of quiet deceit about money and affairs.",
-          "mnemonic": "Ends in \"-ceit\" like \"receipt\" — a faked receipt is the perfect little lie.",
-          "synonyms": [
-            "dishonesty",
-            "duplicity",
-            "fraud"
-          ],
-          "antonyms": [
-            "honesty",
-            "truthfulness"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "words": [
         {
           "id": "2027-07-mislead",
           "word": "mislead",
@@ -318,7 +223,12 @@
             "enlighten",
             "undeceive"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
         {
           "id": "2027-07-dupe",
           "word": "dupe",
@@ -335,12 +245,7 @@
             "undeceive",
             "enlighten"
           ]
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "words": [
+        },
         {
           "id": "2027-07-hoodwink",
           "word": "hoodwink",
@@ -371,7 +276,12 @@
             "coerce",
             "force"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
         {
           "id": "2027-07-ensnare",
           "word": "ensnare",
@@ -389,25 +299,6 @@
             "release",
             "liberate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
-        {
-          "id": "2027-07-machination",
-          "word": "machination",
-          "partOfSpeech": "noun",
-          "definition": "A crafty plan or secret scheme intended to cause harm.",
-          "example": "The queen's downfall was the result of her rivals' patient machinations.",
-          "mnemonic": "Contains 'machine' — a plot engineered coldly, like a machine.",
-          "synonyms": [
-            "scheme",
-            "plot",
-            "intrigue"
-          ],
-          "antonyms": []
         },
         {
           "id": "2027-07-collusion",
@@ -440,7 +331,7 @@
       ]
     },
     {
-      "day": 9,
+      "day": 7,
       "words": [
         {
           "id": "2027-07-conspire",
@@ -457,20 +348,6 @@
           "antonyms": []
         },
         {
-          "id": "2027-07-cabal",
-          "word": "cabal",
-          "partOfSpeech": "noun",
-          "definition": "A small group secretly working together for a hidden, often political, purpose.",
-          "example": "A cabal of officials controlled the city from behind closed doors.",
-          "mnemonic": "Sounds like 'cab-all' — a few plotters crammed in one cab, scheming for all the power.",
-          "synonyms": [
-            "clique",
-            "faction",
-            "junta"
-          ],
-          "antonyms": []
-        },
-        {
           "id": "2027-07-intrigue",
           "word": "intrigue",
           "partOfSpeech": "noun",
@@ -483,12 +360,7 @@
             "machination"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2027-07-frank",
           "word": "frank",
@@ -506,7 +378,12 @@
             "secretive",
             "deceitful"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
         {
           "id": "2027-07-sincere",
           "word": "sincere",
@@ -542,12 +419,7 @@
             "corruption",
             "duplicity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
+        },
         {
           "id": "2027-07-veracious",
           "word": "veracious",
@@ -564,7 +436,12 @@
             "dishonest",
             "deceitful"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
         {
           "id": "2027-07-mendacity",
           "word": "mendacity",
@@ -599,12 +476,7 @@
             "fidelity",
             "faithfulness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2027-07-perfidious",
           "word": "perfidious",
@@ -622,7 +494,12 @@
             "faithful",
             "trustworthy"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2027-07-treachery",
           "word": "treachery",
@@ -658,29 +535,6 @@
             "dependable",
             "safe"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
-        {
-          "id": "2027-07-betray",
-          "word": "betray",
-          "partOfSpeech": "verb",
-          "definition": "To be disloyal to someone, or to reveal something meant to stay secret.",
-          "example": "She swore she would never betray a friend by repeating what was told in confidence.",
-          "mnemonic": "'be-TRAY' — you serve someone up on a tray to their enemies.",
-          "synonyms": [
-            "deceive",
-            "double-cross",
-            "inform on"
-          ],
-          "antonyms": [
-            "protect",
-            "defend",
-            "support"
-          ]
         },
         {
           "id": "2027-07-turncoat",
@@ -698,7 +552,12 @@
             "loyalist",
             "patriot"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2027-07-renegade",
           "word": "renegade",
@@ -716,12 +575,7 @@
             "conformist",
             "follower"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2027-07-apostate",
           "word": "apostate",
@@ -757,7 +611,12 @@
             "forthright",
             "candid"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2027-07-elusive",
           "word": "elusive",
@@ -775,12 +634,7 @@
             "tangible",
             "accessible"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2027-07-circuitous",
           "word": "circuitous",
@@ -800,103 +654,6 @@
           ]
         },
         {
-          "id": "2027-07-veil",
-          "word": "veil",
-          "partOfSpeech": "noun",
-          "definition": "A piece of cloth or a covering that hides or obscures something from view.",
-          "example": "A veil of fog settled over the harbor, swallowing the outlines of the ships.",
-          "mnemonic": "Picture a bride's veil drawn down over her face to screen it from sight.",
-          "synonyms": [
-            "covering",
-            "screen",
-            "shroud"
-          ],
-          "antonyms": [
-            "exposure",
-            "revelation"
-          ]
-        },
-        {
-          "id": "2027-07-cloak",
-          "word": "cloak",
-          "partOfSpeech": "verb",
-          "definition": "To hide or disguise something so it cannot be seen or known.",
-          "example": "They cloaked their true intentions behind warm smiles and generous gifts.",
-          "mnemonic": "A cloak is a wide cape you wrap around yourself to cover and conceal.",
-          "synonyms": [
-            "conceal",
-            "mask",
-            "disguise"
-          ],
-          "antonyms": [
-            "reveal",
-            "expose",
-            "uncover"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
-        {
-          "id": "2027-07-shroud",
-          "word": "shroud",
-          "partOfSpeech": "verb",
-          "definition": "To wrap or conceal something so it cannot be seen or understood.",
-          "example": "Thick fog began to shroud the mountain peaks until they vanished from sight.",
-          "mnemonic": "A shroud is the cloth wrapped around a corpse — picture a sheet that hides everything beneath it.",
-          "synonyms": [
-            "veil",
-            "cloak",
-            "envelop"
-          ],
-          "antonyms": [
-            "reveal",
-            "expose",
-            "uncover"
-          ]
-        },
-        {
-          "id": "2027-07-camouflage",
-          "word": "camouflage",
-          "partOfSpeech": "noun",
-          "definition": "Coloring or covering used to make something blend into its surroundings.",
-          "example": "The soldier's camouflage made him nearly invisible against the leafy underbrush.",
-          "mnemonic": "Break it into 'camo-flage' — a flag of camo patterns that melts into the jungle.",
-          "synonyms": [
-            "concealment",
-            "disguise",
-            "cover"
-          ],
-          "antonyms": [
-            "exposure",
-            "display"
-          ]
-        },
-        {
-          "id": "2027-07-disguise",
-          "word": "disguise",
-          "partOfSpeech": "verb",
-          "definition": "To change one's appearance so as not to be recognized.",
-          "example": "She wore a wig and dark glasses to disguise herself at the crowded party.",
-          "mnemonic": "'dis-guise' — a different 'guise' (a guise is simply an outward look).",
-          "synonyms": [
-            "mask",
-            "camouflage",
-            "cloak"
-          ],
-          "antonyms": [
-            "reveal",
-            "expose"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
-        {
           "id": "2027-07-masquerade",
           "word": "masquerade",
           "partOfSpeech": "verb",
@@ -912,7 +669,12 @@
             "reveal",
             "unmask"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2027-07-pretext",
           "word": "pretext",
@@ -946,12 +708,7 @@
             "reimburse",
             "compensate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2027-07-defraud",
           "word": "defraud",
@@ -968,7 +725,12 @@
             "reimburse",
             "compensate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2027-07-embezzle",
           "word": "embezzle",
@@ -1002,12 +764,7 @@
             "reimburse",
             "undercharge"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
+        },
         {
           "id": "2027-07-bilk",
           "word": "bilk",
@@ -1024,7 +781,12 @@
             "repay",
             "reimburse"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2027-07-extort",
           "word": "extort",
@@ -1042,28 +804,6 @@
             "give"
           ]
         },
-        {
-          "id": "2027-07-dissimulate",
-          "word": "dissimulate",
-          "partOfSpeech": "verb",
-          "definition": "To hide your true feelings, thoughts, or intentions from others.",
-          "example": "He dissimulated his fury, smiling politely at the boss while seething inside.",
-          "mnemonic": "Contrast with 'simulate' (fake having something); to dissimulate is to fake NOT having it — hide it.",
-          "synonyms": [
-            "conceal",
-            "feign",
-            "mask"
-          ],
-          "antonyms": [
-            "reveal",
-            "disclose"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
         {
           "id": "2027-07-fraudulent",
           "word": "fraudulent",
@@ -1099,29 +839,11 @@
             "genuine",
             "truthful"
           ]
-        },
-        {
-          "id": "2027-07-clandestine",
-          "word": "clandestine",
-          "partOfSpeech": "adjective",
-          "definition": "Kept secret, especially because it is improper or unlawful.",
-          "example": "The spies held a clandestine meeting in an abandoned warehouse at midnight.",
-          "mnemonic": "Sounds like 'clan-destine' — a secret clan destined to gather in the shadows.",
-          "synonyms": [
-            "secret",
-            "covert",
-            "surreptitious"
-          ],
-          "antonyms": [
-            "open",
-            "public",
-            "overt"
-          ]
         }
       ]
     },
     {
-      "day": 21,
+      "day": 16,
       "words": [
         {
           "id": "2027-07-convoluted",
@@ -1157,28 +879,6 @@
           ]
         },
         {
-          "id": "2027-07-egregious",
-          "word": "egregious",
-          "partOfSpeech": "adjective",
-          "definition": "Remarkably bad in a way that stands out and shocks observers.",
-          "example": "The referee's egregious call cost the team the championship and drew boos from every seat.",
-          "mnemonic": "e- (out) + Latin 'grex/greg-' (flock) — standing OUT from the flock, so conspicuous that everyone notices the blunder.",
-          "synonyms": [
-            "flagrant",
-            "blatant",
-            "glaring"
-          ],
-          "antonyms": [
-            "minor",
-            "trivial"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
-        {
           "id": "2027-07-idiosyncratic",
           "word": "idiosyncratic",
           "partOfSpeech": "adjective",
@@ -1194,7 +894,12 @@
             "conventional",
             "common"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2027-07-indolent",
           "word": "indolent",
@@ -1230,12 +935,7 @@
             "vigorous",
             "brisk"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2027-07-maverick",
           "word": "maverick",
@@ -1252,7 +952,12 @@
             "conformist",
             "follower"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2027-07-mercenary",
           "word": "mercenary",
@@ -1287,12 +992,7 @@
             "unobtrusive",
             "reticent"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2027-07-palliate",
           "word": "palliate",
@@ -1310,7 +1010,12 @@
             "worsen",
             "intensify"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2027-07-parsimonious",
           "word": "parsimonious",
@@ -1346,12 +1051,7 @@
             "wordy",
             "rambling"
           ]
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2027-07-platitude",
           "word": "platitude",
@@ -1368,7 +1068,12 @@
             "insight",
             "epigram"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2027-07-candor",
           "word": "candor",
@@ -1403,12 +1108,7 @@
             "substance",
             "reality"
           ]
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2027-07-guise",
           "word": "guise",
@@ -1425,24 +1125,12 @@
             "reality",
             "truth"
           ]
-        },
-        {
-          "id": "2027-07-flagrant",
-          "word": "flagrant",
-          "partOfSpeech": "adjective",
-          "definition": "Conspicuously bad or offensive in an obvious, shameless way.",
-          "example": "The referee ejected him for a flagrant elbow thrown right in front of the whole crowd.",
-          "mnemonic": "Hidden inside is FLAG — the offense is so obvious it's like waving a red flag.",
-          "synonyms": [
-            "blatant",
-            "glaring",
-            "egregious"
-          ],
-          "antonyms": [
-            "subtle",
-            "discreet"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2027-07-cunning",
           "word": "cunning",
@@ -1459,12 +1147,7 @@
             "naive",
             "artless"
           ]
-        }
-      ]
-    },
-    {
-      "day": 27,
-      "words": [
+        },
         {
           "id": "2027-07-sanctimonious",
           "word": "sanctimonious",
@@ -1498,7 +1181,12 @@
             "sincerity",
             "integrity"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2027-07-facade",
           "word": "facade",
@@ -1515,12 +1203,7 @@
             "reality",
             "substance"
           ]
-        }
-      ]
-    },
-    {
-      "day": 28,
-      "words": [
+        },
         {
           "id": "2027-07-artless",
           "word": "artless",
@@ -1551,7 +1234,12 @@
             "dodge"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2027-07-disabuse",
           "word": "disabuse",
@@ -1567,6 +1255,24 @@
           "antonyms": [
             "deceive",
             "mislead"
+          ]
+        },
+        {
+          "id": "2027-07-canard",
+          "word": "canard",
+          "partOfSpeech": "noun",
+          "definition": "An unfounded rumor or false story spread to deceive or mislead people.",
+          "example": "The claim that the mayor secretly owns the stadium turned out to be a canard invented by a rival campaign.",
+          "mnemonic": "Sounds like \"can-nard\" — picture a duck (French *canard* = duck) quacking a loud, fake story across the pond.",
+          "synonyms": [
+            "hoax",
+            "fabrication",
+            "falsehood"
+          ],
+          "antonyms": [
+            "truth",
+            "fact",
+            "verity"
           ]
         }
       ]

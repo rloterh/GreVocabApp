@@ -539,65 +539,6 @@
           ]
         },
         {
-          "id": "2027-10-propagate",
-          "word": "propagate",
-          "partOfSpeech": "verb",
-          "definition": "To spread and promote an idea, belief, or information widely.",
-          "example": "Social media let the rumor propagate across the country within hours.",
-          "mnemonic": "Same root as 'propaganda' — pushing a message far and wide.",
-          "synonyms": [
-            "spread",
-            "disseminate",
-            "circulate"
-          ],
-          "antonyms": [
-            "suppress",
-            "stifle",
-            "contain"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
-        {
-          "id": "2027-10-disseminate",
-          "word": "disseminate",
-          "partOfSpeech": "verb",
-          "definition": "To spread information or ideas widely to many people.",
-          "example": "The health ministry worked to disseminate accurate guidance before the flu season peaked.",
-          "mnemonic": "dis-SEMINATE — like scattering seeds (Latin 'semen' = seed) across a whole field.",
-          "synonyms": [
-            "spread",
-            "circulate",
-            "broadcast"
-          ],
-          "antonyms": [
-            "withhold",
-            "suppress",
-            "gather"
-          ]
-        },
-        {
-          "id": "2027-10-promulgate",
-          "word": "promulgate",
-          "partOfSpeech": "verb",
-          "definition": "To officially announce or put a new law or rule into effect.",
-          "example": "The council promulgated the new zoning ordinance the morning after the vote.",
-          "mnemonic": "PROMO + gate — picture a 'promo at the gate': officials publicly posting the new rule at the entrance.",
-          "synonyms": [
-            "proclaim",
-            "decree",
-            "enact"
-          ],
-          "antonyms": [
-            "repeal",
-            "revoke",
-            "suppress"
-          ]
-        },
-        {
           "id": "2027-10-tangential",
           "word": "tangential",
           "partOfSpeech": "adjective",
@@ -618,7 +559,7 @@
       ]
     },
     {
-      "day": 12,
+      "day": 11,
       "words": [
         {
           "id": "2027-10-rebuttal",
@@ -677,7 +618,7 @@
       ]
     },
     {
-      "day": 13,
+      "day": 12,
       "words": [
         {
           "id": "2027-10-accede",
@@ -736,7 +677,7 @@
       ]
     },
     {
-      "day": 14,
+      "day": 13,
       "words": [
         {
           "id": "2027-10-affirm",
@@ -795,7 +736,7 @@
       ]
     },
     {
-      "day": 15,
+      "day": 14,
       "words": [
         {
           "id": "2027-10-stipulate",
@@ -816,21 +757,257 @@
           ]
         },
         {
-          "id": "2027-10-intractable",
-          "word": "intractable",
-          "partOfSpeech": "adjective",
-          "definition": "Very difficult to manage, control, or solve.",
-          "example": "Decades later, the region's water shortage remains an intractable problem.",
-          "mnemonic": "IN (not) + TRACTABLE (able to be pulled/led, like a 'tractor') — a mule that simply won't be pulled into line.",
+          "id": "2027-10-disputation",
+          "word": "disputation",
+          "partOfSpeech": "noun",
+          "definition": "A formal debate or reasoned argument, often academic, over a contested question.",
+          "example": "The medieval scholars gathered for a formal disputation, each defending his thesis before the faculty.",
+          "mnemonic": "DISPUTE + -ation: a staged public event built around a dispute.",
           "synonyms": [
-            "stubborn",
-            "unmanageable",
-            "obstinate"
+            "debate",
+            "argumentation",
+            "polemic"
           ],
           "antonyms": [
-            "manageable",
-            "docile",
-            "tractable"
+            "agreement",
+            "consensus",
+            "accord"
+          ]
+        },
+        {
+          "id": "2027-10-inference",
+          "word": "inference",
+          "partOfSpeech": "noun",
+          "definition": "A conclusion drawn from evidence and reasoning rather than from an explicit statement.",
+          "example": "Seeing the muddy boots by the door, she made the inference that he'd walked through the garden.",
+          "mnemonic": "IN + FER (Latin 'ferre', to carry): your mind carries you inward from clues to a conclusion.",
+          "synonyms": [
+            "deduction",
+            "conclusion",
+            "surmise"
+          ],
+          "antonyms": [
+            "observation",
+            "fact",
+            "given"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "2027-10-irrefutable",
+          "word": "irrefutable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to deny or prove wrong.",
+          "example": "The security footage was irrefutable, so the suspect finally stopped denying he was there.",
+          "mnemonic": "IR- (not) + REFUTE: nothing you say can knock it down.",
+          "synonyms": [
+            "incontrovertible",
+            "indisputable",
+            "undeniable"
+          ],
+          "antonyms": [
+            "questionable",
+            "doubtful",
+            "disprovable"
+          ]
+        },
+        {
+          "id": "2027-10-persuasive",
+          "word": "persuasive",
+          "partOfSpeech": "adjective",
+          "definition": "Able to convince someone to believe or do something.",
+          "example": "Her closing argument was so persuasive that even the skeptical jurors began nodding along.",
+          "mnemonic": "Sounds like 'per-SUAVE': a smooth, suave talker who wins you over.",
+          "synonyms": [
+            "convincing",
+            "compelling",
+            "cogent"
+          ],
+          "antonyms": [
+            "unconvincing",
+            "weak",
+            "ineffective"
+          ]
+        },
+        {
+          "id": "2027-10-philippic",
+          "word": "philippic",
+          "partOfSpeech": "noun",
+          "definition": "A bitter, prolonged verbal attack denouncing someone or something.",
+          "example": "The senator launched into a furious philippic against the corruption gripping the ministry.",
+          "mnemonic": "Named for Demosthenes' fiery speeches against Philip of Macedon — 'Philip-pic.'",
+          "synonyms": [
+            "diatribe",
+            "tirade",
+            "invective"
+          ],
+          "antonyms": [
+            "eulogy",
+            "tribute",
+            "panegyric"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2027-10-adjure",
+          "word": "adjure",
+          "partOfSpeech": "verb",
+          "definition": "To earnestly urge or solemnly command someone to do something, as if under oath.",
+          "example": "The dying king adjured his sons to protect the realm and never betray one another.",
+          "mnemonic": "AD (to) + JURE (Latin 'swear'): you put someone under oath to act.",
+          "synonyms": [
+            "implore",
+            "beseech",
+            "entreat"
+          ],
+          "antonyms": [
+            "dissuade",
+            "discourage",
+            "release"
+          ]
+        },
+        {
+          "id": "2027-10-enjoin",
+          "word": "enjoin",
+          "partOfSpeech": "verb",
+          "definition": "To order or urge someone to do something, often formally or by legal authority.",
+          "example": "The judge enjoined the company from dumping any more waste into the river.",
+          "mnemonic": "EN + JOIN: you fasten a command onto someone, binding them to act.",
+          "synonyms": [
+            "command",
+            "instruct",
+            "direct"
+          ],
+          "antonyms": [
+            "permit",
+            "allow",
+            "release"
+          ]
+        },
+        {
+          "id": "2027-10-deter",
+          "word": "deter",
+          "partOfSpeech": "verb",
+          "definition": "To discourage someone from acting through fear or doubt about the consequences.",
+          "example": "High fences and bright floodlights are meant to deter burglars from even approaching the house.",
+          "mnemonic": "Sounds like 'de-TERROR': fear pushes you away from doing it.",
+          "synonyms": [
+            "discourage",
+            "dissuade",
+            "hinder"
+          ],
+          "antonyms": [
+            "encourage",
+            "motivate",
+            "incite"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2027-10-caveat",
+          "word": "caveat",
+          "partOfSpeech": "noun",
+          "definition": "A warning or cautionary condition attached to a statement or agreement.",
+          "example": "He agreed to lend the car, with one caveat: it had to be returned with a full tank.",
+          "mnemonic": "Latin 'let him beware' — picture a CAVE with a 'beware!' sign at its mouth.",
+          "synonyms": [
+            "warning",
+            "caution",
+            "stipulation"
+          ],
+          "antonyms": [
+            "guarantee",
+            "assurance",
+            "carte blanche"
+          ]
+        },
+        {
+          "id": "2027-10-proviso",
+          "word": "proviso",
+          "partOfSpeech": "noun",
+          "definition": "A condition or stipulation attached to an agreement.",
+          "example": "She accepted the job, with the proviso that she could work from home two days a week.",
+          "mnemonic": "PROVIDE-so: it's 'provided that' some condition is met.",
+          "synonyms": [
+            "condition",
+            "stipulation",
+            "clause"
+          ],
+          "antonyms": [
+            "guarantee",
+            "unconditional grant",
+            "carte blanche"
+          ]
+        },
+        {
+          "id": "2027-10-rejoinder",
+          "word": "rejoinder",
+          "partOfSpeech": "noun",
+          "definition": "A sharp or witty reply, especially one answering a criticism.",
+          "example": "When he mocked her cooking, her rejoinder was that he'd never once managed to boil an egg.",
+          "mnemonic": "RE- (back) + JOIN: you re-join the exchange with a snappy comeback.",
+          "synonyms": [
+            "retort",
+            "riposte",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "prompt",
+            "provocation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2027-10-retort",
+          "word": "retort",
+          "partOfSpeech": "noun",
+          "definition": "A quick, sharp, often angry reply to a remark.",
+          "example": "Stung by the insult, she fired back a cutting retort before storming out of the room.",
+          "mnemonic": "RE-TORT: you twist (Latin 'torquere') the remark right back at them.",
+          "synonyms": [
+            "riposte",
+            "rejoinder",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "inquiry",
+            "prompt"
+          ]
+        },
+        {
+          "id": "2027-10-riposte",
+          "word": "riposte",
+          "partOfSpeech": "noun",
+          "definition": "A quick, clever reply, or a swift return thrust in fencing.",
+          "example": "To his smug boast, she delivered a riposte so witty that the whole room burst out laughing.",
+          "mnemonic": "Sounds like 'response' plus a fencing 'post' — a lunge-back reply.",
+          "synonyms": [
+            "retort",
+            "rejoinder",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "silence",
+            "provocation"
           ]
         }
       ]

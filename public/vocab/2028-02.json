@@ -557,28 +557,6 @@
           "antonyms": []
         },
         {
-          "id": "2028-02-herald",
-          "word": "herald",
-          "partOfSpeech": "verb",
-          "definition": "To announce or signal the arrival of something, often with fanfare.",
-          "example": "Church bells heralded the arrival of the new year exactly at midnight.",
-          "mnemonic": "A 'Herald' newspaper proclaims the day's news — a herald announces what's coming.",
-          "synonyms": [
-            "announce",
-            "proclaim",
-            "signal"
-          ],
-          "antonyms": [
-            "conceal",
-            "suppress"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "words": [
-        {
           "id": "2028-02-precursor",
           "word": "precursor",
           "partOfSpeech": "noun",
@@ -595,7 +573,12 @@
             "descendant",
             "sequel"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2028-02-progenitor",
           "word": "progenitor",
@@ -627,12 +610,7 @@
             "augur"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
+        },
         {
           "id": "2028-02-prefigure",
           "word": "prefigure",
@@ -646,7 +624,12 @@
             "herald"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2028-02-emergent",
           "word": "emergent",
@@ -681,12 +664,7 @@
             "absorb",
             "withhold"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2028-02-emerge",
           "word": "emerge",
@@ -704,7 +682,12 @@
             "submerge",
             "vanish"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2028-02-materialize",
           "word": "materialize",
@@ -740,12 +723,7 @@
             "wilt",
             "die"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2028-02-archetype",
           "word": "archetype",
@@ -763,7 +741,12 @@
             "imitation",
             "derivative"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2028-02-prototype",
           "word": "prototype",
@@ -798,12 +781,7 @@
             "successor",
             "latecomer"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2028-02-actuate",
           "word": "actuate",
@@ -821,7 +799,12 @@
             "stop",
             "deactivate"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2028-02-catalyze",
           "word": "catalyze",
@@ -857,12 +840,7 @@
             "deter",
             "pacify"
           ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2028-02-mobilize",
           "word": "mobilize",
@@ -879,7 +857,12 @@
             "disband",
             "scatter"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2028-02-spur",
           "word": "spur",
@@ -914,12 +897,7 @@
             "eject",
             "expel"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2028-02-nucleus",
           "word": "nucleus",
@@ -937,7 +915,12 @@
             "edge",
             "outskirts"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
         {
           "id": "2028-02-ancestral",
           "word": "ancestral",
@@ -971,12 +954,7 @@
             "descendant",
             "offspring"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2028-02-lineage",
           "word": "lineage",
@@ -990,7 +968,12 @@
             "pedigree"
           ],
           "antonyms": []
-        },
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
         {
           "id": "2028-02-renewal",
           "word": "renewal",
@@ -1024,28 +1007,6 @@
             "decline",
             "demise"
           ]
-        }
-      ]
-    },
-    {
-      "day": 19,
-      "words": [
-        {
-          "id": "2028-02-resurgence",
-          "word": "resurgence",
-          "partOfSpeech": "noun",
-          "definition": "A rise or increase again after a period of little activity or decline.",
-          "example": "The city saw a resurgence of interest in vinyl records among young listeners.",
-          "mnemonic": "RE (again) + SURGE — a surge that comes rolling back.",
-          "synonyms": [
-            "revival",
-            "comeback",
-            "upswing"
-          ],
-          "antonyms": [
-            "decline",
-            "ebb"
-          ]
         },
         {
           "id": "2028-02-resurgent",
@@ -1063,7 +1024,12 @@
             "declining",
             "waning"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
         {
           "id": "2028-02-renascent",
           "word": "renascent",
@@ -1079,45 +1045,6 @@
           "antonyms": [
             "dying",
             "fading"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 20,
-      "words": [
-        {
-          "id": "2028-02-rejuvenate",
-          "word": "rejuvenate",
-          "partOfSpeech": "verb",
-          "definition": "To make someone or something feel young, fresh, or energetic once more.",
-          "example": "A week by the sea rejuvenated her, and she returned to work full of energy.",
-          "mnemonic": "RE + JUVENILE (young) — to make young again.",
-          "synonyms": [
-            "revitalize",
-            "refresh",
-            "renew"
-          ],
-          "antonyms": [
-            "exhaust",
-            "drain"
-          ]
-        },
-        {
-          "id": "2028-02-regenerate",
-          "word": "regenerate",
-          "partOfSpeech": "verb",
-          "definition": "To grow or form again, or to restore something to a healthier state.",
-          "example": "A lizard can regenerate its tail after losing it to a predator.",
-          "mnemonic": "RE (again) + GENERATE — to bring into being once more.",
-          "synonyms": [
-            "renew",
-            "restore",
-            "revive"
-          ],
-          "antonyms": [
-            "degenerate",
-            "destroy"
           ]
         },
         {
@@ -1137,12 +1064,7 @@
             "deplete",
             "weaken"
           ]
-        }
-      ]
-    },
-    {
-      "day": 21,
-      "words": [
+        },
         {
           "id": "2028-02-rekindle",
           "word": "rekindle",
@@ -1159,7 +1081,12 @@
             "extinguish",
             "smother"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
         {
           "id": "2028-02-resuscitate",
           "word": "resuscitate",
@@ -1193,12 +1120,7 @@
             "kill",
             "deaden"
           ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
+        },
         {
           "id": "2028-02-reconstitute",
           "word": "reconstitute",
@@ -1215,7 +1137,12 @@
             "dehydrate",
             "dismantle"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
         {
           "id": "2028-02-rehabilitate",
           "word": "rehabilitate",
@@ -1250,12 +1177,7 @@
             "initiate",
             "start"
           ]
-        }
-      ]
-    },
-    {
-      "day": 23,
-      "words": [
+        },
         {
           "id": "2028-02-terminus",
           "word": "terminus",
@@ -1273,7 +1195,12 @@
             "start",
             "beginning"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
         {
           "id": "2028-02-terminal",
           "word": "terminal",
@@ -1309,12 +1236,7 @@
             "opening",
             "prelude"
           ]
-        }
-      ]
-    },
-    {
-      "day": 24,
-      "words": [
+        },
         {
           "id": "2028-02-denouement",
           "word": "denouement",
@@ -1332,7 +1254,12 @@
             "setup",
             "complication"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
         {
           "id": "2028-02-epilogue",
           "word": "epilogue",
@@ -1368,12 +1295,7 @@
             "prelude",
             "opening"
           ]
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2028-02-valediction",
           "word": "valediction",
@@ -1391,7 +1313,12 @@
             "welcome",
             "salutation"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
         {
           "id": "2028-02-valedictory",
           "word": "valedictory",
@@ -1427,12 +1354,7 @@
             "daybreak",
             "noon"
           ]
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2028-02-dusk",
           "word": "dusk",
@@ -1450,47 +1372,11 @@
             "daybreak",
             "sunrise"
           ]
-        },
-        {
-          "id": "2028-02-moribund",
-          "word": "moribund",
-          "partOfSpeech": "adjective",
-          "definition": "Near death or in terminal decline, with little chance of recovery.",
-          "example": "The old mill town felt moribund, its shops shuttered and its streets nearly empty.",
-          "mnemonic": "Latin 'mori' = to die (as in mortal, mortuary) — something 'bound' for the morgue.",
-          "synonyms": [
-            "dying",
-            "declining",
-            "failing"
-          ],
-          "antonyms": [
-            "thriving",
-            "flourishing",
-            "reviving"
-          ]
-        },
-        {
-          "id": "2028-02-defunct",
-          "word": "defunct",
-          "partOfSpeech": "adjective",
-          "definition": "No longer operating, active, or in use.",
-          "example": "She found a paycheck stub from a company that had been defunct for over thirty years.",
-          "mnemonic": "'de-' (un) + 'funct' (function) — it has lost its function and no longer works.",
-          "synonyms": [
-            "obsolete",
-            "inoperative",
-            "dead"
-          ],
-          "antonyms": [
-            "active",
-            "operational",
-            "functioning"
-          ]
         }
       ]
     },
     {
-      "day": 27,
+      "day": 25,
       "words": [
         {
           "id": "2028-02-extinct",
@@ -1549,7 +1435,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 26,
       "words": [
         {
           "id": "2028-02-abrogate",
@@ -1608,7 +1494,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 27,
       "words": [
         {
           "id": "2028-02-rescind",
@@ -1667,7 +1553,7 @@
       ]
     },
     {
-      "day": 30,
+      "day": 28,
       "words": [
         {
           "id": "2028-02-expire",
@@ -1721,6 +1607,29 @@
             "birth",
             "rise",
             "beginning"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "2028-02-desist",
+          "word": "desist",
+          "partOfSpeech": "verb",
+          "definition": "To stop doing something; to cease from an action or process.",
+          "example": "The lawyer sent a letter demanding that the company immediately desist from using the copyrighted logo.",
+          "mnemonic": "Sounds like \"de-sit\" — imagine someone who won't sit still, told to 'de-sit' and STOP fidgeting.",
+          "synonyms": [
+            "cease",
+            "stop",
+            "halt"
+          ],
+          "antonyms": [
+            "continue",
+            "persist",
+            "proceed"
           ]
         }
       ]

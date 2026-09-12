@@ -1219,6 +1219,88 @@
           ]
         }
       ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "2028-08-euphony",
+          "word": "euphony",
+          "partOfSpeech": "noun",
+          "definition": "A pleasing, harmonious quality in the sounds of spoken words or music.",
+          "example": "The poet chose soft, flowing consonants so the closing stanza would ring with euphony.",
+          "mnemonic": "eu- (Greek 'good') + -phony ('sound') = good sound — like a euphonium horn that plays sweetly.",
+          "synonyms": [
+            "melodiousness",
+            "harmony",
+            "mellifluousness"
+          ],
+          "antonyms": [
+            "cacophony",
+            "dissonance",
+            "discordance"
+          ]
+        },
+        {
+          "id": "2028-08-euphonious",
+          "word": "euphonious",
+          "partOfSpeech": "adjective",
+          "definition": "Pleasant and smooth-sounding, agreeable to the ear.",
+          "example": "Her name was so euphonious that radio announcers loved rolling it slowly across the airwaves.",
+          "mnemonic": "eu- 'good' + phon 'sound' + -ious ('full of') → full of good sound.",
+          "synonyms": [
+            "melodious",
+            "mellifluous",
+            "dulcet"
+          ],
+          "antonyms": [
+            "cacophonous",
+            "dissonant",
+            "grating"
+          ]
+        },
+        {
+          "id": "2028-08-concordant",
+          "word": "concordant",
+          "partOfSpeech": "adjective",
+          "definition": "Being in agreement or harmony; consistent and matching.",
+          "example": "The witnesses' accounts were remarkably concordant, each detail lining up neatly with the others.",
+          "mnemonic": "con- 'together' + cord ('heart,' Latin cor) → hearts beating together, in agreement.",
+          "synonyms": [
+            "harmonious",
+            "consistent",
+            "congruent"
+          ],
+          "antonyms": [
+            "discordant",
+            "conflicting",
+            "incongruent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "2028-08-concinnity",
+          "word": "concinnity",
+          "partOfSpeech": "noun",
+          "definition": "Elegant harmony and skillful arrangement of parts into a graceful, well-fitted whole.",
+          "example": "Critics praised the essay's concinnity, admiring how every clause fit its neighbors with effortless grace.",
+          "mnemonic": "Sound-alike 'con-CINN': picture cinnamon rolls arranged in a perfectly neat, tidy spiral.",
+          "synonyms": [
+            "elegance",
+            "symmetry",
+            "gracefulness"
+          ],
+          "antonyms": [
+            "clumsiness",
+            "disharmony",
+            "awkwardness"
+          ]
+        }
+      ]
     }
   ],
   "description": "mid-frequency and academic register — harmony and discord",

@@ -42,47 +42,6 @@
           ]
         },
         {
-          "id": "2029-05-voracious",
-          "word": "voracious",
-          "partOfSpeech": "adjective",
-          "definition": "Wanting or consuming huge amounts of food, or eager for something in enormous quantity.",
-          "example": "The voracious teenager finished the whole pizza and asked what else there was to eat.",
-          "mnemonic": "'Vora' echoes 'devour' — a voracious wolf that devours everything in sight.",
-          "synonyms": [
-            "ravenous",
-            "insatiable",
-            "greedy"
-          ],
-          "antonyms": [
-            "satisfied",
-            "abstemious",
-            "full"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "words": [
-        {
-          "id": "2029-05-insatiable",
-          "word": "insatiable",
-          "partOfSpeech": "adjective",
-          "definition": "Impossible to satisfy, no matter how much is given or provided.",
-          "example": "Her insatiable curiosity meant every answer only led her to ask three more questions.",
-          "mnemonic": "'In-' (not) + 'satiable' (able to be sated): a bucket with no bottom, never filled.",
-          "synonyms": [
-            "unquenchable",
-            "voracious",
-            "greedy"
-          ],
-          "antonyms": [
-            "satisfiable",
-            "content",
-            "satisfied"
-          ]
-        },
-        {
           "id": "2029-05-esurient",
           "word": "esurient",
           "partOfSpeech": "adjective",
@@ -99,7 +58,12 @@
             "full",
             "satisfied"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
         {
           "id": "2029-05-edacious",
           "word": "edacious",
@@ -117,12 +81,7 @@
             "ascetic",
             "moderate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "words": [
+        },
         {
           "id": "2029-05-crapulous",
           "word": "crapulous",
@@ -158,29 +117,11 @@
             "temperance",
             "moderation"
           ]
-        },
-        {
-          "id": "2029-05-gluttonous",
-          "word": "gluttonous",
-          "partOfSpeech": "adjective",
-          "definition": "Excessively greedy, especially about eating and drinking.",
-          "example": "The gluttonous guest devoured everyone else's share without a hint of shame.",
-          "mnemonic": "A GLUTTON gluts the GUT — packing it far past what any stomach needs.",
-          "synonyms": [
-            "greedy",
-            "voracious",
-            "insatiable"
-          ],
-          "antonyms": [
-            "abstemious",
-            "temperate",
-            "moderate"
-          ]
         }
       ]
     },
     {
-      "day": 4,
+      "day": 3,
       "words": [
         {
           "id": "2029-05-ravenous",
@@ -239,7 +180,7 @@
       ]
     },
     {
-      "day": 5,
+      "day": 4,
       "words": [
         {
           "id": "2029-05-debauchery",
@@ -298,7 +239,7 @@
       ]
     },
     {
-      "day": 6,
+      "day": 5,
       "words": [
         {
           "id": "2029-05-carouse",
@@ -354,7 +295,7 @@
       ]
     },
     {
-      "day": 7,
+      "day": 6,
       "words": [
         {
           "id": "2029-05-epicure",
@@ -410,7 +351,7 @@
       ]
     },
     {
-      "day": 8,
+      "day": 7,
       "words": [
         {
           "id": "2029-05-immoderate",
@@ -466,7 +407,7 @@
       ]
     },
     {
-      "day": 9,
+      "day": 8,
       "words": [
         {
           "id": "2029-05-extortionate",
@@ -486,45 +427,6 @@
           ]
         },
         {
-          "id": "2029-05-rife",
-          "word": "rife",
-          "partOfSpeech": "adjective",
-          "definition": "Widespread and common, usually of something unpleasant.",
-          "example": "Rumors were rife in the office after the CEO's sudden, unexplained departure on Friday.",
-          "mnemonic": "Rhymes with 'life' — the bad thing is spreading through everyday life absolutely everywhere.",
-          "synonyms": [
-            "widespread",
-            "prevalent",
-            "rampant"
-          ],
-          "antonyms": [
-            "scarce",
-            "rare"
-          ]
-        },
-        {
-          "id": "2029-05-prodigious",
-          "word": "prodigious",
-          "partOfSpeech": "adjective",
-          "definition": "Impressively large, powerful, or extraordinary in size or degree.",
-          "example": "The young pianist showed a prodigious talent, mastering concertos most adults never attempt.",
-          "mnemonic": "Think 'prodigy' — a prodigy possesses prodigious, jaw-dropping gifts.",
-          "synonyms": [
-            "enormous",
-            "stupendous",
-            "phenomenal"
-          ],
-          "antonyms": [
-            "tiny",
-            "unremarkable"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
-        {
           "id": "2029-05-overweening",
           "word": "overweening",
           "partOfSpeech": "adjective",
@@ -539,23 +441,6 @@
           "antonyms": [
             "humble",
             "modest"
-          ]
-        },
-        {
-          "id": "2029-05-engorge",
-          "word": "engorge",
-          "partOfSpeech": "verb",
-          "definition": "To swell up by becoming filled with fluid or food.",
-          "example": "After feeding all night, the tick had engorged to many times its original size.",
-          "mnemonic": "'en-' + 'gorge': to gorge something so full that it visibly balloons.",
-          "synonyms": [
-            "swell",
-            "distend",
-            "stuff"
-          ],
-          "antonyms": [
-            "drain",
-            "shrink"
           ]
         },
         {
@@ -578,7 +463,7 @@
       ]
     },
     {
-      "day": 11,
+      "day": 9,
       "words": [
         {
           "id": "2029-05-spate",
@@ -597,45 +482,6 @@
             "dearth"
           ]
         },
-        {
-          "id": "2029-05-myriad",
-          "word": "myriad",
-          "partOfSpeech": "adjective",
-          "definition": "Consisting of an extremely large, uncountable quantity.",
-          "example": "The night sky over the desert revealed myriad stars I had never noticed from the city.",
-          "mnemonic": "From Greek 'myrias' (ten thousand); picture 'my riot' — a riot of countless people flooding the street.",
-          "synonyms": [
-            "countless",
-            "innumerable",
-            "manifold"
-          ],
-          "antonyms": [
-            "few",
-            "scarce"
-          ]
-        },
-        {
-          "id": "2029-05-multitudinous",
-          "word": "multitudinous",
-          "partOfSpeech": "adjective",
-          "definition": "Very numerous; made up of a great many people or things.",
-          "example": "The report's multitudinous footnotes made each page nearly impossible to read.",
-          "mnemonic": "Break it down: 'multi-' (many) + '-tude' — a 'multi-tood' crowd, too many to count.",
-          "synonyms": [
-            "countless",
-            "innumerable",
-            "myriad"
-          ],
-          "antonyms": [
-            "few",
-            "sparse"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "words": [
         {
           "id": "2029-05-voracity",
           "word": "voracity",
@@ -669,7 +515,12 @@
             "moderate",
             "restrained"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
         {
           "id": "2029-05-intemperance",
           "word": "intemperance",
@@ -686,12 +537,7 @@
             "moderation",
             "restraint"
           ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
+        },
         {
           "id": "2029-05-abstinence",
           "word": "abstinence",
@@ -725,7 +571,12 @@
             "excess",
             "indulgence"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
         {
           "id": "2029-05-sobriety",
           "word": "sobriety",
@@ -742,12 +593,7 @@
             "drunkenness",
             "frivolity"
           ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
+        },
         {
           "id": "2029-05-asceticism",
           "word": "asceticism",
@@ -782,7 +628,12 @@
             "indulge",
             "assert"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
         {
           "id": "2029-05-eschew",
           "word": "eschew",
@@ -800,12 +651,7 @@
             "seek",
             "welcome"
           ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
+        },
         {
           "id": "2029-05-exiguous",
           "word": "exiguous",
@@ -840,7 +686,12 @@
             "abundance",
             "heap"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
         {
           "id": "2029-05-excrescence",
           "word": "excrescence",
@@ -854,12 +705,7 @@
             "growth"
           ],
           "antonyms": []
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
+        },
         {
           "id": "2029-05-hedonism",
           "word": "hedonism",
@@ -895,7 +741,12 @@
             "gaunt",
             "slim"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
         {
           "id": "2029-05-corpulence",
           "word": "corpulence",
@@ -913,12 +764,7 @@
             "thinness",
             "leanness"
           ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
+        },
         {
           "id": "2029-05-redundant",
           "word": "redundant",
@@ -954,7 +800,12 @@
             "conciseness",
             "economy"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
         {
           "id": "2029-05-overindulge",
           "word": "overindulge",
@@ -972,12 +823,7 @@
             "restrain",
             "moderate"
           ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
+        },
         {
           "id": "2029-05-bibulous",
           "word": "bibulous",
@@ -1012,7 +858,12 @@
             "sober up",
             "detoxify"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
         {
           "id": "2029-05-guzzle",
           "word": "guzzle",
@@ -1029,6 +880,160 @@
             "sip",
             "nurse",
             "nip"
+          ]
+        },
+        {
+          "id": "2029-05-lascivious",
+          "word": "lascivious",
+          "partOfSpeech": "adjective",
+          "definition": "Openly showing strong or crude sexual desire in a way that feels improper.",
+          "example": "The censors cut the scene, calling the actor's leering glance far too lascivious for daytime television.",
+          "mnemonic": "Sounds like 'lush-and-vicious' — a lush, vicious appetite for the flesh.",
+          "synonyms": [
+            "lecherous",
+            "lustful",
+            "salacious"
+          ],
+          "antonyms": [
+            "chaste",
+            "modest",
+            "prudish"
+          ]
+        },
+        {
+          "id": "2029-05-gluttony",
+          "word": "gluttony",
+          "partOfSpeech": "noun",
+          "definition": "The habit of eating or consuming far more than one needs, to excess.",
+          "example": "By the third helping of pie, his gluttony had become the talk of the whole holiday table.",
+          "mnemonic": "'Glut' means an oversupply — picture a belly so full it's a 'glut-tummy.'",
+          "synonyms": [
+            "greed",
+            "voracity",
+            "overindulgence"
+          ],
+          "antonyms": [
+            "temperance",
+            "abstinence",
+            "moderation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "2029-05-indulgence",
+          "word": "indulgence",
+          "partOfSpeech": "noun",
+          "definition": "The act of freely giving oneself a pleasure or treat, often beyond what is sensible.",
+          "example": "A long bath with candles was her one small indulgence after a punishing week at work.",
+          "mnemonic": "'In-dulge' hides 'dulce' (sweet) — letting the sweetness in.",
+          "synonyms": [
+            "treat",
+            "gratification",
+            "luxury"
+          ],
+          "antonyms": [
+            "denial",
+            "abstinence",
+            "deprivation"
+          ]
+        },
+        {
+          "id": "2029-05-splurge",
+          "word": "splurge",
+          "partOfSpeech": "verb",
+          "definition": "To spend a lot of money suddenly on something enjoyable but not necessary.",
+          "example": "With her first paycheck she decided to splurge on a designer coat she'd eyed for months.",
+          "mnemonic": "Sounds like 'splash' + 'surge' — a sudden splash of cash surging out.",
+          "synonyms": [
+            "squander",
+            "lavish",
+            "blow"
+          ],
+          "antonyms": [
+            "scrimp",
+            "economize",
+            "save"
+          ]
+        },
+        {
+          "id": "2029-05-unfettered",
+          "word": "unfettered",
+          "partOfSpeech": "adjective",
+          "definition": "Free from any limits, controls, or restrictions on action or movement.",
+          "example": "Working alone in the studio at midnight, she felt unfettered to paint whatever came to mind.",
+          "mnemonic": "A 'fetter' is a chain on the ankle — 'un-fettered' means the chains are off.",
+          "synonyms": [
+            "unrestrained",
+            "unchecked",
+            "free"
+          ],
+          "antonyms": [
+            "restrained",
+            "confined",
+            "bound"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2029-05-restraint",
+          "word": "restraint",
+          "partOfSpeech": "noun",
+          "definition": "The act of holding back one's feelings or actions with calm self-control.",
+          "example": "It took real restraint not to snap back at the rude customer, but she kept her voice level.",
+          "mnemonic": "'Re-strain' — pulling the strap tight to hold something in place.",
+          "synonyms": [
+            "self-control",
+            "moderation",
+            "temperance"
+          ],
+          "antonyms": [
+            "indulgence",
+            "abandon",
+            "excess"
+          ]
+        },
+        {
+          "id": "2029-05-prudence",
+          "word": "prudence",
+          "partOfSpeech": "noun",
+          "definition": "Careful good judgment that avoids needless risk and plans wisely for the future.",
+          "example": "Her prudence with money meant that when the layoffs came, she had six months of savings ready.",
+          "mnemonic": "Think of a cautious 'Prue' who studies every angle before acting.",
+          "synonyms": [
+            "caution",
+            "discretion",
+            "foresight"
+          ],
+          "antonyms": [
+            "recklessness",
+            "rashness",
+            "folly"
+          ]
+        },
+        {
+          "id": "2029-05-wallow",
+          "word": "wallow",
+          "partOfSpeech": "verb",
+          "definition": "To roll about lazily in mud or water, or to linger in an emotion.",
+          "example": "After the breakup he let himself wallow in sad songs and cold pizza for an entire weekend.",
+          "mnemonic": "Picture a pig in a 'hollow' of mud — swap the H for W to wallow.",
+          "synonyms": [
+            "flounder",
+            "roll",
+            "luxuriate"
+          ],
+          "antonyms": [
+            "rise",
+            "overcome",
+            "escape"
           ]
         }
       ]

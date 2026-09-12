@@ -1132,63 +1132,6 @@
           ]
         },
         {
-          "id": "2028-11-inveterate",
-          "word": "inveterate",
-          "partOfSpeech": "adjective",
-          "definition": "Firmly established by long practice and very hard to give up.",
-          "example": "An inveterate gambler, he couldn't pass a casino without stopping to place a bet.",
-          "mnemonic": "In-VETER-ate sounds like 'veteran' — someone who's been at it for years (Latin vetus, 'old').",
-          "synonyms": [
-            "habitual",
-            "chronic",
-            "confirmed"
-          ],
-          "antonyms": [
-            "occasional",
-            "sporadic"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 22,
-      "words": [
-        {
-          "id": "2028-11-ingrained",
-          "word": "ingrained",
-          "partOfSpeech": "adjective",
-          "definition": "Deeply fixed in someone's nature or a surface and difficult to remove.",
-          "example": "Politeness was so ingrained in her that she apologized even to the furniture.",
-          "mnemonic": "Worked into the 'grain' of wood — soaked so deep you can't scrub it out.",
-          "synonyms": [
-            "deep-seated",
-            "entrenched",
-            "inborn"
-          ],
-          "antonyms": [
-            "superficial",
-            "transient"
-          ]
-        },
-        {
-          "id": "2028-11-habitual",
-          "word": "habitual",
-          "partOfSpeech": "adjective",
-          "definition": "Done so often that it becomes an automatic and expected pattern.",
-          "example": "His habitual lateness meant friends told him every event started an hour early.",
-          "mnemonic": "Habit + -ual — the thing you do purely out of 'habit,' day after day.",
-          "synonyms": [
-            "customary",
-            "routine",
-            "regular"
-          ],
-          "antonyms": [
-            "occasional",
-            "rare",
-            "sporadic"
-          ]
-        },
-        {
           "id": "2028-11-rote",
           "word": "rote",
           "partOfSpeech": "noun",
@@ -1207,7 +1150,7 @@
       ]
     },
     {
-      "day": 23,
+      "day": 22,
       "words": [
         {
           "id": "2028-11-formulaic",
@@ -1265,7 +1208,7 @@
       ]
     },
     {
-      "day": 24,
+      "day": 23,
       "words": [
         {
           "id": "2028-11-atavism",
@@ -1323,7 +1266,7 @@
       ]
     },
     {
-      "day": 25,
+      "day": 24,
       "words": [
         {
           "id": "2028-11-shibboleth",
@@ -1374,7 +1317,7 @@
       ]
     },
     {
-      "day": 26,
+      "day": 25,
       "words": [
         {
           "id": "2028-11-totemic",
@@ -1426,7 +1369,7 @@
       ]
     },
     {
-      "day": 27,
+      "day": 26,
       "words": [
         {
           "id": "2028-11-amulet",
@@ -1473,7 +1416,7 @@
       ]
     },
     {
-      "day": 28,
+      "day": 27,
       "words": [
         {
           "id": "2028-11-auspicious",
@@ -1528,7 +1471,7 @@
       ]
     },
     {
-      "day": 29,
+      "day": 28,
       "words": [
         {
           "id": "2028-11-portent",
@@ -1578,7 +1521,7 @@
       ]
     },
     {
-      "day": 30,
+      "day": 29,
       "words": [
         {
           "id": "2028-11-presentiment",
@@ -1623,6 +1566,29 @@
             "dirge"
           ],
           "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "2028-11-consuetude",
+          "word": "consuetude",
+          "partOfSpeech": "noun",
+          "definition": "An established habit or accepted practice that has the force of unwritten law.",
+          "example": "By long consuetude, the villagers gathered at the well each dawn to trade news before work.",
+          "mnemonic": "Sounds like 'consue-tude' → a CON (convict) who has an ATTITUDE of doing the same routine every single day out of habit.",
+          "synonyms": [
+            "custom",
+            "usage",
+            "tradition"
+          ],
+          "antonyms": [
+            "novelty",
+            "innovation",
+            "aberration"
+          ]
         }
       ]
     }

@@ -1516,6 +1516,65 @@
           ]
         }
       ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "2027-11-ebullience",
+          "word": "ebullience",
+          "partOfSpeech": "noun",
+          "definition": "A bubbling, overflowing display of enthusiasm, excitement, or irrepressible high spirits.",
+          "example": "Her ebullience filled the room the moment she burst in, laughing and hugging everyone in sight.",
+          "mnemonic": "From Latin ebullire, 'to boil over' — hear 'e-BOIL-ience' and picture emotions bubbling and boiling out of you.",
+          "synonyms": [
+            "exuberance",
+            "effervescence",
+            "exhilaration"
+          ],
+          "antonyms": [
+            "apathy",
+            "gloom",
+            "listlessness"
+          ]
+        },
+        {
+          "id": "2027-11-vehemence",
+          "word": "vehemence",
+          "partOfSpeech": "noun",
+          "definition": "Great forcefulness or intensity of emotion, conviction, or expression.",
+          "example": "He denied the accusation with such vehemence that the whole table fell silent.",
+          "mnemonic": "Sounds like 'vehicle' — picture a truck barreling forward with unstoppable force behind every word.",
+          "synonyms": [
+            "fervor",
+            "intensity",
+            "passion"
+          ],
+          "antonyms": [
+            "apathy",
+            "indifference",
+            "mildness"
+          ]
+        },
+        {
+          "id": "2027-11-chasten",
+          "word": "chasten",
+          "partOfSpeech": "verb",
+          "definition": "To discipline or subdue someone, making them humble or more restrained through criticism or hardship.",
+          "example": "The team's crushing defeat chastened the once-boastful players, who now trained quietly and without swagger.",
+          "mnemonic": "Think 'chastise' — a stern scolding that chases the pride out of you.",
+          "synonyms": [
+            "humble",
+            "subdue",
+            "discipline"
+          ],
+          "antonyms": [
+            "embolden",
+            "encourage",
+            "indulge"
+          ]
+        }
+      ]
     }
   ],
   "description": "mid-frequency and academic register — emotion and restraint",

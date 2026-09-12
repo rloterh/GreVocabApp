@@ -1339,24 +1339,6 @@
           ]
         },
         {
-          "id": "2028-03-inert",
-          "word": "inert",
-          "partOfSpeech": "adjective",
-          "definition": "Lacking the power or will to move or act.",
-          "example": "After the marathon he lay inert on the couch, unable to lift a finger.",
-          "mnemonic": "'In-ert' = no 'exert' — no effort, no energy, just lying there.",
-          "synonyms": [
-            "motionless",
-            "lifeless",
-            "sluggish"
-          ],
-          "antonyms": [
-            "active",
-            "lively",
-            "energetic"
-          ]
-        },
-        {
           "id": "2028-03-inertia",
           "word": "inertia",
           "partOfSpeech": "noun",
@@ -1373,12 +1355,7 @@
             "energy",
             "motion"
           ]
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
+        },
         {
           "id": "2028-03-immobile",
           "word": "immobile",
@@ -1396,7 +1373,12 @@
             "moving",
             "movable"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
         {
           "id": "2028-03-immobilize",
           "word": "immobilize",
@@ -1432,12 +1414,7 @@
             "awake",
             "erupting"
           ]
-        }
-      ]
-    },
-    {
-      "day": 26,
-      "words": [
+        },
         {
           "id": "2028-03-torpid",
           "word": "torpid",
@@ -1455,7 +1432,12 @@
             "active",
             "lively"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
         {
           "id": "2028-03-torpor",
           "word": "torpor",
@@ -1491,12 +1473,7 @@
             "thrive",
             "prosper"
           ]
-        }
-      ]
-    },
-    {
-      "day": 27,
-      "words": [
+        },
         {
           "id": "2028-03-lethargic",
           "word": "lethargic",
@@ -1514,7 +1491,12 @@
             "vigorous",
             "spry"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
         {
           "id": "2028-03-listless",
           "word": "listless",
@@ -1550,29 +1532,6 @@
             "quick",
             "lively"
           ]
-        }
-      ]
-    },
-    {
-      "day": 28,
-      "words": [
-        {
-          "id": "2028-03-stagnant",
-          "word": "stagnant",
-          "partOfSpeech": "adjective",
-          "definition": "Not flowing or changing, and therefore stale, foul, or without growth.",
-          "example": "Mosquitoes bred in the stagnant pond behind the abandoned house.",
-          "mnemonic": "'Stag-can't' — water a stag can't drink because it sits still and goes bad.",
-          "synonyms": [
-            "still",
-            "motionless",
-            "stale"
-          ],
-          "antonyms": [
-            "flowing",
-            "fresh",
-            "dynamic"
-          ]
         },
         {
           "id": "2028-03-stagnate",
@@ -1591,7 +1550,12 @@
             "grow",
             "advance"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
         {
           "id": "2028-03-somnolent",
           "word": "somnolent",
@@ -1609,12 +1573,7 @@
             "awake",
             "wakeful"
           ]
-        }
-      ]
-    },
-    {
-      "day": 29,
-      "words": [
+        },
         {
           "id": "2028-03-repose",
           "word": "repose",
@@ -1650,7 +1609,12 @@
             "drive",
             "stir"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
         {
           "id": "2028-03-moor",
           "word": "moor",
@@ -1668,12 +1632,7 @@
             "unmoor",
             "release"
           ]
-        }
-      ]
-    },
-    {
-      "day": 30,
-      "words": [
+        },
         {
           "id": "2028-03-tether",
           "word": "tether",
@@ -1693,39 +1652,44 @@
           ]
         },
         {
-          "id": "2028-03-ensconce",
-          "word": "ensconce",
-          "partOfSpeech": "verb",
-          "definition": "To settle someone snugly, comfortably, and securely in a place.",
-          "example": "She ensconced herself in the armchair with a blanket and a stack of books.",
-          "mnemonic": "'En' + 'sconce' (a snug little niche or small fort) — to tuck cozily inside.",
+          "id": "2028-03-peregrination",
+          "word": "peregrination",
+          "partOfSpeech": "noun",
+          "definition": "A long, wandering journey across many places, especially one taken on foot.",
+          "example": "After graduation, she funded a two-year peregrination through the villages of the Andes, sleeping wherever kindness offered a bed.",
+          "mnemonic": "Hear 'peregrine' — the peregrine falcon roams vast distances; a peregrination is your own far-flung roaming.",
           "synonyms": [
-            "settle",
-            "nestle",
-            "install"
+            "journey",
+            "odyssey",
+            "trek"
           ],
           "antonyms": [
-            "dislodge",
-            "uproot",
-            "displace"
+            "stay",
+            "sojourn",
+            "settlement"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
         {
-          "id": "2028-03-entrench",
-          "word": "entrench",
-          "partOfSpeech": "verb",
-          "definition": "To fix something so firmly in place that changing it becomes very hard.",
-          "example": "Decades of habit had entrenched the outdated policy so deeply no one dared reform it.",
-          "mnemonic": "'En' + 'trench' — dig into a trench, dug in and hard to push out.",
+          "id": "2028-03-celerity",
+          "word": "celerity",
+          "partOfSpeech": "noun",
+          "definition": "Great swiftness or quickness in movement or action.",
+          "example": "The paramedics responded with such celerity that they had the patient stabilized before the family even reached the door.",
+          "mnemonic": "Sounds like 'accelerate' — both share the Latin 'celer' (swift), so celerity is pure acceleration in a word.",
           "synonyms": [
-            "embed",
-            "ingrain",
-            "lodge"
+            "swiftness",
+            "speed",
+            "rapidity"
           ],
           "antonyms": [
-            "dislodge",
-            "uproot",
-            "remove"
+            "slowness",
+            "sluggishness",
+            "delay"
           ]
         }
       ]

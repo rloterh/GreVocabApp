@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:32:09.620Z",
+  "generatedAt": "2026-09-12T12:13:16.264Z",
   "months": [
     {
       "month": "2026-10",
@@ -50,14 +50,14 @@
       "month": "2027-01",
       "displayName": "January 2027",
       "description": "core high-frequency — change and permanence",
-      "words": 90,
-      "days": 30,
+      "words": 83,
+      "days": 28,
       "sample": [
         "mutable",
         "protean",
-        "wax",
+        "ebb",
         "obsolete",
-        "transform",
+        "revamp",
         "enshrine"
       ]
     },
@@ -65,104 +65,104 @@
       "month": "2027-02",
       "displayName": "February 2027",
       "description": "core high-frequency — abundance and scarcity",
-      "words": 90,
-      "days": 30,
+      "words": 84,
+      "days": 28,
       "sample": [
         "plethora",
         "bountiful",
         "fruitful",
         "sate",
-        "covetous",
-        "privation"
+        "cupidity",
+        "deficiency"
       ]
     },
     {
       "month": "2027-03",
       "displayName": "March 2027",
       "description": "core high-frequency — concealment and disclosure",
-      "words": 90,
-      "days": 30,
+      "words": 75,
+      "days": 25,
       "sample": [
         "clandestine",
-        "feign",
-        "abstruse",
-        "insidious",
-        "unmask",
-        "confess"
+        "disguise",
+        "sequester",
+        "disingenuous",
+        "propagate",
+        "transparent"
       ]
     },
     {
       "month": "2027-04",
       "displayName": "April 2027",
       "description": "core high-frequency — temperament and disposition",
-      "words": 90,
-      "days": 30,
+      "words": 86,
+      "days": 29,
       "sample": [
         "irascible",
         "wistful",
-        "tenacious",
-        "demure",
-        "forbearing",
-        "effusive"
+        "dogged",
+        "pedantic",
+        "altruistic",
+        "zealous"
       ]
     },
     {
       "month": "2027-05",
       "displayName": "May 2027",
       "description": "core high-frequency — conflict and reconciliation",
-      "words": 90,
-      "days": 30,
+      "words": 85,
+      "days": 29,
       "sample": [
         "appease",
         "stymie",
-        "strife",
-        "spar",
-        "atone",
-        "broker"
+        "discord",
+        "wrangle",
+        "acquiesce",
+        "arbitrate"
       ]
     },
     {
       "month": "2027-06",
       "displayName": "June 2027",
       "description": "core high-frequency — judgement and discernment",
-      "words": 87,
-      "days": 29,
+      "words": 84,
+      "days": 28,
       "sample": [
         "discriminating",
-        "scrutiny",
+        "peruse",
         "warrant",
         "discretion",
-        "perceptive",
-        "quintessential"
+        "distinguish",
+        "epitome"
       ]
     },
     {
       "month": "2027-07",
       "displayName": "July 2027",
       "description": "core high-frequency — deception and candour",
-      "words": 84,
-      "days": 28,
+      "words": 68,
+      "days": 23,
       "sample": [
-        "chicanery",
-        "deceit",
-        "sincere",
+        "pretense",
+        "delude",
+        "integrity",
         "circuitous",
-        "dissimulate",
-        "parsimonious"
+        "convoluted",
+        "platitude"
       ]
     },
     {
       "month": "2027-08",
       "displayName": "August 2027",
       "description": "core high-frequency — power and submission",
-      "words": 90,
-      "days": 30,
+      "words": 87,
+      "days": 29,
       "sample": [
         "despot",
-        "suzerainty",
-        "dominance",
-        "truckle",
-        "curb",
+        "sovereign",
+        "dominate",
+        "cower",
+        "restrain",
         "preeminent"
       ]
     },
@@ -170,150 +170,150 @@
       "month": "2027-09",
       "displayName": "September 2027",
       "description": "core high-frequency — order and disorder",
-      "words": 90,
-      "days": 30,
+      "words": 82,
+      "days": 28,
       "sample": [
         "chaos",
-        "tangle",
-        "systematic",
-        "collate",
-        "disjointed",
-        "commotion"
+        "muddle",
+        "dismantle",
+        "array",
+        "standardize",
+        "dissonance"
       ]
     },
     {
       "month": "2027-10",
       "displayName": "October 2027",
       "description": "mid-frequency and academic register — argument and persuasion",
-      "words": 44,
-      "days": 15,
+      "words": 53,
+      "days": 18,
       "sample": [
         "tendentious",
-        "propound",
-        "disputatious",
-        "implore",
-        "propagate",
-        "accede"
+        "adduce",
+        "explicit",
+        "advocate",
+        "attest",
+        "philippic"
       ]
     },
     {
       "month": "2027-11",
       "displayName": "November 2027",
       "description": "mid-frequency and academic register — emotion and restraint",
-      "words": 78,
-      "days": 26,
+      "words": 81,
+      "days": 27,
       "sample": [
         "fervid",
         "temper",
-        "apprehension",
-        "embittered",
-        "elation",
-        "chagrin"
+        "foreboding",
+        "disgruntled",
+        "jubilant",
+        "abash"
       ]
     },
     {
       "month": "2027-12",
       "displayName": "December 2027",
       "description": "mid-frequency and academic register — time and duration",
-      "words": 90,
-      "days": 30,
+      "words": 78,
+      "days": 26,
       "sample": [
-        "evanescent",
-        "obsolete",
-        "tarry",
-        "hasten",
+        "incessant",
+        "postpone",
+        "precipitate",
         "simultaneous",
-        "outset"
+        "onset",
+        "relic"
       ]
     },
     {
       "month": "2028-01",
       "displayName": "January 2028",
       "description": "mid-frequency and academic register — knowledge and ignorance",
-      "words": 72,
-      "days": 24,
+      "words": 78,
+      "days": 26,
       "sample": [
         "perspicacity",
-        "inane",
-        "illuminate",
-        "hypothesize",
-        "unwitting",
-        "flummox"
+        "naive",
+        "edify",
+        "portend",
+        "sophistry",
+        "lore"
       ]
     },
     {
       "month": "2028-02",
       "displayName": "February 2028",
       "description": "mid-frequency and academic register — beginnings and endings",
-      "words": 90,
-      "days": 30,
+      "words": 85,
+      "days": 29,
       "sample": [
         "inaugurate",
-        "formative",
-        "precursor",
-        "mobilize",
+        "germinal",
+        "harbinger",
+        "catalyze",
         "rekindle",
-        "dusk"
+        "twilight"
       ]
     },
     {
       "month": "2028-03",
       "displayName": "March 2028",
       "description": "mid-frequency and academic register — movement and stillness",
-      "words": 90,
+      "words": 88,
       "days": 30,
       "sample": [
         "peripatetic",
-        "gambol",
-        "pivot",
-        "canter",
-        "rove",
-        "torpid"
+        "scamper",
+        "swerve",
+        "lope",
+        "traipse",
+        "dormant"
       ]
     },
     {
       "month": "2028-04",
       "displayName": "April 2028",
       "description": "mid-frequency and academic register — generosity and stinginess",
-      "words": 90,
-      "days": 30,
+      "words": 64,
+      "days": 22,
       "sample": [
         "munificence",
-        "plentiful",
-        "benefaction",
-        "windfall",
-        "profligate",
-        "cupidity"
+        "unstinting",
+        "dispense",
+        "affluent",
+        "niggardly",
+        "unsparing"
       ]
     },
     {
       "month": "2028-05",
       "displayName": "May 2028",
       "description": "mid-frequency and academic register — clarity and obscurity",
-      "words": 57,
-      "days": 19,
+      "words": 68,
+      "days": 23,
       "sample": [
         "perspicuous",
-        "blur",
-        "manifest",
-        "precise",
-        "elliptical",
-        "intelligible"
+        "tortuous",
+        "graphic",
+        "amorphous",
+        "gnomic",
+        "adage"
       ]
     },
     {
       "month": "2028-06",
       "displayName": "June 2028",
       "description": "mid-frequency and academic register — wealth and poverty",
-      "words": 90,
-      "days": 30,
+      "words": 82,
+      "days": 28,
       "sample": [
         "prosperity",
-        "mogul",
-        "sumptuary",
-        "threadbare",
-        "accumulate",
-        "remunerate"
+        "tycoon",
+        "hedonistic",
+        "needy",
+        "acquire",
+        "subsidy"
       ]
     },
     {
@@ -335,38 +335,38 @@
       "month": "2028-08",
       "displayName": "August 2028",
       "description": "mid-frequency and academic register — harmony and discord",
-      "words": 63,
-      "days": 21,
+      "words": 67,
+      "days": 23,
       "sample": [
         "consonance",
-        "unanimous",
-        "solidarity",
-        "friction",
-        "polemical",
-        "defuse"
+        "reconciliation",
+        "cohesion",
+        "factious",
+        "alienate",
+        "discordance"
       ]
     },
     {
       "month": "2028-09",
       "displayName": "September 2028",
       "description": "mid-frequency and academic register — growth and decay",
-      "words": 86,
-      "days": 29,
+      "words": 72,
+      "days": 24,
       "sample": [
-        "proliferate",
-        "amplify",
-        "wilt",
-        "blight",
-        "crumble",
-        "swell"
+        "blossom",
+        "distend",
+        "decrepitude",
+        "parch",
+        "taint",
+        "husk"
       ]
     },
     {
       "month": "2028-10",
       "displayName": "October 2028",
       "description": "advanced and low-frequency — law and transgression",
-      "words": 84,
-      "days": 28,
+      "words": 85,
+      "days": 29,
       "sample": [
         "malfeasance",
         "exculpatory",
@@ -380,42 +380,42 @@
       "month": "2028-11",
       "displayName": "November 2028",
       "description": "advanced and low-frequency — ritual and custom",
-      "words": 90,
+      "words": 88,
       "days": 30,
       "sample": [
         "liturgy",
-        "sanctify",
-        "rite",
-        "sacerdotal",
-        "folkway",
-        "totemic"
+        "hallow",
+        "canonical",
+        "observance",
+        "propriety",
+        "fetish"
       ]
     },
     {
       "month": "2028-12",
       "displayName": "December 2028",
       "description": "advanced and low-frequency — art and artifice",
-      "words": 81,
+      "words": 80,
       "days": 27,
       "sample": [
         "artificer",
         "ornament",
-        "emboss",
+        "etch",
         "guileful",
-        "duplicity",
-        "bombast"
+        "legerdemain",
+        "orotund"
       ]
     },
     {
       "month": "2029-01",
       "displayName": "January 2029",
       "description": "advanced and low-frequency — nature and cultivation",
-      "words": 87,
+      "words": 86,
       "days": 29,
       "sample": [
         "arable",
         "silviculture",
-        "fen",
+        "heath",
         "herbaceous",
         "provender",
         "sedge"
@@ -425,45 +425,45 @@
       "month": "2029-02",
       "displayName": "February 2029",
       "description": "advanced and low-frequency — reason and unreason",
-      "words": 66,
-      "days": 22,
+      "words": 72,
+      "days": 24,
       "sample": [
         "syllogism",
-        "interpolate",
-        "sophism",
-        "hysteria",
-        "nonsensical",
-        "asinine"
+        "inductive",
+        "deranged",
+        "rabid",
+        "nonplus",
+        "besotted"
       ]
     },
     {
       "month": "2029-03",
       "displayName": "March 2029",
       "description": "advanced and low-frequency — memory and forgetting",
-      "words": 72,
-      "days": 24,
+      "words": 80,
+      "days": 27,
       "sample": [
         "mnemonic",
-        "indelible",
-        "engram",
-        "abeyance",
-        "suffuse",
-        "elegy"
+        "commemorate",
+        "elude",
+        "confabulate",
+        "elegiac",
+        "antediluvian"
       ]
     },
     {
       "month": "2029-04",
       "displayName": "April 2029",
       "description": "advanced and low-frequency — sincerity and pretence",
-      "words": 40,
-      "days": 14,
+      "words": 54,
+      "days": 18,
       "sample": [
-        "earnest",
-        "hypocrisy",
-        "oleaginous",
-        "sophist",
-        "renege",
-        "saccharine"
+        "genuine",
+        "theatrical",
+        "sycophancy",
+        "verity",
+        "chicane",
+        "mummery"
       ]
     },
     {
@@ -474,26 +474,71 @@
       "days": 18,
       "sample": [
         "satiety",
-        "ravenous",
-        "epicure",
-        "overweening",
-        "abstinence",
-        "hedonism"
+        "debauchery",
+        "immoderate",
+        "intemperance",
+        "excrescence",
+        "guzzle"
       ]
     },
     {
       "month": "2029-06",
       "displayName": "June 2029",
       "description": "advanced and low-frequency — solitude and society",
-      "words": 77,
-      "days": 26,
+      "words": 83,
+      "days": 28,
       "sample": [
         "recluse",
-        "retinue",
-        "marginalize",
-        "plebeian",
-        "chauvinism",
-        "gallivant"
+        "hermitage",
+        "celibate",
+        "provincial",
+        "interloper",
+        "commensality"
+      ]
+    },
+    {
+      "month": "2029-07",
+      "displayName": "July 2029",
+      "description": "advanced and low-frequency — fortune and misfortune",
+      "words": 79,
+      "days": 27,
+      "sample": [
+        "serendipity",
+        "contingent",
+        "calamity",
+        "jeremiad",
+        "undoing",
+        "salutary"
+      ]
+    },
+    {
+      "month": "2029-08",
+      "displayName": "August 2029",
+      "description": "advanced and low-frequency — labour and idleness",
+      "words": 78,
+      "days": 26,
+      "sample": [
+        "assiduity",
+        "onerous",
+        "exacting",
+        "vigilant",
+        "sluggard",
+        "laxity"
+      ]
+    },
+    {
+      "month": "2029-09",
+      "displayName": "September 2029",
+      "description": "advanced and low-frequency — vision and blindness",
+      "words": 80,
+      "days": 27,
+      "sample": [
+        "purblind",
+        "opalescent",
+        "prospect",
+        "luster",
+        "eclipse",
+        "umbrageous"
       ]
     }
   ]

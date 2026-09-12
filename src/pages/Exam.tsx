@@ -136,7 +136,7 @@ export function ExamPage() {
 
   if (!session) {
     return (
-      <div className="w-full lg:max-w-2xl lg:mx-auto py-10">
+      <div className="w-full max-w-2xl mx-auto py-10">
         <Header />
         {finished && !finished.finishedAt ? null : finished ? (
           <Results session={finished} onRestart={start} />
@@ -157,7 +157,7 @@ export function ExamPage() {
 
   if (atSectionBreak(session) && session.currentSection > 0) {
     return (
-      <div className="w-full lg:max-w-2xl lg:mx-auto py-10">
+      <div className="w-full max-w-2xl mx-auto py-10">
         <Header />
         <Card>
           <CardContent className="p-8 text-center space-y-4">
@@ -183,7 +183,7 @@ export function ExamPage() {
   if (!question) return null;
 
   return (
-    <div className="w-full lg:max-w-2xl lg:mx-auto py-10">
+    <div className="w-full max-w-2xl mx-auto py-10">
       <Header />
 
       <div className="flex items-center justify-between mb-4 text-xs text-muted-foreground">

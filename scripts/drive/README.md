@@ -93,3 +93,16 @@ the pointer **and** focus have both left. Then it drags the card on a touch
 viewport — a short drag that must do nothing, a long one each way — and
 asserts nothing was rated, because swipe navigates and rating keeps its
 buttons.
+
+## `tablet-audit.mjs`
+
+Five real devices from the table in `docs/TABLET.md`, both orientations, six
+pages each: no horizontal scroll, 44px targets, named controls, the right
+navigation shell for the width, and a rotation mid-session that keeps the card
+and its flipped state.
+
+It earned its place on the first run by finding that the iPad mini is 744px
+and so fell below Tailwind's `md` — the smallest iPad was still getting the
+phone layout. Two of its own assertions were wrong before the app was: a
+`display: none` aside still reports its declared width in Chromium, and an
+input's accessible name comes from its label, not from its text content.

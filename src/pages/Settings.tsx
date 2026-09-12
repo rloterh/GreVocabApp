@@ -255,7 +255,7 @@ export function Settings() {
   }
 
   return (
-    <div className="w-full lg:max-w-2xl lg:mx-auto py-8 space-y-6">
+    <div className="w-full max-w-2xl mx-auto py-8 space-y-6">
       <div>
         <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
           Settings

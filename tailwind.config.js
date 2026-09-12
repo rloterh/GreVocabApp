@@ -9,6 +9,21 @@ export default {
       screens: { "2xl": "1400px" },
     },
     extend: {
+      screens: {
+        /**
+         * Where the phone tab bar gives way to the navigation rail.
+         *
+         * Not `md`. Tailwind's 768px sits one pixel class above the iPad mini,
+         * which is 744px wide in portrait — so the framework default put thumb
+         * tabs at the bottom of an 1133px-tall screen the thumb cannot reach,
+         * and gave two iPads a user thinks of as the same device different
+         * navigation. 720px is chosen from the device table in
+         * docs/TABLET.md rather than from a default.
+         *
+         * Shell only. Content columns still use `md`.
+         */
+        rail: "720px",
+      },
       fontFamily: {
         sans: [
           "Inter",

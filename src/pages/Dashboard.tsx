@@ -125,7 +125,7 @@ export function Dashboard() {
         </h1>
       </motion.div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-8">
         <StatCard
           icon={Flame}
           label="Current streak"

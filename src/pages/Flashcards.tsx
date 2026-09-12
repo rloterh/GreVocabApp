@@ -349,7 +349,7 @@ export function Flashcards() {
 
   if (allEnriched.length === 0) {
     return (
-      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
+      <div className="w-full max-w-3xl mx-auto py-12">
         <EmptyState
           icon={Layers}
           title="No cards to study yet"
@@ -361,7 +361,7 @@ export function Flashcards() {
   }
 
   return (
-    <div className="w-full lg:max-w-4xl lg:mx-auto py-8">
+    <div className="w-full max-w-4xl mx-auto py-8">
       <AnimatePresence mode="wait">
         {screen === "setup" && (
           <SetupScreen

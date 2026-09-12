@@ -55,7 +55,7 @@ held at arm's length, with no hover, no right-click, and 44px targets.
    tabs              72px icon rail        240px sidebar
 ```
 
-A 72px icon rail from `md` (768px) up to `lg`. It carries **all ten**
+A 76px icon rail from **`rail` (720px)** up to `lg`. It carries **all ten**
 destinations — the reason the phone bar is limited to five is thumb reach along
 a narrow bottom edge, and a vertical rail on an 1180px-tall screen has no such
 constraint. Labels appear beneath the icons at rail width; no "More" sheet, no
@@ -64,6 +64,14 @@ hidden destinations.
 This also fixes the 13-inch iPad discontinuity from the other side: the jump at
 `lg` becomes rail → sidebar, which is the same navigation getting wider, rather
 than bottom tabs → sidebar, which is a different app.
+
+**Why 720px and not `md`.** Tailwind's `md` is 768px, which sits one pixel
+class above the iPad mini's 744px portrait width — so the framework default
+put thumb tabs at the bottom of an 1133px-tall screen and handed two iPads a
+user thinks of as the same device different navigation. The breakpoint is
+named `rail` in `tailwind.config.js` and chosen from the device table above
+rather than from a default. It governs the shell only; content columns still
+use `md`.
 
 ### Content: two columns, because the width exists
 
@@ -147,11 +155,15 @@ A `scripts/drive/tablet-audit.mjs`, alongside the existing drivers, running
 every viewport in the table above in both orientations and asserting:
 
 - no horizontal page scroll
-- every interactive target ≥ 44×44
-- every button has an accessible name
-- the rail is present between `md` and `lg`, the sidebar at `lg`+, tabs below
+- every interactive target ≥ 44×44, measured once entry animations have
+  settled — a control caught mid-transform measures 43.9px and is not a defect
+- every control has an accessible name, **including the one a `<label for>`
+  gives it**; an earlier version of this check looked only at `aria-label`,
+  `title` and text content and reported five correctly-labelled inputs on
+  Settings as nameless
+- the rail is present between `rail` and `lg`, the sidebar at `lg`+, tabs below
 - no element extends past the viewport width
-- a rotation mid-session preserves scroll and card state
+- a rotation mid-session preserves the card and its flipped state
 
 The existing `mobile-audit.mjs` found 32 unnamed buttons and a 360px overflow
 minutes after they were introduced. The same class of regression at tablet

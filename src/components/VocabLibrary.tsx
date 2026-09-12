@@ -131,7 +131,7 @@ export function VocabLibrary() {
         </p>
       )}
 
-      <div className="grid gap-2 sm:grid-cols-2">
+      <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
         {forTrack.map((entry) => {
           const key = monthKey(entry.track, entry.ordinal);
           const loaded = key in months;

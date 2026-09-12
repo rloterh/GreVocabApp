@@ -70,7 +70,7 @@ export function SentenceBuilder() {
 
   if (!month) {
     return (
-      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
+      <div className="w-full max-w-3xl mx-auto py-12">
         <EmptyState
           icon={PenLine}
           title="No vocabulary loaded"
@@ -83,7 +83,7 @@ export function SentenceBuilder() {
 
   if (words.length === 0) {
     return (
-      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
+      <div className="w-full max-w-3xl mx-auto py-12">
         <EmptyState
           icon={PenLine}
           title={`No words for day ${selectedDay}`}
@@ -158,7 +158,7 @@ export function SentenceBuilder() {
   if (!currentWord) return null;
 
   return (
-    <div className="w-full lg:max-w-2xl lg:mx-auto py-8">
+    <div className="w-full max-w-2xl mx-auto py-8">
       <div className="mb-6">
         <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
           {month.title} · Day {selectedDay}

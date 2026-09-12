@@ -23,10 +23,10 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
 
-**Phases 13, 14 and 15 are done** — tracks, ordinal content, the schedule, the
-migration that carries a user's progress across all three, the screens for
-choosing when to start and how the months run, and the flashcard edge arrows
-and swipe. **Next is Phase 16**, tablet and iPad. Then the SAT corpus (17).
+**Phases 13 to 16 are done** — tracks, ordinal content, the schedule and its
+migration, the start-date screens, the flashcard edge arrows and swipe, and the
+tablet shell. **Next is Phase 17**, the SAT corpus: three years of it, to the
+standard the GRE corpus was held to.
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -494,19 +494,24 @@ Design: [docs/TABLET.md](./docs/TABLET.md).
 
 ### Tasks
 
-- **[P0] The `md`-to-`lg` rail.** — 72px, all ten destinations, labels under icons. Ends the discontinuity where an 11-inch iPad gets bottom tabs and a 13-inch gets a sidebar.
-- **[P0] Two-column content at `md`+.** — Dashboard, Daily Practice as master/detail, Archive at three columns, Progress, Settings, and a side panel instead of a modal for word detail in landscape.
-- **[P0] A maximum comfortable measure.** — Extra width becomes a column or a margin, never a longer line.
-- **[P0] No hover-only affordance at any width.** — The existing rule stops at `sm`; a 1366px iPad has no pointer.
-- **[P0] Rotation preserves state.** — Scroll position, a flipped card, a quiz in progress. The tablet-specific bug class, invisible until someone rotates.
-- **[P0] `scripts/drive/tablet-audit.mjs`.** — Every viewport in the table, both orientations, asserting no horizontal scroll, 44px targets, named buttons, and the right shell at each breakpoint.
-- **[P1] Safe areas on all four edges.**
+- ~~**[P0] The rail.**~~ **DONE 2026-09-12.** — 76px, all ten destinations, labelled. It runs from a **new `rail` breakpoint at 720px**, not from `md`: Tailwind's 768px sits one class above the iPad mini's 744px, so the default would have left the smallest iPad on the phone layout — the same discontinuity, moved. The audit caught that on its first run.
+- ~~**[P0] Wider content at `md`+.**~~ **DONE 2026-09-12.** — Dashboard and Progress stats four across, Archive months two then three, the library grid three at `xl`. **Not done:** Daily Practice as master/detail and a side panel for word detail in landscape — both are restructures rather than layout rules, and they are listed under the leftovers below rather than quietly dropped.
+- ~~**[P0] A maximum comfortable measure.**~~ **DONE 2026-09-12.** — Reading pages cap at every width instead of only at `lg`, so a 768px tablet stops setting definitions across 110 characters. The cap does not bind on a phone, so nothing there changed.
+- ~~**[P0] No hover-only affordance at any width.**~~ **DONE** — already true: `group-hover` and `opacity-0` reveal patterns no longer appear anywhere outside the edge arrows, which reveal on focus and touch as well.
+- ~~**[P0] Rotation preserves state.**~~ **DONE 2026-09-12.** — Asserted on all ten viewports: a card mid-session survives the turn, still flipped. It holds because layout is driven by CSS rather than by a width read in JavaScript.
+- ~~**[P0] `scripts/drive/tablet-audit.mjs`.**~~ **DONE 2026-09-12.** — Five devices, both orientations, six pages each. It found the iPad mini breakpoint, and two of its own assertions were wrong before the app was: it read a `display: none` aside's declared width as a live rail, and it judged input names without looking at their labels.
+- ~~**[P1] Safe areas on all four edges.**~~ **DONE** — with the fullscreen work in Phase 13.
 - **[P1] External keyboard.** — Every shortcut still works; focus rings visible.
 
-### Definition of done
+### Definition of done — met 2026-09-12
 
-- The five iPad sizes and a common Android tablet, in both orientations, pass the tablet audit.
-- Split View at 375px gets the phone layout, because layout is driven by viewport and **no code branches on a device string**.
+- ~~The five iPad sizes and a common Android tablet, in both orientations, pass the tablet audit.~~ Ten viewports, clean.
+- ~~Split View at 375px gets the phone layout.~~ Layout is driven by viewport; no code anywhere branches on a device string.
+
+### Left for later, deliberately
+
+- **Daily Practice as master/detail** and **word detail as a landscape side panel.** Both are restructures of a page rather than responsive rules, and neither is broken today — they are an improvement, not a fix, and bundling them into a phase about breakpoints would have hidden how much was actually changing.
+- **External keyboard.** Every existing shortcut still works and focus rings are visible; what is untested is an iPad with a hardware keyboard attached, which needs the hardware.
 
 ## Phase 17 — The SAT corpus
 

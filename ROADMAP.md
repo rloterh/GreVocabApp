@@ -19,6 +19,12 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
+**Current work: v1.1, Phase 13.** Two exams, any start date. It lands on `dev`
+([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
+end of Phase 18. Phase 13 is first because it is the only one the others cannot
+be built on top of safely — it changes what a word id *is*, and every later
+phase moves words around.
+
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
 themes, 283 tests, and a desktop bundle that has been launched and looked at.
@@ -384,6 +390,142 @@ becomes possible rather than a rewrite.
 - The app runs on a physical iPhone.
 - The App Store listing is submitted.
 
+# v1.1 — Two exams, any start date
+
+Phases 13-18 are one body of work with one release. They are separated because
+they land in this order and each is verifiable on its own, not because they are
+independently shippable — Phase 13 alone leaves the app with a data model no
+feature uses yet.
+
+All of it lands on `dev` ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and
+merges to `main` at the end of Phase 18.
+
+**Read first:** [ADR 0011](./docs/adr/0011-tracks.md),
+[ADR 0012](./docs/adr/0012-ordinal-content.md),
+[ADR 0013](./docs/adr/0013-cross-track-overlap.md),
+then [docs/TRACKS.md](./docs/TRACKS.md) and
+[docs/SCHEDULE.md](./docs/SCHEDULE.md).
+
+## Phase 13 — Tracks: the data model
+
+The load-bearing phase. Nothing user-visible ships here; what ships is a store
+that can hold two vocabularies and a migration that does not lose a day of
+anybody's work.
+
+### Tasks
+
+- **[P0] `Track` type and track-scoped ids.** — `"gre" | "sat"`; word ids become `gre-abstemious`, not `2026-04-abstemious`. Everything downstream follows from this one change.
+- **[P0] Month keys become `track/ordinal`.** — `"gre/01"` … `"sat/36"`. Calendar months leave the key entirely.
+- **[P0] `activeTrack` setting, default `"gre"`.**
+- **[P0] Every selector honours the active track.** — The audit list is in [docs/TRACKS.md](./docs/TRACKS.md): due deck, dashboard, search, archive, quiz and exam pools, distractors, dedup index, generation plan. Backup and restore deliberately carry **all** tracks.
+- **[P0] The migration.** — Assign existing months to `gre` with chronological ordinals; rewrite every word id; rewrite every reference to those ids in progress, activity, saved sentences, decks, and quiz and exam history.
+- **[P0] Migration tests, including one from a real pre-migration backup.** — Plus a launch-time assertion that every progress record points at a word that exists.
+- **[P1] Per-track dedup index.** — Two indexes, built identically, never consulted across tracks ([ADR 0013](./docs/adr/0013-cross-track-overlap.md)).
+- **[P1] Track tagging on quiz and exam history.** — A GRE mock score is not an SAT score.
+
+### Definition of done
+
+- A backup taken before the migration, restored after it, shows the same words on the same days with the same progress. **If this does not hold, the phase does not ship** and the fallback is permanent legacy-id aliases.
+- No progress record is orphaned, asserted in a test and at launch.
+- Both tracks can hold months simultaneously without collision.
+- The full suite is green and the app looks, to an existing user, entirely unchanged.
+
+## Phase 14 — The schedule
+
+Content stops containing a calendar. The user picks when they start, and in
+what order.
+
+### Tasks
+
+- **[P0] Corpus moves to ordinal files.** — `public/vocab/gre/01.json` … `36.json`. The generator stops taking `--start`; a start date is a user's setting, not a property of the corpus.
+- **[P0] Month titles.** — A month's identity is no longer its date. The generator already writes a theme per month; that becomes the title.
+- **[P0] `Schedule` per track,** with `startMonth`, `order` and `shuffleSeed`.
+- **[P0] `calendarMonthOf` and `ordinalForCalendarMonth`.** — Pure, in `src/lib/`, exhaustively tested. Everything that reasons about calendar months goes through them, `firstFreeMonthKey` included.
+- **[P0] First-run setup.** — Two questions, both answered by default, one tap to done: start date (today proposed, past dates allowed) and month order (as taught, default).
+- **[P1] Month reordering in Settings.** — Free and reversible; completed months stay completed.
+- **[P1] Word redistribution.** — Seeded, stable, and preceded by the one sentence that says it discards the difficulty banding.
+- **[P1] Changing the start date after setup.**
+
+### Definition of done
+
+- A user installing in any month sees their own months, never 2026.
+- Reordering months and redistributing words both leave every progress record intact — the same acceptance test as Phase 13, run again after a reshuffle.
+- The corpus audit passes against the ordinal layout.
+- No word id, anywhere, contains a date.
+
+## Phase 15 — Flashcard interaction
+
+Design: [docs/FLASHCARD-INTERACTION.md](./docs/FLASHCARD-INTERACTION.md).
+
+### Tasks
+
+- **[P0] Edge arrows.** — 44px, just outside the card, hidden at rest, revealed on hover, focus or touch. The arrows are part of their own hover target, focus keeps them visible, and on touch they stay until the card changes.
+- **[P0] Disabled, not hidden, at the ends.** — A control that jumps between cards is worse than one that is greyed.
+- **[P0] Swipe.** — 25% of card width or a 500px/s flick; the card follows the pointer; direction-locked so a vertical scroll does not drag it; a tap still flips.
+- **[P0] Mouse drag, same gesture.**
+- **[P0] Position announced in a live region.** — "Card 7 of 30", so a swipe is perceivable without sight.
+- **[P1] Reduced motion.** — Arrows appear without sliding.
+
+### Definition of done
+
+- Every action has a keyboard route that depends on nothing being revealed.
+- The rating row is untouched. Rating a card and moving past it stay separate decisions.
+- The keyboard driver passes, including tabbing to both arrows.
+
+## Phase 16 — Tablet and iPad
+
+Design: [docs/TABLET.md](./docs/TABLET.md).
+
+### Tasks
+
+- **[P0] The `md`-to-`lg` rail.** — 72px, all ten destinations, labels under icons. Ends the discontinuity where an 11-inch iPad gets bottom tabs and a 13-inch gets a sidebar.
+- **[P0] Two-column content at `md`+.** — Dashboard, Daily Practice as master/detail, Archive at three columns, Progress, Settings, and a side panel instead of a modal for word detail in landscape.
+- **[P0] A maximum comfortable measure.** — Extra width becomes a column or a margin, never a longer line.
+- **[P0] No hover-only affordance at any width.** — The existing rule stops at `sm`; a 1366px iPad has no pointer.
+- **[P0] Rotation preserves state.** — Scroll position, a flipped card, a quiz in progress. The tablet-specific bug class, invisible until someone rotates.
+- **[P0] `scripts/drive/tablet-audit.mjs`.** — Every viewport in the table, both orientations, asserting no horizontal scroll, 44px targets, named buttons, and the right shell at each breakpoint.
+- **[P1] Safe areas on all four edges.**
+- **[P1] External keyboard.** — Every shortcut still works; focus rings visible.
+
+### Definition of done
+
+- The five iPad sizes and a common Android tablet, in both orientations, pass the tablet audit.
+- Split View at 375px gets the phone layout, because layout is driven by viewport and **no code branches on a device string**.
+
+## Phase 17 — The SAT corpus
+
+Three years of SAT vocabulary, to the standard the GRE corpus was held to.
+
+### Tasks
+
+- **[P0] Generate 36 ordinal months.** — No repetition within the track. Overlap with GRE is expected and is not a failure ([ADR 0013](./docs/adr/0013-cross-track-overlap.md)).
+- **[P0] SAT-specific difficulty banding.** — The academic register a strong high-school reader is reaching for, which is a level below the GRE corpus, not a subset of it.
+- **[P0] `audit-corpus.ts` becomes per-track.** — Asserts uniqueness within each track and **reports** the cross-track overlap as information. An overlap near zero would be as suspicious as one near total.
+- **[P0] Repair pass.** — The same loop the GRE corpus went through, until the audit says the corpus is sound.
+- **[P1] Both corpora ship as defaults.** — Generation is for going beyond them, never a prerequisite for using the app.
+
+### Definition of done
+
+- `audit-corpus.ts` passes for `gre` and for `sat`.
+- No word appears twice within either track.
+- The overlap between tracks is reported, and is plausible for two exams that genuinely share a register.
+
+## Phase 18 — v1.1 release
+
+### Tasks
+
+- **[P0] README.** — Tracks, start date, reshuffling, the flashcard gestures, tablet support. The data-model section is currently wrong the moment Phase 13 lands.
+- **[P0] CHANGELOG for v1.1.**
+- **[P0] Screenshots at tablet sizes** alongside the existing 390/768/1280.
+- **[P0] CONTINUING.md.** — The handoff document describes a single-track app.
+- **[P0] Merge `dev` to `main`** against the six-item checklist in [ADR 0014](./docs/adr/0014-dev-branch-default.md).
+
+### Definition of done
+
+- Typecheck, build, full suite, corpus audit for both tracks, and all five browser drivers green.
+- The migration acceptance test holds.
+- `main` is a working app that a stranger can clone.
+
 ## Explicitly not planned
 
 - **Cloud sync as a first-party feature.** — Users can export/import; that's enough. If cloud sync happens, it's via a pluggable adapter (Dropbox, iCloud file), never a Lexicon-owned backend.
@@ -399,3 +541,4 @@ Things that don't have a phase yet. Move up when they do.
 - Voice-first study mode (say the definition, get told the word)
 - Reading-mode: paste an article, get vocabulary suggestions
 - Etymology drill-down (integrate an offline Wiktionary dump?)
+- Background music while studying — ambient, off by default, its own volume. Deferred deliberately: it is a whole surface (assets, licensing, playback that survives navigation, a control that is not annoying) and nothing else waits on it.

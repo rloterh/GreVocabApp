@@ -1,3 +1,4 @@
+import type { ExamSession } from "@/lib/exam";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type {
@@ -20,11 +21,27 @@ interface ProgressState {
   sentences: Record<string, SentencePractice>;
   /** Recent quiz sessions (capped at 100) */
   quizzes: QuizSession[];
+  /**
+   * The exam in progress, if any.
+   *
+   * Persisted on every answer. A hundred questions is forty minutes of
+   * someone's attention, and an exam that evaporates when a tab closes is
+   * worse than no exam — they will not start a second one.
+   */
+  activeExam: ExamSession | null;
+  /** Finished exams, newest first, capped like the other histories. */
+  exams: ExamSession[];
   /** Recent study sessions (capped at 100) */
   studies: StudySession[];
 
   toggleMastered: (wordId: string, monthKey: string) => void;
   markReviewed: (wordId: string, monthKey: string) => void;
+  /** Persist the exam in progress. Called on every answer. */
+  saveExam: (session: ExamSession) => void;
+  /** Move a finished exam into history. */
+  finishExam: (session: ExamSession) => void;
+  /** Throw away the exam in progress. */
+  abandonExam: () => void;
   recordQuizAnswer: (
     wordId: string,
     monthKey: string,
@@ -90,6 +107,8 @@ export const useProgressStore = create<ProgressState>()(
       activity: {},
       sentences: {},
       quizzes: [],
+      activeExam: null,
+      exams: [],
       studies: [],
 
       toggleMastered: (wordId, monthKey) => {
@@ -149,6 +168,17 @@ export const useProgressStore = create<ProgressState>()(
           };
         });
       },
+
+      saveExam: (session) => setStore({ activeExam: session }),
+
+      finishExam: (session) => {
+        setStore((state) => ({
+          activeExam: null,
+          exams: [session, ...state.exams].slice(0, 100),
+        }));
+      },
+
+      abandonExam: () => setStore({ activeExam: null }),
 
       recordQuizAnswer: (wordId, monthKey, correct) => {
         setStore((state) => {
@@ -287,6 +317,8 @@ export const useProgressStore = create<ProgressState>()(
           activity: {},
           sentences: {},
           quizzes: [],
+          activeExam: null,
+          exams: [],
           studies: [],
         }),
 

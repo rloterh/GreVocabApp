@@ -3,6 +3,7 @@ import {
   BookOpen,
   Calendar,
   ChartLine,
+  ClipboardList,
   GraduationCap,
   Layers,
   LayoutDashboard,
@@ -27,6 +28,7 @@ const PRIMARY: NavItem[] = [
   { page: "practice", label: "Daily practice", icon: BookOpen },
   { page: "flashcards", label: "Flashcards", icon: Layers },
   { page: "quiz", label: "Quiz", icon: GraduationCap },
+  { page: "exam", label: "Exam", icon: ClipboardList },
   { page: "sentences", label: "Sentences", icon: PenLine },
 ];
 

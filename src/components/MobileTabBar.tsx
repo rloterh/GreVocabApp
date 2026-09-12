@@ -14,6 +14,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import {
   BookOpen,
   Calendar,
+  ClipboardList,
   ChartLine,
   GraduationCap,
   Layers,
@@ -44,6 +45,7 @@ const TABS: Destination[] = [
 
 /** Everything else, one tap further away. */
 const MORE: Destination[] = [
+  { page: "exam", label: "Exam", icon: ClipboardList },
   { page: "sentences", label: "Sentences", icon: PenLine },
   { page: "calendar", label: "Calendar", icon: Calendar },
   { page: "archive", label: "Archive", icon: ArchiveIcon },

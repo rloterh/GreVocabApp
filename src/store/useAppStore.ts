@@ -5,6 +5,7 @@ export type Page =
   | "practice"
   | "flashcards"
   | "quiz"
+  | "exam"
   | "sentences"
   | "calendar"
   | "archive"

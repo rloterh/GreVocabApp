@@ -99,9 +99,10 @@ describe("More", () => {
     const labels = [...sheet.querySelectorAll("button")]
       .filter((b) => !b.getAttribute("aria-label"))
       .map((b) => b.textContent?.trim());
-    // Between the bar and the sheet, all ten must be reachable — a page that
+    // Between the bar and the sheet, every page must be reachable — one that
     // appears in neither is unreachable on a phone.
     expect(labels).toEqual([
+      "Exam",
       "Sentences",
       "Calendar",
       "Archive",

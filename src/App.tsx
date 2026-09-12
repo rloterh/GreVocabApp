@@ -28,6 +28,7 @@ import { Dashboard } from "@/pages/Dashboard";
 import { DailyPractice } from "@/pages/DailyPractice";
 import { Flashcards } from "@/pages/Flashcards";
 import { Quiz } from "@/pages/Quiz";
+import { ExamPage } from "@/pages/Exam";
 import { SentenceBuilder } from "@/pages/SentenceBuilder";
 import { Calendar } from "@/pages/Calendar";
 import { Archive } from "@/pages/Archive";
@@ -111,6 +112,8 @@ function renderPage(page: string) {
       return <Flashcards />;
     case "quiz":
       return <Quiz />;
+    case "exam":
+      return <ExamPage />;
     case "sentences":
       return <SentenceBuilder />;
     case "calendar":

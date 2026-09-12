@@ -12,6 +12,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { ALL_SHORTCUTS } from "@/lib/shortcuts";
+import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 
 export function ShortcutsHelp({
   open,
@@ -20,6 +21,8 @@ export function ShortcutsHelp({
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }) {
+  // Keyboard users must land back on the control that opened this.
+  useRestoreFocus(open);
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-md">

@@ -78,7 +78,7 @@ pub fn init_tray(app: &AppHandle) -> tauri::Result<()> {
     let study = MenuItem::with_id(
         app,
         "study",
-        &format!("Study due cards  ({STUDY_SHORTCUT})"),
+        format!("Study due cards  ({STUDY_SHORTCUT})"),
         true,
         None::<&str>,
     )?;

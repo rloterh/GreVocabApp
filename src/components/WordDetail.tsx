@@ -24,6 +24,7 @@ import { differenceInDays, format, toDateKey } from "@/lib/date-utils";
 import { schedulingStateOf } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
 import type { StudyRating, VocabWord } from "@/types";
+import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 
 export interface WordDetailTarget extends VocabWord {
   monthKey: string;
@@ -78,6 +79,8 @@ export function WordDetail({
   /** Jump to this word's day in Daily Practice. */
   onOpenPractice?: (word: WordDetailTarget) => void;
 }) {
+  // Keyboard users must land back on the control that opened this.
+  useRestoreFocus(word !== null);
   const wordsProgress = useProgressStore((s) => s.words);
   const studies = useProgressStore((s) => s.studies);
 

@@ -14,12 +14,15 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 
 /** Injected by Vite from package.json at build time. */
 const VERSION = __APP_VERSION__;
 
 export function AboutDialog() {
   const [open, setOpen] = useState(false);
+  // Keyboard users must land back on the control that opened this.
+  useRestoreFocus(open);
 
   return (
     <>

@@ -30,6 +30,7 @@ import { generateCards } from "@/lib/generate";
 import { splitWordList } from "@/lib/generation-plan";
 import { formatMonthKey } from "@/lib/date-utils";
 import type { VocabMonth } from "@/types";
+import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 
 export function AddWordsButton({ month }: { month: VocabMonth }) {
   const addWordsToMonth = useVocabStore((s) => s.addWordsToMonth);
@@ -37,6 +38,8 @@ export function AddWordsButton({ month }: { month: VocabMonth }) {
   const showToast = useAppStore((s) => s.showToast);
 
   const [open, setOpen] = useState(false);
+  // Keyboard users must land back on the control that opened this.
+  useRestoreFocus(open);
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);

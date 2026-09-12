@@ -38,6 +38,7 @@ import {
 import { allWordsInMonth, firstFreeMonthKey } from "@/lib/vocabulary";
 import { formatMonthKey } from "@/lib/date-utils";
 import { PlanBuilder } from "@/components/PlanBuilder";
+import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 
 type Mode = "form" | "plan" | "bridge";
 
@@ -47,6 +48,8 @@ export function VocabGenerator() {
   const showToast = useAppStore((s) => s.showToast);
 
   const [open, setOpen] = useState(false);
+  // Keyboard users must land back on the control that opened this.
+  useRestoreFocus(open);
   const [mode, setMode] = useState<Mode>("form");
   const [topic, setTopic] = useState("");
   const [wordCount, setWordCount] = useState(30);

@@ -140,17 +140,35 @@ fn run_blocking(program: &str, spec: &CliSpec, prompt: &str) -> Result<String, S
         .spawn()
         .map_err(|e| format!("could not start {}: {e}", spec.label))?;
 
-    if let Some(mut stdin) = child.stdin.take() {
-        stdin
-            .write_all(prompt.as_bytes())
-            .map_err(|e| format!("could not send the prompt to {}: {e}", spec.label))?;
+    // Each pipe gets its own thread.
+    //
+    // Writing the whole prompt before reading any output deadlocks as soon as
+    // either pipe fills: the child blocks writing to a full stdout while we
+    // block writing to a full stdin, and neither side can move. Pipe buffers
+    // are a few kilobytes; a generated month is tens of kilobytes of JSON in
+    // each direction, so this is the ordinary case rather than an edge one.
+    let mut stdin = child.stdin.take();
+    let stdout = child.stdout.take();
+    let stderr = child.stderr.take();
+
+    let prompt = prompt.to_owned();
+    let writer = std::thread::spawn(move || {
+        if let Some(pipe) = stdin.as_mut() {
+            // A failed write is not reported: the tool may legitimately exit
+            // before reading everything, and its own error is the useful one.
+            let _ = pipe.write_all(prompt.as_bytes());
+        }
         // Dropping stdin closes it, which is what tells the tool to begin.
-    }
+        drop(stdin);
+    });
+
+    let out_reader = std::thread::spawn(move || read_all(stdout));
+    let err_reader = std::thread::spawn(move || read_all(stderr));
 
     let deadline = std::time::Instant::now() + RUN_TIMEOUT;
-    loop {
+    let status = loop {
         match child.try_wait() {
-            Ok(Some(_)) => break,
+            Ok(Some(status)) => break status,
             Ok(None) => {
                 if std::time::Instant::now() > deadline {
                     let _ = child.kill();
@@ -164,14 +182,13 @@ fn run_blocking(program: &str, spec: &CliSpec, prompt: &str) -> Result<String, S
             }
             Err(e) => return Err(format!("{} failed: {e}", spec.label)),
         }
-    }
+    };
 
-    let output = child
-        .wait_with_output()
-        .map_err(|e| format!("{} failed: {e}", spec.label))?;
+    let _ = writer.join();
+    let stdout = out_reader.join().unwrap_or_default();
+    let stderr = err_reader.join().unwrap_or_default();
 
-    if !output.status.success() {
-        let stderr = String::from_utf8_lossy(&output.stderr);
+    if !status.success() {
         let detail = stderr.trim();
         return Err(if detail.is_empty() {
             format!("{} exited with an error", spec.label)
@@ -182,11 +199,10 @@ fn run_blocking(program: &str, spec: &CliSpec, prompt: &str) -> Result<String, S
         });
     }
 
-    let stdout = String::from_utf8_lossy(&output.stdout);
     if stdout.len() > MAX_OUTPUT_BYTES {
         return Err(format!("{} returned too much output", spec.label));
     }
-    Ok(stdout.to_string())
+    Ok(stdout)
 }
 
 fn truncate(text: &str, max: usize) -> String {
@@ -195,6 +211,19 @@ fn truncate(text: &str, max: usize) -> String {
     } else {
         format!("{}…", &text[..max])
     }
+}
+
+/// Drain a pipe to a string, ignoring what cannot be decoded.
+///
+/// Returning what arrived rather than an error: a tool that wrote valid output
+/// and then died is more useful read than discarded.
+fn read_all<R: std::io::Read>(pipe: Option<R>) -> String {
+    let Some(mut pipe) = pipe else {
+        return String::new();
+    };
+    let mut buffer = Vec::new();
+    let _ = pipe.read_to_end(&mut buffer);
+    String::from_utf8_lossy(&buffer).into_owned()
 }
 
 #[cfg(test)]
@@ -232,5 +261,55 @@ mod tests {
         // Detection must be safe to run on every startup. If this ever starts
         // invoking tools it will spend real money, so the test documents it.
         let _ = detect_ai_clis();
+    }
+}
+
+#[cfg(test)]
+mod pipe_tests {
+    use super::*;
+
+    /// A program every platform has, that echoes a lot of stdout.
+    fn echo_spec() -> CliSpec {
+        CliSpec {
+            id: "test",
+            program: if cfg!(windows) { "cmd" } else { "sh" },
+            label: "test echo",
+            args: if cfg!(windows) {
+                &["/C", "more"]
+            } else {
+                &["-c", "cat"]
+            },
+        }
+    }
+
+    /// The deadlock this guards against: writing a whole prompt before reading
+    /// any output blocks as soon as either pipe fills. Pipe buffers are a few
+    /// kilobytes; a generated month is tens of kilobytes each way, so the
+    /// ordinary case is the failing one.
+    #[test]
+    fn survives_a_payload_larger_than_a_pipe_buffer() {
+        let program = match which(echo_spec().program) {
+            Some(p) => p,
+            // No shell to test with; nothing to assert.
+            None => return,
+        };
+        let spec = echo_spec();
+        let prompt = "x".repeat(256 * 1024);
+
+        let result = run_blocking(&program, &spec, &prompt);
+
+        // Either it echoed the payload back, or the tool refused it — both are
+        // fine. A hang until RUN_TIMEOUT is not, and is what this catches.
+        // Assert the payload actually made the round trip. Accepting any
+        // outcome would pass even if the child had died instantly, which
+        // proves nothing about pipes that never filled.
+        match result {
+            Ok(out) => assert!(
+                out.len() > 64 * 1024,
+                "echoed only {} bytes of a 256 KB payload",
+                out.len()
+            ),
+            Err(message) => panic!("did not complete: {message}"),
+        }
     }
 }

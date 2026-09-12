@@ -9,13 +9,13 @@
           "id": "2029-07-serendipity",
           "word": "serendipity",
           "partOfSpeech": "noun",
-          "definition": "The chance discovery of something pleasant while looking for an unrelated thing.",
-          "example": "Finding my future business partner in a delayed airport line was pure serendipity.",
-          "mnemonic": "From the fairy tale 'The Three Princes of Serendip,' who kept stumbling on lucky finds — 'Serendip' + lucky trip.",
+          "definition": "The luck of stumbling on something valuable while looking for nothing in particular.",
+          "example": "Meeting my future business partner in that delayed airport line was pure serendipity.",
+          "mnemonic": "From the fairy tale 'The Three Princes of Serendip,' who kept making lucky discoveries; hear 'serene dip' into good fortune.",
           "synonyms": [
             "luck",
             "chance",
-            "fortune"
+            "fluke"
           ],
           "antonyms": [
             "misfortune",
@@ -26,34 +26,35 @@
           "id": "2029-07-serendipitous",
           "word": "serendipitous",
           "partOfSpeech": "adjective",
-          "definition": "Happening by lucky accident to produce a welcome, unplanned result.",
-          "example": "Our meeting was entirely serendipitous — we both grabbed the last seat at the same café.",
-          "mnemonic": "Sounds like 'serene + dip in' — you calmly dip into a situation and luck falls in your lap.",
+          "definition": "Occurring by a fortunate accident rather than by plan.",
+          "example": "Their serendipitous meeting at the library grew into a lifelong friendship.",
+          "mnemonic": "Adjective of the Serendip tale — a 'serene dip' that turns out lucky.",
           "synonyms": [
             "fortunate",
-            "accidental",
-            "lucky"
+            "lucky",
+            "chance"
           ],
           "antonyms": [
             "planned",
-            "intended"
+            "deliberate"
           ]
         },
         {
-          "id": "2029-07-providential",
-          "word": "providential",
-          "partOfSpeech": "adjective",
-          "definition": "Arriving as if by divine timing to help exactly when needed.",
-          "example": "The rain was providential, dousing the wildfire moments before it reached the village.",
-          "mnemonic": "Think 'provided by Providence' — heaven provides help right on time.",
+          "id": "2029-07-fortuity",
+          "word": "fortuity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of happening by accident rather than intention.",
+          "example": "By sheer fortuity, the two scientists arrived at the same formula on the same day.",
+          "mnemonic": "From Latin 'fortuna' (luck) — picture Fortune pouring you a cup of tea you never asked for.",
           "synonyms": [
-            "heaven-sent",
-            "opportune",
-            "timely"
+            "chance",
+            "luck",
+            "accident"
           ],
           "antonyms": [
-            "untimely",
-            "unlucky"
+            "intention",
+            "design",
+            "certainty"
           ]
         }
       ]
@@ -62,52 +63,54 @@
       "day": 2,
       "words": [
         {
-          "id": "2029-07-propitious",
-          "word": "propitious",
+          "id": "2029-07-providential",
+          "word": "providential",
           "partOfSpeech": "adjective",
-          "definition": "Showing favorable conditions that make success or a good outcome likely.",
-          "example": "With clear skies and a full moon, the sailors judged it a propitious night to set out.",
-          "mnemonic": "'Pro' (for you) + sounds like 'precious' — conditions are FOR you and precious to your plans.",
+          "definition": "Happening at just the right moment, as though guided by a benevolent higher power.",
+          "example": "The providential arrival of the rescue boat saved the stranded hikers.",
+          "mnemonic": "'Provide' + '-ential' — as if a divine hand provides exactly what you need, right on time.",
           "synonyms": [
-            "favorable",
-            "auspicious",
-            "promising"
+            "opportune",
+            "timely",
+            "heaven-sent"
           ],
           "antonyms": [
-            "unfavorable",
-            "inauspicious"
+            "untimely",
+            "unlucky",
+            "catastrophic"
           ]
         },
         {
-          "id": "2029-07-fortuitous",
-          "word": "fortuitous",
-          "partOfSpeech": "adjective",
-          "definition": "Happening by chance, often in a lucky or beneficial way.",
-          "example": "It was fortuitous that the doctor happened to be dining nearby when the man collapsed.",
-          "mnemonic": "Hiding inside is 'fortu-' like a fort of luck — chance builds a fortress around you.",
+          "id": "2029-07-providence",
+          "word": "providence",
+          "partOfSpeech": "noun",
+          "definition": "Benevolent guardianship, attributed to God or fate, believed to steer events toward good.",
+          "example": "She trusted that providence would see her family through the harsh winter.",
+          "mnemonic": "Latin 'providere,' to see ahead — a foreseeing power that 'provides' for the future.",
           "synonyms": [
-            "chance",
-            "accidental",
-            "lucky"
+            "fate",
+            "destiny",
+            "divine care"
           ],
           "antonyms": [
-            "deliberate",
-            "planned"
+            "chance",
+            "chaos"
           ]
         },
         {
           "id": "2029-07-felicitous",
           "word": "felicitous",
           "partOfSpeech": "adjective",
-          "definition": "Well chosen and pleasingly appropriate for the occasion or purpose.",
-          "example": "Her felicitous toast captured exactly what everyone felt but couldn't quite say.",
-          "mnemonic": "Shares a root with 'Felix,' meaning happy — a felicitous phrase makes everyone happy.",
+          "definition": "Strikingly well suited to the occasion; aptly and gracefully expressed.",
+          "example": "The toast ended on a felicitous phrase that had the whole room smiling.",
+          "mnemonic": "Sounds like 'Felix,' Latin for happy — a felicitous remark makes everyone Felix-glad.",
           "synonyms": [
             "apt",
             "fitting",
-            "well-put"
+            "well-chosen"
           ],
           "antonyms": [
+            "inept",
             "awkward",
             "inappropriate"
           ]
@@ -121,51 +124,53 @@
           "id": "2029-07-felicity",
           "word": "felicity",
           "partOfSpeech": "noun",
-          "definition": "A state of great happiness, or an aptly graceful turn of expression.",
-          "example": "The couple spent their first months in a bubble of quiet felicity.",
-          "mnemonic": "The name 'Felicity' comes from Latin 'felix' — happy; picture a beaming friend named Felicity.",
+          "definition": "A state of great joy, or skillful aptness in wording.",
+          "example": "She described the sunset with such felicity that no one wanted her to stop.",
+          "mnemonic": "'Felix' means happy; Felicity is the woman who is pure happiness.",
           "synonyms": [
             "bliss",
             "joy",
-            "contentment"
+            "aptness"
           ],
           "antonyms": [
             "misery",
-            "sorrow"
+            "sorrow",
+            "clumsiness"
           ]
         },
         {
           "id": "2029-07-boon",
           "word": "boon",
           "partOfSpeech": "noun",
-          "definition": "A helpful thing that brings welcome benefit or advantage.",
-          "example": "The new bridge was a boon to farmers who had struggled to reach the market.",
-          "mnemonic": "Rhymes with 'moon' — a wish granted under the moon is a gift, a boon.",
+          "definition": "Something helpful given as a favor or great advantage.",
+          "example": "The new well proved a boon to the drought-stricken village.",
+          "mnemonic": "Rhymes with 'boom' — a boon gives your day a sudden boom of good.",
           "synonyms": [
             "blessing",
             "benefit",
-            "windfall"
+            "godsend"
           ],
           "antonyms": [
             "curse",
-            "burden"
+            "bane",
+            "hindrance"
           ]
         },
         {
-          "id": "2029-07-kismet",
-          "word": "kismet",
+          "id": "2029-07-pelf",
+          "word": "pelf",
           "partOfSpeech": "noun",
-          "definition": "The predetermined course of events believed to shape a person's life.",
-          "example": "When they met again by accident years later, she smiled and called it kismet.",
-          "mnemonic": "'Kiss met' — the fated kiss you were always destined to meet.",
+          "definition": "Riches viewed with contempt, seen as dishonestly or shamefully gained.",
+          "example": "He cared nothing for honor, chasing only pelf and the power it bought.",
+          "mnemonic": "Sounds like 'pelt' — grabbing furs for filthy cash; shabby loot for a selfish 'pelf'.",
           "synonyms": [
-            "fate",
-            "destiny",
-            "predestination"
+            "lucre",
+            "mammon",
+            "riches"
           ],
           "antonyms": [
-            "choice",
-            "free will"
+            "poverty",
+            "destitution"
           ]
         }
       ]
@@ -174,54 +179,57 @@
       "day": 4,
       "words": [
         {
-          "id": "2029-07-fluke",
-          "word": "fluke",
-          "partOfSpeech": "noun",
-          "definition": "A surprising success or event produced purely by chance.",
-          "example": "Sinking the ball off three cushions was a total fluke, and he knew it.",
-          "mnemonic": "Picture a lucky fish (a flatfish is called a fluke) leaping into your boat by accident.",
+          "id": "2029-07-aleatory",
+          "word": "aleatory",
+          "partOfSpeech": "adjective",
+          "definition": "Determined by the roll of the dice rather than by skill or plan.",
+          "example": "The composer added aleatory passages where the musicians improvise freely.",
+          "mnemonic": "Latin 'alea' = dice (Caesar's 'alea iacta est,' the die is cast) — aleatory is dice-y.",
           "synonyms": [
-            "accident",
-            "coincidence",
+            "random",
+            "chance",
+            "haphazard"
+          ],
+          "antonyms": [
+            "deterministic",
+            "planned",
+            "certain"
+          ]
+        },
+        {
+          "id": "2029-07-stochastic",
+          "word": "stochastic",
+          "partOfSpeech": "adjective",
+          "definition": "Governed by probability, so outcomes vary unpredictably from one instance to the next.",
+          "example": "The model treats stock prices as a stochastic process driven by random shocks.",
+          "mnemonic": "Greek 'stokhos,' to aim or guess — a 'stock-astic' guess at a moving target.",
+          "synonyms": [
+            "random",
+            "probabilistic",
             "chance"
           ],
           "antonyms": [
-            "certainty",
-            "skill"
+            "deterministic",
+            "predictable",
+            "fixed"
           ]
         },
         {
           "id": "2029-07-happenstance",
           "word": "happenstance",
           "partOfSpeech": "noun",
-          "definition": "A coincidence, or something occurring by pure random chance.",
-          "example": "By happenstance, both strangers had booked the same cabin for the same weekend.",
-          "mnemonic": "Literally 'happen' + 'circumstance' — a circumstance that just happens to occur.",
+          "definition": "A circumstance that comes about by chance rather than by plan.",
+          "example": "It was mere happenstance that both of them chose the same remote café.",
+          "mnemonic": "Blend of 'happen' + 'circumstance' — a circumstance that just happens to happen.",
           "synonyms": [
             "coincidence",
             "chance",
-            "accident"
+            "fluke"
           ],
           "antonyms": [
             "design",
-            "plan"
-          ]
-        },
-        {
-          "id": "2029-07-calamity",
-          "word": "calamity",
-          "partOfSpeech": "noun",
-          "definition": "A sudden event causing great damage, suffering, or distress.",
-          "example": "The flood was a calamity that left half the town without homes overnight.",
-          "mnemonic": "'Call a medic!' — when disaster strikes you shout for help; a calamity calls a medic.",
-          "synonyms": [
-            "disaster",
-            "catastrophe",
-            "tragedy"
-          ],
-          "antonyms": [
-            "blessing",
-            "boon"
+            "plan",
+            "intention"
           ]
         }
       ]
@@ -230,54 +238,56 @@
       "day": 5,
       "words": [
         {
-          "id": "2029-07-calamitous",
-          "word": "calamitous",
-          "partOfSpeech": "adjective",
-          "definition": "Causing serious harm, disaster, or deep misfortune.",
-          "example": "The general's calamitous decision to advance in winter destroyed the entire army.",
-          "mnemonic": "Add '-ous' to 'calamity' — full OF calamity, so a calamitous choice invites disaster.",
-          "synonyms": [
-            "disastrous",
-            "catastrophic",
-            "ruinous"
-          ],
-          "antonyms": [
-            "fortunate",
-            "beneficial"
-          ]
-        },
-        {
-          "id": "2029-07-cataclysm",
-          "word": "cataclysm",
+          "id": "2029-07-contingency",
+          "word": "contingency",
           "partOfSpeech": "noun",
-          "definition": "A violent, large-scale disaster causing sudden and sweeping destruction.",
-          "example": "The eruption was a cataclysm that buried the coastal cities under ash within hours.",
-          "mnemonic": "Greek 'kata-' (down) + 'klyzein' (to wash) — a great flood washing everything down.",
+          "definition": "An uncertain situation that may or may not occur, requiring a backup plan.",
+          "example": "The budget set aside funds for any contingency, from floods to strikes.",
+          "mnemonic": "Latin 'contingere,' to touch or befall — a future 'con-tinged' with uncertainty.",
           "synonyms": [
-            "catastrophe",
-            "upheaval",
-            "disaster"
+            "possibility",
+            "eventuality",
+            "uncertainty"
           ],
           "antonyms": [
-            "calm",
-            "stability"
+            "certainty",
+            "inevitability"
           ]
         },
         {
-          "id": "2029-07-cataclysmic",
-          "word": "cataclysmic",
+          "id": "2029-07-contingent",
+          "word": "contingent",
           "partOfSpeech": "adjective",
-          "definition": "Relating to a sudden, violent event of enormous destructive scale.",
-          "example": "The asteroid impact triggered cataclysmic changes that wiped out most life on Earth.",
-          "mnemonic": "'Cat-a-clysmic' — imagine a giant cat swatting a city flat; catastrophe on a massive scale.",
+          "definition": "Dependent on something else that may or may not happen.",
+          "example": "Her promotion is contingent on the merger going through next month.",
+          "mnemonic": "'Con-TINGE-ent' — one outcome is tinged by, and touches, a condition it depends on.",
           "synonyms": [
-            "catastrophic",
-            "devastating",
-            "apocalyptic"
+            "conditional",
+            "dependent",
+            "provisional"
           ],
           "antonyms": [
-            "harmless",
-            "trivial"
+            "unconditional",
+            "absolute",
+            "guaranteed"
+          ]
+        },
+        {
+          "id": "2029-07-adventitious",
+          "word": "adventitious",
+          "partOfSpeech": "adjective",
+          "definition": "Arising by chance from an outside source rather than naturally belonging.",
+          "example": "The scar was adventitious, a result of the accident and not something he was born with.",
+          "mnemonic": "Shares a root with 'advent'/'adventure' (Latin 'advenire,' to arrive) — it just arrives from outside.",
+          "synonyms": [
+            "accidental",
+            "extrinsic",
+            "incidental"
+          ],
+          "antonyms": [
+            "inherent",
+            "innate",
+            "intrinsic"
           ]
         }
       ]
@@ -286,47 +296,316 @@
       "day": 6,
       "words": [
         {
+          "id": "2029-07-caprice",
+          "word": "caprice",
+          "partOfSpeech": "noun",
+          "definition": "A sudden, impulsive change of mind or behavior with no clear reason.",
+          "example": "On a caprice, she quit her job and booked a one-way flight to Peru.",
+          "mnemonic": "From Latin 'capra' (goat) — picture a goat leaping about unpredictably, springing wherever the mood takes it.",
+          "synonyms": [
+            "whim",
+            "fancy",
+            "impulse"
+          ],
+          "antonyms": [
+            "constancy",
+            "deliberation",
+            "steadiness"
+          ]
+        },
+        {
+          "id": "2029-07-inconstant",
+          "word": "inconstant",
+          "partOfSpeech": "adjective",
+          "definition": "Likely to change often; not steady, loyal, or dependable.",
+          "example": "His inconstant affections meant no relationship of his ever lasted more than a month.",
+          "mnemonic": "in- (not) + constant (steady) = not staying the same.",
+          "synonyms": [
+            "fickle",
+            "changeable",
+            "unreliable"
+          ],
+          "antonyms": [
+            "steadfast",
+            "faithful",
+            "reliable"
+          ]
+        },
+        {
+          "id": "2029-07-ominous",
+          "word": "ominous",
+          "partOfSpeech": "adjective",
+          "definition": "Giving the impression that something bad is about to happen.",
+          "example": "Ominous black clouds massed over the ridge just as we started the long hike.",
+          "mnemonic": "Hidden inside is 'omen' — an ominous sky is an omen of doom.",
+          "synonyms": [
+            "threatening",
+            "menacing",
+            "foreboding"
+          ],
+          "antonyms": [
+            "promising",
+            "auspicious",
+            "reassuring"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "2029-07-premonition",
+          "word": "premonition",
+          "partOfSpeech": "noun",
+          "definition": "A strong feeling that something, usually bad, is about to happen.",
+          "example": "She had a premonition of disaster and, at the gate, refused to board the plane.",
+          "mnemonic": "pre- (before) + monition (a warning) = a warning felt before the event.",
+          "synonyms": [
+            "foreboding",
+            "hunch",
+            "presentiment"
+          ],
+          "antonyms": [
+            "hindsight"
+          ]
+        },
+        {
+          "id": "2029-07-oracle",
+          "word": "oracle",
+          "partOfSpeech": "noun",
+          "definition": "A person or source believed to give wise counsel or foretell the future.",
+          "example": "Before any major campaign, the king traveled to the temple to consult the oracle.",
+          "mnemonic": "Sounds like 'or-a-clue' — someone who always hands you a clue about what's coming.",
+          "synonyms": [
+            "seer",
+            "prophet",
+            "sage"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-07-prophetic",
+          "word": "prophetic",
+          "partOfSpeech": "adjective",
+          "definition": "Accurately describing or foretelling events before they occur.",
+          "example": "His prophetic warning about the market crash came true almost exactly two years later.",
+          "mnemonic": "'Pro-phone' — like getting a phone call straight from the future.",
+          "synonyms": [
+            "predictive",
+            "visionary",
+            "foretelling"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "2029-07-vaticinate",
+          "word": "vaticinate",
+          "partOfSpeech": "verb",
+          "definition": "To foretell or prophesy what is going to happen.",
+          "example": "The old astrologer claimed he could vaticinate the fates of every newborn prince.",
+          "mnemonic": "Sounds like 'Vatican' — picture a robed figure at the Vatican solemnly foretelling the future.",
+          "synonyms": [
+            "prophesy",
+            "predict",
+            "foretell"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-07-fateful",
+          "word": "fateful",
+          "partOfSpeech": "adjective",
+          "definition": "Having major, often disastrous, consequences for what comes after.",
+          "example": "It was a fateful decision to set sail that morning, despite every storm warning.",
+          "mnemonic": "'fate' + '-ful' = full of destiny — a moment loaded with what's to come.",
+          "synonyms": [
+            "momentous",
+            "decisive",
+            "crucial"
+          ],
+          "antonyms": [
+            "insignificant",
+            "trivial",
+            "unimportant"
+          ]
+        },
+        {
+          "id": "2029-07-foreordain",
+          "word": "foreordain",
+          "partOfSpeech": "verb",
+          "definition": "To decide or settle an outcome in advance, especially by a higher power.",
+          "example": "The theologians argued that God had foreordained the destiny of every soul.",
+          "mnemonic": "fore- (before) + ordain (to decree) = to decree it beforehand.",
+          "synonyms": [
+            "predestine",
+            "preordain",
+            "predetermine"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "2029-07-predestine",
+          "word": "predestine",
+          "partOfSpeech": "verb",
+          "definition": "To settle someone's future or outcome in advance by a controlling power.",
+          "example": "In the novel, the separated twins seem predestined to meet again exactly ten years later.",
+          "mnemonic": "pre- (before) + destine (destination) = your destination fixed before you even set out.",
+          "synonyms": [
+            "foreordain",
+            "preordain",
+            "predetermine"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "2029-07-inevitability",
+          "word": "inevitability",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being impossible to avoid or prevent.",
+          "example": "Once the deadline slipped, the layoffs took on a grim inevitability nobody could deny.",
+          "mnemonic": "in- (not) + Latin 'evitare' (to avoid) = the state of not being avoidable.",
+          "synonyms": [
+            "certainty",
+            "unavoidability",
+            "necessity"
+          ],
+          "antonyms": [
+            "uncertainty",
+            "avoidability"
+          ]
+        },
+        {
+          "id": "2029-07-calamity",
+          "word": "calamity",
+          "partOfSpeech": "noun",
+          "definition": "A serious event that causes great damage, suffering, or distress.",
+          "example": "The flood was the worst calamity the valley had endured in over a century.",
+          "mnemonic": "Think 'Calamity Jane' — the frontier figure forever surrounded by trouble and disaster.",
+          "synonyms": [
+            "disaster",
+            "catastrophe",
+            "tragedy"
+          ],
+          "antonyms": [
+            "blessing",
+            "boon",
+            "godsend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "2029-07-calamitous",
+          "word": "calamitous",
+          "partOfSpeech": "adjective",
+          "definition": "Causing serious damage, suffering, or ruin.",
+          "example": "The general's calamitous retreat through the mountains cost thousands of lives.",
+          "mnemonic": "The adjective of 'Calamity Jane' — anything as trouble-prone and ruinous as she was.",
+          "synonyms": [
+            "disastrous",
+            "catastrophic",
+            "ruinous"
+          ],
+          "antonyms": [
+            "fortunate",
+            "beneficial",
+            "harmless"
+          ]
+        },
+        {
           "id": "2029-07-catastrophe",
           "word": "catastrophe",
           "partOfSpeech": "noun",
-          "definition": "A sudden event that causes great damage, suffering, or ruin.",
-          "example": "The oil spill was a catastrophe for every fishing village along the coast.",
-          "mnemonic": "Greek cata- (down) + strophe (turn): a sudden turn downward, like a curtain crashing down.",
+          "definition": "A sudden event causing great suffering or widespread destruction.",
+          "example": "The tanker's spill became an environmental catastrophe that fouled the entire coastline.",
+          "mnemonic": "Greek kata- (down) + strophe (turning) — a sudden, sharp turn downward into ruin.",
           "synonyms": [
             "disaster",
             "calamity",
             "cataclysm"
           ],
           "antonyms": [
+            "triumph",
             "blessing",
-            "boon",
-            "triumph"
+            "boon"
+          ]
+        },
+        {
+          "id": "2029-07-cataclysm",
+          "word": "cataclysm",
+          "partOfSpeech": "noun",
+          "definition": "A violent, large-scale disaster or dramatic upheaval.",
+          "example": "The eruption was a cataclysm that buried three cities under scorching ash overnight.",
+          "mnemonic": "Greek kata- (down) + klyzein (to wash) — a great flood washing everything away, like the biblical deluge.",
+          "synonyms": [
+            "catastrophe",
+            "calamity",
+            "upheaval"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "2029-07-cataclysmic",
+          "word": "cataclysmic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to a sudden, violent event causing great destruction or dramatic change.",
+          "example": "When the dam burst, the cataclysmic flood swept away entire villages within minutes.",
+          "mnemonic": "Sounds like 'cata-CLASH-mic' — a colossal clash that smashes everything to pieces.",
+          "synonyms": [
+            "catastrophic",
+            "devastating",
+            "disastrous"
+          ],
+          "antonyms": [
+            "harmless",
+            "trivial",
+            "beneficial"
           ]
         },
         {
           "id": "2029-07-debacle",
           "word": "debacle",
           "partOfSpeech": "noun",
-          "definition": "A total, humiliating failure or complete collapse of something planned.",
-          "example": "The product launch turned into a debacle when the app crashed live on stage.",
-          "mnemonic": "Say 'de-BUCKLE': everything comes unbuckled and falls apart at once.",
+          "definition": "A sudden, total, and often humiliating collapse or failure of an event or plan.",
+          "example": "The product launch was a debacle: the demo crashed, the mic died, and reporters walked out.",
+          "mnemonic": "'DE-BACK-le' — the whole thing falls flat on its BACK and breaks apart (French for the breaking-up of ice).",
           "synonyms": [
             "fiasco",
-            "rout",
-            "washout"
+            "disaster",
+            "catastrophe"
           ],
           "antonyms": [
+            "triumph",
             "success",
-            "triumph"
+            "victory"
           ]
         },
         {
           "id": "2029-07-adversity",
           "word": "adversity",
           "partOfSpeech": "noun",
-          "definition": "A difficult stretch of life marked by hardship, suffering, or bad luck.",
-          "example": "She kept her sense of humor even in the face of crushing adversity.",
-          "mnemonic": "Root ad- (toward) + vers- (turn): the world has turned against you.",
+          "definition": "A difficult situation full of hardship, misfortune, or trouble.",
+          "example": "Growing up in poverty, she faced constant adversity but never lost her ambition.",
+          "mnemonic": "'AD-VERSE-ity' — when life's verses turn against you, everything feels adverse.",
           "synonyms": [
             "hardship",
             "misfortune",
@@ -341,170 +620,154 @@
       ]
     },
     {
-      "day": 7,
+      "day": 12,
       "words": [
         {
-          "id": "2029-07-affliction",
-          "word": "affliction",
+          "id": "2029-07-tribulation",
+          "word": "tribulation",
           "partOfSpeech": "noun",
-          "definition": "A condition of ongoing pain, illness, or deep distress.",
-          "example": "Chronic migraines were an affliction that kept him in dark rooms for days.",
-          "mnemonic": "From Latin fligere, 'to strike' — it flicks pain at you again and again.",
+          "definition": "A period of great trouble, suffering, or distress.",
+          "example": "After years of tribulation in exile, the refugees finally found safety and peace.",
+          "mnemonic": "'TRIBE-ulation' — picture an entire tribe crushed under waves of misery (Latin 'tribulum', a threshing sledge that grinds grain).",
           "synonyms": [
-            "ailment",
-            "torment",
-            "suffering"
+            "suffering",
+            "ordeal",
+            "hardship"
           ],
           "antonyms": [
             "comfort",
-            "relief",
-            "blessing"
-          ]
-        },
-        {
-          "id": "2029-07-misadventure",
-          "word": "misadventure",
-          "partOfSpeech": "noun",
-          "definition": "An episode that goes wrong through bad luck or a foolish mistake.",
-          "example": "Their camping trip became a misadventure of flat tires, rain, and a lost tent.",
-          "mnemonic": "mis- (badly/wrong) glued onto 'adventure': an outing gone wrong.",
-          "synonyms": [
-            "mishap",
-            "misfortune",
-            "blunder"
-          ],
-          "antonyms": [
-            "success",
-            "triumph"
+            "ease",
+            "joy"
           ]
         },
         {
           "id": "2029-07-travail",
           "word": "travail",
           "partOfSpeech": "noun",
-          "definition": "Hard, painful labor or intense effort, often prolonged.",
-          "example": "After months of travail, the exhausted crew finally finished building the bridge.",
-          "mnemonic": "Looks like 'travel', but comes from Latin trepalium, a torture device — grueling toil.",
+          "definition": "Painful, exhausting labor or a very distressing experience.",
+          "example": "The travail of hauling supplies up the mountain in a blizzard left the team frostbitten.",
+          "mnemonic": "Sounds like 'travel' — but grueling travel, backbreaking toil (French 'travail' = work).",
           "synonyms": [
             "toil",
-            "labor",
-            "drudgery"
+            "drudgery",
+            "hardship"
           ],
           "antonyms": [
-            "ease",
+            "rest",
             "leisure",
-            "rest"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "words": [
-        {
-          "id": "2029-07-tribulation",
-          "word": "tribulation",
-          "partOfSpeech": "noun",
-          "definition": "A period of great suffering, trouble, and distress.",
-          "example": "The pioneers endured every tribulation—drought, disease, and hunger—on the trek west.",
-          "mnemonic": "From Latin tribulum, a threshing sledge that crushes grain — troubles that grind you down.",
-          "synonyms": [
-            "ordeal",
-            "hardship",
-            "trial"
-          ],
-          "antonyms": [
-            "comfort",
-            "joy",
             "ease"
           ]
         },
         {
-          "id": "2029-07-comeuppance",
-          "word": "comeuppance",
+          "id": "2029-07-affliction",
+          "word": "affliction",
           "partOfSpeech": "noun",
-          "definition": "A well-deserved penalty that pays someone back for bad behavior.",
-          "example": "The arrogant cheat finally got his comeuppance when the whole class caught him copying.",
-          "mnemonic": "'Come up' — what's been coming up to you at last, your just deserts arriving.",
+          "definition": "A condition of ongoing pain, illness, or suffering.",
+          "example": "Chronic migraines were an affliction that kept her bedridden for days each month.",
+          "mnemonic": "'a-FLICK-tion' — each flick brings a sting that keeps hurting and won't let go.",
           "synonyms": [
-            "retribution",
-            "just deserts",
-            "reckoning"
+            "ailment",
+            "malady",
+            "suffering"
           ],
           "antonyms": [
-            "reward",
-            "reprieve"
-          ]
-        },
-        {
-          "id": "2029-07-nemesis",
-          "word": "nemesis",
-          "partOfSpeech": "noun",
-          "definition": "A long-standing rival or force that reliably causes someone's downfall.",
-          "example": "The detective finally cornered Moriarty, his cunning nemesis of many years.",
-          "mnemonic": "Nemesis was the Greek goddess of retribution who punished the proud.",
-          "synonyms": [
-            "archenemy",
-            "rival",
-            "undoing"
-          ],
-          "antonyms": [
-            "ally",
-            "friend",
-            "supporter"
+            "comfort",
+            "blessing",
+            "relief"
           ]
         }
       ]
     },
     {
-      "day": 9,
+      "day": 13,
       "words": [
         {
           "id": "2029-07-bane",
           "word": "bane",
           "partOfSpeech": "noun",
-          "definition": "A source of persistent harm, ruin, or misery.",
-          "example": "Weeds were the bane of the gardener's summer, choking every flower bed.",
-          "mnemonic": "Hear it in 'wolfsbane' and 'ratsbane' — old poisons that kill; a bane destroys.",
+          "definition": "A cause of persistent harm, ruin, or annoyance.",
+          "example": "Slow traffic on the bridge was the bane of his morning commute.",
+          "mnemonic": "Think of Batman's villain BANE — he rhymes with 'pain' and brings nothing but ruin.",
           "synonyms": [
             "curse",
             "scourge",
-            "ruin"
+            "plague"
           ],
           "antonyms": [
             "blessing",
             "boon",
-            "delight"
+            "benefit"
+          ]
+        },
+        {
+          "id": "2029-07-baleful",
+          "word": "baleful",
+          "partOfSpeech": "adjective",
+          "definition": "Menacing and threatening, seeming to promise evil or harm.",
+          "example": "The wolf fixed the lamb with a baleful stare before it lunged.",
+          "mnemonic": "'BALE-ful' — a full BALE (bundle) of bad omens; a wailful, hateful glare.",
+          "synonyms": [
+            "menacing",
+            "sinister",
+            "ominous"
+          ],
+          "antonyms": [
+            "benign",
+            "kindly",
+            "benevolent"
           ]
         },
         {
           "id": "2029-07-baneful",
           "word": "baneful",
           "partOfSpeech": "adjective",
-          "definition": "Poisonous or destructive; likely to cause serious harm.",
-          "example": "The tabloid's baneful gossip wrecked reputations purely for entertainment.",
-          "mnemonic": "bane (poison, as in wolfsbane) + -ful: full of poison, harmful through and through.",
+          "definition": "Causing serious harm, destruction, or death; poisonous in effect.",
+          "example": "The baneful runoff leaked into the river, killing every fish downstream.",
+          "mnemonic": "Full of 'bane' (poison) — like baneberry, a toxic plant; rhymes with 'painful'.",
           "synonyms": [
             "harmful",
-            "poisonous",
+            "noxious",
             "destructive"
           ],
           "antonyms": [
             "beneficial",
             "wholesome",
-            "healthful"
+            "harmless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "2029-07-jeremiad",
+          "word": "jeremiad",
+          "partOfSpeech": "noun",
+          "definition": "A long, mournful complaint or bitter lament about society's woes.",
+          "example": "His toast dissolved into a jeremiad about how the younger generation had ruined everything.",
+          "mnemonic": "Named for the prophet JEREMIAH, whose biblical Lamentations were one long sorrowful wail.",
+          "synonyms": [
+            "lament",
+            "tirade",
+            "diatribe"
+          ],
+          "antonyms": [
+            "praise",
+            "eulogy",
+            "celebration"
           ]
         },
         {
           "id": "2029-07-scourge",
           "word": "scourge",
           "partOfSpeech": "noun",
-          "definition": "A cause of widespread suffering or ruin; historically, a whip for punishment.",
-          "example": "Cholera was the scourge of crowded cities before clean water arrived.",
-          "mnemonic": "Sounds like 'scour' — it scours across a land, stripping away everything in its path.",
+          "definition": "A person or thing that causes great and widespread suffering or devastation.",
+          "example": "Malaria remains a scourge across many tropical regions, claiming countless lives each year.",
+          "mnemonic": "'SCOUR' + 'urge' — an urge to whip and scour the land bare (a scourge was literally a whip).",
           "synonyms": [
             "plague",
-            "curse",
+            "bane",
             "affliction"
           ],
           "antonyms": [
@@ -512,95 +775,114 @@
             "boon",
             "remedy"
           ]
-        }
-      ]
-    },
-    {
-      "day": 10,
-      "words": [
+        },
         {
           "id": "2029-07-plight",
           "word": "plight",
           "partOfSpeech": "noun",
-          "definition": "A difficult, distressing, or dangerous situation someone is stuck in.",
-          "example": "News of the stranded refugees' plight prompted donations from around the world.",
-          "mnemonic": "Rhymes with 'tight' — being caught in a tight spot with no easy way out.",
+          "definition": "A dangerous, difficult, or unfortunate situation someone is stuck in.",
+          "example": "The news coverage highlighted the plight of families left homeless by the earthquake.",
+          "mnemonic": "Rhymes with 'blight' and 'tight' — you're wedged in a tight, blighted spot.",
           "synonyms": [
             "predicament",
-            "difficulty",
-            "quandary"
+            "quandary",
+            "difficulty"
           ],
           "antonyms": [
             "comfort",
-            "ease",
+            "boon",
             "advantage"
-          ]
-        },
-        {
-          "id": "2029-07-predicament",
-          "word": "predicament",
-          "partOfSpeech": "noun",
-          "definition": "A tricky, unpleasant situation that is hard to get out of.",
-          "example": "Locked out in the rain with a dead phone, she pondered her predicament.",
-          "mnemonic": "'Predict-a-ment': a jam so bad you can't predict how you'll ever escape it.",
-          "synonyms": [
-            "plight",
-            "dilemma",
-            "quandary"
-          ],
-          "antonyms": [
-            "solution",
-            "ease",
-            "advantage"
-          ]
-        },
-        {
-          "id": "2029-07-hapless",
-          "word": "hapless",
-          "partOfSpeech": "adjective",
-          "definition": "Unlucky and deserving of pity; forever meeting misfortune.",
-          "example": "The hapless waiter dropped three trays before the lunch rush even began.",
-          "mnemonic": "'Hap' means luck (as in happen and mishap) + -less: luck-less.",
-          "synonyms": [
-            "unlucky",
-            "unfortunate",
-            "ill-fated"
-          ],
-          "antonyms": [
-            "lucky",
-            "fortunate",
-            "blessed"
           ]
         }
       ]
     },
     {
-      "day": 11,
+      "day": 15,
       "words": [
         {
-          "id": "2029-07-luckless",
-          "word": "luckless",
-          "partOfSpeech": "adjective",
-          "definition": "Consistently experiencing bad outcomes and misfortune through no fault of one's own.",
-          "example": "The luckless gambler lost every hand, and then discovered his car had been towed.",
-          "mnemonic": "Break it apart: luck + -less = 'less luck,' i.e. none to spare.",
+          "id": "2029-07-misadventure",
+          "word": "misadventure",
+          "partOfSpeech": "noun",
+          "definition": "An unlucky or unfortunate incident, especially one arising from a risky undertaking.",
+          "example": "Their camping trip became a misadventure when the tent blew away and the map got soaked.",
+          "mnemonic": "'mis-' (badly) + 'adventure' — an outing that goes hilariously or dangerously wrong.",
           "synonyms": [
-            "unfortunate",
-            "hapless",
-            "ill-fated"
+            "mishap",
+            "misfortune",
+            "mischance"
           ],
           "antonyms": [
-            "fortunate",
-            "lucky"
+            "success",
+            "triumph",
+            "good luck"
+          ]
+        },
+        {
+          "id": "2029-07-mischance",
+          "word": "mischance",
+          "partOfSpeech": "noun",
+          "definition": "An instance of bad luck or an unlucky accident.",
+          "example": "By some mischance, both elevators failed on the very morning of his big interview.",
+          "mnemonic": "'mis-' (bad) + 'chance' — a chance outcome that turned out badly.",
+          "synonyms": [
+            "mishap",
+            "misfortune",
+            "accident"
+          ],
+          "antonyms": [
+            "luck",
+            "fortune",
+            "windfall"
+          ]
+        },
+        {
+          "id": "2029-07-mishap",
+          "word": "mishap",
+          "partOfSpeech": "noun",
+          "definition": "A small unlucky accident that causes minor trouble.",
+          "example": "A wardrobe mishap left him with a coffee stain right before the presentation.",
+          "mnemonic": "'mis-' + 'hap' — 'hap' is old English for luck (as in 'happen'), so a bad hap.",
+          "synonyms": [
+            "accident",
+            "mischance",
+            "misfortune"
+          ],
+          "antonyms": [
+            "fortune",
+            "success",
+            "blessing"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "2029-07-ruinous",
+          "word": "ruinous",
+          "partOfSpeech": "adjective",
+          "definition": "Causing severe damage, collapse, or financial disaster.",
+          "example": "The lawsuit's ruinous legal fees forced the small bakery to close its doors.",
+          "mnemonic": "It literally holds 'ruin' — something ruinous leaves you in ruins.",
+          "synonyms": [
+            "destructive",
+            "catastrophic",
+            "devastating"
+          ],
+          "antonyms": [
+            "beneficial",
+            "harmless",
+            "constructive"
           ]
         },
         {
           "id": "2029-07-jinx",
           "word": "jinx",
           "partOfSpeech": "noun",
-          "definition": "A person or thing believed to bring bad fortune to someone.",
-          "example": "Ever since he wore that cap to the matches, the team kept losing, so everyone called it a jinx.",
-          "mnemonic": "Rhymes with 'links'—picture a bad-luck link that drags down whatever it touches.",
+          "definition": "A person or thing believed to bring bad luck.",
+          "example": "Every time he wears that hat to a game his team loses — he's a total jinx.",
+          "mnemonic": "Rhymes with 'sphinx': a mysterious, riddling curse hanging over you.",
           "synonyms": [
             "curse",
             "hex",
@@ -608,56 +890,133 @@
           ],
           "antonyms": [
             "charm",
-            "blessing"
+            "blessing",
+            "talisman"
           ]
         },
         {
-          "id": "2029-07-doom",
-          "word": "doom",
+          "id": "2029-07-malediction",
+          "word": "malediction",
           "partOfSpeech": "noun",
-          "definition": "An inevitable and terrible fate, especially ruin or death.",
-          "example": "As the storm smashed the ship's hull, the sailors sensed their doom drawing near.",
-          "mnemonic": "Sounds like 'tomb'—both echo with gloom and a grim ending.",
+          "definition": "A spoken wish that harm come to someone.",
+          "example": "The old witch hurled a malediction at the knight, swearing he would never see home again.",
+          "mnemonic": "'mal-' (bad) + 'diction' (speech) = bad speech aimed at you.",
           "synonyms": [
-            "ruin",
-            "destruction",
-            "fate"
+            "curse",
+            "imprecation",
+            "anathema"
           ],
           "antonyms": [
-            "salvation",
-            "deliverance"
+            "blessing",
+            "benediction"
           ]
         }
       ]
     },
     {
-      "day": 12,
+      "day": 17,
       "words": [
         {
-          "id": "2029-07-perdition",
-          "word": "perdition",
+          "id": "2029-07-imprecation",
+          "word": "imprecation",
           "partOfSpeech": "noun",
-          "definition": "Complete and everlasting spiritual ruin; the state of being condemned to hell.",
-          "example": "The preacher thundered that a life of cruelty leads straight to perdition.",
-          "mnemonic": "From Latin 'perdere' (to lose)—like Spanish 'perder,' it's losing your soul utterly.",
+          "definition": "A shouted or muttered appeal for evil to fall on another.",
+          "example": "He stormed off the pitch, hurling imprecations at the referee who had ejected him.",
+          "mnemonic": "'im-' + '-prec-' (to pray) = praying badly against someone.",
           "synonyms": [
-            "damnation",
-            "hell",
-            "ruin"
+            "curse",
+            "malediction",
+            "execration"
           ],
           "antonyms": [
-            "salvation",
-            "redemption",
-            "heaven"
+            "blessing",
+            "benediction"
+          ]
+        },
+        {
+          "id": "2029-07-anathema",
+          "word": "anathema",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that is intensely disliked or formally condemned.",
+          "example": "To a lifelong vegetarian, a steak dinner is complete anathema.",
+          "mnemonic": "Sounds like 'a-NASTY-ma' — a nasty thing you can't stand.",
+          "synonyms": [
+            "abomination",
+            "bane",
+            "bugbear"
+          ],
+          "antonyms": [
+            "blessing",
+            "favorite",
+            "delight"
+          ]
+        },
+        {
+          "id": "2029-07-execration",
+          "word": "execration",
+          "partOfSpeech": "noun",
+          "definition": "The act of loudly condemning or detesting someone or something.",
+          "example": "The tyrant's name is now spoken only with execration by the people he oppressed.",
+          "mnemonic": "'exe-' + 'cremation' — you'd gladly burn what you utterly loathe.",
+          "synonyms": [
+            "denunciation",
+            "loathing",
+            "vilification"
+          ],
+          "antonyms": [
+            "praise",
+            "blessing",
+            "adoration"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "2029-07-nemesis",
+          "word": "nemesis",
+          "partOfSpeech": "noun",
+          "definition": "A rival or force that consistently causes someone's defeat or punishment.",
+          "example": "The detective finally cornered his lifelong nemesis in an abandoned warehouse.",
+          "mnemonic": "Named for Nemesis, the Greek goddess of retribution.",
+          "synonyms": [
+            "archenemy",
+            "rival",
+            "bane"
+          ],
+          "antonyms": [
+            "ally",
+            "friend",
+            "supporter"
+          ]
+        },
+        {
+          "id": "2029-07-undoing",
+          "word": "undoing",
+          "partOfSpeech": "noun",
+          "definition": "The cause of a person's ruin or collapse.",
+          "example": "His arrogance proved to be his undoing when every investor abandoned the company.",
+          "mnemonic": "To 'undo' a knot is to unravel it — your undoing unravels you.",
+          "synonyms": [
+            "downfall",
+            "ruination",
+            "collapse"
+          ],
+          "antonyms": [
+            "making",
+            "success",
+            "salvation"
           ]
         },
         {
           "id": "2029-07-downfall",
           "word": "downfall",
           "partOfSpeech": "noun",
-          "definition": "A sudden loss of power, wealth, or status, or its cause.",
-          "example": "Greed proved to be the tycoon's downfall once investigators traced the missing funds.",
-          "mnemonic": "Literally 'down' + 'fall'—picture a king tumbling down from his high throne.",
+          "definition": "A sudden loss of power, wealth, or status.",
+          "example": "Greed led to the emperor's downfall, and his realm crumbled within a year.",
+          "mnemonic": "Picture a king plunging down off the top of his own tower.",
           "synonyms": [
             "ruin",
             "collapse",
@@ -668,366 +1027,6 @@
             "ascent",
             "triumph"
           ]
-        },
-        {
-          "id": "2029-07-undoing",
-          "word": "undoing",
-          "partOfSpeech": "noun",
-          "definition": "The cause of someone's ruin or defeat.",
-          "example": "His stubborn refusal to ever ask for help was ultimately his undoing.",
-          "mnemonic": "To 'un-do' something is to unravel it—your undoing unravels everything you built.",
-          "synonyms": [
-            "downfall",
-            "ruin",
-            "destruction"
-          ],
-          "antonyms": [
-            "making",
-            "success"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 13,
-      "words": [
-        {
-          "id": "2029-07-fortuity",
-          "word": "fortuity",
-          "partOfSpeech": "noun",
-          "definition": "A chance event, especially a lucky one occurring by accident.",
-          "example": "By sheer fortuity, she sat down beside the very investor she had been trying to reach for months.",
-          "mnemonic": "Hear 'fortune' inside it—fortune that arrives purely by chance.",
-          "synonyms": [
-            "chance",
-            "serendipity",
-            "windfall"
-          ],
-          "antonyms": [
-            "design",
-            "intention",
-            "certainty"
-          ]
-        },
-        {
-          "id": "2029-07-bonanza",
-          "word": "bonanza",
-          "partOfSpeech": "noun",
-          "definition": "A situation producing great wealth, luck, or profit suddenly.",
-          "example": "The tiny café became a bonanza the moment tourists discovered its rooftop view.",
-          "mnemonic": "'Bon' means good (French/Spanish)—a run of good times, like striking a rich vein of gold.",
-          "synonyms": [
-            "windfall",
-            "jackpot",
-            "gold mine"
-          ],
-          "antonyms": [
-            "loss",
-            "bust",
-            "disaster"
-          ]
-        },
-        {
-          "id": "2029-07-godsend",
-          "word": "godsend",
-          "partOfSpeech": "noun",
-          "definition": "An unexpected but very welcome and helpful thing or event.",
-          "example": "When the neighbor offered to babysit overnight, it was a godsend for the exhausted parents.",
-          "mnemonic": "Read it as 'god-sent'—arriving as if sent from above at the exact moment you need it.",
-          "synonyms": [
-            "blessing",
-            "boon",
-            "windfall"
-          ],
-          "antonyms": [
-            "curse",
-            "blight",
-            "misfortune"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "words": [
-        {
-          "id": "2029-07-providence",
-          "word": "providence",
-          "partOfSpeech": "noun",
-          "definition": "Protective care or guidance from God, nature, or fate.",
-          "example": "By some providence, the family had walked out of the house minutes before it collapsed.",
-          "mnemonic": "Contains 'provide'—providence provides for you, like a watchful guardian.",
-          "synonyms": [
-            "destiny",
-            "divine care",
-            "fate"
-          ],
-          "antonyms": [
-            "chance",
-            "misfortune"
-          ]
-        },
-        {
-          "id": "2029-07-fatalism",
-          "word": "fatalism",
-          "partOfSpeech": "noun",
-          "definition": "The belief that all events are fixed in advance and humans are powerless to change them.",
-          "example": "Her fatalism meant she never planned ahead, certain that whatever came was already decided.",
-          "mnemonic": "Fate + -ism—a whole doctrine built on surrendering to fate.",
-          "synonyms": [
-            "determinism",
-            "resignation",
-            "predestination"
-          ],
-          "antonyms": [
-            "free will",
-            "optimism",
-            "self-determination"
-          ]
-        },
-        {
-          "id": "2029-07-fatalistic",
-          "word": "fatalistic",
-          "partOfSpeech": "adjective",
-          "definition": "Believing that events are predetermined and cannot be altered by effort.",
-          "example": "He shrugged with a fatalistic calm, saying the outcome was out of his hands anyway.",
-          "mnemonic": "The '-istic' attitude of someone who bows to fate at every turn.",
-          "synonyms": [
-            "resigned",
-            "defeatist",
-            "deterministic"
-          ],
-          "antonyms": [
-            "optimistic",
-            "proactive",
-            "hopeful"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 15,
-      "words": [
-        {
-          "id": "2029-07-ominous",
-          "word": "ominous",
-          "partOfSpeech": "adjective",
-          "definition": "Suggesting that something bad or threatening is about to happen.",
-          "example": "An ominous silence fell over the crowd just before the verdict was read aloud.",
-          "mnemonic": "Spot 'omen' inside it—an omen hinting that trouble lies ahead.",
-          "synonyms": [
-            "threatening",
-            "foreboding",
-            "menacing"
-          ],
-          "antonyms": [
-            "promising",
-            "auspicious",
-            "reassuring"
-          ]
-        },
-        {
-          "id": "2029-07-premonition",
-          "word": "premonition",
-          "partOfSpeech": "noun",
-          "definition": "A strong feeling that something, usually unpleasant, will happen in the future.",
-          "example": "She canceled the flight after a sudden premonition that the whole trip would end badly.",
-          "mnemonic": "'Pre-' (before) + 'monition' (a warning)—a warning that reaches you beforehand.",
-          "synonyms": [
-            "foreboding",
-            "hunch",
-            "presentiment"
-          ],
-          "antonyms": [
-            "hindsight",
-            "certainty"
-          ]
-        },
-        {
-          "id": "2029-07-bellwether",
-          "word": "bellwether",
-          "partOfSpeech": "noun",
-          "definition": "A leading indicator that signals a coming trend or direction.",
-          "example": "The small state is a bellwether, often voting the way the entire nation soon will.",
-          "mnemonic": "A 'wether' is a lead sheep with a bell on its neck; the flock follows wherever it goes.",
-          "synonyms": [
-            "indicator",
-            "barometer",
-            "harbinger"
-          ],
-          "antonyms": [
-            "follower",
-            "laggard"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "words": [
-        {
-          "id": "2029-07-wherewithal",
-          "word": "wherewithal",
-          "partOfSpeech": "noun",
-          "definition": "The money or resources needed to accomplish a particular goal.",
-          "example": "She had the talent to open a bakery but not the wherewithal to buy the ovens.",
-          "mnemonic": "Break it into 'where-with-all': the place you get all you need to work with.",
-          "synonyms": [
-            "means",
-            "resources",
-            "funds"
-          ],
-          "antonyms": [
-            "poverty",
-            "insufficiency"
-          ]
-        },
-        {
-          "id": "2029-07-inauspicious",
-          "word": "inauspicious",
-          "partOfSpeech": "adjective",
-          "definition": "Signaling that future events are likely to turn out badly.",
-          "example": "Tripping on stage during the first minute was an inauspicious debut for the young actor.",
-          "mnemonic": "'in-' (not) + 'auspicious' (lucky, from Roman priests reading birds): the birds say no.",
-          "synonyms": [
-            "unpromising",
-            "ominous",
-            "unfavorable"
-          ],
-          "antonyms": [
-            "promising",
-            "favorable"
-          ]
-        },
-        {
-          "id": "2029-07-untoward",
-          "word": "untoward",
-          "partOfSpeech": "adjective",
-          "definition": "Unexpected and improper or inconvenient in a way that causes difficulty.",
-          "example": "The inspector combed the accounts for hours but found nothing untoward.",
-          "mnemonic": "'un-' + 'toward': things are not moving toward the proper, expected direction.",
-          "synonyms": [
-            "improper",
-            "unseemly",
-            "adverse"
-          ],
-          "antonyms": [
-            "proper",
-            "favorable"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 17,
-      "words": [
-        {
-          "id": "2029-07-ruinous",
-          "word": "ruinous",
-          "partOfSpeech": "adjective",
-          "definition": "Causing severe damage, collapse, or financial destruction to someone or something.",
-          "example": "The failed expansion left the once-thriving bakery with ruinous debts it could never repay.",
-          "mnemonic": "'Ruinous' contains 'ruin' — something so bad it leaves you in ruins.",
-          "synonyms": [
-            "disastrous",
-            "catastrophic",
-            "devastating"
-          ],
-          "antonyms": [
-            "beneficial",
-            "profitable",
-            "harmless"
-          ]
-        },
-        {
-          "id": "2029-07-catastrophic",
-          "word": "catastrophic",
-          "partOfSpeech": "adjective",
-          "definition": "Involving a sudden, extreme, and often irreversible disaster.",
-          "example": "A single hairline crack in the dam could unleash catastrophic flooding on the valley below.",
-          "mnemonic": "'Cat-astrophe': picture a cat shoving a giant vase off a cliff — total wreckage.",
-          "synonyms": [
-            "disastrous",
-            "calamitous",
-            "devastating"
-          ],
-          "antonyms": [
-            "harmless",
-            "beneficial"
-          ]
-        },
-        {
-          "id": "2029-07-dolorous",
-          "word": "dolorous",
-          "partOfSpeech": "adjective",
-          "definition": "Marked by or expressing deep sadness and grief.",
-          "example": "The cello drew out a slow, dolorous melody as the mourners filed past the coffin.",
-          "mnemonic": "Spanish 'dolor' means pain; something dolorous is full of aching pain.",
-          "synonyms": [
-            "mournful",
-            "sorrowful",
-            "doleful"
-          ],
-          "antonyms": [
-            "cheerful",
-            "joyful"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 18,
-      "words": [
-        {
-          "id": "2029-07-rueful",
-          "word": "rueful",
-          "partOfSpeech": "adjective",
-          "definition": "Showing regret or sorrow, often mixed with wry self-mockery.",
-          "example": "He gave a rueful grin as he admitted he'd locked his keys in the car for the third time.",
-          "mnemonic": "'Rue' means to regret; ruing your blunder leaves you rueful.",
-          "synonyms": [
-            "regretful",
-            "contrite",
-            "apologetic"
-          ],
-          "antonyms": [
-            "unrepentant",
-            "pleased"
-          ]
-        },
-        {
-          "id": "2029-07-woeful",
-          "word": "woeful",
-          "partOfSpeech": "adjective",
-          "definition": "Extremely sad, or so poor in quality as to be pitiful.",
-          "example": "The rescue was crippled by a woeful shortage of boats and trained divers.",
-          "mnemonic": "'Woe' is deep sorrow; full of woe equals woeful.",
-          "synonyms": [
-            "dreadful",
-            "deplorable",
-            "miserable"
-          ],
-          "antonyms": [
-            "excellent",
-            "cheerful"
-          ]
-        },
-        {
-          "id": "2029-07-baleful",
-          "word": "baleful",
-          "partOfSpeech": "adjective",
-          "definition": "Menacing and threatening to cause harm or evil.",
-          "example": "The old dog fixed the stranger with a baleful stare and slowly bared its teeth.",
-          "mnemonic": "'Bale' is an archaic word for evil or harm; a baleful glare wishes you harm.",
-          "synonyms": [
-            "menacing",
-            "malevolent",
-            "sinister"
-          ],
-          "antonyms": [
-            "benevolent",
-            "friendly"
-          ]
         }
       ]
     },
@@ -1035,54 +1034,57 @@
       "day": 19,
       "words": [
         {
-          "id": "2029-07-dire",
-          "word": "dire",
-          "partOfSpeech": "adjective",
-          "definition": "Extremely serious, urgent, or threatening imminent disaster.",
-          "example": "After the earthquake, survivors were in dire need of clean water and medicine.",
-          "mnemonic": "A blaring red 'DIRE' siren rhymes with 'fire' — drop everything and run.",
+          "id": "2029-07-comeuppance",
+          "word": "comeuppance",
+          "partOfSpeech": "noun",
+          "definition": "A deserved punishment or fate that someone finally receives.",
+          "example": "The schoolyard bully got his comeuppance when the smallest kid stood up to him.",
+          "mnemonic": "What's 'coming up' to you — your just deserts arriving at last.",
           "synonyms": [
-            "grave",
-            "urgent",
-            "desperate"
+            "retribution",
+            "just deserts",
+            "requital"
           ],
           "antonyms": [
-            "mild",
-            "trivial"
+            "reward",
+            "pardon",
+            "reprieve"
           ]
         },
         {
-          "id": "2029-07-grievous",
-          "word": "grievous",
-          "partOfSpeech": "adjective",
-          "definition": "Very severe or serious, causing great pain, suffering, or harm.",
-          "example": "He sustained grievous injuries in the crash and spent months in intensive care.",
-          "mnemonic": "From 'grieve': a grievous wound is one bad enough to make you grieve.",
+          "id": "2029-07-perdition",
+          "word": "perdition",
+          "partOfSpeech": "noun",
+          "definition": "Complete and everlasting spiritual ruin; hell.",
+          "example": "The preacher warned that a life of cruelty leads straight to perdition.",
+          "mnemonic": "From Latin 'perdere', to lose utterly — the ultimate total loss.",
           "synonyms": [
-            "severe",
-            "grave",
-            "dreadful"
+            "damnation",
+            "hell",
+            "ruin"
           ],
           "antonyms": [
-            "trivial",
-            "minor"
+            "salvation",
+            "heaven",
+            "redemption"
           ]
         },
         {
-          "id": "2029-07-parlous",
-          "word": "parlous",
+          "id": "2029-07-luckless",
+          "word": "luckless",
           "partOfSpeech": "adjective",
-          "definition": "Full of danger and uncertainty; in a very risky condition.",
-          "example": "The nation's finances were in so parlous a state that default seemed unavoidable.",
-          "mnemonic": "'Parlous' is a medieval squashing of 'perilous' — same peril, older spelling.",
+          "definition": "Having persistent misfortune; never favored by chance.",
+          "example": "The luckless gambler lost his last coin on a bet that missed by a single number.",
+          "mnemonic": "'luck' + '-less' = stripped of every scrap of luck.",
           "synonyms": [
-            "perilous",
-            "precarious",
-            "dangerous"
+            "hapless",
+            "ill-fated",
+            "star-crossed"
           ],
           "antonyms": [
-            "safe",
-            "secure"
+            "fortunate",
+            "lucky",
+            "blessed"
           ]
         }
       ]
@@ -1091,54 +1093,57 @@
       "day": 20,
       "words": [
         {
-          "id": "2029-07-precarious",
-          "word": "precarious",
+          "id": "2029-07-beleaguered",
+          "word": "beleaguered",
           "partOfSpeech": "adjective",
-          "definition": "Dangerously unstable, insecure, or dependent on chance.",
-          "example": "The climber clung to a precarious ledge as loose rock crumbled beneath his boots.",
-          "mnemonic": "From Latin 'precari' (to pray): a precarious spot leaves you praying it holds.",
+          "definition": "Surrounded by troubles or attackers; under constant pressure.",
+          "example": "The beleaguered manager faced complaints from staff, customers, and investors all at once.",
+          "mnemonic": "'be-' + 'leaguer' (a besieging camp) — an army pitches tents all around you.",
           "synonyms": [
-            "unstable",
-            "insecure",
-            "perilous"
+            "besieged",
+            "harassed",
+            "embattled"
           ],
           "antonyms": [
-            "stable",
-            "secure"
+            "untroubled",
+            "secure",
+            "supported"
           ]
         },
         {
-          "id": "2029-07-jeopardize",
-          "word": "jeopardize",
-          "partOfSpeech": "verb",
-          "definition": "To expose someone or something to risk of harm, loss, or failure.",
-          "example": "Skipping the pre-flight safety checks could jeopardize the entire crew.",
-          "mnemonic": "Think of the show 'Jeopardy!' — you risk everything you've won on one answer.",
+          "id": "2029-07-lamentable",
+          "word": "lamentable",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving sorrow or regret; unfortunate and disappointing.",
+          "example": "The team's lamentable performance left the coach shaking his head in dismay.",
+          "mnemonic": "Hear 'lament' inside it — something you cry and mourn over.",
           "synonyms": [
-            "endanger",
-            "imperil",
-            "threaten"
+            "regrettable",
+            "deplorable",
+            "woeful"
           ],
           "antonyms": [
-            "protect",
-            "safeguard"
+            "admirable",
+            "fortunate",
+            "praiseworthy"
           ]
         },
         {
-          "id": "2029-07-imperil",
-          "word": "imperil",
-          "partOfSpeech": "verb",
-          "definition": "To place someone or something in danger.",
-          "example": "Dumping the factory's waste into the river would imperil every fish for miles.",
-          "mnemonic": "'im-' (into) + 'peril' (danger): to put straight into peril.",
+          "id": "2029-07-untoward",
+          "word": "untoward",
+          "partOfSpeech": "adjective",
+          "definition": "Unexpected and inconvenient, awkward, or inappropriate.",
+          "example": "Nothing untoward happened during the flight, and the passengers landed calmly and on time.",
+          "mnemonic": "'un-' + 'toward' — events not heading toward the way they should.",
           "synonyms": [
-            "endanger",
-            "jeopardize",
-            "threaten"
+            "unfavorable",
+            "improper",
+            "adverse"
           ],
           "antonyms": [
-            "protect",
-            "secure"
+            "favorable",
+            "proper",
+            "expected"
           ]
         }
       ]
@@ -1147,54 +1152,56 @@
       "day": 21,
       "words": [
         {
-          "id": "2029-07-flounder",
-          "word": "flounder",
-          "partOfSpeech": "verb",
-          "definition": "To struggle clumsily or helplessly, making little progress and losing control.",
-          "example": "Three questions in, the nervous candidate began to flounder and lost his train of thought.",
-          "mnemonic": "Picture a flatfish out of water, flopping and thrashing on the deck — that floundering fish is you when you're in over your head.",
+          "id": "2029-07-parlous",
+          "word": "parlous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of danger or risk; dangerously uncertain and difficult to escape.",
+          "example": "After three failed harvests, the village finances were in a parlous state.",
+          "mnemonic": "It's literally a worn-down form of 'perilous' — say it fast and you hear 'per'lous.'",
           "synonyms": [
-            "struggle",
-            "stumble",
-            "falter"
+            "perilous",
+            "precarious",
+            "hazardous"
           ],
           "antonyms": [
-            "thrive",
-            "prosper"
+            "safe",
+            "secure"
           ]
         },
         {
-          "id": "2029-07-founder",
-          "word": "founder",
-          "partOfSpeech": "verb",
-          "definition": "To fail completely, collapse, or sink beneath the water.",
-          "example": "The merger foundered at the last minute when the larger firm withdrew its offer.",
-          "mnemonic": "A ship that has reached the ocean floor has 'found' the bottom — found-er, it sinks and fails.",
+          "id": "2029-07-precarious",
+          "word": "precarious",
+          "partOfSpeech": "adjective",
+          "definition": "Not securely held or in position; likely to fall or fail at any moment.",
+          "example": "He balanced the last book on the precarious stack, and the whole tower wobbled.",
+          "mnemonic": "Sounds like 'pray-carious' — a position so shaky you can only pray it holds.",
           "synonyms": [
-            "collapse",
-            "fail",
-            "sink"
+            "unstable",
+            "shaky",
+            "perilous"
           ],
           "antonyms": [
-            "succeed",
-            "flourish"
+            "stable",
+            "secure",
+            "safe"
           ]
         },
         {
-          "id": "2029-07-exigency",
-          "word": "exigency",
-          "partOfSpeech": "noun",
-          "definition": "An urgent situation or pressing demand that requires immediate action.",
-          "example": "Wartime exigencies forced the government to ration bread within a week.",
-          "mnemonic": "Hear 'exit' + 'urgency' — an exigency is an urgency so sharp you need to exit and act now.",
+          "id": "2029-07-grievous",
+          "word": "grievous",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely serious or severe, causing great suffering or sorrow.",
+          "example": "The surgeon warned that any further delay could inflict grievous harm.",
+          "mnemonic": "Hidden inside is 'grieve' — a grievous wound is one bad enough to make you grieve.",
           "synonyms": [
-            "urgency",
-            "emergency",
-            "crisis"
+            "severe",
+            "grave",
+            "dire"
           ],
           "antonyms": [
-            "calm",
-            "stability"
+            "trivial",
+            "minor",
+            "slight"
           ]
         }
       ]
@@ -1203,54 +1210,57 @@
       "day": 22,
       "words": [
         {
-          "id": "2029-07-contingency",
-          "word": "contingency",
-          "partOfSpeech": "noun",
-          "definition": "A possible future event that cannot be predicted with certainty.",
-          "example": "The expedition packed extra fuel and food to cover every contingency in the mountains.",
-          "mnemonic": "From Latin 'contingere,' to befall — outcomes that merely touch on us by chance, hanging on the roll of the dice.",
+          "id": "2029-07-dolorous",
+          "word": "dolorous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of or expressing deep sadness and mournful distress.",
+          "example": "The cello's dolorous notes filled the hall like a slow funeral procession.",
+          "mnemonic": "Spanish 'dolor' means pain or grief — dolorous is simply overflowing with dolor.",
           "synonyms": [
-            "possibility",
-            "eventuality",
-            "uncertainty"
+            "mournful",
+            "sorrowful",
+            "doleful"
           ],
           "antonyms": [
-            "certainty",
-            "inevitability"
+            "joyful",
+            "cheerful",
+            "gleeful"
           ]
         },
         {
-          "id": "2029-07-vagary",
-          "word": "vagary",
-          "partOfSpeech": "noun",
-          "definition": "An unpredictable or erratic shift in behavior, mood, or circumstance.",
-          "example": "Sailors learn to respect the vagaries of the sea, which can turn glassy to violent in an hour.",
-          "mnemonic": "Sounds like 'vague' and shares the root 'vagari' (to wander) — a wandering, vague whim that strays off anywhere.",
+          "id": "2029-07-rueful",
+          "word": "rueful",
+          "partOfSpeech": "adjective",
+          "definition": "Showing regret or sorrow, often with a wry, self-aware smile.",
+          "example": "She gave a rueful laugh when she spotted the typo on her book's cover.",
+          "mnemonic": "To 'rue' something is to regret it — so rueful is a face that's full of rue.",
           "synonyms": [
-            "whim",
-            "quirk",
-            "fluctuation"
+            "regretful",
+            "contrite",
+            "wry"
           ],
           "antonyms": [
-            "constant",
-            "certainty"
+            "unrepentant",
+            "pleased",
+            "gleeful"
           ]
         },
         {
-          "id": "2029-07-caprice",
-          "word": "caprice",
-          "partOfSpeech": "noun",
-          "definition": "A sudden, impulsive change of mind with no obvious reason behind it.",
-          "example": "On a caprice, she abandoned the itinerary and boarded a train to a town she'd never heard of.",
-          "mnemonic": "Italian 'capriccio' from 'capra,' a goat — think of a goat leaping about suddenly and unpredictably.",
+          "id": "2029-07-salutary",
+          "word": "salutary",
+          "partOfSpeech": "adjective",
+          "definition": "Producing a good or beneficial effect, often through an unwelcome warning or lesson.",
+          "example": "The near-miss on the icy highway had a salutary effect on his driving.",
+          "mnemonic": "From Latin 'salus' (health), same root as 'salute' — it toasts to your wellbeing.",
           "synonyms": [
-            "whim",
-            "impulse",
-            "fancy"
+            "beneficial",
+            "wholesome",
+            "remedial"
           ],
           "antonyms": [
-            "constancy",
-            "steadiness"
+            "harmful",
+            "detrimental",
+            "damaging"
           ]
         }
       ]
@@ -1259,54 +1269,54 @@
       "day": 23,
       "words": [
         {
-          "id": "2029-07-mischance",
-          "word": "mischance",
+          "id": "2029-07-succor",
+          "word": "succor",
           "partOfSpeech": "noun",
-          "definition": "A piece of bad luck or an unfortunate accident.",
-          "example": "By sheer mischance, the only surviving negative was left in the sunlight and ruined.",
-          "mnemonic": "Break it open: 'mis-' (bad) + 'chance' — literally a bad chance, luck gone wrong.",
+          "definition": "Help and relief given to someone in distress or great difficulty.",
+          "example": "The lifeboat crew brought succor to the sailors stranded on the wreck.",
+          "mnemonic": "From Latin 'succurrere,' to run up and help — picture a rescuer sprinting toward the fallen.",
           "synonyms": [
-            "misfortune",
-            "mishap",
-            "bad luck"
+            "aid",
+            "relief",
+            "comfort"
           ],
           "antonyms": [
-            "fortune",
-            "luck"
+            "neglect",
+            "abandonment"
           ]
         },
         {
-          "id": "2029-07-perquisite",
-          "word": "perquisite",
+          "id": "2029-07-imbroglio",
+          "word": "imbroglio",
           "partOfSpeech": "noun",
-          "definition": "An extra benefit or privilege gained from a job beyond ordinary pay.",
-          "example": "A corner office and a driver were among the perquisites of the directorship.",
-          "mnemonic": "This is the long form of the slangy word 'perk' — the perks of the job.",
+          "definition": "A confused, complicated, and often embarrassing situation or disagreement.",
+          "example": "The mayor resigned amid the imbroglio over misspent city funds.",
+          "mnemonic": "Say 'im-BROIL-io' — everyone caught in it is stuck in one hot, tangled broil.",
           "synonyms": [
-            "perk",
-            "benefit",
-            "bonus"
+            "entanglement",
+            "muddle",
+            "quandary"
           ],
           "antonyms": [
-            "drawback",
-            "detriment"
+            "order",
+            "clarity"
           ]
         },
         {
-          "id": "2029-07-halcyon",
-          "word": "halcyon",
-          "partOfSpeech": "adjective",
-          "definition": "Calm, peaceful, and happy, especially when remembering an earlier time.",
-          "example": "The veterans reminisced about the halcyon summers before the conflict changed everything.",
-          "mnemonic": "Named for the halcyon, a mythical kingfisher believed to calm the seas while it nested — hence serene, tranquil days.",
+          "id": "2029-07-redound",
+          "word": "redound",
+          "partOfSpeech": "verb",
+          "definition": "To contribute significantly to someone's credit or shame, or to rebound back upon them.",
+          "example": "Her quiet generosity redounded to the honor of the entire family.",
+          "mnemonic": "Hear 'rebound' inside it — from Latin 'redundare,' to surge back onto its source.",
           "synonyms": [
-            "peaceful",
-            "tranquil",
-            "serene"
+            "rebound",
+            "reflect",
+            "contribute"
           ],
           "antonyms": [
-            "turbulent",
-            "stormy"
+            "detract",
+            "diminish"
           ]
         }
       ]
@@ -1315,81 +1325,26 @@
       "day": 24,
       "words": [
         {
-          "id": "2029-07-bereft",
-          "word": "bereft",
-          "partOfSpeech": "adjective",
-          "definition": "Deprived of something or someone, and left feeling the loss keenly.",
-          "example": "When the last bookshop closed, the little town felt bereft of its gathering place.",
-          "mnemonic": "It's the old past tense of 'bereave,' kin to 'reave' (to rob) — if you're bereft, you've been robbed of something.",
-          "synonyms": [
-            "deprived",
-            "devoid",
-            "lacking"
-          ],
-          "antonyms": [
-            "full",
-            "endowed"
-          ]
-        },
-        {
-          "id": "2029-07-salubrious",
-          "word": "salubrious",
-          "partOfSpeech": "adjective",
-          "definition": "Good for one's health; promoting physical or mental well-being.",
-          "example": "The doctor sent him to the coast for a month, convinced the sea breeze would be salubrious.",
-          "mnemonic": "Shares the Latin root 'salus' (health) with 'salute' and 'salutary'; or hear 'salad-brious' — salads keep you healthy.",
-          "synonyms": [
-            "healthy",
-            "wholesome",
-            "beneficial"
-          ],
-          "antonyms": [
-            "unhealthy",
-            "noxious"
-          ]
-        },
-        {
-          "id": "2029-07-desolate",
-          "word": "desolate",
-          "partOfSpeech": "adjective",
-          "definition": "Empty, bleak, and abandoned, or feeling utterly lonely and miserable.",
-          "example": "Nothing moved across the desolate plain but the wind and a single circling hawk.",
-          "mnemonic": "Read it as 'de-sole' — left all on your own, stripped of company and warmth.",
-          "synonyms": [
-            "barren",
-            "bleak",
-            "forlorn"
-          ],
-          "antonyms": [
-            "lush",
-            "populated"
-          ]
-        }
-      ]
-    },
-    {
-      "day": 25,
-      "words": [
-        {
-          "id": "2029-07-scupper",
-          "word": "scupper",
+          "id": "2029-07-founder",
+          "word": "founder",
           "partOfSpeech": "verb",
-          "definition": "To ruin or thwart a plan, or to sink a ship deliberately.",
-          "example": "A single anonymous leak to the newspapers scuppered the entire peace negotiation.",
-          "mnemonic": "A 'scupper' is the deck drain on a ship; flood water through it and you sink the vessel — you scupper it.",
+          "definition": "To fill with water and sink, or to fail completely and collapse.",
+          "example": "The overloaded ferry foundered just minutes after leaving the harbor.",
+          "mnemonic": "Don't confuse it with 'flounder' — think 'found' at the bottom: a ship going to the sea floor.",
           "synonyms": [
-            "thwart",
-            "ruin",
-            "wreck"
+            "sink",
+            "capsize",
+            "collapse"
           ],
           "antonyms": [
-            "rescue",
-            "salvage"
+            "float",
+            "succeed",
+            "thrive"
           ]
         }
       ]
     }
   ],
   "description": "advanced and low-frequency — fortune and misfortune",
-  "createdAt": "2026-09-12T10:32:17.602Z"
+  "createdAt": "2026-09-12T10:35:53.750Z"
 }

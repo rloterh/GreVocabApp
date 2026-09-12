@@ -105,3 +105,9 @@ Swipe is never the only route to anything. Every gesture here has a button.
 - **Not replacing the rating row.** Rating a card and moving past it are
   different decisions, and merging them into a swipe is the single most common
   way flashcard apps become untrustworthy — you cannot tell what you told it.
+
+  This was not hypothetical. Until Phase 15 the swipe **did** rate: left wrote
+  "again", right wrote "good", at a fixed 120px. A 121-pixel drag on a 360px
+  phone recorded a permanent judgement about a word, with nothing on screen
+  afterwards to say what had been recorded. Swipe now navigates, and rating
+  keeps the four buttons and the keys `1`–`4`.

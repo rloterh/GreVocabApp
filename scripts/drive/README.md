@@ -80,3 +80,16 @@ mastered count on the dashboard has not moved. That last assertion is the whole
 point of the ordinal redesign, so it is made against the running app rather
 than against the pure functions, which were all green on the day the progress
 store was silently dropping records.
+
+## `flashcard-nav-smoke.mjs`
+
+The edge arrows and the swipe, neither of which is unit-testable: whether a
+control is *visible*, whether moving a pointer toward it makes it disappear
+first, whether a drag of a given distance navigates or rates.
+
+It checks the arrows are hidden at rest, revealed by hover, focus and touch
+separately, greyed rather than removed at the ends, and hidden again only once
+the pointer **and** focus have both left. Then it drags the card on a touch
+viewport — a short drag that must do nothing, a long one each way — and
+asserts nothing was rated, because swipe navigates and rating keeps its
+buttons.

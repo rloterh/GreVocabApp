@@ -23,10 +23,10 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
 
-**Phases 13 and 14 are done** — tracks, ordinal content, the schedule, the
-migration that carries a user's progress across all three, and the screens for
-choosing when to start and how the months run. **Next is Phase 15**, the
-flashcard edge arrows and swipe. Then tablet (16) and the SAT corpus (17).
+**Phases 13, 14 and 15 are done** — tracks, ordinal content, the schedule, the
+migration that carries a user's progress across all three, the screens for
+choosing when to start and how the months run, and the flashcard edge arrows
+and swipe. **Next is Phase 16**, tablet and iPad. Then the SAT corpus (17).
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -467,18 +467,26 @@ Design: [docs/FLASHCARD-INTERACTION.md](./docs/FLASHCARD-INTERACTION.md).
 
 ### Tasks
 
-- **[P0] Edge arrows.** — 44px, just outside the card, hidden at rest, revealed on hover, focus or touch. The arrows are part of their own hover target, focus keeps them visible, and on touch they stay until the card changes.
-- **[P0] Disabled, not hidden, at the ends.** — A control that jumps between cards is worse than one that is greyed.
-- **[P0] Swipe.** — 25% of card width or a 500px/s flick; the card follows the pointer; direction-locked so a vertical scroll does not drag it; a tap still flips.
-- **[P0] Mouse drag, same gesture.**
-- **[P0] Position announced in a live region.** — "Card 7 of 30", so a swipe is perceivable without sight.
-- **[P1] Reduced motion.** — Arrows appear without sliding.
+- ~~**[P0] Edge arrows.**~~ **DONE 2026-09-12.** — `src/components/EdgeArrow.tsx`. 44px, outside the card from `md` up and overlapping its edges below that, where a full-width card leaves no room beside it. The reveal region is the card *and* its arrows, so moving the pointer toward one does not make it vanish first.
+- ~~**[P0] Disabled, not hidden, at the ends.**~~ **DONE 2026-09-12.** — 0.3 opacity, still in place. Asserted in the driver.
+- ~~**[P0] Swipe.**~~ **DONE 2026-09-12.** — And it **navigates now instead of rating**. See below.
+- ~~**[P0] Mouse drag, same gesture.**~~ **DONE 2026-09-12.**
+- ~~**[P0] Position announced in a live region.**~~ **DONE 2026-09-12.** — The visible "Card 3 of 20" in the top bar is not announced on change; a polite live region is.
+- ~~**[P1] Reduced motion.**~~ **DONE 2026-09-12.** — Through the existing `reduceMotion` setting: they fade without the 4px slide.
 
-### Definition of done
+**The one real behaviour change:** swipe used to *rate* — left wrote "again",
+right wrote "good", at a fixed 120px. On a 360px phone a 121-pixel drag
+recorded a permanent judgement about a word with nothing on screen afterwards
+to say what had been recorded. That is the exact pattern
+[docs/FLASHCARD-INTERACTION.md](./docs/FLASHCARD-INTERACTION.md) rejects, and
+the request paired swipe with the arrows, which are navigation. Rating keeps
+the four buttons and the keys `1`–`4`.
 
-- Every action has a keyboard route that depends on nothing being revealed.
-- The rating row is untouched. Rating a card and moving past it stay separate decisions.
-- The keyboard driver passes, including tabbing to both arrows.
+### Definition of done — met 2026-09-12
+
+- ~~Every action has a keyboard route that depends on nothing being revealed.~~ `←` `→` were already bound and still are.
+- ~~The rating row is untouched.~~ Four buttons, four keys, unchanged. The driver asserts that a full sequence of swipes rates nothing.
+- ~~The keyboard driver passes, including tabbing to both arrows.~~ Plus `scripts/drive/flashcard-nav-smoke.mjs`: hidden at rest, revealed three ways, hidden again only when the pointer *and* focus have both left.
 
 ## Phase 16 — Tablet and iPad
 

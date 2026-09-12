@@ -93,7 +93,13 @@ export interface SentenceVerification {
 
 /** Quiz question types */
 export type QuizMode = "word-to-def" | "def-to-word" | "mixed";
-export type QuizPool = "mastered" | "all" | "month" | "day";
+export type QuizPool =
+  | "due"
+  | "mastered"
+  | "all"
+  | "month"
+  | "day"
+  | "unmastered";
 
 export interface QuizQuestion {
   wordId: string;
@@ -202,6 +208,9 @@ export interface Settings {
    * order, or search results — see docs/WORD-ORDER.md.
    */
   wordOrder: WordOrder;
+  /** The quiz scope last used, so the second quiz is effectively one tap. */
+  lastQuizPool: QuizPool;
+  lastQuizCount: number;
   fontSize: "sm" | "md" | "lg";
   /** Set once the user has dismissed the spaced-repetition explainer. */
   hasSeenSrsIntro: boolean;

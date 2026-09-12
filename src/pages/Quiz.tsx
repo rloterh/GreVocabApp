@@ -10,7 +10,10 @@ import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
-import { cn, sample, shuffle } from "@/lib/utils";
+import { cn, sample } from "@/lib/utils";
+import { buildQuestions, byNeed, PERIOD_LENGTH, poolForPeriod, type TestPeriod } from "@/lib/quiz-build";
+import { isDue } from "@/lib/sm2";
+import { useSettingsStore } from "@/store/useSettingsStore";
 import type { QuizMode, QuizPool, QuizQuestion, VocabWord } from "@/types";
 
 type Screen = "setup" | "playing" | "results";
@@ -21,10 +24,15 @@ export function Quiz() {
   const recordAnswer = useProgressStore((s) => s.recordQuizAnswer);
   const addSession = useProgressStore((s) => s.addQuizSession);
 
+  const settings = useSettingsStore();
+  const wordsProgress = useProgressStore((s) => s.words);
+  const applyStudyRating = useProgressStore((s) => s.applyStudyRating);
+
   const [screen, setScreen] = useState<Screen>("setup");
   const [mode, setMode] = useState<QuizMode>("mixed");
-  const [pool, setPool] = useState<QuizPool>("mastered");
-  const [questionCount, setQuestionCount] = useState(10);
+  // Remembered, so the second quiz is effectively one tap.
+  const [pool, setPool] = useState<QuizPool>(settings.lastQuizPool);
+  const [questionCount, setQuestionCount] = useState(settings.lastQuizCount);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [qIdx, setQIdx] = useState(0);
   const [answers, setAnswers] = useState<
@@ -50,47 +58,63 @@ export function Quiz() {
     [activeMonth],
   );
 
+  const dueWords = useMemo(() => {
+    const now = new Date();
+    return allWords.filter((w) => isDue(wordsProgress[w.id], now));
+  }, [allWords, wordsProgress]);
+
+  const unmasteredWords = useMemo(
+    () => allWords.filter((w) => !isMastered(w.id)),
+    [allWords, isMastered],
+  );
+
   const availablePool = useMemo(() => {
     switch (pool) {
+      case "due":
+        return dueWords;
       case "mastered":
         return masteredWords;
       case "month":
         return activeMonthWords;
+      case "unmastered":
+        return unmasteredWords;
       case "all":
       default:
         return allWords;
     }
-  }, [pool, masteredWords, activeMonthWords, allWords]);
+  }, [pool, dueWords, masteredWords, activeMonthWords, unmasteredWords, allWords]);
 
-  function startQuiz() {
-    if (availablePool.length < 2) return;
-    const size = Math.min(questionCount, availablePool.length);
-    const chosenWords = sample(availablePool, size);
-    const qs: QuizQuestion[] = chosenWords.map((word) => {
-      const qMode: QuizQuestion["mode"] =
-        mode === "mixed"
-          ? Math.random() < 0.5
-            ? "word-to-def"
-            : "def-to-word"
-          : mode === "word-to-def"
-            ? "word-to-def"
-            : "def-to-word";
-      const distractors = sample(
-        allWords.filter((w) => w.id !== word.id),
-        3,
-      );
-      const options =
-        qMode === "word-to-def"
-          ? shuffle([word.definition, ...distractors.map((d) => d.definition)])
-          : shuffle([word.word, ...distractors.map((d) => d.word)]);
-      return {
-        wordId: word.id,
-        mode: qMode,
-        prompt: qMode === "word-to-def" ? word.word : word.definition,
-        correct: qMode === "word-to-def" ? word.definition : word.word,
-        options,
-      };
+  /** wordId -> month, for the same-register distractor bonus. */
+  const monthOf = useMemo(() => {
+    const map: Record<string, string> = {};
+    for (const month of allMonthsList) {
+      for (const word of allWordsInMonth(month)) map[word.id] = month.month;
+    }
+    return map;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [months]);
+
+  /** Start a periodic test: a fixed length from a defined pool. */
+  function startPeriodic(period: TestPeriod) {
+    const words = poolForPeriod(period, {
+      all: allWords,
+      progress: wordsProgress,
+      todaysWords: activeMonthWords.slice(0, 3),
+      recentWords: activeMonthWords,
+      monthWords: activeMonthWords,
     });
+    begin(words, PERIOD_LENGTH[period]);
+  }
+
+  /** Shared by the instant quiz and the periodic tests. */
+  function begin(words: VocabWord[], size: number) {
+    const qs = buildQuestions(words.slice(0, size), {
+      pool: allWords,
+      progress: wordsProgress,
+      monthOf,
+      mode,
+    });
+    if (qs.length === 0) return;
     setQuestions(qs);
     setQIdx(0);
     setAnswers([]);
@@ -98,12 +122,27 @@ export function Quiz() {
     setScreen("playing");
   }
 
+  function startQuiz() {
+    if (availablePool.length < 2) return;
+    // Remember the choice; the next quiz should be one tap.
+    settings.set({ lastQuizPool: pool, lastQuizCount: questionCount });
+    // Hardest first within the chosen scope, rather than a uniform sample —
+    // otherwise a long quiz mostly asks about words already known.
+    const ordered =
+      pool === "due" ? availablePool : byNeed(availablePool, wordsProgress);
+    begin(sample(ordered.slice(0, questionCount * 2), questionCount), questionCount);
+  }
+
   function answer(choice: string) {
     if (chosen !== null) return;
     setChosen(choice);
     const correct = choice === questions[qIdx]!.correct;
     const monthKey = findMonthKey(questions[qIdx]!.wordId, months);
-    if (monthKey) recordAnswer(questions[qIdx]!.wordId, monthKey, correct);
+    if (monthKey) {
+      recordAnswer(questions[qIdx]!.wordId, monthKey, correct);
+      // A quiz is a study session too: a missed word comes back sooner.
+      if (!correct) applyStudyRating(questions[qIdx]!.wordId, monthKey, "again");
+    }
     setAnswers((a) => [
       ...a,
       { questionIdx: qIdx, chosen: choice, correct },
@@ -168,7 +207,10 @@ export function Quiz() {
             masteredCount={masteredWords.length}
             monthCount={activeMonthWords.length}
             allCount={allWords.length}
+            dueCount={dueWords.length}
+            unmasteredCount={unmasteredWords.length}
             onStart={startQuiz}
+            onPeriodic={startPeriodic}
           />
         )}
         {screen === "playing" && questions.length > 0 && (
@@ -221,7 +263,10 @@ function SetupScreen({
   masteredCount,
   monthCount,
   allCount,
+  dueCount,
+  unmasteredCount,
   onStart,
+  onPeriodic,
 }: {
   mode: QuizMode;
   setMode: (m: QuizMode) => void;
@@ -233,11 +278,17 @@ function SetupScreen({
   masteredCount: number;
   monthCount: number;
   allCount: number;
+  dueCount: number;
+  unmasteredCount: number;
+  onPeriodic: (period: TestPeriod) => void;
   onStart: () => void;
 }) {
   const poolOptions: Array<{ v: QuizPool; label: string; count: number }> = [
-    { v: "mastered", label: "Mastered words", count: masteredCount },
+    // Due first: it is the highest-value thing the user could be doing.
+    { v: "due", label: "Due now", count: dueCount },
+    { v: "unmastered", label: "Still learning", count: unmasteredCount },
     { v: "month", label: "Current month", count: monthCount },
+    { v: "mastered", label: "Mastered words", count: masteredCount },
     { v: "all", label: "All loaded words", count: allCount },
   ];
 
@@ -288,6 +339,42 @@ function SetupScreen({
                         ? "See meaning, pick word"
                         : "Random each time"}
                   </p>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <p className="text-sm font-medium mb-1">On a schedule</p>
+            <p className="text-[11px] text-muted-foreground mb-3 leading-relaxed">
+              Fixed-length tests drawn from what is due and what you find
+              hardest — not a uniform sample, which would mostly ask about
+              words you already know.
+            </p>
+            <div className="grid grid-cols-3 gap-2">
+              {(
+                [
+                  ["daily", "Daily"],
+                  ["weekly", "Weekly"],
+                  ["monthly", "Monthly"],
+                ] as Array<[TestPeriod, string]>
+              ).map(([period, label]) => (
+                <button
+                  key={period}
+                  type="button"
+                  onClick={() => onPeriodic(period)}
+                  disabled={allCount < 4}
+                  className={cn(
+                    "rounded-md border border-border p-3 text-left transition-colors",
+                    allCount < 4
+                      ? "opacity-50 cursor-not-allowed"
+                      : "hover:border-accent/60",
+                  )}
+                >
+                  <span className="block text-xs font-medium">{label}</span>
+                  <span className="block text-[10px] text-muted-foreground tabular">
+                    {PERIOD_LENGTH[period]} questions
+                  </span>
                 </button>
               ))}
             </div>

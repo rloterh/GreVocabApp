@@ -288,20 +288,24 @@ Design: [`docs/QUIZ-AND-EXAMS.md`](./docs/QUIZ-AND-EXAMS.md)
 
 ### Tasks
 
-- **[P0] Distractor scoring.** — Same part of speech, similar definition length, same register; synonyms penalised hard. → A distractor that is arguably correct is the fastest way to lose trust in a quiz.
-- **[P0] Instant quiz with a scope picker.** — Scope, count, mode, then straight in; remembers the last choice. → Defaults to Due now whenever anything is due.
-- **[P0] Periodic tests.** — Daily 10, Weekly 25, Monthly 50, drawn from defined pools weighted toward low ease factors. → Uniform sampling mostly asks about words the user already knows.
-- **[P0] 100-question sectioned exam.** — Five sections of twenty, optional per-section timer, break screens without scores. → Persisted on every answer; closing the app mid-exam must not lose it.
-- **[P0] Wrong answers feed the scheduler.** — A missed word has its interval cut, as an "Again" would. → An exam is a study session, not only a measurement.
+- ~~**[P0] Distractor scoring.**~~ **DONE 2026-09-12.** — `src/lib/distractors.ts`, 20 tests. Disqualifications (the answer, another inflection of it, an identical definition) are separate from scoring so no weight can rescue them. The synonym penalty is checked in both directions and by stem, because a synonym list is only as good as whichever card was written more carefully.
+- ~~**[P0] Instant quiz with a scope picker.**~~ **DONE 2026-09-12.** — Due now, Still learning, Current month, Mastered, All — Due first because it is the highest-value thing available. The scope and count are remembered, so the second quiz is effectively one tap. **The old quiz picked distractors with `sample()`** — literally random — which is the trivially-passable failure the design names; it now goes through the scorer.
+- ~~**[P0] Periodic tests.**~~ **DONE 2026-09-12.** — Daily 10, Weekly 25, Monthly 50. Due words first, then the period's material, then a top-up weighted toward low ease factors and words with no consecutive successes behind them (`reps`, which SM-2 resets on an "again", since there is no `lapses` field).
+- ~~**[P0] 100-question sectioned exam.**~~ **DONE 2026-09-12.** — `src/lib/exam.ts` plus `src/pages/Exam.tsx`, 33 tests. Persisted on every answer; break screens show progress and never a score. Proved in a browser: seven questions in, reload, resumes on question seven with answers intact.
+- ~~**[P0] Wrong answers feed the scheduler.**~~ **DONE 2026-09-12.** — In both the exam and the instant quiz. Verified in a browser that answering moves a word into the schedule.
 - **[P1] Full per-question review.** — The word, your answer, the right answer, and the card.
 - **[P1] Test history and trend.** — Personal bests per period on the Progress page. → The point of testing on a schedule.
 - **[P2] AI-generated distractors.** — Better questions where a provider is available and the user opts in. → An enhancement; the heuristic is never removed.
 
-### Definition of done
+### Definition of done — P0 met 2026-09-12
 
-- A 100-question exam survives the app being closed and reopened.
-- No question has a distractor that is a synonym of its answer.
-- Missed words appear sooner in the flashcard schedule.
+- ~~A 100-question exam survives the app being closed and reopened.~~ Driven in a browser, not only unit-tested.
+- ~~No question has a distractor that is a synonym of its answer.~~ Enforced as a disqualification, checked by stem in both directions.
+- ~~Missed words appear sooner in the flashcard schedule.~~ Both surfaces.
+
+**Outstanding (P1/P2):** full per-question review after an exam, test history
+and trend on the Progress page, and AI-generated distractors. The exam shows a
+per-section breakdown but not yet a question-by-question walkthrough.
 
 ## Phase 11 — Craft and delight
 

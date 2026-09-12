@@ -20,6 +20,8 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   preferApiVerification: true,
   reduceMotion: false,
   wordOrder: "authored",
+  lastQuizPool: "due",
+  lastQuizCount: 10,
   fontSize: "md",
   hasSeenSrsIntro: false,
   studyReminderEnabled: false,

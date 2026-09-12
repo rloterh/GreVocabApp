@@ -50,8 +50,13 @@ page.on("console", (m) => {
 });
 
 // Seed legacy state before any app code runs.
+// Seeded once, not on every navigation. `addInitScript` runs on every page
+// load including reloads, and an earlier version of this driver re-wrote the
+// pre-migration blob on each one — quietly undoing everything the test had
+// just set up and making a fixed bug look unfixed.
 await page.addInitScript(
   ({ months, ids }) => {
+    if (localStorage.getItem("lexicon.vocab.v1")) return;
     localStorage.setItem(
       "lexicon.vocab.v1",
       JSON.stringify({
@@ -173,8 +178,73 @@ check(await gre.isVisible(), "the track switcher is on screen");
 check((await gre.getAttribute("aria-checked")) === "true", "GRE reads as active");
 
 await sat.click();
-await page.waitForTimeout(400);
+await page.waitForTimeout(600);
 check((await sat.getAttribute("aria-checked")) === "true", "switching selects SAT");
+
+// The other notebook must report its own numbers, not the open one's.
+// Progress records all live in one store and are track-scoped only by their
+// id, so a dashboard that aggregates them shows a user who has never opened
+// SAT their GRE mastery under an SAT heading. Giving SAT a month here is what
+// makes the check real: with no months the dashboard renders an empty state
+// and the assertion would pass without ever exercising the filter.
+await page.evaluate(() => {
+  const blob = JSON.parse(localStorage.getItem("lexicon.vocab.v1"));
+  // Stated rather than inherited. Reading this blob after clicking the
+  // switcher is a read-modify-write against a store that may not have flushed
+  // yet, and an earlier version of this driver wrote the pre-click track back
+  // over the click.
+  blob.state.activeTrack = "sat";
+  blob.state.months["sat/01"] = {
+    track: "sat",
+    ordinal: 1,
+    title: "A borrowed month",
+    days: [
+      {
+        day: 1,
+        words: [
+          {
+            id: "sat-placid",
+            word: "placid",
+            partOfSpeech: "adjective",
+            definition: "Calm and untroubled.",
+            example: "The lake was placid at dawn.",
+            mnemonic: "Placid sounds like placate.",
+          },
+        ],
+      },
+    ],
+  };
+  localStorage.setItem("lexicon.vocab.v1", JSON.stringify(blob));
+});
+await page.reload({ waitUntil: "networkidle" });
+await page.waitForTimeout(900);
+
+const readMastered = () =>
+  page.evaluate(() => {
+    const m = document.body.innerText.match(
+      new RegExp("Words mastered\\s+(\\d+)\\s+of (\\d+)", "i"),
+    );
+    return m ? { mastered: Number(m[1]), total: Number(m[2]) } : null;
+  });
+
+const satStats = await readMastered();
+check(
+  satStats !== null && satStats.mastered === 0 && satStats.total === 1,
+  "an empty track reports its own numbers, not the other one's",
+  satStats ? `SAT says ${satStats.mastered} of ${satStats.total}` : "no stats shown",
+);
+
+await gre.click();
+await page.waitForTimeout(700);
+const greStats = await readMastered();
+check(
+  greStats !== null && greStats.mastered === 5,
+  "and switching back finds GRE exactly as it was",
+  greStats ? `GRE says ${greStats.mastered} of ${greStats.total}` : "no stats shown",
+);
+await sat.click();
+await page.waitForTimeout(500);
+
 const afterSwitch = await page.evaluate(() =>
   JSON.parse(localStorage.getItem("lexicon.vocab.v1")).state.activeTrack,
 );

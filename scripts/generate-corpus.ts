@@ -1,5 +1,5 @@
 /**
- * Build a multi-year GRE vocabulary corpus.
+ * Build a multi-year vocabulary corpus for one track.
  *
  * Two stages, deliberately separated:
  *
@@ -19,8 +19,13 @@
  * ADR 0009. No API key, and nothing leaves the machine that the user's own
  * tool would not already send.
  *
+ * Uniqueness is enforced **within a track and deliberately not across them**.
+ * The SAT and GRE vocabularies genuinely overlap, and forcing them apart would
+ * strip SAT of exactly the words its candidates need most while pushing GRE
+ * toward obscurity. See docs/adr/0013-cross-track-overlap.md.
+ *
  * Usage:
- *   npx tsx scripts/generate-corpus.ts --months 36 --start 2026-10 --out public/vocab
+ *   npx tsx scripts/generate-corpus.ts --track sat --months 36 --out public/vocab
  */
 
 import { spawn } from "node:child_process";
@@ -35,7 +40,8 @@ import {
 import { join } from "node:path";
 import { stem } from "../src/lib/stem";
 import { checkWord } from "../src/lib/word-quality";
-import type { VocabMonth, VocabWord } from "../src/types";
+import { isTrack, wordId } from "../src/lib/track";
+import type { Track, VocabMonth, VocabWord } from "../src/types";
 
 const WORDS_PER_DAY = 3;
 const DAYS_PER_MONTH = 30;
@@ -51,7 +57,13 @@ const CARD_BATCH = 15;
  * Bands keep month 30 from being 90 more of month 3, and give the difficulty
  * curve something real to climb.
  */
-const BANDS = [
+interface Band {
+  name: string;
+  through: number;
+  brief: string;
+}
+
+const GRE_BANDS: Band[] = [
   {
     name: "core high-frequency",
     through: 12,
@@ -72,8 +84,43 @@ const BANDS = [
   },
 ];
 
+/**
+ * SAT is a level below GRE, not a subset of it.
+ *
+ * The overlap between the two is real and welcome (ADR 0013), but the target
+ * reader is different: someone finishing secondary school and reading serious
+ * nonfiction for the first time, not a graduate. The bands are written around
+ * what the test actually asks — words in context, and questions about how a
+ * passage argues — rather than around raw rarity.
+ */
+const SAT_BANDS: Band[] = [
+  {
+    name: "core academic",
+    through: 12,
+    brief:
+      "the highest-utility SAT vocabulary: words a strong high-school reader is reaching for and meets constantly in essays, editorials and set texts. Common enough to be worth knowing cold, precise enough that most students could not define them exactly.",
+  },
+  {
+    name: "argument and evidence",
+    through: 24,
+    brief:
+      "the vocabulary of how a text works — tone, stance, claim, evidence, qualification, concession. The SAT asks about an author's purpose and method more than about rare words, and this is the register those questions are written in.",
+  },
+  {
+    name: "advanced literary and scientific",
+    through: 36,
+    brief:
+      "the hardest tier still fair on an SAT: demanding words from literary fiction and from science and history passages. Difficult but not obscure — every one should appear in prose a motivated seventeen-year-old might actually be handed.",
+  },
+];
+
+const BANDS_BY_TRACK: Record<Track, Band[]> = {
+  gre: GRE_BANDS,
+  sat: SAT_BANDS,
+};
+
 /** Themes, so a month reads as a unit rather than an alphabetical slice. */
-const THEMES = [
+const GRE_THEMES = [
   "criticism and praise", "certainty and doubt", "speech and silence",
   "change and permanence", "abundance and scarcity", "concealment and disclosure",
   "temperament and disposition", "conflict and reconciliation", "judgement and discernment",
@@ -88,11 +135,41 @@ const THEMES = [
   "fortune and misfortune", "labour and idleness", "vision and blindness",
 ];
 
+/**
+ * SAT themes, oriented to what the test reads rather than to abstractions.
+ *
+ * Its passages are literature, history documents, social science and natural
+ * science, and its questions are about tone, claim and evidence. Themes drawn
+ * from that produce a more useful list than the GRE set would, even though
+ * the two corpora may share plenty of individual words.
+ */
+const SAT_THEMES = [
+  "describing character", "tone and attitude", "claims and evidence",
+  "cause and effect", "comparison and contrast", "change over time",
+  "problems and solutions", "belief and scepticism", "praise and criticism",
+  "certainty and hedging", "persuasion and rhetoric", "clarity and confusion",
+  "science and experiment", "nature and environment", "society and community",
+  "government and citizenship", "history and memory", "conflict and cooperation",
+  "work and ambition", "wealth and inequality", "education and learning",
+  "technology and invention", "art and expression", "tradition and reform",
+  "identity and belonging", "freedom and restriction", "risk and caution",
+  "growth and decline", "leadership and influence", "truth and misinformation",
+  "emotion and composure", "humour and irony", "isolation and connection",
+  "justice and fairness", "migration and place", "discovery and exploration",
+];
+
+const THEMES_BY_TRACK: Record<Track, string[]> = {
+  gre: GRE_THEMES,
+  sat: SAT_THEMES,
+};
+
 interface Options {
   months: number;
-  start: string;
+  /** First teaching position to write, 1-based. */
+  start: number;
   out: string;
   only?: number;
+  track: Track;
 }
 
 function parseArgs(): Options {
@@ -101,11 +178,20 @@ function parseArgs(): Options {
     const i = args.indexOf(flag);
     return i >= 0 && args[i + 1] ? args[i + 1] : fallback;
   };
+  const requested = get("--track", "gre");
+  if (!isTrack(requested)) {
+    console.error(`--track must be one of gre, sat (got "${requested}")`);
+    process.exit(1);
+  }
   return {
     months: Number(get("--months", "36")),
-    start: get("--start", "2026-10"),
+    // Where in the track to start. Not a date: the corpus has no calendar in
+    // it, and when a user studies month 7 is their schedule's business.
+    start: Number(get("--start", "1")),
     out: get("--out", "public/vocab"),
     only: args.includes("--only") ? Number(get("--only", "1")) : undefined,
+    // Narrowed by the isTrack guard above; process.exit is `never`.
+    track: requested,
   };
 }
 
@@ -162,35 +248,29 @@ function extractJson<T>(text: string): T {
   throw new Error(`unterminated JSON in reply: ${text.slice(0, 200)}`);
 }
 
-function monthKeys(start: string, count: number): string[] {
-  const [year, month] = start.split("-").map(Number);
-  return Array.from({ length: count }, (_, i) => {
-    const d = new Date(Date.UTC(year, month - 1 + i, 1));
-    return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
-  });
+/** `01`, `02`, ... — the filename for a teaching position. */
+function fileFor(ordinal: number): string {
+  return `${String(ordinal).padStart(2, "0")}.json`;
 }
 
-function bandFor(monthIndex: number) {
-  return BANDS.find((b) => monthIndex < b.through) ?? BANDS[BANDS.length - 1];
+function bandFor(track: Track, monthIndex: number) {
+  const bands = BANDS_BY_TRACK[track];
+  return bands.find((b) => monthIndex < b.through) ?? bands[bands.length - 1];
 }
 
-const MONTH_NAMES = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
-];
-
-function displayName(key: string): string {
-  const [year, month] = key.split("-").map(Number);
-  return `${MONTH_NAMES[month - 1]} ${year}`;
+function themeFor(track: Track, monthIndex: number): string {
+  const themes = THEMES_BY_TRACK[track];
+  return themes[monthIndex % themes.length];
 }
 
 /** Stage 1: the word list for one month, filtered against everything so far. */
 async function selectWords(
+  track: Track,
   monthIndex: number,
   seen: Map<string, string>,
 ): Promise<string[]> {
-  const band = bandFor(monthIndex);
-  const theme = THEMES[monthIndex % THEMES.length];
+  const band = bandFor(track, monthIndex);
+  const theme = themeFor(track, monthIndex);
   const kept: string[] = [];
 
   // Ask for a generous overage: the dedup filter is local and unforgiving.
@@ -199,7 +279,7 @@ async function selectWords(
     const avoid = [...seen.values()].slice(-400);
 
     const prompt = [
-      `List ${Math.ceil(need * 1.4)} single English vocabulary words for GRE preparation.`,
+      `List ${Math.ceil(need * 1.4)} single English vocabulary words for ${track.toUpperCase()} preparation.`,
       "",
       `Band: ${band.brief}`,
       `Loose theme for this set: ${theme}. Treat it as a tendency, not a cage —`,
@@ -208,7 +288,9 @@ async function selectWords(
       "Rules:",
       "- Single words only. No phrases, no hyphenated compounds.",
       "- No proper nouns, no archaisms nobody writes any more.",
-      "- Every word must be one a well-read adult could plausibly meet in print.",
+      track === "sat"
+        ? "- Every word must be one a strong high-school student could plausibly meet in a set text, an editorial, or an exam passage."
+        : "- Every word must be one a well-read adult could plausibly meet in print.",
       "- Vary the part of speech: include verbs and adjectives, not only nouns.",
       avoid.length
         ? `\nDo NOT include any of these, which are already used:\n${avoid.join(", ")}`
@@ -281,10 +363,12 @@ async function writeCards(words: string[], notes: string[] = []): Promise<RawCar
   return extractJson<RawCard[]>(await ask(prompt));
 }
 
-function toVocabWord(card: RawCard, monthKey: string): VocabWord {
+function toVocabWord(card: RawCard, track: Track): VocabWord {
   const slug = String(card.word).trim().toLowerCase().replace(/[^a-z0-9]+/g, "-");
   return {
-    id: `${monthKey}-${slug}`,
+    // Track-scoped and calendar-free. An id naming a month would change the
+    // moment the word moved, and moving words is what reshuffling does.
+    id: wordId(track, slug),
     word: String(card.word).trim(),
     partOfSpeech: String(card.partOfSpeech ?? "").trim(),
     definition: String(card.definition ?? "").trim(),
@@ -297,13 +381,17 @@ function toVocabWord(card: RawCard, monthKey: string): VocabWord {
 
 async function main() {
   const options = parseArgs();
-  mkdirSync(options.out, { recursive: true });
+  const { track } = options;
+  // One directory per track, so the two corpora never share a filename and a
+  // half-finished SAT run cannot touch a finished GRE one.
+  const dir = join(options.out, track);
+  mkdirSync(dir, { recursive: true });
 
   // A lock, because two of these running at once is not a hypothetical: it
   // happened, and each process had its own in-memory dedup set unaware of the
   // other's writes. 193 duplicate words across 26 months, from logic that was
   // correct and run twice.
-  const lock = join(options.out, ".generating.lock");
+  const lock = join(dir, ".generating.lock");
   if (existsSync(lock)) {
     const owner = readFileSync(lock, "utf-8").trim();
     console.error(
@@ -326,15 +414,25 @@ async function main() {
     release();
     process.exit(130);
   });
-  const keys = monthKeys(options.start, options.months);
+  const ordinals = Array.from(
+    { length: options.months },
+    (_, i) => options.start + i,
+  );
 
   // Resume: anything already written counts, and its words are already taken.
   const seen = new Map<string, string>();
 
-  // The app ships two seed months and loads them on first launch. A corpus
-  // that ignores them hands a user `denigrate` twice the moment they load
-  // both — which is the exact failure the dedup index exists to prevent.
-  for (const file of readdirSync("src/data").filter((f) => f.endsWith(".json"))) {
+  // Seed months ship with the app and load on first launch. A corpus that
+  // ignores them hands a user `denigrate` twice the moment they open both — which is the exact failure the dedup index exists to prevent.
+  //
+  // **This track's seeds only.** A word in the GRE corpus is not a duplicate
+  // here: the two are separate curricula whose overlap is the useful middle of
+  // the academic register, and excluding it would leave SAT the leftovers.
+  // See docs/adr/0013-cross-track-overlap.md.
+  const seedFiles = readdirSync("src/data").filter(
+    (f) => f.startsWith(`${track}-`) && f.endsWith(".json"),
+  );
+  for (const file of seedFiles) {
     const month = JSON.parse(
       readFileSync(join("src/data", file), "utf-8"),
     ) as VocabMonth;
@@ -342,10 +440,13 @@ async function main() {
       for (const word of day.words) seen.set(stem(word.word), word.word);
     }
   }
-  console.log(`excluding ${seen.size} words already bundled with the app`);
+  console.log(
+    `${track}: excluding ${seen.size} words bundled with the app` +
+      ` (from ${seedFiles.length} seed month${seedFiles.length === 1 ? "" : "s"})`,
+  );
   const bundled = seen.size;
-  for (const key of keys) {
-    const path = join(options.out, `${key}.json`);
+  for (const ordinal of ordinals) {
+    const path = join(dir, fileFor(ordinal));
     if (!existsSync(path)) continue;
     const month = JSON.parse(readFileSync(path, "utf-8")) as VocabMonth;
     for (const day of month.days) {
@@ -357,18 +458,19 @@ async function main() {
   const generated = seen.size - bundled;
   if (generated > 0) console.log(`resuming: ${generated} words already generated`);
 
-  for (const [index, key] of keys.entries()) {
-    if (options.only && index + 1 !== options.only) continue;
-    const path = join(options.out, `${key}.json`);
+  for (const [index, ordinal] of ordinals.entries()) {
+    if (options.only && ordinal !== options.only) continue;
+    const path = join(dir, fileFor(ordinal));
     if (existsSync(path)) {
-      console.log(`${key}  already done`);
+      console.log(`${track}/${fileFor(ordinal)}  already done`);
       continue;
     }
 
-    const band = bandFor(index);
-    console.log(`\n${key}  (${band.name}, ${THEMES[index % THEMES.length]})`);
+    const band = bandFor(track, index);
+    const theme = themeFor(track, index);
+    console.log(`\n${track}/${fileFor(ordinal)}  (${band.name}, ${theme})`);
 
-    const words = await selectWords(index, seen);
+    const words = await selectWords(track, index, seen);
     if (words.length === 0) {
       console.error(`  no words selected; stopping`);
       break;
@@ -386,13 +488,13 @@ async function main() {
       }
 
       // The app's own quality rules, then one targeted repair.
-      const made = raw.map((card) => toVocabWord(card, key));
+      const made = raw.map((card) => toVocabWord(card, track));
       const bad = made.filter((word) => checkWord(word).length > 0);
       if (bad.length > 0) {
         const notes = bad.flatMap((word) => checkWord(word).map((i) => `- ${i.message}`));
         try {
           const fixed = (await writeCards(bad.map((w) => w.word), notes))
-            .map((card) => toVocabWord(card, key));
+            .map((card) => toVocabWord(card, track));
           for (const candidate of fixed) {
             const target = made.findIndex(
               (w) => w.word.toLowerCase() === candidate.word.toLowerCase(),
@@ -412,7 +514,7 @@ async function main() {
     }
 
     if (cards.length === 0) {
-      console.error(`  no cards written for ${key}; stopping`);
+      console.error(`  no cards written for ${track}/${fileFor(ordinal)}; stopping`);
       break;
     }
 
@@ -423,10 +525,13 @@ async function main() {
     }
 
     const month: VocabMonth = {
-      month: key,
-      displayName: displayName(key),
+      track,
+      ordinal,
+      // The theme is the month's name now that its key is a position. The band
+      // says something the title cannot, so it stays as the description.
+      title: theme.charAt(0).toUpperCase() + theme.slice(1),
       days,
-      description: `${band.name} — ${THEMES[index % THEMES.length]}`,
+      description: band.name.charAt(0).toUpperCase() + band.name.slice(1),
       createdAt: new Date().toISOString(),
     };
 
@@ -434,7 +539,7 @@ async function main() {
     console.log(`  wrote ${path} (${cards.length} words, ${days.length} days)`);
   }
 
-  console.log(`\ndone — ${seen.size} distinct words across the corpus`);
+  console.log(`\ndone — ${seen.size} distinct words in the ${track} corpus`);
 }
 
 main().catch((error) => {

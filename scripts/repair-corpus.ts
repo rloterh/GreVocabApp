@@ -14,7 +14,12 @@
  * in-memory dedup set and neither aware of the other's writes. The logic was
  * right; running it twice was not. `generate-corpus.ts` now takes a lock.
  *
- *   npx tsx scripts/repair-corpus.ts
+ * Per track. Uniqueness is a within-track guarantee and deliberately not a
+ * cross-track one, so repairing SAT never consults the GRE corpus — doing so
+ * would strip SAT of exactly the overlap that belongs in it. See
+ * docs/adr/0013-cross-track-overlap.md.
+ *
+ *   npx tsx scripts/repair-corpus.ts [--track sat] [--out public/vocab]
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -22,9 +27,22 @@ import { join } from "node:path";
 import { spawn } from "node:child_process";
 import { stem } from "../src/lib/stem";
 import { checkWord } from "../src/lib/word-quality";
-import type { VocabMonth, VocabWord } from "../src/types";
+import { isTrack, wordId } from "../src/lib/track";
+import type { Track, VocabMonth, VocabWord } from "../src/types";
 
-const DIR = process.argv[2] ?? "public/vocab";
+const argv = process.argv.slice(2);
+const flag = (name, fallback) => {
+  const i = argv.indexOf(name);
+  return i >= 0 && argv[i + 1] ? argv[i + 1] : fallback;
+};
+const requestedTrack = flag("--track", "gre");
+if (!isTrack(requestedTrack)) {
+  console.error(`--track must be one of gre, sat (got "${requestedTrack}")`);
+  process.exit(1);
+}
+const TRACK: Track = requestedTrack;
+const ROOT = flag("--out", argv[0] && !argv[0].startsWith("--") ? argv[0] : "public/vocab");
+const DIR = join(ROOT, TRACK);
 const SEED = "src/data";
 const PER_MONTH = 90;
 const WORDS_PER_DAY = 3;
@@ -75,18 +93,21 @@ function extractJson<T>(text: string): T {
   throw new Error("unterminated JSON");
 }
 
-const files = readdirSync(DIR).filter((f) => /^\d{4}-\d{2}\.json$/.test(f)).sort();
+const files = readdirSync(DIR).filter((f) => /^\d{2}\.json$/.test(f)).sort();
 const months = files.map(
   (f) => JSON.parse(readFileSync(join(DIR, f), "utf-8")) as VocabMonth,
 );
 
-// Everything the app already ships is off limits too.
+// Everything the app already ships **in this track** is off limits too. A
+// word in the other track's corpus is not a duplicate here.
 const seen = new Map<string, string>();
-for (const f of readdirSync(SEED).filter((f) => f.endsWith(".json"))) {
+for (const f of readdirSync(SEED).filter(
+  (f) => f.startsWith(`${TRACK}-`) && f.endsWith(".json"),
+)) {
   const m = JSON.parse(readFileSync(join(SEED, f), "utf-8")) as VocabMonth;
   for (const d of m.days) for (const w of d.words) seen.set(stem(w.word), w.word);
 }
-console.log(`${seen.size} words bundled with the app are excluded`);
+console.log(`${TRACK}: ${seen.size} words bundled with the app are excluded`);
 
 // --- Pass 1: dedupe -----------------------------------------------------------
 let removed = 0;
@@ -115,7 +136,7 @@ console.log(`${short.length} months short, ${shortfall} words to generate\n`);
 for (const month of months) {
   const need = PER_MONTH - countWords(month);
   if (need <= 0) continue;
-  console.log(`${month.month}  needs ${need}`);
+  console.log(`${month.track}/${String(month.ordinal).padStart(2, "0")}  needs ${need}`);
 
   const words = await selectWords(need, month.description ?? "GRE vocabulary");
   if (words.length === 0) {
@@ -127,7 +148,7 @@ for (const month of months) {
   for (let i = 0; i < words.length; i += CARD_BATCH) {
     try {
       const raw = await writeCards(words.slice(i, i + CARD_BATCH));
-      cards.push(...raw.map((c) => toWord(c, month.month)));
+      cards.push(...raw.map((c) => toWord(c)));
     } catch (error) {
       console.log(`  batch failed: ${String(error).slice(0, 100)}`);
     }
@@ -229,10 +250,10 @@ async function writeCards(words: string[]): Promise<RawCard[]> {
   return extractJson<RawCard[]>(await ask(prompt));
 }
 
-function toWord(card: RawCard, monthKey: string): VocabWord {
+function toWord(card: RawCard): VocabWord {
   const slug = String(card.word).trim().toLowerCase().replace(/[^a-z0-9]+/g, "-");
   return {
-    id: `${monthKey}-${slug}`,
+    id: wordId(TRACK, slug),
     word: String(card.word ?? "").trim(),
     partOfSpeech: String(card.partOfSpeech ?? "").trim(),
     definition: String(card.definition ?? "").trim(),

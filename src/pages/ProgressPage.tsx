@@ -32,7 +32,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { daysInMonth, format, toDateKey } from "@/lib/date-utils";
-import { keyOf } from "@/lib/track";
+import { isInTrack, keyOf } from "@/lib/track";
 import { cn } from "@/lib/utils";
 
 type Range = "month" | "quarter" | "year";
@@ -40,6 +40,7 @@ type Range = "month" | "quarter" | "year";
 export function ProgressPage() {
   const months = useVocabStore((s) => s.months);
   const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
   const words = useProgressStore((s) => s.words);
   const activity = useProgressStore((s) => s.activity);
 
@@ -56,18 +57,22 @@ export function ProgressPage() {
   const heatmap = useMemo(() => buildHeatmap(activity, year), [activity, year]);
 
   const allWords = useMemo(
-    () => Object.values(months).flatMap(allWordsInMonth),
-    [months],
+    () => getAllMonths().flatMap(allWordsInMonth),
+    [getAllMonths, months],
   );
-  const mastered = Object.values(words).filter((w) => w.mastered);
-  const quizAttempts = Object.values(words).reduce(
-    (s, w) => s + w.quizAttempts,
-    0,
+  // The open track's records only, keyed off the track in the word id. A
+  // combined figure would tell a user they have mastered words from a
+  // curriculum they are not currently studying.
+  const trackProgress = useMemo(
+    () =>
+      Object.entries(words)
+        .filter(([id]) => isInTrack(id, activeTrack))
+        .map(([, record]) => record),
+    [words, activeTrack],
   );
-  const quizCorrect = Object.values(words).reduce(
-    (s, w) => s + w.quizCorrect,
-    0,
-  );
+  const mastered = trackProgress.filter((w) => w.mastered);
+  const quizAttempts = trackProgress.reduce((s, w) => s + w.quizAttempts, 0);
+  const quizCorrect = trackProgress.reduce((s, w) => s + w.quizCorrect, 0);
   const accuracy = quizAttempts > 0 ? quizCorrect / quizAttempts : 0;
 
   // Chart data based on range

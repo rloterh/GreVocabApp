@@ -18,7 +18,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { calculateStreaksWithFreezes } from "@/lib/streak";
 import { formatMonthKey } from "@/lib/date-utils";
-import { keyOf } from "@/lib/track";
+import { isInTrack, keyOf } from "@/lib/track";
 import { calendarMonthOfDate } from "@/lib/schedule";
 import { countDue } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
@@ -32,6 +32,7 @@ export function Dashboard() {
   const activity = useProgressStore((s) => s.activity);
 
   const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
   const monthKeyForDate = useVocabStore((s) => s.monthKeyForDate);
   const today = new Date();
   const todayMonthKey = calendarMonthOfDate(today);
@@ -53,29 +54,33 @@ export function Dashboard() {
   );
 
   // Aggregate stats
-  const totalWords = Object.values(months).reduce(
+  const totalWords = trackMonths.reduce(
     (sum, m) => sum + m.days.reduce((s, d) => s + d.words.length, 0),
     0,
   );
-  const mastered = Object.values(wordsProgress).filter((w) => w.mastered).length;
-  const quizAttempts = Object.values(wordsProgress).reduce(
-    (s, w) => s + w.quizAttempts,
-    0,
+  // Progress records are keyed by a track-scoped id, so the open notebook's
+  // records are the ones whose id starts with its name. Aggregating all of
+  // them would show a user who has never opened SAT their GRE mastery under
+  // an SAT heading, which is the one thing the track indicator exists to
+  // prevent. See docs/adr/0011-tracks.md.
+  const trackProgress = useMemo(
+    () =>
+      Object.entries(wordsProgress)
+        .filter(([id]) => isInTrack(id, activeTrack))
+        .map(([, record]) => record),
+    [wordsProgress, activeTrack],
   );
-  const quizCorrect = Object.values(wordsProgress).reduce(
-    (s, w) => s + w.quizCorrect,
-    0,
-  );
+  const mastered = trackProgress.filter((w) => w.mastered).length;
+  const quizAttempts = trackProgress.reduce((s, w) => s + w.quizAttempts, 0);
+  const quizCorrect = trackProgress.reduce((s, w) => s + w.quizCorrect, 0);
   const accuracy = quizAttempts > 0 ? quizCorrect / quizAttempts : 0;
 
   // Words the SM-2 scheduler has queued for today or earlier. Counted across
-  // every loaded month, not just the current one — a review is a review.
+  // every month of the open track, not just the current one — a review is a
+  // review — but not across the other track, which is a different curriculum.
   const allWordIds = useMemo(
-    () =>
-      Object.values(months).flatMap((m) =>
-        m.days.flatMap((d) => d.words.map((w) => w.id)),
-      ),
-    [months],
+    () => trackMonths.flatMap((m) => m.days.flatMap((d) => d.words.map((w) => w.id))),
+    [trackMonths],
   );
   const dueCount = useMemo(
     () => countDue(allWordIds, wordsProgress),

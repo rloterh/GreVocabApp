@@ -90,3 +90,16 @@ export function trackOfKey(key: string): Track | null {
   const head = key.split("/")[0];
   return isTrack(head) ? head : null;
 }
+
+/**
+ * Does this word id belong to the given track?
+ *
+ * A free consequence of ADR 0011's decision to put the track in the id: a
+ * progress record can be filed to a track without looking up the word it
+ * names. Selectors that aggregate progress — mastered counts, quiz accuracy,
+ * the due count — all need this, and doing it by month lookup would mean
+ * walking the corpus on every render.
+ */
+export function isInTrack(id: string, track: Track): boolean {
+  return id.startsWith(`${track}-`);
+}

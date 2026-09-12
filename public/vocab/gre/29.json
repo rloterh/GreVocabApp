@@ -1,0 +1,1458 @@
+{
+  "track": "gre",
+  "ordinal": 29,
+  "title": "Art and artifice",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-artificer",
+          "word": "artificer",
+          "partOfSpeech": "noun",
+          "definition": "A skilled maker who builds, repairs, or invents clever objects by hand.",
+          "example": "The ship's artificer could rebuild a shattered engine valve from a few scraps in the hold.",
+          "mnemonic": "Sounds like 'art officer' — an officer of the crafting arts who fashions clever devices.",
+          "synonyms": [
+            "craftsman",
+            "artisan",
+            "inventor"
+          ],
+          "antonyms": [
+            "bungler",
+            "amateur"
+          ]
+        },
+        {
+          "id": "gre-aesthete",
+          "word": "aesthete",
+          "partOfSpeech": "noun",
+          "definition": "A person who is deeply devoted to beauty and fine art.",
+          "example": "A committed aesthete, he rearranged the whole room so each vase caught the afternoon light.",
+          "mnemonic": "Say it 'ess-theet' — an 'athlete' of beauty, always in training to admire the finer things.",
+          "synonyms": [
+            "connoisseur",
+            "art lover",
+            "dilettante"
+          ],
+          "antonyms": [
+            "philistine",
+            "boor"
+          ]
+        },
+        {
+          "id": "gre-aesthetic",
+          "word": "aesthetic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to beauty or the enjoyment of things that look pleasing.",
+          "example": "The architect kept the glass staircase for purely aesthetic reasons, though it served no real purpose.",
+          "mnemonic": "From Greek 'aisthesis' (perception) — think of what pleases the senses when you perceive it.",
+          "synonyms": [
+            "artistic",
+            "tasteful",
+            "decorative"
+          ],
+          "antonyms": [
+            "unattractive",
+            "utilitarian"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-virtuosity",
+          "word": "virtuosity",
+          "partOfSpeech": "noun",
+          "definition": "Outstanding technical skill, especially in performing music or art.",
+          "example": "Her violin solo showed such virtuosity that the orchestra paused just to watch her fingers fly.",
+          "mnemonic": "'VIRTUE + osity' — the shining virtue of jaw-dropping technical mastery.",
+          "synonyms": [
+            "mastery",
+            "brilliance",
+            "prowess"
+          ],
+          "antonyms": [
+            "incompetence",
+            "clumsiness"
+          ]
+        },
+        {
+          "id": "gre-virtuoso",
+          "word": "virtuoso",
+          "partOfSpeech": "noun",
+          "definition": "A performer or artist with exceptional, dazzling technical ability.",
+          "example": "Only a virtuoso could tear through that concerto at full tempo without a single wrong note.",
+          "mnemonic": "'Virtue' + 'so' good — an Italian maestro whose skill is simply virtue perfected.",
+          "synonyms": [
+            "maestro",
+            "master",
+            "prodigy"
+          ],
+          "antonyms": [
+            "novice",
+            "beginner"
+          ]
+        },
+        {
+          "id": "gre-pastiche",
+          "word": "pastiche",
+          "partOfSpeech": "noun",
+          "definition": "An artwork that openly imitates or blends the styles of other works.",
+          "example": "His debut film is a loving pastiche of 1940s noir, stitching together tropes from a dozen classics.",
+          "mnemonic": "Sounds like 'paste-iche' — bits and pieces pasted together from other people's work.",
+          "synonyms": [
+            "medley",
+            "imitation",
+            "collage"
+          ],
+          "antonyms": [
+            "original"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-chiaroscuro",
+          "word": "chiaroscuro",
+          "partOfSpeech": "noun",
+          "definition": "The bold contrast of light and shade used in drawing or painting.",
+          "example": "Caravaggio mastered chiaroscuro, letting a single shaft of light strike a face plunged in darkness.",
+          "mnemonic": "Italian 'chiaro' (light/clear) + 'oscuro' (dark) — literally light-dark.",
+          "synonyms": [
+            "contrast",
+            "shading",
+            "modeling"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-mimesis",
+          "word": "mimesis",
+          "partOfSpeech": "noun",
+          "definition": "The imitation or representation of real life in art and literature.",
+          "example": "Greek tragedy depended on mimesis, holding a mirror up to human suffering onstage.",
+          "mnemonic": "Root of 'mimic' and 'mime' — MIME-sis is the art of copying life.",
+          "synonyms": [
+            "imitation",
+            "representation",
+            "mimicry"
+          ],
+          "antonyms": [
+            "abstraction",
+            "invention"
+          ]
+        },
+        {
+          "id": "gre-patina",
+          "word": "patina",
+          "partOfSpeech": "noun",
+          "definition": "A thin surface film or sheen that forms on metal or wood over time.",
+          "example": "The old bronze horseman had taken on a soft green patina after a century in the rain.",
+          "mnemonic": "'PAT-ina' — years of gentle 'pats' from weather leave a mellow coating on the surface.",
+          "synonyms": [
+            "sheen",
+            "weathering",
+            "verdigris"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-filigree",
+          "word": "filigree",
+          "partOfSpeech": "noun",
+          "definition": "Delicate decorative work made from fine twisted threads of gold or silver.",
+          "example": "The locket's silver filigree was so fine it looked like frozen lace on her palm.",
+          "mnemonic": "'Fili-' means thread (like 'filament') — threads twisted into lacy grain.",
+          "synonyms": [
+            "tracery",
+            "latticework",
+            "scrollwork"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-arabesque",
+          "word": "arabesque",
+          "partOfSpeech": "noun",
+          "definition": "An ornate design of intertwined flowing lines, leaves, and scrollwork.",
+          "example": "The mosque's walls swirled with arabesques that drew the eye endlessly upward and inward.",
+          "mnemonic": "'Arab-esque' — in the style of Arabic and Islamic ornament, all winding vines and curves.",
+          "synonyms": [
+            "scrollwork",
+            "tracery",
+            "flourish"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-rococo",
+          "word": "rococo",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely ornate and elaborate, full of curved, fanciful decoration.",
+          "example": "The palace's rococo ceilings dripped with gilded cherubs, shells, and curling vines.",
+          "mnemonic": "From French 'rocaille' (rock-and-shell work) — say 'ro-CO-co' and picture frilly, over-the-top shell curves.",
+          "synonyms": [
+            "ornate",
+            "elaborate",
+            "fancy"
+          ],
+          "antonyms": [
+            "plain",
+            "minimalist",
+            "austere"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-baroque",
+          "word": "baroque",
+          "partOfSpeech": "adjective",
+          "definition": "Highly elaborate, dramatic, and extravagant in style or detail.",
+          "example": "The cathedral's baroque altar overwhelmed visitors with twisting columns and gilded flourishes.",
+          "mnemonic": "From Portuguese 'barroco', an irregular pearl — 'ba-ROKE' means richly imperfect and overdone.",
+          "synonyms": [
+            "ornate",
+            "flamboyant",
+            "extravagant"
+          ],
+          "antonyms": [
+            "plain",
+            "simple",
+            "austere"
+          ]
+        },
+        {
+          "id": "gre-ornament",
+          "word": "ornament",
+          "partOfSpeech": "noun",
+          "definition": "An object or detail added to something to make it look more attractive.",
+          "example": "She hung a glass ornament on the tree that scattered little rainbows across the room.",
+          "mnemonic": "'ORN-' shares roots with 'adorn' — an add-on that adorns and dresses something up.",
+          "synonyms": [
+            "decoration",
+            "adornment",
+            "embellishment"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-ornamental",
+          "word": "ornamental",
+          "partOfSpeech": "adjective",
+          "definition": "Serving as decoration rather than having a practical use.",
+          "example": "The garden's ornamental hedges were clipped into peacocks purely to delight the eye.",
+          "mnemonic": "'Adorn + mental' — picture a mantel of trinkets kept only to be admired, never used.",
+          "synonyms": [
+            "decorative",
+            "showy",
+            "embellishing"
+          ],
+          "antonyms": [
+            "functional",
+            "utilitarian"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-embellish",
+          "word": "embellish",
+          "partOfSpeech": "verb",
+          "definition": "To make something more attractive by adding extra details, or to exaggerate a story.",
+          "example": "She couldn't resist embellishing the plain white cake with sugar roses and gold leaf.",
+          "mnemonic": "Em-BELL-ish — imagine hanging little BELLs all over a plain dress to pretty it up.",
+          "synonyms": [
+            "decorate",
+            "enhance",
+            "ornament"
+          ],
+          "antonyms": [
+            "simplify",
+            "strip"
+          ]
+        },
+        {
+          "id": "gre-adorn",
+          "word": "adorn",
+          "partOfSpeech": "verb",
+          "definition": "To add beauty or decoration to a person, place, or object.",
+          "example": "Gold bracelets and jasmine flowers adorned the bride's wrists and hair.",
+          "mnemonic": "A-DORN sounds like 'a door' — picture decorating a DOOR with a festive wreath.",
+          "synonyms": [
+            "decorate",
+            "beautify",
+            "embellish"
+          ],
+          "antonyms": [
+            "strip",
+            "deface",
+            "mar"
+          ]
+        },
+        {
+          "id": "gre-festoon",
+          "word": "festoon",
+          "partOfSpeech": "verb",
+          "definition": "To hang chains of flowers, ribbons, or streamers across a space as decoration.",
+          "example": "They festooned the entire hall with paper lanterns and looping streamers for the reunion.",
+          "mnemonic": "FESTOON = 'FESTive + balloon' — think garlands and balloons strung up for a festival.",
+          "synonyms": [
+            "garland",
+            "drape",
+            "wreathe"
+          ],
+          "antonyms": [
+            "strip",
+            "bare"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-bedizen",
+          "word": "bedizen",
+          "partOfSpeech": "verb",
+          "definition": "To dress or decorate in a flashy, gaudy, and often tasteless way.",
+          "example": "The carnival float was bedizened with clashing neon ribbons, sequins, and blinking lights.",
+          "mnemonic": "be-DIZEN → 'be-DAZZLE' someone until they're almost dizzy from too much glitter.",
+          "synonyms": [
+            "deck out",
+            "tart up",
+            "bedeck"
+          ],
+          "antonyms": [
+            "understate",
+            "simplify"
+          ]
+        },
+        {
+          "id": "gre-bedeck",
+          "word": "bedeck",
+          "partOfSpeech": "verb",
+          "definition": "To cover something with decorations, often lavishly or festively.",
+          "example": "The parade float was bedecked with thousands of fresh roses from front to back.",
+          "mnemonic": "be-DECK — you DECK the halls, covering the whole deck with flags and lights.",
+          "synonyms": [
+            "adorn",
+            "festoon",
+            "ornament"
+          ],
+          "antonyms": [
+            "strip",
+            "bare"
+          ]
+        },
+        {
+          "id": "gre-burnish",
+          "word": "burnish",
+          "partOfSpeech": "verb",
+          "definition": "To polish a surface by rubbing it until it becomes smooth and shiny.",
+          "example": "He burnished the old brass doorknob until he could see his face in it.",
+          "mnemonic": "BURN-ish — rub the metal so hard and fast it nearly BURNs, leaving it gleaming.",
+          "synonyms": [
+            "polish",
+            "buff",
+            "shine"
+          ],
+          "antonyms": [
+            "dull",
+            "tarnish",
+            "scratch"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-lacquer",
+          "word": "lacquer",
+          "partOfSpeech": "verb",
+          "definition": "To coat an object with a hard, glossy, protective finish.",
+          "example": "The artisan lacquered the wooden box in deep red until it gleamed like glass.",
+          "mnemonic": "LACQUER ≈ 'lock her' — the glossy coat locks in and seals the wood beneath.",
+          "synonyms": [
+            "varnish",
+            "glaze",
+            "coat"
+          ],
+          "antonyms": [
+            "strip",
+            "sand"
+          ]
+        },
+        {
+          "id": "gre-varnish",
+          "word": "varnish",
+          "partOfSpeech": "verb",
+          "definition": "To apply a clear, resin-based coating that gives a glossy protective surface.",
+          "example": "After sanding the table, she varnished it so the wood grain shone through.",
+          "mnemonic": "VARNISH = 'VARN + finish' — the final glossy finish that makes wood glow.",
+          "synonyms": [
+            "lacquer",
+            "glaze",
+            "coat"
+          ],
+          "antonyms": [
+            "strip",
+            "sand"
+          ]
+        },
+        {
+          "id": "gre-depict",
+          "word": "depict",
+          "partOfSpeech": "verb",
+          "definition": "To show or describe someone or something in a picture, story, or film.",
+          "example": "The wall mural depicts farmers harvesting wheat beneath a golden evening sky.",
+          "mnemonic": "de-PICT — hidden inside is 'PICTure'; to depict is to put it in a picture.",
+          "synonyms": [
+            "portray",
+            "represent",
+            "illustrate"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-portray",
+          "word": "portray",
+          "partOfSpeech": "verb",
+          "definition": "To describe or represent someone in words or art, or to play a character.",
+          "example": "The actor portrayed the aging king with quiet, trembling dignity.",
+          "mnemonic": "por-TRAY — imagine carrying someone's PORTRAIT out on a TRAY to show the room.",
+          "synonyms": [
+            "depict",
+            "represent",
+            "characterize"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-render",
+          "word": "render",
+          "partOfSpeech": "verb",
+          "definition": "To produce or represent something, especially in art, or to cause it to become a state.",
+          "example": "The architect rendered the new library in soft watercolor before construction began.",
+          "mnemonic": "REND-er — an artist 'sends' (renders) the finished image out to the screen.",
+          "synonyms": [
+            "represent",
+            "depict",
+            "produce"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-etch",
+          "word": "etch",
+          "partOfSpeech": "verb",
+          "definition": "To cut or carve a design into a hard surface using acid or a sharp tool.",
+          "example": "The jeweler etched tiny initials into the inside of the silver wedding ring.",
+          "mnemonic": "ETCH sounds like 'itch' — scratching an itch, you scratch fine lines into glass.",
+          "synonyms": [
+            "engrave",
+            "incise",
+            "carve"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-emboss",
+          "word": "emboss",
+          "partOfSpeech": "verb",
+          "definition": "To decorate a surface with a design that stands out in raised relief.",
+          "example": "The company logo was embossed on the leather cover, raised under your fingertips.",
+          "mnemonic": "em-BOSS — the BOSS's initials stick out, raised proudly, on his fancy notebook.",
+          "synonyms": [
+            "stamp",
+            "imprint",
+            "raise"
+          ],
+          "antonyms": [
+            "engrave",
+            "etch"
+          ]
+        },
+        {
+          "id": "gre-evoke",
+          "word": "evoke",
+          "partOfSpeech": "verb",
+          "definition": "To bring a feeling, memory, or image into someone's mind.",
+          "example": "The smell of pine needles evoked childhood winters at her grandmother's cabin.",
+          "mnemonic": "e-VOKE — from Latin 'vocare', to call; it calls a memory out of you like a voice.",
+          "synonyms": [
+            "summon",
+            "elicit",
+            "conjure"
+          ],
+          "antonyms": [
+            "suppress",
+            "stifle"
+          ]
+        },
+        {
+          "id": "gre-motif",
+          "word": "motif",
+          "partOfSpeech": "noun",
+          "definition": "A recurring theme, image, or decorative pattern in art, music, or writing.",
+          "example": "A floral motif repeated across the wallpaper, the curtains, and the dinner plates.",
+          "mnemonic": "MOTIF sounds like 'motive' — a recurring idea that keeps driving the whole design.",
+          "synonyms": [
+            "theme",
+            "pattern",
+            "leitmotif"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-tableau",
+          "word": "tableau",
+          "partOfSpeech": "noun",
+          "definition": "A striking scene or group of people arranged as if in a still picture.",
+          "example": "As the curtain rose, the actors froze in a dramatic tableau of the battle's aftermath.",
+          "mnemonic": "Sounds like 'table' + 'oh' — picture people posed motionless on a table while onlookers gasp 'oh!'",
+          "synonyms": [
+            "scene",
+            "arrangement",
+            "spectacle"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-mosaic",
+          "word": "mosaic",
+          "partOfSpeech": "noun",
+          "definition": "A picture or pattern made from many small colored pieces fitted together.",
+          "example": "The cathedral floor was a dazzling mosaic of blue and gold tiles arranged into a phoenix.",
+          "mnemonic": "'Moses saw' a picture built from tiny stones — MOSAIC = countless little bits forming one image.",
+          "synonyms": [
+            "patchwork",
+            "collage",
+            "medley"
+          ],
+          "antonyms": [
+            "monolith"
+          ]
+        },
+        {
+          "id": "gre-vignette",
+          "word": "vignette",
+          "partOfSpeech": "noun",
+          "definition": "A brief, evocative description or a short scene capturing a single moment.",
+          "example": "Her memoir offered warm vignettes of childhood summers rather than one continuous narrative.",
+          "mnemonic": "'Vignette' hides 'vine' — imagine a tiny decorative vine sketch bordering one small page.",
+          "synonyms": [
+            "sketch",
+            "snapshot",
+            "scene"
+          ],
+          "antonyms": [
+            "saga",
+            "epic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-caricature",
+          "word": "caricature",
+          "partOfSpeech": "noun",
+          "definition": "A drawing or description that exaggerates features for comic or satirical effect.",
+          "example": "The cartoonist gave the senator an enormous nose and a tiny body — a merciless caricature.",
+          "mnemonic": "'Care-i-cature': the artist doesn't 'care' to be accurate, so features get wildly distorted.",
+          "synonyms": [
+            "lampoon",
+            "cartoon",
+            "parody"
+          ],
+          "antonyms": [
+            "portrait",
+            "likeness"
+          ]
+        },
+        {
+          "id": "gre-parody",
+          "word": "parody",
+          "partOfSpeech": "noun",
+          "definition": "A humorous imitation of a work or style, mocking it through exaggeration.",
+          "example": "The sketch was a parody of the evening news, with a bumbling anchor reading fake headlines.",
+          "mnemonic": "Say 'pair-o-dee' — a pair of DJs spoofing a serious hit song for laughs.",
+          "synonyms": [
+            "spoof",
+            "send-up",
+            "lampoon"
+          ],
+          "antonyms": [
+            "homage",
+            "tribute"
+          ]
+        },
+        {
+          "id": "gre-burlesque",
+          "word": "burlesque",
+          "partOfSpeech": "noun",
+          "definition": "A theatrical entertainment that mocks serious subjects through exaggeration and comedy.",
+          "example": "The troupe's burlesque of grand opera had the whole audience roaring with laughter.",
+          "mnemonic": "'Burly' + 'esque' — picture a burly man in a tiny tutu, absurdly poking fun at ballet.",
+          "synonyms": [
+            "farce",
+            "spoof",
+            "mockery"
+          ],
+          "antonyms": [
+            "tragedy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-travesty",
+          "word": "travesty",
+          "partOfSpeech": "noun",
+          "definition": "A grotesque or absurd distortion that debases something meant to be serious.",
+          "example": "Critics called the rushed, evidence-free trial a travesty of justice.",
+          "mnemonic": "From Latin 'trans-vestire,' to dress up in disguise — something serious dressed up as a farce.",
+          "synonyms": [
+            "mockery",
+            "distortion",
+            "sham"
+          ],
+          "antonyms": [
+            "faithful rendering"
+          ]
+        },
+        {
+          "id": "gre-facsimile",
+          "word": "facsimile",
+          "partOfSpeech": "noun",
+          "definition": "An exact copy or reproduction of something, especially written or printed material.",
+          "example": "The museum displayed a facsimile of the Declaration so the fragile original could stay locked away.",
+          "mnemonic": "Latin 'fac simile' = 'make similar' — the same root that gave us 'fax,' which sends copies.",
+          "synonyms": [
+            "reproduction",
+            "duplicate",
+            "copy"
+          ],
+          "antonyms": [
+            "original"
+          ]
+        },
+        {
+          "id": "gre-replica",
+          "word": "replica",
+          "partOfSpeech": "noun",
+          "definition": "A close reproduction or model of an original object.",
+          "example": "He built a scale replica of the Eiffel Tower entirely from matchsticks.",
+          "mnemonic": "Share the root of 'replicate' — to make again, producing a stand-in of the real thing.",
+          "synonyms": [
+            "reproduction",
+            "model",
+            "duplicate"
+          ],
+          "antonyms": [
+            "original"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-effigy",
+          "word": "effigy",
+          "partOfSpeech": "noun",
+          "definition": "A crude model or sculpture representing a hated or specific person.",
+          "example": "Protesters burned an effigy of the dictator in the town square.",
+          "mnemonic": "Sounds like 'a figure' — a stuffed fake figure of someone, often set alight in protest.",
+          "synonyms": [
+            "likeness",
+            "dummy",
+            "image"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-guileful",
+          "word": "guileful",
+          "partOfSpeech": "adjective",
+          "definition": "Full of sly cunning and deceit; skilled at tricking others.",
+          "example": "The guileful merchant hid the coin's flaws until the sale was final.",
+          "mnemonic": "A 'guy full' of tricks — a guy full of guile who cannot be trusted.",
+          "synonyms": [
+            "cunning",
+            "crafty",
+            "wily"
+          ],
+          "antonyms": [
+            "honest",
+            "artless",
+            "guileless"
+          ]
+        },
+        {
+          "id": "gre-meretricious",
+          "word": "meretricious",
+          "partOfSpeech": "adjective",
+          "definition": "Superficially attractive but cheap, gaudy, and lacking real value.",
+          "example": "The mansion's gilded fixtures struck her as meretricious — all glitter and no taste.",
+          "mnemonic": "From Latin 'meretrix' (a prostitute) — flashy, tawdry allure meant only to lure.",
+          "synonyms": [
+            "gaudy",
+            "tawdry",
+            "flashy"
+          ],
+          "antonyms": [
+            "tasteful",
+            "genuine",
+            "understated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-ersatz",
+          "word": "ersatz",
+          "partOfSpeech": "adjective",
+          "definition": "Serving as an artificial and usually inferior substitute for the real thing.",
+          "example": "During the war, families drank ersatz coffee brewed from roasted acorns.",
+          "mnemonic": "German for 'replacement' — say 'her-sats,' a poor stand-in slipped in for the real deal.",
+          "synonyms": [
+            "artificial",
+            "imitation",
+            "substitute"
+          ],
+          "antonyms": [
+            "genuine",
+            "authentic",
+            "real"
+          ]
+        },
+        {
+          "id": "gre-factitious",
+          "word": "factitious",
+          "partOfSpeech": "adjective",
+          "definition": "Deliberately created or contrived rather than arising naturally or genuinely.",
+          "example": "The stock's factitious surge was engineered by traders spreading false rumors.",
+          "mnemonic": "'Fact' + Latin 'facere' (to make) — literally 'made up,' manufactured to look real.",
+          "synonyms": [
+            "contrived",
+            "manufactured",
+            "artificial"
+          ],
+          "antonyms": [
+            "genuine",
+            "natural",
+            "spontaneous"
+          ]
+        },
+        {
+          "id": "gre-simulacrum",
+          "word": "simulacrum",
+          "partOfSpeech": "noun",
+          "definition": "An image or representation of something, often a poor or superficial imitation of the real thing.",
+          "example": "The theme park's Eiffel Tower was a simulacrum, cheap and half the height of the Paris original.",
+          "mnemonic": "\"simulate\" + \"crumb\" — a mere simulated crumb standing in for the genuine article.",
+          "synonyms": [
+            "replica",
+            "facsimile",
+            "imitation"
+          ],
+          "antonyms": [
+            "original",
+            "authentic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-charade",
+          "word": "charade",
+          "partOfSpeech": "noun",
+          "definition": "An absurd pretense meant to deceive others but easily seen through.",
+          "example": "Their warm public handshake was a charade; behind closed doors each was plotting the other's downfall.",
+          "mnemonic": "The party game 'charades' — everyone acts out something fake while others watch.",
+          "synonyms": [
+            "pretense",
+            "farce",
+            "masquerade"
+          ],
+          "antonyms": [
+            "sincerity",
+            "honesty"
+          ]
+        },
+        {
+          "id": "gre-affectation",
+          "word": "affectation",
+          "partOfSpeech": "noun",
+          "definition": "Artificial behavior or manner put on to impress or mislead people.",
+          "example": "His sudden British accent was pure affectation, since he had never left Ohio in his life.",
+          "mnemonic": "Say it as \"a-FAKE-tation\" — a fake presentation of yourself.",
+          "synonyms": [
+            "pretension",
+            "airs",
+            "mannerism"
+          ],
+          "antonyms": [
+            "naturalness",
+            "sincerity"
+          ]
+        },
+        {
+          "id": "gre-affected",
+          "word": "affected",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in an artificial way to impress; not genuine or natural.",
+          "example": "She greeted her guests with an affected drawl that convinced absolutely no one.",
+          "mnemonic": "Hear it as \"a-FAKE-ted\" — the manner has been faked.",
+          "synonyms": [
+            "pretentious",
+            "artificial",
+            "mannered"
+          ],
+          "antonyms": [
+            "natural",
+            "genuine",
+            "sincere"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-contrive",
+          "word": "contrive",
+          "partOfSpeech": "verb",
+          "definition": "To plan or create something cleverly, often through scheming or with difficulty.",
+          "example": "She managed to contrive an excuse and slipped out of the party unseen.",
+          "mnemonic": "\"con\" + \"drive\" — you drive a con, engineering a scheme step by step.",
+          "synonyms": [
+            "devise",
+            "engineer",
+            "scheme"
+          ],
+          "antonyms": [
+            "improvise"
+          ]
+        },
+        {
+          "id": "gre-stratagem",
+          "word": "stratagem",
+          "partOfSpeech": "noun",
+          "definition": "A clever trick or plan used to outwit an enemy or gain advantage.",
+          "example": "The general's stratagem lured the enemy cavalry into a narrow, muddy valley.",
+          "mnemonic": "\"strategy\" + \"gem\" — a gem of a battle strategy (Greek 'stratos' = army).",
+          "synonyms": [
+            "ploy",
+            "ruse",
+            "tactic"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-artful",
+          "word": "artful",
+          "partOfSpeech": "adjective",
+          "definition": "Clever and skillful, especially in a cunning or deceptive way.",
+          "example": "With one artful remark, he shifted all the blame onto his rival.",
+          "mnemonic": "\"art\" + \"full\" — full of the fine art of cunning.",
+          "synonyms": [
+            "cunning",
+            "crafty",
+            "wily"
+          ],
+          "antonyms": [
+            "artless",
+            "guileless",
+            "naive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-crafty",
+          "word": "crafty",
+          "partOfSpeech": "adjective",
+          "definition": "Skilled at using tricks to get what one wants; slyly clever.",
+          "example": "The crafty salesman talked them into buying gadgets they would never use.",
+          "mnemonic": "Think of a witch's dark \"craft\" — cunning tricks brewed up.",
+          "synonyms": [
+            "cunning",
+            "sly",
+            "wily"
+          ],
+          "antonyms": [
+            "naive",
+            "honest",
+            "guileless"
+          ]
+        },
+        {
+          "id": "gre-sly",
+          "word": "sly",
+          "partOfSpeech": "adjective",
+          "definition": "Cleverly deceitful; showing a secretive, cunning nature.",
+          "example": "With a sly grin, she slipped the last cookie behind her back.",
+          "mnemonic": "A \"sly\" fox that slides silently and secretly toward the henhouse.",
+          "synonyms": [
+            "cunning",
+            "crafty",
+            "furtive"
+          ],
+          "antonyms": [
+            "open",
+            "honest",
+            "frank"
+          ]
+        },
+        {
+          "id": "gre-legerdemain",
+          "word": "legerdemain",
+          "partOfSpeech": "noun",
+          "definition": "Skillful use of the hands in performing tricks; clever deception.",
+          "example": "With dazzling legerdemain, the magician made the borrowed watch vanish into thin air.",
+          "mnemonic": "French \"léger de main\" = light of hand — light-fingered trickery.",
+          "synonyms": [
+            "conjuring",
+            "trickery",
+            "sleight of hand"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-prestidigitation",
+          "word": "prestidigitation",
+          "partOfSpeech": "noun",
+          "definition": "Skillful, quick finger movements used to perform magic tricks.",
+          "example": "The street performer's prestidigitation had the crowd hunting for hidden wires and mirrors.",
+          "mnemonic": "\"presto\" + \"digit\" — Presto! done with your nimble digits (fingers).",
+          "synonyms": [
+            "conjuring",
+            "legerdemain",
+            "sleight of hand"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-sleight",
+          "word": "sleight",
+          "partOfSpeech": "noun",
+          "definition": "Dexterity or cunning, especially in deceiving or performing tricks.",
+          "example": "By sleight of hand, the dealer slid an extra card from the bottom of the deck.",
+          "mnemonic": "Looks like \"slight\" — a slight, lightning-quick motion of the hands.",
+          "synonyms": [
+            "dexterity",
+            "adroitness",
+            "cunning"
+          ],
+          "antonyms": [
+            "clumsiness"
+          ]
+        },
+        {
+          "id": "gre-cozen",
+          "word": "cozen",
+          "partOfSpeech": "verb",
+          "definition": "To deceive or trick someone in order to gain something.",
+          "example": "The con artist tried to cozen the widow out of her life savings.",
+          "mnemonic": "Sounds like \"cousin\" — that shady cousin who always cheats you at cards.",
+          "synonyms": [
+            "dupe",
+            "swindle",
+            "deceive"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-gambit",
+          "word": "gambit",
+          "partOfSpeech": "noun",
+          "definition": "A calculated opening move or remark made to gain an advantage.",
+          "example": "Offering free samples was the café's gambit to hook passing commuters.",
+          "mnemonic": "The chess \"gambit\" — sacrifice a pawn early to seize the upper hand.",
+          "synonyms": [
+            "ploy",
+            "maneuver",
+            "ruse"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-chimera",
+          "word": "chimera",
+          "partOfSpeech": "noun",
+          "definition": "An unrealistic hope or fanciful mental creation that cannot actually exist.",
+          "example": "Finding a tax system everyone calls fair may be a chimera, but reformers keep chasing it.",
+          "mnemonic": "A fire-breathing Greek beast stitched from lion, goat, and snake — an impossible mashup that could never really exist.",
+          "synonyms": [
+            "illusion",
+            "fantasy",
+            "pipe dream"
+          ],
+          "antonyms": [
+            "reality",
+            "fact"
+          ]
+        },
+        {
+          "id": "gre-chimerical",
+          "word": "chimerical",
+          "partOfSpeech": "adjective",
+          "definition": "Existing only in the imagination; wildly fanciful and impossible to achieve.",
+          "example": "His chimerical scheme to tow an iceberg to the desert drew polite nods and no funding.",
+          "mnemonic": "Like a chimera, that mythical impossible beast — so the adjective describes dreams that can't be real.",
+          "synonyms": [
+            "fanciful",
+            "imaginary",
+            "illusory"
+          ],
+          "antonyms": [
+            "realistic",
+            "feasible",
+            "attainable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-illusory",
+          "word": "illusory",
+          "partOfSpeech": "adjective",
+          "definition": "Based on a false impression; seeming real but not actually so.",
+          "example": "The thirsty traveler's oasis turned out to be illusory, dissolving as he stumbled closer.",
+          "mnemonic": "Hides 'illus-' from illusion — a trick of perception that fools the eye.",
+          "synonyms": [
+            "deceptive",
+            "false",
+            "imaginary"
+          ],
+          "antonyms": [
+            "real",
+            "genuine",
+            "actual"
+          ]
+        },
+        {
+          "id": "gre-phantasm",
+          "word": "phantasm",
+          "partOfSpeech": "noun",
+          "definition": "A ghostly figure or image that appears in the mind without being truly present.",
+          "example": "In the fever's grip, a pale phantasm seemed to drift across the foot of her bed.",
+          "mnemonic": "Phantom + -asm — picture the Phantom of the Opera looming as an apparition.",
+          "synonyms": [
+            "apparition",
+            "specter",
+            "phantom"
+          ],
+          "antonyms": [
+            "reality",
+            "substance"
+          ]
+        },
+        {
+          "id": "gre-consummate",
+          "word": "consummate",
+          "partOfSpeech": "adjective",
+          "definition": "Showing complete mastery or perfection in a particular skill or area.",
+          "example": "A consummate diplomat, she defused the shouting match before anyone could raise a fist.",
+          "mnemonic": "Con + summit — someone who has reached the very summit of their craft.",
+          "synonyms": [
+            "accomplished",
+            "masterly",
+            "expert"
+          ],
+          "antonyms": [
+            "inept",
+            "amateurish",
+            "incompetent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-finesse",
+          "word": "finesse",
+          "partOfSpeech": "noun",
+          "definition": "Skillful, subtle handling of a situation that demands tact and delicacy.",
+          "example": "She managed the feuding partners with such finesse that both left convinced they'd won.",
+          "mnemonic": "Sounds like 'fine-ness' — doing the tricky thing with fine, delicate precision.",
+          "synonyms": [
+            "tact",
+            "deftness",
+            "subtlety"
+          ],
+          "antonyms": [
+            "clumsiness",
+            "crudeness",
+            "awkwardness"
+          ]
+        },
+        {
+          "id": "gre-magniloquent",
+          "word": "magniloquent",
+          "partOfSpeech": "adjective",
+          "definition": "Using lofty, grand language intended to sound impressive.",
+          "example": "The senator's magniloquent address soared with sweeping phrases yet promised nothing concrete.",
+          "mnemonic": "Magni (great) + loqui (to speak) — literally 'great-speaking,' all puffed-up grandeur.",
+          "synonyms": [
+            "grandiloquent",
+            "bombastic",
+            "pompous"
+          ],
+          "antonyms": [
+            "plain",
+            "understated",
+            "unpretentious"
+          ]
+        },
+        {
+          "id": "gre-bombast",
+          "word": "bombast",
+          "partOfSpeech": "noun",
+          "definition": "Inflated, pompous speech or writing that carries little real substance.",
+          "example": "Beneath the manager's bombast about 'synergy' and 'paradigms' lay no actual plan.",
+          "mnemonic": "Sounds like 'bomb blast' — a loud explosion of empty, oversized words.",
+          "synonyms": [
+            "pomposity",
+            "grandiloquence",
+            "rhetoric"
+          ],
+          "antonyms": [
+            "restraint",
+            "simplicity",
+            "understatement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-orotund",
+          "word": "orotund",
+          "partOfSpeech": "adjective",
+          "definition": "Of a voice, full, round, and resonant; of style, pompously inflated.",
+          "example": "The announcer's orotund voice filled the whole stadium without needing a microphone.",
+          "mnemonic": "From Latin 'ore rotundo,' round mouth — think 'rotund,' a big round booming tone.",
+          "synonyms": [
+            "resonant",
+            "sonorous",
+            "pompous"
+          ],
+          "antonyms": [
+            "thin",
+            "weak",
+            "reedy"
+          ]
+        },
+        {
+          "id": "gre-byzantine",
+          "word": "byzantine",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively complicated and intricate, often with hidden or devious workings.",
+          "example": "The agency's byzantine approval process required seven signatures just to order a pencil.",
+          "mnemonic": "Recall the Byzantine Empire's maze of court intrigue — tangled, secretive, endlessly complex.",
+          "synonyms": [
+            "labyrinthine",
+            "convoluted",
+            "intricate"
+          ],
+          "antonyms": [
+            "simple",
+            "straightforward",
+            "clear"
+          ]
+        },
+        {
+          "id": "gre-mannered",
+          "word": "mannered",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by an artificial, self-conscious style rather than natural behavior.",
+          "example": "His mannered speech, full of studied pauses and flourishes, felt rehearsed and insincere.",
+          "mnemonic": "Full of 'manners' put on for show — style performed rather than genuine.",
+          "synonyms": [
+            "affected",
+            "artificial",
+            "stilted"
+          ],
+          "antonyms": [
+            "natural",
+            "spontaneous",
+            "unaffected"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-palimpsest",
+          "word": "palimpsest",
+          "partOfSpeech": "noun",
+          "definition": "A surface reused for writing on which traces of earlier layers still show through.",
+          "example": "The old city is a palimpsest, Roman walls peeking through medieval brick and modern glass.",
+          "mnemonic": "Greek 'palin' (again) + 'psestos' (scraped) — something scraped clean and written on again.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "id": "gre-pentimento",
+          "word": "pentimento",
+          "partOfSpeech": "noun",
+          "definition": "An earlier image or form in a painting that becomes visible beneath later layers.",
+          "example": "A faint pentimento revealed the painter had first set the hand in a different pose.",
+          "mnemonic": "Italian 'pentirsi,' to repent — the canvas 'repents' its first attempt, letting it bleed through.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "id": "gre-coruscate",
+          "word": "coruscate",
+          "partOfSpeech": "verb",
+          "definition": "To give off flashing sparkles of light; to shine with brilliant flashes.",
+          "example": "Cut diamonds coruscated under the gallery lamps, throwing tiny rainbows across the walls.",
+          "mnemonic": "Sounds like 'core-us-skate' — imagine sparks skating and flashing off a polished surface.",
+          "synonyms": [
+            "sparkle",
+            "glitter",
+            "gleam"
+          ],
+          "antonyms": [
+            "dull",
+            "dim",
+            "darken"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-resplendent",
+          "word": "resplendent",
+          "partOfSpeech": "adjective",
+          "definition": "Shining brilliantly; dazzling and magnificent in appearance.",
+          "example": "The queen entered resplendent in gold silk and a crown studded with emeralds.",
+          "mnemonic": "Re + 'splendid' — something extra splendid, fairly glowing with splendor.",
+          "synonyms": [
+            "radiant",
+            "dazzling",
+            "glorious"
+          ],
+          "antonyms": [
+            "drab",
+            "dull",
+            "dingy"
+          ]
+        },
+        {
+          "id": "gre-rarefied",
+          "word": "rarefied",
+          "partOfSpeech": "adjective",
+          "definition": "Belonging to a small, elite circle far above ordinary experience; also, thin like mountain air.",
+          "example": "The gala drew a rarefied crowd of billionaires, ambassadors, and Nobel laureates.",
+          "mnemonic": "Latin rarus (thin) + facere (make): air 'made thin' high on a peak, where only a select few can breathe — an exclusive height.",
+          "synonyms": [
+            "exclusive",
+            "elevated",
+            "esoteric"
+          ],
+          "antonyms": [
+            "common",
+            "ordinary",
+            "commonplace"
+          ]
+        },
+        {
+          "id": "gre-daub",
+          "word": "daub",
+          "partOfSpeech": "verb",
+          "definition": "To smear a surface clumsily with paint, plaster, or another soft substance.",
+          "example": "The toddler daubed thick red paint across the wall in messy streaks.",
+          "mnemonic": "Sounds like an exaggerated 'dab' — but instead of one neat dab, a sloppy glob slapped on.",
+          "synonyms": [
+            "smear",
+            "plaster",
+            "slather"
+          ],
+          "antonyms": [
+            "wipe",
+            "scrub"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-frippery",
+          "word": "frippery",
+          "partOfSpeech": "noun",
+          "definition": "Showy but useless ornamentation, or trivial and frivolous decoration lacking real worth.",
+          "example": "She stripped the dress of its ribbons and bows, impatient with such frippery.",
+          "mnemonic": "Hear 'frilly' inside it — frilly, frivolous finery that adds fuss but no substance.",
+          "synonyms": [
+            "trinkets",
+            "finery",
+            "ornamentation"
+          ],
+          "antonyms": [
+            "simplicity",
+            "plainness",
+            "austerity"
+          ]
+        },
+        {
+          "id": "gre-ostentation",
+          "word": "ostentation",
+          "partOfSpeech": "noun",
+          "definition": "A pretentious, flashy display meant to impress others and attract admiration.",
+          "example": "His gold watches and marble foyer reeked of ostentation rather than taste.",
+          "mnemonic": "Read it as 'OH-STARE-AT-shun' — a showy demand that everyone stop and stare.",
+          "synonyms": [
+            "showiness",
+            "flamboyance",
+            "pretentiousness"
+          ],
+          "antonyms": [
+            "modesty",
+            "humility",
+            "restraint"
+          ]
+        },
+        {
+          "id": "gre-confect",
+          "word": "confect",
+          "partOfSpeech": "verb",
+          "definition": "To put together or concoct something from assorted ingredients, parts, or ideas.",
+          "example": "The chef confected an elaborate dessert from cream, berries, and spun sugar.",
+          "mnemonic": "Think 'confection': a confectioner con- (together) + facere (makes) sweets by combining ingredients.",
+          "synonyms": [
+            "concoct",
+            "fabricate",
+            "assemble"
+          ],
+          "antonyms": [
+            "dismantle",
+            "disassemble"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-embroider",
+          "word": "embroider",
+          "partOfSpeech": "verb",
+          "definition": "To exaggerate a tale by adding invented or fanciful extra details.",
+          "example": "Each time he retold the fishing trip, he embroidered it with wilder details.",
+          "mnemonic": "You stitch decorative thread onto plain cloth — likewise you stitch fake flourishes onto a plain story.",
+          "synonyms": [
+            "embellish",
+            "exaggerate",
+            "elaborate"
+          ],
+          "antonyms": [
+            "understate",
+            "simplify"
+          ]
+        },
+        {
+          "id": "gre-bravura",
+          "word": "bravura",
+          "partOfSpeech": "noun",
+          "definition": "A dazzling display of great skill, boldness, or brilliant technique in performance.",
+          "example": "The pianist ended the concerto with such bravura that the audience leapt to their feet.",
+          "mnemonic": "Sounds like 'BRAVO!' shouted for a virtuoso — bravura is what earns the bravo.",
+          "synonyms": [
+            "virtuosity",
+            "brilliance",
+            "flair"
+          ],
+          "antonyms": [
+            "clumsiness",
+            "ineptitude",
+            "mediocrity"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced and low-frequency",
+  "createdAt": "2026-09-12T09:45:30.806Z"
+}

@@ -15,7 +15,8 @@
 
 import type { SqlJsStatic } from "sql.js";
 import type { VocabMonth, VocabWord } from "@/types";
-import { formatMonthKey, slugify } from "@/lib/date-utils";
+import { parseMonthKey } from "@/lib/track";
+import { slugify } from "@/lib/date-utils";
 
 /** Words per day, matching the seed data and the generator. */
 export const WORDS_PER_DAY = 3;
@@ -159,8 +160,8 @@ export async function importApkg(
 ): Promise<AnkiImportResult> {
   const { bytes, monthKey, limit = 500 } = options;
 
-  if (!/^\d{4}-\d{2}$/.test(monthKey)) {
-    throw new Error("Month must look like 2026-07.");
+  if (!parseMonthKey(monthKey)) {
+    throw new Error("Month must look like gre/07.");
   }
 
   const { unzipSync } = await import("fflate");
@@ -258,9 +259,12 @@ export function toMonth(words: VocabWord[], monthKey: string): VocabMonth {
     if (day > 31) break;
     days.push({ day, words: words.slice(i, i + WORDS_PER_DAY) });
   }
+  const target = parseMonthKey(monthKey);
+  if (!target) throw new Error(`Not a month key: ${monthKey}`);
   return {
-    month: monthKey,
-    displayName: formatMonthKey(monthKey),
+    track: target.track,
+    ordinal: target.ordinal,
+    title: "Imported from Anki",
     days,
     description: "Imported from Anki",
     createdAt: new Date().toISOString(),

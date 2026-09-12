@@ -10,7 +10,8 @@
 import { describe, expect, it } from "vitest";
 import {
   allWordsInMonth,
-  firstFreeMonthKey,
+  disambiguate,
+  firstFreeOrdinal,
   parseVocabMonth,
   wordsForDay,
 } from "@/lib/vocabulary";
@@ -27,21 +28,41 @@ function word(w: string, extra: Record<string, unknown> = {}) {
 }
 
 function month(days: Array<{ day: number; words: unknown[] }>, extra = {}) {
-  return { month: "2026-04", days, ...extra };
+  return { track: "gre", ordinal: 1, days, ...extra };
 }
 
 describe("a well-formed month", () => {
   it("parses", () => {
     const parsed = parseVocabMonth(month([{ day: 1, words: [word("abate")] }]));
-    expect(parsed.month).toBe("2026-04");
+    expect(parsed.track).toBe("gre");
+    expect(parsed.ordinal).toBe(1);
     expect(parsed.days).toHaveLength(1);
     expect(parsed.days[0].words[0].word).toBe("abate");
   });
 
-  it("falls back to the month key for a display name", () => {
-    expect(parseVocabMonth(month([{ day: 1, words: [word("a")] }])).displayName).toBe(
-      "2026-04",
+  it("names an untitled month after its position", () => {
+    expect(parseVocabMonth(month([{ day: 1, words: [word("a")] }])).title).toBe(
+      "Month 1",
     );
+  });
+
+  it("reads a file written before tracks existed", () => {
+    // A share link, an export, someone else's file. Refusing these would
+    // break imports that have nothing to do with tracks.
+    const legacy = parseVocabMonth(
+      { month: "2026-04", displayName: "April 2026", days: [{ day: 1, words: [word("abate")] }] },
+      { track: "sat", ordinal: 4 },
+    );
+    expect(legacy.track).toBe("sat");
+    expect(legacy.ordinal).toBe(4);
+    expect(legacy.title).toBe("April 2026");
+    expect(legacy.days[0].words[0].id).toBe("sat-abate");
+  });
+
+  it("refuses a file that says nowhere it belongs", () => {
+    expect(() =>
+      parseVocabMonth({ days: [{ day: 1, words: [word("a")] }] }),
+    ).toThrow(/ordinal/);
   });
 
   it("keeps optional metadata", () => {
@@ -111,7 +132,7 @@ describe("word ids are unique within a month", () => {
     const parsed = parseVocabMonth(
       month([{ day: 1, words: [word("well-being"), word("well being")] }]),
     );
-    expect(allWordsInMonth(parsed)[0].id).toBe("2026-04-well-being");
+    expect(allWordsInMonth(parsed)[0].id).toBe("gre-well-being");
   });
 
   it("is deterministic — progress survives a reload", () => {
@@ -170,7 +191,10 @@ describe("rejecting malformed input", () => {
 
   it.each([
     ["a missing month", { days: [{ day: 1, words: [word("a")] }] }],
-    ["a malformed month", month([{ day: 1, words: [word("a")] }], { month: "April" })],
+    [
+      "a malformed ordinal",
+      { track: "gre", ordinal: 0, days: [{ day: 1, words: [word("a")] }] },
+    ],
     ["no days", { month: "2026-04", days: [] }],
     ["days that are not an array", { month: "2026-04", days: {} }],
   ])("rejects %s", (_name, raw) => {
@@ -245,20 +269,40 @@ describe("reading a month", () => {
   });
 });
 
-describe("firstFreeMonthKey", () => {
-  it("is a well-formed month key", () => {
-    expect(firstFreeMonthKey({})).toMatch(/^\d{4}-\d{2}$/);
+describe("firstFreeOrdinal", () => {
+  it("starts at one", () => {
+    expect(firstFreeOrdinal([])).toBe(1);
   });
 
-  it("skips months already loaded", () => {
-    const taken = firstFreeMonthKey({});
-    expect(firstFreeMonthKey({ [taken]: {} })).not.toBe(taken);
+  it("skips positions already taken", () => {
+    expect(firstFreeOrdinal([1, 2, 3])).toBe(4);
   });
 
-  it("keeps skipping across a run of loaded months", () => {
-    const loaded: Record<string, unknown> = {};
-    for (let i = 0; i < 5; i++) loaded[firstFreeMonthKey(loaded)] = {};
-    expect(Object.keys(loaded)).toHaveLength(5);
-    expect(new Set(Object.keys(loaded)).size).toBe(5);
+  it("fills a hole rather than appending past it", () => {
+    // A user who removed month 2 should have the next import land there,
+    // not at 37 with a gap nothing explains.
+    expect(firstFreeOrdinal([1, 3, 4])).toBe(2);
+  });
+
+  it("keeps skipping across a run", () => {
+    const taken: number[] = [];
+    for (let i = 0; i < 5; i++) taken.push(firstFreeOrdinal(taken));
+    expect(taken).toEqual([1, 2, 3, 4, 5]);
+  });
+});
+
+describe("disambiguate", () => {
+  it("leaves a month alone when nothing collides", () => {
+    const parsed = parseVocabMonth(month([{ day: 1, words: [word("abate")] }]));
+    expect(disambiguate(parsed, new Set(["gre-cogent"]))).toBe(parsed);
+  });
+
+  it("renames a word another month in the track already claims", () => {
+    // Uniqueness used to come free from ids naming their own month. It does
+    // not any more, and two months both holding *abate* would otherwise mean
+    // mastering either marked both.
+    const parsed = parseVocabMonth(month([{ day: 1, words: [word("abate")] }]));
+    const fixed = disambiguate(parsed, new Set(["gre-abate"]));
+    expect(fixed.days[0].words[0].id).toBe("gre-abate-2");
   });
 });

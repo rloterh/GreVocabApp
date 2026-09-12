@@ -58,3 +58,16 @@ Two rules, both learned the hard way in this repo:
 2. **Look at the screenshot.** Numbers said the themes were fine; a screenshot
    showed a toggle inflated into a circle. Numbers said the plan resumed; a
    screenshot showed a stale error still on screen.
+
+## `tracks-smoke.mjs`
+
+Seeds a **pre-tracks** store — calendar month keys, calendar-embedded word ids,
+progress hanging off them — then loads the app and checks the migration kept
+everything, the track switcher works, and nothing overflows at phone or iPad
+sizes.
+
+It reads the mastered count **off the screen**, not out of localStorage, and
+that distinction is the whole reason it exists: zustand will discard a
+persisted blob whose version it does not recognise, leaving storage perfectly
+correct and the running app empty. Twenty-three unit tests could not see that,
+because none of them hydrate a store. This one caught it on the first run.

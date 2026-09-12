@@ -39,7 +39,6 @@ import {
   summarize,
   type RunCheckpoint,
 } from "@/lib/generation-run";
-import { firstFreeMonthKey } from "@/lib/vocabulary";
 import { formatMonthKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
 
@@ -58,12 +57,14 @@ const DIFFICULTIES: Array<{ value: Difficulty; label: string; hint: string }> = 
 
 export function PlanBuilder({ onDone }: { onDone: () => void }) {
   const months = useVocabStore((s) => s.months);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
+  const nextOrdinal = useVocabStore((s) => s.nextOrdinal);
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const getVocabIndex = useVocabStore((s) => s.getVocabIndex);
   const showToast = useAppStore((s) => s.showToast);
 
   const [plan, setPlan] = useState<GenerationPlan>(() =>
-    defaultPlan(firstFreeMonthKey(months)),
+    defaultPlan(nextOrdinal(activeTrack), activeTrack),
   );
   const [mustIncludeText, setMustIncludeText] = useState("");
   const [checkpoint, setCheckpoint] = useState<RunCheckpoint | null>(null);
@@ -197,11 +198,16 @@ export function PlanBuilder({ onDone }: { onDone: () => void }) {
       </Field>
 
       <div className="flex gap-3">
-        <Field label="Starting" className="flex-1">
+        <Field label="Starting at month" className="flex-1">
+          {/* A teaching position, not a date. When these months fall on the
+              calendar is the schedule's business, not the plan's. */}
           <Input
-            type="month"
-            value={plan.startMonth}
-            onChange={(e) => update({ startMonth: e.target.value })}
+            type="number"
+            min={1}
+            value={plan.startOrdinal}
+            onChange={(e) =>
+              update({ startOrdinal: Math.max(1, Number(e.target.value) || 1) })
+            }
             className="tabular"
             disabled={busy}
           />

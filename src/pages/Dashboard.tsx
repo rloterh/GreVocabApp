@@ -17,7 +17,9 @@ import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { calculateStreaksWithFreezes } from "@/lib/streak";
-import { toMonthKey, formatMonthKey } from "@/lib/date-utils";
+import { formatMonthKey } from "@/lib/date-utils";
+import { keyOf } from "@/lib/track";
+import { calendarMonthOfDate } from "@/lib/schedule";
 import { countDue } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
 
@@ -29,10 +31,18 @@ export function Dashboard() {
   const wordsProgress = useProgressStore((s) => s.words);
   const activity = useProgressStore((s) => s.activity);
 
-  const monthKeys = Object.keys(months).sort();
-  const todayMonthKey = toMonthKey(new Date());
-  const currentMonth = months[todayMonthKey] ?? months[monthKeys[monthKeys.length - 1] ?? ""];
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const monthKeyForDate = useVocabStore((s) => s.monthKeyForDate);
   const today = new Date();
+  const todayMonthKey = calendarMonthOfDate(today);
+  // What the schedule says is current. Falling back to the last month of the
+  // track keeps the dashboard useful for someone who has run past the end of
+  // their schedule rather than showing them nothing.
+  const scheduledKey = monthKeyForDate(today);
+  const trackMonths = getAllMonths();
+  const currentMonth =
+    (scheduledKey ? months[scheduledKey] : undefined) ??
+    trackMonths[trackMonths.length - 1];
   const todayDay = today.getDate();
   const todaysWords = currentMonth?.days.find((d) => d.day === todayDay)?.words ?? [];
 
@@ -72,9 +82,9 @@ export function Dashboard() {
     [allWordIds, wordsProgress],
   );
 
-  if (monthKeys.length === 0) {
+  if (trackMonths.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
         <div className="mb-8">
           <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">
             Welcome
@@ -97,7 +107,7 @@ export function Dashboard() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto py-8 px-1">
+    <div className="w-full lg:max-w-6xl lg:mx-auto py-8 px-1">
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -195,7 +205,7 @@ export function Dashboard() {
           <h2 className="text-lg font-semibold">Today's practice</h2>
           <p className="text-xs text-muted-foreground">
             {todaysWords.length > 0
-              ? `${todaysWords.length} words • ${currentMonth?.displayName}`
+              ? `${todaysWords.length} words • ${currentMonth?.title}`
               : "No words scheduled for today"}
           </p>
         </div>
@@ -226,7 +236,7 @@ export function Dashboard() {
               <div className="mt-5 flex flex-wrap gap-2">
                 <Button
                   onClick={() => {
-                    setActiveMonth(currentMonth.month);
+                    setActiveMonth(keyOf(currentMonth));
                     setSelectedDay(todayDay);
                     navigate("practice");
                   }}
@@ -255,7 +265,7 @@ export function Dashboard() {
             title={`No words for ${today.toLocaleDateString(undefined, { month: "short", day: "numeric" })}`}
             description={
               currentMonth
-                ? `${currentMonth.displayName} doesn't have a day ${todayDay} entry. Browse other days from the calendar or archive.`
+                ? `${currentMonth.title} doesn't have a day ${todayDay} entry. Browse other days from the calendar or archive.`
                 : `Load ${formatMonthKey(todayMonthKey)} vocabulary to see today's words.`
             }
             action={

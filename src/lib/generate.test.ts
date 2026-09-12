@@ -50,26 +50,26 @@ function stubProvider(words: unknown[] = [word(1), word(2), word(3)]) {
 const BASE = {
   topic: "GRE verbs",
   wordCount: 3,
-  monthKey: "2026-07",
+  monthKey: "gre/07",
 };
 
 describe("toMonth — day layout happens in code, not in the prompt", () => {
   it("fills days three words at a time", () => {
-    const m = toMonth([1, 2, 3, 4, 5, 6, 7].map(word), "2026-07", "topic");
+    const m = toMonth([1, 2, 3, 4, 5, 6, 7].map(word), "gre/07", "topic");
     expect(WORDS_PER_DAY).toBe(3);
     expect(m.days.map((d) => d.day)).toEqual([1, 2, 3]);
     expect(m.days.map((d) => d.words.length)).toEqual([3, 3, 1]);
   });
 
   it("gives words the same id rule as every other import path", () => {
-    const m = toMonth([word(1)], "2026-07", "topic");
-    expect(m.days[0].words[0].id).toBe("2026-07-word1");
+    const m = toMonth([word(1)], "gre/07", "topic");
+    expect(m.days[0].words[0].id).toBe("gre-word1");
   });
 
   it("lays 90 words across 30 full days", () => {
     const m = toMonth(
       Array.from({ length: 90 }, (_, i) => word(i)),
-      "2026-08",
+      "gre/08",
       "topic",
     );
     expect(m.days).toHaveLength(30);
@@ -77,13 +77,13 @@ describe("toMonth — day layout happens in code, not in the prompt", () => {
   });
 
   it("produces something parseVocabMonth accepts", () => {
-    const validated = parseVocabMonth(toMonth([1, 2, 3, 4].map(word), "2026-07", "t"));
+    const validated = parseVocabMonth(toMonth([1, 2, 3, 4].map(word), "gre/07", "t"));
     expect(validated.days).toHaveLength(2);
     expect(validated.days[0].words[0].synonyms).toEqual(["a", "b"]);
   });
 
   it("records the topic and a timestamp", () => {
-    const m = toMonth([word(1)], "2026-07", "my topic");
+    const m = toMonth([word(1)], "gre/07", "my topic");
     expect(m.description).toContain("my topic");
     expect(Number.isNaN(Date.parse(m.createdAt ?? ""))).toBe(false);
   });
@@ -123,7 +123,7 @@ describe("input guards run before the provider is called", () => {
     ["zero words", { wordCount: 0 }, /between 1 and 90/],
     ["more than 90 words", { wordCount: 91 }, /between 1 and 90/],
     ["a fractional count", { wordCount: 2.5 }, /between 1 and 90/],
-    ["a malformed month", { monthKey: "July" }, /2026-07/],
+    ["a malformed month", { monthKey: "July" }, /gre/],
   ])("rejects %s", async (_name, over, message) => {
     const { provider, requests } = stubProvider();
     await expect(
@@ -198,7 +198,7 @@ describe("the generated month", () => {
   it("is laid out and validated like any import", async () => {
     const { provider } = stubProvider([word(1), word(2), word(3), word(4)]);
     const month = await generateMonth({ ...BASE, wordCount: 4, provider });
-    expect(month.month).toBe("2026-07");
+    expect(month.ordinal).toBe(7);
     expect(month.days).toHaveLength(2);
     expect(parseVocabMonth(month).days).toHaveLength(2);
   });

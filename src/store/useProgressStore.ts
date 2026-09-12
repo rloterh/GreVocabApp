@@ -11,6 +11,7 @@ import type {
 } from "@/types";
 import { toDateKey } from "@/lib/date-utils";
 import { schedule, schedulingStateOf } from "@/lib/sm2";
+import { TRACKS_SCHEMA_VERSION } from "@/lib/migrations/tracks";
 
 interface ProgressState {
   /** Per-word progress by wordId */
@@ -338,6 +339,13 @@ export const useProgressStore = create<ProgressState>()(
     }),
     {
       name: "lexicon.progress.v1",
+      // The tracks migration rewrites this blob and stamps the version on it.
+      // Without a matching version here, zustand decides the stored state is
+      // from a future it cannot read and **discards every progress record** —
+      // which is the exact data loss the migration exists to prevent. A
+      // browser found this; no unit test could, because none of them hydrate.
+      version: TRACKS_SCHEMA_VERSION,
+      migrate: (persisted) => persisted as ProgressState,
       storage: createJSONStorage(() => localStorage),
     },
   ),

@@ -11,6 +11,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Sidebar } from "@/components/Sidebar";
 import { MobileTabBar } from "@/components/MobileTabBar";
+import { TrackSwitcher } from "@/components/TrackSwitcher";
 import { Toast } from "@/components/Toast";
 import { DropOverlay } from "@/components/DropOverlay";
 import { ShortcutsHelp } from "@/components/ShortcutsHelp";
@@ -111,9 +112,19 @@ export function App() {
 
   return (
     <TooltipProvider delayDuration={200}>
-      <div className="flex h-screen w-screen overflow-hidden bg-background text-foreground">
+      <div className="app-shell flex w-screen overflow-hidden bg-background text-foreground">
         <Sidebar />
-        <main className="flex-1 overflow-y-auto overflow-x-hidden">
+        <div className="flex flex-1 min-w-0 flex-col">
+          {/*
+            Below `lg` there is no sidebar, and ADR 0011 requires the active
+            track to be legible on every screen — so it gets its own slim bar
+            rather than being tucked into a menu.
+          */}
+          <header className="flex items-center justify-between gap-3 border-b border-border/60 bg-card/40 px-4 py-2 lg:hidden">
+            <p className="display-serif text-sm font-semibold">Lexicon</p>
+            <TrackSwitcher />
+          </header>
+          <main className="flex-1 overflow-y-auto overflow-x-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={page}
@@ -128,7 +139,8 @@ export function App() {
               </Suspense>
             </motion.div>
           </AnimatePresence>
-        </main>
+          </main>
+        </div>
         <MobileTabBar moreOpen={moreOpen} onMoreOpenChange={setMoreOpen} />
         <Toast />
         <DropOverlay />

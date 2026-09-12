@@ -1,0 +1,1472 @@
+{
+  "track": "gre",
+  "ordinal": 32,
+  "title": "Memory and forgetting",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-mnemonic",
+          "word": "mnemonic",
+          "partOfSpeech": "noun",
+          "definition": "A device, such as a rhyme or pattern, that helps a person recall information.",
+          "example": "To learn the planets, she used the mnemonic 'My Very Educated Mother Just Served Us Nachos.'",
+          "mnemonic": "From the Greek Mnemosyne, goddess of memory; the silent 'm' is a memory trick in itself.",
+          "synonyms": [
+            "memory aid",
+            "reminder"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-anamnesis",
+          "word": "anamnesis",
+          "partOfSpeech": "noun",
+          "definition": "The act of calling the past back to mind, or a patient's recounted medical history.",
+          "example": "During intake, the doctor recorded the patient's anamnesis, tracing every symptom back to its onset.",
+          "mnemonic": "'ana-' (back, again) + '-mnesis' (memory) — the exact opposite of amnesia, which loses it.",
+          "synonyms": [
+            "recollection",
+            "remembrance"
+          ],
+          "antonyms": [
+            "amnesia",
+            "forgetfulness"
+          ]
+        },
+        {
+          "id": "gre-reminiscence",
+          "word": "reminiscence",
+          "partOfSpeech": "noun",
+          "definition": "A fond memory of a past event, or the act of dwelling on such memories.",
+          "example": "Over coffee, Grandpa drifted into a long reminiscence about summers on the lake.",
+          "mnemonic": "Hear 'RE-MIND-essence' — the essence of re-minding yourself of old times.",
+          "synonyms": [
+            "recollection",
+            "memory"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-reminiscent",
+          "word": "reminiscent",
+          "partOfSpeech": "adjective",
+          "definition": "Serving to bring something similar to mind; suggestive of another person, place, or time.",
+          "example": "The smell of chalk was reminiscent of her very first classroom decades ago.",
+          "mnemonic": "Shares its root with 'remind' — something reminiscent RE-MINDS you of the past.",
+          "synonyms": [
+            "suggestive",
+            "evocative"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-redolent",
+          "word": "redolent",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly fragrant, or strongly suggestive of something through smell or association.",
+          "example": "The kitchen was redolent of cinnamon and freshly baked bread.",
+          "mnemonic": "Latin 'olere' means to smell (like 'odor'); 'red-OLE-nt' hides that scent inside it.",
+          "synonyms": [
+            "fragrant",
+            "aromatic",
+            "evocative"
+          ],
+          "antonyms": [
+            "odorless"
+          ]
+        },
+        {
+          "id": "gre-evocative",
+          "word": "evocative",
+          "partOfSpeech": "adjective",
+          "definition": "Bringing strong images, memories, or feelings vividly to mind.",
+          "example": "Her evocative description of the storm made listeners shiver as though soaked.",
+          "mnemonic": "'e-' (out) + 'voc' (voice/call, as in 'vocal') — it calls feelings out of you.",
+          "synonyms": [
+            "suggestive",
+            "reminiscent",
+            "redolent"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-nostalgia",
+          "word": "nostalgia",
+          "partOfSpeech": "noun",
+          "definition": "A sentimental, wistful longing for a period or place in the past.",
+          "example": "Scrolling through old photos filled him with nostalgia for his college years.",
+          "mnemonic": "Greek 'nostos' (homecoming) + 'algos' (pain) — literally the ache to return home.",
+          "synonyms": [
+            "longing",
+            "wistfulness"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-reverie",
+          "word": "reverie",
+          "partOfSpeech": "noun",
+          "definition": "A state of being pleasantly lost in one's own thoughts; a daydream.",
+          "example": "Staring out the train window, she slipped into a reverie and missed her stop.",
+          "mnemonic": "From French 'rêver,' to dream; picture your mind REV-ing off into a dream.",
+          "synonyms": [
+            "daydream",
+            "trance",
+            "musing"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-oblivion",
+          "word": "oblivion",
+          "partOfSpeech": "noun",
+          "definition": "The state of being completely forgotten, or a condition of total unawareness.",
+          "example": "The once-famous singer faded into oblivion, her records left to gather dust.",
+          "mnemonic": "Same root as 'oblivious' — to be unaware; oblivion is where the forgotten go.",
+          "synonyms": [
+            "obscurity",
+            "nothingness"
+          ],
+          "antonyms": [
+            "fame",
+            "awareness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-expunge",
+          "word": "expunge",
+          "partOfSpeech": "verb",
+          "definition": "To erase or wipe out completely, as a mark or a record.",
+          "example": "The court agreed to expunge the arrest from his record after five clean years.",
+          "mnemonic": "Sounds like 'ex-SPONGE' — take a sponge and wipe it entirely away.",
+          "synonyms": [
+            "erase",
+            "delete",
+            "obliterate"
+          ],
+          "antonyms": [
+            "retain",
+            "record"
+          ]
+        },
+        {
+          "id": "gre-obliterate",
+          "word": "obliterate",
+          "partOfSpeech": "verb",
+          "definition": "To destroy utterly or wipe out every trace of something.",
+          "example": "The flood obliterated the village, leaving no sign a town had ever stood there.",
+          "mnemonic": "Latin 'littera' (letter) — 'OB-LITER-ate' means to strike out the letters entirely.",
+          "synonyms": [
+            "annihilate",
+            "eradicate",
+            "erase"
+          ],
+          "antonyms": [
+            "create",
+            "build"
+          ]
+        },
+        {
+          "id": "gre-eradicate",
+          "word": "eradicate",
+          "partOfSpeech": "verb",
+          "definition": "To destroy something completely by pulling it out at the root.",
+          "example": "Health workers hope to eradicate the disease before the decade ends.",
+          "mnemonic": "Latin 'radix' (root, like 'radish') — 'e-RADIC-ate' pulls it out by the roots.",
+          "synonyms": [
+            "eliminate",
+            "exterminate",
+            "obliterate"
+          ],
+          "antonyms": [
+            "establish",
+            "plant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-ineradicable",
+          "word": "ineradicable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to destroy, remove, or pull out at the root.",
+          "example": "Despite the reforms, an ineradicable distrust of the government lingered for generations.",
+          "mnemonic": "'in-' (not) + 'eradicable' (able to be rooted out) — this root simply won't come out.",
+          "synonyms": [
+            "indelible",
+            "permanent",
+            "persistent"
+          ],
+          "antonyms": [
+            "removable",
+            "curable"
+          ]
+        },
+        {
+          "id": "gre-commemorate",
+          "word": "commemorate",
+          "partOfSpeech": "verb",
+          "definition": "To honor and keep alive the memory of a person or event, often with a ceremony.",
+          "example": "A bronze plaque was installed to commemorate the soldiers who fell there.",
+          "mnemonic": "'com-' (together) + 'memor' (memory, as in 'memorial') — together we hold it in memory.",
+          "synonyms": [
+            "honor",
+            "memorialize",
+            "celebrate"
+          ],
+          "antonyms": [
+            "forget",
+            "ignore"
+          ]
+        },
+        {
+          "id": "gre-memorialize",
+          "word": "memorialize",
+          "partOfSpeech": "verb",
+          "definition": "To honor someone or something so they are not forgotten, often with a lasting tribute.",
+          "example": "The town memorialized the fallen soldiers with a bronze statue in the square.",
+          "mnemonic": "memorial + -ize — to turn something into a memorial that keeps it present.",
+          "synonyms": [
+            "commemorate",
+            "immortalize",
+            "honor"
+          ],
+          "antonyms": [
+            "forget",
+            "neglect",
+            "ignore"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-subliminal",
+          "word": "subliminal",
+          "partOfSpeech": "adjective",
+          "definition": "Affecting the mind below the level of conscious awareness.",
+          "example": "The ad used subliminal images flashed too quickly for viewers to consciously notice.",
+          "mnemonic": "sub- (below) + limen (threshold) — beneath the threshold where you notice things.",
+          "synonyms": [
+            "subconscious",
+            "unconscious",
+            "hidden"
+          ],
+          "antonyms": [
+            "conscious",
+            "overt",
+            "deliberate"
+          ]
+        },
+        {
+          "id": "gre-evanesce",
+          "word": "evanesce",
+          "partOfSpeech": "verb",
+          "definition": "To fade away and vanish, like mist dissolving into air.",
+          "example": "The morning fog began to evanesce as the sun climbed higher over the valley.",
+          "mnemonic": "sounds like 'ever-vanish' — it drifts off like vapor and is gone.",
+          "synonyms": [
+            "vanish",
+            "dissipate",
+            "fade"
+          ],
+          "antonyms": [
+            "appear",
+            "materialize",
+            "persist"
+          ]
+        },
+        {
+          "id": "gre-fugacious",
+          "word": "fugacious",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting only a very short time before passing away.",
+          "example": "The fugacious beauty of the cherry blossoms lasts barely a week each spring.",
+          "mnemonic": "shares the root fug- (flee) with 'fugitive' — it flees almost as soon as it arrives.",
+          "synonyms": [
+            "fleeting",
+            "transient",
+            "ephemeral"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-residuum",
+          "word": "residuum",
+          "partOfSpeech": "noun",
+          "definition": "The small part left over after most has been removed or used up.",
+          "example": "After the water evaporated, a chalky residuum coated the bottom of the beaker.",
+          "mnemonic": "sounds like 'residue' — the stubborn bit sitting at the bottom.",
+          "synonyms": [
+            "residue",
+            "remainder",
+            "remnant"
+          ],
+          "antonyms": [
+            "whole",
+            "entirety",
+            "totality"
+          ]
+        },
+        {
+          "id": "gre-haunting",
+          "word": "haunting",
+          "partOfSpeech": "adjective",
+          "definition": "Beautiful or sad in a way that lingers in the mind.",
+          "example": "Her haunting melody stayed with me for days after the concert ended.",
+          "mnemonic": "like a ghost that haunts a house — it refuses to leave your thoughts.",
+          "synonyms": [
+            "evocative",
+            "poignant",
+            "unforgettable"
+          ],
+          "antonyms": [
+            "forgettable",
+            "unmemorable",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-introspection",
+          "word": "introspection",
+          "partOfSpeech": "noun",
+          "definition": "The act of looking inward to examine your own thoughts and feelings.",
+          "example": "A week alone in the cabin gave him time for quiet introspection.",
+          "mnemonic": "intro- (inward) + spect (look) — you point the gaze back at yourself.",
+          "synonyms": [
+            "self-examination",
+            "reflection",
+            "self-analysis"
+          ],
+          "antonyms": [
+            "extrospection",
+            "distraction"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-retrospection",
+          "word": "retrospection",
+          "partOfSpeech": "noun",
+          "definition": "The act of reviewing or thinking about events from the past.",
+          "example": "In retrospection, she realized the warning signs had been there all along.",
+          "mnemonic": "retro- (back) + spect (look) — turning your eyes toward what already happened.",
+          "synonyms": [
+            "hindsight",
+            "reflection",
+            "remembrance"
+          ],
+          "antonyms": [
+            "foresight",
+            "anticipation",
+            "prospection"
+          ]
+        },
+        {
+          "id": "gre-retentive",
+          "word": "retentive",
+          "partOfSpeech": "adjective",
+          "definition": "Able to hold on to or keep things, especially facts in the mind.",
+          "example": "With his retentive mind, he recalled phone numbers he'd heard only once.",
+          "mnemonic": "from 'retain' (ten- = hold) — a grip that keeps everything it grabs.",
+          "synonyms": [
+            "tenacious",
+            "absorbent",
+            "unforgetting"
+          ],
+          "antonyms": [
+            "forgetful",
+            "absent-minded",
+            "leaky"
+          ]
+        },
+        {
+          "id": "gre-engram",
+          "word": "engram",
+          "partOfSpeech": "noun",
+          "definition": "A physical trace left in the brain where a memory is stored.",
+          "example": "Neuroscientists spent years hunting for the engram behind a single learned fact.",
+          "mnemonic": "en- (in) + -gram (something written) — a note written into the brain's tissue.",
+          "synonyms": [
+            "memory trace",
+            "neural trace"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-amnesiac",
+          "word": "amnesiac",
+          "partOfSpeech": "noun",
+          "definition": "A person who has lost the ability to recall past events.",
+          "example": "The amnesiac woke in a hospital bed unable to name his own children.",
+          "mnemonic": "a- (without) + -mnesia (memory, from Mnemosyne) — someone left without a past.",
+          "synonyms": [
+            "amnesic"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-lacuna",
+          "word": "lacuna",
+          "partOfSpeech": "noun",
+          "definition": "A blank space or missing part, especially in a text or argument.",
+          "example": "A crucial lacuna in the manuscript left scholars guessing at the story's ending.",
+          "mnemonic": "sounds like 'lagoon' — an empty hollow where something should be.",
+          "synonyms": [
+            "gap",
+            "hiatus",
+            "void"
+          ],
+          "antonyms": [
+            "fullness",
+            "completeness",
+            "continuity"
+          ]
+        },
+        {
+          "id": "gre-elude",
+          "word": "elude",
+          "partOfSpeech": "verb",
+          "definition": "To escape or avoid capture, detection, or understanding.",
+          "example": "The fox managed to elude the hounds by doubling back through the stream.",
+          "mnemonic": "e- (out) + -lude (play) — it slips out and dodges just as you reach.",
+          "synonyms": [
+            "evade",
+            "escape",
+            "dodge"
+          ],
+          "antonyms": [
+            "confront",
+            "face",
+            "capture"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-betoken",
+          "word": "betoken",
+          "partOfSpeech": "verb",
+          "definition": "To be a sign or warning of something that will happen.",
+          "example": "Dark clouds massing on the horizon betoken a storm before nightfall.",
+          "mnemonic": "be- + token — to act as a token, a sign pointing to what's coming.",
+          "synonyms": [
+            "indicate",
+            "signify",
+            "foreshadow"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-inkling",
+          "word": "inkling",
+          "partOfSpeech": "noun",
+          "definition": "A slight suspicion or vague hint about something.",
+          "example": "She had an inkling that her surprise party was being planned behind her back.",
+          "mnemonic": "picture one tiny drop of 'ink' — just a faint trace, barely a mark.",
+          "synonyms": [
+            "hint",
+            "suspicion",
+            "notion"
+          ],
+          "antonyms": [
+            "certainty",
+            "knowledge"
+          ]
+        },
+        {
+          "id": "gre-glimmer",
+          "word": "glimmer",
+          "partOfSpeech": "noun",
+          "definition": "A faint, unsteady light, or a small sign of something.",
+          "example": "Through the fog she caught a glimmer of the distant lighthouse beam.",
+          "mnemonic": "Sounds like 'shimmer' — a tiny, wavering shimmer of light in the dark.",
+          "synonyms": [
+            "flicker",
+            "gleam",
+            "trace"
+          ],
+          "antonyms": [
+            "blaze",
+            "glare"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-languor",
+          "word": "languor",
+          "partOfSpeech": "noun",
+          "definition": "A state of dreamy, pleasant tiredness and lack of energy.",
+          "example": "The summer heat wrapped the porch in a heavy languor that left everyone dozing.",
+          "mnemonic": "Sounds like 'linger' — too relaxed to move, you just linger.",
+          "synonyms": [
+            "lassitude",
+            "listlessness",
+            "torpor"
+          ],
+          "antonyms": [
+            "vigor",
+            "energy"
+          ]
+        },
+        {
+          "id": "gre-lethargy",
+          "word": "lethargy",
+          "partOfSpeech": "noun",
+          "definition": "A condition of sluggishness, drowsiness, and lack of enthusiasm.",
+          "example": "After the huge meal a deep lethargy settled over him and nothing could rouse him.",
+          "mnemonic": "From Lethe, the mythic river of forgetful sleep — drink it and you go dull and drowsy.",
+          "synonyms": [
+            "sluggishness",
+            "torpor",
+            "fatigue"
+          ],
+          "antonyms": [
+            "vigor",
+            "alertness"
+          ]
+        },
+        {
+          "id": "gre-stupor",
+          "word": "stupor",
+          "partOfSpeech": "noun",
+          "definition": "A dazed, near-unconscious state in which one can barely think or react.",
+          "example": "He drank until he sank into a stupor and slept upright in his chair.",
+          "mnemonic": "Sounds like 'stupid' — too dazed to think a single clear thought.",
+          "synonyms": [
+            "daze",
+            "torpor",
+            "insensibility"
+          ],
+          "antonyms": [
+            "alertness",
+            "consciousness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-dotage",
+          "word": "dotage",
+          "partOfSpeech": "noun",
+          "definition": "The period of feeble, childish mental decline in very old age.",
+          "example": "In his dotage, Grandfather often mistook his grandchildren for his own brothers.",
+          "mnemonic": "'Dot-age' — the age when a doddering mind goes dotty and forgetful.",
+          "synonyms": [
+            "senility",
+            "decrepitude"
+          ],
+          "antonyms": [
+            "youth",
+            "prime"
+          ]
+        },
+        {
+          "id": "gre-desuetude",
+          "word": "desuetude",
+          "partOfSpeech": "noun",
+          "definition": "The condition of no longer being practiced or in active use.",
+          "example": "The old dueling statutes fell into desuetude, and no court ever enforced them again.",
+          "mnemonic": "'De-' (un) + Latin 'suetus' (accustomed) — un-accustomed, dropped from custom.",
+          "synonyms": [
+            "disuse",
+            "obsolescence"
+          ],
+          "antonyms": [
+            "currency",
+            "practice"
+          ]
+        },
+        {
+          "id": "gre-abeyance",
+          "word": "abeyance",
+          "partOfSpeech": "noun",
+          "definition": "A state of temporary suspension or pause, awaiting later settlement.",
+          "example": "The building plans were held in abeyance until the funding dispute was resolved.",
+          "mnemonic": "Say 'a-BAY-ance' — the matter is kept at bay, waiting on the sidelines.",
+          "synonyms": [
+            "suspension",
+            "dormancy",
+            "latency"
+          ],
+          "antonyms": [
+            "continuation",
+            "revival"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-interregnum",
+          "word": "interregnum",
+          "partOfSpeech": "noun",
+          "definition": "A gap between two rulers or governments when normal authority is suspended.",
+          "example": "During the interregnum after the king's death, rival dukes fought for the throne.",
+          "mnemonic": "'Inter' (between) + 'regnum' (reign) — the empty space between reigns.",
+          "synonyms": [
+            "interval",
+            "hiatus",
+            "interlude"
+          ],
+          "antonyms": [
+            "reign",
+            "continuity"
+          ]
+        },
+        {
+          "id": "gre-revivify",
+          "word": "revivify",
+          "partOfSpeech": "verb",
+          "definition": "To bring back to life or restore fresh energy to something.",
+          "example": "Cold water and strong coffee revivified the exhausted climbers before the final push.",
+          "mnemonic": "'Re' (again) + 'vivi' (life, as in vivid, vivacious) — make lively again.",
+          "synonyms": [
+            "revive",
+            "reanimate",
+            "rejuvenate"
+          ],
+          "antonyms": [
+            "deaden",
+            "kill"
+          ]
+        },
+        {
+          "id": "gre-remission",
+          "word": "remission",
+          "partOfSpeech": "noun",
+          "definition": "A period when illness eases or disappears, or the pardon of a debt.",
+          "example": "After a grueling year of chemotherapy, her cancer finally went into remission.",
+          "mnemonic": "'Re-mission' — the disease is sent away on a mission (Latin 'remittere', to send back).",
+          "synonyms": [
+            "reprieve",
+            "abatement",
+            "respite"
+          ],
+          "antonyms": [
+            "relapse",
+            "worsening"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-revenant",
+          "word": "revenant",
+          "partOfSpeech": "noun",
+          "definition": "A person or spirit that returns, especially one come back from the dead.",
+          "example": "Villagers swore the pale figure by the graveyard was a revenant of the drowned sailor.",
+          "mnemonic": "From French 'revenir' (to return) — the one who comes back.",
+          "synonyms": [
+            "ghost",
+            "specter",
+            "phantom"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-confabulate",
+          "word": "confabulate",
+          "partOfSpeech": "verb",
+          "definition": "To chat casually, or to invent false memories while believing them true.",
+          "example": "The amnesiac patient would confabulate vivid stories about a voyage he had never taken.",
+          "mnemonic": "'Con' + 'fable' + 'ate' — you eat up fables, cooking up tales as fact.",
+          "synonyms": [
+            "fabricate",
+            "invent",
+            "chat"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-reminisce",
+          "word": "reminisce",
+          "partOfSpeech": "verb",
+          "definition": "To think or talk fondly about pleasant experiences from the past.",
+          "example": "The old friends spent the whole evening reminiscing about their college days.",
+          "mnemonic": "'Re-mini-scene' — replaying little scenes from the past in your head.",
+          "synonyms": [
+            "recollect",
+            "recall",
+            "look back"
+          ],
+          "antonyms": [
+            "forget"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-extirpate",
+          "word": "extirpate",
+          "partOfSpeech": "verb",
+          "definition": "To destroy or remove something completely, as if pulling out its roots.",
+          "example": "The campaign set out to extirpate the invasive weed from every field in the valley.",
+          "mnemonic": "'Ex' (out) + Latin 'stirps' (root) — tear it out by the roots; think 'exterminate'.",
+          "synonyms": [
+            "eradicate",
+            "exterminate",
+            "root out"
+          ],
+          "antonyms": [
+            "plant",
+            "establish"
+          ]
+        },
+        {
+          "id": "gre-excise",
+          "word": "excise",
+          "partOfSpeech": "verb",
+          "definition": "To cut out or remove a part, especially surgically or from a piece of writing.",
+          "example": "The editor told her to excise the entire third paragraph, which added nothing.",
+          "mnemonic": "ex- (out) + Latin caedere (to cut) — think 'ex-scissors': scissors cut something out.",
+          "synonyms": [
+            "delete",
+            "remove",
+            "expunge"
+          ],
+          "antonyms": [
+            "insert",
+            "add",
+            "retain"
+          ]
+        },
+        {
+          "id": "gre-elide",
+          "word": "elide",
+          "partOfSpeech": "verb",
+          "definition": "To leave out or slur over something, especially a sound or syllable in speech.",
+          "example": "In fast talk we elide the middle of 'camera,' saying 'cam-ra.'",
+          "mnemonic": "Sounds like 'a slide' — words slide together and letters slip away.",
+          "synonyms": [
+            "omit",
+            "suppress",
+            "drop"
+          ],
+          "antonyms": [
+            "include",
+            "articulate",
+            "pronounce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-inure",
+          "word": "inure",
+          "partOfSpeech": "verb",
+          "definition": "To make someone accustomed to something difficult or unpleasant through repeated exposure.",
+          "example": "Years on the trauma ward had inured the nurse to the sight of blood.",
+          "mnemonic": "Read it as 'in-your' — hardship gets in your skin until it stops bothering you.",
+          "synonyms": [
+            "harden",
+            "habituate",
+            "toughen"
+          ],
+          "antonyms": [
+            "sensitize",
+            "soften"
+          ]
+        },
+        {
+          "id": "gre-suffuse",
+          "word": "suffuse",
+          "partOfSpeech": "verb",
+          "definition": "To spread gradually through or over something, filling it with color, light, or feeling.",
+          "example": "A warm glow suffused the room as the sunset poured through the curtains.",
+          "mnemonic": "'sun-fuse': sunlight fuses across and floods a whole surface.",
+          "synonyms": [
+            "pervade",
+            "permeate",
+            "saturate"
+          ],
+          "antonyms": [
+            "drain",
+            "empty"
+          ]
+        },
+        {
+          "id": "gre-imbue",
+          "word": "imbue",
+          "partOfSpeech": "verb",
+          "definition": "To fill or inspire someone deeply with a feeling, quality, or value.",
+          "example": "Her mentor imbued her with a lifelong respect for careful, honest work.",
+          "mnemonic": "'im-brew' — you brew feelings into someone until they're steeped in them.",
+          "synonyms": [
+            "instill",
+            "infuse",
+            "permeate"
+          ],
+          "antonyms": [
+            "drain",
+            "deprive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-descry",
+          "word": "descry",
+          "partOfSpeech": "verb",
+          "definition": "To catch sight of or make out something distant or hard to see.",
+          "example": "From the crow's nest the sailor could just descry land on the horizon.",
+          "mnemonic": "'de-spy' — you spy out something far away, like a seer who scries.",
+          "synonyms": [
+            "discern",
+            "espy",
+            "spot"
+          ],
+          "antonyms": [
+            "overlook",
+            "miss"
+          ]
+        },
+        {
+          "id": "gre-sublimate",
+          "word": "sublimate",
+          "partOfSpeech": "verb",
+          "definition": "To redirect unacceptable urges into socially productive or creative activity.",
+          "example": "He sublimated his anger into marathon training, running until the rage burned off.",
+          "mnemonic": "'sublime' + ate — you elevate a base urge into something sublime.",
+          "synonyms": [
+            "channel",
+            "redirect",
+            "transmute"
+          ],
+          "antonyms": [
+            "indulge",
+            "express"
+          ]
+        },
+        {
+          "id": "gre-inculcate",
+          "word": "inculcate",
+          "partOfSpeech": "verb",
+          "definition": "To fix an idea or habit firmly in someone's mind through persistent instruction.",
+          "example": "The drill sergeant inculcated discipline in the recruits with endless repetition.",
+          "mnemonic": "Latin calx (heel): 'in-CALC-ate' — you stamp it in with your boot heel.",
+          "synonyms": [
+            "instill",
+            "implant",
+            "indoctrinate"
+          ],
+          "antonyms": [
+            "neglect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-exhume",
+          "word": "exhume",
+          "partOfSpeech": "verb",
+          "definition": "To dig up a buried body, or to bring something long hidden back to light.",
+          "example": "Investigators moved to exhume the body to test for poison decades after burial.",
+          "mnemonic": "ex- (out) + Latin humus (ground) — 'ex-humus,' taken out of the earth.",
+          "synonyms": [
+            "unearth",
+            "disinter",
+            "dig up"
+          ],
+          "antonyms": [
+            "bury",
+            "inter"
+          ]
+        },
+        {
+          "id": "gre-eidetic",
+          "word": "eidetic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to unusually vivid and detailed mental images, like a photographic memory.",
+          "example": "With her eidetic recall, she could quote any page after a single reading.",
+          "mnemonic": "'I.D.-etic' — the mind IDs and photographs every detail (Greek eidos, image).",
+          "synonyms": [
+            "photographic",
+            "vivid"
+          ],
+          "antonyms": [
+            "vague",
+            "hazy"
+          ]
+        },
+        {
+          "id": "gre-elegiac",
+          "word": "elegiac",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing sorrow or mournful longing, especially for something lost or past.",
+          "example": "The film's elegiac tone lingered over a vanished world no one could reclaim.",
+          "mnemonic": "From 'elegy,' a mourning poem — elegiac is that poem's grieving mood.",
+          "synonyms": [
+            "mournful",
+            "sorrowful",
+            "plaintive"
+          ],
+          "antonyms": [
+            "joyful",
+            "cheerful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-cenotaph",
+          "word": "cenotaph",
+          "partOfSpeech": "noun",
+          "definition": "A monument honoring people whose remains lie elsewhere or were never recovered.",
+          "example": "The town's cenotaph lists the war dead, though none of them rest there.",
+          "mnemonic": "Greek kenos (empty) + taphos (tomb) — literally an 'empty tomb.'",
+          "synonyms": [
+            "monument",
+            "memorial"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-epitaph",
+          "word": "epitaph",
+          "partOfSpeech": "noun",
+          "definition": "An inscription on a gravestone in memory of the person laid to rest there.",
+          "example": "His epitaph read simply, 'He made people laugh.'",
+          "mnemonic": "epi- (upon) + taphos (tomb) — the words written upon the tomb.",
+          "synonyms": [
+            "inscription",
+            "memorial"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-elegy",
+          "word": "elegy",
+          "partOfSpeech": "noun",
+          "definition": "A sorrowful poem or song written to mourn someone who has died.",
+          "example": "At the graveside, the poet read an elegy that left the whole family in tears.",
+          "mnemonic": "Sounds like a sad 'eulogy' — an elegy is basically a eulogy set to verse.",
+          "synonyms": [
+            "lament",
+            "dirge",
+            "requiem"
+          ],
+          "antonyms": [
+            "paean",
+            "celebration"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-penumbra",
+          "word": "penumbra",
+          "partOfSpeech": "noun",
+          "definition": "The lighter, partial shadow at the outer edge of a full shadow.",
+          "example": "During the eclipse we stood in the penumbra, where only part of the sun was hidden.",
+          "mnemonic": "Latin 'paene' (almost) + 'umbra' (shadow) — almost-a-shadow.",
+          "synonyms": [
+            "half-shadow",
+            "fringe",
+            "periphery"
+          ],
+          "antonyms": [
+            "umbra",
+            "glare"
+          ]
+        },
+        {
+          "id": "gre-farrago",
+          "word": "farrago",
+          "partOfSpeech": "noun",
+          "definition": "A jumbled, confused mixture of many unrelated things.",
+          "example": "His excuse was a farrago of half-truths, bad jokes, and irrelevant statistics.",
+          "mnemonic": "From Latin 'far' (grain) — mixed cattle fodder; picture grain, straw, and scraps tossed together.",
+          "synonyms": [
+            "hodgepodge",
+            "jumble",
+            "medley"
+          ],
+          "antonyms": [
+            "order",
+            "uniformity"
+          ]
+        },
+        {
+          "id": "gre-interstice",
+          "word": "interstice",
+          "partOfSpeech": "noun",
+          "definition": "A tiny gap or narrow space between two adjoining things.",
+          "example": "Moss crept into every interstice between the old paving stones.",
+          "mnemonic": "'Inter' (between) + 'stice' (to stand) — a small space standing between things.",
+          "synonyms": [
+            "gap",
+            "crevice",
+            "chink"
+          ],
+          "antonyms": [
+            "mass",
+            "bulk"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-miscellany",
+          "word": "miscellany",
+          "partOfSpeech": "noun",
+          "definition": "A varied collection of assorted items or writings gathered together.",
+          "example": "The junk drawer held a miscellany of buttons, coins, and long-forgotten keys.",
+          "mnemonic": "Cousin of 'miscellaneous' — a miscellany is a heap of the miscellaneous.",
+          "synonyms": [
+            "assortment",
+            "potpourri",
+            "medley"
+          ],
+          "antonyms": [
+            "uniformity",
+            "set"
+          ]
+        },
+        {
+          "id": "gre-reliquary",
+          "word": "reliquary",
+          "partOfSpeech": "noun",
+          "definition": "A container that holds sacred objects or the bodily remains of a saint.",
+          "example": "The cathedral displayed a jeweled reliquary said to enshrine a saint's finger bone.",
+          "mnemonic": "'Relic' + '-ary' (a place for) — the place where relics are kept.",
+          "synonyms": [
+            "shrine",
+            "casket",
+            "ark"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-melange",
+          "word": "melange",
+          "partOfSpeech": "noun",
+          "definition": "A mixture of many varied and dissimilar elements.",
+          "example": "The stew was a rich melange of vegetables, spices, and yesterday's roast.",
+          "mnemonic": "French 'mélanger' (to mix); hear 'melon-change' — every kind of melon blended in one bowl.",
+          "synonyms": [
+            "blend",
+            "mixture",
+            "medley"
+          ],
+          "antonyms": [
+            "uniformity",
+            "purity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-recrudesce",
+          "word": "recrudesce",
+          "partOfSpeech": "verb",
+          "definition": "To break out or flare up again after a period of calm or dormancy.",
+          "example": "Old grievances began to recrudesce the moment the fragile truce collapsed.",
+          "mnemonic": "'Re-' (again) + Latin 'crudus' (raw) — a raw wound reopening.",
+          "synonyms": [
+            "recur",
+            "resurge",
+            "relapse"
+          ],
+          "antonyms": [
+            "subside",
+            "abate",
+            "heal"
+          ]
+        },
+        {
+          "id": "gre-apperception",
+          "word": "apperception",
+          "partOfSpeech": "noun",
+          "definition": "The mind's grasp of something new in terms of what it already knows.",
+          "example": "Through apperception, the child fitted the strange new word into ideas she had long understood.",
+          "mnemonic": "'Apper-' like 'appear' + '-ception' — new things appear and fold into what you grasp.",
+          "synonyms": [
+            "comprehension",
+            "assimilation",
+            "awareness"
+          ],
+          "antonyms": [
+            "incomprehension",
+            "obliviousness"
+          ]
+        },
+        {
+          "id": "gre-slough",
+          "word": "slough",
+          "partOfSpeech": "verb",
+          "definition": "To shed or cast off an outer layer, such as dead skin.",
+          "example": "As it grows, the snake will slough its worn skin and slither out anew.",
+          "mnemonic": "Say it 'sluff' — to sluff off the old, dead layer.",
+          "synonyms": [
+            "shed",
+            "discard",
+            "cast off"
+          ],
+          "antonyms": [
+            "retain",
+            "keep"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-antediluvian",
+          "word": "antediluvian",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely old-fashioned or belonging to a very ancient time.",
+          "example": "His antediluvian attitude toward computers made a smartphone seem like sorcery to him.",
+          "mnemonic": "'Ante-' (before) + 'diluvian' (the deluge) — from before Noah's Flood.",
+          "synonyms": [
+            "ancient",
+            "archaic",
+            "primeval"
+          ],
+          "antonyms": [
+            "modern",
+            "contemporary",
+            "current"
+          ]
+        },
+        {
+          "id": "gre-immure",
+          "word": "immure",
+          "partOfSpeech": "verb",
+          "definition": "To shut someone in or imprison them behind walls.",
+          "example": "The hermit chose to immure himself in a tiny stone cell for a year of silence.",
+          "mnemonic": "'Im-' (in) + Latin 'murus' (wall) — to seal someone inside walls.",
+          "synonyms": [
+            "imprison",
+            "confine",
+            "wall in"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "liberate"
+          ]
+        },
+        {
+          "id": "gre-amnesia",
+          "word": "amnesia",
+          "partOfSpeech": "noun",
+          "definition": "A partial or total loss of the ability to recall past events.",
+          "example": "After the car crash, she suffered amnesia and could not recognize her own children.",
+          "mnemonic": "a- (without) + -mnesia (memory, as in 'mnemonic') = without memory.",
+          "synonyms": [
+            "forgetfulness",
+            "memory loss",
+            "blackout"
+          ],
+          "antonyms": [
+            "recall",
+            "remembrance",
+            "recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-memento",
+          "word": "memento",
+          "partOfSpeech": "noun",
+          "definition": "An object kept as a reminder of a person, place, or event.",
+          "example": "She kept the little seashell as a memento of their honeymoon by the ocean.",
+          "mnemonic": "Sounds like 'memory' + 'note' — a note that jogs your memory.",
+          "synonyms": [
+            "souvenir",
+            "keepsake",
+            "token"
+          ],
+          "antonyms": [
+            "trifle",
+            "throwaway",
+            "junk"
+          ]
+        },
+        {
+          "id": "gre-remembrance",
+          "word": "remembrance",
+          "partOfSpeech": "noun",
+          "definition": "The act of keeping something in mind or honoring the memory of it.",
+          "example": "The town held a moment of remembrance for the soldiers who never returned.",
+          "mnemonic": "re- (again) + 'member' — to bring a 'member' of the past back into mind.",
+          "synonyms": [
+            "recollection",
+            "commemoration",
+            "memory"
+          ],
+          "antonyms": [
+            "oblivion",
+            "forgetfulness",
+            "amnesia"
+          ]
+        },
+        {
+          "id": "gre-recollect",
+          "word": "recollect",
+          "partOfSpeech": "verb",
+          "definition": "To bring back to mind something from the past.",
+          "example": "Try as he might, he could not recollect where he had left his keys.",
+          "mnemonic": "re- + 'collect' — to gather your scattered memories together again.",
+          "synonyms": [
+            "recall",
+            "remember",
+            "retrieve"
+          ],
+          "antonyms": [
+            "forget",
+            "overlook",
+            "disregard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-retention",
+          "word": "retention",
+          "partOfSpeech": "noun",
+          "definition": "The ability to keep or hold onto something, such as facts or fluid.",
+          "example": "Repeating the list aloud each night improved her retention of the new vocabulary.",
+          "mnemonic": "Latin 'tenere' means to hold — same root as 'tenant,' who holds property.",
+          "synonyms": [
+            "preservation",
+            "maintenance",
+            "holding"
+          ],
+          "antonyms": [
+            "release",
+            "loss",
+            "forgetting"
+          ]
+        },
+        {
+          "id": "gre-nepenthe",
+          "word": "nepenthe",
+          "partOfSpeech": "noun",
+          "definition": "A drug or drink that banishes grief and brings blissful forgetting.",
+          "example": "He drank deeply, hoping the wine would be a nepenthe for his heartbreak.",
+          "mnemonic": "ne- (not) + Greek 'penthos' (grief) = 'no grief.'",
+          "synonyms": [
+            "balm",
+            "anodyne",
+            "opiate"
+          ],
+          "antonyms": [
+            "irritant",
+            "sorrow",
+            "torment"
+          ]
+        },
+        {
+          "id": "gre-retrieve",
+          "word": "retrieve",
+          "partOfSpeech": "verb",
+          "definition": "To find and bring back something that was lost or stored away.",
+          "example": "The dog splashed into the lake to retrieve the stick her owner had thrown.",
+          "mnemonic": "Picture a golden 'retriever' — a dog bred to bring things back.",
+          "synonyms": [
+            "recover",
+            "regain",
+            "reclaim"
+          ],
+          "antonyms": [
+            "lose",
+            "misplace",
+            "abandon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-unmindful",
+          "word": "unmindful",
+          "partOfSpeech": "adjective",
+          "definition": "Not paying attention to or caring about something important.",
+          "example": "Unmindful of the time, she read until the library lights suddenly went dark.",
+          "mnemonic": "un- (not) + 'mindful' — literally 'not minding' what surrounds you.",
+          "synonyms": [
+            "heedless",
+            "oblivious",
+            "careless"
+          ],
+          "antonyms": [
+            "attentive",
+            "mindful",
+            "aware"
+          ]
+        },
+        {
+          "id": "gre-heedless",
+          "word": "heedless",
+          "partOfSpeech": "adjective",
+          "definition": "Careless and paying no attention to danger or advice.",
+          "example": "Heedless of the warning signs, the swimmers waded past the roped-off area.",
+          "mnemonic": "'Heed' means to pay attention; '-less' strips it away — no heed given.",
+          "synonyms": [
+            "reckless",
+            "careless",
+            "inattentive"
+          ],
+          "antonyms": [
+            "careful",
+            "cautious",
+            "attentive"
+          ]
+        },
+        {
+          "id": "gre-nostalgic",
+          "word": "nostalgic",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling a wistful, sentimental longing for happier times in the past.",
+          "example": "Old photographs made her nostalgic for summers spent at her grandmother's farm.",
+          "mnemonic": "Greek 'nostos' (homecoming) + 'algos' (pain) — the ache to return home.",
+          "synonyms": [
+            "wistful",
+            "sentimental",
+            "homesick"
+          ],
+          "antonyms": [
+            "indifferent",
+            "detached",
+            "forward-looking"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-keepsake",
+          "word": "keepsake",
+          "partOfSpeech": "noun",
+          "definition": "A small item held onto because of the memories attached to it.",
+          "example": "Her grandmother's thimble is a keepsake she will never sell or throw away.",
+          "mnemonic": "'Keep' + 'sake' — something you keep for the sake of remembering.",
+          "synonyms": [
+            "memento",
+            "souvenir",
+            "token"
+          ],
+          "antonyms": [
+            "clutter",
+            "castoff",
+            "junk"
+          ]
+        },
+        {
+          "id": "gre-perdurable",
+          "word": "perdurable",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting for an extremely long time; permanent and hard to destroy.",
+          "example": "The Roman aqueducts proved perdurable, still standing after nearly two thousand years.",
+          "mnemonic": "per- (through) + Latin 'durare' (to last) — lasting all the way through.",
+          "synonyms": [
+            "permanent",
+            "everlasting",
+            "imperishable"
+          ],
+          "antonyms": [
+            "fleeting",
+            "temporary",
+            "ephemeral"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced and low-frequency",
+  "createdAt": "2026-09-12T10:10:40.452Z"
+}

@@ -1,0 +1,1482 @@
+{
+  "track": "gre",
+  "ordinal": 38,
+  "title": "Vision and blindness",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-purblind",
+          "word": "purblind",
+          "partOfSpeech": "adjective",
+          "definition": "Seeing poorly, or slow to notice and grasp what is obvious.",
+          "example": "The purblind old scholar held the letter an inch from his nose, squinting at every word.",
+          "mnemonic": "Hear 'poor + blind' — someone whose sight, or insight, is nearly gone.",
+          "synonyms": [
+            "dim-sighted",
+            "obtuse",
+            "myopic"
+          ],
+          "antonyms": [
+            "perceptive",
+            "sharp-sighted",
+            "discerning"
+          ]
+        },
+        {
+          "id": "gre-myopic",
+          "word": "myopic",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to see distant things clearly, or failing to plan for the future.",
+          "example": "Cutting the research budget to boost this quarter's profits was a myopic decision the company soon regretted.",
+          "mnemonic": "'My optic' nerve is weak — my eyes, and my view of the future, both fall short.",
+          "synonyms": [
+            "nearsighted",
+            "shortsighted",
+            "blinkered"
+          ],
+          "antonyms": [
+            "farsighted",
+            "prescient",
+            "visionary"
+          ]
+        },
+        {
+          "id": "gre-tenebrous",
+          "word": "tenebrous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of darkness and shadow; gloomy and hard to see through.",
+          "example": "We inched down the tenebrous stairwell, our flashlight barely denting the blackness below.",
+          "mnemonic": "Latin 'tenebrae' means darkness — the Tenebrae service ends with every candle snuffed out.",
+          "synonyms": [
+            "murky",
+            "shadowy",
+            "gloomy"
+          ],
+          "antonyms": [
+            "bright",
+            "luminous",
+            "radiant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-caliginous",
+          "word": "caliginous",
+          "partOfSpeech": "adjective",
+          "definition": "Dim, misty, and murky, with little or no light.",
+          "example": "The caliginous marsh swallowed the path ahead, fog and gloom hiding every landmark.",
+          "mnemonic": "Latin 'caligo' = mist; picture a clinging fog too thick to see through.",
+          "synonyms": [
+            "misty",
+            "murky",
+            "dim"
+          ],
+          "antonyms": [
+            "clear",
+            "bright",
+            "luminous"
+          ]
+        },
+        {
+          "id": "gre-fuliginous",
+          "word": "fuliginous",
+          "partOfSpeech": "adjective",
+          "definition": "Sooty and smoky in color; dark as if coated with grime.",
+          "example": "After the fire, fuliginous streaks coated the walls and the air still reeked of soot.",
+          "mnemonic": "Latin 'fuligo' = soot; imagine a chimney 'full of' greasy black smoke.",
+          "synonyms": [
+            "sooty",
+            "smoky",
+            "dusky"
+          ],
+          "antonyms": [
+            "clean",
+            "bright",
+            "pristine"
+          ]
+        },
+        {
+          "id": "gre-crepuscular",
+          "word": "crepuscular",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to twilight, or active mainly at dawn and dusk.",
+          "example": "Bats and moths emerge in the crepuscular hush, that brief hour between sunset and full night.",
+          "mnemonic": "Latin 'crepusculum' = twilight; 'creepy' creatures come out as the light fades.",
+          "synonyms": [
+            "twilit",
+            "dim",
+            "shadowy"
+          ],
+          "antonyms": [
+            "diurnal",
+            "sunlit",
+            "bright"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-vespertine",
+          "word": "vespertine",
+          "partOfSpeech": "adjective",
+          "definition": "Happening or active in the evening rather than during the day.",
+          "example": "The vespertine flowers stayed shut all afternoon, opening their petals only as the sun went down.",
+          "mnemonic": "'Vespers' are evening prayers; Venus shines as the evening 'vesper' star.",
+          "synonyms": [
+            "evening",
+            "twilight",
+            "nocturnal"
+          ],
+          "antonyms": [
+            "matutinal",
+            "morning",
+            "diurnal"
+          ]
+        },
+        {
+          "id": "gre-stygian",
+          "word": "stygian",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely dark, gloomy, and forbidding, like the deepest underworld.",
+          "example": "The cave narrowed into a stygian passage where no daylight had ever reached.",
+          "mnemonic": "The river Styx runs through the underworld — Stygian black is hell-dark.",
+          "synonyms": [
+            "pitch-dark",
+            "infernal",
+            "gloomy"
+          ],
+          "antonyms": [
+            "bright",
+            "heavenly",
+            "luminous"
+          ]
+        },
+        {
+          "id": "gre-blinkered",
+          "word": "blinkered",
+          "partOfSpeech": "adjective",
+          "definition": "Having a narrow outlook that ignores other views or possibilities.",
+          "example": "His blinkered approach to the problem dismissed every option outside his own department.",
+          "mnemonic": "Horses wear blinkers that block their side vision — a deliberately narrow view.",
+          "synonyms": [
+            "narrow-minded",
+            "insular",
+            "myopic"
+          ],
+          "antonyms": [
+            "open-minded",
+            "broad-minded",
+            "receptive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-effulgent",
+          "word": "effulgent",
+          "partOfSpeech": "adjective",
+          "definition": "Shining brilliantly and giving off a radiant, dazzling light.",
+          "example": "The bride's effulgent smile lit up the room the moment she stepped through the doors.",
+          "mnemonic": "Latin 'ex-' (out) + 'fulgere' (to shine) — light bursting OUT.",
+          "synonyms": [
+            "radiant",
+            "brilliant",
+            "luminous"
+          ],
+          "antonyms": [
+            "dim",
+            "dull",
+            "dark"
+          ]
+        },
+        {
+          "id": "gre-refulgent",
+          "word": "refulgent",
+          "partOfSpeech": "adjective",
+          "definition": "Glowing brightly with a brilliant, reflected radiance.",
+          "example": "Sunlight struck the polished dome, making it refulgent against the morning sky.",
+          "mnemonic": "'Re-' (back) + 'fulgere' (shine) — light shining BACK at you in reflected glory.",
+          "synonyms": [
+            "gleaming",
+            "resplendent",
+            "radiant"
+          ],
+          "antonyms": [
+            "dull",
+            "dim",
+            "lackluster"
+          ]
+        },
+        {
+          "id": "gre-incandescent",
+          "word": "incandescent",
+          "partOfSpeech": "adjective",
+          "definition": "Glowing white-hot with intense heat, or brilliantly bright.",
+          "example": "The blacksmith drew an incandescent bar of iron from the forge, glowing orange-white.",
+          "mnemonic": "Latin 'candere' (to glow white-hot) — the same root as 'candle' and the old light bulb.",
+          "synonyms": [
+            "glowing",
+            "white-hot",
+            "brilliant"
+          ],
+          "antonyms": [
+            "dark",
+            "dull",
+            "cold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-iridescent",
+          "word": "iridescent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing shifting rainbow colors that change with the viewing angle.",
+          "example": "Soap bubbles drifted past, their iridescent surfaces flashing green, pink, and blue.",
+          "mnemonic": "Named for Iris, goddess of the rainbow — rainbow hues swimming on a surface.",
+          "synonyms": [
+            "opalescent",
+            "prismatic",
+            "shimmering"
+          ],
+          "antonyms": [
+            "colorless",
+            "drab",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-opalescent",
+          "word": "opalescent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing a soft, milky play of gently shifting colors.",
+          "example": "At dawn the sky turned opalescent, pale colors shimmering and shifting above the hills.",
+          "mnemonic": "Like an opal gemstone — a milky stone with colors swimming inside it.",
+          "synonyms": [
+            "iridescent",
+            "pearly",
+            "shimmering"
+          ],
+          "antonyms": [
+            "opaque",
+            "dull",
+            "colorless"
+          ]
+        },
+        {
+          "id": "gre-chatoyant",
+          "word": "chatoyant",
+          "partOfSpeech": "adjective",
+          "definition": "Having a shifting, band-like luster resembling a cat's eye.",
+          "example": "The polished gemstone was chatoyant, a bright streak of light sliding across it as she turned her hand.",
+          "mnemonic": "French 'chat' (cat) + 'oeil' (eye) — a cat's-eye gleam gliding across the stone.",
+          "synonyms": [
+            "shimmering",
+            "lustrous",
+            "gleaming"
+          ],
+          "antonyms": [
+            "matte",
+            "dull",
+            "lusterless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-nacreous",
+          "word": "nacreous",
+          "partOfSpeech": "adjective",
+          "definition": "Having the soft, shimmering, pearly sheen of the inside of a seashell.",
+          "example": "At dawn the calm sky turned nacreous, glowing faintly like the lining of an oyster.",
+          "mnemonic": "Nacre is the real name for mother-of-pearl — a nacreous surface shimmers exactly like it.",
+          "synonyms": [
+            "pearly",
+            "iridescent",
+            "opalescent"
+          ],
+          "antonyms": [
+            "dull",
+            "matte"
+          ]
+        },
+        {
+          "id": "gre-prismatic",
+          "word": "prismatic",
+          "partOfSpeech": "adjective",
+          "definition": "Showing bright, varied colors like sunlight split into a rainbow through glass.",
+          "example": "When the chandelier caught the morning light, prismatic bands danced across the ceiling.",
+          "mnemonic": "Picture a triangular prism splitting white light into a rainbow — prismatic means rainbow-hued.",
+          "synonyms": [
+            "iridescent",
+            "multicolored",
+            "rainbow-like"
+          ],
+          "antonyms": [
+            "monochrome",
+            "colorless"
+          ]
+        },
+        {
+          "id": "gre-lurid",
+          "word": "lurid",
+          "partOfSpeech": "adjective",
+          "definition": "Shockingly vivid or sensational, often in a gruesome or distasteful way.",
+          "example": "The tabloid splashed every lurid detail of the scandal across its front page to sell copies.",
+          "mnemonic": "Lurid sounds like 'lured' — sensational, shocking stories lure readers in.",
+          "synonyms": [
+            "sensational",
+            "gruesome",
+            "shocking"
+          ],
+          "antonyms": [
+            "mild",
+            "restrained",
+            "tasteful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-spectral",
+          "word": "spectral",
+          "partOfSpeech": "adjective",
+          "definition": "Ghostly; resembling a faint, eerie, barely-there apparition.",
+          "example": "A spectral figure seemed to drift across the moonlit graveyard and then vanished.",
+          "mnemonic": "Spectral hides the word 'specter' — and a specter is a ghost.",
+          "synonyms": [
+            "ghostly",
+            "phantom",
+            "eerie"
+          ],
+          "antonyms": [
+            "solid",
+            "corporeal",
+            "tangible"
+          ]
+        },
+        {
+          "id": "gre-delusive",
+          "word": "delusive",
+          "partOfSpeech": "adjective",
+          "definition": "Creating a false impression and likely to mislead someone about hope or reality.",
+          "example": "His delusive promises of overnight riches left every investor penniless.",
+          "mnemonic": "Delusive sounds like 'illusive' — both trick you with false appearances.",
+          "synonyms": [
+            "deceptive",
+            "misleading",
+            "illusory"
+          ],
+          "antonyms": [
+            "genuine",
+            "truthful",
+            "real"
+          ]
+        },
+        {
+          "id": "gre-clairvoyant",
+          "word": "clairvoyant",
+          "partOfSpeech": "adjective",
+          "definition": "Able to sense or foresee events beyond the reach of ordinary perception.",
+          "example": "The clairvoyant claimed she could read the stranger's future in a spread of worn cards.",
+          "mnemonic": "French 'clair' (clear) + 'voyant' (seeing) — a clear-seer peering into the unknown.",
+          "synonyms": [
+            "psychic",
+            "prophetic",
+            "visionary"
+          ],
+          "antonyms": [
+            "oblivious",
+            "unperceptive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-bleary",
+          "word": "bleary",
+          "partOfSpeech": "adjective",
+          "definition": "Dull, watery, and unable to focus, usually from tiredness or crying.",
+          "example": "After the all-night drive, he squinted at the road through bleary eyes.",
+          "mnemonic": "Bleary sounds like 'blurry' — bleary eyes make everything look blurry.",
+          "synonyms": [
+            "blurry",
+            "watery",
+            "bloodshot"
+          ],
+          "antonyms": [
+            "clear",
+            "sharp",
+            "alert"
+          ]
+        },
+        {
+          "id": "gre-purview",
+          "word": "purview",
+          "partOfSpeech": "noun",
+          "definition": "The range of a person's or group's authority, responsibility, or concern.",
+          "example": "Hiring decisions fall outside the intern's purview and must go to the manager.",
+          "mnemonic": "Read it as 'pure view' — the full view of everything your authority covers.",
+          "synonyms": [
+            "scope",
+            "jurisdiction",
+            "domain"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-ken",
+          "word": "ken",
+          "partOfSpeech": "noun",
+          "definition": "The range of what one knows or is able to understand.",
+          "example": "Advanced quantum theory lies well beyond the ken of most casual readers.",
+          "mnemonic": "In Scots, to 'ken' is to know — so your ken is the sum of all you know.",
+          "synonyms": [
+            "knowledge",
+            "understanding",
+            "grasp"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-vista",
+          "word": "vista",
+          "partOfSpeech": "noun",
+          "definition": "A broad, pleasing view seen through or along a narrow opening.",
+          "example": "From the hilltop cabin, a vista of rolling vineyards stretched all the way to the horizon.",
+          "mnemonic": "'Vista' is Italian and Spanish for 'view' — Windows Vista promised a better view of your files.",
+          "synonyms": [
+            "view",
+            "outlook",
+            "scene"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-panorama",
+          "word": "panorama",
+          "partOfSpeech": "noun",
+          "definition": "An unbroken view of a whole surrounding area in every direction.",
+          "example": "The rooftop terrace offered a dazzling panorama of the entire city skyline at dusk.",
+          "mnemonic": "'Pan-' means all + '-orama' means sight — an all-around, see-everything sight.",
+          "synonyms": [
+            "vista",
+            "sweep",
+            "scene"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-prospect",
+          "word": "prospect",
+          "partOfSpeech": "noun",
+          "definition": "The likelihood or expectation of a future event; also a wide view ahead.",
+          "example": "The prospect of a promotion kept her motivated through the long, grinding winter months.",
+          "mnemonic": "'Pro-' (forward) + 'spect' (look) — to look forward to what may be coming.",
+          "synonyms": [
+            "outlook",
+            "expectation",
+            "likelihood"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-countenance",
+          "word": "countenance",
+          "partOfSpeech": "noun",
+          "definition": "A person's face, or the expression it reveals about their feelings.",
+          "example": "Her calm countenance never once betrayed the panic churning inside her.",
+          "mnemonic": "Countenance contains 'contain' — your face contains and shows what you feel.",
+          "synonyms": [
+            "expression",
+            "face",
+            "visage"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-visage",
+          "word": "visage",
+          "partOfSpeech": "noun",
+          "definition": "The face or set of features belonging to a person.",
+          "example": "The old sailor's weathered visage spoke of decades spent battling the open sea.",
+          "mnemonic": "Visage shares a root with 'visual' (French 'visage' = face) — what you visually see of someone.",
+          "synonyms": [
+            "face",
+            "countenance",
+            "features"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-mien",
+          "word": "mien",
+          "partOfSpeech": "noun",
+          "definition": "A person's manner, bearing, or air that reveals mood or character.",
+          "example": "The general strode in with a stern, commanding mien that instantly silenced the room.",
+          "mnemonic": "Mien sounds like the start of 'demeanor' — both describe how you carry yourself.",
+          "synonyms": [
+            "demeanor",
+            "bearing",
+            "manner"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-physiognomy",
+          "word": "physiognomy",
+          "partOfSpeech": "noun",
+          "definition": "A person's facial features, especially as thought to reveal character or origin.",
+          "example": "The detective studied the suspect's physiognomy, convinced the sharp jaw hinted at stubbornness.",
+          "mnemonic": "Physio (body/face) + gnomy (knowing, as in 'gnome' who knows secrets) — knowing someone by their face.",
+          "synonyms": [
+            "countenance",
+            "visage",
+            "features"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-semblance",
+          "word": "semblance",
+          "partOfSpeech": "noun",
+          "definition": "An outward appearance that may not match what lies beneath.",
+          "example": "After weeks of chaos, the team finally restored some semblance of order to the office.",
+          "mnemonic": "Sounds like 'resemblance' — a semblance is what something merely resembles, not what it truly is.",
+          "synonyms": [
+            "appearance",
+            "guise",
+            "pretense"
+          ],
+          "antonyms": [
+            "reality",
+            "substance"
+          ]
+        },
+        {
+          "id": "gre-mirage",
+          "word": "mirage",
+          "partOfSpeech": "noun",
+          "definition": "A shimmering optical illusion, often of water, produced by heat over a distance.",
+          "example": "Stranded in the desert, he crawled toward the pool of water only to find a mirage.",
+          "mnemonic": "Sounds like 'mirror' — hot air acts as a mirror bending light into something that isn't there.",
+          "synonyms": [
+            "illusion",
+            "hallucination",
+            "delusion"
+          ],
+          "antonyms": [
+            "reality",
+            "actuality"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-apparition",
+          "word": "apparition",
+          "partOfSpeech": "noun",
+          "definition": "A ghostly figure that suddenly and unexpectedly comes into view.",
+          "example": "The night guard swore an apparition glided through the locked gallery and vanished into the wall.",
+          "mnemonic": "'Appear' + -ition — the noun for something that suddenly appears out of nowhere.",
+          "synonyms": [
+            "ghost",
+            "wraith",
+            "vision"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-specter",
+          "word": "specter",
+          "partOfSpeech": "noun",
+          "definition": "A haunting ghost, or a threatening idea that fills people with dread.",
+          "example": "The specter of another recession loomed over every decision the board made.",
+          "mnemonic": "Share the root of 'spectacle' (to look) — a specter is a frightening thing you seem to see.",
+          "synonyms": [
+            "phantom",
+            "ghost",
+            "menace"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-phantom",
+          "word": "phantom",
+          "partOfSpeech": "noun",
+          "definition": "Something that seems to exist but has no real physical presence.",
+          "example": "The amputee still felt a phantom itch where his leg used to be.",
+          "mnemonic": "Think 'Phantom of the Opera' — unseen, elusive, never quite there.",
+          "synonyms": [
+            "ghost",
+            "illusion",
+            "apparition"
+          ],
+          "antonyms": [
+            "reality"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-murk",
+          "word": "murk",
+          "partOfSpeech": "noun",
+          "definition": "Darkness or gloom that makes things hard to see.",
+          "example": "Divers switched on their lamps as they descended into the murk of the flooded cave.",
+          "mnemonic": "Rhymes with 'dark' cousin 'mirk' — a murky puddle you can't see the bottom of.",
+          "synonyms": [
+            "gloom",
+            "darkness",
+            "fog"
+          ],
+          "antonyms": [
+            "brightness",
+            "clarity"
+          ]
+        },
+        {
+          "id": "gre-gloaming",
+          "word": "gloaming",
+          "partOfSpeech": "noun",
+          "definition": "The soft, dim light just after sunset.",
+          "example": "We lingered on the porch through the gloaming, watching the first stars appear.",
+          "mnemonic": "Related to 'glow' + 'gloom' — the glowing gloom of twilight.",
+          "synonyms": [
+            "twilight",
+            "dusk",
+            "nightfall"
+          ],
+          "antonyms": [
+            "dawn",
+            "daybreak"
+          ]
+        },
+        {
+          "id": "gre-umbra",
+          "word": "umbra",
+          "partOfSpeech": "noun",
+          "definition": "The darkest central part of a shadow, where light is fully blocked.",
+          "example": "During the eclipse, anyone standing in the moon's umbra saw the sky go completely dark.",
+          "mnemonic": "Same root as 'umbrella' — the tool that casts a dark shadow to block the sun.",
+          "synonyms": [
+            "shadow",
+            "shade",
+            "darkness"
+          ],
+          "antonyms": [
+            "light",
+            "brightness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-sheen",
+          "word": "sheen",
+          "partOfSpeech": "noun",
+          "definition": "A soft, gentle brightness on a surface.",
+          "example": "She polished the mahogany table until it took on a warm, honeyed sheen.",
+          "mnemonic": "Rhymes with 'clean' — a freshly cleaned surface has a sheen.",
+          "synonyms": [
+            "gloss",
+            "shine",
+            "luster"
+          ],
+          "antonyms": [
+            "dullness",
+            "matte"
+          ]
+        },
+        {
+          "id": "gre-luster",
+          "word": "luster",
+          "partOfSpeech": "noun",
+          "definition": "The glowing quality of a surface that reflects light softly.",
+          "example": "Regular oiling kept the old leather saddle's luster from fading.",
+          "mnemonic": "Sounds like 'lust her' — you lust after the glow of a pearl's luster.",
+          "synonyms": [
+            "sheen",
+            "gloss",
+            "radiance"
+          ],
+          "antonyms": [
+            "dullness",
+            "tarnish"
+          ]
+        },
+        {
+          "id": "gre-refulgence",
+          "word": "refulgence",
+          "partOfSpeech": "noun",
+          "definition": "A shining, dazzling brilliance of light.",
+          "example": "The cathedral's gold dome caught the noon sun in blinding refulgence.",
+          "mnemonic": "'Re-' (back) + Latin 'fulgere' (to flash/shine) — light flashing back at you, like 'fulgurite' from lightning.",
+          "synonyms": [
+            "brilliance",
+            "radiance",
+            "splendor"
+          ],
+          "antonyms": [
+            "darkness",
+            "dullness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-effulgence",
+          "word": "effulgence",
+          "partOfSpeech": "noun",
+          "definition": "A flood of brilliant light streaming outward from a source.",
+          "example": "As the doors opened, the effulgence of a thousand chandeliers spilled into the courtyard.",
+          "mnemonic": "'Ef-' (out) + Latin 'fulgere' (to shine) — light shining OUT, unlike refulgence shining back.",
+          "synonyms": [
+            "brilliance",
+            "radiance",
+            "brightness"
+          ],
+          "antonyms": [
+            "darkness",
+            "gloom"
+          ]
+        },
+        {
+          "id": "gre-radiance",
+          "word": "radiance",
+          "partOfSpeech": "noun",
+          "definition": "A warm, glowing brightness that spreads out from something.",
+          "example": "The bride's happiness gave her face a radiance the photos couldn't quite capture.",
+          "mnemonic": "Think 'radiate' + 'radar rays' — light and warmth radiating outward in all directions.",
+          "synonyms": [
+            "glow",
+            "brilliance",
+            "luminosity"
+          ],
+          "antonyms": [
+            "dullness",
+            "darkness"
+          ]
+        },
+        {
+          "id": "gre-luminosity",
+          "word": "luminosity",
+          "partOfSpeech": "noun",
+          "definition": "The measurable amount of light a thing gives off.",
+          "example": "Astronomers rank stars by their luminosity, from faint dwarfs to blazing giants.",
+          "mnemonic": "'Lumin-' as in 'illuminate' and 'lumen' (the unit of light) — how much light is measured.",
+          "synonyms": [
+            "brightness",
+            "brilliance",
+            "radiance"
+          ],
+          "antonyms": [
+            "dimness",
+            "darkness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-scintilla",
+          "word": "scintilla",
+          "partOfSpeech": "noun",
+          "definition": "A very small amount or faint trace of something.",
+          "example": "There wasn't a scintilla of doubt in her voice as she read the verdict.",
+          "mnemonic": "From Latin for 'spark' — a single spark is a tiny scintilla of fire.",
+          "synonyms": [
+            "trace",
+            "iota",
+            "spark"
+          ],
+          "antonyms": [
+            "abundance",
+            "mass"
+          ]
+        },
+        {
+          "id": "gre-clairvoyance",
+          "word": "clairvoyance",
+          "partOfSpeech": "noun",
+          "definition": "The claimed ability to sense hidden or future events beyond ordinary perception.",
+          "example": "The fortune-teller insisted her clairvoyance let her see the stranger's coming misfortune.",
+          "mnemonic": "French 'clair' (clear) + 'voyance' (seeing) = clear-seeing into the unknown.",
+          "synonyms": [
+            "second sight",
+            "precognition",
+            "ESP"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-reconnaissance",
+          "word": "reconnaissance",
+          "partOfSpeech": "noun",
+          "definition": "A preliminary survey of an area to gather information, often about an enemy.",
+          "example": "Scouts were sent ahead on reconnaissance before the battalion advanced into the valley.",
+          "mnemonic": "'Recon' + French 'connaissance' (knowledge) — gaining knowledge of the ground first.",
+          "synonyms": [
+            "scouting",
+            "survey",
+            "recon"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-surveil",
+          "word": "surveil",
+          "partOfSpeech": "verb",
+          "definition": "To watch or monitor someone closely, especially to detect wrongdoing.",
+          "example": "Agents surveil the suspect's apartment around the clock from a parked van.",
+          "mnemonic": "'sur-' (over) + 'veiller' (to watch) — to watch over from above.",
+          "synonyms": [
+            "monitor",
+            "observe",
+            "watch"
+          ],
+          "antonyms": [
+            "ignore",
+            "neglect"
+          ]
+        },
+        {
+          "id": "gre-espy",
+          "word": "espy",
+          "partOfSpeech": "verb",
+          "definition": "To catch sight of or notice something, often from a distance.",
+          "example": "From the crow's nest, the sailor espied a faint sail on the horizon.",
+          "mnemonic": "Hides the word 'spy' — you spy something with your eyes.",
+          "synonyms": [
+            "spot",
+            "glimpse",
+            "descry"
+          ],
+          "antonyms": [
+            "overlook",
+            "miss"
+          ]
+        },
+        {
+          "id": "gre-behold",
+          "word": "behold",
+          "partOfSpeech": "verb",
+          "definition": "To look at or gaze upon something, especially something remarkable.",
+          "example": "The pilgrims fell silent to behold the cathedral's soaring golden dome.",
+          "mnemonic": "'be' + 'hold' — to hold something steadily within your gaze.",
+          "synonyms": [
+            "gaze",
+            "observe",
+            "regard"
+          ],
+          "antonyms": [
+            "ignore",
+            "overlook"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-becloud",
+          "word": "becloud",
+          "partOfSpeech": "verb",
+          "definition": "To make something unclear or confusing, as if covering it in mist.",
+          "example": "Too many irrelevant statistics only becloud the committee's otherwise simple decision.",
+          "mnemonic": "'be' + 'cloud' — to roll clouds over something until it blurs.",
+          "synonyms": [
+            "obscure",
+            "muddle",
+            "confuse"
+          ],
+          "antonyms": [
+            "clarify",
+            "illuminate"
+          ]
+        },
+        {
+          "id": "gre-bedim",
+          "word": "bedim",
+          "partOfSpeech": "verb",
+          "definition": "To make something darker, fainter, or less clear.",
+          "example": "Years of cigarette smoke had bedimmed the tavern's once-bright windows.",
+          "mnemonic": "'be' + 'dim' — literally to make a thing dim.",
+          "synonyms": [
+            "darken",
+            "dull",
+            "obscure"
+          ],
+          "antonyms": [
+            "brighten",
+            "illuminate"
+          ]
+        },
+        {
+          "id": "gre-eclipse",
+          "word": "eclipse",
+          "partOfSpeech": "verb",
+          "definition": "To surpass or overshadow someone, making them seem less important.",
+          "example": "The young prodigy's talent soon eclipsed that of her famous teacher.",
+          "mnemonic": "Picture a solar eclipse — the moon slides over the sun and blots it out.",
+          "synonyms": [
+            "overshadow",
+            "outshine",
+            "surpass"
+          ],
+          "antonyms": [
+            "trail",
+            "lag"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-enshroud",
+          "word": "enshroud",
+          "partOfSpeech": "verb",
+          "definition": "To cover or conceal something completely, as with a cloth or mist.",
+          "example": "Thick fog enshrouded the moor, hiding the path just a few feet ahead.",
+          "mnemonic": "'en' + 'shroud' — to wrap something up in a burial shroud.",
+          "synonyms": [
+            "veil",
+            "cloak",
+            "envelop"
+          ],
+          "antonyms": [
+            "reveal",
+            "expose"
+          ]
+        },
+        {
+          "id": "gre-scintillate",
+          "word": "scintillate",
+          "partOfSpeech": "verb",
+          "definition": "To sparkle, flash, or throw off brilliant little flashes of light.",
+          "example": "Diamonds scintillated under the ballroom chandeliers with her every movement.",
+          "mnemonic": "Shares the Latin root for 'spark' — it throws off tiny sparks of light.",
+          "synonyms": [
+            "sparkle",
+            "glitter",
+            "twinkle"
+          ],
+          "antonyms": [
+            "darken",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-hyaline",
+          "word": "hyaline",
+          "partOfSpeech": "adjective",
+          "definition": "Having a clear, glassy, or transparent quality.",
+          "example": "The diver floated above the hyaline lagoon, seeing straight down to the pale sand.",
+          "mnemonic": "Greek 'hyalos' means glass — think 'high-shine glass.'",
+          "synonyms": [
+            "glassy",
+            "transparent",
+            "translucent"
+          ],
+          "antonyms": [
+            "opaque",
+            "cloudy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-phosphorescent",
+          "word": "phosphorescent",
+          "partOfSpeech": "adjective",
+          "definition": "Glowing softly in the dark after absorbing light, without noticeable heat.",
+          "example": "The phosphorescent plankton lit the boat's wake with an eerie blue shimmer.",
+          "mnemonic": "Think of phosphorus on old watch dials that keeps glowing in the dark.",
+          "synonyms": [
+            "luminescent",
+            "glowing",
+            "luminous"
+          ],
+          "antonyms": [
+            "dark",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-glaucous",
+          "word": "glaucous",
+          "partOfSpeech": "adjective",
+          "definition": "Having a pale grayish or bluish-green color, often with a powdery coating.",
+          "example": "The grapes wore a glaucous film that softened their deep purple skin.",
+          "mnemonic": "Same Greek root as 'glaucoma' — a gray-blue clouding of the eye.",
+          "synonyms": [
+            "bluish-gray",
+            "sea-green"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-cynosure",
+          "word": "cynosure",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that is the center of attention or admiration.",
+          "example": "In her scarlet gown, she was the cynosure of every eye at the gala.",
+          "mnemonic": "Greek 'dog's tail' — the constellation holding the North Star that draws all eyes.",
+          "synonyms": [
+            "focal point",
+            "center of attention",
+            "lodestar"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-panoptic",
+          "word": "panoptic",
+          "partOfSpeech": "adjective",
+          "definition": "Showing or covering everything visible in a single comprehensive view.",
+          "example": "From the observatory's rooftop we had a panoptic sweep of the entire valley below.",
+          "mnemonic": "pan- (all) + optic (sight): one eye taking in absolutely everything.",
+          "synonyms": [
+            "comprehensive",
+            "all-encompassing",
+            "sweeping"
+          ],
+          "antonyms": [
+            "narrow",
+            "partial",
+            "restricted"
+          ]
+        },
+        {
+          "id": "gre-specular",
+          "word": "specular",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to or resembling a mirror, especially in reflecting light sharply.",
+          "example": "The polished chrome gave off a specular gleam that bounced the sunlight straight into my eyes.",
+          "mnemonic": "From Latin 'speculum,' a mirror; think of 'spectacles' you look through.",
+          "synonyms": [
+            "mirror-like",
+            "reflective",
+            "glassy"
+          ],
+          "antonyms": [
+            "matte",
+            "diffuse",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-glower",
+          "word": "glower",
+          "partOfSpeech": "verb",
+          "definition": "To stare with sullen annoyance or barely contained anger.",
+          "example": "The coach glowered at the players who had skipped practice, arms crossed and silent.",
+          "mnemonic": "A glower is a glare hot enough to make coals glow: anger burning in the eyes.",
+          "synonyms": [
+            "scowl",
+            "glare",
+            "frown"
+          ],
+          "antonyms": [
+            "smile",
+            "beam",
+            "grin"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-leer",
+          "word": "leer",
+          "partOfSpeech": "verb",
+          "definition": "To look at someone with a sly, malicious, or lustful sideways expression.",
+          "example": "He leered at the passing stranger until she quickened her pace and looked away.",
+          "mnemonic": "Leer sounds like 'sneer' and 'leans near': picture a creepy grin sliding toward you.",
+          "synonyms": [
+            "ogle",
+            "sneer",
+            "smirk"
+          ],
+          "antonyms": [
+            "avert",
+            "ignore"
+          ]
+        },
+        {
+          "id": "gre-ogle",
+          "word": "ogle",
+          "partOfSpeech": "verb",
+          "definition": "To stare at someone in an obvious, lustful, or greedy way.",
+          "example": "He kept trying to ogle the models backstage until a guard escorted him out.",
+          "mnemonic": "Sounds like 'goggle' — picture someone wearing huge goggles to get a better stare at someone.",
+          "synonyms": [
+            "leer",
+            "gawk",
+            "eye"
+          ],
+          "antonyms": [
+            "ignore",
+            "overlook"
+          ]
+        },
+        {
+          "id": "gre-obnubilate",
+          "word": "obnubilate",
+          "partOfSpeech": "verb",
+          "definition": "To cloud, darken, or obscure something from clear view or understanding.",
+          "example": "The dense jargon only served to obnubilate the report, leaving the committee more confused than before.",
+          "mnemonic": "Hidden inside is Latin 'nubilus' (cloudy), cousin of 'nimbus': to bury under clouds.",
+          "synonyms": [
+            "obscure",
+            "befog",
+            "cloud"
+          ],
+          "antonyms": [
+            "clarify",
+            "illuminate",
+            "reveal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-umbrageous",
+          "word": "umbrageous",
+          "partOfSpeech": "adjective",
+          "definition": "Providing shade, or full of shadows cast by leaves and trees.",
+          "example": "We spread our picnic blanket in an umbrageous corner of the park, grateful for the cool.",
+          "mnemonic": "Umbrella + umbra (shadow): an umbrella makes its own patch of shade.",
+          "synonyms": [
+            "shady",
+            "shaded",
+            "leafy"
+          ],
+          "antonyms": [
+            "sunny",
+            "exposed",
+            "bright"
+          ]
+        },
+        {
+          "id": "gre-vitreous",
+          "word": "vitreous",
+          "partOfSpeech": "adjective",
+          "definition": "Resembling glass in hardness, transparency, or brittleness.",
+          "example": "The kiln fused the clay into a hard, vitreous surface that shone like a bottle.",
+          "mnemonic": "Latin 'vitrum' = glass; think of a 'vitrine,' the glass display case in a museum.",
+          "synonyms": [
+            "glassy",
+            "glasslike",
+            "transparent"
+          ],
+          "antonyms": [
+            "opaque",
+            "matte",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-shimmer",
+          "word": "shimmer",
+          "partOfSpeech": "verb",
+          "definition": "To shine with a soft, wavering, unsteady light.",
+          "example": "Heat made the desert highway shimmer as if cool water lay just ahead.",
+          "mnemonic": "Shimmer is light that seems to 'shiver': it trembles across a surface.",
+          "synonyms": [
+            "glimmer",
+            "twinkle",
+            "gleam"
+          ],
+          "antonyms": [
+            "dull",
+            "darken"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-glisten",
+          "word": "glisten",
+          "partOfSpeech": "verb",
+          "definition": "To shine with a sparkle bouncing off a wet or oily surface.",
+          "example": "Dew glistened on the spiderweb as the first sunlight touched the garden.",
+          "mnemonic": "Join the 'gl-' light family: glow, gleam, glint, glisten all throw off light.",
+          "synonyms": [
+            "sparkle",
+            "glint",
+            "shine"
+          ],
+          "antonyms": [
+            "dull",
+            "darken"
+          ]
+        },
+        {
+          "id": "gre-nimbus",
+          "word": "nimbus",
+          "partOfSpeech": "noun",
+          "definition": "A luminous ring around a figure's head, or a large gray rain cloud.",
+          "example": "In the fresco, a golden nimbus encircled the saint's bowed head.",
+          "mnemonic": "Think 'nimbostratus,' the rain cloud; a nimbus is a cloud or a cloud-like glowing ring.",
+          "synonyms": [
+            "halo",
+            "aura",
+            "cloud"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-aureate",
+          "word": "aureate",
+          "partOfSpeech": "adjective",
+          "definition": "Golden or gilded, or marked by elaborately ornate language.",
+          "example": "The manuscript's aureate lettering caught the candlelight on every page.",
+          "mnemonic": "Latin 'aurum' = gold (chemical symbol Au), so aureate means gilded.",
+          "synonyms": [
+            "golden",
+            "gilded",
+            "resplendent"
+          ],
+          "antonyms": [
+            "plain",
+            "drab",
+            "dull"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-luculent",
+          "word": "luculent",
+          "partOfSpeech": "adjective",
+          "definition": "Clear and easy to understand, or shining with brightness.",
+          "example": "Her luculent explanation made the tangled tax rules suddenly simple.",
+          "mnemonic": "Shares the root of 'lucid' and Latin 'lux' (light): as clear as daylight.",
+          "synonyms": [
+            "lucid",
+            "clear",
+            "luminous"
+          ],
+          "antonyms": [
+            "murky",
+            "obscure",
+            "confusing"
+          ]
+        },
+        {
+          "id": "gre-fulgent",
+          "word": "fulgent",
+          "partOfSpeech": "adjective",
+          "definition": "Shining brilliantly; dazzlingly bright.",
+          "example": "The fulgent midday sun forced everyone on the beach to squint.",
+          "mnemonic": "Latin 'fulgere' = to flash, the same root as 'fulgurite' (lightning-fused sand): a burst of brilliance.",
+          "synonyms": [
+            "radiant",
+            "dazzling",
+            "brilliant"
+          ],
+          "antonyms": [
+            "dim",
+            "dull",
+            "dark"
+          ]
+        },
+        {
+          "id": "gre-irradiate",
+          "word": "irradiate",
+          "partOfSpeech": "verb",
+          "definition": "To expose something to light, heat, or energy rays, often to brighten or sterilize it.",
+          "example": "Hospitals irradiate their surgical tools with gamma rays to kill every last germ before an operation.",
+          "mnemonic": "Break it as ir- (into) + radi (ray): imagine rays beaming INTO an object.",
+          "synonyms": [
+            "illuminate",
+            "expose",
+            "brighten"
+          ],
+          "antonyms": [
+            "darken",
+            "shade"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-refract",
+          "word": "refract",
+          "partOfSpeech": "verb",
+          "definition": "To bend a wave, such as light, as it passes from one material into another.",
+          "example": "A straw standing in a glass of water looks snapped in two because the water refracts the light.",
+          "mnemonic": "re- + fract (as in 'fracture', to break): the light's path looks broken and bent.",
+          "synonyms": [
+            "bend",
+            "deflect"
+          ],
+          "antonyms": [
+            "straighten"
+          ]
+        },
+        {
+          "id": "gre-occultation",
+          "word": "occultation",
+          "partOfSpeech": "noun",
+          "definition": "An event in which one space object passes in front of another and hides it from view.",
+          "example": "Astronomers gathered on the hill to watch the moon slide in front of Mars, an occultation lasting nearly an hour.",
+          "mnemonic": "'Occult' means hidden or secret — think of one star being secretly hidden behind another.",
+          "synonyms": [
+            "eclipse",
+            "concealment"
+          ],
+          "antonyms": [
+            "reappearance",
+            "emergence"
+          ]
+        },
+        {
+          "id": "gre-luminescent",
+          "word": "luminescent",
+          "partOfSpeech": "adjective",
+          "definition": "Emitting soft light from a source other than heat, often glowing coolly in darkness.",
+          "example": "Deep in the cave, the divers were startled by a colony of luminescent jellyfish drifting like pale lanterns.",
+          "mnemonic": "From Latin 'lumen' (light) — think of a 'luminous' crescent moon casting its own glow.",
+          "synonyms": [
+            "glowing",
+            "radiant",
+            "phosphorescent"
+          ],
+          "antonyms": [
+            "dark",
+            "dim",
+            "opaque"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-nictitate",
+          "word": "nictitate",
+          "partOfSpeech": "verb",
+          "definition": "To wink or blink, especially with a thin inner eyelid found in birds and reptiles.",
+          "example": "The hawk would nictitate mid-dive, a translucent membrane sweeping its eye clean without ever closing it.",
+          "mnemonic": "Sounds like 'nick-tit-ate' — a quick 'nick' of the eyelid, a tiny flick that blinks.",
+          "synonyms": [
+            "blink",
+            "wink",
+            "flutter"
+          ],
+          "antonyms": [
+            "stare",
+            "gaze",
+            "gape"
+          ]
+        },
+        {
+          "id": "gre-pallor",
+          "word": "pallor",
+          "partOfSpeech": "noun",
+          "definition": "An unhealthy paleness of the face, usually from illness, fear, or shock.",
+          "example": "When she read the telegram, a sudden pallor washed over her cheeks and she gripped the table.",
+          "mnemonic": "Sounds like 'pale-or' — a face gone pale, drained of its color.",
+          "synonyms": [
+            "paleness",
+            "wanness",
+            "pallidness"
+          ],
+          "antonyms": [
+            "flush",
+            "ruddiness",
+            "glow"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced and low-frequency",
+  "createdAt": "2026-09-12T10:53:45.905Z"
+}

@@ -31,6 +31,7 @@ import { splitWordList } from "@/lib/generation-plan";
 import { formatMonthKey } from "@/lib/date-utils";
 import type { VocabMonth } from "@/types";
 import { useRestoreFocus } from "@/hooks/useRestoreFocus";
+import { keyOf } from "@/lib/track";
 
 export function AddWordsButton({ month }: { month: VocabMonth }) {
   const addWordsToMonth = useVocabStore((s) => s.addWordsToMonth);
@@ -69,9 +70,9 @@ export function AddWordsButton({ month }: { month: VocabMonth }) {
       const cards = await generateCards({
         provider,
         words,
-        monthKey: month.month,
+        monthKey: keyOf(month),
       });
-      const result = addWordsToMonth(month.month, cards);
+      const result = addWordsToMonth(keyOf(month), cards);
       if (!result.ok) {
         setError(result.error);
         return;
@@ -84,7 +85,7 @@ export function AddWordsButton({ month }: { month: VocabMonth }) {
         description:
           result.added < cards.length
             ? `${cards.length - result.added} did not fit — the month is full.`
-            : formatMonthKey(month.month),
+            : month.title,
         variant: "success",
       });
     } catch (e) {
@@ -105,7 +106,7 @@ export function AddWordsButton({ month }: { month: VocabMonth }) {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Add words to {formatMonthKey(month.month)}</DialogTitle>
+            <DialogTitle>Add words to {month.title}</DialogTitle>
             <DialogDescription>
               Type the words you want. Only the definition, example and mnemonic
               are generated — the words are yours.

@@ -1,0 +1,878 @@
+{
+  "track": "gre",
+  "ordinal": 1,
+  "title": "An alphabet of essentials",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-abstemious",
+          "word": "Abstemious",
+          "partOfSpeech": "adjective",
+          "definition": "Moderate or restrained, especially in eating and drinking.",
+          "example": "Despite the lavish buffet, she remained abstemious, taking only a small salad.",
+          "mnemonic": "Contains all five vowels (a, e, i, o, u) in order — disciplined, just like the word's meaning."
+        },
+        {
+          "id": "gre-capricious",
+          "word": "Capricious",
+          "partOfSpeech": "adjective",
+          "definition": "Given to sudden and unaccountable changes of mood or behavior.",
+          "example": "The capricious manager fired employees one day and praised them the next.",
+          "mnemonic": "Think Capri-cious → like a goat on a Capri cliff, leaping unpredictably from ledge to ledge."
+        },
+        {
+          "id": "gre-denigrate",
+          "word": "Denigrate",
+          "partOfSpeech": "verb",
+          "definition": "To criticize unfairly; to attack the reputation of.",
+          "example": "Critics denigrated the novel before it even reached bookstores.",
+          "mnemonic": "'De-' (down) + 'nigr' (black) — to blacken someone's name."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-ebullient",
+          "word": "Ebullient",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerful and full of energy; overflowing with enthusiasm.",
+          "example": "Her ebullient personality made even dull meetings feel celebratory.",
+          "mnemonic": "Sounds like 'boiling' — picture feelings boiling over with joy."
+        },
+        {
+          "id": "gre-fastidious",
+          "word": "Fastidious",
+          "partOfSpeech": "adjective",
+          "definition": "Very attentive to accuracy and detail; hard to please.",
+          "example": "He was fastidious about grammar, correcting every stray comma.",
+          "mnemonic": "'Fast' + 'tedious' — a fast person fussing tediously over every detail."
+        },
+        {
+          "id": "gre-garrulous",
+          "word": "Garrulous",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively talkative, especially on trivial matters.",
+          "example": "Our garrulous uncle can turn a simple greeting into a forty-minute monologue.",
+          "mnemonic": "'Gargle' + 'loose' — mouth gargles with loose, endless chatter."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-hackneyed",
+          "word": "Hackneyed",
+          "partOfSpeech": "adjective",
+          "definition": "Overused to the point of being unoriginal and stale.",
+          "example": "'Love conquers all' is a hackneyed phrase that has lost its punch.",
+          "mnemonic": "A 'hackney' was an overworked carriage horse — ideas ridden to exhaustion."
+        },
+        {
+          "id": "gre-iconoclast",
+          "word": "Iconoclast",
+          "partOfSpeech": "noun",
+          "definition": "A person who attacks cherished beliefs, traditions, or institutions.",
+          "example": "Galileo was an iconoclast whose ideas overturned centuries of dogma.",
+          "mnemonic": "'Icon' (image) + 'clast' (break) — one who breaks sacred images."
+        },
+        {
+          "id": "gre-jejune",
+          "word": "Jejune",
+          "partOfSpeech": "adjective",
+          "definition": "Naive, simplistic, and superficial; lacking substance.",
+          "example": "His jejune analysis of the war ignored the economic forces behind it.",
+          "mnemonic": "Sounds like 'June' — the month school ends and jejune minds wander."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-kowtow",
+          "word": "Kowtow",
+          "partOfSpeech": "verb",
+          "definition": "To act in an excessively subservient manner; to grovel.",
+          "example": "She refused to kowtow to a boss who demanded flattery.",
+          "mnemonic": "From Chinese 'ke tou' — to knock one's head on the ground in submission."
+        },
+        {
+          "id": "gre-laconic",
+          "word": "Laconic",
+          "partOfSpeech": "adjective",
+          "definition": "Using very few words; terse.",
+          "example": "His laconic reply — 'fine' — gave away none of his feelings.",
+          "mnemonic": "The Laconians (Spartans) were famous for short, blunt speech."
+        },
+        {
+          "id": "gre-mendacious",
+          "word": "Mendacious",
+          "partOfSpeech": "adjective",
+          "definition": "Not truthful; habitually lying.",
+          "example": "The mendacious salesman promised features the product didn't have.",
+          "mnemonic": "Think 'men-dacious' — men who make fibs tell 'mendacious' tales."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-nadir",
+          "word": "Nadir",
+          "partOfSpeech": "noun",
+          "definition": "The lowest point of something; the point of greatest adversity.",
+          "example": "Losing her job and her home marked the nadir of her year.",
+          "mnemonic": "From Arabic 'nazir' (opposite) — opposite of zenith, the highest point."
+        },
+        {
+          "id": "gre-obsequious",
+          "word": "Obsequious",
+          "partOfSpeech": "adjective",
+          "definition": "Obedient or attentive to an excessive, servile degree.",
+          "example": "The obsequious waiter nodded at every word, praising our every choice.",
+          "mnemonic": "'Ob-' (toward) + 'sequi' (follow) — follows too eagerly, to the point of fawning."
+        },
+        {
+          "id": "gre-pellucid",
+          "word": "Pellucid",
+          "partOfSpeech": "adjective",
+          "definition": "Transparently clear in style or meaning; easy to understand.",
+          "example": "Her pellucid explanation made quantum physics seem almost simple.",
+          "mnemonic": "'Pel-' (through) + 'lucid' (light) — light passes through."
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-quixotic",
+          "word": "Quixotic",
+          "partOfSpeech": "adjective",
+          "definition": "Exceedingly idealistic; unrealistic and impractical.",
+          "example": "His quixotic plan to end poverty with a single app drew gentle smiles.",
+          "mnemonic": "From Don Quixote, the knight who tilted at windmills thinking they were giants."
+        },
+        {
+          "id": "gre-recalcitrant",
+          "word": "Recalcitrant",
+          "partOfSpeech": "adjective",
+          "definition": "Having an obstinately uncooperative attitude toward authority.",
+          "example": "The recalcitrant student refused every attempt to engage him.",
+          "mnemonic": "'Re-' (back) + 'calcitr' (kick) — kicks back against every instruction."
+        },
+        {
+          "id": "gre-salubrious",
+          "word": "Salubrious",
+          "partOfSpeech": "adjective",
+          "definition": "Health-giving; promoting well-being.",
+          "example": "They moved to the coast for the salubrious sea air.",
+          "mnemonic": "Sounds like 'salute your health' — a salubrious toast."
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-taciturn",
+          "word": "Taciturn",
+          "partOfSpeech": "adjective",
+          "definition": "Reserved or uncommunicative in speech; saying little.",
+          "example": "Her taciturn neighbor had lived next door for years without a real conversation.",
+          "mnemonic": "'Tacit' (silent) + '-urn' — silent as an urn."
+        },
+        {
+          "id": "gre-ubiquitous",
+          "word": "Ubiquitous",
+          "partOfSpeech": "adjective",
+          "definition": "Present, appearing, or found everywhere.",
+          "example": "Smartphones have become ubiquitous in modern life.",
+          "mnemonic": "Think 'U-be-quick-to-us' — it's already everywhere before you notice."
+        },
+        {
+          "id": "gre-vacillate",
+          "word": "Vacillate",
+          "partOfSpeech": "verb",
+          "definition": "To alternate or waver between different opinions or actions.",
+          "example": "He vacillated for weeks before finally accepting the offer.",
+          "mnemonic": "Think 'vacation late' — can't decide when to leave, keeps swaying."
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-wanton",
+          "word": "Wanton",
+          "partOfSpeech": "adjective",
+          "definition": "Deliberate, unprovoked, and without motive; reckless.",
+          "example": "The wanton destruction of the park shocked the entire neighborhood.",
+          "mnemonic": "'Want-on' — wanting on with harm, without reason or limit."
+        },
+        {
+          "id": "gre-xenophobia",
+          "word": "Xenophobia",
+          "partOfSpeech": "noun",
+          "definition": "Dislike of or prejudice against people from other countries.",
+          "example": "The rise in xenophobia made immigrants fear for their safety.",
+          "mnemonic": "'Xeno' (foreign) + 'phobia' (fear) — fear of foreigners."
+        },
+        {
+          "id": "gre-yoke",
+          "word": "Yoke",
+          "partOfSpeech": "noun",
+          "definition": "A burden or oppressive force; also, to join together.",
+          "example": "They finally threw off the yoke of colonial rule.",
+          "mnemonic": "Picture oxen yoked together — bound by a heavy wooden frame."
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-zealot",
+          "word": "Zealot",
+          "partOfSpeech": "noun",
+          "definition": "A person who is fanatically devoted to a cause.",
+          "example": "The reformer was seen as a zealot by those who preferred the status quo.",
+          "mnemonic": "'Zeal' + '-ot' — someone whose zeal is dialed up to the max."
+        },
+        {
+          "id": "gre-anachronism",
+          "word": "Anachronism",
+          "partOfSpeech": "noun",
+          "definition": "Something that belongs to a different time period than the one depicted.",
+          "example": "A wristwatch in a Roman epic is a glaring anachronism.",
+          "mnemonic": "'Ana-' (against) + 'chronos' (time) — against its time."
+        },
+        {
+          "id": "gre-bombastic",
+          "word": "Bombastic",
+          "partOfSpeech": "adjective",
+          "definition": "High-sounding but with little meaning; inflated language.",
+          "example": "His bombastic speech used grand words to say almost nothing.",
+          "mnemonic": "Like a 'bomb' of hot air — loud, empty, and inflated."
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-cacophony",
+          "word": "Cacophony",
+          "partOfSpeech": "noun",
+          "definition": "A harsh, discordant mixture of sounds.",
+          "example": "The orchestra's warm-up was a cacophony of tuning strings and horns.",
+          "mnemonic": "'Caco-' (bad) + 'phony' (sound) — bad sounds."
+        },
+        {
+          "id": "gre-diaphanous",
+          "word": "Diaphanous",
+          "partOfSpeech": "adjective",
+          "definition": "Light, delicate, and translucent.",
+          "example": "Her diaphanous veil floated like mist in the breeze.",
+          "mnemonic": "'Dia-' (through) + 'phan' (show) — light shows through."
+        },
+        {
+          "id": "gre-effervescent",
+          "word": "Effervescent",
+          "partOfSpeech": "adjective",
+          "definition": "Bubbly and lively; giving off bubbles.",
+          "example": "Her effervescent laugh lit up the entire dinner party.",
+          "mnemonic": "Picture fizzy water — always bubbling with cheer."
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-florid",
+          "word": "Florid",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively elaborate or ornate; reddish in complexion.",
+          "example": "The critic mocked the novel's florid prose and purple descriptions.",
+          "mnemonic": "'Flora' (flowers) — flowery writing, overflowing with ornament."
+        },
+        {
+          "id": "gre-gregarious",
+          "word": "Gregarious",
+          "partOfSpeech": "adjective",
+          "definition": "Fond of the company of others; sociable.",
+          "example": "Gregarious by nature, he knew every neighbor on the block.",
+          "mnemonic": "Latin 'grex' (flock) — happiest among the flock."
+        },
+        {
+          "id": "gre-halcyon",
+          "word": "Halcyon",
+          "partOfSpeech": "adjective",
+          "definition": "Denoting a period of time that was idyllically happy and peaceful.",
+          "example": "She reminisced about the halcyon days of her childhood summers.",
+          "mnemonic": "Greek myth: a bird calmed the seas — halcyon days are calm days."
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-imperturbable",
+          "word": "Imperturbable",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to be upset or excited; calm.",
+          "example": "Even in chaos, the surgeon remained imperturbable.",
+          "mnemonic": "'Im-' (not) + 'perturbable' (disturbed) — not disturbed."
+        },
+        {
+          "id": "gre-juxtapose",
+          "word": "Juxtapose",
+          "partOfSpeech": "verb",
+          "definition": "To place close together for contrasting effect.",
+          "example": "The exhibit juxtaposes Renaissance and modern portraits.",
+          "mnemonic": "'Juxta' (next to) + 'pose' (place) — place next to each other."
+        },
+        {
+          "id": "gre-knell",
+          "word": "Knell",
+          "partOfSpeech": "noun",
+          "definition": "The sound of a bell, especially a funeral bell; a sign of the end.",
+          "example": "The closing factory sounded the knell of the town's prosperity.",
+          "mnemonic": "Rhymes with 'bell' — a somber, final bell."
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-lugubrious",
+          "word": "Lugubrious",
+          "partOfSpeech": "adjective",
+          "definition": "Looking or sounding sad and dismal.",
+          "example": "His lugubrious expression suggested something had gone very wrong.",
+          "mnemonic": "Sounds like 'loo-goo-brious' — a mournful, drawn-out groan."
+        },
+        {
+          "id": "gre-malinger",
+          "word": "Malinger",
+          "partOfSpeech": "verb",
+          "definition": "To pretend illness to escape duty or work.",
+          "example": "He malingered for a week to skip the big deadline.",
+          "mnemonic": "'Mal-' (bad) + 'linger' — lingering in bed under false pretenses."
+        },
+        {
+          "id": "gre-nebulous",
+          "word": "Nebulous",
+          "partOfSpeech": "adjective",
+          "definition": "Vague, hazy, or ill-defined.",
+          "example": "His plans for the business were nebulous at best.",
+          "mnemonic": "'Nebula' — a cloudy, indistinct cluster of gas."
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-obfuscate",
+          "word": "Obfuscate",
+          "partOfSpeech": "verb",
+          "definition": "To deliberately make something unclear or hard to understand.",
+          "example": "The lawyer obfuscated the timeline with irrelevant details.",
+          "mnemonic": "'Ob-' (over) + 'fuscate' (darken) — cast darkness over the truth."
+        },
+        {
+          "id": "gre-panacea",
+          "word": "Panacea",
+          "partOfSpeech": "noun",
+          "definition": "A solution or remedy for all difficulties or diseases.",
+          "example": "There is no panacea for a troubled economy.",
+          "mnemonic": "Greek 'pan' (all) + 'akos' (cure) — cure for all."
+        },
+        {
+          "id": "gre-quotidian",
+          "word": "Quotidian",
+          "partOfSpeech": "adjective",
+          "definition": "Of or occurring every day; daily and ordinary.",
+          "example": "She found beauty in the quotidian routines of cooking and cleaning.",
+          "mnemonic": "Latin 'quotidie' (every day) — the daily grind."
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-recondite",
+          "word": "Recondite",
+          "partOfSpeech": "adjective",
+          "definition": "Little known; obscure; dealing with abstruse subjects.",
+          "example": "His lecture on recondite medieval logic lost half the audience.",
+          "mnemonic": "'Re-' + 'condite' (hidden) — knowledge hidden away, hard to find."
+        },
+        {
+          "id": "gre-sycophant",
+          "word": "Sycophant",
+          "partOfSpeech": "noun",
+          "definition": "A person who acts obsequiously toward someone important to gain advantage.",
+          "example": "The CEO was surrounded by sycophants who laughed at every joke.",
+          "mnemonic": "Think 'psycho-fan' — a pathologically fawning follower."
+        },
+        {
+          "id": "gre-truculent",
+          "word": "Truculent",
+          "partOfSpeech": "adjective",
+          "definition": "Eager or quick to argue or fight; aggressively defiant.",
+          "example": "His truculent tone made negotiation impossible.",
+          "mnemonic": "Sounds like 'truck-you-lent' — picture a belligerent trucker spoiling for a fight."
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-umbrage",
+          "word": "Umbrage",
+          "partOfSpeech": "noun",
+          "definition": "Offense or annoyance.",
+          "example": "She took umbrage at the suggestion that she had been careless.",
+          "mnemonic": "From 'umbra' (shadow) — a shadow cast over someone's feelings."
+        },
+        {
+          "id": "gre-venerate",
+          "word": "Venerate",
+          "partOfSpeech": "verb",
+          "definition": "To regard with great respect; to revere.",
+          "example": "Students venerated the old professor for her decades of scholarship.",
+          "mnemonic": "Same root as 'Venus' — treat as holy, like the goddess of love."
+        },
+        {
+          "id": "gre-winsome",
+          "word": "Winsome",
+          "partOfSpeech": "adjective",
+          "definition": "Charming, attractive, or appealing in a fresh, innocent way.",
+          "example": "Her winsome smile disarmed even the grumpiest customers.",
+          "mnemonic": "'Win' + 'some' — wins some hearts with simple charm."
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-zenith",
+          "word": "Zenith",
+          "partOfSpeech": "noun",
+          "definition": "The highest point or state; the peak.",
+          "example": "Winning the championship marked the zenith of her career.",
+          "mnemonic": "Opposite of nadir — zenith is up in the zed (sky)."
+        },
+        {
+          "id": "gre-acerbic",
+          "word": "Acerbic",
+          "partOfSpeech": "adjective",
+          "definition": "Sharp and forthright in speech or manner; biting.",
+          "example": "His acerbic wit left no target untouched.",
+          "mnemonic": "Think 'acid' — acerbic words have an acid bite."
+        },
+        {
+          "id": "gre-bellicose",
+          "word": "Bellicose",
+          "partOfSpeech": "adjective",
+          "definition": "Demonstrating aggression and willingness to fight.",
+          "example": "The bellicose speech only made the crisis worse.",
+          "mnemonic": "'Belli-' (war, as in 'rebellion') — warlike in temper."
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-cogent",
+          "word": "Cogent",
+          "partOfSpeech": "adjective",
+          "definition": "Clear, logical, and convincing.",
+          "example": "She offered a cogent argument that swayed the entire committee.",
+          "mnemonic": "'Co-' + 'gent' — ideas act together, forcing agreement."
+        },
+        {
+          "id": "gre-dilatory",
+          "word": "Dilatory",
+          "partOfSpeech": "adjective",
+          "definition": "Slow to act; intended to cause delay.",
+          "example": "His dilatory tactics pushed the trial back by months.",
+          "mnemonic": "Same root as 'delay' — dilatory equals delayed."
+        },
+        {
+          "id": "gre-ephemeral",
+          "word": "Ephemeral",
+          "partOfSpeech": "adjective",
+          "definition": "Lasting for a very short time.",
+          "example": "Fame on social media can be strikingly ephemeral.",
+          "mnemonic": "'Epi-' (on) + 'hemera' (day) — lasts only a day."
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-fecund",
+          "word": "Fecund",
+          "partOfSpeech": "adjective",
+          "definition": "Producing or capable of producing an abundance; fruitful.",
+          "example": "The artist had a fecund imagination that never seemed to tire.",
+          "mnemonic": "Think 'fruit-cund' — fruitful and abundant."
+        },
+        {
+          "id": "gre-grandiloquent",
+          "word": "Grandiloquent",
+          "partOfSpeech": "adjective",
+          "definition": "Pompous or extravagant in language or style.",
+          "example": "His grandiloquent toast embarrassed the modest bride.",
+          "mnemonic": "'Grand' + 'eloquent' — eloquence turned up too grand."
+        },
+        {
+          "id": "gre-histrionic",
+          "word": "Histrionic",
+          "partOfSpeech": "adjective",
+          "definition": "Overly theatrical or melodramatic.",
+          "example": "Her histrionic reaction to the minor delay startled everyone.",
+          "mnemonic": "Latin 'histrio' (actor) — acting like you're on stage."
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-impecunious",
+          "word": "Impecunious",
+          "partOfSpeech": "adjective",
+          "definition": "Having little or no money.",
+          "example": "The impecunious student survived on ramen and hope.",
+          "mnemonic": "'Im-' (not) + 'pecunia' (money) — no money."
+        },
+        {
+          "id": "gre-jingoism",
+          "word": "Jingoism",
+          "partOfSpeech": "noun",
+          "definition": "Extreme patriotism, especially in the form of aggressive foreign policy.",
+          "example": "The editorial warned against the rise of jingoism in political rhetoric.",
+          "mnemonic": "From an old British war song with the line 'by jingo!' — chauvinist cheering."
+        },
+        {
+          "id": "gre-kinetic",
+          "word": "Kinetic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to or resulting from motion.",
+          "example": "The dancer had a kinetic energy that electrified the stage.",
+          "mnemonic": "Same root as 'cinema' — motion pictures."
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-lassitude",
+          "word": "Lassitude",
+          "partOfSpeech": "noun",
+          "definition": "A state of physical or mental weariness; lack of energy.",
+          "example": "A deep lassitude followed the long week of exams.",
+          "mnemonic": "Same root as 'lazy' — lassitude = heavy laziness."
+        },
+        {
+          "id": "gre-maudlin",
+          "word": "Maudlin",
+          "partOfSpeech": "adjective",
+          "definition": "Self-pityingly or tearfully sentimental.",
+          "example": "After two glasses of wine he grew maudlin about his college days.",
+          "mnemonic": "From Mary Magdalene, often depicted weeping in art."
+        },
+        {
+          "id": "gre-nascent",
+          "word": "Nascent",
+          "partOfSpeech": "adjective",
+          "definition": "Just coming into existence; beginning to develop.",
+          "example": "The nascent startup had only three employees and one prototype.",
+          "mnemonic": "Same root as 'natal' — newly born."
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-obdurate",
+          "word": "Obdurate",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly refusing to change one's opinion or course of action.",
+          "example": "He remained obdurate despite every plea from his family.",
+          "mnemonic": "'Ob-' + 'durate' (hardened) — hardened against persuasion."
+        },
+        {
+          "id": "gre-pernicious",
+          "word": "Pernicious",
+          "partOfSpeech": "adjective",
+          "definition": "Having a harmful effect, especially in a gradual way.",
+          "example": "The pernicious influence of misinformation spreads slowly but widely.",
+          "mnemonic": "'Per-' (through) + 'nic-' (harm) — harmful through and through."
+        },
+        {
+          "id": "gre-querulous",
+          "word": "Querulous",
+          "partOfSpeech": "adjective",
+          "definition": "Complaining in a petulant or whining manner.",
+          "example": "The querulous toddler objected to every meal.",
+          "mnemonic": "Related to 'quarrel' — always picking at something."
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-recidivism",
+          "word": "Recidivism",
+          "partOfSpeech": "noun",
+          "definition": "The tendency of a convicted criminal to reoffend.",
+          "example": "The program reduced recidivism by offering job training.",
+          "mnemonic": "'Re-' (again) + 'cid' (fall) — falling back into crime."
+        },
+        {
+          "id": "gre-sanguine",
+          "word": "Sanguine",
+          "partOfSpeech": "adjective",
+          "definition": "Optimistic or positive, especially in a difficult situation.",
+          "example": "She remained sanguine about the project despite repeated setbacks.",
+          "mnemonic": "From Latin 'sanguis' (blood) — the old humor of cheerful blood."
+        },
+        {
+          "id": "gre-tenuous",
+          "word": "Tenuous",
+          "partOfSpeech": "adjective",
+          "definition": "Very weak or slight; flimsy.",
+          "example": "The evidence connecting the two events was tenuous at best.",
+          "mnemonic": "Think 'thin-yous' — stretched thin."
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-ubiety",
+          "word": "Ubiety",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being in a definite place; 'whereness.'",
+          "example": "The philosopher pondered the ubiety of consciousness itself.",
+          "mnemonic": "Latin 'ubi' (where) — the state of being somewhere."
+        },
+        {
+          "id": "gre-verisimilitude",
+          "word": "Verisimilitude",
+          "partOfSpeech": "noun",
+          "definition": "The appearance of being true or real.",
+          "example": "The novel's verisimilitude made the fictional city feel genuine.",
+          "mnemonic": "'Veri' (true) + 'similis' (similar) — similar to the truth."
+        },
+        {
+          "id": "gre-welter",
+          "word": "Welter",
+          "partOfSpeech": "noun",
+          "definition": "A large number of items in no order; a confused mass.",
+          "example": "A welter of receipts spilled out of the shoebox.",
+          "mnemonic": "Sounds like 'swelter' — a hot, jumbled mess."
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-yearling",
+          "word": "Yearling",
+          "partOfSpeech": "noun",
+          "definition": "An animal, especially a calf, sheep, or horse, one year old.",
+          "example": "The trainer evaluated each yearling for racing potential.",
+          "mnemonic": "'Year' + '-ling' — a young thing one year old."
+        },
+        {
+          "id": "gre-aberration",
+          "word": "Aberration",
+          "partOfSpeech": "noun",
+          "definition": "A departure from what is normal, usual, or expected.",
+          "example": "His rudeness was an aberration; he's usually quite polite.",
+          "mnemonic": "'Ab-' (away) + 'err' (stray) — a straying away."
+        },
+        {
+          "id": "gre-beguile",
+          "word": "Beguile",
+          "partOfSpeech": "verb",
+          "definition": "To charm, often in a deceptive way; to pass time pleasantly.",
+          "example": "The salesman beguiled them into signing the contract.",
+          "mnemonic": "'Be-' + 'guile' (deception) — use guile to charm."
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-castigate",
+          "word": "Castigate",
+          "partOfSpeech": "verb",
+          "definition": "To reprimand someone severely.",
+          "example": "The coach castigated the team for their sloppy performance.",
+          "mnemonic": "Same root as 'chastise' — a stern scolding."
+        },
+        {
+          "id": "gre-dearth",
+          "word": "Dearth",
+          "partOfSpeech": "noun",
+          "definition": "A scarcity or lack of something.",
+          "example": "There was a dearth of qualified candidates for the position.",
+          "mnemonic": "Sounds like 'death' of supply — extreme scarcity."
+        },
+        {
+          "id": "gre-equanimity",
+          "word": "Equanimity",
+          "partOfSpeech": "noun",
+          "definition": "Mental calmness and composure, especially under stress.",
+          "example": "She accepted the criticism with equanimity and moved on.",
+          "mnemonic": "'Equi' (equal) + 'animus' (mind) — mind in balance."
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-fatuous",
+          "word": "Fatuous",
+          "partOfSpeech": "adjective",
+          "definition": "Silly and pointless; foolishly self-satisfied.",
+          "example": "His fatuous grin suggested he hadn't understood the question.",
+          "mnemonic": "Sounds like 'fat-you-us' — a foolishly complacent puffed-up remark."
+        },
+        {
+          "id": "gre-germane",
+          "word": "Germane",
+          "partOfSpeech": "adjective",
+          "definition": "Relevant to a subject under consideration.",
+          "example": "Please keep your comments germane to the agenda.",
+          "mnemonic": "Think 'germ' of the idea — close kin to the topic."
+        },
+        {
+          "id": "gre-harangue",
+          "word": "Harangue",
+          "partOfSpeech": "noun",
+          "definition": "A lengthy and aggressive speech; to lecture angrily.",
+          "example": "The coach delivered a twenty-minute harangue about discipline.",
+          "mnemonic": "Sounds like 'hair-rang' — voice rings loud enough to rattle your hair."
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "gre-inchoate",
+          "word": "Inchoate",
+          "partOfSpeech": "adjective",
+          "definition": "Just begun and so not fully formed or developed.",
+          "example": "She had an inchoate sense that something was wrong, but no proof.",
+          "mnemonic": "Sounds like 'in-coat' — still putting its coat on, not ready."
+        },
+        {
+          "id": "gre-jocund",
+          "word": "Jocund",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerful and lighthearted.",
+          "example": "The jocund crowd sang along with every song.",
+          "mnemonic": "Related to 'jocular' — full of jokes and good humor."
+        },
+        {
+          "id": "gre-lachrymose",
+          "word": "Lachrymose",
+          "partOfSpeech": "adjective",
+          "definition": "Tearful or given to weeping; mournful.",
+          "example": "The lachrymose film had the entire theater reaching for tissues.",
+          "mnemonic": "Latin 'lacrima' (tear) — full of tears."
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "gre-mellifluous",
+          "word": "Mellifluous",
+          "partOfSpeech": "adjective",
+          "definition": "Pleasingly smooth and musical to hear.",
+          "example": "Her mellifluous voice made every bedtime story magical.",
+          "mnemonic": "'Mel' (honey) + 'fluere' (flow) — honey flowing from the tongue."
+        },
+        {
+          "id": "gre-nefarious",
+          "word": "Nefarious",
+          "partOfSpeech": "adjective",
+          "definition": "Wicked, villainous, or criminal.",
+          "example": "The spy's nefarious plan almost succeeded.",
+          "mnemonic": "Sounds like 'ne-furious' — furiously evil."
+        },
+        {
+          "id": "gre-opprobrium",
+          "word": "Opprobrium",
+          "partOfSpeech": "noun",
+          "definition": "Harsh criticism or public disgrace.",
+          "example": "The scandal brought opprobrium on the entire administration.",
+          "mnemonic": "'Op-' (against) + 'probrum' (disgrace) — heaped disgrace."
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "gre-penurious",
+          "word": "Penurious",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely poor; stingy with money.",
+          "example": "Their penurious landlord refused to fix even the broken window.",
+          "mnemonic": "Same root as 'penury' — severe poverty."
+        },
+        {
+          "id": "gre-quiescent",
+          "word": "Quiescent",
+          "partOfSpeech": "adjective",
+          "definition": "In a state of inactivity or dormancy.",
+          "example": "The volcano had been quiescent for two centuries.",
+          "mnemonic": "Related to 'quiet' — resting silently."
+        },
+        {
+          "id": "gre-reticent",
+          "word": "Reticent",
+          "partOfSpeech": "adjective",
+          "definition": "Not revealing one's thoughts or feelings readily; reserved.",
+          "example": "He was reticent about his past, deflecting every personal question.",
+          "mnemonic": "'Re-' + 'tacent' (silent) — keeps things silent."
+        }
+      ]
+    }
+  ],
+  "description": "One word for each letter, three times over"
+}

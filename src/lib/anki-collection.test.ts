@@ -20,8 +20,9 @@ const FIELD_SEP = String.fromCharCode(31);
 
 const MONTHS: VocabMonth[] = [
   {
-    month: "2026-04",
-    displayName: "April 2026",
+    track: "gre",
+    ordinal: 1,
+    title: "April 2026",
     days: [
       {
         day: 1,
@@ -47,8 +48,9 @@ const MONTHS: VocabMonth[] = [
     ],
   },
   {
-    month: "2026-05",
-    displayName: "May 2026",
+    track: "gre",
+    ordinal: 2,
+    title: "May 2026",
     days: [
       {
         day: 2,

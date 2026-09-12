@@ -1,0 +1,1019 @@
+{
+  "track": "gre",
+  "ordinal": 15,
+  "title": "Argument and persuasion",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-tendentious",
+          "word": "tendentious",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by a strong, often controversial bias in favor of a particular cause.",
+          "example": "The documentary was so tendentious that it felt like campaign propaganda rather than reporting.",
+          "mnemonic": "It TENDS toward one side — a 'tendency' baked right into the word.",
+          "synonyms": [
+            "biased",
+            "partisan",
+            "slanted"
+          ],
+          "antonyms": [
+            "impartial",
+            "neutral",
+            "unbiased"
+          ]
+        },
+        {
+          "id": "gre-persuade",
+          "word": "persuade",
+          "partOfSpeech": "verb",
+          "definition": "To win someone over, through reasoning or appeal, to a view or action.",
+          "example": "She finally persuaded her cautious parents to let her travel alone.",
+          "mnemonic": "per- (through) + suade (suave, sweet talk): sweet-talk someone all the way through to your side.",
+          "synonyms": [
+            "convince",
+            "coax",
+            "sway"
+          ],
+          "antonyms": [
+            "dissuade",
+            "discourage"
+          ]
+        },
+        {
+          "id": "gre-dissuade",
+          "word": "dissuade",
+          "partOfSpeech": "verb",
+          "definition": "To talk someone out of a course of action, often by warning of consequences.",
+          "example": "His mentor tried to dissuade him from quitting just weeks before graduation.",
+          "mnemonic": "dis- (away) + suade (sweet talk): sweet-talk someone AWAY from what they planned.",
+          "synonyms": [
+            "deter",
+            "discourage",
+            "deflect"
+          ],
+          "antonyms": [
+            "persuade",
+            "encourage"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-exhort",
+          "word": "exhort",
+          "partOfSpeech": "verb",
+          "definition": "To urge someone earnestly and forcefully to do something.",
+          "example": "The coach exhorted his players to leave everything on the field in the final quarter.",
+          "mnemonic": "Sounds like 'egg-zort' — picture someone egging you on, shouting to spur you into action.",
+          "synonyms": [
+            "urge",
+            "implore",
+            "enjoin"
+          ],
+          "antonyms": [
+            "discourage",
+            "dissuade"
+          ]
+        },
+        {
+          "id": "gre-screed",
+          "word": "screed",
+          "partOfSpeech": "noun",
+          "definition": "A long, tedious piece of writing or speech, usually an angry rant.",
+          "example": "He posted a rambling screed attacking everyone who had ever disagreed with him.",
+          "mnemonic": "Sounds like 'screech' — a long written screech of grievances that never stops.",
+          "synonyms": [
+            "tirade",
+            "diatribe",
+            "rant"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-assert",
+          "word": "assert",
+          "partOfSpeech": "verb",
+          "definition": "To state something firmly and confidently as being true.",
+          "example": "She asserted her innocence again and again, refusing to waver from her story.",
+          "mnemonic": "Hear 'a-certain' inside it — you put something forward as certain.",
+          "synonyms": [
+            "declare",
+            "affirm",
+            "maintain"
+          ],
+          "antonyms": [
+            "deny",
+            "retract"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-posit",
+          "word": "posit",
+          "partOfSpeech": "verb",
+          "definition": "To put an idea or assumption forward as a starting point for reasoning.",
+          "example": "The philosopher posited that free will might be nothing more than a comforting illusion.",
+          "mnemonic": "Short for 'position' — you set an idea down in position on the table.",
+          "synonyms": [
+            "postulate",
+            "hypothesize",
+            "assume"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-propound",
+          "word": "propound",
+          "partOfSpeech": "verb",
+          "definition": "To offer a theory or proposal for others to consider.",
+          "example": "At the conference she propounded a bold new theory of how memory decays.",
+          "mnemonic": "pro- (forward) + pound: you POUND an idea forward for the room to weigh.",
+          "synonyms": [
+            "propose",
+            "advance",
+            "put forward"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-adduce",
+          "word": "adduce",
+          "partOfSpeech": "verb",
+          "definition": "To bring forward facts or examples as proof in an argument.",
+          "example": "The lawyer adduced three eyewitnesses to support her client's alibi.",
+          "mnemonic": "ad- (toward) + duce (to lead, as in 'produce'): you LEAD evidence toward your point.",
+          "synonyms": [
+            "cite",
+            "present",
+            "offer"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-bolster",
+          "word": "bolster",
+          "partOfSpeech": "verb",
+          "definition": "To strengthen or give support to something, such as an argument or morale.",
+          "example": "Strong quarterly sales bolstered the CEO's case for a rapid expansion.",
+          "mnemonic": "A bolster is a long firm pillow that props you up — so to bolster is to prop up.",
+          "synonyms": [
+            "reinforce",
+            "strengthen",
+            "shore up"
+          ],
+          "antonyms": [
+            "undermine",
+            "weaken"
+          ]
+        },
+        {
+          "id": "gre-buttress",
+          "word": "buttress",
+          "partOfSpeech": "verb",
+          "definition": "To prop up or reinforce something, physically or with evidence.",
+          "example": "He buttressed his thesis with data drawn from a dozen independent studies.",
+          "mnemonic": "A flying buttress is the stone arm that holds up a cathedral wall — support made visible.",
+          "synonyms": [
+            "support",
+            "reinforce",
+            "prop up"
+          ],
+          "antonyms": [
+            "weaken",
+            "undermine"
+          ]
+        },
+        {
+          "id": "gre-fortify",
+          "word": "fortify",
+          "partOfSpeech": "verb",
+          "definition": "To make something stronger or more secure against attack or failure.",
+          "example": "They fortified the town walls with extra stone before the enemy arrived.",
+          "mnemonic": "fort + -ify: to turn something into a FORT, making it tough and defensible.",
+          "synonyms": [
+            "strengthen",
+            "reinforce",
+            "shore up"
+          ],
+          "antonyms": [
+            "weaken",
+            "undermine"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-dissent",
+          "word": "dissent",
+          "partOfSpeech": "noun",
+          "definition": "Open disagreement with an official or widely held opinion.",
+          "example": "A single justice voiced her dissent while the rest of the court lined up the other way.",
+          "mnemonic": "dis- (apart) + sent (to feel, as in 'sentiment'): to feel APART from the crowd.",
+          "synonyms": [
+            "disagreement",
+            "objection",
+            "opposition"
+          ],
+          "antonyms": [
+            "agreement",
+            "consensus",
+            "assent"
+          ]
+        },
+        {
+          "id": "gre-captious",
+          "word": "captious",
+          "partOfSpeech": "adjective",
+          "definition": "Inclined to find trivial faults and raise petty objections.",
+          "example": "Her captious editor flagged every stray comma but ignored the broken argument.",
+          "mnemonic": "Sounds like 'capture' — always trying to capture your tiniest mistakes.",
+          "synonyms": [
+            "carping",
+            "faultfinding",
+            "nitpicking"
+          ],
+          "antonyms": [
+            "tolerant",
+            "easygoing"
+          ]
+        },
+        {
+          "id": "gre-disputatious",
+          "word": "disputatious",
+          "partOfSpeech": "adjective",
+          "definition": "Fond of arguing and quick to provoke or join a quarrel.",
+          "example": "The disputatious student challenged nearly every claim the professor made.",
+          "mnemonic": "dispute + -atious: describes a person whose very nature is to dispute everything.",
+          "synonyms": [
+            "argumentative",
+            "contentious",
+            "quarrelsome"
+          ],
+          "antonyms": [
+            "agreeable",
+            "accommodating"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-doctrinaire",
+          "word": "doctrinaire",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly attached to a theory while ignoring practical realities or differing opinions.",
+          "example": "The doctrinaire economist refused to revise his model even as the recession deepened.",
+          "mnemonic": "doctrine + -aire: someone married to their doctrine, no matter what the facts say.",
+          "synonyms": [
+            "dogmatic",
+            "rigid",
+            "inflexible"
+          ],
+          "antonyms": [
+            "pragmatic",
+            "flexible",
+            "open-minded"
+          ]
+        },
+        {
+          "id": "gre-fervent",
+          "word": "fervent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing intense, heartfelt emotion or burning enthusiasm about something.",
+          "example": "Her fervent support for the cause kept the exhausted volunteers going all night.",
+          "mnemonic": "Sounds like 'fervor' and 'furnace' — feelings hot enough to boil.",
+          "synonyms": [
+            "ardent",
+            "passionate",
+            "zealous"
+          ],
+          "antonyms": [
+            "apathetic",
+            "indifferent",
+            "cool"
+          ]
+        },
+        {
+          "id": "gre-explicit",
+          "word": "explicit",
+          "partOfSpeech": "adjective",
+          "definition": "Stated fully and clearly, leaving no room for confusion or doubt.",
+          "example": "The instructions were explicit, listing every step so no one could get lost.",
+          "mnemonic": "ex- (out) + plicit (fold): fully unfolded and laid out in the open.",
+          "synonyms": [
+            "clear",
+            "precise",
+            "unambiguous"
+          ],
+          "antonyms": [
+            "vague",
+            "implicit",
+            "ambiguous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-compelling",
+          "word": "compelling",
+          "partOfSpeech": "adjective",
+          "definition": "So convincing or interesting that it forcibly holds your attention or belief.",
+          "example": "The lawyer's compelling argument left every juror nodding in agreement.",
+          "mnemonic": "Shares a root with 'compel' — it forces you to pay attention or agree.",
+          "synonyms": [
+            "convincing",
+            "persuasive",
+            "gripping"
+          ],
+          "antonyms": [
+            "unconvincing",
+            "weak",
+            "dull"
+          ]
+        },
+        {
+          "id": "gre-sway",
+          "word": "sway",
+          "partOfSpeech": "verb",
+          "definition": "To influence someone's opinion or nudge them toward a decision.",
+          "example": "A single heartfelt speech can sway voters who arrived completely undecided.",
+          "mnemonic": "Picture a hypnotist's pendulum swinging back and forth, swaying your mind.",
+          "synonyms": [
+            "influence",
+            "persuade",
+            "affect"
+          ],
+          "antonyms": [
+            "dissuade",
+            "deter"
+          ]
+        },
+        {
+          "id": "gre-coax",
+          "word": "coax",
+          "partOfSpeech": "verb",
+          "definition": "To gently and patiently persuade someone to do something.",
+          "example": "She coaxed the frightened kitten out from under the porch with a trail of treats.",
+          "mnemonic": "Sounds like 'Cokes' — offer someone a Coke to gently win them over.",
+          "synonyms": [
+            "cajole",
+            "wheedle",
+            "persuade"
+          ],
+          "antonyms": [
+            "bully",
+            "force",
+            "coerce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-entreat",
+          "word": "entreat",
+          "partOfSpeech": "verb",
+          "definition": "To ask someone earnestly and anxiously for something.",
+          "example": "The refugees entreated the officials to open the border before nightfall.",
+          "mnemonic": "en- + treat: you plead with someone for kind treatment.",
+          "synonyms": [
+            "beg",
+            "plead",
+            "implore"
+          ],
+          "antonyms": [
+            "demand",
+            "command",
+            "order"
+          ]
+        },
+        {
+          "id": "gre-implore",
+          "word": "implore",
+          "partOfSpeech": "verb",
+          "definition": "To beg someone desperately and emotionally to do something.",
+          "example": "He implored the judge for mercy, his voice cracking with desperation.",
+          "mnemonic": "im- + plore ('cry out') — crying out urgently for help.",
+          "synonyms": [
+            "beg",
+            "plead",
+            "beseech"
+          ],
+          "antonyms": [
+            "demand",
+            "command",
+            "order"
+          ]
+        },
+        {
+          "id": "gre-beseech",
+          "word": "beseech",
+          "partOfSpeech": "verb",
+          "definition": "To ask someone urgently and anxiously, often while pleading.",
+          "example": "The villagers beseeched the king to spare their harvest from the new tax.",
+          "mnemonic": "be- + seech ('seek'): to seek something desperately from another person.",
+          "synonyms": [
+            "implore",
+            "entreat",
+            "plead"
+          ],
+          "antonyms": [
+            "demand",
+            "order",
+            "command"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-importune",
+          "word": "importune",
+          "partOfSpeech": "verb",
+          "definition": "To pester someone with repeated, insistent, and often annoying requests.",
+          "example": "Street vendors importuned every tourist who paused, tugging sleeves and shouting prices.",
+          "mnemonic": "'important' + 'tune' — someone nagging you with the same 'important' tune again and again.",
+          "synonyms": [
+            "pester",
+            "badger",
+            "harass"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-solicit",
+          "word": "solicit",
+          "partOfSpeech": "verb",
+          "definition": "To formally ask someone for money, help, support, or business.",
+          "example": "The charity volunteers solicited donations from shoppers outside the mall.",
+          "mnemonic": "so-LICIT — asking for something in a licit (lawful) way.",
+          "synonyms": [
+            "request",
+            "seek",
+            "canvass"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-advocate",
+          "word": "advocate",
+          "partOfSpeech": "verb",
+          "definition": "To publicly support or argue in favor of a cause or policy.",
+          "example": "She advocates for cleaner rivers, speaking up at every town council meeting.",
+          "mnemonic": "ad- + voc ('voice'): to add your voice on behalf of a cause.",
+          "synonyms": [
+            "support",
+            "champion",
+            "promote"
+          ],
+          "antonyms": [
+            "oppose",
+            "denounce",
+            "resist"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-champion",
+          "word": "champion",
+          "partOfSpeech": "verb",
+          "definition": "To fight for, defend, or actively support a person or cause.",
+          "example": "The senator championed workers' rights long before it became popular.",
+          "mnemonic": "A prize-fighting champion steps into the ring to battle on your behalf.",
+          "synonyms": [
+            "defend",
+            "support",
+            "advocate"
+          ],
+          "antonyms": [
+            "oppose",
+            "attack",
+            "undermine"
+          ]
+        },
+        {
+          "id": "gre-espouse",
+          "word": "espouse",
+          "partOfSpeech": "verb",
+          "definition": "To adopt and openly support a belief, cause, or way of life.",
+          "example": "After years of doubt, he espoused vegetarianism and never looked back.",
+          "mnemonic": "Hidden 'spouse' — you marry yourself to an idea.",
+          "synonyms": [
+            "embrace",
+            "adopt",
+            "support"
+          ],
+          "antonyms": [
+            "reject",
+            "renounce",
+            "abandon"
+          ]
+        },
+        {
+          "id": "gre-tangential",
+          "word": "tangential",
+          "partOfSpeech": "adjective",
+          "definition": "Only slightly related to the main subject; going off on a side point.",
+          "example": "Her question was tangential, so the professor set it aside to keep the lecture on track.",
+          "mnemonic": "Picture a tangent line touching a circle at just one point — barely connected to the rest.",
+          "synonyms": [
+            "peripheral",
+            "incidental",
+            "digressive"
+          ],
+          "antonyms": [
+            "central",
+            "relevant",
+            "essential"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-rebuttal",
+          "word": "rebuttal",
+          "partOfSpeech": "noun",
+          "definition": "An argument or reply that opposes and tries to disprove a claim.",
+          "example": "After the prosecutor finished, the defense offered a sharp rebuttal that dismantled the timeline.",
+          "mnemonic": "RE-BUT — it's the moment you say 'but...' right back: 'but here's why you're wrong.'",
+          "synonyms": [
+            "counterargument",
+            "refutation",
+            "response"
+          ],
+          "antonyms": [
+            "agreement",
+            "endorsement",
+            "concession"
+          ]
+        },
+        {
+          "id": "gre-fulminate",
+          "word": "fulminate",
+          "partOfSpeech": "verb",
+          "definition": "To loudly and angrily criticize or denounce something.",
+          "example": "The senator fulminated against the tax bill for nearly an hour, pounding the podium.",
+          "mnemonic": "Sounds like 'full' + 'detonate' — a full-blown verbal explosion (Latin 'fulmen' = thunderbolt).",
+          "synonyms": [
+            "rail",
+            "denounce",
+            "rage"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "approve"
+          ]
+        },
+        {
+          "id": "gre-inveigh",
+          "word": "inveigh",
+          "partOfSpeech": "verb",
+          "definition": "To speak or write with strong hostility against someone or something.",
+          "example": "Columnists inveighed against the factory owners who ignored every safety warning.",
+          "mnemonic": "in-VEIGH sounds like 'invade' — you verbally invade and attack a target with words.",
+          "synonyms": [
+            "rail",
+            "protest",
+            "denounce"
+          ],
+          "antonyms": [
+            "endorse",
+            "laud",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-accede",
+          "word": "accede",
+          "partOfSpeech": "verb",
+          "definition": "To agree to a request or demand, often after resistance.",
+          "example": "Worn down by weeks of protest, management finally acceded to the workers' pay demands.",
+          "mnemonic": "AC-CEDE — you 'cede' (give up) ground and finally say yes.",
+          "synonyms": [
+            "consent",
+            "assent",
+            "comply"
+          ],
+          "antonyms": [
+            "refuse",
+            "resist",
+            "decline"
+          ]
+        },
+        {
+          "id": "gre-concur",
+          "word": "concur",
+          "partOfSpeech": "verb",
+          "definition": "To have the same opinion as someone else; to agree.",
+          "example": "The three judges concurred, and the ruling was unanimous.",
+          "mnemonic": "CON + CUR (Latin 'currere' = to run) — two minds running together toward the same view.",
+          "synonyms": [
+            "agree",
+            "assent",
+            "coincide"
+          ],
+          "antonyms": [
+            "disagree",
+            "dissent",
+            "differ"
+          ]
+        },
+        {
+          "id": "gre-attest",
+          "word": "attest",
+          "partOfSpeech": "verb",
+          "definition": "To declare or provide evidence that something is true or genuine.",
+          "example": "Three witnesses can attest that she was home the entire evening.",
+          "mnemonic": "A-TEST — passing a test proves something is real, so you attest to it.",
+          "synonyms": [
+            "confirm",
+            "certify",
+            "verify"
+          ],
+          "antonyms": [
+            "deny",
+            "contradict",
+            "disprove"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-affirm",
+          "word": "affirm",
+          "partOfSpeech": "verb",
+          "definition": "To state firmly that something is true or to confirm a decision.",
+          "example": "The appeals court affirmed the lower ruling, letting the verdict stand.",
+          "mnemonic": "AF-FIRM — you say it firmly, standing firm behind your statement.",
+          "synonyms": [
+            "assert",
+            "confirm",
+            "declare"
+          ],
+          "antonyms": [
+            "deny",
+            "refute",
+            "negate"
+          ]
+        },
+        {
+          "id": "gre-cogency",
+          "word": "cogency",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being clear, logical, and highly convincing.",
+          "example": "The lawyer's closing argument had such cogency that the jury deliberated only minutes.",
+          "mnemonic": "Picture tight, meshing 'cogs' of logic — reasoning so well-geared it turns smoothly and convinces.",
+          "synonyms": [
+            "persuasiveness",
+            "forcefulness",
+            "soundness"
+          ],
+          "antonyms": [
+            "weakness",
+            "vagueness",
+            "incoherence"
+          ]
+        },
+        {
+          "id": "gre-renounce",
+          "word": "renounce",
+          "partOfSpeech": "verb",
+          "definition": "To formally give up a claim, right, or belief.",
+          "example": "He renounced his throne to marry a commoner, shocking the entire court.",
+          "mnemonic": "The opposite of 'announce' owning something — you announce that you're done with it and let it go.",
+          "synonyms": [
+            "relinquish",
+            "abandon",
+            "forsake"
+          ],
+          "antonyms": [
+            "claim",
+            "retain",
+            "embrace"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-stipulate",
+          "word": "stipulate",
+          "partOfSpeech": "verb",
+          "definition": "To state a specific requirement as a condition of an agreement.",
+          "example": "The lease stipulates that no pets are allowed without written permission.",
+          "mnemonic": "STIP sounds like 'strip' — think of a strip of fine print spelling out the exact conditions.",
+          "synonyms": [
+            "specify",
+            "require",
+            "demand"
+          ],
+          "antonyms": [
+            "imply",
+            "suggest",
+            "waive"
+          ]
+        },
+        {
+          "id": "gre-disputation",
+          "word": "disputation",
+          "partOfSpeech": "noun",
+          "definition": "A formal debate or reasoned argument, often academic, over a contested question.",
+          "example": "The medieval scholars gathered for a formal disputation, each defending his thesis before the faculty.",
+          "mnemonic": "DISPUTE + -ation: a staged public event built around a dispute.",
+          "synonyms": [
+            "debate",
+            "argumentation",
+            "polemic"
+          ],
+          "antonyms": [
+            "agreement",
+            "consensus",
+            "accord"
+          ]
+        },
+        {
+          "id": "gre-inference",
+          "word": "inference",
+          "partOfSpeech": "noun",
+          "definition": "A conclusion drawn from evidence and reasoning rather than from an explicit statement.",
+          "example": "Seeing the muddy boots by the door, she made the inference that he'd walked through the garden.",
+          "mnemonic": "IN + FER (Latin 'ferre', to carry): your mind carries you inward from clues to a conclusion.",
+          "synonyms": [
+            "deduction",
+            "conclusion",
+            "surmise"
+          ],
+          "antonyms": [
+            "observation",
+            "fact",
+            "given"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-irrefutable",
+          "word": "irrefutable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to deny or prove wrong.",
+          "example": "The security footage was irrefutable, so the suspect finally stopped denying he was there.",
+          "mnemonic": "IR- (not) + REFUTE: nothing you say can knock it down.",
+          "synonyms": [
+            "incontrovertible",
+            "indisputable",
+            "undeniable"
+          ],
+          "antonyms": [
+            "questionable",
+            "doubtful",
+            "disprovable"
+          ]
+        },
+        {
+          "id": "gre-persuasive",
+          "word": "persuasive",
+          "partOfSpeech": "adjective",
+          "definition": "Able to convince someone to believe or do something.",
+          "example": "Her closing argument was so persuasive that even the skeptical jurors began nodding along.",
+          "mnemonic": "Sounds like 'per-SUAVE': a smooth, suave talker who wins you over.",
+          "synonyms": [
+            "convincing",
+            "compelling",
+            "cogent"
+          ],
+          "antonyms": [
+            "unconvincing",
+            "weak",
+            "ineffective"
+          ]
+        },
+        {
+          "id": "gre-philippic",
+          "word": "philippic",
+          "partOfSpeech": "noun",
+          "definition": "A bitter, prolonged verbal attack denouncing someone or something.",
+          "example": "The senator launched into a furious philippic against the corruption gripping the ministry.",
+          "mnemonic": "Named for Demosthenes' fiery speeches against Philip of Macedon — 'Philip-pic.'",
+          "synonyms": [
+            "diatribe",
+            "tirade",
+            "invective"
+          ],
+          "antonyms": [
+            "eulogy",
+            "tribute",
+            "panegyric"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-adjure",
+          "word": "adjure",
+          "partOfSpeech": "verb",
+          "definition": "To earnestly urge or solemnly command someone to do something, as if under oath.",
+          "example": "The dying king adjured his sons to protect the realm and never betray one another.",
+          "mnemonic": "AD (to) + JURE (Latin 'swear'): you put someone under oath to act.",
+          "synonyms": [
+            "implore",
+            "beseech",
+            "entreat"
+          ],
+          "antonyms": [
+            "dissuade",
+            "discourage",
+            "release"
+          ]
+        },
+        {
+          "id": "gre-enjoin",
+          "word": "enjoin",
+          "partOfSpeech": "verb",
+          "definition": "To order or urge someone to do something, often formally or by legal authority.",
+          "example": "The judge enjoined the company from dumping any more waste into the river.",
+          "mnemonic": "EN + JOIN: you fasten a command onto someone, binding them to act.",
+          "synonyms": [
+            "command",
+            "instruct",
+            "direct"
+          ],
+          "antonyms": [
+            "permit",
+            "allow",
+            "release"
+          ]
+        },
+        {
+          "id": "gre-deter",
+          "word": "deter",
+          "partOfSpeech": "verb",
+          "definition": "To discourage someone from acting through fear or doubt about the consequences.",
+          "example": "High fences and bright floodlights are meant to deter burglars from even approaching the house.",
+          "mnemonic": "Sounds like 'de-TERROR': fear pushes you away from doing it.",
+          "synonyms": [
+            "discourage",
+            "dissuade",
+            "hinder"
+          ],
+          "antonyms": [
+            "encourage",
+            "motivate",
+            "incite"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-caveat",
+          "word": "caveat",
+          "partOfSpeech": "noun",
+          "definition": "A warning or cautionary condition attached to a statement or agreement.",
+          "example": "He agreed to lend the car, with one caveat: it had to be returned with a full tank.",
+          "mnemonic": "Latin 'let him beware' — picture a CAVE with a 'beware!' sign at its mouth.",
+          "synonyms": [
+            "warning",
+            "caution",
+            "stipulation"
+          ],
+          "antonyms": [
+            "guarantee",
+            "assurance",
+            "carte blanche"
+          ]
+        },
+        {
+          "id": "gre-proviso",
+          "word": "proviso",
+          "partOfSpeech": "noun",
+          "definition": "A condition or stipulation attached to an agreement.",
+          "example": "She accepted the job, with the proviso that she could work from home two days a week.",
+          "mnemonic": "PROVIDE-so: it's 'provided that' some condition is met.",
+          "synonyms": [
+            "condition",
+            "stipulation",
+            "clause"
+          ],
+          "antonyms": [
+            "guarantee",
+            "unconditional grant",
+            "carte blanche"
+          ]
+        },
+        {
+          "id": "gre-rejoinder",
+          "word": "rejoinder",
+          "partOfSpeech": "noun",
+          "definition": "A sharp or witty reply, especially one answering a criticism.",
+          "example": "When he mocked her cooking, her rejoinder was that he'd never once managed to boil an egg.",
+          "mnemonic": "RE- (back) + JOIN: you re-join the exchange with a snappy comeback.",
+          "synonyms": [
+            "retort",
+            "riposte",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "prompt",
+            "provocation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-retort",
+          "word": "retort",
+          "partOfSpeech": "noun",
+          "definition": "A quick, sharp, often angry reply to a remark.",
+          "example": "Stung by the insult, she fired back a cutting retort before storming out of the room.",
+          "mnemonic": "RE-TORT: you twist (Latin 'torquere') the remark right back at them.",
+          "synonyms": [
+            "riposte",
+            "rejoinder",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "inquiry",
+            "prompt"
+          ]
+        },
+        {
+          "id": "gre-riposte",
+          "word": "riposte",
+          "partOfSpeech": "noun",
+          "definition": "A quick, clever reply, or a swift return thrust in fencing.",
+          "example": "To his smug boast, she delivered a riposte so witty that the whole room burst out laughing.",
+          "mnemonic": "Sounds like 'response' plus a fencing 'post' — a lunge-back reply.",
+          "synonyms": [
+            "retort",
+            "rejoinder",
+            "comeback"
+          ],
+          "antonyms": [
+            "question",
+            "silence",
+            "provocation"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Mid-frequency and academic register",
+  "createdAt": "2026-09-12T07:57:27.855Z"
+}

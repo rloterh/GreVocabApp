@@ -139,7 +139,7 @@ export async function importFiles(
   for (const file of files) {
     if (!ACCEPTED_FILE.test(file.name)) continue;
     if (BINARY_FILE.test(file.name)) {
-      const monthKey = options.apkgMonth?.() ?? currentMonthKey();
+      const monthKey = options.apkgMonth?.() ?? FALLBACK_MONTH_KEY;
       const bytes = new Uint8Array(await file.arrayBuffer());
       outcome = merge(
         outcome,
@@ -152,11 +152,16 @@ export async function importFiles(
   return outcome;
 }
 
-/** Fallback target month for an Anki import when the caller names none. */
-function currentMonthKey(): string {
-  const now = new Date();
-  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
-}
+/**
+ * Where an Anki import lands when the caller names nowhere.
+ *
+ * It used to be the current calendar month, which was a reasonable guess when
+ * months were dates. It cannot be one now, and guessing a teaching position is
+ * worse than guessing a date — position 1 is content the user already has.
+ * Every real caller passes `apkgMonth`; this is the last resort, and it goes
+ * somewhere nothing else will be.
+ */
+const FALLBACK_MONTH_KEY = "gre/99";
 
 /**
  * Turn an outcome into toast copy.

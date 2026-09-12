@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { useAppStore, type Page } from "@/store/useAppStore";
 import { AboutDialog } from "@/components/AboutDialog";
+import { TrackSwitcher } from "@/components/TrackSwitcher";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -54,6 +55,11 @@ export function Sidebar() {
             Daily vocabulary
           </p>
         </div>
+      </div>
+
+      {/* Which notebook is open — see docs/adr/0011-tracks.md. */}
+      <div className="px-5 pb-4">
+        <TrackSwitcher className="w-full" />
       </div>
 
       <nav className="flex-1 px-3 space-y-6 overflow-y-auto no-scrollbar">

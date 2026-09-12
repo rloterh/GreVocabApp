@@ -95,7 +95,7 @@ export function progressToMarkdown(options: MarkdownExportOptions): string {
       const m = words.filter((w) => progress[w.id]?.mastered).length;
       const d = words.filter((w) => isDue(progress[w.id], now)).length;
       out.push(
-        `| ${cell(months[key].displayName)} | ${words.length} | ${m} (${pct(m, words.length)}) | ${d} |`,
+        `| ${cell(months[key].title)} | ${words.length} | ${m} (${pct(m, words.length)}) | ${d} |`,
       );
     }
     out.push("");

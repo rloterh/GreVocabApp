@@ -18,6 +18,7 @@
 
 import type { VocabMonth } from "@/types";
 import { stem } from "@/lib/stem";
+import { keyOf } from "@/lib/track";
 
 /** Where a word came from, so the UI can explain a collision. */
 export type VocabSource = "seed" | "import" | "generated" | "user";
@@ -104,7 +105,7 @@ export class VocabIndex {
         this.put({
           stem: stem(word.word),
           word: word.word,
-          monthKey: month.month,
+          monthKey: keyOf(month),
           source,
         });
       }

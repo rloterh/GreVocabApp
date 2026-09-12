@@ -20,13 +20,14 @@ import { VocabIndex } from "@/lib/vocab-index";
 import type { VocabMonth } from "@/types";
 
 function plan(overrides: Partial<GenerationPlan> = {}): GenerationPlan {
-  return { ...defaultPlan("2026-10"), ...overrides };
+  return { ...defaultPlan(10), ...overrides };
 }
 
-function monthOf(key: string, words: string[]): VocabMonth {
+function monthOf(ordinal: number, words: string[]): VocabMonth {
   return {
-    month: key,
-    displayName: key,
+    track: "gre",
+    ordinal,
+    title: `Month ${ordinal}`,
     days: words.map((w, i) => ({
       day: i + 1,
       words: [
@@ -53,20 +54,25 @@ describe("planMonths", () => {
     expect(planMonths(plan({ horizon }))).toHaveLength(count);
   });
 
-  it("starts at the start month", () => {
+  it("starts at the start ordinal", () => {
     expect(planMonths(plan({ horizon: "quarter" }))).toEqual([
-      "2026-10",
-      "2026-11",
-      "2026-12",
+      "gre/10",
+      "gre/11",
+      "gre/12",
     ]);
   });
 
-  it("rolls over the year boundary", () => {
-    // December + 1 is January of the next year, not month 13.
-    expect(planMonths(plan({ startMonth: "2026-11", horizon: "quarter" }))).toEqual([
-      "2026-11",
-      "2026-12",
-      "2027-01",
+  it("keeps counting past month twelve", () => {
+    // There is no year to roll over any more. A track is as long as it is,
+    // and month 13 is month 13.
+    expect(
+      planMonths(plan({ startOrdinal: 11, horizon: "quarter" })),
+    ).toEqual(["gre/11", "gre/12", "gre/13"]);
+  });
+
+  it("names the track it is generating for", () => {
+    expect(planMonths(plan({ track: "sat", horizon: "month" }))).toEqual([
+      "sat/10",
     ]);
   });
 
@@ -174,8 +180,8 @@ describe("required words", () => {
     // may never finish.
     const p = plan({ horizon: "year", wordsPerDay: 1, mustInclude: ["abate"] });
     const spread = distributeMustInclude(p);
-    expect(spread.get("2026-10")).toEqual(["abate"]);
-    expect(spread.get("2027-09")).toEqual([]);
+    expect(spread.get("gre/10")).toEqual(["abate"]);
+    expect(spread.get("gre/21")).toEqual([]);
   });
 
   it("spills into later months once one is full", () => {
@@ -186,13 +192,13 @@ describe("required words", () => {
       mustInclude: Array.from({ length: 31 }, (_, i) => `word${i}`),
     });
     const spread = distributeMustInclude(p);
-    expect(spread.get("2026-10")).toHaveLength(30);
-    expect(spread.get("2026-11")).toEqual(["word30"]);
+    expect(spread.get("gre/10")).toHaveLength(30);
+    expect(spread.get("gre/11")).toEqual(["word30"]);
   });
 
   it("covers every month of the plan", () => {
     const spread = distributeMustInclude(plan({ horizon: "quarter" }));
-    expect([...spread.keys()]).toEqual(["2026-10", "2026-11", "2026-12"]);
+    expect([...spread.keys()]).toEqual(["gre/10", "gre/11", "gre/12"]);
   });
 });
 
@@ -228,20 +234,20 @@ describe("previewPlan", () => {
   });
 
   it("says which requested words the user already has", () => {
-    const index = VocabIndex.from([monthOf("2026-04", ["abate", "cogent"])]);
+    const index = VocabIndex.from([monthOf(1, ["abate", "cogent"])]);
     const preview = previewPlan(
       plan({ mustInclude: ["abating", "perspicacious"] }),
       index,
     );
     expect(preview.alreadyHave).toEqual([
-      { word: "abating", monthKey: "2026-04", retired: false },
+      { word: "abating", monthKey: "gre/01", retired: false },
     ]);
     expect(preview.warnings.join(" ")).toMatch(/already in your vocabulary/);
   });
 
   it("flags a retired collision as retired", () => {
-    const index = VocabIndex.from([monthOf("2026-04", ["abate"])]);
-    index.retireMonth("2026-04");
+    const index = VocabIndex.from([monthOf(1, ["abate"])]);
+    index.retireMonth("gre/01");
     const preview = previewPlan(plan({ mustInclude: ["abate"] }), index);
     expect(preview.alreadyHave[0].retired).toBe(true);
   });
@@ -257,7 +263,8 @@ describe("planErrors", () => {
   });
 
   it.each([
-    ["a malformed start month", { startMonth: "October" }],
+    ["a start month of zero", { startOrdinal: 0 }],
+    ["a fractional start month", { startOrdinal: 2.5 }],
     ["zero words per day", { wordsPerDay: 0 }],
     ["a fractional words per day", { wordsPerDay: 2.5 }],
     ["too many words per day", { wordsPerDay: 40 }],

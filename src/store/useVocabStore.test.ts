@@ -12,10 +12,12 @@ import type { VocabMonth } from "@/types";
 
 const store = () => useVocabStore.getState();
 
-function month(key: string, days = [1, 2]): VocabMonth {
+function month(ordinal: number, days = [1, 2]): VocabMonth {
+  const key = `gre/${String(ordinal).padStart(2, "0")}`;
   return {
-    month: key,
-    displayName: key,
+    track: "gre",
+    ordinal,
+    title: key,
     days: days.map((day) => ({
       day,
       words: [
@@ -44,69 +46,69 @@ beforeEach(() => {
 
 describe("loadMonth", () => {
   it("validates, stores, and reports the key", () => {
-    const result = store().loadMonth(month("2026-04"));
-    expect(result).toEqual({ ok: true, monthKey: "2026-04" });
-    expect(store().hasMonthKey("2026-04")).toBe(true);
+    const result = store().loadMonth(month(1));
+    expect(result).toEqual({ ok: true, monthKey: "gre/01" });
+    expect(store().hasMonthKey("gre/01")).toBe(true);
   });
 
   it("makes the first loaded month active, and leaves it that way", () => {
-    store().loadMonth(month("2026-04"));
-    expect(store().activeMonthKey).toBe("2026-04");
-    store().loadMonth(month("2026-05"));
-    expect(store().activeMonthKey).toBe("2026-04");
+    store().loadMonth(month(1));
+    expect(store().activeMonthKey).toBe("gre/01");
+    store().loadMonth(month(2));
+    expect(store().activeMonthKey).toBe("gre/01");
   });
 
   it("returns the validator's message instead of throwing", () => {
-    const result = store().loadMonth({ month: "nope", days: [] });
+    const result = store().loadMonth({ track: "gre", ordinal: 1, days: [] });
     expect(result.ok).toBe(false);
-    if (!result.ok) expect(result.error).toMatch(/month/i);
+    if (!result.ok) expect(result.error).toMatch(/days/i);
     expect(store().getAllMonths()).toHaveLength(0);
   });
 
   it("replaces a month loaded twice rather than duplicating it", () => {
-    store().loadMonth(month("2026-04", [1, 2]));
-    store().loadMonth(month("2026-04", [1, 2, 3]));
+    store().loadMonth(month(1, [1, 2]));
+    store().loadMonth(month(1, [1, 2, 3]));
     expect(store().getAllMonths()).toHaveLength(1);
-    expect(store().months["2026-04"].days).toHaveLength(3);
+    expect(store().months["gre/01"].days).toHaveLength(3);
   });
 });
 
 describe("removeMonth", () => {
   it("drops the month and moves active to another one", () => {
-    store().loadMonth(month("2026-04"));
-    store().loadMonth(month("2026-05"));
-    store().removeMonth("2026-04");
+    store().loadMonth(month(1));
+    store().loadMonth(month(2));
+    store().removeMonth("gre/01");
 
-    expect(store().hasMonthKey("2026-04")).toBe(false);
-    expect(store().activeMonthKey).toBe("2026-05");
+    expect(store().hasMonthKey("gre/01")).toBe(false);
+    expect(store().activeMonthKey).toBe("gre/02");
   });
 
   it("clears the active key when the last month goes", () => {
-    store().loadMonth(month("2026-04"));
-    store().removeMonth("2026-04");
+    store().loadMonth(month(1));
+    store().removeMonth("gre/01");
     expect(store().activeMonthKey).toBeNull();
     expect(store().getActiveMonth()).toBeNull();
   });
 
   it("leaves the active key alone when removing some other month", () => {
-    store().loadMonth(month("2026-04"));
-    store().loadMonth(month("2026-05"));
-    store().removeMonth("2026-05");
-    expect(store().activeMonthKey).toBe("2026-04");
+    store().loadMonth(month(1));
+    store().loadMonth(month(2));
+    store().removeMonth("gre/02");
+    expect(store().activeMonthKey).toBe("gre/01");
   });
 });
 
 describe("selection", () => {
   it("resets to day 1 when the month changes", () => {
-    store().loadMonth(month("2026-04"));
-    store().loadMonth(month("2026-05"));
+    store().loadMonth(month(1));
+    store().loadMonth(month(2));
     store().setSelectedDay(2);
-    store().setActiveMonth("2026-05");
+    store().setActiveMonth("gre/02");
     expect(store().selectedDay).toBe(1);
   });
 
   it("returns the selected day's words", () => {
-    store().loadMonth(month("2026-04", [1, 2]));
+    store().loadMonth(month(1, [1, 2]));
     store().setSelectedDay(2);
     expect(store().getWordsForSelectedDay().map((w) => w.word)).toEqual([
       "word2",
@@ -114,10 +116,10 @@ describe("selection", () => {
   });
 
   it("returns nothing for a day the month does not have", () => {
-    store().loadMonth(month("2026-04", [1]));
+    store().loadMonth(month(1, [1]));
     store().setSelectedDay(9);
     expect(store().getWordsForSelectedDay()).toEqual([]);
-    expect(store().hasDayInMonth("2026-04", 9)).toBe(false);
+    expect(store().hasDayInMonth("gre/01", 9)).toBe(false);
   });
 
   it("returns nothing when no month is active", () => {
@@ -126,23 +128,21 @@ describe("selection", () => {
 });
 
 describe("getAllMonths", () => {
-  it("sorts chronologically regardless of load order", () => {
-    store().loadMonth(month("2026-05"));
-    store().loadMonth(month("2026-04"));
-    store().loadMonth(month("2026-06"));
-    expect(store().getAllMonths().map((m) => m.month)).toEqual([
-      "2026-04",
-      "2026-05",
-      "2026-06",
-    ]);
+  it("returns teaching order regardless of load order", () => {
+    store().loadMonth(month(2));
+    store().loadMonth(month(1));
+    store().loadMonth(month(3));
+    expect(store().getAllMonths().map((m) => m.ordinal)).toEqual([1, 2, 3]);
   });
 });
 
 /** A month whose words are named, for the index tests below. */
-function namedMonth(key: string, words: string[]): VocabMonth {
+function namedMonth(ordinal: number, words: string[]): VocabMonth {
+  const key = `gre/${String(ordinal).padStart(2, "0")}`;
   return {
-    month: key,
-    displayName: key,
+    track: "gre",
+    ordinal,
+    title: key,
     days: words.map((w, i) => ({
       day: i + 1,
       words: [
@@ -161,30 +161,30 @@ function namedMonth(key: string, words: string[]): VocabMonth {
 
 describe("the vocabulary index", () => {
   it("knows every loaded word", () => {
-    store().loadMonth(namedMonth("2026-04", ["abate", "cogent"]));
+    store().loadMonth(namedMonth(1, ["abate", "cogent"]));
     const index = store().getVocabIndex();
     expect(index.has("abate")).toBe(true);
     expect(index.has("cogent")).toBe(true);
   });
 
   it("catches inflections, not just exact strings", () => {
-    store().loadMonth(namedMonth("2026-04", ["abate"]));
+    store().loadMonth(namedMonth(1, ["abate"]));
     expect(store().getVocabIndex().has("abatement")).toBe(true);
   });
 
   it("is rebuilt from the months, so it cannot go stale", () => {
-    store().loadMonth(namedMonth("2026-04", ["abate"]));
+    store().loadMonth(namedMonth(1, ["abate"]));
     expect(store().getVocabIndex().size).toBe(1);
-    store().loadMonth(namedMonth("2026-05", ["cogent"]));
+    store().loadMonth(namedMonth(2, ["cogent"]));
     expect(store().getVocabIndex().size).toBe(2);
   });
 });
 
 describe("removing a month retires its words", () => {
   beforeEach(() => {
-    store().loadMonth(namedMonth("2026-04", ["abate", "cogent"]));
-    store().loadMonth(namedMonth("2026-05", ["laconic"]));
-    store().removeMonth("2026-04");
+    store().loadMonth(namedMonth(1, ["abate", "cogent"]));
+    store().loadMonth(namedMonth(2, ["laconic"]));
+    store().removeMonth("gre/01");
   });
 
   it("still blocks them from being generated again", () => {
@@ -223,22 +223,22 @@ describe("removing a month retires its words", () => {
   });
 
   it("does not record the same word twice", () => {
-    store().loadMonth(namedMonth("2026-04", ["abate", "cogent"]));
-    store().removeMonth("2026-04");
+    store().loadMonth(namedMonth(1, ["abate", "cogent"]));
+    store().removeMonth("gre/01");
     expect(store().retiredWords).toHaveLength(2);
   });
 });
 
 describe("releasing retired words", () => {
   beforeEach(() => {
-    store().loadMonth(namedMonth("2026-04", ["abate"]));
-    store().loadMonth(namedMonth("2026-05", ["laconic"]));
-    store().removeMonth("2026-04");
-    store().removeMonth("2026-05");
+    store().loadMonth(namedMonth(1, ["abate"]));
+    store().loadMonth(namedMonth(2, ["laconic"]));
+    store().removeMonth("gre/01");
+    store().removeMonth("gre/02");
   });
 
   it("frees one month's words when asked", () => {
-    expect(store().releaseRetired("2026-04")).toBe(1);
+    expect(store().releaseRetired("gre/01")).toBe(1);
     const index = store().getVocabIndex();
     expect(index.has("abate")).toBe(false);
     expect(index.has("laconic")).toBe(true);
@@ -250,7 +250,7 @@ describe("releasing retired words", () => {
   });
 
   it("never touches a word that is still loaded", () => {
-    store().loadMonth(namedMonth("2026-06", ["turgid"]));
+    store().loadMonth(namedMonth(3, ["turgid"]));
     store().releaseRetired();
     expect(store().getVocabIndex().has("turgid")).toBe(true);
   });
@@ -258,13 +258,13 @@ describe("releasing retired words", () => {
 
 describe("reloading a month that was retired", () => {
   it("lets the live copy outrank the retired record", () => {
-    store().loadMonth(namedMonth("2026-04", ["abate"]));
-    store().removeMonth("2026-04");
-    store().loadMonth(namedMonth("2026-06", ["abate"]));
+    store().loadMonth(namedMonth(1, ["abate"]));
+    store().removeMonth("gre/01");
+    store().loadMonth(namedMonth(3, ["abate"]));
 
     // The truthful answer to "where is this word?" is the month it is in.
     const index = store().getVocabIndex();
-    expect(index.lookup("abate")?.monthKey).toBe("2026-06");
+    expect(index.lookup("abate")?.monthKey).toBe("gre/03");
     expect(index.lookup("abate")?.retiredAt).toBeUndefined();
   });
 });
@@ -283,70 +283,70 @@ describe("adding words to an existing month", () => {
   }
 
   beforeEach(() => {
-    store().loadMonth(namedMonth("2026-04", ["abate", "cogent"]));
+    store().loadMonth(namedMonth(1, ["abate", "cogent"]));
   });
 
   it("appends them and reports how many landed", () => {
-    const result = store().addWordsToMonth("2026-04", cards("turgid"));
+    const result = store().addWordsToMonth("gre/01", cards("turgid"));
     expect(result).toEqual({ ok: true, added: 1 });
     const words = store()
-      .months["2026-04"].days.flatMap((d) => d.words)
+      .months["gre/01"].days.flatMap((d) => d.words)
       .map((w) => w.word);
     expect(words).toEqual(["abate", "cogent", "turgid"]);
   });
 
   it("leaves existing days exactly as they were", () => {
-    const before = JSON.stringify(store().months["2026-04"].days[0]);
-    store().addWordsToMonth("2026-04", cards("turgid", "laconic", "fervid", "dearth"));
+    const before = JSON.stringify(store().months["gre/01"].days[0]);
+    store().addWordsToMonth("gre/01", cards("turgid", "laconic", "fervid", "dearth"));
     // A user part-way through a month must not find yesterday rearranged.
-    expect(JSON.stringify(store().months["2026-04"].days[0])).toBe(before);
+    expect(JSON.stringify(store().months["gre/01"].days[0])).toBe(before);
   });
 
   it("tops up the last day before opening a new one", () => {
     // The seeded month has one word on its last day, so two more belong there
     // rather than on a fresh day.
-    store().addWordsToMonth("2026-04", cards("turgid", "laconic"), 3);
-    const days = store().months["2026-04"].days;
+    store().addWordsToMonth("gre/01", cards("turgid", "laconic"), 3);
+    const days = store().months["gre/01"].days;
     expect(days).toHaveLength(2);
     expect(days[1].words.map((w) => w.word)).toEqual(["cogent", "turgid", "laconic"]);
   });
 
   it("starts new days once the last one is full", () => {
     store().addWordsToMonth(
-      "2026-04",
+      "gre/01",
       cards("a", "b", "c", "d", "e"),
       3,
     );
-    const days = store().months["2026-04"].days;
+    const days = store().months["gre/01"].days;
     expect(days.map((d) => d.day)).toEqual([1, 2, 3]);
     expect(days[2].words.map((w) => w.word)).toEqual(["c", "d", "e"]);
   });
 
   it("refuses a month that is not loaded", () => {
-    const result = store().addWordsToMonth("2026-09", cards("turgid"));
+    const result = store().addWordsToMonth("gre/09", cards("turgid"));
     expect(result.ok).toBe(false);
   });
 
   it("is a no-op for an empty list", () => {
-    const before = JSON.stringify(store().months["2026-04"]);
-    expect(store().addWordsToMonth("2026-04", [])).toEqual({ ok: true, added: 0 });
-    expect(JSON.stringify(store().months["2026-04"])).toBe(before);
+    const before = JSON.stringify(store().months["gre/01"]);
+    expect(store().addWordsToMonth("gre/01", [])).toEqual({ ok: true, added: 0 });
+    expect(JSON.stringify(store().months["gre/01"])).toBe(before);
   });
 
   it("reports what did not fit rather than silently dropping it", () => {
     // A month is 31 days. Anything past that has nowhere to go, and the
     // caller has to be able to say so.
     const many = cards(...Array.from({ length: 200 }, (_, i) => `w${i}`));
-    const result = store().addWordsToMonth("2026-04", many, 3);
+    const result = store().addWordsToMonth("gre/01", many, 3);
     expect(result.ok).toBe(true);
     if (result.ok) {
       expect(result.added).toBeLessThan(many.length);
-      expect(store().months["2026-04"].days.length).toBeLessThanOrEqual(31);
+      expect(store().months["gre/01"].days.length).toBeLessThanOrEqual(31);
     }
   });
 
   it("puts the new words into the index", () => {
-    store().addWordsToMonth("2026-04", cards("turgid"));
+    store().addWordsToMonth("gre/01", cards("turgid"));
     expect(store().getVocabIndex().has("turgid")).toBe(true);
   });
 });

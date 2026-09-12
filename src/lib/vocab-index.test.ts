@@ -13,16 +13,17 @@ function word(w: string): VocabWord {
   };
 }
 
-function month(key: string, words: string[]): VocabMonth {
+function month(ordinal: number, words: string[]): VocabMonth {
   return {
-    month: key,
-    displayName: key,
+    track: "gre",
+    ordinal,
+    title: `Month ${ordinal}`,
     days: words.map((w, i) => ({ day: i + 1, words: [word(w)] })),
   };
 }
 
-const APRIL = month("2026-04", ["abate", "cogent", "ephemeral"]);
-const MAY = month("2026-05", ["laconic", "obdurate"]);
+const APRIL = month(1, ["abate", "cogent", "ephemeral"]);
+const MAY = month(2, ["laconic", "obdurate"]);
 
 describe("building the index", () => {
   it("holds every word from every month", () => {
@@ -50,7 +51,7 @@ describe("building the index", () => {
 
   it("says where a word came from", () => {
     const index = VocabIndex.from([APRIL]);
-    expect(index.lookup("abate")?.monthKey).toBe("2026-04");
+    expect(index.lookup("abate")?.monthKey).toBe("gre/01");
     expect(index.lookup("laconic")).toBeUndefined();
   });
 });
@@ -118,7 +119,7 @@ describe("filtering a generated batch", () => {
 describe("retirement — removing a month does not free its words", () => {
   function retiredIndex() {
     const index = VocabIndex.from([APRIL, MAY]);
-    const retired = index.retireMonth("2026-04", "2026-09-11T00:00:00.000Z");
+    const retired = index.retireMonth("gre/01", "2026-09-11T00:00:00.000Z");
     return { index, retired };
   }
 
@@ -160,7 +161,7 @@ describe("retirement — removing a month does not free its words", () => {
 
   it("is idempotent", () => {
     const { index } = retiredIndex();
-    expect(index.retireMonth("2026-04")).toHaveLength(0);
+    expect(index.retireMonth("gre/01")).toHaveLength(0);
     expect(index.retiredCount).toBe(3);
   });
 
@@ -176,7 +177,7 @@ describe("rebuilding from a persisted ledger", () => {
     {
       stem: "abat",
       word: "abate",
-      monthKey: "2026-04",
+      monthKey: "gre/01",
       source: "generated",
       retiredAt: "2026-09-11T00:00:00.000Z",
     },
@@ -192,9 +193,9 @@ describe("rebuilding from a persisted ledger", () => {
   it("lets a live month outrank a retired entry for the same word", () => {
     // The user removed April, then imported a month containing `abate` again.
     // The live copy is the truthful answer to "where is this word?".
-    const reimported = month("2026-06", ["abate"]);
+    const reimported = month(3, ["abate"]);
     const index = VocabIndex.from([reimported], ledger);
-    expect(index.lookup("abate")?.monthKey).toBe("2026-06");
+    expect(index.lookup("abate")?.monthKey).toBe("gre/03");
     expect(index.lookup("abate")?.retiredAt).toBeUndefined();
   });
 });
@@ -202,14 +203,14 @@ describe("rebuilding from a persisted ledger", () => {
 describe("release", () => {
   it("frees retired words when the user explicitly asks", () => {
     const index = VocabIndex.from([APRIL]);
-    index.retireMonth("2026-04");
-    expect(index.release("2026-04")).toBe(3);
+    index.retireMonth("gre/01");
+    expect(index.release("gre/01")).toBe(3);
     expect(index.has("abate")).toBe(false);
   });
 
   it("never frees a live month's words", () => {
     const index = VocabIndex.from([APRIL, MAY]);
-    index.retireMonth("2026-04");
+    index.retireMonth("gre/01");
     // May is still loaded; releasing everything retired must not touch it.
     expect(index.release()).toBe(3);
     expect(index.has("laconic")).toBe(true);
@@ -217,8 +218,7 @@ describe("release", () => {
 });
 
 describe("the prompt sample", () => {
-  const many = month(
-    "2026-07",
+  const many = month(4,
     ["abate", "abscond", "belie", "cogent", "dearth", "ennui", "fervid"],
   );
   const index = VocabIndex.from([many]);

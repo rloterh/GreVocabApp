@@ -26,6 +26,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useVocabStore } from "@/store/useVocabStore";
+import { monthKey as monthKeyFor, parseMonthKey } from "@/lib/track";
 import { useAppStore } from "@/store/useAppStore";
 import { generateMonth, WORDS_PER_DAY } from "@/lib/generate";
 import { selectProvider } from "@/lib/ai/client";
@@ -35,8 +36,7 @@ import {
   countDiscardedRows,
   parsePastedVocab,
 } from "@/lib/prompt-bridge";
-import { allWordsInMonth, firstFreeMonthKey } from "@/lib/vocabulary";
-import { formatMonthKey } from "@/lib/date-utils";
+import { allWordsInMonth } from "@/lib/vocabulary";
 import { PlanBuilder } from "@/components/PlanBuilder";
 import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 
@@ -44,6 +44,8 @@ type Mode = "form" | "plan" | "bridge";
 
 export function VocabGenerator() {
   const months = useVocabStore((s) => s.months);
+  const nextMonthKey = useVocabStore((s) => s.nextMonthKey);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const showToast = useAppStore((s) => s.showToast);
 
@@ -53,7 +55,8 @@ export function VocabGenerator() {
   const [mode, setMode] = useState<Mode>("form");
   const [topic, setTopic] = useState("");
   const [wordCount, setWordCount] = useState(30);
-  const [monthKey, setMonthKey] = useState(() => firstFreeMonthKey(months));
+  const [monthKey, setMonthKey] = useState(() => nextMonthKey());
+  const ordinal = parseMonthKey(monthKey)?.ordinal ?? 1;
   const [pasted, setPasted] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -65,7 +68,7 @@ export function VocabGenerator() {
       .map((w) => w.word);
 
   function openDialog() {
-    setMonthKey(firstFreeMonthKey(months));
+    setMonthKey(nextMonthKey());
     setMode("form");
     setPasted("");
     setError(null);
@@ -85,7 +88,7 @@ export function VocabGenerator() {
   function invalidInputs(): string | null {
     if (!topic.trim()) return "Give it a topic first.";
     if (monthKey in months) {
-      return `${formatMonthKey(monthKey)} is already loaded. Pick another month, or remove it first.`;
+      return `Month ${ordinal} is already loaded. Pick another, or remove it first.`;
     }
     return null;
   }
@@ -104,7 +107,7 @@ export function VocabGenerator() {
     setTopic("");
     setPasted("");
     showToast({
-      title: `Added ${formatMonthKey(monthKey)}`,
+      title: `Added month ${ordinal}`,
       description: `${loaded} month${loaded === 1 ? "" : "s"} via ${via}`,
       variant: "success",
     });
@@ -283,11 +286,21 @@ export function VocabGenerator() {
                   >
                     Month
                   </label>
+                  {/* A teaching position, not a date. Where it falls on the
+                      calendar is the schedule's business. */}
                   <Input
                     id="gen-month"
-                    type="month"
-                    value={monthKey}
-                    onChange={(e) => setMonthKey(e.target.value)}
+                    type="number"
+                    min={1}
+                    value={ordinal}
+                    onChange={(e) =>
+                      setMonthKey(
+                        monthKeyFor(
+                          activeTrack,
+                          Math.max(1, Number(e.target.value) || 1),
+                        ),
+                      )
+                    }
                     className="tabular"
                     disabled={busy}
                   />

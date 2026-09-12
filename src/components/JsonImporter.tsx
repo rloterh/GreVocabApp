@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { FolderOpen, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useVocabStore } from "@/store/useVocabStore";
-import { firstFreeMonthKey } from "@/lib/vocabulary";
 import { useAppStore } from "@/store/useAppStore";
 import { isTauri } from "@/lib/utils";
 import {
@@ -28,10 +27,10 @@ export function JsonImporter() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [busy, setBusy] = useState(false);
   const loadMonth = useVocabStore((s) => s.loadMonth);
-  const months = useVocabStore((s) => s.months);
+  const nextMonthKey = useVocabStore((s) => s.nextMonthKey);
   // Anki decks carry no month; land them somewhere empty rather than on top
   // of vocabulary that is already loaded.
-  const importOptions = { apkgMonth: () => firstFreeMonthKey(months) };
+  const importOptions = { apkgMonth: () => nextMonthKey() };
   const showToast = useAppStore((s) => s.showToast);
 
   /** Report an outcome the same way regardless of which path produced it. */

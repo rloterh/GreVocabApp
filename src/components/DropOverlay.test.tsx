@@ -124,7 +124,7 @@ describe("dropping", () => {
     window.dispatchEvent(fileDrag("drop", [file]));
 
     await waitFor(() =>
-      expect(useVocabStore.getState().hasMonthKey("2026-07")).toBe(true),
+      expect(useVocabStore.getState().hasMonthKey("gre/01")).toBe(true),
     );
     expect(useAppStore.getState().toast?.title).toBe("Loaded 1 month");
   });

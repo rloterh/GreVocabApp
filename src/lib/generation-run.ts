@@ -17,6 +17,7 @@
  * See docs/VOCAB-GENERATION.md.
  */
 
+import { parseMonthKey } from "@/lib/track";
 import type { VocabMonth } from "@/types";
 import type { Provider } from "@/lib/ai/types";
 import { generateCards, generateMonth } from "@/lib/generate";
@@ -331,9 +332,12 @@ function layOut(
   }
 
   const theme = plan.themes?.[monthIndex];
+  const target = parseMonthKey(monthKey);
   return {
-    month: monthKey,
-    displayName: monthKey,
+    track: target?.track ?? plan.track,
+    ordinal: target?.ordinal ?? plan.startOrdinal + monthIndex,
+    // The theme is the month's identity now that its key is a position.
+    title: theme ?? `Month ${target?.ordinal ?? monthIndex + 1}`,
     days,
     description: `Generated: ${plan.register}${theme ? ` — ${theme}` : ""}`,
     createdAt: new Date().toISOString(),

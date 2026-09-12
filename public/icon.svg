@@ -1,5 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
-  <path d="M20 44V20h4v20h12v4H20z" fill="#5DCAA5"/>
-  <circle cx="46" cy="24" r="4" fill="#5DCAA5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" role="img" aria-label="Lexicon">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A1815"/>
+      <stop offset="1" stop-color="#0D0C0B"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="176" y1="120" x2="380" y2="376" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBF8F3"/>
+      <stop offset="1" stop-color="#DCD5C9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="114" fill="url(#ground)"/>
+  <!-- A hairline of light along the top edge: the bevel that makes a flat
+       square read as an object rather than a sticker. -->
+  <rect x="0.5" y="0.5" width="511" height="511" rx="113.5" stroke="#FFFFFF" stroke-opacity="0.07"/>
+
+  <!-- A serif L, built from slabs: stem, foot, and the two bracket serifs that
+       make it a book face rather than a UI glyph. -->
+  <g fill="url(#ink)">
+    <path d="M150 130h128v22H150z"/>
+    <path d="M188 130h62v212h-62z"/>
+    <path d="M188 320h176v22H188z"/>
+    <path d="M340 306h24v36h-24z"/>
+  </g>
+
+  <!-- The headword's dot. The one piece of accent, in the same green the app
+       uses for everything it is confident about. -->
+  <circle cx="360" cy="176" r="30" fill="#3DBE91"/>
+
+  <!-- The rule under a dictionary entry. -->
+  <rect x="150" y="374" width="214" height="8" rx="4" fill="#3DBE91" fill-opacity="0.32"/>
 </svg>

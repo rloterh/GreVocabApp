@@ -10,9 +10,14 @@ abate,verb,to lessen,The storm abated.,"a-BATE, like bait shrinking",1
 cogent,adjective,clear and convincing,A cogent argument.,"cogent = co-agent, persuasive",1
 dearth,noun,a scarcity,A dearth of options.,"dearth = death of supply",2`;
 
-/** csvToMonthObjects returns month-shaped objects for parseVocabMonth. */
+/**
+ * csvToMonthObjects returns month-shaped objects for parseVocabMonth, not
+ * VocabMonths — they carry no track or ordinal, because where an import lands
+ * in a track is the store's decision, not the file's.
+ */
+type RawMonth = { title: string; days: VocabMonth["days"] };
 const asMonths = (text: string, fallbackMonth = "2026-07") =>
-  csvToMonthObjects(text, { fallbackMonth }) as unknown as VocabMonth[];
+  csvToMonthObjects(text, { fallbackMonth }) as unknown as RawMonth[];
 
 describe("parseCsv", () => {
   it("splits plain rows", () => {
@@ -77,8 +82,7 @@ describe("monthFromFilename", () => {
 describe("csvToMonthObjects", () => {
   it("groups rows into days and sorts them", () => {
     const [month] = asMonths(BASIC);
-    expect(month.month).toBe("2026-07");
-    expect(month.displayName).toBe("July 2026");
+    expect(month.title).toBe("July 2026");
     expect(month.days.map((d) => d.day)).toEqual([1, 2]);
     expect(month.days[0].words).toHaveLength(2);
   });
@@ -93,7 +97,7 @@ describe("csvToMonthObjects", () => {
 laconic,adjective,using few words,A laconic reply.,laconic = lacking words,3,2026-08,terse;curt,verbose;wordy`;
     const [month] = asMonths(aliased);
     const word = month.days[0].words[0];
-    expect(month.month).toBe("2026-08"); // month column beats the fallback
+    expect(month.title).toBe("August 2026"); // month column beats the fallback
     expect(word.partOfSpeech).toBe("adjective");
     expect(word.synonyms).toEqual(["terse", "curt"]);
     expect(word.antonyms).toEqual(["verbose", "wordy"]);
@@ -103,9 +107,9 @@ laconic,adjective,using few words,A laconic reply.,laconic = lacking words,3,202
     const spanning = `${HEADER},month
 a,noun,def a,ex a,mn a,1,2026-07
 b,noun,def b,ex b,mn b,1,2026-08`;
-    expect(asMonths(spanning, "2026-01").map((m) => m.month).sort()).toEqual([
-      "2026-07",
-      "2026-08",
+    expect(asMonths(spanning, "2026-01").map((m) => m.title).sort()).toEqual([
+      "August 2026",
+      "July 2026",
     ]);
   });
 });
@@ -129,15 +133,18 @@ describe("csvToMonthObjects — errors name the problem", () => {
 
 describe("CSV goes through the same validation as JSON", () => {
   it("produces something parseVocabMonth accepts", () => {
-    const validated = parseVocabMonth(asMonths(BASIC)[0]);
+    const validated = parseVocabMonth(asMonths(BASIC)[0], { track: "gre", ordinal: 1 });
     expect(validated.days).toHaveLength(2);
-    expect(validated.days[0].words[0].id).toBe("2026-07-abate");
+    expect(validated.days[0].words[0].id).toBe("gre-abate");
   });
 
   it("lets the shared validator reject a blank required cell", () => {
     // csv.ts deliberately does not re-implement this check.
     expect(() =>
-      parseVocabMonth(asMonths(`${HEADER}\na,noun,,e,m,1`)[0]),
+      parseVocabMonth(asMonths(`${HEADER}\na,noun,,e,m,1`)[0], {
+        track: "gre",
+        ordinal: 1,
+      }),
     ).toThrow(/definition/);
   });
 });

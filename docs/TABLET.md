@@ -86,6 +86,30 @@ width becomes a second column or margin — never a longer line. A definition se
 across 1300px is unreadable, and stretching it there is the single most common
 way a desktop layout "supports" tablets.
 
+### Fullscreen, always
+
+**Below `lg`, the app fills the screen.** Not a centred column with margins —
+the whole viewport.
+
+Three things this means concretely, and each was a real defect before it was a
+rule:
+
+- **Content is full-bleed.** Every page used `max-w-3xl mx-auto`, which on an
+  834px iPad left a phone-width column floating in the middle of the screen.
+  Those constraints now apply from `lg` up only; below that a page is
+  `w-full`, with a gutter and nothing else.
+- **Height is `100dvh`, not `100vh`.** On a phone `100vh` is the viewport
+  *without* the browser's collapsing address bar, so the bottom of the app sits
+  underneath it until the user scrolls. `100dvh` is the height actually on
+  screen and it updates as the chrome moves. `100vh` stays as the fallback.
+- **`viewport-fit=cover`, then safe areas.** The page paints under the notch
+  and the home indicator — which is what fullscreen should mean — and anything
+  at an edge comes back inside them deliberately, on all four sides, because
+  landscape moves the indicator to a side.
+
+A desktop browser window will not show you any of this. It is only visible at
+a real viewport, which is what `tablet-audit.mjs` is for.
+
 ### Touch, at tablet size
 
 Everything in MOBILE.md's rules applies, plus:

@@ -50,6 +50,16 @@ alternates tracks has two broken streaks instead of one intact one, and would
 punish exactly the behaviour the app should encourage. The streak measures
 showing up.
 
+### Where the active track lives
+
+`activeTrack` is in **`useVocabStore`**, beside `activeMonthKey` — not in
+settings, where ADR 0011 loosely called it "a setting". Every selector in that
+store needs it, and a value the vocabulary store has to reach into another
+store for on every read is a value that will eventually be read stale. It is a
+pointer into content, like the active month, rather than a preference.
+
+It is persisted, so reopening the app finds the notebook you left.
+
 ## Switching
 
 ```

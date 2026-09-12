@@ -1,0 +1,1666 @@
+{
+  "track": "gre",
+  "ordinal": 9,
+  "title": "Temperament and disposition",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-irascible",
+          "word": "irascible",
+          "partOfSpeech": "adjective",
+          "definition": "Quick to feel and show anger over small provocations.",
+          "example": "One more interruption and the irascible old cook hurled his ladle across the kitchen.",
+          "mnemonic": "Sounds like 'ire' + 'rascal' — an ire-filled rascal ready to blow up at any moment.",
+          "synonyms": [
+            "hot-tempered",
+            "testy",
+            "choleric"
+          ],
+          "antonyms": [
+            "easygoing",
+            "placid"
+          ]
+        },
+        {
+          "id": "gre-phlegmatic",
+          "word": "phlegmatic",
+          "partOfSpeech": "adjective",
+          "definition": "Having a calm temperament that is rarely stirred to strong emotion.",
+          "example": "While the others panicked at the fire alarm, Tom stayed phlegmatic and finished his coffee.",
+          "mnemonic": "From 'phlegm,' the sluggish body humor once believed to make people slow and unexcitable.",
+          "synonyms": [
+            "unflappable",
+            "stolid",
+            "impassive"
+          ],
+          "antonyms": [
+            "excitable",
+            "emotional"
+          ]
+        },
+        {
+          "id": "gre-affable",
+          "word": "affable",
+          "partOfSpeech": "adjective",
+          "definition": "Warm and easy to talk to; pleasant and approachable in manner.",
+          "example": "The affable bartender remembered every regular's name and their usual order.",
+          "mnemonic": "'Affable' → 'have a ball' — you have a ball chatting with such an easy host.",
+          "synonyms": [
+            "genial",
+            "cordial",
+            "approachable"
+          ],
+          "antonyms": [
+            "aloof",
+            "brusque"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-amiable",
+          "word": "amiable",
+          "partOfSpeech": "adjective",
+          "definition": "Having a friendly, pleasant, and good-natured disposition.",
+          "example": "Their amiable neighbor waved every morning and always offered to water the plants.",
+          "mnemonic": "From Latin 'amicus' (friend) — think French 'ami'; someone easy to befriend.",
+          "synonyms": [
+            "good-natured",
+            "likable",
+            "genial"
+          ],
+          "antonyms": [
+            "disagreeable",
+            "hostile"
+          ]
+        },
+        {
+          "id": "gre-congenial",
+          "word": "congenial",
+          "partOfSpeech": "adjective",
+          "definition": "Pleasant and agreeable because of shared tastes or a friendly nature.",
+          "example": "We fell in with a congenial group of hikers who liked the same slow pace and long lunches.",
+          "mnemonic": "'Con-' (together) + 'genial' — people of the same kind sharing a warm spirit.",
+          "synonyms": [
+            "agreeable",
+            "compatible",
+            "sympathetic"
+          ],
+          "antonyms": [
+            "unpleasant",
+            "incompatible"
+          ]
+        },
+        {
+          "id": "gre-misanthropic",
+          "word": "misanthropic",
+          "partOfSpeech": "adjective",
+          "definition": "Disliking and distrusting other people in general.",
+          "example": "The misanthropic recluse posted 'Go Away' signs and hadn't opened his door in years.",
+          "mnemonic": "Greek 'miso-' (hate) + 'anthropos' (human) — a hater of humankind.",
+          "synonyms": [
+            "cynical",
+            "antisocial",
+            "unsociable"
+          ],
+          "antonyms": [
+            "sociable",
+            "philanthropic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-petulant",
+          "word": "petulant",
+          "partOfSpeech": "adjective",
+          "definition": "Sulky and irritable in a childish, unreasonable way.",
+          "example": "Told to wait his turn, he gave a petulant huff and folded his arms like a toddler.",
+          "mnemonic": "'Petulant' → 'pet' + 'ant' — a spoiled pet ant throwing tiny tantrums.",
+          "synonyms": [
+            "peevish",
+            "sulky",
+            "fractious"
+          ],
+          "antonyms": [
+            "good-humored",
+            "patient"
+          ]
+        },
+        {
+          "id": "gre-cantankerous",
+          "word": "cantankerous",
+          "partOfSpeech": "adjective",
+          "definition": "Bad-tempered, argumentative, and difficult to deal with.",
+          "example": "The cantankerous landlord bickered about the rent, the paint, and the weather all at once.",
+          "mnemonic": "Sounds like 'can't-anchor-us' — so quarrelsome no one can settle near him.",
+          "synonyms": [
+            "crabby",
+            "ornery",
+            "quarrelsome"
+          ],
+          "antonyms": [
+            "agreeable",
+            "good-natured"
+          ]
+        },
+        {
+          "id": "gre-surly",
+          "word": "surly",
+          "partOfSpeech": "adjective",
+          "definition": "Rude, unfriendly, and bad-tempered in manner.",
+          "example": "The surly waiter slapped down the menus and walked off without a word.",
+          "mnemonic": "'Surly' → 'sir-ly' — a haughty 'sir' who is gruff and rude to everyone.",
+          "synonyms": [
+            "gruff",
+            "churlish",
+            "grumpy"
+          ],
+          "antonyms": [
+            "pleasant",
+            "cheerful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-sullen",
+          "word": "sullen",
+          "partOfSpeech": "adjective",
+          "definition": "Silently gloomy and bad-humored, showing quiet resentment.",
+          "example": "The teenager sat sullen at dinner, glaring at his plate and refusing to speak.",
+          "mnemonic": "'Sullen' → 'sully' (to stain) — a darkened, stained mood; a sun that won't shine.",
+          "synonyms": [
+            "morose",
+            "sulky",
+            "moody"
+          ],
+          "antonyms": [
+            "cheerful",
+            "bright"
+          ]
+        },
+        {
+          "id": "gre-dour",
+          "word": "dour",
+          "partOfSpeech": "adjective",
+          "definition": "Stern, gloomy, and unsmiling in appearance or manner.",
+          "example": "The dour headmaster surveyed the assembly without a flicker of a smile.",
+          "mnemonic": "'Dour' rhymes with 'sour' — picture a sour, grim, humorless face.",
+          "synonyms": [
+            "grim",
+            "stern",
+            "forbidding"
+          ],
+          "antonyms": [
+            "cheerful",
+            "genial"
+          ]
+        },
+        {
+          "id": "gre-saturnine",
+          "word": "saturnine",
+          "partOfSpeech": "adjective",
+          "definition": "Having a gloomy, cold, and sardonic temperament.",
+          "example": "His saturnine expression darkened the room before he had said a single word.",
+          "mnemonic": "From the planet Saturn — those born under slow, gloomy Saturn were thought grim and melancholy.",
+          "synonyms": [
+            "morose",
+            "sardonic",
+            "gloomy"
+          ],
+          "antonyms": [
+            "cheerful",
+            "sunny"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-despondent",
+          "word": "despondent",
+          "partOfSpeech": "adjective",
+          "definition": "In very low spirits from loss of hope or courage; deeply dejected.",
+          "example": "After the third rejection letter, she grew despondent and stopped submitting her work.",
+          "mnemonic": "'De-' (down) + 'spond' (spirit, as in respond) — the spirit sinking, no response of hope.",
+          "synonyms": [
+            "dejected",
+            "disheartened",
+            "downcast"
+          ],
+          "antonyms": [
+            "hopeful",
+            "cheerful"
+          ]
+        },
+        {
+          "id": "gre-forlorn",
+          "word": "forlorn",
+          "partOfSpeech": "adjective",
+          "definition": "Sad and lonely, especially from being abandoned or left behind.",
+          "example": "A forlorn puppy shivered on the doorstep, watching the empty road for its owner.",
+          "mnemonic": "'Forlorn' → 'forsaken' + 'lorn' (lost) — utterly lost and left behind.",
+          "synonyms": [
+            "desolate",
+            "wretched",
+            "disconsolate"
+          ],
+          "antonyms": [
+            "content",
+            "cheerful"
+          ]
+        },
+        {
+          "id": "gre-wistful",
+          "word": "wistful",
+          "partOfSpeech": "adjective",
+          "definition": "Full of a quiet, yearning sadness for something loved but now gone.",
+          "example": "She gazed at her childhood home with a wistful smile, remembering the summers spent there.",
+          "mnemonic": "Sounds like 'wish' + 'full' — full of wishes for what you can no longer have.",
+          "synonyms": [
+            "longing",
+            "yearning",
+            "nostalgic"
+          ],
+          "antonyms": [
+            "content",
+            "indifferent",
+            "unconcerned"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-jovial",
+          "word": "jovial",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerful, good-humored, and full of warm friendliness.",
+          "example": "The jovial host greeted every guest with a hearty laugh and a slap on the back.",
+          "mnemonic": "From Jove (Jupiter), the god whose planet was said to make people merry.",
+          "synonyms": [
+            "merry",
+            "jolly",
+            "genial"
+          ],
+          "antonyms": [
+            "gloomy",
+            "morose",
+            "sullen"
+          ]
+        },
+        {
+          "id": "gre-vivacious",
+          "word": "vivacious",
+          "partOfSpeech": "adjective",
+          "definition": "Attractively full of life, spirit, and animated charm.",
+          "example": "Her vivacious personality lit up the party the moment she walked through the door.",
+          "mnemonic": "Contains 'viva' (Latin for life) — a vivacious person is bursting with life.",
+          "synonyms": [
+            "lively",
+            "spirited",
+            "sprightly"
+          ],
+          "antonyms": [
+            "dull",
+            "listless",
+            "lethargic"
+          ]
+        },
+        {
+          "id": "gre-placid",
+          "word": "placid",
+          "partOfSpeech": "adjective",
+          "definition": "Calm, peaceful, and not easily disturbed or upset.",
+          "example": "The placid lake mirrored the mountains without a single ripple.",
+          "mnemonic": "Shares a root with 'placate' and 'please' — a placid surface is at peace.",
+          "synonyms": [
+            "calm",
+            "serene",
+            "tranquil"
+          ],
+          "antonyms": [
+            "agitated",
+            "turbulent",
+            "stormy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-stolid",
+          "word": "stolid",
+          "partOfSpeech": "adjective",
+          "definition": "Showing little emotion and staying unmoved by excitement or distress.",
+          "example": "The guard remained stolid even as the crowd screamed and pushed against the gate.",
+          "mnemonic": "Sounds like 'solid' — a stolid person is emotionally solid and unshaken.",
+          "synonyms": [
+            "impassive",
+            "unemotional",
+            "phlegmatic"
+          ],
+          "antonyms": [
+            "excitable",
+            "emotional",
+            "animated"
+          ]
+        },
+        {
+          "id": "gre-impassive",
+          "word": "impassive",
+          "partOfSpeech": "adjective",
+          "definition": "Not revealing any feeling through the face or manner.",
+          "example": "The judge listened with an impassive face, betraying no hint of her verdict.",
+          "mnemonic": "'Im-' (not) + 'passion' — no passion showing, just a blank mask.",
+          "synonyms": [
+            "expressionless",
+            "stoic",
+            "inscrutable"
+          ],
+          "antonyms": [
+            "expressive",
+            "emotional",
+            "animated"
+          ]
+        },
+        {
+          "id": "gre-diffident",
+          "word": "diffident",
+          "partOfSpeech": "adjective",
+          "definition": "Shy and lacking belief in one's own abilities.",
+          "example": "Too diffident to raise his hand, he kept the right answer to himself.",
+          "mnemonic": "Line it up against 'confident' and swap the start — it is the opposite of confident.",
+          "synonyms": [
+            "shy",
+            "timid",
+            "self-conscious"
+          ],
+          "antonyms": [
+            "confident",
+            "assertive",
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-timorous",
+          "word": "timorous",
+          "partOfSpeech": "adjective",
+          "definition": "Nervous, easily frightened, and full of hesitant fear.",
+          "example": "The timorous kitten fled under the couch at the slightest sound.",
+          "mnemonic": "From Latin 'timor' (fear); think 'timid' — a timorous creature is timid and afraid.",
+          "synonyms": [
+            "timid",
+            "fearful",
+            "apprehensive"
+          ],
+          "antonyms": [
+            "bold",
+            "fearless",
+            "confident"
+          ]
+        },
+        {
+          "id": "gre-pusillanimous",
+          "word": "pusillanimous",
+          "partOfSpeech": "adjective",
+          "definition": "Weak-willed and cowardly, shrinking from anything difficult or risky.",
+          "example": "His pusillanimous refusal to speak up let the bully win unchallenged.",
+          "mnemonic": "Latin 'pusillus' (tiny) + 'animus' (spirit) — a spirit too tiny to be brave.",
+          "synonyms": [
+            "cowardly",
+            "spineless",
+            "faint-hearted"
+          ],
+          "antonyms": [
+            "brave",
+            "courageous",
+            "bold"
+          ]
+        },
+        {
+          "id": "gre-craven",
+          "word": "craven",
+          "partOfSpeech": "adjective",
+          "definition": "Shamefully lacking courage; despicably fearful.",
+          "example": "In a craven move, he abandoned his friends and ran at the first sign of danger.",
+          "mnemonic": "Picture a 'raven' fleeing the nest — a craven soul craves nothing but escape.",
+          "synonyms": [
+            "cowardly",
+            "gutless",
+            "spineless"
+          ],
+          "antonyms": [
+            "brave",
+            "valiant",
+            "heroic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-intrepid",
+          "word": "intrepid",
+          "partOfSpeech": "adjective",
+          "definition": "Fearless, bold, and ready to face danger without hesitation.",
+          "example": "The intrepid explorer trekked alone across the frozen wilderness.",
+          "mnemonic": "'In-' (not) + 'trepid' (from trepidation, trembling) — not trembling, unafraid.",
+          "synonyms": [
+            "fearless",
+            "bold",
+            "daring"
+          ],
+          "antonyms": [
+            "cowardly",
+            "timid",
+            "fearful"
+          ]
+        },
+        {
+          "id": "gre-dauntless",
+          "word": "dauntless",
+          "partOfSpeech": "adjective",
+          "definition": "Fearless and unwilling to be discouraged by danger or difficulty.",
+          "example": "The dauntless firefighter charged into the blaze to reach the trapped child.",
+          "mnemonic": "'Daunt' (to intimidate) + '-less' — cannot be daunted; nothing frightens them off.",
+          "synonyms": [
+            "fearless",
+            "undaunted",
+            "resolute"
+          ],
+          "antonyms": [
+            "fearful",
+            "timid",
+            "cowardly"
+          ]
+        },
+        {
+          "id": "gre-audacious",
+          "word": "audacious",
+          "partOfSpeech": "adjective",
+          "definition": "Boldly daring and willing to take startling risks without fear.",
+          "example": "Her audacious plan to scale the cliff barehanded stunned the entire team.",
+          "mnemonic": "From Latin 'audax' (bold); think of someone brazen enough to be 'loud' and daring.",
+          "synonyms": [
+            "bold",
+            "daring",
+            "brazen"
+          ],
+          "antonyms": [
+            "timid",
+            "cautious",
+            "cowardly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-indomitable",
+          "word": "indomitable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to defeat, subdue, or discourage no matter the odds.",
+          "example": "Despite years of setbacks, her indomitable will carried the movement forward.",
+          "mnemonic": "'In-' (not) + 'domit' (from dominate/tame) — cannot be tamed or dominated.",
+          "synonyms": [
+            "unconquerable",
+            "invincible",
+            "unyielding"
+          ],
+          "antonyms": [
+            "weak",
+            "submissive",
+            "yielding"
+          ]
+        },
+        {
+          "id": "gre-dogged",
+          "word": "dogged",
+          "partOfSpeech": "adjective",
+          "definition": "Persisting tirelessly and stubbornly despite difficulty, delay, or resistance.",
+          "example": "His dogged pursuit of the truth wore down every witness who tried to stall him.",
+          "mnemonic": "Picture a DOG clamped onto a bone, refusing to let go no matter how you pull.",
+          "synonyms": [
+            "tenacious",
+            "persistent",
+            "relentless"
+          ],
+          "antonyms": [
+            "half-hearted",
+            "apathetic"
+          ]
+        },
+        {
+          "id": "gre-pertinacious",
+          "word": "pertinacious",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly clinging to a purpose or opinion, often to an annoying degree.",
+          "example": "The pertinacious salesman phoned every single day for a month until I agreed to meet.",
+          "mnemonic": "'Pertain' + 'tenacious' — he tenaciously sticks to anything that pertains to his goal.",
+          "synonyms": [
+            "obstinate",
+            "persistent",
+            "tenacious"
+          ],
+          "antonyms": [
+            "yielding",
+            "flexible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-headstrong",
+          "word": "headstrong",
+          "partOfSpeech": "adjective",
+          "definition": "Determined to do what one wants while ignoring advice or warnings.",
+          "example": "The headstrong young captain sailed straight into the storm despite every sailor's protest.",
+          "mnemonic": "A 'strong head' that charges ahead — like a bull ramming forward, refusing direction.",
+          "synonyms": [
+            "willful",
+            "obstinate",
+            "stubborn"
+          ],
+          "antonyms": [
+            "docile",
+            "obedient"
+          ]
+        },
+        {
+          "id": "gre-refractory",
+          "word": "refractory",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly resistant to authority, control, discipline, or treatment.",
+          "example": "The refractory recruit ignored every order, and the sergeant quickly lost his patience.",
+          "mnemonic": "'Re-fract' — like light that refracts and deflects control instead of accepting it.",
+          "synonyms": [
+            "unmanageable",
+            "defiant",
+            "intractable"
+          ],
+          "antonyms": [
+            "obedient",
+            "manageable"
+          ]
+        },
+        {
+          "id": "gre-wayward",
+          "word": "wayward",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving unpredictably and resisting guidance, often turning from the proper path.",
+          "example": "Their wayward son skipped school for weeks and ignored every rule his parents set.",
+          "mnemonic": "Goes its own 'way' — wandering wherever it wants, straying off the right way.",
+          "synonyms": [
+            "willful",
+            "unruly",
+            "erratic"
+          ],
+          "antonyms": [
+            "obedient",
+            "compliant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-fickle",
+          "word": "fickle",
+          "partOfSpeech": "adjective",
+          "definition": "Changing one's loyalties, feelings, or interests often and without good reason.",
+          "example": "The fickle fan cheered for whichever team happened to be winning that particular week.",
+          "mnemonic": "Sounds like 'pickle' — you can never pick one, always switching your choice.",
+          "synonyms": [
+            "capricious",
+            "inconstant",
+            "volatile"
+          ],
+          "antonyms": [
+            "steadfast",
+            "loyal"
+          ]
+        },
+        {
+          "id": "gre-whimsical",
+          "word": "whimsical",
+          "partOfSpeech": "adjective",
+          "definition": "Playfully odd or fanciful, guided by sudden and unpredictable ideas.",
+          "example": "Her whimsical garden was full of teapot birdhouses and little doors that led nowhere.",
+          "mnemonic": "'Whim' sits right inside it — acting on a passing whim, full of quirky fancies.",
+          "synonyms": [
+            "fanciful",
+            "capricious",
+            "playful"
+          ],
+          "antonyms": [
+            "practical",
+            "serious"
+          ]
+        },
+        {
+          "id": "gre-docile",
+          "word": "docile",
+          "partOfSpeech": "adjective",
+          "definition": "Easy to manage, teach, or control; readily obedient.",
+          "example": "The docile pony let the nervous children lead it around the ring without any fuss.",
+          "mnemonic": "'Doc-' from Latin docere (to teach) — a pupil a doctor can easily instruct.",
+          "synonyms": [
+            "compliant",
+            "submissive",
+            "tractable"
+          ],
+          "antonyms": [
+            "unruly",
+            "headstrong"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-tractable",
+          "word": "tractable",
+          "partOfSpeech": "adjective",
+          "definition": "Easy to guide, manage, control, or deal with.",
+          "example": "Once fed, the toddler became tractable and happily followed us through the entire museum.",
+          "mnemonic": "From Latin 'tract' (to pull/lead) — you can lead it easily, like a tractor hauls a load.",
+          "synonyms": [
+            "manageable",
+            "docile",
+            "compliant"
+          ],
+          "antonyms": [
+            "unruly",
+            "refractory"
+          ]
+        },
+        {
+          "id": "gre-servile",
+          "word": "servile",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively eager to obey or please others, like a lowly slave.",
+          "example": "The servile waiter bowed repeatedly and agreed with every word the rude guest uttered.",
+          "mnemonic": "'Serv-' as in servant or serve — behaving like a groveling servant.",
+          "synonyms": [
+            "submissive",
+            "obsequious",
+            "subservient"
+          ],
+          "antonyms": [
+            "assertive",
+            "domineering"
+          ]
+        },
+        {
+          "id": "gre-sycophantic",
+          "word": "sycophantic",
+          "partOfSpeech": "adjective",
+          "definition": "Using insincere flattery toward powerful people to win favor or advantage.",
+          "example": "The sycophantic aide praised the CEO's every idea, plainly hoping for a quick promotion.",
+          "mnemonic": "'Sick-o-fant' — a 'sick' fan who fawns over the boss to a sickening degree.",
+          "synonyms": [
+            "obsequious",
+            "fawning",
+            "servile"
+          ],
+          "antonyms": [
+            "candid",
+            "critical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-deferential",
+          "word": "deferential",
+          "partOfSpeech": "adjective",
+          "definition": "Showing polite respect by yielding to another's wishes or opinions.",
+          "example": "The new intern was deferential to senior staff, always asking before making any decision.",
+          "mnemonic": "From 'defer' — you defer to someone, yielding to them out of respect.",
+          "synonyms": [
+            "respectful",
+            "courteous",
+            "submissive"
+          ],
+          "antonyms": [
+            "disrespectful",
+            "insolent"
+          ]
+        },
+        {
+          "id": "gre-demure",
+          "word": "demure",
+          "partOfSpeech": "adjective",
+          "definition": "Reserved, quiet, and modest in manner, especially in a shy or proper way.",
+          "example": "She kept a demure silence, eyes downcast, while the others boasted about their prizes.",
+          "mnemonic": "DEMURE sounds like 'the mute' — a shy, quiet person who stays hushed and modest.",
+          "synonyms": [
+            "modest",
+            "reserved",
+            "shy"
+          ],
+          "antonyms": [
+            "brazen",
+            "bold",
+            "brash"
+          ]
+        },
+        {
+          "id": "gre-punctilious",
+          "word": "punctilious",
+          "partOfSpeech": "adjective",
+          "definition": "Showing great, exact attention to small details of behavior, procedure, or etiquette.",
+          "example": "He was punctilious about citing every source and replying to each email within the hour.",
+          "mnemonic": "PUNCTILIOUS hides 'punctual' — picture a punctual clerk fussing over every tiny point (Latin 'punctum' = point).",
+          "synonyms": [
+            "meticulous",
+            "fastidious",
+            "precise"
+          ],
+          "antonyms": [
+            "careless",
+            "lax",
+            "negligent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-scrupulous",
+          "word": "scrupulous",
+          "partOfSpeech": "adjective",
+          "definition": "Very careful to do things correctly, with strict honesty and thoroughness.",
+          "example": "The auditor was scrupulous, checking each figure twice and refusing every offered gift.",
+          "mnemonic": "A SCRUPLE is a tiny moral doubt; someone full of scruples weighs every action carefully.",
+          "synonyms": [
+            "conscientious",
+            "principled",
+            "meticulous"
+          ],
+          "antonyms": [
+            "careless",
+            "unprincipled",
+            "dishonest"
+          ]
+        },
+        {
+          "id": "gre-pedantic",
+          "word": "pedantic",
+          "partOfSpeech": "adjective",
+          "definition": "Overly concerned with tiny rules or with showing off learning in a tedious way.",
+          "example": "His pedantic corrections of everyone's grammar dragged the meeting out for another hour.",
+          "mnemonic": "A PED-ANT is a tiny ant that crawls over every minor rule and detail.",
+          "synonyms": [
+            "nitpicking",
+            "hairsplitting",
+            "dogmatic"
+          ],
+          "antonyms": [
+            "easygoing",
+            "broad-minded",
+            "casual"
+          ]
+        },
+        {
+          "id": "gre-haughty",
+          "word": "haughty",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in a proud, superior way while looking down on other people.",
+          "example": "With a haughty toss of her head, she swept past the crowd without a word.",
+          "mnemonic": "HAUGHTY comes from French 'haut' (high) — acting as if high above everyone else.",
+          "synonyms": [
+            "arrogant",
+            "disdainful",
+            "snobbish"
+          ],
+          "antonyms": [
+            "humble",
+            "modest",
+            "meek"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-supercilious",
+          "word": "supercilious",
+          "partOfSpeech": "adjective",
+          "definition": "Acting as though you are better than others, full of scornful pride.",
+          "example": "The supercilious clerk barely glanced up, sneering at the customer's simple question.",
+          "mnemonic": "From Latin 'supercilium' (eyebrow) — picture a raised eyebrow arched in contempt.",
+          "synonyms": [
+            "arrogant",
+            "disdainful",
+            "haughty"
+          ],
+          "antonyms": [
+            "humble",
+            "deferential",
+            "modest"
+          ]
+        },
+        {
+          "id": "gre-insolent",
+          "word": "insolent",
+          "partOfSpeech": "adjective",
+          "definition": "Openly rude and disrespectful, especially toward those who deserve respect.",
+          "example": "The insolent recruit rolled his eyes and talked back to the sergeant mid-drill.",
+          "mnemonic": "INSOLENT ~ 'in-sole' — imagine stomping the sole of your shoe on someone in disrespect.",
+          "synonyms": [
+            "rude",
+            "disrespectful",
+            "impertinent"
+          ],
+          "antonyms": [
+            "polite",
+            "respectful",
+            "courteous"
+          ]
+        },
+        {
+          "id": "gre-impudent",
+          "word": "impudent",
+          "partOfSpeech": "adjective",
+          "definition": "Boldly rude in a shameless, cheeky way that shows no respect.",
+          "example": "The impudent child stuck out her tongue at the headmaster and giggled.",
+          "mnemonic": "IMPUDENT starts with IMP — a mischievous little imp who cheekily misbehaves.",
+          "synonyms": [
+            "cheeky",
+            "brazen",
+            "insolent"
+          ],
+          "antonyms": [
+            "polite",
+            "respectful",
+            "courteous"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-impertinent",
+          "word": "impertinent",
+          "partOfSpeech": "adjective",
+          "definition": "Rudely bold or forward, showing a lack of proper respect.",
+          "example": "It was impertinent of the intern to question the CEO's competence on day one.",
+          "mnemonic": "IM + PERTINENT = 'not pertinent' — butting in where you don't belong, rudely.",
+          "synonyms": [
+            "cheeky",
+            "insolent",
+            "impudent"
+          ],
+          "antonyms": [
+            "polite",
+            "respectful",
+            "courteous"
+          ]
+        },
+        {
+          "id": "gre-magnanimous",
+          "word": "magnanimous",
+          "partOfSpeech": "adjective",
+          "definition": "Generous and forgiving, especially toward a defeated or weaker rival.",
+          "example": "In victory he was magnanimous, praising his opponent and shaking every hand.",
+          "mnemonic": "MAGN (great) + ANIM (soul) — a person of 'great soul,' big-hearted and forgiving.",
+          "synonyms": [
+            "generous",
+            "big-hearted",
+            "forgiving"
+          ],
+          "antonyms": [
+            "petty",
+            "vindictive",
+            "mean"
+          ]
+        },
+        {
+          "id": "gre-benevolent",
+          "word": "benevolent",
+          "partOfSpeech": "adjective",
+          "definition": "Kind, generous, and wanting to do good for other people.",
+          "example": "The benevolent donor quietly funded scholarships for every student who needed one.",
+          "mnemonic": "BENE (good) + VOL (wish) — one who 'wishes good' upon others.",
+          "synonyms": [
+            "kind",
+            "charitable",
+            "generous"
+          ],
+          "antonyms": [
+            "malevolent",
+            "cruel",
+            "spiteful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-benign",
+          "word": "benign",
+          "partOfSpeech": "adjective",
+          "definition": "Gentle and harmless in nature; not causing harm or damage.",
+          "example": "The doctor smiled and said the lump was benign, requiring no treatment at all.",
+          "mnemonic": "BENIGN opens with BENE (good) — a good, gentle thing that won't hurt you.",
+          "synonyms": [
+            "harmless",
+            "gentle",
+            "kindly"
+          ],
+          "antonyms": [
+            "malignant",
+            "harmful",
+            "hostile"
+          ]
+        },
+        {
+          "id": "gre-clement",
+          "word": "clement",
+          "partOfSpeech": "adjective",
+          "definition": "Merciful and mild; of weather, pleasantly calm and not harsh.",
+          "example": "The judge was clement, sparing the first-time offender any time behind bars.",
+          "mnemonic": "CLEMENT sounds like 'clementine' — a sweet, mild little orange; sweet and gentle.",
+          "synonyms": [
+            "merciful",
+            "mild",
+            "lenient"
+          ],
+          "antonyms": [
+            "harsh",
+            "severe",
+            "cruel"
+          ]
+        },
+        {
+          "id": "gre-lenient",
+          "word": "lenient",
+          "partOfSpeech": "adjective",
+          "definition": "Not strict; willing to forgive faults or punish only gently.",
+          "example": "Their lenient parents rarely set a bedtime or enforced any household rules.",
+          "mnemonic": "LENIENT ~ 'lean' — a lenient rule lets you lean back and relax (Latin 'lenis' = soft).",
+          "synonyms": [
+            "permissive",
+            "tolerant",
+            "easygoing"
+          ],
+          "antonyms": [
+            "strict",
+            "harsh",
+            "severe"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-indulgent",
+          "word": "indulgent",
+          "partOfSpeech": "adjective",
+          "definition": "Too willing to let someone have whatever they want; overly permissive.",
+          "example": "The indulgent grandfather bought the twins every toy they so much as pointed at.",
+          "mnemonic": "INDULGENT ~ 'in + dulce (sweet)' — picture spoiling someone with endless sweets.",
+          "synonyms": [
+            "permissive",
+            "lenient",
+            "tolerant"
+          ],
+          "antonyms": [
+            "strict",
+            "harsh",
+            "austere"
+          ]
+        },
+        {
+          "id": "gre-forbearing",
+          "word": "forbearing",
+          "partOfSpeech": "adjective",
+          "definition": "Patient and willing to endure delay or provocation without reacting in anger.",
+          "example": "Even as the toddler hurled food across the room, the forbearing nanny just smiled and tidied up.",
+          "mnemonic": "Read it as 'for-bearing' — a bear that holds back and chooses not to strike.",
+          "synonyms": [
+            "patient",
+            "tolerant",
+            "lenient"
+          ],
+          "antonyms": [
+            "impatient",
+            "intolerant",
+            "harsh"
+          ]
+        },
+        {
+          "id": "gre-solicitous",
+          "word": "solicitous",
+          "partOfSpeech": "adjective",
+          "definition": "Showing careful, anxious concern for another person's comfort, health, or wellbeing.",
+          "example": "The solicitous nurse kept adjusting my pillow and asking whether I needed more water.",
+          "mnemonic": "Sounds like a 'solicitor' who solicits — constantly checking in on you, fussing over your every need.",
+          "synonyms": [
+            "attentive",
+            "caring",
+            "concerned"
+          ],
+          "antonyms": [
+            "indifferent",
+            "neglectful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-altruistic",
+          "word": "altruistic",
+          "partOfSpeech": "adjective",
+          "definition": "Acting to help others without expecting any reward or benefit for yourself.",
+          "example": "Donating a kidney to a total stranger was a purely altruistic act.",
+          "mnemonic": "'Altruistic' hides 'altru' from Latin 'alter' (other) — you put the OTHER person first.",
+          "synonyms": [
+            "selfless",
+            "unselfish",
+            "generous"
+          ],
+          "antonyms": [
+            "selfish",
+            "egotistical"
+          ]
+        },
+        {
+          "id": "gre-compassionate",
+          "word": "compassionate",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling and showing sympathy for those who are suffering, and wanting to ease it.",
+          "example": "The compassionate judge reduced the sentence after hearing about the boy's tragic home life.",
+          "mnemonic": "Break it as 'com' (with) + 'passion' (suffering) — you suffer WITH someone and feel for them.",
+          "synonyms": [
+            "kind",
+            "sympathetic",
+            "merciful"
+          ],
+          "antonyms": [
+            "heartless",
+            "cruel"
+          ]
+        },
+        {
+          "id": "gre-callous",
+          "word": "callous",
+          "partOfSpeech": "adjective",
+          "definition": "Emotionally hardened and unfeeling toward the pain or troubles of others.",
+          "example": "It was callous of him to laugh while she described losing her home in the fire.",
+          "mnemonic": "A 'callus' is hardened skin — a callous person has a hardened heart, numb to feeling.",
+          "synonyms": [
+            "unfeeling",
+            "insensitive",
+            "hardhearted"
+          ],
+          "antonyms": [
+            "compassionate",
+            "tender"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-ruthless",
+          "word": "ruthless",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to hurt others or do harm to get what you want, without pity.",
+          "example": "The ruthless CEO fired half the staff by email the week before the holidays.",
+          "mnemonic": "'Ruth' is an old word for pity or compassion, so 'ruth-less' means without any pity.",
+          "synonyms": [
+            "merciless",
+            "brutal",
+            "cutthroat"
+          ],
+          "antonyms": [
+            "merciful",
+            "gentle"
+          ]
+        },
+        {
+          "id": "gre-implacable",
+          "word": "implacable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to calm, satisfy, or win over once set against something.",
+          "example": "Her implacable rival rejected every apology and every olive branch offered.",
+          "mnemonic": "'Im-placate-able' — you simply cannot placate or soothe them.",
+          "synonyms": [
+            "unappeasable",
+            "relentless",
+            "unforgiving"
+          ],
+          "antonyms": [
+            "lenient",
+            "forgiving",
+            "yielding"
+          ]
+        },
+        {
+          "id": "gre-vindictive",
+          "word": "vindictive",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly wanting to hurt someone who has wronged you, driven by a desire for revenge.",
+          "example": "After the breakup she turned vindictive, sharing his private texts with everyone at work.",
+          "mnemonic": "Hear 'vindicate' and 'vendetta' inside it — a vindictive person nurses a vendetta.",
+          "synonyms": [
+            "vengeful",
+            "revengeful",
+            "unforgiving"
+          ],
+          "antonyms": [
+            "forgiving",
+            "merciful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-spiteful",
+          "word": "spiteful",
+          "partOfSpeech": "adjective",
+          "definition": "Deliberately mean, wanting to annoy or hurt someone out of petty ill will.",
+          "example": "In a spiteful move, he keyed his neighbor's car just because their tree shaded his lawn.",
+          "mnemonic": "'Spite' + 'ful' — full of spite, like spitting little jabs of malice at someone.",
+          "synonyms": [
+            "malicious",
+            "malevolent",
+            "catty"
+          ],
+          "antonyms": [
+            "kind",
+            "benevolent"
+          ]
+        },
+        {
+          "id": "gre-malevolent",
+          "word": "malevolent",
+          "partOfSpeech": "adjective",
+          "definition": "Wishing harm or evil upon other people.",
+          "example": "A malevolent grin spread across his face as he quietly sabotaged the experiment.",
+          "mnemonic": "'Mal' (bad) + 'volent' (wishing, as in volition) — wishing bad things on you.",
+          "synonyms": [
+            "malicious",
+            "hostile",
+            "sinister"
+          ],
+          "antonyms": [
+            "benevolent",
+            "kind",
+            "caring"
+          ]
+        },
+        {
+          "id": "gre-acrimonious",
+          "word": "acrimonious",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by bitter, sharp, and angry words or feelings.",
+          "example": "Their acrimonious argument ended with both of them slamming doors and refusing to speak.",
+          "mnemonic": "'Acri' echoes 'acrid' — a sharp, bitter taste, here in biting words.",
+          "synonyms": [
+            "bitter",
+            "rancorous",
+            "caustic"
+          ],
+          "antonyms": [
+            "amicable",
+            "cordial",
+            "friendly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-boorish",
+          "word": "boorish",
+          "partOfSpeech": "adjective",
+          "definition": "Rude, clumsy, and lacking good manners or social sensitivity.",
+          "example": "His boorish behavior at dinner — chewing loudly and interrupting everyone — embarrassed his hosts.",
+          "mnemonic": "A 'boor' sounds like a 'boar' — picture a wild pig snorting rudely at the table.",
+          "synonyms": [
+            "crude",
+            "loutish",
+            "ill-mannered"
+          ],
+          "antonyms": [
+            "polite",
+            "refined"
+          ]
+        },
+        {
+          "id": "gre-uncouth",
+          "word": "uncouth",
+          "partOfSpeech": "adjective",
+          "definition": "Awkward, unrefined, and lacking grace or polish in manner or speech.",
+          "example": "It seemed uncouth to show up at the funeral in flip-flops and a stained tank top.",
+          "mnemonic": "'Un' + 'couth' — 'couth' once meant 'known/refined,' so uncouth is un-refined, uncultured.",
+          "synonyms": [
+            "crude",
+            "coarse",
+            "uncultured"
+          ],
+          "antonyms": [
+            "refined",
+            "polished"
+          ]
+        },
+        {
+          "id": "gre-aloof",
+          "word": "aloof",
+          "partOfSpeech": "adjective",
+          "definition": "Emotionally distant and unfriendly, deliberately keeping apart from others.",
+          "example": "The new student stayed aloof, eating alone and sidestepping every conversation.",
+          "mnemonic": "'A-loof' sounds like standing 'aloft' above everyone, looking down and keeping distance.",
+          "synonyms": [
+            "distant",
+            "detached",
+            "standoffish"
+          ],
+          "antonyms": [
+            "friendly",
+            "warm",
+            "sociable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-effusive",
+          "word": "effusive",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing emotion or enthusiasm in an unrestrained, gushing manner.",
+          "example": "Her effusive thank-you note ran three pages and mentioned every guest by name.",
+          "mnemonic": "From Latin 'effundere,' to pour out — an effusive person pours praise everywhere.",
+          "synonyms": [
+            "gushing",
+            "exuberant",
+            "lavish"
+          ],
+          "antonyms": [
+            "reserved",
+            "restrained",
+            "reticent"
+          ]
+        },
+        {
+          "id": "gre-ardent",
+          "word": "ardent",
+          "partOfSpeech": "adjective",
+          "definition": "Full of intense passion, devotion, or eager enthusiasm.",
+          "example": "An ardent fan, he drove nine hours just to catch the opening song.",
+          "mnemonic": "Latin 'ardere' means to burn — an ardent heart burns hot.",
+          "synonyms": [
+            "passionate",
+            "fervent",
+            "impassioned"
+          ],
+          "antonyms": [
+            "indifferent",
+            "apathetic",
+            "cool"
+          ]
+        },
+        {
+          "id": "gre-zealous",
+          "word": "zealous",
+          "partOfSpeech": "adjective",
+          "definition": "Showing intense energy and commitment toward a cause or goal.",
+          "example": "The zealous new recruit stayed late reorganizing files nobody had asked him to touch.",
+          "mnemonic": "It contains 'zeal' and sounds like 'jealous' — fiercely guarding a cause.",
+          "synonyms": [
+            "fervent",
+            "dedicated",
+            "impassioned"
+          ],
+          "antonyms": [
+            "apathetic",
+            "indifferent",
+            "lackadaisical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-vehement",
+          "word": "vehement",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by forceful, powerful intensity of feeling or conviction.",
+          "example": "Her vehement objection silenced the room before the vote could even begin.",
+          "mnemonic": "Think 'vehicle-ment' — a feeling that hits you like a speeding vehicle.",
+          "synonyms": [
+            "forceful",
+            "emphatic",
+            "passionate"
+          ],
+          "antonyms": [
+            "mild",
+            "half-hearted",
+            "apathetic"
+          ]
+        },
+        {
+          "id": "gre-earnest",
+          "word": "earnest",
+          "partOfSpeech": "adjective",
+          "definition": "Sincere, serious, and heartfelt in purpose or effort.",
+          "example": "His earnest apology, delivered with a shaky voice, convinced everyone he truly regretted it.",
+          "mnemonic": "You 'earn' respect by being earnest — serious and sincere.",
+          "synonyms": [
+            "sincere",
+            "heartfelt",
+            "serious"
+          ],
+          "antonyms": [
+            "flippant",
+            "insincere",
+            "frivolous"
+          ]
+        },
+        {
+          "id": "gre-forthright",
+          "word": "forthright",
+          "partOfSpeech": "adjective",
+          "definition": "Direct and honest in speech, without evasion.",
+          "example": "When asked if the plan would fail, she was forthright: 'Yes, badly.'",
+          "mnemonic": "It goes 'forth, right' at you — straight and unhesitating.",
+          "synonyms": [
+            "candid",
+            "frank",
+            "blunt"
+          ],
+          "antonyms": [
+            "evasive",
+            "cagey",
+            "secretive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-ingenuous",
+          "word": "ingenuous",
+          "partOfSpeech": "adjective",
+          "definition": "Innocently frank and trusting, without cunning or hidden motive.",
+          "example": "Her ingenuous question about why adults lie left the negotiators momentarily speechless.",
+          "mnemonic": "An 'ingénue' is an innocent young character — both share that pure naivety.",
+          "synonyms": [
+            "innocent",
+            "artless",
+            "naive"
+          ],
+          "antonyms": [
+            "cunning",
+            "crafty",
+            "guarded"
+          ]
+        },
+        {
+          "id": "gre-guileless",
+          "word": "guileless",
+          "partOfSpeech": "adjective",
+          "definition": "Free of deceit, cunning, or hidden motives; sincerely open.",
+          "example": "The puppy-like, guileless grin made it impossible to believe he'd stolen anything.",
+          "mnemonic": "'Guile' (trickery) + 'less' — literally without any trickery.",
+          "synonyms": [
+            "innocent",
+            "artless",
+            "ingenuous"
+          ],
+          "antonyms": [
+            "cunning",
+            "crafty",
+            "scheming"
+          ]
+        },
+        {
+          "id": "gre-devious",
+          "word": "devious",
+          "partOfSpeech": "adjective",
+          "definition": "Using cunning, underhanded methods to achieve a hidden aim.",
+          "example": "Through a devious series of favors and threats, he maneuvered into the chairman's seat.",
+          "mnemonic": "Latin 'de via' means off the road — a devious person takes crooked, winding paths.",
+          "synonyms": [
+            "scheming",
+            "crafty",
+            "underhanded"
+          ],
+          "antonyms": [
+            "straightforward",
+            "honest",
+            "aboveboard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-wily",
+          "word": "wily",
+          "partOfSpeech": "adjective",
+          "definition": "Clever at using tricks or schemes to gain an advantage.",
+          "example": "The wily old fox doubled back through the stream and lost the hounds completely.",
+          "mnemonic": "Someone wily is full of 'wiles' — cunning tricks up the sleeve.",
+          "synonyms": [
+            "cunning",
+            "crafty",
+            "sly"
+          ],
+          "antonyms": [
+            "naive",
+            "guileless",
+            "ingenuous"
+          ]
+        },
+        {
+          "id": "gre-shrewd",
+          "word": "shrewd",
+          "partOfSpeech": "adjective",
+          "definition": "Showing sharp, practical judgment and clever awareness.",
+          "example": "One shrewd investment early on funded the rest of her comfortable retirement.",
+          "mnemonic": "Sounds like 'screwed' — cross a shrewd dealer and you'll be screwed.",
+          "synonyms": [
+            "astute",
+            "canny",
+            "sharp"
+          ],
+          "antonyms": [
+            "naive",
+            "gullible",
+            "obtuse"
+          ]
+        },
+        {
+          "id": "gre-brood",
+          "word": "brood",
+          "partOfSpeech": "verb",
+          "definition": "To dwell on gloomy or anxious thoughts for a long, unhappy stretch of time.",
+          "example": "After the rejection letter arrived, he sat by the window and brooded for hours.",
+          "mnemonic": "Sounds like 'brewed' — dark, bitter thoughts slowly brewing like a pot of cold coffee.",
+          "synonyms": [
+            "mope",
+            "ruminate",
+            "agonize"
+          ],
+          "antonyms": [
+            "rejoice",
+            "shrug off",
+            "cheer up"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "gre-sulk",
+          "word": "sulk",
+          "partOfSpeech": "verb",
+          "definition": "To show silent, gloomy resentment, usually by withdrawing and refusing to speak.",
+          "example": "Denied dessert, the child crossed her arms and sulked in the corner all evening.",
+          "mnemonic": "Sounds like a small, quiet Hulk — furious inside, but pouting silently instead of smashing.",
+          "synonyms": [
+            "pout",
+            "mope",
+            "brood"
+          ],
+          "antonyms": [
+            "beam",
+            "rejoice",
+            "engage"
+          ]
+        },
+        {
+          "id": "gre-temperament",
+          "word": "temperament",
+          "partOfSpeech": "noun",
+          "definition": "A person's characteristic nature or disposition, shaping how they habitually feel and react.",
+          "example": "Her calm temperament made her the ideal negotiator during the tensest standoffs.",
+          "mnemonic": "Root 'temper' (Latin temperare, 'to mix') — your inner blend of moods and reactions.",
+          "synonyms": [
+            "disposition",
+            "nature",
+            "character"
+          ],
+          "antonyms": [
+            "conditioning",
+            "learned behavior"
+          ]
+        },
+        {
+          "id": "gre-truculence",
+          "word": "truculence",
+          "partOfSpeech": "noun",
+          "definition": "A fierce, defiant readiness to argue or fight, marked by open hostility.",
+          "example": "The union rep's truculence turned a routine meeting into a shouting match within minutes.",
+          "mnemonic": "Sounds like 'truck' — picture a defiant truck barreling through anyone who dares disagree.",
+          "synonyms": [
+            "belligerence",
+            "aggression",
+            "combativeness"
+          ],
+          "antonyms": [
+            "meekness",
+            "amiability",
+            "gentleness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "gre-petulance",
+          "word": "petulance",
+          "partOfSpeech": "noun",
+          "definition": "Childish, sulky irritability expressed through peevish complaints over trivial annoyances.",
+          "example": "With a flash of petulance, the star stormed offstage because his coffee had gone cold.",
+          "mnemonic": "Sounds like 'petal' — a fragile flower snapping crossly at the slightest passing breeze.",
+          "synonyms": [
+            "peevishness",
+            "crankiness",
+            "irritability"
+          ],
+          "antonyms": [
+            "good humor",
+            "patience",
+            "cheerfulness"
+          ]
+        },
+        {
+          "id": "gre-choler",
+          "word": "choler",
+          "partOfSpeech": "noun",
+          "definition": "A hot-tempered readiness to flare into anger quickly and fiercely.",
+          "example": "His rising choler was obvious as his face reddened and his voice began to crack.",
+          "mnemonic": "Sounds like 'collar' — so enraged you're literally 'hot under the collar.'",
+          "synonyms": [
+            "irascibility",
+            "wrath",
+            "bad temper"
+          ],
+          "antonyms": [
+            "calmness",
+            "placidity",
+            "good humor"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core high-frequency",
+  "createdAt": "2026-09-12T07:11:33.942Z"
+}

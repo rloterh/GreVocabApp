@@ -19,11 +19,14 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-**Current work: v1.1, Phase 13.** Two exams, any start date. It lands on `dev`
+**Current work: v1.1.** Two exams, any start date. It lands on `dev`
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
-end of Phase 18. Phase 13 is first because it is the only one the others cannot
-be built on top of safely — it changes what a word id *is*, and every later
-phase moves words around.
+end of Phase 18.
+
+**Phase 13 is done** — tracks, ordinal content, the schedule, and the migration
+that carries a user's progress across all three. **Next is Phase 14's UI**: the
+first-run start-date screen and the two reshuffling controls. Then the
+flashcard interaction (15), tablet (16) and the SAT corpus (17).
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -414,36 +417,41 @@ anybody's work.
 
 ### Tasks
 
-- **[P0] `Track` type and track-scoped ids.** — `"gre" | "sat"`; word ids become `gre-abstemious`, not `2026-04-abstemious`. Everything downstream follows from this one change.
-- **[P0] Month keys become `track/ordinal`.** — `"gre/01"` … `"sat/36"`. Calendar months leave the key entirely.
-- **[P0] `activeTrack` setting, default `"gre"`.**
-- **[P0] Every selector honours the active track.** — The audit list is in [docs/TRACKS.md](./docs/TRACKS.md): due deck, dashboard, search, archive, quiz and exam pools, distractors, dedup index, generation plan. Backup and restore deliberately carry **all** tracks.
-- **[P0] The migration.** — Assign existing months to `gre` with chronological ordinals; rewrite every word id; rewrite every reference to those ids in progress, activity, saved sentences, decks, and quiz and exam history.
-- **[P0] Migration tests, including one from a real pre-migration backup.** — Plus a launch-time assertion that every progress record points at a word that exists.
-- **[P1] Per-track dedup index.** — Two indexes, built identically, never consulted across tracks ([ADR 0013](./docs/adr/0013-cross-track-overlap.md)).
+- ~~**[P0] `Track` type and track-scoped ids.**~~ **DONE 2026-09-12.** — `src/lib/track.ts`. Word ids are `gre-abstemious`; the corpus audit asserts no id anywhere contains a date.
+- ~~**[P0] Month keys become `track/ordinal`.**~~ **DONE 2026-09-12.** — The compiler did the migration: removing `month` and `displayName` from `VocabMonth` surfaced all 86 places that assumed a calendar, instead of letting them change meaning silently.
+- ~~**[P0] `activeTrack`, default `"gre"`.**~~ **DONE 2026-09-12.** — In `useVocabStore` beside `activeMonthKey` rather than in settings; see [docs/TRACKS.md](./docs/TRACKS.md) for why. Plus `TrackSwitcher`, visible in the sidebar and in a new small-screen header, as ADR 0011 requires.
+- ~~**[P0] Every selector honours the active track.**~~ **DONE 2026-09-12.** — `getAllMonths`, `getVocabIndex` and the library listing all filter by it; `monthKeyForDate` and `nextMonthKey` replace the calendar questions the store can no longer answer.
+- ~~**[P0] The migration.**~~ **DONE 2026-09-12.** — `src/lib/migrations/tracks.ts`, run from `main.tsx` **before any store hydrates** — the id map is built from the vocabulary and needed by progress, and zustand hydrates stores in no defined order. Idempotent, and fails closed: any error leaves every blob untouched. References are rewritten structurally rather than field by field, so an exam's `missed` array and a sentence's composite key are covered without naming them.
+- ~~**[P0] Migration tests.**~~ **DONE 2026-09-12.** — 23 of them, ending in the acceptance test. **A browser found what none of them could:** the progress store had no `version`, so zustand saw a blob stamped with one and discarded every record — storage correct, running app empty. `scripts/drive/tracks-smoke.mjs` now reads the mastered count off the screen, not out of localStorage.
+- ~~**[P1] Per-track dedup index.**~~ **DONE 2026-09-12.** — `getVocabIndex(track)`; retired words are filed by the track in their key.
 - **[P1] Track tagging on quiz and exam history.** — A GRE mock score is not an SAT score.
 
-### Definition of done
+### Definition of done — met 2026-09-12
 
-- A backup taken before the migration, restored after it, shows the same words on the same days with the same progress. **If this does not hold, the phase does not ship** and the fallback is permanent legacy-id aliases.
-- No progress record is orphaned, asserted in a test and at launch.
-- Both tracks can hold months simultaneously without collision.
-- The full suite is green and the app looks, to an existing user, entirely unchanged.
+- ~~A backup taken before the migration, restored after it, shows the same words on the same days with the same progress.~~ Asserted in `tracks.test.ts` and again in a browser, including a user whose months had a **gap** — April and September with nothing between. A dense schedule would have taught September in May; the schedule holds the empty positions open instead.
+- ~~No progress record is orphaned.~~ Asserted in the tests, in the driver, and reported to the console at launch.
+- ~~Both tracks can hold months simultaneously without collision.~~
+- ~~The full suite is green and the app looks, to an existing user, entirely unchanged.~~ 1,123 tests.
 
 ## Phase 14 — The schedule
 
 Content stops containing a calendar. The user picks when they start, and in
 what order.
 
+**Half of this landed with Phase 13**, because it had to: the migration cannot
+reproduce a user's calendar without a schedule to put it in, and the corpus
+cannot load at all under keys it no longer has. What remains is the part a user
+can see — the first-run screen, and the two controls in Settings.
+
 ### Tasks
 
-- **[P0] Corpus moves to ordinal files.** — `public/vocab/gre/01.json` … `36.json`. The generator stops taking `--start`; a start date is a user's setting, not a property of the corpus.
-- **[P0] Month titles.** — A month's identity is no longer its date. The generator already writes a theme per month; that becomes the title.
-- **[P0] `Schedule` per track,** with `startMonth`, `order` and `shuffleSeed`.
-- **[P0] `calendarMonthOf` and `ordinalForCalendarMonth`.** — Pure, in `src/lib/`, exhaustively tested. Everything that reasons about calendar months goes through them, `firstFreeMonthKey` included.
+- ~~**[P0] Corpus moves to ordinal files.**~~ **DONE 2026-09-12**, with Phase 13 — it had to, or nothing loaded. `scripts/convert-to-tracks.ts` is the record: the two bundled sample months became `gre/01`–`02` and the generated corpus `gre/03`–`38`, 3,005 word ids rewritten, 0 collisions.
+- ~~**[P0] Month titles.**~~ **DONE 2026-09-12.** — "Criticism and praise", not "October 2026". The difficulty band moved to the description, where it says something the title cannot.
+- ~~**[P0] `Schedule` per track,**~~ **DONE 2026-09-12.** — `startMonth`, `order`, `shuffleSeed`. The migration needs it, so it could not wait.
+- ~~**[P0] `calendarMonthOf` and `ordinalForCalendarMonth`.**~~ **DONE 2026-09-12.** — `src/lib/schedule.ts`, 54 tests. Month arithmetic is done on the string, never through a `Date`: adding a month to 31 January lands on 3 March in every JavaScript engine, and a schedule that skips February is not a schedule.
 - **[P0] First-run setup.** — Two questions, both answered by default, one tap to done: start date (today proposed, past dates allowed) and month order (as taught, default).
-- **[P1] Month reordering in Settings.** — Free and reversible; completed months stay completed.
-- **[P1] Word redistribution.** — Seeded, stable, and preceded by the one sentence that says it discards the difficulty banding.
+- **[P1] Month reordering in Settings.** — `shuffleMonths` and `setSchedule` exist; the screen does not. Note `reconcile` already distinguishes an *unarranged* schedule, which re-sorts when a month is loaded, from one the user has arranged, which appends — so loading month 3 after month 5 does not teach them in arrival order.
+- **[P1] Word redistribution UI.** — `redistributeWords` and `store.redistribute` exist and are tested (ids and day shapes survive; only placement changes). What is missing is the control and the one sentence that has to precede it.
 - **[P1] Changing the start date after setup.**
 
 ### Definition of done

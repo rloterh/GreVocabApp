@@ -124,10 +124,10 @@ describe("extractCsv — forgiving, because the user cannot see the other side",
 
 describe("parsePastedVocab", () => {
   it("produces months that pass the same validation as a file", () => {
-    const months = parsePastedVocab(CLEAN, "2026-10") as VocabMonth[];
+    const months = parsePastedVocab(CLEAN, "2026-10") as unknown[];
     expect(months).toHaveLength(1);
-    const validated = parseVocabMonth(months[0]);
-    expect(validated.month).toBe("2026-10");
+    const validated = parseVocabMonth(months[0], { track: "gre", ordinal: 1 });
+    expect(validated.title).toBe("October 2026");
     expect(validated.days.map((d) => d.day)).toEqual([1, 2]);
     expect(validated.days[0].words).toHaveLength(3);
     expect(validated.days[0].words[0].word).toBe("abate");
@@ -144,7 +144,7 @@ describe("parsePastedVocab", () => {
       "Would you like me to generate more?",
     ].join("\n");
     const months = parsePastedVocab(messy, "2026-10") as VocabMonth[];
-    expect(parseVocabMonth(months[0]).days.flatMap((d) => d.words)).toHaveLength(4);
+    expect(parseVocabMonth(months[0], { track: "gre", ordinal: 1 }).days.flatMap((d) => d.words)).toHaveLength(4);
   });
 
   it("rejects a malformed month key before doing any work", () => {
@@ -160,6 +160,6 @@ describe("parsePastedVocab", () => {
     // prompt-bridge does not re-implement validation; parseVocabMonth owns it.
     const blank = [HEADER, "abate,verb,,example,mnemonic,1"].join("\n");
     const months = parsePastedVocab(blank, "2026-10") as VocabMonth[];
-    expect(() => parseVocabMonth(months[0])).toThrow(/definition/);
+    expect(() => parseVocabMonth(months[0], { track: "gre", ordinal: 1 })).toThrow(/definition/);
   });
 });

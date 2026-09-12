@@ -11,6 +11,8 @@
  * courtesy the generation plan extends.
  */
 
+import { monthKey } from "@/lib/track";
+import type { Track } from "@/types";
 import { useEffect, useMemo, useState } from "react";
 import { BookMarked, Check, Download, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,8 +22,9 @@ import { useAppStore } from "@/store/useAppStore";
 import { cn } from "@/lib/utils";
 
 interface LibraryMonth {
-  month: string;
-  displayName: string;
+  track: Track;
+  ordinal: number;
+  title: string;
   description?: string;
   words: number;
   days: number;
@@ -30,6 +33,7 @@ interface LibraryMonth {
 
 export function VocabLibrary() {
   const months = useVocabStore((s) => s.months);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const showToast = useAppStore((s) => s.showToast);
 
@@ -54,23 +58,31 @@ export function VocabLibrary() {
     };
   }, []);
 
+  // The library shows the open notebook only. A GRE user offered SAT months
+  // in the same list would load one without noticing which it was.
+  const forTrack = useMemo(
+    () => (available ?? []).filter((m) => m.track === activeTrack),
+    [available, activeTrack],
+  );
+
   const notLoaded = useMemo(
-    () => (available ?? []).filter((m) => !(m.month in months)),
-    [available, months],
+    () => forTrack.filter((m) => !(monthKey(m.track, m.ordinal) in months)),
+    [forTrack, months],
   );
 
   async function load(entry: LibraryMonth) {
-    setBusy(entry.month);
+    const key = monthKey(entry.track, entry.ordinal);
+    setBusy(key);
     setError(null);
     try {
       const response = await fetch(
-        `${import.meta.env.BASE_URL}vocab/${entry.month}.json`,
+        `${import.meta.env.BASE_URL}vocab/${entry.track}/${String(entry.ordinal).padStart(2, "0")}.json`,
       );
       if (!response.ok) throw new Error(`could not fetch (${response.status})`);
       const result = loadMonth(await response.json());
       if (!result.ok) throw new Error(result.error);
       showToast({
-        title: `Added ${entry.displayName}`,
+        title: `Added ${entry.title}`,
         description: `${entry.words} words`,
         variant: "success",
       });
@@ -94,15 +106,15 @@ export function VocabLibrary() {
     );
   }
 
-  if (available.length === 0) return null;
+  if (forTrack.length === 0) return null;
 
-  const totalWords = available.reduce((n, m) => n + m.words, 0);
+  const totalWords = forTrack.reduce((n, m) => n + m.words, 0);
 
   return (
     <div className="space-y-3">
       <div className="flex items-start justify-between gap-3">
         <p className="text-[11px] text-muted-foreground leading-relaxed">
-          {available.length} months · {totalWords.toLocaleString()} words, built
+          {forTrack.length} months · {totalWords.toLocaleString()} words, built
           in three difficulty bands. Nothing is downloaded until you ask for it.
         </p>
         {notLoaded.length > 0 && (
@@ -120,11 +132,12 @@ export function VocabLibrary() {
       )}
 
       <div className="grid gap-2 sm:grid-cols-2">
-        {available.map((entry) => {
-          const loaded = entry.month in months;
+        {forTrack.map((entry) => {
+          const key = monthKey(entry.track, entry.ordinal);
+          const loaded = key in months;
           return (
             <div
-              key={entry.month}
+              key={key}
               className={cn(
                 // min-w-0: the sample line below uses `truncate`, which sets
                 // white-space: nowrap. Without this the grid item sizes to that
@@ -139,7 +152,7 @@ export function VocabLibrary() {
                       p is invalid nesting React reparents at runtime. */}
                   <div className="text-sm font-medium flex items-center gap-1.5">
                     <BookMarked className="w-3.5 h-3.5 shrink-0 text-muted-foreground" />
-                    {entry.displayName}
+                    {entry.title}
                     {loaded && (
                       <Badge variant="success" className="text-[10px]">
                         Loaded
@@ -156,11 +169,11 @@ export function VocabLibrary() {
                   <Button
                     size="sm"
                     variant="ghost"
-                    aria-label={`Load ${entry.displayName}`}
-                    disabled={busy === entry.month}
+                    aria-label={`Load ${entry.title}`}
+                    disabled={busy === key}
                     onClick={() => void load(entry)}
                   >
-                    {busy === entry.month ? (
+                    {busy === key ? (
                       <Loader2 className="w-3.5 h-3.5 animate-spin" />
                     ) : (
                       <Download className="w-3.5 h-3.5" />

@@ -24,6 +24,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { dayKey, orderWords, seedFor } from "@/lib/order";
 import { useSettingsStore } from "@/store/useSettingsStore";
+import { keyOf } from "@/lib/track";
 
 export function DailyPractice() {
   const {
@@ -53,7 +54,7 @@ export function DailyPractice() {
 
   if (!month) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
         <EmptyState
           icon={BookOpen}
           title="No month selected"
@@ -72,7 +73,7 @@ export function DailyPractice() {
     words: orderWords(
       rawDay.words,
       wordOrder,
-      seedFor([month.month, `day-${selectedDay}`, dayKey(new Date())]),
+      seedFor([keyOf(month), `day-${selectedDay}`, dayKey(new Date())]),
     ),
   };
   const dayIdx = month.days.findIndex((d) => d.day === selectedDay);
@@ -90,7 +91,7 @@ export function DailyPractice() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto py-8">
+    <div className="w-full lg:max-w-3xl lg:mx-auto py-8">
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -99,7 +100,7 @@ export function DailyPractice() {
       >
         <div>
           <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
-            {month.displayName}
+            {month.title}
           </p>
           <h1 className="display-serif text-3xl font-semibold">
             Day {selectedDay}
@@ -107,7 +108,7 @@ export function DailyPractice() {
         </div>
         <div className="flex items-center gap-2">
           <Select
-            value={month.month}
+            value={keyOf(month)}
             onValueChange={(v) => setActiveMonth(v)}
           >
             <SelectTrigger className="w-[180px] h-9">
@@ -115,8 +116,8 @@ export function DailyPractice() {
             </SelectTrigger>
             <SelectContent>
               {months.map((m) => (
-                <SelectItem key={m.month} value={m.month}>
-                  {m.displayName}
+                <SelectItem key={keyOf(m)} value={keyOf(m)}>
+                  {m.title}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -172,7 +173,7 @@ export function DailyPractice() {
 
       <AnimatePresence mode="wait">
         <motion.div
-          key={`${month.month}-${selectedDay}`}
+          key={`${keyOf(month)}-${selectedDay}`}
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
@@ -185,8 +186,8 @@ export function DailyPractice() {
               word={word}
               index={i}
               mastered={isMastered(word.id)}
-              onToggleMastered={() => toggleMastered(word.id, month.month)}
-              onReveal={() => markReviewed(word.id, month.month)}
+              onToggleMastered={() => toggleMastered(word.id, keyOf(month))}
+              onReveal={() => markReviewed(word.id, keyOf(month))}
             />
           ))}
         </motion.div>

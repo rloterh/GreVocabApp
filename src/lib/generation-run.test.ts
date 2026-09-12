@@ -14,7 +14,7 @@ import type { Provider } from "@/lib/ai/types";
 import type { VocabMonth } from "@/types";
 
 function plan(overrides: Partial<GenerationPlan> = {}): GenerationPlan {
-  return { ...defaultPlan("2026-10"), wordsPerDay: 1, ...overrides };
+  return { ...defaultPlan(10), wordsPerDay: 1, ...overrides };
 }
 
 /**
@@ -170,8 +170,9 @@ describe("no duplicate survives", () => {
 
   it("filters out words the user already has", async () => {
     const existing: VocabMonth = {
-      month: "2026-04",
-      displayName: "April",
+      track: "gre",
+      ordinal: 1,
+      title: "April",
       days: [
         {
           day: 1,
@@ -290,7 +291,7 @@ describe("resuming", () => {
     });
 
     expect(months).toHaveLength(1);
-    expect(checkpoint.completed).toEqual(["2026-10"]);
+    expect(checkpoint.completed).toEqual(["gre/10"]);
     expect(checkpoint.outcomes[1].error).toMatch(/fell over/);
   });
 
@@ -303,7 +304,7 @@ describe("resuming", () => {
     const index = VocabIndex.from([]);
 
     const partial = await runPlan({ plan: p, provider: first.provider, index, commit });
-    expect(partial.completed).toEqual(["2026-10"]);
+    expect(partial.completed).toEqual(["gre/10"]);
 
     // Resume with a working provider.
     const second = fakeProvider();
@@ -315,7 +316,7 @@ describe("resuming", () => {
       checkpoint: partial,
     });
 
-    expect(finished.completed).toEqual(["2026-10", "2026-11", "2026-12"]);
+    expect(finished.completed).toEqual(["gre/10", "gre/11", "gre/12"]);
     // Month one was not generated again.
     expect(months).toHaveLength(3);
     expect(second.calls).toHaveLength(2);
@@ -323,8 +324,8 @@ describe("resuming", () => {
 
   it("knows what is left", () => {
     const p = plan({ horizon: "quarter" });
-    const checkpoint: RunCheckpoint = { ...newCheckpoint(p), completed: ["2026-10"] };
-    expect(remainingMonths(checkpoint)).toEqual(["2026-11", "2026-12"]);
+    const checkpoint: RunCheckpoint = { ...newCheckpoint(p), completed: ["gre/10"] };
+    expect(remainingMonths(checkpoint)).toEqual(["gre/11", "gre/12"]);
   });
 
   it("reports progress after every month so the caller can persist it", async () => {
@@ -432,7 +433,7 @@ describe("summarize", () => {
       index: VocabIndex.from([]),
       commit: () => {},
     });
-    expect(summarize(checkpoint).failed).toEqual(["2026-10"]);
+    expect(summarize(checkpoint).failed).toEqual(["gre/10"]);
   });
 });
 

@@ -31,6 +31,7 @@ import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
 import { bySchedule, isDue } from "@/lib/sm2";
 import { playSound } from "@/lib/sound";
+import { keyOf } from "@/lib/track";
 import type {
   StudyDeck,
   StudyEvent,
@@ -132,8 +133,8 @@ export function Flashcards() {
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
-          monthKey: m.month,
-          monthName: m.displayName,
+          monthKey: keyOf(m),
+          monthName: m.title,
           day: d.day,
         })),
       ),
@@ -145,8 +146,8 @@ export function Flashcards() {
     if (!activeMonth) return [];
     return allWordsInMonth(activeMonth).map((w) => ({
       ...w,
-      monthKey: activeMonth.month,
-      monthName: activeMonth.displayName,
+      monthKey: keyOf(activeMonth),
+      monthName: activeMonth.title,
       day: activeMonth.days.find((d) => d.words.some((x) => x.id === w.id))?.day ?? 1,
     }));
   }, [activeMonth]);
@@ -157,8 +158,8 @@ export function Flashcards() {
     if (!day) return [];
     return day.words.map((w) => ({
       ...w,
-      monthKey: activeMonth.month,
-      monthName: activeMonth.displayName,
+      monthKey: keyOf(activeMonth),
+      monthName: activeMonth.title,
       day: selectedDay,
     }));
   }, [activeMonth, selectedDay]);
@@ -347,7 +348,7 @@ export function Flashcards() {
 
   if (allEnriched.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
         <EmptyState
           icon={Layers}
           title="No cards to study yet"
@@ -359,7 +360,7 @@ export function Flashcards() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-8">
+    <div className="w-full lg:max-w-4xl lg:mx-auto py-8">
       <AnimatePresence mode="wait">
         {screen === "setup" && (
           <SetupScreen
@@ -379,7 +380,7 @@ export function Flashcards() {
               unmastered: unmasteredPool.length,
               all: allEnriched.length,
             }}
-            activeMonthName={activeMonth?.displayName ?? "—"}
+            activeMonthName={activeMonth?.title ?? "—"}
             selectedDay={selectedDay}
             onStart={startSession}
           />

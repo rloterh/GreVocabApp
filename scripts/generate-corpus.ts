@@ -24,7 +24,14 @@
  */
 
 import { spawn } from "node:child_process";
-import { mkdirSync, writeFileSync, existsSync, readFileSync, readdirSync } from "node:fs";
+import {
+  mkdirSync,
+  writeFileSync,
+  existsSync,
+  readFileSync,
+  readdirSync,
+  rmSync,
+} from "node:fs";
 import { join } from "node:path";
 import { stem } from "../src/lib/stem";
 import { checkWord } from "../src/lib/word-quality";
@@ -291,6 +298,34 @@ function toVocabWord(card: RawCard, monthKey: string): VocabWord {
 async function main() {
   const options = parseArgs();
   mkdirSync(options.out, { recursive: true });
+
+  // A lock, because two of these running at once is not a hypothetical: it
+  // happened, and each process had its own in-memory dedup set unaware of the
+  // other's writes. 193 duplicate words across 26 months, from logic that was
+  // correct and run twice.
+  const lock = join(options.out, ".generating.lock");
+  if (existsSync(lock)) {
+    const owner = readFileSync(lock, "utf-8").trim();
+    console.error(
+      `Another generator appears to be running (pid ${owner}).
+` +
+        `If it is not, delete ${lock} and try again.`,
+    );
+    process.exit(1);
+  }
+  writeFileSync(lock, String(process.pid), "utf-8");
+  const release = () => {
+    try {
+      rmSync(lock, { force: true });
+    } catch {
+      // Nothing useful to do; the message above explains the manual fix.
+    }
+  };
+  process.on("exit", release);
+  process.on("SIGINT", () => {
+    release();
+    process.exit(130);
+  });
   const keys = monthKeys(options.start, options.months);
 
   // Resume: anything already written counts, and its words are already taken.

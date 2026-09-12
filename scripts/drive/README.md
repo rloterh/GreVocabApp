@@ -71,3 +71,12 @@ that distinction is the whole reason it exists: zustand will discard a
 persisted blob whose version it does not recognise, leaving storage perfectly
 correct and the running app empty. Twenty-three unit tests could not see that,
 because none of them hydrate a store. This one caught it on the first run.
+
+## `schedule-smoke.mjs`
+
+Walks the first-run start-date screen, then moves the start month, shuffles and
+unshuffles the months, and redeals every word — checking after each that the
+mastered count on the dashboard has not moved. That last assertion is the whole
+point of the ordinal redesign, so it is made against the running app rather
+than against the pure functions, which were all green on the day the progress
+store was silently dropping records.

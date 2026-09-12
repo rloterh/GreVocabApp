@@ -1,15 +1,20 @@
 /**
  * First-run walkthrough.
  *
- * Four screens, skippable at every step, shown once. It explains the things
- * that are not discoverable by clicking around — that a month is the unit of
- * everything, that ratings drive a scheduler, and that `?` exists.
+ * Five screens, skippable at every step, shown once. The first is the only one
+ * that asks anything — when to start, and in what order — and it is first
+ * because it decides what every later screen is describing. The rest explain
+ * the things that are not discoverable by clicking around: that a month is the
+ * unit of everything, that ratings drive a scheduler, and that `?` exists.
  *
- * See ROADMAP.md, Phase 5.
+ * Skipping accepts the defaults, which are the answers most people want:
+ * start today, months in the order they were taught.
+ *
+ * See ROADMAP.md Phase 5 and docs/SCHEDULE.md.
  */
 
-import { useState } from "react";
-import { BookOpen, CalendarClock, Keyboard, Sparkles } from "lucide-react";
+import { useRef, useState } from "react";
+import { BookOpen, CalendarClock, CalendarRange, Keyboard, Sparkles } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -19,15 +24,29 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { useSettingsStore } from "@/store/useSettingsStore";
+import {
+  ScheduleSetup,
+  useApplySchedule,
+  type ScheduleChoice,
+} from "@/components/ScheduleSetup";
+import { calendarMonthOfDate } from "@/lib/schedule";
 import { cn } from "@/lib/utils";
 
 interface Step {
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   body: string;
+  /** Rendered under the body. Only the first step has one. */
+  content?: "schedule";
 }
 
 const STEPS: Step[] = [
+  {
+    icon: CalendarRange,
+    title: "When do you start?",
+    body: "Three years of vocabulary, laid out from whichever month you choose. Both answers below are already the ones most people want — skip if they suit.",
+    content: "schedule",
+  },
   {
     icon: BookOpen,
     title: "Three words a day",
@@ -53,9 +72,24 @@ const STEPS: Step[] = [
 export function Onboarding() {
   const hasOnboarded = useSettingsStore((s) => s.hasOnboarded);
   const setSettings = useSettingsStore((s) => s.set);
+  const applySchedule = useApplySchedule();
   const [step, setStep] = useState(0);
 
-  const finish = () => setSettings({ hasOnboarded: true });
+  // A ref, not state: this changes on every keystroke in the month picker and
+  // nothing in this component needs to re-render when it does.
+  const choice = useRef<ScheduleChoice>({
+    startMonth: calendarMonthOfDate(new Date()),
+    order: "taught",
+    valid: true,
+  });
+
+  // Writing the schedule on the way out covers every exit — Next, Skip, Escape,
+  // and clicking away. A user who dismisses this still starts today, in the
+  // order the corpus teaches, which is what the screen already had selected.
+  const finish = () => {
+    applySchedule(choice.current);
+    setSettings({ hasOnboarded: true });
+  };
 
   const current = STEPS[step];
   const Icon = current.icon;
@@ -82,6 +116,10 @@ export function Onboarding() {
           </DialogDescription>
         </DialogHeader>
 
+        {current.content === "schedule" && (
+          <ScheduleSetup onChange={(next) => (choice.current = next)} />
+        )}
+
         <div className="flex items-center justify-between gap-4 pt-1">
           <div className="flex gap-1.5" aria-hidden>
             {STEPS.map((s, i) => (
@@ -100,7 +138,13 @@ export function Onboarding() {
               {isLast ? "Close" : "Skip"}
             </Button>
             {!isLast && (
-              <Button size="sm" onClick={() => setStep((s) => s + 1)}>
+              <Button
+                size="sm"
+                onClick={() => {
+                  if (current.content === "schedule") applySchedule(choice.current);
+                  setStep((s) => s + 1);
+                }}
+              >
                 Next
               </Button>
             )}

@@ -97,6 +97,8 @@ interface VocabState {
   setStartMonth: (track: Track, startMonth: CalendarMonth) => void;
   /** Put a track's months in a seeded random order. Moves no words. */
   shuffleMonths: (track: Track, seed?: string) => void;
+  /** Put a track's months back in the order the corpus teaches them. */
+  resetMonthOrder: (track: Track) => void;
   /** Deal a track's words back out across its months. Moves words; keeps ids. */
   redistribute: (track: Track, seed?: string) => void;
 
@@ -327,6 +329,19 @@ export const useVocabStore = create<VocabState>()(
               scheduleFor(state, track).startMonth,
               monthsOf(state.months, track).map((m) => m.ordinal),
               seed,
+            ),
+          },
+        }));
+      },
+
+      resetMonthOrder: (track) => {
+        setStore((state) => ({
+          schedules: {
+            ...state.schedules,
+            [track]: identitySchedule(
+              track,
+              scheduleFor(state, track).startMonth,
+              monthsOf(state.months, track).map((m) => m.ordinal),
             ),
           },
         }));

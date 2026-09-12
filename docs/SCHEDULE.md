@@ -94,7 +94,7 @@ section exists to prevent.
 | --- | --- | --- | --- |
 | **Word order** | Presentation within a day | `wordOrder` setting ([WORD-ORDER.md](./WORD-ORDER.md)) | Yes, freely |
 | **Month order** | Which corpus month you study when | `Schedule.order` | Yes, freely |
-| **Word redistribution** | Which month a word belongs to | `Schedule.shuffleSeed` | Yes, but see below |
+| **Word redistribution** | Which month a word belongs to | `Schedule.shuffleSeed` | No — see below |
 
 ### Month order
 
@@ -124,6 +124,12 @@ It is honest about its cost, in one sentence, before it happens:
   the user is choosing that.
 - **Seeded, so it is stable.** The same seed gives the same layout across
   reloads and devices. Reshuffling again means a new seed.
+- **It does not undo.** Reshuffling again gives another layout, not the
+  original one: the authored placement is not recoverable from the words
+  themselves, and storing a copy of it to make the button reversible would
+  cost tens of kilobytes of the localStorage budget the corpus and progress
+  already share. Restoring the authored layout means loading the months again
+  from the library. The UI says so rather than implying a back button exists.
 - **Offered at setup, and in Settings behind the sentence above.** Not a
   one-tap control on the main surface.
 

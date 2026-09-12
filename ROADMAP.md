@@ -23,10 +23,10 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
 
-**Phase 13 is done** — tracks, ordinal content, the schedule, and the migration
-that carries a user's progress across all three. **Next is Phase 14's UI**: the
-first-run start-date screen and the two reshuffling controls. Then the
-flashcard interaction (15), tablet (16) and the SAT corpus (17).
+**Phases 13 and 14 are done** — tracks, ordinal content, the schedule, the
+migration that carries a user's progress across all three, and the screens for
+choosing when to start and how the months run. **Next is Phase 15**, the
+flashcard edge arrows and swipe. Then tablet (16) and the SAT corpus (17).
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -449,17 +449,17 @@ can see — the first-run screen, and the two controls in Settings.
 - ~~**[P0] Month titles.**~~ **DONE 2026-09-12.** — "Criticism and praise", not "October 2026". The difficulty band moved to the description, where it says something the title cannot.
 - ~~**[P0] `Schedule` per track,**~~ **DONE 2026-09-12.** — `startMonth`, `order`, `shuffleSeed`. The migration needs it, so it could not wait.
 - ~~**[P0] `calendarMonthOf` and `ordinalForCalendarMonth`.**~~ **DONE 2026-09-12.** — `src/lib/schedule.ts`, 54 tests. Month arithmetic is done on the string, never through a `Date`: adding a month to 31 January lands on 3 March in every JavaScript engine, and a schedule that skips February is not a schedule.
-- **[P0] First-run setup.** — Two questions, both answered by default, one tap to done: start date (today proposed, past dates allowed) and month order (as taught, default).
-- **[P1] Month reordering in Settings.** — `shuffleMonths` and `setSchedule` exist; the screen does not. Note `reconcile` already distinguishes an *unarranged* schedule, which re-sorts when a month is loaded, from one the user has arranged, which appends — so loading month 3 after month 5 does not teach them in arrival order.
-- **[P1] Word redistribution UI.** — `redistributeWords` and `store.redistribute` exist and are tested (ids and day shapes survive; only placement changes). What is missing is the control and the one sentence that has to precede it.
-- **[P1] Changing the start date after setup.**
+- ~~**[P0] First-run setup.**~~ **DONE 2026-09-12.** — The first screen of the existing walkthrough rather than a second modal competing with it. Both answers pre-selected; Skip, Escape and clicking away all accept them, because a user who dismisses a setup screen still has to end up with a schedule.
+- ~~**[P1] Month reordering in Settings.**~~ **DONE 2026-09-12.** — As taught / Shuffled, free and reversible in both directions. `reconcile` distinguishes an *unarranged* schedule, which re-sorts when a month is loaded, from one the user has arranged, which appends — so loading month 3 after month 5 does not teach them in arrival order.
+- ~~**[P1] Word redistribution.**~~ **DONE 2026-09-12.** — Behind the sentence that says what it costs, plus a confirm. It is **not** undoable and the copy says so: recovering the authored layout means loading the months again, and storing a copy of it to fake a back button would spend tens of kilobytes of a localStorage budget the corpus and progress already share.
+- ~~**[P1] Changing the start date after setup.**~~ **DONE 2026-09-12.** — Per track, in Settings, with the resulting span named underneath.
 
-### Definition of done
+### Definition of done — met 2026-09-12
 
-- A user installing in any month sees their own months, never 2026.
-- Reordering months and redistributing words both leave every progress record intact — the same acceptance test as Phase 13, run again after a reshuffle.
-- The corpus audit passes against the ordinal layout.
-- No word id, anywhere, contains a date.
+- ~~A user installing in any month sees their own months, never 2026.~~
+- ~~Reordering months and redistributing words both leave every progress record intact.~~ `scripts/drive/schedule-smoke.mjs` moves the start date, shuffles and unshuffles the months, redeals every word, and then reads the mastered count off the dashboard: 12 before, 12 after.
+- ~~The corpus audit passes against the ordinal layout.~~
+- ~~No word id, anywhere, contains a date.~~ Asserted by the corpus audit.
 
 ## Phase 15 — Flashcard interaction
 

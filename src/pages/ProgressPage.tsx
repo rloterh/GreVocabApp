@@ -30,7 +30,6 @@ import {
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
-import { scoreExam } from "@/lib/exam";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { daysInMonth, format, formatMonthKey, toDateKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
@@ -233,7 +232,7 @@ export function ProgressPage() {
                   .slice(0, 20)
                   .reverse()
                   .map((exam) => {
-                    const percent = scoreExam(exam).percent;
+                    const percent = exam.percent;
                     return (
                       <div
                         key={exam.id}
@@ -249,10 +248,10 @@ export function ProgressPage() {
                   {exams.length} exam{exams.length === 1 ? "" : "s"} taken
                 </span>
                 <span className="tabular">
-                  Best {Math.max(...exams.map((e) => scoreExam(e).percent))}%
+                  Best {Math.max(...exams.map((e) => e.percent))}%
                   <span className="text-muted-foreground">
                     {" "}
-                    · latest {scoreExam(exams[0]).percent}%
+                    · latest {exams[0].percent}%
                   </span>
                 </span>
               </div>

@@ -1,4 +1,4 @@
-import type { ExamSession } from "@/lib/exam";
+import { toSummary, type ExamSession, type ExamSummary } from "@/lib/exam";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type {
@@ -29,8 +29,16 @@ interface ProgressState {
    * worse than no exam — they will not start a second one.
    */
   activeExam: ExamSession | null;
-  /** Finished exams, newest first, capped like the other histories. */
-  exams: ExamSession[];
+  /**
+   * Finished exams as compact summaries, newest first.
+   *
+   * Summaries rather than sessions: a full one is ~37 KB, so a hundred would
+   * be 3.6 MB and would overrun the localStorage quota the corpus and progress
+   * records already share. docs/QUIZ-AND-EXAMS.md specified ids, not text.
+   */
+  exams: ExamSummary[];
+  /** The most recent finished exam, in full, because its review is on screen. */
+  lastExam: ExamSession | null;
   /** Recent study sessions (capped at 100) */
   studies: StudySession[];
 
@@ -109,6 +117,7 @@ export const useProgressStore = create<ProgressState>()(
       quizzes: [],
       activeExam: null,
       exams: [],
+      lastExam: null,
       studies: [],
 
       toggleMastered: (wordId, monthKey) => {
@@ -174,7 +183,8 @@ export const useProgressStore = create<ProgressState>()(
       finishExam: (session) => {
         setStore((state) => ({
           activeExam: null,
-          exams: [session, ...state.exams].slice(0, 100),
+          lastExam: session,
+          exams: [toSummary(session), ...state.exams].slice(0, 100),
         }));
       },
 

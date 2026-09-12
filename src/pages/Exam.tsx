@@ -129,7 +129,9 @@ export function ExamPage() {
     [session, chosen, monthOf, recordQuizAnswer, applyStudyRating, saveExam, finishExam],
   );
 
-  const finished = useProgressStore((s) => s.exams)[0];
+  // The full session, kept separately from the compact history so the
+  // per-question review has the text it needs.
+  const finished = useProgressStore((s) => s.lastExam);
 
   if (!session) {
     return (

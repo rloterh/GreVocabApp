@@ -10,6 +10,7 @@ import {
   isResumable,
   missedWordIds,
   scoreExam,
+  toSummary,
 } from "@/lib/exam";
 import type { QuizQuestion } from "@/types";
 
@@ -295,3 +296,61 @@ describe("section breaks", () => {
     expect(atSectionBreak(answerAll(smallExam(2, 2), true))).toBe(false);
   });
 });
+
+describe("history stays small enough to keep", () => {
+  it("summarises a finished exam to a fraction of its size", () => {
+    // A full session is ~37 KB; a hundred of those is 3.6 MB and overruns the
+    // localStorage quota the corpus and progress records already share.
+    const finished = answerAll(fullExamAnswered(), true);
+    const full = JSON.stringify(finished).length;
+    const summary = JSON.stringify(toSummary(finished)).length;
+    expect(summary).toBeLessThan(full / 10);
+  });
+
+  it("keeps everything the trend and the missed list need", () => {
+    const finished = answerAll(smallExam(2, 2), false);
+    const summary = toSummary(finished);
+    expect(summary.percent).toBe(0);
+    expect(summary.total).toBe(4);
+    expect(summary.perSection).toHaveLength(2);
+    expect(summary.missed).toEqual(["w0", "w1", "w2", "w3"]);
+    expect(summary.id).toBe(finished.id);
+  });
+
+  it("carries no question text", () => {
+    // The point: ids, not prompts. Text is what makes a session large.
+    const finished = answerAll(smallExam(2, 2), true);
+    const serialised = JSON.stringify(toSummary(finished));
+    expect(serialised).not.toContain("right0");
+    expect(serialised).not.toContain("word0");
+  });
+
+  it("a hundred summaries stay well under a megabyte", () => {
+    const finished = answerAll(fullExamAnswered(), true);
+    const hundred = JSON.stringify(
+      Array.from({ length: 100 }, () => toSummary(finished)),
+    ).length;
+    expect(hundred).toBeLessThan(1_000_000);
+  });
+});
+
+/** A full 100-question exam, for size comparisons. */
+function fullExamAnswered() {
+  return createExam(
+    Array.from({ length: 100 }, (_, i) => ({
+      wordId: `w${i}`,
+      mode: "word-to-def" as const,
+      prompt: `word${i}`,
+      correct: `A reasonably long definition for word ${i}, as real ones are.`,
+      options: [
+        `A reasonably long definition for word ${i}, as real ones are.`,
+        `Another plausible definition of similar length, number ${i}.`,
+        `A third plausible definition of similar length, number ${i}.`,
+        `A fourth plausible definition of similar length, number ${i}.`,
+      ],
+    })),
+    DEFAULT_EXAM_CONFIG,
+    undefined,
+    NOW,
+  );
+}

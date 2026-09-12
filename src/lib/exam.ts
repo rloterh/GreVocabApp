@@ -285,3 +285,44 @@ export function isResumable(value: unknown): value is ExamSession {
       section.questions.length === section.answers.length,
   );
 }
+
+/**
+ * A finished exam, small enough to keep a hundred of.
+ *
+ * A full `ExamSession` is about 37 KB — a hundred questions, each with a
+ * prompt and four options of real definition text. A history of 100 would be
+ * 3.6 MB, which together with the corpus and progress records overruns a
+ * typical 5 MB localStorage quota and silently breaks persistence for
+ * everything, not just exams.
+ *
+ * docs/QUIZ-AND-EXAMS.md called this out: history stores question **ids**
+ * rather than question text. The most recent exam is kept in full separately,
+ * because that is the one whose per-question review is on screen.
+ */
+export interface ExamSummary {
+  id: string;
+  startedAt: string;
+  finishedAt: string | null;
+  /** 0–100, of the whole exam. */
+  percent: number;
+  correct: number;
+  total: number;
+  perSection: Array<{ title: string; correct: number; total: number }>;
+  /** Word ids answered wrongly, for a "what you missed" view. */
+  missed: string[];
+}
+
+/** Reduce a finished exam to what history needs. */
+export function toSummary(session: ExamSession): ExamSummary {
+  const score = scoreExam(session);
+  return {
+    id: session.id,
+    startedAt: session.startedAt,
+    finishedAt: session.finishedAt,
+    percent: score.percent,
+    correct: score.correct,
+    total: score.total,
+    perSection: score.perSection,
+    missed: missedWordIds(session),
+  };
+}

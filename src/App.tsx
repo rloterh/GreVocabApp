@@ -20,6 +20,7 @@ import { useSettingsStore } from "@/store/useSettingsStore";
 import { useStudyReminder } from "@/hooks/useStudyReminder";
 import { useOpenRouterCallback } from "@/hooks/useOpenRouterConnect";
 import { useShortcuts } from "@/hooks/useShortcuts";
+import { useSystemBack } from "@/hooks/useSystemBack";
 import { useWatchedFolder } from "@/hooks/useWatchedFolder";
 import { useDesktopEvents } from "@/hooks/useDesktopEvents";
 import { applyTheme } from "@/lib/theme";
@@ -54,6 +55,10 @@ export function App() {
 
   // No-op unless the user has enabled reminders and granted permission.
   useStudyReminder();
+  // Android's back gesture navigates within the app before exiting it.
+  // Inert everywhere else.
+  useSystemBack();
+
   // Desktop only; both inert in the browser.
   useWatchedFolder();
   useDesktopEvents();

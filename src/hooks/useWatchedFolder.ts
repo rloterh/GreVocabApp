@@ -23,7 +23,7 @@ import {
   importApkgFile,
   importText,
 } from "@/lib/import";
-import { isTauri } from "@/lib/utils";
+import { canWatchFolder } from "@/lib/platform";
 
 /** Event name, matching VOCAB_FILE_CHANGED in watcher.rs. */
 const FILE_CHANGED = "vocab-file-changed";
@@ -47,7 +47,7 @@ export function useWatchedFolder(): void {
   );
 
   useEffect(() => {
-    if (!isTauri()) return;
+    if (!canWatchFolder()) return;
 
     let unlisten: (() => void) | undefined;
     let cancelled = false;
@@ -116,7 +116,7 @@ export function useWatchedFolder(): void {
  * they cancelled. Desktop only.
  */
 export async function pickWatchedFolder(): Promise<string | null> {
-  if (!isTauri()) return null;
+  if (!canWatchFolder()) return null;
   const { open } = await import("@tauri-apps/plugin-dialog");
   const chosen = await open({ directory: true, multiple: false });
   return typeof chosen === "string" ? chosen : null;

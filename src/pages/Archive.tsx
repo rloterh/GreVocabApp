@@ -14,12 +14,15 @@ import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
+import { dayKey, orderWords, seedFor } from "@/lib/order";
+import { useSettingsStore } from "@/store/useSettingsStore";
 import { formatMonthKey, toMonthKey } from "@/lib/date-utils";
 
 export function Archive() {
   const { months, setActiveMonth, setSelectedDay, removeMonth } =
     useVocabStore();
   const isMastered = useProgressStore((s) => s.isMastered);
+  const wordOrder = useSettingsStore((s) => s.wordOrder);
   const navigate = useAppStore((s) => s.navigate);
   const showToast = useAppStore((s) => s.showToast);
 
@@ -69,7 +72,14 @@ export function Archive() {
 
       <div className="grid md:grid-cols-2 gap-4">
         {sorted.map((month, i) => {
-          const allWords = allWordsInMonth(month);
+          // Browsing a month, so the preference applies. Seeded per month so
+          // a shuffled archive is stable for the day rather than reshuffling
+          // under the cursor on every render.
+          const allWords = orderWords(
+            allWordsInMonth(month),
+            wordOrder,
+            seedFor([month.month, "archive", dayKey(new Date())]),
+          );
           const total = allWords.length;
           const mastered = allWords.filter((w) => isMastered(w.id)).length;
           const pct = total > 0 ? (mastered / total) * 100 : 0;

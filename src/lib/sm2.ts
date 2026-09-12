@@ -137,3 +137,33 @@ export function countDue(
 ): number {
   return wordIds.reduce((n, id) => n + (isDue(words[id], now) ? 1 : 0), 0);
 }
+
+/**
+ * Due cards in the order the scheduler wants them seen.
+ *
+ * Most overdue first, then by due date, then by id so the result is total and
+ * stable rather than dependent on the order the caller happened to build the
+ * array in.
+ *
+ * This exists because the due deck is the one place where *something decides*
+ * what you see next — that is the entire point of spaced repetition. Leaving it
+ * in whatever order the words were authored in, and then letting a presentation
+ * toggle shuffle it, quietly discards the scheduling the rest of this file
+ * exists to compute. See docs/WORD-ORDER.md.
+ */
+export function bySchedule<T extends { id: string }>(
+  words: readonly T[],
+  progress: Record<string, WordProgress>,
+  now: Date = new Date(),
+): T[] {
+  const dueAt = (word: T) => {
+    const at = progress[word.id]?.dueAt;
+    // A due card with no date sorts as maximally overdue: it is anomalous, and
+    // burying it would hide the anomaly.
+    return at ? new Date(at).getTime() : 0;
+  };
+  void now;
+  return [...words].sort(
+    (a, b) => dueAt(a) - dueAt(b) || a.id.localeCompare(b.id),
+  );
+}

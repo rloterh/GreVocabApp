@@ -321,7 +321,7 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 
 - ~~**[P0] Info dialog.**~~ **DONE 2026-09-11.** — `AboutDialog`, beside Settings in the sidebar and in the mobile More sheet. The version comes from package.json through a Vite define, so it cannot claim a version the build is not.
 - ~~**[P0] README with screenshots.**~~ **DONE 2026-09-11**, in Phase 7 — `docs/screenshots/` at 390, 768 and 1280.
-- **[P1] Streak freeze.** — One token a week, spent automatically on a missed day. → Streaks motivate until one breaks, at which point they become a reason to stop. This removes the cliff without adding a number to chase.
+- ~~**[P1] Streak freeze.**~~ **DONE 2026-09-12.** — One per seven days of the run, spent automatically on a single missed day. A week away is still a break. The Dashboard says "N missed days covered" only when it happened, and there is nothing to earn, spend faster, or compare.
 - **[P1] Word of the day** on the Dashboard, drawn from what is due.
 - **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
 - **[P1] Etymology and root families.** — Group by shared root; show the family while studying one. Genuinely aids retention.
@@ -339,15 +339,15 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 
 - ~~**[P0] `orderWords` and the `wordOrder` setting.**~~ **DONE 2026-09-11.** — `src/lib/order.ts`, pure, seed passed in. Default authored. 30 tests.
 - ~~**[P0] Random means *stable*.**~~ **DONE 2026-09-11.** — Seeded by month, deck and day; FNV-1a into mulberry32, then Fisher–Yates. Verified in a browser that the order survives a reload unchanged.
-- **[P0] Scheduling and fairness win.** **PARTLY DONE 2026-09-11.** — Applied to Daily Practice, and to the Flashcards shuffle toggle's initial state. The due deck, quiz, exam and search were left untouched, which is the half that matters — but that is currently true because nothing calls `orderWords` there, not because a test says so. **Outstanding:** the guard test asserting the due deck and quiz order are unchanged across all three settings. Archive listings also do not honour it yet.
+- ~~**[P0] Scheduling and fairness win.**~~ **DONE 2026-09-12.** — Applied to Daily Practice, Archive listings, and the Flashcards shuffle toggle's initial state. `order-boundary.test.ts` asserts the due deck is identical across all three settings, and that quiz and search never reference the preference. **The guard found a real bug:** the due deck was in *authored* order and the shuffle toggle applied to it, so spaced repetition was being presented in the order the words were written. It is now `bySchedule` — most overdue first — and ignores the toggle.
 - ~~**[P1] Fold the existing Flashcards shuffle toggle into it.**~~ **DONE 2026-09-11.** — The preference sets the toggle's initial state; the toggle stays a per-session override and never writes back.
 
-### Definition of done
+### Definition of done — P0 met 2026-09-12
 
-- The info dialog exists and names its designer.
-- The README shows the app.
-- Ten themes, every one passing the contrast test.
-- Changing word order never changes what the scheduler shows next.
+- ~~The info dialog exists and names its designer.~~
+- ~~The README shows the app.~~
+- ~~Ten themes, every one passing the contrast test.~~ 108 assertions.
+- ~~Changing word order never changes what the scheduler shows next.~~ Asserted across all three settings, and the assertion caught the due deck not being in scheduler order at all.
 - Nothing here needs a legend to explain it. That is the test for "fun, not
   confusing" — if a feature would need a tooltip to justify itself, it is out.
 

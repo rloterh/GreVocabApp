@@ -29,7 +29,7 @@ import {
 } from "@/components/ui/select";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
-import { buildHeatmap, calculateStreaks } from "@/lib/streak";
+import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { daysInMonth, format, formatMonthKey, toDateKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
@@ -45,7 +45,11 @@ export function ProgressPage() {
   const [year, setYear] = useState(currentYear);
   const [range, setRange] = useState<Range>("month");
 
-  const streaks = useMemo(() => calculateStreaks(activity), [activity]);
+  // One missed day a week does not end a run. ADR 0006.
+  const streaks = useMemo(
+    () => calculateStreaksWithFreezes(activity),
+    [activity],
+  );
   const heatmap = useMemo(() => buildHeatmap(activity, year), [activity, year]);
 
   const allWords = useMemo(

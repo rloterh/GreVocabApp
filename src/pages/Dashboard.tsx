@@ -16,7 +16,7 @@ import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
-import { calculateStreaks } from "@/lib/streak";
+import { calculateStreaksWithFreezes } from "@/lib/streak";
 import { toMonthKey, formatMonthKey } from "@/lib/date-utils";
 import { countDue } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
@@ -36,7 +36,11 @@ export function Dashboard() {
   const todayDay = today.getDate();
   const todaysWords = currentMonth?.days.find((d) => d.day === todayDay)?.words ?? [];
 
-  const streaks = useMemo(() => calculateStreaks(activity), [activity]);
+  // One missed day a week does not end a run. ADR 0006.
+  const streaks = useMemo(
+    () => calculateStreaksWithFreezes(activity),
+    [activity],
+  );
 
   // Aggregate stats
   const totalWords = Object.values(months).reduce(
@@ -116,7 +120,15 @@ export function Dashboard() {
           icon={Flame}
           label="Current streak"
           value={streaks.current}
-          suffix={streaks.current === 1 ? "day" : "days"}
+          suffix={
+            streaks.frozen > 0
+              ? // Said plainly and only when it happened. The point is to stop
+                // a missed day from reading as failure, not to award anything.
+                `days · ${streaks.frozen} missed day${streaks.frozen === 1 ? "" : "s"} covered`
+              : streaks.current === 1
+                ? "day"
+                : "days"
+          }
           highlight={streaks.current > 0}
           delay={0}
         />

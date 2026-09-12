@@ -29,7 +29,7 @@ import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
-import { isDue } from "@/lib/sm2";
+import { bySchedule, isDue } from "@/lib/sm2";
 import { playSound } from "@/lib/sound";
 import type {
   StudyDeck,
@@ -176,7 +176,13 @@ export function Flashcards() {
   const duePool = useMemo(
     () => {
       const now = new Date();
-      return allEnriched.filter((w) => isDue(wordsProgress[w.id], now));
+      // Scheduler order, not authored order: the due deck is the one place
+      // where something decides what you see next. docs/WORD-ORDER.md.
+      return bySchedule(
+        allEnriched.filter((w) => isDue(wordsProgress[w.id], now)),
+        wordsProgress,
+        now,
+      );
     },
     [allEnriched, wordsProgress],
   );
@@ -204,9 +210,12 @@ export function Flashcards() {
     const pool = poolFor(deck);
     if (pool.length === 0) return;
     const size = Math.min(cardLimit, pool.length);
-    const chosen = doShuffle
-      ? shuffleArr(pool).slice(0, size)
-      : pool.slice(0, size);
+    // Presentation never overrides scheduling: the due deck ignores the
+    // shuffle toggle entirely, however the user set it.
+    const chosen =
+      doShuffle && deck !== "due"
+        ? shuffleArr(pool).slice(0, size)
+        : pool.slice(0, size);
     setCards(chosen);
     setIdx(0);
     setFlipped(false);

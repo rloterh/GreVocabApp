@@ -6,7 +6,7 @@
  * in src/store/useAppStore.ts, register it in renderPage() below, and add a
  * nav entry in src/components/Sidebar.tsx.
  */
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Sidebar } from "@/components/Sidebar";
@@ -25,17 +25,47 @@ import { useWatchedFolder } from "@/hooks/useWatchedFolder";
 import { useDesktopEvents } from "@/hooks/useDesktopEvents";
 import { applyTheme } from "@/lib/theme";
 import { migrateLegacySecrets } from "@/lib/ai/keystore";
-import { Dashboard } from "@/pages/Dashboard";
-import { DailyPractice } from "@/pages/DailyPractice";
-import { Flashcards } from "@/pages/Flashcards";
-import { Quiz } from "@/pages/Quiz";
-import { ExamPage } from "@/pages/Exam";
-import { SentenceBuilder } from "@/pages/SentenceBuilder";
-import { Calendar } from "@/pages/Calendar";
-import { Archive } from "@/pages/Archive";
-import { ProgressPage } from "@/pages/ProgressPage";
-import { Search } from "@/pages/Search";
-import { Settings } from "@/pages/Settings";
+
+
+/**
+ * Pages load on demand.
+ *
+ * The initial chunk was 1.1 MB, and the single largest contributor was the
+ * charting library used by exactly one screen. Splitting per route means a
+ * first visit downloads the shell and the dashboard, not the charts, the quiz
+ * engine and the Anki exporter as well.
+ */
+const Dashboard = lazy(() =>
+  import("@/pages/Dashboard").then((m) => ({ default: m.Dashboard })),
+);
+const DailyPractice = lazy(() =>
+  import("@/pages/DailyPractice").then((m) => ({ default: m.DailyPractice })),
+);
+const Flashcards = lazy(() =>
+  import("@/pages/Flashcards").then((m) => ({ default: m.Flashcards })),
+);
+const Quiz = lazy(() => import("@/pages/Quiz").then((m) => ({ default: m.Quiz })));
+const ExamPage = lazy(() =>
+  import("@/pages/Exam").then((m) => ({ default: m.ExamPage })),
+);
+const SentenceBuilder = lazy(() =>
+  import("@/pages/SentenceBuilder").then((m) => ({ default: m.SentenceBuilder })),
+);
+const Calendar = lazy(() =>
+  import("@/pages/Calendar").then((m) => ({ default: m.Calendar })),
+);
+const Archive = lazy(() =>
+  import("@/pages/Archive").then((m) => ({ default: m.Archive })),
+);
+const ProgressPage = lazy(() =>
+  import("@/pages/ProgressPage").then((m) => ({ default: m.ProgressPage })),
+);
+const Search = lazy(() =>
+  import("@/pages/Search").then((m) => ({ default: m.Search })),
+);
+const Settings = lazy(() =>
+  import("@/pages/Settings").then((m) => ({ default: m.Settings })),
+);
 
 export function App() {
   const page = useAppStore((s) => s.page);
@@ -93,7 +123,9 @@ export function App() {
               transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="min-h-full px-4 sm:px-6 lg:px-8 pb-24 lg:pb-0"
             >
-              {renderPage(page)}
+              <Suspense fallback={<PageFallback />}>
+                {renderPage(page)}
+              </Suspense>
             </motion.div>
           </AnimatePresence>
         </main>
@@ -134,4 +166,15 @@ function renderPage(page: string) {
     default:
       return <Dashboard />;
   }
+}
+
+/**
+ * Deliberately almost nothing.
+ *
+ * A chunk usually resolves in a few milliseconds, and a spinner that appears
+ * and vanishes in that time reads as a flicker rather than as feedback. This
+ * reserves the height so the layout does not jump, and says nothing.
+ */
+function PageFallback() {
+  return <div className="min-h-[60vh]" aria-busy="true" />;
 }

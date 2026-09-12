@@ -126,7 +126,10 @@ export function VocabLibrary() {
             <div
               key={entry.month}
               className={cn(
-                "rounded-md border p-3",
+                // min-w-0: the sample line below uses `truncate`, which sets
+                // white-space: nowrap. Without this the grid item sizes to that
+                // line's full width and the card overflows a 360px screen.
+                "min-w-0 rounded-md border p-3",
                 loaded ? "border-success/40 bg-success/5" : "border-border/60",
               )}
             >
@@ -153,6 +156,7 @@ export function VocabLibrary() {
                   <Button
                     size="sm"
                     variant="ghost"
+                    aria-label={`Load ${entry.displayName}`}
                     disabled={busy === entry.month}
                     onClick={() => void load(entry)}
                   >

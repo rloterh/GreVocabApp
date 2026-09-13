@@ -312,6 +312,42 @@ npm run tauri android build     # APK/AAB in src-tauri/gen/android/app/build/out
 it by hand; anything that needs to survive belongs in `tauri.conf.json` or in
 the Rust source.
 
+### Running it on an emulator, 2026-09-13
+
+It has now been run. Three things the runbook above does not say:
+
+1. **Windows blocks the build's last step.** `tauri android build` finishes the
+   Rust compile and then *symlinks* the `.so` into `jniLibs/`, which needs
+   Developer Mode. Without it the build fails after all the slow work is done.
+   Either turn Developer Mode on, or copy the library by hand and assemble
+   directly:
+
+   ```bash
+   cp src-tauri/target/x86_64-linux-android/debug/liblexicon_lib.so       src-tauri/gen/android/app/src/main/jniLibs/x86_64/
+   cd src-tauri/gen/android && ./gradlew assembleX86_64Debug -x rustBuildX86_64Debug
+   ```
+
+   The `-x` matters: the Gradle rust task shells out to `npm.bat` and cannot
+   find it, and the work it would do is already done.
+
+2. **An emulator is x86_64.** Earlier builds here were arm64 only, which
+   installs nowhere useful. `rustup target add x86_64-linux-android`.
+
+3. **The frontend is embedded in the `.so`, brotli-compressed.** Rebuilding
+   only the APK after a CSS change ships the old CSS, and grepping the `.so`
+   for a string you just added will not find it. Compare timestamps instead.
+
+Setup, once: a system image (`sdkmanager --install
+"system-images;android-34;google_apis;x86_64"`) and an AVD
+(`avdmanager create avd -n lexicon34 -k ... -d pixel_6`). `JAVA_HOME` must be
+set or `sdkmanager` refuses to start.
+
+**What running it found:** the bottom tab bar used `env(safe-area-inset-bottom)`
+alone, and an Android WebView can report that as 0 even with
+`viewport-fit=cover` — so the gesture pill was drawn straight through the word
+"Cards". `max(0.75rem, env(...))` fixes it and costs nothing on iOS, where the
+inset is real. No amount of browser testing would have shown this.
+
 ### What is already done, without the toolchain
 
 Phase 9's code-side work does not depend on any of the above and is complete:

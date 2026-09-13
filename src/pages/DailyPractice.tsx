@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { cn } from "@/lib/utils";
+import { useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   ChevronLeft,
@@ -77,6 +78,14 @@ export function DailyPractice() {
     ),
   };
   const dayIdx = month.days.findIndex((d) => d.day === selectedDay);
+
+  // Keep the selected day in view in the rail. Arriving on day 25 of 30 with
+  // the list scrolled to the top means hunting for where you are, and the day
+  // can change from the arrows or the calendar as well as from the rail.
+  const currentDayRef = useRef<HTMLButtonElement | null>(null);
+  useEffect(() => {
+    currentDayRef.current?.scrollIntoView({ block: "nearest" });
+  }, [selectedDay, month.ordinal]);
   const totalMastered = day?.words.filter((w) => isMastered(w.id)).length ?? 0;
   const totalWords = day?.words.length ?? 0;
   const dayPct = totalWords > 0 ? (totalMastered / totalWords) * 100 : 0;
@@ -91,7 +100,7 @@ export function DailyPractice() {
   }
 
   return (
-    <div className="w-full max-w-3xl mx-auto py-8">
+    <div className="w-full max-w-3xl lg:max-w-6xl mx-auto py-8">
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -171,27 +180,74 @@ export function DailyPractice() {
         <Progress value={dayPct} />
       </div>
 
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={`${keyOf(month)}-${selectedDay}`}
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -8 }}
-          transition={{ duration: 0.25 }}
-          className="space-y-4"
+      {/*
+        Two columns from `lg`, and the day list is **second in the DOM** while
+        sitting first on screen. Thirty buttons ahead of the words would put a
+        keyboard user thirty tab stops from the thing they came to read.
+      */}
+      <div className="lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-8 lg:items-start">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={`${keyOf(month)}-${selectedDay}`}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.25 }}
+            className="space-y-4 lg:col-start-2"
+          >
+            {day?.words.map((word, i) => (
+              <FlashCard
+                key={word.id}
+                word={word}
+                index={i}
+                mastered={isMastered(word.id)}
+                onToggleMastered={() => toggleMastered(word.id, keyOf(month))}
+                onReveal={() => markReviewed(word.id, keyOf(month))}
+              />
+            ))}
+          </motion.div>
+        </AnimatePresence>
+
+        <nav
+          aria-label="Days in this month"
+          className="hidden lg:block lg:col-start-1 lg:row-start-1 lg:sticky lg:top-4 max-h-[calc(100dvh-8rem)] overflow-y-auto no-scrollbar pr-1"
         >
-          {day?.words.map((word, i) => (
-            <FlashCard
-              key={word.id}
-              word={word}
-              index={i}
-              mastered={isMastered(word.id)}
-              onToggleMastered={() => toggleMastered(word.id, keyOf(month))}
-              onReveal={() => markReviewed(word.id, keyOf(month))}
-            />
-          ))}
-        </motion.div>
-      </AnimatePresence>
+          <ul className="space-y-0.5">
+            {month.days.map((d) => {
+              const total = d.words.length;
+              const done = d.words.filter((w) => isMastered(w.id)).length;
+              const current = d.day === selectedDay;
+              return (
+                <li key={d.day}>
+                  <button
+                    type="button"
+                    ref={current ? currentDayRef : undefined}
+                    onClick={() => setSelectedDay(d.day)}
+                    aria-current={current ? "true" : undefined}
+                    className={cn(
+                      "w-full flex items-center justify-between gap-2 rounded-md px-3 py-2 text-sm transition-colors",
+                      "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+                      current
+                        ? "bg-secondary text-foreground font-medium"
+                        : "text-muted-foreground hover:bg-secondary/50 hover:text-foreground",
+                    )}
+                  >
+                    <span>Day {d.day}</span>
+                    <span
+                      className={cn(
+                        "tabular text-[11px]",
+                        done === total ? "text-success" : "opacity-70",
+                      )}
+                    >
+                      {done}/{total}
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      </div>
 
       <div className="flex items-center justify-between mt-8 pt-6 border-t border-border/60">
         <Button

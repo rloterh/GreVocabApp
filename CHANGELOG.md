@@ -102,6 +102,45 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - `SentenceBuilder` reset its draft from inside a `useMemo` with an incomplete
   dependency list; `Quiz` rebuilt a memo dependency on every render.
 
+## [1.3.0] — 2026-09-13
+
+The first release with the Android app actually run rather than merely built.
+
+### Added
+
+- **A day rail on Daily Practice** at `lg` and up: every day of the month with
+  its mastery count, one tap each. Reaching day 17 previously meant sixteen
+  clicks on the arrows or a detour through the Calendar. The rail sits after
+  the cards in the DOM while appearing before them, so thirty buttons do not
+  come between a keyboard user and the words.
+- **Word detail as a side panel** on a landscape touch screen. A centred modal
+  is right on a desktop and right on a phone; on a 1194px iPad it covers the
+  list you were reading to get there. Keyed to `pointer: coarse`, so a desktop
+  window of the same width keeps its modal.
+
+### Fixed
+
+- **The bottom tab bar sat under the Android gesture pill.** It padded itself
+  with `env(safe-area-inset-bottom)` alone, and an Android WebView can report
+  that as 0 even with `viewport-fit=cover` — the pill was drawn straight
+  through the word "Cards". Now `max(0.75rem, env(...))`, which costs nothing
+  on iOS where the inset is real. Found by running the app on a device; no
+  amount of browser testing would have shown it.
+
+### Verified
+
+The Android build had been described as "compiled but never executed" since
+Phase 9. It has now been executed, on an Android 14 emulator:
+
+- the **system back button** navigates within the app rather than exiting
+- the **notification permission** is declared, requested at the moment the
+  reminder is switched on, and granted
+
+Physical hardware is still untested. Three things about building for Android on
+Windows — the symlink step that fails after all the slow work, the x86_64
+target an emulator needs, and the brotli-compressed frontend embedded in the
+`.so` — are now in CONTINUING.md.
+
 ## [1.2.0] — 2026-09-13
 
 Four things that make studying better, and two that were quietly wrong.

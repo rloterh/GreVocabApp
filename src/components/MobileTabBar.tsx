@@ -133,9 +133,17 @@ export function MobileTabBar({
         )}
       </AnimatePresence>
 
+      {/*
+        `max(...)`, not the inset alone. On iOS the inset is ~34px and the bar
+        clears the home indicator; in an Android WebView it can report 0 even
+        with `viewport-fit=cover`, and the labels then sit *under* the gesture
+        pill — which is what the emulator showed, with the pill drawn straight
+        through the word "Cards". A floor of 0.75rem costs nothing where the
+        inset is real and fixes it where it is not.
+      */}
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-card/95 backdrop-blur pb-[env(safe-area-inset-bottom)] rail:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-card/95 backdrop-blur pb-[max(0.75rem,env(safe-area-inset-bottom))] rail:hidden"
       >
         {TABS.map((d) => (
           <Tab

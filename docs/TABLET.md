@@ -82,10 +82,10 @@ wide column on a desktop become two columns on a tablet:
 | --- | --- |
 | Dashboard | Stats 2×2 beside the due-today panel, not stacked above it |
 | Flashcards | Card centred with a fixed comfortable measure; the day's word list beside it in landscape |
-| Daily Practice | Word list left, detail right — the master/detail this screen has always wanted |
+| Daily Practice | A day rail left, that day's words right. The master list is the **days**, not the words: three words a day makes a word list pointless, while reaching day 17 was sixteen clicks |
 | Archive | 3-column month grid (phone 1, desktop 4) |
 | Progress | Heatmap at full width without horizontal scroll; year and month side by side |
-| Word detail | A side panel in landscape rather than a modal that covers a 1194px screen to show six lines |
+| Word detail | A side panel in landscape rather than a modal that covers a 1194px screen to show six lines. Keyed to `pointer: coarse`, so a desktop window of the same size keeps its modal |
 | Quiz / Exam | Question centred at a readable measure, never stretched to 1366px |
 | Settings | Two-column sections; labels stop being 900px from their controls |
 

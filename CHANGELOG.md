@@ -6,6 +6,28 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Fixed
 
+- **Switching track left eight screens showing the previous notebook.** Search,
+  Progress, Exam, Archive, Flashcards, the root families, the confusable drill
+  and the word of the day all derived their data inside a `useMemo` that called
+  the store's `getAllMonths()` and listed `months` as its only dependency — and
+  `setActiveTrack` changes `activeTrack`, never `months`, so React had no
+  reason to recompute. Opening SAT and searching a SAT word reported "Nothing
+  matched". The derivation is now a pure function taking all three pieces of
+  state, reached through a `useAllMonths()` hook, so the dependency is real and
+  the exhaustive-deps lint can check it. Covered by
+  `scripts/drive/track-switch-smoke.mjs`.
+- **Reminders wore Android's generic (i) glyph.** With no icon set the plugin
+  falls back to `android.R.drawable.ic_dialog_info`. Lexicon's mark now ships
+  as a monochrome drawable, tinted with the app's accent. (`plugins.notification`
+  in tauri.conf.json is *not* the way to set this — the Rust plugin declares
+  its config type as `()`, so any such object aborts the app at startup with
+  `invalid type: map, expected unit`. The icon travels in the notification
+  payload instead.)
+- **`npm run lint` failed**, and had for some time: it runs `--max-warnings 0`
+  against twelve warnings. Eleven were the stale-memo dependencies above; the
+  twelfth was a hook exported from a component file, which also costs that file
+  Fast Refresh. Both fixed rather than suppressed.
+
 - **Daily reminders now actually reach you with the app closed.** They never
   had. The plugin was registered and permission requested, but nothing ever
   called a scheduling API, so the only thing that could fire was the in-app
@@ -34,9 +56,11 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Added
 
-- **`scripts/android-signing.mjs`** — restores the release signing config to
-  the generated Android project, which is untracked and so loses it on every
-  regeneration. Idempotent, with a `--check` mode. Credentials come from an
+- **`scripts/android-prepare.mjs`** — restores everything the generated
+  Android project needs but does not generate: the release signing config and
+  the tracked resources in `src-tauri/android-res`. That directory is
+  untracked, so it loses both on every regeneration, and neither loss fails a
+  build. Idempotent, with a `--check` mode. Signing credentials come from an
   ignored `keystore.properties`; without one the release build still completes,
   unsigned. See docs/MOBILE.md for the full release-build procedure.
 - **SM-2 spaced repetition** (`src/lib/sm2.ts`) — rating a flashcard now

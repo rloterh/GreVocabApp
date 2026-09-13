@@ -12,7 +12,6 @@ import { useEffect, useState } from "react";
 import { CalendarDays, Shuffle, ListOrdered } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { useVocabStore } from "@/store/useVocabStore";
-import { TRACKS } from "@/lib/track";
 import {
   addCalendarMonths,
   calendarMonthOfDate,
@@ -76,29 +75,6 @@ export interface ScheduleChoice {
   startMonth: string;
   order: MonthOrder;
   valid: boolean;
-}
-
-/**
- * Write a choice to every track.
- *
- * Every track, not only the open one: this is the single moment the user says
- * when they are beginning, and a second track quietly starting "today" months
- * later would be a surprise nobody asked for. Settings moves them apart
- * afterwards.
- */
-export function useApplySchedule() {
-  const setStartMonth = useVocabStore((s) => s.setStartMonth);
-  const shuffleMonths = useVocabStore((s) => s.shuffleMonths);
-  const resetMonthOrder = useVocabStore((s) => s.resetMonthOrder);
-
-  return (choice: ScheduleChoice) => {
-    if (!choice.valid) return;
-    for (const track of TRACKS) {
-      setStartMonth(track, choice.startMonth);
-      if (choice.order === "shuffled") shuffleMonths(track, choice.startMonth);
-      else resetMonthOrder(track);
-    }
-  };
 }
 
 export function ScheduleSetup({

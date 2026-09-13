@@ -21,6 +21,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SpeakButton } from "@/components/SpeakButton";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { keyOf } from "@/lib/track";
@@ -32,8 +33,7 @@ export function WordOfTheDay({
 }: {
   onOpen: (word: WordDetailTarget) => void;
 }) {
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
-  const months = useVocabStore((s) => s.months);
+  const allMonths = useAllMonths();
   const activeTrack = useVocabStore((s) => s.activeTrack);
   const progress = useProgressStore((s) => s.words);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
@@ -41,7 +41,7 @@ export function WordOfTheDay({
   // Carries the month and day with it, because the detail modal needs to be
   // able to send the user to the day this word actually lives on.
   const picked = useMemo(() => {
-    const located = getAllMonths().flatMap((month) =>
+    const located = allMonths.flatMap((month) =>
       month.days.flatMap((day) =>
         day.words.map((word) => ({
           ...word,
@@ -57,7 +57,7 @@ export function WordOfTheDay({
       target: located.find((w) => w.id === chosen.word.id)!,
       reason: chosen.reason,
     };
-  }, [getAllMonths, months, progress, activeTrack]);
+  }, [allMonths, progress, activeTrack]);
 
   if (!picked) return null;
   const { target: word, reason } = picked;

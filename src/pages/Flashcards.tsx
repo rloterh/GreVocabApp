@@ -26,6 +26,7 @@ import { EdgeArrow } from "@/components/EdgeArrow";
 import { RootFamily } from "@/components/RootFamily";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
@@ -97,8 +98,8 @@ const RATING_META: Record<
 };
 
 export function Flashcards() {
-  const { months, activeMonthKey, selectedDay, getActiveMonth, getAllMonths } =
-    useVocabStore();
+  const { activeMonthKey, selectedDay, getActiveMonth } = useVocabStore();
+  const allMonths = useAllMonths();
   const applyStudyRating = useProgressStore((s) => s.applyStudyRating);
   const addStudySession = useProgressStore((s) => s.addStudySession);
   const isMastered = useProgressStore((s) => s.isMastered);
@@ -138,7 +139,7 @@ export function Flashcards() {
   const allEnriched: EnrichedWord[] = useMemo(() => {
   // The open track only. Pooling both would put SAT words in a GRE exam and
   // quietly change what the score means. See docs/adr/0011-tracks.md.
-    return getAllMonths().flatMap((m) =>
+    return allMonths.flatMap((m) =>
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
@@ -148,7 +149,7 @@ export function Flashcards() {
         })),
       ),
     );
-  }, [months]);
+  }, [allMonths]);
 
   const activeMonth = getActiveMonth();
   const activeMonthWords: EnrichedWord[] = useMemo(() => {

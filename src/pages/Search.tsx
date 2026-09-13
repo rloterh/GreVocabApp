@@ -8,14 +8,14 @@ import { EmptyState } from "@/components/EmptyState";
 import { WordDetail, type WordDetailTarget } from "@/components/WordDetail";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { cn } from "@/lib/utils";
 import { keyOf } from "@/lib/track";
 
 export function Search() {
-  const months = useVocabStore((s) => s.months);
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const allMonths = useAllMonths();
   const setActiveMonth = useVocabStore((s) => s.setActiveMonth);
   const setSelectedDay = useVocabStore((s) => s.setSelectedDay);
   const isMastered = useProgressStore((s) => s.isMastered);
@@ -26,7 +26,7 @@ export function Search() {
   const indexed = useMemo(() => {
     // Searching the open notebook. A result from the other track looks like a
     // word the user has, and following it would switch tracks under them.
-    return getAllMonths().flatMap((m) =>
+    return allMonths.flatMap((m) =>
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
@@ -36,12 +36,12 @@ export function Search() {
         })),
       ),
     );
-  }, [getAllMonths, months]);
+  }, [allMonths]);
 
   // What was actually searched, not what is stored. Counting every loaded
   // month told a user searching SAT that three months had been looked at when
   // one had.
-  const searchedMonths = useMemo(() => getAllMonths().length, [getAllMonths, months]);
+  const searchedMonths = allMonths.length;
 
   const q = query.trim().toLowerCase();
   const results = useMemo(() => {

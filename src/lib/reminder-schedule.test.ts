@@ -86,6 +86,12 @@ describe("reminderPayload", () => {
     expect(schedule.interval.interval.second).toBe(0);
   });
 
+  it("names its own small icon", () => {
+    // Without this the plugin falls back to Android's generic info glyph, and
+    // silently — a wrong name looks exactly like no change.
+    expect(reminderPayload("19:00")?.icon).toBe("ic_stat_lexicon");
+  });
+
   it("reuses one id, so rescheduling replaces", () => {
     expect(reminderPayload("07:30")?.id).toBe(REMINDER_ID);
     expect(reminderPayload("19:00")?.id).toBe(REMINDER_ID);

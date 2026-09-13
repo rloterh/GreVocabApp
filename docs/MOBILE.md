@@ -115,12 +115,17 @@ already gitignored and should stay that way — it is generated output.
   lag. Target a floor and state it; `build.target` in `vite.config.ts` already
   handles the desktop side of this question.
 
-### Release builds and signing
+### Preparing the generated project
 
-`src-tauri/gen/android` is generated and untracked, so a signing block added to
-`app/build.gradle.kts` by hand does not survive `tauri android init`. Run
-`node scripts/android-signing.mjs` to put it back; it is idempotent, and
-`--check` reports without changing anything.
+`src-tauri/gen/android` is generated and untracked, so anything added to it by
+hand disappears when it is regenerated — silently, and in ways that do not fail
+the build. `node scripts/android-prepare.mjs` puts it all back; it is
+idempotent, and `--check` reports without changing anything. Run it after
+`tauri android init` and before a release build. Today it does two things:
+adds the release signing config, and copies `src-tauri/android-res` into the
+project's `res/`.
+
+### Signing
 
 Credentials go in `src-tauri/gen/android/keystore.properties`, which that
 project's `.gitignore` already covers. The keystore itself belongs outside the

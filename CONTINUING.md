@@ -368,22 +368,16 @@ Phase 9's code-side work does not depend on any of the above and is complete:
 
 ### Known gaps
 
-- **The signing keystore is per-machine.** `node scripts/android-signing.mjs`
-  restores the signing config to the generated project, which loses it on every
-  regeneration; the keystore itself is generated on the release machine and
-  kept out of the repo. Losing it means never updating the listing again.
+- **The signing keystore is per-machine.** `node scripts/android-prepare.mjs`
+  restores the signing config and the tracked resources to the generated
+  project, which loses both on every regeneration; the keystore itself is
+  generated on the release machine and kept out of the repo. Losing it means
+  never updating the listing again.
 - **Nothing has run on physical hardware.** A signed release APK has been built
   and an Android 14 *emulator* has run it, which found real bugs the compiler
   could not. What an emulator still cannot tell you: whether the notification
   survives a vendor battery manager, how the app feels under a finger, or what
   a real WebView version does. That needs a phone.
-- **The notification icon is Android's generic (i).** The plugin falls back to
-  `android.R.drawable.ic_dialog_info` when no icon is configured, so every
-  reminder Lexicon posts wears a system glyph rather than its own mark. Fixing
-  it needs a monochrome drawable in the generated `res/` directory — which is
-  untracked, so it wants a small patch script alongside
-  `scripts/android-signing.mjs` — plus `plugins.notification.icon` in
-  `tauri.conf.json`.
 - **Predictive back is not opted into.** The gesture works; the Android 14
   preview animation does not. See docs/MOBILE.md for why enabling the flag
   would break back navigation rather than decorate it.

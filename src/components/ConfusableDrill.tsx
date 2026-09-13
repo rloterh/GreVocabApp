@@ -16,6 +16,7 @@ import { Check, RotateCcw, Shuffle, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { buildConfusableDrill } from "@/lib/confusables";
@@ -24,8 +25,7 @@ import { dayKey } from "@/lib/order";
 import { cn } from "@/lib/utils";
 
 export function ConfusableDrill() {
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
-  const months = useVocabStore((s) => s.months);
+  const allMonths = useAllMonths();
   const activeTrack = useVocabStore((s) => s.activeTrack);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
 
@@ -37,10 +37,10 @@ export function ConfusableDrill() {
   const questions = useMemo(
     () =>
       buildConfusableDrill(
-        getAllMonths().flatMap(allWordsInMonth),
+        allMonths.flatMap(allWordsInMonth),
         `${activeTrack}:${dayKey(new Date())}:${round}`,
       ),
-    [getAllMonths, months, activeTrack, round],
+    [allMonths, activeTrack, round],
   );
 
   if (questions.length === 0) {

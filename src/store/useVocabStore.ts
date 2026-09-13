@@ -8,6 +8,7 @@ import {
   wordsForDay,
 } from "@/lib/vocabulary";
 import { VocabIndex, type VocabIndexEntry } from "@/lib/vocab-index";
+import { monthsInTeachingOrder } from "@/lib/months-in-order";
 import {
   DEFAULT_TRACK,
   keyOf,
@@ -18,7 +19,6 @@ import {
   calendarMonthOfDate,
   identitySchedule,
   ordinalForCalendarMonth,
-  positionOf,
   reconcile,
   redistributeWords,
   shuffledSchedule,
@@ -378,17 +378,12 @@ export const useVocabStore = create<VocabState>()(
 
       getAllMonths: () => get().getMonthsForTrack(get().activeTrack),
 
+      // Delegates, so the store and `useAllMonths` cannot drift apart. React
+      // callers should prefer the hook: this reads three pieces of state
+      // through `get()`, which no dependency array can see.
       getMonthsForTrack: (track) => {
         const state = get();
-        const months = monthsOf(state.months, track);
-        const schedule = state.schedules[track];
-        if (!schedule) return months;
-        // Teaching order, which is what every list in the app means by "in
-        // order". Ordinal order and teaching order are the same thing until
-        // the user reorders, and then they are not.
-        return [...months].sort(
-          (a, b) => positionOf(schedule, a.ordinal) - positionOf(schedule, b.ordinal),
-        );
+        return monthsInTeachingOrder(state.months, state.schedules, track);
       },
 
       getSchedule: (track) => scheduleFor(get(), track ?? get().activeTrack),

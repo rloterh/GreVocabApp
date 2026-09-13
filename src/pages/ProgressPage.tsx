@@ -28,6 +28,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
 import { allWordsInMonth } from "@/lib/vocabulary";
@@ -39,8 +40,7 @@ import { cn } from "@/lib/utils";
 type Range = "month" | "quarter" | "year";
 
 export function ProgressPage() {
-  const months = useVocabStore((s) => s.months);
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const allMonths = useAllMonths();
   const activeTrack = useVocabStore((s) => s.activeTrack);
   const words = useProgressStore((s) => s.words);
   const activity = useProgressStore((s) => s.activity);
@@ -67,8 +67,8 @@ export function ProgressPage() {
   const heatmap = useMemo(() => buildHeatmap(activity, year), [activity, year]);
 
   const allWords = useMemo(
-    () => getAllMonths().flatMap(allWordsInMonth),
-    [getAllMonths, months],
+    () => allMonths.flatMap(allWordsInMonth),
+    [allMonths],
   );
   // The open track's records only, keyed off the track in the word id. A
   // combined figure would tell a user they have mastered words from a
@@ -146,7 +146,7 @@ export function ProgressPage() {
   const monthlyBreakdown = useMemo(() => {
     // Teaching order, from the schedule — the order the user actually meets
     // them in, which after a reorder is not ordinal order.
-    return getAllMonths().map((m) => {
+    return allMonths.map((m) => {
       const wordsInMonth = allWordsInMonth(m);
       const mCount = wordsInMonth.filter((w) => words[w.id]?.mastered).length;
       return {
@@ -156,7 +156,7 @@ export function ProgressPage() {
         mastered: mCount,
       };
     });
-  }, [getAllMonths, months, words]);
+  }, [allMonths, words]);
 
   if (allWords.length === 0) {
     return (

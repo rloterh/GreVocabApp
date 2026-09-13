@@ -48,6 +48,27 @@ const TITLE = "Lexicon";
  */
 const BODY = "Time for today's words.";
 
+/**
+ * The notification's own mark, rather than Android's generic (i).
+ *
+ * Per notification, not per app: `plugins.notification` in tauri.conf.json
+ * looks like the place for this and is not — the Rust plugin declares its
+ * config type as `()`, so any `plugins.notification` object fails
+ * deserialization and the app aborts on startup with
+ * `invalid type: map, expected unit`. `NotificationData.icon` is the supported
+ * route, and the Android side prefers it over the global anyway.
+ *
+ * The drawable is `src-tauri/android-res/drawable/ic_stat_lexicon.xml`,
+ * installed into the generated project by `scripts/android-prepare.mjs`. If
+ * the name ever stops resolving, the plugin silently falls back to
+ * `android.R.drawable.ic_dialog_info` — so a wrong name looks like no change
+ * rather than an error.
+ */
+const ICON = "ic_stat_lexicon";
+
+/** The accent the rest of the app uses for anything it is confident about. */
+const ICON_COLOR = "#3DBE91";
+
 /** `HH:mm` split into numbers, or null if it is not a time. */
 export function parseTime(
   time: string,
@@ -92,6 +113,8 @@ export function reminderPayload(time: string): Record<string, unknown> | null {
     id: REMINDER_ID,
     title: TITLE,
     body: BODY,
+    icon: ICON,
+    iconColor: ICON_COLOR,
     schedule: {
       interval: {
         interval: { hour: parsed.hours, minute: parsed.minutes, second: 0 },

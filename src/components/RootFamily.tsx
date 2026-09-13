@@ -10,7 +10,7 @@
 
 import { useMemo } from "react";
 import { Sprout } from "lucide-react";
-import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { relativesOf } from "@/lib/roots";
 import { cn } from "@/lib/utils";
@@ -25,12 +25,11 @@ export function RootFamily({
   /** Given a word id, when a relative is chosen. Omit to render plain text. */
   onSelect?: (wordId: string) => void;
 }) {
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
-  const months = useVocabStore((s) => s.months);
+  const allMonths = useAllMonths();
 
   const families = useMemo(
-    () => relativesOf(word, getAllMonths().flatMap(allWordsInMonth)),
-    [word, getAllMonths, months],
+    () => relativesOf(word, allMonths.flatMap(allWordsInMonth)),
+    [word, allMonths],
   );
 
   if (families.length === 0) return null;

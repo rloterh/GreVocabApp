@@ -33,6 +33,7 @@ import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
 import { bySchedule, isDue } from "@/lib/sm2";
 import { playSound } from "@/lib/sound";
+import { speak as speakWord } from "@/lib/speech";
 import { keyOf } from "@/lib/track";
 import type {
   StudyDeck,
@@ -104,6 +105,9 @@ export function Flashcards() {
   const wordsProgress = useProgressStore((s) => s.words);
   const showToast = useAppStore((s) => s.showToast);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const speechVoice = useSettingsStore((s) => s.speechVoice);
+  const speechRate = useSettingsStore((s) => s.speechRate);
+  const autoPronounce = useSettingsStore((s) => s.autoPronounce);
   const hasSeenSrsIntro = useSettingsStore((s) => s.hasSeenSrsIntro);
   const setSettings = useSettingsStore((s) => s.set);
 
@@ -345,11 +349,20 @@ export function Flashcards() {
   }, [screen, paused, flipped, idx, cards.length, rate]);
 
   function speak() {
-    if (!currentCard || !("speechSynthesis" in window)) return;
-    const u = new SpeechSynthesisUtterance(currentCard.word);
-    u.rate = 0.9;
-    window.speechSynthesis.speak(u);
+    if (!currentCard) return;
+    speakWord(currentCard.word, { voice: speechVoice, rate: speechRate });
   }
+
+  // Say it when the answer appears, if asked to. On the reveal rather than on
+  // every flip: turning the card back to the front to check the spelling
+  // should not make it talk again.
+  useEffect(() => {
+    if (!autoPronounce || !flipped || screen !== "playing" || !currentCard) return;
+    speakWord(currentCard.word, { voice: speechVoice, rate: speechRate });
+    // `currentCard` is intentionally read, not depended on: the effect should
+    // fire when the card is flipped, not when the deck advances.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [flipped, autoPronounce, screen]);
 
   if (allEnriched.length === 0) {
     return (

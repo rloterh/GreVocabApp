@@ -17,9 +17,9 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Volume2 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { SpeakButton } from "@/components/SpeakButton";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
@@ -62,13 +62,6 @@ export function WordOfTheDay({
   if (!picked) return null;
   const { target: word, reason } = picked;
 
-  function speak() {
-    if (!("speechSynthesis" in window)) return;
-    const utterance = new SpeechSynthesisUtterance(word.word);
-    utterance.rate = 0.9;
-    window.speechSynthesis.speak(utterance);
-  }
-
   return (
     <motion.div
       initial={reduceMotion ? false : { opacity: 0, y: 8 }}
@@ -95,16 +88,7 @@ export function WordOfTheDay({
             >
               {word.word}
             </button>
-            {"speechSynthesis" in window && (
-              <button
-                type="button"
-                aria-label={`Pronounce ${word.word}`}
-                onClick={speak}
-                className="grid h-11 w-11 shrink-0 place-items-center rounded-full text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-              >
-                <Volume2 className="w-4 h-4" />
-              </button>
-            )}
+            <SpeakButton word={word.word} />
           </div>
 
           <p className="mt-1.5 text-sm leading-relaxed">{word.definition}</p>

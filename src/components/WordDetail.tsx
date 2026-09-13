@@ -26,6 +26,7 @@ import { cn } from "@/lib/utils";
 import type { StudyRating, VocabWord } from "@/types";
 import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 import { RootFamily } from "@/components/RootFamily";
+import { SpeakButton } from "@/components/SpeakButton";
 
 export interface WordDetailTarget extends VocabWord {
   monthKey: string;
@@ -125,6 +126,7 @@ export function WordDetail({
                 <span className="text-sm italic text-muted-foreground">
                   {word.partOfSpeech}
                 </span>
+                <SpeakButton word={word.word} size="sm" />
               </div>
               <DialogDescription>
                 {word.monthName} &middot; Day {word.day}

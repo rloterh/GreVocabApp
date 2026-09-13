@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Check, Lightbulb, Volume2 } from "lucide-react";
+import { Check, Lightbulb } from "lucide-react";
 import type { VocabWord } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { SpeakButton } from "@/components/SpeakButton";
 import { cn } from "@/lib/utils";
 
 interface FlashCardProps {
@@ -30,13 +31,6 @@ export function FlashCard({
     } else {
       setRevealed(false);
     }
-  }
-
-  function speak() {
-    if (!("speechSynthesis" in window)) return;
-    const u = new SpeechSynthesisUtterance(word.word);
-    u.rate = 0.9;
-    window.speechSynthesis.speak(u);
   }
 
   return (
@@ -78,18 +72,7 @@ export function FlashCard({
         </button>
 
         <div className="flex items-center gap-1">
-          <Button
-            size="icon"
-            variant="ghost"
-            className="h-8 w-8 opacity-60 hover:opacity-100"
-            onClick={(e) => {
-              e.stopPropagation();
-              speak();
-            }}
-            aria-label="Pronounce"
-          >
-            <Volume2 className="h-4 w-4" />
-          </Button>
+          <SpeakButton word={word.word} size="sm" className="opacity-60 hover:opacity-100" />
           <Button
             size="sm"
             variant={mastered ? "accent" : "outline"}

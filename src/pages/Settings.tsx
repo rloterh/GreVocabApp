@@ -25,6 +25,7 @@ import {
 } from "@/lib/markdown-export";
 import { ThemePicker } from "@/components/ThemePicker";
 import { ScheduleSettings } from "@/components/ScheduleSettings";
+import { SpeechSettings } from "@/components/SpeechSettings";
 import { WORD_ORDERS } from "@/lib/order";
 import { playSound } from "@/lib/sound";
 import { installedClis } from "@/lib/ai/client";
@@ -271,6 +272,13 @@ export function Settings() {
           value={settings.theme}
           onChange={(theme) => settings.set({ theme })}
         />
+      </SettingSection>
+
+      <SettingSection
+        title="Pronunciation"
+        description="Which voice says a word, and how fast. Uses the voices already on your device — nothing is downloaded and nothing is sent anywhere."
+      >
+        <SpeechSettings />
       </SettingSection>
 
       <SettingSection

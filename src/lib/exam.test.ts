@@ -11,6 +11,8 @@ import {
   missedWordIds,
   scoreExam,
   toSummary,
+  trackOfExam,
+  type ExamSummary,
 } from "@/lib/exam";
 import type { QuizQuestion } from "@/types";
 
@@ -354,3 +356,34 @@ function fullExamAnswered() {
     NOW,
   );
 }
+
+describe("trackOfExam", () => {
+  const summary = (missed: string[]): ExamSummary => ({
+    id: "e1",
+    startedAt: "2026-09-01T00:00:00.000Z",
+    finishedAt: "2026-09-01T00:40:00.000Z",
+    percent: 80,
+    correct: 80,
+    total: 100,
+    perSection: [],
+    missed,
+  });
+
+  it("reads the track off a missed word", () => {
+    expect(trackOfExam(summary(["gre-abate", "gre-cogent"]))).toBe("gre");
+    expect(trackOfExam(summary(["sat-placid"]))).toBe("sat");
+  });
+
+  it("skips ids it cannot attribute rather than giving up", () => {
+    // A legacy id that somehow escaped the migration should not stop the
+    // next one from answering.
+    expect(trackOfExam(summary(["2026-04-abate", "sat-placid"]))).toBe("sat");
+  });
+
+  it("cannot tell for a perfect score, and says so", () => {
+    // `missed` is empty, and nothing else on a summary names a word. Returning
+    // null lets the caller decide; the progress page shows such an exam in
+    // every track rather than hiding it from both.
+    expect(trackOfExam(summary([]))).toBeNull();
+  });
+});

@@ -354,7 +354,7 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 - ~~**[P0] Info dialog.**~~ **DONE 2026-09-11.** — `AboutDialog`, beside Settings in the sidebar and in the mobile More sheet. The version comes from package.json through a Vite define, so it cannot claim a version the build is not.
 - ~~**[P0] README with screenshots.**~~ **DONE 2026-09-11**, in Phase 7 — `docs/screenshots/` at 390, 768 and 1280.
 - ~~**[P1] Streak freeze.**~~ **DONE 2026-09-12.** — One per seven days of the run, spent automatically on a single missed day. A week away is still a break. The Dashboard says "N missed days covered" only when it happened, and there is nothing to earn, spend faster, or compare.
-- **[P1] Word of the day** on the Dashboard, drawn from what is due.
+- ~~**[P1] Word of the day.**~~ **DONE 2026-09-13.** — `src/lib/word-of-the-day.ts`, pure and seeded by the date so it holds until midnight — a word that changed on every render would be decoration, not a prompt. Drawn first from what the scheduler says is due, then from anything unmastered, and the card says which.
 - **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
 - **[P1] Etymology and root families.** — Group by shared root; show the family while studying one. Genuinely aids retention.
 - **[P1] Confusable pairs drill.** — `affect`/`effect`, `discreet`/`discrete`. → A real, repeated failure mode, and satisfying to finally nail.
@@ -435,7 +435,7 @@ anybody's work.
 - ~~**[P0] The migration.**~~ **DONE 2026-09-12.** — `src/lib/migrations/tracks.ts`, run from `main.tsx` **before any store hydrates** — the id map is built from the vocabulary and needed by progress, and zustand hydrates stores in no defined order. Idempotent, and fails closed: any error leaves every blob untouched. References are rewritten structurally rather than field by field, so an exam's `missed` array and a sentence's composite key are covered without naming them.
 - ~~**[P0] Migration tests.**~~ **DONE 2026-09-12.** — 23 of them, ending in the acceptance test. **A browser found what none of them could:** the progress store had no `version`, so zustand saw a blob stamped with one and discarded every record — storage correct, running app empty. `scripts/drive/tracks-smoke.mjs` now reads the mastered count off the screen, not out of localStorage.
 - ~~**[P1] Per-track dedup index.**~~ **DONE 2026-09-12.** — `getVocabIndex(track)`; retired words are filed by the track in their key.
-- **[P1] Track tagging on quiz and exam history.** — A GRE mock score is not an SAT score.
+- ~~**[P1] Track tagging on quiz and exam history.**~~ **DONE 2026-09-13.** — Derived from the word ids rather than stored on the record, because ids are track-scoped and already carry the answer. That files exams taken *before* tracks existed correctly too, where a new field would have left every one of them untagged forever. A flawless exam has no missed words to read a track from, so it shows in both rather than disappearing from each.
 
 ### Definition of done — met 2026-09-12
 

@@ -23,11 +23,21 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
 
-**Phases 13 to 17 are done** — tracks, ordinal content, the schedule and its
-migration, the start-date screens, the flashcard edge arrows and swipe, the
-tablet shell, and three years of SAT vocabulary audited to the same standard as
-the GRE corpus. **Next is Phase 18**, the v1.1 release: CHANGELOG, tablet
-screenshots, CONTINUING.md, and the merge to `main`.
+**v1.1 shipped on 2026-09-13**, tagged `v1.1.0` — tracks, ordinal content, the
+schedule and its migration, the start-date screens, the flashcard edge arrows
+and swipe, the tablet shell, and three years of SAT vocabulary.
+
+**Next**, in the order I would take them:
+
+1. **Track-tag quiz and exam history** (Phase 13, P1, below). It is the last
+   thing v1.1 shipped without, and it is now a correctness gap rather than a
+   nicety: a GRE mock score sits in the same list as an SAT one.
+2. **Regenerate SAT against the GRE register** — the corpora overlap 59% where
+   [ADR 0013](./docs/adr/0013-cross-track-overlap.md) expected a third. The
+   lever is the generation prompt, not a dedup rule.
+3. **Phase 11 craft** — word of the day, audio pronunciation, etymology
+   families, confusable pairs. The first user-visible work in a while that is
+   not structural.
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -543,17 +553,17 @@ after contrast without alpha compositing and input names without labels.
 
 ### Tasks
 
-- **[P0] README.** — Tracks, start date, reshuffling, the flashcard gestures, tablet support. The data-model section is currently wrong the moment Phase 13 lands.
-- **[P0] CHANGELOG for v1.1.**
-- **[P0] Screenshots at tablet sizes** alongside the existing 390/768/1280.
-- **[P0] CONTINUING.md.** — The handoff document describes a single-track app.
-- **[P0] Merge `dev` to `main`** against the six-item checklist in [ADR 0014](./docs/adr/0014-dev-branch-default.md).
+- ~~**[P0] README.**~~ **DONE 2026-09-12.**
+- ~~**[P0] CHANGELOG for v1.1.**~~ **DONE 2026-09-13.** Version bumped in package.json, tauri.conf.json and Cargo.toml.
+- ~~**[P0] Screenshots.**~~ **DONE 2026-09-13.** — `scripts/drive/screenshots.mjs`, committed, because the tablet shot had been showing a bottom tab bar for a phase after the rail replaced it. Taking it found a defect the tablet audit could not: four stat cards across at 834px wrap unevenly, so one number sat off the line. An audit checks overflow and target size; it has no opinion about whether a row looks level.
+- ~~**[P0] CONTINUING.md.**~~ **DONE 2026-09-13.** — Leads with the three rules everything rests on, and with the lesson that cost the most: a green test suite is not enough for anything that persists.
+- ~~**[P0] Merge `dev` to `main`.**~~ **DONE 2026-09-13**, tagged `v1.1.0`. The checklist was run against `main` after the merge, not only against `dev`.
 
-### Definition of done
+### Definition of done — met 2026-09-13
 
-- Typecheck, build, full suite, corpus audit for both tracks, and all five browser drivers green.
-- The migration acceptance test holds.
-- `main` is a working app that a stranger can clone.
+- ~~Typecheck, build, full suite, corpus audit for both tracks, and all browser drivers green.~~ 1,127 tests; **eight** drivers, not five.
+- ~~The migration acceptance test holds.~~
+- ~~`main` is a working app that a stranger can clone.~~ Verified on `main` after the merge.
 
 ## Explicitly not planned
 

@@ -44,9 +44,14 @@ and swipe, the tablet shell, and three years of SAT vocabulary.
 
 **Next**, and none of it urgent:
 
-- **Daily Practice as master/detail**, and word detail as a landscape side
-  panel on tablets. Improvements rather than fixes; kept out of Phase 16
-  deliberately so a breakpoints phase stayed one.
+- ~~**Daily Practice as master/detail**, and word detail as a landscape side
+  panel.~~ **DONE 2026-09-13.** The useful master list turned out to be the
+  *days*, not the words — with three words a day a word list is pointless,
+  while reaching day 17 previously meant sixteen clicks or a trip to the
+  Calendar. The day rail is second in the DOM and first on screen, so thirty
+  buttons do not sit between a keyboard user and the words. The side panel is
+  keyed to `pointer: coarse`, not to a width: a 1194px desktop window keeps
+  its centred modal.
 - **Android on real hardware.** Built and signed; never run on a device.
   `useSystemBack` and the notification paths are compiled but unobserved.
 - **Play Store submission**, which needs the keystore handled properly and a

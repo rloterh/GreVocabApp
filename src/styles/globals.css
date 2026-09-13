@@ -497,3 +497,38 @@
     padding-top: env(safe-area-inset-top);
   }
 }
+
+/*
+ * Word detail as a side panel on a landscape touch screen.
+ *
+ * A centred modal is right on a desktop and right on a phone. In between it is
+ * not: an iPad in landscape is 1194px wide, and a box floating in the middle of
+ * it to show six lines covers the list the user was reading to get there.
+ *
+ * Keyed to `pointer: coarse` rather than to a width, because the question is
+ * "is this a touch screen held in two hands" and not "how many pixels". A
+ * 1194px desktop window keeps the modal; see docs/TABLET.md, which forbids
+ * deciding layout from a device string.
+ */
+@media (pointer: coarse) and (orientation: landscape) and (min-width: 720px) {
+  .detail-panel {
+    left: auto;
+    right: 0;
+    top: 0;
+    width: min(28rem, 45vw);
+    max-width: none;
+    height: 100dvh;
+    max-height: 100dvh;
+    transform: none;
+    border-radius: 0;
+    border-left-width: 1px;
+    /* The home indicator is on a side edge in landscape. */
+    padding-right: max(1.5rem, env(safe-area-inset-right));
+    /*
+     * The dialog is a grid, and a full-height one stretches its rows — which
+     * left a band of empty space between the heading and the definition. The
+     * content should start at the top and stop where it stops.
+     */
+    align-content: start;
+  }
+}

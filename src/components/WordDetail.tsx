@@ -115,7 +115,7 @@ export function WordDetail({
 
   return (
     <Dialog open={word !== null} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-xl max-h-[85vh] overflow-y-auto">
+      <DialogContent className="detail-panel max-w-xl max-h-[85vh] overflow-y-auto">
         {word && (
           <>
             <DialogHeader>

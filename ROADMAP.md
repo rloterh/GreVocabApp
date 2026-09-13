@@ -27,14 +27,65 @@ end of Phase 18.
 schedule and its migration, the start-date screens, the flashcard edge arrows
 and swipe, the tablet shell, and three years of SAT vocabulary.
 
+**All three follow-ups from the v1.1 release are done** (2026-09-13):
+
+1. ~~**Track-tag quiz and exam history.**~~ Derived from word ids rather than
+   stored, so exams taken before tracks existed are filed correctly too.
+2. ~~**Regenerate SAT against the GRE register.**~~ **Run and rejected.** A
+   whole second corpus was generated with the prompt steered below the GRE
+   register: 54% overlap instead of 59%, for 121 fewer words and seven months
+   under the floor. Five points is not worth that, and the conclusion is that
+   the *estimate* was wrong rather than the corpus — at the level both exams
+   target, the vocabulary largely is the same words. Numbers in
+   [ADR 0013](./docs/adr/0013-cross-track-overlap.md) so nobody runs it again;
+   the steer stays in the generator for the next regeneration.
+3. ~~**Phase 11 craft.**~~ Word of the day, audio pronunciation, root families
+   and the confusable-pairs drill.
+
+**Next**, and none of it urgent:
+
+- **Daily Practice as master/detail**, and word detail as a landscape side
+  panel on tablets. Improvements rather than fixes; kept out of Phase 16
+  deliberately so a breakpoints phase stayed one.
+- **Android on real hardware.** Built and signed; never run on a device.
+  `useSystemBack` and the notification paths are compiled but unobserved.
+- **Play Store submission**, which needs the keystore handled properly and a
+  privacy policy URL.
+- **iOS**, still blocked on a Mac and the $99/yr account.
+- The remaining P2s below: AI-generated distractors, a session recap card,
+  empty and success state craft.
+
+## Where we are
+
+**Phase 1: Foundation — SHIPPED (v0.1.0)**
+
+Full working app with dashboard, daily practice, flashcards (3D flip + Anki-style rating + swipe + confetti), quiz mode, sentence builder with AI/heuristic verification, calendar, archive, progress with heatmap and charts, search, settings with backup/restore, theming, seed data (April + May 2026, 180 words), Tauri v2 desktop wrapper, CI.
+
+See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
+
+## Next up (start here)
+
+**Current work: v1.1.** Two exams, any start date. It lands on `dev`
+([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
+end of Phase 18.
+
+**v1.1 shipped on 2026-09-13**, tagged `v1.1.0` — tracks, ordinal content, the
+schedule and its migration, the start-date screens, the flashcard edge arrows
+and swipe, the tablet shell, and three years of SAT vocabulary.
+
 **Next**, in the order I would take them:
 
 1. **Track-tag quiz and exam history** (Phase 13, P1, below). It is the last
    thing v1.1 shipped without, and it is now a correctness gap rather than a
    nicety: a GRE mock score sits in the same list as an SAT one.
-2. **Regenerate SAT against the GRE register** — the corpora overlap 59% where
-   [ADR 0013](./docs/adr/0013-cross-track-overlap.md) expected a third. The
-   lever is the generation prompt, not a dedup rule.
+2. ~~**Regenerate SAT against the GRE register.**~~ **Done and rejected,
+   2026-09-13.** A whole second corpus was generated with the prompt steered
+   below the GRE register: 54% overlap instead of 59%, for 121 fewer words and
+   seven months under the floor. Five points is not worth that, and the
+   conclusion is that the estimate was wrong rather than the corpus  + D +  at the
+   level both exams target, the vocabulary *is* largely the same words. The
+   numbers are in [ADR 0013](./docs/adr/0013-cross-track-overlap.md) so nobody
+   runs it again; the steer stays in the generator for the next regeneration.
 3. **Phase 11 craft** — word of the day, audio pronunciation, etymology
    families, confusable pairs. The first user-visible work in a while that is
    not structural.

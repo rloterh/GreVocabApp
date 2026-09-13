@@ -68,12 +68,39 @@ made: the same model wrote both, and the exclusion list it sees while choosing
 SAT words contains only SAT words, so nothing pushes it away from vocabulary
 it had already reached for once.
 
-The figure is recorded rather than corrected because it is the kind of number
-that should be argued with evidence. If a future reader thinks 59% is too high
-for two corpora that claim to be different levels, the lever is the generation
-prompt — ask for words *below* the GRE register rather than merely for SAT
-words — not a dedup rule. Forcing disjointness remains the wrong fix, for the
-reasons above.
+### The experiment, run
+
+That lever was pulled. `REGISTER_BY_TRACK` in `scripts/generate-corpus.ts`
+tells the model to aim below the GRE register: prefer words at home in a
+high-school reading list over words at home in graduate prose, skip anything
+far likelier on the GRE than the SAT, and "could this appear unglossed in a
+serious newspaper a teenager might read?" A whole second corpus was generated
+against it and measured against the first.
+
+| | v1, shipped | v2, steered |
+| --- | --- | --- |
+| Words | 2,416 | 2,295 |
+| Overlap with GRE | 59% | **54%** |
+| Months under the 45-word floor | 0 | 7 |
+
+**Five points, for five per cent of the vocabulary and seven thin months.**
+
+So the estimate at the top of this record was the thing that was wrong, not the
+corpus. At the level both exams target, the vocabulary genuinely is the same
+words, and a prompt aggressive enough to push the overlap much below half would
+be doing it by throwing out *candid*, *austere* and *laconic* — making the SAT
+corpus worse in exchange for looking more distinct. Somewhere around 55% is
+what two honest corpora at these levels look like.
+
+v1 is kept. The steer stays in the generator, because a future regeneration
+should start from the better prompt, and it is cheap when the run is going to
+be repaired and rebalanced anyway.
+
+Nobody needs to run this again. If a future reader still thinks the number is
+too high, the remaining lever is a frequency list — banding by corpus
+frequency rather than by asking a model to introspect about difficulty — not
+a dedup rule. Forcing disjointness remains the wrong fix, for the reasons
+above.
 
 ## The one thing this must not become
 

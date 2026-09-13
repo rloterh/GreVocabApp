@@ -1,0 +1,920 @@
+{
+  "track": "sat",
+  "ordinal": 20,
+  "title": "Wealth and inequality",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-trivialize",
+          "word": "trivialize",
+          "partOfSpeech": "verb",
+          "definition": "To treat or describe something as far less important than it really is.",
+          "example": "Don't trivialize her injury; that sprained ankle could take weeks to heal.",
+          "mnemonic": "trivia + -ize: to turn a serious matter into mere 'trivia,' a small throwaway fact.",
+          "synonyms": [
+            "minimize",
+            "downplay",
+            "belittle"
+          ],
+          "antonyms": [
+            "emphasize",
+            "exaggerate",
+            "magnify"
+          ]
+        },
+        {
+          "id": "sat-reaffirm",
+          "word": "reaffirm",
+          "partOfSpeech": "verb",
+          "definition": "To state support for or belief in something again, with renewed conviction.",
+          "example": "After the scandal, the mayor reaffirmed her commitment to open government.",
+          "mnemonic": "re- (again) + affirm (declare true) = to declare it true all over again.",
+          "synonyms": [
+            "restate",
+            "reassert",
+            "confirm"
+          ],
+          "antonyms": [
+            "retract",
+            "deny",
+            "renounce"
+          ]
+        },
+        {
+          "id": "sat-pessimistic",
+          "word": "pessimistic",
+          "partOfSpeech": "adjective",
+          "definition": "Tending to expect the worst possible outcome in any situation.",
+          "example": "He was so pessimistic about the road trip that he packed for a breakdown.",
+          "mnemonic": "Starts like 'pest' — a pest always assumes the gloomiest ending.",
+          "synonyms": [
+            "gloomy",
+            "cynical",
+            "negative"
+          ],
+          "antonyms": [
+            "optimistic",
+            "hopeful",
+            "upbeat"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-optimistic",
+          "word": "optimistic",
+          "partOfSpeech": "adjective",
+          "definition": "Hopeful and confident that good things are likely to happen.",
+          "example": "Even after three rejections, she stayed optimistic about the next interview.",
+          "mnemonic": "'opt' for the best — you are choosing to see the bright side.",
+          "synonyms": [
+            "hopeful",
+            "positive",
+            "buoyant"
+          ],
+          "antonyms": [
+            "pessimistic",
+            "cynical",
+            "despairing"
+          ]
+        },
+        {
+          "id": "sat-assertive",
+          "word": "assertive",
+          "partOfSpeech": "adjective",
+          "definition": "Confident and direct in expressing one's needs, views, or boundaries.",
+          "example": "Her assertive tone in the meeting made everyone stop and listen.",
+          "mnemonic": "From 'assert' — an assertive person firmly asserts what they want.",
+          "synonyms": [
+            "confident",
+            "forceful",
+            "self-assured"
+          ],
+          "antonyms": [
+            "passive",
+            "timid",
+            "submissive"
+          ]
+        },
+        {
+          "id": "sat-affluent",
+          "word": "affluent",
+          "partOfSpeech": "adjective",
+          "definition": "Having plenty of money and a comfortable, high standard of living.",
+          "example": "They moved to an affluent suburb with manicured lawns and private schools.",
+          "mnemonic": "'a-fluent' — money flows (fluent = flowing) freely toward you.",
+          "synonyms": [
+            "wealthy",
+            "prosperous",
+            "well-off"
+          ],
+          "antonyms": [
+            "poor",
+            "destitute",
+            "impoverished"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-opulent",
+          "word": "opulent",
+          "partOfSpeech": "adjective",
+          "definition": "Showing great riches through a grand and luxurious display.",
+          "example": "The opulent ballroom dripped with gold chandeliers and deep velvet drapes.",
+          "mnemonic": "'opu' sounds like 'opal' — a glittering jewel; opulent means jewel-rich.",
+          "synonyms": [
+            "luxurious",
+            "lavish",
+            "sumptuous"
+          ],
+          "antonyms": [
+            "plain",
+            "austere",
+            "shabby"
+          ]
+        },
+        {
+          "id": "sat-lavish",
+          "word": "lavish",
+          "partOfSpeech": "adjective",
+          "definition": "Given or spent in very large, generous, and often excessive amounts.",
+          "example": "He threw a lavish party with imported caviar and a live orchestra.",
+          "mnemonic": "Sounds like 'lather' — you lather it on thick and generously.",
+          "synonyms": [
+            "extravagant",
+            "generous",
+            "opulent"
+          ],
+          "antonyms": [
+            "meager",
+            "frugal",
+            "sparing"
+          ]
+        },
+        {
+          "id": "sat-extravagant",
+          "word": "extravagant",
+          "partOfSpeech": "adjective",
+          "definition": "Spending or costing much more than is necessary or reasonable.",
+          "example": "Her extravagant shopping sprees left every credit card maxed out.",
+          "mnemonic": "extra- + vag (wander): spending that wanders way past sensible limits.",
+          "synonyms": [
+            "wasteful",
+            "excessive",
+            "lavish"
+          ],
+          "antonyms": [
+            "thrifty",
+            "economical",
+            "modest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-sumptuous",
+          "word": "sumptuous",
+          "partOfSpeech": "adjective",
+          "definition": "Splendid and clearly very costly, suggesting rich indulgence.",
+          "example": "The hotel served a sumptuous feast of lobster, truffles, and aged wine.",
+          "mnemonic": "Think 'consume' — a sumptuous spread is made for grand consuming.",
+          "synonyms": [
+            "luxurious",
+            "lavish",
+            "opulent"
+          ],
+          "antonyms": [
+            "plain",
+            "meager",
+            "spartan"
+          ]
+        },
+        {
+          "id": "sat-destitute",
+          "word": "destitute",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking money, food, and the basic means of survival.",
+          "example": "After the factory closed, many families were left destitute and homeless.",
+          "mnemonic": "'de-stitute' — stripped of (de-) everything you were set up with.",
+          "synonyms": [
+            "penniless",
+            "indigent",
+            "impoverished"
+          ],
+          "antonyms": [
+            "affluent",
+            "wealthy",
+            "opulent"
+          ]
+        },
+        {
+          "id": "sat-impoverished",
+          "word": "impoverished",
+          "partOfSpeech": "adjective",
+          "definition": "Reduced to a state of having very little money or resources.",
+          "example": "The long war left the once-prosperous region impoverished and struggling.",
+          "mnemonic": "im- (to make) + Latin 'pauper' (a poor person) = made into a pauper.",
+          "synonyms": [
+            "destitute",
+            "needy",
+            "indigent"
+          ],
+          "antonyms": [
+            "affluent",
+            "prosperous",
+            "wealthy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-poverty",
+          "word": "poverty",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being extremely short of money and basic goods.",
+          "example": "Growing up in poverty, she wore hand-me-downs and often skipped meals.",
+          "mnemonic": "From Latin 'pauper' — a pauper's life defines this state of want.",
+          "synonyms": [
+            "destitution",
+            "hardship",
+            "penury"
+          ],
+          "antonyms": [
+            "wealth",
+            "affluence",
+            "prosperity"
+          ]
+        },
+        {
+          "id": "sat-indigent",
+          "word": "indigent",
+          "partOfSpeech": "adjective",
+          "definition": "So short of money as to lack the basic necessities of life.",
+          "example": "The clinic offers free care to indigent patients who cannot pay.",
+          "mnemonic": "'in-dig' — having to dig through scraps because you own nothing.",
+          "synonyms": [
+            "destitute",
+            "impoverished",
+            "needy"
+          ],
+          "antonyms": [
+            "affluent",
+            "wealthy",
+            "prosperous"
+          ]
+        },
+        {
+          "id": "sat-penury",
+          "word": "penury",
+          "partOfSpeech": "noun",
+          "definition": "A severe and grinding lack of money; extreme want.",
+          "example": "The once-famous actor spent his final years in penury, selling off his awards.",
+          "mnemonic": "'penny-ury' — down to your very last penny.",
+          "synonyms": [
+            "destitution",
+            "poverty",
+            "want"
+          ],
+          "antonyms": [
+            "wealth",
+            "affluence",
+            "abundance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-deprivation",
+          "word": "deprivation",
+          "partOfSpeech": "noun",
+          "definition": "The state of not having something considered a basic necessity.",
+          "example": "Sleep deprivation left her unable to focus during the long afternoon meeting.",
+          "mnemonic": "From 'de-' (away) + 'private' — something basic and private is taken away from you.",
+          "synonyms": [
+            "lack",
+            "privation",
+            "destitution"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty"
+          ]
+        },
+        {
+          "id": "sat-privilege",
+          "word": "privilege",
+          "partOfSpeech": "noun",
+          "definition": "A special advantage or right available only to a particular person or group.",
+          "example": "Members enjoy the privilege of entering the lounge before the general public.",
+          "mnemonic": "Latin 'privus' (private) + 'lex' (law): a private law written just for you.",
+          "synonyms": [
+            "advantage",
+            "prerogative",
+            "entitlement"
+          ],
+          "antonyms": [
+            "disadvantage",
+            "handicap"
+          ]
+        },
+        {
+          "id": "sat-entitlement",
+          "word": "entitlement",
+          "partOfSpeech": "noun",
+          "definition": "The belief that one inherently deserves special treatment, rights, or rewards.",
+          "example": "His sense of entitlement meant he expected a promotion without ever earning it.",
+          "mnemonic": "Picture someone clutching a 'title' deed, insisting they own every advantage.",
+          "synonyms": [
+            "right",
+            "claim",
+            "prerogative"
+          ],
+          "antonyms": [
+            "humility",
+            "modesty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-thrifty",
+          "word": "thrifty",
+          "partOfSpeech": "adjective",
+          "definition": "Using money and resources carefully and without waste.",
+          "example": "Being thrifty, she compared prices at three stores before buying a single item.",
+          "mnemonic": "Sounds like 'thrive + fifty' — you thrive by saving every fifty cents.",
+          "synonyms": [
+            "frugal",
+            "economical",
+            "prudent"
+          ],
+          "antonyms": [
+            "wasteful",
+            "extravagant",
+            "spendthrift"
+          ]
+        },
+        {
+          "id": "sat-miserly",
+          "word": "miserly",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely unwilling to spend or share money.",
+          "example": "The miserly landlord refused to fix the heating just to save a few dollars.",
+          "mnemonic": "Contains 'miser' — a miser makes everyone around him MISERable guarding his coins.",
+          "synonyms": [
+            "stingy",
+            "tightfisted",
+            "niggardly"
+          ],
+          "antonyms": [
+            "generous",
+            "lavish",
+            "openhanded"
+          ]
+        },
+        {
+          "id": "sat-parsimonious",
+          "word": "parsimonious",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively careful or stingy with money and resources.",
+          "example": "The parsimonious manager rationed paper clips as if they were made of gold.",
+          "mnemonic": "'Parse your money' so finely that you split every single penny.",
+          "synonyms": [
+            "frugal",
+            "penny-pinching",
+            "stingy"
+          ],
+          "antonyms": [
+            "generous",
+            "extravagant",
+            "prodigal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-avarice",
+          "word": "avarice",
+          "partOfSpeech": "noun",
+          "definition": "Extreme greed for wealth or material gain.",
+          "example": "His avarice drove him to cheat lifelong friends out of their savings.",
+          "mnemonic": "A-VARICE: imagine 'a vise' gripping a pile of money and never letting go.",
+          "synonyms": [
+            "greed",
+            "cupidity",
+            "covetousness"
+          ],
+          "antonyms": [
+            "generosity",
+            "charity"
+          ]
+        },
+        {
+          "id": "sat-acquisitive",
+          "word": "acquisitive",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly desiring to gain and possess more things or wealth.",
+          "example": "Her acquisitive nature filled the house with gadgets she never actually used.",
+          "mnemonic": "Built on 'acquire' — an acquisitive person always itches to acquire more.",
+          "synonyms": [
+            "grasping",
+            "greedy",
+            "covetous"
+          ],
+          "antonyms": [
+            "generous",
+            "altruistic"
+          ]
+        },
+        {
+          "id": "sat-materialism",
+          "word": "materialism",
+          "partOfSpeech": "noun",
+          "definition": "A focus on owning possessions and physical comforts over spiritual values.",
+          "example": "The film criticized suburban materialism, where happiness meant owning a bigger car.",
+          "mnemonic": "Think 'material' (stuff) + '-ism' — a whole belief system built around owning stuff.",
+          "synonyms": [
+            "consumerism",
+            "acquisitiveness"
+          ],
+          "antonyms": [
+            "spirituality",
+            "asceticism",
+            "idealism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-hoard",
+          "word": "hoard",
+          "partOfSpeech": "verb",
+          "definition": "To gather and store a large supply, often secretly.",
+          "example": "During the shortage, people began to hoard toilet paper and canned goods.",
+          "mnemonic": "Sounds like 'horde' — you stash away a whole horde of goods in your closet.",
+          "synonyms": [
+            "stockpile",
+            "amass",
+            "accumulate"
+          ],
+          "antonyms": [
+            "squander",
+            "distribute",
+            "disperse"
+          ]
+        },
+        {
+          "id": "sat-abundance",
+          "word": "abundance",
+          "partOfSpeech": "noun",
+          "definition": "A very large quantity of something; more than enough.",
+          "example": "The harvest brought an abundance of apples, far more than the family could eat.",
+          "mnemonic": "Hear 'a bundle' inside it — bundles upon bundles, overflowing everywhere.",
+          "synonyms": [
+            "plenty",
+            "profusion",
+            "surplus"
+          ],
+          "antonyms": [
+            "scarcity",
+            "shortage",
+            "lack"
+          ]
+        },
+        {
+          "id": "sat-windfall",
+          "word": "windfall",
+          "partOfSpeech": "noun",
+          "definition": "An unexpected gain of money or good fortune.",
+          "example": "The surprise inheritance was a windfall that let them pay off the house early.",
+          "mnemonic": "Fruit the WIND blew FALLing off the tree — free riches you didn't work for.",
+          "synonyms": [
+            "bonanza",
+            "jackpot",
+            "bonus"
+          ],
+          "antonyms": [
+            "loss",
+            "setback"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-plutocracy",
+          "word": "plutocracy",
+          "partOfSpeech": "noun",
+          "definition": "A society or system governed by its richest people.",
+          "example": "Critics called the nation a plutocracy, quietly run by a handful of billionaires.",
+          "mnemonic": "'Pluto' (Roman god of underground riches) + '-cracy' (rule): rule by the rich.",
+          "synonyms": [
+            "oligarchy"
+          ],
+          "antonyms": [
+            "democracy"
+          ]
+        },
+        {
+          "id": "sat-exploit",
+          "word": "exploit",
+          "partOfSpeech": "verb",
+          "definition": "To use someone or something unfairly for your own benefit.",
+          "example": "The factory was accused of exploiting workers with brutal hours and low pay.",
+          "mnemonic": "Read it as 'ex + ploy' — a ploy to squeeze out every drop of advantage.",
+          "synonyms": [
+            "misuse",
+            "manipulate",
+            "take advantage of"
+          ],
+          "antonyms": [
+            "protect",
+            "respect"
+          ]
+        },
+        {
+          "id": "sat-inequity",
+          "word": "inequity",
+          "partOfSpeech": "noun",
+          "definition": "A lack of fairness or justice in how things are distributed.",
+          "example": "The report exposed the inequity between executive bonuses and frontline workers' wages.",
+          "mnemonic": "'In-' (not) + 'equity' (fairness) = not fair; don't confuse it with 'iniquity' (sin).",
+          "synonyms": [
+            "unfairness",
+            "injustice",
+            "disparity"
+          ],
+          "antonyms": [
+            "fairness",
+            "equality",
+            "justice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-affluence",
+          "word": "affluence",
+          "partOfSpeech": "noun",
+          "definition": "The condition of having plenty of money and a high standard of living.",
+          "example": "Their gated mansion and three cars signaled the affluence of the neighborhood.",
+          "mnemonic": "Say it 'a-FLU-ence' — money flows toward you like a flood.",
+          "synonyms": [
+            "wealth",
+            "prosperity",
+            "opulence"
+          ],
+          "antonyms": [
+            "poverty",
+            "destitution"
+          ]
+        },
+        {
+          "id": "sat-squalor",
+          "word": "squalor",
+          "partOfSpeech": "noun",
+          "definition": "A state of filth, misery, and neglect, usually caused by extreme poverty.",
+          "example": "The tenants lived in squalor, crammed into damp rooms with no running water.",
+          "mnemonic": "'Squalor' blends 'squalid' + 'horror' — the horror of a grimy, wretched place.",
+          "synonyms": [
+            "filth",
+            "degradation",
+            "wretchedness"
+          ],
+          "antonyms": [
+            "cleanliness",
+            "luxury"
+          ]
+        },
+        {
+          "id": "sat-bequeath",
+          "word": "bequeath",
+          "partOfSpeech": "verb",
+          "definition": "To leave money or possessions to another person through a will after death.",
+          "example": "In her will, the widow chose to bequeath her grand piano to her granddaughter.",
+          "mnemonic": "'Be-QUEATH' → picture a queen who, before she goes, hands down her jewels.",
+          "synonyms": [
+            "hand down",
+            "leave",
+            "pass on"
+          ],
+          "antonyms": [
+            "inherit",
+            "receive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-inheritance",
+          "word": "inheritance",
+          "partOfSpeech": "noun",
+          "definition": "Money or property received from a person after they have died.",
+          "example": "He used the inheritance from his late uncle to buy a small farm.",
+          "mnemonic": "An 'heir' sits right in the middle of in-HEIR-itance — what heirs collect.",
+          "synonyms": [
+            "legacy",
+            "bequest",
+            "estate"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-magnate",
+          "word": "magnate",
+          "partOfSpeech": "noun",
+          "definition": "A rich and influential person, especially a leader in business or industry.",
+          "example": "The oil magnate owned refineries on three continents and flew in a private jet.",
+          "mnemonic": "'Magnate' sounds like 'magnet' — a tycoon who pulls in money and power.",
+          "synonyms": [
+            "tycoon",
+            "mogul",
+            "baron"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-elite",
+          "word": "elite",
+          "partOfSpeech": "noun",
+          "definition": "The most powerful, wealthy, or talented members of a group or society.",
+          "example": "Only the elite could afford tickets to the exclusive charity gala.",
+          "mnemonic": "'E-LITE' — the chosen few who are 'lit,' seated at the very top.",
+          "synonyms": [
+            "upper class",
+            "cream",
+            "aristocracy"
+          ],
+          "antonyms": [
+            "masses",
+            "commoners"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-aristocracy",
+          "word": "aristocracy",
+          "partOfSpeech": "noun",
+          "definition": "The highest class in society, typically people born into noble, titled families.",
+          "example": "Members of the aristocracy arrived at the ball in tiaras and inherited jewels.",
+          "mnemonic": "From Greek 'aristos' (best) + 'cracy' (rule) — rule by the best-born.",
+          "synonyms": [
+            "nobility",
+            "gentry",
+            "upper class"
+          ],
+          "antonyms": [
+            "commoners",
+            "proletariat"
+          ]
+        },
+        {
+          "id": "sat-systemic",
+          "word": "systemic",
+          "partOfSpeech": "adjective",
+          "definition": "Affecting a whole body, structure, or society rather than just one part.",
+          "example": "The report exposed systemic corruption running through every branch of the government.",
+          "mnemonic": "Think of it spreading through the entire system, like blood moving through the body.",
+          "synonyms": [
+            "widespread",
+            "pervasive",
+            "institutional"
+          ],
+          "antonyms": [
+            "localized",
+            "isolated"
+          ]
+        },
+        {
+          "id": "sat-rampant",
+          "word": "rampant",
+          "partOfSpeech": "adjective",
+          "definition": "Spreading widely and without control, usually something harmful.",
+          "example": "Inflation was rampant, and prices nearly doubled within a single year.",
+          "mnemonic": "'Rampant' → problems race up the 'ramp,' speeding out of control.",
+          "synonyms": [
+            "unchecked",
+            "widespread",
+            "uncontrolled"
+          ],
+          "antonyms": [
+            "contained",
+            "controlled",
+            "restrained"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-redistribute",
+          "word": "redistribute",
+          "partOfSpeech": "verb",
+          "definition": "To share something out again, dividing it differently among people or places.",
+          "example": "The new tax policy aimed to redistribute wealth from the rich to the poor.",
+          "mnemonic": "'Re-' (again) + distribute — to divide and hand things out once more.",
+          "synonyms": [
+            "reallocate",
+            "share out",
+            "spread"
+          ],
+          "antonyms": [
+            "hoard",
+            "concentrate"
+          ]
+        },
+        {
+          "id": "sat-allocate",
+          "word": "allocate",
+          "partOfSpeech": "verb",
+          "definition": "To set aside or assign a resource for a particular purpose or person.",
+          "example": "The manager decided to allocate half the budget to marketing this quarter.",
+          "mnemonic": "'A-LOCATE' — you find a location or slot for each resource.",
+          "synonyms": [
+            "assign",
+            "allot",
+            "apportion"
+          ],
+          "antonyms": [
+            "withhold",
+            "retain"
+          ]
+        },
+        {
+          "id": "sat-levy",
+          "word": "levy",
+          "partOfSpeech": "verb",
+          "definition": "To officially impose or collect a tax, fee, or fine.",
+          "example": "The council voted to levy a new charge on every plastic bag sold.",
+          "mnemonic": "From Latin 'levare,' to lift — the government lifts money straight out of your pocket.",
+          "synonyms": [
+            "tax",
+            "impose",
+            "charge"
+          ],
+          "antonyms": [
+            "exempt",
+            "waive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-subsidize",
+          "word": "subsidize",
+          "partOfSpeech": "verb",
+          "definition": "To help pay for something with money, usually from a government or organization.",
+          "example": "The state agreed to subsidize farmers so that bread would stay cheap.",
+          "mnemonic": "'Sub' (under) + sit — the money sits underneath to prop up the cost.",
+          "synonyms": [
+            "fund",
+            "support",
+            "back"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-bountiful",
+          "word": "bountiful",
+          "partOfSpeech": "adjective",
+          "definition": "Existing in large amounts; giving generously and in great plenty.",
+          "example": "After the rains, the harvest was bountiful and the barns overflowed with grain.",
+          "mnemonic": "Hidden inside is 'bounty' — a huge reward, full to the brim.",
+          "synonyms": [
+            "abundant",
+            "plentiful",
+            "ample"
+          ],
+          "antonyms": [
+            "scarce",
+            "meager",
+            "sparse"
+          ]
+        },
+        {
+          "id": "sat-satirical",
+          "word": "satirical",
+          "partOfSpeech": "adjective",
+          "definition": "Using humor, irony, or exaggeration to criticize people or society.",
+          "example": "The satirical cartoon mocked the mayor by drawing him as a greedy, bloated clown.",
+          "mnemonic": "Picture a late-night comedy 'sat' down to write jokes that skewer politicians.",
+          "synonyms": [
+            "mocking",
+            "ironic",
+            "sardonic"
+          ],
+          "antonyms": [
+            "sincere",
+            "earnest",
+            "straightforward"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-ironic",
+          "word": "ironic",
+          "partOfSpeech": "adjective",
+          "definition": "Happening in a way opposite to what you expect, often with a wry twist.",
+          "example": "It was ironic that the fire station burned down while the crew was out fighting another blaze.",
+          "mnemonic": "Sounds like 'iron-ick' — imagine an iron that refuses to press wrinkles and instead adds them, the exact opposite of its job.",
+          "synonyms": [
+            "paradoxical",
+            "sardonic",
+            "incongruous"
+          ],
+          "antonyms": [
+            "sincere",
+            "straightforward",
+            "earnest"
+          ]
+        },
+        {
+          "id": "sat-belie",
+          "word": "belie",
+          "partOfSpeech": "verb",
+          "definition": "To give a false impression of something, or to contradict and disprove it.",
+          "example": "Her calm voice belied the panic she felt as the plane dropped through the storm.",
+          "mnemonic": "Break it into 'be-lie' — to make something 'be a lie', hiding the truth behind a false surface.",
+          "synonyms": [
+            "misrepresent",
+            "contradict",
+            "disguise"
+          ],
+          "antonyms": [
+            "reveal",
+            "confirm",
+            "reflect"
+          ]
+        },
+        {
+          "id": "sat-lucrative",
+          "word": "lucrative",
+          "partOfSpeech": "adjective",
+          "definition": "Producing a great deal of money or profit.",
+          "example": "She quit teaching for a lucrative consulting job that doubled her salary within a year.",
+          "mnemonic": "Think of 'loot' hidden in 'lucr-' (Latin lucrum, gain) — a lucrative deal fills your bag with loot.",
+          "synonyms": [
+            "profitable",
+            "moneymaking",
+            "remunerative"
+          ],
+          "antonyms": [
+            "unprofitable",
+            "worthless",
+            "unremunerative"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:53:54.403Z"
+}

@@ -1,0 +1,1458 @@
+{
+  "track": "sat",
+  "ordinal": 8,
+  "title": "Belief and scepticism",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-skeptic",
+          "word": "skeptic",
+          "partOfSpeech": "noun",
+          "definition": "A person who habitually doubts or questions accepted beliefs and claims.",
+          "example": "When the salesman promised the pills would cure everything, the skeptic demanded to see the research first.",
+          "mnemonic": "A skeptic inSPECTs every claim before accepting it — same close-looking 'spect' as 'inspect'.",
+          "synonyms": [
+            "doubter",
+            "questioner",
+            "disbeliever"
+          ],
+          "antonyms": [
+            "believer",
+            "devotee"
+          ]
+        },
+        {
+          "id": "sat-cynic",
+          "word": "cynic",
+          "partOfSpeech": "noun",
+          "definition": "Someone who believes people act only from self-interest and distrusts all good intentions.",
+          "example": "The cynic assumed the billionaire's donation was just a tax dodge, not real generosity.",
+          "mnemonic": "Sounds like 'sick-nick' — he's sick of trusting anyone's motives.",
+          "synonyms": [
+            "pessimist",
+            "misanthrope"
+          ],
+          "antonyms": [
+            "optimist",
+            "idealist"
+          ]
+        },
+        {
+          "id": "sat-credulous",
+          "word": "credulous",
+          "partOfSpeech": "adjective",
+          "definition": "Too ready to believe things, often without demanding any proof.",
+          "example": "So credulous was he that he wired money to a stranger claiming to be a lost prince.",
+          "mnemonic": "Latin 'credo' = I believe; this person believes on command.",
+          "synonyms": [
+            "gullible",
+            "trusting",
+            "naive"
+          ],
+          "antonyms": [
+            "skeptical",
+            "suspicious"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-gullible",
+          "word": "gullible",
+          "partOfSpeech": "adjective",
+          "definition": "Easily tricked or deceived because of being far too trusting.",
+          "example": "The gullible tourist paid fifty dollars for a 'magic' rock the vendor had found on the beach.",
+          "mnemonic": "To 'gull' means to fool; picture a gull bird swallowing anything tossed its way.",
+          "synonyms": [
+            "credulous",
+            "naive"
+          ],
+          "antonyms": [
+            "shrewd",
+            "skeptical"
+          ]
+        },
+        {
+          "id": "sat-incredulous",
+          "word": "incredulous",
+          "partOfSpeech": "adjective",
+          "definition": "Unwilling or unable to accept that something is true; showing open disbelief.",
+          "example": "She gave an incredulous laugh when he claimed he'd run a marathon that morning.",
+          "mnemonic": "'In-' means not — someone who will NOT swallow what they hear.",
+          "synonyms": [
+            "disbelieving",
+            "doubtful",
+            "unconvinced"
+          ],
+          "antonyms": [
+            "convinced",
+            "trusting"
+          ]
+        },
+        {
+          "id": "sat-credence",
+          "word": "credence",
+          "partOfSpeech": "noun",
+          "definition": "Acceptance that something is true or believable.",
+          "example": "The eyewitness account lent credence to the theory that the fire was set deliberately.",
+          "mnemonic": "Same 'cred' root as 'credit' — granting credence is extending mental credit.",
+          "synonyms": [
+            "belief",
+            "trust",
+            "faith"
+          ],
+          "antonyms": [
+            "doubt",
+            "disbelief"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-conviction",
+          "word": "conviction",
+          "partOfSpeech": "noun",
+          "definition": "A firmly held belief or opinion.",
+          "example": "She spoke with such conviction that the jury never doubted her sincerity.",
+          "mnemonic": "To 'convince' shares the root — once convinced, you carry a conviction.",
+          "synonyms": [
+            "certainty",
+            "belief",
+            "assurance"
+          ],
+          "antonyms": [
+            "doubt",
+            "uncertainty"
+          ]
+        },
+        {
+          "id": "sat-devout",
+          "word": "devout",
+          "partOfSpeech": "adjective",
+          "definition": "Deeply committed to religion and its practices.",
+          "example": "The devout grandmother attended mass every single morning before dawn.",
+          "mnemonic": "Sounds like 'de-vow' — living entirely by one's sacred vows.",
+          "synonyms": [
+            "pious",
+            "religious",
+            "reverent"
+          ],
+          "antonyms": [
+            "secular",
+            "irreligious"
+          ]
+        },
+        {
+          "id": "sat-pious",
+          "word": "pious",
+          "partOfSpeech": "adjective",
+          "definition": "Showing deep, sincere respect for religion and its duties.",
+          "example": "The pious monk spent his days in prayer and quiet study.",
+          "mnemonic": "'Pi-' opens 'piety' — a person brimming with piety.",
+          "synonyms": [
+            "devout",
+            "reverent",
+            "holy"
+          ],
+          "antonyms": [
+            "impious",
+            "secular"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-secular",
+          "word": "secular",
+          "partOfSpeech": "adjective",
+          "definition": "Not connected with religious or spiritual matters.",
+          "example": "They chose a secular ceremony at the town hall rather than a church wedding.",
+          "mnemonic": "Think of the worldly, everyday realm kept separate from the sacred.",
+          "synonyms": [
+            "worldly",
+            "nonreligious",
+            "temporal"
+          ],
+          "antonyms": [
+            "religious",
+            "sacred",
+            "spiritual"
+          ]
+        },
+        {
+          "id": "sat-heresy",
+          "word": "heresy",
+          "partOfSpeech": "noun",
+          "definition": "An opinion that sharply conflicts with established religious beliefs.",
+          "example": "Claiming the Earth circled the sun was once condemned as heresy by the Church.",
+          "mnemonic": "Sounds like 'hairy-sea' — a wild, dangerous idea the orthodox fear to cross.",
+          "synonyms": [
+            "blasphemy",
+            "dissent",
+            "apostasy"
+          ],
+          "antonyms": [
+            "orthodoxy",
+            "conformity"
+          ]
+        },
+        {
+          "id": "sat-agnostic",
+          "word": "agnostic",
+          "partOfSpeech": "noun",
+          "definition": "A person who thinks it is impossible to know whether God exists.",
+          "example": "Raised in no faith, she called herself an agnostic who simply couldn't be sure.",
+          "mnemonic": "Greek 'a-' (not) + 'gnosis' (knowledge) — one who claims no knowing.",
+          "synonyms": [
+            "skeptic",
+            "doubter"
+          ],
+          "antonyms": [
+            "believer",
+            "theist"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-leery",
+          "word": "leery",
+          "partOfSpeech": "adjective",
+          "definition": "Cautious or suspicious because of possible danger or trouble.",
+          "example": "After being scammed once, he was leery of any deal that sounded too good.",
+          "mnemonic": "Picture throwing a side-eye 'leer' at something you don't trust.",
+          "synonyms": [
+            "wary",
+            "cautious",
+            "suspicious"
+          ],
+          "antonyms": [
+            "trusting",
+            "unwary"
+          ]
+        },
+        {
+          "id": "sat-credulity",
+          "word": "credulity",
+          "partOfSpeech": "noun",
+          "definition": "A tendency to believe things too easily, without asking for proof.",
+          "example": "The con artist preyed on the credulity of elderly investors desperate for quick returns.",
+          "mnemonic": "Shares 'cred' (believe) with 'credit' — an overdraft of belief.",
+          "synonyms": [
+            "gullibility",
+            "naivety"
+          ],
+          "antonyms": [
+            "skepticism",
+            "incredulity"
+          ]
+        },
+        {
+          "id": "sat-naive",
+          "word": "naive",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking experience, wisdom, or judgment; innocently trusting.",
+          "example": "It was naive of him to think his first business would succeed without any planning.",
+          "mnemonic": "From French for 'natural/native' — untouched by worldly experience.",
+          "synonyms": [
+            "gullible",
+            "innocent",
+            "unworldly"
+          ],
+          "antonyms": [
+            "sophisticated",
+            "worldly",
+            "cynical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-renounce",
+          "word": "renounce",
+          "partOfSpeech": "verb",
+          "definition": "To formally give up or reject a claim, belief, or right.",
+          "example": "After his conversion, he renounced all his worldly possessions and entered the monastery.",
+          "mnemonic": "re + NOUNCE, like 'announce' — you publicly announce that you're giving something up.",
+          "synonyms": [
+            "relinquish",
+            "abandon",
+            "forgo"
+          ],
+          "antonyms": [
+            "claim",
+            "retain",
+            "embrace"
+          ]
+        },
+        {
+          "id": "sat-recant",
+          "word": "recant",
+          "partOfSpeech": "verb",
+          "definition": "To take back a former statement or opinion, admitting it was wrong.",
+          "example": "Under threat of execution, Galileo was forced to recant his claim that the earth moves.",
+          "mnemonic": "re + CANT sounds like 'can't' — you now say you can't stand by what you said before.",
+          "synonyms": [
+            "retract",
+            "disavow",
+            "repudiate"
+          ],
+          "antonyms": [
+            "affirm",
+            "maintain",
+            "uphold"
+          ]
+        },
+        {
+          "id": "sat-retract",
+          "word": "retract",
+          "partOfSpeech": "verb",
+          "definition": "To take back or withdraw something said, offered, or extended.",
+          "example": "The newspaper printed an apology and retracted the false story about the mayor.",
+          "mnemonic": "re + TRACT (to pull, as in 'tractor') — you pull your words back in.",
+          "synonyms": [
+            "withdraw",
+            "revoke",
+            "rescind"
+          ],
+          "antonyms": [
+            "assert",
+            "maintain",
+            "affirm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-disavow",
+          "word": "disavow",
+          "partOfSpeech": "verb",
+          "definition": "To deny any connection with or responsibility for something.",
+          "example": "The senator quickly disavowed the extremist group that had endorsed her campaign.",
+          "mnemonic": "DIS (not) + AVOW (declare) — the exact opposite of owning it; you refuse to claim it.",
+          "synonyms": [
+            "deny",
+            "repudiate",
+            "disclaim"
+          ],
+          "antonyms": [
+            "acknowledge",
+            "avow",
+            "own"
+          ]
+        },
+        {
+          "id": "sat-verify",
+          "word": "verify",
+          "partOfSpeech": "verb",
+          "definition": "To check or prove that something is true or accurate.",
+          "example": "The bank called to verify that I had actually made the large purchase.",
+          "mnemonic": "VER- means truth in Latin (verus) — to verify is to make sure it's true.",
+          "synonyms": [
+            "confirm",
+            "substantiate",
+            "corroborate"
+          ],
+          "antonyms": [
+            "refute",
+            "disprove",
+            "contradict"
+          ]
+        },
+        {
+          "id": "sat-affirm",
+          "word": "affirm",
+          "partOfSpeech": "verb",
+          "definition": "To state firmly and publicly that something is true.",
+          "example": "She affirmed her loyalty to the team even after the crushing loss.",
+          "mnemonic": "Sounds like 'a FIRM' — you say it firmly and stand firm behind it.",
+          "synonyms": [
+            "assert",
+            "declare",
+            "confirm"
+          ],
+          "antonyms": [
+            "deny",
+            "refute",
+            "contradict"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-avow",
+          "word": "avow",
+          "partOfSpeech": "verb",
+          "definition": "To admit or declare something openly and without shame.",
+          "example": "He avowed his love for her in front of the entire wedding party.",
+          "mnemonic": "a + VOW — like making a vow out loud for everyone to hear.",
+          "synonyms": [
+            "declare",
+            "profess",
+            "acknowledge"
+          ],
+          "antonyms": [
+            "deny",
+            "disavow",
+            "conceal"
+          ]
+        },
+        {
+          "id": "sat-profess",
+          "word": "profess",
+          "partOfSpeech": "verb",
+          "definition": "To openly declare or claim something, sometimes falsely.",
+          "example": "She professed to be an expert, though she had never studied the subject at all.",
+          "mnemonic": "Think of a PROFESSor 'professing' knowledge aloud before a class.",
+          "synonyms": [
+            "declare",
+            "claim",
+            "assert"
+          ],
+          "antonyms": [
+            "deny",
+            "disavow",
+            "conceal"
+          ]
+        },
+        {
+          "id": "sat-purport",
+          "word": "purport",
+          "partOfSpeech": "verb",
+          "definition": "To claim or appear to be something, especially when the claim is doubtful.",
+          "example": "The email purported to be from the bank, but it was actually a scam.",
+          "mnemonic": "Like a fake PASSPORT that 'ports' itself as genuine — it claims to be what it isn't.",
+          "synonyms": [
+            "claim",
+            "allege",
+            "profess"
+          ],
+          "antonyms": [
+            "disclaim",
+            "deny"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-stipulate",
+          "word": "stipulate",
+          "partOfSpeech": "verb",
+          "definition": "To demand or specify a particular requirement as part of an agreement.",
+          "example": "The contract stipulates that all work must be finished before the end of June.",
+          "mnemonic": "A STIPulation is a strict point you must dot down in a deal — spell out the condition.",
+          "synonyms": [
+            "specify",
+            "require",
+            "demand"
+          ],
+          "antonyms": [
+            "imply",
+            "suggest"
+          ]
+        },
+        {
+          "id": "sat-assume",
+          "word": "assume",
+          "partOfSpeech": "verb",
+          "definition": "To accept something as true without any proof.",
+          "example": "I assumed the store was open, so I was surprised to find the door locked.",
+          "mnemonic": "The old saying: to ASSUME can make trouble — because you took it for granted.",
+          "synonyms": [
+            "presume",
+            "suppose",
+            "postulate"
+          ],
+          "antonyms": [
+            "verify",
+            "prove",
+            "know"
+          ]
+        },
+        {
+          "id": "sat-presume",
+          "word": "presume",
+          "partOfSpeech": "verb",
+          "definition": "To suppose something is true based on likelihood rather than proof.",
+          "example": "Since no one answered the door, I presumed they had already left for work.",
+          "mnemonic": "pre + SUME — you 'sum it up' beforehand, guessing from what seems probable.",
+          "synonyms": [
+            "assume",
+            "suppose",
+            "infer"
+          ],
+          "antonyms": [
+            "verify",
+            "prove",
+            "doubt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-proposition",
+          "word": "proposition",
+          "partOfSpeech": "noun",
+          "definition": "A statement or plan offered for others to consider or accept.",
+          "example": "The investor listened carefully before rejecting the risky business proposition.",
+          "mnemonic": "Hidden inside is 'propose' — a proposition is something set forth for consideration.",
+          "synonyms": [
+            "proposal",
+            "offer",
+            "suggestion"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-thesis",
+          "word": "thesis",
+          "partOfSpeech": "noun",
+          "definition": "A central idea or claim that an argument sets out to prove.",
+          "example": "Her entire essay was built around the thesis that cities make people lonelier.",
+          "mnemonic": "Greek for 'a setting down' — the position you set down and defend; its opposite is the anti-thesis.",
+          "synonyms": [
+            "argument",
+            "claim",
+            "premise"
+          ],
+          "antonyms": [
+            "antithesis"
+          ]
+        },
+        {
+          "id": "sat-veracity",
+          "word": "veracity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being accurate, honest, and in accordance with fact.",
+          "example": "The detective questioned the veracity of the witness's shaky, shifting account.",
+          "mnemonic": "VER- (truth, as in verify and verdict) + -acity — the state of being truthful.",
+          "synonyms": [
+            "truthfulness",
+            "accuracy",
+            "honesty"
+          ],
+          "antonyms": [
+            "falsehood",
+            "dishonesty",
+            "inaccuracy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-fallacy",
+          "word": "fallacy",
+          "partOfSpeech": "noun",
+          "definition": "A false belief or flawed argument that seems logical but is mistaken.",
+          "example": "The notion that money always brings happiness is a widespread fallacy.",
+          "mnemonic": "FALL-acy — a belief where your logic FALLs apart.",
+          "synonyms": [
+            "misconception",
+            "delusion",
+            "error"
+          ],
+          "antonyms": [
+            "truth",
+            "fact"
+          ]
+        },
+        {
+          "id": "sat-tenuous",
+          "word": "tenuous",
+          "partOfSpeech": "adjective",
+          "definition": "So weak, thin, or slight that it barely holds together.",
+          "example": "After the scandal, his grip on power grew tenuous.",
+          "mnemonic": "From Latin 'tenuis' (thin) — as thin as a single stretched thread.",
+          "synonyms": [
+            "flimsy",
+            "weak",
+            "slight"
+          ],
+          "antonyms": [
+            "strong",
+            "solid",
+            "substantial"
+          ]
+        },
+        {
+          "id": "sat-convincing",
+          "word": "convincing",
+          "partOfSpeech": "adjective",
+          "definition": "Able to make someone believe that something is true or right.",
+          "example": "She gave such a convincing argument that everyone changed their minds.",
+          "mnemonic": "CON + VINCE — Vince cons you until you believe him.",
+          "synonyms": [
+            "persuasive",
+            "compelling",
+            "credible"
+          ],
+          "antonyms": [
+            "unconvincing",
+            "dubious",
+            "implausible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-untenable",
+          "word": "untenable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to defend, justify, or maintain.",
+          "example": "Once the new evidence surfaced, his position became untenable.",
+          "mnemonic": "UN + TEN + ABLE — you're NOT able to hold (Latin 'tenere') your ground.",
+          "synonyms": [
+            "indefensible",
+            "unsustainable",
+            "insupportable"
+          ],
+          "antonyms": [
+            "tenable",
+            "defensible",
+            "sound"
+          ]
+        },
+        {
+          "id": "sat-defensible",
+          "word": "defensible",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be justified, protected, or shown to be reasonable.",
+          "example": "Her choice was defensible given the limited information she had.",
+          "mnemonic": "DEFENSE + IBLE — something you can mount a DEFENSE for.",
+          "synonyms": [
+            "justifiable",
+            "tenable",
+            "valid"
+          ],
+          "antonyms": [
+            "indefensible",
+            "untenable",
+            "unjustifiable"
+          ]
+        },
+        {
+          "id": "sat-indisputable",
+          "word": "indisputable",
+          "partOfSpeech": "adjective",
+          "definition": "So certainly true that no one can question or argue against it.",
+          "example": "The DNA match was indisputable proof that he had been there.",
+          "mnemonic": "IN + DISPUTE + ABLE — you are NOT able to DISPUTE it.",
+          "synonyms": [
+            "undeniable",
+            "unquestionable",
+            "certain"
+          ],
+          "antonyms": [
+            "doubtful",
+            "questionable",
+            "debatable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-irrefutable",
+          "word": "irrefutable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to prove wrong or disprove.",
+          "example": "The scientist presented irrefutable evidence for her theory.",
+          "mnemonic": "IR + REFUTE + ABLE — no one is able to REFUTE it.",
+          "synonyms": [
+            "indisputable",
+            "conclusive",
+            "undeniable"
+          ],
+          "antonyms": [
+            "refutable",
+            "questionable",
+            "dubious"
+          ]
+        },
+        {
+          "id": "sat-incontrovertible",
+          "word": "incontrovertible",
+          "partOfSpeech": "adjective",
+          "definition": "Certain beyond any possibility of doubt or argument.",
+          "example": "The photographs gave incontrovertible proof that the meeting took place.",
+          "mnemonic": "IN + CONTROVERT — it stirs NO controversy; you can't turn against it.",
+          "synonyms": [
+            "indisputable",
+            "undeniable",
+            "unquestionable"
+          ],
+          "antonyms": [
+            "debatable",
+            "questionable",
+            "uncertain"
+          ]
+        },
+        {
+          "id": "sat-undeniable",
+          "word": "undeniable",
+          "partOfSpeech": "adjective",
+          "definition": "Clearly true and impossible to reject or dispute.",
+          "example": "Her talent for singing is undeniable.",
+          "mnemonic": "UN + DENY + ABLE — you are NOT able to DENY it.",
+          "synonyms": [
+            "indisputable",
+            "unquestionable",
+            "certain"
+          ],
+          "antonyms": [
+            "deniable",
+            "doubtful",
+            "questionable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-unfounded",
+          "word": "unfounded",
+          "partOfSpeech": "adjective",
+          "definition": "Not based on any fact, evidence, or good reason.",
+          "example": "Their fears that the bridge would collapse proved unfounded.",
+          "mnemonic": "UN + FOUNDED — it has no FOUNDATION to stand on.",
+          "synonyms": [
+            "baseless",
+            "groundless",
+            "unsubstantiated"
+          ],
+          "antonyms": [
+            "substantiated",
+            "justified",
+            "well-founded"
+          ]
+        },
+        {
+          "id": "sat-baseless",
+          "word": "baseless",
+          "partOfSpeech": "adjective",
+          "definition": "Having no support in fact, evidence, or reason.",
+          "example": "The accusations were baseless and the court dismissed them quickly.",
+          "mnemonic": "BASE + LESS — it has no BASE, nothing to rest on.",
+          "synonyms": [
+            "unfounded",
+            "groundless",
+            "unsubstantiated"
+          ],
+          "antonyms": [
+            "justified",
+            "substantiated",
+            "valid"
+          ]
+        },
+        {
+          "id": "sat-vouch",
+          "word": "vouch",
+          "partOfSpeech": "verb",
+          "definition": "To confirm or guarantee that someone or something is trustworthy.",
+          "example": "I can vouch for her honesty; I've known her for years.",
+          "mnemonic": "VOUCH sounds like VOW — you make a VOW that someone is good.",
+          "synonyms": [
+            "guarantee",
+            "attest",
+            "endorse"
+          ],
+          "antonyms": [
+            "deny",
+            "disavow",
+            "contradict"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-sanction",
+          "word": "sanction",
+          "partOfSpeech": "verb",
+          "definition": "To officially approve or permit an action or practice.",
+          "example": "The committee voted to sanction the new research program.",
+          "mnemonic": "Shares a root with SANCTIFY — to give something official blessing.",
+          "synonyms": [
+            "approve",
+            "authorize",
+            "endorse"
+          ],
+          "antonyms": [
+            "forbid",
+            "prohibit",
+            "ban"
+          ]
+        },
+        {
+          "id": "sat-condone",
+          "word": "condone",
+          "partOfSpeech": "verb",
+          "definition": "To accept or overlook wrong behavior without punishing it.",
+          "example": "The school will not condone bullying of any kind.",
+          "mnemonic": "Sounds like 'con-DONE' — you treat the wrong as done with and let it pass.",
+          "synonyms": [
+            "overlook",
+            "excuse",
+            "tolerate"
+          ],
+          "antonyms": [
+            "condemn",
+            "punish",
+            "censure"
+          ]
+        },
+        {
+          "id": "sat-censure",
+          "word": "censure",
+          "partOfSpeech": "verb",
+          "definition": "To criticize or blame someone strongly and formally.",
+          "example": "The senate voted to censure the official for misconduct.",
+          "mnemonic": "CENSURE sounds like CENSOR — both deliver stern, public disapproval.",
+          "synonyms": [
+            "condemn",
+            "reprimand",
+            "rebuke"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "approve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-denounce",
+          "word": "denounce",
+          "partOfSpeech": "verb",
+          "definition": "To publicly condemn someone or something as wrong or evil.",
+          "example": "At the rally, protesters gathered to denounce the corrupt mayor.",
+          "mnemonic": "de- (down) + -nounce (announce): to announce someone DOWN, out loud and in public.",
+          "synonyms": [
+            "condemn",
+            "censure",
+            "decry"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-decry",
+          "word": "decry",
+          "partOfSpeech": "verb",
+          "definition": "To openly criticize something as bad or worthless.",
+          "example": "Economists decry the new tariffs as harmful to small businesses.",
+          "mnemonic": "de + CRY: you loudly CRY out against something you hate.",
+          "synonyms": [
+            "disparage",
+            "denounce",
+            "condemn"
+          ],
+          "antonyms": [
+            "praise",
+            "laud",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-ridicule",
+          "word": "ridicule",
+          "partOfSpeech": "noun",
+          "definition": "Cruel mockery or teasing aimed at making someone look foolish.",
+          "example": "She endured the ridicule of her peers after the flubbed speech.",
+          "mnemonic": "Sounds like 'ridiculous' — ridicule makes someone look ridiculous.",
+          "synonyms": [
+            "mockery",
+            "derision",
+            "scorn"
+          ],
+          "antonyms": [
+            "praise",
+            "respect",
+            "admiration"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-scorn",
+          "word": "scorn",
+          "partOfSpeech": "noun",
+          "definition": "A strong feeling that someone or something is worthless and deserves no respect.",
+          "example": "She looked at the cheater with scorn and walked away.",
+          "mnemonic": "SCORN sounds like SCORCH — you scorch someone with a burning, dismissive look.",
+          "synonyms": [
+            "contempt",
+            "disdain",
+            "derision"
+          ],
+          "antonyms": [
+            "respect",
+            "admiration",
+            "esteem"
+          ]
+        },
+        {
+          "id": "sat-contempt",
+          "word": "contempt",
+          "partOfSpeech": "noun",
+          "definition": "A strong feeling of disgust toward someone regarded as worthless or beneath respect.",
+          "example": "He felt nothing but contempt for those who cheated to win.",
+          "mnemonic": "'Can't-tempt': they are so beneath you that they can't even tempt your attention.",
+          "synonyms": [
+            "scorn",
+            "disdain",
+            "disgust"
+          ],
+          "antonyms": [
+            "respect",
+            "admiration",
+            "esteem"
+          ]
+        },
+        {
+          "id": "sat-disdain",
+          "word": "disdain",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of superiority that makes someone regard others as unworthy.",
+          "example": "She regarded the tabloid gossip with cool disdain.",
+          "mnemonic": "dis + deign: you won't 'deign' to lower yourself — you 'dis' them as beneath you.",
+          "synonyms": [
+            "contempt",
+            "scorn",
+            "condescension"
+          ],
+          "antonyms": [
+            "respect",
+            "admiration",
+            "esteem"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-antipathy",
+          "word": "antipathy",
+          "partOfSpeech": "noun",
+          "definition": "A deep-seated feeling of dislike or hostility toward someone or something.",
+          "example": "There was a long-standing antipathy between the two rival families.",
+          "mnemonic": "anti- (against) + -pathy (feeling): a gut feeling AGAINST someone.",
+          "synonyms": [
+            "hostility",
+            "aversion",
+            "animosity"
+          ],
+          "antonyms": [
+            "affinity",
+            "fondness",
+            "sympathy"
+          ]
+        },
+        {
+          "id": "sat-skepticism",
+          "word": "skepticism",
+          "partOfSpeech": "noun",
+          "definition": "An attitude of doubt about whether claims or beliefs are actually true.",
+          "example": "Scientists greeted the miracle-cure study with deep skepticism.",
+          "mnemonic": "A skeptic says 'SKIP it, I don't buy that' before believing anything.",
+          "synonyms": [
+            "doubt",
+            "disbelief",
+            "wariness"
+          ],
+          "antonyms": [
+            "belief",
+            "credulity",
+            "trust"
+          ]
+        },
+        {
+          "id": "sat-disillusion",
+          "word": "disillusion",
+          "partOfSpeech": "verb",
+          "definition": "To destroy someone's mistaken but pleasant beliefs, leaving them let down.",
+          "example": "The scandal disillusioned voters who had once trusted the party.",
+          "mnemonic": "dis- + illusion: stripping away a comforting illusion someone was clinging to.",
+          "synonyms": [
+            "disenchant",
+            "undeceive",
+            "disappoint"
+          ],
+          "antonyms": [
+            "enchant",
+            "delude",
+            "charm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-misgiving",
+          "word": "misgiving",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of doubt or unease about a future outcome.",
+          "example": "She signed the contract despite serious misgivings about the terms.",
+          "mnemonic": "mis- (wrong) + giving: your gut is 'giving' you a wrong, uneasy signal.",
+          "synonyms": [
+            "doubt",
+            "qualm",
+            "apprehension"
+          ],
+          "antonyms": [
+            "confidence",
+            "assurance",
+            "certainty"
+          ]
+        },
+        {
+          "id": "sat-qualm",
+          "word": "qualm",
+          "partOfSpeech": "noun",
+          "definition": "An uneasy feeling of doubt about whether an action is right.",
+          "example": "He had no qualms about firing loyal employees to boost profits.",
+          "mnemonic": "QUALM = 'calm' with a Q — the pang that disturbs your calm conscience.",
+          "synonyms": [
+            "misgiving",
+            "scruple",
+            "doubt"
+          ],
+          "antonyms": [
+            "confidence",
+            "assurance",
+            "ease"
+          ]
+        },
+        {
+          "id": "sat-trepidation",
+          "word": "trepidation",
+          "partOfSpeech": "noun",
+          "definition": "A nervous feeling of fear about something that may happen.",
+          "example": "She approached the closed door with visible trepidation.",
+          "mnemonic": "Latin 'trepidare' = to tremble — you tremble nervously before the big trial.",
+          "synonyms": [
+            "apprehension",
+            "dread",
+            "anxiety"
+          ],
+          "antonyms": [
+            "confidence",
+            "composure",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-apprehension",
+          "word": "apprehension",
+          "partOfSpeech": "noun",
+          "definition": "Worry or anxiety that something bad is about to happen.",
+          "example": "A wave of apprehension swept over her as the results loaded.",
+          "mnemonic": "To 'apprehend' means to grasp — here fear grabs and holds onto you.",
+          "synonyms": [
+            "anxiety",
+            "dread",
+            "unease"
+          ],
+          "antonyms": [
+            "confidence",
+            "calm",
+            "assurance"
+          ]
+        },
+        {
+          "id": "sat-sincere",
+          "word": "sincere",
+          "partOfSpeech": "adjective",
+          "definition": "Genuine and honest in feeling, without pretense or deceit.",
+          "example": "Her sincere apology moved everyone in the room to forgiveness.",
+          "mnemonic": "Latin 'sine cera' = 'without wax' — pure, with no cracks filled in to fake it.",
+          "synonyms": [
+            "genuine",
+            "heartfelt",
+            "earnest"
+          ],
+          "antonyms": [
+            "insincere",
+            "fake",
+            "hypocritical"
+          ]
+        },
+        {
+          "id": "sat-frank",
+          "word": "frank",
+          "partOfSpeech": "adjective",
+          "definition": "Open and honest in speech, even when the truth is unpleasant.",
+          "example": "To be frank, your essay needs a complete rewrite before Monday.",
+          "mnemonic": "Picture a guy named Frank who always says exactly what he thinks, bluntly.",
+          "synonyms": [
+            "candid",
+            "direct",
+            "blunt"
+          ],
+          "antonyms": [
+            "evasive",
+            "secretive",
+            "dishonest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-evasive",
+          "word": "evasive",
+          "partOfSpeech": "adjective",
+          "definition": "Deliberately vague or avoiding a direct answer so as not to be pinned down.",
+          "example": "When reporters asked about the layoffs, the CEO gave evasive replies and quickly changed the subject.",
+          "mnemonic": "Sounds like 'evade' — someone evasive keeps slipping away from your questions.",
+          "synonyms": [
+            "shifty",
+            "cagey",
+            "noncommittal"
+          ],
+          "antonyms": [
+            "forthright",
+            "direct",
+            "candid"
+          ]
+        },
+        {
+          "id": "sat-elusive",
+          "word": "elusive",
+          "partOfSpeech": "adjective",
+          "definition": "Hard to find, catch, capture, or clearly understand.",
+          "example": "The elusive snow leopard has been photographed only a handful of times in the wild.",
+          "mnemonic": "E-LOOSE-ive: it stays loose and won't be caught.",
+          "synonyms": [
+            "slippery",
+            "fleeting",
+            "evasive"
+          ],
+          "antonyms": [
+            "obvious",
+            "accessible",
+            "tangible"
+          ]
+        },
+        {
+          "id": "sat-duplicity",
+          "word": "duplicity",
+          "partOfSpeech": "noun",
+          "definition": "The act of deliberately misleading people while pretending to be honest.",
+          "example": "Her duplicity became clear when we discovered she had been feeding secrets to our rivals all along.",
+          "mnemonic": "'Dupli-' means double (like duplicate) — a duplicitous person plays a double game.",
+          "synonyms": [
+            "double-dealing",
+            "treachery",
+            "two-facedness"
+          ],
+          "antonyms": [
+            "honesty",
+            "sincerity",
+            "candor"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-deceit",
+          "word": "deceit",
+          "partOfSpeech": "noun",
+          "definition": "The act of hiding or twisting the truth in order to mislead someone.",
+          "example": "The whole investment scheme was built on deceit, and thousands of families lost their savings.",
+          "mnemonic": "Picture a con artist offering you a comfy 'seat' while quietly picking your pocket.",
+          "synonyms": [
+            "deception",
+            "fraud",
+            "dishonesty"
+          ],
+          "antonyms": [
+            "honesty",
+            "truthfulness",
+            "frankness"
+          ]
+        },
+        {
+          "id": "sat-deception",
+          "word": "deception",
+          "partOfSpeech": "noun",
+          "definition": "The act of making someone believe something that is not true.",
+          "example": "The magician's entire act relies on deception, guiding your eyes away from his hands.",
+          "mnemonic": "De- + 'cept' (to take, as in capture) — deception takes your trust away.",
+          "synonyms": [
+            "trickery",
+            "subterfuge",
+            "fraud"
+          ],
+          "antonyms": [
+            "honesty",
+            "transparency",
+            "truth"
+          ]
+        },
+        {
+          "id": "sat-guile",
+          "word": "guile",
+          "partOfSpeech": "noun",
+          "definition": "Clever, sneaky skill used to trick or outwit other people.",
+          "example": "With sheer guile, the fox lured the guard dogs far away from the henhouse.",
+          "mnemonic": "Hides inside be-GUILE — to beguile someone is to charm them with trickery.",
+          "synonyms": [
+            "cunning",
+            "craftiness",
+            "artfulness"
+          ],
+          "antonyms": [
+            "honesty",
+            "candor",
+            "naivety"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-cunning",
+          "word": "cunning",
+          "partOfSpeech": "adjective",
+          "definition": "Clever at getting what you want through sly, sometimes dishonest tricks.",
+          "example": "The cunning thief studied the guards' routines for weeks before making his move.",
+          "mnemonic": "Think of the classic fox: quietly 'running' rings around every hunter.",
+          "synonyms": [
+            "crafty",
+            "sly",
+            "shrewd"
+          ],
+          "antonyms": [
+            "naive",
+            "honest",
+            "artless"
+          ]
+        },
+        {
+          "id": "sat-wily",
+          "word": "wily",
+          "partOfSpeech": "adjective",
+          "definition": "Full of clever tricks and good at fooling others to gain an edge.",
+          "example": "The wily old negotiator let his opponent speak first, then twisted every word to his own advantage.",
+          "mnemonic": "Contains 'wile' — Wile E. Coyote is forever scheming.",
+          "synonyms": [
+            "crafty",
+            "cunning",
+            "sly"
+          ],
+          "antonyms": [
+            "naive",
+            "straightforward",
+            "artless"
+          ]
+        },
+        {
+          "id": "sat-insidious",
+          "word": "insidious",
+          "partOfSpeech": "adjective",
+          "definition": "Spreading harm gradually and secretly before the danger becomes obvious.",
+          "example": "The disease is insidious, causing no symptoms until it has already damaged the organs.",
+          "mnemonic": "'Inside-ious' — the harm works quietly from the inside before you notice.",
+          "synonyms": [
+            "stealthy",
+            "subtle",
+            "treacherous"
+          ],
+          "antonyms": [
+            "obvious",
+            "harmless",
+            "overt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-disingenuous",
+          "word": "disingenuous",
+          "partOfSpeech": "adjective",
+          "definition": "Pretending to be sincere or honest while actually hiding your true motives.",
+          "example": "It was disingenuous of him to claim total surprise when he had planned the whole thing.",
+          "mnemonic": "'Dis-' (not) + 'genuine' — a disingenuous person is simply not genuine.",
+          "synonyms": [
+            "insincere",
+            "two-faced",
+            "deceitful"
+          ],
+          "antonyms": [
+            "sincere",
+            "genuine",
+            "candid"
+          ]
+        },
+        {
+          "id": "sat-sanctimonious",
+          "word": "sanctimonious",
+          "partOfSpeech": "adjective",
+          "definition": "Acting as if you are morally better than everyone else, in a smug, preachy way.",
+          "example": "Spare me the sanctimonious lecture about honesty from a man who cheats on his taxes.",
+          "mnemonic": "'Sanct-' means holy (saint, sanctuary) — this is someone acting fake-holy.",
+          "synonyms": [
+            "self-righteous",
+            "preachy",
+            "holier-than-thou"
+          ],
+          "antonyms": [
+            "humble",
+            "modest",
+            "sincere"
+          ]
+        },
+        {
+          "id": "sat-hypocrisy",
+          "word": "hypocrisy",
+          "partOfSpeech": "noun",
+          "definition": "Claiming to hold moral standards that your own behavior clearly breaks.",
+          "example": "There is a glaring hypocrisy in a climate minister who flies a private jet to every meeting.",
+          "mnemonic": "From the Greek for a stage 'actor' — the hypocrite wears a mask: says one thing, does another.",
+          "synonyms": [
+            "insincerity",
+            "double standard",
+            "pretense"
+          ],
+          "antonyms": [
+            "sincerity",
+            "integrity",
+            "honesty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-pretense",
+          "word": "pretense",
+          "partOfSpeech": "noun",
+          "definition": "A false show put on to make people believe something that is not real.",
+          "example": "Under the pretense of checking the meter, the stranger slipped quietly into the house.",
+          "mnemonic": "Sounds like 'pretend' — a pretense is a pretend act you put on for others.",
+          "synonyms": [
+            "pretext",
+            "sham",
+            "facade"
+          ],
+          "antonyms": [
+            "sincerity",
+            "honesty",
+            "reality"
+          ]
+        },
+        {
+          "id": "sat-indoctrinate",
+          "word": "indoctrinate",
+          "partOfSpeech": "verb",
+          "definition": "To teach a set of ideas repeatedly until someone accepts them without questioning.",
+          "example": "The regime used its schools to indoctrinate children with loyalty to the party.",
+          "mnemonic": "Contains 'doctrine' — to indoctrinate is to drill a doctrine into someone's head.",
+          "synonyms": [
+            "brainwash",
+            "condition",
+            "propagandize"
+          ],
+          "antonyms": [
+            "educate",
+            "enlighten",
+            "liberate"
+          ]
+        },
+        {
+          "id": "sat-scrutinize",
+          "word": "scrutinize",
+          "partOfSpeech": "verb",
+          "definition": "To examine something very closely and carefully to find details or faults.",
+          "example": "The auditors will scrutinize every receipt before approving the expense report.",
+          "mnemonic": "'Screw-tinize' — screw your eyes down tight to inspect every last detail.",
+          "synonyms": [
+            "inspect",
+            "examine",
+            "analyze"
+          ],
+          "antonyms": [
+            "glance",
+            "skim",
+            "ignore"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:31:51.209Z"
+}

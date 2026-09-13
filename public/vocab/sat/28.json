@@ -1,0 +1,1385 @@
+{
+  "track": "sat",
+  "ordinal": 28,
+  "title": "Growth and decline",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-fester",
+          "word": "fester",
+          "partOfSpeech": "verb",
+          "definition": "To grow steadily worse and more poisoned when a wound or feeling is left unresolved.",
+          "example": "The unspoken grudge began to fester until the two brothers could no longer share a room.",
+          "mnemonic": "A 'fest' of germs throwing a party in an untreated cut — the longer it goes, the nastier it gets.",
+          "synonyms": [
+            "rankle",
+            "suppurate",
+            "rot"
+          ],
+          "antonyms": [
+            "heal",
+            "mend"
+          ]
+        },
+        {
+          "id": "sat-corrode",
+          "word": "corrode",
+          "partOfSpeech": "verb",
+          "definition": "To eat away at metal or material gradually through chemical reaction.",
+          "example": "Years of salt spray had corroded the iron railings until they crumbled at a touch.",
+          "mnemonic": "'Core' + 'rode' — rust rode straight into the metal's core.",
+          "synonyms": [
+            "erode",
+            "rust",
+            "eat away"
+          ],
+          "antonyms": [
+            "strengthen",
+            "reinforce"
+          ]
+        },
+        {
+          "id": "sat-desiccate",
+          "word": "desiccate",
+          "partOfSpeech": "verb",
+          "definition": "To dry something out completely by removing all of its moisture.",
+          "example": "The desert air desiccated the fallen leaves until they crumbled into powder.",
+          "mnemonic": "Sounds like 'desert' + 'sick' — the desert makes everything sick and bone-dry.",
+          "synonyms": [
+            "dehydrate",
+            "parch",
+            "dry out"
+          ],
+          "antonyms": [
+            "moisten",
+            "hydrate",
+            "soak"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-shrivel",
+          "word": "shrivel",
+          "partOfSpeech": "verb",
+          "definition": "To shrink and wrinkle up, especially from heat, cold, or lack of water.",
+          "example": "Left on the vine too long, the grapes shriveled into hard little raisins.",
+          "mnemonic": "'Shrivel' = 'shrink' and 'wrinkle' smashed together.",
+          "synonyms": [
+            "wither",
+            "wrinkle",
+            "shrink"
+          ],
+          "antonyms": [
+            "swell",
+            "plump",
+            "expand"
+          ]
+        },
+        {
+          "id": "sat-attenuate",
+          "word": "attenuate",
+          "partOfSpeech": "verb",
+          "definition": "To make something weaker, thinner, or less intense.",
+          "example": "Thick concrete walls attenuated the traffic noise to a faint hum.",
+          "mnemonic": "From Latin 'tenuis' (thin) — 'a-TENU-ate' turns something tenuous and thin.",
+          "synonyms": [
+            "weaken",
+            "dilute",
+            "diminish"
+          ],
+          "antonyms": [
+            "strengthen",
+            "intensify",
+            "amplify"
+          ]
+        },
+        {
+          "id": "sat-recede",
+          "word": "recede",
+          "partOfSpeech": "verb",
+          "definition": "To move back or withdraw gradually from a former position.",
+          "example": "As the tide receded, a wide stretch of wet sand appeared.",
+          "mnemonic": "'Re-' (back) + 'cede' (go) — go back, like a receding hairline.",
+          "synonyms": [
+            "retreat",
+            "withdraw",
+            "ebb"
+          ],
+          "antonyms": [
+            "advance",
+            "approach",
+            "surge"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-ebb",
+          "word": "ebb",
+          "partOfSpeech": "verb",
+          "definition": "To flow back or decline, as the sea does when the tide falls.",
+          "example": "As the evening wore on, the crowd's excitement slowly ebbed away.",
+          "mnemonic": "Short and shrinking — the tide pulling back; the opposite of 'flow'.",
+          "synonyms": [
+            "recede",
+            "wane",
+            "subside"
+          ],
+          "antonyms": [
+            "flow",
+            "rise",
+            "surge"
+          ]
+        },
+        {
+          "id": "sat-taper",
+          "word": "taper",
+          "partOfSpeech": "verb",
+          "definition": "To become gradually narrower or smaller toward one end.",
+          "example": "The candle tapered to a thin point at the top.",
+          "mnemonic": "A 'taper' is a slender candle — narrow at the tip, thinning as it goes.",
+          "synonyms": [
+            "narrow",
+            "thin",
+            "diminish"
+          ],
+          "antonyms": [
+            "widen",
+            "broaden",
+            "flare"
+          ]
+        },
+        {
+          "id": "sat-sap",
+          "word": "sap",
+          "partOfSpeech": "verb",
+          "definition": "To drain someone's strength or energy little by little.",
+          "example": "The relentless heat sapped the hikers of every last bit of energy.",
+          "mnemonic": "Sap is a tree's lifeblood — drain the sap and it wilts, just like you.",
+          "synonyms": [
+            "drain",
+            "deplete",
+            "exhaust"
+          ],
+          "antonyms": [
+            "bolster",
+            "invigorate",
+            "energize"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-enervate",
+          "word": "enervate",
+          "partOfSpeech": "verb",
+          "definition": "To drain of energy or vitality, leaving one weak and listless.",
+          "example": "The long, humid afternoon left the whole office enervated and unable to focus.",
+          "mnemonic": "Looks like 'energize' but means the opposite — 'e-NERVE-ate' cuts your nerve and energy out.",
+          "synonyms": [
+            "weaken",
+            "exhaust",
+            "debilitate"
+          ],
+          "antonyms": [
+            "energize",
+            "invigorate",
+            "strengthen"
+          ]
+        },
+        {
+          "id": "sat-debilitate",
+          "word": "debilitate",
+          "partOfSpeech": "verb",
+          "definition": "To seriously weaken the strength or health of a person or thing.",
+          "example": "A bout of pneumonia debilitated him so badly he could barely climb the stairs.",
+          "mnemonic": "Hides 'debil-' like Spanish 'débil' (weak) — it makes you feeble.",
+          "synonyms": [
+            "weaken",
+            "incapacitate",
+            "enfeeble"
+          ],
+          "antonyms": [
+            "strengthen",
+            "fortify",
+            "empower"
+          ]
+        },
+        {
+          "id": "sat-decompose",
+          "word": "decompose",
+          "partOfSpeech": "verb",
+          "definition": "To break down and rot into simpler substances through natural decay.",
+          "example": "The fallen log slowly decomposed, feeding mushrooms and beetles for years.",
+          "mnemonic": "'De-' (undo) + 'compose' — to un-compose, falling apart into pieces.",
+          "synonyms": [
+            "rot",
+            "decay",
+            "putrefy"
+          ],
+          "antonyms": [
+            "compose",
+            "form",
+            "preserve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-moribund",
+          "word": "moribund",
+          "partOfSpeech": "adjective",
+          "definition": "Close to death or on the verge of ceasing to exist.",
+          "example": "The once-thriving factory town was now moribund, its shops boarded and streets empty.",
+          "mnemonic": "From Latin 'mori' (to die), as in 'mortal' — it's nearly gone.",
+          "synonyms": [
+            "dying",
+            "declining",
+            "failing"
+          ],
+          "antonyms": [
+            "thriving",
+            "flourishing",
+            "vibrant"
+          ]
+        },
+        {
+          "id": "sat-decrepit",
+          "word": "decrepit",
+          "partOfSpeech": "adjective",
+          "definition": "Worn out and weakened by old age, long use, or neglect.",
+          "example": "The decrepit old car wheezed, rattled, and finally gave up in the driveway.",
+          "mnemonic": "'Decayed' + 'crippled' — creaky and falling apart with age.",
+          "synonyms": [
+            "worn-out",
+            "rickety",
+            "dilapidated"
+          ],
+          "antonyms": [
+            "sturdy",
+            "robust",
+            "new"
+          ]
+        },
+        {
+          "id": "sat-dilapidated",
+          "word": "dilapidated",
+          "partOfSpeech": "adjective",
+          "definition": "Fallen into ruin or disrepair, especially a building or structure.",
+          "example": "They bought the dilapidated farmhouse for almost nothing and spent years repairing the sagging roof.",
+          "mnemonic": "From Latin 'lapis' (stone) — its very stones are falling apart.",
+          "synonyms": [
+            "run-down",
+            "ramshackle",
+            "decrepit"
+          ],
+          "antonyms": [
+            "pristine",
+            "well-maintained",
+            "renovated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-derelict",
+          "word": "derelict",
+          "partOfSpeech": "adjective",
+          "definition": "Abandoned and left in a run-down, neglected condition.",
+          "example": "The derelict factory had broken windows and weeds pushing up through its floors.",
+          "mnemonic": "Sounds like 'dare-a-lick' — even a stray dog wouldn't dare lick this filthy, abandoned building.",
+          "synonyms": [
+            "abandoned",
+            "neglected",
+            "ramshackle"
+          ],
+          "antonyms": [
+            "maintained",
+            "pristine",
+            "cared-for"
+          ]
+        },
+        {
+          "id": "sat-germinate",
+          "word": "germinate",
+          "partOfSpeech": "verb",
+          "definition": "To begin growing and developing from a seed.",
+          "example": "The beans will germinate within a week if you keep the soil warm and damp.",
+          "mnemonic": "A 'germ' of an idea starts to grow — germinate begins with 'germ,' the tiny start of life.",
+          "synonyms": [
+            "sprout",
+            "bud",
+            "develop"
+          ],
+          "antonyms": [
+            "wither",
+            "die",
+            "decay"
+          ]
+        },
+        {
+          "id": "sat-sprout",
+          "word": "sprout",
+          "partOfSpeech": "verb",
+          "definition": "To start growing, sending up fresh shoots from a seed or plant.",
+          "example": "After the spring rains, tiny green shoots began to sprout across the muddy field.",
+          "mnemonic": "Sprout sounds like 'spurt out' — the new plant spurts out of the ground.",
+          "synonyms": [
+            "bud",
+            "germinate",
+            "shoot"
+          ],
+          "antonyms": [
+            "wither",
+            "wilt",
+            "shrivel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-blossom",
+          "word": "blossom",
+          "partOfSpeech": "verb",
+          "definition": "To produce flowers, or to develop fully and beautifully.",
+          "example": "The cherry trees blossom every April, filling the park with clouds of pink petals.",
+          "mnemonic": "'Bloss' echoes 'bloom' — both burst open into flower.",
+          "synonyms": [
+            "bloom",
+            "flower",
+            "flourish"
+          ],
+          "antonyms": [
+            "wither",
+            "fade",
+            "wilt"
+          ]
+        },
+        {
+          "id": "sat-nurture",
+          "word": "nurture",
+          "partOfSpeech": "verb",
+          "definition": "To care for something and help it grow, develop, or thrive.",
+          "example": "She nurtured the orphaned kittens with warm milk and constant attention until they thrived.",
+          "mnemonic": "Nurture shares roots with 'nurse' and 'nourish' — all about feeding and caring for something.",
+          "synonyms": [
+            "nourish",
+            "foster",
+            "cultivate"
+          ],
+          "antonyms": [
+            "neglect",
+            "deprive",
+            "starve"
+          ]
+        },
+        {
+          "id": "sat-foster",
+          "word": "foster",
+          "partOfSpeech": "verb",
+          "definition": "To encourage the development of something; also, to raise another person's child.",
+          "example": "The teacher fostered a love of reading by filling the classroom with exciting books.",
+          "mnemonic": "Think of a 'foster home,' where caregivers help a child grow up safely.",
+          "synonyms": [
+            "nurture",
+            "cultivate",
+            "promote"
+          ],
+          "antonyms": [
+            "suppress",
+            "hinder",
+            "neglect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-propagate",
+          "word": "propagate",
+          "partOfSpeech": "verb",
+          "definition": "To spread widely, or to produce new plants and offspring.",
+          "example": "Gardeners propagate strawberries by planting the runners that creep out from each parent plant.",
+          "mnemonic": "Propagate starts like 'propaganda' — both push something to spread far and wide.",
+          "synonyms": [
+            "spread",
+            "multiply",
+            "breed"
+          ],
+          "antonyms": [
+            "suppress",
+            "curb",
+            "contain"
+          ]
+        },
+        {
+          "id": "sat-swell",
+          "word": "swell",
+          "partOfSpeech": "verb",
+          "definition": "To grow bigger or increase in size, volume, or intensity.",
+          "example": "His ankle began to swell after he twisted it on the rocky trail.",
+          "mnemonic": "Picture a sponge dropped in water — it swells until it's twice its size.",
+          "synonyms": [
+            "expand",
+            "bulge",
+            "inflate"
+          ],
+          "antonyms": [
+            "shrink",
+            "contract",
+            "deflate"
+          ]
+        },
+        {
+          "id": "sat-distend",
+          "word": "distend",
+          "partOfSpeech": "verb",
+          "definition": "To swell or stretch outward, usually from internal pressure.",
+          "example": "Weeks of famine had left the child's belly painfully distended.",
+          "mnemonic": "Dis-TEND, like 'ex-tend' — Latin 'distendere,' to stretch apart until it bulges.",
+          "synonyms": [
+            "bloat",
+            "swell",
+            "bulge"
+          ],
+          "antonyms": [
+            "contract",
+            "shrink",
+            "deflate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-replete",
+          "word": "replete",
+          "partOfSpeech": "adjective",
+          "definition": "Fully filled or abundantly supplied with something.",
+          "example": "The ancient library was replete with rare manuscripts and long-forgotten maps.",
+          "mnemonic": "Re-PLETE — like 'complete' and 'deplete,' the '-plete' root means fill; here, filled to the brim.",
+          "synonyms": [
+            "full",
+            "brimming",
+            "abundant"
+          ],
+          "antonyms": [
+            "empty",
+            "lacking",
+            "devoid"
+          ]
+        },
+        {
+          "id": "sat-fecund",
+          "word": "fecund",
+          "partOfSpeech": "adjective",
+          "definition": "Highly fertile and capable of producing much offspring or vegetation.",
+          "example": "The fecund delta soil yielded three harvests a year without any fertilizer.",
+          "mnemonic": "Shares a Latin root with 'fetus' — bursting with the ability to bring forth new life.",
+          "synonyms": [
+            "fertile",
+            "prolific",
+            "productive"
+          ],
+          "antonyms": [
+            "barren",
+            "sterile",
+            "infertile"
+          ]
+        },
+        {
+          "id": "sat-prolific",
+          "word": "prolific",
+          "partOfSpeech": "adjective",
+          "definition": "Producing a great number of works, offspring, or results.",
+          "example": "The prolific author published over sixty novels in her lifetime.",
+          "mnemonic": "Contains 'prol-' like 'proliferate' — both mean multiplying rapidly.",
+          "synonyms": [
+            "productive",
+            "fruitful",
+            "abundant"
+          ],
+          "antonyms": [
+            "barren",
+            "unproductive",
+            "sparse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-rife",
+          "word": "rife",
+          "partOfSpeech": "adjective",
+          "definition": "Widespread and very common, often describing something unwelcome.",
+          "example": "Rumors of layoffs were rife throughout the office after the merger was announced.",
+          "mnemonic": "Rife sounds like 'ripe' — when gossip is ripe, it's suddenly everywhere.",
+          "synonyms": [
+            "widespread",
+            "rampant",
+            "prevalent"
+          ],
+          "antonyms": [
+            "rare",
+            "scarce",
+            "uncommon"
+          ]
+        },
+        {
+          "id": "sat-surge",
+          "word": "surge",
+          "partOfSpeech": "verb",
+          "definition": "To rise or move forward suddenly with great force.",
+          "example": "The crowd surged toward the stage the moment the band walked into view.",
+          "mnemonic": "Surge is 'urge' with an S — a powerful urge pushes forward like a breaking wave.",
+          "synonyms": [
+            "rush",
+            "gush",
+            "swell"
+          ],
+          "antonyms": [
+            "ebb",
+            "subside",
+            "wane"
+          ]
+        },
+        {
+          "id": "sat-soar",
+          "word": "soar",
+          "partOfSpeech": "verb",
+          "definition": "To fly or rise high into the air, or to increase rapidly.",
+          "example": "The eagle soared above the canyon without flapping its wings once.",
+          "mnemonic": "The double 'o' in soar looks like two wings spread wide, carrying a bird ever higher.",
+          "synonyms": [
+            "rise",
+            "ascend",
+            "climb"
+          ],
+          "antonyms": [
+            "plummet",
+            "plunge",
+            "descend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-multiply",
+          "word": "multiply",
+          "partOfSpeech": "verb",
+          "definition": "To increase greatly in number or quantity, often by breeding or repeated addition.",
+          "example": "Rabbits multiply so fast that two can become dozens within a single year.",
+          "mnemonic": "multi- means 'many'; picture copies stacking up until there are many.",
+          "synonyms": [
+            "increase",
+            "proliferate",
+            "breed"
+          ],
+          "antonyms": [
+            "decrease",
+            "reduce",
+            "dwindle"
+          ]
+        },
+        {
+          "id": "sat-regenerate",
+          "word": "regenerate",
+          "partOfSpeech": "verb",
+          "definition": "To grow back or restore something that was lost, damaged, or worn out.",
+          "example": "A starfish can regenerate an arm that a predator has torn off.",
+          "mnemonic": "re- (again) + generate (create) — to create it all over again.",
+          "synonyms": [
+            "renew",
+            "restore",
+            "revive"
+          ],
+          "antonyms": [
+            "destroy",
+            "degrade",
+            "deteriorate"
+          ]
+        },
+        {
+          "id": "sat-revitalize",
+          "word": "revitalize",
+          "partOfSpeech": "verb",
+          "definition": "To give new energy, strength, or life to something weak or run-down.",
+          "example": "The council planted trees and opened cafés to revitalize the dying downtown.",
+          "mnemonic": "re- + 'vital' — put the vitalness back into something.",
+          "synonyms": [
+            "reinvigorate",
+            "refresh",
+            "renew"
+          ],
+          "antonyms": [
+            "sap",
+            "weaken",
+            "drain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-resurgent",
+          "word": "resurgent",
+          "partOfSpeech": "adjective",
+          "definition": "Rising again and becoming strong or active after a period of decline.",
+          "example": "The resurgent team clawed back from last place to win the championship.",
+          "mnemonic": "re- (again) + surge — a wave that swells up once more.",
+          "synonyms": [
+            "reviving",
+            "rebounding",
+            "renewed"
+          ],
+          "antonyms": [
+            "declining",
+            "waning",
+            "fading"
+          ]
+        },
+        {
+          "id": "sat-convalesce",
+          "word": "convalesce",
+          "partOfSpeech": "verb",
+          "definition": "To slowly return to good health after being sick or injured.",
+          "example": "After surgery, she went to the coast to convalesce for a quiet month.",
+          "mnemonic": "Latin valere (to be strong) — think 'convalescent home' where you grow strong again.",
+          "synonyms": [
+            "recover",
+            "recuperate",
+            "heal"
+          ],
+          "antonyms": [
+            "relapse",
+            "worsen",
+            "sicken"
+          ]
+        },
+        {
+          "id": "sat-recuperate",
+          "word": "recuperate",
+          "partOfSpeech": "verb",
+          "definition": "To regain health, strength, or losses after illness, exhaustion, or a setback.",
+          "example": "He took two weeks off to recuperate after the exhausting deadline crunch.",
+          "mnemonic": "Sounds like 're-cooper' — a cooper rebuilds a broken barrel back to whole.",
+          "synonyms": [
+            "recover",
+            "convalesce",
+            "rally"
+          ],
+          "antonyms": [
+            "relapse",
+            "deteriorate",
+            "decline"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-rebound",
+          "word": "rebound",
+          "partOfSpeech": "verb",
+          "definition": "To bounce back or recover quickly after a fall, defeat, or blow.",
+          "example": "Stock prices rebounded sharply the very day after the crash.",
+          "mnemonic": "re- (again) + bound (leap) — leap back up like a ball off the floor.",
+          "synonyms": [
+            "recover",
+            "bounce back",
+            "revive"
+          ],
+          "antonyms": [
+            "slump",
+            "collapse",
+            "plummet"
+          ]
+        },
+        {
+          "id": "sat-resilience",
+          "word": "resilience",
+          "partOfSpeech": "noun",
+          "definition": "The ability to recover quickly from hardship, stress, or difficult conditions.",
+          "example": "Her resilience let her rebuild a whole life after the fire took everything.",
+          "mnemonic": "From Latin salire (to jump) — you spring back after being pushed down.",
+          "synonyms": [
+            "toughness",
+            "hardiness",
+            "adaptability"
+          ],
+          "antonyms": [
+            "fragility",
+            "weakness",
+            "brittleness"
+          ]
+        },
+        {
+          "id": "sat-hardy",
+          "word": "hardy",
+          "partOfSpeech": "adjective",
+          "definition": "Strong and able to survive difficult conditions, cold, or rough treatment.",
+          "example": "Only hardy plants like cacti can survive the desert's brutal heat.",
+          "mnemonic": "Sounds like 'hard' — tough enough to take a beating and keep going.",
+          "synonyms": [
+            "tough",
+            "robust",
+            "sturdy"
+          ],
+          "antonyms": [
+            "delicate",
+            "frail",
+            "tender"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-vitality",
+          "word": "vitality",
+          "partOfSpeech": "noun",
+          "definition": "Great physical or mental energy, strength, and liveliness.",
+          "example": "At ninety, his vitality amazed everyone as he bounded up the hill.",
+          "mnemonic": "From Latin vita (life) — being utterly full of life.",
+          "synonyms": [
+            "vigor",
+            "energy",
+            "liveliness"
+          ],
+          "antonyms": [
+            "lethargy",
+            "weakness",
+            "listlessness"
+          ]
+        },
+        {
+          "id": "sat-famine",
+          "word": "famine",
+          "partOfSpeech": "noun",
+          "definition": "A severe, widespread shortage of food that causes hunger and starvation.",
+          "example": "When the crops failed two years running, famine swept through the region.",
+          "mnemonic": "Sounds like 'famished' — both mean desperately, dangerously hungry.",
+          "synonyms": [
+            "starvation",
+            "dearth",
+            "scarcity"
+          ],
+          "antonyms": [
+            "abundance",
+            "plenty",
+            "surplus"
+          ]
+        },
+        {
+          "id": "sat-pestilence",
+          "word": "pestilence",
+          "partOfSpeech": "noun",
+          "definition": "A deadly, fast-spreading disease that kills many people at once.",
+          "example": "The medieval pestilence wiped out a third of Europe's population.",
+          "mnemonic": "'pest' + -ilence — a pest so vast it becomes a killing plague.",
+          "synonyms": [
+            "plague",
+            "epidemic",
+            "scourge"
+          ],
+          "antonyms": [
+            "health",
+            "wellness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-contagion",
+          "word": "contagion",
+          "partOfSpeech": "noun",
+          "definition": "The spreading of disease or emotion from one person to another by contact.",
+          "example": "Fear moved through the crowd like a contagion, and soon everyone was fleeing.",
+          "mnemonic": "con- (with) + tag (touch, Latin tangere) — caught by touching.",
+          "synonyms": [
+            "transmission",
+            "infection",
+            "spread"
+          ],
+          "antonyms": [
+            "immunity",
+            "containment"
+          ]
+        },
+        {
+          "id": "sat-infirmity",
+          "word": "infirmity",
+          "partOfSpeech": "noun",
+          "definition": "Physical or mental weakness, especially caused by old age or illness.",
+          "example": "Age brought infirmity, and he could no longer climb the stairs unaided.",
+          "mnemonic": "in- (not) + firm — no longer firm or sturdy.",
+          "synonyms": [
+            "frailty",
+            "weakness",
+            "ailment"
+          ],
+          "antonyms": [
+            "strength",
+            "vigor",
+            "health"
+          ]
+        },
+        {
+          "id": "sat-frail",
+          "word": "frail",
+          "partOfSpeech": "adjective",
+          "definition": "Physically weak and delicate, easily broken or harmed.",
+          "example": "The frail old woman needed help to lift even a teacup.",
+          "mnemonic": "Rhymes with 'fail' — a frail thing fails the moment pressure hits it.",
+          "synonyms": [
+            "weak",
+            "delicate",
+            "fragile"
+          ],
+          "antonyms": [
+            "strong",
+            "robust",
+            "sturdy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-gaunt",
+          "word": "gaunt",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely thin and bony, often from illness, hunger, or exhaustion.",
+          "example": "After weeks lost in the mountains, his gaunt face frightened the rescue team.",
+          "mnemonic": "Sounds like 'want' — someone who badly wants food goes hollow and gaunt.",
+          "synonyms": [
+            "skeletal",
+            "bony",
+            "haggard"
+          ],
+          "antonyms": [
+            "plump",
+            "robust",
+            "fleshy"
+          ]
+        },
+        {
+          "id": "sat-haggard",
+          "word": "haggard",
+          "partOfSpeech": "adjective",
+          "definition": "Looking worn out and unwell from stress, tiredness, or suffering.",
+          "example": "Three sleepless nights with the newborn left her haggard by Friday morning.",
+          "mnemonic": "A witch, or 'hag,' is drawn and worn — a hag looks haggard.",
+          "synonyms": [
+            "drawn",
+            "careworn",
+            "worn-out"
+          ],
+          "antonyms": [
+            "fresh",
+            "radiant",
+            "rested"
+          ]
+        },
+        {
+          "id": "sat-emaciated",
+          "word": "emaciated",
+          "partOfSpeech": "adjective",
+          "definition": "Abnormally thin and weak, usually from starvation or serious illness.",
+          "example": "The rescued dogs were so emaciated that their ribs pressed against the skin.",
+          "mnemonic": "Hear 'e-MEAT-iated' — all the meat has wasted off the bones.",
+          "synonyms": [
+            "skeletal",
+            "wasted",
+            "gaunt"
+          ],
+          "antonyms": [
+            "plump",
+            "well-fed",
+            "robust"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-lassitude",
+          "word": "lassitude",
+          "partOfSpeech": "noun",
+          "definition": "A state of physical or mental weariness and lack of energy.",
+          "example": "A heavy lassitude settled over the office during the sticky afternoon heat.",
+          "mnemonic": "'Lazy attitude' slurred together becomes lassitude — no drive to move.",
+          "synonyms": [
+            "weariness",
+            "listlessness",
+            "fatigue"
+          ],
+          "antonyms": [
+            "vigor",
+            "energy",
+            "vitality"
+          ]
+        },
+        {
+          "id": "sat-torpor",
+          "word": "torpor",
+          "partOfSpeech": "noun",
+          "definition": "A state of sluggish inactivity, dullness, or suspended physical function.",
+          "example": "The bear sank into a winter torpor, barely stirring for months.",
+          "mnemonic": "Torpor rhymes with 'stupor' — both leave you numb, slowed, and motionless.",
+          "synonyms": [
+            "sluggishness",
+            "inertia",
+            "lethargy"
+          ],
+          "antonyms": [
+            "energy",
+            "alertness",
+            "vigor"
+          ]
+        },
+        {
+          "id": "sat-lethargy",
+          "word": "lethargy",
+          "partOfSpeech": "noun",
+          "definition": "A lack of energy, alertness, and enthusiasm; a drowsy indifference.",
+          "example": "The flu wrapped him in such lethargy that lifting a spoon felt heavy.",
+          "mnemonic": "'Let-thy-energy' drain away — that draining leaves you in lethargy.",
+          "synonyms": [
+            "sluggishness",
+            "torpor",
+            "fatigue"
+          ],
+          "antonyms": [
+            "energy",
+            "vitality",
+            "vigor"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-malaise",
+          "word": "malaise",
+          "partOfSpeech": "noun",
+          "definition": "A general feeling of illness, discomfort, or unease with no clear cause.",
+          "example": "A vague malaise hung over the town after the factory shut its doors.",
+          "mnemonic": "French 'mal' (bad) + 'aise' (ease) = bad-ease, a feeling that something's off.",
+          "synonyms": [
+            "unease",
+            "discomfort",
+            "disquiet"
+          ],
+          "antonyms": [
+            "wellbeing",
+            "comfort",
+            "vigor"
+          ]
+        },
+        {
+          "id": "sat-entropy",
+          "word": "entropy",
+          "partOfSpeech": "noun",
+          "definition": "The gradual slide of a system toward disorder, randomness, or decay.",
+          "example": "Left unmaintained, the garden surrendered to entropy and vanished under weeds.",
+          "mnemonic": "'En-trophy' — but the trophy is rusting; everything drifts toward chaos.",
+          "synonyms": [
+            "disorder",
+            "decay",
+            "chaos"
+          ],
+          "antonyms": [
+            "order",
+            "structure",
+            "organization"
+          ]
+        },
+        {
+          "id": "sat-dissolution",
+          "word": "dissolution",
+          "partOfSpeech": "noun",
+          "definition": "The process of breaking apart, ending, or formally disbanding something.",
+          "example": "The partners signed papers marking the dissolution of their fifteen-year company.",
+          "mnemonic": "Picture a sugar cube in water losing shape — the whole thing coming undone.",
+          "synonyms": [
+            "breakup",
+            "disintegration",
+            "termination"
+          ],
+          "antonyms": [
+            "formation",
+            "union",
+            "consolidation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-extinction",
+          "word": "extinction",
+          "partOfSpeech": "noun",
+          "definition": "The complete dying out or permanent disappearance of a species or thing.",
+          "example": "Relentless hunting drove the passenger pigeon to extinction within a few decades.",
+          "mnemonic": "Like a candle 'extinguished' — the flame is snuffed out and never returns.",
+          "synonyms": [
+            "annihilation",
+            "eradication",
+            "dying-out"
+          ],
+          "antonyms": [
+            "survival",
+            "existence",
+            "preservation"
+          ]
+        },
+        {
+          "id": "sat-fallow",
+          "word": "fallow",
+          "partOfSpeech": "adjective",
+          "definition": "Left unplanted or inactive for a time so it can rest and recover.",
+          "example": "The farmer let the north field lie fallow for a season to restore the soil.",
+          "mnemonic": "'Fall + low' — activity falls low while the ground quietly rests.",
+          "synonyms": [
+            "uncultivated",
+            "dormant",
+            "idle"
+          ],
+          "antonyms": [
+            "cultivated",
+            "active",
+            "productive"
+          ]
+        },
+        {
+          "id": "sat-sterile",
+          "word": "sterile",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to produce life or growth; barren; or completely free of germs.",
+          "example": "Nothing would grow in the sterile, salt-poisoned ground near the old mine.",
+          "mnemonic": "A 'steer' is a castrated bull that cannot breed — steer points to sterile.",
+          "synonyms": [
+            "barren",
+            "infertile",
+            "unproductive"
+          ],
+          "antonyms": [
+            "fertile",
+            "fruitful",
+            "productive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-parched",
+          "word": "parched",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely dry from heat or lack of water; or intensely thirsty.",
+          "example": "By noon the parched riverbed had cracked into a maze of dusty plates.",
+          "mnemonic": "Parched rhymes with 'scorched' — both are left bone-dry by the sun.",
+          "synonyms": [
+            "arid",
+            "dried-up",
+            "dehydrated"
+          ],
+          "antonyms": [
+            "soaked",
+            "moist",
+            "saturated"
+          ]
+        },
+        {
+          "id": "sat-wilt",
+          "word": "wilt",
+          "partOfSpeech": "verb",
+          "definition": "To droop, sag, or lose freshness and strength, as a plant does.",
+          "example": "The roses began to wilt within an hour of the vase running dry.",
+          "mnemonic": "Wilt sounds like 'wither' — the flower's 'will' melts and it flops over.",
+          "synonyms": [
+            "droop",
+            "sag",
+            "flag"
+          ],
+          "antonyms": [
+            "flourish",
+            "thrive",
+            "revive"
+          ]
+        },
+        {
+          "id": "sat-wax",
+          "word": "wax",
+          "partOfSpeech": "verb",
+          "definition": "To grow gradually larger, stronger, or more complete over time.",
+          "example": "As the moon began to wax, each night revealed a little more of its face.",
+          "mnemonic": "Imagine dripping wax that builds up layer by layer, steadily growing bigger.",
+          "synonyms": [
+            "grow",
+            "increase",
+            "swell"
+          ],
+          "antonyms": [
+            "wane",
+            "shrink",
+            "diminish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-bloom",
+          "word": "bloom",
+          "partOfSpeech": "verb",
+          "definition": "To produce flowers, or to reach a healthy, vigorous, and flourishing state.",
+          "example": "By late spring the orchard was in full bloom, every branch heavy with pink petals.",
+          "mnemonic": "Rhymes with 'room' — picture a room bursting open with fresh flowers.",
+          "synonyms": [
+            "blossom",
+            "flourish",
+            "flower"
+          ],
+          "antonyms": [
+            "wither",
+            "wilt",
+            "fade"
+          ]
+        },
+        {
+          "id": "sat-renewal",
+          "word": "renewal",
+          "partOfSpeech": "noun",
+          "definition": "The act of making something fresh, valid, or active again after decline or expiry.",
+          "example": "After the long winter, spring brought a sense of renewal to the tired, gray garden.",
+          "mnemonic": "Break it up: re + new + al — to make something 'new' once more.",
+          "synonyms": [
+            "revival",
+            "restoration",
+            "regeneration"
+          ],
+          "antonyms": [
+            "decay",
+            "deterioration",
+            "decline"
+          ]
+        },
+        {
+          "id": "sat-slump",
+          "word": "slump",
+          "partOfSpeech": "noun",
+          "definition": "A marked drop in performance, activity, or value, or a heavy sinking of the body.",
+          "example": "Sales fell into a deep slump after the factory closed, and morale sank right along with them.",
+          "mnemonic": "Sounds like 'slouch' plus 'dump' — you slouch and dump yourself into a chair.",
+          "synonyms": [
+            "decline",
+            "downturn",
+            "dip"
+          ],
+          "antonyms": [
+            "boom",
+            "surge",
+            "upturn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-recession",
+          "word": "recession",
+          "partOfSpeech": "noun",
+          "definition": "A temporary period when a country's economy shrinks and trade activity slows.",
+          "example": "During the recession, hiring froze and shuttered storefronts lined the once-busy avenue.",
+          "mnemonic": "From Latin 'recedere,' to recede — imagine the economy receding like a retreating tide.",
+          "synonyms": [
+            "downturn",
+            "slump",
+            "depression"
+          ],
+          "antonyms": [
+            "boom",
+            "expansion",
+            "recovery"
+          ]
+        },
+        {
+          "id": "sat-feeble",
+          "word": "feeble",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking physical strength, energy, or force; easily tired or overcome.",
+          "example": "The old dog gave only a feeble wag of its tail before drifting back to sleep.",
+          "mnemonic": "Sounds like 'flea' — as weak and easily crushed as a tiny flea.",
+          "synonyms": [
+            "weak",
+            "frail",
+            "faint"
+          ],
+          "antonyms": [
+            "strong",
+            "robust",
+            "vigorous"
+          ]
+        },
+        {
+          "id": "sat-sallow",
+          "word": "sallow",
+          "partOfSpeech": "adjective",
+          "definition": "Having skin of an unhealthy yellowish or pale color.",
+          "example": "After the long illness her once-rosy cheeks turned sallow and dull under the lamplight.",
+          "mnemonic": "Swap the 'y' in 'yellow' for 's' — sallow is a sickly yellow tint.",
+          "synonyms": [
+            "pallid",
+            "wan",
+            "jaundiced"
+          ],
+          "antonyms": [
+            "rosy",
+            "ruddy",
+            "glowing"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-luxuriant",
+          "word": "luxuriant",
+          "partOfSpeech": "adjective",
+          "definition": "Growing thickly and abundantly; rich, dense, and profuse.",
+          "example": "Vines and ferns grew so luxuriant that the path all but disappeared beneath them.",
+          "mnemonic": "Hidden inside is 'luxury' — think of growth so lush it feels luxurious.",
+          "synonyms": [
+            "lush",
+            "abundant",
+            "profuse"
+          ],
+          "antonyms": [
+            "sparse",
+            "barren",
+            "meager"
+          ]
+        },
+        {
+          "id": "sat-decadence",
+          "word": "decadence",
+          "partOfSpeech": "noun",
+          "definition": "A state of moral or cultural decline marked by excessive self-indulgence.",
+          "example": "The empire's final years were steeped in decadence, its rulers feasting while the borders crumbled.",
+          "mnemonic": "'De-' (down) + 'cadence' (a fall, from Latin cadere) — a falling-down of morals.",
+          "synonyms": [
+            "degeneracy",
+            "dissipation",
+            "decay"
+          ],
+          "antonyms": [
+            "virtue",
+            "restraint",
+            "morality"
+          ]
+        },
+        {
+          "id": "sat-wizened",
+          "word": "wizened",
+          "partOfSpeech": "adjective",
+          "definition": "Shriveled and deeply wrinkled, especially from old age.",
+          "example": "The wizened apple had sat in the bowl so long its skin puckered into deep creases.",
+          "mnemonic": "Starts like 'wizard' — picture an ancient wizard with a shriveled, crinkled face.",
+          "synonyms": [
+            "shriveled",
+            "wrinkled",
+            "withered"
+          ],
+          "antonyms": [
+            "smooth",
+            "youthful",
+            "plump"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-gnarled",
+          "word": "gnarled",
+          "partOfSpeech": "adjective",
+          "definition": "Twisted, knotty, and rough, as from age or hard wear.",
+          "example": "The old sailor's gnarled hands gripped the rope, knuckles knotted like oak roots.",
+          "mnemonic": "Sounds like a 'snarl' — a snarl of knots twisting through a tree's trunk.",
+          "synonyms": [
+            "knotty",
+            "twisted",
+            "contorted"
+          ],
+          "antonyms": [
+            "smooth",
+            "straight",
+            "even"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T21:44:02.955Z"
+}

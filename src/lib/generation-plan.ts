@@ -14,8 +14,9 @@
  * See docs/VOCAB-GENERATION.md.
  */
 
-import { formatMonthKey } from "@/lib/date-utils";
 import { normalizeWord } from "@/lib/stem";
+import { DEFAULT_TRACK, monthKey as buildMonthKey } from "@/lib/track";
+import type { Track } from "@/types";
 import type { VocabIndex } from "@/lib/vocab-index";
 
 export type Horizon = "month" | "quarter" | "half-year" | "year";
@@ -30,8 +31,15 @@ export type Difficulty = "gentle" | "steady" | "aggressive";
 
 export interface GenerationPlan {
   horizon: Horizon;
-  /** "YYYY-MM" */
-  startMonth: string;
+  /** Which vocabulary this plan adds to. */
+  track: Track;
+  /**
+   * Teaching position the plan starts at, 1-based.
+   *
+   * Not a date. A plan produces content, and content has no calendar in it —
+   * when the user studies these months is their schedule's business.
+   */
+  startOrdinal: number;
   wordsPerDay: number;
   /** Per-month themes. Generated once for the whole horizon when absent. */
   themes?: string[];
@@ -55,10 +63,14 @@ export const DAYS_PER_MONTH = 30;
 /** Ask for this much more than needed, and enforce uniqueness locally. */
 export const OVERAGE = 1.25;
 
-export function defaultPlan(startMonth: string): GenerationPlan {
+export function defaultPlan(
+  startOrdinal: number,
+  track: Track = DEFAULT_TRACK,
+): GenerationPlan {
   return {
     horizon: "quarter",
-    startMonth,
+    track,
+    startOrdinal,
     wordsPerDay: 3,
     difficulty: "steady",
     mustInclude: [],
@@ -66,16 +78,12 @@ export function defaultPlan(startMonth: string): GenerationPlan {
   };
 }
 
-/** Every month key the plan covers, in order. */
+/** Every month key the plan covers, in order — `"gre/07"`, `"gre/08"`, … */
 export function planMonths(plan: GenerationPlan): string[] {
   const count = HORIZON_MONTHS[plan.horizon];
-  const [year, month] = plan.startMonth.split("-").map(Number);
   const keys: string[] = [];
   for (let i = 0; i < count; i++) {
-    const date = new Date(Date.UTC(year, month - 1 + i, 1));
-    keys.push(
-      `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`,
-    );
+    keys.push(buildMonthKey(plan.track, plan.startOrdinal + i));
   }
   return keys;
 }
@@ -247,7 +255,10 @@ export function previewPlan(
   return {
     months: months.map((key, i) => ({
       key,
-      label: formatMonthKey(key),
+      // The theme is the month's name now. Without one it is its position,
+      // which is at least true — a date here would be a guess about a
+      // schedule this plan knows nothing about.
+      label: plan.themes?.[i] ?? `Month ${plan.startOrdinal + i}`,
       words: perMonth,
       theme: plan.themes?.[i],
     })),
@@ -260,8 +271,8 @@ export function previewPlan(
 /** Is this plan runnable at all? */
 export function planErrors(plan: GenerationPlan): string[] {
   const errors: string[] = [];
-  if (!/^\d{4}-\d{2}$/.test(plan.startMonth)) {
-    errors.push("Start month must look like 2026-07.");
+  if (!Number.isInteger(plan.startOrdinal) || plan.startOrdinal < 1) {
+    errors.push("Start month must be a whole teaching position of at least 1.");
   }
   if (!Number.isInteger(plan.wordsPerDay) || plan.wordsPerDay < 1) {
     errors.push("Words per day must be a whole number of at least 1.");

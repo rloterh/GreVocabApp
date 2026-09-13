@@ -1,0 +1,1243 @@
+{
+  "track": "gre",
+  "ordinal": 21,
+  "title": "Generosity and stinginess",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-munificence",
+          "word": "munificence",
+          "partOfSpeech": "noun",
+          "definition": "Great generosity, especially shown through lavish gifts of money.",
+          "example": "The library's new wing was funded entirely by the munificence of a single anonymous donor.",
+          "mnemonic": "MUNI (money, as in a city's MUNIcipal budget) + -ficence — money handed out freely to the public.",
+          "synonyms": [
+            "largesse",
+            "generosity",
+            "bounty"
+          ],
+          "antonyms": [
+            "stinginess",
+            "miserliness"
+          ]
+        },
+        {
+          "id": "gre-magnanimity",
+          "word": "magnanimity",
+          "partOfSpeech": "noun",
+          "definition": "Nobility of spirit shown by being forgiving or generous, especially toward rivals.",
+          "example": "In victory he showed remarkable magnanimity, publicly praising the opponent he had just defeated.",
+          "mnemonic": "MAGNA (great) + ANIM (soul) — a 'great soul' too big to stoop to pettiness.",
+          "synonyms": [
+            "nobility",
+            "forbearance",
+            "generosity"
+          ],
+          "antonyms": [
+            "pettiness",
+            "vindictiveness",
+            "spite"
+          ]
+        },
+        {
+          "id": "gre-beneficent",
+          "word": "beneficent",
+          "partOfSpeech": "adjective",
+          "definition": "Actively doing good and bringing kindness or help to others.",
+          "example": "The beneficent king lowered taxes and built shelters for the city's poor.",
+          "mnemonic": "BENE (good) + FIC (do) — one who DOes GOOD.",
+          "synonyms": [
+            "charitable",
+            "kind",
+            "benevolent"
+          ],
+          "antonyms": [
+            "harmful",
+            "malevolent",
+            "cruel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-beneficence",
+          "word": "beneficence",
+          "partOfSpeech": "noun",
+          "definition": "The quality or act of doing good and showing active kindness.",
+          "example": "The foundation's beneficence reached thousands of families in the weeks after the flood.",
+          "mnemonic": "BENE (good) + -ence — the state of good-doing; picture a 'benefit' with the good spilling out.",
+          "synonyms": [
+            "charity",
+            "kindness",
+            "generosity"
+          ],
+          "antonyms": [
+            "malevolence",
+            "cruelty",
+            "harm"
+          ]
+        },
+        {
+          "id": "gre-benevolence",
+          "word": "benevolence",
+          "partOfSpeech": "noun",
+          "definition": "A kind, well-meaning disposition and the wish to help others.",
+          "example": "She treated her employees with such benevolence that none of them ever wished to leave.",
+          "mnemonic": "BENE (good) + VOL (wish, as in 'volition') — to WISH someone WELL.",
+          "synonyms": [
+            "goodwill",
+            "kindness",
+            "compassion"
+          ],
+          "antonyms": [
+            "malevolence",
+            "hostility",
+            "ill will"
+          ]
+        },
+        {
+          "id": "gre-altruism",
+          "word": "altruism",
+          "partOfSpeech": "noun",
+          "definition": "Selfless concern for the welfare of other people rather than oneself.",
+          "example": "Donating a kidney to a stranger is an extraordinary act of altruism.",
+          "mnemonic": "ALTRU- sounds like 'ALTER' (other) — always putting OTHERS first.",
+          "synonyms": [
+            "selflessness",
+            "generosity",
+            "philanthropy"
+          ],
+          "antonyms": [
+            "selfishness",
+            "egoism",
+            "self-interest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-philanthropy",
+          "word": "philanthropy",
+          "partOfSpeech": "noun",
+          "definition": "The practice of helping others, especially by giving money to good causes.",
+          "example": "After selling his company, he devoted his fortune to philanthropy, endowing schools around the world.",
+          "mnemonic": "PHIL (love) + ANTHROPO (humankind) — LOVE of HUMANITY.",
+          "synonyms": [
+            "charity",
+            "benevolence",
+            "altruism"
+          ],
+          "antonyms": [
+            "misanthropy",
+            "selfishness",
+            "greed"
+          ]
+        },
+        {
+          "id": "gre-philanthropic",
+          "word": "philanthropic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to or marked by generous efforts to improve the lives of others.",
+          "example": "The philanthropic trust funds hospitals in regions that have no medical care at all.",
+          "mnemonic": "PHIL (love) + ANTHROPO (human) — describing work driven by love of people.",
+          "synonyms": [
+            "charitable",
+            "benevolent",
+            "humanitarian"
+          ],
+          "antonyms": [
+            "miserly",
+            "selfish",
+            "misanthropic"
+          ]
+        },
+        {
+          "id": "gre-philanthropist",
+          "word": "philanthropist",
+          "partOfSpeech": "noun",
+          "definition": "A wealthy person who gives generously to help others and worthy causes.",
+          "example": "The hospital wing bears the name of the philanthropist who quietly paid for it.",
+          "mnemonic": "PHIL (love) + ANTHROPO (human) + -IST — a PERSON who LOVES humankind.",
+          "synonyms": [
+            "benefactor",
+            "donor",
+            "humanitarian"
+          ],
+          "antonyms": [
+            "miser",
+            "skinflint",
+            "misanthrope"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-liberality",
+          "word": "liberality",
+          "partOfSpeech": "noun",
+          "definition": "The quality of giving freely and being open-handed or broad-minded.",
+          "example": "Her liberality knew no limits; she tipped waiters double and lent money to near strangers.",
+          "mnemonic": "LIBER- means 'free' (Latin liber) — giving with a FREE hand.",
+          "synonyms": [
+            "generosity",
+            "openhandedness",
+            "bounty"
+          ],
+          "antonyms": [
+            "stinginess",
+            "meanness",
+            "miserliness"
+          ]
+        },
+        {
+          "id": "gre-unstinting",
+          "word": "unstinting",
+          "partOfSpeech": "adjective",
+          "definition": "Given generously and without limit or holding back.",
+          "example": "The coach offered unstinting praise, lifting up every player even after the loss.",
+          "mnemonic": "UN + STINT — a 'stint' means to skimp or ration, so UN-stinting is NOT skimping.",
+          "synonyms": [
+            "generous",
+            "lavish",
+            "wholehearted"
+          ],
+          "antonyms": [
+            "grudging",
+            "sparing",
+            "stingy"
+          ]
+        },
+        {
+          "id": "gre-bestow",
+          "word": "bestow",
+          "partOfSpeech": "verb",
+          "definition": "To give something, especially an honor or gift, to someone.",
+          "example": "The queen chose to bestow a knighthood upon the loyal soldier.",
+          "mnemonic": "'Be' + 'stow' — to stow a gift into someone's keeping.",
+          "synonyms": [
+            "grant",
+            "confer",
+            "present"
+          ],
+          "antonyms": [
+            "withhold",
+            "deny",
+            "keep"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-endow",
+          "word": "endow",
+          "partOfSpeech": "verb",
+          "definition": "To provide someone or something with money, property, or a quality.",
+          "example": "A wealthy alumnus chose to endow the college with a new science wing.",
+          "mnemonic": "'En' + 'dow(ry)' — like a dowry, wealth given to set someone up.",
+          "synonyms": [
+            "fund",
+            "grant",
+            "furnish"
+          ],
+          "antonyms": [
+            "divest",
+            "deprive",
+            "strip"
+          ]
+        },
+        {
+          "id": "gre-bequeath",
+          "word": "bequeath",
+          "partOfSpeech": "verb",
+          "definition": "To leave money or possessions to someone through a will after death.",
+          "example": "In her will, she chose to bequeath the farmhouse to her youngest niece.",
+          "mnemonic": "'Be-queath' sounds like 'beneath' — what you leave beneath you when you pass on.",
+          "synonyms": [
+            "leave",
+            "hand down",
+            "will"
+          ],
+          "antonyms": [
+            "inherit",
+            "receive"
+          ]
+        },
+        {
+          "id": "gre-bequest",
+          "word": "bequest",
+          "partOfSpeech": "noun",
+          "definition": "Money or property left to someone by a will.",
+          "example": "The museum's finest painting arrived as a bequest from a late collector.",
+          "mnemonic": "'Be' + 'quest' — the treasure waiting at the end of a will's quest.",
+          "synonyms": [
+            "legacy",
+            "inheritance",
+            "endowment"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-benefactor",
+          "word": "benefactor",
+          "partOfSpeech": "noun",
+          "definition": "A person who gives money or help to a cause, institution, or individual.",
+          "example": "An anonymous benefactor quietly paid the tuition of every student in the class.",
+          "mnemonic": "'Bene' (good) + 'factor' (doer): a doer of good deeds.",
+          "synonyms": [
+            "patron",
+            "donor",
+            "sponsor"
+          ],
+          "antonyms": [
+            "beneficiary",
+            "recipient"
+          ]
+        },
+        {
+          "id": "gre-benefaction",
+          "word": "benefaction",
+          "partOfSpeech": "noun",
+          "definition": "A gift of money or help given to a person or cause in need.",
+          "example": "The library's new wing was funded entirely by a single anonymous benefaction.",
+          "mnemonic": "bene- means 'good' (Latin) + faction sounds like 'action' — a good action done for others.",
+          "synonyms": [
+            "donation",
+            "contribution",
+            "endowment"
+          ],
+          "antonyms": [
+            "theft",
+            "deprivation"
+          ]
+        },
+        {
+          "id": "gre-beneficiary",
+          "word": "beneficiary",
+          "partOfSpeech": "noun",
+          "definition": "A person who receives money, property, or advantages from something.",
+          "example": "As the sole beneficiary of the will, she inherited the entire estate.",
+          "mnemonic": "bene- 'good' + -ficiary — the one for whom the good is done.",
+          "synonyms": [
+            "recipient",
+            "heir",
+            "legatee"
+          ],
+          "antonyms": [
+            "benefactor",
+            "donor"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-patron",
+          "word": "patron",
+          "partOfSpeech": "noun",
+          "definition": "A person who gives financial or other support to an artist, charity, or shop.",
+          "example": "The struggling painter finally found a wealthy patron to fund his studio.",
+          "mnemonic": "Shares a root with 'pater' (father) — a fatherly protector who backs you.",
+          "synonyms": [
+            "sponsor",
+            "backer",
+            "supporter"
+          ],
+          "antonyms": [
+            "opponent",
+            "critic"
+          ]
+        },
+        {
+          "id": "gre-patronage",
+          "word": "patronage",
+          "partOfSpeech": "noun",
+          "definition": "The financial support or regular business given by a supporter or customer.",
+          "example": "The café thrived thanks to the loyal patronage of the whole neighborhood.",
+          "mnemonic": "'Patron' + '-age' — the state or act of being a patron.",
+          "synonyms": [
+            "support",
+            "sponsorship",
+            "custom"
+          ],
+          "antonyms": [
+            "neglect",
+            "boycott"
+          ]
+        },
+        {
+          "id": "gre-confer",
+          "word": "confer",
+          "partOfSpeech": "verb",
+          "definition": "To grant an honor, right, or benefit to someone.",
+          "example": "The university will confer an honorary degree on the retiring scientist.",
+          "mnemonic": "Latin con- 'together' + ferre 'to carry' — you carry something over and give it.",
+          "synonyms": [
+            "bestow",
+            "grant",
+            "award"
+          ],
+          "antonyms": [
+            "withhold",
+            "deny",
+            "revoke"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-dispense",
+          "word": "dispense",
+          "partOfSpeech": "verb",
+          "definition": "To hand out or distribute something to people.",
+          "example": "The pharmacist will dispense the medication once the prescription is verified.",
+          "mnemonic": "dis- 'apart' + pense 'to weigh' (like 'pension') — to weigh out and give apart.",
+          "synonyms": [
+            "distribute",
+            "administer",
+            "deal out"
+          ],
+          "antonyms": [
+            "collect",
+            "withhold"
+          ]
+        },
+        {
+          "id": "gre-disburse",
+          "word": "disburse",
+          "partOfSpeech": "verb",
+          "definition": "To pay out money, especially from a fund.",
+          "example": "The treasurer will disburse the grant funds to each department next week.",
+          "mnemonic": "dis- + 'burse' (a purse, as in 'bursar') — money taken out of the purse.",
+          "synonyms": [
+            "pay out",
+            "expend",
+            "outlay"
+          ],
+          "antonyms": [
+            "collect",
+            "save"
+          ]
+        },
+        {
+          "id": "gre-allot",
+          "word": "allot",
+          "partOfSpeech": "verb",
+          "definition": "To assign or give a portion of something for a particular purpose.",
+          "example": "Each speaker was allotted ten minutes to present their case.",
+          "mnemonic": "Sounds like 'a lot' — you hand someone their lot, their fixed share.",
+          "synonyms": [
+            "allocate",
+            "assign",
+            "apportion"
+          ],
+          "antonyms": [
+            "withhold",
+            "retain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-allocate",
+          "word": "allocate",
+          "partOfSpeech": "verb",
+          "definition": "To set aside or assign resources for a specific purpose.",
+          "example": "The committee decided to allocate most of the budget to road repairs.",
+          "mnemonic": "al- + 'locate' — to give a resource its place or location.",
+          "synonyms": [
+            "assign",
+            "earmark",
+            "designate"
+          ],
+          "antonyms": [
+            "withhold",
+            "retain"
+          ]
+        },
+        {
+          "id": "gre-apportion",
+          "word": "apportion",
+          "partOfSpeech": "verb",
+          "definition": "To divide and give out in fair or proper shares.",
+          "example": "The judge had to apportion the blame between the two careless drivers.",
+          "mnemonic": "a- + 'portion' — to hand each party its portion.",
+          "synonyms": [
+            "distribute",
+            "allot",
+            "divide"
+          ],
+          "antonyms": [
+            "combine",
+            "withhold"
+          ]
+        },
+        {
+          "id": "gre-dole",
+          "word": "dole",
+          "partOfSpeech": "verb",
+          "definition": "To give out small portions of something, usually slowly or reluctantly.",
+          "example": "The camp cook would dole out one thin ladle of soup to each child in line.",
+          "mnemonic": "Sounds like 'doll' — picture handing out one tiny doll at a time to a long queue.",
+          "synonyms": [
+            "distribute",
+            "allot",
+            "ration"
+          ],
+          "antonyms": [
+            "hoard",
+            "withhold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-mete",
+          "word": "mete",
+          "partOfSpeech": "verb",
+          "definition": "To hand out or assign something, especially punishment or reward, by measured amounts.",
+          "example": "The judge will mete out a harsher sentence to repeat offenders.",
+          "mnemonic": "Sounds like 'meter' — a meter measures precisely, and to mete is to deal out by measure.",
+          "synonyms": [
+            "allocate",
+            "administer",
+            "apportion"
+          ],
+          "antonyms": [
+            "withhold",
+            "retain"
+          ]
+        },
+        {
+          "id": "gre-donor",
+          "word": "donor",
+          "partOfSpeech": "noun",
+          "definition": "A person who gives money, goods, or help to a cause or another person.",
+          "example": "A generous donor covered the entire cost of the children's surgeries.",
+          "mnemonic": "From Latin donare 'to give' — the same root as 'donate'.",
+          "synonyms": [
+            "giver",
+            "contributor",
+            "benefactor"
+          ],
+          "antonyms": [
+            "recipient",
+            "beneficiary"
+          ]
+        },
+        {
+          "id": "gre-gratuity",
+          "word": "gratuity",
+          "partOfSpeech": "noun",
+          "definition": "A small sum of money given for a service, beyond the required payment.",
+          "example": "The waiter's attentive service earned him a generous gratuity.",
+          "mnemonic": "Shares a root with 'gratitude' — money handed over out of thanks.",
+          "synonyms": [
+            "tip",
+            "bonus",
+            "perquisite"
+          ],
+          "antonyms": [
+            "wage",
+            "fee"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-bonanza",
+          "word": "bonanza",
+          "partOfSpeech": "noun",
+          "definition": "A sudden source of great wealth, luck, or success.",
+          "example": "The newly discovered oil field proved to be a bonanza for the small town.",
+          "mnemonic": "Spanish for 'fair weather, prosperity' — sounds like 'bonus' + 'nirvana', a jackpot.",
+          "synonyms": [
+            "windfall",
+            "jackpot",
+            "gold mine"
+          ],
+          "antonyms": [
+            "misfortune",
+            "disaster"
+          ]
+        },
+        {
+          "id": "gre-windfall",
+          "word": "windfall",
+          "partOfSpeech": "noun",
+          "definition": "An unexpected sum of money or benefit that arrives by luck.",
+          "example": "When the old stock finally soared, the sudden profit was a windfall the family never planned for.",
+          "mnemonic": "Wind blows apples that FALL from the tree — free fruit you never worked for.",
+          "synonyms": [
+            "bonanza",
+            "godsend",
+            "bonus"
+          ],
+          "antonyms": [
+            "loss",
+            "shortfall"
+          ]
+        },
+        {
+          "id": "gre-affluent",
+          "word": "affluent",
+          "partOfSpeech": "adjective",
+          "definition": "Having plenty of money and a comfortable, prosperous standard of living.",
+          "example": "They moved into an affluent suburb where every house had a gate, a pool, and a private drive.",
+          "mnemonic": "Hidden 'flu' from Latin 'fluere' (to flow) — money flows toward the rich.",
+          "synonyms": [
+            "wealthy",
+            "prosperous",
+            "well-off"
+          ],
+          "antonyms": [
+            "poor",
+            "destitute",
+            "impoverished"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-lush",
+          "word": "lush",
+          "partOfSpeech": "adjective",
+          "definition": "Growing thick, green, and healthy, or richly abundant and pleasing.",
+          "example": "After a week of rain, the hillside turned lush with tall grass and wildflowers.",
+          "mnemonic": "Sounds like 'plush' — soft, rich, thick, and deep, like a plush carpet of green.",
+          "synonyms": [
+            "verdant",
+            "luxuriant",
+            "abundant"
+          ],
+          "antonyms": [
+            "barren",
+            "sparse",
+            "arid"
+          ]
+        },
+        {
+          "id": "gre-luxuriance",
+          "word": "luxuriance",
+          "partOfSpeech": "noun",
+          "definition": "The quality of growing thickly, richly, and in great abundance.",
+          "example": "The jungle's luxuriance was so dense we couldn't see more than a few feet ahead.",
+          "mnemonic": "Luxury plus abundance of growth — every leaf and vine overflowing.",
+          "synonyms": [
+            "lushness",
+            "profusion",
+            "exuberance"
+          ],
+          "antonyms": [
+            "sparseness",
+            "barrenness"
+          ]
+        },
+        {
+          "id": "gre-surplus",
+          "word": "surplus",
+          "partOfSpeech": "noun",
+          "definition": "An amount left over after all needs have been fully met.",
+          "example": "The harvest was so good that the farm sold its grain surplus to neighboring towns.",
+          "mnemonic": "'Sur' (over) + 'plus' — a plus that spills over the top: extra to spare.",
+          "synonyms": [
+            "excess",
+            "overflow",
+            "glut"
+          ],
+          "antonyms": [
+            "shortage",
+            "deficit",
+            "deficiency"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-profligate",
+          "word": "profligate",
+          "partOfSpeech": "adjective",
+          "definition": "Spending money or resources recklessly and wastefully, with no thought for the future.",
+          "example": "The heir burned through his inheritance in two years with profligate spending on yachts and parties.",
+          "mnemonic": "Sounds like \"pro-fli-gate\" — imagine a rich guy flinging money out an open gate, letting it all fly away.",
+          "synonyms": [
+            "wasteful",
+            "extravagant",
+            "spendthrift"
+          ],
+          "antonyms": [
+            "frugal",
+            "thrifty",
+            "economical"
+          ]
+        },
+        {
+          "id": "gre-profligacy",
+          "word": "profligacy",
+          "partOfSpeech": "noun",
+          "definition": "The state of squandering money or living with reckless moral abandon.",
+          "example": "Historians blame the empire's collapse on decades of court profligacy and empty treasuries.",
+          "mnemonic": "The '-acy' turns the wasteful person into the habit itself — like 'privacy' is the state of being private, this is the state of a spendthrift.",
+          "synonyms": [
+            "prodigality",
+            "wastefulness",
+            "dissipation"
+          ],
+          "antonyms": [
+            "frugality",
+            "thrift",
+            "restraint"
+          ]
+        },
+        {
+          "id": "gre-extravagant",
+          "word": "extravagant",
+          "partOfSpeech": "adjective",
+          "definition": "Spending or costing far more than is reasonable or necessary.",
+          "example": "She threw an extravagant party with imported orchids in every corner and a live orchestra.",
+          "mnemonic": "Extra + vagant (Latin vagari, 'to wander') — your spending wanders EXTRA far beyond the budget.",
+          "synonyms": [
+            "lavish",
+            "excessive",
+            "opulent"
+          ],
+          "antonyms": [
+            "modest",
+            "economical",
+            "restrained"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-extravagance",
+          "word": "extravagance",
+          "partOfSpeech": "noun",
+          "definition": "Excessive spending, or a costly luxury beyond what one needs.",
+          "example": "A weekend at the spa felt like a rare extravagance for someone who usually clipped coupons.",
+          "mnemonic": "The noun of 'extravagant' — the wandering EXTRA far is now the act itself, an -ance you can point to.",
+          "synonyms": [
+            "excess",
+            "lavishness",
+            "indulgence"
+          ],
+          "antonyms": [
+            "thrift",
+            "economy",
+            "moderation"
+          ]
+        },
+        {
+          "id": "gre-gratuitous",
+          "word": "gratuitous",
+          "partOfSpeech": "adjective",
+          "definition": "Done without good reason, or given free of charge; uncalled for and unwarranted.",
+          "example": "The film's gratuitous violence added nothing to the plot and left viewers uneasy.",
+          "mnemonic": "Shares a root with 'gratis' (free) — something thrown in for free, and by extension, uncalled for.",
+          "synonyms": [
+            "unwarranted",
+            "needless",
+            "unjustified"
+          ],
+          "antonyms": [
+            "justified",
+            "warranted",
+            "necessary"
+          ]
+        },
+        {
+          "id": "gre-miserly",
+          "word": "miserly",
+          "partOfSpeech": "adjective",
+          "definition": "Hoarding wealth and hating to part with even small amounts.",
+          "example": "Their miserly landlord refused to fix the heater to save a few dollars in winter.",
+          "mnemonic": "Contains 'miser' — picture Scrooge hunhappily clutching his coins, MISERable because he won't spend.",
+          "synonyms": [
+            "stingy",
+            "tightfisted",
+            "grasping"
+          ],
+          "antonyms": [
+            "generous",
+            "openhanded",
+            "lavish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-niggardly",
+          "word": "niggardly",
+          "partOfSpeech": "adjective",
+          "definition": "Grudgingly giving or spending as little as possible.",
+          "example": "The boss handed out niggardly bonuses that barely covered a single dinner.",
+          "mnemonic": "Sounds like 'niggling' — a niggling, pinching reluctance to give a decent amount.",
+          "synonyms": [
+            "stingy",
+            "meager",
+            "sparing"
+          ],
+          "antonyms": [
+            "generous",
+            "bountiful",
+            "liberal"
+          ]
+        },
+        {
+          "id": "gre-thrifty",
+          "word": "thrifty",
+          "partOfSpeech": "adjective",
+          "definition": "Managing money and resources carefully to avoid waste.",
+          "example": "The thrifty student cooked at home all week so he could afford one trip abroad.",
+          "mnemonic": "The '-y' makes a person out of 'thrift' — someone who THRIVES by not wasting.",
+          "synonyms": [
+            "frugal",
+            "economical",
+            "prudent"
+          ],
+          "antonyms": [
+            "wasteful",
+            "extravagant",
+            "profligate"
+          ]
+        },
+        {
+          "id": "gre-stingy",
+          "word": "stingy",
+          "partOfSpeech": "adjective",
+          "definition": "Unwilling to give or spend, even when able to.",
+          "example": "He was so stingy he split the restaurant bill down to the last shared french fry.",
+          "mnemonic": "A 'sting' — parting with money stings so much you refuse to do it.",
+          "synonyms": [
+            "miserly",
+            "tightfisted",
+            "cheap"
+          ],
+          "antonyms": [
+            "generous",
+            "openhanded",
+            "lavish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-skinflint",
+          "word": "skinflint",
+          "partOfSpeech": "noun",
+          "definition": "A person who hates spending and hoards every coin.",
+          "example": "The office skinflint drove across town to save four cents a gallon on gas.",
+          "mnemonic": "Skin + flint — a person so cheap he'd 'skin a flint' (scrape a stone) for a scrap of value.",
+          "synonyms": [
+            "miser",
+            "cheapskate",
+            "penny-pincher"
+          ],
+          "antonyms": [
+            "spendthrift",
+            "philanthropist",
+            "big spender"
+          ]
+        },
+        {
+          "id": "gre-rapacity",
+          "word": "rapacity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being aggressively greedy and grasping for more.",
+          "example": "The empire's rapacity stripped its colonies of gold, timber, and dignity.",
+          "mnemonic": "Rapt + capacity: an endless capacity to snatch (from Latin rapere, to seize).",
+          "synonyms": [
+            "avarice",
+            "greed",
+            "cupidity"
+          ],
+          "antonyms": [
+            "generosity",
+            "munificence"
+          ]
+        },
+        {
+          "id": "gre-grasping",
+          "word": "grasping",
+          "partOfSpeech": "adjective",
+          "definition": "Selfishly eager to acquire money or things, often at others' expense.",
+          "example": "Her grasping business partner tried to claim every last cent of the profits.",
+          "mnemonic": "Picture hands literally clutching at money and refusing to let go — grasping.",
+          "synonyms": [
+            "greedy",
+            "avaricious",
+            "covetous"
+          ],
+          "antonyms": [
+            "generous",
+            "giving"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-venal",
+          "word": "venal",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to act dishonestly or be bribed in exchange for money.",
+          "example": "The venal inspector waved the safety violations through once cash changed hands.",
+          "mnemonic": "Think 'vend' — everything is for sale, even the official's integrity. (Don't confuse with 'venial,' a minor sin.)",
+          "synonyms": [
+            "corrupt",
+            "bribable",
+            "mercenary"
+          ],
+          "antonyms": [
+            "honest",
+            "incorruptible"
+          ]
+        },
+        {
+          "id": "gre-scrimp",
+          "word": "scrimp",
+          "partOfSpeech": "verb",
+          "definition": "To spend very little and economize severely, often on necessities.",
+          "example": "They scrimped for years, skipping vacations and dinners out, to afford a home.",
+          "mnemonic": "Rhymes with 'skimp' and 'shrimp' — you shrink your spending down to shrimp size.",
+          "synonyms": [
+            "skimp",
+            "economize",
+            "pinch"
+          ],
+          "antonyms": [
+            "splurge",
+            "squander"
+          ]
+        },
+        {
+          "id": "gre-stint",
+          "word": "stint",
+          "partOfSpeech": "verb",
+          "definition": "To supply or use something in an ungenerously small amount.",
+          "example": "A great teacher, she never stinted on praise when her students worked hard.",
+          "mnemonic": "Stint is 'stingy' with the ending clipped off — a stingy person always stints.",
+          "synonyms": [
+            "skimp",
+            "scrimp",
+            "economize"
+          ],
+          "antonyms": [
+            "lavish",
+            "splurge"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-paltry",
+          "word": "paltry",
+          "partOfSpeech": "adjective",
+          "definition": "So small or trivial as to be worthless or insulting.",
+          "example": "After a year of overtime, the paltry raise felt like a slap in the face.",
+          "mnemonic": "Sounds like 'poultry' — a scrawny little chicken hardly worth the trouble of eating.",
+          "synonyms": [
+            "measly",
+            "trifling",
+            "meager"
+          ],
+          "antonyms": [
+            "substantial",
+            "generous",
+            "ample"
+          ]
+        },
+        {
+          "id": "gre-spartan",
+          "word": "spartan",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by strict simplicity, self-discipline, and the absence of luxury.",
+          "example": "The monastery's spartan cells held only a cot, a candle, and a worn bible.",
+          "mnemonic": "The ancient warriors of Sparta lived hard, disciplined lives with zero comforts — hence spartan.",
+          "synonyms": [
+            "austere",
+            "frugal",
+            "ascetic"
+          ],
+          "antonyms": [
+            "luxurious",
+            "lavish",
+            "opulent"
+          ]
+        },
+        {
+          "id": "gre-unsparing",
+          "word": "unsparing",
+          "partOfSpeech": "adjective",
+          "definition": "Holding nothing back, whether in lavish generosity or in harsh criticism.",
+          "example": "Her unsparing review pointed out every flaw the author had tried to hide.",
+          "mnemonic": "un- (not) + sparing — you don't spare anything, giving or attacking without limit.",
+          "synonyms": [
+            "unstinting",
+            "lavish",
+            "relentless"
+          ],
+          "antonyms": [
+            "sparing",
+            "lenient",
+            "stingy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-alms",
+          "word": "alms",
+          "partOfSpeech": "noun",
+          "definition": "Money or food given freely to help the poor.",
+          "example": "The monk walked the village at dawn, collecting alms in a worn wooden bowl.",
+          "mnemonic": "Sounds like 'arms' — you open your arms to give to the needy.",
+          "synonyms": [
+            "charity",
+            "donation",
+            "handout"
+          ],
+          "antonyms": [
+            "hoarding",
+            "greed",
+            "exaction"
+          ]
+        },
+        {
+          "id": "gre-humanitarian",
+          "word": "humanitarian",
+          "partOfSpeech": "adjective",
+          "definition": "Devoted to reducing suffering and improving the welfare of people.",
+          "example": "The humanitarian flew into the disaster zone to distribute food and medicine.",
+          "mnemonic": "human + -itarian — one whose whole identity is caring for humanity.",
+          "synonyms": [
+            "philanthropic",
+            "benevolent",
+            "altruistic"
+          ],
+          "antonyms": [
+            "cruel",
+            "inhumane",
+            "callous"
+          ]
+        },
+        {
+          "id": "gre-charitable",
+          "word": "charitable",
+          "partOfSpeech": "adjective",
+          "definition": "Generous toward the needy, or kind and lenient when judging others.",
+          "example": "It was charitable of her to assume he was simply late, not deliberately rude.",
+          "mnemonic": "A 'chariot' of aid arriving — charitable help comes rolling in.",
+          "synonyms": [
+            "generous",
+            "benevolent",
+            "lenient"
+          ],
+          "antonyms": [
+            "uncharitable",
+            "harsh",
+            "stingy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-illiberal",
+          "word": "illiberal",
+          "partOfSpeech": "adjective",
+          "definition": "Narrow-minded and intolerant, unwilling to grant others freedom or generosity.",
+          "example": "His illiberal attitude left no room for any opinion that differed from his own.",
+          "mnemonic": "il- (not) + liberal — the opposite of open-minded, so closed and mean.",
+          "synonyms": [
+            "intolerant",
+            "bigoted",
+            "narrow-minded"
+          ],
+          "antonyms": [
+            "liberal",
+            "tolerant",
+            "broad-minded"
+          ]
+        },
+        {
+          "id": "gre-grudging",
+          "word": "grudging",
+          "partOfSpeech": "adjective",
+          "definition": "Given or done reluctantly and without any good will.",
+          "example": "He gave a grudging nod, clearly unhappy to admit that she was right.",
+          "mnemonic": "Say it with a 'grrr' — you growl while doing something you resent.",
+          "synonyms": [
+            "reluctant",
+            "unwilling",
+            "halfhearted"
+          ],
+          "antonyms": [
+            "willing",
+            "eager",
+            "wholehearted"
+          ]
+        },
+        {
+          "id": "gre-begrudge",
+          "word": "begrudge",
+          "partOfSpeech": "verb",
+          "definition": "To resent or envy what another person has or receives.",
+          "example": "I don't begrudge her the promotion; she worked harder than anyone on the team.",
+          "mnemonic": "be- + grudge — to hold a grudge against someone's good fortune.",
+          "synonyms": [
+            "envy",
+            "resent",
+            "covet"
+          ],
+          "antonyms": [
+            "welcome",
+            "celebrate",
+            "grant freely"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-eleemosynary",
+          "word": "eleemosynary",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to or supported by charity and giving to the poor.",
+          "example": "The hospital began as an eleemosynary institution funded entirely by private donations.",
+          "mnemonic": "Shares a Greek root (eleēmosynē, 'mercy') with 'alms' — think of it as the fancy word for almsgiving.",
+          "synonyms": [
+            "charitable",
+            "philanthropic",
+            "benevolent"
+          ],
+          "antonyms": [
+            "profit-driven",
+            "mercenary",
+            "commercial"
+          ]
+        },
+        {
+          "id": "gre-gracious",
+          "word": "gracious",
+          "partOfSpeech": "adjective",
+          "definition": "Kind, courteous, and pleasant, especially toward those of lower rank.",
+          "example": "Even in defeat, she remained gracious, thanking her opponent with a warm smile.",
+          "mnemonic": "Full of 'grace' — a graceful, gracious host puts everyone at ease.",
+          "synonyms": [
+            "courteous",
+            "cordial",
+            "kindly"
+          ],
+          "antonyms": [
+            "rude",
+            "discourteous",
+            "surly"
+          ]
+        },
+        {
+          "id": "gre-hospitable",
+          "word": "hospitable",
+          "partOfSpeech": "adjective",
+          "definition": "Friendly and generous in welcoming guests or strangers into one's home.",
+          "example": "Our hosts were so hospitable that we felt completely at home within minutes.",
+          "mnemonic": "Like a 'hospital' and a 'hotel' both take you in — hospitable places welcome you.",
+          "synonyms": [
+            "welcoming",
+            "warm",
+            "accommodating"
+          ],
+          "antonyms": [
+            "inhospitable",
+            "unwelcoming",
+            "cold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-benignant",
+          "word": "benignant",
+          "partOfSpeech": "adjective",
+          "definition": "Kind, gentle, and gracious, often in a lofty or patronizing way.",
+          "example": "The old king gave a benignant smile as he blessed the children gathered at his feet.",
+          "mnemonic": "bene- ('good') like in 'benign' — a kindly, good-natured manner beaming down.",
+          "synonyms": [
+            "benevolent",
+            "kindly",
+            "gracious"
+          ],
+          "antonyms": [
+            "malevolent",
+            "cruel",
+            "unkind"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Mid-frequency and academic register",
+  "createdAt": "2026-09-12T08:44:04.822Z"
+}

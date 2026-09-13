@@ -90,7 +90,7 @@ export function MobileTabBar({
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.15 }}
-              className="fixed inset-0 z-40 bg-background/80 lg:hidden"
+              className="fixed inset-0 z-40 bg-background/80 rail:hidden"
               onClick={() => onMoreOpenChange(false)}
             />
             <motion.div
@@ -100,7 +100,7 @@ export function MobileTabBar({
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
               transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
-              className="fixed inset-x-0 bottom-0 z-50 rounded-t-2xl border-t border-border bg-card p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] lg:hidden"
+              className="fixed inset-x-0 bottom-0 z-50 rounded-t-2xl border-t border-border bg-card p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] rail:hidden"
             >
               <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-border" />
               <div className="grid grid-cols-3 gap-2">
@@ -135,7 +135,7 @@ export function MobileTabBar({
 
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-card/95 backdrop-blur pb-[env(safe-area-inset-bottom)] lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-card/95 backdrop-blur pb-[env(safe-area-inset-bottom)] rail:hidden"
       >
         {TABS.map((d) => (
           <Tab

@@ -1,0 +1,1594 @@
+{
+  "track": "gre",
+  "ordinal": 14,
+  "title": "Order and disorder",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-chaos",
+          "word": "chaos",
+          "partOfSpeech": "noun",
+          "definition": "A state of complete disorder and confusion where nothing follows any rule.",
+          "example": "When the fire alarm rang, the crowded mall dissolved into chaos as shoppers stampeded for the exits.",
+          "mnemonic": "From the Greek 'Khaos,' the yawning empty void that existed before the universe had any order.",
+          "synonyms": [
+            "disorder",
+            "confusion",
+            "turmoil"
+          ],
+          "antonyms": [
+            "order",
+            "harmony",
+            "calm"
+          ]
+        },
+        {
+          "id": "gre-tumult",
+          "word": "tumult",
+          "partOfSpeech": "noun",
+          "definition": "A loud, confused uproar, usually from an excited or agitated crowd.",
+          "example": "The senator's words were drowned out by the tumult of protesters chanting outside the chamber.",
+          "mnemonic": "Sounds like 'too-mult' — TOO many MULTitudes all shouting at once.",
+          "synonyms": [
+            "uproar",
+            "commotion",
+            "din"
+          ],
+          "antonyms": [
+            "quiet",
+            "calm",
+            "tranquility"
+          ]
+        },
+        {
+          "id": "gre-turmoil",
+          "word": "turmoil",
+          "partOfSpeech": "noun",
+          "definition": "A condition of great agitation, uncertainty, or emotional disturbance.",
+          "example": "After losing her job and her home in the same week, she lived in constant turmoil.",
+          "mnemonic": "'Turn' + 'oil' — churning oil that boils and turns violently in a pot.",
+          "synonyms": [
+            "upheaval",
+            "unrest",
+            "disorder"
+          ],
+          "antonyms": [
+            "peace",
+            "calm",
+            "stability"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-upheaval",
+          "word": "upheaval",
+          "partOfSpeech": "noun",
+          "definition": "A sudden, dramatic change that disrupts an established situation or order.",
+          "example": "The invention of the smartphone caused an upheaval in how people communicate.",
+          "mnemonic": "'Up' + 'heave' — the ground heaves UP, tossing everything skyward.",
+          "synonyms": [
+            "disruption",
+            "revolution",
+            "disturbance"
+          ],
+          "antonyms": [
+            "stability",
+            "calm",
+            "order"
+          ]
+        },
+        {
+          "id": "gre-pandemonium",
+          "word": "pandemonium",
+          "partOfSpeech": "noun",
+          "definition": "Wild, noisy disorder and uproar in a crowd or place.",
+          "example": "When the home team scored the winning goal, pandemonium erupted across the packed stadium.",
+          "mnemonic": "Milton coined it as Hell's capital: 'pan' (all) + 'demon' — a city where all the demons scream at once.",
+          "synonyms": [
+            "uproar",
+            "bedlam",
+            "chaos"
+          ],
+          "antonyms": [
+            "order",
+            "calm",
+            "peace"
+          ]
+        },
+        {
+          "id": "gre-anarchy",
+          "word": "anarchy",
+          "partOfSpeech": "noun",
+          "definition": "A state with no government, laws, or controlling authority.",
+          "example": "When the police force collapsed, the city descended into anarchy, with gangs ruling each block.",
+          "mnemonic": "'An-' (without) + 'arch' (ruler) — literally, without a ruler.",
+          "synonyms": [
+            "lawlessness",
+            "disorder",
+            "chaos"
+          ],
+          "antonyms": [
+            "order",
+            "government",
+            "rule"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-bedlam",
+          "word": "bedlam",
+          "partOfSpeech": "noun",
+          "definition": "A scene of noisy, uncontrolled confusion.",
+          "example": "The classroom turned into bedlam the moment the substitute teacher stepped out.",
+          "mnemonic": "Named after Bethlem, a notorious old London asylum whose racket became a byword.",
+          "synonyms": [
+            "pandemonium",
+            "uproar",
+            "chaos"
+          ],
+          "antonyms": [
+            "calm",
+            "order",
+            "peace"
+          ]
+        },
+        {
+          "id": "gre-mayhem",
+          "word": "mayhem",
+          "partOfSpeech": "noun",
+          "definition": "Violent disorder that causes injury, damage, or reckless destruction.",
+          "example": "The escaped bull charged through the market, causing mayhem among the vendors and shoppers.",
+          "mnemonic": "Sounds like 'maim him' — its legal root means to injure or cripple.",
+          "synonyms": [
+            "havoc",
+            "destruction",
+            "chaos"
+          ],
+          "antonyms": [
+            "order",
+            "calm",
+            "peace"
+          ]
+        },
+        {
+          "id": "gre-havoc",
+          "word": "havoc",
+          "partOfSpeech": "noun",
+          "definition": "Widespread destruction or great disruption to normal functioning.",
+          "example": "The hurricane wreaked havoc on the coastal town, flattening homes and downing power lines.",
+          "mnemonic": "'Cry havoc!' was the old command to soldiers to begin pillaging — unleashed ruin.",
+          "synonyms": [
+            "devastation",
+            "destruction",
+            "ruin"
+          ],
+          "antonyms": [
+            "order",
+            "preservation",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-disarray",
+          "word": "disarray",
+          "partOfSpeech": "noun",
+          "definition": "A condition of being untidy, disordered, or badly organized.",
+          "example": "After the burglars left, the entire house was in disarray, with drawers emptied onto the floor.",
+          "mnemonic": "'Dis-' (undo) + 'array' — a neatly arranged army broken apart.",
+          "synonyms": [
+            "disorder",
+            "mess",
+            "confusion"
+          ],
+          "antonyms": [
+            "order",
+            "tidiness",
+            "arrangement"
+          ]
+        },
+        {
+          "id": "gre-jumble",
+          "word": "jumble",
+          "partOfSpeech": "noun",
+          "definition": "A confused, untidy mixture of different things thrown together.",
+          "example": "She reached into her bag and pulled out a jumble of keys, receipts, and loose coins.",
+          "mnemonic": "Rhymes with 'tumble' — picture socks tumbling in a dryer into a tangled heap.",
+          "synonyms": [
+            "mess",
+            "mixture",
+            "clutter"
+          ],
+          "antonyms": [
+            "order",
+            "arrangement",
+            "tidiness"
+          ]
+        },
+        {
+          "id": "gre-morass",
+          "word": "morass",
+          "partOfSpeech": "noun",
+          "definition": "A complicated, entangling situation that is very hard to escape.",
+          "example": "The company sank into a morass of lawsuits that dragged on for years.",
+          "mnemonic": "A boggy marsh — picture your boots sinking deeper with every step you take to get out.",
+          "synonyms": [
+            "quagmire",
+            "swamp",
+            "tangle"
+          ],
+          "antonyms": [
+            "solution",
+            "clarity",
+            "order"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-quagmire",
+          "word": "quagmire",
+          "partOfSpeech": "noun",
+          "definition": "A boggy marsh, or an awkward predicament from which escape is difficult.",
+          "example": "The negotiations became a quagmire, with each concession only creating two new demands.",
+          "mnemonic": "'Quag' (bog) + 'mire' (mud) — double the mud, double the stuck.",
+          "synonyms": [
+            "morass",
+            "predicament",
+            "bog"
+          ],
+          "antonyms": [
+            "solution",
+            "escape",
+            "firmness"
+          ]
+        },
+        {
+          "id": "gre-muddle",
+          "word": "muddle",
+          "partOfSpeech": "noun",
+          "definition": "An untidy or confused state resulting from poor organization or unclear thinking.",
+          "example": "He got into such a muddle over the train times that he missed every connection.",
+          "mnemonic": "'Mud' + 'puddle' — thoughts stuck in a muddy puddle, slow and unclear.",
+          "synonyms": [
+            "mess",
+            "confusion",
+            "jumble"
+          ],
+          "antonyms": [
+            "order",
+            "clarity",
+            "organization"
+          ]
+        },
+        {
+          "id": "gre-snarl",
+          "word": "snarl",
+          "partOfSpeech": "noun",
+          "definition": "A tangled, knotted mass, or a badly congested and confusing situation.",
+          "example": "A single stalled truck turned the morning commute into a five-mile traffic snarl.",
+          "mnemonic": "A dog's angry growl AND a tangle — picture yarn so knotted it makes you growl.",
+          "synonyms": [
+            "tangle",
+            "knot",
+            "jam"
+          ],
+          "antonyms": [
+            "order",
+            "clarity",
+            "arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-tangle",
+          "word": "tangle",
+          "partOfSpeech": "verb",
+          "definition": "To twist things together into a confused, knotted mass.",
+          "example": "The kitten managed to tangle the ball of yarn around every chair leg.",
+          "mnemonic": "Rhymes with 'mangle' — both leave things twisted and messed up.",
+          "synonyms": [
+            "knot",
+            "snarl",
+            "entwine"
+          ],
+          "antonyms": [
+            "untie",
+            "straighten"
+          ]
+        },
+        {
+          "id": "gre-flux",
+          "word": "flux",
+          "partOfSpeech": "noun",
+          "definition": "A state of constant change or continuous flow.",
+          "example": "The startup's roles were in constant flux, shifting week to week as priorities changed.",
+          "mnemonic": "From Latin 'fluxus' (flowing) — sounds like 'flow' + 'flush', never staying still.",
+          "synonyms": [
+            "fluctuation",
+            "change",
+            "instability"
+          ],
+          "antonyms": [
+            "stability",
+            "stasis",
+            "constancy"
+          ]
+        },
+        {
+          "id": "gre-disrupt",
+          "word": "disrupt",
+          "partOfSpeech": "verb",
+          "definition": "To interrupt or throw an activity into disorder.",
+          "example": "Protesters tried to disrupt the meeting by chanting until the speaker gave up.",
+          "mnemonic": "dis- (apart) + rupt (break, as in 'rupture') — to break things apart.",
+          "synonyms": [
+            "interrupt",
+            "upset",
+            "derail"
+          ],
+          "antonyms": [
+            "order",
+            "settle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-dishevel",
+          "word": "dishevel",
+          "partOfSpeech": "verb",
+          "definition": "To make someone's hair or clothing messy and untidy.",
+          "example": "The gusty wind would dishevel her neat bun within seconds of stepping outside.",
+          "mnemonic": "dis- + 'shovel' — picture a shovel messing up your neatly combed hair.",
+          "synonyms": [
+            "ruffle",
+            "tousle",
+            "rumple"
+          ],
+          "antonyms": [
+            "tidy",
+            "groom",
+            "neaten"
+          ]
+        },
+        {
+          "id": "gre-unravel",
+          "word": "unravel",
+          "partOfSpeech": "verb",
+          "definition": "To undo something twisted, or to solve a puzzle step by step.",
+          "example": "The detective began to unravel the mystery once she found the torn ticket stub.",
+          "mnemonic": "un- (reverse) + ravel — pull one loose thread on a sweater and it all comes undone.",
+          "synonyms": [
+            "unwind",
+            "untangle",
+            "solve"
+          ],
+          "antonyms": [
+            "tangle",
+            "knot",
+            "complicate"
+          ]
+        },
+        {
+          "id": "gre-fragment",
+          "word": "fragment",
+          "partOfSpeech": "noun",
+          "definition": "A small piece broken off from something larger.",
+          "example": "Archaeologists rebuilt the vase from every fragment scattered across the dig site.",
+          "mnemonic": "Starts with 'frag' — a fragile thing that fractured into little bits.",
+          "synonyms": [
+            "piece",
+            "shard",
+            "bit"
+          ],
+          "antonyms": [
+            "whole",
+            "entirety"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-splinter",
+          "word": "splinter",
+          "partOfSpeech": "noun",
+          "definition": "A thin, sharp sliver broken off wood, glass, or bone.",
+          "example": "She winced as a splinter from the old fence lodged deep in her thumb.",
+          "mnemonic": "'split' + 'inter' — a sharp piece that splits off and gets in you.",
+          "synonyms": [
+            "sliver",
+            "shard",
+            "spike"
+          ],
+          "antonyms": [
+            "whole",
+            "block"
+          ]
+        },
+        {
+          "id": "gre-shatter",
+          "word": "shatter",
+          "partOfSpeech": "verb",
+          "definition": "To break suddenly and violently into many small pieces.",
+          "example": "One stray baseball was enough to shatter the greenhouse's glass roof.",
+          "mnemonic": "'sh' of smash + 'scatter' — glass that smashes and flies everywhere at once.",
+          "synonyms": [
+            "smash",
+            "crush",
+            "burst"
+          ],
+          "antonyms": [
+            "mend",
+            "repair"
+          ]
+        },
+        {
+          "id": "gre-disperse",
+          "word": "disperse",
+          "partOfSpeech": "verb",
+          "definition": "To spread people or things over a wide area.",
+          "example": "Police asked the crowd to disperse and head home once the concert ended.",
+          "mnemonic": "dis- (apart) + 'perse' like 'sparse' — spreading apart until things are sparse.",
+          "synonyms": [
+            "scatter",
+            "spread",
+            "diffuse"
+          ],
+          "antonyms": [
+            "gather",
+            "assemble",
+            "collect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-scatter",
+          "word": "scatter",
+          "partOfSpeech": "verb",
+          "definition": "To throw or spread things loosely in many directions.",
+          "example": "The farmer walked the field to scatter seed across the freshly turned soil.",
+          "mnemonic": "A 'cat' bursting into pigeons — they fly off in every direction.",
+          "synonyms": [
+            "strew",
+            "sprinkle",
+            "disperse"
+          ],
+          "antonyms": [
+            "gather",
+            "collect",
+            "amass"
+          ]
+        },
+        {
+          "id": "gre-dissipate",
+          "word": "dissipate",
+          "partOfSpeech": "verb",
+          "definition": "To gradually disappear or spread out until gone.",
+          "example": "By noon the morning mist had begun to dissipate, revealing the valley below.",
+          "mnemonic": "dis- + 'sip' — imagine sipping a puddle away, sip by sip, until nothing's left.",
+          "synonyms": [
+            "disperse",
+            "fade",
+            "vanish"
+          ],
+          "antonyms": [
+            "gather",
+            "accumulate",
+            "condense"
+          ]
+        },
+        {
+          "id": "gre-dissolve",
+          "word": "dissolve",
+          "partOfSpeech": "verb",
+          "definition": "To mix completely into a liquid, or to bring to an end.",
+          "example": "Stir the sugar until the crystals dissolve and the water turns clear again.",
+          "mnemonic": "dis- + 'solve' (from solvent) — a solvent loosens a solid into liquid.",
+          "synonyms": [
+            "melt",
+            "liquefy",
+            "disband"
+          ],
+          "antonyms": [
+            "solidify",
+            "congeal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-dismantle",
+          "word": "dismantle",
+          "partOfSpeech": "verb",
+          "definition": "To take a structure or system apart piece by piece.",
+          "example": "Engineers spent a week working to dismantle the old bridge bolt by bolt.",
+          "mnemonic": "dis- (apart) + 'mantle' — picture pulling a fireplace mantle apart, piece by piece.",
+          "synonyms": [
+            "disassemble",
+            "strip",
+            "take apart"
+          ],
+          "antonyms": [
+            "assemble",
+            "build",
+            "construct"
+          ]
+        },
+        {
+          "id": "gre-systematic",
+          "word": "systematic",
+          "partOfSpeech": "adjective",
+          "definition": "Done according to a fixed, organized plan rather than randomly.",
+          "example": "Her systematic approach to cleaning meant she finished one room completely before touching the next.",
+          "mnemonic": "Sounds like 'system + attic' — even a messy attic gets tackled with a clear plan.",
+          "synonyms": [
+            "methodical",
+            "orderly",
+            "structured"
+          ],
+          "antonyms": [
+            "haphazard",
+            "random",
+            "chaotic"
+          ]
+        },
+        {
+          "id": "gre-methodical",
+          "word": "methodical",
+          "partOfSpeech": "adjective",
+          "definition": "Done carefully and in a logical, step-by-step manner.",
+          "example": "He was so methodical that he labeled and photographed every box before packing it.",
+          "mnemonic": "Method + -ical — literally 'full of method,' moving one careful step at a time.",
+          "synonyms": [
+            "systematic",
+            "meticulous",
+            "orderly"
+          ],
+          "antonyms": [
+            "disorganized",
+            "careless",
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-orderly",
+          "word": "orderly",
+          "partOfSpeech": "adjective",
+          "definition": "Neatly arranged or behaving in a calm, controlled way.",
+          "example": "The students formed an orderly line and waited quietly for the bus.",
+          "mnemonic": "Order + -ly — everything kept in its proper place, in the way of order.",
+          "synonyms": [
+            "tidy",
+            "neat",
+            "organized"
+          ],
+          "antonyms": [
+            "chaotic",
+            "messy",
+            "unruly"
+          ]
+        },
+        {
+          "id": "gre-regimented",
+          "word": "regimented",
+          "partOfSpeech": "adjective",
+          "definition": "Strictly organized and controlled by rigid rules or routines.",
+          "example": "Life at the boarding school was regimented, with every hour of the day scheduled.",
+          "mnemonic": "Picture a military 'regiment' marching in strict, unbending rows.",
+          "synonyms": [
+            "strict",
+            "controlled",
+            "disciplined"
+          ],
+          "antonyms": [
+            "relaxed",
+            "flexible",
+            "free"
+          ]
+        },
+        {
+          "id": "gre-coherent",
+          "word": "coherent",
+          "partOfSpeech": "adjective",
+          "definition": "Clear and logically connected so the parts fit together sensibly.",
+          "example": "After some sleep, she could finally give a coherent account of the accident.",
+          "mnemonic": "co- (together) + 'here' — ideas that stick right here together.",
+          "synonyms": [
+            "logical",
+            "consistent",
+            "lucid"
+          ],
+          "antonyms": [
+            "confused",
+            "disjointed",
+            "rambling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-cohesive",
+          "word": "cohesive",
+          "partOfSpeech": "adjective",
+          "definition": "United and sticking together well as a single whole.",
+          "example": "The coach turned a group of strangers into a cohesive team within a month.",
+          "mnemonic": "Shares its root with 'adhesive' — think glued firmly into one unit.",
+          "synonyms": [
+            "united",
+            "unified",
+            "connected"
+          ],
+          "antonyms": [
+            "fragmented",
+            "divided",
+            "disjointed"
+          ]
+        },
+        {
+          "id": "gre-symmetry",
+          "word": "symmetry",
+          "partOfSpeech": "noun",
+          "definition": "A balanced arrangement where opposite sides match in size and shape.",
+          "example": "The butterfly's wings showed perfect symmetry, each side mirroring the other.",
+          "mnemonic": "sym- (same) + -metry (measure) — the same measure on both sides.",
+          "synonyms": [
+            "balance",
+            "proportion",
+            "correspondence"
+          ],
+          "antonyms": [
+            "asymmetry",
+            "imbalance",
+            "irregularity"
+          ]
+        },
+        {
+          "id": "gre-equilibrium",
+          "word": "equilibrium",
+          "partOfSpeech": "noun",
+          "definition": "A state of balance between opposing forces, amounts, or influences.",
+          "example": "After the sudden noise, the tightrope walker fought to regain her equilibrium.",
+          "mnemonic": "equi- (equal) + libr- (like Libra's scales) — equal weight on the scales.",
+          "synonyms": [
+            "balance",
+            "stability",
+            "poise"
+          ],
+          "antonyms": [
+            "imbalance",
+            "instability",
+            "disorder"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-stasis",
+          "word": "stasis",
+          "partOfSpeech": "noun",
+          "definition": "A state of complete inactivity or lack of change.",
+          "example": "The peace talks fell into stasis, with neither side willing to move.",
+          "mnemonic": "Sounds like 'stay' — everything just stays put, nothing budges.",
+          "synonyms": [
+            "stagnation",
+            "inactivity",
+            "standstill"
+          ],
+          "antonyms": [
+            "change",
+            "movement",
+            "progress"
+          ]
+        },
+        {
+          "id": "gre-consolidate",
+          "word": "consolidate",
+          "partOfSpeech": "verb",
+          "definition": "To combine several things into one stronger, more effective whole.",
+          "example": "The company consolidated its three regional offices into one downtown headquarters.",
+          "mnemonic": "con- (together) + 'solid' — make separate things solid together.",
+          "synonyms": [
+            "combine",
+            "merge",
+            "unify"
+          ],
+          "antonyms": [
+            "separate",
+            "disperse",
+            "scatter"
+          ]
+        },
+        {
+          "id": "gre-coalesce",
+          "word": "coalesce",
+          "partOfSpeech": "verb",
+          "definition": "To come together and merge into a single group or mass.",
+          "example": "Over the months, the scattered local protests coalesced into a nationwide movement.",
+          "mnemonic": "Read it as 'coal-esce' — separate coals fusing into one glowing lump.",
+          "synonyms": [
+            "merge",
+            "unite",
+            "fuse"
+          ],
+          "antonyms": [
+            "separate",
+            "split",
+            "disperse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-amalgamate",
+          "word": "amalgamate",
+          "partOfSpeech": "verb",
+          "definition": "To combine two or more separate things into one unified whole.",
+          "example": "The two rival banks amalgamated to survive the financial crisis.",
+          "mnemonic": "From 'amalgam' — the mercury alloy a dentist blends into one filling.",
+          "synonyms": [
+            "merge",
+            "combine",
+            "unite"
+          ],
+          "antonyms": [
+            "separate",
+            "divide",
+            "split"
+          ]
+        },
+        {
+          "id": "gre-marshal",
+          "word": "marshal",
+          "partOfSpeech": "verb",
+          "definition": "To gather and organize people or resources for a specific purpose.",
+          "example": "She marshaled all her evidence carefully before presenting the case to the jury.",
+          "mnemonic": "A field 'marshal' lines up the troops in disciplined order before battle.",
+          "synonyms": [
+            "organize",
+            "assemble",
+            "mobilize"
+          ],
+          "antonyms": [
+            "scatter",
+            "disband",
+            "disperse"
+          ]
+        },
+        {
+          "id": "gre-array",
+          "word": "array",
+          "partOfSpeech": "noun",
+          "definition": "An impressive, ordered display or wide range of things.",
+          "example": "The market stall offered a dazzling array of spices from around the world.",
+          "mnemonic": "Sounds like 'a ray' — a ray of light fanning out into an ordered spread.",
+          "synonyms": [
+            "display",
+            "arrangement",
+            "collection"
+          ],
+          "antonyms": [
+            "jumble",
+            "disorder",
+            "mess"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-collate",
+          "word": "collate",
+          "partOfSpeech": "verb",
+          "definition": "To gather items and put them together in a logical or correct order.",
+          "example": "The clerk had to collate the scattered pages before the report could be printed and bound.",
+          "mnemonic": "Latin com- ('together') + latus ('carried') — things carried together into order.",
+          "synonyms": [
+            "assemble",
+            "compile",
+            "organize"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse"
+          ]
+        },
+        {
+          "id": "gre-codify",
+          "word": "codify",
+          "partOfSpeech": "verb",
+          "definition": "To organize laws or principles into a formal, written system.",
+          "example": "The committee met for weeks to codify the tribe's unwritten customs into an official rulebook.",
+          "mnemonic": "code + -ify — you turn loose practices into a written code.",
+          "synonyms": [
+            "systematize",
+            "formalize"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-classify",
+          "word": "classify",
+          "partOfSpeech": "verb",
+          "definition": "To sort things into groups based on their shared qualities.",
+          "example": "Biologists classify a newly found creature by comparing its features to those of known species.",
+          "mnemonic": "Think 'class' + -ify — you assign each thing to a class.",
+          "synonyms": [
+            "categorize",
+            "sort",
+            "group"
+          ],
+          "antonyms": [
+            "jumble",
+            "muddle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-demarcate",
+          "word": "demarcate",
+          "partOfSpeech": "verb",
+          "definition": "To mark or fix the limits or boundaries of something.",
+          "example": "A low stone wall demarcates the spot where our garden ends and the neighbor's begins.",
+          "mnemonic": "de-MARK-ate — you mark off a border.",
+          "synonyms": [
+            "delimit",
+            "delineate",
+            "bound"
+          ],
+          "antonyms": [
+            "blend",
+            "merge"
+          ]
+        },
+        {
+          "id": "gre-stratify",
+          "word": "stratify",
+          "partOfSpeech": "verb",
+          "definition": "To arrange people or things into distinct layers or ranked levels.",
+          "example": "Extreme wealth tends to stratify society, leaving the rich and poor in separate worlds.",
+          "mnemonic": "'strata' are rock layers — stratify builds those layers.",
+          "synonyms": [
+            "layer",
+            "rank",
+            "tier"
+          ],
+          "antonyms": [
+            "level",
+            "equalize"
+          ]
+        },
+        {
+          "id": "gre-regulate",
+          "word": "regulate",
+          "partOfSpeech": "verb",
+          "definition": "To control or manage something using rules or fixed limits.",
+          "example": "A thermostat will regulate the room so that it never grows too hot or too cold.",
+          "mnemonic": "Latin regula = 'rule' — you keep it by the rules.",
+          "synonyms": [
+            "control",
+            "govern",
+            "manage"
+          ],
+          "antonyms": [
+            "neglect",
+            "deregulate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-calibrate",
+          "word": "calibrate",
+          "partOfSpeech": "verb",
+          "definition": "To adjust an instrument so its measurements come out accurate.",
+          "example": "Before weighing the gold, the jeweler paused to calibrate the delicate brass scale.",
+          "mnemonic": "Think 'caliber' — you set the precise caliber of a tool.",
+          "synonyms": [
+            "adjust",
+            "fine-tune"
+          ],
+          "antonyms": [
+            "misadjust"
+          ]
+        },
+        {
+          "id": "gre-align",
+          "word": "align",
+          "partOfSpeech": "verb",
+          "definition": "To place things in a straight line or bring them into agreement.",
+          "example": "The mechanic worked to align the wheels so the car would stop pulling to the left.",
+          "mnemonic": "a-LINE — you put things onto one line.",
+          "synonyms": [
+            "straighten",
+            "coordinate",
+            "line up"
+          ],
+          "antonyms": [
+            "misalign",
+            "skew"
+          ]
+        },
+        {
+          "id": "gre-orchestrate",
+          "word": "orchestrate",
+          "partOfSpeech": "verb",
+          "definition": "To plan and coordinate the many parts of a complex undertaking.",
+          "example": "It took months to orchestrate the merger, juggling lawyers, banks, and two nervous boards.",
+          "mnemonic": "Picture a conductor of an orchestra coordinating every musician at once.",
+          "synonyms": [
+            "coordinate",
+            "arrange",
+            "organize"
+          ],
+          "antonyms": [
+            "botch",
+            "disorganize"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-streamline",
+          "word": "streamline",
+          "partOfSpeech": "verb",
+          "definition": "To make a process simpler and more efficient by removing waste.",
+          "example": "New software helped streamline checkout, cutting the wait from ten minutes down to two.",
+          "mnemonic": "stream + line — shape it like a smooth stream so everything flows fast.",
+          "synonyms": [
+            "simplify",
+            "optimize"
+          ],
+          "antonyms": [
+            "complicate",
+            "encumber"
+          ]
+        },
+        {
+          "id": "gre-rectify",
+          "word": "rectify",
+          "partOfSpeech": "verb",
+          "definition": "To put right something that is wrong or mistaken.",
+          "example": "The bank promised to rectify the error and refund every wrongful charge by Friday.",
+          "mnemonic": "recti- means 'right' (as in a rectangle's right angles) — you make it right.",
+          "synonyms": [
+            "correct",
+            "amend",
+            "fix"
+          ],
+          "antonyms": [
+            "worsen",
+            "damage"
+          ]
+        },
+        {
+          "id": "gre-normalize",
+          "word": "normalize",
+          "partOfSpeech": "verb",
+          "definition": "To make something conform to a usual or expected state.",
+          "example": "Diplomats worked for years to normalize relations between the two long-hostile nations.",
+          "mnemonic": "norm + -alize — you bring it back to the norm.",
+          "synonyms": [
+            "regularize",
+            "stabilize"
+          ],
+          "antonyms": [
+            "disrupt",
+            "distort"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-standardize",
+          "word": "standardize",
+          "partOfSpeech": "verb",
+          "definition": "To make things follow one uniform set of rules or measurements.",
+          "example": "The company chose to standardize its parts so any factory could repair any machine.",
+          "mnemonic": "standard + -ize — you force everything to meet one standard.",
+          "synonyms": [
+            "regularize",
+            "normalize"
+          ],
+          "antonyms": [
+            "vary",
+            "diversify"
+          ]
+        },
+        {
+          "id": "gre-homogenize",
+          "word": "homogenize",
+          "partOfSpeech": "verb",
+          "definition": "To blend different elements until they become uniform throughout.",
+          "example": "Global media can homogenize culture until every city's high street looks exactly the same.",
+          "mnemonic": "Greek homo- = 'same'; think homogenized milk with no cream on top.",
+          "synonyms": [
+            "blend",
+            "uniform"
+          ],
+          "antonyms": [
+            "diversify",
+            "differentiate"
+          ]
+        },
+        {
+          "id": "gre-incoherent",
+          "word": "incoherent",
+          "partOfSpeech": "adjective",
+          "definition": "Expressed in a confused, disconnected way that is hard to follow.",
+          "example": "Woken suddenly at 3 a.m., he mumbled a few incoherent phrases and drifted back to sleep.",
+          "mnemonic": "in- ('not') + cohere ('stick together') — thoughts that won't stick together.",
+          "synonyms": [
+            "rambling",
+            "disjointed",
+            "muddled"
+          ],
+          "antonyms": [
+            "clear",
+            "lucid",
+            "logical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-disjointed",
+          "word": "disjointed",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking logical order or a smooth connection between parts.",
+          "example": "Her disjointed account leapt from her childhood to last week and back, leaving us baffled.",
+          "mnemonic": "Picture a puppet whose joints have come apart — dis-jointed, so nothing moves together.",
+          "synonyms": [
+            "incoherent",
+            "disconnected",
+            "rambling"
+          ],
+          "antonyms": [
+            "coherent",
+            "orderly",
+            "connected"
+          ]
+        },
+        {
+          "id": "gre-haphazard",
+          "word": "haphazard",
+          "partOfSpeech": "adjective",
+          "definition": "Done without plan or organization, determined by chance rather than care.",
+          "example": "He stacked the books in a haphazard pile that toppled the moment someone walked past.",
+          "mnemonic": "'Hap' is old English for luck (as in 'happen'); a haphazard job is left to luck.",
+          "synonyms": [
+            "random",
+            "disorganized",
+            "slapdash"
+          ],
+          "antonyms": [
+            "systematic",
+            "methodical",
+            "orderly"
+          ]
+        },
+        {
+          "id": "gre-erratic",
+          "word": "erratic",
+          "partOfSpeech": "adjective",
+          "definition": "Not following a regular pattern; unpredictable in movement or behavior.",
+          "example": "The old car's erratic engine would purr for miles, then sputter and stall for no reason.",
+          "mnemonic": "Shares a root with 'err' and 'erring' — to wander; it strays off any steady path.",
+          "synonyms": [
+            "unpredictable",
+            "inconsistent",
+            "irregular"
+          ],
+          "antonyms": [
+            "steady",
+            "consistent",
+            "predictable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-unruly",
+          "word": "unruly",
+          "partOfSpeech": "adjective",
+          "definition": "Difficult to manage or keep under control; resistant to discipline.",
+          "example": "The substitute teacher lost her voice trying to quiet the unruly class.",
+          "mnemonic": "Un-RULE-y: it simply will not obey the rules.",
+          "synonyms": [
+            "disorderly",
+            "disobedient",
+            "wayward"
+          ],
+          "antonyms": [
+            "obedient",
+            "docile",
+            "manageable"
+          ]
+        },
+        {
+          "id": "gre-riotous",
+          "word": "riotous",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by wild, noisy disorder or uncontrolled excess.",
+          "example": "The festival turned riotous, with crowds overturning stalls and dancing on the tables.",
+          "mnemonic": "Picture a riot — a chaotic, out-of-control mob; this word bottles that scene.",
+          "synonyms": [
+            "unrestrained",
+            "wild",
+            "rowdy"
+          ],
+          "antonyms": [
+            "orderly",
+            "restrained",
+            "calm"
+          ]
+        },
+        {
+          "id": "gre-rampant",
+          "word": "rampant",
+          "partOfSpeech": "adjective",
+          "definition": "Spreading or flourishing widely and without any check.",
+          "example": "By August the weeds were rampant, swallowing the entire garden path.",
+          "mnemonic": "A lion 'rampant' on a coat of arms rears up wildly — such things rise and spread unchecked.",
+          "synonyms": [
+            "unchecked",
+            "widespread",
+            "uncontrolled"
+          ],
+          "antonyms": [
+            "contained",
+            "controlled",
+            "restrained"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-unbridled",
+          "word": "unbridled",
+          "partOfSpeech": "adjective",
+          "definition": "Not held back or controlled by any restraint.",
+          "example": "She greeted the news with unbridled joy, leaping and shrieking around the kitchen.",
+          "mnemonic": "A bridle controls a horse; remove it — un-bridled — and the horse runs free.",
+          "synonyms": [
+            "unrestrained",
+            "unchecked",
+            "uncontrolled"
+          ],
+          "antonyms": [
+            "restrained",
+            "controlled",
+            "checked"
+          ]
+        },
+        {
+          "id": "gre-tumultuous",
+          "word": "tumultuous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of noise, confusion, and violent commotion.",
+          "example": "The champions returned to a tumultuous welcome, fans screaming and fireworks bursting overhead.",
+          "mnemonic": "'Tumult' sounds like 'too-much' — too much noise and chaos all at once.",
+          "synonyms": [
+            "turbulent",
+            "chaotic",
+            "stormy"
+          ],
+          "antonyms": [
+            "calm",
+            "peaceful",
+            "tranquil"
+          ]
+        },
+        {
+          "id": "gre-turbulent",
+          "word": "turbulent",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by violent, unsteady movement or great disorder.",
+          "example": "The plane shook as it crossed a turbulent patch of sky above the mountains.",
+          "mnemonic": "Shares a root with 'turbine' — spinning, churning motion that won't settle.",
+          "synonyms": [
+            "chaotic",
+            "unstable",
+            "stormy"
+          ],
+          "antonyms": [
+            "calm",
+            "smooth",
+            "settled"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-boisterous",
+          "word": "boisterous",
+          "partOfSpeech": "adjective",
+          "definition": "Noisy, energetic, and cheerfully rough in behavior.",
+          "example": "The boisterous crowd at the pub sang football chants until closing time.",
+          "mnemonic": "Sounds like 'boy-sterous' — a rowdy pack of boys making a racket.",
+          "synonyms": [
+            "rowdy",
+            "rambunctious",
+            "loud"
+          ],
+          "antonyms": [
+            "quiet",
+            "subdued",
+            "calm"
+          ]
+        },
+        {
+          "id": "gre-cacophonous",
+          "word": "cacophonous",
+          "partOfSpeech": "adjective",
+          "definition": "Producing a harsh, grating mixture of unpleasant sounds.",
+          "example": "The orchestra's warm-up was cacophonous, every instrument playing something different at once.",
+          "mnemonic": "Greek 'caco-' means bad and 'phon' means sound — bad sound, like a cackle of noise.",
+          "synonyms": [
+            "discordant",
+            "harsh",
+            "grating"
+          ],
+          "antonyms": [
+            "harmonious",
+            "melodious",
+            "euphonious"
+          ]
+        },
+        {
+          "id": "gre-dissonance",
+          "word": "dissonance",
+          "partOfSpeech": "noun",
+          "definition": "A harsh lack of harmony or agreement among sounds or ideas.",
+          "example": "There was a clear dissonance between his cheerful words and his tense, folded arms.",
+          "mnemonic": "Dis- (apart) + son (sound, as in 'sonic') — sounds pulling apart instead of blending.",
+          "synonyms": [
+            "discord",
+            "disharmony",
+            "clash"
+          ],
+          "antonyms": [
+            "harmony",
+            "accord",
+            "concord"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-jarring",
+          "word": "jarring",
+          "partOfSpeech": "adjective",
+          "definition": "Causing a sudden, unpleasant shock or clash of impression.",
+          "example": "After the quiet library, the jarring blare of the fire alarm made everyone jump.",
+          "mnemonic": "Imagine striking a glass jar hard — the clang rattles your teeth.",
+          "synonyms": [
+            "grating",
+            "discordant",
+            "unsettling"
+          ],
+          "antonyms": [
+            "soothing",
+            "harmonious",
+            "pleasing"
+          ]
+        },
+        {
+          "id": "gre-clamor",
+          "word": "clamor",
+          "partOfSpeech": "noun",
+          "definition": "A loud, confused outcry from many voices at once.",
+          "example": "Reporters raised such a clamor that the mayor could not finish a single sentence.",
+          "mnemonic": "Hear it as 'claim more!' — shouted loudly and insistently by a demanding crowd.",
+          "synonyms": [
+            "outcry",
+            "din",
+            "hubbub"
+          ],
+          "antonyms": [
+            "silence",
+            "quiet",
+            "calm"
+          ]
+        },
+        {
+          "id": "gre-uproar",
+          "word": "uproar",
+          "partOfSpeech": "noun",
+          "definition": "A state of loud noise and excited public disturbance.",
+          "example": "The referee's decision caused an uproar, with the whole stadium booing and stamping.",
+          "mnemonic": "Up + roar — the crowd's roar goes up all at once in outrage.",
+          "synonyms": [
+            "commotion",
+            "tumult",
+            "furor"
+          ],
+          "antonyms": [
+            "calm",
+            "quiet",
+            "tranquility"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-commotion",
+          "word": "commotion",
+          "partOfSpeech": "noun",
+          "definition": "A noisy, confused disturbance or sudden burst of excited activity.",
+          "example": "The sudden commotion in the hallway made everyone rush out to see what had happened.",
+          "mnemonic": "Break it into 'co-MOTION' — lots of motion happening together kicks up a fuss.",
+          "synonyms": [
+            "uproar",
+            "tumult",
+            "disturbance"
+          ],
+          "antonyms": [
+            "calm",
+            "tranquility",
+            "stillness"
+          ]
+        },
+        {
+          "id": "gre-torrent",
+          "word": "torrent",
+          "partOfSpeech": "noun",
+          "definition": "A violent, fast-moving stream or a heavy outpouring.",
+          "example": "A torrent of muddy water swept down the mountain after the storm.",
+          "mnemonic": "Think of downloading a 'torrent' — a flood of data pouring in all at once.",
+          "synonyms": [
+            "flood",
+            "deluge",
+            "cascade"
+          ],
+          "antonyms": [
+            "trickle",
+            "dribble",
+            "drip"
+          ]
+        },
+        {
+          "id": "gre-cascade",
+          "word": "cascade",
+          "partOfSpeech": "noun",
+          "definition": "A small waterfall or a flow tumbling down in stages.",
+          "example": "Her hair fell in a cascade of curls over her shoulders.",
+          "mnemonic": "'Cascade' evokes a 'cascading' staircase — water dropping step by step.",
+          "synonyms": [
+            "waterfall",
+            "torrent",
+            "flow"
+          ],
+          "antonyms": [
+            "trickle",
+            "drip"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-mundane",
+          "word": "mundane",
+          "partOfSpeech": "adjective",
+          "definition": "Ordinary and dull; lacking interest or excitement.",
+          "example": "He grew tired of the mundane routine of filing papers all day.",
+          "mnemonic": "From Latin 'mundus' (world) — earthly, everyday, down-to-earth stuff.",
+          "synonyms": [
+            "ordinary",
+            "dull",
+            "humdrum"
+          ],
+          "antonyms": [
+            "extraordinary",
+            "exciting",
+            "exotic"
+          ]
+        },
+        {
+          "id": "gre-squander",
+          "word": "squander",
+          "partOfSpeech": "verb",
+          "definition": "To waste money, time, or resources carelessly.",
+          "example": "He squandered his entire inheritance on gambling and fast cars.",
+          "mnemonic": "'Squash + wander' — you let it wander off and it's gone for good.",
+          "synonyms": [
+            "waste",
+            "dissipate",
+            "fritter"
+          ],
+          "antonyms": [
+            "save",
+            "conserve",
+            "hoard"
+          ]
+        },
+        {
+          "id": "gre-maelstrom",
+          "word": "maelstrom",
+          "partOfSpeech": "noun",
+          "definition": "A violent whirlpool, or a situation of great turbulence and uncontrollable confusion.",
+          "example": "When the factory closed, the whole town was pulled into a maelstrom of panic, rumor, and frantic job-hunting.",
+          "mnemonic": "Sounds like 'mail storm' — picture a spinning funnel of water sucking down letters, boats, and everything nearby.",
+          "synonyms": [
+            "whirlpool",
+            "vortex",
+            "turmoil"
+          ],
+          "antonyms": [
+            "calm",
+            "stillness",
+            "order"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-systematize",
+          "word": "systematize",
+          "partOfSpeech": "verb",
+          "definition": "To arrange scattered parts into an orderly, methodical whole by following consistent rules.",
+          "example": "Before the merger, she spent weeks helping the two teams systematize their mismatched filing methods into one shared process.",
+          "mnemonic": "Break it down: 'system' + '-ize' — to turn loose, random things into a single tidy system.",
+          "synonyms": [
+            "organize",
+            "order",
+            "arrange"
+          ],
+          "antonyms": [
+            "scramble",
+            "jumble",
+            "disorder"
+          ]
+        },
+        {
+          "id": "gre-anarchic",
+          "word": "anarchic",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by the absence of authority, rules, or any governing order.",
+          "example": "The substitute teacher lost control, and the classroom turned anarchic, with kids shouting and paper airplanes flying everywhere.",
+          "mnemonic": "Greek roots: 'an-' (without) + '-arch' (ruler) — picture a kingdom with no king and no rules at all.",
+          "synonyms": [
+            "lawless",
+            "ungoverned",
+            "rebellious"
+          ],
+          "antonyms": [
+            "orderly",
+            "disciplined",
+            "regulated"
+          ]
+        },
+        {
+          "id": "gre-chaotic",
+          "word": "chaotic",
+          "partOfSpeech": "adjective",
+          "definition": "Completely disordered and confused, with no discernible arrangement or control.",
+          "example": "The morning commute became chaotic after a burst pipe flooded the station and every train stopped without warning.",
+          "mnemonic": "Picture a toddler's birthday party frozen in one snapshot: cake smeared, kids screaming, balloons ricocheting off the walls.",
+          "synonyms": [
+            "disordered",
+            "turbulent",
+            "frenzied"
+          ],
+          "antonyms": [
+            "orderly",
+            "calm",
+            "organized"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "gre-regimen",
+          "word": "regimen",
+          "partOfSpeech": "noun",
+          "definition": "A systematic plan of diet, exercise, or treatment followed to improve health or performance.",
+          "example": "His doctor prescribed a strict regimen of morning walks, low-salt meals, and two pills taken before bed.",
+          "mnemonic": "Sounds like 'regiment' — imagine a regiment of soldiers marching through the same disciplined daily drill.",
+          "synonyms": [
+            "routine",
+            "program",
+            "protocol"
+          ],
+          "antonyms": [
+            "spontaneity",
+            "improvisation",
+            "randomness"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core high-frequency",
+  "createdAt": "2026-09-12T07:52:07.815Z"
+}

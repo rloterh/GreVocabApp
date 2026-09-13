@@ -1,0 +1,1230 @@
+{
+  "track": "sat",
+  "ordinal": 32,
+  "title": "Humour and irony",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-satirize",
+          "word": "satirize",
+          "partOfSpeech": "verb",
+          "definition": "To use humor and irony to expose and criticize people's foolishness or vices.",
+          "example": "The cartoonist loves to satirize politicians by exaggerating their worst habits.",
+          "mnemonic": "Sounds like 'satyr-ize' — picture a mocking satyr poking fun at the powerful and proud.",
+          "synonyms": [
+            "lampoon",
+            "ridicule",
+            "parody"
+          ],
+          "antonyms": [
+            "praise",
+            "flatter"
+          ]
+        },
+        {
+          "id": "sat-sarcasm",
+          "word": "sarcasm",
+          "partOfSpeech": "noun",
+          "definition": "Sharp, cutting remarks that mean the opposite of what they say, used to mock.",
+          "example": "'Oh, great job,' she said with such sarcasm that everyone knew she was furious.",
+          "mnemonic": "From Greek 'sarkazein,' to tear flesh — biting words that tear at you.",
+          "synonyms": [
+            "irony",
+            "mockery",
+            "derision"
+          ],
+          "antonyms": [
+            "sincerity",
+            "earnestness"
+          ]
+        },
+        {
+          "id": "sat-jocular",
+          "word": "jocular",
+          "partOfSpeech": "adjective",
+          "definition": "Fond of joking; playful and good-humored in speech or manner.",
+          "example": "His jocular tone at the funeral surprised the mourners, who expected solemnity.",
+          "mnemonic": "Latin 'jocus' means joke — a jocular friend keeps the jokes coming.",
+          "synonyms": [
+            "playful",
+            "jovial",
+            "humorous"
+          ],
+          "antonyms": [
+            "solemn",
+            "serious",
+            "grave"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-waggish",
+          "word": "waggish",
+          "partOfSpeech": "adjective",
+          "definition": "Playfully witty or mischievous, given to droll and teasing humor.",
+          "example": "The waggish student answered every quiz question with a clever, teasing pun.",
+          "mnemonic": "A dog's tail 'wags' happily — a waggish person wags a mischievous wit.",
+          "synonyms": [
+            "droll",
+            "impish",
+            "facetious"
+          ],
+          "antonyms": [
+            "serious",
+            "solemn"
+          ]
+        },
+        {
+          "id": "sat-deadpan",
+          "word": "deadpan",
+          "partOfSpeech": "adjective",
+          "definition": "Delivering humor or remarks with a blank, expressionless, and utterly serious face.",
+          "example": "She delivered the joke deadpan, never cracking a smile, so half the room missed it.",
+          "mnemonic": "'Dead' face + 'pan' (old slang for face) = a lifeless, unmoving face.",
+          "synonyms": [
+            "expressionless",
+            "impassive",
+            "straight-faced"
+          ],
+          "antonyms": [
+            "expressive",
+            "animated"
+          ]
+        },
+        {
+          "id": "sat-derision",
+          "word": "derision",
+          "partOfSpeech": "noun",
+          "definition": "Scornful laughter or contempt directed at someone considered worthless or foolish.",
+          "example": "His wild plan met only derision from investors, who laughed him out of the room.",
+          "mnemonic": "'De-' (down) + 'rision' (laughing, as in 'risible') — laughing someone down.",
+          "synonyms": [
+            "ridicule",
+            "scorn",
+            "mockery"
+          ],
+          "antonyms": [
+            "respect",
+            "admiration",
+            "praise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-mockery",
+          "word": "mockery",
+          "partOfSpeech": "noun",
+          "definition": "Teasing, insulting behavior or speech meant to make someone seem foolish or ridiculous.",
+          "example": "The other children's mockery of his accent made him afraid to speak in class.",
+          "mnemonic": "Rhymes with 'crockery' — imagine someone smashing your fine crockery while laughing at you.",
+          "synonyms": [
+            "ridicule",
+            "derision",
+            "scorn"
+          ],
+          "antonyms": [
+            "respect",
+            "praise"
+          ]
+        },
+        {
+          "id": "sat-burlesque",
+          "word": "burlesque",
+          "partOfSpeech": "noun",
+          "definition": "A comic performance that mocks something serious through absurd exaggeration and imitation.",
+          "example": "Their burlesque of the royal wedding replaced the crown with a plastic bucket.",
+          "mnemonic": "From Italian 'burla' meaning joke — it turns a serious thing into a joke.",
+          "synonyms": [
+            "parody",
+            "caricature",
+            "spoof"
+          ],
+          "antonyms": [
+            "tribute",
+            "homage"
+          ]
+        },
+        {
+          "id": "sat-farce",
+          "word": "farce",
+          "partOfSpeech": "noun",
+          "definition": "A light comedy full of ridiculous, improbable situations, or an absurdly mismanaged event.",
+          "example": "The trial became a farce when the judge fell asleep and the witness fled.",
+          "mnemonic": "French 'farcir' means to stuff — a play stuffed with silly, over-the-top chaos.",
+          "synonyms": [
+            "sham",
+            "travesty",
+            "mockery"
+          ],
+          "antonyms": [
+            "tragedy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-farcical",
+          "word": "farcical",
+          "partOfSpeech": "adjective",
+          "definition": "So absurd and chaotic that it seems ridiculous rather than serious.",
+          "example": "The meeting turned farcical when three managers argued for an hour over the coffee order.",
+          "mnemonic": "'Farce' + '-ical' — belonging to a farce, so laughably ridiculous.",
+          "synonyms": [
+            "ridiculous",
+            "absurd",
+            "ludicrous"
+          ],
+          "antonyms": [
+            "serious",
+            "solemn"
+          ]
+        },
+        {
+          "id": "sat-ludicrous",
+          "word": "ludicrous",
+          "partOfSpeech": "adjective",
+          "definition": "So foolish, unreasonable, or out of place that it deserves to be laughed at.",
+          "example": "Paying a thousand dollars for a plain white T-shirt seems utterly ludicrous to me.",
+          "mnemonic": "Latin 'ludere' means to play — something so playfully silly (think 'ludo') it's laughable.",
+          "synonyms": [
+            "absurd",
+            "ridiculous",
+            "preposterous"
+          ],
+          "antonyms": [
+            "sensible",
+            "reasonable"
+          ]
+        },
+        {
+          "id": "sat-absurd",
+          "word": "absurd",
+          "partOfSpeech": "adjective",
+          "definition": "Wildly unreasonable, illogical, or so senseless that it seems impossible to take seriously.",
+          "example": "It's absurd to expect a toddler to sit silently through a three-hour opera.",
+          "mnemonic": "'Ab-surd' — from Latin 'surdus' (deaf/senseless), an idea too senseless to hear out.",
+          "synonyms": [
+            "ridiculous",
+            "preposterous",
+            "senseless"
+          ],
+          "antonyms": [
+            "reasonable",
+            "sensible",
+            "logical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-incongruity",
+          "word": "incongruity",
+          "partOfSpeech": "noun",
+          "definition": "A quality of being out of place or clashing with what surrounds it.",
+          "example": "The incongruity of a neon sign on a medieval church startled every visitor.",
+          "mnemonic": "'In-' (not) + 'congruity' (agreement, like congruent triangles) — things that don't fit together.",
+          "synonyms": [
+            "mismatch",
+            "disparity",
+            "inconsistency"
+          ],
+          "antonyms": [
+            "harmony",
+            "congruity",
+            "consistency"
+          ]
+        },
+        {
+          "id": "sat-paradoxical",
+          "word": "paradoxical",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming to contradict itself while possibly still being true or making sense.",
+          "example": "It's paradoxical that spending more on quality boots can actually save you money.",
+          "mnemonic": "'Para-' (contrary to) + 'dox' (opinion, as in orthodox) — contrary to expected belief.",
+          "synonyms": [
+            "contradictory",
+            "self-contradictory",
+            "ironic"
+          ],
+          "antonyms": [
+            "consistent",
+            "logical"
+          ]
+        },
+        {
+          "id": "sat-quip",
+          "word": "quip",
+          "partOfSpeech": "noun",
+          "definition": "A clever, witty, and often cutting remark made quickly.",
+          "example": "When asked about his rivals, the comedian shot back a quip that had reporters laughing.",
+          "mnemonic": "'Quip' is quick + zip — a fast, snappy line that zips right out.",
+          "synonyms": [
+            "witticism",
+            "jest",
+            "gibe"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-jest",
+          "word": "jest",
+          "partOfSpeech": "noun",
+          "definition": "A remark or action meant to be funny rather than serious.",
+          "example": "He made the outrageous boast in jest, so no one took offense.",
+          "mnemonic": "A jest is what a court JESTER (fool) tells to make the king laugh.",
+          "synonyms": [
+            "joke",
+            "quip",
+            "gag"
+          ],
+          "antonyms": [
+            "earnestness"
+          ]
+        },
+        {
+          "id": "sat-banter",
+          "word": "banter",
+          "partOfSpeech": "noun",
+          "definition": "Lighthearted, teasing talk exchanged between people in a friendly way.",
+          "example": "The two coworkers traded banter all morning, laughing between tasks.",
+          "mnemonic": "Banter is a light 'canter' — words trotting easily back and forth.",
+          "synonyms": [
+            "repartee",
+            "ribbing",
+            "teasing"
+          ],
+          "antonyms": [
+            "solemnity"
+          ]
+        },
+        {
+          "id": "sat-repartee",
+          "word": "repartee",
+          "partOfSpeech": "noun",
+          "definition": "Quick, clever replies traded during a conversation.",
+          "example": "Her sharp repartee left the smug heckler with nothing to say.",
+          "mnemonic": "From French 'repartir,' to reply — a fast comeback shoots right back.",
+          "synonyms": [
+            "wit",
+            "comeback",
+            "banter"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-frivolity",
+          "word": "frivolity",
+          "partOfSpeech": "noun",
+          "definition": "Playful, carefree behavior that lacks any serious purpose.",
+          "example": "After the exams, the students surrendered to a weekend of pure frivolity.",
+          "mnemonic": "Sounds like 'free-vol-ity' — free, floating, weightless fun with no weight to it.",
+          "synonyms": [
+            "levity",
+            "silliness",
+            "playfulness"
+          ],
+          "antonyms": [
+            "seriousness",
+            "gravity"
+          ]
+        },
+        {
+          "id": "sat-frivolous",
+          "word": "frivolous",
+          "partOfSpeech": "adjective",
+          "definition": "Not serious or sensible; concerned with trivial, unimportant things.",
+          "example": "The judge dismissed the frivolous lawsuit as a waste of the court's time.",
+          "mnemonic": "Think 'frills' — fussy, unnecessary decoration that serves no real point.",
+          "synonyms": [
+            "trivial",
+            "silly",
+            "superficial"
+          ],
+          "antonyms": [
+            "serious",
+            "practical"
+          ]
+        },
+        {
+          "id": "sat-impish",
+          "word": "impish",
+          "partOfSpeech": "adjective",
+          "definition": "Playfully naughty in a charming, harmless way.",
+          "example": "An impish grin crossed her face just before she hid his car keys.",
+          "mnemonic": "Contains 'imp' — a little devil-child forever up to small tricks.",
+          "synonyms": [
+            "mischievous",
+            "roguish",
+            "playful"
+          ],
+          "antonyms": [
+            "well-behaved",
+            "solemn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-mischievous",
+          "word": "mischievous",
+          "partOfSpeech": "adjective",
+          "definition": "Fond of causing playful trouble or minor annoyance.",
+          "example": "The mischievous puppy unrolled the entire roll of toilet paper.",
+          "mnemonic": "'Mis-chief' — a little chief in charge of small misdeeds.",
+          "synonyms": [
+            "impish",
+            "naughty",
+            "roguish"
+          ],
+          "antonyms": [
+            "obedient",
+            "well-behaved"
+          ]
+        },
+        {
+          "id": "sat-roguish",
+          "word": "roguish",
+          "partOfSpeech": "adjective",
+          "definition": "Playfully dishonest or mischievous in a charming, likable way.",
+          "example": "He gave a roguish wink as he slipped the last cookie into his pocket.",
+          "mnemonic": "Contains 'rogue' — a charming rascal or lovable scoundrel.",
+          "synonyms": [
+            "impish",
+            "devilish",
+            "rakish"
+          ],
+          "antonyms": [
+            "honest",
+            "virtuous"
+          ]
+        },
+        {
+          "id": "sat-gibe",
+          "word": "gibe",
+          "partOfSpeech": "noun",
+          "definition": "An insulting or mocking remark meant to taunt someone.",
+          "example": "The rival fans hurled gibes at the losing team as it left the field.",
+          "mnemonic": "Sounds like 'jab' — sharp words that jab at you to sting.",
+          "synonyms": [
+            "taunt",
+            "jeer",
+            "sneer"
+          ],
+          "antonyms": [
+            "compliment",
+            "praise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-quibble",
+          "word": "quibble",
+          "partOfSpeech": "verb",
+          "definition": "To argue or complain about a small, unimportant detail.",
+          "example": "Let's not quibble over who pays the tip; the meal was wonderful.",
+          "mnemonic": "Sounds like 'nibble' — nibbling away at tiny, petty points.",
+          "synonyms": [
+            "nitpick",
+            "cavil",
+            "split hairs"
+          ],
+          "antonyms": [
+            "agree",
+            "concede"
+          ]
+        },
+        {
+          "id": "sat-witty",
+          "word": "witty",
+          "partOfSpeech": "adjective",
+          "definition": "Showing quick, clever humor in speech.",
+          "example": "Her witty toast had the whole wedding roaring with laughter.",
+          "mnemonic": "Rhymes with 'pretty' — a pretty clever line that lands just right.",
+          "synonyms": [
+            "clever",
+            "quick",
+            "humorous"
+          ],
+          "antonyms": [
+            "dull",
+            "humorless"
+          ]
+        },
+        {
+          "id": "sat-buffoon",
+          "word": "buffoon",
+          "partOfSpeech": "noun",
+          "definition": "A ridiculous person who behaves in a foolish, clownish way.",
+          "example": "The class buffoon balanced a spoon on his nose to get a laugh.",
+          "mnemonic": "Sounds like 'baboon' — a clownish ape making a fool of itself.",
+          "synonyms": [
+            "clown",
+            "fool",
+            "jester"
+          ],
+          "antonyms": [
+            "sage",
+            "intellectual"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-buffoonery",
+          "word": "buffoonery",
+          "partOfSpeech": "noun",
+          "definition": "Silly, clownish behavior that seems ridiculous or is meant to amuse.",
+          "example": "The teacher had no patience for the buffoonery disrupting her lesson.",
+          "mnemonic": "'Baboon-ery' — the ridiculous antics of a clowning baboon.",
+          "synonyms": [
+            "clowning",
+            "foolery",
+            "tomfoolery"
+          ],
+          "antonyms": [
+            "dignity",
+            "seriousness"
+          ]
+        },
+        {
+          "id": "sat-antic",
+          "word": "antic",
+          "partOfSpeech": "noun",
+          "definition": "A wild, playful, or absurd act intended to amuse.",
+          "example": "The children's bedtime antics kept the babysitter chasing them for an hour.",
+          "mnemonic": "From Italian 'antico' — the grotesque, clowning figures painted in ancient Roman ruins.",
+          "synonyms": [
+            "prank",
+            "caper",
+            "shenanigan"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-caper",
+          "word": "caper",
+          "partOfSpeech": "noun",
+          "definition": "A playful leap, or a lighthearted, mischievous adventure.",
+          "example": "The heist turned into a comic caper when the alarm simply would not stop ringing.",
+          "mnemonic": "Think Capricorn the goat — it capers about, leaping and frolicking.",
+          "synonyms": [
+            "escapade",
+            "romp",
+            "antic"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-guffaw",
+          "word": "guffaw",
+          "partOfSpeech": "noun",
+          "definition": "A loud, hearty, and sudden burst of amusement expressed out loud.",
+          "example": "When the clown slipped on the banana peel, the whole audience erupted in a guffaw.",
+          "mnemonic": "Sound it out: 'GUH-FAW!' — a bellow so loud it shakes the room.",
+          "synonyms": [
+            "belly laugh",
+            "roar",
+            "hoot"
+          ],
+          "antonyms": [
+            "whimper",
+            "sob"
+          ]
+        },
+        {
+          "id": "sat-chortle",
+          "word": "chortle",
+          "partOfSpeech": "verb",
+          "definition": "To laugh in a breathy, gleeful, half-suppressed way that shows satisfaction.",
+          "example": "She chortled with delight as she unwrapped the exact gift she'd been hinting at for weeks.",
+          "mnemonic": "Coined by Lewis Carroll from 'chuckle' + 'snort' — a chuckle that ends in a snort.",
+          "synonyms": [
+            "chuckle",
+            "snort",
+            "giggle"
+          ],
+          "antonyms": [
+            "groan",
+            "sob"
+          ]
+        },
+        {
+          "id": "sat-snicker",
+          "word": "snicker",
+          "partOfSpeech": "verb",
+          "definition": "To laugh quietly and slyly, often in a mocking or disrespectful way.",
+          "example": "The students snickered behind their hands when the teacher's toupee slipped sideways.",
+          "mnemonic": "Sounds like 'sneaker' — a sneaky, sneaker-quiet laugh you try to hide.",
+          "synonyms": [
+            "snigger",
+            "titter",
+            "smirk"
+          ],
+          "antonyms": [
+            "sob",
+            "wail"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-titter",
+          "word": "titter",
+          "partOfSpeech": "verb",
+          "definition": "To give a short, nervous, partly suppressed laugh, often from embarrassment.",
+          "example": "A nervous titter spread through the courtroom when the witness admitted he'd forgotten his own address.",
+          "mnemonic": "'Titter' echoes the 'twitter' of birds — high, fluttery, nervous little sounds.",
+          "synonyms": [
+            "giggle",
+            "snicker",
+            "chuckle"
+          ],
+          "antonyms": [
+            "guffaw",
+            "roar"
+          ]
+        },
+        {
+          "id": "sat-cackle",
+          "word": "cackle",
+          "partOfSpeech": "verb",
+          "definition": "To laugh in a loud, harsh, shrill way, like a clucking hen.",
+          "example": "The witch stirred her cauldron and let out a shrill cackle that echoed through the forest.",
+          "mnemonic": "Picture a hen after laying an egg — that harsh clucking IS the sound.",
+          "synonyms": [
+            "cluck",
+            "screech",
+            "crow"
+          ],
+          "antonyms": [
+            "whimper",
+            "sigh"
+          ]
+        },
+        {
+          "id": "sat-risible",
+          "word": "risible",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving to be mocked or laughed at; absurdly ridiculous.",
+          "example": "His risible excuse — that aliens had eaten his homework — earned only a raised eyebrow.",
+          "mnemonic": "From Latin 'ridere' (to laugh), the same root as 'ridiculous' — if it's ris-ible, you can't help it.",
+          "synonyms": [
+            "laughable",
+            "ludicrous",
+            "absurd"
+          ],
+          "antonyms": [
+            "serious",
+            "solemn",
+            "grave"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-wag",
+          "word": "wag",
+          "partOfSpeech": "noun",
+          "definition": "A person fond of making clever jokes or mischievous witticisms.",
+          "example": "Some wag in the back office had taped a googly-eyed photo over the boss's stern portrait.",
+          "mnemonic": "He 'wags' his tongue nonstop with jokes, like a dog wagging its tail.",
+          "synonyms": [
+            "joker",
+            "wit",
+            "jester"
+          ],
+          "antonyms": [
+            "bore",
+            "killjoy"
+          ]
+        },
+        {
+          "id": "sat-spoof",
+          "word": "spoof",
+          "partOfSpeech": "noun",
+          "definition": "A light, humorous imitation that mocks something by exaggerating its features.",
+          "example": "The comedy troupe's spoof of the spy thriller had the hero tripping over his own gadgets.",
+          "mnemonic": "'Spoof' sounds goofy — a goofy send-up of something serious.",
+          "synonyms": [
+            "parody",
+            "send-up",
+            "lampoon"
+          ],
+          "antonyms": [
+            "homage"
+          ]
+        },
+        {
+          "id": "sat-travesty",
+          "word": "travesty",
+          "partOfSpeech": "noun",
+          "definition": "An absurd or inferior imitation that grossly distorts and debases its original.",
+          "example": "The rushed trial was a travesty of justice, over before the defense could call a single witness.",
+          "mnemonic": "From Italian 'travestire' (to dress across) — a serious thing dressed up in absurd, unfitting clothes.",
+          "synonyms": [
+            "mockery",
+            "distortion",
+            "sham"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-jocund",
+          "word": "jocund",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerful, merry, and lighthearted in mood or manner.",
+          "example": "In a jocund mood after the good news, he whistled all the way home and tipped everyone twice.",
+          "mnemonic": "'Jocund' ~ 'joke' + 'fun' — shares its root with 'jocular.'",
+          "synonyms": [
+            "merry",
+            "jovial",
+            "cheerful"
+          ],
+          "antonyms": [
+            "gloomy",
+            "morose",
+            "dour"
+          ]
+        },
+        {
+          "id": "sat-uproarious",
+          "word": "uproarious",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by loud noise and laughter, or so funny it provokes them.",
+          "example": "The stand-up set was so uproarious that patrons were pounding the tables and gasping for breath.",
+          "mnemonic": "'Uproar' + -ious — an UPROAR of noise and merriment.",
+          "synonyms": [
+            "hilarious",
+            "riotous",
+            "boisterous"
+          ],
+          "antonyms": [
+            "quiet",
+            "subdued",
+            "solemn"
+          ]
+        },
+        {
+          "id": "sat-hilarity",
+          "word": "hilarity",
+          "partOfSpeech": "noun",
+          "definition": "Boisterous merriment, or an outburst of amusement and cheer.",
+          "example": "The dog stole the sausages mid-barbecue, and the ensuing chaos dissolved the guests into hilarity.",
+          "mnemonic": "From Latin 'hilaris' (cheerful) — the same root behind 'hilarious.'",
+          "synonyms": [
+            "mirth",
+            "merriment",
+            "glee"
+          ],
+          "antonyms": [
+            "gloom",
+            "solemnity",
+            "sorrow"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-comical",
+          "word": "comical",
+          "partOfSpeech": "adjective",
+          "definition": "Amusing in a way that causes people to smile or laugh.",
+          "example": "The penguin's comical waddle across the ice made even the grumpiest visitor grin.",
+          "mnemonic": "'Comical' ~ 'comic' — like a comic-book gag or a comedian's bit.",
+          "synonyms": [
+            "funny",
+            "amusing",
+            "droll"
+          ],
+          "antonyms": [
+            "serious",
+            "tragic",
+            "solemn"
+          ]
+        },
+        {
+          "id": "sat-bemused",
+          "word": "bemused",
+          "partOfSpeech": "adjective",
+          "definition": "Puzzled, confused, or lost in mild bewilderment.",
+          "example": "She stared at the assembly instructions with a bemused frown, unsure which end was up.",
+          "mnemonic": "'Be-' + 'muse' — so lost in musing you're confused; NOT the same as 'amused.'",
+          "synonyms": [
+            "puzzled",
+            "bewildered",
+            "confused"
+          ],
+          "antonyms": [
+            "clear-headed",
+            "certain",
+            "enlightened"
+          ]
+        },
+        {
+          "id": "sat-cavalier",
+          "word": "cavalier",
+          "partOfSpeech": "adjective",
+          "definition": "Showing an offhand, dismissive lack of proper concern for something important.",
+          "example": "His cavalier attitude toward the safety rules alarmed the new lab technicians.",
+          "mnemonic": "A cavalier (horseman) sweeps past on his high horse, breezily dismissive of those below.",
+          "synonyms": [
+            "offhand",
+            "dismissive",
+            "nonchalant"
+          ],
+          "antonyms": [
+            "careful",
+            "conscientious",
+            "considerate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-insouciant",
+          "word": "insouciant",
+          "partOfSpeech": "adjective",
+          "definition": "Free from worry or concern; showing a light, breezy indifference to what might trouble others.",
+          "example": "She gave an insouciant shrug when told the deadline had moved up, as if nothing could rattle her.",
+          "mnemonic": "Sounds like 'in-SOO-see-ant' — picture someone 'in a suit, ain't' bothered by anything.",
+          "synonyms": [
+            "nonchalant",
+            "carefree",
+            "unconcerned"
+          ],
+          "antonyms": [
+            "anxious",
+            "worried",
+            "earnest"
+          ]
+        },
+        {
+          "id": "sat-debonair",
+          "word": "debonair",
+          "partOfSpeech": "adjective",
+          "definition": "Confident, stylish, and charming in a smooth, refined way, especially describing a man.",
+          "example": "In his tailored tuxedo he moved through the party looking utterly debonair, greeting each guest with an easy smile.",
+          "mnemonic": "'De bon air' is French for 'of good air' — a man with a good, gracious air about him.",
+          "synonyms": [
+            "suave",
+            "urbane",
+            "dashing"
+          ],
+          "antonyms": [
+            "awkward",
+            "boorish",
+            "clumsy"
+          ]
+        },
+        {
+          "id": "sat-vapid",
+          "word": "vapid",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking liveliness, flavor, or substance; offering nothing that stimulates interest or thought.",
+          "example": "The talk show filled an hour with vapid chatter about celebrities, leaving viewers no wiser than before.",
+          "mnemonic": "Rhymes with 'rapid' but is its opposite in spirit — a 'vap' of flat, stale air with nothing in it.",
+          "synonyms": [
+            "insipid",
+            "bland",
+            "dull"
+          ],
+          "antonyms": [
+            "lively",
+            "stimulating",
+            "vibrant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-jejune",
+          "word": "jejune",
+          "partOfSpeech": "adjective",
+          "definition": "Naive and simplistic, or so dull as to feel empty and unsatisfying.",
+          "example": "His essay offered only jejune slogans, the kind of reasoning a thoughtful reader outgrows by high school.",
+          "mnemonic": "Sounds like 'juvenile June' — childish, unripe thinking that never matured past its first month.",
+          "synonyms": [
+            "naive",
+            "childish",
+            "insipid"
+          ],
+          "antonyms": [
+            "mature",
+            "sophisticated",
+            "profound"
+          ]
+        },
+        {
+          "id": "sat-genial",
+          "word": "genial",
+          "partOfSpeech": "adjective",
+          "definition": "Warm, friendly, and pleasant in manner, putting others at ease.",
+          "example": "Our genial host kept refilling glasses and drawing shy guests into conversation until the whole room felt like old friends.",
+          "mnemonic": "Hidden inside is 'genie' — a cheerful genie who grants your wish with a warm smile.",
+          "synonyms": [
+            "affable",
+            "cordial",
+            "amiable"
+          ],
+          "antonyms": [
+            "surly",
+            "cold",
+            "unfriendly"
+          ]
+        },
+        {
+          "id": "sat-gaudy",
+          "word": "gaudy",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively bright, showy, or ornate in a way that lacks good taste.",
+          "example": "The casino's gaudy carpet clashed with neon walls and gold statues, overwhelming the eye at every turn.",
+          "mnemonic": "Sounds like 'gawdy' — so loud and flashy it makes you gawk and mutter 'oh gawd.'",
+          "synonyms": [
+            "garish",
+            "flashy",
+            "tawdry"
+          ],
+          "antonyms": [
+            "tasteful",
+            "understated",
+            "elegant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-fawning",
+          "word": "fawning",
+          "partOfSpeech": "adjective",
+          "definition": "Flattering or praising someone excessively to win favor, often in a servile way.",
+          "example": "The new intern's fawning compliments to the boss made everyone else in the meeting cringe.",
+          "mnemonic": "Picture a young deer (a fawn) trotting after you, adoring and desperate for approval.",
+          "synonyms": [
+            "obsequious",
+            "sycophantic",
+            "servile"
+          ],
+          "antonyms": [
+            "aloof",
+            "critical",
+            "disdainful"
+          ]
+        },
+        {
+          "id": "sat-witticism",
+          "word": "witticism",
+          "partOfSpeech": "noun",
+          "definition": "A clever, amusing remark made in passing.",
+          "example": "He couldn't resist a quick witticism about the burnt toast, and the whole kitchen burst out laughing.",
+          "mnemonic": "'Wit' + '-icism' — a small unit of wit, like an 'ism' you can toss into conversation.",
+          "synonyms": [
+            "quip",
+            "bon mot",
+            "jest"
+          ],
+          "antonyms": [
+            "platitude",
+            "cliché"
+          ]
+        },
+        {
+          "id": "sat-raillery",
+          "word": "raillery",
+          "partOfSpeech": "noun",
+          "definition": "Good-natured teasing or joking directed at someone in a friendly spirit.",
+          "example": "The old teammates greeted each other with rounds of raillery about who had aged the worst.",
+          "mnemonic": "Sounds like 'rally' — friends rally to tease each other, all in good fun.",
+          "synonyms": [
+            "banter",
+            "teasing",
+            "ribbing"
+          ],
+          "antonyms": [
+            "praise",
+            "flattery",
+            "solemnity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-badinage",
+          "word": "badinage",
+          "partOfSpeech": "noun",
+          "definition": "Light, playful conversation exchanged for amusement.",
+          "example": "Their first date was two hours of easy badinage, neither wanting the clever back-and-forth to end.",
+          "mnemonic": "Sounds like 'bad in a garage' — imagine two mechanics trading witty jabs while they work.",
+          "synonyms": [
+            "banter",
+            "repartee",
+            "persiflage"
+          ],
+          "antonyms": [
+            "gravity",
+            "seriousness"
+          ]
+        },
+        {
+          "id": "sat-ribald",
+          "word": "ribald",
+          "partOfSpeech": "adjective",
+          "definition": "Referring to sex or the body in a coarse but humorous way.",
+          "example": "After a few drinks Uncle Joe launched into ribald jokes that turned Grandma's ears bright red.",
+          "mnemonic": "Sounds like 'rib-bald' — jokes that jab your ribs and are baldly, shamelessly crude.",
+          "synonyms": [
+            "bawdy",
+            "raunchy",
+            "risqué"
+          ],
+          "antonyms": [
+            "decorous",
+            "prim",
+            "wholesome"
+          ]
+        },
+        {
+          "id": "sat-bawdy",
+          "word": "bawdy",
+          "partOfSpeech": "adjective",
+          "definition": "Humorously coarse or indecent, especially about sex.",
+          "example": "The tavern rang with bawdy sea shanties that would have scandalized any respectable parlor.",
+          "mnemonic": "Sounds like 'body' — jokes all about the body, told loudly and shamelessly.",
+          "synonyms": [
+            "ribald",
+            "lewd",
+            "raunchy"
+          ],
+          "antonyms": [
+            "chaste",
+            "modest",
+            "refined"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-puckish",
+          "word": "puckish",
+          "partOfSpeech": "adjective",
+          "definition": "Playfully mischievous in a charming, impish way.",
+          "example": "With a puckish grin, she hid everyone's left shoe and waited to watch the confusion unfold.",
+          "mnemonic": "Named for Puck, the trickster sprite in Shakespeare's dream who delights in harmless mischief.",
+          "synonyms": [
+            "impish",
+            "mischievous",
+            "roguish"
+          ],
+          "antonyms": [
+            "solemn",
+            "serious",
+            "sober"
+          ]
+        },
+        {
+          "id": "sat-zany",
+          "word": "zany",
+          "partOfSpeech": "adjective",
+          "definition": "Amusingly odd and wildly unconventional in behavior or style.",
+          "example": "The zany inventor showed up with a hat that dispensed spaghetti, insisting it would change breakfast forever.",
+          "mnemonic": "Rhymes with 'brainy' gone sideways — a 'Zanni' clown from old Italian comedy, all antics and chaos.",
+          "synonyms": [
+            "madcap",
+            "wacky",
+            "outlandish"
+          ],
+          "antonyms": [
+            "sober",
+            "conventional",
+            "staid"
+          ]
+        },
+        {
+          "id": "sat-jocose",
+          "word": "jocose",
+          "partOfSpeech": "adjective",
+          "definition": "Given to joking; playful and humorous in tone or intent.",
+          "example": "The professor's jocose asides about his own bad handwriting kept the lecture from ever feeling dry.",
+          "mnemonic": "Think 'joke' + 'verbose' — someone whose speech is full of jokes.",
+          "synonyms": [
+            "jocular",
+            "playful",
+            "waggish"
+          ],
+          "antonyms": [
+            "solemn",
+            "grave",
+            "humorless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-captious",
+          "word": "captious",
+          "partOfSpeech": "adjective",
+          "definition": "Inclined to find trivial faults and raise petty objections at every opportunity.",
+          "example": "The captious reviewer circled every comma but never once mentioned the brilliant argument underneath.",
+          "mnemonic": "Sounds like 'capture' — from Latin capere, 'to seize'; a captious person seizes on your tiniest flaw to complain about.",
+          "synonyms": [
+            "carping",
+            "faultfinding",
+            "nitpicking"
+          ],
+          "antonyms": [
+            "complimentary",
+            "tolerant",
+            "uncritical"
+          ]
+        },
+        {
+          "id": "sat-punctilious",
+          "word": "punctilious",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely careful about small details of conduct, etiquette, or correct procedure.",
+          "example": "He was so punctilious about the place settings that a single misaligned fork could ruin his evening.",
+          "mnemonic": "Hidden inside is 'punctual' plus the Latin punctum ('point') — someone precise down to the very point.",
+          "synonyms": [
+            "meticulous",
+            "scrupulous",
+            "fastidious"
+          ],
+          "antonyms": [
+            "careless",
+            "sloppy",
+            "negligent"
+          ]
+        },
+        {
+          "id": "sat-waspish",
+          "word": "waspish",
+          "partOfSpeech": "adjective",
+          "definition": "Quick to become annoyed and prone to sharp, spiteful, snappish remarks.",
+          "example": "One waspish comment about her cooking, and she stung him with a whole week of icy silence.",
+          "mnemonic": "Think of a wasp: it stings fast and sharp — a waspish person snaps at you with stinging words.",
+          "synonyms": [
+            "irritable",
+            "testy",
+            "snappish"
+          ],
+          "antonyms": [
+            "genial",
+            "good-natured",
+            "affable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-pun",
+          "word": "pun",
+          "partOfSpeech": "noun",
+          "definition": "A humorous play on words sharing similar sounds or multiple meanings.",
+          "example": "When the baker called his job 'a piece of cake,' the whole room groaned at the pun.",
+          "mnemonic": "Rhymes with 'fun' — a pun is wordplay meant to be fun, even when it makes you groan.",
+          "synonyms": [
+            "wordplay",
+            "quip",
+            "double entendre"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-whimsy",
+          "word": "whimsy",
+          "partOfSpeech": "noun",
+          "definition": "A playful, fanciful quality, or a sudden and capricious idea.",
+          "example": "On a whimsy, she painted her front door bright turquoise and strung wind chimes across the porch.",
+          "mnemonic": "Blend of 'whim' and 'flimsy' — a light, flimsy passing whim that flits through your head.",
+          "synonyms": [
+            "caprice",
+            "fancy",
+            "playfulness"
+          ],
+          "antonyms": [
+            "seriousness",
+            "gravity",
+            "practicality"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T22:12:43.023Z"
+}

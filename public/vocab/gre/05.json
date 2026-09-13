@@ -1,0 +1,1678 @@
+{
+  "track": "gre",
+  "ordinal": 5,
+  "title": "Speech and silence",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-articulate",
+          "word": "articulate",
+          "partOfSpeech": "adjective",
+          "definition": "Able to express thoughts and feelings clearly, fluently, and coherently in words.",
+          "example": "Even under pressure, she stayed articulate, answering every question in crisp, complete sentences.",
+          "mnemonic": "From Latin 'articulus' (a joint) — you join your words together neatly, like well-fitted joints.",
+          "synonyms": [
+            "eloquent",
+            "fluent",
+            "coherent"
+          ],
+          "antonyms": [
+            "inarticulate",
+            "incoherent",
+            "tongue-tied"
+          ]
+        },
+        {
+          "id": "gre-eloquent",
+          "word": "eloquent",
+          "partOfSpeech": "adjective",
+          "definition": "Speaking or writing in a fluent, vivid, and deeply persuasive way that moves people.",
+          "example": "His eloquent tribute at the funeral left the entire room in tears.",
+          "mnemonic": "Hidden inside is Latin 'loqui' (to speak); think of words that 'quench' an audience's thirst for beauty.",
+          "synonyms": [
+            "articulate",
+            "expressive",
+            "persuasive"
+          ],
+          "antonyms": [
+            "inarticulate",
+            "halting",
+            "tongue-tied"
+          ]
+        },
+        {
+          "id": "gre-verbose",
+          "word": "verbose",
+          "partOfSpeech": "adjective",
+          "definition": "Using far more words than necessary, so the real meaning gets buried.",
+          "example": "The manual was so verbose that finding one simple instruction took twenty minutes.",
+          "mnemonic": "'Verb-ose' — overflowing with verbs and words; Latin 'verbum' means 'word'.",
+          "synonyms": [
+            "wordy",
+            "long-winded",
+            "prolix"
+          ],
+          "antonyms": [
+            "concise",
+            "terse",
+            "succinct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-voluble",
+          "word": "voluble",
+          "partOfSpeech": "adjective",
+          "definition": "Talking readily, rapidly, and at great length, often without pausing.",
+          "example": "A few glasses of wine made the usually shy accountant voluble, and he chattered all night.",
+          "mnemonic": "Sounds like 'volume' — the volume of talk never turns off; root 'volvere' (to roll) as words roll out.",
+          "synonyms": [
+            "talkative",
+            "garrulous",
+            "loquacious"
+          ],
+          "antonyms": [
+            "taciturn",
+            "reticent",
+            "silent"
+          ]
+        },
+        {
+          "id": "gre-prolix",
+          "word": "prolix",
+          "partOfSpeech": "adjective",
+          "definition": "Tediously long and drawn-out, stretching a small point far past patience.",
+          "example": "The professor's prolix lectures could stretch a five-minute idea across a full hour.",
+          "mnemonic": "'Pro-lix' echoes 'pro-long'; from pro- (forth) + liquere (to flow) — words that flow on and on.",
+          "synonyms": [
+            "verbose",
+            "long-winded",
+            "wordy"
+          ],
+          "antonyms": [
+            "concise",
+            "pithy",
+            "terse"
+          ]
+        },
+        {
+          "id": "gre-terse",
+          "word": "terse",
+          "partOfSpeech": "adjective",
+          "definition": "Brief and to the point, using very few words, sometimes bordering on rude.",
+          "example": "Her only reply to the long email was a terse 'No.'",
+          "mnemonic": "Rhymes with 'curse' — a one-word curse is short, sharp, and clipped.",
+          "synonyms": [
+            "concise",
+            "succinct",
+            "curt"
+          ],
+          "antonyms": [
+            "verbose",
+            "long-winded",
+            "rambling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-succinct",
+          "word": "succinct",
+          "partOfSpeech": "adjective",
+          "definition": "Expressed clearly and briefly, with no wasted words at all.",
+          "example": "The CEO's succinct summary fit the entire strategy onto a single index card.",
+          "mnemonic": "Sounds like 'suck it in' — suck in the extra words; Latin 'succingere' means to gird tightly.",
+          "synonyms": [
+            "concise",
+            "pithy",
+            "terse"
+          ],
+          "antonyms": [
+            "verbose",
+            "wordy",
+            "rambling"
+          ]
+        },
+        {
+          "id": "gre-concise",
+          "word": "concise",
+          "partOfSpeech": "adjective",
+          "definition": "Giving a lot of information clearly and completely in only a few words.",
+          "example": "Keep the abstract concise: three sentences that capture the whole paper.",
+          "mnemonic": "Like 'precise scissors' — root 'caedere' (to cut) — cut away every excess word.",
+          "synonyms": [
+            "succinct",
+            "terse",
+            "pithy"
+          ],
+          "antonyms": [
+            "verbose",
+            "wordy",
+            "long-winded"
+          ]
+        },
+        {
+          "id": "gre-curt",
+          "word": "curt",
+          "partOfSpeech": "adjective",
+          "definition": "Rudely brief and abrupt in speech or manner, offering nothing extra.",
+          "example": "'Fine,' he said with a curt nod, then walked off without another word.",
+          "mnemonic": "Short for 'curtailed' — a curt reply is speech cut short.",
+          "synonyms": [
+            "brusque",
+            "blunt",
+            "terse"
+          ],
+          "antonyms": [
+            "polite",
+            "gracious",
+            "expansive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-brusque",
+          "word": "brusque",
+          "partOfSpeech": "adjective",
+          "definition": "Abrupt and short in manner, bordering on rude or dismissive.",
+          "example": "The nurse's brusque manner softened once she saw how frightened the child was.",
+          "mnemonic": "Sounds like 'brush' — he brushes you off quickly and roughly; from Italian 'brusco' (sharp, tart).",
+          "synonyms": [
+            "curt",
+            "abrupt",
+            "gruff"
+          ],
+          "antonyms": [
+            "gentle",
+            "gracious",
+            "genial"
+          ]
+        },
+        {
+          "id": "gre-blunt",
+          "word": "blunt",
+          "partOfSpeech": "adjective",
+          "definition": "Saying exactly what you think plainly, without any attempt to soften it.",
+          "example": "To be blunt, your business plan has no realistic chance of making money.",
+          "mnemonic": "A blunt knife has no fine edge — blunt speech has no soft, polished edges either.",
+          "synonyms": [
+            "frank",
+            "candid",
+            "forthright"
+          ],
+          "antonyms": [
+            "tactful",
+            "diplomatic",
+            "evasive"
+          ]
+        },
+        {
+          "id": "gre-candid",
+          "word": "candid",
+          "partOfSpeech": "adjective",
+          "definition": "Honest, open, and straightforward, even about awkward or unflattering truths.",
+          "example": "In a candid interview, the actor admitted he'd nearly quit the film halfway through.",
+          "mnemonic": "Think 'Candid Camera' — it catches your honest, unguarded self; Latin 'candidus' means pure white.",
+          "synonyms": [
+            "frank",
+            "honest",
+            "forthright"
+          ],
+          "antonyms": [
+            "guarded",
+            "evasive",
+            "insincere"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-glib",
+          "word": "glib",
+          "partOfSpeech": "adjective",
+          "definition": "Speaking smoothly and easily but without sincerity or genuine thought.",
+          "example": "His glib assurances that 'everything's handled' fooled no one who knew the details.",
+          "mnemonic": "Sounds like 'glide' — words that glide out too smoothly and slickly to be trusted.",
+          "synonyms": [
+            "slick",
+            "facile",
+            "smooth-talking"
+          ],
+          "antonyms": [
+            "sincere",
+            "thoughtful",
+            "earnest"
+          ]
+        },
+        {
+          "id": "gre-fluent",
+          "word": "fluent",
+          "partOfSpeech": "adjective",
+          "definition": "Able to speak or write smoothly, easily, and without hesitation.",
+          "example": "After a year in Madrid she became fluent, chatting with locals as if born there.",
+          "mnemonic": "Root 'fluere' (to flow) — speech pours out like a smooth, flowing fluid.",
+          "synonyms": [
+            "articulate",
+            "eloquent",
+            "effortless"
+          ],
+          "antonyms": [
+            "halting",
+            "stumbling",
+            "hesitant"
+          ]
+        },
+        {
+          "id": "gre-rhetoric",
+          "word": "rhetoric",
+          "partOfSpeech": "noun",
+          "definition": "The art of using language skillfully to persuade or impress an audience.",
+          "example": "The senator's speech was full of soaring rhetoric but offered no concrete plan.",
+          "mnemonic": "From Greek 'rhetor' (public speaker) — picture a red-hot orator working the crowd.",
+          "synonyms": [
+            "oratory",
+            "eloquence",
+            "persuasion"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-oratory",
+          "word": "oratory",
+          "partOfSpeech": "noun",
+          "definition": "The art of making formal, persuasive public speeches.",
+          "example": "Her closing argument was a piece of pure oratory that left the jury spellbound.",
+          "mnemonic": "Latin 'ora' (to speak) + tory — think of a grand speaker who turns speech into an art.",
+          "synonyms": [
+            "rhetoric",
+            "eloquence",
+            "declamation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-eloquence",
+          "word": "eloquence",
+          "partOfSpeech": "noun",
+          "definition": "The skill of speaking or writing fluently and persuasively.",
+          "example": "He accepted the award with such eloquence that even his rivals applauded.",
+          "mnemonic": "e-LOQU- from Latin 'loqui' (to speak) — the same root hiding in 'ventriloquist,' one who speaks well.",
+          "synonyms": [
+            "articulacy",
+            "fluency",
+            "expressiveness"
+          ],
+          "antonyms": [
+            "inarticulacy",
+            "stammering"
+          ]
+        },
+        {
+          "id": "gre-discourse",
+          "word": "discourse",
+          "partOfSpeech": "noun",
+          "definition": "A formal discussion of a topic, spoken or written.",
+          "example": "The professor's evening lecture became a wide-ranging discourse on the ethics of memory.",
+          "mnemonic": "dis- (apart) + course — ideas running their full 'course' out loud from one mind to many.",
+          "synonyms": [
+            "dissertation",
+            "discussion",
+            "treatise"
+          ],
+          "antonyms": [
+            "silence"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-monologue",
+          "word": "monologue",
+          "partOfSpeech": "noun",
+          "definition": "A long speech delivered by a single speaker.",
+          "example": "The actor held the stage alone for ten minutes, his monologue building toward a whispered confession.",
+          "mnemonic": "mono (one) + logue (speech) — one voice, no reply.",
+          "synonyms": [
+            "soliloquy",
+            "speech",
+            "address"
+          ],
+          "antonyms": [
+            "dialogue",
+            "conversation"
+          ]
+        },
+        {
+          "id": "gre-soliloquy",
+          "word": "soliloquy",
+          "partOfSpeech": "noun",
+          "definition": "The act of speaking one's thoughts aloud while alone.",
+          "example": "Hamlet's famous soliloquy reveals a mind wrestling with itself in an empty hall.",
+          "mnemonic": "soli (alone) + loqui (speak) — a 'solo' talk with no one else on stage.",
+          "synonyms": [
+            "monologue",
+            "aside"
+          ],
+          "antonyms": [
+            "dialogue",
+            "conversation"
+          ]
+        },
+        {
+          "id": "gre-colloquy",
+          "word": "colloquy",
+          "partOfSpeech": "noun",
+          "definition": "A formal or high-level conversation between two or more people.",
+          "example": "The two envoys withdrew for a private colloquy before the treaty was signed.",
+          "mnemonic": "col- (together) + loqui (speak) — people 'co-located' and speaking together.",
+          "synonyms": [
+            "conversation",
+            "dialogue",
+            "conference"
+          ],
+          "antonyms": [
+            "monologue",
+            "silence"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-elocution",
+          "word": "elocution",
+          "partOfSpeech": "noun",
+          "definition": "The skill of clear, expressive pronunciation in public speaking.",
+          "example": "Years of elocution lessons had erased every trace of her childhood mumble.",
+          "mnemonic": "e-LOCU (speak out) — imagine you 'lock you' each word into crisp shape before releasing it.",
+          "synonyms": [
+            "articulation",
+            "diction",
+            "enunciation"
+          ],
+          "antonyms": [
+            "mumbling"
+          ]
+        },
+        {
+          "id": "gre-diction",
+          "word": "diction",
+          "partOfSpeech": "noun",
+          "definition": "The choice of words and clarity of pronunciation in speech.",
+          "example": "The newscaster's crisp diction made every syllable easy to follow.",
+          "mnemonic": "Same 'dict' (to say) root as dictionary — how well you say and select your words.",
+          "synonyms": [
+            "enunciation",
+            "articulation",
+            "phrasing"
+          ],
+          "antonyms": [
+            "mumbling"
+          ]
+        },
+        {
+          "id": "gre-enunciate",
+          "word": "enunciate",
+          "partOfSpeech": "verb",
+          "definition": "To pronounce words clearly and distinctly.",
+          "example": "Please enunciate when you leave a voicemail, or I can't tell your name from noise.",
+          "mnemonic": "e-NUNCI — picture a stern nun making each child say every word crisply, like a papal 'nuncio' announcing news.",
+          "synonyms": [
+            "articulate",
+            "pronounce",
+            "vocalize"
+          ],
+          "antonyms": [
+            "mumble",
+            "mutter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-declaim",
+          "word": "declaim",
+          "partOfSpeech": "verb",
+          "definition": "To speak or recite formally and with dramatic emphasis.",
+          "example": "He climbed onto the crate to declaim against the new tax to the gathering crowd.",
+          "mnemonic": "de + claim — to loudly 'claim' your point before a whole crowd.",
+          "synonyms": [
+            "orate",
+            "recite",
+            "hold forth"
+          ],
+          "antonyms": [
+            "whisper",
+            "mumble"
+          ]
+        },
+        {
+          "id": "gre-expatiate",
+          "word": "expatiate",
+          "partOfSpeech": "verb",
+          "definition": "To speak or write about a subject at great length or detail.",
+          "example": "Ask him about trains and he will expatiate happily until your coffee goes cold.",
+          "mnemonic": "ex + 'spatium' (space) — you spread out across a wide open 'space' of words.",
+          "synonyms": [
+            "elaborate",
+            "expound",
+            "dwell on"
+          ],
+          "antonyms": [
+            "summarize",
+            "abridge"
+          ]
+        },
+        {
+          "id": "gre-pontificate",
+          "word": "pontificate",
+          "partOfSpeech": "verb",
+          "definition": "To express opinions in a pompous, dogmatic way, as if never wrong.",
+          "example": "At every dinner he would pontificate about wine while everyone else quietly refilled their glasses.",
+          "mnemonic": "pontiff (the Pope) — talk as if you spoke from the papal throne, grandly and infallibly.",
+          "synonyms": [
+            "preach",
+            "sermonize",
+            "dogmatize"
+          ],
+          "antonyms": [
+            "listen",
+            "defer"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-expound",
+          "word": "expound",
+          "partOfSpeech": "verb",
+          "definition": "To explain something systematically and in careful detail.",
+          "example": "The mechanic paused to expound exactly why the old design kept failing.",
+          "mnemonic": "ex + pound — you 'pound out' every point of an idea until it's fully laid open.",
+          "synonyms": [
+            "explain",
+            "elaborate",
+            "clarify"
+          ],
+          "antonyms": [
+            "obscure",
+            "confuse"
+          ]
+        },
+        {
+          "id": "gre-elucidate",
+          "word": "elucidate",
+          "partOfSpeech": "verb",
+          "definition": "To make something clear by explaining it thoroughly.",
+          "example": "A single well-drawn diagram can elucidate what three pages of text left murky.",
+          "mnemonic": "e-LUCID — from 'lucid' (clear light) — to shine light onto a dark idea.",
+          "synonyms": [
+            "clarify",
+            "explain",
+            "illuminate"
+          ],
+          "antonyms": [
+            "obscure",
+            "confuse"
+          ]
+        },
+        {
+          "id": "gre-explicate",
+          "word": "explicate",
+          "partOfSpeech": "verb",
+          "definition": "To analyze and clarify the meaning of something in detail.",
+          "example": "The seminar spent an hour helping students explicate a single dense stanza.",
+          "mnemonic": "ex + 'plic' (fold) — to 'unfold' a tangled text; the same fold hiding in 'explicit.'",
+          "synonyms": [
+            "interpret",
+            "clarify",
+            "analyze"
+          ],
+          "antonyms": [
+            "obscure",
+            "confuse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-delineate",
+          "word": "delineate",
+          "partOfSpeech": "verb",
+          "definition": "To describe or draw the exact boundaries or details of something.",
+          "example": "The contract carefully delineates each partner's rights and responsibilities.",
+          "mnemonic": "de-LINE-ate has 'line' in it: you draw the lines that mark something out.",
+          "synonyms": [
+            "outline",
+            "define",
+            "sketch"
+          ],
+          "antonyms": [
+            "blur",
+            "muddle",
+            "confuse"
+          ]
+        },
+        {
+          "id": "gre-adumbrate",
+          "word": "adumbrate",
+          "partOfSpeech": "verb",
+          "definition": "To give a faint or partial outline of something, or hint at what is to come.",
+          "example": "Her opening remarks adumbrated the reforms she would announce in full a month later.",
+          "mnemonic": "From Latin 'umbra' (shadow): you cast only a shadow of the full picture.",
+          "synonyms": [
+            "foreshadow",
+            "sketch",
+            "hint"
+          ],
+          "antonyms": [
+            "detail",
+            "clarify",
+            "specify"
+          ]
+        },
+        {
+          "id": "gre-allude",
+          "word": "allude",
+          "partOfSpeech": "verb",
+          "definition": "To mention something in an indirect or passing way.",
+          "example": "She never named him, but everyone knew whom she was alluding to.",
+          "mnemonic": "Holds 'lud' from Latin 'ludere' (to play): you playfully point at a topic rather than say it outright.",
+          "synonyms": [
+            "hint",
+            "refer",
+            "suggest"
+          ],
+          "antonyms": [
+            "specify",
+            "state",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-insinuate",
+          "word": "insinuate",
+          "partOfSpeech": "verb",
+          "definition": "To hint at something bad in a sly, indirect way.",
+          "example": "He insinuated that the manager had been cooking the books, without ever saying it outright.",
+          "mnemonic": "Hides 'sinu-' like sinuous: a snake winding its way in to plant a hidden idea.",
+          "synonyms": [
+            "imply",
+            "hint",
+            "suggest"
+          ],
+          "antonyms": [
+            "declare",
+            "state",
+            "announce"
+          ]
+        },
+        {
+          "id": "gre-intimate",
+          "word": "intimate",
+          "partOfSpeech": "verb",
+          "definition": "To make something known quietly or by subtle hint.",
+          "example": "By glancing pointedly at the clock, she intimated that the meeting should end.",
+          "mnemonic": "An 'intimate' friend knows your secrets, so to intimate is to share a hint privately.",
+          "synonyms": [
+            "hint",
+            "imply",
+            "suggest"
+          ],
+          "antonyms": [
+            "proclaim",
+            "withhold"
+          ]
+        },
+        {
+          "id": "gre-broach",
+          "word": "broach",
+          "partOfSpeech": "verb",
+          "definition": "To bring up a topic for the first time, often a difficult one.",
+          "example": "I finally broached the subject of a raise with my boss over lunch.",
+          "mnemonic": "Like tapping a 'broach' into a barrel: you pierce the silence to let a touchy topic out.",
+          "synonyms": [
+            "raise",
+            "introduce",
+            "mention"
+          ],
+          "antonyms": [
+            "suppress",
+            "withhold",
+            "avoid"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-digress",
+          "word": "digress",
+          "partOfSpeech": "verb",
+          "definition": "To wander away from the main subject while speaking or writing.",
+          "example": "The professor kept digressing into stories about his cat instead of finishing the lecture.",
+          "mnemonic": "di- (away) + -gress (step, as in progress): you step away from the point.",
+          "synonyms": [
+            "deviate",
+            "wander",
+            "stray"
+          ],
+          "antonyms": [
+            "focus",
+            "concentrate"
+          ]
+        },
+        {
+          "id": "gre-ramble",
+          "word": "ramble",
+          "partOfSpeech": "verb",
+          "definition": "To talk on and on in a wandering, aimless way.",
+          "example": "Grandpa rambled for an hour about the old days before we could steer him back.",
+          "mnemonic": "Picture a rambler hiking with no fixed trail; your words wander just like the walk.",
+          "synonyms": [
+            "meander",
+            "waffle",
+            "wander"
+          ],
+          "antonyms": [
+            "focus",
+            "condense"
+          ]
+        },
+        {
+          "id": "gre-prattle",
+          "word": "prattle",
+          "partOfSpeech": "verb",
+          "definition": "To chatter in a silly, trivial, childish way.",
+          "example": "The toddlers prattled happily about their imaginary friends all through dinner.",
+          "mnemonic": "Sounds like 'prat' (a fool) plus 'tattle': foolish, trivial tattling.",
+          "synonyms": [
+            "chatter",
+            "gab",
+            "natter"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-babble",
+          "word": "babble",
+          "partOfSpeech": "verb",
+          "definition": "To talk quickly in a way that makes little or no sense.",
+          "example": "The feverish patient babbled about clocks melting off the wall.",
+          "mnemonic": "Think of the Tower of Babel: confused speech that nobody could understand.",
+          "synonyms": [
+            "gabble",
+            "prattle",
+            "jabber"
+          ],
+          "antonyms": [
+            "articulate",
+            "enunciate"
+          ]
+        },
+        {
+          "id": "gre-blather",
+          "word": "blather",
+          "partOfSpeech": "verb",
+          "definition": "To talk at length in a foolish, long-winded way.",
+          "example": "The candidate blathered on about values without ever answering the actual question.",
+          "mnemonic": "Rhymes with 'lather': words foaming up like empty suds, all bubbles and no substance.",
+          "synonyms": [
+            "waffle",
+            "drivel",
+            "prattle"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-jabber",
+          "word": "jabber",
+          "partOfSpeech": "verb",
+          "definition": "To speak fast and in a way that is hard to understand.",
+          "example": "The excited tourists jabbered in a language I couldn't quite place.",
+          "mnemonic": "'jab' + -er: words jabbing out fast, like a flurry of quick punches (think Jabberwocky nonsense).",
+          "synonyms": [
+            "gabble",
+            "babble",
+            "chatter"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-drone",
+          "word": "drone",
+          "partOfSpeech": "verb",
+          "definition": "To speak in a dull, monotonous voice that goes on and on.",
+          "example": "The lecturer droned until half the class had quietly fallen asleep.",
+          "mnemonic": "Picture a drone aircraft's steady hum or a bee's flat buzz: monotone and endless.",
+          "synonyms": [
+            "intone",
+            "hum"
+          ],
+          "antonyms": [
+            "enliven"
+          ]
+        },
+        {
+          "id": "gre-mutter",
+          "word": "mutter",
+          "partOfSpeech": "verb",
+          "definition": "To speak in a low, unclear voice, usually while grumbling.",
+          "example": "He muttered a curse under his breath as he stubbed his toe on the door.",
+          "mnemonic": "Sounds like a 'mutt' growling: a low grumble you can barely make out.",
+          "synonyms": [
+            "grumble",
+            "murmur",
+            "mumble"
+          ],
+          "antonyms": [
+            "shout",
+            "proclaim"
+          ]
+        },
+        {
+          "id": "gre-mumble",
+          "word": "mumble",
+          "partOfSpeech": "verb",
+          "definition": "To speak so quietly and unclearly that words are hard to catch.",
+          "example": "The shy student mumbled his answer into his collar, and no one heard it.",
+          "mnemonic": "Imagine a mouth full of marbles: the sounds come out soft and blurred.",
+          "synonyms": [
+            "murmur",
+            "mutter"
+          ],
+          "antonyms": [
+            "enunciate",
+            "articulate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-murmur",
+          "word": "murmur",
+          "partOfSpeech": "verb",
+          "definition": "To say something in a low, soft, unclear voice.",
+          "example": "She leaned close and murmured a secret so the others at the table wouldn't hear.",
+          "mnemonic": "The word itself hums — 'mmm-mmm' — the low, blurred sound of quiet talking.",
+          "synonyms": [
+            "mutter",
+            "mumble"
+          ],
+          "antonyms": [
+            "shout",
+            "bellow"
+          ]
+        },
+        {
+          "id": "gre-whisper",
+          "word": "whisper",
+          "partOfSpeech": "verb",
+          "definition": "To speak using only breath, so the sound barely carries.",
+          "example": "He whispered the answer into my ear so the teacher wouldn't catch us.",
+          "mnemonic": "Hidden inside is a 'hiss' — the breathy, airy sound of speaking without your voice.",
+          "synonyms": [
+            "breathe",
+            "hush"
+          ],
+          "antonyms": [
+            "shout",
+            "yell"
+          ]
+        },
+        {
+          "id": "gre-stammer",
+          "word": "stammer",
+          "partOfSpeech": "verb",
+          "definition": "To speak with hesitant breaks and repeated sounds, often from nerves.",
+          "example": "Put on the spot, he stammered through his apology, unable to finish a single sentence.",
+          "mnemonic": "A 'stalled hammer' that keeps striking the same spot before it moves on.",
+          "synonyms": [
+            "stutter",
+            "falter",
+            "hesitate"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-stutter",
+          "word": "stutter",
+          "partOfSpeech": "verb",
+          "definition": "To involuntarily repeat the first sounds of words while trying to speak.",
+          "example": "The nervous boy stuttered on the letter 'p' every time he tried to say 'please'.",
+          "mnemonic": "The doubled 't-t' in the middle of the spelling mimics the repeated sound.",
+          "synonyms": [
+            "stammer",
+            "falter"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-drawl",
+          "word": "drawl",
+          "partOfSpeech": "verb",
+          "definition": "To speak slowly, stretching out the vowel sounds.",
+          "example": "The old rancher greeted us in a lazy Texan drawl that stretched every word to twice its length.",
+          "mnemonic": "You 'draw' your words out long, like pulling taffy — drawl.",
+          "synonyms": [
+            "drone"
+          ],
+          "antonyms": [
+            "gabble",
+            "chatter"
+          ]
+        },
+        {
+          "id": "gre-intone",
+          "word": "intone",
+          "partOfSpeech": "verb",
+          "definition": "To recite words in a slow, even, musical pitch.",
+          "example": "The priest intoned the closing prayer in a steady, solemn voice that filled the chapel.",
+          "mnemonic": "'In tone' — you speak staying on one sustained musical tone.",
+          "synonyms": [
+            "chant",
+            "recite"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-chant",
+          "word": "chant",
+          "partOfSpeech": "verb",
+          "definition": "To repeat words rhythmically in a singing, monotonous way.",
+          "example": "The crowd chanted the team's name over and over until the whole stadium shook.",
+          "mnemonic": "It sits inside 'enchant' — repeated rhythmic words that cast a spell.",
+          "synonyms": [
+            "intone",
+            "recite"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-croon",
+          "word": "croon",
+          "partOfSpeech": "verb",
+          "definition": "To sing or hum softly and soothingly.",
+          "example": "She crooned a lullaby, rocking gently, until the baby's eyes finally closed.",
+          "mnemonic": "Rhymes with 'swoon' — soft, tender singing that makes you melt.",
+          "synonyms": [
+            "hum",
+            "serenade"
+          ],
+          "antonyms": [
+            "bellow",
+            "shriek"
+          ]
+        },
+        {
+          "id": "gre-bellow",
+          "word": "bellow",
+          "partOfSpeech": "verb",
+          "definition": "To shout in a deep, loud, powerful voice.",
+          "example": "The sergeant bellowed his orders across the parade ground, and every recruit froze.",
+          "mnemonic": "A raging 'bull below' the hill bellowing at full force.",
+          "synonyms": [
+            "roar",
+            "boom"
+          ],
+          "antonyms": [
+            "whisper",
+            "murmur"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-shriek",
+          "word": "shriek",
+          "partOfSpeech": "verb",
+          "definition": "To cry out with a high, piercing, sharp sound.",
+          "example": "She shrieked and jumped onto the chair when the spider dropped onto her shoulder.",
+          "mnemonic": "Say it fast and it becomes the sharp 'eek!' it describes.",
+          "synonyms": [
+            "screech",
+            "scream"
+          ],
+          "antonyms": [
+            "whisper",
+            "murmur"
+          ]
+        },
+        {
+          "id": "gre-screech",
+          "word": "screech",
+          "partOfSpeech": "verb",
+          "definition": "To make a harsh, high-pitched, grating noise.",
+          "example": "The tires screeched as the car braked hard and skidded around the corner.",
+          "mnemonic": "The long 'eeee' grinds like the sound of brakes — screeeech.",
+          "synonyms": [
+            "shriek",
+            "squeal"
+          ],
+          "antonyms": [
+            "murmur",
+            "whisper"
+          ]
+        },
+        {
+          "id": "gre-squawk",
+          "word": "squawk",
+          "partOfSpeech": "verb",
+          "definition": "To make a loud, harsh cry like an alarmed bird.",
+          "example": "The parrot squawked the instant the cat padded into the room.",
+          "mnemonic": "The spelling looks like the sound a startled duck or parrot makes — 'kwawk!'",
+          "synonyms": [
+            "screech",
+            "squeal"
+          ],
+          "antonyms": [
+            "whisper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-chatter",
+          "word": "chatter",
+          "partOfSpeech": "verb",
+          "definition": "To talk quickly and continuously about unimportant things.",
+          "example": "The kids chattered nonstop about the amusement park for the entire bus ride home.",
+          "mnemonic": "'Chat' plus '-er', doubling on itself — endless, restless chatting.",
+          "synonyms": [
+            "prattle",
+            "babble"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-gossip",
+          "word": "gossip",
+          "partOfSpeech": "verb",
+          "definition": "To talk casually about other people's private lives, often unkindly.",
+          "example": "The neighbors gossiped for weeks about who had really bought the mansion on the corner.",
+          "mnemonic": "'Gos-SIP' your tea while you spill everyone's secrets.",
+          "synonyms": [
+            "prattle",
+            "tattle"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-divulge",
+          "word": "divulge",
+          "partOfSpeech": "verb",
+          "definition": "To reveal secret or private information to others.",
+          "example": "The lawyer refused to divulge the whereabouts of her client under any pressure.",
+          "mnemonic": "Sounds like 'di-BULGE' — a hidden secret bulging out until it bursts into the open.",
+          "synonyms": [
+            "reveal",
+            "disclose"
+          ],
+          "antonyms": [
+            "conceal",
+            "withhold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-disclose",
+          "word": "disclose",
+          "partOfSpeech": "verb",
+          "definition": "To reveal information that was previously kept secret or private.",
+          "example": "The company refused to disclose how much its executives were paid.",
+          "mnemonic": "dis-CLOSE — the opposite of keeping something closed; you open it up so others can see.",
+          "synonyms": [
+            "reveal",
+            "divulge",
+            "expose"
+          ],
+          "antonyms": [
+            "conceal",
+            "hide",
+            "withhold"
+          ]
+        },
+        {
+          "id": "gre-proclaim",
+          "word": "proclaim",
+          "partOfSpeech": "verb",
+          "definition": "To announce something publicly, officially, and with emphasis.",
+          "example": "The king climbed to the balcony to proclaim victory to the cheering crowd.",
+          "mnemonic": "PRO + CLAIM — you claim something PROudly and out loud for everyone to hear.",
+          "synonyms": [
+            "announce",
+            "declare",
+            "broadcast"
+          ],
+          "antonyms": [
+            "conceal",
+            "suppress",
+            "whisper"
+          ]
+        },
+        {
+          "id": "gre-profess",
+          "word": "profess",
+          "partOfSpeech": "verb",
+          "definition": "To openly declare a feeling or belief, sometimes falsely.",
+          "example": "He professed his undying loyalty, yet betrayed her the very next day.",
+          "mnemonic": "Picture a PROFESSor standing at the podium, openly declaring what he believes.",
+          "synonyms": [
+            "declare",
+            "assert",
+            "avow"
+          ],
+          "antonyms": [
+            "deny",
+            "disavow",
+            "retract"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-contend",
+          "word": "contend",
+          "partOfSpeech": "verb",
+          "definition": "To argue or assert firmly that something is true.",
+          "example": "The lawyer contended that the evidence had been planted by the police.",
+          "mnemonic": "con-TEND — you TEND (defend) your side of an argument against the other person.",
+          "synonyms": [
+            "argue",
+            "assert",
+            "maintain"
+          ],
+          "antonyms": [
+            "concede",
+            "agree",
+            "deny"
+          ]
+        },
+        {
+          "id": "gre-allege",
+          "word": "allege",
+          "partOfSpeech": "verb",
+          "definition": "To claim someone did something wrong, without yet offering proof.",
+          "example": "Neighbors allege that the landlord ignored the broken heating all winter.",
+          "mnemonic": "Sounds like 'a ledge' — an accusation resting on shaky, unproven ground.",
+          "synonyms": [
+            "claim",
+            "assert",
+            "charge"
+          ],
+          "antonyms": [
+            "prove",
+            "disprove",
+            "deny"
+          ]
+        },
+        {
+          "id": "gre-remonstrate",
+          "word": "remonstrate",
+          "partOfSpeech": "verb",
+          "definition": "To protest or object forcefully to another person's actions or words.",
+          "example": "She remonstrated with the referee after the obviously unfair penalty.",
+          "mnemonic": "re-MONSTER-ate — you turn into a monster of protest when you strongly object.",
+          "synonyms": [
+            "protest",
+            "object",
+            "complain"
+          ],
+          "antonyms": [
+            "agree",
+            "approve",
+            "consent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-expostulate",
+          "word": "expostulate",
+          "partOfSpeech": "verb",
+          "definition": "To express strong disagreement, urging someone to reconsider their behavior.",
+          "example": "The teacher expostulated with the boy, begging him to stop cheating.",
+          "mnemonic": "ex-POST-ulate — you POST a strong, reasoned objection out loud for someone to heed.",
+          "synonyms": [
+            "remonstrate",
+            "protest",
+            "object"
+          ],
+          "antonyms": [
+            "agree",
+            "assent",
+            "condone"
+          ]
+        },
+        {
+          "id": "gre-opine",
+          "word": "opine",
+          "partOfSpeech": "verb",
+          "definition": "To state a personal view or judgment about something.",
+          "example": "The critic opined that the film was overlong and hopelessly dull.",
+          "mnemonic": "OPINE has OPINION hiding inside it — to give one aloud.",
+          "synonyms": [
+            "comment",
+            "remark",
+            "suggest"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-vociferous",
+          "word": "vociferous",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing feelings or opinions in a loud and forceful way.",
+          "example": "The vociferous crowd booed until the announcer left the stage.",
+          "mnemonic": "VOICE-iferous — someone absolutely full of loud VOICE.",
+          "synonyms": [
+            "loud",
+            "clamorous",
+            "strident"
+          ],
+          "antonyms": [
+            "quiet",
+            "silent",
+            "subdued"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-clamorous",
+          "word": "clamorous",
+          "partOfSpeech": "adjective",
+          "definition": "Making a loud, confused noise or an insistent demand.",
+          "example": "The clamorous fans pounded the doors, demanding to be let inside.",
+          "mnemonic": "A CLAMOR is a noisy uproar — add -ous and you describe the noise itself.",
+          "synonyms": [
+            "noisy",
+            "vociferous",
+            "uproarious"
+          ],
+          "antonyms": [
+            "quiet",
+            "silent",
+            "hushed"
+          ]
+        },
+        {
+          "id": "gre-strident",
+          "word": "strident",
+          "partOfSpeech": "adjective",
+          "definition": "Loud and harsh-sounding in a way that grates unpleasantly.",
+          "example": "Her strident voice cut through the meeting like a fire alarm.",
+          "mnemonic": "A STRIDE-nt march has harsh, pounding footsteps — loud and jarring on the ears.",
+          "synonyms": [
+            "harsh",
+            "grating",
+            "shrill"
+          ],
+          "antonyms": [
+            "soft",
+            "soothing",
+            "mellow"
+          ]
+        },
+        {
+          "id": "gre-shrill",
+          "word": "shrill",
+          "partOfSpeech": "adjective",
+          "definition": "High-pitched and piercing in sound, often unpleasantly so.",
+          "example": "The child let out a shrill scream that made everyone wince.",
+          "mnemonic": "SHRILL rhymes with 'drill' — both bore painfully into your ears.",
+          "synonyms": [
+            "piercing",
+            "high-pitched",
+            "sharp"
+          ],
+          "antonyms": [
+            "deep",
+            "low",
+            "mellow"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-raucous",
+          "word": "raucous",
+          "partOfSpeech": "adjective",
+          "definition": "Loud, rough, and disorderly, especially from a rowdy group.",
+          "example": "Raucous laughter spilled out of the bar late into the night.",
+          "mnemonic": "RAUCOUS sounds like 'rowdy ruckus' — a loud, rough commotion.",
+          "synonyms": [
+            "rowdy",
+            "boisterous",
+            "loud"
+          ],
+          "antonyms": [
+            "quiet",
+            "calm",
+            "peaceful"
+          ]
+        },
+        {
+          "id": "gre-sonorous",
+          "word": "sonorous",
+          "partOfSpeech": "adjective",
+          "definition": "Producing a deep, full, and pleasingly rich sound.",
+          "example": "The actor's sonorous voice filled the theater without any microphone.",
+          "mnemonic": "From Latin 'sonus' (sound) — think of a rich, resonant SONar ping.",
+          "synonyms": [
+            "resonant",
+            "rich",
+            "full"
+          ],
+          "antonyms": [
+            "thin",
+            "tinny",
+            "weak"
+          ]
+        },
+        {
+          "id": "gre-dulcet",
+          "word": "dulcet",
+          "partOfSpeech": "adjective",
+          "definition": "Sweet and soothing to hear, especially a gentle sound.",
+          "example": "The dulcet notes of the lullaby soon sent the baby to sleep.",
+          "mnemonic": "DULCET echoes 'dulce' (Spanish for sweet) — sweetness for the ears.",
+          "synonyms": [
+            "sweet",
+            "soothing",
+            "melodious"
+          ],
+          "antonyms": [
+            "harsh",
+            "grating",
+            "discordant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-melodious",
+          "word": "melodious",
+          "partOfSpeech": "adjective",
+          "definition": "Having a pleasant, tuneful quality that is agreeable to the ear.",
+          "example": "Her melodious voice drifted through the hall, and the restless crowd fell quiet to listen.",
+          "mnemonic": "MELODY + -ous — literally full of melody, like a song you want to hum.",
+          "synonyms": [
+            "tuneful",
+            "mellifluous",
+            "musical"
+          ],
+          "antonyms": [
+            "cacophonous",
+            "harsh",
+            "discordant"
+          ]
+        },
+        {
+          "id": "gre-harmonious",
+          "word": "harmonious",
+          "partOfSpeech": "adjective",
+          "definition": "Combining to form a pleasing, consistent whole free of conflict.",
+          "example": "The two founders ran such a harmonious partnership that staff never once heard them argue.",
+          "mnemonic": "Hear 'harmony' + 'us' — when all of us are in harmony, things fit together.",
+          "synonyms": [
+            "congruous",
+            "compatible",
+            "concordant"
+          ],
+          "antonyms": [
+            "discordant",
+            "conflicting",
+            "clashing"
+          ]
+        },
+        {
+          "id": "gre-discordant",
+          "word": "discordant",
+          "partOfSpeech": "adjective",
+          "definition": "Clashing or disagreeing, especially in sound or opinion.",
+          "example": "Against the calm strings, the trumpet's blaring entrance sounded jarring and discordant.",
+          "mnemonic": "DIS- (apart) + CORD — strings or hearts pulled apart, out of tune.",
+          "synonyms": [
+            "clashing",
+            "jarring",
+            "incompatible"
+          ],
+          "antonyms": [
+            "harmonious",
+            "concordant",
+            "melodious"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-dissonant",
+          "word": "dissonant",
+          "partOfSpeech": "adjective",
+          "definition": "Producing a harsh, jarring combination of sounds that lack agreement.",
+          "example": "The pianist struck a deliberately dissonant chord that made the audience wince.",
+          "mnemonic": "Sounds like 'this ain't right' — dissonant notes just don't belong together.",
+          "synonyms": [
+            "harsh",
+            "jarring",
+            "grating"
+          ],
+          "antonyms": [
+            "harmonious",
+            "melodious",
+            "euphonious"
+          ]
+        },
+        {
+          "id": "gre-tacit",
+          "word": "tacit",
+          "partOfSpeech": "adjective",
+          "definition": "Understood or accepted without being openly stated.",
+          "example": "By staying and saying nothing, she gave her tacit approval to the plan.",
+          "mnemonic": "From Latin 'tacere' (to be silent) — think music's 'tacet': stay silent, yet understood.",
+          "synonyms": [
+            "unspoken",
+            "implied",
+            "understood"
+          ],
+          "antonyms": [
+            "explicit",
+            "stated",
+            "express"
+          ]
+        },
+        {
+          "id": "gre-implicit",
+          "word": "implicit",
+          "partOfSpeech": "adjective",
+          "definition": "Suggested or understood though not directly expressed.",
+          "example": "There was an implicit warning in his tone, even though he never actually threatened anyone.",
+          "mnemonic": "IN + PLICIT (fold, as in 'pleat') — the meaning is folded inside, not spoken aloud.",
+          "synonyms": [
+            "implied",
+            "tacit",
+            "inferred"
+          ],
+          "antonyms": [
+            "explicit",
+            "express",
+            "stated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "gre-ineffable",
+          "word": "ineffable",
+          "partOfSpeech": "adjective",
+          "definition": "Too great or overwhelming to be described in speech.",
+          "example": "Standing at the canyon's rim, she felt an ineffable awe that no photograph could capture.",
+          "mnemonic": "IN- (not) + EFF-able — you can't 'eff-ing' say it; words fail you.",
+          "synonyms": [
+            "indescribable",
+            "inexpressible",
+            "unutterable"
+          ],
+          "antonyms": [
+            "describable",
+            "expressible",
+            "mundane"
+          ]
+        },
+        {
+          "id": "gre-inarticulate",
+          "word": "inarticulate",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to express oneself clearly in speech.",
+          "example": "Grief left him inarticulate, and he could only manage a few broken, half-finished words.",
+          "mnemonic": "IN- (not) + ARTICULATE — the joints of speech won't connect, so words won't join up.",
+          "synonyms": [
+            "incoherent",
+            "mumbling",
+            "tongue-tied"
+          ],
+          "antonyms": [
+            "eloquent",
+            "articulate",
+            "fluent"
+          ]
+        },
+        {
+          "id": "gre-garbled",
+          "word": "garbled",
+          "partOfSpeech": "adjective",
+          "definition": "Confused and distorted so the meaning becomes unclear.",
+          "example": "The voicemail was so garbled by static that we couldn't tell where to meet.",
+          "mnemonic": "Sounds like 'gargled' — try talking while gargling water and your words come out jumbled.",
+          "synonyms": [
+            "jumbled",
+            "muddled",
+            "distorted"
+          ],
+          "antonyms": [
+            "clear",
+            "coherent",
+            "intelligible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "gre-obscure",
+          "word": "obscure",
+          "partOfSpeech": "adjective",
+          "definition": "Not easily understood; hidden or vague in meaning.",
+          "example": "The poem's ending is so obscure that critics still argue about what it means.",
+          "mnemonic": "OB- (over) + SCURE (dark) — something covered in darkness is hard to make out.",
+          "synonyms": [
+            "unclear",
+            "cryptic",
+            "vague"
+          ],
+          "antonyms": [
+            "clear",
+            "obvious",
+            "evident"
+          ]
+        },
+        {
+          "id": "gre-abstruse",
+          "word": "abstruse",
+          "partOfSpeech": "adjective",
+          "definition": "Very difficult to comprehend; requiring deep, specialized thought.",
+          "example": "The lecture on quantum field theory grew so abstruse that half the room stopped taking notes.",
+          "mnemonic": "Sounds like 'abstract' + 'obtuse' — ideas so abstract they feel obtuse and impenetrable.",
+          "synonyms": [
+            "recondite",
+            "esoteric",
+            "arcane"
+          ],
+          "antonyms": [
+            "simple",
+            "obvious",
+            "straightforward"
+          ]
+        },
+        {
+          "id": "gre-turgid",
+          "word": "turgid",
+          "partOfSpeech": "adjective",
+          "definition": "Overly elaborate and inflated in style, or swollen and bloated.",
+          "example": "His report was so turgid, padded with grand phrases, that the point vanished under the flourishes.",
+          "mnemonic": "Echoes 'turbid' and 'rigid' — swollen, stiff, bloated prose that's hard to wade through.",
+          "synonyms": [
+            "bombastic",
+            "grandiloquent",
+            "bloated"
+          ],
+          "antonyms": [
+            "concise",
+            "simple",
+            "plain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "gre-pompous",
+          "word": "pompous",
+          "partOfSpeech": "adjective",
+          "definition": "Arrogantly self-important and full of exaggerated dignity.",
+          "example": "The pompous host kept reminding everyone which prestigious schools his children attended.",
+          "mnemonic": "Think 'pomp' and a puffed-up 'pom-pom' — all showy, inflated self-importance.",
+          "synonyms": [
+            "arrogant",
+            "grandiose",
+            "self-important"
+          ],
+          "antonyms": [
+            "humble",
+            "modest",
+            "unassuming"
+          ]
+        },
+        {
+          "id": "gre-verbiage",
+          "word": "verbiage",
+          "partOfSpeech": "noun",
+          "definition": "An excess of words that adds little real meaning.",
+          "example": "Strip away the verbiage and this ten-page memo could have been a single sentence.",
+          "mnemonic": "VERB (word) + -age — a heap of words, like 'garbage' made entirely of language.",
+          "synonyms": [
+            "wordiness",
+            "prolixity",
+            "verbosity"
+          ],
+          "antonyms": [
+            "conciseness",
+            "brevity",
+            "terseness"
+          ]
+        },
+        {
+          "id": "gre-circumlocution",
+          "word": "circumlocution",
+          "partOfSpeech": "noun",
+          "definition": "The use of many roundabout words to avoid saying something directly.",
+          "example": "Instead of admitting he was fired, he retreated into circumlocution about 'exploring new directions.'",
+          "mnemonic": "CIRCUM (around) + LOCUTION (speech) — literally talking in circles around the point.",
+          "synonyms": [
+            "periphrasis",
+            "verbosity",
+            "evasiveness"
+          ],
+          "antonyms": [
+            "directness",
+            "conciseness",
+            "bluntness"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core high-frequency",
+  "createdAt": "2026-09-12T07:02:41.025Z"
+}

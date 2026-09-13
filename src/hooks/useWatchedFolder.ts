@@ -16,7 +16,6 @@ import { useEffect, useRef } from "react";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
-import { firstFreeMonthKey } from "@/lib/vocabulary";
 import {
   ACCEPTED_FILE,
   describeOutcome,
@@ -88,7 +87,7 @@ export function useWatchedFolder(): void {
                 name,
                 await fs.readFile(path),
                 loadMonth,
-                firstFreeMonthKey(monthsRef.current),
+                useVocabStore.getState().nextMonthKey(),
               )
             : await importText(name, await fs.readTextFile(path), loadMonth);
 

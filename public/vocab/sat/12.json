@@ -1,0 +1,1576 @@
+{
+  "track": "sat",
+  "ordinal": 12,
+  "title": "Clarity and confusion",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-ambiguity",
+          "word": "ambiguity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being open to more than one interpretation.",
+          "example": "The ambiguity of her reply left us unsure whether she had agreed or refused.",
+          "mnemonic": "'ambi-' means both (as in ambidextrous) — a meaning pulling in both directions at once.",
+          "synonyms": [
+            "vagueness",
+            "uncertainty",
+            "obscurity"
+          ],
+          "antonyms": [
+            "clarity",
+            "precision"
+          ]
+        },
+        {
+          "id": "sat-cohesive",
+          "word": "cohesive",
+          "partOfSpeech": "adjective",
+          "definition": "Sticking or fitting together to form a united, well-connected whole.",
+          "example": "The coach turned a group of strangers into a cohesive team that moved as one.",
+          "mnemonic": "'co-' (together) + '-hes-' (stick, as in adhesive): things firmly stuck together.",
+          "synonyms": [
+            "unified",
+            "united",
+            "connected"
+          ],
+          "antonyms": [
+            "fragmented",
+            "disjointed"
+          ]
+        },
+        {
+          "id": "sat-rambling",
+          "word": "rambling",
+          "partOfSpeech": "adjective",
+          "definition": "Going on at length while wandering from topic to topic without a clear point.",
+          "example": "His rambling speech drifted from taxes to his childhood dog before anyone could follow it.",
+          "mnemonic": "Picture someone on a country ramble — wandering off with no destination in mind.",
+          "synonyms": [
+            "meandering",
+            "long-winded",
+            "discursive"
+          ],
+          "antonyms": [
+            "concise",
+            "focused"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-transparent",
+          "word": "transparent",
+          "partOfSpeech": "adjective",
+          "definition": "Clear enough to let light pass so objects behind can be seen plainly.",
+          "example": "The aquarium's transparent walls let visitors watch the sharks glide past.",
+          "mnemonic": "'trans-' (through) + '-parent' (appear): what's behind it appears right through.",
+          "synonyms": [
+            "clear",
+            "see-through",
+            "glassy"
+          ],
+          "antonyms": [
+            "opaque",
+            "cloudy"
+          ]
+        },
+        {
+          "id": "sat-translucent",
+          "word": "translucent",
+          "partOfSpeech": "adjective",
+          "definition": "Letting some light pass through while blurring whatever lies behind.",
+          "example": "The frosted, translucent glass in the bathroom door let in daylight but hid any shapes.",
+          "mnemonic": "'trans-' (through) + 'lucent' (shining): light shines through, but images don't — halfway between clear and solid.",
+          "synonyms": [
+            "frosted",
+            "semi-transparent",
+            "milky"
+          ],
+          "antonyms": [
+            "opaque",
+            "transparent"
+          ]
+        },
+        {
+          "id": "sat-legible",
+          "word": "legible",
+          "partOfSpeech": "adjective",
+          "definition": "Written or printed clearly enough to be read with ease.",
+          "example": "Her handwriting was so legible that even the pharmacist read the note without squinting.",
+          "mnemonic": "'leg-' comes from Latin 'legere,' to read (as in lecture, legend): if it's legible, you can read it.",
+          "synonyms": [
+            "readable",
+            "clear",
+            "neat"
+          ],
+          "antonyms": [
+            "illegible",
+            "unreadable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-intelligible",
+          "word": "intelligible",
+          "partOfSpeech": "adjective",
+          "definition": "Clear enough for the mind to grasp; able to be understood.",
+          "example": "Over the crackling phone line, only a few intelligible words reached her.",
+          "mnemonic": "Shares a root with 'intelligent' — an intelligent mind can grasp it.",
+          "synonyms": [
+            "understandable",
+            "comprehensible",
+            "clear"
+          ],
+          "antonyms": [
+            "unintelligible",
+            "garbled"
+          ]
+        },
+        {
+          "id": "sat-unintelligible",
+          "word": "unintelligible",
+          "partOfSpeech": "adjective",
+          "definition": "So unclear that it cannot be understood at all.",
+          "example": "The toddler's excited, unintelligible chatter meant nothing to the visitors.",
+          "mnemonic": "'un-' (not) + intelligible: the opposite of what even an intelligent listener could grasp.",
+          "synonyms": [
+            "incomprehensible",
+            "garbled",
+            "incoherent"
+          ],
+          "antonyms": [
+            "clear",
+            "understandable"
+          ]
+        },
+        {
+          "id": "sat-comprehensible",
+          "word": "comprehensible",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be grasped by the mind without difficulty.",
+          "example": "The professor rephrased the theory until it was comprehensible to first-year students.",
+          "mnemonic": "Think of 'comprehend' — if you can comprehend it, it is this.",
+          "synonyms": [
+            "understandable",
+            "intelligible",
+            "clear"
+          ],
+          "antonyms": [
+            "incomprehensible",
+            "baffling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-disorient",
+          "word": "disorient",
+          "partOfSpeech": "verb",
+          "definition": "To make someone lose their sense of direction or bearings.",
+          "example": "The identical hallways of the hospital disoriented every new patient.",
+          "mnemonic": "'dis-' (undo) + 'orient' (find your east/bearings): to un-orient someone.",
+          "synonyms": [
+            "confuse",
+            "bewilder",
+            "unsettle"
+          ],
+          "antonyms": [
+            "orient",
+            "guide"
+          ]
+        },
+        {
+          "id": "sat-fluster",
+          "word": "fluster",
+          "partOfSpeech": "verb",
+          "definition": "To upset someone's calm so they become nervous and confused.",
+          "example": "The sudden question flustered the witness, who fumbled and dropped his notes.",
+          "mnemonic": "Sounds like 'flurry' + 'bluster' — a sudden flurry of nerves.",
+          "synonyms": [
+            "rattle",
+            "unnerve",
+            "agitate"
+          ],
+          "antonyms": [
+            "calm",
+            "soothe",
+            "reassure"
+          ]
+        },
+        {
+          "id": "sat-flummox",
+          "word": "flummox",
+          "partOfSpeech": "verb",
+          "definition": "To baffle someone so thoroughly they cannot respond.",
+          "example": "The riddle flummoxed even the cleverest students in the class.",
+          "mnemonic": "The goofy sound 'flummox' — imagine being so baffled all you can stammer is 'flum...?'",
+          "synonyms": [
+            "baffle",
+            "bewilder",
+            "perplex"
+          ],
+          "antonyms": [
+            "enlighten",
+            "clarify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-stupefy",
+          "word": "stupefy",
+          "partOfSpeech": "verb",
+          "definition": "To shock or astonish someone so much they can barely think.",
+          "example": "The size of the lottery win stupefied him; he sat speechless for an hour.",
+          "mnemonic": "Shares a root with 'stupid' and 'stupor' — stunned into a helpless stupor.",
+          "synonyms": [
+            "stun",
+            "astound",
+            "daze"
+          ],
+          "antonyms": [
+            "stimulate",
+            "invigorate"
+          ]
+        },
+        {
+          "id": "sat-addle",
+          "word": "addle",
+          "partOfSpeech": "verb",
+          "definition": "To muddle the mind so it cannot think clearly.",
+          "example": "The heat and lack of sleep addled her so badly she forgot her own address.",
+          "mnemonic": "Rhymes with 'muddle' — an addled brain is a muddled brain (also an 'addled egg' is a spoiled one).",
+          "synonyms": [
+            "muddle",
+            "confuse",
+            "befuddle"
+          ],
+          "antonyms": [
+            "clarify",
+            "sharpen"
+          ]
+        },
+        {
+          "id": "sat-daze",
+          "word": "daze",
+          "partOfSpeech": "verb",
+          "definition": "To stun someone so they briefly cannot think or see clearly.",
+          "example": "The bright stage lights dazed the singer for a moment as she stepped out.",
+          "mnemonic": "Sounds like 'days' — so stunned you lose track of your days.",
+          "synonyms": [
+            "stun",
+            "stupefy",
+            "bewilder"
+          ],
+          "antonyms": [
+            "alert",
+            "awaken"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-blur",
+          "word": "blur",
+          "partOfSpeech": "verb",
+          "definition": "To make something look hazy, smeared, or hard to see clearly.",
+          "example": "Tears began to blur her view of the finish line.",
+          "mnemonic": "\"Blur\" sounds like \"brr\" — shivering shakes everything into a fuzzy smear.",
+          "synonyms": [
+            "smudge",
+            "obscure",
+            "cloud"
+          ],
+          "antonyms": [
+            "sharpen",
+            "clarify",
+            "focus"
+          ]
+        },
+        {
+          "id": "sat-simplify",
+          "word": "simplify",
+          "partOfSpeech": "verb",
+          "definition": "To make something easier to understand or do by removing difficulty.",
+          "example": "The teacher tried to simplify the equation for her confused students.",
+          "mnemonic": "\"Simple\" + \"-ify\" literally means \"to make simple.\"",
+          "synonyms": [
+            "streamline",
+            "ease",
+            "clarify"
+          ],
+          "antonyms": [
+            "complicate",
+            "elaborate",
+            "muddle"
+          ]
+        },
+        {
+          "id": "sat-distill",
+          "word": "distill",
+          "partOfSpeech": "verb",
+          "definition": "To extract the purest or most essential part of something.",
+          "example": "She managed to distill her hour-long lecture into three key points.",
+          "mnemonic": "A whiskey still drips liquid drop by drop, keeping only the pure essence.",
+          "synonyms": [
+            "extract",
+            "refine",
+            "condense"
+          ],
+          "antonyms": [
+            "dilute",
+            "muddy",
+            "complicate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-pellucid",
+          "word": "pellucid",
+          "partOfSpeech": "adjective",
+          "definition": "So clear that light passes right through or meaning is instantly grasped.",
+          "example": "The pellucid mountain stream let us count every pebble on its bed.",
+          "mnemonic": "Hear \"lucid\" (clear) hiding inside pel-LUCID — clear, then extra clear.",
+          "synonyms": [
+            "transparent",
+            "lucid",
+            "crystalline"
+          ],
+          "antonyms": [
+            "murky",
+            "opaque",
+            "turbid"
+          ]
+        },
+        {
+          "id": "sat-limpid",
+          "word": "limpid",
+          "partOfSpeech": "adjective",
+          "definition": "Completely clear and transparent, or easy to understand and free of confusion.",
+          "example": "We could see every pebble at the bottom of the limpid mountain stream.",
+          "mnemonic": "Sounds like 'limp' + 'lipid' — picture a still pool so clear it looks like liquid glass, no ripples to cloud it.",
+          "synonyms": [
+            "clear",
+            "transparent",
+            "pellucid"
+          ],
+          "antonyms": [
+            "murky",
+            "cloudy",
+            "opaque"
+          ]
+        },
+        {
+          "id": "sat-vivid",
+          "word": "vivid",
+          "partOfSpeech": "adjective",
+          "definition": "Producing strong, bright, lifelike images in the mind or eye.",
+          "example": "Her vivid description made me feel like I was standing in ancient Rome.",
+          "mnemonic": "\"Vivid\" shares \"viv\" with \"revive\" and \"alive\" — vivid things feel alive.",
+          "synonyms": [
+            "bright",
+            "striking",
+            "intense"
+          ],
+          "antonyms": [
+            "dull",
+            "faint",
+            "drab"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-tangible",
+          "word": "tangible",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be touched, or clearly real rather than abstract.",
+          "example": "After months of planning, the profits were finally tangible.",
+          "mnemonic": "From Latin \"tangere,\" to touch — the same root as \"tango,\" where partners touch.",
+          "synonyms": [
+            "touchable",
+            "concrete",
+            "physical"
+          ],
+          "antonyms": [
+            "intangible",
+            "abstract",
+            "immaterial"
+          ]
+        },
+        {
+          "id": "sat-palpable",
+          "word": "palpable",
+          "partOfSpeech": "adjective",
+          "definition": "So intense or obvious that it can almost be physically felt.",
+          "example": "The tension in the courtroom was palpable as the verdict drew near.",
+          "mnemonic": "A doctor \"palpates\" by feeling with the palms — palpable means feelable.",
+          "synonyms": [
+            "tangible",
+            "noticeable",
+            "obvious"
+          ],
+          "antonyms": [
+            "imperceptible",
+            "intangible",
+            "faint"
+          ]
+        },
+        {
+          "id": "sat-manifest",
+          "word": "manifest",
+          "partOfSpeech": "adjective",
+          "definition": "Plainly obvious and easily seen or understood.",
+          "example": "His manifest joy at the reunion brought everyone to tears.",
+          "mnemonic": "\"Man\" + \"fest\" — at a festival everything is out in the open for all to see.",
+          "synonyms": [
+            "obvious",
+            "clear",
+            "evident"
+          ],
+          "antonyms": [
+            "hidden",
+            "obscure",
+            "concealed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-evident",
+          "word": "evident",
+          "partOfSpeech": "adjective",
+          "definition": "Easily seen or understood, leaving no room for doubt.",
+          "example": "It was evident from her packed bags that she was leaving for good.",
+          "mnemonic": "\"Evident\" holds \"evidence\" — evidence is what makes something plain to all.",
+          "synonyms": [
+            "obvious",
+            "clear",
+            "apparent"
+          ],
+          "antonyms": [
+            "hidden",
+            "unclear",
+            "obscure"
+          ]
+        },
+        {
+          "id": "sat-apparent",
+          "word": "apparent",
+          "partOfSpeech": "adjective",
+          "definition": "Clearly visible or easily understood at first glance.",
+          "example": "The damage became apparent only after we turned on the lights.",
+          "mnemonic": "\"Apparent\" starts with \"appear\" — what appears is apparent.",
+          "synonyms": [
+            "obvious",
+            "evident",
+            "clear"
+          ],
+          "antonyms": [
+            "hidden",
+            "obscure",
+            "unclear"
+          ]
+        },
+        {
+          "id": "sat-prominent",
+          "word": "prominent",
+          "partOfSpeech": "adjective",
+          "definition": "Standing out so as to be easily noticed or widely known.",
+          "example": "A prominent scar ran across the old boxer's cheek.",
+          "mnemonic": "\"Prominent\" is kin to \"promontory,\" a cliff that juts out — both stick out.",
+          "synonyms": [
+            "noticeable",
+            "conspicuous",
+            "eminent"
+          ],
+          "antonyms": [
+            "inconspicuous",
+            "obscure",
+            "unnoticeable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-perceptible",
+          "word": "perceptible",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be noticed or sensed, though sometimes only slightly.",
+          "example": "There was a perceptible drop in temperature as we entered the cave.",
+          "mnemonic": "\"Perceive\" + \"-ible\" — able to be perceived.",
+          "synonyms": [
+            "noticeable",
+            "detectable",
+            "discernible"
+          ],
+          "antonyms": [
+            "imperceptible",
+            "undetectable",
+            "faint"
+          ]
+        },
+        {
+          "id": "sat-imperceptible",
+          "word": "imperceptible",
+          "partOfSpeech": "adjective",
+          "definition": "Too small or gradual to be noticed or sensed.",
+          "example": "The clock's hands crept forward at an imperceptible pace.",
+          "mnemonic": "The prefix \"im-\" means \"not\" — so it is simply \"not perceivable.\"",
+          "synonyms": [
+            "undetectable",
+            "indiscernible",
+            "negligible"
+          ],
+          "antonyms": [
+            "obvious",
+            "noticeable",
+            "striking"
+          ]
+        },
+        {
+          "id": "sat-meander",
+          "word": "meander",
+          "partOfSpeech": "verb",
+          "definition": "To wander or follow a winding, aimless course.",
+          "example": "We let the afternoon slip by, meandering through the old town's alleys.",
+          "mnemonic": "The Menderes River in Turkey (ancient \"Maeander\") twists so wildly it named the word.",
+          "synonyms": [
+            "wind",
+            "wander",
+            "roam"
+          ],
+          "antonyms": [
+            "straighten",
+            "rush",
+            "beeline"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-digress",
+          "word": "digress",
+          "partOfSpeech": "verb",
+          "definition": "To wander away from the main topic when speaking or writing.",
+          "example": "Halfway through the lecture, the professor began to digress into stories about his college days.",
+          "mnemonic": "Break it into di- (away) + -gress (to step): you step away from the point.",
+          "synonyms": [
+            "deviate",
+            "ramble",
+            "stray"
+          ],
+          "antonyms": [
+            "focus",
+            "concentrate"
+          ]
+        },
+        {
+          "id": "sat-tangent",
+          "word": "tangent",
+          "partOfSpeech": "noun",
+          "definition": "A sudden shift onto an unrelated subject or line of thinking.",
+          "example": "She went off on a tangent about her cat right in the middle of the budget meeting.",
+          "mnemonic": "In geometry a tangent line touches a circle then shoots off in its own direction — just like a stray thought.",
+          "synonyms": [
+            "digression",
+            "detour",
+            "aside"
+          ],
+          "antonyms": [
+            "main point",
+            "focus"
+          ]
+        },
+        {
+          "id": "sat-disjointed",
+          "word": "disjointed",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking smooth or logical connection between its parts.",
+          "example": "His disjointed explanation jumped from one idea to another with no clear link.",
+          "mnemonic": "DIS + JOINT: the joints are undone, so the pieces no longer hold together.",
+          "synonyms": [
+            "incoherent",
+            "disconnected",
+            "rambling"
+          ],
+          "antonyms": [
+            "coherent",
+            "connected",
+            "orderly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-garbled",
+          "word": "garbled",
+          "partOfSpeech": "adjective",
+          "definition": "Distorted or mixed up so that the meaning is hard to grasp.",
+          "example": "The radio message came through so garbled that we couldn't make out a single word.",
+          "mnemonic": "Sounds like 'gargled' — words gargled in your throat come out messy and unclear.",
+          "synonyms": [
+            "distorted",
+            "muddled",
+            "unintelligible"
+          ],
+          "antonyms": [
+            "clear",
+            "intelligible",
+            "coherent"
+          ]
+        },
+        {
+          "id": "sat-jumble",
+          "word": "jumble",
+          "partOfSpeech": "noun",
+          "definition": "A confused, disordered mixture of things thrown together.",
+          "example": "Her desk was a jumble of papers, pens, and half-eaten snacks.",
+          "mnemonic": "Rhymes with 'tumble' — imagine socks tumbling in a dryer into one messy heap.",
+          "synonyms": [
+            "muddle",
+            "clutter",
+            "mess"
+          ],
+          "antonyms": [
+            "order",
+            "arrangement"
+          ]
+        },
+        {
+          "id": "sat-scramble",
+          "word": "scramble",
+          "partOfSpeech": "verb",
+          "definition": "To mix or throw things together in a hurried, disordered way.",
+          "example": "He scrambled the puzzle pieces so no one could tell what the picture was.",
+          "mnemonic": "Think scrambled eggs — beaten and stirred until nothing keeps its original shape.",
+          "synonyms": [
+            "mix",
+            "muddle",
+            "shuffle"
+          ],
+          "antonyms": [
+            "organize",
+            "order",
+            "arrange"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-tangle",
+          "word": "tangle",
+          "partOfSpeech": "noun",
+          "definition": "A twisted, knotted mass that is hard to separate.",
+          "example": "The kitten turned the ball of yarn into a hopeless tangle.",
+          "mnemonic": "Picture the 'dangle' of cords behind a TV, all twisted around each other.",
+          "synonyms": [
+            "knot",
+            "snarl",
+            "muddle"
+          ],
+          "antonyms": [
+            "order",
+            "neatness"
+          ]
+        },
+        {
+          "id": "sat-knotty",
+          "word": "knotty",
+          "partOfSpeech": "adjective",
+          "definition": "Complicated and difficult to solve or understand.",
+          "example": "The lawyers spent weeks untangling the knotty legal question.",
+          "mnemonic": "Full of knots — a rope covered in knots is hard to work with, and so is such a problem.",
+          "synonyms": [
+            "complex",
+            "thorny",
+            "intricate"
+          ],
+          "antonyms": [
+            "simple",
+            "straightforward",
+            "easy"
+          ]
+        },
+        {
+          "id": "sat-labyrinthine",
+          "word": "labyrinthine",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely complicated, with many confusing twists and passages.",
+          "example": "Navigating the labyrinthine bureaucracy took months of forms and phone calls.",
+          "mnemonic": "From 'labyrinth,' the maze that trapped the Minotaur — full of bewildering twisting passages.",
+          "synonyms": [
+            "maze-like",
+            "convoluted",
+            "intricate"
+          ],
+          "antonyms": [
+            "simple",
+            "straightforward"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-tortuous",
+          "word": "tortuous",
+          "partOfSpeech": "adjective",
+          "definition": "Full of many twists, turns, or complications.",
+          "example": "The mountain road was so tortuous that passengers felt carsick within minutes.",
+          "mnemonic": "Shares a root with 'torque' (to twist); the path twists again and again. Don't confuse it with 'torturous.'",
+          "synonyms": [
+            "winding",
+            "meandering",
+            "convoluted"
+          ],
+          "antonyms": [
+            "straight",
+            "direct"
+          ]
+        },
+        {
+          "id": "sat-circuitous",
+          "word": "circuitous",
+          "partOfSpeech": "adjective",
+          "definition": "Taking a long, roundabout route rather than a direct one.",
+          "example": "He took a circuitous route home to avoid the highway traffic.",
+          "mnemonic": "Hear 'circuit' inside — a circuit loops all the way around instead of going straight.",
+          "synonyms": [
+            "roundabout",
+            "indirect",
+            "meandering"
+          ],
+          "antonyms": [
+            "direct",
+            "straight"
+          ]
+        },
+        {
+          "id": "sat-verbiage",
+          "word": "verbiage",
+          "partOfSpeech": "noun",
+          "definition": "The use of too many words, or needlessly wordy language.",
+          "example": "The contract's dense verbiage buried the one clause that actually mattered.",
+          "mnemonic": "'Verb' + '-iage' — a pile of words heaped up like extra baggage.",
+          "synonyms": [
+            "wordiness",
+            "verbosity",
+            "padding"
+          ],
+          "antonyms": [
+            "conciseness",
+            "brevity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-prolix",
+          "word": "prolix",
+          "partOfSpeech": "adjective",
+          "definition": "Using far too many words and therefore tedious.",
+          "example": "The professor's prolix answers turned a simple question into an hour-long ordeal.",
+          "mnemonic": "Starts like 'prolong' — such speech prolongs itself with endless extra words.",
+          "synonyms": [
+            "verbose",
+            "long-winded",
+            "wordy"
+          ],
+          "antonyms": [
+            "concise",
+            "terse",
+            "succinct"
+          ]
+        },
+        {
+          "id": "sat-straightforward",
+          "word": "straightforward",
+          "partOfSpeech": "adjective",
+          "definition": "Easy to understand or do; simple and direct.",
+          "example": "The instructions were straightforward, so we assembled the shelf in ten minutes.",
+          "mnemonic": "Straight + forward — going straight ahead, with no twists or detours.",
+          "synonyms": [
+            "simple",
+            "clear",
+            "direct"
+          ],
+          "antonyms": [
+            "complicated",
+            "convoluted",
+            "confusing"
+          ]
+        },
+        {
+          "id": "sat-transparency",
+          "word": "transparency",
+          "partOfSpeech": "noun",
+          "definition": "Openness and honesty that lets others clearly see what is happening.",
+          "example": "Voters demanded greater transparency about how the campaign spent its money.",
+          "mnemonic": "Think of a clear glass window you can see straight through — nothing is hidden.",
+          "synonyms": [
+            "openness",
+            "clarity",
+            "candor"
+          ],
+          "antonyms": [
+            "secrecy",
+            "concealment",
+            "opacity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-opacity",
+          "word": "opacity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being hard to see through, or difficult to understand.",
+          "example": "The frosted glass had enough opacity to hide the room's contents from the street.",
+          "mnemonic": "Sounds like 'a-PASS-ity' — light can't pass through it.",
+          "synonyms": [
+            "cloudiness",
+            "murkiness",
+            "obscurity"
+          ],
+          "antonyms": [
+            "transparency",
+            "clarity"
+          ]
+        },
+        {
+          "id": "sat-penetrating",
+          "word": "penetrating",
+          "partOfSpeech": "adjective",
+          "definition": "Showing sharp insight or the ability to see deeply into things.",
+          "example": "The detective's penetrating questions made the suspect stumble over his story.",
+          "mnemonic": "From Latin 'penetrare,' to pierce through — like an X-ray that goes right past the surface.",
+          "synonyms": [
+            "perceptive",
+            "incisive",
+            "sharp"
+          ],
+          "antonyms": [
+            "superficial",
+            "shallow"
+          ]
+        },
+        {
+          "id": "sat-acumen",
+          "word": "acumen",
+          "partOfSpeech": "noun",
+          "definition": "Keen skill and quickness in judgment or understanding.",
+          "example": "Her business acumen turned a failing corner shop into a national chain.",
+          "mnemonic": "From Latin 'acus' (needle) — a sharp needle-point of the mind that catches every cue.",
+          "synonyms": [
+            "shrewdness",
+            "insight",
+            "sharpness"
+          ],
+          "antonyms": [
+            "obtuseness",
+            "dullness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-perspicacious",
+          "word": "perspicacious",
+          "partOfSpeech": "adjective",
+          "definition": "Having keen mental sharpness and a quick grasp of situations.",
+          "example": "The perspicacious teacher spotted the cheating long before anyone else suspected it.",
+          "mnemonic": "Hear 'per-SPEC-acious' — picture someone in spectacles (specs) who sees everything clearly.",
+          "synonyms": [
+            "astute",
+            "discerning",
+            "perceptive"
+          ],
+          "antonyms": [
+            "obtuse",
+            "undiscerning"
+          ]
+        },
+        {
+          "id": "sat-shrewd",
+          "word": "shrewd",
+          "partOfSpeech": "adjective",
+          "definition": "Showing clever judgment and practical cunning, especially about people or money.",
+          "example": "A shrewd investor, she sold every share a week before the crash.",
+          "mnemonic": "'Shrewd' hides 'shrew' — a tiny, quick animal that outwits creatures far bigger than itself.",
+          "synonyms": [
+            "astute",
+            "canny",
+            "savvy"
+          ],
+          "antonyms": [
+            "naive",
+            "gullible"
+          ]
+        },
+        {
+          "id": "sat-vigilant",
+          "word": "vigilant",
+          "partOfSpeech": "adjective",
+          "definition": "Keeping careful watch for possible danger or trouble.",
+          "example": "The vigilant lifeguard spotted the struggling swimmer within seconds.",
+          "mnemonic": "Think 'vigil' — someone who stays awake all night to keep watch is vigilant.",
+          "synonyms": [
+            "watchful",
+            "alert",
+            "observant"
+          ],
+          "antonyms": [
+            "careless",
+            "negligent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-attentive",
+          "word": "attentive",
+          "partOfSpeech": "adjective",
+          "definition": "Carefully watching or listening and noticing small details.",
+          "example": "The attentive waiter refilled our glasses before we even had to ask.",
+          "mnemonic": "Picture 'at-TENT-ive' — a soldier in a tent, ears pricked to every sound outside.",
+          "synonyms": [
+            "observant",
+            "alert",
+            "focused"
+          ],
+          "antonyms": [
+            "inattentive",
+            "negligent",
+            "distracted"
+          ]
+        },
+        {
+          "id": "sat-oblivious",
+          "word": "oblivious",
+          "partOfSpeech": "adjective",
+          "definition": "Not aware of what is happening around you.",
+          "example": "Lost in his music, he was oblivious to the train pulling away without him.",
+          "mnemonic": "Cousin of 'oblivion' — fall into oblivion and you forget and notice nothing.",
+          "synonyms": [
+            "unaware",
+            "unconscious",
+            "ignorant"
+          ],
+          "antonyms": [
+            "aware",
+            "conscious",
+            "alert"
+          ]
+        },
+        {
+          "id": "sat-heedless",
+          "word": "heedless",
+          "partOfSpeech": "adjective",
+          "definition": "Paying no attention to danger, warnings, or consequences.",
+          "example": "Heedless of the thin-ice signs, the boys sprinted onto the frozen lake.",
+          "mnemonic": "'Heed' means to pay attention; the '-less' strips it clean away.",
+          "synonyms": [
+            "careless",
+            "reckless",
+            "rash"
+          ],
+          "antonyms": [
+            "mindful",
+            "cautious",
+            "careful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-distracted",
+          "word": "distracted",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to concentrate because your mind is pulled elsewhere.",
+          "example": "Distracted by his buzzing phone, the driver drifted into the next lane.",
+          "mnemonic": "'Dis-tract' — Latin 'tractus,' to pull; your focus is dragged apart in different directions.",
+          "synonyms": [
+            "preoccupied",
+            "inattentive",
+            "absent-minded"
+          ],
+          "antonyms": [
+            "focused",
+            "attentive"
+          ]
+        },
+        {
+          "id": "sat-preoccupied",
+          "word": "preoccupied",
+          "partOfSpeech": "adjective",
+          "definition": "So absorbed in your own thoughts that you barely notice others.",
+          "example": "Preoccupied with tomorrow's exam, she barely touched her dinner.",
+          "mnemonic": "'Pre-occupied' — the seats of your mind are taken in advance, so nothing new can sit down.",
+          "synonyms": [
+            "absorbed",
+            "engrossed",
+            "distracted"
+          ],
+          "antonyms": [
+            "attentive",
+            "focused"
+          ]
+        },
+        {
+          "id": "sat-quagmire",
+          "word": "quagmire",
+          "partOfSpeech": "noun",
+          "definition": "A messy, difficult situation hard to escape; also soft, muddy ground.",
+          "example": "The lawsuit dragged the company into a financial quagmire that lasted years.",
+          "mnemonic": "'Quag' + 'mire' — ground that quakes like jelly and mires you in mud.",
+          "synonyms": [
+            "predicament",
+            "morass",
+            "mire"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-morass",
+          "word": "morass",
+          "partOfSpeech": "noun",
+          "definition": "A confusing tangle of things, or a stretch of soft, wet ground.",
+          "example": "New hires drown in a morass of forms, logins, and passwords on their first day.",
+          "mnemonic": "Sounds like 'more-mass' — an ever-growing swampy mass that bogs you down.",
+          "synonyms": [
+            "quagmire",
+            "mire",
+            "tangle"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-mire",
+          "word": "mire",
+          "partOfSpeech": "noun",
+          "definition": "Deep mud, or a troublesome situation that traps you.",
+          "example": "The truck's wheels sank into the mire right up to the axles.",
+          "mnemonic": "Rhymes with 'tire' — picture a tire spinning uselessly in thick mud.",
+          "synonyms": [
+            "bog",
+            "swamp",
+            "quagmire"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-welter",
+          "word": "welter",
+          "partOfSpeech": "noun",
+          "definition": "A confused, chaotic mass or jumble of many things.",
+          "example": "A welter of clothes, books, and dishes buried the teenager's bedroom floor.",
+          "mnemonic": "To 'welter' is to toss and roll like the sea — imagine waves heaving debris into one churning heap.",
+          "synonyms": [
+            "jumble",
+            "tangle",
+            "muddle"
+          ],
+          "antonyms": [
+            "order",
+            "arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-tumult",
+          "word": "tumult",
+          "partOfSpeech": "noun",
+          "definition": "A loud, confused noise made by an excited or agitated crowd.",
+          "example": "The tumult of the packed stadium drowned out the referee's whistle.",
+          "mnemonic": "Sounds like 'too-mult' — too many people all shouting at once.",
+          "synonyms": [
+            "uproar",
+            "turmoil",
+            "commotion"
+          ],
+          "antonyms": [
+            "calm",
+            "quiet",
+            "tranquility"
+          ]
+        },
+        {
+          "id": "sat-commotion",
+          "word": "commotion",
+          "partOfSpeech": "noun",
+          "definition": "A state of noisy confusion or excited activity among people.",
+          "example": "A sudden commotion at the back of the room made everyone spin around.",
+          "mnemonic": "Break it as 'co + motion' — lots of motion together, bodies moving and shouting.",
+          "synonyms": [
+            "disturbance",
+            "uproar",
+            "fuss"
+          ],
+          "antonyms": [
+            "calm",
+            "peace",
+            "stillness"
+          ]
+        },
+        {
+          "id": "sat-pandemonium",
+          "word": "pandemonium",
+          "partOfSpeech": "noun",
+          "definition": "Wild and noisy chaos, especially from a large, overexcited crowd.",
+          "example": "When the winning goal went in, pandemonium erupted across the terraces.",
+          "mnemonic": "In Milton's Paradise Lost it was the capital of Hell: 'pan' (all) + 'demon' — every demon in one place.",
+          "synonyms": [
+            "chaos",
+            "bedlam",
+            "uproar"
+          ],
+          "antonyms": [
+            "order",
+            "calm",
+            "peace"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-bedlam",
+          "word": "bedlam",
+          "partOfSpeech": "noun",
+          "definition": "A scene of noisy uproar and total confusion.",
+          "example": "The classroom descended into bedlam the moment the teacher stepped out.",
+          "mnemonic": "A nickname for Bethlem, London's notoriously chaotic old asylum.",
+          "synonyms": [
+            "chaos",
+            "pandemonium",
+            "mayhem"
+          ],
+          "antonyms": [
+            "calm",
+            "order",
+            "serenity"
+          ]
+        },
+        {
+          "id": "sat-maelstrom",
+          "word": "maelstrom",
+          "partOfSpeech": "noun",
+          "definition": "A powerful whirlpool, or a situation of violent, uncontrollable turbulence.",
+          "example": "The sailors steered wide of the maelstrom churning between the jagged rocks.",
+          "mnemonic": "From Dutch 'malen' (to grind) + 'stroom' (stream) — a stream that grinds you down.",
+          "synonyms": [
+            "whirlpool",
+            "vortex",
+            "turmoil"
+          ],
+          "antonyms": [
+            "calm",
+            "stillness",
+            "tranquility"
+          ]
+        },
+        {
+          "id": "sat-vortex",
+          "word": "vortex",
+          "partOfSpeech": "noun",
+          "definition": "A whirling mass of water or air that pulls things toward its center.",
+          "example": "The draining bathtub spun a tiny vortex right above the plughole.",
+          "mnemonic": "Shares a root with 'vertex' and Latin 'vertere' (to turn) — it spins and turns.",
+          "synonyms": [
+            "whirlpool",
+            "whirlwind",
+            "maelstrom"
+          ],
+          "antonyms": [
+            "calm",
+            "stillness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-disorder",
+          "word": "disorder",
+          "partOfSpeech": "noun",
+          "definition": "A state of untidiness or lack of organization.",
+          "example": "Papers, mugs, and cables lay in complete disorder across his desk.",
+          "mnemonic": "'dis-' (not) glued to 'order' — literally 'not order'.",
+          "synonyms": [
+            "chaos",
+            "mess",
+            "confusion"
+          ],
+          "antonyms": [
+            "order",
+            "tidiness",
+            "organization"
+          ]
+        },
+        {
+          "id": "sat-clutter",
+          "word": "clutter",
+          "partOfSpeech": "noun",
+          "definition": "An untidy collection of things scattered about in a messy way.",
+          "example": "She could barely find her keys under the clutter on the hallway table.",
+          "mnemonic": "Sounds like 'clot' + 'gutter' — stuff clotting up and jamming a gutter.",
+          "synonyms": [
+            "mess",
+            "jumble",
+            "litter"
+          ],
+          "antonyms": [
+            "order",
+            "tidiness",
+            "neatness"
+          ]
+        },
+        {
+          "id": "sat-haphazard",
+          "word": "haphazard",
+          "partOfSpeech": "adjective",
+          "definition": "Done without any clear plan, order, or method.",
+          "example": "His haphazard packing meant he arrived with two left shoes and no socks.",
+          "mnemonic": "'hap' (luck, as in 'happen') + 'hazard' — left entirely to luck and chance.",
+          "synonyms": [
+            "random",
+            "disorganized",
+            "aimless"
+          ],
+          "antonyms": [
+            "methodical",
+            "systematic",
+            "orderly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-erratic",
+          "word": "erratic",
+          "partOfSpeech": "adjective",
+          "definition": "Not even or regular in pattern; unpredictable in movement or behavior.",
+          "example": "The old car's erratic engine would surge and then stall without warning.",
+          "mnemonic": "Shares a root with 'err' and 'error' — Latin 'errare', to wander off course.",
+          "synonyms": [
+            "unpredictable",
+            "irregular",
+            "inconsistent"
+          ],
+          "antonyms": [
+            "steady",
+            "consistent",
+            "reliable"
+          ]
+        },
+        {
+          "id": "sat-volatile",
+          "word": "volatile",
+          "partOfSpeech": "adjective",
+          "definition": "Likely to change suddenly and unexpectedly, often turning dangerous.",
+          "example": "The crowd's mood grew volatile, cheering one minute and jeering the next.",
+          "mnemonic": "From Latin 'volare' (to fly) — it can take off or blow up any second.",
+          "synonyms": [
+            "unstable",
+            "unpredictable",
+            "explosive"
+          ],
+          "antonyms": [
+            "stable",
+            "steady",
+            "calm"
+          ]
+        },
+        {
+          "id": "sat-fickle",
+          "word": "fickle",
+          "partOfSpeech": "adjective",
+          "definition": "Changing loyalties, opinions, or affections often and without good reason.",
+          "example": "Fickle fans adored the striker until his very first missed penalty.",
+          "mnemonic": "Sounds like 'flicker' — a flame that flickers and shifts direction constantly.",
+          "synonyms": [
+            "capricious",
+            "changeable",
+            "inconstant"
+          ],
+          "antonyms": [
+            "loyal",
+            "steadfast",
+            "constant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-irresolute",
+          "word": "irresolute",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to decide what to do; hesitant and lacking firmness.",
+          "example": "Irresolute at the fork in the trail, he stood ten minutes and chose neither path.",
+          "mnemonic": "'ir-' (not) + 'resolute' — the exact opposite of firm and determined.",
+          "synonyms": [
+            "hesitant",
+            "indecisive",
+            "wavering"
+          ],
+          "antonyms": [
+            "resolute",
+            "determined",
+            "decisive"
+          ]
+        },
+        {
+          "id": "sat-indecisive",
+          "word": "indecisive",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to make up one's mind or commit to a choice.",
+          "example": "So indecisive over the menu, she finally let the waiter order for her.",
+          "mnemonic": "'in-' (not) + 'decisive' — pictures someone frozen, never able to pick.",
+          "synonyms": [
+            "hesitant",
+            "wavering",
+            "irresolute"
+          ],
+          "antonyms": [
+            "decisive",
+            "firm",
+            "resolute"
+          ]
+        },
+        {
+          "id": "sat-paradox",
+          "word": "paradox",
+          "partOfSpeech": "noun",
+          "definition": "A statement that seems to contradict itself yet may still be true.",
+          "example": "'Less is more' is a paradox that designers love to quote.",
+          "mnemonic": "Greek 'para-' (contrary to) + 'doxa' (opinion) — contrary to what you'd expect.",
+          "synonyms": [
+            "contradiction",
+            "puzzle",
+            "absurdity"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-anomaly",
+          "word": "anomaly",
+          "partOfSpeech": "noun",
+          "definition": "Something that breaks from the normal pattern or expected rule.",
+          "example": "Every sensor read a steady temperature except one, and engineers scrambled to explain the anomaly.",
+          "mnemonic": "Sounds like 'a-NOT-a-many' — a NOT-normal thing standing apart from the many.",
+          "synonyms": [
+            "irregularity",
+            "oddity",
+            "exception"
+          ],
+          "antonyms": [
+            "norm",
+            "regularity"
+          ]
+        },
+        {
+          "id": "sat-aberration",
+          "word": "aberration",
+          "partOfSpeech": "noun",
+          "definition": "A brief, unusual departure from what is typical or right.",
+          "example": "Her rude outburst was such an aberration that friends assumed something serious was wrong.",
+          "mnemonic": "'Ab-' means away (as in absent); picture erring AWAY from your usual self.",
+          "synonyms": [
+            "deviation",
+            "quirk",
+            "lapse"
+          ],
+          "antonyms": [
+            "norm",
+            "regularity",
+            "conformity"
+          ]
+        },
+        {
+          "id": "sat-divergence",
+          "word": "divergence",
+          "partOfSpeech": "noun",
+          "definition": "The act of moving apart or differing from a common point.",
+          "example": "The two economists agreed at first, but a sharp divergence appeared once they discussed taxes.",
+          "mnemonic": "'Di-' = two, 'verge' = to turn — two paths turning away from each other.",
+          "synonyms": [
+            "separation",
+            "difference",
+            "split"
+          ],
+          "antonyms": [
+            "convergence",
+            "agreement",
+            "union"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-deviate",
+          "word": "deviate",
+          "partOfSpeech": "verb",
+          "definition": "To turn aside from an established course, standard, or plan.",
+          "example": "The pilot refused to deviate from the approved route even as passengers begged for a scenic detour.",
+          "mnemonic": "'De-' + 'via' (road) — to leave the road you were told to take.",
+          "synonyms": [
+            "stray",
+            "diverge",
+            "veer"
+          ],
+          "antonyms": [
+            "conform",
+            "adhere",
+            "follow"
+          ]
+        },
+        {
+          "id": "sat-mystify",
+          "word": "mystify",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone completely, leaving them unable to understand.",
+          "example": "The magician's vanishing coin continued to mystify even the sharpest kids in the front row.",
+          "mnemonic": "Contains 'mystery' — to wrap someone in a mystery they can't solve.",
+          "synonyms": [
+            "baffle",
+            "perplex",
+            "bewilder"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten",
+            "explain"
+          ]
+        },
+        {
+          "id": "sat-decipher",
+          "word": "decipher",
+          "partOfSpeech": "verb",
+          "definition": "To work out the meaning of something coded, faint, or hard to read.",
+          "example": "It took her an hour to decipher the doctor's cramped scrawl on the prescription pad.",
+          "mnemonic": "'De-' (undo) + 'cipher' (a code) — undo the cipher to reveal the message.",
+          "synonyms": [
+            "decode",
+            "interpret",
+            "unravel"
+          ],
+          "antonyms": [
+            "encode",
+            "encrypt",
+            "scramble"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-incoherent",
+          "word": "incoherent",
+          "partOfSpeech": "adjective",
+          "definition": "Expressed without clear order, so the parts do not connect or make sense.",
+          "example": "Feverish and exhausted, he mumbled an incoherent string of words no one could follow.",
+          "mnemonic": "'In-' (not) + 'cohere' (stick together) — thoughts that won't stick together.",
+          "synonyms": [
+            "rambling",
+            "disjointed",
+            "muddled"
+          ],
+          "antonyms": [
+            "coherent",
+            "lucid",
+            "articulate"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:59:53.585Z"
+}

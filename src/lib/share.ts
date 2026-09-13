@@ -82,8 +82,9 @@ export async function encodeDeck(month: VocabMonth): Promise<string> {
     throw new Error("This browser cannot compress — sharing is unavailable.");
   }
   const payload: VocabMonth = {
-    month: month.month,
-    displayName: month.displayName,
+    track: month.track,
+    ordinal: month.ordinal,
+    title: month.title,
     days: month.days,
     author: month.author,
     description: month.description,

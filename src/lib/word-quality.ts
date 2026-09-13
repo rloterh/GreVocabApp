@@ -135,13 +135,13 @@ function isCircular(definition: string, word: string): boolean {
  * false alarm sends a good card back for regeneration.
  */
 function containsWord(sentence: string, word: string): boolean {
-  const target = stem(word);
+  const target = endKey(stem(word));
   if (target.length < 3) return false;
 
   return normalizeText(sentence)
     .split(" ")
     .some((token) => {
-      const candidate = stem(token);
+      const candidate = endKey(stem(token));
       if (candidate.length < 3) return false;
       const [shorter, longer] =
         candidate.length <= target.length
@@ -149,6 +149,23 @@ function containsWord(sentence: string, word: string): boolean {
           : [target, candidate];
       return longer.startsWith(shorter);
     });
+}
+
+/**
+ * Settle a trailing `y` and `i`, which the stemmer treats as different.
+ *
+ * `belie` stems to `beli` and `belied` to `bely`: the `-ied → y` rule and the
+ * silent-`e` rule pull the same word two ways, and because they differ in the
+ * *last* character a shared-prefix test cannot bridge them. That reported a
+ * perfectly good card — "Her calm voice belied the panic" — as not containing
+ * its own word, and it would do the same for every verb in the `-ie/-ied`
+ * family: tie, vie, die, hie.
+ *
+ * Narrow on purpose. It merges exactly one ending, rather than loosening the
+ * prefix rule for everything.
+ */
+function endKey(stemmed: string): string {
+  return stemmed.endsWith("y") ? `${stemmed.slice(0, -1)}i` : stemmed;
 }
 
 /**

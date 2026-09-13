@@ -17,7 +17,9 @@ import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { calculateStreaksWithFreezes } from "@/lib/streak";
-import { toMonthKey, formatMonthKey } from "@/lib/date-utils";
+import { formatMonthKey } from "@/lib/date-utils";
+import { isInTrack, keyOf } from "@/lib/track";
+import { calendarMonthOfDate } from "@/lib/schedule";
 import { countDue } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
 
@@ -29,10 +31,19 @@ export function Dashboard() {
   const wordsProgress = useProgressStore((s) => s.words);
   const activity = useProgressStore((s) => s.activity);
 
-  const monthKeys = Object.keys(months).sort();
-  const todayMonthKey = toMonthKey(new Date());
-  const currentMonth = months[todayMonthKey] ?? months[monthKeys[monthKeys.length - 1] ?? ""];
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
+  const monthKeyForDate = useVocabStore((s) => s.monthKeyForDate);
   const today = new Date();
+  const todayMonthKey = calendarMonthOfDate(today);
+  // What the schedule says is current. Falling back to the last month of the
+  // track keeps the dashboard useful for someone who has run past the end of
+  // their schedule rather than showing them nothing.
+  const scheduledKey = monthKeyForDate(today);
+  const trackMonths = getAllMonths();
+  const currentMonth =
+    (scheduledKey ? months[scheduledKey] : undefined) ??
+    trackMonths[trackMonths.length - 1];
   const todayDay = today.getDate();
   const todaysWords = currentMonth?.days.find((d) => d.day === todayDay)?.words ?? [];
 
@@ -43,38 +54,42 @@ export function Dashboard() {
   );
 
   // Aggregate stats
-  const totalWords = Object.values(months).reduce(
+  const totalWords = trackMonths.reduce(
     (sum, m) => sum + m.days.reduce((s, d) => s + d.words.length, 0),
     0,
   );
-  const mastered = Object.values(wordsProgress).filter((w) => w.mastered).length;
-  const quizAttempts = Object.values(wordsProgress).reduce(
-    (s, w) => s + w.quizAttempts,
-    0,
+  // Progress records are keyed by a track-scoped id, so the open notebook's
+  // records are the ones whose id starts with its name. Aggregating all of
+  // them would show a user who has never opened SAT their GRE mastery under
+  // an SAT heading, which is the one thing the track indicator exists to
+  // prevent. See docs/adr/0011-tracks.md.
+  const trackProgress = useMemo(
+    () =>
+      Object.entries(wordsProgress)
+        .filter(([id]) => isInTrack(id, activeTrack))
+        .map(([, record]) => record),
+    [wordsProgress, activeTrack],
   );
-  const quizCorrect = Object.values(wordsProgress).reduce(
-    (s, w) => s + w.quizCorrect,
-    0,
-  );
+  const mastered = trackProgress.filter((w) => w.mastered).length;
+  const quizAttempts = trackProgress.reduce((s, w) => s + w.quizAttempts, 0);
+  const quizCorrect = trackProgress.reduce((s, w) => s + w.quizCorrect, 0);
   const accuracy = quizAttempts > 0 ? quizCorrect / quizAttempts : 0;
 
   // Words the SM-2 scheduler has queued for today or earlier. Counted across
-  // every loaded month, not just the current one — a review is a review.
+  // every month of the open track, not just the current one — a review is a
+  // review — but not across the other track, which is a different curriculum.
   const allWordIds = useMemo(
-    () =>
-      Object.values(months).flatMap((m) =>
-        m.days.flatMap((d) => d.words.map((w) => w.id)),
-      ),
-    [months],
+    () => trackMonths.flatMap((m) => m.days.flatMap((d) => d.words.map((w) => w.id))),
+    [trackMonths],
   );
   const dueCount = useMemo(
     () => countDue(allWordIds, wordsProgress),
     [allWordIds, wordsProgress],
   );
 
-  if (monthKeys.length === 0) {
+  if (trackMonths.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
         <div className="mb-8">
           <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">
             Welcome
@@ -97,7 +112,7 @@ export function Dashboard() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto py-8 px-1">
+    <div className="w-full lg:max-w-6xl lg:mx-auto py-8 px-1">
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -115,7 +130,7 @@ export function Dashboard() {
         </h1>
       </motion.div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-8">
         <StatCard
           icon={Flame}
           label="Current streak"
@@ -195,7 +210,7 @@ export function Dashboard() {
           <h2 className="text-lg font-semibold">Today's practice</h2>
           <p className="text-xs text-muted-foreground">
             {todaysWords.length > 0
-              ? `${todaysWords.length} words • ${currentMonth?.displayName}`
+              ? `${todaysWords.length} words • ${currentMonth?.title}`
               : "No words scheduled for today"}
           </p>
         </div>
@@ -226,7 +241,7 @@ export function Dashboard() {
               <div className="mt-5 flex flex-wrap gap-2">
                 <Button
                   onClick={() => {
-                    setActiveMonth(currentMonth.month);
+                    setActiveMonth(keyOf(currentMonth));
                     setSelectedDay(todayDay);
                     navigate("practice");
                   }}
@@ -255,7 +270,7 @@ export function Dashboard() {
             title={`No words for ${today.toLocaleDateString(undefined, { month: "short", day: "numeric" })}`}
             description={
               currentMonth
-                ? `${currentMonth.displayName} doesn't have a day ${todayDay} entry. Browse other days from the calendar or archive.`
+                ? `${currentMonth.title} doesn't have a day ${todayDay} entry. Browse other days from the calendar or archive.`
                 : `Load ${formatMonthKey(todayMonthKey)} vocabulary to see today's words.`
             }
             action={
@@ -321,18 +336,24 @@ function StatCard({
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay }}
+      // Full height, and the value pushed to the bottom. Four across on a
+      // tablet is narrow enough that "Words mastered" wraps to two lines while
+      // its neighbours do not, and without this that card grew taller and its
+      // number sat below the other three. Aligning on the bottom works for any
+      // label rather than for the ones that happen to fit today.
+      className="h-full"
     >
       <Card
         className={cn(
-          "transition-colors",
+          "h-full transition-colors",
           highlight && "border-accent/40 bg-accent/[0.03]",
         )}
       >
-        <CardContent className="p-4">
-          <div className="flex items-center gap-2 text-muted-foreground mb-2">
+        <CardContent className="p-4 flex h-full flex-col">
+          <div className="flex items-start gap-2 text-muted-foreground mb-2">
             <Icon
               className={cn(
-                "w-3.5 h-3.5",
+                "w-3.5 h-3.5 shrink-0 mt-px",
                 highlight && "text-accent",
               )}
             />
@@ -340,7 +361,7 @@ function StatCard({
               {label}
             </p>
           </div>
-          <div className="flex items-baseline gap-1.5">
+          <div className="mt-auto flex items-baseline gap-1.5">
             <p className="display-serif text-3xl font-semibold tabular">
               {value}
             </p>

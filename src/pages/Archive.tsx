@@ -17,26 +17,42 @@ import { useAppStore } from "@/store/useAppStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { dayKey, orderWords, seedFor } from "@/lib/order";
 import { useSettingsStore } from "@/store/useSettingsStore";
-import { formatMonthKey, toMonthKey } from "@/lib/date-utils";
+import { formatMonthKey } from "@/lib/date-utils";
+import { keyOf } from "@/lib/track";
+import { calendarMonthOf } from "@/lib/schedule";
+
+/**
+ * "Criticism and praise · March 2027" — what the month is, and when it falls.
+ *
+ * The title carries the identity now that the key does not, and the calendar
+ * month comes from the schedule rather than from the month itself.
+ */
+function monthLabelFor(
+  month: { title: string; ordinal: number },
+  when: string | null,
+): string {
+  return when ? `${month.title} · ${formatMonthKey(when)}` : month.title;
+}
 
 export function Archive() {
-  const { months, setActiveMonth, setSelectedDay, removeMonth } =
-    useVocabStore();
+  const { setActiveMonth, setSelectedDay, removeMonth } = useVocabStore();
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const months = useVocabStore((s) => s.months);
+  const schedule = useVocabStore((s) => s.getSchedule());
+  const currentKey = useVocabStore((s) => s.monthKeyForDate());
   const isMastered = useProgressStore((s) => s.isMastered);
   const wordOrder = useSettingsStore((s) => s.wordOrder);
   const navigate = useAppStore((s) => s.navigate);
   const showToast = useAppStore((s) => s.showToast);
 
-  const sorted = useMemo(
-    () =>
-      Object.values(months).sort((a, b) => b.month.localeCompare(a.month)),
-    [months],
-  );
-  const currentMonthKey = toMonthKey(new Date());
+  // Newest first, which is teaching order reversed — the schedule decides
+  // what "newest" means now, and it is not the ordinal when months have been
+  // reordered.
+  const sorted = useMemo(() => [...getAllMonths()].reverse(), [getAllMonths, months, schedule]);
 
   if (sorted.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
         <EmptyState
           icon={ArchiveIcon}
           title="Archive is empty"
@@ -53,8 +69,11 @@ export function Archive() {
     );
   }
 
+  const monthLabel = (month: { title: string; ordinal: number }) =>
+    monthLabelFor(month, calendarMonthOf(schedule, month.ordinal));
+
   return (
-    <div className="max-w-5xl mx-auto py-8">
+    <div className="w-full lg:max-w-5xl lg:mx-auto py-8">
       <div className="flex items-end justify-between mb-6">
         <div>
           <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
@@ -76,7 +95,7 @@ export function Archive() {
         <VocabLibrary />
       </section>
 
-      <div className="grid md:grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {sorted.map((month, i) => {
           // Browsing a month, so the preference applies. Seeded per month so
           // a shuffled archive is stable for the day rather than reshuffling
@@ -84,16 +103,16 @@ export function Archive() {
           const allWords = orderWords(
             allWordsInMonth(month),
             wordOrder,
-            seedFor([month.month, "archive", dayKey(new Date())]),
+            seedFor([keyOf(month), "archive", dayKey(new Date())]),
           );
           const total = allWords.length;
           const mastered = allWords.filter((w) => isMastered(w.id)).length;
           const pct = total > 0 ? (mastered / total) * 100 : 0;
-          const isCurrent = month.month === currentMonthKey;
+          const isCurrent = keyOf(month) === currentKey;
 
           return (
             <motion.div
-              key={month.month}
+              key={keyOf(month)}
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.04 }}
@@ -106,7 +125,7 @@ export function Archive() {
                         {isCurrent ? "Current" : "Archived"}
                       </p>
                       <h3 className="display-serif text-xl font-semibold">
-                        {formatMonthKey(month.month)}
+                        {monthLabel(month)}
                       </h3>
                     </div>
                     <Badge variant="outline" className="tabular">
@@ -131,7 +150,7 @@ export function Archive() {
                       size="sm"
                       className="flex-1"
                       onClick={() => {
-                        setActiveMonth(month.month);
+                        setActiveMonth(keyOf(month));
                         setSelectedDay(month.days[0]?.day ?? 1);
                         navigate("practice");
                       }}
@@ -149,13 +168,13 @@ export function Archive() {
                       onClick={() => {
                         if (
                           confirm(
-                            `Remove ${formatMonthKey(month.month)} from the archive? Your progress is preserved.`,
+                            `Remove ${monthLabel(month)} from the archive? Your progress is preserved.`,
                           )
                         ) {
-                          removeMonth(month.month);
+                          removeMonth(keyOf(month));
                           showToast({
                             title: "Month removed",
-                            description: `${formatMonthKey(month.month)} is no longer loaded`,
+                            description: `${monthLabel(month)} is no longer loaded`,
                           });
                         }
                       }}

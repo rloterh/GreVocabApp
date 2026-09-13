@@ -1,0 +1,1776 @@
+{
+  "track": "sat",
+  "ordinal": 2,
+  "title": "Tone and attitude",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-brusque",
+          "word": "brusque",
+          "partOfSpeech": "adjective",
+          "definition": "Abrupt and short in speech or manner, to the point of seeming rude.",
+          "example": "Her brusque 'We're closed' left the tourists standing awkwardly at the door.",
+          "mnemonic": "Sounds like 'brush' — she brushed me off in one quick, sharp stroke.",
+          "synonyms": [
+            "curt",
+            "blunt",
+            "abrupt"
+          ],
+          "antonyms": [
+            "gracious",
+            "polite",
+            "warm"
+          ]
+        },
+        {
+          "id": "sat-curt",
+          "word": "curt",
+          "partOfSpeech": "adjective",
+          "definition": "Noticeably brief in speech, often in a way that feels rude.",
+          "example": "His curt reply, just 'Fine,' told me the conversation was over.",
+          "mnemonic": "'Curt' looks like 'cut' — he cut his words as short as possible.",
+          "synonyms": [
+            "brusque",
+            "terse",
+            "short"
+          ],
+          "antonyms": [
+            "verbose",
+            "expansive",
+            "chatty"
+          ]
+        },
+        {
+          "id": "sat-terse",
+          "word": "terse",
+          "partOfSpeech": "adjective",
+          "definition": "Using very few words in a smooth but clipped way.",
+          "example": "The general's terse memo contained only three words: 'Hold the line.'",
+          "mnemonic": "'Terse' rhymes with 'tense' — a tense person spits out short bursts.",
+          "synonyms": [
+            "concise",
+            "laconic",
+            "succinct"
+          ],
+          "antonyms": [
+            "wordy",
+            "rambling",
+            "verbose"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-gruff",
+          "word": "gruff",
+          "partOfSpeech": "adjective",
+          "definition": "Rough or abrupt in manner or voice, though often kind underneath.",
+          "example": "The gruff old sailor barked orders but slipped the kids an extra biscuit.",
+          "mnemonic": "'Gruff' sounds like a dog's low growl — rough, throaty, brusque.",
+          "synonyms": [
+            "brusque",
+            "rough",
+            "surly"
+          ],
+          "antonyms": [
+            "gentle",
+            "genial",
+            "warm"
+          ]
+        },
+        {
+          "id": "sat-surly",
+          "word": "surly",
+          "partOfSpeech": "adjective",
+          "definition": "Bad-tempered and unfriendly in a sulking, hostile way.",
+          "example": "The surly waiter slammed our plates down and never once smiled.",
+          "mnemonic": "Say it slow: 'sour-ly' — a sour, grumpy attitude toward everyone.",
+          "synonyms": [
+            "sullen",
+            "churlish",
+            "grumpy"
+          ],
+          "antonyms": [
+            "cheerful",
+            "amiable",
+            "pleasant"
+          ]
+        },
+        {
+          "id": "sat-sullen",
+          "word": "sullen",
+          "partOfSpeech": "adjective",
+          "definition": "Silently gloomy, resentful, and bad-tempered.",
+          "example": "The teenager sat sullen at dinner, arms crossed, refusing to speak.",
+          "mnemonic": "Starts like 'sulk' — picture a kid sulking in silent gloom.",
+          "synonyms": [
+            "morose",
+            "sulky",
+            "glum"
+          ],
+          "antonyms": [
+            "cheerful",
+            "sunny",
+            "genial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-glib",
+          "word": "glib",
+          "partOfSpeech": "adjective",
+          "definition": "Speaking smoothly and easily but without sincerity or real thought.",
+          "example": "His glib apology sounded rehearsed, and no one believed he meant it.",
+          "mnemonic": "'Glib' sounds like 'glide' — words that glide out too smoothly to trust.",
+          "synonyms": [
+            "slick",
+            "facile",
+            "smooth"
+          ],
+          "antonyms": [
+            "sincere",
+            "thoughtful",
+            "earnest"
+          ]
+        },
+        {
+          "id": "sat-smug",
+          "word": "smug",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively pleased with oneself in a way that irritates others.",
+          "example": "She wore a smug grin after correcting the professor in front of the class.",
+          "mnemonic": "A 'smirk' plastered on a 'mug' (face) = smug.",
+          "synonyms": [
+            "self-satisfied",
+            "complacent",
+            "conceited"
+          ],
+          "antonyms": [
+            "humble",
+            "modest",
+            "self-effacing"
+          ]
+        },
+        {
+          "id": "sat-coy",
+          "word": "coy",
+          "partOfSpeech": "adjective",
+          "definition": "Pretending to be shy or reluctant, often to attract interest.",
+          "example": "When asked if they were dating, she gave a coy smile and changed the subject.",
+          "mnemonic": "'Coy' rhymes with 'toy' — she toys with you, hiding the real answer.",
+          "synonyms": [
+            "demure",
+            "evasive",
+            "bashful"
+          ],
+          "antonyms": [
+            "forthright",
+            "brazen",
+            "direct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-meek",
+          "word": "meek",
+          "partOfSpeech": "adjective",
+          "definition": "Quiet, gentle, and unwilling to argue or assert oneself.",
+          "example": "The meek intern nodded at every demand, never once pushing back.",
+          "mnemonic": "'Meek' rhymes with 'weak' — a meek person yields softly.",
+          "synonyms": [
+            "submissive",
+            "docile",
+            "timid"
+          ],
+          "antonyms": [
+            "assertive",
+            "bold",
+            "domineering"
+          ]
+        },
+        {
+          "id": "sat-wry",
+          "word": "wry",
+          "partOfSpeech": "adjective",
+          "definition": "Showing dry, ironic humor, often with a slight twist of the mouth.",
+          "example": "After the plan collapsed, he gave a wry smile and said, 'Went perfectly.'",
+          "mnemonic": "'Wry' sounds like 'rye' — dry rye humor, twisted like a rye pretzel.",
+          "synonyms": [
+            "ironic",
+            "sardonic",
+            "dry"
+          ],
+          "antonyms": [
+            "earnest",
+            "sincere",
+            "humorless"
+          ]
+        },
+        {
+          "id": "sat-droll",
+          "word": "droll",
+          "partOfSpeech": "adjective",
+          "definition": "Amusing in a quaint, quirky, or unexpected way.",
+          "example": "The professor's droll asides about medieval plumbing kept the lecture lively.",
+          "mnemonic": "'Droll' sounds like 'troll' doll — an odd little figure that makes you chuckle.",
+          "synonyms": [
+            "whimsical",
+            "quirky",
+            "comical"
+          ],
+          "antonyms": [
+            "dull",
+            "serious",
+            "humorless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-acerbic",
+          "word": "acerbic",
+          "partOfSpeech": "adjective",
+          "definition": "Sharp, biting, and bitter in tone, especially when criticizing.",
+          "example": "The critic's acerbic review dismissed the play as 'two hours I want refunded.'",
+          "mnemonic": "From Latin 'acer' (sharp) — hear 'a-sour-bic,' a sour, cutting taste.",
+          "synonyms": [
+            "caustic",
+            "biting",
+            "sardonic"
+          ],
+          "antonyms": [
+            "mild",
+            "gentle",
+            "kind"
+          ]
+        },
+        {
+          "id": "sat-caustic",
+          "word": "caustic",
+          "partOfSpeech": "adjective",
+          "definition": "Bitterly sarcastic and cutting in a way that stings.",
+          "example": "Her caustic remark about his 'genius' plan made the whole room wince.",
+          "mnemonic": "Like a caustic chemical that burns skin — these words burn on contact.",
+          "synonyms": [
+            "acerbic",
+            "scathing",
+            "corrosive"
+          ],
+          "antonyms": [
+            "soothing",
+            "gentle",
+            "complimentary"
+          ]
+        },
+        {
+          "id": "sat-vitriolic",
+          "word": "vitriolic",
+          "partOfSpeech": "adjective",
+          "definition": "Filled with savagely bitter criticism, malice, or hatred.",
+          "example": "The candidate's vitriolic attack on his rival shocked even his own supporters.",
+          "mnemonic": "'Vitriol' was the old name for sulfuric acid — acid-burning speech.",
+          "synonyms": [
+            "venomous",
+            "scathing",
+            "acrimonious"
+          ],
+          "antonyms": [
+            "kind",
+            "gentle",
+            "complimentary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-scathing",
+          "word": "scathing",
+          "partOfSpeech": "adjective",
+          "definition": "Fiercely critical in a way intended to wound or condemn.",
+          "example": "The critic's scathing review left the young director too embarrassed to attend her own premiere.",
+          "mnemonic": "Sounds like 'scalding' — a scathing remark burns like scalding water thrown in your face.",
+          "synonyms": [
+            "withering",
+            "savage",
+            "harsh"
+          ],
+          "antonyms": [
+            "flattering",
+            "gentle",
+            "complimentary"
+          ]
+        },
+        {
+          "id": "sat-trenchant",
+          "word": "trenchant",
+          "partOfSpeech": "adjective",
+          "definition": "Sharply perceptive and forceful in expression or argument.",
+          "example": "Her trenchant analysis cut straight to the flaw everyone else in the room had missed.",
+          "mnemonic": "Hear 'trench' — a trenchant point digs a sharp, deep trench right through a weak argument.",
+          "synonyms": [
+            "incisive",
+            "penetrating",
+            "keen"
+          ],
+          "antonyms": [
+            "vague",
+            "wishy-washy",
+            "dull"
+          ]
+        },
+        {
+          "id": "sat-mordant",
+          "word": "mordant",
+          "partOfSpeech": "adjective",
+          "definition": "Bitingly sarcastic, often laced with dark humor.",
+          "example": "His mordant asides at the funeral were so cruel that people laughed before they caught themselves.",
+          "mnemonic": "From Latin 'mordere,' to bite — picture a mouth clamping down; mordant wit bites the target.",
+          "synonyms": [
+            "caustic",
+            "acerbic",
+            "sardonic"
+          ],
+          "antonyms": [
+            "gentle",
+            "kindly",
+            "bland"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-blunt",
+          "word": "blunt",
+          "partOfSpeech": "adjective",
+          "definition": "Direct and plainspoken, without softening the truth for politeness.",
+          "example": "'You're not ready for this job,' she said, blunt as ever, and walked out of the room.",
+          "mnemonic": "A blunt knife has no fine point — blunt speech skips the polite point and just lands flat.",
+          "synonyms": [
+            "frank",
+            "direct",
+            "candid"
+          ],
+          "antonyms": [
+            "tactful",
+            "diplomatic",
+            "subtle"
+          ]
+        },
+        {
+          "id": "sat-forthright",
+          "word": "forthright",
+          "partOfSpeech": "adjective",
+          "definition": "Honest and straightforward in manner, holding nothing back.",
+          "example": "When asked about the layoffs, the CEO was refreshingly forthright about exactly how many jobs would go.",
+          "mnemonic": "'Forth + right' — you go straight forth to the right answer instead of dodging around it.",
+          "synonyms": [
+            "candid",
+            "frank",
+            "straightforward"
+          ],
+          "antonyms": [
+            "evasive",
+            "secretive",
+            "cagey"
+          ]
+        },
+        {
+          "id": "sat-outspoken",
+          "word": "outspoken",
+          "partOfSpeech": "adjective",
+          "definition": "Bold and open in stating opinions, even unpopular or risky ones.",
+          "example": "An outspoken critic of the regime, she was arrested for the columns she refused to soften.",
+          "mnemonic": "'Out-spoken' — you speak your mind out loud and out into the open, never keeping it in.",
+          "synonyms": [
+            "vocal",
+            "frank",
+            "candid"
+          ],
+          "antonyms": [
+            "reticent",
+            "reserved",
+            "quiet"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-vehement",
+          "word": "vehement",
+          "partOfSpeech": "adjective",
+          "definition": "Showing intense, forceful feeling or conviction.",
+          "example": "His vehement denial, delivered with a pounding fist, only made the jury more suspicious.",
+          "mnemonic": "'Vee-HE-ment' sounds like a vehicle slamming at a moment's force — feeling that hits that hard.",
+          "synonyms": [
+            "forceful",
+            "fervent",
+            "fierce"
+          ],
+          "antonyms": [
+            "mild",
+            "apathetic",
+            "indifferent"
+          ]
+        },
+        {
+          "id": "sat-ardent",
+          "word": "ardent",
+          "partOfSpeech": "adjective",
+          "definition": "Full of warm, eager passion or devotion.",
+          "example": "An ardent fan, he drove nine hours just to catch ten minutes of the band's soundcheck.",
+          "mnemonic": "From Latin 'ardere,' to burn — an ardent heart is one that burns hot with enthusiasm.",
+          "synonyms": [
+            "passionate",
+            "fervent",
+            "zealous"
+          ],
+          "antonyms": [
+            "indifferent",
+            "apathetic",
+            "cool"
+          ]
+        },
+        {
+          "id": "sat-impassioned",
+          "word": "impassioned",
+          "partOfSpeech": "adjective",
+          "definition": "Filled with intense feeling, especially in a speech or plea.",
+          "example": "Her impassioned plea for mercy moved even the prosecutor to wipe his eyes.",
+          "mnemonic": "'Im- (into) + passion' — someone has poured pure passion INTO every word they speak.",
+          "synonyms": [
+            "fervent",
+            "heartfelt",
+            "fiery"
+          ],
+          "antonyms": [
+            "dispassionate",
+            "detached",
+            "cold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-frantic",
+          "word": "frantic",
+          "partOfSpeech": "adjective",
+          "definition": "Wildly hurried or agitated by fear, worry, or urgency.",
+          "example": "After losing sight of her son, she made a frantic dash through the crowded mall, calling his name.",
+          "mnemonic": "'Frenzy' + 'antic' = frantic — the wild, panicky antics of someone in a total frenzy.",
+          "synonyms": [
+            "frenzied",
+            "panicky",
+            "hectic"
+          ],
+          "antonyms": [
+            "calm",
+            "composed",
+            "serene"
+          ]
+        },
+        {
+          "id": "sat-restive",
+          "word": "restive",
+          "partOfSpeech": "adjective",
+          "definition": "Impatient and hard to control under restraint or delay.",
+          "example": "The horses grew restive as the storm rolled in, stamping and yanking against their tethers.",
+          "mnemonic": "Looks like 'restless' but resists rest — a restive animal won't stay still and fights the reins.",
+          "synonyms": [
+            "restless",
+            "edgy",
+            "fidgety"
+          ],
+          "antonyms": [
+            "calm",
+            "docile",
+            "content"
+          ]
+        },
+        {
+          "id": "sat-wary",
+          "word": "wary",
+          "partOfSpeech": "adjective",
+          "definition": "Cautious and watchful of possible danger or trouble.",
+          "example": "Wary of scams, she never once clicked a link in an email she wasn't expecting.",
+          "mnemonic": "'Wary' hides the word 'war' — in war you stay alert and on guard against every threat.",
+          "synonyms": [
+            "cautious",
+            "guarded",
+            "careful"
+          ],
+          "antonyms": [
+            "trusting",
+            "careless",
+            "reckless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-guarded",
+          "word": "guarded",
+          "partOfSpeech": "adjective",
+          "definition": "Careful and restrained, unwilling to reveal much.",
+          "example": "He gave the reporter guarded answers, offering nothing that could be traced back to the deal.",
+          "mnemonic": "Picture a sentry standing watch — guarded words sit safely behind a posted guard.",
+          "synonyms": [
+            "cautious",
+            "reticent",
+            "circumspect"
+          ],
+          "antonyms": [
+            "open",
+            "candid",
+            "forthcoming"
+          ]
+        },
+        {
+          "id": "sat-reserved",
+          "word": "reserved",
+          "partOfSpeech": "adjective",
+          "definition": "Slow to show emotion or share opinions; naturally quiet.",
+          "example": "New colleagues found her reserved for months until, one late evening, she finally opened up.",
+          "mnemonic": "Like a reserved seat held back and kept private — her feelings are held back in reserve.",
+          "synonyms": [
+            "reticent",
+            "restrained",
+            "aloof"
+          ],
+          "antonyms": [
+            "outgoing",
+            "gregarious",
+            "expressive"
+          ]
+        },
+        {
+          "id": "sat-demure",
+          "word": "demure",
+          "partOfSpeech": "adjective",
+          "definition": "Modest and shy in a quiet, composed way.",
+          "example": "She gave a demure smile and lowered her eyes when the stranger complimented her singing.",
+          "mnemonic": "'De-mure' sounds like a soft murmur — a demure person speaks and acts in a hushed, modest hush.",
+          "synonyms": [
+            "modest",
+            "coy",
+            "bashful"
+          ],
+          "antonyms": [
+            "brazen",
+            "bold",
+            "brash"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-bashful",
+          "word": "bashful",
+          "partOfSpeech": "adjective",
+          "definition": "Shy and easily embarrassed in the presence of other people.",
+          "example": "He gave a bashful wave and stared at his shoes when the girl he liked said hello.",
+          "mnemonic": "One of Snow White's seven dwarfs — Bashful blushes and hides his face the instant anyone looks his way.",
+          "synonyms": [
+            "shy",
+            "coy",
+            "diffident"
+          ],
+          "antonyms": [
+            "bold",
+            "brazen",
+            "confident"
+          ]
+        },
+        {
+          "id": "sat-timid",
+          "word": "timid",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking in courage or self-confidence and easily frightened.",
+          "example": "Too timid to raise her hand, she let the answer she knew slip away in silence.",
+          "mnemonic": "A 'tiny mouse' is timid — the 'tim-' start sounds like a small, trembling creature that scurries from danger.",
+          "synonyms": [
+            "fearful",
+            "shy",
+            "apprehensive"
+          ],
+          "antonyms": [
+            "bold",
+            "brave",
+            "assertive"
+          ]
+        },
+        {
+          "id": "sat-timorous",
+          "word": "timorous",
+          "partOfSpeech": "adjective",
+          "definition": "Nervous and full of fear or apprehension about what might happen.",
+          "example": "The timorous new recruit flinched at every loud noise on the training ground.",
+          "mnemonic": "From Latin 'timor' meaning fear (the same root as 'timid') — a timorous person is brimming with 'timor.'",
+          "synonyms": [
+            "fearful",
+            "nervous",
+            "apprehensive"
+          ],
+          "antonyms": [
+            "fearless",
+            "intrepid",
+            "dauntless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-sheepish",
+          "word": "sheepish",
+          "partOfSpeech": "adjective",
+          "definition": "Showing embarrassment from an awareness of having done something foolish.",
+          "example": "He offered a sheepish grin after everyone realized he'd been raving about the wrong movie the whole time.",
+          "mnemonic": "Picture a sheep caught chewing your homework — head lowered, giving you that guilty, awkward look.",
+          "synonyms": [
+            "abashed",
+            "shamefaced",
+            "embarrassed"
+          ],
+          "antonyms": [
+            "confident",
+            "unabashed",
+            "proud"
+          ]
+        },
+        {
+          "id": "sat-contrite",
+          "word": "contrite",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling deep regret and guilt for having done something wrong.",
+          "example": "After breaking the vase, the boy was so contrite that he saved his allowance for a month to replace it.",
+          "mnemonic": "Latin 'con-' (thoroughly) + 'tritus' (ground down) — a contrite heart is worn down and crushed by guilt.",
+          "synonyms": [
+            "repentant",
+            "penitent",
+            "remorseful"
+          ],
+          "antonyms": [
+            "unrepentant",
+            "defiant",
+            "remorseless"
+          ]
+        },
+        {
+          "id": "sat-penitent",
+          "word": "penitent",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling sorrow for one's sins and wishing to make amends.",
+          "example": "Kneeling at the altar, the penitent thief begged the priest to hear his confession.",
+          "mnemonic": "Same root as 'penitentiary' and 'penance' — a penitent inmate is doing time and truly feeling sorry.",
+          "synonyms": [
+            "repentant",
+            "contrite",
+            "remorseful"
+          ],
+          "antonyms": [
+            "impenitent",
+            "unrepentant",
+            "defiant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-remorseful",
+          "word": "remorseful",
+          "partOfSpeech": "adjective",
+          "definition": "Filled with deep guilt and regret over a past wrong.",
+          "example": "Years later he remained remorseful about the cruel words he'd shouted at his mother.",
+          "mnemonic": "'Re-morse' = to bite again (Latin 'mordere,' to bite) — the guilt keeps biting you over and over.",
+          "synonyms": [
+            "contrite",
+            "guilty",
+            "regretful"
+          ],
+          "antonyms": [
+            "remorseless",
+            "unrepentant",
+            "callous"
+          ]
+        },
+        {
+          "id": "sat-rueful",
+          "word": "rueful",
+          "partOfSpeech": "adjective",
+          "definition": "Showing regret in a wry, resigned, half-amused way.",
+          "example": "She gave a rueful laugh and admitted she really should have listened to the warnings.",
+          "mnemonic": "To 'rue the day' is to bitterly regret it — a rueful smile is the face you make while ruing your choice.",
+          "synonyms": [
+            "regretful",
+            "apologetic",
+            "wry"
+          ],
+          "antonyms": [
+            "unrepentant",
+            "cheerful",
+            "satisfied"
+          ]
+        },
+        {
+          "id": "sat-wistful",
+          "word": "wistful",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling a gentle, sad longing for something lost or out of reach.",
+          "example": "He grew wistful paging through old photographs of the seaside town where he grew up.",
+          "mnemonic": "Sounds like 'wish-ful' — full of a quiet, aching wish for something you can no longer have.",
+          "synonyms": [
+            "yearning",
+            "longing",
+            "nostalgic"
+          ],
+          "antonyms": [
+            "content",
+            "indifferent",
+            "satisfied"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-melancholy",
+          "word": "melancholy",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by a deep, thoughtful sadness with no single obvious cause.",
+          "example": "A melancholy mood settled over the empty house once the last of the guests had gone.",
+          "mnemonic": "Greek 'melas' (black) + 'kholē' (bile) — ancient doctors blamed such sadness on an excess of 'black bile.'",
+          "synonyms": [
+            "gloomy",
+            "sorrowful",
+            "mournful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "joyful",
+            "buoyant"
+          ]
+        },
+        {
+          "id": "sat-forlorn",
+          "word": "forlorn",
+          "partOfSpeech": "adjective",
+          "definition": "Appearing lonely, abandoned, and hopelessly sad.",
+          "example": "The forlorn dog sat by the shut gate long after its owner's car had disappeared.",
+          "mnemonic": "From old 'forloren,' meaning utterly lost — hear the '-lorn' as 'lost and alone,' like a puppy left out in the rain.",
+          "synonyms": [
+            "desolate",
+            "abandoned",
+            "wretched"
+          ],
+          "antonyms": [
+            "hopeful",
+            "cheerful",
+            "content"
+          ]
+        },
+        {
+          "id": "sat-doleful",
+          "word": "doleful",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing or filled with sorrow; mournful in look or sound.",
+          "example": "The hound let out a doleful howl every time its master picked up the suitcase.",
+          "mnemonic": "Full of 'dole' — an old English word for grief — so a doleful basset hound's droopy eyes brim with dole.",
+          "synonyms": [
+            "mournful",
+            "sorrowful",
+            "gloomy"
+          ],
+          "antonyms": [
+            "cheerful",
+            "joyful",
+            "merry"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-dejected",
+          "word": "dejected",
+          "partOfSpeech": "adjective",
+          "definition": "Low in spirits after a disappointment or loss of hope.",
+          "example": "Dejected after the rejection letter, she pushed her dinner around the plate without eating.",
+          "mnemonic": "Latin 'de-' (down) + 'jacere' (to throw) — like 'ejected,' but your spirits are thrown downward.",
+          "synonyms": [
+            "downcast",
+            "despondent",
+            "disheartened"
+          ],
+          "antonyms": [
+            "elated",
+            "cheerful",
+            "buoyant"
+          ]
+        },
+        {
+          "id": "sat-disconsolate",
+          "word": "disconsolate",
+          "partOfSpeech": "adjective",
+          "definition": "So unhappy that nothing offered can bring any comfort.",
+          "example": "Disconsolate over the loss of her ring, she refused every attempt her friends made to cheer her up.",
+          "mnemonic": "'Dis-' (not) + 'console' — you simply cannot be consoled; no comfort manages to reach you.",
+          "synonyms": [
+            "inconsolable",
+            "heartbroken",
+            "despondent"
+          ],
+          "antonyms": [
+            "comforted",
+            "cheerful",
+            "content"
+          ]
+        },
+        {
+          "id": "sat-crestfallen",
+          "word": "crestfallen",
+          "partOfSpeech": "adjective",
+          "definition": "Sad and disappointed after a hope or effort has failed.",
+          "example": "The crestfallen team trudged off the field after conceding a goal in the final seconds.",
+          "mnemonic": "Picture a proud rooster whose head-crest has 'fallen' flat after losing the fight — pride and posture collapsed.",
+          "synonyms": [
+            "downcast",
+            "dejected",
+            "disheartened"
+          ],
+          "antonyms": [
+            "elated",
+            "triumphant",
+            "jubilant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-somber",
+          "word": "somber",
+          "partOfSpeech": "adjective",
+          "definition": "Dark, gloomy, and grave in mood or appearance.",
+          "example": "The mourners wore black and spoke in hushed, somber tones at the graveside.",
+          "mnemonic": "Sounds like 'sad' + 'umber' (a dark brown paint) — a dark, sad color.",
+          "synonyms": [
+            "gloomy",
+            "grave",
+            "melancholy"
+          ],
+          "antonyms": [
+            "cheerful",
+            "bright",
+            "lighthearted"
+          ]
+        },
+        {
+          "id": "sat-solemn",
+          "word": "solemn",
+          "partOfSpeech": "adjective",
+          "definition": "Formal, dignified, and deeply serious in manner or ceremony.",
+          "example": "She made a solemn vow before the judge, her voice steady and grave.",
+          "mnemonic": "SOLE + MN: the 'sole' witness swears an oath with total gravity.",
+          "synonyms": [
+            "dignified",
+            "ceremonial",
+            "earnest"
+          ],
+          "antonyms": [
+            "frivolous",
+            "playful",
+            "casual"
+          ]
+        },
+        {
+          "id": "sat-stern",
+          "word": "stern",
+          "partOfSpeech": "adjective",
+          "definition": "Firm, strict, and showing disapproval or harsh discipline.",
+          "example": "The stern headmaster glared until the giggling students fell silent.",
+          "mnemonic": "The 'stern' of a ship is the hard, unyielding back end — like a hard, unyielding face.",
+          "synonyms": [
+            "strict",
+            "harsh",
+            "unbending"
+          ],
+          "antonyms": [
+            "lenient",
+            "gentle",
+            "indulgent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-severe",
+          "word": "severe",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely harsh, strict, or intense in degree.",
+          "example": "Breaking the treaty brought severe penalties that crippled the nation's economy.",
+          "mnemonic": "SE-VERE sounds like 'so very' — so very harsh.",
+          "synonyms": [
+            "harsh",
+            "extreme",
+            "grave"
+          ],
+          "antonyms": [
+            "mild",
+            "lenient",
+            "gentle"
+          ]
+        },
+        {
+          "id": "sat-acrimonious",
+          "word": "acrimonious",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by sharp bitterness and angry, hostile feelings.",
+          "example": "Their acrimonious divorce dragged on for years, each accusation nastier than the last.",
+          "mnemonic": "ACRID + money: an 'acrid' (bitter) fight over money.",
+          "synonyms": [
+            "bitter",
+            "rancorous",
+            "caustic"
+          ],
+          "antonyms": [
+            "amicable",
+            "cordial",
+            "friendly"
+          ]
+        },
+        {
+          "id": "sat-hostile",
+          "word": "hostile",
+          "partOfSpeech": "adjective",
+          "definition": "Unfriendly and openly opposed or aggressive toward someone.",
+          "example": "The crowd turned hostile, jeering and hurling bottles at the referee.",
+          "mnemonic": "Think 'hostage'-takers — unfriendly captors who mean you harm.",
+          "synonyms": [
+            "antagonistic",
+            "aggressive",
+            "unfriendly"
+          ],
+          "antonyms": [
+            "friendly",
+            "welcoming",
+            "amicable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-antagonistic",
+          "word": "antagonistic",
+          "partOfSpeech": "adjective",
+          "definition": "Actively opposing or showing dislike toward someone or something.",
+          "example": "From the first meeting he was antagonistic, contradicting every point his coworker made.",
+          "mnemonic": "ANTAGONIST — the villain in a story who opposes the hero.",
+          "synonyms": [
+            "hostile",
+            "opposed",
+            "adversarial"
+          ],
+          "antonyms": [
+            "friendly",
+            "cooperative",
+            "supportive"
+          ]
+        },
+        {
+          "id": "sat-combative",
+          "word": "combative",
+          "partOfSpeech": "adjective",
+          "definition": "Ready and eager to fight or argue.",
+          "example": "The witness grew combative, snapping at the lawyer and refusing to answer calmly.",
+          "mnemonic": "COMBAT + ive: primed for combat.",
+          "synonyms": [
+            "belligerent",
+            "aggressive",
+            "argumentative"
+          ],
+          "antonyms": [
+            "peaceable",
+            "conciliatory",
+            "agreeable"
+          ]
+        },
+        {
+          "id": "sat-pugnacious",
+          "word": "pugnacious",
+          "partOfSpeech": "adjective",
+          "definition": "Quick to quarrel or fight; naturally aggressive.",
+          "example": "The pugnacious little terrier snarled and lunged at dogs three times its size.",
+          "mnemonic": "Latin 'pugnus' = fist; also 'pug' the boxer throws punches.",
+          "synonyms": [
+            "belligerent",
+            "combative",
+            "quarrelsome"
+          ],
+          "antonyms": [
+            "peaceable",
+            "easygoing",
+            "gentle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-bellicose",
+          "word": "bellicose",
+          "partOfSpeech": "adjective",
+          "definition": "Eager for war or aggressive conflict; warlike in attitude.",
+          "example": "The dictator's bellicose speeches promised invasion and rallied troops to the border.",
+          "mnemonic": "Latin 'bellum' = war (as in 'belligerent') — 'belli-' means war.",
+          "synonyms": [
+            "warlike",
+            "belligerent",
+            "aggressive"
+          ],
+          "antonyms": [
+            "peaceful",
+            "pacific",
+            "conciliatory"
+          ]
+        },
+        {
+          "id": "sat-defiant",
+          "word": "defiant",
+          "partOfSpeech": "adjective",
+          "definition": "Boldly resisting authority or refusing to obey.",
+          "example": "Arms crossed and chin up, the defiant teenager refused to apologize.",
+          "mnemonic": "DEFY + ant: one who defies.",
+          "synonyms": [
+            "rebellious",
+            "insubordinate",
+            "bold"
+          ],
+          "antonyms": [
+            "obedient",
+            "compliant",
+            "submissive"
+          ]
+        },
+        {
+          "id": "sat-rebellious",
+          "word": "rebellious",
+          "partOfSpeech": "adjective",
+          "definition": "Resisting or rising up against control and authority.",
+          "example": "The rebellious colonists dumped the tea into the harbor to protest the crown.",
+          "mnemonic": "REBEL + lious: a rebel opposes the ruler.",
+          "synonyms": [
+            "defiant",
+            "insurgent",
+            "mutinous"
+          ],
+          "antonyms": [
+            "obedient",
+            "loyal",
+            "compliant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-mutinous",
+          "word": "mutinous",
+          "partOfSpeech": "adjective",
+          "definition": "Openly rebelling against lawful authority, especially officers or a leader.",
+          "example": "The mutinous sailors seized the captain and locked him below deck.",
+          "mnemonic": "'Mutiny on the Bounty' — the crew that overthrew its captain.",
+          "synonyms": [
+            "rebellious",
+            "insubordinate",
+            "seditious"
+          ],
+          "antonyms": [
+            "loyal",
+            "obedient",
+            "dutiful"
+          ]
+        },
+        {
+          "id": "sat-recalcitrant",
+          "word": "recalcitrant",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly resisting authority, control, or instruction.",
+          "example": "The recalcitrant mule dug in its hooves and would not budge an inch.",
+          "mnemonic": "Latin 'calcitrare' = to kick — 'RE-KICK-itrant', a mule kicking back at every command.",
+          "synonyms": [
+            "unruly",
+            "obstinate",
+            "defiant"
+          ],
+          "antonyms": [
+            "compliant",
+            "obedient",
+            "docile"
+          ]
+        },
+        {
+          "id": "sat-intractable",
+          "word": "intractable",
+          "partOfSpeech": "adjective",
+          "definition": "Hard to control, manage, or solve; stubbornly difficult.",
+          "example": "Decades of intractable conflict left every peace negotiation in ruins.",
+          "mnemonic": "IN (not) + TRACTable — like a load a tractor can't drag into line.",
+          "synonyms": [
+            "stubborn",
+            "unmanageable",
+            "obstinate"
+          ],
+          "antonyms": [
+            "manageable",
+            "tractable",
+            "docile"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-unruly",
+          "word": "unruly",
+          "partOfSpeech": "adjective",
+          "definition": "Hard to manage or keep in order; resisting rules and authority.",
+          "example": "The substitute teacher struggled to quiet the unruly class as paper airplanes sailed overhead.",
+          "mnemonic": "Break it up: un + ruly, as in 'rule' — someone who won't be ruled.",
+          "synonyms": [
+            "disorderly",
+            "rowdy",
+            "disobedient"
+          ],
+          "antonyms": [
+            "obedient",
+            "docile",
+            "orderly"
+          ]
+        },
+        {
+          "id": "sat-wayward",
+          "word": "wayward",
+          "partOfSpeech": "adjective",
+          "definition": "Turning away from what is expected or proper; willful and hard to guide.",
+          "example": "Their wayward son dropped out of school and vanished for months at a time.",
+          "mnemonic": "Hear 'wants its own way' — always wandering off the right way.",
+          "synonyms": [
+            "willful",
+            "contrary",
+            "unpredictable"
+          ],
+          "antonyms": [
+            "obedient",
+            "compliant",
+            "dutiful"
+          ]
+        },
+        {
+          "id": "sat-obdurate",
+          "word": "obdurate",
+          "partOfSpeech": "adjective",
+          "definition": "Stubbornly refusing to soften a view or feeling despite pleas or reason.",
+          "example": "Despite the family's tears, the judge stayed obdurate and denied the appeal.",
+          "mnemonic": "ob- + Latin durus ('hard') — a heart that has hardened, like 'endure' turned to stone.",
+          "synonyms": [
+            "stubborn",
+            "unyielding",
+            "inflexible"
+          ],
+          "antonyms": [
+            "yielding",
+            "flexible",
+            "compliant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-intransigent",
+          "word": "intransigent",
+          "partOfSpeech": "adjective",
+          "definition": "Refusing to compromise or reach agreement; rigidly holding a position.",
+          "example": "Negotiations collapsed because both sides stayed intransigent, unwilling to give an inch.",
+          "mnemonic": "in- ('not') + transigere ('to come to terms') — literally cannot be brought to terms.",
+          "synonyms": [
+            "uncompromising",
+            "hardline",
+            "inflexible"
+          ],
+          "antonyms": [
+            "flexible",
+            "accommodating",
+            "conciliatory"
+          ]
+        },
+        {
+          "id": "sat-adamant",
+          "word": "adamant",
+          "partOfSpeech": "adjective",
+          "definition": "Firmly refusing to change your mind despite others' arguments.",
+          "example": "She was adamant that she would pay for the meal herself, waving away every offer.",
+          "mnemonic": "'Adamant' was the ancient name for the hardest stone (root of 'diamond') — hard as rock.",
+          "synonyms": [
+            "unshakable",
+            "insistent",
+            "firm"
+          ],
+          "antonyms": [
+            "yielding",
+            "flexible",
+            "hesitant"
+          ]
+        },
+        {
+          "id": "sat-resolute",
+          "word": "resolute",
+          "partOfSpeech": "adjective",
+          "definition": "Firmly determined to follow through on a decision or purpose.",
+          "example": "Even after three failed attempts, she remained resolute about reaching the summit.",
+          "mnemonic": "You've made a 'resolution' — you're resolved and won't back down.",
+          "synonyms": [
+            "determined",
+            "purposeful",
+            "steadfast"
+          ],
+          "antonyms": [
+            "irresolute",
+            "wavering",
+            "hesitant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-steadfast",
+          "word": "steadfast",
+          "partOfSpeech": "adjective",
+          "definition": "Firm and unwavering in loyalty, belief, or purpose.",
+          "example": "Through every scandal, his steadfast supporters never once abandoned him.",
+          "mnemonic": "stead + fast = 'stand fast' — planted in place, holding your ground.",
+          "synonyms": [
+            "loyal",
+            "unwavering",
+            "devoted"
+          ],
+          "antonyms": [
+            "fickle",
+            "disloyal",
+            "wavering"
+          ]
+        },
+        {
+          "id": "sat-staunch",
+          "word": "staunch",
+          "partOfSpeech": "adjective",
+          "definition": "Very loyal and firmly committed to a person, cause, or belief.",
+          "example": "A staunch defender of free speech, she spoke at every rally in town.",
+          "mnemonic": "Sounds like 'stanch,' to stop a flow — solid, watertight, unleaking loyalty.",
+          "synonyms": [
+            "loyal",
+            "devoted",
+            "dependable"
+          ],
+          "antonyms": [
+            "disloyal",
+            "unreliable",
+            "wavering"
+          ]
+        },
+        {
+          "id": "sat-tenacious",
+          "word": "tenacious",
+          "partOfSpeech": "adjective",
+          "definition": "Holding on firmly and persistently, refusing to let go or give up.",
+          "example": "The tenacious detective kept working the cold case long after everyone else quit.",
+          "mnemonic": "From Latin tenere ('to hold') — like a 'tenant' gripping the lease and won't move out.",
+          "synonyms": [
+            "persistent",
+            "dogged",
+            "determined"
+          ],
+          "antonyms": [
+            "yielding",
+            "irresolute",
+            "weak"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-unflinching",
+          "word": "unflinching",
+          "partOfSpeech": "adjective",
+          "definition": "Not showing fear or hesitation when facing danger or difficulty.",
+          "example": "She gave an unflinching account of the crash, meeting each juror's eyes.",
+          "mnemonic": "un + flinching — you don't flinch, not even a twitch, when the blow comes.",
+          "synonyms": [
+            "fearless",
+            "steady",
+            "resolute"
+          ],
+          "antonyms": [
+            "fearful",
+            "hesitant",
+            "timid"
+          ]
+        },
+        {
+          "id": "sat-undaunted",
+          "word": "undaunted",
+          "partOfSpeech": "adjective",
+          "definition": "Not discouraged or intimidated by setbacks, danger, or difficulty.",
+          "example": "Undaunted by the storm, the climbers pressed on toward the ridge.",
+          "mnemonic": "un + daunt — nothing 'daunts' (frightens) you; picture courage that can't be dented.",
+          "synonyms": [
+            "fearless",
+            "undismayed",
+            "intrepid"
+          ],
+          "antonyms": [
+            "discouraged",
+            "intimidated",
+            "cowed"
+          ]
+        },
+        {
+          "id": "sat-valiant",
+          "word": "valiant",
+          "partOfSpeech": "adjective",
+          "definition": "Showing great courage and determination, especially in the face of danger.",
+          "example": "The firefighter made a valiant dash into the collapsing house to reach the child.",
+          "mnemonic": "Same root as 'valor' and 'value' — full of worth and bravery.",
+          "synonyms": [
+            "brave",
+            "courageous",
+            "heroic"
+          ],
+          "antonyms": [
+            "cowardly",
+            "timid",
+            "fearful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-audacious",
+          "word": "audacious",
+          "partOfSpeech": "adjective",
+          "definition": "Boldly daring, willing to take surprising risks or defy convention.",
+          "example": "The thieves pulled off an audacious daylight heist in front of hundreds of tourists.",
+          "mnemonic": "From Latin audere ('to dare') — say it as 'a-DARE-cious.'",
+          "synonyms": [
+            "bold",
+            "daring",
+            "brazen"
+          ],
+          "antonyms": [
+            "timid",
+            "cautious",
+            "cowardly"
+          ]
+        },
+        {
+          "id": "sat-foolhardy",
+          "word": "foolhardy",
+          "partOfSpeech": "adjective",
+          "definition": "Recklessly bold; taking risks without sensible caution.",
+          "example": "It was foolhardy to swim past the buoys with a storm rolling in.",
+          "mnemonic": "fool + hardy — a 'fool' bold ('hardy') enough to do something plainly stupid.",
+          "synonyms": [
+            "reckless",
+            "rash",
+            "impetuous"
+          ],
+          "antonyms": [
+            "cautious",
+            "prudent",
+            "careful"
+          ]
+        },
+        {
+          "id": "sat-bravado",
+          "word": "bravado",
+          "partOfSpeech": "noun",
+          "definition": "A showy display of boldness meant to impress, often masking real fear.",
+          "example": "His swagger was pure bravado; under the table his hands were shaking.",
+          "mnemonic": "'brave' + a 'show' (-ado) — a performance of courage, not the genuine article.",
+          "synonyms": [
+            "swagger",
+            "bluster",
+            "bluff"
+          ],
+          "antonyms": [
+            "modesty",
+            "timidity",
+            "humility"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-hubris",
+          "word": "hubris",
+          "partOfSpeech": "noun",
+          "definition": "Excessive pride or overconfidence that often blinds a person and invites disaster.",
+          "example": "Blinded by hubris, the general ignored every warning and marched his army into the storm.",
+          "mnemonic": "HUBRIS ≈ 'HUGE-bris': a HUGE ego that swells until it bursts.",
+          "synonyms": [
+            "arrogance",
+            "conceit",
+            "overconfidence"
+          ],
+          "antonyms": [
+            "humility",
+            "modesty"
+          ]
+        },
+        {
+          "id": "sat-arrogant",
+          "word": "arrogant",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving as if you are better than others in an unpleasant, overbearing way.",
+          "example": "He was so arrogant that he never bothered to learn a single coworker's name.",
+          "mnemonic": "ARROGANT hides an ARROW — always aiming down at everyone below him.",
+          "synonyms": [
+            "haughty",
+            "egotistical",
+            "overbearing"
+          ],
+          "antonyms": [
+            "humble",
+            "modest",
+            "meek"
+          ]
+        },
+        {
+          "id": "sat-conceited",
+          "word": "conceited",
+          "partOfSpeech": "adjective",
+          "definition": "Having far too high an opinion of your own looks, talents, or worth.",
+          "example": "So conceited was she that she checked her reflection in every window she passed.",
+          "mnemonic": "con-SEE-ted: he only ever wants to SEE himself.",
+          "synonyms": [
+            "vain",
+            "egotistical",
+            "self-important"
+          ],
+          "antonyms": [
+            "modest",
+            "humble",
+            "self-effacing"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-condescending",
+          "word": "condescending",
+          "partOfSpeech": "adjective",
+          "definition": "Treating others as inferior while pretending to be kind or helpful.",
+          "example": "The waiter's condescending tone made the tourists feel like children who couldn't read a menu.",
+          "mnemonic": "CONDESCEND = 'descend' down to someone — talking DOWN from above.",
+          "synonyms": [
+            "patronizing",
+            "superior",
+            "snooty"
+          ],
+          "antonyms": [
+            "respectful",
+            "humble",
+            "egalitarian"
+          ]
+        },
+        {
+          "id": "sat-patronizing",
+          "word": "patronizing",
+          "partOfSpeech": "adjective",
+          "definition": "Being kind or helpful in a way that reveals a sense of superiority.",
+          "example": "'Well done, you managed to spell your own name,' she said in a patronizing voice.",
+          "mnemonic": "A PATRON pats you on the head like a lesser being — PAT-ronizing.",
+          "synonyms": [
+            "condescending",
+            "superior",
+            "disdainful"
+          ],
+          "antonyms": [
+            "respectful",
+            "admiring"
+          ]
+        },
+        {
+          "id": "sat-supercilious",
+          "word": "supercilious",
+          "partOfSpeech": "adjective",
+          "definition": "Acting as though others are beneath you and deserve only disdain.",
+          "example": "The supercilious clerk barely glanced up, as if serving us was beneath him.",
+          "mnemonic": "SUPER + 'cilium' (Latin eyebrow): a raised eyebrow says 'I'm SUPER above you.'",
+          "synonyms": [
+            "haughty",
+            "disdainful",
+            "snooty"
+          ],
+          "antonyms": [
+            "humble",
+            "deferential",
+            "modest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-contemptuous",
+          "word": "contemptuous",
+          "partOfSpeech": "adjective",
+          "definition": "Showing that you think someone or something is worthless and beneath respect.",
+          "example": "She gave the cheap imitation a contemptuous glance and set it back down.",
+          "mnemonic": "con-TEMPT: too far beneath you to even TEMPT a second look.",
+          "synonyms": [
+            "scornful",
+            "disdainful",
+            "derisive"
+          ],
+          "antonyms": [
+            "respectful",
+            "admiring",
+            "reverent"
+          ]
+        },
+        {
+          "id": "sat-scornful",
+          "word": "scornful",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing strong dislike and a belief that something deserves no respect.",
+          "example": "The critic was scornful of the film, calling it lazy and beneath discussion.",
+          "mnemonic": "SCORN sounds like SCORCH — a scornful look scorches its target.",
+          "synonyms": [
+            "contemptuous",
+            "disdainful",
+            "derisive"
+          ],
+          "antonyms": [
+            "admiring",
+            "respectful",
+            "approving"
+          ]
+        },
+        {
+          "id": "sat-derisive",
+          "word": "derisive",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing mockery and the view that something is ridiculous.",
+          "example": "A derisive snort from the back row told the speaker his idea had flopped.",
+          "mnemonic": "de-RIS (Latin risus, laughter): mocking laughter rising at your expense.",
+          "synonyms": [
+            "mocking",
+            "scornful",
+            "sneering"
+          ],
+          "antonyms": [
+            "respectful",
+            "admiring",
+            "complimentary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-disparage",
+          "word": "disparage",
+          "partOfSpeech": "verb",
+          "definition": "To speak about someone or something as unimportant or of little value.",
+          "example": "Rivals tried to disparage her research, dismissing years of careful work as guesswork.",
+          "mnemonic": "'dis' + PAR: to knock something below PAR, below the standard.",
+          "synonyms": [
+            "belittle",
+            "denigrate",
+            "deride"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "extol"
+          ]
+        },
+        {
+          "id": "sat-deride",
+          "word": "deride",
+          "partOfSpeech": "verb",
+          "definition": "To laugh at or make fun of someone in a cruel, mocking way.",
+          "example": "Classmates derided his homemade robot until it actually won the contest.",
+          "mnemonic": "de-RIDE: they take you for a RIDE, mocking you the whole way down.",
+          "synonyms": [
+            "mock",
+            "ridicule",
+            "taunt"
+          ],
+          "antonyms": [
+            "praise",
+            "respect",
+            "compliment"
+          ]
+        },
+        {
+          "id": "sat-scoff",
+          "word": "scoff",
+          "partOfSpeech": "verb",
+          "definition": "To speak about something in a mocking way that shows you don't believe or respect it.",
+          "example": "Investors scoffed at the tiny startup — until it outsold every competitor.",
+          "mnemonic": "SCOFF is the dismissive snort-cough you give at something you don't buy.",
+          "synonyms": [
+            "sneer",
+            "mock",
+            "jeer"
+          ],
+          "antonyms": [
+            "praise",
+            "admire",
+            "respect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-rebuke",
+          "word": "rebuke",
+          "partOfSpeech": "verb",
+          "definition": "To sharply criticize or express strong disapproval of someone's actions.",
+          "example": "The judge rebuked the lawyer for interrupting the witness yet again.",
+          "mnemonic": "RE-BUKE ≈ 'BUCK back': like a horse bucking, you throw the offense back hard.",
+          "synonyms": [
+            "reprimand",
+            "scold",
+            "admonish"
+          ],
+          "antonyms": [
+            "praise",
+            "commend",
+            "compliment"
+          ]
+        },
+        {
+          "id": "sat-chide",
+          "word": "chide",
+          "partOfSpeech": "verb",
+          "definition": "To scold someone with mild, often affectionate disapproval.",
+          "example": "Grandmother chided us gently for tracking mud across her clean kitchen floor.",
+          "mnemonic": "CHIDE rhymes with HIDE — once scolded, the child wants to HIDE.",
+          "synonyms": [
+            "scold",
+            "reproach",
+            "admonish"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment"
+          ]
+        },
+        {
+          "id": "sat-berate",
+          "word": "berate",
+          "partOfSpeech": "verb",
+          "definition": "To scold someone loudly and at length in an angry way.",
+          "example": "The coach berated the team for twenty minutes after the sloppy loss.",
+          "mnemonic": "be-RATE: to give someone a brutally low RATING at full volume.",
+          "synonyms": [
+            "scold",
+            "reprimand",
+            "upbraid"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "commend"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T18:48:19.781Z"
+}

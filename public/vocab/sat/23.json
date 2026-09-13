@@ -1,0 +1,983 @@
+{
+  "track": "sat",
+  "ordinal": 23,
+  "title": "Art and expression",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-aesthetic",
+          "word": "aesthetic",
+          "partOfSpeech": "adjective",
+          "definition": "Concerned with beauty or the appreciation of how something looks.",
+          "example": "The café's aesthetic drew photographers who lingered over the pale walls and dried flowers.",
+          "mnemonic": "Sounds like 'a-STHETIC' — think of an artist saying 'ah!' at the sight of something beautiful.",
+          "synonyms": [
+            "artistic",
+            "visual",
+            "tasteful"
+          ],
+          "antonyms": [
+            "unattractive",
+            "tasteless"
+          ]
+        },
+        {
+          "id": "sat-facetious",
+          "word": "facetious",
+          "partOfSpeech": "adjective",
+          "definition": "Making jokes about matters that ought to be treated seriously.",
+          "example": "When the doctor asked about his symptoms, his facetious reply about being 'terminally lazy' fell flat.",
+          "mnemonic": "The vowels a-e-i-o-u appear in order — a fun little trick, fitting for a word about not being serious.",
+          "synonyms": [
+            "flippant",
+            "glib",
+            "tongue-in-cheek"
+          ],
+          "antonyms": [
+            "serious",
+            "earnest",
+            "sincere"
+          ]
+        },
+        {
+          "id": "sat-virtuoso",
+          "word": "virtuoso",
+          "partOfSpeech": "noun",
+          "definition": "A person with outstanding skill in music or another artistic pursuit.",
+          "example": "By fourteen she was already a virtuoso, and audiences gasped when her fingers flew across the keys.",
+          "mnemonic": "Hear 'virtue' + 'so' — someone so gifted their talent seems like a virtue.",
+          "synonyms": [
+            "master",
+            "maestro",
+            "prodigy"
+          ],
+          "antonyms": [
+            "amateur",
+            "novice",
+            "beginner"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-lyrical",
+          "word": "lyrical",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing deep feeling in a poetic, songlike way.",
+          "example": "His travel writing turned a dusty bus ride into something lyrical, full of longing and light.",
+          "mnemonic": "Contains 'lyric' — the words of a song, which pour out emotion.",
+          "synonyms": [
+            "poetic",
+            "expressive",
+            "melodic"
+          ],
+          "antonyms": [
+            "prosaic",
+            "flat",
+            "unpoetic"
+          ]
+        },
+        {
+          "id": "sat-cadence",
+          "word": "cadence",
+          "partOfSpeech": "noun",
+          "definition": "The rhythmic rise and fall of sound in speech or music.",
+          "example": "You could recognize her from another room by the gentle cadence of her voice.",
+          "mnemonic": "From Latin 'cadere,' to fall — think of notes 'falling' into a steady beat, like a dance ('ca-DANCE').",
+          "synonyms": [
+            "rhythm",
+            "beat",
+            "lilt"
+          ],
+          "antonyms": [
+            "monotone",
+            "arrhythmia"
+          ]
+        },
+        {
+          "id": "sat-resonance",
+          "word": "resonance",
+          "partOfSpeech": "noun",
+          "definition": "A rich, lingering sound, or a lasting emotional effect on someone.",
+          "example": "The old cello had a warmth and resonance that newer instruments could never match.",
+          "mnemonic": "Root 're-sonare' = 'to sound again' — the tone that keeps sounding after the note stops.",
+          "synonyms": [
+            "richness",
+            "depth",
+            "reverberation"
+          ],
+          "antonyms": [
+            "thinness",
+            "flatness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-resonate",
+          "word": "resonate",
+          "partOfSpeech": "verb",
+          "definition": "To produce a deep, ringing sound, or to strike a chord emotionally.",
+          "example": "Her speech about small hometowns seemed to resonate with everyone who had ever left one.",
+          "mnemonic": "Think 'RE-sound-ate' — to sound out again, so it echoes inside you.",
+          "synonyms": [
+            "reverberate",
+            "echo",
+            "connect"
+          ],
+          "antonyms": [
+            "dampen",
+            "fall flat"
+          ]
+        },
+        {
+          "id": "sat-vibrant",
+          "word": "vibrant",
+          "partOfSpeech": "adjective",
+          "definition": "Full of energy, life, and bright color.",
+          "example": "The night market was vibrant with sizzling stalls, string lights, and crowds until dawn.",
+          "mnemonic": "Hear 'vibe' inside it — a place with a great, buzzing vibe is vibrant.",
+          "synonyms": [
+            "lively",
+            "dynamic",
+            "vivid"
+          ],
+          "antonyms": [
+            "dull",
+            "lifeless",
+            "drab"
+          ]
+        },
+        {
+          "id": "sat-luminous",
+          "word": "luminous",
+          "partOfSpeech": "adjective",
+          "definition": "Giving off or reflecting a soft, glowing light.",
+          "example": "The dial was luminous, so she could read the time long after the lamp went out.",
+          "mnemonic": "From Latin 'lumen,' light — same root as 'illuminate.'",
+          "synonyms": [
+            "glowing",
+            "radiant",
+            "shining"
+          ],
+          "antonyms": [
+            "dark",
+            "dim",
+            "dull"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-flamboyant",
+          "word": "flamboyant",
+          "partOfSpeech": "adjective",
+          "definition": "Strikingly bold, showy, and confident in style or manner.",
+          "example": "He arrived in a flamboyant purple suit and greeted strangers as though they were old friends.",
+          "mnemonic": "Hear 'flame' at the start — a flamboyant person burns bright and demands attention.",
+          "synonyms": [
+            "showy",
+            "extravagant",
+            "ostentatious"
+          ],
+          "antonyms": [
+            "understated",
+            "modest",
+            "plain"
+          ]
+        },
+        {
+          "id": "sat-garish",
+          "word": "garish",
+          "partOfSpeech": "adjective",
+          "definition": "Unpleasantly bright, loud, or gaudy in a tasteless way.",
+          "example": "The hotel lobby was garish, all gold mirrors and neon carpet that hurt your eyes.",
+          "mnemonic": "Sounds like 'gaudy' + 'harsh' — colors so harsh they make you wince.",
+          "synonyms": [
+            "gaudy",
+            "tacky",
+            "lurid"
+          ],
+          "antonyms": [
+            "tasteful",
+            "subdued",
+            "understated"
+          ]
+        },
+        {
+          "id": "sat-stark",
+          "word": "stark",
+          "partOfSpeech": "adjective",
+          "definition": "Severe and bare, with nothing softened or decorated.",
+          "example": "After the busy city, the stark desert felt almost silent, just sand and empty sky.",
+          "mnemonic": "Picture a lone tree on a bare hill in winter — 'stark' and 'bark' with nothing left.",
+          "synonyms": [
+            "bare",
+            "severe",
+            "bleak"
+          ],
+          "antonyms": [
+            "ornate",
+            "lush",
+            "elaborate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-restraint",
+          "word": "restraint",
+          "partOfSpeech": "noun",
+          "definition": "The act of holding back one's impulses or keeping something under control.",
+          "example": "It took real restraint not to reply to the insult, but she simply smiled and walked away.",
+          "mnemonic": "See 'restrain' inside it — putting a leash on what you want to do.",
+          "synonyms": [
+            "self-control",
+            "moderation",
+            "reserve"
+          ],
+          "antonyms": [
+            "excess",
+            "indulgence",
+            "abandon"
+          ]
+        },
+        {
+          "id": "sat-elegant",
+          "word": "elegant",
+          "partOfSpeech": "adjective",
+          "definition": "Pleasingly graceful and stylish in a refined, effortless way.",
+          "example": "Her solution to the puzzle was so elegant that the whole class fell quiet in admiration.",
+          "mnemonic": "Hear 'elegant' ≈ 'elephant'? No — picture an 'elegant' gazelle instead, all clean, simple lines.",
+          "synonyms": [
+            "refined",
+            "tasteful",
+            "polished"
+          ],
+          "antonyms": [
+            "clumsy",
+            "crude",
+            "gaudy"
+          ]
+        },
+        {
+          "id": "sat-graceful",
+          "word": "graceful",
+          "partOfSpeech": "adjective",
+          "definition": "Moving or shaped with smooth, elegant beauty that seems effortless and controlled.",
+          "example": "The dancer's graceful leap seemed to hang in the air before she landed without a sound.",
+          "mnemonic": "'Grace' + 'ful' — full of grace, like a swan gliding across a lake.",
+          "synonyms": [
+            "elegant",
+            "fluid",
+            "poised"
+          ],
+          "antonyms": [
+            "clumsy",
+            "awkward",
+            "ungainly"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-sublime",
+          "word": "sublime",
+          "partOfSpeech": "adjective",
+          "definition": "Reaching such heights of beauty or grandeur that it inspires awe.",
+          "example": "Standing at the canyon's rim at dawn, she felt a sublime sense of wonder.",
+          "mnemonic": "Break it as 'sub + lime': picture rising so high you climb above the clouds toward the divine — like vapor that sublimates upward.",
+          "synonyms": [
+            "majestic",
+            "awe-inspiring",
+            "transcendent"
+          ],
+          "antonyms": [
+            "mediocre",
+            "ordinary",
+            "lowly"
+          ]
+        },
+        {
+          "id": "sat-exquisite",
+          "word": "exquisite",
+          "partOfSpeech": "adjective",
+          "definition": "Beautifully and delicately made, with flawless attention to fine detail.",
+          "example": "The jeweler's exquisite necklace drew gasps from everyone at the gala.",
+          "mnemonic": "Sounds like 'ex-QUIZ-it' — imagine acing a quiz with a perfect, flawless score.",
+          "synonyms": [
+            "delicate",
+            "refined",
+            "flawless"
+          ],
+          "antonyms": [
+            "crude",
+            "coarse",
+            "ugly"
+          ]
+        },
+        {
+          "id": "sat-masterful",
+          "word": "masterful",
+          "partOfSpeech": "adjective",
+          "definition": "Showing outstanding skill and confident command in doing something.",
+          "example": "Her masterful handling of the tense negotiation left both sides satisfied.",
+          "mnemonic": "'Master + ful' — literally full of a master craftsman's skill.",
+          "synonyms": [
+            "expert",
+            "skillful",
+            "accomplished"
+          ],
+          "antonyms": [
+            "clumsy",
+            "inept",
+            "amateurish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-derivative",
+          "word": "derivative",
+          "partOfSpeech": "adjective",
+          "definition": "Copied or borrowed from others rather than being fresh or original.",
+          "example": "Critics dismissed the film as derivative, just a pale echo of earlier hits.",
+          "mnemonic": "Think 'derive' — something derived from another source, never standing on its own.",
+          "synonyms": [
+            "unoriginal",
+            "imitative",
+            "copied"
+          ],
+          "antonyms": [
+            "original",
+            "inventive",
+            "novel"
+          ]
+        },
+        {
+          "id": "sat-trite",
+          "word": "trite",
+          "partOfSpeech": "adjective",
+          "definition": "Overused to the point of having lost meaning or interest.",
+          "example": "His apology felt trite, the same tired line he offered every single time.",
+          "mnemonic": "'Trite' rhymes with 'tired' — tired, worn-out phrases you've heard too often.",
+          "synonyms": [
+            "clichéd",
+            "stale",
+            "worn-out"
+          ],
+          "antonyms": [
+            "fresh",
+            "original",
+            "novel"
+          ]
+        },
+        {
+          "id": "sat-banal",
+          "word": "banal",
+          "partOfSpeech": "adjective",
+          "definition": "So ordinary and unoriginal that it becomes boring.",
+          "example": "The dinner conversation stayed banal, drifting between weather and traffic.",
+          "mnemonic": "Sounds like 'be-NULL' — content that amounts to nothing, empty and dull.",
+          "synonyms": [
+            "dull",
+            "unoriginal",
+            "humdrum"
+          ],
+          "antonyms": [
+            "original",
+            "fresh",
+            "striking"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-hackneyed",
+          "word": "hackneyed",
+          "partOfSpeech": "adjective",
+          "definition": "Made stale through constant repetition, no longer fresh or striking.",
+          "example": "The speech leaned on hackneyed slogans everyone had heard a thousand times.",
+          "mnemonic": "A 'hackney' was an old London carriage horse hired out endlessly until worn down — a hackneyed phrase is worn thin the same way.",
+          "synonyms": [
+            "clichéd",
+            "stale",
+            "overused"
+          ],
+          "antonyms": [
+            "fresh",
+            "novel",
+            "original"
+          ]
+        },
+        {
+          "id": "sat-insipid",
+          "word": "insipid",
+          "partOfSpeech": "adjective",
+          "definition": "Dull and flavorless, without any liveliness or taste.",
+          "example": "The soup was insipid, so I reached for the salt and pepper.",
+          "mnemonic": "'In-SIP-id' — take a sip and taste absolutely nothing.",
+          "synonyms": [
+            "bland",
+            "flavorless",
+            "dull"
+          ],
+          "antonyms": [
+            "flavorful",
+            "vivid",
+            "zesty"
+          ]
+        },
+        {
+          "id": "sat-prosaic",
+          "word": "prosaic",
+          "partOfSpeech": "adjective",
+          "definition": "Plain and ordinary, lacking imagination or poetic quality.",
+          "example": "She dreamed of adventure but faced the prosaic routine of filing reports.",
+          "mnemonic": "Think 'prose' versus poetry — prosaic is prose-like: flat, everyday, unpoetic.",
+          "synonyms": [
+            "mundane",
+            "ordinary",
+            "humdrum"
+          ],
+          "antonyms": [
+            "poetic",
+            "imaginative",
+            "extraordinary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-formulaic",
+          "word": "formulaic",
+          "partOfSpeech": "adjective",
+          "definition": "Made to a fixed, predictable pattern with no fresh thought.",
+          "example": "Every episode was formulaic: crime, chase, arrest, roll the credits.",
+          "mnemonic": "Rooted in 'formula' — built by plugging into a set equation, same every time.",
+          "synonyms": [
+            "predictable",
+            "conventional",
+            "stereotyped"
+          ],
+          "antonyms": [
+            "original",
+            "inventive",
+            "unpredictable"
+          ]
+        },
+        {
+          "id": "sat-stilted",
+          "word": "stilted",
+          "partOfSpeech": "adjective",
+          "definition": "Stiff, awkward, and unnatural in manner or expression.",
+          "example": "Their first date was full of stilted small talk and long, uneasy silences.",
+          "mnemonic": "Picture walking on stilts — rigid and awkward; stilted speech moves the same clumsy way.",
+          "synonyms": [
+            "stiff",
+            "awkward",
+            "unnatural"
+          ],
+          "antonyms": [
+            "natural",
+            "fluent",
+            "relaxed"
+          ]
+        },
+        {
+          "id": "sat-gratuitous",
+          "word": "gratuitous",
+          "partOfSpeech": "adjective",
+          "definition": "Done without good reason and beyond what is needed.",
+          "example": "The movie's gratuitous violence added nothing to the story.",
+          "mnemonic": "From 'gratuit' (French for 'free') — thrown in for free, with no real reason behind it.",
+          "synonyms": [
+            "unwarranted",
+            "unnecessary",
+            "needless"
+          ],
+          "antonyms": [
+            "warranted",
+            "justified",
+            "necessary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-plaintive",
+          "word": "plaintive",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing sorrow in a sad, mournful way.",
+          "example": "The lost puppy let out a plaintive whine at the front door.",
+          "mnemonic": "Linked to 'plaint' and 'plaintiff' — one who complains or laments; a plaintive cry is a lament.",
+          "synonyms": [
+            "mournful",
+            "sorrowful",
+            "wistful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "joyful",
+            "upbeat"
+          ]
+        },
+        {
+          "id": "sat-belabor",
+          "word": "belabor",
+          "partOfSpeech": "verb",
+          "definition": "To keep explaining or discussing something far longer than needed.",
+          "example": "I understand already — please don't belabor the point any further.",
+          "mnemonic": "'Be + labor' — to labor over something endlessly, working it to death.",
+          "synonyms": [
+            "dwell on",
+            "overemphasize",
+            "harp on"
+          ],
+          "antonyms": [
+            "summarize",
+            "skim",
+            "gloss over"
+          ]
+        },
+        {
+          "id": "sat-discursive",
+          "word": "discursive",
+          "partOfSpeech": "adjective",
+          "definition": "Rambling from one topic to another without staying focused.",
+          "example": "His discursive lecture wandered from Rome to jazz to his childhood dog.",
+          "mnemonic": "Hear 'detour' in it — a discourse that curves away and detours from the point.",
+          "synonyms": [
+            "rambling",
+            "digressive",
+            "meandering"
+          ],
+          "antonyms": [
+            "focused",
+            "concise",
+            "succinct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-render",
+          "word": "render",
+          "partOfSpeech": "verb",
+          "definition": "To depict or portray something artistically, or to cause it to become a certain state.",
+          "example": "The illustrator chose to render the storm as swirling ribbons of gray.",
+          "mnemonic": "From French 'rendre,' to give back — you give back an idea as a finished image.",
+          "synonyms": [
+            "depict",
+            "portray",
+            "represent"
+          ],
+          "antonyms": [
+            "conceal",
+            "distort"
+          ]
+        },
+        {
+          "id": "sat-stylize",
+          "word": "stylize",
+          "partOfSpeech": "verb",
+          "definition": "To depict something in a simplified, decorative way rather than realistically.",
+          "example": "The designer stylized the oak tree into a few bold, clean curves.",
+          "mnemonic": "Contains 'style' — to stylize is to lay heavy style over plain realism.",
+          "synonyms": [
+            "simplify",
+            "conventionalize"
+          ],
+          "antonyms": [
+            "naturalize",
+            "realize"
+          ]
+        },
+        {
+          "id": "sat-expressive",
+          "word": "expressive",
+          "partOfSpeech": "adjective",
+          "definition": "Clearly showing or communicating feelings and thoughts.",
+          "example": "Her expressive eyes revealed her sadness before she said a single word.",
+          "mnemonic": "'Express' like an express train — feelings rush straight out, no stops.",
+          "synonyms": [
+            "eloquent",
+            "vivid",
+            "communicative"
+          ],
+          "antonyms": [
+            "blank",
+            "impassive",
+            "wooden"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-visceral",
+          "word": "visceral",
+          "partOfSpeech": "adjective",
+          "definition": "Based on deep instinct or gut emotion rather than reasoning.",
+          "example": "The horror film provoked a visceral reaction — his stomach clenched instantly.",
+          "mnemonic": "'Viscera' means the guts — a visceral feeling hits you in the gut.",
+          "synonyms": [
+            "instinctive",
+            "gut",
+            "intuitive"
+          ],
+          "antonyms": [
+            "intellectual",
+            "rational",
+            "cerebral"
+          ]
+        },
+        {
+          "id": "sat-haunting",
+          "word": "haunting",
+          "partOfSpeech": "adjective",
+          "definition": "Beautiful or sad in a way that lingers in your memory.",
+          "example": "The haunting melody stayed with me for days after the concert.",
+          "mnemonic": "Like a ghost that keeps returning to a house, it keeps returning to your mind.",
+          "synonyms": [
+            "evocative",
+            "poignant",
+            "unforgettable"
+          ],
+          "antonyms": [
+            "forgettable",
+            "unremarkable"
+          ]
+        },
+        {
+          "id": "sat-whimsical",
+          "word": "whimsical",
+          "partOfSpeech": "adjective",
+          "definition": "Playfully odd, fanciful, or unpredictable in a charming way.",
+          "example": "The whimsical treehouse had crooked windows and a slide shaped like a dragon.",
+          "mnemonic": "A 'whim' is a sudden playful notion — whimsical follows every whim.",
+          "synonyms": [
+            "playful",
+            "fanciful",
+            "quirky"
+          ],
+          "antonyms": [
+            "serious",
+            "conventional",
+            "practical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-picturesque",
+          "word": "picturesque",
+          "partOfSpeech": "adjective",
+          "definition": "Visually charming and quaint, like a scene worthy of a painting.",
+          "example": "We stopped in a picturesque fishing village with pastel cottages along the harbor.",
+          "mnemonic": "'Picture' + -esque — pretty enough to belong on a postcard.",
+          "synonyms": [
+            "scenic",
+            "charming",
+            "quaint"
+          ],
+          "antonyms": [
+            "drab",
+            "unsightly",
+            "dreary"
+          ]
+        },
+        {
+          "id": "sat-captivate",
+          "word": "captivate",
+          "partOfSpeech": "verb",
+          "definition": "To attract and hold someone's complete attention or interest.",
+          "example": "The street magician captivated the crowd until no one noticed the rain.",
+          "mnemonic": "Contains 'captive' — to captivate is to take someone's attention captive.",
+          "synonyms": [
+            "enchant",
+            "charm",
+            "enthrall"
+          ],
+          "antonyms": [
+            "bore",
+            "repel",
+            "alienate"
+          ]
+        },
+        {
+          "id": "sat-mesmerize",
+          "word": "mesmerize",
+          "partOfSpeech": "verb",
+          "definition": "To hold someone's attention so completely they seem hypnotized.",
+          "example": "The spinning glassblower's flame mesmerized the children at the workshop.",
+          "mnemonic": "Named for Franz Mesmer, the 18th-century hypnotist — to mesmerize is to hypnotize.",
+          "synonyms": [
+            "hypnotize",
+            "spellbind",
+            "transfix"
+          ],
+          "antonyms": [
+            "bore",
+            "repel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-introspective",
+          "word": "introspective",
+          "partOfSpeech": "adjective",
+          "definition": "Given to examining one's own thoughts and feelings.",
+          "example": "After the long trip alone, she grew quiet and introspective.",
+          "mnemonic": "'Intro' (inward) + 'spect' (look) — looking inward at yourself.",
+          "synonyms": [
+            "reflective",
+            "contemplative",
+            "inward-looking"
+          ],
+          "antonyms": [
+            "outgoing",
+            "extroverted",
+            "thoughtless"
+          ]
+        },
+        {
+          "id": "sat-mannered",
+          "word": "mannered",
+          "partOfSpeech": "adjective",
+          "definition": "Artificial and stiff in style rather than natural.",
+          "example": "His mannered acting felt stagey, every gesture rehearsed and overdone.",
+          "mnemonic": "Too many 'manners' — behavior so polished it comes off fake.",
+          "synonyms": [
+            "affected",
+            "artificial",
+            "stilted"
+          ],
+          "antonyms": [
+            "natural",
+            "spontaneous",
+            "unaffected"
+          ]
+        },
+        {
+          "id": "sat-grandiose",
+          "word": "grandiose",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively ambitious or impressive, often to an absurd degree.",
+          "example": "His grandiose plan to build a castle collapsed once the bills arrived.",
+          "mnemonic": "'Grand' blown up with -iose until it topples into ridiculous.",
+          "synonyms": [
+            "pompous",
+            "extravagant",
+            "pretentious"
+          ],
+          "antonyms": [
+            "modest",
+            "humble",
+            "understated"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-oblique",
+          "word": "oblique",
+          "partOfSpeech": "adjective",
+          "definition": "Not straightforward; indirect or slanting rather than direct.",
+          "example": "She never accused him directly, only made oblique hints about the missing money.",
+          "mnemonic": "An oblique line slants — an oblique remark slants away from the point.",
+          "synonyms": [
+            "indirect",
+            "evasive",
+            "slanting"
+          ],
+          "antonyms": [
+            "direct",
+            "straightforward",
+            "explicit"
+          ]
+        },
+        {
+          "id": "sat-allegory",
+          "word": "allegory",
+          "partOfSpeech": "noun",
+          "definition": "A story whose characters and events symbolize deeper moral or political meanings.",
+          "example": "Orwell's 'Animal Farm' is an allegory for the Russian Revolution.",
+          "mnemonic": "Greek 'allos' (other) + 'agoreuein' (to speak) — it speaks of something other than itself.",
+          "synonyms": [
+            "parable",
+            "fable",
+            "symbolism"
+          ],
+          "antonyms": [
+            "literal account"
+          ]
+        },
+        {
+          "id": "sat-motif",
+          "word": "motif",
+          "partOfSpeech": "noun",
+          "definition": "A recurring theme, image, or element in art or music.",
+          "example": "A wave motif repeats across the fabric, the tiles, and the wallpaper.",
+          "mnemonic": "Sounds like 'motive' — a recurring idea that keeps driving the work.",
+          "synonyms": [
+            "theme",
+            "leitmotif",
+            "pattern"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-trope",
+          "word": "trope",
+          "partOfSpeech": "noun",
+          "definition": "A recurring theme, motif, or device used so often it becomes a familiar convention.",
+          "example": "The wise old mentor who dies halfway through is a trope every fantasy reader recognizes.",
+          "mnemonic": "Sounds like 'rope' — writers keep hauling out the same tired rope, scene after scene.",
+          "synonyms": [
+            "cliché",
+            "convention",
+            "motif"
+          ],
+          "antonyms": [
+            "originality",
+            "innovation"
+          ]
+        },
+        {
+          "id": "sat-genre",
+          "word": "genre",
+          "partOfSpeech": "noun",
+          "definition": "A category of art, music, or writing marked by a shared style or subject.",
+          "example": "She reads across every genre, from hardboiled crime to soft-focus romance.",
+          "mnemonic": "Shares a root with 'genus' — both come from Latin for 'kind' or 'type'.",
+          "synonyms": [
+            "category",
+            "class",
+            "style"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-narrative",
+          "word": "narrative",
+          "partOfSpeech": "noun",
+          "definition": "A spoken or written account of connected events, told as a story.",
+          "example": "The documentary weaves scattered interviews into one gripping narrative about the flood.",
+          "mnemonic": "Comes straight from 'narrate' — it's the thing being told out loud.",
+          "synonyms": [
+            "story",
+            "account",
+            "tale"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-connoisseur",
+          "word": "connoisseur",
+          "partOfSpeech": "noun",
+          "definition": "An expert with refined judgment and deep knowledge in matters of taste.",
+          "example": "As a wine connoisseur, he named the vintage and the hillside from a single sip.",
+          "mnemonic": "Hides French 'connaître' (to know) — one who truly knows the good stuff.",
+          "synonyms": [
+            "expert",
+            "authority",
+            "aficionado"
+          ],
+          "antonyms": [
+            "amateur",
+            "novice"
+          ]
+        },
+        {
+          "id": "sat-aesthete",
+          "word": "aesthete",
+          "partOfSpeech": "noun",
+          "definition": "A person deeply devoted to and appreciative of beauty and fine art.",
+          "example": "The aesthete rearranged his flat three times until every shadow fell just right.",
+          "mnemonic": "Shares its root with 'aesthetic' — someone finely tuned to beauty.",
+          "synonyms": [
+            "connoisseur",
+            "art lover"
+          ],
+          "antonyms": [
+            "philistine"
+          ]
+        },
+        {
+          "id": "sat-idiosyncratic",
+          "word": "idiosyncratic",
+          "partOfSpeech": "adjective",
+          "definition": "Peculiar to one person; showing habits or traits unlike anyone else's.",
+          "example": "Her idiosyncratic handwriting, all loops and sudden gaps, was impossible to mistake for another's.",
+          "mnemonic": "'Idio-' means one's own (as in 'idiom') — your own personal mix of quirks.",
+          "synonyms": [
+            "quirky",
+            "peculiar",
+            "distinctive"
+          ],
+          "antonyms": [
+            "conventional",
+            "ordinary"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T21:10:17.230Z"
+}

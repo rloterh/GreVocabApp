@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { AnimatePresence, motion, useMotionValue, useTransform } from "framer-motion";
+import { AnimatePresence, motion, useMotionValue } from "framer-motion";
 import {
   ArrowLeft,
   ArrowRight,
@@ -22,6 +22,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/EmptyState";
+import { EdgeArrow } from "@/components/EdgeArrow";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -31,6 +32,7 @@ import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
 import { bySchedule, isDue } from "@/lib/sm2";
 import { playSound } from "@/lib/sound";
+import { keyOf } from "@/lib/track";
 import type {
   StudyDeck,
   StudyEvent,
@@ -132,8 +134,8 @@ export function Flashcards() {
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
-          monthKey: m.month,
-          monthName: m.displayName,
+          monthKey: keyOf(m),
+          monthName: m.title,
           day: d.day,
         })),
       ),
@@ -145,8 +147,8 @@ export function Flashcards() {
     if (!activeMonth) return [];
     return allWordsInMonth(activeMonth).map((w) => ({
       ...w,
-      monthKey: activeMonth.month,
-      monthName: activeMonth.displayName,
+      monthKey: keyOf(activeMonth),
+      monthName: activeMonth.title,
       day: activeMonth.days.find((d) => d.words.some((x) => x.id === w.id))?.day ?? 1,
     }));
   }, [activeMonth]);
@@ -157,8 +159,8 @@ export function Flashcards() {
     if (!day) return [];
     return day.words.map((w) => ({
       ...w,
-      monthKey: activeMonth.month,
-      monthName: activeMonth.displayName,
+      monthKey: keyOf(activeMonth),
+      monthName: activeMonth.title,
       day: selectedDay,
     }));
   }, [activeMonth, selectedDay]);
@@ -347,7 +349,7 @@ export function Flashcards() {
 
   if (allEnriched.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full max-w-3xl mx-auto py-12">
         <EmptyState
           icon={Layers}
           title="No cards to study yet"
@@ -359,7 +361,7 @@ export function Flashcards() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-8">
+    <div className="w-full max-w-4xl mx-auto py-8">
       <AnimatePresence mode="wait">
         {screen === "setup" && (
           <SetupScreen
@@ -379,7 +381,7 @@ export function Flashcards() {
               unmastered: unmasteredPool.length,
               all: allEnriched.length,
             }}
-            activeMonthName={activeMonth?.displayName ?? "—"}
+            activeMonthName={activeMonth?.title ?? "—"}
             selectedDay={selectedDay}
             onStart={startSession}
           />
@@ -693,17 +695,43 @@ function PlayScreen({
   onPrev: () => void;
   onNext: () => void;
 }) {
-  // Drag / swipe support
+  // Drag moves between cards. It used to rate them — left for "again", right
+  // for "good" — and that is the single most common way a flashcard app
+  // becomes untrustworthy: a 121-pixel drag wrote a permanent judgement with
+  // no way to see what you had told it. Rating a card and moving past it are
+  // different decisions and they keep different controls.
+  // See docs/FLASHCARD-INTERACTION.md.
   const x = useMotionValue(0);
-  const rotate = useTransform(x, [-200, 0, 200], [-8, 0, 8]);
-  const opacity = useTransform(x, [-200, -50, 0, 50, 200], [0.4, 0.9, 1, 0.9, 0.4]);
-  const bgLeft = useTransform(x, [-200, -30], [0.35, 0]);
-  const bgRight = useTransform(x, [30, 200], [0, 0.35]);
+  const cardRef = useRef<HTMLDivElement>(null);
+  // Set while a drag is in flight so the flip handler can ignore the click
+  // that follows one. A tap with a shaky thumb still flips.
+  const dragging = useRef(false);
 
-  function onDragEnd(_e: unknown, info: { offset: { x: number } }) {
-    if (!flipped) return;
-    if (info.offset.x < -120) onRate("again");
-    else if (info.offset.x > 120) onRate("good");
+  const canPrev = idx > 0;
+  const canNext = idx < total - 1;
+
+  /** Revealed on hover, on focus, or on touch — never at rest. */
+  const [hovering, setHovering] = useState(false);
+  const [focusWithin, setFocusWithin] = useState(false);
+  const [touched, setTouched] = useState(false);
+  // A new card starts hidden again, or the arrows would be permanent after the
+  // first tap — which is the carousel-widget look the design rejects.
+  useEffect(() => setTouched(false), [card.id]);
+  const showArrows = hovering || focusWithin || touched;
+
+  function onDragEnd(
+    _e: unknown,
+    info: { offset: { x: number }; velocity: { x: number } },
+  ) {
+    dragging.current = false;
+    // A share of the card's width, not a pixel count: 120px is a third of a
+    // 360px phone and a tenth of a 1194px iPad.
+    const threshold = (cardRef.current?.offsetWidth ?? 360) * 0.25;
+    const flick = Math.abs(info.velocity.x) > 500;
+    const left = info.offset.x < -threshold || (flick && info.velocity.x < -500);
+    const right = info.offset.x > threshold || (flick && info.velocity.x > 500);
+    if (left && canNext) onNext();
+    else if (right && canPrev) onPrev();
   }
 
   const mins = Math.floor(elapsedMs / 60000);
@@ -770,8 +798,48 @@ function PlayScreen({
 
       <Progress value={((idx + (flipped ? 0.5 : 0)) / total) * 100} className="mb-8" />
 
-      {/* Card area with pulse ring and swipe backdrops */}
-      <div className="relative" style={{ perspective: "1200px" }}>
+      {/*
+        A swipe or an arrow must be perceivable without sight. The visible
+        "Card 3 of 20" in the top bar is not announced on change; this is.
+      */}
+      <p className="sr-only" aria-live="polite" aria-atomic="true">
+        Card {idx + 1} of {total}
+      </p>
+
+      {/*
+        Card area. The hover region is the card *and* its arrows: if it were
+        only the card, moving the mouse toward an arrow would make it vanish
+        before it could be clicked.
+      */}
+      <div
+        className="relative"
+        style={{ perspective: "1200px" }}
+        onPointerEnter={(e) => e.pointerType !== "touch" && setHovering(true)}
+        onPointerLeave={(e) => e.pointerType !== "touch" && setHovering(false)}
+        onFocusCapture={() => setFocusWithin(true)}
+        onBlurCapture={(e) => {
+          // Focus moving *within* the card is not focus leaving it.
+          if (!e.currentTarget.contains(e.relatedTarget as Node | null)) {
+            setFocusWithin(false);
+          }
+        }}
+      >
+        <EdgeArrow
+          side="left"
+          label="Previous card"
+          shown={showArrows}
+          disabled={!canPrev}
+          reduceMotion={reduceMotion}
+          onClick={onPrev}
+        />
+        <EdgeArrow
+          side="right"
+          label="Next card"
+          shown={showArrows}
+          disabled={!canNext}
+          reduceMotion={reduceMotion}
+          onClick={onNext}
+        />
         <motion.div
           className="absolute inset-0 rounded-2xl pointer-events-none"
           animate={{
@@ -781,26 +849,21 @@ function PlayScreen({
           }}
           transition={{ duration: 0.35 }}
         />
-        {/* Swipe hint backgrounds — only visible while dragging */}
         <motion.div
-          className="absolute inset-0 rounded-2xl bg-destructive/50 flex items-center justify-start pl-12 pointer-events-none"
-          style={{ opacity: bgLeft }}
-        >
-          <X className="w-8 h-8 text-white" />
-        </motion.div>
-        <motion.div
-          className="absolute inset-0 rounded-2xl bg-success/50 flex items-center justify-end pr-12 pointer-events-none"
-          style={{ opacity: bgRight }}
-        >
-          <Check className="w-8 h-8 text-white" />
-        </motion.div>
-
-        <motion.div
-          drag={flipped ? "x" : false}
+          drag="x"
+          // Locked to an axis so a vertical scroll on a phone does not drag the
+          // card sideways.
+          dragDirectionLock
           dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.35}
+          // Resistance rather than a wall: the card follows the finger, and a
+          // gesture that does nothing visible until it completes feels broken
+          // while it is happening.
+          dragElastic={0.25}
+          onDragStart={() => {
+            dragging.current = true;
+          }}
           onDragEnd={onDragEnd}
-          style={{ x, rotate, opacity }}
+          style={{ x }}
           className="relative"
         >
           <motion.div
@@ -815,8 +878,12 @@ function PlayScreen({
               transformStyle: "preserve-3d",
               transformOrigin: "center",
             }}
+            ref={cardRef}
             className="relative min-h-[420px] cursor-pointer select-none"
+            onPointerDown={(e) => e.pointerType === "touch" && setTouched(true)}
             onClick={() => {
+              // The click that ends a drag is not a tap.
+              if (dragging.current) return;
               setFlipped((f) => !f);
               playSound("flip");
             }}
@@ -978,9 +1045,7 @@ function PlayScreen({
           <ArrowLeft className="w-3.5 h-3.5" />
           Prev
         </button>
-        <span>
-          Swipe {flipped ? "→ good, ← again" : "flip first"}
-        </span>
+        <span aria-hidden>Swipe or use ← →</span>
         <button
           type="button"
           onClick={onNext}

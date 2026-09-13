@@ -1,0 +1,1748 @@
+{
+  "track": "sat",
+  "ordinal": 7,
+  "title": "Problems and solutions",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-remedy",
+          "word": "remedy",
+          "partOfSpeech": "noun",
+          "definition": "A treatment or solution that cures an illness or corrects a problem.",
+          "example": "Grandma swore that honey and lemon was the best remedy for a sore throat.",
+          "mnemonic": "Remedy contains 'med' as in medicine — the medicine you take to get better.",
+          "synonyms": [
+            "cure",
+            "treatment",
+            "solution"
+          ],
+          "antonyms": [
+            "ailment",
+            "poison",
+            "disease"
+          ]
+        },
+        {
+          "id": "sat-resolve",
+          "word": "resolve",
+          "partOfSpeech": "verb",
+          "definition": "To settle a dispute or find a solution to a problem.",
+          "example": "After hours of heated debate, the two sides finally resolved their argument over the budget.",
+          "mnemonic": "RE + SOLVE — you solve the problem again and again until it is settled for good.",
+          "synonyms": [
+            "settle",
+            "solve",
+            "determine"
+          ],
+          "antonyms": [
+            "complicate",
+            "worsen",
+            "aggravate"
+          ]
+        },
+        {
+          "id": "sat-reconcile",
+          "word": "reconcile",
+          "partOfSpeech": "verb",
+          "definition": "To restore friendly relations between people or make conflicting ideas agree.",
+          "example": "After years of silence, the estranged brothers finally reconciled at their mother's funeral.",
+          "mnemonic": "RE + CONCILE (think 'council') — bringing people back to the same council table.",
+          "synonyms": [
+            "reunite",
+            "harmonize",
+            "settle"
+          ],
+          "antonyms": [
+            "estrange",
+            "alienate",
+            "divide"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-redress",
+          "word": "redress",
+          "partOfSpeech": "noun",
+          "definition": "Correction of an unfair situation, or compensation given for a wrong.",
+          "example": "The factory workers marched to demand redress for years of unpaid overtime.",
+          "mnemonic": "RE-DRESS — you 'dress' a wound or a wrong a second time to set it right.",
+          "synonyms": [
+            "compensation",
+            "amends",
+            "remedy"
+          ],
+          "antonyms": [
+            "injury",
+            "wrong",
+            "harm"
+          ]
+        },
+        {
+          "id": "sat-rectify",
+          "word": "rectify",
+          "partOfSpeech": "verb",
+          "definition": "To correct something wrong or fix a mistake.",
+          "example": "The bank promised to rectify the billing error and refund every extra charge.",
+          "mnemonic": "RECT- means 'right' (Latin rectus, as in 'correct') + -IFY — to make right.",
+          "synonyms": [
+            "correct",
+            "fix",
+            "amend"
+          ],
+          "antonyms": [
+            "break",
+            "worsen",
+            "damage"
+          ]
+        },
+        {
+          "id": "sat-remediate",
+          "word": "remediate",
+          "partOfSpeech": "verb",
+          "definition": "To fix or reverse damage, especially to the environment or a deficiency.",
+          "example": "The company spent millions to remediate the soil contaminated by its old factory.",
+          "mnemonic": "RE-MEDI-ATE — apply 'medi' (medicine) to a sick site until it heals.",
+          "synonyms": [
+            "repair",
+            "restore",
+            "clean up"
+          ],
+          "antonyms": [
+            "damage",
+            "pollute",
+            "worsen"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-salvage",
+          "word": "salvage",
+          "partOfSpeech": "verb",
+          "definition": "To save something from destruction, loss, or a disaster.",
+          "example": "Divers managed to salvage gold coins from the Spanish galleon that sank centuries ago.",
+          "mnemonic": "Salvage shares its root with 'salvation' — both are about saving from ruin.",
+          "synonyms": [
+            "rescue",
+            "recover",
+            "save"
+          ],
+          "antonyms": [
+            "abandon",
+            "lose",
+            "waste"
+          ]
+        },
+        {
+          "id": "sat-mend",
+          "word": "mend",
+          "partOfSpeech": "verb",
+          "definition": "To repair something broken or torn, or to heal over time.",
+          "example": "She sat by the window mending the torn knee of her son's favorite jeans.",
+          "mnemonic": "Mend is 'amend' with the 'a' knocked off — quietly putting things right.",
+          "synonyms": [
+            "repair",
+            "fix",
+            "patch"
+          ],
+          "antonyms": [
+            "break",
+            "tear",
+            "damage"
+          ]
+        },
+        {
+          "id": "sat-reparation",
+          "word": "reparation",
+          "partOfSpeech": "noun",
+          "definition": "Payment or action made to compensate for harm or a wrong done.",
+          "example": "The peace treaty required the defeated nation to pay reparations to its neighbors.",
+          "mnemonic": "RE + PARATION (hear 'repair') — repairing the damage, often with money.",
+          "synonyms": [
+            "compensation",
+            "amends",
+            "restitution"
+          ],
+          "antonyms": [
+            "injury",
+            "damage",
+            "harm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-palliative",
+          "word": "palliative",
+          "partOfSpeech": "adjective",
+          "definition": "Easing pain or symptoms without curing the underlying cause.",
+          "example": "The new drug was merely palliative, dulling his pain while the disease kept spreading.",
+          "mnemonic": "A 'pall' is a cloak — palliative care throws a cloak over the pain instead of removing it.",
+          "synonyms": [
+            "soothing",
+            "mitigating",
+            "calming"
+          ],
+          "antonyms": [
+            "curative",
+            "aggravating",
+            "worsening"
+          ]
+        },
+        {
+          "id": "sat-panacea",
+          "word": "panacea",
+          "partOfSpeech": "noun",
+          "definition": "A single solution supposedly able to cure all ills or fix every problem.",
+          "example": "Politicians pitched the tax cut as a panacea for every economic woe the country faced.",
+          "mnemonic": "PAN- (Greek for 'all') + -ACEA — from Panacea, the Greek goddess who healed all.",
+          "synonyms": [
+            "cure-all",
+            "elixir",
+            "remedy"
+          ],
+          "antonyms": [
+            "poison",
+            "bane"
+          ]
+        },
+        {
+          "id": "sat-quandary",
+          "word": "quandary",
+          "partOfSpeech": "noun",
+          "definition": "A state of confusion about what to do in a difficult situation.",
+          "example": "Offered two dream jobs on the very same afternoon, she found herself in a real quandary.",
+          "mnemonic": "Quandary sounds like 'wonder-y' — you keep wondering which way to turn.",
+          "synonyms": [
+            "dilemma",
+            "predicament",
+            "puzzle"
+          ],
+          "antonyms": [
+            "certainty",
+            "solution",
+            "ease"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-dilemma",
+          "word": "dilemma",
+          "partOfSpeech": "noun",
+          "definition": "A hard choice between two options, often both undesirable.",
+          "example": "He faced the classic dilemma of telling a painful truth or offering a kind lie.",
+          "mnemonic": "DI- (Greek 'two') + -LEMMA ('proposition') — two propositions, and neither is good.",
+          "synonyms": [
+            "quandary",
+            "predicament",
+            "catch-22"
+          ],
+          "antonyms": [
+            "certainty",
+            "solution",
+            "ease"
+          ]
+        },
+        {
+          "id": "sat-predicament",
+          "word": "predicament",
+          "partOfSpeech": "noun",
+          "definition": "A difficult, unpleasant, or embarrassing situation that is hard to escape.",
+          "example": "Locked out in the pouring rain, she called a locksmith to get her out of the predicament.",
+          "mnemonic": "Predicament — 'predict-a-ment'; it's so tangled you can't predict a way out.",
+          "synonyms": [
+            "plight",
+            "quandary",
+            "jam"
+          ],
+          "antonyms": [
+            "solution",
+            "ease",
+            "comfort"
+          ]
+        },
+        {
+          "id": "sat-plight",
+          "word": "plight",
+          "partOfSpeech": "noun",
+          "definition": "A dangerous, sad, or difficult condition someone is stuck in.",
+          "example": "The documentary spotlighted the plight of refugees fleeing the war-torn border region.",
+          "mnemonic": "Plight rhymes with 'blight' — both name something that has gone badly wrong.",
+          "synonyms": [
+            "predicament",
+            "hardship",
+            "difficulty"
+          ],
+          "antonyms": [
+            "comfort",
+            "prosperity",
+            "ease"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-impasse",
+          "word": "impasse",
+          "partOfSpeech": "noun",
+          "definition": "A situation in which no progress can be made because opposing sides refuse to yield.",
+          "example": "After twelve hours of talks, the union and management hit an impasse and went home.",
+          "mnemonic": "Sounds like 'im-pass' — a road you simply cannot pass through.",
+          "synonyms": [
+            "deadlock",
+            "stalemate",
+            "standstill"
+          ],
+          "antonyms": [
+            "agreement",
+            "breakthrough",
+            "resolution"
+          ]
+        },
+        {
+          "id": "sat-deadlock",
+          "word": "deadlock",
+          "partOfSpeech": "noun",
+          "definition": "A complete standstill in which opposing parties cannot reach any agreement.",
+          "example": "The jury was in deadlock, split evenly, so the judge declared a mistrial.",
+          "mnemonic": "A lock that is dead — nothing turns, nothing opens, no way forward.",
+          "synonyms": [
+            "impasse",
+            "stalemate",
+            "gridlock"
+          ],
+          "antonyms": [
+            "agreement",
+            "resolution",
+            "progress"
+          ]
+        },
+        {
+          "id": "sat-stalemate",
+          "word": "stalemate",
+          "partOfSpeech": "noun",
+          "definition": "A position in which further action by either side seems impossible.",
+          "example": "The chess game ended in a stalemate, with neither king able to move safely.",
+          "mnemonic": "In chess your 'mate' (king) goes 'stale' — stuck with no legal move.",
+          "synonyms": [
+            "deadlock",
+            "impasse",
+            "standoff"
+          ],
+          "antonyms": [
+            "victory",
+            "resolution",
+            "breakthrough"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-conundrum",
+          "word": "conundrum",
+          "partOfSpeech": "noun",
+          "definition": "A confusing and difficult problem or question with no easy answer.",
+          "example": "How to fund the school without raising taxes was a conundrum the council debated for months.",
+          "mnemonic": "Break it into 'con-un-drum' — a drumbeat of confusion pounding in your head.",
+          "synonyms": [
+            "puzzle",
+            "riddle",
+            "dilemma"
+          ],
+          "antonyms": [
+            "solution",
+            "answer",
+            "certainty"
+          ]
+        },
+        {
+          "id": "sat-enigma",
+          "word": "enigma",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that is mysterious and very hard to understand.",
+          "example": "Even close friends found her an enigma, never sure what she truly felt.",
+          "mnemonic": "Think of the 'Enigma' code machine — nearly impossible to decode.",
+          "synonyms": [
+            "mystery",
+            "puzzle",
+            "riddle"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-obstacle",
+          "word": "obstacle",
+          "partOfSpeech": "noun",
+          "definition": "Something that blocks your way or prevents movement toward a goal.",
+          "example": "A fallen tree was the only obstacle between us and the summit.",
+          "mnemonic": "An 'obstacle' course is packed with walls and barriers to climb over.",
+          "synonyms": [
+            "barrier",
+            "hurdle",
+            "impediment"
+          ],
+          "antonyms": [
+            "aid",
+            "help",
+            "advantage"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-hurdle",
+          "word": "hurdle",
+          "partOfSpeech": "noun",
+          "definition": "A barrier or difficulty that must be overcome in order to succeed.",
+          "example": "Passing the bar exam was the final hurdle before she could practice law.",
+          "mnemonic": "Picture a runner leaping a hurdle on the track — a barrier to jump.",
+          "synonyms": [
+            "obstacle",
+            "barrier",
+            "hitch"
+          ],
+          "antonyms": [
+            "aid",
+            "advantage",
+            "boost"
+          ]
+        },
+        {
+          "id": "sat-adversity",
+          "word": "adversity",
+          "partOfSpeech": "noun",
+          "definition": "A state of serious or continued difficulty and misfortune.",
+          "example": "She showed remarkable courage in the face of adversity after losing her home.",
+          "mnemonic": "Everything turns 'adverse' — the whole world seems set against you.",
+          "synonyms": [
+            "hardship",
+            "misfortune",
+            "trouble"
+          ],
+          "antonyms": [
+            "prosperity",
+            "good fortune",
+            "ease"
+          ]
+        },
+        {
+          "id": "sat-hardship",
+          "word": "hardship",
+          "partOfSpeech": "noun",
+          "definition": "Suffering or difficulty caused by a lack of money, comfort, or safety.",
+          "example": "The pioneers endured great hardship crossing the frozen mountains with little food.",
+          "mnemonic": "A 'hard ship' to sail — a rough, punishing voyage through life.",
+          "synonyms": [
+            "adversity",
+            "suffering",
+            "privation"
+          ],
+          "antonyms": [
+            "comfort",
+            "ease",
+            "prosperity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-tribulation",
+          "word": "tribulation",
+          "partOfSpeech": "noun",
+          "definition": "A cause of great trouble, suffering, or lasting distress.",
+          "example": "After years of tribulation, the refugees finally found peace in a new country.",
+          "mnemonic": "Hear 'trial' inside tribulation — a trial that tries you painfully.",
+          "synonyms": [
+            "suffering",
+            "trial",
+            "ordeal"
+          ],
+          "antonyms": [
+            "comfort",
+            "joy",
+            "relief"
+          ]
+        },
+        {
+          "id": "sat-ordeal",
+          "word": "ordeal",
+          "partOfSpeech": "noun",
+          "definition": "A painful or very difficult experience that tests one's endurance.",
+          "example": "Being trapped in the elevator for six hours was an ordeal she never forgot.",
+          "mnemonic": "'Or-deal' — a raw deal you are forced to sit through.",
+          "synonyms": [
+            "trial",
+            "tribulation",
+            "hardship"
+          ],
+          "antonyms": [
+            "pleasure",
+            "delight",
+            "ease"
+          ]
+        },
+        {
+          "id": "sat-affliction",
+          "word": "affliction",
+          "partOfSpeech": "noun",
+          "definition": "Something that causes pain, illness, or lasting suffering.",
+          "example": "Chronic arthritis was an affliction that slowly stole his ability to paint.",
+          "mnemonic": "Like 'inflict' — an affliction inflicts pain on the one who has it.",
+          "synonyms": [
+            "ailment",
+            "suffering",
+            "malady"
+          ],
+          "antonyms": [
+            "comfort",
+            "relief",
+            "health"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-malady",
+          "word": "malady",
+          "partOfSpeech": "noun",
+          "definition": "A disease or disorder of the body or mind.",
+          "example": "The doctor struggled to name the strange malady spreading through the village.",
+          "mnemonic": "'Mal' means bad (as in malfunction) — a malady is a bad state of health.",
+          "synonyms": [
+            "illness",
+            "ailment",
+            "disease"
+          ],
+          "antonyms": [
+            "health",
+            "wellness",
+            "cure"
+          ]
+        },
+        {
+          "id": "sat-scourge",
+          "word": "scourge",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that causes great trouble or widespread suffering.",
+          "example": "Malaria remains a scourge across much of the tropical world.",
+          "mnemonic": "A 'scourge' was once a whip — it lashes and torments whole populations.",
+          "synonyms": [
+            "plague",
+            "bane",
+            "curse"
+          ],
+          "antonyms": [
+            "blessing",
+            "boon",
+            "benefit"
+          ]
+        },
+        {
+          "id": "sat-blight",
+          "word": "blight",
+          "partOfSpeech": "noun",
+          "definition": "Something that spoils or ruins, often spreading damage widely.",
+          "example": "Abandoned factories were a blight on the once-thriving town.",
+          "mnemonic": "Plant blight withers crops on sight — it rots everything it touches.",
+          "synonyms": [
+            "plague",
+            "curse",
+            "affliction"
+          ],
+          "antonyms": [
+            "blessing",
+            "boon",
+            "benefit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-bane",
+          "word": "bane",
+          "partOfSpeech": "noun",
+          "definition": "A source of persistent harm, ruin, or great annoyance to someone.",
+          "example": "Weeds were the bane of the gardener's carefully tended flower beds.",
+          "mnemonic": "Bane sounds like 'pain' — and the villain Bane exists only to ruin Batman's Gotham.",
+          "synonyms": [
+            "scourge",
+            "curse",
+            "plague"
+          ],
+          "antonyms": [
+            "blessing",
+            "boon"
+          ]
+        },
+        {
+          "id": "sat-crisis",
+          "word": "crisis",
+          "partOfSpeech": "noun",
+          "definition": "A moment of intense danger or difficulty demanding urgent decisions.",
+          "example": "As oxygen levels dropped, the trapped crew faced a life-or-death crisis.",
+          "mnemonic": "From Greek 'krisis' = a turning point or decision — the exact instant everything must be decided.",
+          "synonyms": [
+            "emergency",
+            "predicament",
+            "turning point"
+          ],
+          "antonyms": [
+            "stability",
+            "calm"
+          ]
+        },
+        {
+          "id": "sat-calamity",
+          "word": "calamity",
+          "partOfSpeech": "noun",
+          "definition": "A disastrous event bringing great damage, distress, or misery.",
+          "example": "The flood was a calamity that swept away entire villages overnight.",
+          "mnemonic": "'Call-a-medic!' — the instant disaster strikes, that's what you shout.",
+          "synonyms": [
+            "disaster",
+            "catastrophe",
+            "tragedy"
+          ],
+          "antonyms": [
+            "blessing",
+            "fortune"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-catastrophe",
+          "word": "catastrophe",
+          "partOfSpeech": "noun",
+          "definition": "A sudden event causing enormous damage, suffering, or loss.",
+          "example": "The earthquake was a catastrophe that leveled the city in seconds.",
+          "mnemonic": "Greek 'kata' (down) + 'strophe' (turning) = a total overturning; picture a cat knocking everything off the shelf.",
+          "synonyms": [
+            "disaster",
+            "calamity",
+            "cataclysm"
+          ],
+          "antonyms": [
+            "triumph",
+            "boon"
+          ]
+        },
+        {
+          "id": "sat-cataclysm",
+          "word": "cataclysm",
+          "partOfSpeech": "noun",
+          "definition": "A violent, large-scale upheaval or disaster that changes everything.",
+          "example": "The volcanic cataclysm buried the ancient town under ash and molten rock.",
+          "mnemonic": "Greek 'kata' (down) + 'klyzein' (to wash) — a world-drowning flood washing it all away.",
+          "synonyms": [
+            "catastrophe",
+            "upheaval",
+            "disaster"
+          ],
+          "antonyms": [
+            "calm",
+            "stability"
+          ]
+        },
+        {
+          "id": "sat-debacle",
+          "word": "debacle",
+          "partOfSpeech": "noun",
+          "definition": "A complete, humiliating failure or sudden collapse of something planned.",
+          "example": "The product launch was a debacle, with the site crashing and refunds pouring in.",
+          "mnemonic": "French 'débâcle' = the sudden breaking up of river ice — everything smashes apart at once.",
+          "synonyms": [
+            "fiasco",
+            "disaster",
+            "collapse"
+          ],
+          "antonyms": [
+            "triumph",
+            "success"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-fiasco",
+          "word": "fiasco",
+          "partOfSpeech": "noun",
+          "definition": "A total, often embarrassing failure of a plan or performance.",
+          "example": "The surprise party turned into a fiasco when the guest of honor never showed up.",
+          "mnemonic": "Sounds like 'fee-ASK-o' — you ask for your fee back after the whole thing flops.",
+          "synonyms": [
+            "debacle",
+            "disaster",
+            "flop"
+          ],
+          "antonyms": [
+            "success",
+            "triumph"
+          ]
+        },
+        {
+          "id": "sat-turmoil",
+          "word": "turmoil",
+          "partOfSpeech": "noun",
+          "definition": "A state of great confusion, agitation, or disorder.",
+          "example": "The CEO's sudden resignation threw the company into turmoil for months.",
+          "mnemonic": "'Turn' + 'moil' (toil) — your gut churns and toils, boiling and turning over.",
+          "synonyms": [
+            "turbulence",
+            "unrest",
+            "upheaval"
+          ],
+          "antonyms": [
+            "calm",
+            "tranquility",
+            "peace"
+          ]
+        },
+        {
+          "id": "sat-upheaval",
+          "word": "upheaval",
+          "partOfSpeech": "noun",
+          "definition": "A sudden, dramatic change causing great disruption or disorder.",
+          "example": "The revolution brought social upheaval that reshaped the entire nation.",
+          "mnemonic": "'Up' + 'heave' — the ground heaved violently upward, throwing everything into the air.",
+          "synonyms": [
+            "turmoil",
+            "disruption",
+            "cataclysm"
+          ],
+          "antonyms": [
+            "stability",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-chaos",
+          "word": "chaos",
+          "partOfSpeech": "noun",
+          "definition": "Complete disorder and confusion, with no clear structure or control.",
+          "example": "When the power failed, the crowded stadium descended into chaos.",
+          "mnemonic": "Greek 'khaos' = the formless void before creation; hear a gaping 'chasm' swallowing all order.",
+          "synonyms": [
+            "disorder",
+            "mayhem",
+            "pandemonium"
+          ],
+          "antonyms": [
+            "order",
+            "harmony"
+          ]
+        },
+        {
+          "id": "sat-disarray",
+          "word": "disarray",
+          "partOfSpeech": "noun",
+          "definition": "A state of disorganization, untidiness, or lack of order.",
+          "example": "After the burglary, the entire apartment was left in complete disarray.",
+          "mnemonic": "'Dis-' undoes an 'array' (a neat arrangement) — so things are no longer arranged.",
+          "synonyms": [
+            "disorder",
+            "mess",
+            "confusion"
+          ],
+          "antonyms": [
+            "order",
+            "tidiness"
+          ]
+        },
+        {
+          "id": "sat-entangle",
+          "word": "entangle",
+          "partOfSpeech": "verb",
+          "definition": "To catch and twist together, or draw someone into complicated difficulties.",
+          "example": "The dolphin became entangled in a discarded fishing net and could not surface.",
+          "mnemonic": "'En-' (into) + 'tangle' — to put something INTO a knotted mess, like hair caught in a comb.",
+          "synonyms": [
+            "ensnare",
+            "enmesh",
+            "embroil"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "disentangle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-embroil",
+          "word": "embroil",
+          "partOfSpeech": "verb",
+          "definition": "To involve someone deeply in an argument, conflict, or difficult situation.",
+          "example": "The senator was embroiled in a bribery scandal that ended his career.",
+          "mnemonic": "'Em-' (in) + 'broil' — to be thrown into a boiling, heated conflict.",
+          "synonyms": [
+            "entangle",
+            "involve",
+            "implicate"
+          ],
+          "antonyms": [
+            "extricate",
+            "free"
+          ]
+        },
+        {
+          "id": "sat-ensnare",
+          "word": "ensnare",
+          "partOfSpeech": "verb",
+          "definition": "To catch or trap someone, often through cunning or deception.",
+          "example": "The con artist ensnared elderly victims with promises of huge returns.",
+          "mnemonic": "'En-' (into) + 'snare' — to put into a snare; picture a rabbit caught in a wire trap.",
+          "synonyms": [
+            "entrap",
+            "entangle",
+            "trap"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "liberate"
+          ]
+        },
+        {
+          "id": "sat-beleaguer",
+          "word": "beleaguer",
+          "partOfSpeech": "verb",
+          "definition": "To surround with troubles or lay siege to, causing constant harassment.",
+          "example": "The beleaguered mayor faced protests, lawsuits, and a hostile council all at once.",
+          "mnemonic": "From Dutch 'belegeren' (to besiege) — imagine a whole 'league' of enemies camped around your castle.",
+          "synonyms": [
+            "besiege",
+            "harass",
+            "beset"
+          ],
+          "antonyms": [
+            "relieve",
+            "support",
+            "aid"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-besiege",
+          "word": "besiege",
+          "partOfSpeech": "verb",
+          "definition": "To surround a town or fortress with armed forces to force its surrender.",
+          "example": "For three months the army besieged the walled city until its food ran out.",
+          "mnemonic": "Be- + siege (Latin sedere, 'to sit'): troops sit down around a castle and refuse to leave.",
+          "synonyms": [
+            "blockade",
+            "encircle",
+            "surround"
+          ],
+          "antonyms": [
+            "liberate",
+            "free",
+            "relieve"
+          ]
+        },
+        {
+          "id": "sat-plague",
+          "word": "plague",
+          "partOfSpeech": "verb",
+          "definition": "To cause someone continual trouble or distress over a long period.",
+          "example": "Technical glitches plagued the launch, crashing the app every few minutes.",
+          "mnemonic": "Sounds like 'plaque' — sticky buildup on your teeth that keeps bothering you no matter how you brush.",
+          "synonyms": [
+            "torment",
+            "pester",
+            "harass"
+          ],
+          "antonyms": [
+            "soothe",
+            "relieve",
+            "comfort"
+          ]
+        },
+        {
+          "id": "sat-vex",
+          "word": "vex",
+          "partOfSpeech": "verb",
+          "definition": "To annoy or trouble someone, especially in a nagging, persistent way.",
+          "example": "The endless typos in the report vexed the meticulous editor.",
+          "mnemonic": "Vex rhymes with 'hex' — a little curse that keeps needling and annoying you.",
+          "synonyms": [
+            "annoy",
+            "irritate",
+            "aggravate"
+          ],
+          "antonyms": [
+            "soothe",
+            "please",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-perplex",
+          "word": "perplex",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone so they cannot understand or think clearly.",
+          "example": "The detective was perplexed by a locked room with no visible exit.",
+          "mnemonic": "Per- (thoroughly) + plex (plectere, 'to weave'): your thoughts are thoroughly woven and tangled.",
+          "synonyms": [
+            "puzzle",
+            "confuse",
+            "mystify"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten",
+            "explain"
+          ]
+        },
+        {
+          "id": "sat-baffle",
+          "word": "baffle",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone completely, leaving them unable to explain or solve something.",
+          "example": "The keys vanishing from inside a locked safe baffled everyone in the house.",
+          "mnemonic": "Picture a 'buffalo' so puzzled it just walks in circles — baffle-lo.",
+          "synonyms": [
+            "bewilder",
+            "mystify",
+            "stump"
+          ],
+          "antonyms": [
+            "clarify",
+            "explain",
+            "enlighten"
+          ]
+        },
+        {
+          "id": "sat-bewilder",
+          "word": "bewilder",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone deeply, especially amid too many choices or unfamiliar surroundings.",
+          "example": "The tourist stood bewildered in a maze of identical alleyways.",
+          "mnemonic": "Be- + wilder: to be lost in the 'wild' wilderness, unsure which way to turn.",
+          "synonyms": [
+            "baffle",
+            "confuse",
+            "disorient"
+          ],
+          "antonyms": [
+            "orient",
+            "guide",
+            "enlighten"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-confound",
+          "word": "confound",
+          "partOfSpeech": "verb",
+          "definition": "To confuse and greatly surprise someone, or to mix two things up.",
+          "example": "The rookie's victory confounded the critics who had predicted his defeat.",
+          "mnemonic": "Con- (together) + found (fundere, 'to pour'): pour things together until they're hopelessly mixed.",
+          "synonyms": [
+            "baffle",
+            "bewilder",
+            "confuse"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten",
+            "explain"
+          ]
+        },
+        {
+          "id": "sat-frustrate",
+          "word": "frustrate",
+          "partOfSpeech": "verb",
+          "definition": "To block someone from reaching a goal, causing disappointment and irritation.",
+          "example": "Heavy traffic frustrated her plan to reach the airport on time.",
+          "mnemonic": "From Latin frustra, 'in vain' — effort spent in vain leaves you fed up.",
+          "synonyms": [
+            "thwart",
+            "foil",
+            "discourage"
+          ],
+          "antonyms": [
+            "assist",
+            "fulfill",
+            "encourage"
+          ]
+        },
+        {
+          "id": "sat-exasperate",
+          "word": "exasperate",
+          "partOfSpeech": "verb",
+          "definition": "To irritate someone intensely until they lose all patience.",
+          "example": "The child's endless 'why?' questions eventually exasperated the babysitter.",
+          "mnemonic": "Ex- + asper (Latin 'rough'): someone rubs you the wrong way until you're raw with anger.",
+          "synonyms": [
+            "infuriate",
+            "irritate",
+            "aggravate"
+          ],
+          "antonyms": [
+            "pacify",
+            "soothe",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-beset",
+          "word": "beset",
+          "partOfSpeech": "verb",
+          "definition": "To trouble or attack someone persistently from every side.",
+          "example": "The expedition was beset by storms, illness, and dwindling supplies.",
+          "mnemonic": "Be- + set: troubles are 'set' all around you, on every side at once.",
+          "synonyms": [
+            "plague",
+            "harass",
+            "surround"
+          ],
+          "antonyms": [
+            "relieve",
+            "free",
+            "aid"
+          ]
+        },
+        {
+          "id": "sat-encumber",
+          "word": "encumber",
+          "partOfSpeech": "verb",
+          "definition": "To burden or weigh down someone, making movement or progress difficult.",
+          "example": "Encumbered by heavy backpacks, the hikers struggled up the steep trail.",
+          "mnemonic": "En- + cumber ('a burden'): imagine a giant 'cucumber' strapped to your back, slowing you down.",
+          "synonyms": [
+            "burden",
+            "hamper",
+            "weigh down"
+          ],
+          "antonyms": [
+            "relieve",
+            "unburden",
+            "free"
+          ]
+        },
+        {
+          "id": "sat-jeopardize",
+          "word": "jeopardize",
+          "partOfSpeech": "verb",
+          "definition": "To put something at risk of harm, loss, or failure.",
+          "example": "Skipping the safety checks could jeopardize the entire crew's lives.",
+          "mnemonic": "Think of the show 'Jeopardy!' — every answer puts your winnings on the line.",
+          "synonyms": [
+            "endanger",
+            "imperil",
+            "risk"
+          ],
+          "antonyms": [
+            "protect",
+            "safeguard",
+            "secure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-imperil",
+          "word": "imperil",
+          "partOfSpeech": "verb",
+          "definition": "To put someone or something in danger.",
+          "example": "Rising floodwaters imperiled the villages along the riverbank.",
+          "mnemonic": "Im- (into) + peril: to place someone right into peril.",
+          "synonyms": [
+            "endanger",
+            "jeopardize",
+            "threaten"
+          ],
+          "antonyms": [
+            "protect",
+            "secure",
+            "safeguard"
+          ]
+        },
+        {
+          "id": "sat-endanger",
+          "word": "endanger",
+          "partOfSpeech": "verb",
+          "definition": "To expose someone or something to possible harm or destruction.",
+          "example": "Pollution endangers countless species living in the coral reef.",
+          "mnemonic": "En- ('to make') + danger: literally to put someone into danger.",
+          "synonyms": [
+            "imperil",
+            "jeopardize",
+            "threaten"
+          ],
+          "antonyms": [
+            "protect",
+            "safeguard",
+            "shield"
+          ]
+        },
+        {
+          "id": "sat-complicate",
+          "word": "complicate",
+          "partOfSpeech": "verb",
+          "definition": "To make something more difficult, tangled, or hard to understand.",
+          "example": "Adding three new managers only complicated the decision-making process.",
+          "mnemonic": "Com- (together) + plicare ('to fold'): fold many things together until it's a tangled mess.",
+          "synonyms": [
+            "entangle",
+            "muddle",
+            "confuse"
+          ],
+          "antonyms": [
+            "simplify",
+            "streamline",
+            "clarify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-mediate",
+          "word": "mediate",
+          "partOfSpeech": "verb",
+          "definition": "To help conflicting parties reach an agreement by acting as a neutral middle party.",
+          "example": "A trusted teacher stepped in to mediate between the two feuding students.",
+          "mnemonic": "MEDI = middle (Latin medius) — a go-between stands in the middle of a fight.",
+          "synonyms": [
+            "intervene",
+            "reconcile",
+            "broker"
+          ],
+          "antonyms": [
+            "inflame",
+            "aggravate"
+          ]
+        },
+        {
+          "id": "sat-arbitrate",
+          "word": "arbitrate",
+          "partOfSpeech": "verb",
+          "definition": "To settle a dispute formally after hearing both sides and issuing a binding decision.",
+          "example": "The retired judge was hired to arbitrate the contract fight between the company and its supplier.",
+          "mnemonic": "Think 'arbiter' — the referee who makes the final call and ends the argument.",
+          "synonyms": [
+            "adjudicate",
+            "judge",
+            "referee"
+          ],
+          "antonyms": [
+            "ignore",
+            "stall"
+          ]
+        },
+        {
+          "id": "sat-negotiate",
+          "word": "negotiate",
+          "partOfSpeech": "verb",
+          "definition": "To discuss terms with others in order to reach a mutually acceptable deal.",
+          "example": "They spent all afternoon trying to negotiate a fair price for the used car.",
+          "mnemonic": "NEG sounds like 'nag' — you nag back and forth until you strike a deal.",
+          "synonyms": [
+            "bargain",
+            "haggle",
+            "broker"
+          ],
+          "antonyms": [
+            "dictate",
+            "impose"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-compromise",
+          "word": "compromise",
+          "partOfSpeech": "noun",
+          "definition": "An agreement reached when each side gives up part of what it originally wanted.",
+          "example": "After a long argument they found a compromise: pizza one night, sushi the next.",
+          "mnemonic": "COM (together) + PROMISE — a promise made together where everyone gives a little.",
+          "synonyms": [
+            "concession",
+            "give-and-take",
+            "middle ground"
+          ],
+          "antonyms": [
+            "stalemate",
+            "deadlock"
+          ]
+        },
+        {
+          "id": "sat-conciliate",
+          "word": "conciliate",
+          "partOfSpeech": "verb",
+          "definition": "To win over an angry or hostile person by being friendly and reasonable.",
+          "example": "The manager tried to conciliate the upset customers with a sincere apology and a full refund.",
+          "mnemonic": "Sounds like 'council' — bring people to the council table and make peace.",
+          "synonyms": [
+            "appease",
+            "reconcile",
+            "placate"
+          ],
+          "antonyms": [
+            "antagonize",
+            "provoke"
+          ]
+        },
+        {
+          "id": "sat-appease",
+          "word": "appease",
+          "partOfSpeech": "verb",
+          "definition": "To bring calm to someone by giving in to their demands or wishes.",
+          "example": "The parents tried to appease the screaming toddler with a cookie.",
+          "mnemonic": "aP-PEAS-e hides PEACE — hand over peace (or peas) to quiet someone down.",
+          "synonyms": [
+            "pacify",
+            "placate",
+            "mollify"
+          ],
+          "antonyms": [
+            "provoke",
+            "aggravate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-placate",
+          "word": "placate",
+          "partOfSpeech": "verb",
+          "definition": "To make an angry person feel calm and satisfied again.",
+          "example": "He sent flowers to placate his girlfriend after forgetting their anniversary.",
+          "mnemonic": "PLACATE ~ 'placid' (calm) — you turn a stormy mood placid.",
+          "synonyms": [
+            "appease",
+            "pacify",
+            "soothe"
+          ],
+          "antonyms": [
+            "enrage",
+            "provoke"
+          ]
+        },
+        {
+          "id": "sat-mollify",
+          "word": "mollify",
+          "partOfSpeech": "verb",
+          "definition": "To soothe someone's anger or worry and make them less upset.",
+          "example": "She spoke gently to mollify her frustrated coworker before the big meeting.",
+          "mnemonic": "From Latin mollis = soft; to MOLLify is to make hard feelings soft.",
+          "synonyms": [
+            "soothe",
+            "calm",
+            "appease"
+          ],
+          "antonyms": [
+            "aggravate",
+            "inflame"
+          ]
+        },
+        {
+          "id": "sat-pacify",
+          "word": "pacify",
+          "partOfSpeech": "verb",
+          "definition": "To bring peace and calm to someone or something that is upset or violent.",
+          "example": "The nanny rocked the baby slowly to pacify her.",
+          "mnemonic": "PACIFY ~ 'pacifier' — the plug that quiets a fussy baby; PAC = pax (peace).",
+          "synonyms": [
+            "calm",
+            "soothe",
+            "placate"
+          ],
+          "antonyms": [
+            "agitate",
+            "provoke"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-assuage",
+          "word": "assuage",
+          "partOfSpeech": "verb",
+          "definition": "To make an unpleasant feeling less intense or painful.",
+          "example": "A cup of tea and a few kind words helped assuage her grief.",
+          "mnemonic": "Say it 'a-SWAGE' — a soothing salve that eases the sting away.",
+          "synonyms": [
+            "ease",
+            "relieve",
+            "alleviate"
+          ],
+          "antonyms": [
+            "aggravate",
+            "intensify"
+          ]
+        },
+        {
+          "id": "sat-temper",
+          "word": "temper",
+          "partOfSpeech": "verb",
+          "definition": "To make something less extreme or harsh by adding a softening influence.",
+          "example": "A good editor knows how to temper sharp criticism with a word of encouragement.",
+          "mnemonic": "Like tempering steel or chocolate — controlling the heat to reach a balanced result.",
+          "synonyms": [
+            "moderate",
+            "soften",
+            "tone down"
+          ],
+          "antonyms": [
+            "intensify",
+            "aggravate"
+          ]
+        },
+        {
+          "id": "sat-moderate",
+          "word": "moderate",
+          "partOfSpeech": "verb",
+          "definition": "To reduce the extremeness or intensity of something.",
+          "example": "The doctor advised him to moderate his salt intake for the sake of his heart.",
+          "mnemonic": "MODE + RATE — keep the rate in the middle 'mode,' never at the extreme.",
+          "synonyms": [
+            "temper",
+            "curb",
+            "lessen"
+          ],
+          "antonyms": [
+            "intensify",
+            "heighten"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-defuse",
+          "word": "defuse",
+          "partOfSpeech": "verb",
+          "definition": "To reduce tension or danger in a situation before it turns serious.",
+          "example": "A well-timed joke helped defuse the tense standoff in the boardroom.",
+          "mnemonic": "DE-FUSE: pull the fuse out of the bomb so it can never go off.",
+          "synonyms": [
+            "calm",
+            "ease",
+            "neutralize"
+          ],
+          "antonyms": [
+            "inflame",
+            "escalate"
+          ]
+        },
+        {
+          "id": "sat-disentangle",
+          "word": "disentangle",
+          "partOfSpeech": "verb",
+          "definition": "To free something from knots, confusion, or a complicated situation.",
+          "example": "It took the accountant weeks to disentangle the company's messy finances.",
+          "mnemonic": "DIS + ENTANGLE — the direct undoing of a tangle; pick the knots apart.",
+          "synonyms": [
+            "unravel",
+            "untangle",
+            "extricate"
+          ],
+          "antonyms": [
+            "entangle",
+            "complicate"
+          ]
+        },
+        {
+          "id": "sat-extricate",
+          "word": "extricate",
+          "partOfSpeech": "verb",
+          "definition": "To free someone or something from a difficult or trapped situation.",
+          "example": "She struggled to extricate her boot from the thick, sucking mud.",
+          "mnemonic": "EX (out) + 'tricky' — get yourself out of a tricky spot.",
+          "synonyms": [
+            "free",
+            "release",
+            "disentangle"
+          ],
+          "antonyms": [
+            "entangle",
+            "trap"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-liberate",
+          "word": "liberate",
+          "partOfSpeech": "verb",
+          "definition": "To set a person or group free from captivity, oppression, or control.",
+          "example": "When the troops marched into the city, they opened the prison gates and liberated everyone held there.",
+          "mnemonic": "Hear 'liberty' inside liberate — giving someone their liberty.",
+          "synonyms": [
+            "free",
+            "release",
+            "emancipate"
+          ],
+          "antonyms": [
+            "imprison",
+            "enslave",
+            "confine"
+          ]
+        },
+        {
+          "id": "sat-emancipate",
+          "word": "emancipate",
+          "partOfSpeech": "verb",
+          "definition": "To release someone from slavery or from legal, social, or political restrictions.",
+          "example": "The 1863 proclamation emancipated millions who had been held as property, granting them their freedom.",
+          "mnemonic": "'E-man-cip' → 'a MAN is set free' from chains.",
+          "synonyms": [
+            "free",
+            "liberate",
+            "unshackle"
+          ],
+          "antonyms": [
+            "enslave",
+            "subjugate",
+            "bind"
+          ]
+        },
+        {
+          "id": "sat-absolve",
+          "word": "absolve",
+          "partOfSpeech": "verb",
+          "definition": "To formally declare someone free from guilt, blame, or an obligation.",
+          "example": "After hearing the full story, the priest absolved him, and the weight of guilt lifted from his shoulders.",
+          "mnemonic": "'Ab-SOLVE' — the problem of your sins is solved, wiped clean.",
+          "synonyms": [
+            "pardon",
+            "forgive",
+            "exonerate"
+          ],
+          "antonyms": [
+            "blame",
+            "condemn",
+            "convict"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-exonerate",
+          "word": "exonerate",
+          "partOfSpeech": "verb",
+          "definition": "To officially clear a person of blame or suspicion of wrongdoing.",
+          "example": "New DNA evidence finally exonerated the man who had spent twelve years in prison for someone else's crime.",
+          "mnemonic": "'Ex-onus' — the ONUS (burden) is taken OFF you.",
+          "synonyms": [
+            "clear",
+            "absolve",
+            "vindicate"
+          ],
+          "antonyms": [
+            "incriminate",
+            "blame",
+            "convict"
+          ]
+        },
+        {
+          "id": "sat-acquit",
+          "word": "acquit",
+          "partOfSpeech": "verb",
+          "definition": "To judge and declare a defendant not guilty of a crime.",
+          "example": "The jury deliberated for an hour before returning to acquit her, and she walked out of the courtroom free.",
+          "mnemonic": "'A-QUIT' — the court lets you QUIT the charges and go home.",
+          "synonyms": [
+            "clear",
+            "absolve",
+            "exonerate"
+          ],
+          "antonyms": [
+            "convict",
+            "condemn",
+            "sentence"
+          ]
+        },
+        {
+          "id": "sat-reprieve",
+          "word": "reprieve",
+          "partOfSpeech": "noun",
+          "definition": "A temporary delay or cancellation of a punishment or a difficult situation.",
+          "example": "Minutes before the execution, the governor's call granted a reprieve, and the prisoner's sentence was put on hold.",
+          "mnemonic": "'RE-PRIEVE' sounds like 'relieve' — a pause that relieves the doom.",
+          "synonyms": [
+            "stay",
+            "postponement",
+            "respite"
+          ],
+          "antonyms": [
+            "punishment",
+            "sentence",
+            "execution"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-recover",
+          "word": "recover",
+          "partOfSpeech": "verb",
+          "definition": "To return to a normal state of health, strength, or function.",
+          "example": "After a week of rest and fluids, she began to recover and was soon back on her feet.",
+          "mnemonic": "'RE-COVER' — you pull the covers back over yourself to get well again.",
+          "synonyms": [
+            "heal",
+            "recuperate",
+            "rally"
+          ],
+          "antonyms": [
+            "deteriorate",
+            "worsen",
+            "relapse"
+          ]
+        },
+        {
+          "id": "sat-rehabilitate",
+          "word": "rehabilitate",
+          "partOfSpeech": "verb",
+          "definition": "To restore a person or thing to good health, use, or standing.",
+          "example": "The clinic helped rehabilitate the injured athlete until he could run a full marathon again.",
+          "mnemonic": "'Re-HABIT' — you rebuild healthy HABITS to become whole again.",
+          "synonyms": [
+            "restore",
+            "renew",
+            "reintegrate"
+          ],
+          "antonyms": [
+            "damage",
+            "neglect",
+            "ruin"
+          ]
+        },
+        {
+          "id": "sat-overhaul",
+          "word": "overhaul",
+          "partOfSpeech": "verb",
+          "definition": "To thoroughly examine and repair or improve a system or machine.",
+          "example": "The mechanics took the engine completely apart to overhaul it, replacing every worn component inside.",
+          "mnemonic": "'OVER-HAUL' — you haul the whole thing over to the shop and redo it all.",
+          "synonyms": [
+            "revamp",
+            "refurbish",
+            "renovate"
+          ],
+          "antonyms": [
+            "neglect",
+            "maintain",
+            "preserve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-streamline",
+          "word": "streamline",
+          "partOfSpeech": "verb",
+          "definition": "To make a process simpler, faster, and more efficient.",
+          "example": "By cutting three approval steps, the manager streamlined the workflow so orders shipped in half the time.",
+          "mnemonic": "Picture a sleek STREAM flowing in a straight LINE — no obstacles slowing it.",
+          "synonyms": [
+            "simplify",
+            "optimize",
+            "rationalize"
+          ],
+          "antonyms": [
+            "complicate",
+            "clutter",
+            "encumber"
+          ]
+        },
+        {
+          "id": "sat-devise",
+          "word": "devise",
+          "partOfSpeech": "verb",
+          "definition": "To plan or invent something through careful thought.",
+          "example": "The engineers devised a clever pulley system to lift the beams without a crane.",
+          "mnemonic": "'DEVISE' hides 'device' — you think up a device or scheme.",
+          "synonyms": [
+            "invent",
+            "conceive",
+            "formulate"
+          ],
+          "antonyms": [
+            "copy",
+            "imitate",
+            "destroy"
+          ]
+        },
+        {
+          "id": "sat-formulate",
+          "word": "formulate",
+          "partOfSpeech": "verb",
+          "definition": "To express or create an idea or plan in precise, systematic terms.",
+          "example": "Before the debate, she carefully formulated each argument so every point followed logically from the last.",
+          "mnemonic": "'FORMULA-te' — you build it like a tidy FORMULA, step by step.",
+          "synonyms": [
+            "devise",
+            "draft",
+            "articulate"
+          ],
+          "antonyms": [
+            "improvise",
+            "guess",
+            "ramble"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-contrive",
+          "word": "contrive",
+          "partOfSpeech": "verb",
+          "definition": "To cleverly plan or scheme, often using trickery or artificial means.",
+          "example": "He contrived an excuse about a sick relative so he could slip out of the meeting early.",
+          "mnemonic": "'CON-trive' — a CON artist schemes and tricks their way to a goal.",
+          "synonyms": [
+            "scheme",
+            "engineer",
+            "manufacture"
+          ],
+          "antonyms": [
+            "blunder",
+            "wing it",
+            "stumble"
+          ]
+        },
+        {
+          "id": "sat-concoct",
+          "word": "concoct",
+          "partOfSpeech": "verb",
+          "definition": "To invent a story or create a mixture by combining various elements.",
+          "example": "The children concocted a wild tale about a dragon to explain the broken vase.",
+          "mnemonic": "'Con-COCT' sounds like 'cook' — you cook up a story or a strange brew.",
+          "synonyms": [
+            "fabricate",
+            "brew",
+            "invent"
+          ],
+          "antonyms": [
+            "disclose",
+            "verify",
+            "dismantle"
+          ]
+        },
+        {
+          "id": "sat-improvise",
+          "word": "improvise",
+          "partOfSpeech": "verb",
+          "definition": "To create or perform something spontaneously, without any prior preparation.",
+          "example": "When the slides failed to load, the speaker simply improvised, talking the audience through the ideas from memory.",
+          "mnemonic": "'IM-PRO-VISE' — 'not' (im) 'provided' in advance; you make it up on the spot.",
+          "synonyms": [
+            "ad-lib",
+            "wing it",
+            "extemporize"
+          ],
+          "antonyms": [
+            "rehearse",
+            "plan",
+            "prepare"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:24:28.404Z"
+}

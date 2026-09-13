@@ -10,11 +10,14 @@ import { Badge } from "@/components/ui/badge";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
-import { toMonthKey } from "@/lib/date-utils";
+import { keyOf } from "@/lib/track";
 
 export function Calendar() {
   const { months, setActiveMonth, setSelectedDay, hasDayInMonth } =
     useVocabStore();
+  // A date no longer names a month on its own — the schedule says which of the
+  // track's months falls in the calendar month that date is in.
+  const monthKeyForDate = useVocabStore((s) => s.monthKeyForDate);
   const isMastered = useProgressStore((s) => s.isMastered);
   const navigate = useAppStore((s) => s.navigate);
   const [pickedDate, setPickedDate] = useState<Date | null>(null);
@@ -23,7 +26,7 @@ export function Calendar() {
 
   if (availableMonthKeys.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full max-w-3xl mx-auto py-12">
         <EmptyState
           icon={CalendarIcon}
           title="No months loaded"
@@ -35,14 +38,14 @@ export function Calendar() {
   }
 
   function isDateAvailable(date: Date): boolean {
-    const key = toMonthKey(date);
-    return hasDayInMonth(key, date.getDate());
+    const key = monthKeyForDate(date);
+    return key !== null && hasDayInMonth(key, date.getDate());
   }
 
   const pickedWords = (() => {
     if (!pickedDate) return null;
-    const key = toMonthKey(pickedDate);
-    const month = months[key];
+    const key = monthKeyForDate(pickedDate);
+    const month = key ? months[key] : null;
     if (!month) return null;
     const day = month.days.find((d) => d.day === pickedDate.getDate());
     if (!day) return null;
@@ -51,13 +54,13 @@ export function Calendar() {
 
   function goToPractice() {
     if (!pickedDate || !pickedWords) return;
-    setActiveMonth(pickedWords.month.month);
+    setActiveMonth(keyOf(pickedWords.month));
     setSelectedDay(pickedDate.getDate());
     navigate("practice");
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-8">
+    <div className="w-full max-w-4xl mx-auto py-8">
       <div className="mb-6">
         <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
           Calendar
@@ -100,7 +103,7 @@ export function Calendar() {
                 <div className="flex items-baseline justify-between mb-4">
                   <div>
                     <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-0.5">
-                      {pickedWords.month.displayName}
+                      {pickedWords.month.title}
                     </p>
                     <p className="display-serif text-2xl font-semibold">
                       Day {pickedDate.getDate()}

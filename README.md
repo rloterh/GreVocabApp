@@ -2,15 +2,33 @@
 
 A premium daily vocabulary practice app. Learn a few new words each day, track your growth over months and years, quiz yourself, and write sentences that get checked for grammar and correct usage.
 
+Two vocabularies — **GRE** and **SAT** — each three years long, each with its own schedule and its own progress. Switching between them is like opening a different notebook: nothing is lost, nothing is merged, and coming back finds it as you left it.
+
 Built with React 18, TypeScript, Tailwind, Framer Motion, and Tauri v2 — runs as either a native desktop app or a plain web app.
 
 > **New to this codebase?** Start with [`CONTINUING.md`](./CONTINUING.md) for state and conventions, then [`ROADMAP.md`](./ROADMAP.md) for what's next. [`CHANGELOG.md`](./CHANGELOG.md) records what shipped. AI coding assistants also pick up [`CLAUDE.md`](./CLAUDE.md), [`AGENTS.md`](./AGENTS.md), [`.cursor/rules/main.mdc`](./.cursor/rules/main.mdc), and [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) automatically.
 
 ## How it looks
 
-One shell, three shapes. The sidebar appears at `lg` and up; below that the same
-pages get a bottom tab bar, with the six less-used destinations behind **More**.
-Pages never learn which is showing.
+One shell, three shapes, and the breakpoints come from real devices rather than
+from framework defaults:
+
+| Width | Navigation |
+| --- | --- |
+| below 720px | Bottom tab bar — five destinations, the rest behind **More** |
+| 720–1023px | A 76px icon rail, all ten destinations, labelled |
+| 1024px and up | The full sidebar |
+
+720px rather than Tailwind's `md` because the iPad mini is 744px wide in
+portrait: the default would have put thumb tabs at the bottom of an 1133px-tall
+screen, and given two iPads a user thinks of as the same device different
+navigation. Pages never learn which shell is showing.
+
+Below `lg` the app is **fullscreen**: content is full-bleed, height is
+`100dvh` so a phone's address bar stops covering the last rows, and the page
+paints under the notch with safe areas on all four edges. Reading pages still
+cap their line length — extra width becomes margin or a second column, never a
+longer line.
 
 | Phone — 390px | Tablet — 768px |
 | --- | --- |
@@ -20,11 +38,14 @@ Pages never learn which is showing.
 
 Touch targets are keyed to the *pointer*, not the width — a narrow window on a
 desktop keeps its density, and a large tablet still gets 44px targets. Verified
-at 360, 768 and 1280: no page scrolls horizontally, and every target on a touch
-pointer is at least 44px.
+by `scripts/drive/` at 360px and across five tablets in both orientations: no
+page scrolls horizontally, every target on a touch pointer is at least 44px,
+every control has a name, and rotating the device keeps the card you were on.
 
 ## Features
 
+- **Two tracks** — GRE and SAT, switched from a control that is visible on every screen. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
+- **Start whenever you like** — pick the month you begin and the app lays three years out from there. Reorder the months, or reshuffle the words, without losing a day of progress
 - **Daily practice** — animated flashcards with definition, example, and mnemonic
 - **Custom calendar** — jump to any month, quarter, or day; days without vocabulary are dimmed
 - **Quiz mode** — three modes (word→def, def→word, mixed) with any pool: mastered, current month, or everything
@@ -35,7 +56,8 @@ pointer is at least 44px.
 - **JSON-driven** — one file per month, dropped in a folder. Load, unload, keep as many as you want
 - **Backup / restore** — export everything as JSON
 - **Light & dark themes** — with warm off-white / near-black palettes
-- **Works on a phone** — responsive shell with a bottom tab bar below `lg`, 44px touch targets, safe-area aware
+- **Flashcard navigation** — arrows at the card's left and right edges, hidden until you hover, focus or tap; swipe or drag to move between cards; `←` `→` do the same. Rating keeps its own buttons, so a swipe can never record a judgement you did not mean
+- **Works on a phone and a tablet** — one responsive shell: tab bar, icon rail, sidebar. 44px touch targets, safe-area aware, fullscreen below `lg`
 
 ## Quick start (web app)
 
@@ -62,8 +84,9 @@ Vocabulary files are JSON with this shape:
 
 ```json
 {
-  "month": "2026-06",
-  "displayName": "June 2026",
+  "track": "gre",
+  "ordinal": 6,
+  "title": "Concealment and disclosure",
   "days": [
     {
       "day": 1,
@@ -80,6 +103,14 @@ Vocabulary files are JSON with this shape:
   ]
 }
 ```
+
+There is **no calendar in a vocabulary file**. `ordinal` is a teaching
+position — month six of the track — and which calendar month you study it in
+comes from your own schedule. Two people starting a year apart share these
+files byte for byte.
+
+Files written before tracks existed, with `month` and `displayName`, still
+import: the parser reads them and the app files them where you say.
 
 ### CSV
 
@@ -186,12 +217,36 @@ Two modes, chosen based on Settings:
 ## Data model
 
 - `src/types/index.ts` — all interfaces
+- `src/lib/track.ts` — tracks, month keys, word ids
+- `src/lib/schedule.ts` — the only place a teaching position becomes a date
 - `src/lib/vocabulary.ts` — parser and validator
+- `src/lib/migrations/` — storage migrations, run before any store hydrates
 - `src/lib/verify.ts` — heuristic + API verification
 - `src/lib/streak.ts` — streak calculation
 - `src/store/` — Zustand stores (vocab, progress, settings, app nav)
 
-Progress is stored in `localStorage` under keys prefixed with `lexicon.*`.
+Three ideas hold the rest up:
+
+**A word's id names its track, never a date.** `gre-abstemious`, not
+`2026-04-abstemious`. Progress records are keyed by that id, so a word can
+move to a different month — because you reordered, or reshuffled, or started
+somewhere else — and keep every review it has ever had.
+
+**Months are positions, not dates.** They are keyed `gre/01` … `gre/36`, and a
+per-track `Schedule` maps those positions onto the calendar. Changing when you
+start, or in what order the months run, is a permutation of integers: no
+content moves and no progress is touched.
+
+**Uniqueness is a within-track guarantee.** No word appears twice in the GRE
+corpus, or twice in the SAT one. A word appearing in *both* is not a duplicate —
+the two are separate curricula whose overlap is the useful middle of the
+academic register, and forcing them apart would leave SAT the leftovers.
+
+Progress is stored in `localStorage` under keys prefixed with `lexicon.*`. See
+[`docs/adr/0011-tracks.md`](./docs/adr/0011-tracks.md),
+[`0012`](./docs/adr/0012-ordinal-content.md) and
+[`0013`](./docs/adr/0013-cross-track-overlap.md) for why each of those is the
+way it is, and [`docs/SCHEDULE.md`](./docs/SCHEDULE.md) for the schedule.
 
 ## Project structure
 
@@ -282,6 +337,21 @@ without spending anything.
 | `npm run lint` | ESLint |
 | `npm run tauri:dev` | Tauri desktop app in dev mode |
 | `npm run tauri:build` | Bundle native installers |
+
+Content and verification, run with `npx tsx`:
+
+| Command | What it does |
+| --- | --- |
+| `scripts/generate-corpus.ts --track sat` | Generate a track's corpus through the `claude` CLI. Takes a lock; resumes where it stopped |
+| `scripts/repair-corpus.ts --track sat` | Dedupe a track and top up short months |
+| `scripts/audit-corpus.ts` | Check every track with the app's own parser, stemmer and quality rules |
+| `scripts/build-vocab-index.ts` | Rebuild `public/vocab/index.json` so the library can list months without downloading them |
+| `scripts/render-icon.mjs` | Rasterise `public/icon.svg` for `tauri icon` |
+
+Browser drivers live in [`scripts/drive/`](./scripts/drive/) and need a Chromium
+path in `CHROME_EXE`. They cover accessibility and contrast, keyboard and focus,
+phone and tablet layout, the tracks migration, the schedule, and the flashcard
+gestures — the things a unit test cannot see.
 
 ## Roadmap
 

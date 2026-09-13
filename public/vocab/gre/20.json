@@ -1,0 +1,1701 @@
+{
+  "track": "gre",
+  "ordinal": 20,
+  "title": "Movement and stillness",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-peripatetic",
+          "word": "peripatetic",
+          "partOfSpeech": "adjective",
+          "definition": "Moving or traveling around constantly rather than staying in one location.",
+          "example": "As a peripatetic consultant, she rarely spent two nights in the same city.",
+          "mnemonic": "Peri- means 'around'; picture Aristotle teaching while walking around the covered paths of his school.",
+          "synonyms": [
+            "itinerant",
+            "roving",
+            "nomadic"
+          ],
+          "antonyms": [
+            "sedentary",
+            "settled",
+            "stationary"
+          ]
+        },
+        {
+          "id": "gre-itinerant",
+          "word": "itinerant",
+          "partOfSpeech": "adjective",
+          "definition": "Traveling from one place to another, typically to find or perform work.",
+          "example": "The itinerant preacher moved through a dozen frontier towns each season.",
+          "mnemonic": "Sounds like 'itinerary' — a travel schedule; both come from Latin iter, meaning 'journey.'",
+          "synonyms": [
+            "peripatetic",
+            "roving",
+            "migratory"
+          ],
+          "antonyms": [
+            "settled",
+            "resident",
+            "fixed"
+          ]
+        },
+        {
+          "id": "gre-ambulatory",
+          "word": "ambulatory",
+          "partOfSpeech": "adjective",
+          "definition": "Able to move about on foot, or relating to such movement.",
+          "example": "After surgery the patient was ambulatory within two days, pacing the hospital corridor.",
+          "mnemonic": "An ambulance carries you when you can't move; ambulatory means you CAN move on your own feet.",
+          "synonyms": [
+            "mobile",
+            "walking",
+            "peripatetic"
+          ],
+          "antonyms": [
+            "bedridden",
+            "immobile",
+            "stationary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-perambulate",
+          "word": "perambulate",
+          "partOfSpeech": "verb",
+          "definition": "To stroll through or around an area, often slowly and for pleasure.",
+          "example": "Each evening the professor would perambulate the college gardens, hands clasped behind him.",
+          "mnemonic": "Per- ('through') + ambulate ('walk'); a 'pram' is literally for walking a baby around.",
+          "synonyms": [
+            "stroll",
+            "wander",
+            "promenade"
+          ],
+          "antonyms": [
+            "rush",
+            "sprint",
+            "halt"
+          ]
+        },
+        {
+          "id": "gre-meander",
+          "word": "meander",
+          "partOfSpeech": "verb",
+          "definition": "To move in a slow, winding, aimless way.",
+          "example": "The river meandered across the valley, doubling back on itself again and again.",
+          "mnemonic": "Named after the Menderes (Maeander) River in Turkey, famous for its endless curves.",
+          "synonyms": [
+            "wind",
+            "wander",
+            "snake"
+          ],
+          "antonyms": [
+            "beeline",
+            "straighten",
+            "rush"
+          ]
+        },
+        {
+          "id": "gre-saunter",
+          "word": "saunter",
+          "partOfSpeech": "verb",
+          "definition": "To walk in a slow, relaxed, unhurried manner.",
+          "example": "He sauntered into the meeting ten minutes late, utterly unbothered.",
+          "mnemonic": "Saunter sounds like 'sun-ter' — strolling lazily out in the warm sun.",
+          "synonyms": [
+            "stroll",
+            "amble",
+            "mosey"
+          ],
+          "antonyms": [
+            "dash",
+            "hurry",
+            "sprint"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-amble",
+          "word": "amble",
+          "partOfSpeech": "verb",
+          "definition": "To walk at an easy, leisurely pace.",
+          "example": "The old dog ambled beside its owner, in no rush to reach the park.",
+          "mnemonic": "Amble is 'ramble' without the r — a slow, relaxed roam.",
+          "synonyms": [
+            "saunter",
+            "stroll",
+            "wander"
+          ],
+          "antonyms": [
+            "race",
+            "sprint",
+            "rush"
+          ]
+        },
+        {
+          "id": "gre-traverse",
+          "word": "traverse",
+          "partOfSpeech": "verb",
+          "definition": "To move or travel across, over, or through an area.",
+          "example": "It took the expedition three weeks to traverse the frozen plateau.",
+          "mnemonic": "Trans- ('across') + verse; think 'travel across' from one side to the other.",
+          "synonyms": [
+            "cross",
+            "cover",
+            "span"
+          ],
+          "antonyms": [
+            "remain",
+            "stay",
+            "halt"
+          ]
+        },
+        {
+          "id": "gre-careen",
+          "word": "careen",
+          "partOfSpeech": "verb",
+          "definition": "To move rapidly while swerving or tipping wildly out of control.",
+          "example": "The runaway cart careened down the hill, scattering pedestrians in every direction.",
+          "mnemonic": "Careen sounds like 'car-lean' — a car leaning hard as it speeds around a corner.",
+          "synonyms": [
+            "swerve",
+            "hurtle",
+            "veer"
+          ],
+          "antonyms": [
+            "inch",
+            "glide",
+            "steady"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-lurch",
+          "word": "lurch",
+          "partOfSpeech": "verb",
+          "definition": "To move suddenly and unsteadily, tipping to one side.",
+          "example": "The bus lurched forward, throwing standing passengers against the rails.",
+          "mnemonic": "Picture Lurch, the tall butler in The Addams Family, staggering stiffly and unevenly.",
+          "synonyms": [
+            "stagger",
+            "pitch",
+            "sway"
+          ],
+          "antonyms": [
+            "glide",
+            "steady",
+            "stabilize"
+          ]
+        },
+        {
+          "id": "gre-lumber",
+          "word": "lumber",
+          "partOfSpeech": "verb",
+          "definition": "To move heavily and awkwardly, as if weighed down.",
+          "example": "The bear lumbered across the clearing, its bulk swaying with each step.",
+          "mnemonic": "Imagine hauling a heavy load of lumber (timber) that slows you to a clumsy walk.",
+          "synonyms": [
+            "trudge",
+            "plod",
+            "clump"
+          ],
+          "antonyms": [
+            "dart",
+            "glide",
+            "scamper"
+          ]
+        },
+        {
+          "id": "gre-trudge",
+          "word": "trudge",
+          "partOfSpeech": "verb",
+          "definition": "To walk slowly and wearily, with heavy, effortful steps.",
+          "example": "Soaked and exhausted, they trudged the last mile home through the mud.",
+          "mnemonic": "Trudge rhymes with 'sludge' — the heavy slog of walking through thick muck.",
+          "synonyms": [
+            "plod",
+            "slog",
+            "tramp"
+          ],
+          "antonyms": [
+            "skip",
+            "prance",
+            "dash"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-plod",
+          "word": "plod",
+          "partOfSpeech": "verb",
+          "definition": "To walk or work slowly and doggedly with heavy, deliberate steps.",
+          "example": "The old horse plodded along the lane, hooves thudding steadily in the dust.",
+          "mnemonic": "Say it aloud — the dull 'plod, plod' echoes the thud of tired, heavy feet.",
+          "synonyms": [
+            "trudge",
+            "lumber",
+            "slog"
+          ],
+          "antonyms": [
+            "sprint",
+            "race",
+            "dart"
+          ]
+        },
+        {
+          "id": "gre-scurry",
+          "word": "scurry",
+          "partOfSpeech": "verb",
+          "definition": "To move quickly with short, hurried steps.",
+          "example": "When the light flicked on, cockroaches scurried into the cracks in the wall.",
+          "mnemonic": "Scurry blends 'scared' and 'hurry' — hurrying away in a fright.",
+          "synonyms": [
+            "scamper",
+            "scuttle",
+            "dash"
+          ],
+          "antonyms": [
+            "saunter",
+            "amble",
+            "dawdle"
+          ]
+        },
+        {
+          "id": "gre-scamper",
+          "word": "scamper",
+          "partOfSpeech": "verb",
+          "definition": "To run nimbly and playfully with quick, light steps.",
+          "example": "The puppies scampered across the lawn, chasing one another in dizzy circles.",
+          "mnemonic": "Scamper sounds like 'scramble at camp' — happy kids darting lightly about.",
+          "synonyms": [
+            "scurry",
+            "scuttle",
+            "frolic"
+          ],
+          "antonyms": [
+            "trudge",
+            "plod",
+            "lumber"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-gambol",
+          "word": "gambol",
+          "partOfSpeech": "verb",
+          "definition": "To leap and skip around joyfully, especially in play.",
+          "example": "The lambs gamboled across the spring meadow, kicking up their heels in the sun.",
+          "mnemonic": "Sounds like 'gamble,' but here you're merrily skipping through a field — betting on pure fun.",
+          "synonyms": [
+            "frolic",
+            "romp",
+            "cavort"
+          ],
+          "antonyms": [
+            "trudge",
+            "plod"
+          ]
+        },
+        {
+          "id": "gre-caper",
+          "word": "caper",
+          "partOfSpeech": "verb",
+          "definition": "To jump or dance about in a lively, mischievous way.",
+          "example": "The children capered around the yard on the last day of school, too excited to sit still.",
+          "mnemonic": "A 'caper' is also a playful prank or heist — picture a jester capering as he pulls one off.",
+          "synonyms": [
+            "prance",
+            "frolic",
+            "cavort"
+          ],
+          "antonyms": [
+            "trudge",
+            "plod"
+          ]
+        },
+        {
+          "id": "gre-cavort",
+          "word": "cavort",
+          "partOfSpeech": "verb",
+          "definition": "To jump around excitedly or behave in a boisterous, playful manner.",
+          "example": "The puppies cavorted in the surf, splashing everyone within reach.",
+          "mnemonic": "'Ca-VORT' — imagine a whirling vortex of pure, spinning, playful energy.",
+          "synonyms": [
+            "frolic",
+            "romp",
+            "gambol"
+          ],
+          "antonyms": [
+            "mope",
+            "trudge"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-frolic",
+          "word": "frolic",
+          "partOfSpeech": "verb",
+          "definition": "To play and move about happily in a lively, carefree way.",
+          "example": "The lambs began to frolic across the meadow the moment the gate swung open.",
+          "mnemonic": "Sounds like 'fro-LICK' — picture a puppy with a bouncy afro licking your face as it romps around joyfully.",
+          "synonyms": [
+            "romp",
+            "cavort",
+            "gambol"
+          ],
+          "antonyms": [
+            "trudge",
+            "mope"
+          ]
+        },
+        {
+          "id": "gre-writhe",
+          "word": "writhe",
+          "partOfSpeech": "verb",
+          "definition": "To twist and turn the body sharply, often from pain or discomfort.",
+          "example": "He writhed on the floor after the wasp stung his ankle.",
+          "mnemonic": "Rhymes with 'scythe' — picture twisting your body away from a swinging blade.",
+          "synonyms": [
+            "squirm",
+            "thrash",
+            "contort"
+          ],
+          "antonyms": [
+            "relax",
+            "rest"
+          ]
+        },
+        {
+          "id": "gre-squirm",
+          "word": "squirm",
+          "partOfSpeech": "verb",
+          "definition": "To wriggle or twist restlessly, often from unease or embarrassment.",
+          "example": "The boy squirmed in his seat as the dentist reached for the drill.",
+          "mnemonic": "Sounds like 'worm' — picture a worm squishing and wriggling on a hook.",
+          "synonyms": [
+            "wriggle",
+            "writhe",
+            "fidget"
+          ],
+          "antonyms": [
+            "relax",
+            "settle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-undulate",
+          "word": "undulate",
+          "partOfSpeech": "verb",
+          "definition": "To move in smooth, flowing, wavelike patterns.",
+          "example": "The wheat field undulated as the breeze rolled steadily across it.",
+          "mnemonic": "From Latin 'unda' (wave) — think of gliding under the ocean's rolling waves.",
+          "synonyms": [
+            "ripple",
+            "roll",
+            "wave"
+          ],
+          "antonyms": [
+            "straighten"
+          ]
+        },
+        {
+          "id": "gre-oscillate",
+          "word": "oscillate",
+          "partOfSpeech": "verb",
+          "definition": "To swing steadily back and forth between two fixed points.",
+          "example": "The pendulum oscillated evenly, marking each second of the long night.",
+          "mnemonic": "A fan that 'oscillates' turns side to side — 'OSS-illate,' tick-tock, tick-tock.",
+          "synonyms": [
+            "swing",
+            "sway",
+            "fluctuate"
+          ],
+          "antonyms": [
+            "still"
+          ]
+        },
+        {
+          "id": "gre-teeter",
+          "word": "teeter",
+          "partOfSpeech": "verb",
+          "definition": "To move or balance unsteadily, as if about to fall.",
+          "example": "The stacked plates teetered at the edge of the table before she caught them.",
+          "mnemonic": "'Teeter-totter' — a seesaw tipping precariously up and down on its point.",
+          "synonyms": [
+            "wobble",
+            "totter",
+            "sway"
+          ],
+          "antonyms": [
+            "steady",
+            "balance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-totter",
+          "word": "totter",
+          "partOfSpeech": "verb",
+          "definition": "To walk or stand shakily, as if weak or about to collapse.",
+          "example": "The toddler tottered across the room and grabbed the sofa for support.",
+          "mnemonic": "'Totter' echoes 'toddler' — both wobble along on unsure, unsteady legs.",
+          "synonyms": [
+            "wobble",
+            "stagger",
+            "teeter"
+          ],
+          "antonyms": [
+            "stride",
+            "march"
+          ]
+        },
+        {
+          "id": "gre-stagger",
+          "word": "stagger",
+          "partOfSpeech": "verb",
+          "definition": "To walk unsteadily, lurching from side to side as if about to fall.",
+          "example": "Exhausted, the runner staggered the final steps and collapsed at the finish line.",
+          "mnemonic": "Picture a wounded 'stag' reeling sideways after a hard blow.",
+          "synonyms": [
+            "lurch",
+            "reel",
+            "totter"
+          ],
+          "antonyms": [
+            "stride",
+            "march"
+          ]
+        },
+        {
+          "id": "gre-flit",
+          "word": "flit",
+          "partOfSpeech": "verb",
+          "definition": "To move swiftly and lightly from one place to another.",
+          "example": "A hummingbird flitted between the blossoms, never pausing for more than a breath.",
+          "mnemonic": "'Flit' blends 'flutter' and 'flip' — a quick, light flick, like a moth by a lamp.",
+          "synonyms": [
+            "flutter",
+            "dart",
+            "flitter"
+          ],
+          "antonyms": [
+            "linger",
+            "plod"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-dart",
+          "word": "dart",
+          "partOfSpeech": "verb",
+          "definition": "To move suddenly and quickly in a particular direction.",
+          "example": "The mouse darted under the fridge the instant the kitchen light came on.",
+          "mnemonic": "A thrown 'dart' flies fast and straight — sudden, sharp, and quick.",
+          "synonyms": [
+            "dash",
+            "bolt",
+            "shoot"
+          ],
+          "antonyms": [
+            "amble",
+            "dawdle"
+          ]
+        },
+        {
+          "id": "gre-veer",
+          "word": "veer",
+          "partOfSpeech": "verb",
+          "definition": "To change direction suddenly, especially while moving.",
+          "example": "The driver veered hard to avoid the deer that leapt onto the road.",
+          "mnemonic": "'Veer' sounds like 'steer' — suddenly steering yourself off the original course.",
+          "synonyms": [
+            "swerve",
+            "turn",
+            "deviate"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-swerve",
+          "word": "swerve",
+          "partOfSpeech": "verb",
+          "definition": "To turn aside abruptly from a straight course.",
+          "example": "The cyclist swerved around the pothole at the very last second.",
+          "mnemonic": "'Swerve' — the S itself curves your path aside, just like the letter's shape.",
+          "synonyms": [
+            "veer",
+            "dodge",
+            "sheer"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-pivot",
+          "word": "pivot",
+          "partOfSpeech": "verb",
+          "definition": "To turn around a central point, or to shift strategy or direction sharply.",
+          "example": "When the restaurant failed, the owner decided to pivot toward a catering business.",
+          "mnemonic": "Picture a basketball player planting one foot as a 'pin' and swinging the rest of the body around it.",
+          "synonyms": [
+            "swivel",
+            "rotate",
+            "turn"
+          ],
+          "antonyms": [
+            "stay put",
+            "remain fixed"
+          ]
+        },
+        {
+          "id": "gre-gyrate",
+          "word": "gyrate",
+          "partOfSpeech": "verb",
+          "definition": "To spin or whirl rapidly around a center, often in a spiraling motion.",
+          "example": "The dancers began to gyrate wildly as the drums grew louder.",
+          "mnemonic": "Holds the root 'gyr-' (Greek for circle), the same spinning root found in gyroscope.",
+          "synonyms": [
+            "whirl",
+            "spin",
+            "revolve"
+          ],
+          "antonyms": [
+            "freeze",
+            "stand still"
+          ]
+        },
+        {
+          "id": "gre-eddy",
+          "word": "eddy",
+          "partOfSpeech": "noun",
+          "definition": "A small whirlpool or circular current running against the main flow of water or air.",
+          "example": "Fallen leaves spun in a little eddy where the stream curled behind the rock.",
+          "mnemonic": "Sounds like the name 'Eddie' — imagine Eddie caught spinning round and round above a bathtub drain.",
+          "synonyms": [
+            "whirlpool",
+            "vortex",
+            "swirl"
+          ],
+          "antonyms": [
+            "mainstream",
+            "straight current"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-swirl",
+          "word": "swirl",
+          "partOfSpeech": "verb",
+          "definition": "To move with a twisting, spiraling motion, or such a motion itself.",
+          "example": "She watched the cream swirl into her coffee in slow pale ribbons.",
+          "mnemonic": "Blend 'sway' + 'whirl' — a swaying whirl that loops as it turns.",
+          "synonyms": [
+            "twirl",
+            "whirl",
+            "eddy"
+          ],
+          "antonyms": [
+            "straighten"
+          ]
+        },
+        {
+          "id": "gre-churn",
+          "word": "churn",
+          "partOfSpeech": "verb",
+          "definition": "To stir or shake something violently, or to move about with restless turbulence.",
+          "example": "The ferry's propellers churned the harbor water into thick white foam.",
+          "mnemonic": "Think of an old butter churn — a bucket where a paddle beats the cream until it froths.",
+          "synonyms": [
+            "agitate",
+            "roil",
+            "stir"
+          ],
+          "antonyms": [
+            "settle",
+            "still"
+          ]
+        },
+        {
+          "id": "gre-roil",
+          "word": "roil",
+          "partOfSpeech": "verb",
+          "definition": "To stir up into turbulent, muddy motion, or to make someone deeply agitated.",
+          "example": "Storm winds roiled the sea until no boat dared leave the docks.",
+          "mnemonic": "Rhymes with 'boil' — boiling water tumbles and heaves in exactly this way.",
+          "synonyms": [
+            "churn",
+            "agitate",
+            "seethe"
+          ],
+          "antonyms": [
+            "calm",
+            "soothe"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-surge",
+          "word": "surge",
+          "partOfSpeech": "noun",
+          "definition": "A sudden strong rush forward or upward, like a powerful wave of motion or force.",
+          "example": "The crowd surged toward the stage the moment the band appeared.",
+          "mnemonic": "Hear 'urge' with an S in front — an overwhelming urge that shoves everything forward like a wave.",
+          "synonyms": [
+            "rush",
+            "swell",
+            "gush"
+          ],
+          "antonyms": [
+            "ebb",
+            "recede",
+            "dwindle"
+          ]
+        },
+        {
+          "id": "gre-billow",
+          "word": "billow",
+          "partOfSpeech": "verb",
+          "definition": "To swell outward and roll upward in great waves, as smoke, fabric, or sails do.",
+          "example": "Black smoke billowed from the factory windows and darkened the whole sky.",
+          "mnemonic": "Hides the word 'pillow' — picture a giant puffy pillow ballooning up in the wind.",
+          "synonyms": [
+            "swell",
+            "balloon",
+            "surge"
+          ],
+          "antonyms": [
+            "deflate",
+            "shrink"
+          ]
+        },
+        {
+          "id": "gre-gush",
+          "word": "gush",
+          "partOfSpeech": "verb",
+          "definition": "To pour out suddenly in a strong, heavy stream.",
+          "example": "Water gushed from the burst pipe and flooded the basement within minutes.",
+          "mnemonic": "The 'gsh' sound is the noise of liquid bursting out of a hose all at once.",
+          "synonyms": [
+            "spout",
+            "spurt",
+            "surge"
+          ],
+          "antonyms": [
+            "trickle",
+            "dribble",
+            "seep"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-propel",
+          "word": "propel",
+          "partOfSpeech": "verb",
+          "definition": "To push or drive something forward with force.",
+          "example": "The powerful jets propel the boat across the lake at astonishing speed.",
+          "mnemonic": "Sounds like 'pro-pel' — a PROpeller PELts you forward.",
+          "synonyms": [
+            "thrust",
+            "drive",
+            "push"
+          ],
+          "antonyms": [
+            "halt",
+            "stop",
+            "restrain"
+          ]
+        },
+        {
+          "id": "gre-impel",
+          "word": "impel",
+          "partOfSpeech": "verb",
+          "definition": "To urge or force someone toward an action by inner pressure.",
+          "example": "A deep sense of guilt can impel a person to confess the truth.",
+          "mnemonic": "'im-PEL' — an inner IMpulse PELs you into doing something.",
+          "synonyms": [
+            "compel",
+            "urge",
+            "spur"
+          ],
+          "antonyms": [
+            "deter",
+            "discourage",
+            "restrain"
+          ]
+        },
+        {
+          "id": "gre-hurtle",
+          "word": "hurtle",
+          "partOfSpeech": "verb",
+          "definition": "To move or be thrown at great, often reckless speed.",
+          "example": "The boulder broke loose and hurtled down the slope toward the sleeping village.",
+          "mnemonic": "Sounds like 'hurdle' taken at full sprint — go that fast and a crash would surely hurt.",
+          "synonyms": [
+            "rush",
+            "careen",
+            "plunge"
+          ],
+          "antonyms": [
+            "crawl",
+            "creep",
+            "dawdle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-catapult",
+          "word": "catapult",
+          "partOfSpeech": "verb",
+          "definition": "To launch or hurl suddenly with great force, or a device built to do so.",
+          "example": "The ejector seat catapulted the pilot clear of the burning jet.",
+          "mnemonic": "Picture a medieval catapult flinging a heavy boulder high over a castle wall.",
+          "synonyms": [
+            "hurl",
+            "launch",
+            "fling"
+          ],
+          "antonyms": [
+            "lower",
+            "ease down"
+          ]
+        },
+        {
+          "id": "gre-vault",
+          "word": "vault",
+          "partOfSpeech": "verb",
+          "definition": "To leap or spring over something, often by pushing off with the hands or a pole.",
+          "example": "The gymnast vaulted over the horse and stuck a flawless landing.",
+          "mnemonic": "Think of a pole-vaulter using a long pole to launch high into the air — that upward leap is the vault.",
+          "synonyms": [
+            "leap",
+            "spring",
+            "bound"
+          ],
+          "antonyms": [
+            "crawl",
+            "trudge"
+          ]
+        },
+        {
+          "id": "gre-lope",
+          "word": "lope",
+          "partOfSpeech": "verb",
+          "definition": "To run with a long, relaxed, easy stride.",
+          "example": "We watched the wolf lope across the meadow without any apparent hurry.",
+          "mnemonic": "Rhymes with 'slope' — imagine loping loosely down a gentle slope.",
+          "synonyms": [
+            "bound",
+            "canter",
+            "amble"
+          ],
+          "antonyms": [
+            "sprint",
+            "dash",
+            "scurry"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-canter",
+          "word": "canter",
+          "partOfSpeech": "verb",
+          "definition": "To ride a horse at a smooth pace faster than a trot but slower than a gallop.",
+          "example": "She let the mare canter across the open meadow before reining her in near the fence.",
+          "mnemonic": "Sounds like 'Canterbury' — Chaucer's pilgrims rode their horses at this easy, rocking pace toward Canterbury.",
+          "synonyms": [
+            "lope",
+            "trot",
+            "gallop"
+          ],
+          "antonyms": [
+            "walk",
+            "halt"
+          ]
+        },
+        {
+          "id": "gre-scud",
+          "word": "scud",
+          "partOfSpeech": "verb",
+          "definition": "To move swiftly and lightly, as clouds driven rapidly along by the wind.",
+          "example": "Dark clouds scudded across the sky as the storm swept in from the sea.",
+          "mnemonic": "A Scud missile streaks fast and low — clouds scud fast across the sky the same way.",
+          "synonyms": [
+            "race",
+            "skim",
+            "dart"
+          ],
+          "antonyms": [
+            "linger",
+            "crawl"
+          ]
+        },
+        {
+          "id": "gre-glide",
+          "word": "glide",
+          "partOfSpeech": "verb",
+          "definition": "To move smoothly and continuously without apparent effort or noise.",
+          "example": "The swan glided across the still lake, barely rippling the water.",
+          "mnemonic": "Glide rhymes with 'slide' — both are effortless, frictionless motion.",
+          "synonyms": [
+            "slide",
+            "sail",
+            "coast"
+          ],
+          "antonyms": [
+            "stumble",
+            "lurch"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-soar",
+          "word": "soar",
+          "partOfSpeech": "verb",
+          "definition": "To fly or rise high into the air, often smoothly and without effort.",
+          "example": "The eagle soared above the canyon, riding warm updrafts for hours.",
+          "mnemonic": "Soar sounds like 'sore' — birds fly so high your neck gets sore watching them.",
+          "synonyms": [
+            "ascend",
+            "climb",
+            "tower"
+          ],
+          "antonyms": [
+            "plummet",
+            "plunge",
+            "sink"
+          ]
+        },
+        {
+          "id": "gre-coast",
+          "word": "coast",
+          "partOfSpeech": "verb",
+          "definition": "To move along using existing momentum, without applying power or effort.",
+          "example": "He switched off the engine and let the car coast silently down the hill.",
+          "mnemonic": "Picture a bike coasting downhill along the coast — no pedaling needed.",
+          "synonyms": [
+            "freewheel",
+            "drift",
+            "glide"
+          ],
+          "antonyms": [
+            "pedal",
+            "propel",
+            "accelerate"
+          ]
+        },
+        {
+          "id": "gre-drift",
+          "word": "drift",
+          "partOfSpeech": "verb",
+          "definition": "To be carried along slowly by a current of water or air.",
+          "example": "The untethered boat drifted farther from shore with every passing wave.",
+          "mnemonic": "Snowdrifts pile up wherever the wind carries the snow — to drift is to be carried.",
+          "synonyms": [
+            "float",
+            "wander",
+            "coast"
+          ],
+          "antonyms": [
+            "steer",
+            "anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-waft",
+          "word": "waft",
+          "partOfSpeech": "verb",
+          "definition": "To carry or float gently through the air, as a smell or sound.",
+          "example": "The smell of fresh bread wafted from the bakery and filled the whole street.",
+          "mnemonic": "Waft is a soft puff — 'wahft' — a gentle breath carrying a scent along.",
+          "synonyms": [
+            "float",
+            "drift",
+            "blow"
+          ],
+          "antonyms": [
+            "sink",
+            "drop"
+          ]
+        },
+        {
+          "id": "gre-flutter",
+          "word": "flutter",
+          "partOfSpeech": "verb",
+          "definition": "To flap or wave quickly and lightly with small, irregular movements.",
+          "example": "The butterfly's wings fluttered as it settled on the bright flower.",
+          "mnemonic": "Flutter = flap + stutter: quick, stuttering little flaps of the wings.",
+          "synonyms": [
+            "flap",
+            "quiver",
+            "flit"
+          ],
+          "antonyms": [
+            "still",
+            "steady"
+          ]
+        },
+        {
+          "id": "gre-hover",
+          "word": "hover",
+          "partOfSpeech": "verb",
+          "definition": "To remain suspended in the air in one spot, without moving forward.",
+          "example": "The hummingbird hovered beside the feeder, its wings a blur.",
+          "mnemonic": "A hovercraft hangs just above the ground — to hover is to float in place.",
+          "synonyms": [
+            "float",
+            "hang",
+            "poise"
+          ],
+          "antonyms": [
+            "land",
+            "descend",
+            "settle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-levitate",
+          "word": "levitate",
+          "partOfSpeech": "verb",
+          "definition": "To rise and float in the air, seemingly defying gravity.",
+          "example": "The magician appeared to make his assistant levitate above the stage.",
+          "mnemonic": "Levitate holds Latin 'levis' (light) — light things rise into the air.",
+          "synonyms": [
+            "float",
+            "hover",
+            "rise"
+          ],
+          "antonyms": [
+            "sink",
+            "fall",
+            "drop"
+          ]
+        },
+        {
+          "id": "gre-plummet",
+          "word": "plummet",
+          "partOfSpeech": "verb",
+          "definition": "To fall straight down very fast, usually from a great height.",
+          "example": "The skydiver plummeted for several seconds before her parachute snapped open.",
+          "mnemonic": "Plummet hides 'plumb' — a plumb weight drops dead-straight down on its line.",
+          "synonyms": [
+            "plunge",
+            "drop",
+            "dive"
+          ],
+          "antonyms": [
+            "soar",
+            "rise",
+            "climb"
+          ]
+        },
+        {
+          "id": "gre-plunge",
+          "word": "plunge",
+          "partOfSpeech": "verb",
+          "definition": "To move, fall, or dive downward suddenly and forcefully.",
+          "example": "He took a breath and plunged into the icy river below the bridge.",
+          "mnemonic": "Plunge sounds like a plunger shoved down hard and fast into the water.",
+          "synonyms": [
+            "dive",
+            "plummet",
+            "drop"
+          ],
+          "antonyms": [
+            "surface",
+            "rise",
+            "emerge"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-clamber",
+          "word": "clamber",
+          "partOfSpeech": "verb",
+          "definition": "To climb something awkwardly or with difficulty, using both hands and feet.",
+          "example": "The children clambered over the fallen logs to reach the stream.",
+          "mnemonic": "Clamber = climb + a clumsy scramble — you clamber up a steep, rocky slope.",
+          "synonyms": [
+            "scramble",
+            "scale",
+            "clamp"
+          ],
+          "antonyms": [
+            "descend",
+            "slide"
+          ]
+        },
+        {
+          "id": "gre-traipse",
+          "word": "traipse",
+          "partOfSpeech": "verb",
+          "definition": "To walk somewhere on foot, often wearily, aimlessly, or reluctantly.",
+          "example": "We traipsed through three museums before my aching feet finally gave out.",
+          "mnemonic": "Traipse rhymes with 'trace' — you trace a long, tiring path on foot.",
+          "synonyms": [
+            "trudge",
+            "trek",
+            "tramp"
+          ],
+          "antonyms": [
+            "rest",
+            "stay"
+          ]
+        },
+        {
+          "id": "gre-roam",
+          "word": "roam",
+          "partOfSpeech": "verb",
+          "definition": "To wander freely over a wide area without a fixed destination.",
+          "example": "Wild horses roam the plains, grazing wherever the grass grows tall.",
+          "mnemonic": "Roam sounds like 'Rome' — 'when in Rome,' you wander the ancient streets freely.",
+          "synonyms": [
+            "wander",
+            "rove",
+            "ramble"
+          ],
+          "antonyms": [
+            "stay",
+            "settle",
+            "remain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-rove",
+          "word": "rove",
+          "partOfSpeech": "verb",
+          "definition": "To move about a wide area freely, with no fixed goal or destination.",
+          "example": "The old dog liked to rove the hills all afternoon before trotting home at dusk.",
+          "mnemonic": "A 'rover' is an explorer that roves — sounds like 'roam,' which is exactly what it does.",
+          "synonyms": [
+            "wander",
+            "roam",
+            "ramble"
+          ],
+          "antonyms": [
+            "settle",
+            "stay",
+            "remain"
+          ]
+        },
+        {
+          "id": "gre-migrate",
+          "word": "migrate",
+          "partOfSpeech": "verb",
+          "definition": "To relocate from one region to another, often with the change of seasons.",
+          "example": "Each autumn the geese migrate south to escape the coming cold.",
+          "mnemonic": "Root 'migr-' means to move — the same root as 'immigrant,' someone who moves to a new country.",
+          "synonyms": [
+            "relocate",
+            "resettle",
+            "journey"
+          ],
+          "antonyms": [
+            "stay",
+            "remain",
+            "settle"
+          ]
+        },
+        {
+          "id": "gre-shuttle",
+          "word": "shuttle",
+          "partOfSpeech": "verb",
+          "definition": "To travel repeatedly back and forth between two fixed points.",
+          "example": "A small bus shuttles guests between the hotel lobby and the airport all day.",
+          "mnemonic": "A weaving shuttle darts side to side, and a space shuttle goes up then comes back — always to-and-fro.",
+          "synonyms": [
+            "ferry",
+            "commute",
+            "transport"
+          ],
+          "antonyms": [
+            "stay",
+            "remain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-circulate",
+          "word": "circulate",
+          "partOfSpeech": "verb",
+          "definition": "To flow continuously around a system or space and come back to the start.",
+          "example": "Open the vents so fresh air can circulate through the stuffy room.",
+          "mnemonic": "Hidden inside is 'circle' — to circulate is to travel around in a circle.",
+          "synonyms": [
+            "flow",
+            "spread",
+            "distribute"
+          ],
+          "antonyms": [
+            "stagnate",
+            "pool",
+            "collect"
+          ]
+        },
+        {
+          "id": "gre-converge",
+          "word": "converge",
+          "partOfSpeech": "verb",
+          "definition": "To move toward and meet at a single point from different directions.",
+          "example": "The two mountain trails converge at a lookout above the valley.",
+          "mnemonic": "'Con-' (together) + 'verge' (to bend toward) — things bend together toward one spot.",
+          "synonyms": [
+            "meet",
+            "unite",
+            "merge"
+          ],
+          "antonyms": [
+            "diverge",
+            "separate",
+            "scatter"
+          ]
+        },
+        {
+          "id": "gre-gravitate",
+          "word": "gravitate",
+          "partOfSpeech": "verb",
+          "definition": "To be naturally drawn or pulled toward someone or something.",
+          "example": "At parties she always gravitates to the kitchen, where the food is.",
+          "mnemonic": "Think 'gravity' — you gravitate the way gravity pulls objects inward.",
+          "synonyms": [
+            "drift",
+            "incline",
+            "lean"
+          ],
+          "antonyms": [
+            "avoid",
+            "repel",
+            "shun"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-recoil",
+          "word": "recoil",
+          "partOfSpeech": "verb",
+          "definition": "To draw or spring back suddenly in fear, shock, or disgust.",
+          "example": "She recoiled when the spider dropped onto the table in front of her.",
+          "mnemonic": "'Re-coil' — a coiled spring snaps backward, just as a fired rifle kicks back.",
+          "synonyms": [
+            "flinch",
+            "shrink",
+            "retreat"
+          ],
+          "antonyms": [
+            "advance",
+            "approach",
+            "embrace"
+          ]
+        },
+        {
+          "id": "gre-decamp",
+          "word": "decamp",
+          "partOfSpeech": "verb",
+          "definition": "To depart suddenly or secretly from a place.",
+          "example": "By dawn the con artist had decamped, leaving only an unpaid bill.",
+          "mnemonic": "'De-camp' — break down your camp and clear out fast before anyone notices.",
+          "synonyms": [
+            "flee",
+            "abscond",
+            "bolt"
+          ],
+          "antonyms": [
+            "stay",
+            "remain",
+            "arrive"
+          ]
+        },
+        {
+          "id": "gre-static",
+          "word": "static",
+          "partOfSpeech": "adjective",
+          "definition": "Showing no movement, action, or change over a period of time.",
+          "example": "Sales stayed static all year, never climbing and never dropping.",
+          "mnemonic": "The 'static' on an old TV is a frozen, going-nowhere screen — think 'stay-tic.'",
+          "synonyms": [
+            "unchanging",
+            "fixed",
+            "stagnant"
+          ],
+          "antonyms": [
+            "dynamic",
+            "changing",
+            "active"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-stationary",
+          "word": "stationary",
+          "partOfSpeech": "adjective",
+          "definition": "Remaining in one spot; not in motion.",
+          "example": "The car sat stationary at the red light, its engine idling.",
+          "mnemonic": "StationAry with an 'a' means to stAy in place — a train station stays put.",
+          "synonyms": [
+            "motionless",
+            "fixed",
+            "still"
+          ],
+          "antonyms": [
+            "moving",
+            "mobile",
+            "traveling"
+          ]
+        },
+        {
+          "id": "gre-inertia",
+          "word": "inertia",
+          "partOfSpeech": "noun",
+          "definition": "The tendency to resist any change in one's motion or activity.",
+          "example": "Sheer inertia kept him at the same dull job for a decade.",
+          "mnemonic": "Cousin of 'inert' — a resting object won't get going on its own; that stubborn stillness is inertia.",
+          "synonyms": [
+            "sluggishness",
+            "stillness",
+            "apathy"
+          ],
+          "antonyms": [
+            "momentum",
+            "energy",
+            "motion"
+          ]
+        },
+        {
+          "id": "gre-immobile",
+          "word": "immobile",
+          "partOfSpeech": "adjective",
+          "definition": "Unable to move or be moved from a position.",
+          "example": "A heavy plaster cast kept her broken leg immobile for six weeks.",
+          "mnemonic": "'Im-' (not) + 'mobile' — literally not mobile.",
+          "synonyms": [
+            "motionless",
+            "fixed",
+            "stuck"
+          ],
+          "antonyms": [
+            "mobile",
+            "moving",
+            "movable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-immobilize",
+          "word": "immobilize",
+          "partOfSpeech": "verb",
+          "definition": "To prevent a person or thing from moving or being moved.",
+          "example": "Medics used a splint to immobilize the injured skier's ankle.",
+          "mnemonic": "'Im-' (not) + 'mobil(e)' + '-ize' (to make) — to make something not mobile.",
+          "synonyms": [
+            "fix",
+            "secure",
+            "pin"
+          ],
+          "antonyms": [
+            "release",
+            "free",
+            "mobilize"
+          ]
+        },
+        {
+          "id": "gre-dormant",
+          "word": "dormant",
+          "partOfSpeech": "adjective",
+          "definition": "Temporarily inactive, as though asleep, but able to wake and become active again.",
+          "example": "The volcano had lain dormant for centuries before it suddenly erupted.",
+          "mnemonic": "From French 'dormir,' to sleep — a dormant thing is snoozing in its 'dorm.'",
+          "synonyms": [
+            "inactive",
+            "latent",
+            "sleeping"
+          ],
+          "antonyms": [
+            "active",
+            "awake",
+            "erupting"
+          ]
+        },
+        {
+          "id": "gre-torpid",
+          "word": "torpid",
+          "partOfSpeech": "adjective",
+          "definition": "Physically or mentally slow, drowsy, and drained of all energy.",
+          "example": "The bear grew torpid as winter deepened, barely stirring in its den for weeks.",
+          "mnemonic": "Sounds like 'too-tired' — a torpid sloth is too tired to lift a paw.",
+          "synonyms": [
+            "sluggish",
+            "lethargic",
+            "dormant"
+          ],
+          "antonyms": [
+            "energetic",
+            "active",
+            "lively"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-torpor",
+          "word": "torpor",
+          "partOfSpeech": "noun",
+          "definition": "A state of deep inactivity, drowsiness, and dulled responsiveness.",
+          "example": "A heavy torpor settled over the class after lunch, and no one could keep their eyes open.",
+          "mnemonic": "'Tore-poor' — a body too poor in energy to move at all.",
+          "synonyms": [
+            "lethargy",
+            "sluggishness",
+            "drowsiness"
+          ],
+          "antonyms": [
+            "vigor",
+            "energy",
+            "alertness"
+          ]
+        },
+        {
+          "id": "gre-languish",
+          "word": "languish",
+          "partOfSpeech": "verb",
+          "definition": "To lose vitality or suffer neglect while wasting away over a long time.",
+          "example": "The unfinished novel languished in a drawer for a decade before anyone read it.",
+          "mnemonic": "Hear 'long anguish' — a slow, weakening, drawn-out anguish.",
+          "synonyms": [
+            "wither",
+            "weaken",
+            "fade"
+          ],
+          "antonyms": [
+            "flourish",
+            "thrive",
+            "prosper"
+          ]
+        },
+        {
+          "id": "gre-lethargic",
+          "word": "lethargic",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling sleepy, drained, and reluctant to move or make any effort.",
+          "example": "After the long flight she felt so lethargic she could barely lift her suitcase.",
+          "mnemonic": "From the mythical river Lethe of sleep and forgetting — 'Lethe-argic.'",
+          "synonyms": [
+            "sluggish",
+            "listless",
+            "drowsy"
+          ],
+          "antonyms": [
+            "energetic",
+            "vigorous",
+            "spry"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-listless",
+          "word": "listless",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking energy, enthusiasm, or any interest in doing something.",
+          "example": "The bored, listless teenager slumped on the couch, ignoring every suggestion for the afternoon.",
+          "mnemonic": "'List-less' — no list of things you feel like doing, so no drive to do anything.",
+          "synonyms": [
+            "apathetic",
+            "languid",
+            "indifferent"
+          ],
+          "antonyms": [
+            "energetic",
+            "eager",
+            "spirited"
+          ]
+        },
+        {
+          "id": "gre-sluggish",
+          "word": "sluggish",
+          "partOfSpeech": "adjective",
+          "definition": "Moving or reacting slowly, with little energy or quickness.",
+          "example": "Traffic was sluggish all morning, crawling forward a few feet at a time.",
+          "mnemonic": "Moving like a slug — slow, heavy, and slimy.",
+          "synonyms": [
+            "slow",
+            "torpid",
+            "lethargic"
+          ],
+          "antonyms": [
+            "brisk",
+            "quick",
+            "lively"
+          ]
+        },
+        {
+          "id": "gre-stagnate",
+          "word": "stagnate",
+          "partOfSpeech": "verb",
+          "definition": "To stop developing or progressing and become dull and inactive.",
+          "example": "Without new investment, the town's economy began to stagnate and young people left.",
+          "mnemonic": "'Stag' + 'wait' — a stag that just waits in one spot, never migrating.",
+          "synonyms": [
+            "languish",
+            "idle",
+            "stall"
+          ],
+          "antonyms": [
+            "progress",
+            "grow",
+            "advance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "gre-somnolent",
+          "word": "somnolent",
+          "partOfSpeech": "adjective",
+          "definition": "Sleepy and drowsy, or tending to bring on a desire to sleep.",
+          "example": "The warm afternoon and the droning lecture left the whole room somnolent.",
+          "mnemonic": "Latin 'somnus' = sleep (as in insomnia) — somnolent is full of sleep.",
+          "synonyms": [
+            "drowsy",
+            "sleepy",
+            "soporific"
+          ],
+          "antonyms": [
+            "alert",
+            "awake",
+            "wakeful"
+          ]
+        },
+        {
+          "id": "gre-repose",
+          "word": "repose",
+          "partOfSpeech": "noun",
+          "definition": "A state of restful stillness, relaxation, and peaceful ease.",
+          "example": "After the harvest, the farmer finally found a few weeks of quiet repose.",
+          "mnemonic": "'Re-pose' — to settle back into a relaxed pose and rest.",
+          "synonyms": [
+            "rest",
+            "tranquility",
+            "serenity"
+          ],
+          "antonyms": [
+            "activity",
+            "agitation",
+            "exertion"
+          ]
+        },
+        {
+          "id": "gre-becalm",
+          "word": "becalm",
+          "partOfSpeech": "verb",
+          "definition": "To leave a sailing vessel motionless for lack of wind.",
+          "example": "The schooner was becalmed for three days, its sails hanging limp under a windless sky.",
+          "mnemonic": "'Be' + 'calm' — to make the sea so dead-still a ship simply can't budge.",
+          "synonyms": [
+            "strand",
+            "still",
+            "halt"
+          ],
+          "antonyms": [
+            "propel",
+            "drive",
+            "stir"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "gre-moor",
+          "word": "moor",
+          "partOfSpeech": "verb",
+          "definition": "To secure a boat in place with ropes, cables, or an anchor.",
+          "example": "They moored the yacht to the dock and stepped ashore for dinner.",
+          "mnemonic": "Tie the boat so it can roam no 'moor' (more) — it's fixed to the dock.",
+          "synonyms": [
+            "anchor",
+            "dock",
+            "berth"
+          ],
+          "antonyms": [
+            "cast off",
+            "unmoor",
+            "release"
+          ]
+        },
+        {
+          "id": "gre-tether",
+          "word": "tether",
+          "partOfSpeech": "verb",
+          "definition": "To tie an animal or object to a fixed point, limiting how far it can move.",
+          "example": "He tethered the goat to a stake so it could graze only within a small circle.",
+          "mnemonic": "Sounds like 'tie-there' — you tie it there, to one spot.",
+          "synonyms": [
+            "tie",
+            "leash",
+            "fasten"
+          ],
+          "antonyms": [
+            "release",
+            "unleash",
+            "free"
+          ]
+        },
+        {
+          "id": "gre-peregrination",
+          "word": "peregrination",
+          "partOfSpeech": "noun",
+          "definition": "A long, wandering journey across many places, especially one taken on foot.",
+          "example": "After graduation, she funded a two-year peregrination through the villages of the Andes, sleeping wherever kindness offered a bed.",
+          "mnemonic": "Hear 'peregrine' — the peregrine falcon roams vast distances; a peregrination is your own far-flung roaming.",
+          "synonyms": [
+            "journey",
+            "odyssey",
+            "trek"
+          ],
+          "antonyms": [
+            "stay",
+            "sojourn",
+            "settlement"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "gre-celerity",
+          "word": "celerity",
+          "partOfSpeech": "noun",
+          "definition": "Great swiftness or quickness in movement or action.",
+          "example": "The paramedics responded with such celerity that they had the patient stabilized before the family even reached the door.",
+          "mnemonic": "Sounds like 'accelerate' — both share the Latin 'celer' (swift), so celerity is pure acceleration in a word.",
+          "synonyms": [
+            "swiftness",
+            "speed",
+            "rapidity"
+          ],
+          "antonyms": [
+            "slowness",
+            "sluggishness",
+            "delay"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Mid-frequency and academic register",
+  "createdAt": "2026-09-12T08:36:28.826Z"
+}

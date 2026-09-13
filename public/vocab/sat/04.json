@@ -1,0 +1,1722 @@
+{
+  "track": "sat",
+  "ordinal": 4,
+  "title": "Cause and effect",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-catalyst",
+          "word": "catalyst",
+          "partOfSpeech": "noun",
+          "definition": "An agent that triggers or speeds up a reaction or event while remaining unchanged itself.",
+          "example": "The factory closure was the catalyst for the town's slow economic decline.",
+          "mnemonic": "In chemistry a catalyst speeds a reaction — picture a 'cat' pouncing to set everything in motion.",
+          "synonyms": [
+            "spark",
+            "stimulus",
+            "trigger"
+          ],
+          "antonyms": [
+            "deterrent",
+            "inhibitor"
+          ]
+        },
+        {
+          "id": "sat-precipitate",
+          "word": "precipitate",
+          "partOfSpeech": "verb",
+          "definition": "To bring about an event abruptly or sooner than it would otherwise have occurred.",
+          "example": "A single careless remark precipitated a full-blown diplomatic crisis.",
+          "mnemonic": "Rain (precipitation) falls suddenly from clouds — to precipitate is to make something fall or happen suddenly.",
+          "synonyms": [
+            "trigger",
+            "hasten",
+            "provoke"
+          ],
+          "antonyms": [
+            "delay",
+            "prevent"
+          ]
+        },
+        {
+          "id": "sat-engender",
+          "word": "engender",
+          "partOfSpeech": "verb",
+          "definition": "To give rise to or bring into existence a feeling, condition, or situation.",
+          "example": "His steady honesty engendered trust among even his fiercest rivals.",
+          "mnemonic": "Root 'gen' means birth or create (as in 'generate', 'genesis') — to engender is to birth something into being.",
+          "synonyms": [
+            "generate",
+            "produce",
+            "breed"
+          ],
+          "antonyms": [
+            "suppress",
+            "stifle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-spawn",
+          "word": "spawn",
+          "partOfSpeech": "verb",
+          "definition": "To produce offspring or generate something, especially in large numbers.",
+          "example": "The hit movie spawned a dozen cheap imitations within a single year.",
+          "mnemonic": "Fish spawn thousands of eggs at once — spawn means to churn out many.",
+          "synonyms": [
+            "generate",
+            "breed",
+            "produce"
+          ],
+          "antonyms": [
+            "extinguish",
+            "eradicate"
+          ]
+        },
+        {
+          "id": "sat-provoke",
+          "word": "provoke",
+          "partOfSpeech": "verb",
+          "definition": "To deliberately stir someone into a strong reaction, often anger.",
+          "example": "She kept poking fun at him, clearly trying to provoke a fight.",
+          "mnemonic": "Think 'pro-poke' — you keep poking someone until they finally react.",
+          "synonyms": [
+            "goad",
+            "incite",
+            "irritate"
+          ],
+          "antonyms": [
+            "pacify",
+            "soothe"
+          ]
+        },
+        {
+          "id": "sat-incite",
+          "word": "incite",
+          "partOfSpeech": "verb",
+          "definition": "To urge or stir people toward violent or disorderly action.",
+          "example": "The speaker was arrested for inciting the crowd to riot.",
+          "mnemonic": "Incite sounds like 'ignite' — you set a crowd on fire to make it act.",
+          "synonyms": [
+            "instigate",
+            "provoke",
+            "foment"
+          ],
+          "antonyms": [
+            "quell",
+            "restrain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-instigate",
+          "word": "instigate",
+          "partOfSpeech": "verb",
+          "definition": "To set a harmful action or scheme in motion.",
+          "example": "Two students instigated the walkout that emptied every classroom by noon.",
+          "mnemonic": "In-STIG-ate: picture a 'stig' poking a fire with a stick to start trouble.",
+          "synonyms": [
+            "incite",
+            "provoke",
+            "foment"
+          ],
+          "antonyms": [
+            "halt",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-foment",
+          "word": "foment",
+          "partOfSpeech": "verb",
+          "definition": "To promote the growth of unrest, rebellion, or bad feeling.",
+          "example": "Foreign agents worked quietly to foment rebellion in the border provinces.",
+          "mnemonic": "Sounds like 'ferment' — foment stirs up unrest the way yeast bubbles and ferments.",
+          "synonyms": [
+            "incite",
+            "instigate",
+            "agitate"
+          ],
+          "antonyms": [
+            "quell",
+            "pacify"
+          ]
+        },
+        {
+          "id": "sat-kindle",
+          "word": "kindle",
+          "partOfSpeech": "verb",
+          "definition": "To set alight, or to awaken a feeling, interest, or passion.",
+          "example": "A single encouraging teacher kindled her lifelong love of physics.",
+          "mnemonic": "A Kindle e-reader lights up — kindle means to light a fire or spark a feeling.",
+          "synonyms": [
+            "ignite",
+            "spark",
+            "arouse"
+          ],
+          "antonyms": [
+            "extinguish",
+            "smother"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-spur",
+          "word": "spur",
+          "partOfSpeech": "verb",
+          "definition": "To urge someone or something onward to greater effort or action.",
+          "example": "The looming deadline spurred the team to finish in record time.",
+          "mnemonic": "Cowboy spurs dig into a horse to make it run faster — to spur is to urge on.",
+          "synonyms": [
+            "prompt",
+            "drive",
+            "goad"
+          ],
+          "antonyms": [
+            "hinder",
+            "discourage"
+          ]
+        },
+        {
+          "id": "sat-elicit",
+          "word": "elicit",
+          "partOfSpeech": "verb",
+          "definition": "To draw out a response, answer, or fact from someone.",
+          "example": "The comedian's dry jokes elicited roars of laughter from the audience.",
+          "mnemonic": "A detective 'e-licits' a confession — draws it out (not 'illicit', meaning illegal).",
+          "synonyms": [
+            "draw out",
+            "evoke",
+            "extract"
+          ],
+          "antonyms": [
+            "suppress",
+            "repress"
+          ]
+        },
+        {
+          "id": "sat-evoke",
+          "word": "evoke",
+          "partOfSpeech": "verb",
+          "definition": "To call a memory, image, or feeling to mind.",
+          "example": "The smell of pine needles evoked childhood Christmases at her grandmother's house.",
+          "mnemonic": "E + 'voke' (voice) — evoke 'calls out' a memory so the past seems to speak.",
+          "synonyms": [
+            "summon",
+            "conjure",
+            "recall"
+          ],
+          "antonyms": [
+            "suppress",
+            "stifle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-induce",
+          "word": "induce",
+          "partOfSpeech": "verb",
+          "definition": "To persuade someone to act, or to bring about a condition.",
+          "example": "No bribe could induce the guard to unlock the gate.",
+          "mnemonic": "In + 'duce' (to lead) — you lead someone into doing something; a doctor induces labor.",
+          "synonyms": [
+            "persuade",
+            "prompt",
+            "cause"
+          ],
+          "antonyms": [
+            "deter",
+            "prevent"
+          ]
+        },
+        {
+          "id": "sat-ensue",
+          "word": "ensue",
+          "partOfSpeech": "verb",
+          "definition": "To follow or occur afterward, especially as a consequence.",
+          "example": "He knocked over the candle, and chaos ensued within seconds.",
+          "mnemonic": "En + 'sue' — once you sue someone, a long process follows; it ensues.",
+          "synonyms": [
+            "follow",
+            "result",
+            "arise"
+          ],
+          "antonyms": [
+            "precede",
+            "cause"
+          ]
+        },
+        {
+          "id": "sat-culminate",
+          "word": "culminate",
+          "partOfSpeech": "verb",
+          "definition": "To reach a climax or final decisive point after a gradual buildup.",
+          "example": "Years of grueling training culminated in a gold medal at the Olympics.",
+          "mnemonic": "From Latin 'culmen', meaning summit — to culminate is to reach the peak of a mountain.",
+          "synonyms": [
+            "climax",
+            "peak",
+            "conclude"
+          ],
+          "antonyms": [
+            "begin",
+            "initiate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-entail",
+          "word": "entail",
+          "partOfSpeech": "verb",
+          "definition": "To involve or make necessary as a natural or unavoidable part of something.",
+          "example": "Adopting a puppy will entail early-morning walks and plenty of patience.",
+          "mnemonic": "Sounds like 'in-tail' — owning a dog comes attached to responsibilities, like the wagging tail is attached to the dog.",
+          "synonyms": [
+            "involve",
+            "require",
+            "necessitate"
+          ],
+          "antonyms": [
+            "exclude",
+            "preclude"
+          ]
+        },
+        {
+          "id": "sat-beget",
+          "word": "beget",
+          "partOfSpeech": "verb",
+          "definition": "To bring into existence, to cause, or to father a child.",
+          "example": "Violence tends to beget more violence, spiraling on until someone chooses to stop.",
+          "mnemonic": "Break it as 'be-get' — you 'be' the one who 'gets' you offspring or a result.",
+          "synonyms": [
+            "produce",
+            "generate",
+            "cause"
+          ],
+          "antonyms": [
+            "prevent",
+            "destroy"
+          ]
+        },
+        {
+          "id": "sat-yield",
+          "word": "yield",
+          "partOfSpeech": "verb",
+          "definition": "To produce or provide something as a product, profit, or result.",
+          "example": "The old apple tree can still yield a surprising number of fruit each autumn.",
+          "mnemonic": "Picture the red 'YIELD' road sign — you give way, handing something over to what follows.",
+          "synonyms": [
+            "produce",
+            "generate",
+            "provide"
+          ],
+          "antonyms": [
+            "withhold",
+            "resist"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-breed",
+          "word": "breed",
+          "partOfSpeech": "verb",
+          "definition": "To produce offspring, or to cause something to develop and spread.",
+          "example": "Neglect and boredom can breed resentment among even the most loyal employees.",
+          "mnemonic": "Rhymes with 'seed' — plant a seed and it multiplies, just as breeding makes more.",
+          "synonyms": [
+            "reproduce",
+            "generate",
+            "cultivate"
+          ],
+          "antonyms": [
+            "suppress",
+            "extinguish"
+          ]
+        },
+        {
+          "id": "sat-ramification",
+          "word": "ramification",
+          "partOfSpeech": "noun",
+          "definition": "A complicated or often unwelcome result that follows from an action or decision.",
+          "example": "The lawyers spent hours mapping every ramification of the merger before anyone signed.",
+          "mnemonic": "Root 'ram-' is Latin for branch (ramus) — effects branching out like limbs from a tree.",
+          "synonyms": [
+            "consequence",
+            "outcome",
+            "implication"
+          ],
+          "antonyms": [
+            "cause",
+            "source"
+          ]
+        },
+        {
+          "id": "sat-repercussion",
+          "word": "repercussion",
+          "partOfSpeech": "noun",
+          "definition": "An unintended, usually harmful effect that follows an event or action.",
+          "example": "He hadn't considered the repercussion of skipping the meeting until his boss called that night.",
+          "mnemonic": "Contains 'percuss' — like a drum's percussion, the hit of an action echoes and reverberates back.",
+          "synonyms": [
+            "aftereffect",
+            "consequence",
+            "backlash"
+          ],
+          "antonyms": [
+            "cause",
+            "origin"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-consequence",
+          "word": "consequence",
+          "partOfSpeech": "noun",
+          "definition": "A result or effect produced by an earlier action or condition.",
+          "example": "Missing the deadline had one clear consequence: the project lost its funding.",
+          "mnemonic": "Split as 'con-sequence' — what comes next in the sequence after something happens.",
+          "synonyms": [
+            "result",
+            "outcome",
+            "effect"
+          ],
+          "antonyms": [
+            "cause",
+            "origin"
+          ]
+        },
+        {
+          "id": "sat-aftermath",
+          "word": "aftermath",
+          "partOfSpeech": "noun",
+          "definition": "The situation or period following a significant, often destructive, event.",
+          "example": "In the aftermath of the flood, neighbors gathered to shovel mud from each other's homes.",
+          "mnemonic": "'after' + 'math' (an old word for a mowing) — the second growth left after the harvest is cut.",
+          "synonyms": [
+            "wake",
+            "fallout",
+            "consequences"
+          ],
+          "antonyms": [
+            "prelude",
+            "cause"
+          ]
+        },
+        {
+          "id": "sat-upshot",
+          "word": "upshot",
+          "partOfSpeech": "noun",
+          "definition": "The final result or conclusion of a series of events.",
+          "example": "They argued for weeks, but the upshot was that nobody changed their vote.",
+          "mnemonic": "Think of the deciding final 'up shot' in archery — the last arrow that settles the whole match.",
+          "synonyms": [
+            "result",
+            "outcome",
+            "conclusion"
+          ],
+          "antonyms": [
+            "cause",
+            "beginning"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-fallout",
+          "word": "fallout",
+          "partOfSpeech": "noun",
+          "definition": "The harmful side effects or results that follow an event or decision.",
+          "example": "The political fallout from the scandal cost three ministers their jobs within a month.",
+          "mnemonic": "Radioactive dust that 'falls out' of the sky after a blast — the damaging debris that settles afterward.",
+          "synonyms": [
+            "aftermath",
+            "repercussions",
+            "consequences"
+          ],
+          "antonyms": [
+            "cause",
+            "trigger"
+          ]
+        },
+        {
+          "id": "sat-backlash",
+          "word": "backlash",
+          "partOfSpeech": "noun",
+          "definition": "A strong, hostile public reaction against a decision, idea, or change.",
+          "example": "The company faced fierce backlash after removing the beloved feature overnight.",
+          "mnemonic": "A whip that 'lashes back' — the recoil that strikes the one who swung it.",
+          "synonyms": [
+            "reaction",
+            "resistance",
+            "uproar"
+          ],
+          "antonyms": [
+            "approval",
+            "support"
+          ]
+        },
+        {
+          "id": "sat-impetus",
+          "word": "impetus",
+          "partOfSpeech": "noun",
+          "definition": "A force or influence that makes something happen or move forward.",
+          "example": "Her sister's recovery gave her the impetus to finally start running again.",
+          "mnemonic": "Same root as 'impact' and 'impetuous' — a forceful push driving you into motion.",
+          "synonyms": [
+            "motivation",
+            "drive",
+            "spur"
+          ],
+          "antonyms": [
+            "deterrent",
+            "hindrance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-stimulus",
+          "word": "stimulus",
+          "partOfSpeech": "noun",
+          "definition": "Something that rouses activity, energy, or a response.",
+          "example": "A cup of strong coffee is the only stimulus that gets him talking before noon.",
+          "mnemonic": "Latin 'stimulus' was a pointed stick for prodding cattle — it pokes you into action.",
+          "synonyms": [
+            "incentive",
+            "spur",
+            "trigger"
+          ],
+          "antonyms": [
+            "deterrent",
+            "depressant"
+          ]
+        },
+        {
+          "id": "sat-determinant",
+          "word": "determinant",
+          "partOfSpeech": "noun",
+          "definition": "A factor that decides or strongly shapes how something turns out.",
+          "example": "Family income proved to be the single largest determinant of the students' test scores.",
+          "mnemonic": "Contains 'termin' (Latin terminus, an end or boundary) — it fixes where things end up.",
+          "synonyms": [
+            "factor",
+            "influence",
+            "cause"
+          ],
+          "antonyms": [
+            "consequence",
+            "result"
+          ]
+        },
+        {
+          "id": "sat-antecedent",
+          "word": "antecedent",
+          "partOfSpeech": "noun",
+          "definition": "A thing or event that comes before another and often leads to it.",
+          "example": "Historians see the long drought as the antecedent to the great migration that followed.",
+          "mnemonic": "'ante-' (before) + 'ced-' (go, as in precede) — literally that which goes before.",
+          "synonyms": [
+            "precursor",
+            "forerunner",
+            "predecessor"
+          ],
+          "antonyms": [
+            "consequence",
+            "sequel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-precursor",
+          "word": "precursor",
+          "partOfSpeech": "noun",
+          "definition": "Something that comes before and leads to the development of another thing.",
+          "example": "The clunky mechanical calculator was a precursor to the modern computer.",
+          "mnemonic": "Latin pre- (before) + cursor (runner) — the runner who goes ahead of the pack.",
+          "synonyms": [
+            "forerunner",
+            "predecessor",
+            "antecedent"
+          ],
+          "antonyms": [
+            "successor",
+            "descendant"
+          ]
+        },
+        {
+          "id": "sat-harbinger",
+          "word": "harbinger",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing that signals the approach of something about to happen.",
+          "example": "The first robin of spring is often seen as a harbinger of warmer days.",
+          "mnemonic": "Sounds like 'har-BRINGER' — the one who brings the news ahead of time.",
+          "synonyms": [
+            "herald",
+            "omen",
+            "forerunner"
+          ],
+          "antonyms": [
+            "aftermath",
+            "result"
+          ]
+        },
+        {
+          "id": "sat-portent",
+          "word": "portent",
+          "partOfSpeech": "noun",
+          "definition": "A sign or warning that something important, often bad, is likely to happen.",
+          "example": "The sudden darkening of the sky felt like a portent of the storm ahead.",
+          "mnemonic": "Sounds like 'PORT-tent' — a dark tent pitched at the harbor, ominous and looming.",
+          "synonyms": [
+            "omen",
+            "foreboding",
+            "augury"
+          ],
+          "antonyms": [
+            "reassurance",
+            "afterthought"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-herald",
+          "word": "herald",
+          "partOfSpeech": "verb",
+          "definition": "To announce or be a sign of something that is coming.",
+          "example": "Cheerful advertisements began to herald the launch of the new phone weeks early.",
+          "mnemonic": "A royal 'herald' blew a trumpet to announce the king — think headline news bearer.",
+          "synonyms": [
+            "announce",
+            "proclaim",
+            "signal"
+          ],
+          "antonyms": [
+            "conceal",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-causal",
+          "word": "causal",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to a relationship where one thing directly produces or brings about another.",
+          "example": "Researchers established a causal link between smoking and the rise in lung disease.",
+          "mnemonic": "Contains 'cause' — causal is the adjective for a genuine cause-and-effect tie.",
+          "synonyms": [
+            "contributory",
+            "originating"
+          ],
+          "antonyms": [
+            "coincidental",
+            "unrelated"
+          ]
+        },
+        {
+          "id": "sat-contingent",
+          "word": "contingent",
+          "partOfSpeech": "adjective",
+          "definition": "Depending on something else that is not yet certain to happen.",
+          "example": "Her promotion is contingent on the company meeting its sales targets this quarter.",
+          "mnemonic": "Think 'con-TINGE-ent' — the outcome is tinged by, and hangs on, another condition.",
+          "synonyms": [
+            "conditional",
+            "dependent",
+            "subject to"
+          ],
+          "antonyms": [
+            "unconditional",
+            "certain",
+            "absolute"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-correlate",
+          "word": "correlate",
+          "partOfSpeech": "verb",
+          "definition": "To have a mutual connection in which two things tend to change together.",
+          "example": "Studies show that hours of sleep closely correlate with students' test scores.",
+          "mnemonic": "co- (together) + 'relate' — two things relating together, moving in step.",
+          "synonyms": [
+            "associate",
+            "link",
+            "connect"
+          ],
+          "antonyms": [
+            "diverge",
+            "differ"
+          ]
+        },
+        {
+          "id": "sat-ascribe",
+          "word": "ascribe",
+          "partOfSpeech": "verb",
+          "definition": "To regard something as being caused by or belonging to a particular source.",
+          "example": "Critics ascribe the film's success to its unforgettable soundtrack rather than its plot.",
+          "mnemonic": "a- + 'scribe' (write) — you write a cause down against someone's name.",
+          "synonyms": [
+            "attribute",
+            "credit",
+            "assign"
+          ],
+          "antonyms": [
+            "dissociate",
+            "deny"
+          ]
+        },
+        {
+          "id": "sat-attribute",
+          "word": "attribute",
+          "partOfSpeech": "verb",
+          "definition": "To say that something was caused or created by a specific person or thing.",
+          "example": "Historians attribute the empire's collapse to years of unchecked corruption.",
+          "mnemonic": "at- + 'tribute' — you pay tribute to the source you say is responsible.",
+          "synonyms": [
+            "ascribe",
+            "credit",
+            "assign"
+          ],
+          "antonyms": [
+            "dissociate",
+            "detach"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-impute",
+          "word": "impute",
+          "partOfSpeech": "verb",
+          "definition": "To claim that someone is responsible for a fault or wrongdoing.",
+          "example": "The lawyer tried to impute the accident to the driver's carelessness, not the weather.",
+          "mnemonic": "Sounds like 'im-PUTE' — to 'put' blame onto someone unfairly.",
+          "synonyms": [
+            "blame",
+            "ascribe",
+            "pin on"
+          ],
+          "antonyms": [
+            "absolve",
+            "exonerate"
+          ]
+        },
+        {
+          "id": "sat-trigger",
+          "word": "trigger",
+          "partOfSpeech": "verb",
+          "definition": "To cause something to start or happen suddenly.",
+          "example": "A single careless spark can trigger a wildfire across the dry hills.",
+          "mnemonic": "Picture pulling a gun's trigger — one small pull sets off a big event.",
+          "synonyms": [
+            "set off",
+            "spark",
+            "initiate"
+          ],
+          "antonyms": [
+            "prevent",
+            "halt",
+            "suppress"
+          ]
+        },
+        {
+          "id": "sat-prompt",
+          "word": "prompt",
+          "partOfSpeech": "verb",
+          "definition": "To cause someone to take action or to make something occur.",
+          "example": "The rising ticket prices prompted many fans to watch the game from home.",
+          "mnemonic": "A theater 'prompter' whispers a cue that moves the actor to speak.",
+          "synonyms": [
+            "spur",
+            "induce",
+            "provoke"
+          ],
+          "antonyms": [
+            "discourage",
+            "deter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-generate",
+          "word": "generate",
+          "partOfSpeech": "verb",
+          "definition": "To produce or bring something into existence.",
+          "example": "The new turbines can generate enough electricity to power ten thousand homes.",
+          "mnemonic": "Shares a root with 'genesis' and 'generator' — the origin that makes things exist.",
+          "synonyms": [
+            "produce",
+            "create",
+            "yield"
+          ],
+          "antonyms": [
+            "destroy",
+            "consume",
+            "deplete"
+          ]
+        },
+        {
+          "id": "sat-mitigate",
+          "word": "mitigate",
+          "partOfSpeech": "verb",
+          "definition": "To make something harmful or unpleasant less severe.",
+          "example": "Planting trees along the riverbank helped mitigate the damage from seasonal floods.",
+          "mnemonic": "Sounds like 'mighty-gate' — a strong gate that softens the blow of a flood.",
+          "synonyms": [
+            "alleviate",
+            "lessen",
+            "ease"
+          ],
+          "antonyms": [
+            "aggravate",
+            "intensify",
+            "worsen"
+          ]
+        },
+        {
+          "id": "sat-exacerbate",
+          "word": "exacerbate",
+          "partOfSpeech": "verb",
+          "definition": "To make a bad situation, problem, or feeling worse.",
+          "example": "Ignoring the small leak only exacerbated the water damage in the basement.",
+          "mnemonic": "Think 'egg-zaggerate' — blowing a problem up bigger, making it worse.",
+          "synonyms": [
+            "aggravate",
+            "worsen",
+            "intensify"
+          ],
+          "antonyms": [
+            "alleviate",
+            "mitigate",
+            "ease"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-aggravate",
+          "word": "aggravate",
+          "partOfSpeech": "verb",
+          "definition": "To make a bad situation or condition more serious or severe.",
+          "example": "Scratching the rash will only aggravate it and slow the healing.",
+          "mnemonic": "Sounds like 'a grave' — make things bad enough and you're digging one.",
+          "synonyms": [
+            "worsen",
+            "exacerbate",
+            "compound"
+          ],
+          "antonyms": [
+            "alleviate",
+            "ease",
+            "soothe"
+          ]
+        },
+        {
+          "id": "sat-alleviate",
+          "word": "alleviate",
+          "partOfSpeech": "verb",
+          "definition": "To make pain or a problem less severe or easier to bear.",
+          "example": "A cold compress helped alleviate the swelling after her fall.",
+          "mnemonic": "Say 'a-LEV-iate' — 'lev' means light (Latin levis); it lightens your load.",
+          "synonyms": [
+            "ease",
+            "relieve",
+            "soothe"
+          ],
+          "antonyms": [
+            "aggravate",
+            "worsen",
+            "intensify"
+          ]
+        },
+        {
+          "id": "sat-ameliorate",
+          "word": "ameliorate",
+          "partOfSpeech": "verb",
+          "definition": "To make an unsatisfactory condition better or more tolerable.",
+          "example": "New drainage ameliorated the flooding that once ruined the low fields.",
+          "mnemonic": "Hear 'a-MEAL-iorate' — a good meal makes everything better; 'melior' is Latin for better.",
+          "synonyms": [
+            "improve",
+            "better",
+            "enhance"
+          ],
+          "antonyms": [
+            "worsen",
+            "aggravate",
+            "exacerbate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-compound",
+          "word": "compound",
+          "partOfSpeech": "verb",
+          "definition": "To make a difficulty worse by adding further problems to it.",
+          "example": "Missing the deadline compounded the team's already mounting troubles.",
+          "mnemonic": "A chemical compound piles parts together — here you pile more onto a mess.",
+          "synonyms": [
+            "worsen",
+            "aggravate",
+            "exacerbate"
+          ],
+          "antonyms": [
+            "alleviate",
+            "ease",
+            "lessen"
+          ]
+        },
+        {
+          "id": "sat-amplify",
+          "word": "amplify",
+          "partOfSpeech": "verb",
+          "definition": "To increase the strength, size, or impact of something.",
+          "example": "The stadium speakers amplified the singer's voice across the whole crowd.",
+          "mnemonic": "An 'amp' (amplifier) makes sound bigger — add amps to anything.",
+          "synonyms": [
+            "boost",
+            "magnify",
+            "heighten"
+          ],
+          "antonyms": [
+            "reduce",
+            "diminish",
+            "dampen"
+          ]
+        },
+        {
+          "id": "sat-magnify",
+          "word": "magnify",
+          "partOfSpeech": "verb",
+          "definition": "To make an object appear larger, or to increase the degree of something.",
+          "example": "Under the lens, the magnified cells revealed tiny hidden structures.",
+          "mnemonic": "A magnifying glass makes things huge; 'magn' is Latin for great or large.",
+          "synonyms": [
+            "enlarge",
+            "amplify",
+            "intensify"
+          ],
+          "antonyms": [
+            "diminish",
+            "reduce",
+            "shrink"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-intensify",
+          "word": "intensify",
+          "partOfSpeech": "verb",
+          "definition": "To make something stronger, more extreme, or more concentrated.",
+          "example": "The storm intensified overnight and uprooted trees by dawn.",
+          "mnemonic": "Break it to 'in-tense' — muscles grow tense as pressure keeps building.",
+          "synonyms": [
+            "heighten",
+            "strengthen",
+            "escalate"
+          ],
+          "antonyms": [
+            "diminish",
+            "weaken",
+            "ease"
+          ]
+        },
+        {
+          "id": "sat-diminish",
+          "word": "diminish",
+          "partOfSpeech": "verb",
+          "definition": "To make or become smaller, weaker, or less in amount.",
+          "example": "Her fears diminished as the plane leveled off and the ride smoothed out.",
+          "mnemonic": "Hear 'mini' inside it — something is being shrunk to mini size.",
+          "synonyms": [
+            "decrease",
+            "lessen",
+            "dwindle"
+          ],
+          "antonyms": [
+            "increase",
+            "amplify",
+            "augment"
+          ]
+        },
+        {
+          "id": "sat-curtail",
+          "word": "curtail",
+          "partOfSpeech": "verb",
+          "definition": "To cut short or reduce the extent, amount, or duration of something.",
+          "example": "Budget cuts forced the library to curtail its weekend hours.",
+          "mnemonic": "'Curt' + 'tail' — cut the tail off to make it short and curt.",
+          "synonyms": [
+            "reduce",
+            "trim",
+            "cut back"
+          ],
+          "antonyms": [
+            "extend",
+            "expand",
+            "increase"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-hinder",
+          "word": "hinder",
+          "partOfSpeech": "verb",
+          "definition": "To make progress or action slow or difficult.",
+          "example": "Thick fog hindered the rescue team's climb up the ridge.",
+          "mnemonic": "Sounds like 'hind' (behind) — it holds you back and keeps you behind.",
+          "synonyms": [
+            "hamper",
+            "impede",
+            "obstruct"
+          ],
+          "antonyms": [
+            "help",
+            "aid",
+            "facilitate"
+          ]
+        },
+        {
+          "id": "sat-impede",
+          "word": "impede",
+          "partOfSpeech": "verb",
+          "definition": "To slow or block the movement or progress of something.",
+          "example": "Debris on the tracks impeded the train for over an hour.",
+          "mnemonic": "Contains 'pede' = foot (Latin) — something grabs your feet and slows you.",
+          "synonyms": [
+            "obstruct",
+            "hinder",
+            "block"
+          ],
+          "antonyms": [
+            "aid",
+            "assist",
+            "advance"
+          ]
+        },
+        {
+          "id": "sat-hamper",
+          "word": "hamper",
+          "partOfSpeech": "verb",
+          "definition": "To restrict or interfere with someone's freedom to move or act.",
+          "example": "A heavy backpack hampered his sprint to the finish line.",
+          "mnemonic": "Picture a laundry hamper strapped to your legs — it holds you back.",
+          "synonyms": [
+            "hinder",
+            "impede",
+            "encumber"
+          ],
+          "antonyms": [
+            "help",
+            "assist",
+            "facilitate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-thwart",
+          "word": "thwart",
+          "partOfSpeech": "verb",
+          "definition": "To prevent someone from accomplishing a plan or purpose.",
+          "example": "Alert guards thwarted the thieves before they reached the vault.",
+          "mnemonic": "Sounds like 'thwack!' — a blow that stops a scheme dead in its tracks.",
+          "synonyms": [
+            "foil",
+            "frustrate",
+            "block"
+          ],
+          "antonyms": [
+            "assist",
+            "enable",
+            "facilitate"
+          ]
+        },
+        {
+          "id": "sat-stifle",
+          "word": "stifle",
+          "partOfSpeech": "verb",
+          "definition": "To hold back, smother, or keep something from being expressed.",
+          "example": "She stifled a yawn during the long, dull lecture.",
+          "mnemonic": "Sounds like 'stuffy' — a stuffy, airless room smothers you.",
+          "synonyms": [
+            "smother",
+            "suppress",
+            "muffle"
+          ],
+          "antonyms": [
+            "release",
+            "encourage",
+            "vent"
+          ]
+        },
+        {
+          "id": "sat-suppress",
+          "word": "suppress",
+          "partOfSpeech": "verb",
+          "definition": "To forcibly restrain, put down, or keep something from being expressed.",
+          "example": "The regime tried to suppress every report of the protest.",
+          "mnemonic": "'Sub' (down) + 'press' — press it down and hold it under.",
+          "synonyms": [
+            "quell",
+            "subdue",
+            "restrain"
+          ],
+          "antonyms": [
+            "encourage",
+            "incite",
+            "release"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-quell",
+          "word": "quell",
+          "partOfSpeech": "verb",
+          "definition": "To stop or suppress something, especially unrest or a strong emotion.",
+          "example": "The mayor called in officers to quell the riot before it spread downtown.",
+          "mnemonic": "Sounds like 'quench' — you quell a rebellion the way you quench a fire.",
+          "synonyms": [
+            "suppress",
+            "squash",
+            "stifle"
+          ],
+          "antonyms": [
+            "incite",
+            "provoke"
+          ]
+        },
+        {
+          "id": "sat-subdue",
+          "word": "subdue",
+          "partOfSpeech": "verb",
+          "definition": "To bring under control, often by force or authority.",
+          "example": "It took three guards to subdue the struggling suspect.",
+          "mnemonic": "'sub' (under) + 'due' — force someone under, and they are now 'sub-dued'.",
+          "synonyms": [
+            "overpower",
+            "conquer",
+            "quell"
+          ],
+          "antonyms": [
+            "liberate",
+            "incite"
+          ]
+        },
+        {
+          "id": "sat-avert",
+          "word": "avert",
+          "partOfSpeech": "verb",
+          "definition": "To prevent something bad from happening, or to turn away.",
+          "example": "Quick thinking by the pilot averted a mid-air collision.",
+          "mnemonic": "a-VERT sounds like 'divert' — you divert the danger away.",
+          "synonyms": [
+            "prevent",
+            "avoid",
+            "ward off"
+          ],
+          "antonyms": [
+            "cause",
+            "provoke"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-forestall",
+          "word": "forestall",
+          "partOfSpeech": "verb",
+          "definition": "To prevent something by taking action ahead of time.",
+          "example": "She paid the invoice early to forestall any late fees.",
+          "mnemonic": "'fore' (before) + 'stall' — you stall it before it can even start.",
+          "synonyms": [
+            "preempt",
+            "thwart",
+            "avert"
+          ],
+          "antonyms": [
+            "encourage",
+            "permit"
+          ]
+        },
+        {
+          "id": "sat-preclude",
+          "word": "preclude",
+          "partOfSpeech": "verb",
+          "definition": "To make something impossible or shut it out in advance.",
+          "example": "A serious criminal record may preclude you from many government jobs.",
+          "mnemonic": "'pre' (before) + 'clude' (close) — the door is closed before you arrive.",
+          "synonyms": [
+            "prevent",
+            "prohibit",
+            "rule out"
+          ],
+          "antonyms": [
+            "allow",
+            "permit"
+          ]
+        },
+        {
+          "id": "sat-deter",
+          "word": "deter",
+          "partOfSpeech": "verb",
+          "definition": "To discourage someone from acting, usually through fear of consequences.",
+          "example": "Bright porch lights can deter burglars from approaching a house.",
+          "mnemonic": "Hidden in 'deterrent' — picture a 'detour' sign that scares you off the road.",
+          "synonyms": [
+            "discourage",
+            "dissuade",
+            "put off"
+          ],
+          "antonyms": [
+            "encourage",
+            "motivate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "sat-dissuade",
+          "word": "dissuade",
+          "partOfSpeech": "verb",
+          "definition": "To talk someone out of doing something.",
+          "example": "Her friends tried to dissuade her from quitting such a stable job.",
+          "mnemonic": "'dis' (opposite) + 'suade' (persuade) — literally the opposite of persuade.",
+          "synonyms": [
+            "discourage",
+            "deter",
+            "warn off"
+          ],
+          "antonyms": [
+            "persuade",
+            "encourage"
+          ]
+        },
+        {
+          "id": "sat-galvanize",
+          "word": "galvanize",
+          "partOfSpeech": "verb",
+          "definition": "To shock or excite people into taking sudden action.",
+          "example": "The tragedy galvanized the neighborhood into forming a nightly safety patrol.",
+          "mnemonic": "Galvani jolted frog legs with electricity — to galvanize is to jolt a crowd into motion.",
+          "synonyms": [
+            "spur",
+            "rouse",
+            "energize"
+          ],
+          "antonyms": [
+            "discourage",
+            "deaden"
+          ]
+        },
+        {
+          "id": "sat-propel",
+          "word": "propel",
+          "partOfSpeech": "verb",
+          "definition": "To push or drive something forward.",
+          "example": "A strong tailwind propelled the little sailboat across the bay.",
+          "mnemonic": "Think 'propeller' — a propeller pushes a plane forward.",
+          "synonyms": [
+            "thrust",
+            "drive",
+            "push"
+          ],
+          "antonyms": [
+            "halt",
+            "hold back"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "sat-proliferate",
+          "word": "proliferate",
+          "partOfSpeech": "verb",
+          "definition": "To increase rapidly and spread in great numbers.",
+          "example": "Coffee shops have proliferated on nearly every corner of the city.",
+          "mnemonic": "Contains 'prolific' — a prolific breeder produces offspring that multiply fast.",
+          "synonyms": [
+            "multiply",
+            "mushroom",
+            "spread"
+          ],
+          "antonyms": [
+            "dwindle",
+            "decrease"
+          ]
+        },
+        {
+          "id": "sat-burgeon",
+          "word": "burgeon",
+          "partOfSpeech": "verb",
+          "definition": "To begin to grow or expand quickly and flourish.",
+          "example": "Her weekend side hustle burgeoned into a full-time business within a year.",
+          "mnemonic": "Sounds like 'bulge on' — a bud that bulges outward and bursts into bloom.",
+          "synonyms": [
+            "flourish",
+            "mushroom",
+            "boom"
+          ],
+          "antonyms": [
+            "shrink",
+            "wither"
+          ]
+        },
+        {
+          "id": "sat-escalate",
+          "word": "escalate",
+          "partOfSpeech": "verb",
+          "definition": "To increase rapidly in intensity, size, or seriousness.",
+          "example": "A minor disagreement over parking quickly escalated into a shouting match.",
+          "mnemonic": "Think 'escalator' — it carries things steadily upward.",
+          "synonyms": [
+            "intensify",
+            "heighten",
+            "mount"
+          ],
+          "antonyms": [
+            "de-escalate",
+            "diminish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "sat-wane",
+          "word": "wane",
+          "partOfSpeech": "verb",
+          "definition": "To gradually decrease in strength, size, or intensity.",
+          "example": "As the long night wore on, my enthusiasm for the party began to wane.",
+          "mnemonic": "The moon wanes — picture 'wan', pale fading light growing thinner.",
+          "synonyms": [
+            "diminish",
+            "fade",
+            "ebb"
+          ],
+          "antonyms": [
+            "wax",
+            "grow"
+          ]
+        },
+        {
+          "id": "sat-dwindle",
+          "word": "dwindle",
+          "partOfSpeech": "verb",
+          "definition": "To become steadily smaller in size or amount.",
+          "example": "Their savings dwindled after months without any steady work.",
+          "mnemonic": "Sounds like 'whittle down' — whittling a stick smaller and smaller.",
+          "synonyms": [
+            "shrink",
+            "diminish",
+            "decrease"
+          ],
+          "antonyms": [
+            "grow",
+            "increase"
+          ]
+        },
+        {
+          "id": "sat-abate",
+          "word": "abate",
+          "partOfSpeech": "verb",
+          "definition": "To become less intense, or to reduce in amount.",
+          "example": "We huddled on the porch until the storm finally abated.",
+          "mnemonic": "Related to 'bated breath' — bring the intensity down, hold it back.",
+          "synonyms": [
+            "subside",
+            "lessen",
+            "ebb"
+          ],
+          "antonyms": [
+            "intensify",
+            "increase"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "sat-subside",
+          "word": "subside",
+          "partOfSpeech": "verb",
+          "definition": "To grow calmer or settle to a lower level after a period of intensity.",
+          "example": "After the storm passed, the floodwaters slowly began to subside.",
+          "mnemonic": "sub- (down) + -side: picture things sinking DOWN and settling to the SIDE until they're quiet.",
+          "synonyms": [
+            "abate",
+            "recede",
+            "diminish"
+          ],
+          "antonyms": [
+            "intensify",
+            "surge",
+            "rise"
+          ]
+        },
+        {
+          "id": "sat-dissipate",
+          "word": "dissipate",
+          "partOfSpeech": "verb",
+          "definition": "To scatter or fade away until nothing is left.",
+          "example": "The crowd's excitement dissipated once the band canceled the encore.",
+          "mnemonic": "Sounds like 'dizzy-pate' — a dizzy head whose thoughts scatter and drift off in every direction.",
+          "synonyms": [
+            "disperse",
+            "scatter",
+            "evaporate"
+          ],
+          "antonyms": [
+            "gather",
+            "concentrate",
+            "accumulate"
+          ]
+        },
+        {
+          "id": "sat-accrue",
+          "word": "accrue",
+          "partOfSpeech": "verb",
+          "definition": "To build up gradually over time, especially interest or benefits.",
+          "example": "By leaving the deposit untouched, she let years of interest accrue in the account.",
+          "mnemonic": "Sounds like 'a crew' — a crew that keeps growing as more members steadily sign on.",
+          "synonyms": [
+            "accumulate",
+            "mount",
+            "gather"
+          ],
+          "antonyms": [
+            "dwindle",
+            "diminish",
+            "decrease"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "sat-accumulate",
+          "word": "accumulate",
+          "partOfSpeech": "verb",
+          "definition": "To gather a growing quantity of something over a stretch of time.",
+          "example": "Dust tends to accumulate on shelves that no one ever bothers to clean.",
+          "mnemonic": "ac-CUMULO-late: think of cumulus clouds piling higher and heavier in the sky.",
+          "synonyms": [
+            "amass",
+            "stockpile",
+            "gather"
+          ],
+          "antonyms": [
+            "disperse",
+            "scatter",
+            "dissipate"
+          ]
+        },
+        {
+          "id": "sat-compel",
+          "word": "compel",
+          "partOfSpeech": "verb",
+          "definition": "To force someone into an action through pressure or authority.",
+          "example": "The judge can compel a reluctant witness to testify by issuing a subpoena.",
+          "mnemonic": "com- + Latin 'pellere' (to push): someone is pushed completely into doing it.",
+          "synonyms": [
+            "force",
+            "oblige",
+            "pressure"
+          ],
+          "antonyms": [
+            "deter",
+            "dissuade",
+            "prevent"
+          ]
+        },
+        {
+          "id": "sat-coerce",
+          "word": "coerce",
+          "partOfSpeech": "verb",
+          "definition": "To make someone act by using threats or intimidation.",
+          "example": "The gang tried to coerce local shop owners into paying for 'protection.'",
+          "mnemonic": "Hear 'co-ERASE' — a bully threatening to ERASE you unless you give in.",
+          "synonyms": [
+            "intimidate",
+            "bully",
+            "pressure"
+          ],
+          "antonyms": [
+            "persuade",
+            "coax",
+            "cajole"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "sat-constrain",
+          "word": "constrain",
+          "partOfSpeech": "verb",
+          "definition": "To hold back or restrict within fixed limits.",
+          "example": "A tight budget constrained the team to only the most essential purchases.",
+          "mnemonic": "con- + STRAIN: imagine a chain that STRAINS tight and keeps you from moving.",
+          "synonyms": [
+            "restrict",
+            "confine",
+            "limit"
+          ],
+          "antonyms": [
+            "free",
+            "liberate",
+            "release"
+          ]
+        },
+        {
+          "id": "sat-necessitate",
+          "word": "necessitate",
+          "partOfSpeech": "verb",
+          "definition": "To make something required or unavoidable.",
+          "example": "The sudden pipe leak necessitated an emergency call to the plumber.",
+          "mnemonic": "Root is 'necessity' — the thing turns an option into a must-do.",
+          "synonyms": [
+            "require",
+            "demand",
+            "entail"
+          ],
+          "antonyms": [
+            "prevent",
+            "preclude"
+          ]
+        },
+        {
+          "id": "sat-facilitate",
+          "word": "facilitate",
+          "partOfSpeech": "verb",
+          "definition": "To make a process easier or help it run smoothly.",
+          "example": "A skilled moderator can facilitate the debate so even quiet members get heard.",
+          "mnemonic": "From Latin 'facilis' (easy — same root as 'facile'): you smooth the way.",
+          "synonyms": [
+            "ease",
+            "streamline",
+            "aid"
+          ],
+          "antonyms": [
+            "hinder",
+            "obstruct",
+            "impede"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "sat-enable",
+          "word": "enable",
+          "partOfSpeech": "verb",
+          "definition": "To give someone the means or opportunity to do something.",
+          "example": "A generous scholarship enabled her to attend college without any debt.",
+          "mnemonic": "en- + ABLE: literally to make someone ABLE to act.",
+          "synonyms": [
+            "empower",
+            "allow",
+            "permit"
+          ],
+          "antonyms": [
+            "prevent",
+            "disable",
+            "block"
+          ]
+        },
+        {
+          "id": "sat-hasten",
+          "word": "hasten",
+          "partOfSpeech": "verb",
+          "definition": "To move quickly or cause something to happen sooner.",
+          "example": "She hastened to the platform, terrified of missing the last train home.",
+          "mnemonic": "HASTE + -en: to add haste to something.",
+          "synonyms": [
+            "hurry",
+            "quicken",
+            "rush"
+          ],
+          "antonyms": [
+            "delay",
+            "dawdle",
+            "slow"
+          ]
+        },
+        {
+          "id": "sat-accelerate",
+          "word": "accelerate",
+          "partOfSpeech": "verb",
+          "definition": "To increase speed or make something progress faster.",
+          "example": "The driver accelerated the moment the traffic light turned green.",
+          "mnemonic": "The ACCELERATOR pedal in a car — press it and everything speeds up.",
+          "synonyms": [
+            "quicken",
+            "speed up",
+            "hasten"
+          ],
+          "antonyms": [
+            "decelerate",
+            "slow",
+            "brake"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "words": [
+        {
+          "id": "sat-expedite",
+          "word": "expedite",
+          "partOfSpeech": "verb",
+          "definition": "To speed up the progress of a task or process.",
+          "example": "For an extra fee, the agency will expedite your passport application.",
+          "mnemonic": "Latin ex-ped (free the feet): unshackle the feet so a job races ahead — like EXPRESS delivery.",
+          "synonyms": [
+            "hasten",
+            "fast-track",
+            "accelerate"
+          ],
+          "antonyms": [
+            "delay",
+            "hinder",
+            "slow"
+          ]
+        },
+        {
+          "id": "sat-protract",
+          "word": "protract",
+          "partOfSpeech": "verb",
+          "definition": "To draw something out so it lasts much longer than needed.",
+          "example": "The lawyers protracted the trial with endless motions and objections.",
+          "mnemonic": "pro- + TRACT (to pull/drag): like a TRACTOR dragging something out far longer.",
+          "synonyms": [
+            "prolong",
+            "extend",
+            "drag out"
+          ],
+          "antonyms": [
+            "shorten",
+            "curtail",
+            "abbreviate"
+          ]
+        },
+        {
+          "id": "sat-prolong",
+          "word": "prolong",
+          "partOfSpeech": "verb",
+          "definition": "To make something continue for a greater span of time.",
+          "example": "They prolonged their vacation by an extra week when the weather stayed warm.",
+          "mnemonic": "pro- + LONG: to stretch something out and make it LONGer.",
+          "synonyms": [
+            "extend",
+            "lengthen",
+            "protract"
+          ],
+          "antonyms": [
+            "shorten",
+            "curtail",
+            "abridge"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:02:05.647Z"
+}

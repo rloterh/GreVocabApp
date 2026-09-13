@@ -11,8 +11,9 @@ import { parseVocabMonth } from "@/lib/vocabulary";
 import type { VocabMonth } from "@/types";
 
 const MONTH: VocabMonth = {
-  month: "2026-04",
-  displayName: "April 2026",
+  track: "gre",
+  ordinal: 1,
+  title: "April 2026",
   description: "A shared deck",
   days: [
     {
@@ -64,8 +65,9 @@ describe("round trip", () => {
   it("returns the deck it was given", async () => {
     const decoded = await decodeDeck(await encodeDeck(MONTH));
     expect(decoded).toEqual({
-      month: "2026-04",
-      displayName: "April 2026",
+      track: "gre",
+      ordinal: 1,
+      title: "April 2026",
       description: "A shared deck",
       days: MONTH.days,
       author: undefined,
@@ -83,8 +85,9 @@ describe("round trip", () => {
   it("survives a big deck without blowing the stack", async () => {
     // toBase64Url chunks its input for exactly this reason.
     const big: VocabMonth = {
-      month: "2026-05",
-      displayName: "May 2026",
+      track: "gre",
+      ordinal: 2,
+      title: "May 2026",
       days: Array.from({ length: 30 }, (_, d) => ({
         day: d + 1,
         words: Array.from({ length: 3 }, (_, w) => ({
@@ -131,8 +134,9 @@ describe("the blob itself", () => {
     expect(Object.keys(decoded).sort()).toEqual([
       "days",
       "description",
-      "displayName",
-      "month",
+      "ordinal",
+      "title",
+      "track",
     ]);
   });
 });

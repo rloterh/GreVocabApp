@@ -124,3 +124,15 @@ function shuffle<T>(items: readonly T[], seed: number): T[] {
   }
   return result;
 }
+
+/**
+ * Seeded Fisher–Yates, exported.
+ *
+ * The schedule shuffles months and redistributes words with the same
+ * generator, so that "shuffled" means one thing in this app and a given seed
+ * reproduces a layout exactly — across reloads and across devices.
+ * See docs/SCHEDULE.md.
+ */
+export function seededShuffle<T>(items: readonly T[], seed: number): T[] {
+  return shuffle(items, seed);
+}

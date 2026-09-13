@@ -1,0 +1,927 @@
+{
+  "track": "sat",
+  "ordinal": 18,
+  "title": "Conflict and cooperation",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-foreshadow",
+          "word": "foreshadow",
+          "partOfSpeech": "verb",
+          "definition": "To hint at or suggest a future event before it happens.",
+          "example": "The dark clouds gathering over the harbor seemed to foreshadow the disaster to come.",
+          "mnemonic": "fore- (before) + shadow: a shadow thrown ahead of the thing that casts it, warning of what's coming.",
+          "synonyms": [
+            "presage",
+            "portend",
+            "augur"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-negate",
+          "word": "negate",
+          "partOfSpeech": "verb",
+          "definition": "To cancel out or make something ineffective.",
+          "example": "One careless error can negate hours of painstaking work.",
+          "mnemonic": "Sounds like 'negative' — you turn a thing into nothing, a firm NO to it.",
+          "synonyms": [
+            "nullify",
+            "cancel",
+            "invalidate"
+          ],
+          "antonyms": [
+            "affirm",
+            "confirm",
+            "validate"
+          ]
+        },
+        {
+          "id": "sat-objection",
+          "word": "objection",
+          "partOfSpeech": "noun",
+          "definition": "A statement of disagreement or disapproval about something.",
+          "example": "The lawyer sprang up and raised an objection before the witness could answer.",
+          "mnemonic": "Picture the courtroom shout — 'Objection!' — thrown up to block what you don't like.",
+          "synonyms": [
+            "protest",
+            "complaint",
+            "opposition"
+          ],
+          "antonyms": [
+            "agreement",
+            "approval",
+            "assent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-adversarial",
+          "word": "adversarial",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by hostility or opposition between two sides.",
+          "example": "The two rival attorneys had an adversarial relationship, fighting over every point.",
+          "mnemonic": "Hear 'adverse' + 'versus' inside it — you are set against an opponent.",
+          "synonyms": [
+            "hostile",
+            "opposing",
+            "antagonistic"
+          ],
+          "antonyms": [
+            "cooperative",
+            "friendly",
+            "collaborative"
+          ]
+        },
+        {
+          "id": "sat-quarrelsome",
+          "word": "quarrelsome",
+          "partOfSpeech": "adjective",
+          "definition": "Inclined to argue or start fights over small matters.",
+          "example": "Her quarrelsome uncle picked a fight at every family dinner.",
+          "mnemonic": "quarrel + some: someone full of quarrels, always spoiling for a squabble.",
+          "synonyms": [
+            "argumentative",
+            "combative",
+            "contentious"
+          ],
+          "antonyms": [
+            "agreeable",
+            "peaceable",
+            "easygoing"
+          ]
+        },
+        {
+          "id": "sat-clash",
+          "word": "clash",
+          "partOfSpeech": "noun",
+          "definition": "A violent confrontation or sharp disagreement between opposing groups.",
+          "example": "A brief but bloody clash erupted between the protesters and the riot police.",
+          "mnemonic": "The sound of two cymbals slammed together — CLASH! — metal against metal.",
+          "synonyms": [
+            "conflict",
+            "collision",
+            "confrontation"
+          ],
+          "antonyms": [
+            "harmony",
+            "agreement",
+            "accord"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-feud",
+          "word": "feud",
+          "partOfSpeech": "noun",
+          "definition": "A long and bitter dispute between two people or groups.",
+          "example": "The two families had been locked in a feud for three generations.",
+          "mnemonic": "Rhymes with 'brood' — a grudge people brood over bitterly for years.",
+          "synonyms": [
+            "vendetta",
+            "quarrel",
+            "dispute"
+          ],
+          "antonyms": [
+            "reconciliation",
+            "peace",
+            "friendship"
+          ]
+        },
+        {
+          "id": "sat-strife",
+          "word": "strife",
+          "partOfSpeech": "noun",
+          "definition": "Bitter conflict or fighting between people.",
+          "example": "Years of political strife left the country exhausted and divided.",
+          "mnemonic": "Sounds like 'strive' — but here people struggle against each other, not toward a shared goal.",
+          "synonyms": [
+            "conflict",
+            "discord",
+            "contention"
+          ],
+          "antonyms": [
+            "peace",
+            "harmony",
+            "concord"
+          ]
+        },
+        {
+          "id": "sat-discord",
+          "word": "discord",
+          "partOfSpeech": "noun",
+          "definition": "A lack of agreement or harmony among people.",
+          "example": "Money troubles sowed discord among the once-close siblings.",
+          "mnemonic": "dis- (apart) + cord (chord): musical notes pulled apart, clashing out of tune.",
+          "synonyms": [
+            "disagreement",
+            "friction",
+            "dissension"
+          ],
+          "antonyms": [
+            "harmony",
+            "accord",
+            "concord"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-dissension",
+          "word": "dissension",
+          "partOfSpeech": "noun",
+          "definition": "Strong disagreement within a group that causes division.",
+          "example": "Dissension among the board members delayed every important decision.",
+          "mnemonic": "Contains 'dissent' — voices splitting a group into opposing camps.",
+          "synonyms": [
+            "discord",
+            "disagreement",
+            "conflict"
+          ],
+          "antonyms": [
+            "agreement",
+            "unity",
+            "consensus"
+          ]
+        },
+        {
+          "id": "sat-friction",
+          "word": "friction",
+          "partOfSpeech": "noun",
+          "definition": "Tension or conflict between people who differ.",
+          "example": "There was constant friction between the new manager and her veteran staff.",
+          "mnemonic": "Like rubbing two rough surfaces — the heat and resistance when personalities grind together.",
+          "synonyms": [
+            "tension",
+            "discord",
+            "conflict"
+          ],
+          "antonyms": [
+            "harmony",
+            "agreement",
+            "cooperation"
+          ]
+        },
+        {
+          "id": "sat-animosity",
+          "word": "animosity",
+          "partOfSpeech": "noun",
+          "definition": "Strong hostility or ill will toward another person.",
+          "example": "Despite the polite handshake, you could feel the animosity between the two candidates.",
+          "mnemonic": "Say it as 'an enemy' — the venom you carry for one.",
+          "synonyms": [
+            "hostility",
+            "hatred",
+            "antagonism"
+          ],
+          "antonyms": [
+            "friendship",
+            "goodwill",
+            "affection"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-antagonism",
+          "word": "antagonism",
+          "partOfSpeech": "noun",
+          "definition": "Open hostility or active opposition toward someone.",
+          "example": "The antagonism between the rival gangs finally erupted into street fighting.",
+          "mnemonic": "Contains 'antagonist' — the villain who opposes the hero at every turn.",
+          "synonyms": [
+            "hostility",
+            "opposition",
+            "animosity"
+          ],
+          "antonyms": [
+            "cooperation",
+            "friendship",
+            "support"
+          ]
+        },
+        {
+          "id": "sat-enmity",
+          "word": "enmity",
+          "partOfSpeech": "noun",
+          "definition": "A deep and bitter hatred, especially toward a rival.",
+          "example": "Long-standing enmity between the neighboring tribes made any peace nearly impossible.",
+          "mnemonic": "Hear 'enemy' inside it — enmity is the hatred you hold for one.",
+          "synonyms": [
+            "hostility",
+            "hatred",
+            "animosity"
+          ],
+          "antonyms": [
+            "friendship",
+            "amity",
+            "goodwill"
+          ]
+        },
+        {
+          "id": "sat-rancor",
+          "word": "rancor",
+          "partOfSpeech": "noun",
+          "definition": "Bitter, long-lasting resentment or ill feeling.",
+          "example": "She spoke about her former business partner without a trace of rancor.",
+          "mnemonic": "Sounds like 'rank' — bitterness gone rank and rotten, festering over time.",
+          "synonyms": [
+            "bitterness",
+            "resentment",
+            "spite"
+          ],
+          "antonyms": [
+            "goodwill",
+            "amiability",
+            "forgiveness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-acrimony",
+          "word": "acrimony",
+          "partOfSpeech": "noun",
+          "definition": "Bitter sharpness or harshness in how people speak to or feel about each other.",
+          "example": "What began as a polite debate soon filled with acrimony, and the two lawyers could barely look at each other.",
+          "mnemonic": "Sounds like 'acrid' + 'money' — picture an acrid, bitter fight over money.",
+          "synonyms": [
+            "bitterness",
+            "rancor",
+            "hostility"
+          ],
+          "antonyms": [
+            "goodwill",
+            "warmth"
+          ]
+        },
+        {
+          "id": "sat-altercation",
+          "word": "altercation",
+          "partOfSpeech": "noun",
+          "definition": "A heated, often noisy argument or confrontation between people.",
+          "example": "Security guards rushed over when a loud altercation broke out between two fans near the exit.",
+          "mnemonic": "'Alter' — an altercation alters a calm room into a shouting match.",
+          "synonyms": [
+            "dispute",
+            "row",
+            "confrontation"
+          ],
+          "antonyms": [
+            "agreement",
+            "accord"
+          ]
+        },
+        {
+          "id": "sat-skirmish",
+          "word": "skirmish",
+          "partOfSpeech": "noun",
+          "definition": "A brief, minor clash between small groups or opposing sides.",
+          "example": "Before the main battle, scouts from both armies met in a quick skirmish along the river.",
+          "mnemonic": "'Skirt' the edge — a small fight at the skirts, or edges, of a bigger conflict.",
+          "synonyms": [
+            "clash",
+            "scuffle",
+            "brush"
+          ],
+          "antonyms": [
+            "truce",
+            "peace"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-quarrel",
+          "word": "quarrel",
+          "partOfSpeech": "noun",
+          "definition": "An angry disagreement, usually between people who know each other well.",
+          "example": "The sisters had a bitter quarrel over who would inherit their grandmother's house.",
+          "mnemonic": "Sounds like 'squirrel' — picture two squirrels squabbling loudly over one nut.",
+          "synonyms": [
+            "argument",
+            "dispute",
+            "spat"
+          ],
+          "antonyms": [
+            "agreement",
+            "harmony"
+          ]
+        },
+        {
+          "id": "sat-wrangle",
+          "word": "wrangle",
+          "partOfSpeech": "verb",
+          "definition": "To argue or dispute in a long, angry, and complicated way.",
+          "example": "Lawmakers continued to wrangle over the budget for weeks, and nothing got passed.",
+          "mnemonic": "Rhymes with 'tangle' — a wrangle is a messy, tangled argument you can't easily end.",
+          "synonyms": [
+            "bicker",
+            "squabble",
+            "dispute"
+          ],
+          "antonyms": [
+            "agree",
+            "concur"
+          ]
+        },
+        {
+          "id": "sat-rivalry",
+          "word": "rivalry",
+          "partOfSpeech": "noun",
+          "definition": "Ongoing competition between people or groups each trying to outdo the other.",
+          "example": "The rivalry between the two tech companies pushed both to release better phones every year.",
+          "mnemonic": "From 'rival' — picture two rivers racing side by side to reach the sea first.",
+          "synonyms": [
+            "competition",
+            "contention",
+            "antagonism"
+          ],
+          "antonyms": [
+            "cooperation",
+            "partnership"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-vendetta",
+          "word": "vendetta",
+          "partOfSpeech": "noun",
+          "definition": "A long, bitter feud driven by a craving for revenge between families or groups.",
+          "example": "The two clans had carried on their vendetta for generations, each death demanding another.",
+          "mnemonic": "Think of the film 'V for Vendetta' — a masked man on a lifelong mission of revenge.",
+          "synonyms": [
+            "feud",
+            "blood feud",
+            "revenge campaign"
+          ],
+          "antonyms": [
+            "reconciliation",
+            "truce"
+          ]
+        },
+        {
+          "id": "sat-grudge",
+          "word": "grudge",
+          "partOfSpeech": "noun",
+          "definition": "A lingering feeling of anger held because of a past insult or wrong.",
+          "example": "Even years later, he still held a grudge against the coach who benched him.",
+          "mnemonic": "Sounds like 'grungy' — an old, grimy feeling you refuse to wash away.",
+          "synonyms": [
+            "resentment",
+            "bitterness",
+            "rancor"
+          ],
+          "antonyms": [
+            "forgiveness",
+            "goodwill"
+          ]
+        },
+        {
+          "id": "sat-resentment",
+          "word": "resentment",
+          "partOfSpeech": "noun",
+          "definition": "Bitter anger at being treated unfairly that lingers quietly inside a person.",
+          "example": "Her resentment grew each time a less qualified coworker was promoted ahead of her.",
+          "mnemonic": "'Re-sent' — the hurt keeps getting re-sent back to your mind, over and over.",
+          "synonyms": [
+            "bitterness",
+            "indignation",
+            "rancor"
+          ],
+          "antonyms": [
+            "contentment",
+            "gratitude"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-spite",
+          "word": "spite",
+          "partOfSpeech": "noun",
+          "definition": "A mean desire to hurt, annoy, or upset another person.",
+          "example": "Out of pure spite, he gave away the concert tickets rather than let his ex have them.",
+          "mnemonic": "Sounds like 'spit' — picture someone spitting at a rival just to wound them.",
+          "synonyms": [
+            "malevolence",
+            "meanness",
+            "venom"
+          ],
+          "antonyms": [
+            "kindness",
+            "goodwill"
+          ]
+        },
+        {
+          "id": "sat-malice",
+          "word": "malice",
+          "partOfSpeech": "noun",
+          "definition": "The intention or desire to cause harm or suffering to someone.",
+          "example": "The judge ruled the comment was careless, not made with any real malice.",
+          "mnemonic": "'Mal-' means bad (malfunction, malaria) — malice is simply a bad, harm-wishing heart.",
+          "synonyms": [
+            "ill will",
+            "spite",
+            "malevolence"
+          ],
+          "antonyms": [
+            "benevolence",
+            "kindness"
+          ]
+        },
+        {
+          "id": "sat-retaliate",
+          "word": "retaliate",
+          "partOfSpeech": "verb",
+          "definition": "To hit back at someone who has harmed you, returning the injury.",
+          "example": "When the country raised tariffs, its trading partner retaliated with tariffs of its own.",
+          "mnemonic": "From Latin 'talis' (like for like) — the same root as 'an eye for an eye'.",
+          "synonyms": [
+            "reciprocate",
+            "strike back",
+            "hit back"
+          ],
+          "antonyms": [
+            "forgive",
+            "pardon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-reprisal",
+          "word": "reprisal",
+          "partOfSpeech": "noun",
+          "definition": "An act of striking back to punish an enemy for something they did.",
+          "example": "Fearing reprisal, the whistleblower asked to keep her name out of the report.",
+          "mnemonic": "'Re-prize' — you seize back a prize as payback for a wrong done to you.",
+          "synonyms": [
+            "retaliation",
+            "revenge",
+            "counterattack"
+          ],
+          "antonyms": [
+            "forgiveness",
+            "clemency"
+          ]
+        },
+        {
+          "id": "sat-avenge",
+          "word": "avenge",
+          "partOfSpeech": "verb",
+          "definition": "To punish or win justice for a wrong done to yourself or another.",
+          "example": "The knight swore he would avenge his murdered brother before the year was out.",
+          "mnemonic": "Think 'Avengers' — heroes who set out to avenge wrongs done to the world.",
+          "synonyms": [
+            "vindicate",
+            "requite",
+            "pay back"
+          ],
+          "antonyms": [
+            "forgive",
+            "pardon"
+          ]
+        },
+        {
+          "id": "sat-inflame",
+          "word": "inflame",
+          "partOfSpeech": "verb",
+          "definition": "To stir up strong feelings or make a tense situation much worse.",
+          "example": "His careless remarks only inflamed the crowd, and the protest turned violent within minutes.",
+          "mnemonic": "'In' + 'flame' — to set emotions on fire, feeding fuel to a blaze.",
+          "synonyms": [
+            "provoke",
+            "incite",
+            "aggravate"
+          ],
+          "antonyms": [
+            "calm",
+            "soothe",
+            "pacify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-harmonize",
+          "word": "harmonize",
+          "partOfSpeech": "verb",
+          "definition": "To combine or adjust separate parts so they work together agreeably.",
+          "example": "The designer worked to harmonize the bold wallpaper with the antique furniture.",
+          "mnemonic": "Hear 'harmony' inside it — picture a choir tuning until every voice blends into one chord.",
+          "synonyms": [
+            "reconcile",
+            "blend",
+            "coordinate"
+          ],
+          "antonyms": [
+            "clash",
+            "conflict"
+          ]
+        },
+        {
+          "id": "sat-coalesce",
+          "word": "coalesce",
+          "partOfSpeech": "verb",
+          "definition": "To merge or unite into a single whole.",
+          "example": "The scattered protest groups gradually coalesced into one national movement.",
+          "mnemonic": "Sounds like 'co-a-less' — many pieces become 'less' by fusing into one.",
+          "synonyms": [
+            "merge",
+            "unite",
+            "fuse"
+          ],
+          "antonyms": [
+            "separate",
+            "disperse",
+            "split"
+          ]
+        },
+        {
+          "id": "sat-collaborate",
+          "word": "collaborate",
+          "partOfSpeech": "verb",
+          "definition": "To work together with others toward a shared goal.",
+          "example": "The two novelists decided to collaborate on a single detective series.",
+          "mnemonic": "'Co-' (together) + Latin 'labor' (work) — laboring side by side.",
+          "synonyms": [
+            "cooperate",
+            "team up",
+            "partner"
+          ],
+          "antonyms": [
+            "compete",
+            "obstruct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-concord",
+          "word": "concord",
+          "partOfSpeech": "noun",
+          "definition": "A state of peaceful agreement and friendly relations.",
+          "example": "After years of border disputes, the two nations finally reached lasting concord.",
+          "mnemonic": "'Con-' (with) + 'cord' — two hearts tied together by the same cord.",
+          "synonyms": [
+            "harmony",
+            "accord",
+            "agreement"
+          ],
+          "antonyms": [
+            "discord",
+            "conflict"
+          ]
+        },
+        {
+          "id": "sat-amity",
+          "word": "amity",
+          "partOfSpeech": "noun",
+          "definition": "A feeling of friendship and goodwill between people or nations.",
+          "example": "Decades of open trade fostered a deep amity between the neighboring towns.",
+          "mnemonic": "From Latin 'amicus' (friend); think 'a mighty friendship.'",
+          "synonyms": [
+            "friendship",
+            "goodwill",
+            "harmony"
+          ],
+          "antonyms": [
+            "hostility",
+            "animosity",
+            "enmity"
+          ]
+        },
+        {
+          "id": "sat-amicable",
+          "word": "amicable",
+          "partOfSpeech": "adjective",
+          "definition": "Marked by friendliness and a lack of hostility.",
+          "example": "Despite the divorce, they kept an amicable arrangement for the children's sake.",
+          "mnemonic": "Root 'amic' (Latin friend) — an 'amigo'-cable keeps the connection friendly.",
+          "synonyms": [
+            "friendly",
+            "cordial",
+            "congenial"
+          ],
+          "antonyms": [
+            "hostile",
+            "antagonistic"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-concur",
+          "word": "concur",
+          "partOfSpeech": "verb",
+          "definition": "To share the same opinion; to agree.",
+          "example": "The other doctors concur with her diagnosis after reviewing the scans.",
+          "mnemonic": "'Con-' (with) + 'cur' (from currere, to run) — minds running together.",
+          "synonyms": [
+            "agree",
+            "assent",
+            "accord"
+          ],
+          "antonyms": [
+            "disagree",
+            "dissent"
+          ]
+        },
+        {
+          "id": "sat-assent",
+          "word": "assent",
+          "partOfSpeech": "noun",
+          "definition": "Agreement or approval given to a proposal or request.",
+          "example": "The committee nodded in assent when the new budget was proposed.",
+          "mnemonic": "Sounds like 'ascent' — you rise up in favor of the idea.",
+          "synonyms": [
+            "agreement",
+            "approval",
+            "consent"
+          ],
+          "antonyms": [
+            "dissent",
+            "refusal",
+            "objection"
+          ]
+        },
+        {
+          "id": "sat-amenable",
+          "word": "amenable",
+          "partOfSpeech": "adjective",
+          "definition": "Open and willing to accept suggestions or cooperate.",
+          "example": "The manager was amenable to shifting the deadline once she heard our reasons.",
+          "mnemonic": "'A-MEN-able' — so agreeable you say 'amen' to whatever is suggested.",
+          "synonyms": [
+            "agreeable",
+            "cooperative",
+            "receptive"
+          ],
+          "antonyms": [
+            "resistant",
+            "uncooperative",
+            "stubborn"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-rapport",
+          "word": "rapport",
+          "partOfSpeech": "noun",
+          "definition": "A close relationship in which people understand each other well.",
+          "example": "The therapist built a strong rapport with her nervous new client.",
+          "mnemonic": "Sounds like 'rah-por' — a good 'report' flowing between two people (French for connection).",
+          "synonyms": [
+            "connection",
+            "bond",
+            "understanding"
+          ],
+          "antonyms": [
+            "discord",
+            "disconnection"
+          ]
+        },
+        {
+          "id": "sat-schism",
+          "word": "schism",
+          "partOfSpeech": "noun",
+          "definition": "A sharp division or split within a group or organization.",
+          "example": "A bitter doctrinal dispute caused a schism that fractured the ancient church.",
+          "mnemonic": "Say 'SIZ-um' — picture scissors slicing one group into two.",
+          "synonyms": [
+            "split",
+            "division",
+            "rift"
+          ],
+          "antonyms": [
+            "union",
+            "unity",
+            "agreement"
+          ]
+        },
+        {
+          "id": "sat-rift",
+          "word": "rift",
+          "partOfSpeech": "noun",
+          "definition": "A serious break in friendly relations, or a crack in something.",
+          "example": "A bitter inheritance dispute opened a rift between the two brothers.",
+          "mnemonic": "Sounds like 'ripped' — a bond ripped apart leaves a rift.",
+          "synonyms": [
+            "breach",
+            "split",
+            "division"
+          ],
+          "antonyms": [
+            "reconciliation",
+            "bond"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-breach",
+          "word": "breach",
+          "partOfSpeech": "noun",
+          "definition": "A break in a wall, relationship, or agreement.",
+          "example": "Leaking the confidential files was a serious breach of the company's trust.",
+          "mnemonic": "Sounds like 'break' — waves break a gap through the sea wall.",
+          "synonyms": [
+            "violation",
+            "rupture",
+            "break"
+          ],
+          "antonyms": [
+            "observance",
+            "compliance",
+            "adherence"
+          ]
+        },
+        {
+          "id": "sat-polarize",
+          "word": "polarize",
+          "partOfSpeech": "verb",
+          "definition": "To divide people into two sharply opposing groups.",
+          "example": "The controversial law polarized voters into two furious camps.",
+          "mnemonic": "Think 'poles' — north and south pushed to opposite ends of the earth.",
+          "synonyms": [
+            "divide",
+            "split",
+            "separate"
+          ],
+          "antonyms": [
+            "unite",
+            "reconcile"
+          ]
+        },
+        {
+          "id": "sat-opponent",
+          "word": "opponent",
+          "partOfSpeech": "noun",
+          "definition": "A person who competes against or fights another.",
+          "example": "She studied her chess opponent's past games before the tournament.",
+          "mnemonic": "'Op-' (against) + 'pon' (to place) — one placed against you.",
+          "synonyms": [
+            "adversary",
+            "rival",
+            "antagonist"
+          ],
+          "antonyms": [
+            "ally",
+            "teammate",
+            "supporter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-detractor",
+          "word": "detractor",
+          "partOfSpeech": "noun",
+          "definition": "A person who publicly criticizes someone or belittles the value of something.",
+          "example": "For every fan cheering the new policy, a detractor stood outside waving a protest sign.",
+          "mnemonic": "Think 'de-TRACT' — to pull away, like a tractor dragging your reputation backward.",
+          "synonyms": [
+            "critic",
+            "belittler",
+            "disparager"
+          ],
+          "antonyms": [
+            "supporter",
+            "admirer",
+            "advocate"
+          ]
+        },
+        {
+          "id": "sat-antagonize",
+          "word": "antagonize",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel hostile or angry toward you, often on purpose.",
+          "example": "Poking the sleeping dog with a stick will only antagonize it into biting.",
+          "mnemonic": "The 'antagonist' is the villain in a story — to antagonize is to act like one and stir up enemies.",
+          "synonyms": [
+            "provoke",
+            "irritate",
+            "alienate"
+          ],
+          "antonyms": [
+            "pacify",
+            "soothe",
+            "befriend"
+          ]
+        },
+        {
+          "id": "sat-reciprocate",
+          "word": "reciprocate",
+          "partOfSpeech": "verb",
+          "definition": "To give back something equal in response to what another person has offered.",
+          "example": "She waved warmly, and the stranger paused, unsure whether to reciprocate.",
+          "mnemonic": "Break it into 'recipro' → think 'return the favor' — a two-way street where each side sends it back.",
+          "synonyms": [
+            "return",
+            "requite",
+            "exchange"
+          ],
+          "antonyms": [
+            "withhold",
+            "ignore",
+            "spurn"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:39:50.346Z"
+}

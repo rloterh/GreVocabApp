@@ -9,8 +9,9 @@ const NOW = new Date("2026-09-10T12:00:00.000Z");
 
 const MONTHS: Record<string, VocabMonth> = {
   "2026-04": {
-    month: "2026-04",
-    displayName: "April 2026",
+    track: "gre",
+    ordinal: 1,
+    title: "April 2026",
     days: [
       {
         day: 1,
@@ -159,7 +160,7 @@ describe("progressToMarkdown", () => {
       months: {
         "2026-04": {
           ...MONTHS["2026-04"],
-          displayName: "April | 2026",
+          title: "April | 2026",
         },
       },
     });
@@ -178,8 +179,9 @@ describe("progressToMarkdown", () => {
     const md = render({
       months: {
         "2026-04": {
-          month: "2026-04",
-          displayName: "April 2026",
+          track: "gre",
+          ordinal: 1,
+          title: "April 2026",
           days: [{ day: 1, words: many }],
         },
       },

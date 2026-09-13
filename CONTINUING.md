@@ -6,7 +6,7 @@ Handoff document. If you're picking this project up in a fresh Claude session (F
 
 - **Shipped features** — see [`CHANGELOG.md`](./CHANGELOG.md).
 - **What's next, with priorities** — see [`ROADMAP.md`](./ROADMAP.md). The "Next up" section at the top names the three best things to start on.
-- **How v1.0 is designed** — see [`docs/`](./docs/). Phases 6-12 have design documents and decision records; do not start one of those phases without reading its document.
+- **How it is designed** — see [`docs/`](./docs/). Every phase from 6 onward has a design document and decision records; do not start one without reading its document. For anything touching content or scheduling, that means [ADR 0011](./docs/adr/0011-tracks.md), [0012](./docs/adr/0012-ordinal-content.md) and [0013](./docs/adr/0013-cross-track-overlap.md) first.
 - **Runs** — `npm install && npm run dev` (web, :1420) or `npm run tauri:dev` (desktop, needs Rust).
 
 The rest of this file is *conventions*, not status — those go in the two files above so this one doesn't drift.
@@ -136,16 +136,37 @@ npm run tauri:build    # native installers
 
 ## Data model at a glance
 
+Three rules hold everything else up. Break any one and progress starts
+disappearing in ways that take months to notice.
+
+1. **A word id names its track and never a date.** `gre-abstemious`, not
+   `2026-04-abstemious`. Progress hangs off that id, so a word can move month
+   — reordered, reshuffled, started from a different date — and keep every
+   review. If you ever find yourself putting a position into an id, stop.
+2. **A month is a teaching position.** Keyed `gre/01`, and a per-track
+   `Schedule` maps positions onto the calendar. `src/lib/schedule.ts` is the
+   *only* place that turns a position into a date; nothing else should do
+   month arithmetic, and nothing at all should do it through `Date` (adding a
+   month to 31 January lands on 3 March).
+3. **Uniqueness is within a track, never across.** A word in both corpora is
+   not a duplicate. See ADR 0013, which also records the measured overlap.
+
 ```typescript
 VocabMonth
-  ├── month: "2026-04"
-  ├── displayName: "April 2026"
+  ├── track: "gre" | "sat"
+  ├── ordinal: 1..36          // teaching position, NOT a date
+  ├── title: "Criticism and praise"
   └── days: VocabDay[]
        ├── day: 1..31
        └── words: VocabWord[]
-            ├── id (slug, stable, used as progress key)
+            ├── id ("gre-abate" — track-scoped, used as progress key)
             ├── word, partOfSpeech, definition, example, mnemonic
             └── synonyms?, antonyms?
+
+Schedule (one per track)
+  ├── startMonth: "2027-03"   // the only calendar date in the model
+  ├── order: number[]         // teaching position → ordinal; 0 means a gap
+  └── shuffleSeed: string | null
 
 WordProgress (one per wordId)
   ├── mastered, timesReviewed, quizAttempts, quizCorrect
@@ -161,14 +182,27 @@ SentencePractice (keyed by wordId:date)
 
 ## Sanity check before commits
 
-Run these two in order:
-
 ```bash
 npm run typecheck    # must pass clean
 npm run build        # must produce dist/ without errors
+npx vitest run       # 1,127 tests
 ```
 
 If typecheck fails, don't push. Common failure: adding a Zustand action but forgetting to add it to the interface at the top of the store file.
+
+If you touched content or scheduling, also:
+
+```bash
+npx tsx scripts/audit-corpus.ts              # both tracks, must say "corpus is sound"
+CHROME_EXE="<chrome.exe>" node scripts/drive/tracks-smoke.mjs
+```
+
+**A green test suite is not enough for anything that persists.** The single
+worst bug of the v1.1 work — the progress store silently discarding every
+record because its schema version did not match — passed twenty-three unit
+tests, because none of them hydrate a store. Storage was correct and the
+running app was empty. If a change touches persistence, drive it in a browser
+and read a number off the screen.
 
 ## Known rough edges
 
@@ -176,6 +210,10 @@ If typecheck fails, don't push. Common failure: adding a Zustand action but forg
 - File System Access API only works on Chrome/Edge — Firefox / Safari fall back to file-upload only. Documented in the importer UI.
 - Recharts uses inline colors from CSS vars; some theme transitions look better with `key` remounts. Not a blocker.
 - Speech synthesis in `FlashCard.tsx` uses the browser default voice — quality varies. Consider a voice picker in Settings if this matters.
+- **The GRE and SAT corpora overlap 59%**, where ADR 0013 expected about a third. Part of that is the register genuinely converging; part is that the same model wrote both and only ever saw same-track exclusions. The lever is the generation prompt, not a dedup rule — ADR 0013 says which.
+- **Redistributing words does not undo.** The authored layout is not recoverable from the words themselves; restoring it means loading the months again from the library. The UI says so.
+- The distractors timing assertion is flaky under 41 parallel vitest workers: 531ms alone, occasionally past its 2s bound under load. It is a smoke alarm for a 3.6s freeze, not a budget.
+- **A measurement being wrong is the most likely explanation for a surprising finding.** It has happened three times here: contrast measured without compositing alpha, input names judged without looking at labels, and a word-presence check that could not match `belie` to `belied`. Each time the first instinct was to "fix" nine good colours, five good inputs, and a good card. Check the instrument first.
 
 ## If continuing with a different AI
 

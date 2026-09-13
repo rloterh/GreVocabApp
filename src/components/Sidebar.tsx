@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { useAppStore, type Page } from "@/store/useAppStore";
 import { AboutDialog } from "@/components/AboutDialog";
+import { TrackSwitcher } from "@/components/TrackSwitcher";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -43,12 +44,12 @@ export function Sidebar() {
   const { page, navigate } = useAppStore();
 
   return (
-    <aside className="hidden lg:flex w-60 shrink-0 border-r border-border bg-card/40 flex-col h-full">
-      <div className="px-5 py-6 flex items-center gap-2.5">
-        <div className="w-8 h-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center">
+    <aside className="hidden rail:flex w-[76px] lg:w-60 shrink-0 border-r border-border bg-card/40 flex-col h-full">
+      <div className="px-3 lg:px-5 py-5 lg:py-6 flex items-center justify-center lg:justify-start gap-2.5">
+        <div className="w-8 h-8 shrink-0 rounded-md bg-primary text-primary-foreground flex items-center justify-center">
           <Sparkles className="w-4 h-4" />
         </div>
-        <div>
+        <div className="hidden lg:block">
           <p className="text-sm font-semibold leading-tight">Lexicon</p>
           <p className="text-[10px] text-muted-foreground uppercase tracking-wider">
             Daily vocabulary
@@ -56,7 +57,13 @@ export function Sidebar() {
         </div>
       </div>
 
-      <nav className="flex-1 px-3 space-y-6 overflow-y-auto no-scrollbar">
+      {/* Which notebook is open — see docs/adr/0011-tracks.md. Stacked at rail
+          width, where two side-by-side pills do not fit 76px. */}
+      <div className="px-2 lg:px-5 pb-4">
+        <TrackSwitcher className="w-full flex-col lg:flex-row" />
+      </div>
+
+      <nav className="flex-1 px-2 lg:px-3 space-y-6 overflow-y-auto no-scrollbar">
         <NavSection items={PRIMARY} current={page} onSelect={navigate} />
         <div className="pt-2 border-t border-border/60">
           <NavSection
@@ -68,12 +75,12 @@ export function Sidebar() {
         </div>
       </nav>
 
-      <div className="p-3 border-t border-border/60 flex items-center gap-1">
+      <div className="p-2 lg:p-3 border-t border-border/60 flex flex-col lg:flex-row items-center gap-1">
         <button
           type="button"
           onClick={() => navigate("settings")}
           className={cn(
-            "flex-1 flex items-center gap-2.5 rounded-md px-2.5 py-2 text-sm font-medium transition-colors",
+            "w-full lg:flex-1 flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-1 lg:gap-2.5 rounded-md px-1 lg:px-2.5 py-2 text-[10px] lg:text-sm font-medium transition-colors",
             page === "settings"
               ? "bg-secondary text-foreground"
               : "text-muted-foreground hover:bg-secondary/60 hover:text-foreground",
@@ -101,8 +108,10 @@ function NavSection({
 }) {
   return (
     <div className={cn(header && "pt-3")}>
+      {/* At rail width the divider above already says "a different group",
+          and a heading would cost a line of the 76px it does not have. */}
       {header && (
-        <p className="px-3 mb-2 text-[10px] uppercase tracking-wider text-muted-foreground font-medium">
+        <p className="hidden lg:block px-3 mb-2 text-[10px] uppercase tracking-wider text-muted-foreground font-medium">
           {header}
         </p>
       )}
@@ -115,8 +124,11 @@ function NavSection({
               key={item.page}
               type="button"
               onClick={() => onSelect(item.page)}
+              title={item.label}
               className={cn(
-                "relative w-full flex items-center gap-2.5 rounded-md px-2.5 py-2 text-sm font-medium transition-colors",
+                "relative w-full flex flex-col lg:flex-row items-center justify-center lg:justify-start",
+                "gap-1 lg:gap-2.5 rounded-md px-1 lg:px-2.5 py-2",
+                "text-[10px] lg:text-sm font-medium transition-colors",
                 active
                   ? "text-foreground"
                   : "text-muted-foreground hover:text-foreground",
@@ -129,8 +141,14 @@ function NavSection({
                   transition={{ type: "spring", stiffness: 400, damping: 32 }}
                 />
               )}
-              <Icon className="relative z-10 w-4 h-4" />
-              <span className="relative z-10">{item.label}</span>
+              <Icon className="relative z-10 w-4 h-4 shrink-0" />
+              {/* Labelled even at rail width. The five-tab limit on a phone is
+                  about thumb reach along a narrow bottom edge; a vertical rail
+                  on an 1180px-tall screen has no such constraint, so all ten
+                  destinations are here and all ten are named. */}
+              <span className="relative z-10 leading-tight text-center lg:text-left">
+                {item.label}
+              </span>
             </button>
           );
         })}

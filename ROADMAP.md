@@ -19,6 +19,16 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
+**Current work: v1.1.** Two exams, any start date. It lands on `dev`
+([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
+end of Phase 18.
+
+**Phases 13 to 17 are done** — tracks, ordinal content, the schedule and its
+migration, the start-date screens, the flashcard edge arrows and swipe, the
+tablet shell, and three years of SAT vocabulary audited to the same standard as
+the GRE corpus. **Next is Phase 18**, the v1.1 release: CHANGELOG, tablet
+screenshots, CONTINUING.md, and the merge to `main`.
+
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
 themes, 283 tests, and a desktop bundle that has been launched and looked at.
@@ -384,6 +394,167 @@ becomes possible rather than a rewrite.
 - The app runs on a physical iPhone.
 - The App Store listing is submitted.
 
+# v1.1 — Two exams, any start date
+
+Phases 13-18 are one body of work with one release. They are separated because
+they land in this order and each is verifiable on its own, not because they are
+independently shippable — Phase 13 alone leaves the app with a data model no
+feature uses yet.
+
+All of it lands on `dev` ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and
+merges to `main` at the end of Phase 18.
+
+**Read first:** [ADR 0011](./docs/adr/0011-tracks.md),
+[ADR 0012](./docs/adr/0012-ordinal-content.md),
+[ADR 0013](./docs/adr/0013-cross-track-overlap.md),
+then [docs/TRACKS.md](./docs/TRACKS.md) and
+[docs/SCHEDULE.md](./docs/SCHEDULE.md).
+
+## Phase 13 — Tracks: the data model
+
+The load-bearing phase. Nothing user-visible ships here; what ships is a store
+that can hold two vocabularies and a migration that does not lose a day of
+anybody's work.
+
+### Tasks
+
+- ~~**[P0] `Track` type and track-scoped ids.**~~ **DONE 2026-09-12.** — `src/lib/track.ts`. Word ids are `gre-abstemious`; the corpus audit asserts no id anywhere contains a date.
+- ~~**[P0] Month keys become `track/ordinal`.**~~ **DONE 2026-09-12.** — The compiler did the migration: removing `month` and `displayName` from `VocabMonth` surfaced all 86 places that assumed a calendar, instead of letting them change meaning silently.
+- ~~**[P0] `activeTrack`, default `"gre"`.**~~ **DONE 2026-09-12.** — In `useVocabStore` beside `activeMonthKey` rather than in settings; see [docs/TRACKS.md](./docs/TRACKS.md) for why. Plus `TrackSwitcher`, visible in the sidebar and in a new small-screen header, as ADR 0011 requires.
+- ~~**[P0] Every selector honours the active track.**~~ **DONE 2026-09-12.** — `getAllMonths`, `getVocabIndex` and the library listing all filter by it; `monthKeyForDate` and `nextMonthKey` replace the calendar questions the store can no longer answer.
+- ~~**[P0] The migration.**~~ **DONE 2026-09-12.** — `src/lib/migrations/tracks.ts`, run from `main.tsx` **before any store hydrates** — the id map is built from the vocabulary and needed by progress, and zustand hydrates stores in no defined order. Idempotent, and fails closed: any error leaves every blob untouched. References are rewritten structurally rather than field by field, so an exam's `missed` array and a sentence's composite key are covered without naming them.
+- ~~**[P0] Migration tests.**~~ **DONE 2026-09-12.** — 23 of them, ending in the acceptance test. **A browser found what none of them could:** the progress store had no `version`, so zustand saw a blob stamped with one and discarded every record — storage correct, running app empty. `scripts/drive/tracks-smoke.mjs` now reads the mastered count off the screen, not out of localStorage.
+- ~~**[P1] Per-track dedup index.**~~ **DONE 2026-09-12.** — `getVocabIndex(track)`; retired words are filed by the track in their key.
+- **[P1] Track tagging on quiz and exam history.** — A GRE mock score is not an SAT score.
+
+### Definition of done — met 2026-09-12
+
+- ~~A backup taken before the migration, restored after it, shows the same words on the same days with the same progress.~~ Asserted in `tracks.test.ts` and again in a browser, including a user whose months had a **gap** — April and September with nothing between. A dense schedule would have taught September in May; the schedule holds the empty positions open instead.
+- ~~No progress record is orphaned.~~ Asserted in the tests, in the driver, and reported to the console at launch.
+- ~~Both tracks can hold months simultaneously without collision.~~
+- ~~The full suite is green and the app looks, to an existing user, entirely unchanged.~~ 1,123 tests.
+
+## Phase 14 — The schedule
+
+Content stops containing a calendar. The user picks when they start, and in
+what order.
+
+**Half of this landed with Phase 13**, because it had to: the migration cannot
+reproduce a user's calendar without a schedule to put it in, and the corpus
+cannot load at all under keys it no longer has. What remains is the part a user
+can see — the first-run screen, and the two controls in Settings.
+
+### Tasks
+
+- ~~**[P0] Corpus moves to ordinal files.**~~ **DONE 2026-09-12**, with Phase 13 — it had to, or nothing loaded. `scripts/convert-to-tracks.ts` is the record: the two bundled sample months became `gre/01`–`02` and the generated corpus `gre/03`–`38`, 3,005 word ids rewritten, 0 collisions.
+- ~~**[P0] Month titles.**~~ **DONE 2026-09-12.** — "Criticism and praise", not "October 2026". The difficulty band moved to the description, where it says something the title cannot.
+- ~~**[P0] `Schedule` per track,**~~ **DONE 2026-09-12.** — `startMonth`, `order`, `shuffleSeed`. The migration needs it, so it could not wait.
+- ~~**[P0] `calendarMonthOf` and `ordinalForCalendarMonth`.**~~ **DONE 2026-09-12.** — `src/lib/schedule.ts`, 54 tests. Month arithmetic is done on the string, never through a `Date`: adding a month to 31 January lands on 3 March in every JavaScript engine, and a schedule that skips February is not a schedule.
+- ~~**[P0] First-run setup.**~~ **DONE 2026-09-12.** — The first screen of the existing walkthrough rather than a second modal competing with it. Both answers pre-selected; Skip, Escape and clicking away all accept them, because a user who dismisses a setup screen still has to end up with a schedule.
+- ~~**[P1] Month reordering in Settings.**~~ **DONE 2026-09-12.** — As taught / Shuffled, free and reversible in both directions. `reconcile` distinguishes an *unarranged* schedule, which re-sorts when a month is loaded, from one the user has arranged, which appends — so loading month 3 after month 5 does not teach them in arrival order.
+- ~~**[P1] Word redistribution.**~~ **DONE 2026-09-12.** — Behind the sentence that says what it costs, plus a confirm. It is **not** undoable and the copy says so: recovering the authored layout means loading the months again, and storing a copy of it to fake a back button would spend tens of kilobytes of a localStorage budget the corpus and progress already share.
+- ~~**[P1] Changing the start date after setup.**~~ **DONE 2026-09-12.** — Per track, in Settings, with the resulting span named underneath.
+
+### Definition of done — met 2026-09-12
+
+- ~~A user installing in any month sees their own months, never 2026.~~
+- ~~Reordering months and redistributing words both leave every progress record intact.~~ `scripts/drive/schedule-smoke.mjs` moves the start date, shuffles and unshuffles the months, redeals every word, and then reads the mastered count off the dashboard: 12 before, 12 after.
+- ~~The corpus audit passes against the ordinal layout.~~
+- ~~No word id, anywhere, contains a date.~~ Asserted by the corpus audit.
+
+## Phase 15 — Flashcard interaction
+
+Design: [docs/FLASHCARD-INTERACTION.md](./docs/FLASHCARD-INTERACTION.md).
+
+### Tasks
+
+- ~~**[P0] Edge arrows.**~~ **DONE 2026-09-12.** — `src/components/EdgeArrow.tsx`. 44px, outside the card from `md` up and overlapping its edges below that, where a full-width card leaves no room beside it. The reveal region is the card *and* its arrows, so moving the pointer toward one does not make it vanish first.
+- ~~**[P0] Disabled, not hidden, at the ends.**~~ **DONE 2026-09-12.** — 0.3 opacity, still in place. Asserted in the driver.
+- ~~**[P0] Swipe.**~~ **DONE 2026-09-12.** — And it **navigates now instead of rating**. See below.
+- ~~**[P0] Mouse drag, same gesture.**~~ **DONE 2026-09-12.**
+- ~~**[P0] Position announced in a live region.**~~ **DONE 2026-09-12.** — The visible "Card 3 of 20" in the top bar is not announced on change; a polite live region is.
+- ~~**[P1] Reduced motion.**~~ **DONE 2026-09-12.** — Through the existing `reduceMotion` setting: they fade without the 4px slide.
+
+**The one real behaviour change:** swipe used to *rate* — left wrote "again",
+right wrote "good", at a fixed 120px. On a 360px phone a 121-pixel drag
+recorded a permanent judgement about a word with nothing on screen afterwards
+to say what had been recorded. That is the exact pattern
+[docs/FLASHCARD-INTERACTION.md](./docs/FLASHCARD-INTERACTION.md) rejects, and
+the request paired swipe with the arrows, which are navigation. Rating keeps
+the four buttons and the keys `1`–`4`.
+
+### Definition of done — met 2026-09-12
+
+- ~~Every action has a keyboard route that depends on nothing being revealed.~~ `←` `→` were already bound and still are.
+- ~~The rating row is untouched.~~ Four buttons, four keys, unchanged. The driver asserts that a full sequence of swipes rates nothing.
+- ~~The keyboard driver passes, including tabbing to both arrows.~~ Plus `scripts/drive/flashcard-nav-smoke.mjs`: hidden at rest, revealed three ways, hidden again only when the pointer *and* focus have both left.
+
+## Phase 16 — Tablet and iPad
+
+Design: [docs/TABLET.md](./docs/TABLET.md).
+
+### Tasks
+
+- ~~**[P0] The rail.**~~ **DONE 2026-09-12.** — 76px, all ten destinations, labelled. It runs from a **new `rail` breakpoint at 720px**, not from `md`: Tailwind's 768px sits one class above the iPad mini's 744px, so the default would have left the smallest iPad on the phone layout — the same discontinuity, moved. The audit caught that on its first run.
+- ~~**[P0] Wider content at `md`+.**~~ **DONE 2026-09-12.** — Dashboard and Progress stats four across, Archive months two then three, the library grid three at `xl`. **Not done:** Daily Practice as master/detail and a side panel for word detail in landscape — both are restructures rather than layout rules, and they are listed under the leftovers below rather than quietly dropped.
+- ~~**[P0] A maximum comfortable measure.**~~ **DONE 2026-09-12.** — Reading pages cap at every width instead of only at `lg`, so a 768px tablet stops setting definitions across 110 characters. The cap does not bind on a phone, so nothing there changed.
+- ~~**[P0] No hover-only affordance at any width.**~~ **DONE** — already true: `group-hover` and `opacity-0` reveal patterns no longer appear anywhere outside the edge arrows, which reveal on focus and touch as well.
+- ~~**[P0] Rotation preserves state.**~~ **DONE 2026-09-12.** — Asserted on all ten viewports: a card mid-session survives the turn, still flipped. It holds because layout is driven by CSS rather than by a width read in JavaScript.
+- ~~**[P0] `scripts/drive/tablet-audit.mjs`.**~~ **DONE 2026-09-12.** — Five devices, both orientations, six pages each. It found the iPad mini breakpoint, and two of its own assertions were wrong before the app was: it read a `display: none` aside's declared width as a live rail, and it judged input names without looking at their labels.
+- ~~**[P1] Safe areas on all four edges.**~~ **DONE** — with the fullscreen work in Phase 13.
+- **[P1] External keyboard.** — Every shortcut still works; focus rings visible.
+
+### Definition of done — met 2026-09-12
+
+- ~~The five iPad sizes and a common Android tablet, in both orientations, pass the tablet audit.~~ Ten viewports, clean.
+- ~~Split View at 375px gets the phone layout.~~ Layout is driven by viewport; no code anywhere branches on a device string.
+
+### Left for later, deliberately
+
+- **Daily Practice as master/detail** and **word detail as a landscape side panel.** Both are restructures of a page rather than responsive rules, and neither is broken today — they are an improvement, not a fix, and bundling them into a phase about breakpoints would have hidden how much was actually changing.
+- **External keyboard.** Every existing shortcut still works and focus rings are visible; what is untested is an iPad with a hardware keyboard attached, which needs the hardware.
+
+## Phase 17 — The SAT corpus
+
+Three years of SAT vocabulary, to the standard the GRE corpus was held to.
+
+### Tasks
+
+- ~~**[P0] Generate 36 ordinal months.**~~ **DONE 2026-09-12.** — 2,416 words, no word twice in the track. About three and a half hours unattended through the `claude` CLI.
+- ~~**[P0] SAT-specific difficulty banding.**~~ **DONE 2026-09-12.** — Core academic, then argument and evidence, then advanced literary and scientific, with its own themes drawn from what the test reads rather than from GRE's abstractions.
+- ~~**[P0] `audit-corpus.ts` becomes per-track.**~~ **DONE** in Phase 13. It reports the overlap at **59%**, which is higher than [ADR 0013](./docs/adr/0013-cross-track-overlap.md) guessed; the record now says so and says which lever would change it.
+- ~~**[P0] Repair pass.**~~ **DONE 2026-09-12.** — And it mostly failed, which is the interesting part: four months finished under the 45-word floor, and asking for 118 more words returned 27. The track had reached the end of its vocabulary. `rebalance-corpus.ts` moved 40 words from two fat months into three thin ones **within the same band**, which is safe for the same reason reshuffling is safe — ids do not name a month. Months now run 45—90, mean 67.
+- ~~**[P1] Both corpora ship as defaults.**~~ **DONE** — 72 months and 5,241 words in `public/vocab/`, listed by track and fetched only when asked for.
+
+### Definition of done — met 2026-09-12
+
+- ~~`audit-corpus.ts` passes for `gre` and for `sat`.~~ "corpus is sound", both tracks, **zero** quality failures across 5,241 cards.
+- ~~No word appears twice within either track.~~
+- ~~The overlap between tracks is reported.~~ 59%, and argued with rather than waved through.
+
+The audit's one complaint was a card it was wrong about. `belie` stems to
+`beli` and `belied` to `bely`, so a shared-prefix test could not bridge them
+and "Her calm voice belied the panic" read as not containing its own word —
+along with every other verb in the `-ie/-ied` family. That is the third time
+in this project a measurement has been wrong rather than the thing measured,
+after contrast without alpha compositing and input names without labels.
+
+## Phase 18 — v1.1 release
+
+### Tasks
+
+- **[P0] README.** — Tracks, start date, reshuffling, the flashcard gestures, tablet support. The data-model section is currently wrong the moment Phase 13 lands.
+- **[P0] CHANGELOG for v1.1.**
+- **[P0] Screenshots at tablet sizes** alongside the existing 390/768/1280.
+- **[P0] CONTINUING.md.** — The handoff document describes a single-track app.
+- **[P0] Merge `dev` to `main`** against the six-item checklist in [ADR 0014](./docs/adr/0014-dev-branch-default.md).
+
+### Definition of done
+
+- Typecheck, build, full suite, corpus audit for both tracks, and all five browser drivers green.
+- The migration acceptance test holds.
+- `main` is a working app that a stranger can clone.
+
 ## Explicitly not planned
 
 - **Cloud sync as a first-party feature.** — Users can export/import; that's enough. If cloud sync happens, it's via a pluggable adapter (Dropbox, iCloud file), never a Lexicon-owned backend.
@@ -399,3 +570,4 @@ Things that don't have a phase yet. Move up when they do.
 - Voice-first study mode (say the definition, get told the word)
 - Reading-mode: paste an article, get vocabulary suggestions
 - Etymology drill-down (integrate an offline Wiktionary dump?)
+- Background music while studying — ambient, off by default, its own volume. Deferred deliberately: it is a whole surface (assets, licensing, playback that survives navigation, a control that is not annoying) and nothing else waits on it.

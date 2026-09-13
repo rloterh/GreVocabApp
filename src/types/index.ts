@@ -1,6 +1,15 @@
 import type { WordOrder } from "@/lib/order";
 
 /**
+ * Which exam's vocabulary a piece of content belongs to.
+ *
+ * A closed union rather than an open registry: two exams is a product
+ * decision, and an arbitrary number of user-defined tracks is a different
+ * feature with different storage. See docs/adr/0011-tracks.md.
+ */
+export type Track = "gre" | "sat";
+
+/**
  * Core domain types — the contract everything else follows.
  *
  * When extending: prefer adding an optional field over widening an existing one,
@@ -10,7 +19,13 @@ import type { WordOrder } from "@/lib/order";
  * A single vocabulary word.
  */
 export interface VocabWord {
-  /** Slugified, stable identifier — used as progress key */
+  /**
+   * Stable identifier, `"gre-abstemious"` — the key progress hangs off.
+   *
+   * Track-scoped and deliberately calendar-free. An id that named a month
+   * would change whenever the word moved, and moving words is exactly what
+   * start dates and reshuffling do. See docs/adr/0011-tracks.md.
+   */
   id: string;
   word: string;
   partOfSpeech: string;
@@ -31,11 +46,17 @@ export interface VocabDay {
 
 /**
  * One month's worth of vocabulary — this is what a JSON file contains.
- * The `month` field is ISO year-month ("2026-04").
+ *
+ * There is no calendar in here. Month one is month one; which calendar month
+ * a user studies it in is a `Schedule`, and two users starting a year apart
+ * share these files byte for byte. See docs/adr/0012-ordinal-content.md.
  */
 export interface VocabMonth {
-  month: string; // "YYYY-MM"
-  displayName: string; // "April 2026"
+  track: Track;
+  /** Teaching position within the track, 1-based. */
+  ordinal: number;
+  /** "Criticism and praise" — an identity, not a date. */
+  title: string;
   days: VocabDay[];
   /** Optional metadata */
   author?: string;
@@ -43,10 +64,37 @@ export interface VocabMonth {
   createdAt?: string;
 }
 
+/**
+ * The mapping from teaching order to the calendar, per track.
+ *
+ * Every question of the form "when do I study this?" is answered here and
+ * nowhere else. Reordering is a permutation of integers, so it never moves a
+ * word and never touches a progress record. See docs/SCHEDULE.md.
+ */
+export interface Schedule {
+  track: Track;
+  /** "2027-03" — the calendar month the first studied month falls in. */
+  startMonth: string;
+  /**
+   * Teaching position → corpus ordinal. A permutation of the ordinals loaded,
+   * with `0` marking a position the user studies nothing in — see `GAP` in
+   * src/lib/schedule.ts.
+   */
+  order: number[];
+  /** Non-null once the user has redistributed words; reproduces that layout. */
+  shuffleSeed: string | null;
+}
+
 /** Per-word progress record */
 export interface WordProgress {
   wordId: string;
-  monthKey: string; // "YYYY-MM"
+  /**
+   * The month this word was in when the record was written — `"gre/01"`.
+   *
+   * A store key, not a date. It is a convenience for grouping and is allowed
+   * to go stale if the word is later redistributed; `wordId` is the identity.
+   */
+  monthKey: string;
   mastered: boolean;
   timesReviewed: number;
   quizAttempts: number;

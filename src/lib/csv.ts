@@ -208,8 +208,10 @@ export function csvToMonthObjects(
   });
 
   return [...byMonth.entries()].map(([month, days]) => ({
-    month,
-    displayName: formatMonthKey(month),
+    // A `month` column is how a user says "these rows are a different month",
+    // so it still groups. It does not become a key: where these land in a
+    // track is the store's decision, and the date survives as the title.
+    title: formatMonthKey(month),
     days: [...days.entries()]
       .sort((a, b) => a[0] - b[0])
       .map(([day, words]) => ({ day, words })),

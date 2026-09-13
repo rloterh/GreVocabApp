@@ -102,6 +102,97 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - `SentenceBuilder` reset its draft from inside a `useMemo` with an incomplete
   dependency list; `Quiz` rebuilt a memo dependency on every render.
 
+## [1.1.0] — 2026-09-13
+
+Two exams, and content that no longer has a calendar baked into it.
+
+### Added
+
+- **GRE and SAT tracks.** Two separate vocabularies, switched from a control
+  visible on every screen at every width. Separate content, separate schedules,
+  separate progress; **one** streak, because a day studied is a day studied and
+  splitting it would punish exactly the behaviour the app should encourage.
+- **Three years of SAT vocabulary** — 2,416 words across 36 months, with its
+  own difficulty bands (core academic → argument and evidence → advanced
+  literary and scientific) and its own themes, drawn from what the test reads.
+  Both corpora now ship as defaults: 72 months, 5,241 words, fetched only when
+  asked for.
+- **A start date.** First run asks which month you begin in and lays the track
+  out from there. Both answers arrive pre-selected and Skip accepts them, so
+  the screen is one tap from done.
+- **Reordering and reshuffling.** Months can run as taught or shuffled, freely
+  and reversibly. Words can be redistributed across the months — which keeps
+  every review you have ever done, and is honest that it does not undo.
+- **Flashcard edge arrows.** 44px controls just outside the card, hidden at
+  rest and revealed on hover, focus or tap. Disabled rather than removed at the
+  ends, so the other one never moves.
+- **A navigation rail** between the phone tab bar and the desktop sidebar, from
+  720px to 1024px, carrying all ten destinations with labels.
+- **An app icon**, drawn as SVG and rasterised for every desktop, iOS and
+  Android size.
+- `scripts/rebalance-corpus.ts`, and browser drivers for tracks, the schedule,
+  flashcard navigation, tablets and the README screenshots.
+
+### Changed
+
+- **Word ids no longer contain a date.** `gre-abstemious`, not
+  `2026-04-abstemious`. This is the change everything else rests on: an id that
+  names a month changes whenever the word moves, and moving words is exactly
+  what start dates and reshuffling do.
+- **Months are teaching positions, not dates** — keyed `gre/01` … `gre/36`,
+  with a per-track schedule mapping them onto the calendar. Two users starting
+  a year apart share the corpus files byte for byte.
+- **Swiping a flashcard now navigates instead of rating it.** It used to write
+  "again" on a drag left and "good" on a drag right at a fixed 120px, so on a
+  360px phone a 121-pixel drag recorded a permanent judgement with nothing on
+  screen to say what had been recorded. Rating keeps its four buttons and the
+  keys `1`–`4`.
+- **Small and tablet screens are fullscreen** — full-bleed content below `lg`,
+  `100dvh` so a phone's address bar stops covering the last rows, and
+  `viewport-fit=cover` with safe areas on all four edges. Reading pages still
+  cap their line length at every width.
+- The shell breakpoint moved from Tailwind's `md` (768px) to a named `rail`
+  breakpoint at **720px**, chosen because the iPad mini is 744px wide: the
+  default left the smallest iPad on the phone layout.
+- Vocabulary files carry `track`, `ordinal` and `title` instead of `month` and
+  `displayName`. Files in the old shape still import.
+- `generate-corpus.ts`, `repair-corpus.ts` and `audit-corpus.ts` all take a
+  track. Uniqueness is enforced within a track and deliberately not across
+  them; the audit reports the overlap (59%) as information.
+
+### Fixed
+
+- **The dashboard and progress page counted every progress record, not the
+  open track's.** Switching to an empty SAT showed a user their GRE mastery
+  under an SAT heading.
+- **The progress store had no schema version**, so once the migration stamped
+  one on its blob, zustand decided the data came from a future it could not
+  read and discarded every record. Storage was correct and the running app was
+  empty. Twenty-three unit tests missed it because none of them hydrate a
+  store; a browser caught it on the first run.
+- Both copies of the track switcher shared one Framer `layoutId`, so the active
+  pill animated into whichever copy was `display: none`.
+- `containsWord` reported `belie` as missing from "Her calm voice belied the
+  panic" — the stemmer maps `belied` to `bely` and `belie` to `beli`, which
+  differ in the last character, so no shared-prefix test could bridge them.
+  The whole `-ie/-ied` family was affected.
+- Four-across stat cards on a tablet: "Words mastered" wraps where its
+  neighbours do not, which made that card taller and left its number off the
+  line the other three sat on.
+
+### Migration
+
+Existing installs migrate on first launch, before any store hydrates — the id
+map is built from the vocabulary and needed by progress, and zustand hydrates
+stores in no defined order. It is idempotent and fails closed: any error leaves
+every blob exactly as it was.
+
+The acceptance test, asserted in unit tests and again in a browser: **a store
+taken before the migration, read after it, shows the same words on the same
+days with the same progress.** Including for a user whose months had gaps —
+April and September with nothing between — where the schedule holds the empty
+positions open rather than sliding September into May.
+
 ## [0.1.0] — 2026-09-09
 
 Initial release.

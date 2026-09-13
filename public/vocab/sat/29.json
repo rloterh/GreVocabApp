@@ -1,0 +1,1231 @@
+{
+  "track": "sat",
+  "ordinal": 29,
+  "title": "Leadership and influence",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-charisma",
+          "word": "charisma",
+          "partOfSpeech": "noun",
+          "definition": "A compelling personal charm that inspires devotion and draws the attention of others.",
+          "example": "The moment she walked on stage, her charisma drew every eye and hushed the crowd.",
+          "mnemonic": "Sounds like 'car-is-ma' — a gleaming car everyone turns to stare at; it has pure magnetic pull.",
+          "synonyms": [
+            "magnetism",
+            "charm",
+            "allure"
+          ],
+          "antonyms": [
+            "dullness",
+            "blandness"
+          ]
+        },
+        {
+          "id": "sat-charismatic",
+          "word": "charismatic",
+          "partOfSpeech": "adjective",
+          "definition": "Having a magnetic charm that naturally attracts, captivates, and inspires people.",
+          "example": "The charismatic coach could make even the benchwarmers believe they would win the championship.",
+          "mnemonic": "Car + kiss + magnetic: a charismatic person magnetically pulls a whole crowd toward them.",
+          "synonyms": [
+            "magnetic",
+            "captivating",
+            "compelling"
+          ],
+          "antonyms": [
+            "dull",
+            "uninspiring"
+          ]
+        },
+        {
+          "id": "sat-eloquence",
+          "word": "eloquence",
+          "partOfSpeech": "noun",
+          "definition": "Fluent, persuasive, and graceful use of language when speaking or writing.",
+          "example": "His eloquence at the funeral left no dry eye in the chapel.",
+          "mnemonic": "'Elo-' like a beautiful 'hello' + Latin 'loqui' (to speak): speaking so well it moves people.",
+          "synonyms": [
+            "articulacy",
+            "fluency",
+            "expressiveness"
+          ],
+          "antonyms": [
+            "inarticulateness",
+            "stammering"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-preside",
+          "word": "preside",
+          "partOfSpeech": "verb",
+          "definition": "To hold the seat of authority and direct a meeting, ceremony, or organization.",
+          "example": "The retired judge was asked to preside over the town's annual debate.",
+          "mnemonic": "PRE + SIDE: you sit at the premier side — the head seat — to run the whole meeting.",
+          "synonyms": [
+            "chair",
+            "oversee",
+            "officiate"
+          ],
+          "antonyms": [
+            "follow",
+            "obey"
+          ]
+        },
+        {
+          "id": "sat-steward",
+          "word": "steward",
+          "partOfSpeech": "noun",
+          "definition": "A person who manages and carefully protects another's property, affairs, or resources.",
+          "example": "As steward of the estate, he kept every acre thriving while the owners traveled abroad.",
+          "mnemonic": "STY + WARD: a keeper who WARDs (guards) the pig STY — he guards whatever is entrusted to him.",
+          "synonyms": [
+            "custodian",
+            "caretaker",
+            "manager"
+          ],
+          "antonyms": [
+            "owner",
+            "squanderer"
+          ]
+        },
+        {
+          "id": "sat-anoint",
+          "word": "anoint",
+          "partOfSpeech": "verb",
+          "definition": "To rub or smear with oil, often as part of a sacred or ceremonial act.",
+          "example": "The archbishop stepped forward to anoint the new king with holy oil.",
+          "mnemonic": "Think 'an ointment' rubbed on: to anoint is to dab oil on someone in ceremony.",
+          "synonyms": [
+            "consecrate",
+            "bless",
+            "sanctify"
+          ],
+          "antonyms": [
+            "desecrate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-ordain",
+          "word": "ordain",
+          "partOfSpeech": "verb",
+          "definition": "To officially make someone a priest, or to decree something by formal authority.",
+          "example": "The church will ordain three new priests at Sunday's ceremony.",
+          "mnemonic": "ORDER + -dain: an authority issues an ORDER that makes the appointment official.",
+          "synonyms": [
+            "appoint",
+            "decree",
+            "invest"
+          ],
+          "antonyms": [
+            "defrock",
+            "revoke"
+          ]
+        },
+        {
+          "id": "sat-eminent",
+          "word": "eminent",
+          "partOfSpeech": "adjective",
+          "definition": "Famous, respected, and highly regarded within a particular profession or field.",
+          "example": "An eminent cardiologist flew in to consult on the senator's rare condition.",
+          "mnemonic": "Sounds like 'Eminem went' — everybody knows Eminem; being eminent means everybody knows and admires you.",
+          "synonyms": [
+            "distinguished",
+            "renowned",
+            "notable"
+          ],
+          "antonyms": [
+            "obscure",
+            "unknown"
+          ]
+        },
+        {
+          "id": "sat-preeminent",
+          "word": "preeminent",
+          "partOfSpeech": "adjective",
+          "definition": "Surpassing all others; ranked as the very best in a particular area.",
+          "example": "For decades she remained the preeminent authority on ancient Greek pottery.",
+          "mnemonic": "PRE- (above) stacked on top of 'eminent': standing above even the already-distinguished ones.",
+          "synonyms": [
+            "foremost",
+            "supreme",
+            "unrivaled"
+          ],
+          "antonyms": [
+            "inferior",
+            "lesser"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-illustrious",
+          "word": "illustrious",
+          "partOfSpeech": "adjective",
+          "definition": "Widely admired and celebrated for remarkable achievements or a distinguished record.",
+          "example": "The general capped his illustrious career with a medal from the president.",
+          "mnemonic": "Shares 'lustr-' with 'lustre': an illustrious name has a shining, glowing reputation.",
+          "synonyms": [
+            "distinguished",
+            "celebrated",
+            "renowned"
+          ],
+          "antonyms": [
+            "obscure",
+            "unknown"
+          ]
+        },
+        {
+          "id": "sat-domineering",
+          "word": "domineering",
+          "partOfSpeech": "adjective",
+          "definition": "Asserting harsh control over others in an arrogant, bossy, and overbearing manner.",
+          "example": "Her domineering manager rewrote every email and forbade any decision without his approval.",
+          "mnemonic": "Picture a DOMINO toppling everyone into line — a domineering person forces his will on all.",
+          "synonyms": [
+            "overbearing",
+            "bossy",
+            "tyrannical"
+          ],
+          "antonyms": [
+            "submissive",
+            "meek"
+          ]
+        },
+        {
+          "id": "sat-overbearing",
+          "word": "overbearing",
+          "partOfSpeech": "adjective",
+          "definition": "Unpleasantly overpowering in attitude, pushing to control everyone around oneself.",
+          "example": "His overbearing mother-in-law criticized the wedding plans until the couple stopped answering her calls.",
+          "mnemonic": "OVER + BEARING: like a huge bear bearing down ON you — far too pushy and heavy-handed.",
+          "synonyms": [
+            "domineering",
+            "imperious",
+            "pushy"
+          ],
+          "antonyms": [
+            "meek",
+            "deferential"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-magisterial",
+          "word": "magisterial",
+          "partOfSpeech": "adjective",
+          "definition": "Showing great authority and commanding respect, sometimes in a bossy, dictatorial way.",
+          "example": "With a magisterial wave of his hand, the conductor silenced the entire orchestra.",
+          "mnemonic": "From 'magistrate' and 'master': acting like a master judge whose word is final.",
+          "synonyms": [
+            "authoritative",
+            "commanding",
+            "masterful"
+          ],
+          "antonyms": [
+            "meek",
+            "tentative"
+          ]
+        },
+        {
+          "id": "sat-regime",
+          "word": "regime",
+          "partOfSpeech": "noun",
+          "definition": "A government or system of rule, especially a strict or authoritarian one.",
+          "example": "Under the new regime, newspapers were censored and public protests were banned.",
+          "mnemonic": "'Reg-' as in regal and reign — a regime is the reigning set of rulers in charge.",
+          "synonyms": [
+            "government",
+            "administration",
+            "rule"
+          ],
+          "antonyms": [
+            "anarchy"
+          ]
+        },
+        {
+          "id": "sat-envoy",
+          "word": "envoy",
+          "partOfSpeech": "noun",
+          "definition": "A messenger or official representative sent to deal with another government.",
+          "example": "The president dispatched a special envoy to negotiate the ceasefire.",
+          "mnemonic": "ENVOY sounds like 'on a voyage' — someone sent on a voyage to represent you abroad.",
+          "synonyms": [
+            "emissary",
+            "diplomat",
+            "delegate"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-emissary",
+          "word": "emissary",
+          "partOfSpeech": "noun",
+          "definition": "A person sent to represent a group or carry out a special mission on its behalf.",
+          "example": "The king dispatched an emissary to negotiate peace with the rival court.",
+          "mnemonic": "Sounds like 'emit' — an emissary is emitted, sent outward, to deliver a message.",
+          "synonyms": [
+            "envoy",
+            "delegate",
+            "ambassador"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-proxy",
+          "word": "proxy",
+          "partOfSpeech": "noun",
+          "definition": "Someone or something authorized to act, stand in, or vote for another.",
+          "example": "Unable to attend the shareholder meeting, she voted by proxy through her lawyer.",
+          "mnemonic": "'Proxy' ≈ 'approximately you' — a near stand-in acting in your place.",
+          "synonyms": [
+            "substitute",
+            "stand-in",
+            "delegate"
+          ],
+          "antonyms": [
+            "principal",
+            "originator"
+          ]
+        },
+        {
+          "id": "sat-vanguard",
+          "word": "vanguard",
+          "partOfSpeech": "noun",
+          "definition": "The front position of an advancing group, or the leaders of a new trend.",
+          "example": "These sculptors were the vanguard of a movement that redefined modern art.",
+          "mnemonic": "'Van' = front (the van of a convoy) + 'guard' — the front guard leading the way.",
+          "synonyms": [
+            "forefront",
+            "spearhead",
+            "cutting edge"
+          ],
+          "antonyms": [
+            "rearguard",
+            "rear"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-figurehead",
+          "word": "figurehead",
+          "partOfSpeech": "noun",
+          "definition": "A leader in name only, holding a title but wielding no real authority.",
+          "example": "The aging monarch became a mere figurehead while the ministers ran the country.",
+          "mnemonic": "The carved 'figure' on a ship's 'head' (prow) — decorative, leads nothing, just for show.",
+          "synonyms": [
+            "titular head",
+            "puppet",
+            "front man"
+          ],
+          "antonyms": [
+            "mastermind",
+            "power broker"
+          ]
+        },
+        {
+          "id": "sat-luminary",
+          "word": "luminary",
+          "partOfSpeech": "noun",
+          "definition": "A highly respected person who inspires others within a particular field.",
+          "example": "Physicists from around the globe gathered to honor the field's greatest luminary.",
+          "mnemonic": "Root 'lumen' = light — a luminary shines, an intellectual star lighting the way.",
+          "synonyms": [
+            "leading light",
+            "icon",
+            "notable"
+          ],
+          "antonyms": [
+            "nobody",
+            "unknown"
+          ]
+        },
+        {
+          "id": "sat-paragon",
+          "word": "paragon",
+          "partOfSpeech": "noun",
+          "definition": "A perfect example of a particular quality; a model of excellence.",
+          "example": "She was held up as a paragon of honesty, never telling even a small lie.",
+          "mnemonic": "Sounds like 'paired gem' — the flawless gem every other is compared against.",
+          "synonyms": [
+            "model",
+            "epitome",
+            "ideal"
+          ],
+          "antonyms": [
+            "imperfection",
+            "mediocrity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-exemplar",
+          "word": "exemplar",
+          "partOfSpeech": "noun",
+          "definition": "A person or thing serving as a typical or ideal model to copy.",
+          "example": "This cathedral is often cited as the finest exemplar of Gothic architecture.",
+          "mnemonic": "Contains 'example' — an exemplar is the example worth copying.",
+          "synonyms": [
+            "model",
+            "archetype",
+            "specimen"
+          ],
+          "antonyms": [
+            "aberration",
+            "anomaly"
+          ]
+        },
+        {
+          "id": "sat-mentor",
+          "word": "mentor",
+          "partOfSpeech": "noun",
+          "definition": "An experienced, trusted adviser who guides and trains a less experienced person.",
+          "example": "Her graduate mentor spent hours teaching her how to design careful experiments.",
+          "mnemonic": "From Mentor, the wise guide of young Telemachus in Homer's Odyssey.",
+          "synonyms": [
+            "guide",
+            "adviser",
+            "coach"
+          ],
+          "antonyms": [
+            "protégé",
+            "pupil"
+          ]
+        },
+        {
+          "id": "sat-patron",
+          "word": "patron",
+          "partOfSpeech": "noun",
+          "definition": "A person who supports, sponsors, or financially backs an artist, cause, or business.",
+          "example": "The wealthy patron funded the young composer's studies and his first symphony.",
+          "mnemonic": "Root 'pater' = father — a patron acts like a supportive father, funding you.",
+          "synonyms": [
+            "sponsor",
+            "backer",
+            "supporter"
+          ],
+          "antonyms": [
+            "opponent",
+            "detractor"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-benefactor",
+          "word": "benefactor",
+          "partOfSpeech": "noun",
+          "definition": "A person who gives money or kind assistance to someone or a cause.",
+          "example": "An anonymous benefactor paid the hospital bills of every child on the ward.",
+          "mnemonic": "'Bene' = good + 'factor' = doer — a benefactor is a 'good-doer.'",
+          "synonyms": [
+            "donor",
+            "patron",
+            "philanthropist"
+          ],
+          "antonyms": [
+            "beneficiary",
+            "malefactor"
+          ]
+        },
+        {
+          "id": "sat-custodian",
+          "word": "custodian",
+          "partOfSpeech": "noun",
+          "definition": "A person responsible for guarding, maintaining, or taking care of something.",
+          "example": "As custodian of the archive, he protected centuries-old manuscripts from damage.",
+          "mnemonic": "Shares a root with 'custody' — a custodian keeps something in their custody.",
+          "synonyms": [
+            "keeper",
+            "guardian",
+            "caretaker"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-overseer",
+          "word": "overseer",
+          "partOfSpeech": "noun",
+          "definition": "A person who watches over and directs the work of others.",
+          "example": "The plantation overseer monitored every worker and reported to the owner.",
+          "mnemonic": "One who 'sees over' everyone — 'oversee' plus the doer ending '-er.'",
+          "synonyms": [
+            "supervisor",
+            "foreman",
+            "superintendent"
+          ],
+          "antonyms": [
+            "subordinate",
+            "underling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-arbiter",
+          "word": "arbiter",
+          "partOfSpeech": "noun",
+          "definition": "A person with authority to judge disputes or decide what is acceptable.",
+          "example": "The committee became the final arbiter of which films deserved the award.",
+          "mnemonic": "Shares a root with 'arbitrate' — an arbiter arbitrates, settling fights.",
+          "synonyms": [
+            "judge",
+            "referee",
+            "adjudicator"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-adroit",
+          "word": "adroit",
+          "partOfSpeech": "adjective",
+          "definition": "Clever and skillful, especially in handling tricky situations or using the hands.",
+          "example": "She gave an adroit reply that defused the argument without offending anyone.",
+          "mnemonic": "French 'à droite' = to the right; right-handedness was prized as skill — adroit.",
+          "synonyms": [
+            "deft",
+            "dexterous",
+            "skillful"
+          ],
+          "antonyms": [
+            "clumsy",
+            "inept",
+            "maladroit"
+          ]
+        },
+        {
+          "id": "sat-canny",
+          "word": "canny",
+          "partOfSpeech": "adjective",
+          "definition": "Shrewd, careful, and clever, especially in business or practical matters.",
+          "example": "A canny investor, she sold her shares just before the market collapsed.",
+          "mnemonic": "Think of a thrifty Scot who always 'can' spot the smart move and save a penny.",
+          "synonyms": [
+            "shrewd",
+            "astute",
+            "savvy"
+          ],
+          "antonyms": [
+            "foolish",
+            "gullible",
+            "naive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-machination",
+          "word": "machination",
+          "partOfSpeech": "noun",
+          "definition": "A secret and cunning plot designed to cause harm or gain advantage.",
+          "example": "The duke's machinations toppled two rivals before anyone suspected he was behind it.",
+          "mnemonic": "Sounds like 'machine' + 'nation' — picture a shadowy machine cranking out evil plots behind the nation's back.",
+          "synonyms": [
+            "scheme",
+            "plot",
+            "conspiracy"
+          ],
+          "antonyms": [
+            "honesty",
+            "candor"
+          ]
+        },
+        {
+          "id": "sat-intrigue",
+          "word": "intrigue",
+          "partOfSpeech": "noun",
+          "definition": "Secret plotting or scheming, usually to gain power or achieve a hidden purpose.",
+          "example": "The royal court seethed with intrigue, every courtier whispering plans against the others.",
+          "mnemonic": "In + 'trigue' (sounds like 'league') — a secret league working in the shadows.",
+          "synonyms": [
+            "scheming",
+            "conspiracy",
+            "plotting"
+          ],
+          "antonyms": [
+            "openness",
+            "honesty"
+          ]
+        },
+        {
+          "id": "sat-manipulate",
+          "word": "manipulate",
+          "partOfSpeech": "verb",
+          "definition": "To control or influence someone cleverly, often unfairly, for your own benefit.",
+          "example": "She manipulated her coworkers into doing her tasks by faking helplessness.",
+          "mnemonic": "From Latin 'manus' (hand) — you handle people like puppets on strings.",
+          "synonyms": [
+            "exploit",
+            "maneuver",
+            "control"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-inveigle",
+          "word": "inveigle",
+          "partOfSpeech": "verb",
+          "definition": "To persuade someone to do something using flattery or clever deception.",
+          "example": "He inveigled his way into the exclusive club by flattering the doorman shamelessly.",
+          "mnemonic": "Sounds like 'in-a-veil' — you lure someone in while hidden behind a veil of sweet talk.",
+          "synonyms": [
+            "cajole",
+            "wheedle",
+            "coax"
+          ],
+          "antonyms": [
+            "force",
+            "compel"
+          ]
+        },
+        {
+          "id": "sat-entice",
+          "word": "entice",
+          "partOfSpeech": "verb",
+          "definition": "To attract someone by offering something tempting or pleasurable.",
+          "example": "The smell of fresh bread enticed passersby into the little bakery.",
+          "mnemonic": "'En-TICE' → 'in twice' — a treat so good it pulls you in a second time.",
+          "synonyms": [
+            "tempt",
+            "lure",
+            "allure"
+          ],
+          "antonyms": [
+            "repel",
+            "deter"
+          ]
+        },
+        {
+          "id": "sat-beguile",
+          "word": "beguile",
+          "partOfSpeech": "verb",
+          "definition": "To charm or trick someone with pleasing but misleading behavior.",
+          "example": "The con artist beguiled the widow with his warm smile and false promises.",
+          "mnemonic": "Be + 'guile' (cunning) — to be full of guile toward someone while charming them.",
+          "synonyms": [
+            "charm",
+            "deceive",
+            "enchant"
+          ],
+          "antonyms": [
+            "repel",
+            "alienate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-consolidate",
+          "word": "consolidate",
+          "partOfSpeech": "verb",
+          "definition": "To combine several things into one stronger, more unified whole.",
+          "example": "After the merger, the company consolidated its three offices into a single headquarters.",
+          "mnemonic": "Con + 'solid' — you make something solid by pressing scattered parts together.",
+          "synonyms": [
+            "merge",
+            "unify",
+            "combine"
+          ],
+          "antonyms": [
+            "separate",
+            "disperse"
+          ]
+        },
+        {
+          "id": "sat-deference",
+          "word": "deference",
+          "partOfSpeech": "noun",
+          "definition": "Polite respect and willingness to yield to another's wishes or judgment.",
+          "example": "Out of deference to the elderly professor, the students let him speak first.",
+          "mnemonic": "Related to 'defer' — when you defer to someone, you bow to them out of respect.",
+          "synonyms": [
+            "respect",
+            "regard",
+            "submission"
+          ],
+          "antonyms": [
+            "disrespect",
+            "defiance"
+          ]
+        },
+        {
+          "id": "sat-obeisance",
+          "word": "obeisance",
+          "partOfSpeech": "noun",
+          "definition": "A gesture or attitude of respectful submission, such as a deep bow.",
+          "example": "The servants made a deep obeisance as the emperor entered the hall.",
+          "mnemonic": "Sounds like 'obey' + 'stance' — the bowing stance you take to obey a ruler.",
+          "synonyms": [
+            "homage",
+            "reverence",
+            "bow"
+          ],
+          "antonyms": [
+            "defiance",
+            "disrespect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-gravitas",
+          "word": "gravitas",
+          "partOfSpeech": "noun",
+          "definition": "A serious, dignified manner that naturally commands respect.",
+          "example": "The judge spoke with such gravitas that the noisy courtroom fell instantly silent.",
+          "mnemonic": "From 'gravity' — a person with gravitas carries a weighty, grave presence.",
+          "synonyms": [
+            "dignity",
+            "seriousness",
+            "solemnity"
+          ],
+          "antonyms": [
+            "frivolity",
+            "levity"
+          ]
+        },
+        {
+          "id": "sat-clout",
+          "word": "clout",
+          "partOfSpeech": "noun",
+          "definition": "The power or influence to affect people, events, or decisions.",
+          "example": "With her political clout, the senator pushed the bill through in days.",
+          "mnemonic": "A 'clout' is also a heavy blow — someone with clout can hit hard and get results.",
+          "synonyms": [
+            "influence",
+            "power",
+            "pull"
+          ],
+          "antonyms": [
+            "weakness",
+            "powerlessness"
+          ]
+        },
+        {
+          "id": "sat-ascendancy",
+          "word": "ascendancy",
+          "partOfSpeech": "noun",
+          "definition": "A position of dominant power or controlling influence over others.",
+          "example": "The rebel faction gained ascendancy after the old regime collapsed.",
+          "mnemonic": "From 'ascend' — you climb to the top and rule over everyone below.",
+          "synonyms": [
+            "dominance",
+            "control",
+            "sway"
+          ],
+          "antonyms": [
+            "subordination",
+            "inferiority"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-primacy",
+          "word": "primacy",
+          "partOfSpeech": "noun",
+          "definition": "The state of being first in rank, importance, or order.",
+          "example": "The doctor stressed the primacy of prevention over expensive later treatment.",
+          "mnemonic": "From 'prime/primary' — being number one, the first and foremost.",
+          "synonyms": [
+            "preeminence",
+            "priority",
+            "superiority"
+          ],
+          "antonyms": [
+            "inferiority",
+            "subordination"
+          ]
+        },
+        {
+          "id": "sat-supremacy",
+          "word": "supremacy",
+          "partOfSpeech": "noun",
+          "definition": "The state of being highest in authority, rank, or power.",
+          "example": "For centuries the navy secured the nation's supremacy over the seas.",
+          "mnemonic": "From 'supreme' — sitting at the absolute top, above all others.",
+          "synonyms": [
+            "dominance",
+            "preeminence",
+            "ascendancy"
+          ],
+          "antonyms": [
+            "inferiority",
+            "subordination"
+          ]
+        },
+        {
+          "id": "sat-predominate",
+          "word": "predominate",
+          "partOfSpeech": "verb",
+          "definition": "To be the strongest, most common, or most noticeable element.",
+          "example": "In the desert flora, hardy cacti predominate over softer, thirstier plants.",
+          "mnemonic": "Pre + 'dominate' — to stand out as the main, ruling presence in a scene.",
+          "synonyms": [
+            "prevail",
+            "outweigh",
+            "reign"
+          ],
+          "antonyms": [
+            "recede",
+            "yield"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-reign",
+          "word": "reign",
+          "partOfSpeech": "noun",
+          "definition": "The period during which a monarch or ruler holds power over a land.",
+          "example": "Under Queen Victoria's reign, the British empire stretched across every continent.",
+          "mnemonic": "REIGN sounds like RAIN — imagine a ruler's authority pouring down over the whole kingdom.",
+          "synonyms": [
+            "rule",
+            "dominion",
+            "sovereignty"
+          ],
+          "antonyms": [
+            "subjection",
+            "servitude"
+          ]
+        },
+        {
+          "id": "sat-marshal",
+          "word": "marshal",
+          "partOfSpeech": "verb",
+          "definition": "To organize and gather people or resources into proper order for a purpose.",
+          "example": "She marshaled the volunteers into small teams before the storm hit the coast.",
+          "mnemonic": "Picture a MARSHAL, the army officer, lining up the troops in neat rows.",
+          "synonyms": [
+            "organize",
+            "assemble",
+            "mobilize"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse"
+          ]
+        },
+        {
+          "id": "sat-muster",
+          "word": "muster",
+          "partOfSpeech": "verb",
+          "definition": "To gather or summon troops, support, or one's own inner strength.",
+          "example": "He finally mustered enough courage to ask his boss for a raise.",
+          "mnemonic": "MUSTER sounds like 'MUST' — you MUST pull everything together to face the moment.",
+          "synonyms": [
+            "gather",
+            "summon",
+            "rally"
+          ],
+          "antonyms": [
+            "disband",
+            "disperse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-orchestrate",
+          "word": "orchestrate",
+          "partOfSpeech": "verb",
+          "definition": "To plan and coordinate a complex activity carefully to produce a desired result.",
+          "example": "The manager orchestrated the product launch down to the last press release.",
+          "mnemonic": "Like the conductor of an ORCHESTRA, cueing every instrument so they all fit together.",
+          "synonyms": [
+            "coordinate",
+            "arrange",
+            "engineer"
+          ],
+          "antonyms": [
+            "disorganize",
+            "bungle"
+          ]
+        },
+        {
+          "id": "sat-spearhead",
+          "word": "spearhead",
+          "partOfSpeech": "verb",
+          "definition": "To lead or drive forward an effort, campaign, or movement from the front.",
+          "example": "A teenage activist spearheaded the drive to clean up the polluted river.",
+          "mnemonic": "The SPEAR's HEAD is the sharp point that strikes first — the one out in front leading.",
+          "synonyms": [
+            "lead",
+            "pioneer",
+            "head"
+          ],
+          "antonyms": [
+            "follow",
+            "trail"
+          ]
+        },
+        {
+          "id": "sat-empower",
+          "word": "empower",
+          "partOfSpeech": "verb",
+          "definition": "To give someone the authority or confidence to take control and act.",
+          "example": "The new training program empowered employees to make decisions without waiting for approval.",
+          "mnemonic": "EM- (to put in) + POWER — literally to put power into someone.",
+          "synonyms": [
+            "enable",
+            "authorize",
+            "equip"
+          ],
+          "antonyms": [
+            "hinder",
+            "disable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-fervor",
+          "word": "fervor",
+          "partOfSpeech": "noun",
+          "definition": "Intense and passionate feeling or burning enthusiasm for something.",
+          "example": "The crowd sang the national anthem with a fervor that gave me chills.",
+          "mnemonic": "FERVOR sounds like 'FEVER' — a burning heat of emotion running through you.",
+          "synonyms": [
+            "passion",
+            "ardor",
+            "zeal"
+          ],
+          "antonyms": [
+            "apathy",
+            "indifference"
+          ]
+        },
+        {
+          "id": "sat-zeal",
+          "word": "zeal",
+          "partOfSpeech": "noun",
+          "definition": "Great energy and eager devotion directed toward a cause or goal.",
+          "example": "She pursued her new fitness plan with such zeal that friends worried she'd burn out.",
+          "mnemonic": "ZEAL rhymes with 'PEEL' — peel away everything else and only burning enthusiasm is left.",
+          "synonyms": [
+            "passion",
+            "fervor",
+            "ardor"
+          ],
+          "antonyms": [
+            "apathy",
+            "indifference"
+          ]
+        },
+        {
+          "id": "sat-ardor",
+          "word": "ardor",
+          "partOfSpeech": "noun",
+          "definition": "Warm, intense passion or eager enthusiasm.",
+          "example": "He spoke of his homeland with an ardor that silenced the whole room.",
+          "mnemonic": "From Latin 'ardere,' to burn — think of glowing embers; ARDOR is a warmth that burns inside.",
+          "synonyms": [
+            "passion",
+            "fervor",
+            "zeal"
+          ],
+          "antonyms": [
+            "coolness",
+            "indifference"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-indomitable",
+          "word": "indomitable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to defeat, subdue, or discourage.",
+          "example": "Despite three failed businesses, her indomitable spirit kept her trying again.",
+          "mnemonic": "IN- (not) + Latin 'domitare' (to tame) — a wild thing that simply cannot be tamed.",
+          "synonyms": [
+            "unconquerable",
+            "invincible",
+            "unyielding"
+          ],
+          "antonyms": [
+            "weak",
+            "submissive"
+          ]
+        },
+        {
+          "id": "sat-formidable",
+          "word": "formidable",
+          "partOfSpeech": "adjective",
+          "definition": "Inspiring fear or respect through being powerful, large, or impressive.",
+          "example": "The chess champion proved a formidable opponent no challenger expected to beat.",
+          "mnemonic": "From Latin 'formido' (fear) — something so imposing it fills you with dread.",
+          "synonyms": [
+            "daunting",
+            "intimidating",
+            "powerful"
+          ],
+          "antonyms": [
+            "weak",
+            "harmless"
+          ]
+        },
+        {
+          "id": "sat-redoubtable",
+          "word": "redoubtable",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving great respect or fear, especially as an opponent.",
+          "example": "The old general remained a redoubtable figure long after he retired.",
+          "mnemonic": "RE-DOUBT-able — an opponent so tough it makes you DOUBT you can ever win.",
+          "synonyms": [
+            "formidable",
+            "daunting",
+            "mighty"
+          ],
+          "antonyms": [
+            "weak",
+            "insignificant"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-browbeat",
+          "word": "browbeat",
+          "partOfSpeech": "verb",
+          "definition": "To bully or pressure someone using stern words and harsh looks.",
+          "example": "The lawyer tried to browbeat the witness into changing her story on the stand.",
+          "mnemonic": "Lower your BROW into a scowl and BEAT someone down with intimidation.",
+          "synonyms": [
+            "bully",
+            "intimidate",
+            "badger"
+          ],
+          "antonyms": [
+            "coax",
+            "encourage"
+          ]
+        },
+        {
+          "id": "sat-wield",
+          "word": "wield",
+          "partOfSpeech": "verb",
+          "definition": "To hold and use a weapon, tool, or influence effectively.",
+          "example": "The senator wields enormous influence over how the committee votes.",
+          "mnemonic": "WIELD rhymes with 'SHIELD' — picture a knight who wields a sword and raises a shield.",
+          "synonyms": [
+            "brandish",
+            "handle",
+            "exert"
+          ],
+          "antonyms": [
+            "relinquish",
+            "drop"
+          ]
+        },
+        {
+          "id": "sat-promulgate",
+          "word": "promulgate",
+          "partOfSpeech": "verb",
+          "definition": "To announce or put into effect a law, decree, or idea officially.",
+          "example": "The new government promulgated a decree banning single-use plastics nationwide.",
+          "mnemonic": "Sounds like 'PROMO' + 'GATE' — open the gate and promote the announcement to everyone.",
+          "synonyms": [
+            "proclaim",
+            "announce",
+            "disseminate"
+          ],
+          "antonyms": [
+            "suppress",
+            "conceal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-embody",
+          "word": "embody",
+          "partOfSpeech": "verb",
+          "definition": "To give a visible or concrete form to an abstract idea, quality, or feeling.",
+          "example": "The old nurse seemed to embody kindness itself, soothing every frightened patient on the ward.",
+          "mnemonic": "em + BODY — you put an idea into a BODY, giving a thought real flesh and shape.",
+          "synonyms": [
+            "personify",
+            "represent",
+            "epitomize"
+          ],
+          "antonyms": [
+            "contradict",
+            "belie"
+          ]
+        },
+        {
+          "id": "sat-subordinate",
+          "word": "subordinate",
+          "partOfSpeech": "adjective",
+          "definition": "Lower in rank, power, or importance than someone or something else.",
+          "example": "As a new recruit, he was subordinate to nearly every officer on the base.",
+          "mnemonic": "sub- (under) + ordinate (ordered) — you are ordered UNDER someone above you.",
+          "synonyms": [
+            "lesser",
+            "inferior",
+            "junior"
+          ],
+          "antonyms": [
+            "superior",
+            "senior",
+            "dominant"
+          ]
+        },
+        {
+          "id": "sat-compliant",
+          "word": "compliant",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to go along with rules, requests, or the wishes of others.",
+          "example": "The compliant puppy sat the instant its owner raised a hand.",
+          "mnemonic": "com-PLY — to ply is to bend; a compliant person bends to every command.",
+          "synonyms": [
+            "obedient",
+            "acquiescent",
+            "submissive"
+          ],
+          "antonyms": [
+            "defiant",
+            "rebellious",
+            "obstinate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-docile",
+          "word": "docile",
+          "partOfSpeech": "adjective",
+          "definition": "Easy to teach, manage, or control, offering little resistance.",
+          "example": "The docile old horse let the children climb all over its back without a fuss.",
+          "mnemonic": "Same Latin root as 'doctor/doctrine' (docere, to teach) — a docile creature is easy to teach.",
+          "synonyms": [
+            "tame",
+            "manageable",
+            "gentle"
+          ],
+          "antonyms": [
+            "unruly",
+            "wild",
+            "stubborn"
+          ]
+        },
+        {
+          "id": "sat-malleable",
+          "word": "malleable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be pressed or bent into a new shape, or easily influenced.",
+          "example": "Gold is so malleable that a jeweler can hammer it into paper-thin sheets.",
+          "mnemonic": "MALLEable sounds like MALLET — a mallet hammers soft metal into any shape.",
+          "synonyms": [
+            "pliable",
+            "flexible",
+            "impressionable"
+          ],
+          "antonyms": [
+            "rigid",
+            "firm",
+            "inflexible"
+          ]
+        },
+        {
+          "id": "sat-relent",
+          "word": "relent",
+          "partOfSpeech": "verb",
+          "definition": "To soften a firm stance and finally give in after resisting.",
+          "example": "After hours of her begging, her father finally relented and let her go to the concert.",
+          "mnemonic": "Hidden 'lent' from Latin lentus (soft, slow) — to go soft again and ease up.",
+          "synonyms": [
+            "yield",
+            "soften",
+            "capitulate"
+          ],
+          "antonyms": [
+            "persist",
+            "persevere",
+            "harden"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T21:51:38.162Z"
+}

@@ -346,7 +346,7 @@ export async function buildAnkiCollection(
 
   for (const month of months) {
     const fullDeckName =
-      grouping === "month" ? `${deckName}::${month.displayName}` : deckName;
+      grouping === "month" ? `${deckName}::${month.title}` : deckName;
     const did = ensureDeck(fullDeckName);
 
     for (const word of allWordsInMonth(month)) {

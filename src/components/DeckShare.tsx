@@ -38,7 +38,7 @@ export function ShareDeckButton({ month }: { month: VocabMonth }) {
       variant="ghost"
       className="text-muted-foreground hover:text-foreground"
       disabled={busy}
-      title={`Copy ${month.displayName} as a shareable code`}
+      title={`Copy ${month.title} as a shareable code`}
       onClick={async () => {
         setBusy(true);
         try {
@@ -46,7 +46,7 @@ export function ShareDeckButton({ month }: { month: VocabMonth }) {
           await navigator.clipboard.writeText(code);
           showToast({
             title: "Deck code copied",
-            description: `${month.displayName} — paste it anywhere to share.`,
+            description: `${month.title} — paste it anywhere to share.`,
             variant: "success",
           });
         } catch (e) {
@@ -61,7 +61,7 @@ export function ShareDeckButton({ month }: { month: VocabMonth }) {
       }}
     >
       <Share2 className="w-3.5 h-3.5" />
-      <span className="sr-only">Share {month.displayName}</span>
+      <span className="sr-only">Share {month.title}</span>
     </Button>
   );
 }

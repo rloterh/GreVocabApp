@@ -1,0 +1,1193 @@
+{
+  "track": "sat",
+  "ordinal": 10,
+  "title": "Certainty and hedging",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-emphatic",
+          "word": "emphatic",
+          "partOfSpeech": "adjective",
+          "definition": "Expressing an opinion or feeling in a forceful, clear, and definite way.",
+          "example": "Her answer was an emphatic no, delivered before I even finished the question.",
+          "mnemonic": "Sounds like 'em-PHAT-ic' — you put a fat, heavy emphasis on the word and hit it hard.",
+          "synonyms": [
+            "forceful",
+            "insistent",
+            "decisive"
+          ],
+          "antonyms": [
+            "hesitant",
+            "tentative"
+          ]
+        },
+        {
+          "id": "sat-unwavering",
+          "word": "unwavering",
+          "partOfSpeech": "adjective",
+          "definition": "Steady and firm, never hesitating or changing in purpose or feeling.",
+          "example": "Through every setback, her unwavering support kept the whole team going.",
+          "mnemonic": "un- + waver: a flag that never wavers in the wind holds perfectly still.",
+          "synonyms": [
+            "steadfast",
+            "resolute",
+            "constant"
+          ],
+          "antonyms": [
+            "faltering",
+            "irresolute"
+          ]
+        },
+        {
+          "id": "sat-peremptory",
+          "word": "peremptory",
+          "partOfSpeech": "adjective",
+          "definition": "Commanding in a way that expects immediate obedience and allows no refusal.",
+          "example": "The manager's peremptory tone left no room for questions; we simply obeyed.",
+          "mnemonic": "Hear 'prompt' + 'emperor' — an emperor who demands prompt obedience, right now.",
+          "synonyms": [
+            "imperious",
+            "dictatorial",
+            "brusque"
+          ],
+          "antonyms": [
+            "deferential",
+            "submissive"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-certitude",
+          "word": "certitude",
+          "partOfSpeech": "noun",
+          "definition": "Complete freedom from doubt about the truth of something.",
+          "example": "She spoke of the outcome with such certitude that no one dared argue.",
+          "mnemonic": "cert- as in 'certificate' — a certitude is a stamped-and-sealed, guaranteed sureness.",
+          "synonyms": [
+            "conviction",
+            "assurance",
+            "confidence"
+          ],
+          "antonyms": [
+            "doubt",
+            "skepticism"
+          ]
+        },
+        {
+          "id": "sat-dictum",
+          "word": "dictum",
+          "partOfSpeech": "noun",
+          "definition": "A formal or authoritative statement expressing a general truth or principle.",
+          "example": "He lived by his grandfather's dictum: measure twice, cut once.",
+          "mnemonic": "From Latin 'dicere' (to say) — a dictum is what's been declared, like a dictator's dictate.",
+          "synonyms": [
+            "pronouncement",
+            "edict",
+            "saying"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-maxim",
+          "word": "maxim",
+          "partOfSpeech": "noun",
+          "definition": "A short, memorable saying that expresses a general truth or rule for behavior.",
+          "example": "'Waste not, want not' was the maxim she repeated whenever we went shopping.",
+          "mnemonic": "Think 'maximum' wisdom packed into a minimum of words.",
+          "synonyms": [
+            "adage",
+            "aphorism",
+            "proverb"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-caveat",
+          "word": "caveat",
+          "partOfSpeech": "noun",
+          "definition": "A warning or condition attached to something to limit or qualify it.",
+          "example": "You can borrow the car, with one caveat: fill the tank before returning it.",
+          "mnemonic": "Latin for 'let him beware' — a caveat cries 'cave!', watch out before you proceed.",
+          "synonyms": [
+            "warning",
+            "proviso",
+            "stipulation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-provisional",
+          "word": "provisional",
+          "partOfSpeech": "adjective",
+          "definition": "Arranged or existing only for the present, likely to be changed later.",
+          "example": "The team accepted a provisional schedule until the final dates were confirmed.",
+          "mnemonic": "A 'provision' for now — it provides a stopgap until the real plan arrives.",
+          "synonyms": [
+            "temporary",
+            "interim",
+            "tentative"
+          ],
+          "antonyms": [
+            "permanent",
+            "definite"
+          ]
+        },
+        {
+          "id": "sat-conditional",
+          "word": "conditional",
+          "partOfSpeech": "adjective",
+          "definition": "Depending on one or more requirements being met before taking effect.",
+          "example": "Her job offer was conditional: she had to pass the background check first.",
+          "mnemonic": "It always comes with an 'if' attached — a conditional yes hangs on that 'if'.",
+          "synonyms": [
+            "contingent",
+            "dependent",
+            "qualified"
+          ],
+          "antonyms": [
+            "unconditional",
+            "absolute"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-hypothetical",
+          "word": "hypothetical",
+          "partOfSpeech": "adjective",
+          "definition": "Based on a suggested situation or idea rather than on real facts.",
+          "example": "Let's take a hypothetical case: suppose you found a wallet on the street.",
+          "mnemonic": "Root 'hypo-' (under) + 'thesis' — an idea placed under consideration, not yet proven.",
+          "synonyms": [
+            "theoretical",
+            "supposed",
+            "imagined"
+          ],
+          "antonyms": [
+            "actual",
+            "factual"
+          ]
+        },
+        {
+          "id": "sat-speculative",
+          "word": "speculative",
+          "partOfSpeech": "adjective",
+          "definition": "Based on guessing or reasoning rather than solid knowledge or evidence.",
+          "example": "The report was purely speculative, admitting no one really knew the cause yet.",
+          "mnemonic": "Like 'spectator' — from Latin 'specere' (to look); you're just peering ahead and guessing.",
+          "synonyms": [
+            "conjectural",
+            "theoretical",
+            "tentative"
+          ],
+          "antonyms": [
+            "factual",
+            "proven"
+          ]
+        },
+        {
+          "id": "sat-supposition",
+          "word": "supposition",
+          "partOfSpeech": "noun",
+          "definition": "An idea taken to be true without proof, used as a basis for reasoning.",
+          "example": "The detective worked on the supposition that the visitor had lied about the time.",
+          "mnemonic": "'Suppose' + -ition — a supposition is simply what you suppose to be so.",
+          "synonyms": [
+            "assumption",
+            "hypothesis",
+            "guess"
+          ],
+          "antonyms": [
+            "certainty",
+            "fact"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-vague",
+          "word": "vague",
+          "partOfSpeech": "adjective",
+          "definition": "Not clearly expressed, defined, or understood; lacking exact detail.",
+          "example": "His directions were so vague that we circled the neighborhood for an hour.",
+          "mnemonic": "Sounds like 'vagabond' — a wanderer with no fixed path, drifting without clear shape.",
+          "synonyms": [
+            "unclear",
+            "imprecise",
+            "hazy"
+          ],
+          "antonyms": [
+            "precise",
+            "definite"
+          ]
+        },
+        {
+          "id": "sat-nebulous",
+          "word": "nebulous",
+          "partOfSpeech": "adjective",
+          "definition": "Hazy, cloudy, and hard to grasp or define; without clear form.",
+          "example": "She had only a nebulous notion of what she wanted to do after graduation.",
+          "mnemonic": "From 'nebula' — a cloud of space gas with fuzzy, undefined edges.",
+          "synonyms": [
+            "hazy",
+            "indistinct",
+            "murky"
+          ],
+          "antonyms": [
+            "clear",
+            "distinct"
+          ]
+        },
+        {
+          "id": "sat-obscure",
+          "word": "obscure",
+          "partOfSpeech": "adjective",
+          "definition": "Not easily understood, seen, or known; hidden from general view.",
+          "example": "The poem alluded to some obscure myth that none of the students recognized.",
+          "mnemonic": "'ob-' (over) + 'scure' (cover) — something covered over and kept in the dark.",
+          "synonyms": [
+            "cryptic",
+            "little-known",
+            "unclear"
+          ],
+          "antonyms": [
+            "obvious",
+            "well-known"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-opaque",
+          "word": "opaque",
+          "partOfSpeech": "adjective",
+          "definition": "Blocking light so you cannot see through it, or too unclear to understand.",
+          "example": "The bathroom window was made of opaque glass, so no one could peer inside.",
+          "mnemonic": "Sounds like 'o-pake' — a thick 'cake' of paint you can't see through.",
+          "synonyms": [
+            "cloudy",
+            "obscure",
+            "impenetrable"
+          ],
+          "antonyms": [
+            "transparent",
+            "clear",
+            "lucid"
+          ]
+        },
+        {
+          "id": "sat-cryptic",
+          "word": "cryptic",
+          "partOfSpeech": "adjective",
+          "definition": "Having a hidden or puzzling meaning that is deliberately hard to grasp.",
+          "example": "She left a cryptic note reading 'the third stone remembers,' and no one knew what it meant.",
+          "mnemonic": "Root 'crypt' = hidden tomb; a message sealed away like a secret vault.",
+          "synonyms": [
+            "mysterious",
+            "obscure",
+            "veiled"
+          ],
+          "antonyms": [
+            "clear",
+            "obvious",
+            "straightforward"
+          ]
+        },
+        {
+          "id": "sat-indeterminate",
+          "word": "indeterminate",
+          "partOfSpeech": "adjective",
+          "definition": "Not fixed, settled, or precisely known in extent, value, or nature.",
+          "example": "The painting was of indeterminate age; experts couldn't agree if it was decades or centuries old.",
+          "mnemonic": "In- (not) + 'determine' — you cannot determine it, so it stays undecided.",
+          "synonyms": [
+            "uncertain",
+            "vague",
+            "unsettled"
+          ],
+          "antonyms": [
+            "definite",
+            "fixed",
+            "precise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-amorphous",
+          "word": "amorphous",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking a clear shape, structure, or defined organization.",
+          "example": "The startup began as an amorphous group of friends with no titles, offices, or plan.",
+          "mnemonic": "'a-' (without) + Greek 'morph' (form) — a blob without form, like the monster 'the Amorph.'",
+          "synonyms": [
+            "shapeless",
+            "formless",
+            "vague"
+          ],
+          "antonyms": [
+            "defined",
+            "structured",
+            "shaped"
+          ]
+        },
+        {
+          "id": "sat-inscrutable",
+          "word": "inscrutable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to read, interpret, or understand from outward signs.",
+          "example": "The judge kept an inscrutable face, giving the lawyers no hint of which way she would rule.",
+          "mnemonic": "In- (not) + 'scrutable' (from 'scrutinize') — you can scrutinize all you want and still learn nothing.",
+          "synonyms": [
+            "impenetrable",
+            "unreadable",
+            "enigmatic"
+          ],
+          "antonyms": [
+            "readable",
+            "expressive",
+            "transparent"
+          ]
+        },
+        {
+          "id": "sat-enigmatic",
+          "word": "enigmatic",
+          "partOfSpeech": "adjective",
+          "definition": "Mysterious and puzzling in a way that invites but resists explanation.",
+          "example": "The Mona Lisa's enigmatic smile has kept viewers guessing at her mood for centuries.",
+          "mnemonic": "From 'enigma,' a riddle — think of the Enigma machine that hid wartime secrets.",
+          "synonyms": [
+            "mysterious",
+            "puzzling",
+            "cryptic"
+          ],
+          "antonyms": [
+            "obvious",
+            "clear",
+            "plain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-abstruse",
+          "word": "abstruse",
+          "partOfSpeech": "adjective",
+          "definition": "So deep or complex that only a specialist can follow it.",
+          "example": "His lecture on quantum field theory was so abstruse that half the room quietly gave up.",
+          "mnemonic": "'Abs-truse' sounds like 'obtuse' + 'abstract' — an abstract idea too dense to grasp.",
+          "synonyms": [
+            "obscure",
+            "esoteric",
+            "recondite"
+          ],
+          "antonyms": [
+            "simple",
+            "accessible",
+            "obvious"
+          ]
+        },
+        {
+          "id": "sat-arcane",
+          "word": "arcane",
+          "partOfSpeech": "adjective",
+          "definition": "Known or understood by only a few, often because it is old or secret.",
+          "example": "The old librarian knew the arcane rules for accessing the archive's forbidden basement.",
+          "mnemonic": "Sounds like 'a cane' held by a wizard guarding secret, ancient knowledge.",
+          "synonyms": [
+            "esoteric",
+            "obscure",
+            "mysterious"
+          ],
+          "antonyms": [
+            "common",
+            "well-known",
+            "familiar"
+          ]
+        },
+        {
+          "id": "sat-esoteric",
+          "word": "esoteric",
+          "partOfSpeech": "adjective",
+          "definition": "Meant for or grasped by only a small group with special knowledge.",
+          "example": "The forum's debates were so esoteric that outsiders couldn't follow a single thread.",
+          "mnemonic": "'Eso-' (inner) — knowledge for the inner circle, like an 'exclusive terrarium' of experts.",
+          "synonyms": [
+            "arcane",
+            "specialized",
+            "obscure"
+          ],
+          "antonyms": [
+            "mainstream",
+            "popular",
+            "accessible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-recondite",
+          "word": "recondite",
+          "partOfSpeech": "adjective",
+          "definition": "Concerning obscure subjects that lie beyond ordinary knowledge.",
+          "example": "She wrote a recondite study of medieval tax law that only a dozen scholars could appreciate.",
+          "mnemonic": "'Re-con-dite' → 're-condite,' like hidden away in a 'condo' no one can find.",
+          "synonyms": [
+            "abstruse",
+            "obscure",
+            "esoteric"
+          ],
+          "antonyms": [
+            "simple",
+            "familiar",
+            "obvious"
+          ]
+        },
+        {
+          "id": "sat-murky",
+          "word": "murky",
+          "partOfSpeech": "adjective",
+          "definition": "Dark, cloudy, and hard to see or understand clearly.",
+          "example": "We couldn't spot the bottom of the murky pond even in bright sunlight.",
+          "mnemonic": "Rhymes with 'dirty' — dirty water is dark and cloudy, hiding what's beneath.",
+          "synonyms": [
+            "cloudy",
+            "gloomy",
+            "obscure"
+          ],
+          "antonyms": [
+            "clear",
+            "bright",
+            "transparent"
+          ]
+        },
+        {
+          "id": "sat-muddled",
+          "word": "muddled",
+          "partOfSpeech": "adjective",
+          "definition": "Confused and disorganized, with things mixed up in a jumbled way.",
+          "example": "After three sleepless nights his thinking grew muddled and he kept losing his keys.",
+          "mnemonic": "Think of stirring 'mud' into water — everything becomes a jumbled, cloudy mess.",
+          "synonyms": [
+            "confused",
+            "jumbled",
+            "disordered"
+          ],
+          "antonyms": [
+            "clear",
+            "organized",
+            "coherent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-convoluted",
+          "word": "convoluted",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely complicated and twisting, making it very hard to follow.",
+          "example": "The plot was so convoluted that viewers needed a diagram to track who betrayed whom.",
+          "mnemonic": "Root 'volut-' (to roll) — coiled and rolled up like a twisted intestine.",
+          "synonyms": [
+            "tangled",
+            "complicated",
+            "labyrinthine"
+          ],
+          "antonyms": [
+            "simple",
+            "straightforward",
+            "direct"
+          ]
+        },
+        {
+          "id": "sat-intricate",
+          "word": "intricate",
+          "partOfSpeech": "adjective",
+          "definition": "Made of many small parts arranged in a detailed, elaborate way.",
+          "example": "The clockmaker assembled hundreds of tiny gears into one intricate mechanism.",
+          "mnemonic": "'In-tricate' → 'in tricky' — a design so tricky and detailed it takes skill to trace.",
+          "synonyms": [
+            "elaborate",
+            "complex",
+            "detailed"
+          ],
+          "antonyms": [
+            "simple",
+            "plain",
+            "basic"
+          ]
+        },
+        {
+          "id": "sat-doubtful",
+          "word": "doubtful",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling or causing uncertainty about whether something is true or likely.",
+          "example": "Given the storm, it seemed doubtful that the ferry would run at all today.",
+          "mnemonic": "'Doubt' + '-ful' — full of doubt, hesitating with a question mark over your head.",
+          "synonyms": [
+            "uncertain",
+            "dubious",
+            "questionable"
+          ],
+          "antonyms": [
+            "certain",
+            "confident",
+            "sure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-questionable",
+          "word": "questionable",
+          "partOfSpeech": "adjective",
+          "definition": "Likely to be untrue, dishonest, or of low quality; open to doubt.",
+          "example": "The mechanic gave a questionable excuse for why the repair bill tripled overnight.",
+          "mnemonic": "question + able = able to be questioned, so you can't take it at face value.",
+          "synonyms": [
+            "dubious",
+            "doubtful",
+            "suspect"
+          ],
+          "antonyms": [
+            "certain",
+            "reliable",
+            "trustworthy"
+          ]
+        },
+        {
+          "id": "sat-apocryphal",
+          "word": "apocryphal",
+          "partOfSpeech": "adjective",
+          "definition": "Widely repeated but probably untrue or of uncertain, unverified origin.",
+          "example": "The tale that he coined the slogan on his deathbed is almost certainly apocryphal.",
+          "mnemonic": "The Apocrypha are the disputed books left out of the Bible; apocryphal stories are the disputed ones left out of the record.",
+          "synonyms": [
+            "fictitious",
+            "spurious",
+            "unverified"
+          ],
+          "antonyms": [
+            "authentic",
+            "genuine",
+            "verified"
+          ]
+        },
+        {
+          "id": "sat-probable",
+          "word": "probable",
+          "partOfSpeech": "adjective",
+          "definition": "Likely to be true or to happen.",
+          "example": "With clouds this thick, rain before noon seems the most probable outcome.",
+          "mnemonic": "Sounds like 'prove-able' — likely enough that you could almost prove it.",
+          "synonyms": [
+            "likely",
+            "expected",
+            "plausible"
+          ],
+          "antonyms": [
+            "unlikely",
+            "improbable",
+            "doubtful"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-feasible",
+          "word": "feasible",
+          "partOfSpeech": "adjective",
+          "definition": "Able to be done or achieved without great difficulty.",
+          "example": "Building the bridge in six months is feasible only if the budget doubles.",
+          "mnemonic": "Hear 'ease' inside FEASible — something done with ease can be pulled off.",
+          "synonyms": [
+            "achievable",
+            "practicable",
+            "workable"
+          ],
+          "antonyms": [
+            "impossible",
+            "impractical",
+            "unworkable"
+          ]
+        },
+        {
+          "id": "sat-viable",
+          "word": "viable",
+          "partOfSpeech": "adjective",
+          "definition": "Able to work successfully or survive on its own.",
+          "example": "The startup wasn't viable once its only customer walked away.",
+          "mnemonic": "Latin vita = life; a viable seed or plan has enough life in it to keep going.",
+          "synonyms": [
+            "workable",
+            "sustainable",
+            "practicable"
+          ],
+          "antonyms": [
+            "unworkable",
+            "nonviable",
+            "doomed"
+          ]
+        },
+        {
+          "id": "sat-conceivable",
+          "word": "conceivable",
+          "partOfSpeech": "adjective",
+          "definition": "Possible to imagine or believe as true.",
+          "example": "It's conceivable that life exists on other planets, though we've found none yet.",
+          "mnemonic": "conceive + able — if the mind can conceive it, it belongs here.",
+          "synonyms": [
+            "imaginable",
+            "possible",
+            "plausible"
+          ],
+          "antonyms": [
+            "inconceivable",
+            "unimaginable",
+            "impossible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-presumptive",
+          "word": "presumptive",
+          "partOfSpeech": "adjective",
+          "definition": "Believed to be the case based on likelihood rather than firm proof.",
+          "example": "As the presumptive heir, she began learning the family business before the will was even read.",
+          "mnemonic": "presume + -tive — the presumptive winner is the one we presume will win, before it's official.",
+          "synonyms": [
+            "presumed",
+            "prospective",
+            "likely"
+          ],
+          "antonyms": [
+            "confirmed",
+            "proven",
+            "actual"
+          ]
+        },
+        {
+          "id": "sat-conjectural",
+          "word": "conjectural",
+          "partOfSpeech": "adjective",
+          "definition": "Based on guessing rather than firm evidence.",
+          "example": "Without the diary, everything we say about his motives is purely conjectural.",
+          "mnemonic": "con- (together) + ject (throw): a conjecture is a guess thrown together, so conjectural = made of guesswork.",
+          "synonyms": [
+            "speculative",
+            "hypothetical",
+            "unproven"
+          ],
+          "antonyms": [
+            "factual",
+            "proven",
+            "confirmed"
+          ]
+        },
+        {
+          "id": "sat-cautious",
+          "word": "cautious",
+          "partOfSpeech": "adjective",
+          "definition": "Careful to avoid risks or mistakes.",
+          "example": "After slipping once, she took slow, testing, cautious steps across the icy path.",
+          "mnemonic": "Think of a yellow CAUTION road sign — it makes you slow down and watch your step.",
+          "synonyms": [
+            "careful",
+            "wary",
+            "guarded"
+          ],
+          "antonyms": [
+            "reckless",
+            "rash",
+            "careless"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-hesitant",
+          "word": "hesitant",
+          "partOfSpeech": "adjective",
+          "definition": "Slow to act or speak because of doubt or reluctance.",
+          "example": "He gave a hesitant nod, still unsure whether to trust the stranger.",
+          "mnemonic": "There's a 'sit' in heSITant — when you hesitate, you sit still instead of acting.",
+          "synonyms": [
+            "reluctant",
+            "uncertain",
+            "tentative"
+          ],
+          "antonyms": [
+            "confident",
+            "decisive",
+            "eager"
+          ]
+        },
+        {
+          "id": "sat-insinuate",
+          "word": "insinuate",
+          "partOfSpeech": "verb",
+          "definition": "To hint at something unpleasant in an indirect way.",
+          "example": "She never accused him outright, but she insinuated that he'd been lying all along.",
+          "mnemonic": "Sinu- like 'sinuous' (snake-like): a nasty hint slithers in sideways rather than coming straight at you.",
+          "synonyms": [
+            "imply",
+            "hint",
+            "intimate"
+          ],
+          "antonyms": [
+            "state",
+            "declare",
+            "assert"
+          ]
+        },
+        {
+          "id": "sat-imply",
+          "word": "imply",
+          "partOfSpeech": "verb",
+          "definition": "To suggest something without saying it directly.",
+          "example": "Her long silence seemed to imply that she disagreed with the whole plan.",
+          "mnemonic": "Latin plicare = to fold; to imply is to fold a meaning IN, like a hidden ply of fabric in your words.",
+          "synonyms": [
+            "suggest",
+            "indicate",
+            "hint"
+          ],
+          "antonyms": [
+            "state",
+            "express",
+            "spell out"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-maintain",
+          "word": "maintain",
+          "partOfSpeech": "verb",
+          "definition": "To firmly state that something is true, often despite challenge.",
+          "example": "Even under cross-examination, the witness maintained that he had never left home.",
+          "mnemonic": "main + tain (Latin tenere, to hold): you keep holding on to your main claim.",
+          "synonyms": [
+            "assert",
+            "insist",
+            "contend"
+          ],
+          "antonyms": [
+            "deny",
+            "retract",
+            "concede"
+          ]
+        },
+        {
+          "id": "sat-acknowledge",
+          "word": "acknowledge",
+          "partOfSpeech": "verb",
+          "definition": "To admit that something is true or that someone exists.",
+          "example": "The company finally acknowledged that the shipping delay was its own fault.",
+          "mnemonic": "It literally contains 'knowledge' — to acknowledge is to show you know it and accept it.",
+          "synonyms": [
+            "admit",
+            "concede",
+            "recognize"
+          ],
+          "antonyms": [
+            "deny",
+            "ignore",
+            "dismiss"
+          ]
+        },
+        {
+          "id": "sat-disprove",
+          "word": "disprove",
+          "partOfSpeech": "verb",
+          "definition": "To show that something is false or wrong.",
+          "example": "A single fossil was enough to disprove the claim that the region had always been desert.",
+          "mnemonic": "dis- (not/opposite) + prove — to prove the opposite, to un-prove a claim.",
+          "synonyms": [
+            "refute",
+            "rebut",
+            "debunk"
+          ],
+          "antonyms": [
+            "prove",
+            "confirm",
+            "verify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-perceptive",
+          "word": "perceptive",
+          "partOfSpeech": "adjective",
+          "definition": "Quick to notice, understand, or grasp subtle details others might miss.",
+          "example": "Her therapist was so perceptive that he sensed her anxiety before she said a single word.",
+          "mnemonic": "Per- (through) + -ceptive (to take in) — someone who takes the world in through sharp, seeing senses.",
+          "synonyms": [
+            "astute",
+            "insightful",
+            "sharp"
+          ],
+          "antonyms": [
+            "obtuse",
+            "oblivious"
+          ]
+        },
+        {
+          "id": "sat-candor",
+          "word": "candor",
+          "partOfSpeech": "noun",
+          "definition": "The quality of speaking openly and honestly, without hiding one's true feelings.",
+          "example": "I appreciated her candor when she admitted the whole project had failed under her watch.",
+          "mnemonic": "Sounds like 'candid' — a candid camera catches you unguarded and honest.",
+          "synonyms": [
+            "frankness",
+            "honesty",
+            "openness"
+          ],
+          "antonyms": [
+            "deceit",
+            "evasiveness"
+          ]
+        },
+        {
+          "id": "sat-putative",
+          "word": "putative",
+          "partOfSpeech": "adjective",
+          "definition": "Generally assumed or supposed to be the case, though not actually proven.",
+          "example": "The putative author of the anonymous letter denied ever picking up a pen.",
+          "mnemonic": "From Latin 'putare' (to think) — what people PUT forward as their best guess.",
+          "synonyms": [
+            "supposed",
+            "presumed",
+            "alleged"
+          ],
+          "antonyms": [
+            "proven",
+            "confirmed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-notional",
+          "word": "notional",
+          "partOfSpeech": "adjective",
+          "definition": "Existing only as an idea or in theory, not in reality.",
+          "example": "The budget listed a notional figure for repairs, though no real estimate had been made yet.",
+          "mnemonic": "Comes from 'notion' — just a notion floating in your head, not a real thing.",
+          "synonyms": [
+            "hypothetical",
+            "theoretical",
+            "abstract"
+          ],
+          "antonyms": [
+            "actual",
+            "real",
+            "concrete"
+          ]
+        },
+        {
+          "id": "sat-reputed",
+          "word": "reputed",
+          "partOfSpeech": "adjective",
+          "definition": "Widely said or believed to be something, based on general opinion.",
+          "example": "He is reputed to be the richest man in the valley, though no one has ever seen his accounts.",
+          "mnemonic": "Shares a root with 'reputation' — what your reputation claims you are, true or not.",
+          "synonyms": [
+            "supposed",
+            "rumored",
+            "alleged"
+          ],
+          "antonyms": [
+            "proven",
+            "verified"
+          ]
+        },
+        {
+          "id": "sat-hearsay",
+          "word": "hearsay",
+          "partOfSpeech": "noun",
+          "definition": "Unverified information passed along from other people rather than direct knowledge.",
+          "example": "The judge dismissed the testimony as hearsay, since the witness had only gotten it from a neighbor.",
+          "mnemonic": "Hear + say: what you HEAR someone SAY secondhand, not what you actually know.",
+          "synonyms": [
+            "rumor",
+            "gossip",
+            "tittle-tattle"
+          ],
+          "antonyms": [
+            "fact",
+            "evidence",
+            "proof"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-prognosis",
+          "word": "prognosis",
+          "partOfSpeech": "noun",
+          "definition": "A forecast of how a disease or situation is likely to develop over time.",
+          "example": "After reviewing the scan, the doctor gave a hopeful prognosis and said recovery would take months.",
+          "mnemonic": "Pro- (before) + gnosis (knowledge) — knowing beforehand how things will turn out.",
+          "synonyms": [
+            "forecast",
+            "prediction",
+            "outlook"
+          ],
+          "antonyms": [
+            "hindsight",
+            "retrospect"
+          ]
+        },
+        {
+          "id": "sat-prophecy",
+          "word": "prophecy",
+          "partOfSpeech": "noun",
+          "definition": "A statement predicting what will happen, often claimed to come from divine insight.",
+          "example": "The old prophecy warned that the city would fall on the day the river ran dry.",
+          "mnemonic": "Pro- (before) + -phecy (to speak) — speaking of events before they happen.",
+          "synonyms": [
+            "prediction",
+            "prognostication",
+            "augury"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-foreboding",
+          "word": "foreboding",
+          "partOfSpeech": "noun",
+          "definition": "A feeling that something bad is about to happen.",
+          "example": "As the sky darkened and the wind died, a sense of foreboding settled over the campers.",
+          "mnemonic": "Fore- (before) + bode (to omen) — an ill omen you feel before trouble arrives.",
+          "synonyms": [
+            "dread",
+            "apprehension",
+            "misgiving"
+          ],
+          "antonyms": [
+            "reassurance",
+            "calm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-inkling",
+          "word": "inkling",
+          "partOfSpeech": "noun",
+          "definition": "A slight hint or vague idea about something.",
+          "example": "I had no inkling that they were planning a party until the lights suddenly flicked on.",
+          "mnemonic": "A single drop of 'ink' — just enough to sketch the faintest idea.",
+          "synonyms": [
+            "hint",
+            "clue",
+            "suspicion"
+          ],
+          "antonyms": [
+            "certainty",
+            "knowledge"
+          ]
+        },
+        {
+          "id": "sat-hunch",
+          "word": "hunch",
+          "partOfSpeech": "noun",
+          "definition": "A guess or feeling based on instinct rather than evidence.",
+          "example": "On a hunch, the detective checked the basement and found the missing files.",
+          "mnemonic": "Picture a gambler 'hunched' over the table, betting on nothing but a gut feeling.",
+          "synonyms": [
+            "feeling",
+            "instinct",
+            "suspicion"
+          ],
+          "antonyms": [
+            "certainty",
+            "proof"
+          ]
+        },
+        {
+          "id": "sat-intuition",
+          "word": "intuition",
+          "partOfSpeech": "noun",
+          "definition": "The ability to understand something immediately without conscious reasoning.",
+          "example": "Her intuition told her the deal was wrong long before the numbers proved it.",
+          "mnemonic": "In- (inward) + tuition (from tueri, to look) — an inward looking that simply knows.",
+          "synonyms": [
+            "instinct",
+            "insight",
+            "gut feeling"
+          ],
+          "antonyms": [
+            "reasoning",
+            "deduction",
+            "analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-noncommittal",
+          "word": "noncommittal",
+          "partOfSpeech": "adjective",
+          "definition": "Not revealing a clear opinion or intention.",
+          "example": "When asked if he would run for office, the senator gave a noncommittal shrug and changed the subject.",
+          "mnemonic": "Non + commit — refusing to 'commit' to any side of an answer.",
+          "synonyms": [
+            "evasive",
+            "vague",
+            "ambiguous"
+          ],
+          "antonyms": [
+            "decisive",
+            "definite"
+          ]
+        },
+        {
+          "id": "sat-orthodoxy",
+          "word": "orthodoxy",
+          "partOfSpeech": "noun",
+          "definition": "A belief or practice accepted as correct and traditional by most people.",
+          "example": "Questioning the economic orthodoxy of her day nearly ended her academic career.",
+          "mnemonic": "Ortho- (straight/correct) + -doxy (opinion) — the 'correct' opinion everyone is expected to hold.",
+          "synonyms": [
+            "convention",
+            "tradition",
+            "dogma"
+          ],
+          "antonyms": [
+            "heresy",
+            "heterodoxy",
+            "dissent"
+          ]
+        },
+        {
+          "id": "sat-consensus",
+          "word": "consensus",
+          "partOfSpeech": "noun",
+          "definition": "General agreement reached among the members of a group.",
+          "example": "After hours of heated debate, the committee finally reached a consensus on the budget.",
+          "mnemonic": "Con- (together) + sens- (to feel/think) — everyone thinking and feeling the same way together.",
+          "synonyms": [
+            "agreement",
+            "accord",
+            "unanimity"
+          ],
+          "antonyms": [
+            "disagreement",
+            "dissent",
+            "discord"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-unyielding",
+          "word": "unyielding",
+          "partOfSpeech": "adjective",
+          "definition": "Refusing to bend, soften, or give in under pressure or persuasion.",
+          "example": "Despite hours of pleading from the whole team, the coach stayed unyielding and cut practice short.",
+          "mnemonic": "Break it down: 'un-' (not) + 'yielding' — a driver who will NOT yield at the merge, no matter who honks.",
+          "synonyms": [
+            "inflexible",
+            "resolute",
+            "adamant"
+          ],
+          "antonyms": [
+            "flexible",
+            "yielding",
+            "accommodating"
+          ]
+        },
+        {
+          "id": "sat-decisive",
+          "word": "decisive",
+          "partOfSpeech": "adjective",
+          "definition": "Settling an issue quickly and firmly, or producing a clear final result.",
+          "example": "With one decisive strike in the final minute, she ended the match and left no doubt about the winner.",
+          "mnemonic": "Hear 'decide' inside decisive — a decisive person decides fast and sticks to it.",
+          "synonyms": [
+            "resolute",
+            "conclusive",
+            "firm"
+          ],
+          "antonyms": [
+            "indecisive",
+            "hesitant",
+            "tentative"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core academic",
+  "createdAt": "2026-09-12T19:46:14.551Z"
+}

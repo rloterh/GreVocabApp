@@ -1,40 +1,60 @@
-import type { VocabMonth, VocabWord } from "@/types";
-import { slugify, toMonthKey } from "./date-utils";
+import type { Track, VocabMonth, VocabWord } from "@/types";
+import { slugify } from "./date-utils";
+import { DEFAULT_TRACK, isTrack, wordId } from "./track";
 
 /**
- * First month key from today with nothing loaded in it.
+ * The domain contract's parser.
  *
- * Used wherever new vocabulary needs somewhere to land — generated months and
- * Anki imports both carry no month of their own, and dropping them onto a
- * month that already has words would overwrite it.
+ * Reads both shapes: the ordinal one the app writes today
+ * (`{ track, ordinal, title, days }`) and the calendar one every file written
+ * before tracks existed used (`{ month: "2026-04", displayName, days }`).
+ * The second is not deprecated so much as *foreign* — an exported deck, a
+ * share link, someone else's file — and refusing it would break imports that
+ * have nothing to do with this change.
  */
-export function firstFreeMonthKey(loaded: Record<string, unknown>): string {
-  const cursor = new Date();
-  cursor.setDate(1);
-  for (let i = 0; i < 24; i++) {
-    const key = toMonthKey(cursor);
-    if (!(key in loaded)) return key;
-    cursor.setMonth(cursor.getMonth() + 1);
-  }
-  return toMonthKey(new Date());
+
+export interface ParseOptions {
+  /** Track to file the month under when the file does not name one. */
+  track?: Track;
+  /** Teaching position to use when the file does not carry one. */
+  ordinal?: number;
+}
+
+/**
+ * The first teaching position in a track with nothing in it.
+ *
+ * Used wherever new vocabulary needs somewhere to land. Replaces the old
+ * `firstFreeMonthKey`, which answered the same question in calendar months
+ * and therefore could not answer it at all once content stopped having dates.
+ */
+export function firstFreeOrdinal(taken: Iterable<number>): number {
+  const used = new Set(taken);
+  let ordinal = 1;
+  while (used.has(ordinal)) ordinal++;
+  return ordinal;
 }
 
 /** Validate and normalize a raw month object into a VocabMonth */
-export function parseVocabMonth(raw: unknown): VocabMonth {
+export function parseVocabMonth(
+  raw: unknown,
+  options: ParseOptions = {},
+): VocabMonth {
   if (!raw || typeof raw !== "object") {
     throw new Error("Vocab file must be a JSON object");
   }
   const r = raw as Record<string, unknown>;
 
-  const month = r.month;
-  if (typeof month !== "string" || !/^\d{4}-\d{2}$/.test(month)) {
-    throw new Error("Missing or invalid `month` field (expected 'YYYY-MM')");
-  }
+  const track: Track = isTrack(r.track)
+    ? r.track
+    : (options.track ?? DEFAULT_TRACK);
 
-  const displayName =
-    typeof r.displayName === "string" && r.displayName.trim()
-      ? r.displayName
-      : month;
+  const ordinal = readOrdinal(r, options);
+
+  // A month's name used to be its date. Now it has to carry its own identity,
+  // so a file that offers neither a title nor a legacy display name gets one
+  // that is at least unambiguous.
+  const title =
+    firstNonEmpty(r.title, r.displayName, r.month) ?? `Month ${ordinal}`;
 
   const daysRaw = r.days;
   if (!Array.isArray(daysRaw) || daysRaw.length === 0) {
@@ -98,10 +118,11 @@ export function parseVocabMonth(raw: unknown): VocabMonth {
         throw new Error(`${word} is missing 'mnemonic'`);
       }
       return {
+        // An id carried by the file is honoured only when it belongs to this
+        // track. A legacy `2026-04-abate` would otherwise survive the parse
+        // and reintroduce a calendar into the one field that must not have one.
         id: uniqueId(
-          typeof wo.id === "string" && wo.id.trim()
-            ? wo.id
-            : `${month}-${slugify(word)}`,
+          usableId(wo.id, track) ?? wordId(track, slugify(word)),
           seenIds,
         ),
         word,
@@ -124,15 +145,42 @@ export function parseVocabMonth(raw: unknown): VocabMonth {
   days.sort((a, b) => a.day - b.day);
 
   return {
-    month,
-    displayName,
+    track,
+    ordinal,
+    title,
     days,
     author: typeof r.author === "string" ? r.author : undefined,
-    description:
-      typeof r.description === "string" ? r.description : undefined,
-    createdAt:
-      typeof r.createdAt === "string" ? r.createdAt : undefined,
+    description: typeof r.description === "string" ? r.description : undefined,
+    createdAt: typeof r.createdAt === "string" ? r.createdAt : undefined,
   };
+}
+
+function readOrdinal(
+  r: Record<string, unknown>,
+  options: ParseOptions,
+): number {
+  const raw = r.ordinal;
+  if (typeof raw === "number" && Number.isInteger(raw) && raw >= 1) return raw;
+  if (raw !== undefined) {
+    throw new Error("`ordinal` must be a whole number of 1 or more");
+  }
+  if (options.ordinal !== undefined) return options.ordinal;
+  throw new Error(
+    "Missing `ordinal` — this file does not say where in the track it belongs",
+  );
+}
+
+function firstNonEmpty(...values: unknown[]): string | null {
+  for (const value of values) {
+    if (typeof value === "string" && value.trim()) return value;
+  }
+  return null;
+}
+
+/** An id from a file, if it is one this track can own. */
+function usableId(value: unknown, track: Track): string | null {
+  if (typeof value !== "string" || !value.trim()) return null;
+  return value.startsWith(`${track}-`) ? value : null;
 }
 
 /**
@@ -151,15 +199,47 @@ function uniqueId(candidate: string, taken: Set<string>): string {
   return id;
 }
 
+/**
+ * Resolve ids that collide with words already in the track.
+ *
+ * Uniqueness used to come free: an id began with the month it was in, so two
+ * months could both contain *abate* and never collide. Track-scoped ids give
+ * that up deliberately, and it has to be paid for here — at load, against
+ * everything the track already holds, rather than inside a parser that can
+ * only see one month.
+ *
+ * Returns the month unchanged when nothing collides, so the common case
+ * allocates nothing.
+ */
+export function disambiguate(
+  month: VocabMonth,
+  takenIds: ReadonlySet<string>,
+): VocabMonth {
+  if (!month.days.some((d) => d.words.some((w) => takenIds.has(w.id)))) {
+    return month;
+  }
+  const taken = new Set(takenIds);
+  return {
+    ...month,
+    days: month.days.map((day) => ({
+      ...day,
+      words: day.words.map((word) => {
+        if (!taken.has(word.id)) {
+          taken.add(word.id);
+          return word;
+        }
+        return { ...word, id: uniqueId(word.id, taken) };
+      }),
+    })),
+  };
+}
+
 /** Flatten all words from a month */
 export function allWordsInMonth(month: VocabMonth): VocabWord[] {
   return month.days.flatMap((d) => d.words);
 }
 
 /** Find words for a specific day */
-export function wordsForDay(
-  month: VocabMonth,
-  day: number,
-): VocabWord[] {
+export function wordsForDay(month: VocabMonth, day: number): VocabWord[] {
   return month.days.find((d) => d.day === day)?.words ?? [];
 }

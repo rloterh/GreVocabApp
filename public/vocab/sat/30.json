@@ -1,0 +1,1071 @@
+{
+  "track": "sat",
+  "ordinal": 30,
+  "title": "Truth and misinformation",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-mendacity",
+          "word": "mendacity",
+          "partOfSpeech": "noun",
+          "definition": "A habitual tendency to tell lies or behave without honesty.",
+          "example": "The witness's mendacity became obvious once phone records contradicted every claim he made.",
+          "mnemonic": "Sounds like 'men + audacity' — it takes real audacity to lie so freely; from Latin 'mendax,' a liar.",
+          "synonyms": [
+            "dishonesty",
+            "deceitfulness",
+            "untruthfulness"
+          ],
+          "antonyms": [
+            "honesty",
+            "truthfulness",
+            "candor"
+          ]
+        },
+        {
+          "id": "sat-dissimulate",
+          "word": "dissimulate",
+          "partOfSpeech": "verb",
+          "definition": "To hide your true feelings or intentions behind a false outward show.",
+          "example": "She tried to dissimulate her disappointment, smiling brightly while her hands trembled under the table.",
+          "mnemonic": "Break it as 'diss + simulate' — you simulate a fake self to disguise what you really feel.",
+          "synonyms": [
+            "feign",
+            "mask",
+            "pretend"
+          ],
+          "antonyms": [
+            "reveal",
+            "expose",
+            "confess"
+          ]
+        },
+        {
+          "id": "sat-misrepresent",
+          "word": "misrepresent",
+          "partOfSpeech": "verb",
+          "definition": "To describe something falsely or inaccurately, creating a wrong impression.",
+          "example": "The brochure misrepresented the tiny studio as a 'spacious loft with panoramic views.'",
+          "mnemonic": "'mis-' (wrongly) + 'represent' — to represent something wrongly on purpose.",
+          "synonyms": [
+            "distort",
+            "falsify",
+            "twist"
+          ],
+          "antonyms": [
+            "portray accurately",
+            "clarify",
+            "represent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-casuistry",
+          "word": "casuistry",
+          "partOfSpeech": "noun",
+          "definition": "Clever but misleading reasoning used to justify questionable moral choices.",
+          "example": "His defense was pure casuistry, spinning theft into a 'redistribution of resources' with a straight face.",
+          "mnemonic": "Sounds like 'case-you-istry' — twisting each individual case to suit you; cousin of 'sophistry.'",
+          "synonyms": [
+            "sophistry",
+            "speciousness",
+            "quibbling"
+          ],
+          "antonyms": [
+            "sound reasoning",
+            "logic",
+            "candor"
+          ]
+        },
+        {
+          "id": "sat-canard",
+          "word": "canard",
+          "partOfSpeech": "noun",
+          "definition": "A baseless rumor or false story spread as though it were true.",
+          "example": "The old canard that we use only ten percent of our brains still circulates despite being debunked.",
+          "mnemonic": "French for 'duck' — picture ducks quacking a false rumor across the pond; it's 'hard to swallow.'",
+          "synonyms": [
+            "hoax",
+            "fabrication",
+            "falsehood"
+          ],
+          "antonyms": [
+            "fact",
+            "truth",
+            "verity"
+          ]
+        },
+        {
+          "id": "sat-traduce",
+          "word": "traduce",
+          "partOfSpeech": "verb",
+          "definition": "To damage someone's reputation by making false and harmful statements.",
+          "example": "Rival columnists tried to traduce her, printing invented scandals to ruin her name before the election.",
+          "mnemonic": "Sounds like 'trash + reduce' — trash-talk that reduces a good reputation to nothing.",
+          "synonyms": [
+            "defame",
+            "slander",
+            "malign"
+          ],
+          "antonyms": [
+            "praise",
+            "extol",
+            "commend"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-bombast",
+          "word": "bombast",
+          "partOfSpeech": "noun",
+          "definition": "Pompous, inflated language that sounds grand but carries little real meaning.",
+          "example": "Stripped of its bombast, the CEO's speech promised nothing more than a routine software update.",
+          "mnemonic": "Sounds like 'bomb + blast' — words exploding with hot air; originally cotton padding stuffed into clothes.",
+          "synonyms": [
+            "grandiloquence",
+            "pomposity",
+            "rhetoric"
+          ],
+          "antonyms": [
+            "understatement",
+            "plain speech",
+            "modesty"
+          ]
+        },
+        {
+          "id": "sat-dupe",
+          "word": "dupe",
+          "partOfSpeech": "verb",
+          "definition": "To trick someone into believing or accepting something false.",
+          "example": "Con artists duped the elderly couple into wiring their savings to a fake charity.",
+          "mnemonic": "Sounds like 'dope' — a person who gets duped feels like a dope afterward.",
+          "synonyms": [
+            "deceive",
+            "hoodwink",
+            "swindle"
+          ],
+          "antonyms": [
+            "enlighten",
+            "undeceive",
+            "inform"
+          ]
+        },
+        {
+          "id": "sat-divulge",
+          "word": "divulge",
+          "partOfSpeech": "verb",
+          "definition": "To reveal private or secret information to others.",
+          "example": "Bound by contract, the engineer refused to divulge how the encryption actually worked.",
+          "mnemonic": "'di-' + 'vulgar' (the common crowd) — to make a secret known to everyone, even the vulgar masses.",
+          "synonyms": [
+            "reveal",
+            "disclose",
+            "impart"
+          ],
+          "antonyms": [
+            "conceal",
+            "withhold",
+            "hide"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-disclose",
+          "word": "disclose",
+          "partOfSpeech": "verb",
+          "definition": "To make previously hidden facts or information known.",
+          "example": "The company was forced to disclose that it had known about the defect for two years.",
+          "mnemonic": "'dis-' + 'close' — the opposite of keeping something closed; you un-close it to view.",
+          "synonyms": [
+            "reveal",
+            "divulge",
+            "unveil"
+          ],
+          "antonyms": [
+            "conceal",
+            "hide",
+            "cover up"
+          ]
+        },
+        {
+          "id": "sat-artifice",
+          "word": "artifice",
+          "partOfSpeech": "noun",
+          "definition": "Clever trickery or a cunning device used to deceive.",
+          "example": "Her tearful apology was all artifice, staged to win the jury's sympathy.",
+          "mnemonic": "'art' + 'ifice' — the dark 'art' of crafting a deception; an artful, manufactured trick.",
+          "synonyms": [
+            "trickery",
+            "guile",
+            "cunning"
+          ],
+          "antonyms": [
+            "sincerity",
+            "honesty",
+            "candor"
+          ]
+        },
+        {
+          "id": "sat-subterfuge",
+          "word": "subterfuge",
+          "partOfSpeech": "noun",
+          "definition": "A deceptive trick used to conceal something, escape, or reach a goal.",
+          "example": "By subterfuge the spy slipped past the guards, flashing a badge she had forged the night before.",
+          "mnemonic": "'subter' (secretly, beneath) + 'fuge' (flee) — secretly fleeing beneath everyone's notice.",
+          "synonyms": [
+            "deception",
+            "ruse",
+            "stratagem"
+          ],
+          "antonyms": [
+            "honesty",
+            "openness",
+            "frankness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-ruse",
+          "word": "ruse",
+          "partOfSpeech": "noun",
+          "definition": "A cunning trick intended to mislead or fool someone.",
+          "example": "Pretending to faint was just a ruse to get the shopkeeper away from the register.",
+          "mnemonic": "Rhymes with 'ooze' — deceit that oozes out; you 'use' a ruse to fool people.",
+          "synonyms": [
+            "trick",
+            "ploy",
+            "scheme"
+          ],
+          "antonyms": [
+            "honesty",
+            "candor",
+            "sincerity"
+          ]
+        },
+        {
+          "id": "sat-pretext",
+          "word": "pretext",
+          "partOfSpeech": "noun",
+          "definition": "A false reason offered to hide the true motive behind an action.",
+          "example": "He visited the office on the pretext of returning a folder, but he came to eavesdrop.",
+          "mnemonic": "'pre-' + 'text' — the cover story you write out beforehand to explain yourself.",
+          "synonyms": [
+            "excuse",
+            "cover",
+            "guise"
+          ],
+          "antonyms": [
+            "true reason",
+            "honest motive",
+            "candor"
+          ]
+        },
+        {
+          "id": "sat-charade",
+          "word": "charade",
+          "partOfSpeech": "noun",
+          "definition": "An obvious pretense or empty show that convinces no one.",
+          "example": "Their marriage had become a charade, all smiles at parties and silence at home.",
+          "mnemonic": "Think of the party game 'Charades' — a performance acted out, not the real thing.",
+          "synonyms": [
+            "pretense",
+            "farce",
+            "sham"
+          ],
+          "antonyms": [
+            "reality",
+            "sincerity",
+            "authenticity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-facade",
+          "word": "facade",
+          "partOfSpeech": "noun",
+          "definition": "A false or superficial outward appearance that hides the real situation or feelings beneath.",
+          "example": "Behind his cheerful facade, he was quietly struggling with a grief he never mentioned.",
+          "mnemonic": "Sounds like 'face aid' — the false face you put on to aid in hiding the truth.",
+          "synonyms": [
+            "front",
+            "mask",
+            "pretense"
+          ],
+          "antonyms": [
+            "reality",
+            "authenticity",
+            "honesty"
+          ]
+        },
+        {
+          "id": "sat-veneer",
+          "word": "veneer",
+          "partOfSpeech": "noun",
+          "definition": "A thin surface layer that gives a better appearance than what lies underneath.",
+          "example": "Her polite smile was just a veneer stretched over years of deep resentment.",
+          "mnemonic": "A veneer is the thin sheet of nice wood glued onto cheap furniture to look expensive.",
+          "synonyms": [
+            "gloss",
+            "coating",
+            "facade"
+          ],
+          "antonyms": [
+            "core",
+            "substance",
+            "reality"
+          ]
+        },
+        {
+          "id": "sat-sham",
+          "word": "sham",
+          "partOfSpeech": "noun",
+          "definition": "Something false that is presented as genuine in order to deceive.",
+          "example": "The charity turned out to be a sham that pocketed nearly every donation.",
+          "mnemonic": "Sham sounds like 'shame' — a shameful fake meant to trick you.",
+          "synonyms": [
+            "fake",
+            "fraud",
+            "pretense"
+          ],
+          "antonyms": [
+            "genuine article",
+            "reality",
+            "truth"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-counterfeit",
+          "word": "counterfeit",
+          "partOfSpeech": "adjective",
+          "definition": "Made as an exact imitation of something valuable in order to trick people.",
+          "example": "The vendor was arrested for selling counterfeit handbags stitched with fake designer logos.",
+          "mnemonic": "Counter-feit: a fake you'd slip across the 'counter' to pass off as real.",
+          "synonyms": [
+            "forged",
+            "fake",
+            "bogus"
+          ],
+          "antonyms": [
+            "genuine",
+            "authentic",
+            "real"
+          ]
+        },
+        {
+          "id": "sat-hoax",
+          "word": "hoax",
+          "partOfSpeech": "noun",
+          "definition": "A trick that makes people believe something untrue, often as a joke or scam.",
+          "example": "The report of a shark in the swimming pool was a hoax started by bored teenagers.",
+          "mnemonic": "Hoax sounds like 'hocus' (pocus) — a magic trick that fools the whole crowd.",
+          "synonyms": [
+            "prank",
+            "trick",
+            "deception"
+          ],
+          "antonyms": [
+            "fact",
+            "truth",
+            "reality"
+          ]
+        },
+        {
+          "id": "sat-fraudulent",
+          "word": "fraudulent",
+          "partOfSpeech": "adjective",
+          "definition": "Involving deliberate trickery meant to gain money or advantage unlawfully.",
+          "example": "The company collapsed after regulators exposed its fraudulent claims about record profits.",
+          "mnemonic": "Break it down: 'fraud' + 'lent' — money lent out on the basis of a lie.",
+          "synonyms": [
+            "dishonest",
+            "deceitful",
+            "bogus"
+          ],
+          "antonyms": [
+            "honest",
+            "legitimate",
+            "genuine"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-deceptive",
+          "word": "deceptive",
+          "partOfSpeech": "adjective",
+          "definition": "Giving a false or misleading impression that hides the truth.",
+          "example": "The calm surface of the sea was deceptive; a fierce current pulled swimmers out fast.",
+          "mnemonic": "De-CEPT-ive: like 'intercept' — it catches you and traps you in a false belief.",
+          "synonyms": [
+            "misleading",
+            "false",
+            "illusory"
+          ],
+          "antonyms": [
+            "honest",
+            "straightforward",
+            "genuine"
+          ]
+        },
+        {
+          "id": "sat-deceitful",
+          "word": "deceitful",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving dishonestly by lying or hiding the truth to trick others.",
+          "example": "His deceitful excuses fell apart the moment the receipts were laid on the table.",
+          "mnemonic": "'Deceit' + full — a person who is simply full of lies.",
+          "synonyms": [
+            "dishonest",
+            "lying",
+            "underhanded"
+          ],
+          "antonyms": [
+            "honest",
+            "truthful",
+            "sincere"
+          ]
+        },
+        {
+          "id": "sat-delusion",
+          "word": "delusion",
+          "partOfSpeech": "noun",
+          "definition": "A false belief held firmly despite clear evidence against it.",
+          "example": "He clung to the delusion that the bankrupt firm would somehow make him rich overnight.",
+          "mnemonic": "Delusion sounds like 'illusion' — a false idea that has set up house inside your head.",
+          "synonyms": [
+            "misconception",
+            "false belief",
+            "fantasy"
+          ],
+          "antonyms": [
+            "reality",
+            "truth",
+            "fact"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-delude",
+          "word": "delude",
+          "partOfSpeech": "verb",
+          "definition": "To make someone believe something that is not true.",
+          "example": "Don't delude yourself into thinking one late night of cramming will pass the exam.",
+          "mnemonic": "De-LUDE: it sounds like being 'lured' step by step into believing a lie.",
+          "synonyms": [
+            "mislead",
+            "fool",
+            "deceive"
+          ],
+          "antonyms": [
+            "enlighten",
+            "inform",
+            "undeceive"
+          ]
+        },
+        {
+          "id": "sat-mislead",
+          "word": "mislead",
+          "partOfSpeech": "verb",
+          "definition": "To cause someone to have a false idea by giving wrong information.",
+          "example": "The vague nutrition label was designed to mislead shoppers about how much sugar was inside.",
+          "mnemonic": "Mis-lead: to 'lead' someone off in the wrong ('mis') direction.",
+          "synonyms": [
+            "deceive",
+            "misinform",
+            "delude"
+          ],
+          "antonyms": [
+            "guide",
+            "inform",
+            "enlighten"
+          ]
+        },
+        {
+          "id": "sat-connive",
+          "word": "connive",
+          "partOfSpeech": "verb",
+          "definition": "To secretly cooperate in doing something wrong or illegal.",
+          "example": "The guards connived with the smugglers, agreeing to look the other way at the border.",
+          "mnemonic": "Connive sounds like 'con' + 'knives' — cons plotting together with knives in the dark.",
+          "synonyms": [
+            "conspire",
+            "collude",
+            "scheme"
+          ],
+          "antonyms": [
+            "oppose",
+            "resist",
+            "expose"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-collude",
+          "word": "collude",
+          "partOfSpeech": "verb",
+          "definition": "To work together secretly to cheat or deceive others.",
+          "example": "The two bidders colluded to keep the auction price artificially low and split the savings.",
+          "mnemonic": "Col-LUDE: 'co' (together) + Latin 'ludo' (play) — playing a dishonest game as a team.",
+          "synonyms": [
+            "conspire",
+            "connive",
+            "scheme"
+          ],
+          "antonyms": [
+            "compete",
+            "oppose",
+            "expose"
+          ]
+        },
+        {
+          "id": "sat-conspire",
+          "word": "conspire",
+          "partOfSpeech": "verb",
+          "definition": "To plan something harmful or unlawful together in secret.",
+          "example": "The rebels conspired to overthrow the king under the cover of a moonless night.",
+          "mnemonic": "Con-spire: 'con' (with) + 'spire' (breathe) — plotters leaning in to breathe together in secret.",
+          "synonyms": [
+            "plot",
+            "scheme",
+            "collude"
+          ],
+          "antonyms": [
+            "disclose",
+            "act openly",
+            "cooperate"
+          ]
+        },
+        {
+          "id": "sat-platitude",
+          "word": "platitude",
+          "partOfSpeech": "noun",
+          "definition": "A dull, overused remark stated as if it were fresh or meaningful.",
+          "example": "The graduation speech offered nothing but platitudes like 'follow your dreams' and 'never give up.'",
+          "mnemonic": "Platitude sounds like 'flat attitude' — a flat, stale saying with no life left in it.",
+          "synonyms": [
+            "cliché",
+            "banality",
+            "truism"
+          ],
+          "antonyms": [
+            "insight",
+            "epigram",
+            "novelty"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-circumlocution",
+          "word": "circumlocution",
+          "partOfSpeech": "noun",
+          "definition": "The use of many vague words instead of stating something plainly and directly.",
+          "example": "Rather than admit he was fired, he launched into a circumlocution about 'evolving career synergies.'",
+          "mnemonic": "Latin circum- (around) + loqui (to speak): literally 'speaking around' the point instead of hitting it.",
+          "synonyms": [
+            "periphrasis",
+            "verbosity",
+            "evasion"
+          ],
+          "antonyms": [
+            "directness",
+            "concision",
+            "bluntness"
+          ]
+        },
+        {
+          "id": "sat-flagrant",
+          "word": "flagrant",
+          "partOfSpeech": "adjective",
+          "definition": "Conspicuously and outrageously bad, done openly without any shame.",
+          "example": "The referee whistled a flagrant foul after the player shoved his opponent to the ground.",
+          "mnemonic": "Sounds like 'fragrant' — a fragrant smell fills the room so everyone notices, and a flagrant act is just as impossible to ignore.",
+          "synonyms": [
+            "blatant",
+            "glaring",
+            "brazen"
+          ],
+          "antonyms": [
+            "subtle",
+            "unnoticeable",
+            "discreet"
+          ]
+        },
+        {
+          "id": "sat-egregious",
+          "word": "egregious",
+          "partOfSpeech": "adjective",
+          "definition": "Remarkably and shockingly bad in a way that stands out.",
+          "example": "The audit uncovered egregious accounting mistakes that no honest firm could ever have overlooked.",
+          "mnemonic": "From Latin ex grege, 'out of the flock' — it stands out from the herd, for all the wrong reasons.",
+          "synonyms": [
+            "flagrant",
+            "outrageous",
+            "appalling"
+          ],
+          "antonyms": [
+            "minor",
+            "admirable",
+            "trivial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-feign",
+          "word": "feign",
+          "partOfSpeech": "verb",
+          "definition": "To pretend to have a feeling or condition you do not actually have.",
+          "example": "She feigned surprise at the party, though her sister had spoiled the secret weeks earlier.",
+          "mnemonic": "Feign sounds like 'faint' — a student might feign a faint to get out of a dreaded exam.",
+          "synonyms": [
+            "pretend",
+            "simulate",
+            "fake"
+          ],
+          "antonyms": [
+            "reveal",
+            "be sincere",
+            "be genuine"
+          ]
+        },
+        {
+          "id": "sat-whitewash",
+          "word": "whitewash",
+          "partOfSpeech": "verb",
+          "definition": "To hide unpleasant facts or wrongdoing so something appears acceptable.",
+          "example": "The committee's report seemed to whitewash the scandal, pinning the blame on a single junior clerk.",
+          "mnemonic": "Picture painting a filthy, stained wall plain white — you cover the mess rather than actually cleaning it.",
+          "synonyms": [
+            "cover up",
+            "gloss over",
+            "conceal"
+          ],
+          "antonyms": [
+            "expose",
+            "reveal",
+            "uncover"
+          ]
+        },
+        {
+          "id": "sat-abjure",
+          "word": "abjure",
+          "partOfSpeech": "verb",
+          "definition": "To formally and solemnly reject or give up a belief, claim, or practice.",
+          "example": "Before the tribunal, the scientist refused to abjure his findings, insisting the evidence was sound.",
+          "mnemonic": "ab- (away) + jure (Latin 'to swear', as in a jury's oath): to swear something away for good.",
+          "synonyms": [
+            "renounce",
+            "forswear",
+            "repudiate"
+          ],
+          "antonyms": [
+            "embrace",
+            "affirm",
+            "uphold"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-illusory",
+          "word": "illusory",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming real but actually false and not to be trusted.",
+          "example": "The startup's promised riches proved illusory once investors examined the empty bank accounts.",
+          "mnemonic": "Shares a root with 'illusion' — like a shimmering oasis in the desert that vanishes the moment you reach for it.",
+          "synonyms": [
+            "deceptive",
+            "imaginary",
+            "false"
+          ],
+          "antonyms": [
+            "real",
+            "genuine",
+            "tangible"
+          ]
+        },
+        {
+          "id": "sat-perfidy",
+          "word": "perfidy",
+          "partOfSpeech": "noun",
+          "definition": "A deliberate breaking of trust or faith; treachery toward someone who relies on you.",
+          "example": "His perfidy became clear when the ally he had sworn to protect was quietly handed to the enemy.",
+          "mnemonic": "per- (through/away) + fides (Latin 'faith'): the same fides as in 'fidelity', but with the faith shattered.",
+          "synonyms": [
+            "treachery",
+            "betrayal",
+            "disloyalty"
+          ],
+          "antonyms": [
+            "loyalty",
+            "fidelity",
+            "faithfulness"
+          ]
+        },
+        {
+          "id": "sat-incriminate",
+          "word": "incriminate",
+          "partOfSpeech": "verb",
+          "definition": "To make someone appear guilty of a crime or wrongdoing.",
+          "example": "He stayed silent on the stand, unwilling to say anything that might incriminate his brother.",
+          "mnemonic": "in- (onto) + crimen (Latin 'charge, crime'): to lay a crime onto someone's shoulders.",
+          "synonyms": [
+            "implicate",
+            "accuse",
+            "inculpate"
+          ],
+          "antonyms": [
+            "exonerate",
+            "absolve",
+            "acquit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-erroneous",
+          "word": "erroneous",
+          "partOfSpeech": "adjective",
+          "definition": "Based on false information and therefore not correct.",
+          "example": "The newspaper printed an erroneous figure, claiming the city had ten million residents instead of one.",
+          "mnemonic": "Hidden inside is 'err' — to err is to slip up, so this describes a claim riddled with slip-ups.",
+          "synonyms": [
+            "incorrect",
+            "mistaken",
+            "false"
+          ],
+          "antonyms": [
+            "correct",
+            "accurate",
+            "right"
+          ]
+        },
+        {
+          "id": "sat-devious",
+          "word": "devious",
+          "partOfSpeech": "adjective",
+          "definition": "Using dishonest, indirect, or underhanded methods to get what you want.",
+          "example": "Through a devious web of shell companies, he hid the money from investigators for years.",
+          "mnemonic": "de- (off) + via (Latin 'road'): someone off the straight road, taking a crooked, sneaky path.",
+          "synonyms": [
+            "cunning",
+            "underhanded",
+            "scheming"
+          ],
+          "antonyms": [
+            "honest",
+            "straightforward",
+            "candid"
+          ]
+        },
+        {
+          "id": "sat-unscrupulous",
+          "word": "unscrupulous",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to act dishonestly, without any moral principles.",
+          "example": "An unscrupulous landlord doubled the rent overnight, ignoring the tenants' signed lease.",
+          "mnemonic": "A 'scruple' is a tiny pang of conscience; slap 'un-' on the front and that conscience is gone entirely.",
+          "synonyms": [
+            "unprincipled",
+            "dishonest",
+            "immoral"
+          ],
+          "antonyms": [
+            "ethical",
+            "principled",
+            "honest"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-mellifluous",
+          "word": "mellifluous",
+          "partOfSpeech": "adjective",
+          "definition": "Sounding sweet, smooth, and pleasant to the ear.",
+          "example": "Her mellifluous narration made even the dullest audiobook impossible to switch off.",
+          "mnemonic": "Latin mel (honey) + fluere (to flow): a voice like honey flowing.",
+          "synonyms": [
+            "dulcet",
+            "euphonious",
+            "honeyed"
+          ],
+          "antonyms": [
+            "harsh",
+            "grating",
+            "cacophonous"
+          ]
+        },
+        {
+          "id": "sat-desultory",
+          "word": "desultory",
+          "partOfSpeech": "adjective",
+          "definition": "Moving aimlessly from one thing to another without purpose or enthusiasm.",
+          "example": "He made a few desultory stabs at tidying the room before flopping onto the couch.",
+          "mnemonic": "From Latin desultor, a circus rider who leaps from horse to horse — always jumping around.",
+          "synonyms": [
+            "aimless",
+            "haphazard",
+            "random"
+          ],
+          "antonyms": [
+            "methodical",
+            "systematic",
+            "focused"
+          ]
+        },
+        {
+          "id": "sat-quotidian",
+          "word": "quotidian",
+          "partOfSpeech": "adjective",
+          "definition": "Happening every day; ordinary and utterly commonplace.",
+          "example": "After a month trekking the Andes, the quotidian grind of emails and dishes felt unbearable.",
+          "mnemonic": "Latin quotidie means 'daily' — think 'quote-a-day,' the same dull thing every morning.",
+          "synonyms": [
+            "everyday",
+            "mundane",
+            "routine"
+          ],
+          "antonyms": [
+            "extraordinary",
+            "exceptional",
+            "rare"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-protean",
+          "word": "protean",
+          "partOfSpeech": "adjective",
+          "definition": "Readily able to change form, nature, or appearance; wonderfully versatile.",
+          "example": "A protean performer, she played a weeping widow one night and a slapstick clown the next.",
+          "mnemonic": "Named for Proteus, the Greek sea god who shifted shapes to escape anyone who grabbed him.",
+          "synonyms": [
+            "versatile",
+            "mutable",
+            "adaptable"
+          ],
+          "antonyms": [
+            "fixed",
+            "static",
+            "rigid"
+          ]
+        },
+        {
+          "id": "sat-ineffable",
+          "word": "ineffable",
+          "partOfSpeech": "adjective",
+          "definition": "Too great, beautiful, or intense to be captured in words.",
+          "example": "Standing at the canyon's rim at dawn, she felt an ineffable awe no photograph could hold.",
+          "mnemonic": "in- (not) + eff- (to speak, as in 'effable') + -able: not able to be spoken.",
+          "synonyms": [
+            "indescribable",
+            "inexpressible",
+            "unutterable"
+          ],
+          "antonyms": [
+            "describable",
+            "expressible",
+            "commonplace"
+          ]
+        },
+        {
+          "id": "sat-viscous",
+          "word": "viscous",
+          "partOfSpeech": "adjective",
+          "definition": "Having a thick, sticky consistency that flows slowly.",
+          "example": "The viscous syrup crept down the stack of pancakes, barely seeming to move.",
+          "mnemonic": "Sounds like 'this custard' — picture thick goo that refuses to pour.",
+          "synonyms": [
+            "thick",
+            "gooey",
+            "syrupy"
+          ],
+          "antonyms": [
+            "runny",
+            "watery",
+            "thin"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-febrile",
+          "word": "febrile",
+          "partOfSpeech": "adjective",
+          "definition": "Feverish, or marked by hectic, restless nervous energy.",
+          "example": "A febrile excitement gripped the trading floor as the numbers began to spike.",
+          "mnemonic": "Latin febris means 'fever' — febrile is basically 'fever-ile.'",
+          "synonyms": [
+            "feverish",
+            "frenzied",
+            "agitated"
+          ],
+          "antonyms": [
+            "calm",
+            "composed",
+            "cool"
+          ]
+        },
+        {
+          "id": "sat-turgid",
+          "word": "turgid",
+          "partOfSpeech": "adjective",
+          "definition": "Swollen and distended, or pompous and overblown in style.",
+          "example": "The professor's turgid prose buried one simple idea beneath mountains of jargon.",
+          "mnemonic": "Sounds like 'turbid' and shares a root with 'turgor' — something puffed up and bloated.",
+          "synonyms": [
+            "swollen",
+            "bloated",
+            "bombastic"
+          ],
+          "antonyms": [
+            "deflated",
+            "concise",
+            "lucid"
+          ]
+        },
+        {
+          "id": "sat-penumbra",
+          "word": "penumbra",
+          "partOfSpeech": "noun",
+          "definition": "The region of partial shadow between full light and full darkness.",
+          "example": "During the eclipse we stood in the penumbra, where the sky only half dimmed.",
+          "mnemonic": "Latin paene (almost) + umbra (shadow): 'almost a shadow.'",
+          "synonyms": [
+            "half-shadow",
+            "partial shade",
+            "fringe"
+          ],
+          "antonyms": [
+            "umbra",
+            "full shadow",
+            "full light"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-pith",
+          "word": "pith",
+          "partOfSpeech": "noun",
+          "definition": "The essential, central part of something; its core substance.",
+          "example": "Skip the anecdotes and just give me the pith of the argument.",
+          "mnemonic": "Picture the soft core running down the center of a plant stem — the heart of the matter.",
+          "synonyms": [
+            "essence",
+            "core",
+            "crux"
+          ],
+          "antonyms": [
+            "periphery",
+            "trivia",
+            "surface"
+          ]
+        },
+        {
+          "id": "sat-alacrity",
+          "word": "alacrity",
+          "partOfSpeech": "noun",
+          "definition": "Brisk and cheerful eagerness or promptness in doing something.",
+          "example": "The new intern took on every chore with an alacrity that charmed the whole office.",
+          "mnemonic": "Sounds like 'a lark' — a lark springs up eager and ready at first light.",
+          "synonyms": [
+            "eagerness",
+            "readiness",
+            "briskness"
+          ],
+          "antonyms": [
+            "reluctance",
+            "apathy",
+            "sluggishness"
+          ]
+        },
+        {
+          "id": "sat-efficacy",
+          "word": "efficacy",
+          "partOfSpeech": "noun",
+          "definition": "The power or ability to produce a desired result.",
+          "example": "Clinical trials were designed to test the new vaccine's efficacy against the variant.",
+          "mnemonic": "Shares a root with 'effect' and 'efficient' (Latin efficere, to accomplish) — getting the effect done.",
+          "synonyms": [
+            "effectiveness",
+            "potency",
+            "efficiency"
+          ],
+          "antonyms": [
+            "ineffectiveness",
+            "futility",
+            "uselessness"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T21:57:40.341Z"
+}

@@ -1,0 +1,1140 @@
+{
+  "track": "sat",
+  "ordinal": 16,
+  "title": "Government and citizenship",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-sanguine",
+          "word": "sanguine",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerfully optimistic and confident about how things will turn out.",
+          "example": "Despite the losing streak, the coach stayed sanguine about the team's chances.",
+          "mnemonic": "From Latin 'sanguis' (blood); old medicine tied a blood-rich temperament to rosy red cheeks and a cheerful outlook.",
+          "synonyms": [
+            "optimistic",
+            "hopeful",
+            "upbeat"
+          ],
+          "antonyms": [
+            "gloomy",
+            "pessimistic",
+            "despondent"
+          ]
+        },
+        {
+          "id": "sat-indignant",
+          "word": "indignant",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling or showing anger at something seen as unjust or offensive.",
+          "example": "She grew indignant when the waiter blamed her for his own mistake.",
+          "mnemonic": "Sounds like 'in-dignity' — an attack on your dignity fills you with angry protest.",
+          "synonyms": [
+            "outraged",
+            "resentful",
+            "affronted"
+          ],
+          "antonyms": [
+            "pleased",
+            "content",
+            "calm"
+          ]
+        },
+        {
+          "id": "sat-sober",
+          "word": "sober",
+          "partOfSpeech": "adjective",
+          "definition": "Serious and thoughtful, or not under the influence of alcohol.",
+          "example": "After the accident, he took a sober look at his reckless driving habits.",
+          "mnemonic": "Read it as an acronym: S.O.B.E.R. — Serious, Observant, Balanced, Even, Reasonable.",
+          "synonyms": [
+            "serious",
+            "solemn",
+            "temperate"
+          ],
+          "antonyms": [
+            "drunk",
+            "frivolous",
+            "giddy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-testify",
+          "word": "testify",
+          "partOfSpeech": "verb",
+          "definition": "To give a formal statement of evidence, especially in a court of law.",
+          "example": "The witness agreed to testify about what she saw the night of the robbery.",
+          "mnemonic": "From Latin 'testis' (witness); on the stand your account is put to the 'test'.",
+          "synonyms": [
+            "attest",
+            "swear",
+            "declare"
+          ],
+          "antonyms": [
+            "deny"
+          ]
+        },
+        {
+          "id": "sat-reservation",
+          "word": "reservation",
+          "partOfSpeech": "noun",
+          "definition": "A doubt about something, or an arrangement made in advance to secure a place.",
+          "example": "I have my reservations about the plan, but I'll go along with it for now.",
+          "mnemonic": "Think 're-serve' — you hold something back: a seat kept aside, or your full agreement held back by doubt.",
+          "synonyms": [
+            "doubt",
+            "misgiving",
+            "qualm"
+          ],
+          "antonyms": [
+            "confidence",
+            "certainty"
+          ]
+        },
+        {
+          "id": "sat-recount",
+          "word": "recount",
+          "partOfSpeech": "verb",
+          "definition": "To describe or tell the details of an event or experience.",
+          "example": "Over dinner, grandfather would recount his adventures at sea.",
+          "mnemonic": "'Re-count' — you go back over each item one by one, telling every detail of the story.",
+          "synonyms": [
+            "narrate",
+            "relate",
+            "describe"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-chronicle",
+          "word": "chronicle",
+          "partOfSpeech": "noun",
+          "definition": "A detailed written record of events arranged in the order they occurred.",
+          "example": "Her diary became a chronicle of life during the war.",
+          "mnemonic": "'Chrono' means time (Greek 'chronos'); it lays out events by the clock and calendar.",
+          "synonyms": [
+            "record",
+            "account",
+            "history"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-depict",
+          "word": "depict",
+          "partOfSpeech": "verb",
+          "definition": "To show or represent something in a picture, words, or performance.",
+          "example": "The mural depicts farmers working in the fields at harvest time.",
+          "mnemonic": "It hides the word 'pict' — as in picture; to depict is to paint a picture of it.",
+          "synonyms": [
+            "portray",
+            "represent",
+            "illustrate"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-portray",
+          "word": "portray",
+          "partOfSpeech": "verb",
+          "definition": "To describe or represent someone or something in art, writing, or acting.",
+          "example": "The novel portrays the king as a lonely, frightened man.",
+          "mnemonic": "Hear 'portrait' inside it — an actor or painter presents a subject as a portrait.",
+          "synonyms": [
+            "depict",
+            "represent",
+            "characterize"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-convey",
+          "word": "convey",
+          "partOfSpeech": "verb",
+          "definition": "To communicate a message or feeling, or to carry something from one place to another.",
+          "example": "Her trembling voice conveyed just how frightened she really was.",
+          "mnemonic": "Think 'conveyor belt' — it carries objects along; you carry meaning across to a listener.",
+          "synonyms": [
+            "communicate",
+            "express",
+            "transport"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-contrast",
+          "word": "contrast",
+          "partOfSpeech": "verb",
+          "definition": "To compare two things in order to show how they differ.",
+          "example": "The essay contrasts city life with the quiet of the countryside.",
+          "mnemonic": "'Contra' means against; you set two things against each other to spotlight their differences.",
+          "synonyms": [
+            "differ",
+            "distinguish",
+            "oppose"
+          ],
+          "antonyms": [
+            "liken",
+            "compare"
+          ]
+        },
+        {
+          "id": "sat-allude",
+          "word": "allude",
+          "partOfSpeech": "verb",
+          "definition": "To mention or hint at something indirectly rather than saying it openly.",
+          "example": "During the speech she alluded to the scandal without ever naming anyone.",
+          "mnemonic": "'A-LUDE' sounds like 'a low-key clue' — you drop a subtle hint instead of stating it.",
+          "synonyms": [
+            "hint",
+            "imply",
+            "suggest"
+          ],
+          "antonyms": [
+            "specify",
+            "state"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-suffrage",
+          "word": "suffrage",
+          "partOfSpeech": "noun",
+          "definition": "The right to vote in political elections.",
+          "example": "Women in the United States won suffrage in 1920.",
+          "mnemonic": "'Suffer-age' — activists suffered for ages before earning the ballot.",
+          "synonyms": [
+            "franchise",
+            "vote",
+            "ballot"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-franchise",
+          "word": "franchise",
+          "partOfSpeech": "noun",
+          "definition": "The right to vote, or an authorization to run a business using a company's brand.",
+          "example": "The new law extended the franchise to citizens over eighteen.",
+          "mnemonic": "From Old French 'franc' (free) — being granted the freedom to vote or to trade under a name.",
+          "synonyms": [
+            "suffrage",
+            "right",
+            "license"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-referendum",
+          "word": "referendum",
+          "partOfSpeech": "noun",
+          "definition": "A direct public vote on a single political question.",
+          "example": "The country held a referendum on whether to join the European Union.",
+          "mnemonic": "Starts with 'refer' — the government refers one question straight back to the people.",
+          "synonyms": [
+            "ballot",
+            "plebiscite",
+            "poll"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-plebiscite",
+          "word": "plebiscite",
+          "partOfSpeech": "noun",
+          "definition": "A direct vote in which an entire population decides a specific political question.",
+          "example": "The government called a plebiscite to let citizens themselves decide whether to join the union.",
+          "mnemonic": "'pleb' (the common people) + 'cite' (to summon) — the common people are summoned to vote.",
+          "synonyms": [
+            "referendum",
+            "ballot",
+            "poll"
+          ],
+          "antonyms": [
+            "decree",
+            "fiat"
+          ]
+        },
+        {
+          "id": "sat-legislature",
+          "word": "legislature",
+          "partOfSpeech": "noun",
+          "definition": "An official elected assembly with the power to make and change a nation's laws.",
+          "example": "The bill finally passed the legislature after months of debate among the elected representatives.",
+          "mnemonic": "Latin 'legis' (of law) + 'lature' (a structure) — the structure built for making law.",
+          "synonyms": [
+            "parliament",
+            "congress",
+            "assembly"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-enact",
+          "word": "enact",
+          "partOfSpeech": "verb",
+          "definition": "To formally pass a proposal and put it into effect as law.",
+          "example": "Congress voted to enact stricter safety rules after the factory disaster.",
+          "mnemonic": "'en-' (to make) + 'act' — to turn an act into binding force.",
+          "synonyms": [
+            "legislate",
+            "pass",
+            "ratify"
+          ],
+          "antonyms": [
+            "repeal",
+            "rescind",
+            "abolish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-veto",
+          "word": "veto",
+          "partOfSpeech": "verb",
+          "definition": "To formally reject or forbid a decision made by a lawmaking body.",
+          "example": "The president chose to veto the bill, blocking it from ever becoming law.",
+          "mnemonic": "Latin 'veto' literally means 'I forbid' — the word a Roman tribune shouted to stop a measure.",
+          "synonyms": [
+            "reject",
+            "block",
+            "prohibit"
+          ],
+          "antonyms": [
+            "approve",
+            "ratify",
+            "sanction"
+          ]
+        },
+        {
+          "id": "sat-govern",
+          "word": "govern",
+          "partOfSpeech": "verb",
+          "definition": "To rule and control the affairs of a country, region, or organization.",
+          "example": "The council was elected to govern the city for the next four years.",
+          "mnemonic": "From Latin 'gubernare', to steer a ship — a leader steers the ship of state.",
+          "synonyms": [
+            "rule",
+            "administer",
+            "manage"
+          ],
+          "antonyms": [
+            "obey",
+            "follow",
+            "submit"
+          ]
+        },
+        {
+          "id": "sat-adjudicate",
+          "word": "adjudicate",
+          "partOfSpeech": "verb",
+          "definition": "To act as an official authority who formally settles a dispute or decides a case.",
+          "example": "A neutral panel was appointed to adjudicate the bitter contract dispute between the two firms.",
+          "mnemonic": "'ad-' (to) + Latin 'judic' (judgment) — to bring judgment to a quarrel.",
+          "synonyms": [
+            "arbitrate",
+            "referee",
+            "rule"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-delegate",
+          "word": "delegate",
+          "partOfSpeech": "verb",
+          "definition": "To assign a task or authority to another person to act on your behalf.",
+          "example": "A good manager will delegate routine work so she can focus on strategy.",
+          "mnemonic": "'de-' + Latin 'legare' (to send) — to send someone in your place to do the job.",
+          "synonyms": [
+            "assign",
+            "entrust",
+            "hand off"
+          ],
+          "antonyms": [
+            "retain",
+            "hoard",
+            "keep"
+          ]
+        },
+        {
+          "id": "sat-incumbent",
+          "word": "incumbent",
+          "partOfSpeech": "noun",
+          "definition": "The person who currently holds a particular political office or position.",
+          "example": "The incumbent lost the election to a younger challenger promising sweeping change.",
+          "mnemonic": "Sounds like 'in-come-bent' — the one already IN, comfortably bent into the seat.",
+          "synonyms": [
+            "officeholder",
+            "sitting official"
+          ],
+          "antonyms": [
+            "challenger",
+            "successor"
+          ]
+        },
+        {
+          "id": "sat-magistrate",
+          "word": "magistrate",
+          "partOfSpeech": "noun",
+          "definition": "A local official who administers the law and hears minor legal cases.",
+          "example": "The magistrate fined the reckless driver and dismissed the more serious charge.",
+          "mnemonic": "From Latin 'magister' (master) — a master of the local law.",
+          "synonyms": [
+            "justice",
+            "judge",
+            "official"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-probity",
+          "word": "probity",
+          "partOfSpeech": "noun",
+          "definition": "Complete honesty and strong moral integrity in one's conduct.",
+          "example": "The auditor's reputation for probity made everyone trust her final report without question.",
+          "mnemonic": "Shares a root with 'probe' and 'prove' (Latin 'probus', good) — a person proven good.",
+          "synonyms": [
+            "integrity",
+            "honesty",
+            "uprightness"
+          ],
+          "antonyms": [
+            "corruption",
+            "dishonesty",
+            "deceit"
+          ]
+        },
+        {
+          "id": "sat-rectitude",
+          "word": "rectitude",
+          "partOfSpeech": "noun",
+          "definition": "Morally correct behavior and firm adherence to what is right.",
+          "example": "His unwavering rectitude meant he refused every bribe without a moment's hesitation.",
+          "mnemonic": "'rect' means straight (rectangle, correct) — moral straightness that never bends.",
+          "synonyms": [
+            "righteousness",
+            "integrity",
+            "virtue"
+          ],
+          "antonyms": [
+            "corruption",
+            "wickedness",
+            "immorality"
+          ]
+        },
+        {
+          "id": "sat-equity",
+          "word": "equity",
+          "partOfSpeech": "noun",
+          "definition": "Fairness and impartiality in the way people are treated.",
+          "example": "The new policy promotes equity by giving every student equal access to laptops and tutoring.",
+          "mnemonic": "'equi-' means equal (equator, equilateral) — treating everyone on equal, fair terms.",
+          "synonyms": [
+            "fairness",
+            "impartiality",
+            "justice"
+          ],
+          "antonyms": [
+            "unfairness",
+            "bias",
+            "injustice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-republic",
+          "word": "republic",
+          "partOfSpeech": "noun",
+          "definition": "A state in which citizens elect representatives and there is no monarch.",
+          "example": "After the king was deposed, the nation became a republic led by an elected president.",
+          "mnemonic": "Latin 'res publica' means 'the public thing' — the state belongs to the public, not a crown.",
+          "synonyms": [
+            "democracy",
+            "commonwealth",
+            "state"
+          ],
+          "antonyms": [
+            "monarchy",
+            "dictatorship",
+            "autocracy"
+          ]
+        },
+        {
+          "id": "sat-hegemony",
+          "word": "hegemony",
+          "partOfSpeech": "noun",
+          "definition": "The dominant influence or control of one nation or group over others.",
+          "example": "For decades the empire's naval hegemony went unchallenged across the entire region.",
+          "mnemonic": "From Greek 'hegemon' (leader); say 'he-JEM-ony' — the leader who holds all the gems of power.",
+          "synonyms": [
+            "dominance",
+            "supremacy",
+            "control"
+          ],
+          "antonyms": [
+            "subordination",
+            "independence",
+            "parity"
+          ]
+        },
+        {
+          "id": "sat-annex",
+          "word": "annex",
+          "partOfSpeech": "verb",
+          "definition": "To seize a territory and incorporate it into an existing state.",
+          "example": "The empire moved to annex the neighboring province, redrawing the border overnight.",
+          "mnemonic": "Sounds like 'an-next' — grabbing the next patch of land over and bolting it on.",
+          "synonyms": [
+            "seize",
+            "appropriate",
+            "incorporate"
+          ],
+          "antonyms": [
+            "cede",
+            "relinquish",
+            "surrender"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-secede",
+          "word": "secede",
+          "partOfSpeech": "verb",
+          "definition": "To formally leave a larger group, nation, or alliance to become independent.",
+          "example": "Several southern states chose to secede from the Union before the war began.",
+          "mnemonic": "Root: se- (apart) + cedere (to go) = to go apart. Picture a region quietly walking out the exit door of a nation.",
+          "synonyms": [
+            "withdraw",
+            "separate",
+            "break away"
+          ],
+          "antonyms": [
+            "join",
+            "unite",
+            "merge"
+          ]
+        },
+        {
+          "id": "sat-petition",
+          "word": "petition",
+          "partOfSpeech": "noun",
+          "definition": "A formal written request signed by many people asking an authority to act.",
+          "example": "Residents signed a petition demanding the city repair the crumbling bridge.",
+          "mnemonic": "Hidden 'pet' — imagine pestering an official with a pet request, clipboard in hand, until they finally listen.",
+          "synonyms": [
+            "appeal",
+            "plea",
+            "request"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-lobby",
+          "word": "lobby",
+          "partOfSpeech": "verb",
+          "definition": "To try to influence lawmakers or officials in favor of a particular cause.",
+          "example": "Environmental groups lobbied Congress to pass stricter emissions limits.",
+          "mnemonic": "Picture activists crowding the marble lobby of the capitol, buttonholing politicians as they pass through.",
+          "synonyms": [
+            "influence",
+            "pressure",
+            "campaign"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-canvass",
+          "word": "canvass",
+          "partOfSpeech": "verb",
+          "definition": "To go through an area seeking votes, opinions, or support from people.",
+          "example": "Volunteers canvassed the neighborhood, knocking on every door to discuss the candidate.",
+          "mnemonic": "Sounds like 'canvas' — imagine stretching one huge canvas over the whole district so you cover every single house.",
+          "synonyms": [
+            "solicit",
+            "poll",
+            "survey"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-sedition",
+          "word": "sedition",
+          "partOfSpeech": "noun",
+          "definition": "Speech or action that stirs people to rebel against the governing authority.",
+          "example": "The pamphlets urging soldiers to abandon their posts were condemned as sedition.",
+          "mnemonic": "Root: sed- (apart) + itio (a going) — whipping up a crowd to go apart from the state.",
+          "synonyms": [
+            "incitement",
+            "agitation",
+            "subversion"
+          ],
+          "antonyms": [
+            "loyalty",
+            "allegiance"
+          ]
+        },
+        {
+          "id": "sat-treason",
+          "word": "treason",
+          "partOfSpeech": "noun",
+          "definition": "The crime of betraying one's own country, especially by aiding its enemies.",
+          "example": "Passing military secrets to the enemy during wartime is punishable as treason.",
+          "mnemonic": "From Latin tradere, 'to hand over' — a traitor hands the whole nation over to its foes.",
+          "synonyms": [
+            "betrayal",
+            "treachery",
+            "disloyalty"
+          ],
+          "antonyms": [
+            "loyalty",
+            "allegiance",
+            "patriotism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-mutiny",
+          "word": "mutiny",
+          "partOfSpeech": "noun",
+          "definition": "An open rebellion by sailors or soldiers against their commanding officers.",
+          "example": "The crew staged a mutiny, seizing the ship from its tyrannical captain.",
+          "mnemonic": "Think 'Mutiny on the Bounty' — the famous shipboard revolt where the crew throws the captain overboard.",
+          "synonyms": [
+            "revolt",
+            "uprising",
+            "insurrection"
+          ],
+          "antonyms": [
+            "obedience",
+            "loyalty"
+          ]
+        },
+        {
+          "id": "sat-defy",
+          "word": "defy",
+          "partOfSpeech": "verb",
+          "definition": "To openly resist or refuse to obey an authority, rule, or expectation.",
+          "example": "She defied her parents' curfew and stayed out well past midnight.",
+          "mnemonic": "Sounds like 'de-FIE!' — shaking a fist and shouting defiance right in authority's face.",
+          "synonyms": [
+            "resist",
+            "challenge",
+            "disobey"
+          ],
+          "antonyms": [
+            "obey",
+            "submit",
+            "yield"
+          ]
+        },
+        {
+          "id": "sat-flout",
+          "word": "flout",
+          "partOfSpeech": "verb",
+          "definition": "To openly disregard a rule, law, or convention with contempt.",
+          "example": "Drivers who flout the speed limit endanger everyone on the road.",
+          "mnemonic": "Don't confuse with 'flaunt.' Picture tossing the rulebook 'out' the window — fl-OUT, out it goes.",
+          "synonyms": [
+            "disregard",
+            "scorn",
+            "disobey"
+          ],
+          "antonyms": [
+            "obey",
+            "respect",
+            "observe"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-contravene",
+          "word": "contravene",
+          "partOfSpeech": "verb",
+          "definition": "To act against or violate a law, rule, or established principle.",
+          "example": "Building the shed without a permit contravened the local zoning code.",
+          "mnemonic": "Root: contra- (against) + venire (to come) — to come up against the rule and cross it.",
+          "synonyms": [
+            "violate",
+            "breach",
+            "infringe"
+          ],
+          "antonyms": [
+            "comply",
+            "uphold",
+            "obey"
+          ]
+        },
+        {
+          "id": "sat-transgress",
+          "word": "transgress",
+          "partOfSpeech": "verb",
+          "definition": "To break a moral or legal boundary by overstepping accepted limits.",
+          "example": "He transgressed the terms of his parole by leaving the state.",
+          "mnemonic": "Root: trans- (across) + gradi (to step) — to step right across the line you were told not to cross.",
+          "synonyms": [
+            "violate",
+            "breach",
+            "offend"
+          ],
+          "antonyms": [
+            "obey",
+            "conform",
+            "comply"
+          ]
+        },
+        {
+          "id": "sat-comply",
+          "word": "comply",
+          "partOfSpeech": "verb",
+          "definition": "To act in accordance with a request, command, or set of rules.",
+          "example": "All restaurants must comply with health and safety regulations.",
+          "mnemonic": "Hear 'come + ply' — you come along and bend (ply) yourself to the rules.",
+          "synonyms": [
+            "obey",
+            "conform",
+            "observe"
+          ],
+          "antonyms": [
+            "defy",
+            "resist",
+            "disobey"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-acquiesce",
+          "word": "acquiesce",
+          "partOfSpeech": "verb",
+          "definition": "To accept or agree to something reluctantly but without protest.",
+          "example": "Though she disliked the plan, she acquiesced rather than argue any further.",
+          "mnemonic": "Hidden 'quiesce' (quiet) — you go quiet and let it happen, silently giving in.",
+          "synonyms": [
+            "consent",
+            "concede",
+            "yield"
+          ],
+          "antonyms": [
+            "resist",
+            "protest",
+            "object"
+          ]
+        },
+        {
+          "id": "sat-capitulate",
+          "word": "capitulate",
+          "partOfSpeech": "verb",
+          "definition": "To stop resisting and surrender, usually on agreed terms.",
+          "example": "After months under siege, the exhausted garrison finally capitulated.",
+          "mnemonic": "From capitulum, the 'headings' of surrender terms — picture a white flag raised over the capital as both sides sign the chapters.",
+          "synonyms": [
+            "surrender",
+            "yield",
+            "submit"
+          ],
+          "antonyms": [
+            "resist",
+            "persevere",
+            "fight"
+          ]
+        },
+        {
+          "id": "sat-strident",
+          "word": "strident",
+          "partOfSpeech": "adjective",
+          "definition": "Loud, harsh, and grating in sound, or insistently forceful in tone.",
+          "example": "Her strident voice cut straight through the noise of the crowded hall.",
+          "mnemonic": "'Stride + dent' — a harsh voice that comes striding in and dents your ears.",
+          "synonyms": [
+            "harsh",
+            "grating",
+            "shrill"
+          ],
+          "antonyms": [
+            "soft",
+            "soothing",
+            "gentle"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-tendentious",
+          "word": "tendentious",
+          "partOfSpeech": "adjective",
+          "definition": "Presenting a strongly biased view meant to promote a particular cause.",
+          "example": "The documentary was so tendentious that it ignored every fact contradicting its thesis.",
+          "mnemonic": "Sounds like 'tend' + 'tenacious' — it stubbornly tends toward one side.",
+          "synonyms": [
+            "biased",
+            "partisan",
+            "one-sided"
+          ],
+          "antonyms": [
+            "impartial",
+            "unbiased",
+            "balanced"
+          ]
+        },
+        {
+          "id": "sat-reverent",
+          "word": "reverent",
+          "partOfSpeech": "adjective",
+          "definition": "Feeling or showing deep and solemn respect.",
+          "example": "The pilgrims fell silent, reverent, as they stepped into the ancient shrine.",
+          "mnemonic": "Think 'revere' and 'reverend' — a reverend treats the sacred with awe.",
+          "synonyms": [
+            "respectful",
+            "worshipful",
+            "awed"
+          ],
+          "antonyms": [
+            "irreverent",
+            "disrespectful",
+            "flippant"
+          ]
+        },
+        {
+          "id": "sat-legitimacy",
+          "word": "legitimacy",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being lawful, rightful, or widely accepted as valid.",
+          "example": "Observers questioned the election's legitimacy after thousands of ballots went missing.",
+          "mnemonic": "Root 'legit' from Latin lex/legis — something in line with the law.",
+          "synonyms": [
+            "validity",
+            "lawfulness",
+            "authority"
+          ],
+          "antonyms": [
+            "illegitimacy",
+            "invalidity",
+            "fraudulence"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-accountable",
+          "word": "accountable",
+          "partOfSpeech": "adjective",
+          "definition": "Obligated to explain or take responsibility for one's actions.",
+          "example": "Voters demanded that officials be held accountable for how the money was spent.",
+          "mnemonic": "You must give an account — count up — of everything you did.",
+          "synonyms": [
+            "responsible",
+            "answerable",
+            "liable"
+          ],
+          "antonyms": [
+            "unaccountable",
+            "exempt",
+            "immune"
+          ]
+        },
+        {
+          "id": "sat-oversight",
+          "word": "oversight",
+          "partOfSpeech": "noun",
+          "definition": "The act of supervising or watching over a process or group.",
+          "example": "A congressional committee provided oversight to ensure the agency obeyed the rules.",
+          "mnemonic": "Over + sight — someone watching over things from above.",
+          "synonyms": [
+            "supervision",
+            "monitoring",
+            "watch"
+          ],
+          "antonyms": [
+            "neglect",
+            "mismanagement"
+          ]
+        },
+        {
+          "id": "sat-electorate",
+          "word": "electorate",
+          "partOfSpeech": "noun",
+          "definition": "All the citizens who are entitled to cast votes.",
+          "example": "The candidate toured rural towns hoping to win over a skeptical electorate.",
+          "mnemonic": "'Elector' + '-ate' — the collective body of those who choose leaders.",
+          "synonyms": [
+            "voters",
+            "constituency"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-nonpartisan",
+          "word": "nonpartisan",
+          "partOfSpeech": "adjective",
+          "definition": "Not supporting or controlled by any political party.",
+          "example": "A nonpartisan commission redrew the districts without favoring either side.",
+          "mnemonic": "'Non' negates 'partisan' — not taking any party's part.",
+          "synonyms": [
+            "neutral",
+            "impartial",
+            "unbiased"
+          ],
+          "antonyms": [
+            "partisan",
+            "biased",
+            "one-sided"
+          ]
+        },
+        {
+          "id": "sat-bipartisan",
+          "word": "bipartisan",
+          "partOfSpeech": "adjective",
+          "definition": "Involving agreement or cooperation between two political parties.",
+          "example": "The bill passed with rare bipartisan support from both sides of the aisle.",
+          "mnemonic": "Bi = two; a compromise where two parties join forces.",
+          "synonyms": [
+            "cross-party",
+            "cooperative"
+          ],
+          "antonyms": [
+            "partisan",
+            "one-sided",
+            "factional"
+          ]
+        },
+        {
+          "id": "sat-authoritative",
+          "word": "authoritative",
+          "partOfSpeech": "adjective",
+          "definition": "Reliable, commanding, and accepted as accurate or true.",
+          "example": "She gave an authoritative account of the case, citing every relevant statute.",
+          "mnemonic": "Contains 'author' — the author of the definitive text speaks with weight.",
+          "synonyms": [
+            "definitive",
+            "reliable",
+            "commanding"
+          ],
+          "antonyms": [
+            "unreliable",
+            "dubious",
+            "tentative"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-dismissive",
+          "word": "dismissive",
+          "partOfSpeech": "adjective",
+          "definition": "Showing that you regard something as unworthy of serious attention.",
+          "example": "He gave a dismissive wave, refusing even to hear the proposal.",
+          "mnemonic": "To 'dismiss' is to send away — you wave ideas away.",
+          "synonyms": [
+            "contemptuous",
+            "scornful",
+            "disdainful"
+          ],
+          "antonyms": [
+            "respectful",
+            "attentive",
+            "considerate"
+          ]
+        },
+        {
+          "id": "sat-temperate",
+          "word": "temperate",
+          "partOfSpeech": "adjective",
+          "definition": "Showing moderation and self-restraint, or having a mild climate.",
+          "example": "Even when provoked, she stayed temperate and never raised her voice.",
+          "mnemonic": "Keep your 'temper' controlled — hold it in check.",
+          "synonyms": [
+            "moderate",
+            "restrained",
+            "mild"
+          ],
+          "antonyms": [
+            "extreme",
+            "immoderate",
+            "intemperate"
+          ]
+        },
+        {
+          "id": "sat-census",
+          "word": "census",
+          "partOfSpeech": "noun",
+          "definition": "An official count of a population, often recording details about people.",
+          "example": "Every ten years the census asks how many people live in each home.",
+          "mnemonic": "Sounds like 'sense us' — the government tries to sense us all by counting.",
+          "synonyms": [
+            "count",
+            "tally",
+            "survey"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-ballot",
+          "word": "ballot",
+          "partOfSpeech": "noun",
+          "definition": "A paper or process used to cast a secret vote in an election.",
+          "example": "She marked her ballot carefully and slipped it into the sealed box.",
+          "mnemonic": "From Italian 'ballotta,' a little ball once dropped in a box to vote.",
+          "synonyms": [
+            "vote",
+            "poll"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-diplomacy",
+          "word": "diplomacy",
+          "partOfSpeech": "noun",
+          "definition": "The skill of managing relations between nations, or handling matters with tact.",
+          "example": "Through patient diplomacy, the envoy averted a war between the rival states.",
+          "mnemonic": "Think 'diploma' — a diplomat is credentialed in smoothing over conflicts.",
+          "synonyms": [
+            "tact",
+            "statecraft",
+            "negotiation"
+          ],
+          "antonyms": [
+            "tactlessness",
+            "hostility",
+            "belligerence"
+          ]
+        },
+        {
+          "id": "sat-jurisprudence",
+          "word": "jurisprudence",
+          "partOfSpeech": "noun",
+          "definition": "The theory, philosophy, or study of law and legal systems.",
+          "example": "Her thesis in jurisprudence explored why unjust rules still command obedience.",
+          "mnemonic": "'Juris' (law) + 'prudence' (wisdom) — the wisdom behind the law.",
+          "synonyms": [
+            "law",
+            "legal theory",
+            "legal philosophy"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-tenure",
+          "word": "tenure",
+          "partOfSpeech": "noun",
+          "definition": "The period during which someone holds a position, office, or property.",
+          "example": "During her tenure as mayor, three new libraries opened across the city.",
+          "mnemonic": "Sounds like 'ten years' — picture a professor guaranteed her job for ten-ure, a long secured stretch of holding a post.",
+          "synonyms": [
+            "term",
+            "incumbency",
+            "occupation"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-accord",
+          "word": "accord",
+          "partOfSpeech": "noun",
+          "definition": "An official agreement or state of harmony between people or groups.",
+          "example": "After months of tense talks, the two nations signed an accord ending the border dispute.",
+          "mnemonic": "Think 'a chord' — separate notes struck together in harmony, just as parties come into agreement.",
+          "synonyms": [
+            "agreement",
+            "pact",
+            "harmony"
+          ],
+          "antonyms": [
+            "disagreement",
+            "conflict",
+            "discord"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T20:26:58.896Z"
+}

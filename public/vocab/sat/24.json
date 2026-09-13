@@ -1,0 +1,858 @@
+{
+  "track": "sat",
+  "ordinal": 24,
+  "title": "Tradition and reform",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-evince",
+          "word": "evince",
+          "partOfSpeech": "verb",
+          "definition": "To display or make evident a feeling, quality, or trait through one's behavior.",
+          "example": "Her steady voice evinced a calm that surprised everyone in the courtroom.",
+          "mnemonic": "Sounds like 'convince' — when you evince a feeling, your behavior convinces others you truly have it.",
+          "synonyms": [
+            "reveal",
+            "manifest",
+            "exhibit"
+          ],
+          "antonyms": [
+            "conceal",
+            "hide",
+            "mask"
+          ]
+        },
+        {
+          "id": "sat-inveterate",
+          "word": "inveterate",
+          "partOfSpeech": "adjective",
+          "definition": "Having a firmly fixed habit that has lasted so long it seems impossible to change.",
+          "example": "An inveterate gambler, he could not pass a casino without stopping to play.",
+          "mnemonic": "From Latin 'vetus' (old), the root of 'veteran' — an inveterate habit is a veteran habit.",
+          "synonyms": [
+            "habitual",
+            "chronic",
+            "confirmed"
+          ],
+          "antonyms": [
+            "occasional",
+            "sporadic"
+          ]
+        },
+        {
+          "id": "sat-anachronism",
+          "word": "anachronism",
+          "partOfSpeech": "noun",
+          "definition": "A thing placed in a period where it does not belong, especially something old surviving into the present.",
+          "example": "A rotary telephone in a scene set in 2025 is a glaring anachronism.",
+          "mnemonic": "Greek 'ana-' (against) + 'chronos' (time) — something set against its own time.",
+          "synonyms": [
+            "throwback",
+            "relic",
+            "incongruity"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-reactionary",
+          "word": "reactionary",
+          "partOfSpeech": "adjective",
+          "definition": "Strongly opposed to political or social change and favoring a return to earlier conditions.",
+          "example": "The reactionary faction wanted to repeal every reform passed in the last decade.",
+          "mnemonic": "A 'reaction' against progress — recoiling backward toward the old ways.",
+          "synonyms": [
+            "regressive",
+            "conservative",
+            "backward-looking"
+          ],
+          "antonyms": [
+            "progressive",
+            "radical"
+          ]
+        },
+        {
+          "id": "sat-retrograde",
+          "word": "retrograde",
+          "partOfSpeech": "adjective",
+          "definition": "Moving backward or returning to an earlier and usually worse condition.",
+          "example": "Cutting the research budget felt like a retrograde step for the whole country.",
+          "mnemonic": "'retro' (back) + 'grade' (step) — literally a backward step.",
+          "synonyms": [
+            "backward",
+            "regressive",
+            "declining"
+          ],
+          "antonyms": [
+            "progressive",
+            "advancing"
+          ]
+        },
+        {
+          "id": "sat-iconoclast",
+          "word": "iconoclast",
+          "partOfSpeech": "noun",
+          "definition": "A person who attacks or ridicules widely cherished beliefs, customs, or institutions.",
+          "example": "As an iconoclast, she delighted in challenging the traditions everyone else took for granted.",
+          "mnemonic": "Greek 'icon' (sacred image) + 'klastes' (breaker) — an image-breaker who smashes idols.",
+          "synonyms": [
+            "rebel",
+            "dissenter",
+            "nonconformist"
+          ],
+          "antonyms": [
+            "conformist",
+            "traditionalist"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-creed",
+          "word": "creed",
+          "partOfSpeech": "noun",
+          "definition": "A formal statement of the beliefs or principles that guide a person or group.",
+          "example": "Honesty in every dealing was the creed by which the old merchant lived.",
+          "mnemonic": "From Latin 'credo' — 'I believe'; the same root behind 'credit' and 'credible'.",
+          "synonyms": [
+            "doctrine",
+            "belief",
+            "faith"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-customary",
+          "word": "customary",
+          "partOfSpeech": "adjective",
+          "definition": "Done or happening according to the usual practices of a group or place.",
+          "example": "It was customary for the villagers to light lanterns on the first night of spring.",
+          "mnemonic": "Think 'custom' — a customary act simply follows the customs everyone keeps.",
+          "synonyms": [
+            "usual",
+            "habitual",
+            "traditional"
+          ],
+          "antonyms": [
+            "unusual",
+            "rare"
+          ]
+        },
+        {
+          "id": "sat-ritual",
+          "word": "ritual",
+          "partOfSpeech": "noun",
+          "definition": "A set of actions performed regularly in the same way, often as a ceremony.",
+          "example": "Her morning ritual began with black coffee and ten minutes of silence.",
+          "mnemonic": "Sounds like 'rite' — a ritual is a rite you repeat.",
+          "synonyms": [
+            "ceremony",
+            "rite",
+            "routine"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-established",
+          "word": "established",
+          "partOfSpeech": "adjective",
+          "definition": "Firmly set up and accepted over a long time; well recognized and secure.",
+          "example": "She left an established law firm to start her own risky venture.",
+          "mnemonic": "'Stable' hides inside — an established thing stands stable and settled.",
+          "synonyms": [
+            "settled",
+            "entrenched",
+            "recognized"
+          ],
+          "antonyms": [
+            "new",
+            "emerging"
+          ]
+        },
+        {
+          "id": "sat-conservative",
+          "word": "conservative",
+          "partOfSpeech": "adjective",
+          "definition": "Favoring traditional values and cautious about making changes.",
+          "example": "His conservative approach to investing meant he never chased risky stocks.",
+          "mnemonic": "'Conserve' — to conserve is to keep things exactly as they are.",
+          "synonyms": [
+            "traditional",
+            "cautious",
+            "conventional"
+          ],
+          "antonyms": [
+            "liberal",
+            "radical",
+            "progressive"
+          ]
+        },
+        {
+          "id": "sat-revolutionary",
+          "word": "revolutionary",
+          "partOfSpeech": "adjective",
+          "definition": "Involving or causing a complete and dramatic change in how things are done.",
+          "example": "The smartphone was a revolutionary device that transformed daily life within a decade.",
+          "mnemonic": "A 'revolution' turns everything around — revolutionary change spins the old order over.",
+          "synonyms": [
+            "radical",
+            "groundbreaking",
+            "transformative"
+          ],
+          "antonyms": [
+            "conservative",
+            "conventional"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-overturn",
+          "word": "overturn",
+          "partOfSpeech": "verb",
+          "definition": "To reverse a decision or ruling, or to tip something so it falls.",
+          "example": "The appeals court voted to overturn the lower court's verdict.",
+          "mnemonic": "'Over' + 'turn' — to turn something completely upside down.",
+          "synonyms": [
+            "reverse",
+            "overthrow",
+            "annul"
+          ],
+          "antonyms": [
+            "uphold",
+            "maintain"
+          ]
+        },
+        {
+          "id": "sat-modernize",
+          "word": "modernize",
+          "partOfSpeech": "verb",
+          "definition": "To update something with the latest methods, styles, or technology.",
+          "example": "The factory spent millions to modernize its aging assembly lines.",
+          "mnemonic": "'Modern' + '-ize' — to make a thing modern.",
+          "synonyms": [
+            "update",
+            "upgrade",
+            "renovate"
+          ],
+          "antonyms": [
+            "antiquate"
+          ]
+        },
+        {
+          "id": "sat-outmoded",
+          "word": "outmoded",
+          "partOfSpeech": "adjective",
+          "definition": "No longer useful, fashionable, or accepted because something better now exists.",
+          "example": "Typewriters became outmoded once personal computers arrived in offices.",
+          "mnemonic": "'Out' of 'mode' (fashion) — simply out of style.",
+          "synonyms": [
+            "obsolete",
+            "antiquated",
+            "dated"
+          ],
+          "antonyms": [
+            "modern",
+            "current",
+            "fashionable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-defunct",
+          "word": "defunct",
+          "partOfSpeech": "adjective",
+          "definition": "No longer active, operating, or in existence.",
+          "example": "We tried to redeem the coupon, but the company that issued it went defunct years ago.",
+          "mnemonic": "Sounds like 'de-funked' — the funk (life, function) has been taken out of it.",
+          "synonyms": [
+            "extinct",
+            "obsolete",
+            "inoperative"
+          ],
+          "antonyms": [
+            "operational",
+            "active",
+            "thriving"
+          ]
+        },
+        {
+          "id": "sat-inertia",
+          "word": "inertia",
+          "partOfSpeech": "noun",
+          "definition": "A tendency to remain unchanged or to do nothing.",
+          "example": "The committee's inertia meant the same broken policy stayed in place for another decade.",
+          "mnemonic": "From physics: an object at rest stays at rest — 'in-earth-ia,' stuck to the ground.",
+          "synonyms": [
+            "stagnation",
+            "sluggishness",
+            "passivity"
+          ],
+          "antonyms": [
+            "momentum",
+            "energy",
+            "initiative"
+          ]
+        },
+        {
+          "id": "sat-supplant",
+          "word": "supplant",
+          "partOfSpeech": "verb",
+          "definition": "To take the place of another, often through scheming or force.",
+          "example": "The ambitious deputy quietly gathered allies until he could supplant the aging chairman.",
+          "mnemonic": "Picture a weed's 'supple plant' shoving out the flower and rooting in its spot.",
+          "synonyms": [
+            "displace",
+            "usurp",
+            "oust"
+          ],
+          "antonyms": [
+            "retain",
+            "keep",
+            "install"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-supersede",
+          "word": "supersede",
+          "partOfSpeech": "verb",
+          "definition": "To take the place of something older or less capable.",
+          "example": "The new safety regulations supersede the guidelines your team was trained on last year.",
+          "mnemonic": "'Super' + 'sede' (to sit) — a superior thing sits down in the old one's chair.",
+          "synonyms": [
+            "replace",
+            "override",
+            "supplant"
+          ],
+          "antonyms": [
+            "retain",
+            "uphold",
+            "keep"
+          ]
+        },
+        {
+          "id": "sat-abolish",
+          "word": "abolish",
+          "partOfSpeech": "verb",
+          "definition": "To formally end a law, system, or practice.",
+          "example": "Reformers spent decades campaigning to abolish the tax that crushed small farmers.",
+          "mnemonic": "'A-bol-ish' — take a bowling ball and knock the whole system down for good.",
+          "synonyms": [
+            "annul",
+            "eliminate",
+            "repeal"
+          ],
+          "antonyms": [
+            "establish",
+            "institute",
+            "create"
+          ]
+        },
+        {
+          "id": "sat-dismantle",
+          "word": "dismantle",
+          "partOfSpeech": "verb",
+          "definition": "To take apart or break down into separate pieces.",
+          "example": "Engineers had to dismantle the entire engine just to reach the cracked valve inside.",
+          "mnemonic": "'Dis' (undo) + 'mantle' — strip off the cloak/covering piece by piece.",
+          "synonyms": [
+            "disassemble",
+            "demolish",
+            "strip"
+          ],
+          "antonyms": [
+            "assemble",
+            "build",
+            "construct"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-eradicate",
+          "word": "eradicate",
+          "partOfSpeech": "verb",
+          "definition": "To destroy or wipe out something completely.",
+          "example": "The vaccination campaign aimed to eradicate the disease so no child would ever catch it again.",
+          "mnemonic": "Latin 'radix' = root; think of yanking a weed out by its roots so nothing regrows.",
+          "synonyms": [
+            "exterminate",
+            "abolish",
+            "obliterate"
+          ],
+          "antonyms": [
+            "cultivate",
+            "establish",
+            "propagate"
+          ]
+        },
+        {
+          "id": "sat-subvert",
+          "word": "subvert",
+          "partOfSpeech": "verb",
+          "definition": "To secretly undermine the power or authority of something.",
+          "example": "Leaking the memos was his quiet way to subvert a leadership he could not openly challenge.",
+          "mnemonic": "'Sub' (under) + 'vert' (turn) — turn something over from underneath, toppling it.",
+          "synonyms": [
+            "undermine",
+            "sabotage",
+            "destabilize"
+          ],
+          "antonyms": [
+            "uphold",
+            "support",
+            "reinforce"
+          ]
+        },
+        {
+          "id": "sat-impugn",
+          "word": "impugn",
+          "partOfSpeech": "verb",
+          "definition": "To attack or call into question as false or dishonest.",
+          "example": "The lawyer tried to impugn the witness, hinting she had lied about everything she saw.",
+          "mnemonic": "Hidden 'pug' — imagine a pugnacious boxer throwing punches at someone's honesty.",
+          "synonyms": [
+            "challenge",
+            "dispute",
+            "discredit"
+          ],
+          "antonyms": [
+            "defend",
+            "endorse",
+            "vouch"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-downplay",
+          "word": "downplay",
+          "partOfSpeech": "verb",
+          "definition": "To make something seem less important than it really is.",
+          "example": "The manager tried to downplay the data breach, calling it a minor technical hiccup.",
+          "mnemonic": "Literally turn the volume 'down' when you 'play' the news, so it sounds small.",
+          "synonyms": [
+            "minimize",
+            "understate",
+            "belittle"
+          ],
+          "antonyms": [
+            "exaggerate",
+            "emphasize",
+            "overstate"
+          ]
+        },
+        {
+          "id": "sat-sacrosanct",
+          "word": "sacrosanct",
+          "partOfSpeech": "adjective",
+          "definition": "Regarded as too important or holy to be changed or criticized.",
+          "example": "In her house, Sunday dinner was sacrosanct — no work call could ever interrupt it.",
+          "mnemonic": "'Sacro' (sacred) + 'sanct' (holy) — doubly holy, like an untouchable altar.",
+          "synonyms": [
+            "inviolable",
+            "sacred",
+            "hallowed"
+          ],
+          "antonyms": [
+            "trivial",
+            "profane",
+            "disposable"
+          ]
+        },
+        {
+          "id": "sat-hidebound",
+          "word": "hidebound",
+          "partOfSpeech": "adjective",
+          "definition": "Unwilling to change because of tradition or narrow opinions.",
+          "example": "The hidebound faculty rejected online classes, insisting chalkboards had worked for a century.",
+          "mnemonic": "'Hide' + 'bound' — wrapped so tightly in old leather (hide) it can't move or bend.",
+          "synonyms": [
+            "rigid",
+            "conservative",
+            "inflexible"
+          ],
+          "antonyms": [
+            "progressive",
+            "open-minded",
+            "adaptable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-parochial",
+          "word": "parochial",
+          "partOfSpeech": "adjective",
+          "definition": "Having a narrow outlook limited to a small local area.",
+          "example": "His parochial views crumbled the moment he left the village and traveled abroad.",
+          "mnemonic": "From 'parish' — thinking no bigger than your tiny local church district.",
+          "synonyms": [
+            "narrow-minded",
+            "insular",
+            "provincial"
+          ],
+          "antonyms": [
+            "cosmopolitan",
+            "broad-minded",
+            "worldly"
+          ]
+        },
+        {
+          "id": "sat-rescind",
+          "word": "rescind",
+          "partOfSpeech": "verb",
+          "definition": "To officially cancel or revoke a law, order, or agreement.",
+          "example": "After the backlash, the board voted to rescind the fee it had approved that morning.",
+          "mnemonic": "Sounds like 're-scissored' — take scissors and cut the signed decree back out.",
+          "synonyms": [
+            "revoke",
+            "repeal",
+            "annul"
+          ],
+          "antonyms": [
+            "enact",
+            "uphold",
+            "ratify"
+          ]
+        },
+        {
+          "id": "sat-tautology",
+          "word": "tautology",
+          "partOfSpeech": "noun",
+          "definition": "Saying the same thing twice using different words, adding no new information.",
+          "example": "\"It's a free gift you get for nothing\" is a tautology that made the editor wince.",
+          "mnemonic": "\"TAUT-ology\" — a rope pulled TAUT and then pulled TAUT again: the same tension stated twice.",
+          "synonyms": [
+            "redundancy",
+            "repetition",
+            "pleonasm"
+          ],
+          "antonyms": [
+            "conciseness",
+            "brevity",
+            "succinctness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-verisimilitude",
+          "word": "verisimilitude",
+          "partOfSpeech": "noun",
+          "definition": "The quality of seeming real or true to life.",
+          "example": "The novelist visited coal mines for a week so her story would have the verisimilitude critics praised.",
+          "mnemonic": "Latin roots: \"veri\" (truth, as in verify) + \"simil\" (similar) — similar to the truth.",
+          "synonyms": [
+            "realism",
+            "authenticity",
+            "plausibility"
+          ],
+          "antonyms": [
+            "implausibility",
+            "artificiality",
+            "falseness"
+          ]
+        },
+        {
+          "id": "sat-apposite",
+          "word": "apposite",
+          "partOfSpeech": "adjective",
+          "definition": "Strikingly suitable and relevant to the matter at hand.",
+          "example": "During the debate on privacy, she cited an apposite court ruling that silenced her opponent.",
+          "mnemonic": "Think \"a-POSIT\" — a point positioned exactly where it fits, right on the spot.",
+          "synonyms": [
+            "apt",
+            "pertinent",
+            "fitting"
+          ],
+          "antonyms": [
+            "irrelevant",
+            "inappropriate",
+            "unsuitable"
+          ]
+        },
+        {
+          "id": "sat-ordinance",
+          "word": "ordinance",
+          "partOfSpeech": "noun",
+          "definition": "A rule or order issued by a city or town government.",
+          "example": "A local ordinance forbids leaf-blowers before eight in the morning.",
+          "mnemonic": "It has 'order' inside it — a local order to obey. (Don't confuse it with 'ordnance,' meaning weapons.)",
+          "synonyms": [
+            "bylaw",
+            "regulation",
+            "decree"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-legislation",
+          "word": "legislation",
+          "partOfSpeech": "noun",
+          "definition": "Laws that have been formally enacted, or the process of creating them.",
+          "example": "Congress debated the healthcare legislation for months before finally holding a vote.",
+          "mnemonic": "'Legis' is Latin for law (as in 'legal') plus '-lation' — the making of laws.",
+          "synonyms": [
+            "lawmaking",
+            "enactment",
+            "statutes"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-regulation",
+          "word": "regulation",
+          "partOfSpeech": "noun",
+          "definition": "An official rule that controls how something is done.",
+          "example": "Safety regulations require every worker on the site to wear a hardhat.",
+          "mnemonic": "Think 'regular' — it keeps things regular, orderly, and within limits.",
+          "synonyms": [
+            "rule",
+            "directive",
+            "control"
+          ],
+          "antonyms": [
+            "deregulation"
+          ]
+        },
+        {
+          "id": "sat-prohibit",
+          "word": "prohibit",
+          "partOfSpeech": "verb",
+          "definition": "To officially forbid something by law or rule.",
+          "example": "The posted sign clearly prohibits swimming whenever no lifeguard is on duty.",
+          "mnemonic": "Say it 'pro-HIB-it' — picture a giant PROhibition sign slamming down: NO.",
+          "synonyms": [
+            "forbid",
+            "ban",
+            "bar"
+          ],
+          "antonyms": [
+            "permit",
+            "allow",
+            "authorize"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-proscribe",
+          "word": "proscribe",
+          "partOfSpeech": "verb",
+          "definition": "To officially condemn or denounce something and forbid it as dangerous.",
+          "example": "The regime proscribed the opposition party, so joining it became a crime overnight.",
+          "mnemonic": "'Pro-SCRIBE' — officials scribe your name onto a banned list. (Opposite of 'prescribe,' which recommends.)",
+          "synonyms": [
+            "outlaw",
+            "ban",
+            "denounce"
+          ],
+          "antonyms": [
+            "permit",
+            "sanction",
+            "allow"
+          ]
+        },
+        {
+          "id": "sat-repress",
+          "word": "repress",
+          "partOfSpeech": "verb",
+          "definition": "To hold back or restrain a feeling, action, or group by force.",
+          "example": "She fought to repress a laugh during the solemn funeral service.",
+          "mnemonic": "'RE-press' — you press it back down again, like shoving a jack-in-the-box lid shut.",
+          "synonyms": [
+            "suppress",
+            "restrain",
+            "stifle"
+          ],
+          "antonyms": [
+            "release",
+            "express",
+            "free"
+          ]
+        },
+        {
+          "id": "sat-oppress",
+          "word": "oppress",
+          "partOfSpeech": "verb",
+          "definition": "To treat a group harshly and unfairly through prolonged use of power.",
+          "example": "For decades the dictator oppressed anyone who dared to speak freely in public.",
+          "mnemonic": "'OP-press' — those on top press down on the weak below them.",
+          "synonyms": [
+            "persecute",
+            "subjugate",
+            "tyrannize"
+          ],
+          "antonyms": [
+            "liberate",
+            "free",
+            "emancipate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-subjugate",
+          "word": "subjugate",
+          "partOfSpeech": "verb",
+          "definition": "To force a people or group into obedience and submission.",
+          "example": "The empire sent armies to subjugate every tribe living along the river.",
+          "mnemonic": "'SUB-JUG-ate' — put them 'sub' (under) a 'jug'/yoke, like oxen forced to plow.",
+          "synonyms": [
+            "conquer",
+            "enslave",
+            "dominate"
+          ],
+          "antonyms": [
+            "liberate",
+            "free",
+            "emancipate"
+          ]
+        },
+        {
+          "id": "sat-tyranny",
+          "word": "tyranny",
+          "partOfSpeech": "noun",
+          "definition": "Cruel, unjust, and absolute use of power by a ruler.",
+          "example": "The revolution promised to end centuries of tyranny under a ruthless crown.",
+          "mnemonic": "It contains 'tyrant' — the harsh, all-controlling ruler whose rule this describes.",
+          "synonyms": [
+            "despotism",
+            "oppression",
+            "dictatorship"
+          ],
+          "antonyms": [
+            "democracy",
+            "freedom",
+            "liberty"
+          ]
+        },
+        {
+          "id": "sat-despotism",
+          "word": "despotism",
+          "partOfSpeech": "noun",
+          "definition": "A system in which one ruler holds total power and wields it harshly.",
+          "example": "Under his despotism, no court could ever overturn a single royal decree.",
+          "mnemonic": "'Despot' sounds like 'the spot' — the ruler who owns every spot and answers to no one.",
+          "synonyms": [
+            "tyranny",
+            "autocracy",
+            "dictatorship"
+          ],
+          "antonyms": [
+            "democracy",
+            "egalitarianism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-authoritarian",
+          "word": "authoritarian",
+          "partOfSpeech": "adjective",
+          "definition": "Demanding strict obedience and allowing people little personal freedom.",
+          "example": "The authoritarian principal banned any student club she had not personally approved.",
+          "mnemonic": "Built on 'authority' — this person worships authority and expects total compliance.",
+          "synonyms": [
+            "dictatorial",
+            "autocratic",
+            "domineering"
+          ],
+          "antonyms": [
+            "democratic",
+            "liberal",
+            "permissive"
+          ]
+        },
+        {
+          "id": "sat-autocratic",
+          "word": "autocratic",
+          "partOfSpeech": "adjective",
+          "definition": "Ruling alone with unlimited power and no need for anyone's consent.",
+          "example": "The CEO's autocratic style meant major decisions were made without asking anyone.",
+          "mnemonic": "'Auto' (self) + 'cratic' (rule) — self-rule, where one person decides everything.",
+          "synonyms": [
+            "dictatorial",
+            "tyrannical",
+            "authoritarian"
+          ],
+          "antonyms": [
+            "democratic",
+            "egalitarian"
+          ]
+        },
+        {
+          "id": "sat-oligarchy",
+          "word": "oligarchy",
+          "partOfSpeech": "noun",
+          "definition": "Government or control held by a small, privileged group of people.",
+          "example": "A handful of wealthy families ran the entire country as a tight oligarchy.",
+          "mnemonic": "'Oligo' (few, in Greek) + 'archy' (rule) — rule by the few.",
+          "synonyms": [
+            "plutocracy",
+            "cabal"
+          ],
+          "antonyms": [
+            "democracy",
+            "monarchy"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Argument and evidence",
+  "createdAt": "2026-09-12T21:15:08.561Z"
+}

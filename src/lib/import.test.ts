@@ -7,15 +7,22 @@ import {
   type LoadMonth,
 } from "@/lib/import";
 
-/** A loadMonth that accepts anything with a `month`, and records what it saw. */
+/**
+ * A loadMonth that accepts anything month-shaped and records what it saw.
+ *
+ * Imported objects carry no month key of their own any more — where they land
+ * in a track is the store's decision — so this stands in for the store by
+ * handing out consecutive ordinals.
+ */
 function acceptingLoader() {
   const seen: unknown[] = [];
+  let ordinal = 0;
   const loadMonth: LoadMonth = (raw) => {
     seen.push(raw);
-    const key = (raw as { month?: string })?.month;
-    return key
-      ? { ok: true, monthKey: key }
-      : { ok: false, error: "missing month" };
+    const shaped = raw as { title?: string; month?: string; days?: unknown };
+    return shaped?.days
+      ? { ok: true, monthKey: `gre/${String(++ordinal).padStart(2, "0")}` }
+      : { ok: false, error: "not a month" };
   };
   return { loadMonth, seen };
 }
@@ -46,13 +53,15 @@ describe("importText", () => {
     const outcome = await importText("a.json", JSON_MONTH, loadMonth);
     expect(outcome).toEqual({ loaded: 1, failed: 0, errors: [] });
     expect((seen[0] as { month: string }).month).toBe("2026-07");
+    // JSON is passed through untouched, legacy shape included.
   });
 
   it("converts CSV before handing it to the same loadMonth", async () => {
     const { loadMonth, seen } = acceptingLoader();
     const outcome = await importText("2026-09.csv", CSV_MONTH, loadMonth);
     expect(outcome.loaded).toBe(1);
-    expect((seen[0] as { month: string }).month).toBe("2026-09");
+    // The filename still groups the rows; it survives as the month's title.
+    expect((seen[0] as { title: string }).title).toBe("September 2026");
   });
 
   it("counts each month when one CSV spans several", async () => {
@@ -62,9 +71,9 @@ cogent,adjective,clear,A cogent point.,co-agent,1,2026-10`;
     const { loadMonth, seen } = acceptingLoader();
     const outcome = await importText("x.csv", spanning, loadMonth);
     expect(outcome.loaded).toBe(2);
-    expect(seen.map((m) => (m as { month: string }).month).sort()).toEqual([
-      "2026-07",
-      "2026-10",
+    expect(seen.map((m) => (m as { title: string }).title).sort()).toEqual([
+      "July 2026",
+      "October 2026",
     ]);
   });
 

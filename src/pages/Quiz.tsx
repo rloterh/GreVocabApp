@@ -15,6 +15,7 @@ import { buildQuestions, byNeed, PERIOD_LENGTH, poolForPeriod, type TestPeriod }
 import { isDue } from "@/lib/sm2";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import type { QuizMode, QuizPool, QuizQuestion, VocabWord } from "@/types";
+import { keyOf } from "@/lib/track";
 
 type Screen = "setup" | "playing" | "results";
 
@@ -88,7 +89,7 @@ export function Quiz() {
   const monthOf = useMemo(() => {
     const map: Record<string, string> = {};
     for (const month of allMonthsList) {
-      for (const word of allWordsInMonth(month)) map[word.id] = month.month;
+      for (const word of allWordsInMonth(month)) map[word.id] = keyOf(month);
     }
     return map;
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -180,7 +181,7 @@ export function Quiz() {
 
   if (allMonthsList.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full max-w-3xl mx-auto py-12">
         <EmptyState
           icon={GraduationCap}
           title="Nothing to quiz yet"
@@ -192,7 +193,7 @@ export function Quiz() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto py-8">
+    <div className="w-full max-w-2xl mx-auto py-8">
       <AnimatePresence mode="wait">
         {screen === "setup" && (
           <SetupScreen

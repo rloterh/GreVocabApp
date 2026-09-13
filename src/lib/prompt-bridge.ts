@@ -155,12 +155,15 @@ export function countDiscardedRows(pasted: string): number {
  */
 export function parsePastedVocab(
   pasted: string,
-  monthKey: string,
+  fallbackMonth: string,
 ): unknown[] {
-  if (!/^\d{4}-\d{2}$/.test(monthKey)) {
+  // A calendar month, not a store key. It is the default for the CSV's own
+  // `month` column, which is how a pasted reply groups rows — it says nothing
+  // about where the result lands in a track.
+  if (!/^\d{4}-\d{2}$/.test(fallbackMonth)) {
     throw new Error("Month must look like 2026-07.");
   }
-  return csvToMonthObjects(extractCsv(pasted), { fallbackMonth: monthKey });
+  return csvToMonthObjects(extractCsv(pasted), { fallbackMonth });
 }
 
 /** Does this line look like the header we asked for? */

@@ -31,13 +31,16 @@ import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
 import { allWordsInMonth } from "@/lib/vocabulary";
-import { daysInMonth, format, formatMonthKey, toDateKey } from "@/lib/date-utils";
+import { daysInMonth, format, toDateKey } from "@/lib/date-utils";
+import { isInTrack, keyOf } from "@/lib/track";
 import { cn } from "@/lib/utils";
 
 type Range = "month" | "quarter" | "year";
 
 export function ProgressPage() {
   const months = useVocabStore((s) => s.months);
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const activeTrack = useVocabStore((s) => s.activeTrack);
   const words = useProgressStore((s) => s.words);
   const activity = useProgressStore((s) => s.activity);
 
@@ -54,18 +57,22 @@ export function ProgressPage() {
   const heatmap = useMemo(() => buildHeatmap(activity, year), [activity, year]);
 
   const allWords = useMemo(
-    () => Object.values(months).flatMap(allWordsInMonth),
-    [months],
+    () => getAllMonths().flatMap(allWordsInMonth),
+    [getAllMonths, months],
   );
-  const mastered = Object.values(words).filter((w) => w.mastered);
-  const quizAttempts = Object.values(words).reduce(
-    (s, w) => s + w.quizAttempts,
-    0,
+  // The open track's records only, keyed off the track in the word id. A
+  // combined figure would tell a user they have mastered words from a
+  // curriculum they are not currently studying.
+  const trackProgress = useMemo(
+    () =>
+      Object.entries(words)
+        .filter(([id]) => isInTrack(id, activeTrack))
+        .map(([, record]) => record),
+    [words, activeTrack],
   );
-  const quizCorrect = Object.values(words).reduce(
-    (s, w) => s + w.quizCorrect,
-    0,
-  );
+  const mastered = trackProgress.filter((w) => w.mastered);
+  const quizAttempts = trackProgress.reduce((s, w) => s + w.quizAttempts, 0);
+  const quizCorrect = trackProgress.reduce((s, w) => s + w.quizCorrect, 0);
   const accuracy = quizAttempts > 0 ? quizCorrect / quizAttempts : 0;
 
   // Chart data based on range
@@ -127,23 +134,23 @@ export function ProgressPage() {
   }, [range, activity, year]);
 
   const monthlyBreakdown = useMemo(() => {
-    return Object.values(months)
-      .sort((a, b) => a.month.localeCompare(b.month))
-      .map((m) => {
-        const wordsInMonth = allWordsInMonth(m);
-        const mCount = wordsInMonth.filter((w) => words[w.id]?.mastered).length;
-        return {
-          key: m.month,
-          name: formatMonthKey(m.month),
-          total: wordsInMonth.length,
-          mastered: mCount,
-        };
-      });
-  }, [months, words]);
+    // Teaching order, from the schedule — the order the user actually meets
+    // them in, which after a reorder is not ordinal order.
+    return getAllMonths().map((m) => {
+      const wordsInMonth = allWordsInMonth(m);
+      const mCount = wordsInMonth.filter((w) => words[w.id]?.mastered).length;
+      return {
+        key: keyOf(m),
+        name: m.title,
+        total: wordsInMonth.length,
+        mastered: mCount,
+      };
+    });
+  }, [getAllMonths, months, words]);
 
   if (allWords.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto py-12">
+      <div className="w-full lg:max-w-3xl lg:mx-auto py-12">
         <EmptyState
           icon={ChartLine}
           title="No progress to show yet"
@@ -155,7 +162,7 @@ export function ProgressPage() {
   }
 
   return (
-    <div className="max-w-5xl mx-auto py-8 space-y-8">
+    <div className="w-full lg:max-w-5xl lg:mx-auto py-8 space-y-8">
       <div className="flex items-end justify-between">
         <div>
           <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
@@ -165,7 +172,7 @@ export function ProgressPage() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <MiniStat
           icon={Flame}
           label="Current streak"

@@ -11,7 +11,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FileDown } from "lucide-react";
 import { useVocabStore } from "@/store/useVocabStore";
-import { firstFreeMonthKey } from "@/lib/vocabulary";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { describeOutcome, importFiles } from "@/lib/import";
@@ -26,6 +25,7 @@ function carriesFiles(e: DragEvent): boolean {
 export function DropOverlay() {
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const months = useVocabStore((s) => s.months);
+  const nextMonthKey = useVocabStore((s) => s.nextMonthKey);
   const showToast = useAppStore((s) => s.showToast);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
 
@@ -68,7 +68,7 @@ export function DropOverlay() {
       setBusy(true);
       try {
         const outcome = await importFiles(files, loadMonth, {
-          apkgMonth: () => firstFreeMonthKey(months),
+          apkgMonth: () => nextMonthKey(),
         });
         for (const message of outcome.errors) console.warn(message);
         if (outcome.loaded === 0 && outcome.failed === 0) {
@@ -98,7 +98,7 @@ export function DropOverlay() {
       window.removeEventListener("drop", onDrop);
       window.removeEventListener("dragend", reset);
     };
-  }, [loadMonth, months, showToast, reset]);
+  }, [loadMonth, months, nextMonthKey, showToast, reset]);
 
   const visible = dragging || busy;
 

@@ -1,0 +1,1256 @@
+{
+  "track": "sat",
+  "ordinal": 25,
+  "title": "Identity and belonging",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-estrange",
+          "word": "estrange",
+          "partOfSpeech": "verb",
+          "definition": "To make someone feel hostile or indifferent toward people they were once close to.",
+          "example": "After years of bitter arguments over money, he became estranged from his brother and they stopped speaking entirely.",
+          "mnemonic": "e-STRANGE: you start treating a once-close person like a total STRANGER.",
+          "synonyms": [
+            "alienate",
+            "disaffect",
+            "separate"
+          ],
+          "antonyms": [
+            "reconcile",
+            "reunite",
+            "unite"
+          ]
+        },
+        {
+          "id": "sat-kindred",
+          "word": "kindred",
+          "partOfSpeech": "adjective",
+          "definition": "Having a similar character, background, or set of feelings to another.",
+          "example": "They turned out to be kindred spirits, loving the same obscure films and finishing each other's sentences.",
+          "mnemonic": "KIN + dred: your KIN are your family — people who are alike and connected to you.",
+          "synonyms": [
+            "akin",
+            "related",
+            "similar"
+          ],
+          "antonyms": [
+            "unrelated",
+            "dissimilar",
+            "alien"
+          ]
+        },
+        {
+          "id": "sat-enclave",
+          "word": "enclave",
+          "partOfSpeech": "noun",
+          "definition": "A small area or group that differs culturally from the larger territory surrounding it.",
+          "example": "The old fishing village survived as a quiet Portuguese enclave in the middle of the sprawling modern city.",
+          "mnemonic": "en-CLAVE sounds like 'in a cave' — a sealed pocket tucked inside something much bigger.",
+          "synonyms": [
+            "pocket",
+            "island",
+            "ghetto"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-diaspora",
+          "word": "diaspora",
+          "partOfSpeech": "noun",
+          "definition": "The scattering of a people away from their original homeland across many countries.",
+          "example": "The famine drove millions abroad, creating an Irish diaspora that reached nearly every continent.",
+          "mnemonic": "DIA (across) + SPORA (seeds): seeds scattered across the earth, like spores blown far from the plant.",
+          "synonyms": [
+            "dispersion",
+            "scattering",
+            "migration"
+          ],
+          "antonyms": [
+            "repatriation",
+            "ingathering"
+          ]
+        },
+        {
+          "id": "sat-expatriate",
+          "word": "expatriate",
+          "partOfSpeech": "noun",
+          "definition": "A person residing in a country other than the one where they were born.",
+          "example": "As an expatriate in Tokyo, she gathered with other Americans each November to cook Thanksgiving dinner far from home.",
+          "mnemonic": "ex- (out of) + patria (fatherland): someone living OUT of their FATHERLAND.",
+          "synonyms": [
+            "émigré",
+            "exile",
+            "migrant"
+          ],
+          "antonyms": [
+            "native",
+            "citizen",
+            "national"
+          ]
+        },
+        {
+          "id": "sat-indigenous",
+          "word": "indigenous",
+          "partOfSpeech": "adjective",
+          "definition": "Originating and living naturally in a particular region rather than arriving from elsewhere.",
+          "example": "Kangaroos are indigenous to Australia and are found in the wild nowhere else on Earth.",
+          "mnemonic": "Root 'gen' means born; 'indi' hints at inside — born inside this very land, an 'indie' original of the place.",
+          "synonyms": [
+            "native",
+            "aboriginal",
+            "original"
+          ],
+          "antonyms": [
+            "foreign",
+            "imported",
+            "non-native"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-naturalize",
+          "word": "naturalize",
+          "partOfSpeech": "verb",
+          "definition": "To grant full legal citizenship to someone born in another country.",
+          "example": "After living in Canada for six years, he was naturalized and proudly voted in his first election.",
+          "mnemonic": "Make a newcomer a NATURAL: treat them as if they naturally belonged as a citizen all along.",
+          "synonyms": [
+            "enfranchise",
+            "admit",
+            "adopt"
+          ],
+          "antonyms": [
+            "deport",
+            "expel",
+            "exile"
+          ]
+        },
+        {
+          "id": "sat-coterie",
+          "word": "coterie",
+          "partOfSpeech": "noun",
+          "definition": "A small, exclusive circle of people sharing common interests or tastes.",
+          "example": "The aging poet dined each night with his coterie of loyal admirers and fellow writers.",
+          "mnemonic": "COTERIE sounds like 'CATER-ie' — the tight inner group everyone rushes to CATER to.",
+          "synonyms": [
+            "circle",
+            "set",
+            "in-crowd"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-clique",
+          "word": "clique",
+          "partOfSpeech": "noun",
+          "definition": "A tight, exclusive group that keeps outsiders from joining.",
+          "example": "In high school the popular clique claimed the same lunch table and ignored anyone who tried to sit down.",
+          "mnemonic": "CLIQUE sounds like 'CLICK' — the in-group that 'clicks' together and locks everyone else out.",
+          "synonyms": [
+            "coterie",
+            "faction",
+            "in-group"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-milieu",
+          "word": "milieu",
+          "partOfSpeech": "noun",
+          "definition": "The physical or social setting in which a person lives or something takes place.",
+          "example": "Raised in an academic milieu, she grew up surrounded by crowded bookshelves and lively dinner-table debate.",
+          "mnemonic": "French mi-lieu = 'middle place': the surroundings you stand in the MIDDLE of.",
+          "synonyms": [
+            "environment",
+            "setting",
+            "surroundings"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-insular",
+          "word": "insular",
+          "partOfSpeech": "adjective",
+          "definition": "Narrow-minded and cut off from outside people, cultures, or ideas.",
+          "example": "The remote mountain town was so insular that any stranger was met with years of lasting suspicion.",
+          "mnemonic": "Latin 'insula' means ISLAND — an island mind, walled off from the mainland by water.",
+          "synonyms": [
+            "parochial",
+            "narrow-minded",
+            "isolated"
+          ],
+          "antonyms": [
+            "cosmopolitan",
+            "open-minded",
+            "broad-minded"
+          ]
+        },
+        {
+          "id": "sat-cosmopolitan",
+          "word": "cosmopolitan",
+          "partOfSpeech": "adjective",
+          "definition": "Familiar with and comfortable among many different countries and cultures.",
+          "example": "London felt wonderfully cosmopolitan, offering cuisines, languages, and festivals from every corner of the globe.",
+          "mnemonic": "COSMO (world) + POLITAN (citizen): a citizen of the whole COSMOS — at home anywhere on Earth.",
+          "synonyms": [
+            "worldly",
+            "sophisticated",
+            "global"
+          ],
+          "antonyms": [
+            "provincial",
+            "insular",
+            "parochial"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-provincial",
+          "word": "provincial",
+          "partOfSpeech": "adjective",
+          "definition": "Limited in outlook and unsophisticated, typical of places far from a big city.",
+          "example": "His provincial tastes were obvious the moment he refused any dish he couldn't already pronounce.",
+          "mnemonic": "Think PROVINCE — someone stuck out in a distant province, far from the wider, worldlier city.",
+          "synonyms": [
+            "parochial",
+            "narrow",
+            "unsophisticated"
+          ],
+          "antonyms": [
+            "cosmopolitan",
+            "worldly",
+            "sophisticated"
+          ]
+        },
+        {
+          "id": "sat-xenophobia",
+          "word": "xenophobia",
+          "partOfSpeech": "noun",
+          "definition": "Intense dislike or fear of people from other countries.",
+          "example": "Rising xenophobia led the angry crowd to blame recent immigrants for every problem the town faced.",
+          "mnemonic": "XENO (stranger) + PHOBIA (fear): a fear of anything strange or foreign.",
+          "synonyms": [
+            "prejudice",
+            "bigotry",
+            "intolerance"
+          ],
+          "antonyms": [
+            "xenophilia",
+            "tolerance",
+            "acceptance"
+          ]
+        },
+        {
+          "id": "sat-nativism",
+          "word": "nativism",
+          "partOfSpeech": "noun",
+          "definition": "A policy of protecting the interests of established inhabitants against those of immigrants.",
+          "example": "The party's nativism promised local jobs to locals first and sharply restricted all new arrivals.",
+          "mnemonic": "NATIVE + ism: the belief that the native-born should always come first.",
+          "synonyms": [
+            "protectionism",
+            "isolationism",
+            "chauvinism"
+          ],
+          "antonyms": [
+            "multiculturalism",
+            "globalism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-pedigree",
+          "word": "pedigree",
+          "partOfSpeech": "noun",
+          "definition": "The recorded line of ancestors from which a person or animal descends.",
+          "example": "The breeder produced a pedigree tracing the puppy's champion bloodline back six generations.",
+          "mnemonic": "From French 'pied de grue' (foot of a crane) — the branching lines of a family chart look like a crane's splayed foot.",
+          "synonyms": [
+            "ancestry",
+            "lineage",
+            "bloodline"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-persona",
+          "word": "persona",
+          "partOfSpeech": "noun",
+          "definition": "The image or character someone presents to others, often masking their true self.",
+          "example": "Offstage he was shy, but his brash rock-star persona commanded every arena.",
+          "mnemonic": "In Latin theatre a 'persona' was the mask an actor held up — a face worn over the real one.",
+          "synonyms": [
+            "facade",
+            "guise",
+            "image"
+          ],
+          "antonyms": [
+            "true self"
+          ]
+        },
+        {
+          "id": "sat-authenticity",
+          "word": "authenticity",
+          "partOfSpeech": "noun",
+          "definition": "The quality of being genuine, real, and true to its origin.",
+          "example": "Experts tested the pigment and canvas to confirm the painting's authenticity before the auction.",
+          "mnemonic": "Hear 'author' inside it — something authentic can be traced to its real author or source.",
+          "synonyms": [
+            "genuineness",
+            "legitimacy"
+          ],
+          "antonyms": [
+            "fakery",
+            "forgery"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-compatriot",
+          "word": "compatriot",
+          "partOfSpeech": "noun",
+          "definition": "A person who comes from the same country as another.",
+          "example": "Stranded at the foreign airport, she was thrilled to meet a compatriot who spoke her language.",
+          "mnemonic": "'com-' (together) + 'patriot' — patriots who share the same fatherland.",
+          "synonyms": [
+            "countryman",
+            "fellow citizen"
+          ],
+          "antonyms": [
+            "foreigner",
+            "alien"
+          ]
+        },
+        {
+          "id": "sat-denizen",
+          "word": "denizen",
+          "partOfSpeech": "noun",
+          "definition": "A person, animal, or plant that lives in a particular place.",
+          "example": "Owls and other nocturnal denizens of the forest emerged only after sunset.",
+          "mnemonic": "'den' + 'izen' — the creature curled up in its den is that den's denizen.",
+          "synonyms": [
+            "inhabitant",
+            "resident",
+            "dweller"
+          ],
+          "antonyms": [
+            "outsider",
+            "visitor"
+          ]
+        },
+        {
+          "id": "sat-itinerant",
+          "word": "itinerant",
+          "partOfSpeech": "adjective",
+          "definition": "Traveling from place to place, especially to find work.",
+          "example": "The itinerant preacher never stayed in one town for more than a week.",
+          "mnemonic": "Share the root of 'itinerary' (Latin 'iter', journey) — always on the next leg of a journey.",
+          "synonyms": [
+            "roving",
+            "wandering",
+            "peripatetic"
+          ],
+          "antonyms": [
+            "settled",
+            "stationary"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-nomadic",
+          "word": "nomadic",
+          "partOfSpeech": "adjective",
+          "definition": "Roaming from place to place rather than living in one fixed home.",
+          "example": "The nomadic herders followed the rains, packing their tents whenever the grass ran out.",
+          "mnemonic": "'No-mad' — a nomad is in no mad rush to settle down; they wander at will.",
+          "synonyms": [
+            "roaming",
+            "migratory",
+            "wandering"
+          ],
+          "antonyms": [
+            "sedentary",
+            "settled"
+          ]
+        },
+        {
+          "id": "sat-displaced",
+          "word": "displaced",
+          "partOfSpeech": "adjective",
+          "definition": "Forced to leave one's home or normal position.",
+          "example": "The flood left thousands of displaced families sheltering in school gymnasiums.",
+          "mnemonic": "'dis-' (away) + 'placed' — taken away from your place.",
+          "synonyms": [
+            "uprooted",
+            "evicted",
+            "dislodged"
+          ],
+          "antonyms": [
+            "settled",
+            "rooted"
+          ]
+        },
+        {
+          "id": "sat-sanctuary",
+          "word": "sanctuary",
+          "partOfSpeech": "noun",
+          "definition": "A safe place offering shelter, or a sacred area within a temple.",
+          "example": "Fleeing the storm, the hikers found sanctuary in an old stone chapel.",
+          "mnemonic": "Root 'sanct-' means holy (as in 'sacred') — a sanctuary is protected, untouchable ground.",
+          "synonyms": [
+            "refuge",
+            "haven",
+            "shelter"
+          ],
+          "antonyms": [
+            "danger zone"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-asylum",
+          "word": "asylum",
+          "partOfSpeech": "noun",
+          "definition": "Protection granted by a country to someone fleeing danger elsewhere.",
+          "example": "The journalist applied for asylum after being threatened for exposing the regime.",
+          "mnemonic": "Greek 'a-' (without) + 'sylon' (right of seizure) — a place where you cannot be seized.",
+          "synonyms": [
+            "refuge",
+            "protection",
+            "safe haven"
+          ],
+          "antonyms": [
+            "extradition",
+            "expulsion"
+          ]
+        },
+        {
+          "id": "sat-fidelity",
+          "word": "fidelity",
+          "partOfSpeech": "noun",
+          "definition": "Faithfulness and loyalty to a person, cause, or duty.",
+          "example": "Her fidelity to the company never wavered, even through years of layoffs.",
+          "mnemonic": "Think of the dog named Fido — from Latin 'fides' (faith), the very picture of loyalty.",
+          "synonyms": [
+            "loyalty",
+            "faithfulness",
+            "allegiance"
+          ],
+          "antonyms": [
+            "betrayal",
+            "treachery"
+          ]
+        },
+        {
+          "id": "sat-amalgamate",
+          "word": "amalgamate",
+          "partOfSpeech": "verb",
+          "definition": "To combine or unite separate things into a single whole.",
+          "example": "The two rival banks decided to amalgamate into one national institution.",
+          "mnemonic": "Picture a dental 'amalgam' — a filling that fuses several metals into one solid mass.",
+          "synonyms": [
+            "merge",
+            "combine",
+            "unite"
+          ],
+          "antonyms": [
+            "separate",
+            "divide"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-archetype",
+          "word": "archetype",
+          "partOfSpeech": "noun",
+          "definition": "An original model or perfect example on which others are based.",
+          "example": "Sherlock Holmes became the archetype for nearly every brilliant fictional detective after him.",
+          "mnemonic": "'arch-' (chief/first, as in 'archangel') + 'type' — the first, master type others copy.",
+          "synonyms": [
+            "prototype",
+            "model",
+            "epitome"
+          ],
+          "antonyms": [
+            "copy",
+            "imitation"
+          ]
+        },
+        {
+          "id": "sat-stereotype",
+          "word": "stereotype",
+          "partOfSpeech": "noun",
+          "definition": "A fixed, oversimplified belief about all members of a group.",
+          "example": "The comedian's whole act relied on a tired stereotype about clumsy tourists.",
+          "mnemonic": "Greek 'stereo-' (solid/rigid, as in a printing plate) + 'type' — one hard template stamped onto everyone.",
+          "synonyms": [
+            "cliche",
+            "generalization",
+            "pigeonhole"
+          ],
+          "antonyms": [
+            "individuality"
+          ]
+        },
+        {
+          "id": "sat-vernacular",
+          "word": "vernacular",
+          "partOfSpeech": "noun",
+          "definition": "The everyday language spoken by ordinary people of a particular region.",
+          "example": "Instead of formal Latin, the poet wrote in the local vernacular so farmers could read him.",
+          "mnemonic": "Latin 'verna' meant a home-born servant — hence the plain, home-grown speech of a place.",
+          "synonyms": [
+            "dialect",
+            "everyday speech",
+            "idiom"
+          ],
+          "antonyms": [
+            "formal language",
+            "standard tongue"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-tribalism",
+          "word": "tribalism",
+          "partOfSpeech": "noun",
+          "definition": "Strong loyalty to one's own group, often paired with hostility toward outsiders.",
+          "example": "Once the debate began, tribalism took over and each side cheered only for its own team.",
+          "mnemonic": "'Tribe' + '-ism' — the belief that your tribe comes first, everyone else second.",
+          "synonyms": [
+            "factionalism",
+            "sectarianism",
+            "partisanship"
+          ],
+          "antonyms": [
+            "universalism",
+            "cosmopolitanism"
+          ]
+        },
+        {
+          "id": "sat-fraternize",
+          "word": "fraternize",
+          "partOfSpeech": "verb",
+          "definition": "To mix and socialize in a friendly way, often with people one shouldn't.",
+          "example": "The sergeant warned the new recruits not to fraternize with soldiers from the enemy camp.",
+          "mnemonic": "From Latin 'frater' (brother) — to treat someone like a brother, buddy up.",
+          "synonyms": [
+            "associate",
+            "socialize",
+            "mingle"
+          ],
+          "antonyms": [
+            "shun",
+            "avoid",
+            "ignore"
+          ]
+        },
+        {
+          "id": "sat-pariah",
+          "word": "pariah",
+          "partOfSpeech": "noun",
+          "definition": "A person whom everyone rejects and refuses to associate with.",
+          "example": "After the scandal broke, the once-popular banker became a pariah nobody would sit beside.",
+          "mnemonic": "Sounds like 'pa-RYE-ah' — imagine someone left alone to eat dry rye bread while everyone else avoids them.",
+          "synonyms": [
+            "outcast",
+            "leper",
+            "untouchable"
+          ],
+          "antonyms": [
+            "favorite",
+            "insider",
+            "darling"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-outcast",
+          "word": "outcast",
+          "partOfSpeech": "noun",
+          "definition": "Someone driven out of a group and no longer accepted by it.",
+          "example": "The new student ate lunch alone every day, treated like an outcast by the older kids.",
+          "mnemonic": "'Out' + 'cast' — someone who has been cast out of the group.",
+          "synonyms": [
+            "pariah",
+            "reject",
+            "exile"
+          ],
+          "antonyms": [
+            "member",
+            "insider",
+            "favorite"
+          ]
+        },
+        {
+          "id": "sat-exile",
+          "word": "exile",
+          "partOfSpeech": "noun",
+          "definition": "The state of being forced to live away from one's own country.",
+          "example": "The deposed king spent the rest of his life in exile, never allowed to return home.",
+          "mnemonic": "'Ex-' (out of) + 'isle' — pushed out and stranded on a distant island, far from home.",
+          "synonyms": [
+            "banishment",
+            "expulsion",
+            "deportation"
+          ],
+          "antonyms": [
+            "return",
+            "repatriation",
+            "homecoming"
+          ]
+        },
+        {
+          "id": "sat-refugee",
+          "word": "refugee",
+          "partOfSpeech": "noun",
+          "definition": "A person who flees their homeland to escape war, disaster, or persecution.",
+          "example": "The family became refugees overnight, packing one bag before crossing the border to safety.",
+          "mnemonic": "Contains 'refuge' — someone seeking refuge, a safe place away from danger.",
+          "synonyms": [
+            "asylum-seeker",
+            "émigré",
+            "displaced person"
+          ],
+          "antonyms": [
+            "native",
+            "resident",
+            "citizen"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-interloper",
+          "word": "interloper",
+          "partOfSpeech": "noun",
+          "definition": "A person who intrudes into a place or affair where they do not belong.",
+          "example": "The regulars at the tavern eyed the stranger like an interloper who had wandered into their private club.",
+          "mnemonic": "'Inter-' (between) + 'lope' — someone who lopes in between where they weren't invited.",
+          "synonyms": [
+            "intruder",
+            "trespasser",
+            "gatecrasher"
+          ],
+          "antonyms": [
+            "insider",
+            "member",
+            "regular"
+          ]
+        },
+        {
+          "id": "sat-acclimate",
+          "word": "acclimate",
+          "partOfSpeech": "verb",
+          "definition": "To gradually get used to a new environment or set of conditions.",
+          "example": "It took the mountaineers a week to acclimate to the thin air before the final climb.",
+          "mnemonic": "Contains 'climate' — to adjust yourself to a new climate.",
+          "synonyms": [
+            "adapt",
+            "adjust",
+            "accustom"
+          ],
+          "antonyms": [
+            "reject",
+            "resist",
+            "estrange"
+          ]
+        },
+        {
+          "id": "sat-individualism",
+          "word": "individualism",
+          "partOfSpeech": "noun",
+          "definition": "The belief that personal independence and self-reliance matter more than group needs.",
+          "example": "Raised on rugged individualism, she preferred solving her own problems to asking anyone for help.",
+          "mnemonic": "Built on 'individual' — putting the single person, the individual, above the crowd.",
+          "synonyms": [
+            "independence",
+            "self-reliance",
+            "autonomy"
+          ],
+          "antonyms": [
+            "collectivism",
+            "conformity",
+            "tribalism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-culpable",
+          "word": "culpable",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving blame for having done something wrong.",
+          "example": "The report found the manager culpable for ignoring the safety warnings that led to the fire.",
+          "mnemonic": "From Latin 'culpa' (fault) — think 'mea culpa,' my fault; a culpable person is at fault.",
+          "synonyms": [
+            "blameworthy",
+            "guilty",
+            "answerable"
+          ],
+          "antonyms": [
+            "innocent",
+            "blameless",
+            "faultless"
+          ]
+        },
+        {
+          "id": "sat-complicit",
+          "word": "complicit",
+          "partOfSpeech": "adjective",
+          "definition": "Involved with others in a wrongful or illegal act.",
+          "example": "By staying silent about the cheating, the whole class became complicit in it.",
+          "mnemonic": "Related to 'accomplice' — a complicit person acts like a quiet accomplice.",
+          "synonyms": [
+            "collusive",
+            "conspiring",
+            "implicated"
+          ],
+          "antonyms": [
+            "innocent",
+            "uninvolved",
+            "blameless"
+          ]
+        },
+        {
+          "id": "sat-clandestine",
+          "word": "clandestine",
+          "partOfSpeech": "adjective",
+          "definition": "Kept hidden and carried out in secret, usually because it is not allowed.",
+          "example": "The rebels held clandestine meetings in a cellar so the soldiers would never find them.",
+          "mnemonic": "Sounds like 'clan' + 'destine' — a clan destined to meet in the shadows, hidden away.",
+          "synonyms": [
+            "secret",
+            "covert",
+            "underground"
+          ],
+          "antonyms": [
+            "open",
+            "public",
+            "overt"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-surreptitious",
+          "word": "surreptitious",
+          "partOfSpeech": "adjective",
+          "definition": "Done quietly and by stealth to avoid being noticed.",
+          "example": "He took a surreptitious glance at his phone under the desk while the teacher wrote on the board.",
+          "mnemonic": "Sounds like 'sir-REP-titious' — imagine a sneaky 'serpent' slipping in unseen.",
+          "synonyms": [
+            "stealthy",
+            "covert",
+            "sneaky"
+          ],
+          "antonyms": [
+            "open",
+            "overt",
+            "blatant"
+          ]
+        },
+        {
+          "id": "sat-furtive",
+          "word": "furtive",
+          "partOfSpeech": "adjective",
+          "definition": "Behaving in a secretive, sneaky way that suggests something is being hidden.",
+          "example": "Her furtive glances toward the door made everyone suspect she was about to slip away.",
+          "mnemonic": "Shares roots with 'fur' in 'furtive' — think of a cat-burglar in a fur coat, moving in shady silence.",
+          "synonyms": [
+            "shifty",
+            "sly",
+            "stealthy"
+          ],
+          "antonyms": [
+            "open",
+            "candid",
+            "forthright"
+          ]
+        },
+        {
+          "id": "sat-vicarious",
+          "word": "vicarious",
+          "partOfSpeech": "adjective",
+          "definition": "Felt or experienced through the actions and feelings of another person.",
+          "example": "Watching her son score the winning goal gave her a vicarious thrill, as if she had played herself.",
+          "mnemonic": "Related to 'vicar,' a stand-in for a higher authority — you feel it through a stand-in, not firsthand.",
+          "synonyms": [
+            "secondhand",
+            "indirect",
+            "surrogate"
+          ],
+          "antonyms": [
+            "firsthand",
+            "direct",
+            "personal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-solace",
+          "word": "solace",
+          "partOfSpeech": "noun",
+          "definition": "Comfort or consolation given to someone after a loss or disappointment.",
+          "example": "After the funeral, she found solace in long walks along the quiet shore.",
+          "mnemonic": "Sounds like 'so less' — real comfort makes your grief feel so much less.",
+          "synonyms": [
+            "comfort",
+            "consolation",
+            "relief"
+          ],
+          "antonyms": [
+            "distress",
+            "torment",
+            "discomfort"
+          ]
+        },
+        {
+          "id": "sat-bereft",
+          "word": "bereft",
+          "partOfSpeech": "adjective",
+          "definition": "Deprived of something or someone, and left empty as a result.",
+          "example": "Bereft of her lifelong companion, she wandered the silent house for weeks.",
+          "mnemonic": "Sounds like 'be left' — you are left with nothing.",
+          "synonyms": [
+            "deprived",
+            "devoid",
+            "lacking"
+          ],
+          "antonyms": [
+            "endowed",
+            "full",
+            "possessing"
+          ]
+        },
+        {
+          "id": "sat-convivial",
+          "word": "convivial",
+          "partOfSpeech": "adjective",
+          "definition": "Cheerful, sociable, and fond of good company and celebration.",
+          "example": "The convivial host kept everyone laughing and refilling their glasses all night.",
+          "mnemonic": "con + VIVI (life, as in 'vivacious') — a gathering that is full of life.",
+          "synonyms": [
+            "sociable",
+            "festive",
+            "jovial"
+          ],
+          "antonyms": [
+            "gloomy",
+            "dour",
+            "unsociable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-servile",
+          "word": "servile",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively eager to obey or please others in a submissive, groveling way.",
+          "example": "The waiter's servile bowing and scraping made the guests uncomfortable.",
+          "mnemonic": "Sounds like 'servant' — behaving like a fawning, lowly servant.",
+          "synonyms": [
+            "submissive",
+            "obsequious",
+            "subservient"
+          ],
+          "antonyms": [
+            "domineering",
+            "assertive",
+            "independent"
+          ]
+        },
+        {
+          "id": "sat-sycophant",
+          "word": "sycophant",
+          "partOfSpeech": "noun",
+          "definition": "A person who flatters powerful people to gain advantage for themselves.",
+          "example": "Surrounded by sycophants, the CEO never once heard an honest opinion.",
+          "mnemonic": "Say 'SICK-o-fant' — a sickly flatterer who fawns to get ahead.",
+          "synonyms": [
+            "flatterer",
+            "toady",
+            "bootlicker"
+          ],
+          "antonyms": [
+            "critic",
+            "detractor"
+          ]
+        },
+        {
+          "id": "sat-unctuous",
+          "word": "unctuous",
+          "partOfSpeech": "adjective",
+          "definition": "Excessively smooth, oily, and insincere in manner or speech.",
+          "example": "The salesman's unctuous compliments made her distrust him instantly.",
+          "mnemonic": "From 'unction' (anointing oil) — think slippery, greasy charm.",
+          "synonyms": [
+            "oily",
+            "smarmy",
+            "ingratiating"
+          ],
+          "antonyms": [
+            "sincere",
+            "blunt",
+            "genuine"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-reclusive",
+          "word": "reclusive",
+          "partOfSpeech": "adjective",
+          "definition": "Preferring to live alone and avoid other people or society.",
+          "example": "The reclusive author had not been photographed in over twenty years.",
+          "mnemonic": "Think 'closed' off, like a monk shut away in a cloister.",
+          "synonyms": [
+            "solitary",
+            "withdrawn",
+            "hermitic"
+          ],
+          "antonyms": [
+            "sociable",
+            "gregarious",
+            "outgoing"
+          ]
+        },
+        {
+          "id": "sat-disaffected",
+          "word": "disaffected",
+          "partOfSpeech": "adjective",
+          "definition": "No longer content with or loyal to an authority or organization.",
+          "example": "Disaffected voters stayed home rather than support either candidate.",
+          "mnemonic": "dis- (not) + affection — you have lost the affection you once felt.",
+          "synonyms": [
+            "discontented",
+            "alienated",
+            "disillusioned"
+          ],
+          "antonyms": [
+            "loyal",
+            "contented",
+            "devoted"
+          ]
+        },
+        {
+          "id": "sat-sectarian",
+          "word": "sectarian",
+          "partOfSpeech": "adjective",
+          "definition": "Rigidly loyal to one group or faction, often causing bitter division.",
+          "example": "Decades of sectarian conflict had split the city along religious lines.",
+          "mnemonic": "SECT + -arian — someone fiercely devoted to their own narrow sect.",
+          "synonyms": [
+            "factional",
+            "partisan",
+            "denominational"
+          ],
+          "antonyms": [
+            "broad-minded",
+            "tolerant",
+            "ecumenical"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-forsake",
+          "word": "forsake",
+          "partOfSpeech": "verb",
+          "definition": "To abandon or give up someone or something completely.",
+          "example": "He promised never to forsake his friends, no matter how rich he became.",
+          "mnemonic": "for + SAKE — you drop someone 'for the sake' of something else.",
+          "synonyms": [
+            "abandon",
+            "desert",
+            "renounce"
+          ],
+          "antonyms": [
+            "support",
+            "keep",
+            "maintain"
+          ]
+        },
+        {
+          "id": "sat-inclusive",
+          "word": "inclusive",
+          "partOfSpeech": "adjective",
+          "definition": "Open to and welcoming of everyone, leaving no one out.",
+          "example": "The club rewrote its rules to be more inclusive of newcomers.",
+          "mnemonic": "in + -clude (to shut) — everyone is shut IN, nobody left outside.",
+          "synonyms": [
+            "welcoming",
+            "comprehensive",
+            "all-embracing"
+          ],
+          "antonyms": [
+            "exclusive",
+            "restrictive",
+            "narrow"
+          ]
+        },
+        {
+          "id": "sat-congenial",
+          "word": "congenial",
+          "partOfSpeech": "adjective",
+          "definition": "Pleasant and agreeable, especially because of a similar temperament.",
+          "example": "The two strangers found each other congenial company and talked for hours.",
+          "mnemonic": "con (with) + genial (friendly) — friendly and well-matched together.",
+          "synonyms": [
+            "agreeable",
+            "friendly",
+            "compatible"
+          ],
+          "antonyms": [
+            "disagreeable",
+            "unpleasant",
+            "incompatible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-spurn",
+          "word": "spurn",
+          "partOfSpeech": "verb",
+          "definition": "To reject someone or something with scorn or contempt.",
+          "example": "She spurned his apology and walked away without a single word.",
+          "mnemonic": "Sounds like 'spur' — you kick it away with your boot spur.",
+          "synonyms": [
+            "reject",
+            "rebuff",
+            "scorn"
+          ],
+          "antonyms": [
+            "accept",
+            "welcome",
+            "embrace"
+          ]
+        },
+        {
+          "id": "sat-shun",
+          "word": "shun",
+          "partOfSpeech": "verb",
+          "definition": "To deliberately avoid or keep away from someone or something.",
+          "example": "After the scandal broke, the whole town began to shun him.",
+          "mnemonic": "Sounds like 'shoo' — you shoo away whatever you want to avoid.",
+          "synonyms": [
+            "avoid",
+            "ostracize",
+            "evade"
+          ],
+          "antonyms": [
+            "welcome",
+            "embrace",
+            "accept"
+          ]
+        },
+        {
+          "id": "sat-gravitate",
+          "word": "gravitate",
+          "partOfSpeech": "verb",
+          "definition": "To be drawn steadily toward a particular person, place, or thing.",
+          "example": "At parties he always gravitates toward the quietest corner of the room.",
+          "mnemonic": "Root is 'gravity' — you are pulled toward it as if by an unseen force.",
+          "synonyms": [
+            "drift",
+            "incline",
+            "tend"
+          ],
+          "antonyms": [
+            "avoid",
+            "repel",
+            "recoil"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-migratory",
+          "word": "migratory",
+          "partOfSpeech": "adjective",
+          "definition": "Regularly traveling between different regions, usually depending on the changing seasons.",
+          "example": "The lake fills with migratory geese every autumn, then falls silent once they head south.",
+          "mnemonic": "Latin root migr- means 'to move'; picture a migr-atory flock moving across the sky each season.",
+          "synonyms": [
+            "roaming",
+            "nomadic",
+            "wandering"
+          ],
+          "antonyms": [
+            "settled",
+            "sedentary",
+            "resident"
+          ]
+        },
+        {
+          "id": "sat-emigrate",
+          "word": "emigrate",
+          "partOfSpeech": "verb",
+          "definition": "To permanently leave your own country in order to live somewhere else.",
+          "example": "Facing no work at home, her grandparents chose to emigrate and start over across the ocean.",
+          "mnemonic": "E = Exit: to Emigrate is to Exit your homeland (while immigrate means moving in).",
+          "synonyms": [
+            "relocate",
+            "depart",
+            "resettle"
+          ],
+          "antonyms": [
+            "immigrate",
+            "stay",
+            "remain"
+          ]
+        },
+        {
+          "id": "sat-temperament",
+          "word": "temperament",
+          "partOfSpeech": "noun",
+          "definition": "A person's usual mood and the natural way they tend to feel and react.",
+          "example": "The puppy had such a gentle temperament that even nervous toddlers relaxed around it.",
+          "mnemonic": "'Temper' hides inside it — your everyday temper is a window into your whole temperament.",
+          "synonyms": [
+            "nature",
+            "disposition",
+            "makeup"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "sat-disposition",
+          "word": "disposition",
+          "partOfSpeech": "noun",
+          "definition": "The inherent qualities of mind and character that shape how someone typically behaves.",
+          "example": "His sunny disposition meant he greeted even the rainiest Monday with a grin.",
+          "mnemonic": "Dis-POSITION: think of how your character is 'positioned' by default before anything happens.",
+          "synonyms": [
+            "temperament",
+            "nature",
+            "character"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-stoic",
+          "word": "stoic",
+          "partOfSpeech": "adjective",
+          "definition": "Enduring pain or hardship calmly, without complaining or showing any feeling.",
+          "example": "Even as the doctor set the broken bone, the old sailor stayed stoic and barely blinked.",
+          "mnemonic": "Sounds like 'stone-ic' — stone-faced and unmoved no matter what hits you.",
+          "synonyms": [
+            "impassive",
+            "unflinching",
+            "composed"
+          ],
+          "antonyms": [
+            "emotional",
+            "excitable",
+            "demonstrative"
+          ]
+        },
+        {
+          "id": "sat-rootless",
+          "word": "rootless",
+          "partOfSpeech": "adjective",
+          "definition": "Having no settled home or lasting ties to any place or community.",
+          "example": "After a decade of drifting from city to city, she felt rootless and longed to finally belong somewhere.",
+          "mnemonic": "Root + less: a plant with no roots drifts loose, just like a person with nowhere to hold on.",
+          "synonyms": [
+            "unsettled",
+            "adrift",
+            "nomadic"
+          ],
+          "antonyms": [
+            "grounded",
+            "settled",
+            "established"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T21:22:09.588Z"
+}

@@ -15,12 +15,21 @@ Read in this order. Each document assumes the ones above it.
 | [MOBILE.md](./MOBILE.md) | Android and iOS: layout, platform work, store submission |
 | [THEMES.md](./THEMES.md) | The palette system, four new themes, and the contrast test that keeps ten of them legible |
 | [WORD-ORDER.md](./WORD-ORDER.md) | Authored / alphabetical / random — and where a presentation preference must not override the scheduler |
+| [TRACKS.md](./TRACKS.md) | GRE and SAT as separate vocabularies in one app — what is per-track, and what is not |
+| [SCHEDULE.md](./SCHEDULE.md) | Start date, the ordinal-to-calendar mapping, reshuffling, and the migration that must not lose progress |
+| [FLASHCARD-INTERACTION.md](./FLASHCARD-INTERACTION.md) | Edge arrows, swipe and keyboard — three routes to the same two actions |
+| [TABLET.md](./TABLET.md) | iPad and tablet layout: the rail, two-column content, and the sizes it is verified at |
 | [adr/](./adr/) | Decision records — the *why*, kept short, one per decision |
 
 **Start with [ADR 0007](./adr/0007-authentication-strategy.md)** if you are
 touching anything AI-related: it supersedes ADR 0002, which was wrong, and it
 sets the boundary between what the app may and may not do with a user's
 existing accounts and tools.
+
+Tracks are a v1.1 concern and sit below the v1.0 documents above: read
+[ADR 0011](./adr/0011-tracks.md), [0012](./adr/0012-ordinal-content.md) and
+[0013](./adr/0013-cross-track-overlap.md) before TRACKS.md or SCHEDULE.md —
+they decide the data model those two describe.
 
 The phased plan that sequences all of this is [`../ROADMAP.md`](../ROADMAP.md).
 Conventions and the day-to-day handoff are in

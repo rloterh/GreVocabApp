@@ -1,0 +1,1688 @@
+{
+  "track": "gre",
+  "ordinal": 13,
+  "title": "Power and submission",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-despot",
+          "word": "despot",
+          "partOfSpeech": "noun",
+          "definition": "A ruler who holds absolute power and often wields it cruelly or unfairly.",
+          "example": "The despot jailed anyone who dared to criticize a single one of his decrees.",
+          "mnemonic": "Sounds like 'the spot' — a despot puts every rival on the spot, then removes them.",
+          "synonyms": [
+            "tyrant",
+            "autocrat",
+            "dictator"
+          ],
+          "antonyms": [
+            "democrat",
+            "servant"
+          ]
+        },
+        {
+          "id": "gre-tyrant",
+          "word": "tyrant",
+          "partOfSpeech": "noun",
+          "definition": "A cruel, oppressive ruler who governs harshly and ignores the rights of others.",
+          "example": "Under the tyrant, families whispered indoors, terrified their words would reach his spies.",
+          "mnemonic": "'TYRE-ant' — picture a giant ant that flattens everyone beneath it like a rolling tire.",
+          "synonyms": [
+            "despot",
+            "oppressor",
+            "autocrat"
+          ],
+          "antonyms": [
+            "liberator",
+            "democrat"
+          ]
+        },
+        {
+          "id": "gre-autocrat",
+          "word": "autocrat",
+          "partOfSpeech": "noun",
+          "definition": "One person who governs a country with unlimited authority and no checks or restraints.",
+          "example": "The autocrat abolished parliament and began making every state decision entirely alone.",
+          "mnemonic": "'auto' (self) + 'crat' (rule) = self-rule; an 'automatic' ruler who runs everything himself.",
+          "synonyms": [
+            "despot",
+            "dictator",
+            "tyrant"
+          ],
+          "antonyms": [
+            "democrat"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-potentate",
+          "word": "potentate",
+          "partOfSpeech": "noun",
+          "definition": "A powerful monarch or leader who commands wide authority over a realm or people.",
+          "example": "Robed in gold, the potentate received tribute from a dozen conquered provinces.",
+          "mnemonic": "'potent' + '-ate' — a potentate is a potent leader brimming with power.",
+          "synonyms": [
+            "monarch",
+            "sovereign",
+            "ruler"
+          ],
+          "antonyms": [
+            "subject",
+            "commoner"
+          ]
+        },
+        {
+          "id": "gre-despotic",
+          "word": "despotic",
+          "partOfSpeech": "adjective",
+          "definition": "Ruling in a harsh, controlling way that permits no freedom or dissent.",
+          "example": "His despotic management meant no employee dared question even a trivial order.",
+          "mnemonic": "'de-SPOT-ic' — think of a boss who spots your every move and controls it.",
+          "synonyms": [
+            "tyrannical",
+            "autocratic",
+            "oppressive"
+          ],
+          "antonyms": [
+            "democratic",
+            "lenient"
+          ]
+        },
+        {
+          "id": "gre-autocratic",
+          "word": "autocratic",
+          "partOfSpeech": "adjective",
+          "definition": "Taking every decision alone and demanding obedience without consulting anyone else.",
+          "example": "The autocratic coach benched any player who offered even a mild suggestion.",
+          "mnemonic": "'auto' = self; such a leader acts on 'automatic,' never asking others first.",
+          "synonyms": [
+            "dictatorial",
+            "domineering",
+            "tyrannical"
+          ],
+          "antonyms": [
+            "democratic",
+            "collaborative"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-tyrannical",
+          "word": "tyrannical",
+          "partOfSpeech": "adjective",
+          "definition": "Using power in a cruel, unjust, and heavily controlling manner over others.",
+          "example": "Her tyrannical stepmother assigned endless chores and forbade even a moment of rest.",
+          "mnemonic": "'TYRE-annical' — imagine tires rolling cruelly over anyone who gets in the way.",
+          "synonyms": [
+            "despotic",
+            "oppressive",
+            "domineering"
+          ],
+          "antonyms": [
+            "lenient",
+            "gentle"
+          ]
+        },
+        {
+          "id": "gre-domineering",
+          "word": "domineering",
+          "partOfSpeech": "adjective",
+          "definition": "Constantly bossing other people and insisting on always getting your own way.",
+          "example": "His domineering mother chose his clothes, his friends, and even his career.",
+          "mnemonic": "'domi-NEER-ing' — picture someone leaning ('nearing') over you, ruling your whole domain.",
+          "synonyms": [
+            "overbearing",
+            "controlling",
+            "bossy"
+          ],
+          "antonyms": [
+            "submissive",
+            "meek"
+          ]
+        },
+        {
+          "id": "gre-overbearing",
+          "word": "overbearing",
+          "partOfSpeech": "adjective",
+          "definition": "Forcing your opinions on others in a pushy, arrogant, and unpleasant way.",
+          "example": "The overbearing host wouldn't let a single guest refuse a third helping of food.",
+          "mnemonic": "'over-bearing' — imagine a heavy bear leaning over you, its weight impossible to escape.",
+          "synonyms": [
+            "domineering",
+            "pushy",
+            "arrogant"
+          ],
+          "antonyms": [
+            "meek",
+            "unassuming"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-authoritarian",
+          "word": "authoritarian",
+          "partOfSpeech": "adjective",
+          "definition": "Demanding strict, total obedience and allowing people very little personal freedom.",
+          "example": "The authoritarian regime banned all protests and censored every newspaper in the country.",
+          "mnemonic": "Spot 'author' inside it — one who insists on being the sole 'author' of every rule you follow.",
+          "synonyms": [
+            "dictatorial",
+            "autocratic",
+            "repressive"
+          ],
+          "antonyms": [
+            "democratic",
+            "liberal",
+            "permissive"
+          ]
+        },
+        {
+          "id": "gre-dictatorial",
+          "word": "dictatorial",
+          "partOfSpeech": "adjective",
+          "definition": "Bossing everyone through absolute power and tolerating no disagreement whatsoever.",
+          "example": "The dictatorial director rewrote the entire script and ignored the writers' protests.",
+          "mnemonic": "Hear 'dictate' — such a person dictates orders that everyone is forced to obey.",
+          "synonyms": [
+            "autocratic",
+            "tyrannical",
+            "domineering"
+          ],
+          "antonyms": [
+            "democratic",
+            "egalitarian"
+          ]
+        },
+        {
+          "id": "gre-hegemonic",
+          "word": "hegemonic",
+          "partOfSpeech": "adjective",
+          "definition": "Holding leading power or influence over other groups, states, or ideas.",
+          "example": "For decades one hegemonic superpower dictated the terms of global trade.",
+          "mnemonic": "'he-GEM-onic' — picture a nation clutching a giant gem that gives it power over all rivals.",
+          "synonyms": [
+            "dominant",
+            "predominant",
+            "controlling"
+          ],
+          "antonyms": [
+            "subordinate",
+            "marginal"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-dominion",
+          "word": "dominion",
+          "partOfSpeech": "noun",
+          "definition": "Supreme power to govern, or the territory held under one ruler's control.",
+          "example": "The empire's dominion stretched from the icy north to the desert south.",
+          "mnemonic": "From Latin 'dominus' (lord) — a dominion is the domain where the lord holds sway.",
+          "synonyms": [
+            "sovereignty",
+            "realm",
+            "control"
+          ],
+          "antonyms": [
+            "subjection",
+            "servitude"
+          ]
+        },
+        {
+          "id": "gre-sovereignty",
+          "word": "sovereignty",
+          "partOfSpeech": "noun",
+          "definition": "A nation's supreme power to govern itself, free from any outside control.",
+          "example": "After the long war, the small country finally regained its sovereignty.",
+          "mnemonic": "Hidden 'reign' — it is the reign a people hold over their own land.",
+          "synonyms": [
+            "autonomy",
+            "independence",
+            "self-rule"
+          ],
+          "antonyms": [
+            "subjugation",
+            "dependence"
+          ]
+        },
+        {
+          "id": "gre-sovereign",
+          "word": "sovereign",
+          "partOfSpeech": "adjective",
+          "definition": "Having supreme, independent power and answering to no higher authority.",
+          "example": "Each sovereign nation sets its own laws without seeking permission from its neighbors.",
+          "mnemonic": "'sovereign' hides 'reign' — a sovereign state reigns supreme over itself.",
+          "synonyms": [
+            "supreme",
+            "autonomous",
+            "independent"
+          ],
+          "antonyms": [
+            "subordinate",
+            "dependent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-suzerainty",
+          "word": "suzerainty",
+          "partOfSpeech": "noun",
+          "definition": "The relationship in which a dominant nation controls a weaker one's external affairs while allowing local self-rule.",
+          "example": "Under the empire's suzerainty, the small kingdom ran its own villages but could sign no treaties alone.",
+          "mnemonic": "Sounds like 'sooze-rain-tee' — picture a superior power making authority 'rain' down over lands it doesn't fully own; from French 'sus' = above.",
+          "synonyms": [
+            "overlordship",
+            "dominion",
+            "hegemony"
+          ],
+          "antonyms": [
+            "independence",
+            "autonomy",
+            "sovereignty"
+          ]
+        },
+        {
+          "id": "gre-thrall",
+          "word": "thrall",
+          "partOfSpeech": "noun",
+          "definition": "The condition of being completely under another's power, or a person held in bondage.",
+          "example": "Held in thrall by the cult leader, she obeyed his every command without question.",
+          "mnemonic": "Thrall lives inside 'enthrall' — being so captivated that you are effectively held captive; Old Norse 'þræll' meant slave.",
+          "synonyms": [
+            "bondage",
+            "servitude",
+            "captivity"
+          ],
+          "antonyms": [
+            "freedom",
+            "liberty",
+            "emancipation"
+          ]
+        },
+        {
+          "id": "gre-vassal",
+          "word": "vassal",
+          "partOfSpeech": "noun",
+          "definition": "A feudal tenant who received land from a lord in exchange for allegiance and military service.",
+          "example": "The vassal knelt before his lord, pledging his sword in return for the manor he had been granted.",
+          "mnemonic": "Vassal sounds like 'vessel' — a vessel that holds a lord's land and carries out his will.",
+          "synonyms": [
+            "liege",
+            "subject",
+            "retainer"
+          ],
+          "antonyms": [
+            "lord",
+            "sovereign",
+            "overlord"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-serf",
+          "word": "serf",
+          "partOfSpeech": "noun",
+          "definition": "A farm laborer bound to a manor and its owner during the feudal era.",
+          "example": "The serf could not leave the estate; he tilled the same fields his father had worked.",
+          "mnemonic": "Serf sounds like 'serve' — a worker tied to the soil he must forever serve.",
+          "synonyms": [
+            "peasant",
+            "bondsman",
+            "villein"
+          ],
+          "antonyms": [
+            "freeman",
+            "master",
+            "landlord"
+          ]
+        },
+        {
+          "id": "gre-subjugate",
+          "word": "subjugate",
+          "partOfSpeech": "verb",
+          "definition": "To conquer a people or group and force them into obedience.",
+          "example": "The general vowed to subjugate the rebellious province and crush any resistance.",
+          "mnemonic": "Sub + jugum (Latin 'yoke') — to put someone 'under the yoke,' like an ox forced to plow.",
+          "synonyms": [
+            "conquer",
+            "subdue",
+            "vanquish"
+          ],
+          "antonyms": [
+            "liberate",
+            "free",
+            "emancipate"
+          ]
+        },
+        {
+          "id": "gre-enslave",
+          "word": "enslave",
+          "partOfSpeech": "verb",
+          "definition": "To force a person into bondage and total loss of freedom.",
+          "example": "Colonizers sought to enslave the native population, forcing them to labor without pay or rights.",
+          "mnemonic": "The prefix 'en-' means 'to make' — picture chains snapping onto someone the instant the word begins.",
+          "synonyms": [
+            "subjugate",
+            "shackle",
+            "bind"
+          ],
+          "antonyms": [
+            "free",
+            "liberate",
+            "emancipate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-oppress",
+          "word": "oppress",
+          "partOfSpeech": "verb",
+          "definition": "To keep people down through cruel and unjust use of power.",
+          "example": "The regime used censorship and secret police to oppress anyone who dared to speak out.",
+          "mnemonic": "Op- + press (Latin 'opprimere,' to press against) — to press down hard on people until they can't rise.",
+          "synonyms": [
+            "persecute",
+            "subjugate",
+            "crush"
+          ],
+          "antonyms": [
+            "liberate",
+            "free",
+            "uplift"
+          ]
+        },
+        {
+          "id": "gre-oppressive",
+          "word": "oppressive",
+          "partOfSpeech": "adjective",
+          "definition": "Harshly controlling and unjust, or so heavy that it weighs one down.",
+          "example": "Life under the oppressive dictatorship left citizens afraid to gather or even whisper complaints.",
+          "mnemonic": "Think 'op-press' — anything that presses down on you, whether a cruel ruler or a stifling summer day.",
+          "synonyms": [
+            "tyrannical",
+            "harsh",
+            "stifling"
+          ],
+          "antonyms": [
+            "gentle",
+            "liberating",
+            "lenient"
+          ]
+        },
+        {
+          "id": "gre-tyrannize",
+          "word": "tyrannize",
+          "partOfSpeech": "verb",
+          "definition": "To rule over or treat others with cruel, unchecked harshness.",
+          "example": "The older boys tyrannized the younger students, taking their lunch money and mocking them daily.",
+          "mnemonic": "Hear 'tyranno-' as in Tyrannosaurus — picture a T-Rex stomping on everyone below it.",
+          "synonyms": [
+            "oppress",
+            "bully",
+            "dominate"
+          ],
+          "antonyms": [
+            "liberate",
+            "protect",
+            "serve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-tyranny",
+          "word": "tyranny",
+          "partOfSpeech": "noun",
+          "definition": "Cruel, unjust government by a single ruler who holds absolute power.",
+          "example": "The revolution was fought to end centuries of tyranny under kings who answered to no one.",
+          "mnemonic": "'Tyranno-' like the T-Rex — one giant beast ruling by fear and teeth.",
+          "synonyms": [
+            "despotism",
+            "oppression",
+            "dictatorship"
+          ],
+          "antonyms": [
+            "democracy",
+            "freedom",
+            "liberty"
+          ]
+        },
+        {
+          "id": "gre-coerce",
+          "word": "coerce",
+          "partOfSpeech": "verb",
+          "definition": "To force a person into acting by using threats, pressure, or intimidation.",
+          "example": "They tried to coerce the witness into silence by threatening her family.",
+          "mnemonic": "Sounds like 'co-force' — forcing someone along with you against their will; Latin 'coercere' = to restrain.",
+          "synonyms": [
+            "force",
+            "pressure",
+            "compel"
+          ],
+          "antonyms": [
+            "persuade",
+            "coax",
+            "allow"
+          ]
+        },
+        {
+          "id": "gre-coercion",
+          "word": "coercion",
+          "partOfSpeech": "noun",
+          "definition": "The act of forcing someone to comply by using threats or intimidation.",
+          "example": "The confession was thrown out because it was obtained through coercion, not free choice.",
+          "mnemonic": "Hear 'co-force-ion' — the noun for applying force to bend someone's will.",
+          "synonyms": [
+            "force",
+            "duress",
+            "intimidation"
+          ],
+          "antonyms": [
+            "persuasion",
+            "consent",
+            "free will"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-compel",
+          "word": "compel",
+          "partOfSpeech": "verb",
+          "definition": "To drive or force someone to act, often by pressure or strong influence.",
+          "example": "A sense of duty compelled her to report the crime, even though she feared retaliation.",
+          "mnemonic": "Com- + 'pel' (Latin 'pellere,' to drive) — the same 'pel' as in propel and expel: to drive someone forward.",
+          "synonyms": [
+            "force",
+            "oblige",
+            "coerce"
+          ],
+          "antonyms": [
+            "permit",
+            "allow",
+            "dissuade"
+          ]
+        },
+        {
+          "id": "gre-constrain",
+          "word": "constrain",
+          "partOfSpeech": "verb",
+          "definition": "To hold back or limit what someone is able to do.",
+          "example": "Tight budgets constrained the team, forcing them to cut features they had promised.",
+          "mnemonic": "Con- + 'strain' — picture a tight strap or strain that binds you and holds you back; Latin 'stringere' = to bind tight.",
+          "synonyms": [
+            "restrict",
+            "confine",
+            "limit"
+          ],
+          "antonyms": [
+            "free",
+            "release",
+            "liberate"
+          ]
+        },
+        {
+          "id": "gre-dominate",
+          "word": "dominate",
+          "partOfSpeech": "verb",
+          "definition": "To hold power over others or be the most powerful force in a situation.",
+          "example": "The champion dominated every match, winning so easily her opponents seemed barely present.",
+          "mnemonic": "From Latin 'dominus' (lord/master) — the same root as 'dome' towering above everything below it.",
+          "synonyms": [
+            "control",
+            "rule",
+            "command"
+          ],
+          "antonyms": [
+            "submit",
+            "yield",
+            "serve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-dominance",
+          "word": "dominance",
+          "partOfSpeech": "noun",
+          "definition": "The state of having controlling power or influence over others.",
+          "example": "The lion asserted its dominance over the pride by defeating every challenger.",
+          "mnemonic": "Sounds like 'dominoes' — the piece that stays standing knocks all the others flat.",
+          "synonyms": [
+            "supremacy",
+            "ascendancy",
+            "control"
+          ],
+          "antonyms": [
+            "submission",
+            "subordination",
+            "inferiority"
+          ]
+        },
+        {
+          "id": "gre-subordinate",
+          "word": "subordinate",
+          "partOfSpeech": "adjective",
+          "definition": "Ranked below another in importance, power, or authority.",
+          "example": "As a subordinate, she reported to three managers who all outranked her.",
+          "mnemonic": "'sub-' (under) + 'ordinate' (order) — placed under others in the pecking order.",
+          "synonyms": [
+            "inferior",
+            "junior",
+            "lesser"
+          ],
+          "antonyms": [
+            "superior",
+            "senior",
+            "dominant"
+          ]
+        },
+        {
+          "id": "gre-subservient",
+          "word": "subservient",
+          "partOfSpeech": "adjective",
+          "definition": "Overly eager to obey and serve someone, often to an embarrassing degree.",
+          "example": "The waiter's subservient bowing and scraping made the guests squirm.",
+          "mnemonic": "'sub-' (under) + 'serve' — you stand under someone, endlessly serving them.",
+          "synonyms": [
+            "servile",
+            "obsequious",
+            "deferential"
+          ],
+          "antonyms": [
+            "domineering",
+            "bossy",
+            "overbearing"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-submissive",
+          "word": "submissive",
+          "partOfSpeech": "adjective",
+          "definition": "Tending to yield meekly to the control or authority of others.",
+          "example": "The new recruit stayed submissive, never once questioning an order.",
+          "mnemonic": "'sub-' (under) + 'missive' (sent) — you send yourself under another's command.",
+          "synonyms": [
+            "yielding",
+            "docile",
+            "acquiescent"
+          ],
+          "antonyms": [
+            "defiant",
+            "rebellious",
+            "assertive"
+          ]
+        },
+        {
+          "id": "gre-compliant",
+          "word": "compliant",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to go along with rules, requests, or the wishes of others.",
+          "example": "The compliant employee signed every form without a single protest.",
+          "mnemonic": "Picture a 'comply-ant' — an ant that always complies with the colony.",
+          "synonyms": [
+            "agreeable",
+            "acquiescent",
+            "amenable"
+          ],
+          "antonyms": [
+            "defiant",
+            "resistant",
+            "obstinate"
+          ]
+        },
+        {
+          "id": "gre-obedient",
+          "word": "obedient",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to follow orders and do what one is told.",
+          "example": "The obedient dog sat the instant its owner raised a hand.",
+          "mnemonic": "From Latin 'audire' (to hear) — you hear the command and heed it.",
+          "synonyms": [
+            "dutiful",
+            "well-behaved",
+            "tractable"
+          ],
+          "antonyms": [
+            "disobedient",
+            "unruly",
+            "rebellious"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-meek",
+          "word": "meek",
+          "partOfSpeech": "adjective",
+          "definition": "Quiet, gentle, and unwilling to argue or assert oneself.",
+          "example": "Too meek to complain, he ate the cold soup in silence.",
+          "mnemonic": "Rhymes with 'weak' — too weak-willed to ever push back.",
+          "synonyms": [
+            "timid",
+            "unassuming",
+            "docile"
+          ],
+          "antonyms": [
+            "assertive",
+            "bold",
+            "domineering"
+          ]
+        },
+        {
+          "id": "gre-biddable",
+          "word": "biddable",
+          "partOfSpeech": "adjective",
+          "definition": "Easily managed and willing to do whatever one is asked.",
+          "example": "The biddable intern rearranged the entire office without a word of complaint.",
+          "mnemonic": "From 'bid' — a biddable person does whatever you bid them do.",
+          "synonyms": [
+            "docile",
+            "tractable",
+            "manageable"
+          ],
+          "antonyms": [
+            "headstrong",
+            "willful",
+            "unruly"
+          ]
+        },
+        {
+          "id": "gre-pliant",
+          "word": "pliant",
+          "partOfSpeech": "adjective",
+          "definition": "Easily bent physically, or readily influenced and shaped by others.",
+          "example": "The pliant willow branch curved in the wind without ever snapping.",
+          "mnemonic": "From Latin 'plicare' (to fold) — like 'ply', it folds without breaking.",
+          "synonyms": [
+            "supple",
+            "flexible",
+            "malleable"
+          ],
+          "antonyms": [
+            "rigid",
+            "stiff",
+            "inflexible"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-pliable",
+          "word": "pliable",
+          "partOfSpeech": "adjective",
+          "definition": "Flexible enough to bend with ease, or readily persuaded to change.",
+          "example": "The pliable copper wire twisted neatly around the fence post.",
+          "mnemonic": "'pli-' (fold) + '-able' — quite literally able to be folded.",
+          "synonyms": [
+            "bendable",
+            "supple",
+            "malleable"
+          ],
+          "antonyms": [
+            "brittle",
+            "rigid",
+            "unyielding"
+          ]
+        },
+        {
+          "id": "gre-supine",
+          "word": "supine",
+          "partOfSpeech": "adjective",
+          "definition": "Lying flat on one's back, or passively failing to take action.",
+          "example": "He lay supine on the grass, gazing up at the drifting clouds.",
+          "mnemonic": "Hides 'up' and 'spine' — face up, spine flat against the ground.",
+          "synonyms": [
+            "recumbent",
+            "reclining",
+            "passive"
+          ],
+          "antonyms": [
+            "prone",
+            "upright",
+            "active"
+          ]
+        },
+        {
+          "id": "gre-prostrate",
+          "word": "prostrate",
+          "partOfSpeech": "adjective",
+          "definition": "Lying stretched out face-down, often in submission, grief, or exhaustion.",
+          "example": "The pilgrims fell prostrate before the altar, foreheads pressed to the stone.",
+          "mnemonic": "'pro-' (forward) + '-strate' (stretched) — stretched forward flat on the earth.",
+          "synonyms": [
+            "prone",
+            "facedown",
+            "flat"
+          ],
+          "antonyms": [
+            "upright",
+            "standing",
+            "erect"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-abject",
+          "word": "abject",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely hopeless, wretched, or degrading, often to a humiliating degree.",
+          "example": "They lived in abject poverty, with barely a crust of bread to share.",
+          "mnemonic": "'ab-' (away) + '-ject' (thrown) — thrown away, cast down to the lowest state.",
+          "synonyms": [
+            "wretched",
+            "miserable",
+            "degrading"
+          ],
+          "antonyms": [
+            "dignified",
+            "exalted",
+            "comfortable"
+          ]
+        },
+        {
+          "id": "gre-cower",
+          "word": "cower",
+          "partOfSpeech": "verb",
+          "definition": "To crouch or shrink back in fear of something threatening.",
+          "example": "The puppy began to cower under the table at the first crack of thunder.",
+          "mnemonic": "Hides 'cow' — a scaredy-cow shrinking away and trembling.",
+          "synonyms": [
+            "cringe",
+            "flinch",
+            "quail"
+          ],
+          "antonyms": [
+            "confront",
+            "brave",
+            "stand firm"
+          ]
+        },
+        {
+          "id": "gre-cringe",
+          "word": "cringe",
+          "partOfSpeech": "verb",
+          "definition": "To recoil or wince in embarrassment, disgust, or fearful submission.",
+          "example": "She cringed as the singer hit yet another painfully flat note.",
+          "mnemonic": "Rhymes with 'hinge' — you fold inward at the hinge in discomfort.",
+          "synonyms": [
+            "wince",
+            "recoil",
+            "flinch"
+          ],
+          "antonyms": [
+            "confront",
+            "relish",
+            "stand tall"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-truckle",
+          "word": "truckle",
+          "partOfSpeech": "verb",
+          "definition": "To act submissively toward a more powerful person in order to gain favor.",
+          "example": "He would truckle to his boss, praising every idea no matter how foolish it was.",
+          "mnemonic": "Sounds like 'knuckle under' — you truckle when you knuckle under to someone stronger.",
+          "synonyms": [
+            "kowtow",
+            "grovel",
+            "fawn"
+          ],
+          "antonyms": [
+            "defy",
+            "resist"
+          ]
+        },
+        {
+          "id": "gre-defer",
+          "word": "defer",
+          "partOfSpeech": "verb",
+          "definition": "To give way to another person's wishes or judgment out of respect.",
+          "example": "On questions of law, I always defer to my attorney's greater experience.",
+          "mnemonic": "From Latin 'ferre' (to carry): you carry the decision over to someone you respect.",
+          "synonyms": [
+            "yield",
+            "submit",
+            "bow"
+          ],
+          "antonyms": [
+            "resist",
+            "dictate"
+          ]
+        },
+        {
+          "id": "gre-deference",
+          "word": "deference",
+          "partOfSpeech": "noun",
+          "definition": "Polite respect that leads you to accept another's wishes or judgment.",
+          "example": "Out of deference to the elderly guests, the band kept the volume low all evening.",
+          "mnemonic": "The '-ence' noun of defer: the quiet state of giving way to someone.",
+          "synonyms": [
+            "respect",
+            "regard",
+            "submission"
+          ],
+          "antonyms": [
+            "disrespect",
+            "defiance"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-succumb",
+          "word": "succumb",
+          "partOfSpeech": "verb",
+          "definition": "To stop resisting something overpowering and give in to it.",
+          "example": "After hours of staring at the pastries, she finally succumbed and bought a dozen.",
+          "mnemonic": "Latin sub + cumbere, 'to lie down under' — you lie down under the pressure.",
+          "synonyms": [
+            "surrender",
+            "capitulate",
+            "cave"
+          ],
+          "antonyms": [
+            "resist",
+            "overcome"
+          ]
+        },
+        {
+          "id": "gre-yield",
+          "word": "yield",
+          "partOfSpeech": "verb",
+          "definition": "To give way to pressure, force, or persuasion.",
+          "example": "The rusty gate finally yielded when he threw his full weight against it.",
+          "mnemonic": "A red 'YIELD' road sign tells you to give way to oncoming traffic.",
+          "synonyms": [
+            "surrender",
+            "submit",
+            "relent"
+          ],
+          "antonyms": [
+            "resist",
+            "withstand"
+          ]
+        },
+        {
+          "id": "gre-throttle",
+          "word": "throttle",
+          "partOfSpeech": "verb",
+          "definition": "To choke someone by squeezing the throat, or to strangle an activity.",
+          "example": "Enraged, he grabbed the pickpocket by the collar as if to throttle him.",
+          "mnemonic": "'Throttle' hides the word 'throat' — you grab the throat.",
+          "synonyms": [
+            "strangle",
+            "choke",
+            "constrict"
+          ],
+          "antonyms": [
+            "release",
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-muzzle",
+          "word": "muzzle",
+          "partOfSpeech": "verb",
+          "definition": "To prevent a person or animal from speaking or making noise.",
+          "example": "Critics accused the regime of muzzling the press with harsh new censorship laws.",
+          "mnemonic": "Picture the strap 'muzzle' over a dog's snout so it can't bark or bite.",
+          "synonyms": [
+            "silence",
+            "gag",
+            "censor"
+          ],
+          "antonyms": [
+            "free",
+            "unleash"
+          ]
+        },
+        {
+          "id": "gre-shackle",
+          "word": "shackle",
+          "partOfSpeech": "verb",
+          "definition": "To restrict someone's freedom, often with metal restraints on the limbs.",
+          "example": "The prisoners were shackled together as they shuffled toward the courtyard.",
+          "mnemonic": "Hear 'shake + ankle' — chains rattling and shaking around your ankles.",
+          "synonyms": [
+            "chain",
+            "fetter",
+            "bind"
+          ],
+          "antonyms": [
+            "free",
+            "liberate"
+          ]
+        },
+        {
+          "id": "gre-fetter",
+          "word": "fetter",
+          "partOfSpeech": "verb",
+          "definition": "To confine or restrain, especially by binding the feet with chains.",
+          "example": "Crushing debt fettered the young couple, keeping them from ever moving away.",
+          "mnemonic": "'Fetter' sounds like 'feet-er' — chains made for the feet.",
+          "synonyms": [
+            "shackle",
+            "chain",
+            "hamper"
+          ],
+          "antonyms": [
+            "free",
+            "release"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-manacle",
+          "word": "manacle",
+          "partOfSpeech": "verb",
+          "definition": "To confine a person's hands with metal rings joined by a chain.",
+          "example": "The guards manacled his wrists before leading him out of the holding cell.",
+          "mnemonic": "From Latin 'manus' (hand) — restraints made for the hands.",
+          "synonyms": [
+            "handcuff",
+            "shackle",
+            "chain"
+          ],
+          "antonyms": [
+            "free",
+            "unbind"
+          ]
+        },
+        {
+          "id": "gre-trammel",
+          "word": "trammel",
+          "partOfSpeech": "verb",
+          "definition": "To restrict or hinder someone's freedom of action or movement.",
+          "example": "She refused to let outdated rules trammel her ambition, breaking every convention that stood in her way.",
+          "mnemonic": "Sounds like 'tram' + 'shackle' — picture a tram car chained to its rails, unable to leave the tracks.",
+          "synonyms": [
+            "hamper",
+            "restrain",
+            "fetter"
+          ],
+          "antonyms": [
+            "free",
+            "liberate",
+            "release"
+          ]
+        },
+        {
+          "id": "gre-hamper",
+          "word": "hamper",
+          "partOfSpeech": "verb",
+          "definition": "To slow down or get in the way of someone's progress or effort.",
+          "example": "Heavy rain hampered the rescue team as they climbed the muddy slope.",
+          "mnemonic": "Imagine tripping over a picnic 'hamper' basket that slows your every step.",
+          "synonyms": [
+            "hinder",
+            "impede",
+            "obstruct"
+          ],
+          "antonyms": [
+            "assist",
+            "facilitate"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-curb",
+          "word": "curb",
+          "partOfSpeech": "verb",
+          "definition": "To limit, control, or reduce something so it stays within bounds.",
+          "example": "She learned to curb her spending after the credit card bill arrived.",
+          "mnemonic": "Sound-alike: the raised curb at the road's edge stops a car from rolling onto the sidewalk.",
+          "synonyms": [
+            "restrain",
+            "check",
+            "rein in"
+          ],
+          "antonyms": [
+            "encourage",
+            "unleash",
+            "indulge"
+          ]
+        },
+        {
+          "id": "gre-restrain",
+          "word": "restrain",
+          "partOfSpeech": "verb",
+          "definition": "To hold back or keep under control by force or self-discipline.",
+          "example": "Two officers had to restrain the man as he lunged toward the stage.",
+          "mnemonic": "Hear 're-strain': you strain against a leash to hold a bolting dog back.",
+          "synonyms": [
+            "curb",
+            "restrict",
+            "contain"
+          ],
+          "antonyms": [
+            "release",
+            "free",
+            "liberate"
+          ]
+        },
+        {
+          "id": "gre-bridle",
+          "word": "bridle",
+          "partOfSpeech": "verb",
+          "definition": "To bring under control, or to react with sudden anger and offense.",
+          "example": "He bridled at the suggestion that his work had been careless.",
+          "mnemonic": "A bridle is the head-harness that lets a rider rein a horse in — control it.",
+          "synonyms": [
+            "curb",
+            "check",
+            "restrain"
+          ],
+          "antonyms": [
+            "release",
+            "unleash",
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-harness",
+          "word": "harness",
+          "partOfSpeech": "verb",
+          "definition": "To bring a force or resource under control and put it to productive use.",
+          "example": "Engineers built the dam to harness the river's power for electricity.",
+          "mnemonic": "A harness straps a horse to a plow so its strength can be put to work.",
+          "synonyms": [
+            "channel",
+            "utilize",
+            "employ"
+          ],
+          "antonyms": [
+            "waste",
+            "squander",
+            "release"
+          ]
+        },
+        {
+          "id": "gre-cow",
+          "word": "cow",
+          "partOfSpeech": "noun",
+          "definition": "A large farm animal kept for its milk or meat, female of cattle.",
+          "example": "The farmer rose at dawn to milk the cow before the pails were needed.",
+          "mnemonic": "Sounds like the 'COW' it says — 'moo' from a mouth shaped like a round 'cow' O.",
+          "synonyms": [
+            "heifer",
+            "bovine",
+            "cattle"
+          ],
+          "antonyms": [
+            "bull",
+            "ox"
+          ]
+        },
+        {
+          "id": "gre-browbeat",
+          "word": "browbeat",
+          "partOfSpeech": "verb",
+          "definition": "To pressure or frighten someone using harsh, domineering language.",
+          "example": "The lawyer tried to browbeat the witness into changing her testimony.",
+          "mnemonic": "Brow + beat: someone furrows their brow and beats you down with words.",
+          "synonyms": [
+            "bully",
+            "badger",
+            "coerce"
+          ],
+          "antonyms": [
+            "coax",
+            "encourage",
+            "persuade"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-bully",
+          "word": "bully",
+          "partOfSpeech": "verb",
+          "definition": "To hurt, threaten, or coerce someone perceived as weaker.",
+          "example": "The older kids bullied him until he handed over his lunch money.",
+          "mnemonic": "Think of a 'bull' charging at smaller animals — throwing its weight around.",
+          "synonyms": [
+            "intimidate",
+            "harass",
+            "torment"
+          ],
+          "antonyms": [
+            "protect",
+            "defend",
+            "support"
+          ]
+        },
+        {
+          "id": "gre-intimidate",
+          "word": "intimidate",
+          "partOfSpeech": "verb",
+          "definition": "To fill someone with fear in order to influence their behavior.",
+          "example": "The towering bodyguard intimidated anyone who came near the door.",
+          "mnemonic": "It hides the word 'timid' — you make the other person timid.",
+          "synonyms": [
+            "frighten",
+            "daunt",
+            "cow"
+          ],
+          "antonyms": [
+            "reassure",
+            "embolden",
+            "encourage"
+          ]
+        },
+        {
+          "id": "gre-hector",
+          "word": "hector",
+          "partOfSpeech": "verb",
+          "definition": "To torment or nag someone with blustering, aggressive talk.",
+          "example": "He hectored the waiter over every tiny mistake on the bill.",
+          "mnemonic": "Named for Hector, the Trojan warrior who loudly taunted his enemies before battle.",
+          "synonyms": [
+            "badger",
+            "harass",
+            "bully"
+          ],
+          "antonyms": [
+            "coax",
+            "encourage",
+            "soothe"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-dragoon",
+          "word": "dragoon",
+          "partOfSpeech": "verb",
+          "definition": "To force someone into action through coercion or pressure.",
+          "example": "She was dragooned into organizing the entire office party.",
+          "mnemonic": "Dragoons were armed cavalry who forced civilians to obey at gunpoint.",
+          "synonyms": [
+            "coerce",
+            "compel",
+            "force"
+          ],
+          "antonyms": [
+            "persuade",
+            "coax",
+            "entice"
+          ]
+        },
+        {
+          "id": "gre-commandeer",
+          "word": "commandeer",
+          "partOfSpeech": "verb",
+          "definition": "To seize property forcibly, often for military or official use.",
+          "example": "The soldiers commandeered every truck in the village overnight.",
+          "mnemonic": "A 'commander' who takes whatever he wants: command-eer.",
+          "synonyms": [
+            "seize",
+            "appropriate",
+            "requisition"
+          ],
+          "antonyms": [
+            "relinquish",
+            "return",
+            "surrender"
+          ]
+        },
+        {
+          "id": "gre-usurp",
+          "word": "usurp",
+          "partOfSpeech": "verb",
+          "definition": "To seize power, a position, or a right without legal authority.",
+          "example": "The general usurped the throne while the king lay ill.",
+          "mnemonic": "'You-slurp' up power that was never yours to take.",
+          "synonyms": [
+            "seize",
+            "appropriate",
+            "commandeer"
+          ],
+          "antonyms": [
+            "relinquish",
+            "cede",
+            "surrender"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-wield",
+          "word": "wield",
+          "partOfSpeech": "verb",
+          "definition": "To hold and use a weapon, tool, or influence with skill.",
+          "example": "The blacksmith wielded his heavy hammer with practiced ease.",
+          "mnemonic": "Rhymes with 'field': a warrior on the field wields a sword.",
+          "synonyms": [
+            "brandish",
+            "handle",
+            "exert"
+          ],
+          "antonyms": [
+            "drop",
+            "relinquish",
+            "release"
+          ]
+        },
+        {
+          "id": "gre-brandish",
+          "word": "brandish",
+          "partOfSpeech": "verb",
+          "definition": "To wave or display something, especially a weapon, in a threatening way.",
+          "example": "He brandished a knife and demanded the money from the register.",
+          "mnemonic": "'Brand' + flourish: waving a burning brand (torch) around your head.",
+          "synonyms": [
+            "flourish",
+            "wave",
+            "wield"
+          ],
+          "antonyms": [
+            "sheathe",
+            "conceal",
+            "holster"
+          ]
+        },
+        {
+          "id": "gre-prevail",
+          "word": "prevail",
+          "partOfSpeech": "verb",
+          "definition": "To prove stronger and win out in the end, or to be widespread.",
+          "example": "After years in court, justice finally prevailed for the family.",
+          "mnemonic": "Hidden 'avail': your effort avails, so you come out on top.",
+          "synonyms": [
+            "triumph",
+            "succeed",
+            "predominate"
+          ],
+          "antonyms": [
+            "lose",
+            "fail",
+            "succumb"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-preeminent",
+          "word": "preeminent",
+          "partOfSpeech": "adjective",
+          "definition": "Standing above all others in a field through outstanding quality or importance.",
+          "example": "For decades she was the preeminent cardiac surgeon in the country, sought out even by heads of state.",
+          "mnemonic": "Break it down: pre- ('before') + eminent — someone ranked even ahead of the merely eminent.",
+          "synonyms": [
+            "foremost",
+            "leading",
+            "unrivaled"
+          ],
+          "antonyms": [
+            "minor",
+            "inferior",
+            "obscure"
+          ]
+        },
+        {
+          "id": "gre-paramount",
+          "word": "paramount",
+          "partOfSpeech": "adjective",
+          "definition": "More important than anything else; ranking above every other concern.",
+          "example": "In the operating room, patient safety is paramount, overriding both cost and convenience.",
+          "mnemonic": "'Para-mount' — pictured as sitting above the mountain; nothing else rises higher.",
+          "synonyms": [
+            "primary",
+            "chief",
+            "overriding"
+          ],
+          "antonyms": [
+            "secondary",
+            "trivial",
+            "minor"
+          ]
+        },
+        {
+          "id": "gre-supreme",
+          "word": "supreme",
+          "partOfSpeech": "adjective",
+          "definition": "Highest in authority, rank, power, or degree; above all others.",
+          "example": "The Supreme Court's ruling ended the dispute, since no higher body could overturn it.",
+          "mnemonic": "A 'supreme' pizza has everything piled on top — supreme means topmost.",
+          "synonyms": [
+            "highest",
+            "ultimate",
+            "paramount"
+          ],
+          "antonyms": [
+            "lowest",
+            "subordinate",
+            "inferior"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-supremacy",
+          "word": "supremacy",
+          "partOfSpeech": "noun",
+          "definition": "The condition of holding the greatest power, authority, or status.",
+          "example": "Naval supremacy let the empire control every major trade route in the region.",
+          "mnemonic": "Add -acy ('state of') to 'supreme' — the state of being on top.",
+          "synonyms": [
+            "dominance",
+            "ascendancy",
+            "primacy"
+          ],
+          "antonyms": [
+            "subordination",
+            "inferiority",
+            "subservience"
+          ]
+        },
+        {
+          "id": "gre-ascendant",
+          "word": "ascendant",
+          "partOfSpeech": "adjective",
+          "definition": "Rising toward greater power, popularity, or influence.",
+          "example": "With the old guard fading, the young reformers were clearly ascendant within the party.",
+          "mnemonic": "'Ascend' + -ant — one that is climbing upward, like a rising star.",
+          "synonyms": [
+            "rising",
+            "prevailing",
+            "dominant"
+          ],
+          "antonyms": [
+            "declining",
+            "waning",
+            "falling"
+          ]
+        },
+        {
+          "id": "gre-ascendancy",
+          "word": "ascendancy",
+          "partOfSpeech": "noun",
+          "definition": "A position of dominant control or governing influence over others.",
+          "example": "After the merger, the founders lost their ascendancy to the incoming board.",
+          "mnemonic": "You ascend to the top, then hold the -ancy — the state of ruling from up there.",
+          "synonyms": [
+            "dominance",
+            "supremacy",
+            "control"
+          ],
+          "antonyms": [
+            "subordination",
+            "subservience",
+            "weakness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "words": [
+        {
+          "id": "gre-predominant",
+          "word": "predominant",
+          "partOfSpeech": "adjective",
+          "definition": "Most frequent, noticeable, or powerful within a group or setting.",
+          "example": "Pine is the predominant tree here, crowding out nearly every other species.",
+          "mnemonic": "Pre- + 'dominate' — it dominates the scene before anything else even shows up.",
+          "synonyms": [
+            "prevailing",
+            "main",
+            "chief"
+          ],
+          "antonyms": [
+            "minor",
+            "subordinate",
+            "rare"
+          ]
+        },
+        {
+          "id": "gre-primacy",
+          "word": "primacy",
+          "partOfSpeech": "noun",
+          "definition": "The fact of being first in order, rank, or significance.",
+          "example": "Medieval scholars endlessly debated the primacy of faith over reason.",
+          "mnemonic": "The root 'prim-' means first (as in 'primary') — being number one.",
+          "synonyms": [
+            "preeminence",
+            "precedence",
+            "supremacy"
+          ],
+          "antonyms": [
+            "inferiority",
+            "subordination",
+            "insignificance"
+          ]
+        },
+        {
+          "id": "gre-hierarchy",
+          "word": "hierarchy",
+          "partOfSpeech": "noun",
+          "definition": "A system in which people or things are ranked in graded levels of status.",
+          "example": "In the corporate hierarchy, every intern reported upward through five layers of managers.",
+          "mnemonic": "'Hier-' (sacred) + '-archy' (rule): originally the ranked orders of angels, now any ranked layers.",
+          "synonyms": [
+            "ranking",
+            "pecking order",
+            "chain of command"
+          ],
+          "antonyms": [
+            "equality",
+            "egalitarianism"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "words": [
+        {
+          "id": "gre-echelon",
+          "word": "echelon",
+          "partOfSpeech": "noun",
+          "definition": "A particular level of authority or status within an organized group.",
+          "example": "She climbed into the upper echelon of the firm within just five years.",
+          "mnemonic": "French for 'rung of a ladder' — say 'ash-uh-lon' and picture each rung as a level.",
+          "synonyms": [
+            "level",
+            "tier",
+            "rank"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-draconian",
+          "word": "draconian",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely harsh, cruel, or severe, especially regarding rules or punishment.",
+          "example": "The draconian curfew jailed anyone caught outdoors after eight o'clock.",
+          "mnemonic": "Named for Draco, the ancient Athenian lawmaker whose penalties were brutally severe.",
+          "synonyms": [
+            "harsh",
+            "severe",
+            "punitive"
+          ],
+          "antonyms": [
+            "lenient",
+            "mild",
+            "merciful"
+          ]
+        },
+        {
+          "id": "gre-autonomy",
+          "word": "autonomy",
+          "partOfSpeech": "noun",
+          "definition": "The right or ability to govern oneself and make one's own decisions.",
+          "example": "The region was granted autonomy, running its own schools, courts, and budget.",
+          "mnemonic": "'Auto-' (self) + '-nomy' (rule/law) — making your own laws.",
+          "synonyms": [
+            "independence",
+            "self-rule",
+            "freedom"
+          ],
+          "antonyms": [
+            "dependence",
+            "subjugation",
+            "control"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "words": [
+        {
+          "id": "gre-autonomous",
+          "word": "autonomous",
+          "partOfSpeech": "adjective",
+          "definition": "Acting or existing independently, without outside control.",
+          "example": "The autonomous rover navigated the crater with no commands from Earth.",
+          "mnemonic": "'Auto-' (self) + '-nomous' (governed) — a self-driving car is autonomous.",
+          "synonyms": [
+            "independent",
+            "self-governing",
+            "self-directed"
+          ],
+          "antonyms": [
+            "dependent",
+            "controlled",
+            "subordinate"
+          ]
+        },
+        {
+          "id": "gre-fealty",
+          "word": "fealty",
+          "partOfSpeech": "noun",
+          "definition": "Formal, sworn loyalty and duty owed to a superior or a cause.",
+          "example": "The knight knelt before the throne and swore fealty to his new king.",
+          "mnemonic": "Sounds like 'fee' + 'loyalty' — a vassal paid his fee and pledged loyalty.",
+          "synonyms": [
+            "allegiance",
+            "loyalty",
+            "homage"
+          ],
+          "antonyms": [
+            "treachery",
+            "disloyalty",
+            "betrayal"
+          ]
+        },
+        {
+          "id": "gre-obeisance",
+          "word": "obeisance",
+          "partOfSpeech": "noun",
+          "definition": "A gesture or attitude of deep respect and submission toward someone.",
+          "example": "The courtiers made deep obeisance as the emperor swept past them.",
+          "mnemonic": "Hear 'obey' hidden inside obeisance — you bow to those you obey.",
+          "synonyms": [
+            "deference",
+            "homage",
+            "reverence"
+          ],
+          "antonyms": [
+            "defiance",
+            "disrespect",
+            "contempt"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Core high-frequency",
+  "createdAt": "2026-09-12T07:44:55.729Z"
+}

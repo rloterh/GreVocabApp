@@ -1,0 +1,1190 @@
+{
+  "track": "sat",
+  "ordinal": 34,
+  "title": "Justice and fairness",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "sat-equitable",
+          "word": "equitable",
+          "partOfSpeech": "adjective",
+          "definition": "Treating everyone in a way that is fair and just to all.",
+          "example": "The mediator proposed an equitable split of the inheritance so neither sibling felt cheated.",
+          "mnemonic": "Sounds like 'equal' + 'able' — able to keep things equal for everyone.",
+          "synonyms": [
+            "fair",
+            "just",
+            "impartial"
+          ],
+          "antonyms": [
+            "unfair",
+            "biased",
+            "one-sided"
+          ]
+        },
+        {
+          "id": "sat-partiality",
+          "word": "partiality",
+          "partOfSpeech": "noun",
+          "definition": "An unfair tendency to favor one person or side over another.",
+          "example": "The referee's obvious partiality toward the home team infuriated the visiting fans.",
+          "mnemonic": "You take only a 'part' of the truth — you take a side.",
+          "synonyms": [
+            "bias",
+            "favoritism",
+            "prejudice"
+          ],
+          "antonyms": [
+            "fairness",
+            "impartiality",
+            "objectivity"
+          ]
+        },
+        {
+          "id": "sat-restitution",
+          "word": "restitution",
+          "partOfSpeech": "noun",
+          "definition": "Payment or return of something to make up for loss or damage caused.",
+          "example": "The court ordered the thief to pay restitution to every family he had robbed.",
+          "mnemonic": "RE-STITUTION — you re-institute, put back, whatever you took.",
+          "synonyms": [
+            "compensation",
+            "repayment",
+            "redress"
+          ],
+          "antonyms": [
+            "damage",
+            "seizure",
+            "confiscation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "sat-retribution",
+          "word": "retribution",
+          "partOfSpeech": "noun",
+          "definition": "Punishment inflicted on someone as deserved payback for a wrong.",
+          "example": "Fearing retribution from his old boss, the whistleblower asked to stay anonymous.",
+          "mnemonic": "RE-TRIBUTION — a 'tribute' paid back in pain for a crime.",
+          "synonyms": [
+            "revenge",
+            "vengeance",
+            "reckoning"
+          ],
+          "antonyms": [
+            "forgiveness",
+            "mercy",
+            "pardon"
+          ]
+        },
+        {
+          "id": "sat-arraign",
+          "word": "arraign",
+          "partOfSpeech": "verb",
+          "definition": "To bring someone before a court to answer a criminal charge.",
+          "example": "The suspect was arraigned on Monday and entered a plea of not guilty.",
+          "mnemonic": "Sounds like 'a reign' — the law's reign summons you to stand and answer.",
+          "synonyms": [
+            "charge",
+            "indict",
+            "accuse"
+          ],
+          "antonyms": [
+            "acquit",
+            "exonerate",
+            "discharge"
+          ]
+        },
+        {
+          "id": "sat-litigate",
+          "word": "litigate",
+          "partOfSpeech": "verb",
+          "definition": "To carry a dispute through the courts as a lawsuit.",
+          "example": "Rather than settle, the company chose to litigate the patent claim for years.",
+          "mnemonic": "LITI-gate — open the 'gate' to court and fight it out.",
+          "synonyms": [
+            "sue",
+            "prosecute",
+            "contest"
+          ],
+          "antonyms": [
+            "settle",
+            "reconcile",
+            "compromise"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "sat-punitive",
+          "word": "punitive",
+          "partOfSpeech": "adjective",
+          "definition": "Meant to make someone suffer a penalty for a wrong.",
+          "example": "The league imposed a punitive fine far larger than the damage warranted.",
+          "mnemonic": "Think 'punitive' → a 'punch' delivered as a penalty.",
+          "synonyms": [
+            "penalizing",
+            "retaliatory",
+            "disciplinary"
+          ],
+          "antonyms": [
+            "rewarding",
+            "lenient",
+            "remedial"
+          ]
+        },
+        {
+          "id": "sat-lenient",
+          "word": "lenient",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to be gentle and forgiving rather than harsh in punishment.",
+          "example": "The judge was surprisingly lenient, giving the first-time offender only community service.",
+          "mnemonic": "LENIENT sounds like 'lean' — a lean, light penalty that goes easy on you.",
+          "synonyms": [
+            "merciful",
+            "tolerant",
+            "easygoing"
+          ],
+          "antonyms": [
+            "strict",
+            "harsh",
+            "severe"
+          ]
+        },
+        {
+          "id": "sat-clemency",
+          "word": "clemency",
+          "partOfSpeech": "noun",
+          "definition": "Mercy or kindness shown by someone with the power to punish.",
+          "example": "The governor granted clemency, sparing the prisoner from execution.",
+          "mnemonic": "Picture a calm, 'clement' (mild) sky — a mild response instead of a storm of punishment.",
+          "synonyms": [
+            "mercy",
+            "leniency",
+            "compassion"
+          ],
+          "antonyms": [
+            "cruelty",
+            "severity",
+            "harshness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "sat-pardon",
+          "word": "pardon",
+          "partOfSpeech": "noun",
+          "definition": "An official act releasing a person from punishment for a crime.",
+          "example": "After new evidence emerged, the president issued a full pardon to the convicted man.",
+          "mnemonic": "PAR-DON — the 'don' (boss) declares you 'par', even again, slate wiped.",
+          "synonyms": [
+            "reprieve",
+            "absolution",
+            "forgiveness"
+          ],
+          "antonyms": [
+            "punishment",
+            "condemnation",
+            "penalty"
+          ]
+        },
+        {
+          "id": "sat-amnesty",
+          "word": "amnesty",
+          "partOfSpeech": "noun",
+          "definition": "An official promise to forgive a group for past offenses.",
+          "example": "The new government offered amnesty to rebels who surrendered their weapons.",
+          "mnemonic": "Shares 'amne-' with 'amnesia' — the state chooses to forget your offense.",
+          "synonyms": [
+            "reprieve",
+            "immunity",
+            "absolution"
+          ],
+          "antonyms": [
+            "punishment",
+            "retribution",
+            "prosecution"
+          ]
+        },
+        {
+          "id": "sat-extenuate",
+          "word": "extenuate",
+          "partOfSpeech": "verb",
+          "definition": "To make an offense appear less serious by offering partial excuses.",
+          "example": "Her youth and genuine fear that night may extenuate what she did.",
+          "mnemonic": "EX-TENU-ate — like 'tenuous' (thin); you thin out the blame.",
+          "synonyms": [
+            "mitigate",
+            "diminish",
+            "excuse"
+          ],
+          "antonyms": [
+            "aggravate",
+            "worsen",
+            "intensify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "sat-palliate",
+          "word": "palliate",
+          "partOfSpeech": "verb",
+          "definition": "To ease the severity of something without removing its underlying cause.",
+          "example": "The medicine could only palliate his symptoms, never stop the disease itself.",
+          "mnemonic": "A 'pall' (cloak) laid over pain to cover it, not cure it.",
+          "synonyms": [
+            "alleviate",
+            "ease",
+            "mitigate"
+          ],
+          "antonyms": [
+            "aggravate",
+            "intensify",
+            "worsen"
+          ]
+        },
+        {
+          "id": "sat-draconian",
+          "word": "draconian",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely severe and cruel, especially regarding rules or penalties.",
+          "example": "The school's draconian phone rule meant confiscation for a single glance at a screen.",
+          "mnemonic": "Named for Draco, the Greek lawmaker whose code punished trivial crimes with death.",
+          "synonyms": [
+            "harsh",
+            "oppressive",
+            "severe"
+          ],
+          "antonyms": [
+            "lenient",
+            "mild",
+            "gentle"
+          ]
+        },
+        {
+          "id": "sat-nepotism",
+          "word": "nepotism",
+          "partOfSpeech": "noun",
+          "definition": "The practice of giving jobs or favors to one's own relatives.",
+          "example": "Critics cried nepotism when the CEO named his inexperienced nephew as director.",
+          "mnemonic": "From Latin 'nepos' (nephew) — hiring your nephew over better candidates.",
+          "synonyms": [
+            "favoritism",
+            "cronyism",
+            "patronage"
+          ],
+          "antonyms": [
+            "meritocracy",
+            "fairness",
+            "impartiality"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "sat-cronyism",
+          "word": "cronyism",
+          "partOfSpeech": "noun",
+          "definition": "The unfair practice of giving jobs and favors to close friends rather than qualified people.",
+          "example": "After the mayor hired three college buddies as deputies, critics denounced the blatant cronyism at city hall.",
+          "mnemonic": "A CRONY is a longtime pal — cronyism is when your pals quietly get all the perks.",
+          "synonyms": [
+            "favoritism",
+            "nepotism",
+            "patronage"
+          ],
+          "antonyms": [
+            "meritocracy",
+            "impartiality"
+          ]
+        },
+        {
+          "id": "sat-venal",
+          "word": "venal",
+          "partOfSpeech": "adjective",
+          "definition": "Willing to do dishonest things in exchange for money.",
+          "example": "The venal inspector waved the unsafe truck through the moment he spotted the envelope of cash.",
+          "mnemonic": "Sounds like VEND — a venal person is for sale, like a vending machine that dispenses favors for coins.",
+          "synonyms": [
+            "corrupt",
+            "bribable",
+            "mercenary"
+          ],
+          "antonyms": [
+            "honest",
+            "incorruptible",
+            "principled"
+          ]
+        },
+        {
+          "id": "sat-extort",
+          "word": "extort",
+          "partOfSpeech": "verb",
+          "definition": "To obtain money or something by using threats or pressure.",
+          "example": "The gang tried to extort the shopkeeper, demanding weekly payments to keep his windows unbroken.",
+          "mnemonic": "ex- + TORT (a wrong, a twist) — you twist someone's arm to squeeze the money out.",
+          "synonyms": [
+            "blackmail",
+            "coerce",
+            "wring"
+          ],
+          "antonyms": [
+            "donate",
+            "give"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "sat-persecute",
+          "word": "persecute",
+          "partOfSpeech": "verb",
+          "definition": "To harass or oppress someone cruelly, often for their beliefs or identity.",
+          "example": "The regime began to persecute anyone who practiced the banned religion, jailing worshippers without trial.",
+          "mnemonic": "per- (thoroughly) + SECUTE (pursue, as in 'prosecute') — to relentlessly pursue someone in order to harm them.",
+          "synonyms": [
+            "oppress",
+            "harass",
+            "torment"
+          ],
+          "antonyms": [
+            "protect",
+            "support",
+            "defend"
+          ]
+        },
+        {
+          "id": "sat-victimize",
+          "word": "victimize",
+          "partOfSpeech": "verb",
+          "definition": "To single someone out for unfair or harmful treatment.",
+          "example": "Older residents were victimized by scammers who emptied their savings through fake phone calls.",
+          "mnemonic": "victim + -ize — literally 'to turn a person into a victim.'",
+          "synonyms": [
+            "exploit",
+            "prey on",
+            "target"
+          ],
+          "antonyms": [
+            "protect",
+            "aid",
+            "shield"
+          ]
+        },
+        {
+          "id": "sat-grievance",
+          "word": "grievance",
+          "partOfSpeech": "noun",
+          "definition": "A complaint about unfair treatment, or the resentment such treatment causes.",
+          "example": "The workers filed a formal grievance after being denied the overtime pay their contract promised.",
+          "mnemonic": "From GRIEVE — a grievance is a sore point that grieves you until you speak up about it.",
+          "synonyms": [
+            "complaint",
+            "gripe",
+            "injustice"
+          ],
+          "antonyms": [
+            "contentment",
+            "satisfaction"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "sat-allegation",
+          "word": "allegation",
+          "partOfSpeech": "noun",
+          "definition": "An unproven claim that someone has done something wrong.",
+          "example": "The newspaper printed the allegation that the senator took bribes, though no evidence was ever shown.",
+          "mnemonic": "Say it as 'a-LEDGE-ation' — a claim so shaky you can't yet stand on the ledge of it.",
+          "synonyms": [
+            "accusation",
+            "claim",
+            "charge"
+          ],
+          "antonyms": [
+            "proof",
+            "fact"
+          ]
+        },
+        {
+          "id": "sat-verdict",
+          "word": "verdict",
+          "partOfSpeech": "noun",
+          "definition": "The official decision reached at the end of a trial.",
+          "example": "After three days of deliberation, the jury delivered its verdict: not guilty on all counts.",
+          "mnemonic": "VER (Latin 'verus', truth) + DICT (to say) — a verdict is 'the truth spoken' aloud.",
+          "synonyms": [
+            "judgment",
+            "ruling",
+            "decision"
+          ],
+          "antonyms": [
+            "accusation"
+          ]
+        },
+        {
+          "id": "sat-acquittal",
+          "word": "acquittal",
+          "partOfSpeech": "noun",
+          "definition": "A court's decision that a person is not guilty of a crime.",
+          "example": "The defendant wept with relief at her acquittal and walked out of the courtroom a free woman.",
+          "mnemonic": "Hear 'a-QUIT-al' — the court lets you QUIT the charges and go free.",
+          "synonyms": [
+            "exoneration",
+            "absolution"
+          ],
+          "antonyms": [
+            "conviction",
+            "condemnation"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "sat-tribunal",
+          "word": "tribunal",
+          "partOfSpeech": "noun",
+          "definition": "A special court or panel set up to settle certain disputes or cases.",
+          "example": "The war crimes tribunal heard testimony from survivors before sentencing the former general.",
+          "mnemonic": "From the Roman TRIBUNE — the raised platform where officials sat to judge the people.",
+          "synonyms": [
+            "court",
+            "panel",
+            "bench"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "sat-judiciary",
+          "word": "judiciary",
+          "partOfSpeech": "noun",
+          "definition": "The branch of government responsible for interpreting laws and settling legal disputes.",
+          "example": "An independent judiciary lets courts rule fairly without pressure from politicians.",
+          "mnemonic": "Spot JUDGE hiding inside it — the judiciary is the whole system where judges work.",
+          "synonyms": [
+            "courts",
+            "bench",
+            "magistracy"
+          ],
+          "antonyms": [
+            "legislature",
+            "executive"
+          ]
+        },
+        {
+          "id": "sat-repeal",
+          "word": "repeal",
+          "partOfSpeech": "verb",
+          "definition": "To officially cancel or withdraw a law.",
+          "example": "Lawmakers voted to repeal the outdated curfew, so it no longer applies to anyone.",
+          "mnemonic": "RE- + PEEL — to peel a law back off the books after it was stuck on.",
+          "synonyms": [
+            "revoke",
+            "rescind",
+            "cancel"
+          ],
+          "antonyms": [
+            "enact",
+            "pass",
+            "establish"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "sat-abrogate",
+          "word": "abrogate",
+          "partOfSpeech": "verb",
+          "definition": "To formally do away with a law, treaty, or agreement.",
+          "example": "The new leader threatened to abrogate the peace treaty his predecessor had signed.",
+          "mnemonic": "ab- (away) + rogate (propose, as in 'interrogate') — to officially propose a deal away.",
+          "synonyms": [
+            "revoke",
+            "abolish",
+            "repeal"
+          ],
+          "antonyms": [
+            "establish",
+            "uphold",
+            "ratify"
+          ]
+        },
+        {
+          "id": "sat-annul",
+          "word": "annul",
+          "partOfSpeech": "verb",
+          "definition": "To declare officially that something no longer has legal force.",
+          "example": "The couple asked a judge to annul their marriage after learning it was never legally valid.",
+          "mnemonic": "Hear 'a-NULL' — to reduce something to NULL, to zero, as if it never existed.",
+          "synonyms": [
+            "invalidate",
+            "void",
+            "cancel"
+          ],
+          "antonyms": [
+            "validate",
+            "uphold",
+            "ratify"
+          ]
+        },
+        {
+          "id": "sat-nullify",
+          "word": "nullify",
+          "partOfSpeech": "verb",
+          "definition": "To make something lose its legal force or effect.",
+          "example": "A single missing signature was enough to nullify the entire contract.",
+          "mnemonic": "NULL + -ify — to make something null, turning it into nothing.",
+          "synonyms": [
+            "invalidate",
+            "negate",
+            "cancel"
+          ],
+          "antonyms": [
+            "validate",
+            "enforce",
+            "confirm"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "sat-revoke",
+          "word": "revoke",
+          "partOfSpeech": "verb",
+          "definition": "To officially cancel the validity of something previously granted.",
+          "example": "After three speeding tickets, the court moved to revoke her driver's license.",
+          "mnemonic": "re- (back) + -voke (to call, as in 'invoke') — you call back what you once gave.",
+          "synonyms": [
+            "repeal",
+            "rescind",
+            "annul"
+          ],
+          "antonyms": [
+            "grant",
+            "authorize",
+            "reinstate"
+          ]
+        },
+        {
+          "id": "sat-overrule",
+          "word": "overrule",
+          "partOfSpeech": "verb",
+          "definition": "To reject a lower decision by exercising greater authority.",
+          "example": "The judge overruled the objection and let the witness answer the question.",
+          "mnemonic": "'over' + 'rule' — a higher power rules OVER the smaller decision and cancels it.",
+          "synonyms": [
+            "override",
+            "reverse",
+            "veto"
+          ],
+          "antonyms": [
+            "uphold",
+            "allow",
+            "sustain"
+          ]
+        },
+        {
+          "id": "sat-recuse",
+          "word": "recuse",
+          "partOfSpeech": "verb",
+          "definition": "To remove oneself from a matter because of a conflict of interest.",
+          "example": "The judge chose to recuse himself because the defendant was his own cousin.",
+          "mnemonic": "Sounds like 'excuse' — you politely excuse yourself and step out of the room.",
+          "synonyms": [
+            "withdraw",
+            "disqualify",
+            "step aside"
+          ],
+          "antonyms": [
+            "participate",
+            "preside",
+            "remain"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "sat-principled",
+          "word": "principled",
+          "partOfSpeech": "adjective",
+          "definition": "Guided by strong moral standards and clear ethical beliefs.",
+          "example": "A principled reporter, she refused the bribe even though no one would ever have known.",
+          "mnemonic": "Someone built on firm inner rules — their conduct always traces back to those rules.",
+          "synonyms": [
+            "ethical",
+            "honorable",
+            "upright"
+          ],
+          "antonyms": [
+            "unscrupulous",
+            "corrupt",
+            "dishonest"
+          ]
+        },
+        {
+          "id": "sat-infraction",
+          "word": "infraction",
+          "partOfSpeech": "noun",
+          "definition": "A minor breaking of a rule or law.",
+          "example": "Parking on the yellow line is a small infraction, but it still earns a ticket.",
+          "mnemonic": "in-FRACT-ion — a FRACTURE in the rules; something small got broken.",
+          "synonyms": [
+            "violation",
+            "breach",
+            "offense"
+          ],
+          "antonyms": [
+            "compliance",
+            "observance",
+            "obedience"
+          ]
+        },
+        {
+          "id": "sat-malfeasance",
+          "word": "malfeasance",
+          "partOfSpeech": "noun",
+          "definition": "Wrongdoing or misconduct, especially by someone holding public office.",
+          "example": "The mayor was charged with malfeasance after quietly diverting city funds into his own account.",
+          "mnemonic": "MAL (bad) + feasance (a doing) — literally 'bad doing' by someone in power.",
+          "synonyms": [
+            "misconduct",
+            "wrongdoing",
+            "corruption"
+          ],
+          "antonyms": [
+            "integrity",
+            "honesty",
+            "rectitude"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "sat-iniquity",
+          "word": "iniquity",
+          "partOfSpeech": "noun",
+          "definition": "Grave injustice or profound wickedness.",
+          "example": "The prophet railed against the iniquity of a city that let its poor starve in the streets.",
+          "mnemonic": "in-EQUITY — the opposite of equity and fairness; a deep, unjust evil.",
+          "synonyms": [
+            "wickedness",
+            "sin",
+            "immorality"
+          ],
+          "antonyms": [
+            "virtue",
+            "righteousness",
+            "goodness"
+          ]
+        },
+        {
+          "id": "sat-depravity",
+          "word": "depravity",
+          "partOfSpeech": "noun",
+          "definition": "Moral corruption and a total absence of decency.",
+          "example": "The novel exposes the depravity of men who felt no shame at even the cruelest acts.",
+          "mnemonic": "Think 'deprave' — to strip away all goodness until only rot remains.",
+          "synonyms": [
+            "corruption",
+            "vice",
+            "degeneracy"
+          ],
+          "antonyms": [
+            "virtue",
+            "purity",
+            "morality"
+          ]
+        },
+        {
+          "id": "sat-turpitude",
+          "word": "turpitude",
+          "partOfSpeech": "noun",
+          "definition": "Extreme baseness or vileness of character.",
+          "example": "He was disbarred for moral turpitude after defrauding his elderly clients for years.",
+          "mnemonic": "TURP sounds like 'turd' — a truly foul, disgusting kind of character.",
+          "synonyms": [
+            "depravity",
+            "baseness",
+            "corruption"
+          ],
+          "antonyms": [
+            "virtue",
+            "honor",
+            "integrity"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "sat-reprehensible",
+          "word": "reprehensible",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving strong criticism or blame.",
+          "example": "Leaving the injured cyclist alone on the road was reprehensible.",
+          "mnemonic": "Related to 'apprehend' — behavior bad enough to be grabbed and called out.",
+          "synonyms": [
+            "blameworthy",
+            "disgraceful",
+            "deplorable"
+          ],
+          "antonyms": [
+            "praiseworthy",
+            "admirable",
+            "commendable"
+          ]
+        },
+        {
+          "id": "sat-heinous",
+          "word": "heinous",
+          "partOfSpeech": "adjective",
+          "definition": "Shockingly evil or utterly monstrous.",
+          "example": "The jury heard details of a crime so heinous that several members began to weep.",
+          "mnemonic": "Say it 'HEY-nus' — 'HEY! that's horrifying!' — a hateful, shocking act.",
+          "synonyms": [
+            "atrocious",
+            "monstrous",
+            "abominable"
+          ],
+          "antonyms": [
+            "admirable",
+            "benign",
+            "wonderful"
+          ]
+        },
+        {
+          "id": "sat-odious",
+          "word": "odious",
+          "partOfSpeech": "adjective",
+          "definition": "Extremely unpleasant and deserving of hatred.",
+          "example": "Ranking her two best friends was an odious task that left everyone resentful.",
+          "mnemonic": "Sounds like 'odor' — it stinks so badly that you can't help but hate it.",
+          "synonyms": [
+            "hateful",
+            "detestable",
+            "repugnant"
+          ],
+          "antonyms": [
+            "delightful",
+            "pleasant",
+            "lovable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "sat-despicable",
+          "word": "despicable",
+          "partOfSpeech": "adjective",
+          "definition": "Deserving contempt and utterly low in character.",
+          "example": "Stealing the donations meant for orphans was a despicable thing to do.",
+          "mnemonic": "Hear 'despise' inside it — something you look down on completely.",
+          "synonyms": [
+            "contemptible",
+            "vile",
+            "shameful"
+          ],
+          "antonyms": [
+            "admirable",
+            "honorable",
+            "noble"
+          ]
+        },
+        {
+          "id": "sat-vituperate",
+          "word": "vituperate",
+          "partOfSpeech": "verb",
+          "definition": "To attack someone with harsh, abusive language.",
+          "example": "The coach began to vituperate the referee, hurling insults until he was ejected.",
+          "mnemonic": "'viper' + 'utter' — you utter venomous, snake-like words at someone.",
+          "synonyms": [
+            "berate",
+            "revile",
+            "castigate"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "commend"
+          ]
+        },
+        {
+          "id": "sat-remonstrate",
+          "word": "remonstrate",
+          "partOfSpeech": "verb",
+          "definition": "To protest or argue forcefully against something one opposes.",
+          "example": "She remonstrated with the manager about the unfair firing of her coworker.",
+          "mnemonic": "Like 'demonstrate' against something — you visibly show your objection.",
+          "synonyms": [
+            "protest",
+            "object",
+            "expostulate"
+          ],
+          "antonyms": [
+            "agree",
+            "consent",
+            "acquiesce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "sat-exculpate",
+          "word": "exculpate",
+          "partOfSpeech": "verb",
+          "definition": "To prove that a person is free from blame or guilt for a wrongdoing.",
+          "example": "The new DNA evidence finally exculpated the man who had spent years in prison.",
+          "mnemonic": "ex- (out) + Latin culpa (fault): to take the fault OUT of someone.",
+          "synonyms": [
+            "absolve",
+            "acquit",
+            "vindicate"
+          ],
+          "antonyms": [
+            "incriminate",
+            "condemn",
+            "blame"
+          ]
+        },
+        {
+          "id": "sat-impunity",
+          "word": "impunity",
+          "partOfSpeech": "noun",
+          "definition": "Freedom from any punishment or harmful consequence for one's actions.",
+          "example": "The dictator's cronies looted the treasury with impunity, certain no court would touch them.",
+          "mnemonic": "im- (not) + 'pun' sounds like PUNish + -ity: the state of 'not being punished.'",
+          "synonyms": [
+            "immunity",
+            "exemption"
+          ],
+          "antonyms": [
+            "accountability",
+            "liability"
+          ]
+        },
+        {
+          "id": "sat-forbearance",
+          "word": "forbearance",
+          "partOfSpeech": "noun",
+          "definition": "Patient self-control and tolerance shown when one has been provoked or wronged.",
+          "example": "She handled the screaming customer with remarkable forbearance, never once raising her voice.",
+          "mnemonic": "for-BEAR-ance: picture a huge bear that chooses NOT to attack — holding back.",
+          "synonyms": [
+            "patience",
+            "restraint",
+            "tolerance"
+          ],
+          "antonyms": [
+            "impatience",
+            "intolerance",
+            "harshness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "sat-embezzle",
+          "word": "embezzle",
+          "partOfSpeech": "verb",
+          "definition": "To secretly steal money that an employer or organization trusted you to handle.",
+          "example": "The accountant embezzled thousands by quietly funneling company funds into a private account.",
+          "mnemonic": "Sounds like 'em-BEZEL': imagine a clerk prying jewels from a ring's bezel at work.",
+          "synonyms": [
+            "misappropriate",
+            "pilfer",
+            "defraud"
+          ],
+          "antonyms": [
+            "reimburse",
+            "repay"
+          ]
+        },
+        {
+          "id": "sat-suborn",
+          "word": "suborn",
+          "partOfSpeech": "verb",
+          "definition": "To bribe or secretly persuade someone to commit perjury or another unlawful act.",
+          "example": "The lawyer was disbarred for trying to suborn a witness into lying under oath.",
+          "mnemonic": "sub- (secretly, under) + 'orn' ~ ORDER: to secretly order someone to do wrong.",
+          "synonyms": [
+            "bribe",
+            "incite",
+            "instigate"
+          ],
+          "antonyms": [
+            "deter",
+            "dissuade"
+          ]
+        },
+        {
+          "id": "sat-exorbitant",
+          "word": "exorbitant",
+          "partOfSpeech": "adjective",
+          "definition": "Far greater in amount or price than is reasonable or fair.",
+          "example": "They charged an exorbitant fee for a single bottle of water at the airport.",
+          "mnemonic": "ex- + ORBIT: a price so high it has left Earth's orbit and shot into space.",
+          "synonyms": [
+            "excessive",
+            "extravagant",
+            "outrageous"
+          ],
+          "antonyms": [
+            "reasonable",
+            "modest",
+            "fair"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "sat-incorruptible",
+          "word": "incorruptible",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to bribe or morally degrade; firmly and unshakably honest.",
+          "example": "The incorruptible judge returned every gift and ruled strictly on the facts.",
+          "mnemonic": "in- (not) + corruptible: simply 'cannot be bought.'",
+          "synonyms": [
+            "honest",
+            "upright",
+            "principled"
+          ],
+          "antonyms": [
+            "venal",
+            "crooked",
+            "dishonest"
+          ]
+        },
+        {
+          "id": "sat-miscreant",
+          "word": "miscreant",
+          "partOfSpeech": "noun",
+          "definition": "A person who behaves wickedly or breaks the law.",
+          "example": "The shopkeeper chased the miscreant who had smashed the window and grabbed the till.",
+          "mnemonic": "mis- (bad) + 'creant' (believe, as in credence): originally a 'bad believer,' now a villain.",
+          "synonyms": [
+            "villain",
+            "scoundrel",
+            "wrongdoer"
+          ],
+          "antonyms": [
+            "hero",
+            "saint"
+          ]
+        },
+        {
+          "id": "sat-reprobate",
+          "word": "reprobate",
+          "partOfSpeech": "noun",
+          "definition": "A morally unprincipled person who feels no shame about bad behavior.",
+          "example": "The old reprobate spent his nights gambling and his mornings sleeping off the wine.",
+          "mnemonic": "re- + 'probate' ~ PROVE: someone who fails the moral test — stamped 'not approved.'",
+          "synonyms": [
+            "degenerate",
+            "rogue",
+            "scoundrel"
+          ],
+          "antonyms": [
+            "saint",
+            "paragon"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "sat-chicanery",
+          "word": "chicanery",
+          "partOfSpeech": "noun",
+          "definition": "The use of clever tricks and deception to cheat or mislead someone.",
+          "example": "The contract was full of legal chicanery designed to trap customers in hidden fees.",
+          "mnemonic": "Sounds like 'chic canary': a slick little bird singing sweet lies to trick you.",
+          "synonyms": [
+            "trickery",
+            "deception",
+            "subterfuge"
+          ],
+          "antonyms": [
+            "honesty",
+            "candor"
+          ]
+        },
+        {
+          "id": "sat-invidious",
+          "word": "invidious",
+          "partOfSpeech": "adjective",
+          "definition": "Likely to provoke resentment or ill will because it seems unfair.",
+          "example": "Ranking the children publicly put the teacher in an invidious position with the parents.",
+          "mnemonic": "From Latin invidia = ENVY; hear 'envi-' inside it — something that stirs envy and resentment.",
+          "synonyms": [
+            "discriminatory",
+            "resentful",
+            "offensive"
+          ],
+          "antonyms": [
+            "fair",
+            "agreeable",
+            "pleasing"
+          ]
+        },
+        {
+          "id": "sat-despotic",
+          "word": "despotic",
+          "partOfSpeech": "adjective",
+          "definition": "Ruling with absolute power in a cruel, oppressive manner.",
+          "example": "Under the despotic general, citizens could be jailed merely for criticizing a poster.",
+          "mnemonic": "'Despot' ~ 'the spot': a ruler who puts you ON THE SPOT with total, crushing power.",
+          "synonyms": [
+            "tyrannical",
+            "authoritarian",
+            "autocratic"
+          ],
+          "antonyms": [
+            "democratic",
+            "lenient",
+            "egalitarian"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "sat-injustice",
+          "word": "injustice",
+          "partOfSpeech": "noun",
+          "definition": "An act or situation that is unfair and violates people's rights.",
+          "example": "Being fired for reporting the fraud struck everyone as a glaring injustice.",
+          "mnemonic": "in- (not) + justice: literally the absence of what is right and fair.",
+          "synonyms": [
+            "unfairness",
+            "inequity",
+            "wrong"
+          ],
+          "antonyms": [
+            "justice",
+            "fairness",
+            "equity"
+          ]
+        },
+        {
+          "id": "sat-prosecute",
+          "word": "prosecute",
+          "partOfSpeech": "verb",
+          "definition": "To bring a person to court and formally accuse them of a crime.",
+          "example": "The state decided to prosecute the driver for leaving the scene of the accident.",
+          "mnemonic": "pro- (forward) + 'secute' (Latin sequi, to follow): to pursue someone forward through the courts.",
+          "synonyms": [
+            "indict",
+            "charge",
+            "try"
+          ],
+          "antonyms": [
+            "defend",
+            "acquit",
+            "pardon"
+          ]
+        },
+        {
+          "id": "sat-culprit",
+          "word": "culprit",
+          "partOfSpeech": "noun",
+          "definition": "The person guilty of a crime or responsible for causing a problem.",
+          "example": "After weeks of mysterious leaks, a cracked valve turned out to be the culprit.",
+          "mnemonic": "Hear 'culp' (Latin culpa = fault) inside it: the one at fault.",
+          "synonyms": [
+            "offender",
+            "wrongdoer",
+            "perpetrator"
+          ],
+          "antonyms": [
+            "victim"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "sat-righteous",
+          "word": "righteous",
+          "partOfSpeech": "adjective",
+          "definition": "Acting in a morally correct way, or justified by a strong sense of fairness.",
+          "example": "She felt a righteous anger when she saw the bully stealing lunch money from the younger kids.",
+          "mnemonic": "Sounds like \"right\" + \"-eous\" — someone who always does what is RIGHT.",
+          "synonyms": [
+            "virtuous",
+            "upright",
+            "moral"
+          ],
+          "antonyms": [
+            "wicked",
+            "sinful",
+            "corrupt"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Advanced literary and scientific",
+  "createdAt": "2026-09-12T22:25:36.152Z"
+}

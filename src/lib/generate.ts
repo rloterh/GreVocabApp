@@ -13,7 +13,8 @@
  */
 
 import type { VocabMonth, VocabWord } from "@/types";
-import { formatMonthKey, slugify } from "@/lib/date-utils";
+import { slugify } from "@/lib/date-utils";
+import { parseMonthKey, wordId } from "@/lib/track";
 import type { Provider } from "@/lib/ai/types";
 
 /** Default words per day, matching the seed data. */
@@ -153,8 +154,8 @@ export async function generateMonth(
   if (!Number.isInteger(wordCount) || wordCount < 1 || wordCount > 90) {
     throw new Error("Word count must be between 1 and 90.");
   }
-  if (!/^\d{4}-\d{2}$/.test(monthKey)) {
-    throw new Error("Month must look like 2026-07.");
+  if (!parseMonthKey(monthKey)) {
+    throw new Error("Month must look like gre/07.");
   }
 
   const words = await provider.completeStructured<RawWord[]>({
@@ -205,6 +206,8 @@ export function toMonth(
   monthKey: string,
   topic: string,
 ): VocabMonth {
+  const target = parseMonthKey(monthKey);
+  if (!target) throw new Error(`Not a month key: ${monthKey}`);
   const days: VocabMonth["days"] = [];
   for (let i = 0; i < words.length; i += WORDS_PER_DAY) {
     const day = days.length + 1;
@@ -214,7 +217,7 @@ export function toMonth(
       words: words.slice(i, i + WORDS_PER_DAY).map((w) => ({
         // Same id rule parseVocabMonth uses, so a regenerated word keeps its
         // progress instead of starting over.
-        id: `${monthKey}-${slugify(String(w.word ?? ""))}`,
+        id: wordId(target.track, slugify(String(w.word ?? ""))),
         word: String(w.word ?? "").trim(),
         partOfSpeech: String(w.partOfSpeech ?? "").trim(),
         definition: String(w.definition ?? "").trim(),
@@ -227,8 +230,9 @@ export function toMonth(
   }
 
   return {
-    month: monthKey,
-    displayName: formatMonthKey(monthKey),
+    track: target.track,
+    ordinal: target.ordinal,
+    title: topic,
     days,
     description: `Generated: ${topic}`,
     createdAt: new Date().toISOString(),

@@ -24,6 +24,7 @@ import {
   progressToMarkdown,
 } from "@/lib/markdown-export";
 import { ThemePicker } from "@/components/ThemePicker";
+import { ScheduleSettings } from "@/components/ScheduleSettings";
 import { WORD_ORDERS } from "@/lib/order";
 import { playSound } from "@/lib/sound";
 import { installedClis } from "@/lib/ai/client";
@@ -254,7 +255,7 @@ export function Settings() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto py-8 space-y-6">
+    <div className="w-full max-w-2xl mx-auto py-8 space-y-6">
       <div>
         <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">
           Settings
@@ -270,6 +271,13 @@ export function Settings() {
           value={settings.theme}
           onChange={(theme) => settings.set({ theme })}
         />
+      </SettingSection>
+
+      <SettingSection
+        title="Schedule"
+        description="When the open track starts, and in what order its months run. Changing either is free — the corpus has no calendar in it, so nothing moves between months."
+      >
+        <ScheduleSettings />
       </SettingSection>
 
       <SettingSection

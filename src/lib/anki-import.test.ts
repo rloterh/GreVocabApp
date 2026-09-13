@@ -21,8 +21,9 @@ const apkg = (bytes: Uint8Array) =>
 
 const MONTHS: VocabMonth[] = [
   {
-    month: "2026-04",
-    displayName: "April 2026",
+    track: "gre",
+    ordinal: 1,
+    title: "April 2026",
     days: [
       {
         day: 1,
@@ -141,7 +142,7 @@ describe("round trip — export then import", () => {
 
     const result = await importApkg(SQL, {
       bytes: apkg(built.bytes),
-      monthKey: "2026-09",
+      monthKey: "gre/09",
     });
 
     expect(result.noteCount).toBe(4);
@@ -185,7 +186,7 @@ describe("round trip — export then import", () => {
     });
     const result = await importApkg(SQL, {
       bytes: apkg(built.bytes),
-      monthKey: "2026-09",
+      monthKey: "gre/09",
     });
     const word = result.month.days[0].words[0];
     // Export escaped the angle brackets; import must give them back.
@@ -204,14 +205,14 @@ describe("round trip — export then import", () => {
     });
     const result = await importApkg(SQL, {
       bytes: apkg(built.bytes),
-      monthKey: "2026-09",
+      monthKey: "gre/09",
     });
 
     expect(result.month.days.map((d) => d.words.length)).toEqual([3, 1]);
-    expect(result.month.month).toBe("2026-09");
+    expect(result.month.ordinal).toBe(9);
     const validated = parseVocabMonth(result.month);
     expect(validated.days.flatMap((d) => d.words)).toHaveLength(4);
-    expect(validated.days[0].words[0].id).toMatch(/^2026-09-/);
+    expect(validated.days[0].words[0].id).toMatch(/^gre-/);
   });
 
   it("respects the note limit", async () => {
@@ -223,7 +224,7 @@ describe("round trip — export then import", () => {
     });
     const result = await importApkg(SQL, {
       bytes: apkg(built.bytes),
-      monthKey: "2026-09",
+      monthKey: "gre/09",
       limit: 2,
     });
     expect(result.month.days.flatMap((d) => d.words)).toHaveLength(2);
@@ -235,7 +236,7 @@ describe("failures are explained rather than thrown raw", () => {
     await expect(
       importApkg(SQL, {
         bytes: new TextEncoder().encode("not a zip at all"),
-        monthKey: "2026-09",
+        monthKey: "gre/09",
       }),
     ).rejects.toThrow(/not a readable .apkg/);
   });
@@ -246,28 +247,29 @@ describe("failures are explained rather than thrown raw", () => {
       media: new TextEncoder().encode("{}"),
     });
     await expect(
-      importApkg(SQL, { bytes: zipped, monthKey: "2026-09" }),
+      importApkg(SQL, { bytes: zipped, monthKey: "gre/09" }),
     ).rejects.toThrow(/Support older Anki versions/);
   });
 
   it("rejects a zip with no collection at all", async () => {
     const zipped = zipSync({ media: new TextEncoder().encode("{}") });
     await expect(
-      importApkg(SQL, { bytes: zipped, monthKey: "2026-09" }),
+      importApkg(SQL, { bytes: zipped, monthKey: "gre/09" }),
     ).rejects.toThrow(/No Anki collection/);
   });
 
   it("rejects a malformed month key before doing any work", async () => {
     await expect(
-      importApkg(SQL, { bytes: new Uint8Array(), monthKey: "September" }),
-    ).rejects.toThrow(/2026-07/);
+      importApkg(SQL, { bytes: new Uint8Array(), monthKey: "2026-09" }),
+    ).rejects.toThrow(/gre/);
   });
 
   it("says so when no note has both a word and a meaning", async () => {
     const empty: VocabMonth[] = [
       {
-        month: "2026-04",
-        displayName: "April 2026",
+        track: "gre",
+        ordinal: 1,
+        title: "April 2026",
         days: [
           {
             day: 1,
@@ -298,7 +300,7 @@ describe("failures are explained rather than thrown raw", () => {
     db.close();
 
     await expect(
-      importApkg(SQL, { bytes: apkg(blanked), monthKey: "2026-09" }),
+      importApkg(SQL, { bytes: apkg(blanked), monthKey: "gre/09" }),
     ).rejects.toThrow(/No usable vocabulary/);
   });
 });

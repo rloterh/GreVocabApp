@@ -1,0 +1,1468 @@
+{
+  "track": "gre",
+  "ordinal": 18,
+  "title": "Knowledge and ignorance",
+  "days": [
+    {
+      "day": 1,
+      "words": [
+        {
+          "id": "gre-perspicacity",
+          "word": "perspicacity",
+          "partOfSpeech": "noun",
+          "definition": "Sharp insight that lets someone quickly grasp what is really going on.",
+          "example": "Her perspicacity let her spot the flaw in the contract that everyone else had missed.",
+          "mnemonic": "Read it as 'per-SPEC-acity' — having the right SPECS (glasses) to see everything clearly.",
+          "synonyms": [
+            "acuity",
+            "shrewdness",
+            "discernment"
+          ],
+          "antonyms": [
+            "obtuseness",
+            "dullness"
+          ]
+        },
+        {
+          "id": "gre-cognizant",
+          "word": "cognizant",
+          "partOfSpeech": "adjective",
+          "definition": "Fully aware of something and keeping it actively in mind.",
+          "example": "As a lifeguard, she stayed cognizant of every swimmer drifting toward the deep end.",
+          "mnemonic": "Shares the 'cogn-' root with 'recognize' — if you recognize it, you know it's there.",
+          "synonyms": [
+            "aware",
+            "conscious",
+            "mindful"
+          ],
+          "antonyms": [
+            "oblivious",
+            "unaware",
+            "ignorant"
+          ]
+        },
+        {
+          "id": "gre-cognizance",
+          "word": "cognizance",
+          "partOfSpeech": "noun",
+          "definition": "The act of taking notice or being aware of a fact or situation.",
+          "example": "The court took cognizance of the new evidence before reaching its verdict.",
+          "mnemonic": "Same 'cogn-' root as 'recognize' — the noun for officially noting what you know.",
+          "synonyms": [
+            "awareness",
+            "notice",
+            "perception"
+          ],
+          "antonyms": [
+            "ignorance",
+            "oblivion"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "words": [
+        {
+          "id": "gre-prescient",
+          "word": "prescient",
+          "partOfSpeech": "adjective",
+          "definition": "Seeming to know about events before they actually happen.",
+          "example": "His prescient warning about the housing crash came a full year before the market collapsed.",
+          "mnemonic": "'Pre' (before) + 'science' (knowing) — you know it before anyone else does.",
+          "synonyms": [
+            "prophetic",
+            "farsighted",
+            "visionary"
+          ],
+          "antonyms": [
+            "shortsighted",
+            "oblivious"
+          ]
+        },
+        {
+          "id": "gre-prescience",
+          "word": "prescience",
+          "partOfSpeech": "noun",
+          "definition": "Knowledge of events before they take place.",
+          "example": "Her prescience about the startup's failure spared her from investing a single dollar.",
+          "mnemonic": "'Pre' + 'science' — literally the 'science of the before.'",
+          "synonyms": [
+            "foresight",
+            "foreknowledge",
+            "clairvoyance"
+          ],
+          "antonyms": [
+            "hindsight"
+          ]
+        },
+        {
+          "id": "gre-omniscient",
+          "word": "omniscient",
+          "partOfSpeech": "adjective",
+          "definition": "Knowing absolutely everything there is to know.",
+          "example": "The novel's omniscient narrator reveals what every character is secretly thinking.",
+          "mnemonic": "'Omni' (all) + 'sci' (know) — an all-knowing being who has every fact at once.",
+          "synonyms": [
+            "all-knowing",
+            "all-wise"
+          ],
+          "antonyms": [
+            "ignorant",
+            "unknowing"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "words": [
+        {
+          "id": "gre-scholarly",
+          "word": "scholarly",
+          "partOfSpeech": "adjective",
+          "definition": "Showing deep learning and careful, serious academic study.",
+          "example": "His scholarly article cited over two hundred sources and took three years to write.",
+          "mnemonic": "Picture a scholar buried in dusty books in a quiet library — that's the vibe.",
+          "synonyms": [
+            "academic",
+            "erudite",
+            "learned"
+          ],
+          "antonyms": [
+            "ignorant",
+            "uneducated"
+          ]
+        },
+        {
+          "id": "gre-pedantry",
+          "word": "pedantry",
+          "partOfSpeech": "noun",
+          "definition": "Fussy, showy attention to tiny rules or trivial points of knowledge.",
+          "example": "His constant pedantry about grammar made every dinner conversation feel like a quiz.",
+          "mnemonic": "A 'pedant' pedals the same tiny rules over and over, going nowhere.",
+          "synonyms": [
+            "nitpicking",
+            "hairsplitting",
+            "dogmatism"
+          ],
+          "antonyms": [
+            "open-mindedness",
+            "flexibility"
+          ]
+        },
+        {
+          "id": "gre-inscrutable",
+          "word": "inscrutable",
+          "partOfSpeech": "adjective",
+          "definition": "Impossible to read, understand, or interpret.",
+          "example": "The poker champion kept an inscrutable face, so no one could guess his hand.",
+          "mnemonic": "'In' (not) + 'scrut-' (scrutinize) — no matter how hard you scrutinize, you can't figure it out.",
+          "synonyms": [
+            "enigmatic",
+            "impenetrable",
+            "cryptic"
+          ],
+          "antonyms": [
+            "transparent",
+            "obvious",
+            "readable"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "words": [
+        {
+          "id": "gre-murky",
+          "word": "murky",
+          "partOfSpeech": "adjective",
+          "definition": "Dark, cloudy, and hard to see through or understand.",
+          "example": "We couldn't see the bottom of the murky pond after the storm stirred up the mud.",
+          "mnemonic": "Sounds like 'mucky' — muddy water you just can't see through.",
+          "synonyms": [
+            "cloudy",
+            "gloomy",
+            "obscure"
+          ],
+          "antonyms": [
+            "clear",
+            "transparent",
+            "bright"
+          ]
+        },
+        {
+          "id": "gre-benighted",
+          "word": "benighted",
+          "partOfSpeech": "adjective",
+          "definition": "Kept in moral or intellectual darkness, lacking knowledge or enlightenment.",
+          "example": "The colonists arrogantly saw the villagers as benighted souls in need of rescue.",
+          "mnemonic": "Be + NIGHT + ed — stuck in the night, trapped in the dark.",
+          "synonyms": [
+            "unenlightened",
+            "ignorant",
+            "backward"
+          ],
+          "antonyms": [
+            "enlightened",
+            "educated"
+          ]
+        },
+        {
+          "id": "gre-vacuous",
+          "word": "vacuous",
+          "partOfSpeech": "adjective",
+          "definition": "Empty of thought, meaning, or real substance.",
+          "example": "Her vacuous stare told me she hadn't absorbed a single word of the lecture.",
+          "mnemonic": "Shares a root with 'vacuum' — nothing but empty space inside.",
+          "synonyms": [
+            "empty",
+            "vapid",
+            "mindless"
+          ],
+          "antonyms": [
+            "thoughtful",
+            "profound",
+            "intelligent"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "words": [
+        {
+          "id": "gre-inane",
+          "word": "inane",
+          "partOfSpeech": "adjective",
+          "definition": "Silly and pointless, lacking any real sense or value.",
+          "example": "The meeting dragged on with inane chatter about nothing of importance.",
+          "mnemonic": "Drop the 's' from 'insane' and you get 'inane' — foolish, empty talk.",
+          "synonyms": [
+            "silly",
+            "fatuous",
+            "senseless"
+          ],
+          "antonyms": [
+            "sensible",
+            "meaningful",
+            "profound"
+          ]
+        },
+        {
+          "id": "gre-naive",
+          "word": "naive",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking worldly experience and trusting others far too easily.",
+          "example": "It was naive of him to hand his savings to a stranger who promised to double it overnight.",
+          "mnemonic": "Sounds like 'nigh-EVE' — innocent and unsuspecting, like Eve before the apple.",
+          "synonyms": [
+            "innocent",
+            "gullible",
+            "unworldly"
+          ],
+          "antonyms": [
+            "sophisticated",
+            "worldly",
+            "cynical"
+          ]
+        },
+        {
+          "id": "gre-callow",
+          "word": "callow",
+          "partOfSpeech": "adjective",
+          "definition": "Young and immature, without the experience that comes with age.",
+          "example": "The callow recruit panicked the moment his training was first tested in the field.",
+          "mnemonic": "Rhymes with 'shallow' — a shallow, unripe youth; a 'callow' bird is one too young to have feathers.",
+          "synonyms": [
+            "immature",
+            "inexperienced",
+            "green"
+          ],
+          "antonyms": [
+            "mature",
+            "seasoned",
+            "experienced"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "words": [
+        {
+          "id": "gre-philistine",
+          "word": "philistine",
+          "partOfSpeech": "noun",
+          "definition": "A person who is indifferent or openly hostile to art, culture, and intellectual pursuits.",
+          "example": "When he called the museum a waste of money, his date realized she was dining with a philistine.",
+          "mnemonic": "Sounds like 'fill-a-stein' — picture someone filling a beer stein and chugging while ignoring the fine art on the gallery walls.",
+          "synonyms": [
+            "boor",
+            "lowbrow"
+          ],
+          "antonyms": [
+            "aesthete",
+            "connoisseur"
+          ]
+        },
+        {
+          "id": "gre-savant",
+          "word": "savant",
+          "partOfSpeech": "noun",
+          "definition": "A person of exceptional learning or brilliance, often within one narrow field.",
+          "example": "The chess savant memorized every game in the tournament after glancing at each board just once.",
+          "mnemonic": "From French 'savoir' (to know) — a savant simply knows.",
+          "synonyms": [
+            "genius",
+            "sage",
+            "expert"
+          ],
+          "antonyms": [
+            "ignoramus",
+            "novice"
+          ]
+        },
+        {
+          "id": "gre-polymath",
+          "word": "polymath",
+          "partOfSpeech": "noun",
+          "definition": "Someone whose expertise spans a great number of different subject areas.",
+          "example": "Leonardo was a true polymath, painting masterpieces while also designing bridges and studying anatomy.",
+          "mnemonic": "Greek 'poly' (many) + 'math' (learning) = one head full of many learnings.",
+          "synonyms": [
+            "Renaissance man",
+            "generalist"
+          ],
+          "antonyms": [
+            "specialist",
+            "dilettante"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "words": [
+        {
+          "id": "gre-pundit",
+          "word": "pundit",
+          "partOfSpeech": "noun",
+          "definition": "An expert who publicly comments on and gives opinions about a particular subject.",
+          "example": "Every election night, the network wheels out the same pundit to predict which way the votes will swing.",
+          "mnemonic": "From Sanskrit 'pandit' (learned one); hear 'pun-dit' — someone always ready to make a point on TV.",
+          "synonyms": [
+            "commentator",
+            "analyst",
+            "authority"
+          ],
+          "antonyms": [
+            "amateur",
+            "layman"
+          ]
+        },
+        {
+          "id": "gre-connoisseur",
+          "word": "connoisseur",
+          "partOfSpeech": "noun",
+          "definition": "An expert judge in matters of taste, especially fine food, wine, or art.",
+          "example": "She swirled the wine, sniffed it, and named the vineyard on the first try — clearly a connoisseur.",
+          "mnemonic": "From French 'connaître' (to know); hear 'connoisseur knows, sir'.",
+          "synonyms": [
+            "aficionado",
+            "expert",
+            "authority"
+          ],
+          "antonyms": [
+            "philistine",
+            "amateur"
+          ]
+        },
+        {
+          "id": "gre-aficionado",
+          "word": "aficionado",
+          "partOfSpeech": "noun",
+          "definition": "An enthusiastic and knowledgeable devotee of a particular activity or interest.",
+          "example": "As a jazz aficionado, he could name the drummer on any record within three bars.",
+          "mnemonic": "Spanish 'afición' (fondness); picture an 'a-FISH-ionado' who is fanatical about fishing.",
+          "synonyms": [
+            "enthusiast",
+            "devotee",
+            "buff"
+          ],
+          "antonyms": [
+            "detractor",
+            "novice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "words": [
+        {
+          "id": "gre-empirical",
+          "word": "empirical",
+          "partOfSpeech": "adjective",
+          "definition": "Based on observation, experiment, or direct experience rather than pure theory.",
+          "example": "Rather than trust the rumor, the scientist demanded empirical data from repeated experiments.",
+          "mnemonic": "Starts like 'experi-ment' — both come from testing and seeing for yourself.",
+          "synonyms": [
+            "observed",
+            "experiential",
+            "factual"
+          ],
+          "antonyms": [
+            "theoretical",
+            "conjectural",
+            "hypothetical"
+          ]
+        },
+        {
+          "id": "gre-heuristic",
+          "word": "heuristic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to a practical, trial-and-error method for solving problems or learning.",
+          "example": "Lost in the maze, we used a simple heuristic: always turn left and hope for the best.",
+          "mnemonic": "Same Greek root ('heuriskein', to find) as Archimedes' shout of 'Eureka!' — you find the answer by exploring.",
+          "synonyms": [
+            "exploratory",
+            "experimental",
+            "practical"
+          ],
+          "antonyms": [
+            "algorithmic",
+            "theoretical"
+          ]
+        },
+        {
+          "id": "gre-pedagogic",
+          "word": "pedagogic",
+          "partOfSpeech": "adjective",
+          "definition": "Relating to teaching or the methods and practice of instruction.",
+          "example": "Her pedagogic talent turned a dry grammar lesson into a game the children begged to replay.",
+          "mnemonic": "Greek 'paidos' (child) + 'agogos' (leader) — a leader of children, i.e. a teacher.",
+          "synonyms": [
+            "educational",
+            "instructional",
+            "didactic"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "words": [
+        {
+          "id": "gre-illuminate",
+          "word": "illuminate",
+          "partOfSpeech": "verb",
+          "definition": "To light something up, or to help explain a subject and make it easier to grasp.",
+          "example": "A single well-drawn diagram can illuminate a theory that pages of dense text left murky.",
+          "mnemonic": "Hear 'il-LUMEN-ate' — a lumen is a unit of light, so to illuminate is to shed light.",
+          "synonyms": [
+            "brighten",
+            "elucidate",
+            "clarify"
+          ],
+          "antonyms": [
+            "darken",
+            "obscure",
+            "confuse"
+          ]
+        },
+        {
+          "id": "gre-clarify",
+          "word": "clarify",
+          "partOfSpeech": "verb",
+          "definition": "To make something easier to understand by removing confusion or ambiguity.",
+          "example": "Could you clarify the third instruction? I can't tell whether to save the file or delete it.",
+          "mnemonic": "Break it down: 'clear' + '-ify' = to make clear.",
+          "synonyms": [
+            "elucidate",
+            "explain",
+            "illuminate"
+          ],
+          "antonyms": [
+            "confuse",
+            "obscure",
+            "muddle"
+          ]
+        },
+        {
+          "id": "gre-edify",
+          "word": "edify",
+          "partOfSpeech": "verb",
+          "definition": "To instruct or improve someone morally, spiritually, or intellectually.",
+          "example": "The documentary aimed to edify viewers about ocean pollution, not merely to entertain them.",
+          "mnemonic": "From Latin 'aedificare' (to build) — like an edifice, it builds up the mind.",
+          "synonyms": [
+            "enlighten",
+            "instruct",
+            "uplift"
+          ],
+          "antonyms": [
+            "corrupt",
+            "mislead"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "words": [
+        {
+          "id": "gre-enlighten",
+          "word": "enlighten",
+          "partOfSpeech": "verb",
+          "definition": "To give someone greater knowledge or understanding about a situation or subject.",
+          "example": "Please enlighten me about the new tax rules, because this form makes no sense to me.",
+          "mnemonic": "Hear 'en-LIGHT-en' — to bring light into someone's mind.",
+          "synonyms": [
+            "inform",
+            "educate",
+            "illuminate"
+          ],
+          "antonyms": [
+            "confuse",
+            "mystify",
+            "mislead"
+          ]
+        },
+        {
+          "id": "gre-acquaint",
+          "word": "acquaint",
+          "partOfSpeech": "verb",
+          "definition": "To make someone familiar with or aware of something through information or experience.",
+          "example": "Spend your first week here to acquaint yourself with the building's exits and safety procedures.",
+          "mnemonic": "It hides the word 'quaint' — get to know a quaint old town by wandering its streets.",
+          "synonyms": [
+            "familiarize",
+            "introduce",
+            "inform"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-glean",
+          "word": "glean",
+          "partOfSpeech": "verb",
+          "definition": "To collect small pieces of information slowly from scattered or unlikely sources.",
+          "example": "By lingering near the doorway, she managed to glean a few details about the merger.",
+          "mnemonic": "Sounds like 'clean' — after the harvest, workers cleaned the field by picking up every leftover grain, one bit at a time.",
+          "synonyms": [
+            "gather",
+            "collect",
+            "harvest"
+          ],
+          "antonyms": [
+            "scatter",
+            "disperse"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "words": [
+        {
+          "id": "gre-apprehend",
+          "word": "apprehend",
+          "partOfSpeech": "verb",
+          "definition": "To grasp the meaning of something, or to seize a wrongdoer physically.",
+          "example": "The officers moved quietly through the alley, determined to apprehend the burglar before dawn.",
+          "mnemonic": "Contains 'hend' (like 'hand') — you put a hand on an idea to hold it, or a hand on a criminal to catch him.",
+          "synonyms": [
+            "grasp",
+            "seize",
+            "arrest"
+          ],
+          "antonyms": [
+            "release",
+            "misunderstand"
+          ]
+        },
+        {
+          "id": "gre-comprehend",
+          "word": "comprehend",
+          "partOfSpeech": "verb",
+          "definition": "To fully understand the meaning or nature of something.",
+          "example": "The instructions were so tangled that no one could comprehend where to begin.",
+          "mnemonic": "com- (together) + -prehend (grasp): grasping all the pieces together in your mind at once.",
+          "synonyms": [
+            "understand",
+            "fathom",
+            "grasp"
+          ],
+          "antonyms": [
+            "misunderstand",
+            "misconstrue"
+          ]
+        },
+        {
+          "id": "gre-ratiocinate",
+          "word": "ratiocinate",
+          "partOfSpeech": "verb",
+          "definition": "To reason methodically, step by step, to arrive at a logical conclusion.",
+          "example": "Like a detective, he would ratiocinate from a scuff mark and a dropped glove to the culprit.",
+          "mnemonic": "Hides 'ratio' — a rational mind grinding through logic like a calculating machine.",
+          "synonyms": [
+            "reason",
+            "deduce",
+            "deliberate"
+          ],
+          "antonyms": [
+            "guess",
+            "assume"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "words": [
+        {
+          "id": "gre-muse",
+          "word": "muse",
+          "partOfSpeech": "verb",
+          "definition": "To think about something quietly, dreamily, and at length.",
+          "example": "He sat on the porch to muse over how much the town had changed since childhood.",
+          "mnemonic": "The Muses of Greek myth inspired poets — picture one gazing off, lost in dreamy reflection.",
+          "synonyms": [
+            "ponder",
+            "reflect",
+            "ruminate"
+          ],
+          "antonyms": [
+            "ignore",
+            "disregard"
+          ]
+        },
+        {
+          "id": "gre-contemplate",
+          "word": "contemplate",
+          "partOfSpeech": "verb",
+          "definition": "To think about something carefully and for a long period of time.",
+          "example": "She stood at the cliff's edge to contemplate whether to leave everything behind.",
+          "mnemonic": "con + 'temple' — step into a quiet temple to sit and turn a thought over slowly.",
+          "synonyms": [
+            "ponder",
+            "consider",
+            "deliberate"
+          ],
+          "antonyms": [
+            "ignore",
+            "dismiss"
+          ]
+        },
+        {
+          "id": "gre-hypothesize",
+          "word": "hypothesize",
+          "partOfSpeech": "verb",
+          "definition": "To propose a tentative explanation as a starting point for further testing.",
+          "example": "Researchers hypothesize that the fish glow to lure prey in the dark depths.",
+          "mnemonic": "hypo- (under) + 'thesis' — an idea placed underneath a thesis, still waiting to be proven.",
+          "synonyms": [
+            "postulate",
+            "conjecture",
+            "suppose"
+          ],
+          "antonyms": [
+            "prove",
+            "verify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "words": [
+        {
+          "id": "gre-theorize",
+          "word": "theorize",
+          "partOfSpeech": "verb",
+          "definition": "To form ideas or explanations about something without having firm proof.",
+          "example": "Astronomers theorize about what lies beyond the observable edge of the universe.",
+          "mnemonic": "Say it as 'the-a-rise' — explanations rising up in the mind to account for the unknown.",
+          "synonyms": [
+            "hypothesize",
+            "speculate",
+            "postulate"
+          ],
+          "antonyms": [
+            "prove",
+            "demonstrate"
+          ]
+        },
+        {
+          "id": "gre-intuit",
+          "word": "intuit",
+          "partOfSpeech": "verb",
+          "definition": "To sense or know something instinctively, without conscious reasoning.",
+          "example": "A seasoned nurse can intuit when a patient is about to take a bad turn.",
+          "mnemonic": "Read it as 'in-to-it' — the truth drops straight IN TO your gut, no thinking required.",
+          "synonyms": [
+            "sense",
+            "feel",
+            "perceive"
+          ],
+          "antonyms": [
+            "deduce",
+            "calculate"
+          ]
+        },
+        {
+          "id": "gre-presage",
+          "word": "presage",
+          "partOfSpeech": "verb",
+          "definition": "To serve as a warning sign that something, often bad, is coming.",
+          "example": "The eerie stillness and darkening sky seemed to presage a violent storm.",
+          "mnemonic": "pre- (before) + 'sage' — a wise sage who foresees events before they arrive.",
+          "synonyms": [
+            "foreshadow",
+            "portend",
+            "forebode"
+          ],
+          "antonyms": [
+            "recall"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "words": [
+        {
+          "id": "gre-portend",
+          "word": "portend",
+          "partOfSpeech": "verb",
+          "definition": "To give an advance sign or warning of a future event.",
+          "example": "Analysts warned that the sliding stock prices might portend a deeper recession.",
+          "mnemonic": "'port' + 'end' — reaching PORT signals the END of the voyage is near; a sign of what's coming.",
+          "synonyms": [
+            "presage",
+            "foreshadow",
+            "augur"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-augur",
+          "word": "augur",
+          "partOfSpeech": "verb",
+          "definition": "To predict a coming outcome based on present signs or omens.",
+          "example": "Brisk early ticket sales augur well for the band's upcoming world tour.",
+          "mnemonic": "A Roman augur read the flight of birds to foretell the future; sounds like 'auger,' a drill boring ahead.",
+          "synonyms": [
+            "foretell",
+            "presage",
+            "bode"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-anticipate",
+          "word": "anticipate",
+          "partOfSpeech": "verb",
+          "definition": "To expect something in advance and get ready for it accordingly.",
+          "example": "A skilled chess player must anticipate her opponent's moves several turns ahead.",
+          "mnemonic": "ante- (before) + -cip (take, from capere) — to take hold of something before it actually arrives.",
+          "synonyms": [
+            "expect",
+            "foresee",
+            "await"
+          ],
+          "antonyms": [
+            "recall",
+            "overlook"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "words": [
+        {
+          "id": "gre-prognosticate",
+          "word": "prognosticate",
+          "partOfSpeech": "verb",
+          "definition": "To forecast future events, often by reading current signs.",
+          "example": "Every January, pundits love to prognosticate about which films will sweep the awards.",
+          "mnemonic": "Linked to a doctor's 'prognosis' — 'prog-nostic' foretells how an illness will unfold.",
+          "synonyms": [
+            "forecast",
+            "predict",
+            "foretell"
+          ],
+          "antonyms": []
+        },
+        {
+          "id": "gre-worldly",
+          "word": "worldly",
+          "partOfSpeech": "adjective",
+          "definition": "Experienced in the practical, sophisticated ways of life; not innocent or naive.",
+          "example": "After years reporting from foreign capitals, she seemed far more worldly than her sheltered cousins.",
+          "mnemonic": "'world' + -ly — someone who has seen much of the WORLD and knows how it truly works.",
+          "synonyms": [
+            "sophisticated",
+            "cosmopolitan",
+            "experienced"
+          ],
+          "antonyms": [
+            "naive",
+            "innocent"
+          ]
+        },
+        {
+          "id": "gre-sophisticated",
+          "word": "sophisticated",
+          "partOfSpeech": "adjective",
+          "definition": "Refined, worldly, or complex enough to reflect deep knowledge and experience.",
+          "example": "After years living in Paris, she developed a sophisticated palate for wine and cheese.",
+          "mnemonic": "Shares a root with the Greek 'sophos' (wise) — picture the wise, polished insider who knows every fine detail.",
+          "synonyms": [
+            "cultured",
+            "refined",
+            "worldly"
+          ],
+          "antonyms": [
+            "naive",
+            "crude",
+            "unrefined"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "words": [
+        {
+          "id": "gre-nescient",
+          "word": "nescient",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking awareness or knowledge of facts and information.",
+          "example": "The nescient tourist wandered into the closed military zone, having read no warnings at all.",
+          "mnemonic": "'Ne-' (not) + 'scient' (knowing, as in 'science') = literally 'not knowing.'",
+          "synonyms": [
+            "ignorant",
+            "uninformed",
+            "unaware"
+          ],
+          "antonyms": [
+            "knowledgeable",
+            "informed",
+            "aware"
+          ]
+        },
+        {
+          "id": "gre-oblivious",
+          "word": "oblivious",
+          "partOfSpeech": "adjective",
+          "definition": "Completely unaware of what is happening around oneself.",
+          "example": "Headphones blasting, he stayed oblivious to the fire alarm shrieking down the hallway.",
+          "mnemonic": "Sounds like 'obvious' with an extra L — yet the oblivious person misses even the obvious.",
+          "synonyms": [
+            "unaware",
+            "heedless",
+            "unmindful"
+          ],
+          "antonyms": [
+            "aware",
+            "attentive",
+            "mindful"
+          ]
+        },
+        {
+          "id": "gre-unwitting",
+          "word": "unwitting",
+          "partOfSpeech": "adjective",
+          "definition": "Done without knowing or intending; not aware of the situation.",
+          "example": "She became an unwitting accomplice, mailing the parcel with no idea it held stolen cash.",
+          "mnemonic": "'Un-' (not) + 'witting' (from 'wit,' to know) = acting without wit or knowledge.",
+          "synonyms": [
+            "unknowing",
+            "inadvertent",
+            "unaware"
+          ],
+          "antonyms": [
+            "deliberate",
+            "knowing",
+            "intentional"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "words": [
+        {
+          "id": "gre-uninitiated",
+          "word": "uninitiated",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking the special knowledge or experience shared by insiders of a group.",
+          "example": "To the uninitiated, the traders' rapid hand signals on the floor looked like pure chaos.",
+          "mnemonic": "Think of an 'initiation' rite — the uninitiated haven't yet been let in on the club's secrets.",
+          "synonyms": [
+            "inexperienced",
+            "unversed",
+            "unfamiliar"
+          ],
+          "antonyms": [
+            "experienced",
+            "seasoned",
+            "expert"
+          ]
+        },
+        {
+          "id": "gre-misapprehend",
+          "word": "misapprehend",
+          "partOfSpeech": "verb",
+          "definition": "To understand something incorrectly; to grasp a meaning wrongly.",
+          "example": "I misapprehended his dry joke as a genuine insult and stormed out of the room.",
+          "mnemonic": "'Mis-' (wrong) + 'apprehend' (to grasp) = to grasp the wrong way.",
+          "synonyms": [
+            "misunderstand",
+            "misconstrue",
+            "misinterpret"
+          ],
+          "antonyms": [
+            "understand",
+            "comprehend",
+            "grasp"
+          ]
+        },
+        {
+          "id": "gre-delusion",
+          "word": "delusion",
+          "partOfSpeech": "noun",
+          "definition": "A false belief held firmly despite clear evidence against it.",
+          "example": "He nursed the delusion that the bankrupt startup would somehow make him a millionaire.",
+          "mnemonic": "From Latin 'ludere' (to play) — a delusion 'de-ludes,' playing a trick on your own mind.",
+          "synonyms": [
+            "illusion",
+            "misbelief",
+            "fantasy"
+          ],
+          "antonyms": [
+            "reality",
+            "truth",
+            "fact"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "words": [
+        {
+          "id": "gre-fallacy",
+          "word": "fallacy",
+          "partOfSpeech": "noun",
+          "definition": "A mistaken belief or a flaw in reasoning built on unsound logic.",
+          "example": "It's a fallacy to assume that the most expensive medicine always works best.",
+          "mnemonic": "Spot the 'fall' inside it — a flaw that makes an argument fall apart.",
+          "synonyms": [
+            "misconception",
+            "error",
+            "myth"
+          ],
+          "antonyms": [
+            "truth",
+            "fact",
+            "verity"
+          ]
+        },
+        {
+          "id": "gre-sophistry",
+          "word": "sophistry",
+          "partOfSpeech": "noun",
+          "definition": "Clever but deceptive reasoning meant to mislead rather than reveal truth.",
+          "example": "Through pure sophistry, the lawyer made his obviously guilty client sound like the victim.",
+          "mnemonic": "Named for the ancient Greek Sophists — teachers famous for winning debates with slick, misleading tricks.",
+          "synonyms": [
+            "casuistry",
+            "speciousness",
+            "chicanery"
+          ],
+          "antonyms": [
+            "logic",
+            "truth",
+            "soundness"
+          ]
+        },
+        {
+          "id": "gre-casuistry",
+          "word": "casuistry",
+          "partOfSpeech": "noun",
+          "definition": "Overly subtle, often dishonest reasoning, especially about moral questions.",
+          "example": "By sheer casuistry he argued that lying to his friends was really an act of kindness.",
+          "mnemonic": "From 'case' — splitting hairs case by case until wrong somehow looks right ('CASE-u-istry').",
+          "synonyms": [
+            "sophistry",
+            "quibbling",
+            "speciousness"
+          ],
+          "antonyms": [
+            "honesty",
+            "candor",
+            "straightforwardness"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "words": [
+        {
+          "id": "gre-mystify",
+          "word": "mystify",
+          "partOfSpeech": "verb",
+          "definition": "To confuse or puzzle someone completely, often as if by magic.",
+          "example": "The magician mystified the audience by making a solid coin vanish from his open palm.",
+          "mnemonic": "'Mystery' + '-fy' — to turn a situation into a mystery for someone.",
+          "synonyms": [
+            "puzzle",
+            "baffle",
+            "perplex"
+          ],
+          "antonyms": [
+            "clarify",
+            "explain",
+            "enlighten"
+          ]
+        },
+        {
+          "id": "gre-bewilder",
+          "word": "bewilder",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone so thoroughly they cannot think clearly.",
+          "example": "The tangle of one-way streets bewildered every tourist who tried to drive downtown.",
+          "mnemonic": "'Be-' + 'wilder' — to be led into the wilds, lost with no path back.",
+          "synonyms": [
+            "confuse",
+            "disorient",
+            "muddle"
+          ],
+          "antonyms": [
+            "orient",
+            "guide",
+            "clarify"
+          ]
+        },
+        {
+          "id": "gre-perplex",
+          "word": "perplex",
+          "partOfSpeech": "verb",
+          "definition": "To puzzle or confuse someone with something hard to make sense of.",
+          "example": "The final riddle perplexed even the top students, who stared blankly at the page.",
+          "mnemonic": "'Per-' (through) + 'plex' (to weave) — thoughts woven into a knot too tangled to follow.",
+          "synonyms": [
+            "puzzle",
+            "confuse",
+            "baffle"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten",
+            "resolve"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "words": [
+        {
+          "id": "gre-confound",
+          "word": "confound",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone or throw expectations into disorder.",
+          "example": "The rookie's win confounded the pundits who had all predicted his easy defeat.",
+          "mnemonic": "'Con-' (together) + 'found' (Latin 'fundere,' to pour) — pour things together until they're all mixed up.",
+          "synonyms": [
+            "confuse",
+            "baffle",
+            "bewilder"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten",
+            "explain"
+          ]
+        },
+        {
+          "id": "gre-baffle",
+          "word": "baffle",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone so much they cannot solve or make sense of it.",
+          "example": "The detective was baffled by the locked room, which had no window or second door.",
+          "mnemonic": "Picture a 'buffalo' baffled at a fence — huge, stuck, and unable to find a way through.",
+          "synonyms": [
+            "perplex",
+            "puzzle",
+            "stump"
+          ],
+          "antonyms": [
+            "enlighten",
+            "clarify",
+            "solve"
+          ]
+        },
+        {
+          "id": "gre-flummox",
+          "word": "flummox",
+          "partOfSpeech": "verb",
+          "definition": "To confuse someone so thoroughly that they cannot think clearly or respond.",
+          "example": "The trick question flummoxed her, and she stood at the podium stammering with no answer.",
+          "mnemonic": "Sounds like 'flustered' + 'mucks' — your brain gets all mucked up and flustered.",
+          "synonyms": [
+            "perplex",
+            "baffle",
+            "bewilder"
+          ],
+          "antonyms": [
+            "enlighten",
+            "clarify"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "words": [
+        {
+          "id": "gre-befuddle",
+          "word": "befuddle",
+          "partOfSpeech": "verb",
+          "definition": "To make someone unable to think straight, as if muddled or slightly drunk.",
+          "example": "The maze of identical hallways befuddled the new interns for their entire first week.",
+          "mnemonic": "'be-' + 'fuddle' (a muddle) — to put someone into a muddle.",
+          "synonyms": [
+            "muddle",
+            "confuse",
+            "disorient"
+          ],
+          "antonyms": [
+            "clarify",
+            "enlighten"
+          ]
+        },
+        {
+          "id": "gre-acuity",
+          "word": "acuity",
+          "partOfSpeech": "noun",
+          "definition": "Sharpness or keenness of thought, vision, or perception.",
+          "example": "Even at ninety, her mental acuity let her spot the flaw in the contract instantly.",
+          "mnemonic": "Shares its root with 'acute' — an acute angle is sharp, so this is sharpness.",
+          "synonyms": [
+            "sharpness",
+            "keenness",
+            "astuteness"
+          ],
+          "antonyms": [
+            "dullness",
+            "obtuseness"
+          ]
+        },
+        {
+          "id": "gre-cerebral",
+          "word": "cerebral",
+          "partOfSpeech": "adjective",
+          "definition": "Appealing to or driven by the intellect rather than emotion or instinct.",
+          "example": "His films are quiet, cerebral puzzles that reward viewers who prefer thinking to feeling.",
+          "mnemonic": "From 'cerebrum,' the brain — so it means brainy.",
+          "synonyms": [
+            "intellectual",
+            "analytical",
+            "brainy"
+          ],
+          "antonyms": [
+            "emotional",
+            "instinctive",
+            "visceral"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "words": [
+        {
+          "id": "gre-conversant",
+          "word": "conversant",
+          "partOfSpeech": "adjective",
+          "definition": "Familiar with a subject through study or experience.",
+          "example": "You should hire someone conversant with tax law before filing that complicated return.",
+          "mnemonic": "Hear 'converse' inside it — you can converse about a topic because you know it well.",
+          "synonyms": [
+            "familiar",
+            "versed",
+            "acquainted"
+          ],
+          "antonyms": [
+            "ignorant",
+            "unfamiliar"
+          ]
+        },
+        {
+          "id": "gre-decipher",
+          "word": "decipher",
+          "partOfSpeech": "verb",
+          "definition": "To work out the meaning of something coded, garbled, or hard to read.",
+          "example": "It took the nurse a full minute to decipher the doctor's frantic scrawl on the chart.",
+          "mnemonic": "'de-' (undo) + 'cipher' (a code) — literally to undo a cipher.",
+          "synonyms": [
+            "decode",
+            "interpret",
+            "unravel"
+          ],
+          "antonyms": [
+            "encode",
+            "encrypt"
+          ]
+        },
+        {
+          "id": "gre-lore",
+          "word": "lore",
+          "partOfSpeech": "noun",
+          "definition": "A body of traditional knowledge or stories passed down within a group.",
+          "example": "Around the campfire, the old ranger shared the lore of the valley's vanished settlers.",
+          "mnemonic": "It hides inside 'folklore' — the stories folk hand down.",
+          "synonyms": [
+            "folklore",
+            "tradition",
+            "mythology"
+          ],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "words": [
+        {
+          "id": "gre-credulity",
+          "word": "credulity",
+          "partOfSpeech": "noun",
+          "definition": "A tendency to believe things too readily, without demanding real proof.",
+          "example": "The con artist preyed on the credulity of lonely people desperate to trust someone.",
+          "mnemonic": "Root 'cred-' means believe (as in 'credit') — this is over-believing.",
+          "synonyms": [
+            "gullibility",
+            "naivety"
+          ],
+          "antonyms": [
+            "skepticism",
+            "cynicism"
+          ]
+        },
+        {
+          "id": "gre-dogma",
+          "word": "dogma",
+          "partOfSpeech": "noun",
+          "definition": "A principle or set of beliefs held to be true and beyond question.",
+          "example": "The professor dared students to challenge the dogma repeated in every textbook.",
+          "mnemonic": "Picture a stubborn 'dog' that will not budge from where it sits — fixed, unquestioning.",
+          "synonyms": [
+            "doctrine",
+            "creed",
+            "tenet"
+          ],
+          "antonyms": [
+            "doubt",
+            "skepticism"
+          ]
+        },
+        {
+          "id": "gre-autodidact",
+          "word": "autodidact",
+          "partOfSpeech": "noun",
+          "definition": "A person who has taught themselves a subject without formal instruction.",
+          "example": "A lifelong autodidact, she learned three languages from library books and nothing else.",
+          "mnemonic": "'auto' (self) + 'didact' (teach) — literally a self-teacher.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "words": [
+        {
+          "id": "gre-neophyte",
+          "word": "neophyte",
+          "partOfSpeech": "noun",
+          "definition": "A person who is new to an activity or field and still learning it.",
+          "example": "As a neophyte, he kept asking where the supply closet and the fire exits were.",
+          "mnemonic": "'neo' (new) + '-phyte' (a growing plant) — a freshly planted newcomer.",
+          "synonyms": [
+            "beginner",
+            "novice",
+            "newcomer"
+          ],
+          "antonyms": [
+            "expert",
+            "veteran"
+          ]
+        },
+        {
+          "id": "gre-tyro",
+          "word": "tyro",
+          "partOfSpeech": "noun",
+          "definition": "A beginner with little skill or experience in something.",
+          "example": "The club champion crushed the eager tyro in under a dozen moves.",
+          "mnemonic": "Read it as 'try-oh' — someone just starting to try it out.",
+          "synonyms": [
+            "novice",
+            "beginner",
+            "greenhorn"
+          ],
+          "antonyms": [
+            "expert",
+            "master"
+          ]
+        },
+        {
+          "id": "gre-unlettered",
+          "word": "unlettered",
+          "partOfSpeech": "adjective",
+          "definition": "Lacking formal schooling or the ability to read and write.",
+          "example": "Though unlettered, the old farmer could read the sky and predict rain better than any meteorologist.",
+          "mnemonic": "Picture someone who never received a single 'letter' of the alphabet in school — un + lettered.",
+          "synonyms": [
+            "illiterate",
+            "uneducated",
+            "untaught"
+          ],
+          "antonyms": [
+            "educated",
+            "literate",
+            "learned"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "words": [
+        {
+          "id": "gre-ignoramus",
+          "word": "ignoramus",
+          "partOfSpeech": "noun",
+          "definition": "A person who knows embarrassingly little and openly shows it.",
+          "example": "He called everyone who disagreed with him an ignoramus, which only exposed his own emptiness.",
+          "mnemonic": "Sounds like 'ignore-a-muss': he ignores all knowledge and makes a muss of the facts.",
+          "synonyms": [
+            "dunce",
+            "fool",
+            "blockhead"
+          ],
+          "antonyms": [
+            "scholar",
+            "expert",
+            "genius"
+          ]
+        },
+        {
+          "id": "gre-dullard",
+          "word": "dullard",
+          "partOfSpeech": "noun",
+          "definition": "A slow-witted or mentally sluggish person.",
+          "example": "The teacher wrongly wrote the quiet boy off as a dullard, missing the sharp mind behind his silence.",
+          "mnemonic": "Dull + the '-ard' suffix from 'drunkard' and 'sluggard' — a person defined by that trait.",
+          "synonyms": [
+            "dimwit",
+            "dunce",
+            "simpleton"
+          ],
+          "antonyms": [
+            "genius",
+            "prodigy",
+            "intellectual"
+          ]
+        },
+        {
+          "id": "gre-untutored",
+          "word": "untutored",
+          "partOfSpeech": "adjective",
+          "definition": "Having received no formal instruction or training in a subject.",
+          "example": "Her untutored voice was raw and thrilling, though she had never set foot in a conservatory.",
+          "mnemonic": "un + tutored: no tutor ever sat down and taught you.",
+          "synonyms": [
+            "untrained",
+            "unschooled",
+            "self-taught"
+          ],
+          "antonyms": [
+            "trained",
+            "schooled",
+            "instructed"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "words": [
+        {
+          "id": "gre-pedant",
+          "word": "pedant",
+          "partOfSpeech": "noun",
+          "definition": "Someone who flaunts trivial rules or minor knowledge to seem learned.",
+          "example": "The pedant interrupted the wedding toast to correct the groom's Latin, and the whole room groaned.",
+          "mnemonic": "PED-ant: imagine a fussy little ant inspecting every crumb of a rulebook.",
+          "synonyms": [
+            "nitpicker",
+            "hairsplitter",
+            "doctrinaire"
+          ],
+          "antonyms": [
+            "generalist",
+            "free-thinker",
+            "big-picture thinker"
+          ]
+        },
+        {
+          "id": "gre-nescience",
+          "word": "nescience",
+          "partOfSpeech": "noun",
+          "definition": "A complete lack of knowledge; the state of not knowing.",
+          "example": "It was sheer nescience of basic hygiene, not cruelty, that let the illness sweep through the camp.",
+          "mnemonic": "ne- (not) + science (knowledge): literally 'not-science,' a blank where knowing should be.",
+          "synonyms": [
+            "ignorance",
+            "unawareness",
+            "unfamiliarity"
+          ],
+          "antonyms": [
+            "knowledge",
+            "awareness",
+            "erudition"
+          ]
+        },
+        {
+          "id": "gre-luminary",
+          "word": "luminary",
+          "partOfSpeech": "noun",
+          "definition": "A distinguished, inspiring expert who brightens and leads a field.",
+          "example": "As a luminary of modern physics, she drew packed halls wherever she agreed to lecture.",
+          "mnemonic": "From Latin 'lumen' (light) — a shining light who illuminates their whole field.",
+          "synonyms": [
+            "notable",
+            "leader",
+            "star"
+          ],
+          "antonyms": [
+            "nobody",
+            "unknown",
+            "nonentity"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Mid-frequency and academic register",
+  "createdAt": "2026-09-12T08:19:42.743Z"
+}

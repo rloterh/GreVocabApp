@@ -14,7 +14,12 @@
  * in-memory dedup set and neither aware of the other's writes. The logic was
  * right; running it twice was not. `generate-corpus.ts` now takes a lock.
  *
- *   npx tsx scripts/repair-corpus.ts
+ * Per track. Uniqueness is a within-track guarantee and deliberately not a
+ * cross-track one, so repairing SAT never consults the GRE corpus — doing so
+ * would strip SAT of exactly the overlap that belongs in it. See
+ * docs/adr/0013-cross-track-overlap.md.
+ *
+ *   npx tsx scripts/repair-corpus.ts [--track sat] [--out public/vocab]
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -22,11 +27,40 @@ import { join } from "node:path";
 import { spawn } from "node:child_process";
 import { stem } from "../src/lib/stem";
 import { checkWord } from "../src/lib/word-quality";
-import type { VocabMonth, VocabWord } from "../src/types";
+import { isTrack, wordId } from "../src/lib/track";
+import type { Track, VocabMonth, VocabWord } from "../src/types";
 
-const DIR = process.argv[2] ?? "public/vocab";
+const argv = process.argv.slice(2);
+const flag = (name, fallback) => {
+  const i = argv.indexOf(name);
+  return i >= 0 && argv[i + 1] ? argv[i + 1] : fallback;
+};
+const requestedTrack = flag("--track", "gre");
+if (!isTrack(requestedTrack)) {
+  console.error(`--track must be one of gre, sat (got "${requestedTrack}")`);
+  process.exit(1);
+}
+const TRACK: Track = requestedTrack;
+const ROOT = flag("--out", argv[0] && !argv[0].startsWith("--") ? argv[0] : "public/vocab");
+const DIR = join(ROOT, TRACK);
 const SEED = "src/data";
 const PER_MONTH = 90;
+
+/**
+ * Which months to touch, and how far to fill them.
+ *
+ * Topping every short month back to 90 was the right default when a corpus
+ * was short because a generator had run twice. It is the wrong one for a
+ * corpus that is short because it has reached the end of its vocabulary:
+ * asking for 850 more SAT words that must all differ from the 2,389 already
+ * used is hours of generation that returns almost nothing.
+ *
+ * So: only months below `--floor` are repaired, and only up to `--target`.
+ * The audit asserts a floor rather than uniformity for the same reason —
+ * padding to a round number means reaching for obscurities.
+ */
+const FLOOR = Number(flag("--floor", String(PER_MONTH)));
+const TARGET = Number(flag("--target", String(PER_MONTH)));
 const WORDS_PER_DAY = 3;
 const CARD_BATCH = 15;
 
@@ -75,18 +109,21 @@ function extractJson<T>(text: string): T {
   throw new Error("unterminated JSON");
 }
 
-const files = readdirSync(DIR).filter((f) => /^\d{4}-\d{2}\.json$/.test(f)).sort();
+const files = readdirSync(DIR).filter((f) => /^\d{2}\.json$/.test(f)).sort();
 const months = files.map(
   (f) => JSON.parse(readFileSync(join(DIR, f), "utf-8")) as VocabMonth,
 );
 
-// Everything the app already ships is off limits too.
+// Everything the app already ships **in this track** is off limits too. A
+// word in the other track's corpus is not a duplicate here.
 const seen = new Map<string, string>();
-for (const f of readdirSync(SEED).filter((f) => f.endsWith(".json"))) {
+for (const f of readdirSync(SEED).filter(
+  (f) => f.startsWith(`${TRACK}-`) && f.endsWith(".json"),
+)) {
   const m = JSON.parse(readFileSync(join(SEED, f), "utf-8")) as VocabMonth;
   for (const d of m.days) for (const w of d.words) seen.set(stem(w.word), w.word);
 }
-console.log(`${seen.size} words bundled with the app are excluded`);
+console.log(`${TRACK}: ${seen.size} words bundled with the app are excluded`);
 
 // --- Pass 1: dedupe -----------------------------------------------------------
 let removed = 0;
@@ -108,16 +145,22 @@ for (const month of months) {
 console.log(`removed ${removed} duplicate words`);
 
 // --- Pass 2: top up -----------------------------------------------------------
-const short = months.filter((m) => countWords(m) < PER_MONTH);
-const shortfall = short.reduce((n, m) => n + (PER_MONTH - countWords(m)), 0);
-console.log(`${short.length} months short, ${shortfall} words to generate\n`);
+const short = months.filter((m) => countWords(m) < FLOOR);
+const shortfall = short.reduce((n, m) => n + (TARGET - countWords(m)), 0);
+console.log(
+  `${short.length} months under ${FLOOR}, ${shortfall} words to generate up to ${TARGET}\n`,
+);
 
 for (const month of months) {
-  const need = PER_MONTH - countWords(month);
+  if (countWords(month) >= FLOOR) continue;
+  const need = TARGET - countWords(month);
   if (need <= 0) continue;
-  console.log(`${month.month}  needs ${need}`);
+  console.log(`${month.track}/${String(month.ordinal).padStart(2, "0")}  needs ${need}`);
 
-  const words = await selectWords(need, month.description ?? "GRE vocabulary");
+  const words = await selectWords(
+    need,
+    month.description ?? `${TRACK.toUpperCase()} vocabulary`,
+  );
   if (words.length === 0) {
     console.log(`  nothing usable came back; leaving it short`);
     continue;
@@ -127,7 +170,7 @@ for (const month of months) {
   for (let i = 0; i < words.length; i += CARD_BATCH) {
     try {
       const raw = await writeCards(words.slice(i, i + CARD_BATCH));
-      cards.push(...raw.map((c) => toWord(c, month.month)));
+      cards.push(...raw.map((c) => toWord(c)));
     } catch (error) {
       console.log(`  batch failed: ${String(error).slice(0, 100)}`);
     }
@@ -135,7 +178,7 @@ for (const month of months) {
 
   const good = cards.filter((c) => checkWord(c).length === 0);
   const existing = month.days.flatMap((d) => d.words);
-  month.days = layOut([...existing, ...good].slice(0, PER_MONTH));
+  month.days = layOut([...existing, ...good].slice(0, TARGET));
   console.log(`  added ${good.length}, now ${countWords(month)}`);
 }
 
@@ -229,10 +272,10 @@ async function writeCards(words: string[]): Promise<RawCard[]> {
   return extractJson<RawCard[]>(await ask(prompt));
 }
 
-function toWord(card: RawCard, monthKey: string): VocabWord {
+function toWord(card: RawCard): VocabWord {
   const slug = String(card.word).trim().toLowerCase().replace(/[^a-z0-9]+/g, "-");
   return {
-    id: `${monthKey}-${slug}`,
+    id: wordId(TRACK, slug),
     word: String(card.word ?? "").trim(),
     partOfSpeech: String(card.partOfSpeech ?? "").trim(),
     definition: String(card.definition ?? "").trim(),

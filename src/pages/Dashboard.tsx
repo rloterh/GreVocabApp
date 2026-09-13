@@ -336,18 +336,24 @@ function StatCard({
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay }}
+      // Full height, and the value pushed to the bottom. Four across on a
+      // tablet is narrow enough that "Words mastered" wraps to two lines while
+      // its neighbours do not, and without this that card grew taller and its
+      // number sat below the other three. Aligning on the bottom works for any
+      // label rather than for the ones that happen to fit today.
+      className="h-full"
     >
       <Card
         className={cn(
-          "transition-colors",
+          "h-full transition-colors",
           highlight && "border-accent/40 bg-accent/[0.03]",
         )}
       >
-        <CardContent className="p-4">
-          <div className="flex items-center gap-2 text-muted-foreground mb-2">
+        <CardContent className="p-4 flex h-full flex-col">
+          <div className="flex items-start gap-2 text-muted-foreground mb-2">
             <Icon
               className={cn(
-                "w-3.5 h-3.5",
+                "w-3.5 h-3.5 shrink-0 mt-px",
                 highlight && "text-accent",
               )}
             />
@@ -355,7 +361,7 @@ function StatCard({
               {label}
             </p>
           </div>
-          <div className="flex items-baseline gap-1.5">
+          <div className="mt-auto flex items-baseline gap-1.5">
             <p className="display-serif text-3xl font-semibold tabular">
               {value}
             </p>

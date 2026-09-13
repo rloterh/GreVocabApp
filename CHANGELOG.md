@@ -4,7 +4,41 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ## [Unreleased]
 
+### Fixed
+
+- **Daily reminders now actually reach you with the app closed.** They never
+  had. The plugin was registered and permission requested, but nothing ever
+  called a scheduling API, so the only thing that could fire was the in-app
+  interval — which needs the app open, i.e. exactly when a reminder is
+  pointless. Three separate faults, all of them invisible until the app ran on
+  a device:
+  - `sendNotification` never reaches Rust. It calls `new window.Notification()`
+    and depends on an init script having replaced that global; when that fails
+    there is no error and no log line. Now the command is invoked by name, so
+    a failure is catchable and reportable.
+  - A repeating `at` schedule repeats at the wrong interval — Android derives
+    it from `date - now`, so a 19:00 reminder set at 18:00 repeats *hourly*.
+    Replaced with the calendar-pattern form, which re-arms daily.
+  - Asking Android 13+ for a notification permission you already hold never
+    returns, and wedges every later notification call in the process. The
+    reminder checkbox would not stay switched on and nothing said why.
+    Permission is now checked before it is requested.
+  Settings reports what the system actually did with the request, including
+  the next firing time, so a reminder that failed to schedule no longer looks
+  identical to one that is simply waiting.
+- **The toast no longer covers the mobile tab bar.** At `z-50` against the
+  bar's `z-30` it won the stack and sat on top of the navigation; it now
+  clears the bar and its safe-area padding, and fits a 320px screen.
+- **Settings showed `Lexicon v0.1.0`** — hand-written, and three releases
+  stale. It reads the same `__APP_VERSION__` the About dialog does.
+
 ### Added
+
+- **`scripts/android-signing.mjs`** — restores the release signing config to
+  the generated Android project, which is untracked and so loses it on every
+  regeneration. Idempotent, with a `--check` mode. Credentials come from an
+  ignored `keystore.properties`; without one the release build still completes,
+  unsigned. See docs/MOBILE.md for the full release-build procedure.
 - **SM-2 spaced repetition** (`src/lib/sm2.ts`) — rating a flashcard now
   schedules its next review. `WordProgress` carries `easeFactor`,
   `intervalDays`, `reps` and `dueAt`; all four are optional, so progress saved

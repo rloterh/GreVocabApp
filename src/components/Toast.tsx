@@ -7,7 +7,11 @@ export function Toast() {
   const toast = useAppStore((s) => s.toast);
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 pointer-events-none">
+    // Above the tab bar, not across it. `bottom-6` alone lands the toast on
+    // top of the mobile nav: it is z-50 to the tab bar's z-30, so it wins the
+    // stack and covers the thing the user's thumb is reaching for. Clear the
+    // bar's height plus its safe-area padding wherever the bar exists.
+    <div className="fixed bottom-[calc(4.5rem+env(safe-area-inset-bottom))] right-4 left-4 rail:bottom-6 rail:right-6 rail:left-auto z-50 pointer-events-none flex justify-end">
       <AnimatePresence>
         {toast && (
           <motion.div
@@ -16,11 +20,13 @@ export function Toast() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.95 }}
             transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="pointer-events-auto"
+            className="pointer-events-auto w-full rail:w-auto"
           >
             <div
               className={cn(
-                "flex items-start gap-3 rounded-lg border bg-card/95 backdrop-blur-md p-4 pr-6 shadow-xl min-w-[300px] max-w-md",
+                // Full width on a phone, where a 300px floor overflows a 320px screen
+                // and gives the page a horizontal scrollbar.
+                "flex items-start gap-3 rounded-lg border bg-card/95 backdrop-blur-md p-4 pr-6 shadow-xl w-full rail:w-auto rail:min-w-[300px] max-w-md",
                 toast.variant === "success" && "border-success/40",
                 toast.variant === "error" && "border-destructive/40",
               )}

@@ -358,17 +358,35 @@ Phase 9's code-side work does not depend on any of the above and is complete:
   directory the wrong model, not because an API is missing.
 - **The system back gesture** — `src/hooks/useSystemBack.ts`. Back navigates
   within the app and only exits from the home screen.
-- **Notifications that fire with the app closed** — `tauri-plugin-notification`
-  is wired up, including the Android 13+ runtime permission, with the browser
-  API as the fallback the web build honestly admits to.
+- **Notifications that fire with the app closed** — `src/lib/reminder-schedule.ts`
+  hands a daily calendar pattern to the OS scheduler; the browser API is the
+  web fallback the UI honestly admits to. This line previously claimed the same
+  thing while nothing ever called a scheduling API. Read the module header and
+  docs/MOBILE.md before touching it: the obvious payload repeats at the wrong
+  interval, and the obvious way to ask for permission hangs forever on Android
+  13+ and takes the rest of the plugin down with it.
 
 ### Known gaps
 
-- **No signing keystore.** It must be generated on the release machine and kept
-  out of the repo. Losing it means never updating the listing again.
-- **Nothing has run on a device.** Everything above is compiled and reasoned
-  about, not observed on hardware. The definition of done for this phase is a
-  signed APK on a real device, and that has not happened.
+- **The signing keystore is per-machine.** `node scripts/android-signing.mjs`
+  restores the signing config to the generated project, which loses it on every
+  regeneration; the keystore itself is generated on the release machine and
+  kept out of the repo. Losing it means never updating the listing again.
+- **Nothing has run on physical hardware.** A signed release APK has been built
+  and an Android 14 *emulator* has run it, which found real bugs the compiler
+  could not. What an emulator still cannot tell you: whether the notification
+  survives a vendor battery manager, how the app feels under a finger, or what
+  a real WebView version does. That needs a phone.
+- **The notification icon is Android's generic (i).** The plugin falls back to
+  `android.R.drawable.ic_dialog_info` when no icon is configured, so every
+  reminder Lexicon posts wears a system glyph rather than its own mark. Fixing
+  it needs a monochrome drawable in the generated `res/` directory — which is
+  untracked, so it wants a small patch script alongside
+  `scripts/android-signing.mjs` — plus `plugins.notification.icon` in
+  `tauri.conf.json`.
+- **Predictive back is not opted into.** The gesture works; the Android 14
+  preview animation does not. See docs/MOBILE.md for why enabling the flag
+  would break back navigation rather than decorate it.
 - **Share-target intent** and the Play listing itself are still open.
 
 ### What actually worked, 2026-09-12

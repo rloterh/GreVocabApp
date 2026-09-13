@@ -31,6 +31,11 @@ Tracks are a v1.1 concern and sit below the v1.0 documents above: read
 [0013](./adr/0013-cross-track-overlap.md) before TRACKS.md or SCHEDULE.md —
 they decide the data model those two describe.
 
+Before changing the daily reminder, read
+[ADR 0015](./adr/0015-os-scheduled-reminders.md) alongside
+[MOBILE.md](./MOBILE.md). The obvious payload arms the wrong alarm and the
+obvious permission call hangs forever; both are decisions, not oversights.
+
 The phased plan that sequences all of this is [`../ROADMAP.md`](../ROADMAP.md).
 Conventions and the day-to-day handoff are in
 [`../CONTINUING.md`](../CONTINUING.md).

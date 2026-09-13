@@ -49,6 +49,11 @@ function legacyMonth(month: string, words: string[]) {
 function legacyStorage(
   months: Record<string, ReturnType<typeof legacyMonth>>,
   progress: Record<string, unknown> = {},
+  // The assertions walk several levels into a shape that is, by definition,
+  // the *old* one. Naming it properly would mean maintaining a second copy of
+  // every type this migration exists to replace, and a recursive JSON union
+  // does not survive `read(K).state.months[k]` without a cast at every step.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 ): MigrationStorage & { read(key: string): any } {
   const data = new Map<string, string>();
   data.set(

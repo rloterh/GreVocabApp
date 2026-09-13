@@ -1,10 +1,15 @@
 /**
- * Optional daily study nudge.
+ * The optional daily study nudge, and where it is handled.
  *
- * Deliberately modest: this fires only while the app is open. A reminder that
- * reaches you with the app closed needs a service worker on web, or
- * tauri-plugin-notification (plus Rust-side capability changes) on desktop —
- * neither of which is wired up yet. See ROADMAP.md, Phase 4.
+ * Two routes, and only ever one of them at a time. Where the OS can hold an
+ * alarm, `src/lib/reminder-schedule.ts` hands it over and this hook does
+ * nothing further — that is the whole point of a reminder, since it has to
+ * arrive when the app is *not* open. Everywhere else, meaning the web build,
+ * the interval below watches the clock while a tab happens to be open.
+ *
+ * The interval is explicitly skipped when the OS has the alarm. Running both
+ * would notify twice on any day the app were open at the right moment, which
+ * is the one day the user is least in need of a nudge.
  *
  * The "fire once per day" guard lives in the settings store rather than a ref,
  * so reloading the page mid-evening does not produce a second notification.
@@ -12,6 +17,11 @@
 
 import { useEffect, useRef } from "react";
 import { canScheduleNotifications } from "@/lib/platform";
+import {
+  cancelDailyReminder,
+  scheduleDailyReminder,
+} from "@/lib/reminder-schedule";
+import { notificationPermission } from "@/lib/notification-permission";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -22,64 +32,18 @@ import { countDue } from "@/lib/sm2";
 const TICK_MS = 60_000;
 
 /**
- * Show a notification through the best route this build has.
+ * Show a notification now, from the browser API.
  *
- * In a packaged build the OS notification service is used, which is what lets
- * a reminder mean something when the app is not in front of the user. The web
- * build falls back to the browser API, which only works while a tab is open —
- * honest, but much weaker, and the UI says so.
+ * Only the web path reaches this: the caller returns early wherever the OS is
+ * holding the alarm, so there is no Tauri branch here to go stale. It used to
+ * have one, which was unreachable and still looked like the supported route.
  */
-async function notify(title: string, body: string): Promise<void> {
-  if (canScheduleNotifications()) {
-    try {
-      const { sendNotification, isPermissionGranted, requestPermission } =
-        await import("@tauri-apps/plugin-notification");
-      // Android 13+ requires this at runtime; elsewhere it resolves granted.
-      if (!(await isPermissionGranted())) {
-        if ((await requestPermission()) !== "granted") return;
-      }
-      sendNotification({ title, body });
-      return;
-    } catch {
-      // Plugin missing or refused — fall through to the browser API rather
-      // than dropping the reminder entirely.
-    }
-  }
-
+function notify(title: string, body: string): void {
   try {
     new Notification(title, { body });
   } catch {
     // Some webviews expose Notification but refuse to construct it. Nothing
     // useful to do; the slot is already claimed for today.
-  }
-}
-
-/** Does this runtime expose the Notification API at all? */
-export function supportsNotifications(): boolean {
-  return typeof window !== "undefined" && "Notification" in window;
-}
-
-/** Current permission, or "unsupported" when there is no Notification API. */
-export function notificationPermission():
-  | NotificationPermission
-  | "unsupported" {
-  if (!supportsNotifications()) return "unsupported";
-  return Notification.permission;
-}
-
-/**
- * Ask for permission. Resolves to the resulting state; callers should treat
- * anything other than "granted" as "reminders are off".
- */
-export async function requestNotificationPermission(): Promise<
-  NotificationPermission | "unsupported"
-> {
-  if (!supportsNotifications()) return "unsupported";
-  try {
-    return await Notification.requestPermission();
-  } catch {
-    // Older implementations use the callback form and can throw here.
-    return Notification.permission;
   }
 }
 
@@ -110,13 +74,24 @@ export function useStudyReminder(): void {
   const dataRef = useRef({ months, wordsProgress });
   dataRef.current = { months, wordsProgress };
 
+  // Where the OS can hold an alarm, let it. This is the whole point of a
+  // reminder: it has to arrive when the app is *not* open, and the interval
+  // below cannot do that however carefully it is written.
   useEffect(() => {
-    if (!enabled) return;
-    // The packaged build asks through the plugin at send time, including the
-    // Android 13+ runtime prompt; only the browser gates up front.
-    if (!canScheduleNotifications() && notificationPermission() !== "granted") {
+    if (!canScheduleNotifications()) return;
+    if (!enabled) {
+      void cancelDailyReminder();
       return;
     }
+    void scheduleDailyReminder(time);
+  }, [enabled, time]);
+
+  useEffect(() => {
+    if (!enabled) return;
+    // Handed to the OS above; running the interval too would notify twice on
+    // any day the app happens to be open at the right moment.
+    if (canScheduleNotifications()) return;
+    if (notificationPermission() !== "granted") return;
 
     const parsed = minutesOfDay(time);
     if (parsed === null) return;
@@ -144,7 +119,7 @@ export function useStudyReminder(): void {
         due > 0
           ? `${due} word${due === 1 ? "" : "s"} due for review.`
           : "No reviews due — a few minutes of practice still helps.";
-      void notify("Lexicon", body);
+      notify("Lexicon", body);
     }
 
     tick();

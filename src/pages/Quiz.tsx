@@ -16,6 +16,7 @@ import { isDue } from "@/lib/sm2";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import type { QuizMode, QuizPool, QuizQuestion, VocabWord } from "@/types";
 import { keyOf } from "@/lib/track";
+import { ConfusableDrill } from "@/components/ConfusableDrill";
 
 type Screen = "setup" | "playing" | "results";
 
@@ -239,6 +240,26 @@ export function Quiz() {
           />
         )}
       </AnimatePresence>
+
+      {/*
+        Beside the quiz, not in it — see the note in src/lib/confusables.ts on
+        why a two-option question must not feed an accuracy figure the user
+        reads as mastery.
+
+        Outside the AnimatePresence above, which is `mode="wait"` and so
+        renders a single child: putting this in it made the drill silently
+        never appear.
+      */}
+      {screen === "setup" && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.15 }}
+          className="mt-6"
+        >
+          <ConfusableDrill />
+        </motion.div>
+      )}
     </div>
   );
 }

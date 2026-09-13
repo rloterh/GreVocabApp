@@ -7,8 +7,10 @@ import {
   Sparkles,
   TrendingUp,
 } from "lucide-react";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import { WordOfTheDay } from "@/components/WordOfTheDay";
+import { WordDetail, type WordDetailTarget } from "@/components/WordDetail";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/EmptyState";
@@ -33,6 +35,7 @@ export function Dashboard() {
 
   const getAllMonths = useVocabStore((s) => s.getAllMonths);
   const activeTrack = useVocabStore((s) => s.activeTrack);
+  const [detail, setDetail] = useState<WordDetailTarget | null>(null);
   const monthKeyForDate = useVocabStore((s) => s.monthKeyForDate);
   const today = new Date();
   const todayMonthKey = calendarMonthOfDate(today);
@@ -199,6 +202,19 @@ export function Dashboard() {
           </Card>
         </motion.div>
       )}
+
+      <WordOfTheDay onOpen={setDetail} />
+
+      <WordDetail
+        word={detail}
+        onOpenChange={(open) => !open && setDetail(null)}
+        onOpenPractice={(w) => {
+          setDetail(null);
+          setActiveMonth(w.monthKey);
+          setSelectedDay(w.day);
+          navigate("practice");
+        }}
+      />
 
       <motion.div
         initial={{ opacity: 0, y: 8 }}

@@ -33,6 +33,7 @@ import { buildHeatmap, calculateStreaksWithFreezes } from "@/lib/streak";
 import { allWordsInMonth } from "@/lib/vocabulary";
 import { daysInMonth, format, toDateKey } from "@/lib/date-utils";
 import { isInTrack, keyOf } from "@/lib/track";
+import { trackOfExam } from "@/lib/exam";
 import { cn } from "@/lib/utils";
 
 type Range = "month" | "quarter" | "year";
@@ -48,8 +49,17 @@ export function ProgressPage() {
   const [year, setYear] = useState(currentYear);
   const [range, setRange] = useState<Range>("month");
 
-  // One missed day a week does not end a run. ADR 0006.
-  const exams = useProgressStore((s) => s.exams);
+  const allExams = useProgressStore((s) => s.exams);
+  // A GRE mock score is not an SAT score, and a history that mixes them tells
+  // a user their average is something it is not. The track comes from the word
+  // ids rather than from a stored field, so exams taken before tracks existed
+  // are filed correctly too. See `trackOfExam`.
+  const exams = useMemo(
+    () => allExams.filter((e) => (trackOfExam(e) ?? activeTrack) === activeTrack),
+    [allExams, activeTrack],
+  );
+  // One missed day a week does not end a run. ADR 0006. Counted from activity
+  // across both tracks, because a day studied is a day studied.
   const streaks = useMemo(
     () => calculateStreaksWithFreezes(activity),
     [activity],

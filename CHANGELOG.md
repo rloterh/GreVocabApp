@@ -102,6 +102,61 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - `SentenceBuilder` reset its draft from inside a `useMemo` with an incomplete
   dependency list; `Quiz` rebuilt a memo dependency on every render.
 
+## [1.2.0] — 2026-09-13
+
+Four things that make studying better, and two that were quietly wrong.
+
+### Added
+
+- **Word of the day** on the Dashboard, seeded by the date so it holds until
+  midnight — a word that changed on every render would be decoration rather
+  than a prompt. Drawn first from whatever the scheduler says is about to fade,
+  and the card says why it chose what it chose.
+- **Root families.** 99 of them, **curated rather than inferred**. Clustering
+  by shared prefix is the obvious implementation and is wrong in a way a user
+  cannot detect: *commend*, *commence*, *commemorate* and *commensurate* share
+  five letters and four different roots. A family is shown only when you
+  already have another member of it. On the flashcard back and in word detail.
+- **Pronunciation you can configure.** One voice everywhere a word can be
+  spoken, plus a voice picker, a speed slider and an opt-in "say it when the
+  card is revealed" in Settings. Uses the voices already on the device;
+  nothing is downloaded and nothing is sent anywhere.
+- **A confusable-pairs drill** on the Quiz page — 36 pairs, each with a line
+  saying what actually separates them. It needs no authored content: every card
+  already carries an example sentence containing its word, so blanking the word
+  out and offering the pair is correct by construction.
+- Exam history is **tagged by track**, so a GRE mock score no longer sits in
+  the same list as an SAT one. Derived from word ids rather than stored, which
+  files exams taken before tracks existed correctly too.
+
+### Fixed
+
+- **Four selectors were still pooling both tracks** — search, the quiz pool,
+  the exam pool and the generator's exclusion list. An SAT exam could draw GRE
+  words, which silently changes what the score means. ADR 0011 names seven
+  selectors that must honour the active track; four of them never did.
+- **Five places passed a store key to a date formatter.** Both are `string`, so
+  the compiler could not tell them apart, and handing `formatMonthKey` a
+  `"gre/01"` raised `RangeError: Invalid time value` and blanked the page.
+  `formatMonthKey` now returns its input rather than throwing, because a
+  wrong-looking label beats a white screen.
+- Four stat cards across on a tablet: "Words mastered" wraps where its
+  neighbours do not, which made that card taller and left its number off the
+  line the other three shared.
+- `containsWord` reported *belie* as missing from "Her calm voice belied the
+  panic" — the stemmer maps *belied* to `bely` and *belie* to `beli`, which
+  differ in the last character, so no shared-prefix test could bridge them. The
+  whole `-ie/-ied` family was affected.
+
+### Notes
+
+The SAT corpus was regenerated with the prompt steered below the GRE register,
+to test the claim in ADR 0013 that the two should overlap by about a third.
+54% instead of 59%, for 121 fewer words and seven months under the size floor.
+The original corpus is kept, and the record now says that the *estimate* was
+wrong rather than the corpus: at the level both exams target, the vocabulary
+largely is the same words.
+
 ## [1.1.0] — 2026-09-13
 
 Two exams, and content that no longer has a calendar baked into it.

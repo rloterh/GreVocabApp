@@ -16,11 +16,12 @@ import { isDue } from "@/lib/sm2";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import type { QuizMode, QuizPool, QuizQuestion, VocabWord } from "@/types";
 import { keyOf } from "@/lib/track";
+import { ConfusableDrill } from "@/components/ConfusableDrill";
 
 type Screen = "setup" | "playing" | "results";
 
 export function Quiz() {
-  const { months, activeMonthKey, getActiveMonth } = useVocabStore();
+  const { months, activeMonthKey, getActiveMonth, getAllMonths } = useVocabStore();
   const isMastered = useProgressStore((s) => s.isMastered);
   const recordAnswer = useProgressStore((s) => s.recordQuizAnswer);
   const addSession = useProgressStore((s) => s.addQuizSession);
@@ -41,7 +42,9 @@ export function Quiz() {
   >([]);
   const [chosen, setChosen] = useState<string | null>(null);
 
-  const allMonthsList = Object.values(months);
+  // The open track only. Pooling both would put SAT words in a GRE exam and
+  // quietly change what the score means. See docs/adr/0011-tracks.md.
+  const allMonthsList = getAllMonths();
   const allWords: VocabWord[] = useMemo(
     () => allMonthsList.flatMap(allWordsInMonth),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -237,6 +240,26 @@ export function Quiz() {
           />
         )}
       </AnimatePresence>
+
+      {/*
+        Beside the quiz, not in it — see the note in src/lib/confusables.ts on
+        why a two-option question must not feed an accuracy figure the user
+        reads as mastery.
+
+        Outside the AnimatePresence above, which is `mode="wait"` and so
+        renders a single child: putting this in it made the drill silently
+        never appear.
+      */}
+      {screen === "setup" && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.15 }}
+          className="mt-6"
+        >
+          <ConfusableDrill />
+        </motion.div>
+      )}
     </div>
   );
 }

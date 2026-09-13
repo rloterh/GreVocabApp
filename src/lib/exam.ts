@@ -15,7 +15,8 @@
  * See docs/QUIZ-AND-EXAMS.md.
  */
 
-import type { QuizQuestion } from "@/types";
+import type { QuizQuestion, Track } from "@/types";
+import { trackOfWordId } from "@/lib/track";
 
 export interface ExamAnswer {
   chosen: string;
@@ -325,4 +326,27 @@ export function toSummary(session: ExamSession): ExamSummary {
     perSection: score.perSection,
     missed: missedWordIds(session),
   };
+}
+
+/**
+ * Which track an exam summary belongs to, or null if it cannot be told.
+ *
+ * Derived from the word ids rather than stored on the record, because ids are
+ * track-scoped (ADR 0011) and so already carry the answer. Deriving it means
+ * exams taken before tracks existed are filed correctly too — the migration
+ * rewrote their ids, so their history came with them — where a new field would
+ * have left every one of them untagged forever.
+ *
+ * `missed` is empty for a perfect score, which is exactly the exam somebody is
+ * most likely to want to see. `perSection` cannot help and neither can the id,
+ * so a flawless exam is deliberately shown in **every** track rather than
+ * hidden from both: an unattributable record is better over-reported than
+ * disappeared.
+ */
+export function trackOfExam(summary: ExamSummary): Track | null {
+  for (const id of summary.missed) {
+    const track = trackOfWordId(id);
+    if (track) return track;
+  }
+  return null;
 }

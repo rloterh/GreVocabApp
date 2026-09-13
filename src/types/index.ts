@@ -275,6 +275,18 @@ export interface Settings {
   /** Opt-in interface sounds. */
   soundEnabled: boolean;
   /**
+   * `voiceURI` of the chosen speech voice, or null for the browser default.
+   *
+   * Stored by URI rather than by name because a name is not unique across
+   * platforms, and by preference rather than by index because the voice list
+   * is ordered differently on every machine.
+   */
+  speechVoice: string | null;
+  /** Playback rate for pronunciation, 0.5–1.5. */
+  speechRate: number;
+  /** Say the word aloud when a flashcard is revealed. Off by default. */
+  autoPronounce: boolean;
+  /**
    * Ids of installed AI CLIs the user has explicitly enabled. Detection alone
    * never grants permission — running one spends their subscription quota.
    */

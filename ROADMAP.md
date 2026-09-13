@@ -23,11 +23,72 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
 
-**Phases 13 to 17 are done** — tracks, ordinal content, the schedule and its
-migration, the start-date screens, the flashcard edge arrows and swipe, the
-tablet shell, and three years of SAT vocabulary audited to the same standard as
-the GRE corpus. **Next is Phase 18**, the v1.1 release: CHANGELOG, tablet
-screenshots, CONTINUING.md, and the merge to `main`.
+**v1.1 shipped on 2026-09-13**, tagged `v1.1.0` — tracks, ordinal content, the
+schedule and its migration, the start-date screens, the flashcard edge arrows
+and swipe, the tablet shell, and three years of SAT vocabulary.
+
+**All three follow-ups from the v1.1 release are done** (2026-09-13):
+
+1. ~~**Track-tag quiz and exam history.**~~ Derived from word ids rather than
+   stored, so exams taken before tracks existed are filed correctly too.
+2. ~~**Regenerate SAT against the GRE register.**~~ **Run and rejected.** A
+   whole second corpus was generated with the prompt steered below the GRE
+   register: 54% overlap instead of 59%, for 121 fewer words and seven months
+   under the floor. Five points is not worth that, and the conclusion is that
+   the *estimate* was wrong rather than the corpus — at the level both exams
+   target, the vocabulary largely is the same words. Numbers in
+   [ADR 0013](./docs/adr/0013-cross-track-overlap.md) so nobody runs it again;
+   the steer stays in the generator for the next regeneration.
+3. ~~**Phase 11 craft.**~~ Word of the day, audio pronunciation, root families
+   and the confusable-pairs drill.
+
+**Next**, and none of it urgent:
+
+- **Daily Practice as master/detail**, and word detail as a landscape side
+  panel on tablets. Improvements rather than fixes; kept out of Phase 16
+  deliberately so a breakpoints phase stayed one.
+- **Android on real hardware.** Built and signed; never run on a device.
+  `useSystemBack` and the notification paths are compiled but unobserved.
+- **Play Store submission**, which needs the keystore handled properly and a
+  privacy policy URL.
+- **iOS**, still blocked on a Mac and the $99/yr account.
+- The remaining P2s below: AI-generated distractors, a session recap card,
+  empty and success state craft.
+
+## Where we are
+
+**Phase 1: Foundation — SHIPPED (v0.1.0)**
+
+Full working app with dashboard, daily practice, flashcards (3D flip + Anki-style rating + swipe + confetti), quiz mode, sentence builder with AI/heuristic verification, calendar, archive, progress with heatmap and charts, search, settings with backup/restore, theming, seed data (April + May 2026, 180 words), Tauri v2 desktop wrapper, CI.
+
+See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
+
+## Next up (start here)
+
+**Current work: v1.1.** Two exams, any start date. It lands on `dev`
+([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
+end of Phase 18.
+
+**v1.1 shipped on 2026-09-13**, tagged `v1.1.0` — tracks, ordinal content, the
+schedule and its migration, the start-date screens, the flashcard edge arrows
+and swipe, the tablet shell, and three years of SAT vocabulary.
+
+**Next**, in the order I would take them:
+
+1. **Track-tag quiz and exam history** (Phase 13, P1, below). It is the last
+   thing v1.1 shipped without, and it is now a correctness gap rather than a
+   nicety: a GRE mock score sits in the same list as an SAT one.
+2. ~~**Regenerate SAT against the GRE register.**~~ **Done and rejected,
+   2026-09-13.** A whole second corpus was generated with the prompt steered
+   below the GRE register: 54% overlap instead of 59%, for 121 fewer words and
+   seven months under the floor. Five points is not worth that, and the
+   conclusion is that the estimate was wrong rather than the corpus  + D +  at the
+   level both exams target, the vocabulary *is* largely the same words. The
+   numbers are in [ADR 0013](./docs/adr/0013-cross-track-overlap.md) so nobody
+   runs it again; the steer stays in the generator for the next regeneration.
+3. **Phase 11 craft** — word of the day, audio pronunciation, etymology
+   families, confusable pairs. The first user-visible work in a while that is
+   not structural.
 
 **Phases 1-5 are complete.** v0.1 is a working web and desktop app: SM-2
 scheduling, four import formats, an Anki round-trip, AI generation, sharing,
@@ -344,10 +405,10 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 - ~~**[P0] Info dialog.**~~ **DONE 2026-09-11.** — `AboutDialog`, beside Settings in the sidebar and in the mobile More sheet. The version comes from package.json through a Vite define, so it cannot claim a version the build is not.
 - ~~**[P0] README with screenshots.**~~ **DONE 2026-09-11**, in Phase 7 — `docs/screenshots/` at 390, 768 and 1280.
 - ~~**[P1] Streak freeze.**~~ **DONE 2026-09-12.** — One per seven days of the run, spent automatically on a single missed day. A week away is still a break. The Dashboard says "N missed days covered" only when it happened, and there is nothing to earn, spend faster, or compare.
-- **[P1] Word of the day** on the Dashboard, drawn from what is due.
-- **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
-- **[P1] Etymology and root families.** — Group by shared root; show the family while studying one. Genuinely aids retention.
-- **[P1] Confusable pairs drill.** — `affect`/`effect`, `discreet`/`discrete`. → A real, repeated failure mode, and satisfying to finally nail.
+- ~~**[P1] Word of the day.**~~ **DONE 2026-09-13.** — `src/lib/word-of-the-day.ts`, pure and seeded by the date so it holds until midnight — a word that changed on every render would be decoration, not a prompt. Drawn first from what the scheduler says is due, then from anything unmastered, and the card says which.
+- ~~**[P1] Audio pronunciation.**~~ **DONE 2026-09-13.** — `src/lib/speech.ts` and one `SpeakButton`, replacing three hand-rolled copies that each built their own utterance at rate 0.9 and none of which could honour a preference, because there was nowhere to keep one. Settings gets a voice picker, a speed slider and an opt-in "say it when the card is revealed". The picker subscribes to `voiceschanged`: `getVoices()` returns an empty array on first call in most browsers, so a picker built on one synchronous read is empty the first time it is opened and correct ever after, which looks like a bug that fixes itself and is never reported.
+- ~~**[P1] Etymology and root families.**~~ **DONE 2026-09-13.** — `src/lib/roots.ts`: 99 families, **curated rather than inferred**. Clustering by shared prefix is the obvious implementation and it is wrong — *commend*, *commence*, *commemorate* and *commensurate* share five letters and four roots. A family is shown only when the user already has another member of it, which is 294 of the 2,825 GRE words. Three members were dropped for being plain wrong (*subjugate* is a yoke, *incentive* a tune, *turmoil* has no agreed origin), one of them caught by the test.
+- ~~**[P1] Confusable pairs drill.**~~ **DONE 2026-09-13.** — 36 pairs, on the Quiz page but **not a quiz mode**: `quiz-build.ts` already refuses two-option questions ("a question the user can guess by elimination is worse than one question fewer"), and folding a coin-flip baseline into quiz accuracy would inflate a number the user reads as mastery. Questions need no authored content — every card's example already contains its word, so blanking it out is correct by construction. A pair counts only when **both** words are loaded.
 - **[P2] Session recap card.** — A shareable image of a session; the deck-share plumbing already exists.
 - **[P2] Empty and success state craft.**
 
@@ -425,7 +486,7 @@ anybody's work.
 - ~~**[P0] The migration.**~~ **DONE 2026-09-12.** — `src/lib/migrations/tracks.ts`, run from `main.tsx` **before any store hydrates** — the id map is built from the vocabulary and needed by progress, and zustand hydrates stores in no defined order. Idempotent, and fails closed: any error leaves every blob untouched. References are rewritten structurally rather than field by field, so an exam's `missed` array and a sentence's composite key are covered without naming them.
 - ~~**[P0] Migration tests.**~~ **DONE 2026-09-12.** — 23 of them, ending in the acceptance test. **A browser found what none of them could:** the progress store had no `version`, so zustand saw a blob stamped with one and discarded every record — storage correct, running app empty. `scripts/drive/tracks-smoke.mjs` now reads the mastered count off the screen, not out of localStorage.
 - ~~**[P1] Per-track dedup index.**~~ **DONE 2026-09-12.** — `getVocabIndex(track)`; retired words are filed by the track in their key.
-- **[P1] Track tagging on quiz and exam history.** — A GRE mock score is not an SAT score.
+- ~~**[P1] Track tagging on quiz and exam history.**~~ **DONE 2026-09-13.** — Derived from the word ids rather than stored on the record, because ids are track-scoped and already carry the answer. That files exams taken *before* tracks existed correctly too, where a new field would have left every one of them untagged forever. A flawless exam has no missed words to read a track from, so it shows in both rather than disappearing from each.
 
 ### Definition of done — met 2026-09-12
 
@@ -543,17 +604,17 @@ after contrast without alpha compositing and input names without labels.
 
 ### Tasks
 
-- **[P0] README.** — Tracks, start date, reshuffling, the flashcard gestures, tablet support. The data-model section is currently wrong the moment Phase 13 lands.
-- **[P0] CHANGELOG for v1.1.**
-- **[P0] Screenshots at tablet sizes** alongside the existing 390/768/1280.
-- **[P0] CONTINUING.md.** — The handoff document describes a single-track app.
-- **[P0] Merge `dev` to `main`** against the six-item checklist in [ADR 0014](./docs/adr/0014-dev-branch-default.md).
+- ~~**[P0] README.**~~ **DONE 2026-09-12.**
+- ~~**[P0] CHANGELOG for v1.1.**~~ **DONE 2026-09-13.** Version bumped in package.json, tauri.conf.json and Cargo.toml.
+- ~~**[P0] Screenshots.**~~ **DONE 2026-09-13.** — `scripts/drive/screenshots.mjs`, committed, because the tablet shot had been showing a bottom tab bar for a phase after the rail replaced it. Taking it found a defect the tablet audit could not: four stat cards across at 834px wrap unevenly, so one number sat off the line. An audit checks overflow and target size; it has no opinion about whether a row looks level.
+- ~~**[P0] CONTINUING.md.**~~ **DONE 2026-09-13.** — Leads with the three rules everything rests on, and with the lesson that cost the most: a green test suite is not enough for anything that persists.
+- ~~**[P0] Merge `dev` to `main`.**~~ **DONE 2026-09-13**, tagged `v1.1.0`. The checklist was run against `main` after the merge, not only against `dev`.
 
-### Definition of done
+### Definition of done — met 2026-09-13
 
-- Typecheck, build, full suite, corpus audit for both tracks, and all five browser drivers green.
-- The migration acceptance test holds.
-- `main` is a working app that a stranger can clone.
+- ~~Typecheck, build, full suite, corpus audit for both tracks, and all browser drivers green.~~ 1,127 tests; **eight** drivers, not five.
+- ~~The migration acceptance test holds.~~
+- ~~`main` is a working app that a stranger can clone.~~ Verified on `main` after the merge.
 
 ## Explicitly not planned
 

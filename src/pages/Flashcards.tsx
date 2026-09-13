@@ -23,6 +23,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/EmptyState";
 import { EdgeArrow } from "@/components/EdgeArrow";
+import { RootFamily } from "@/components/RootFamily";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -32,6 +33,7 @@ import { allWordsInMonth } from "@/lib/vocabulary";
 import { cn, shuffle as shuffleArr } from "@/lib/utils";
 import { bySchedule, isDue } from "@/lib/sm2";
 import { playSound } from "@/lib/sound";
+import { speak as speakWord } from "@/lib/speech";
 import { keyOf } from "@/lib/track";
 import type {
   StudyDeck,
@@ -95,13 +97,17 @@ const RATING_META: Record<
 };
 
 export function Flashcards() {
-  const { months, activeMonthKey, selectedDay, getActiveMonth } = useVocabStore();
+  const { months, activeMonthKey, selectedDay, getActiveMonth, getAllMonths } =
+    useVocabStore();
   const applyStudyRating = useProgressStore((s) => s.applyStudyRating);
   const addStudySession = useProgressStore((s) => s.addStudySession);
   const isMastered = useProgressStore((s) => s.isMastered);
   const wordsProgress = useProgressStore((s) => s.words);
   const showToast = useAppStore((s) => s.showToast);
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const speechVoice = useSettingsStore((s) => s.speechVoice);
+  const speechRate = useSettingsStore((s) => s.speechRate);
+  const autoPronounce = useSettingsStore((s) => s.autoPronounce);
   const hasSeenSrsIntro = useSettingsStore((s) => s.hasSeenSrsIntro);
   const setSettings = useSettingsStore((s) => s.set);
 
@@ -130,7 +136,9 @@ export function Flashcards() {
 
   // Build available pools
   const allEnriched: EnrichedWord[] = useMemo(() => {
-    return Object.values(months).flatMap((m) =>
+  // The open track only. Pooling both would put SAT words in a GRE exam and
+  // quietly change what the score means. See docs/adr/0011-tracks.md.
+    return getAllMonths().flatMap((m) =>
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
@@ -341,11 +349,20 @@ export function Flashcards() {
   }, [screen, paused, flipped, idx, cards.length, rate]);
 
   function speak() {
-    if (!currentCard || !("speechSynthesis" in window)) return;
-    const u = new SpeechSynthesisUtterance(currentCard.word);
-    u.rate = 0.9;
-    window.speechSynthesis.speak(u);
+    if (!currentCard) return;
+    speakWord(currentCard.word, { voice: speechVoice, rate: speechRate });
   }
+
+  // Say it when the answer appears, if asked to. On the reveal rather than on
+  // every flip: turning the card back to the front to check the spelling
+  // should not make it talk again.
+  useEffect(() => {
+    if (!autoPronounce || !flipped || screen !== "playing" || !currentCard) return;
+    speakWord(currentCard.word, { voice: speechVoice, rate: speechRate });
+    // `currentCard` is intentionally read, not depended on: the effect should
+    // fire when the card is flipped, not when the deck advances.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [flipped, autoPronounce, screen]);
 
   if (allEnriched.length === 0) {
     return (
@@ -946,6 +963,12 @@ function PlayScreen({
                     {card.mnemonic}
                   </p>
                 </Section>
+                {/* Renders nothing unless this word has a root *and* the user
+                    has another word from it, so the card's height does not
+                    jump between cards for the sake of a line of trivia. Not
+                    clickable here: leaving a card mid-session to chase a
+                    relative would abandon the review that is in progress. */}
+                <RootFamily word={card.word} />
               </div>
               <p className="mt-6 text-xs text-muted-foreground text-center">
                 How well did you know it?

@@ -234,6 +234,31 @@ check(
   satStats ? `SAT says ${satStats.mastered} of ${satStats.total}` : "no stats shown",
 );
 
+// Every pool the open notebook offers must come from that notebook. Four of
+// the seven selectors ADR 0011 names were still pooling both tracks after the
+// task was marked done, so this checks the one that is easiest to see.
+await page.getByRole("button", { name: /^Search$/i }).first().click();
+const searchBox = page.locator("main input").first();
+// Wait for the control rather than for a guess at how long the route takes:
+// the page is lazily loaded, so a fixed pause raced it and typed into nothing.
+await searchBox.waitFor({ state: "visible", timeout: 15000 });
+await searchBox.fill("placid");
+await page.waitForTimeout(900);
+check(
+  /placid/i.test(await page.locator("body").innerText()),
+  "search finds the open track's word",
+);
+await searchBox.fill("abate");
+await page.waitForTimeout(900);
+const greLeak = await page.locator("body").innerText();
+check(
+  /Nothing matched/i.test(greLeak),
+  "and does not reach into the other one",
+  greLeak.split("\n").find((l) => /result|Nothing/i.test(l)) ?? "",
+);
+await page.getByRole("button", { name: /^Dashboard$/i }).first().click();
+await page.waitForTimeout(600);
+
 await gre.click();
 await page.waitForTimeout(700);
 const greStats = await readMastered();

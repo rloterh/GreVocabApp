@@ -119,6 +119,38 @@ const BANDS_BY_TRACK: Record<Track, Band[]> = {
   sat: SAT_BANDS,
 };
 
+/**
+ * What level to aim at, said separately from what subject to cover.
+ *
+ * The first SAT corpus overlapped the GRE one by 59% where ADR 0013 expected
+ * about a third. Part of that is the register genuinely converging, and that
+ * part is welcome. The rest was an artefact: the model only ever saw
+ * same-track exclusions, so nothing pulled it away from vocabulary it had
+ * already reached for, and "SAT vocabulary" alone turned out not to be enough
+ * of a steer.
+ *
+ * This is the lever ADR 0013 names — the prompt, not a dedup rule. It moves
+ * where the distribution sits without forbidding a single word, because a word
+ * that belongs on both lists is not a mistake.
+ */
+const REGISTER_BY_TRACK: Record<Track, string[]> = {
+  gre: [],
+  sat: [
+    "Aim at the level, not only the subject:",
+    "- Prefer words that earn their place in a high-school reading list, an",
+    "  editorial, or an SAT passage over words whose natural home is graduate",
+    "  academic prose.",
+    "- If a word is far more likely to be tested on the GRE than on the SAT,",
+    "  skip it and pick something a strong sixteen-year-old would more",
+    "  plausibly meet. Words that genuinely belong on both lists are welcome —",
+    "  this is about where the centre of the list sits, not about avoiding",
+    "  overlap.",
+    "- A useful test: could this word appear, unglossed, in a serious newspaper",
+    "  a teenager might read? If only a specialist would write it, it is too",
+    "  far.",
+  ],
+};
+
 /** Themes, so a month reads as a unit rather than an alphabetical slice. */
 const GRE_THEMES = [
   "criticism and praise", "certainty and doubt", "speech and silence",
@@ -292,6 +324,9 @@ async function selectWords(
         ? "- Every word must be one a strong high-school student could plausibly meet in a set text, an editorial, or an exam passage."
         : "- Every word must be one a well-read adult could plausibly meet in print.",
       "- Vary the part of speech: include verbs and adjectives, not only nouns.",
+      REGISTER_BY_TRACK[track].length
+        ? "\n" + REGISTER_BY_TRACK[track].join("\n")
+        : "",
       avoid.length
         ? `\nDo NOT include any of these, which are already used:\n${avoid.join(", ")}`
         : "",

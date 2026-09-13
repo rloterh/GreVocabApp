@@ -9,6 +9,7 @@
  * See ROADMAP.md, Phase 5.
  */
 
+import { describeMonthKey } from "@/lib/track";
 import { useState } from "react";
 import { ClipboardPaste, Share2 } from "lucide-react";
 import {
@@ -22,7 +23,6 @@ import { Button } from "@/components/ui/button";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
 import { decodeDeck, encodeDeck, findDeckCode, supportsSharing } from "@/lib/share";
-import { formatMonthKey } from "@/lib/date-utils";
 import type { VocabMonth } from "@/types";
 
 /** Copy one month to the clipboard as a deck code. */
@@ -93,7 +93,7 @@ export function ImportDeckButton() {
       setOpen(false);
       setCode("");
       showToast({
-        title: `Imported ${formatMonthKey(result.monthKey)}`,
+        title: `Imported ${describeMonthKey(result.monthKey)}`,
         variant: "success",
       });
     } catch (e) {

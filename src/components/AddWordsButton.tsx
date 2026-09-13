@@ -28,10 +28,9 @@ import { selectProvider } from "@/lib/ai/client";
 import { AiError } from "@/lib/ai/errors";
 import { generateCards } from "@/lib/generate";
 import { splitWordList } from "@/lib/generation-plan";
-import { formatMonthKey } from "@/lib/date-utils";
 import type { VocabMonth } from "@/types";
 import { useRestoreFocus } from "@/hooks/useRestoreFocus";
-import { keyOf } from "@/lib/track";
+import { keyOf, describeMonthKey } from "@/lib/track";
 
 export function AddWordsButton({ month }: { month: VocabMonth }) {
   const addWordsToMonth = useVocabStore((s) => s.addWordsToMonth);
@@ -58,7 +57,7 @@ export function AddWordsButton({ month }: { month: VocabMonth }) {
         word: row.word,
         where: row.existing!.retiredAt
           ? "a month you removed"
-          : formatMonthKey(row.existing!.monthKey),
+          : describeMonthKey(row.existing!.monthKey),
       }));
   }, [open, words, getVocabIndex]);
 

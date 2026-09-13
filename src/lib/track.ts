@@ -103,3 +103,15 @@ export function trackOfKey(key: string): Track | null {
 export function isInTrack(id: string, track: Track): boolean {
   return id.startsWith(`${track}-`);
 }
+
+/**
+ * A human label for a month key: `"gre/07"` becomes `"Month 7"`.
+ *
+ * For when the key is all that is to hand. Where the month itself is
+ * available its `title` is better — that is what it is for — but an index
+ * entry or a generation plan carries only the key.
+ */
+export function describeMonthKey(key: string): string {
+  const parsed = parseMonthKey(key);
+  return parsed ? `Month ${parsed.ordinal}` : key;
+}

@@ -43,6 +43,7 @@ import { keyOf } from "@/lib/track";
 
 export function ExamPage() {
   const months = useVocabStore((s) => s.months);
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
   const wordsProgress = useProgressStore((s) => s.words);
   const activeExam = useProgressStore((s) => s.activeExam);
   const saveExam = useProgressStore((s) => s.saveExam);
@@ -55,17 +56,19 @@ export function ExamPage() {
   const [chosen, setChosen] = useState<string | null>(null);
   const askedAt = useRef<number>(Date.now());
 
+  // The open track only. Pooling both would put SAT words in a GRE exam and
+  // quietly change what the score means. See docs/adr/0011-tracks.md.
   const allWords = useMemo(
-    () => Object.values(months).flatMap((m) => allWordsInMonth(m)),
-    [months],
+    () => getAllMonths().flatMap((m) => allWordsInMonth(m)),
+    [getAllMonths, months],
   );
   const monthOf = useMemo(() => {
     const map: Record<string, string> = {};
-    for (const month of Object.values(months)) {
+    for (const month of getAllMonths()) {
       for (const word of allWordsInMonth(month)) map[word.id] = keyOf(month);
     }
     return map;
-  }, [months]);
+  }, [getAllMonths, months]);
 
   // Only resume something structurally sound: storage holds whatever an older
   // version wrote, and the failure mode for trusting it is a crash on launch.

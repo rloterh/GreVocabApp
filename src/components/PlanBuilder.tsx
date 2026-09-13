@@ -12,6 +12,7 @@
  * See docs/VOCAB-GENERATION.md and src/lib/generation-plan.ts.
  */
 
+import { describeMonthKey } from "@/lib/track";
 import { useMemo, useRef, useState } from "react";
 import { AlertTriangle, Check, Loader2, Wand2, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -39,7 +40,6 @@ import {
   summarize,
   type RunCheckpoint,
 } from "@/lib/generation-run";
-import { formatMonthKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
 
 const HORIZONS: Array<{ value: Horizon; label: string }> = [
@@ -147,7 +147,7 @@ export function PlanBuilder({ onDone }: { onDone: () => void }) {
 
       if (outstanding.length > 0) {
         setError(
-          `Stopped at ${formatMonthKey(outstanding[0])}. What was generated is saved — you can resume.`,
+          `Stopped at ${describeMonthKey(outstanding[0])}. What was generated is saved — you can resume.`,
         );
       } else if (generated > 0) {
         showToast({
@@ -328,7 +328,7 @@ export function PlanBuilder({ onDone }: { onDone: () => void }) {
             {preview.alreadyHave
               .map(
                 (h) =>
-                  `${h.word} (${h.retired ? "removed" : formatMonthKey(h.monthKey)})`,
+                  `${h.word} (${h.retired ? "removed" : describeMonthKey(h.monthKey)})`,
               )
               .join(", ")}
           </p>

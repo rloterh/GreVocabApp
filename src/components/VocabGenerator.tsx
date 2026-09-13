@@ -45,6 +45,7 @@ type Mode = "form" | "plan" | "bridge";
 export function VocabGenerator() {
   const months = useVocabStore((s) => s.months);
   const nextMonthKey = useVocabStore((s) => s.nextMonthKey);
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
   const activeTrack = useVocabStore((s) => s.activeTrack);
   const loadMonth = useVocabStore((s) => s.loadMonth);
   const showToast = useAppStore((s) => s.showToast);
@@ -62,8 +63,10 @@ export function VocabGenerator() {
   const [error, setError] = useState<string | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
+  // This track's words. A word already in the GRE corpus is not a duplicate
+  // when generating SAT — see docs/adr/0013-cross-track-overlap.md.
   const existingWords = () =>
-    Object.values(months)
+    getAllMonths()
       .flatMap((m) => allWordsInMonth(m))
       .map((w) => w.word);
 

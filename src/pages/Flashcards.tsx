@@ -23,6 +23,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/EmptyState";
 import { EdgeArrow } from "@/components/EdgeArrow";
+import { RootFamily } from "@/components/RootFamily";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -95,7 +96,8 @@ const RATING_META: Record<
 };
 
 export function Flashcards() {
-  const { months, activeMonthKey, selectedDay, getActiveMonth } = useVocabStore();
+  const { months, activeMonthKey, selectedDay, getActiveMonth, getAllMonths } =
+    useVocabStore();
   const applyStudyRating = useProgressStore((s) => s.applyStudyRating);
   const addStudySession = useProgressStore((s) => s.addStudySession);
   const isMastered = useProgressStore((s) => s.isMastered);
@@ -130,7 +132,9 @@ export function Flashcards() {
 
   // Build available pools
   const allEnriched: EnrichedWord[] = useMemo(() => {
-    return Object.values(months).flatMap((m) =>
+  // The open track only. Pooling both would put SAT words in a GRE exam and
+  // quietly change what the score means. See docs/adr/0011-tracks.md.
+    return getAllMonths().flatMap((m) =>
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
@@ -946,6 +950,12 @@ function PlayScreen({
                     {card.mnemonic}
                   </p>
                 </Section>
+                {/* Renders nothing unless this word has a root *and* the user
+                    has another word from it, so the card's height does not
+                    jump between cards for the sake of a line of trivia. Not
+                    clickable here: leaving a card mid-session to chase a
+                    relative would abandon the review that is in progress. */}
+                <RootFamily word={card.word} />
               </div>
               <p className="mt-6 text-xs text-muted-foreground text-center">
                 How well did you know it?

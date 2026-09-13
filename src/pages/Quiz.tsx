@@ -20,7 +20,7 @@ import { keyOf } from "@/lib/track";
 type Screen = "setup" | "playing" | "results";
 
 export function Quiz() {
-  const { months, activeMonthKey, getActiveMonth } = useVocabStore();
+  const { months, activeMonthKey, getActiveMonth, getAllMonths } = useVocabStore();
   const isMastered = useProgressStore((s) => s.isMastered);
   const recordAnswer = useProgressStore((s) => s.recordQuizAnswer);
   const addSession = useProgressStore((s) => s.addQuizSession);
@@ -41,7 +41,9 @@ export function Quiz() {
   >([]);
   const [chosen, setChosen] = useState<string | null>(null);
 
-  const allMonthsList = Object.values(months);
+  // The open track only. Pooling both would put SAT words in a GRE exam and
+  // quietly change what the score means. See docs/adr/0011-tracks.md.
+  const allMonthsList = getAllMonths();
   const allWords: VocabWord[] = useMemo(
     () => allMonthsList.flatMap(allWordsInMonth),
     // eslint-disable-next-line react-hooks/exhaustive-deps

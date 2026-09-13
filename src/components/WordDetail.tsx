@@ -25,6 +25,7 @@ import { schedulingStateOf } from "@/lib/sm2";
 import { cn } from "@/lib/utils";
 import type { StudyRating, VocabWord } from "@/types";
 import { useRestoreFocus } from "@/hooks/useRestoreFocus";
+import { RootFamily } from "@/components/RootFamily";
 
 export interface WordDetailTarget extends VocabWord {
   monthKey: string;
@@ -146,6 +147,7 @@ export function WordDetail({
                     {word.mnemonic}
                   </p>
                 )}
+                <RootFamily word={word.word} className="mt-3" />
               </div>
 
               <section>

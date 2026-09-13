@@ -356,7 +356,7 @@ Design: [`docs/THEMES.md`](./docs/THEMES.md) ·
 - ~~**[P1] Streak freeze.**~~ **DONE 2026-09-12.** — One per seven days of the run, spent automatically on a single missed day. A week away is still a break. The Dashboard says "N missed days covered" only when it happened, and there is nothing to earn, spend faster, or compare.
 - ~~**[P1] Word of the day.**~~ **DONE 2026-09-13.** — `src/lib/word-of-the-day.ts`, pure and seeded by the date so it holds until midnight — a word that changed on every render would be decoration, not a prompt. Drawn first from what the scheduler says is due, then from anything unmastered, and the card says which.
 - **[P1] Audio pronunciation.** — Extends the flashcard speak button that already exists.
-- **[P1] Etymology and root families.** — Group by shared root; show the family while studying one. Genuinely aids retention.
+- ~~**[P1] Etymology and root families.**~~ **DONE 2026-09-13.** — `src/lib/roots.ts`: 99 families, **curated rather than inferred**. Clustering by shared prefix is the obvious implementation and it is wrong — *commend*, *commence*, *commemorate* and *commensurate* share five letters and four roots. A family is shown only when the user already has another member of it, which is 294 of the 2,825 GRE words. Three members were dropped for being plain wrong (*subjugate* is a yoke, *incentive* a tune, *turmoil* has no agreed origin), one of them caught by the test.
 - **[P1] Confusable pairs drill.** — `affect`/`effect`, `discreet`/`discrete`. → A real, repeated failure mode, and satisfying to finally nail.
 - **[P2] Session recap card.** — A shareable image of a session; the deck-share plumbing already exists.
 - **[P2] Empty and success state craft.**

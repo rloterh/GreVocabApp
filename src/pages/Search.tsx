@@ -10,12 +10,12 @@ import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
-import { formatMonthKey } from "@/lib/date-utils";
 import { cn } from "@/lib/utils";
 import { keyOf } from "@/lib/track";
 
 export function Search() {
   const months = useVocabStore((s) => s.months);
+  const getAllMonths = useVocabStore((s) => s.getAllMonths);
   const setActiveMonth = useVocabStore((s) => s.setActiveMonth);
   const setSelectedDay = useVocabStore((s) => s.setSelectedDay);
   const isMastered = useProgressStore((s) => s.isMastered);
@@ -24,7 +24,9 @@ export function Search() {
   const [detail, setDetail] = useState<WordDetailTarget | null>(null);
 
   const indexed = useMemo(() => {
-    return Object.values(months).flatMap((m) =>
+    // Searching the open notebook. A result from the other track looks like a
+    // word the user has, and following it would switch tracks under them.
+    return getAllMonths().flatMap((m) =>
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
@@ -34,7 +36,12 @@ export function Search() {
         })),
       ),
     );
-  }, [months]);
+  }, [getAllMonths, months]);
+
+  // What was actually searched, not what is stored. Counting every loaded
+  // month told a user searching SAT that three months had been looked at when
+  // one had.
+  const searchedMonths = useMemo(() => getAllMonths().length, [getAllMonths, months]);
 
   const q = query.trim().toLowerCase();
   const results = useMemo(() => {
@@ -88,8 +95,7 @@ export function Search() {
       {q && (
         <p className="text-xs text-muted-foreground mb-3">
           {results.length} result{results.length === 1 ? "" : "s"} across{" "}
-          {Object.keys(months).length} month
-          {Object.keys(months).length === 1 ? "" : "s"}
+          {searchedMonths} month{searchedMonths === 1 ? "" : "s"}
         </p>
       )}
 
@@ -129,7 +135,7 @@ export function Search() {
                     </div>
                     <div className="flex items-center gap-1.5 shrink-0">
                       <Badge variant="outline" className="text-[10px]">
-                        {formatMonthKey(r.monthKey)} · Day {r.day}
+                        {r.monthName} · Day {r.day}
                       </Badge>
                       <div
                         className={cn(

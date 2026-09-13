@@ -52,8 +52,13 @@ and swipe, the tablet shell, and three years of SAT vocabulary.
   buttons do not sit between a keyboard user and the words. The side panel is
   keyed to `pointer: coarse`, not to a width: a 1194px desktop window keeps
   its centred modal.
-- **Android on real hardware.** Built and signed; never run on a device.
-  `useSystemBack` and the notification paths are compiled but unobserved.
+- ~~**Android: actually run it.**~~ **DONE 2026-09-13**, on an Android 14
+  emulator. Both claims that had been "compiled but never executed" since
+  Phase 9 are now observed: the system back button navigates within the app
+  instead of exiting, and the notification permission is declared, requested at
+  the moment the reminder is switched on, and granted. Running it also found a
+  bug no browser could — see CONTINUING.md. Still untested on *physical*
+  hardware, which is a smaller gap than it was.
 - **Play Store submission**, which needs the keystore handled properly and a
   privacy policy URL.
 - **iOS**, still blocked on a Mac and the $99/yr account.

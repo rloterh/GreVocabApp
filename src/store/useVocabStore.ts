@@ -66,6 +66,17 @@ interface VocabState {
   activeMonthKey: string | null;
   /** Selected day within active month (1-based) */
   selectedDay: number;
+  /**
+   * Where the user was in each track, so switching away and back returns them.
+   *
+   * Two tracks are two accounts belonging to one person: either is always
+   * there, and coming back to one should find it as it was left. A single
+   * shared `activeMonthKey` could not express that — the key always belonged
+   * to the track just left, so the guard rejected it and dropped the user on
+   * month one, day one. Leaving GRE at month 2 day 7 to glance at SAT lost
+   * both.
+   */
+  trackPositions: Partial<Record<Track, { monthKey: string; day: number }>>;
 
   loadMonth: (
     raw: unknown,
@@ -149,6 +160,7 @@ export const useVocabStore = create<VocabState>()(
     (setStore, get) => ({
       months: {},
       schedules: {},
+      trackPositions: {},
       activeTrack: DEFAULT_TRACK,
       retiredWords: [],
       activeMonthKey: null,
@@ -290,17 +302,39 @@ export const useVocabStore = create<VocabState>()(
       setActiveTrack: (track) => {
         setStore((state) => {
           if (state.activeTrack === track) return state;
-          const first = monthsOf(state.months, track)[0];
+
+          // Put the outgoing track down where it stands, so returning to it
+          // later finds it there.
+          const positions = { ...state.trackPositions };
+          if (state.activeMonthKey) {
+            positions[state.activeTrack] = {
+              monthKey: state.activeMonthKey,
+              day: state.selectedDay,
+            };
+          }
+
+          // Pick the incoming track back up. A remembered month may since have
+          // been unloaded, and a remembered day may be past the end of a month
+          // that was redistributed, so both are checked rather than trusted.
+          const remembered = positions[track];
+          const months = monthsOf(state.months, track);
+          const valid =
+            remembered && months.some((m) => keyOf(m) === remembered.monthKey)
+              ? remembered
+              : null;
+          const first = months[0];
+          const monthKey = valid ? valid.monthKey : first ? keyOf(first) : null;
+          const month = monthKey ? state.months[monthKey] : undefined;
+          const day =
+            valid && month?.days.some((d) => d.day === valid.day)
+              ? valid.day
+              : 1;
+
           return {
             activeTrack: track,
-            // Coming back to a notebook should find it as it was, but a key
-            // from the track being left would leave every month view empty.
-            activeMonthKey:
-              state.activeMonthKey &&
-              trackOfKey(state.activeMonthKey) === track
-                ? state.activeMonthKey
-                : (first ? keyOf(first) : null),
-            selectedDay: 1,
+            activeMonthKey: monthKey,
+            selectedDay: day,
+            trackPositions: positions,
           };
         });
       },
@@ -448,6 +482,7 @@ export const useVocabStore = create<VocabState>()(
         months: state.months,
         schedules: state.schedules,
         activeTrack: state.activeTrack,
+        trackPositions: state.trackPositions,
         retiredWords: state.retiredWords,
         activeMonthKey: state.activeMonthKey,
         selectedDay: state.selectedDay,

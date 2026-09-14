@@ -16,6 +16,15 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Fixed
 
+- **Switching tracks lost your place in the one you left.** Two tracks are two
+  accounts belonging to one person — either is always there, and coming back to
+  one should find it as it was. Instead a single `activeMonthKey` was shared by
+  both, so the key always belonged to the track just left, the guard rejected
+  it, and you landed on month one day one. Measured: leave GRE at month 2 day 7,
+  glance at SAT, come back to month 1 day 1. Position is now kept per track, and
+  validated on the way back in case the month was unloaded or shortened while
+  you were away.
+
 - **The corpus is one place now, and every word has synonyms.** GRE months 1
   and 2 lived only in `src/data/`, so they were absent from the library index
   and a user who unloaded them could never get them back — and they predate the

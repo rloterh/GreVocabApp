@@ -9,7 +9,10 @@
  *
  * 1. The reveal region includes the arrows themselves, or moving the pointer
  *    toward one makes it vanish before it can be clicked. That is the parent's
- *    job — this component only renders.
+ *    job — this component only renders. It said this for a long time while the
+ *    parent did not actually do it: 16px of un-hovered ground sat between card
+ *    and arrow, and the arrow faded out from under the cursor every time.
+ *    `scripts/drive/edge-arrow-probe.mjs` now measures the claim.
  * 2. At the ends the arrow is **disabled and still visible**, never hidden.
  *    Hiding it would move the other one between cards, and a control that
  *    jumps is worse than one that is greyed.
@@ -69,10 +72,16 @@ export function EdgeArrow({
         "focus-visible:opacity-100",
         !disabled && "hover:bg-card hover:border-border",
         disabled && "cursor-not-allowed",
-        // Overlapping the card's edge on a phone, outside it from `md` up.
-        // A 360px screen has no room beside a full-width card, and a control
-        // pushed off the viewport is worse than one sitting on the artwork.
-        side === "left" ? "left-2 md:-left-14" : "right-2 md:-right-14",
+        // Overlapping the card's edge until the column is genuinely wide
+        // enough to hold a 56px gutter, and outside it after that.
+        //
+        // `md` was too early. Measured: at 1024 the card sits in a 784px
+        // column, leaving 32px each side, so an arrow placed 56px out landed
+        // *under the sidebar* — it revealed on hover and then swallowed the
+        // click. At `xl` the column is 1040 and the gutter fits with room.
+        // A control sitting on the artwork is much better than one that is
+        // clipped, or one that cannot be pressed.
+        side === "left" ? "left-2 xl:-left-14" : "right-2 xl:-right-14",
       )}
     >
       <Icon className="h-5 w-5" />

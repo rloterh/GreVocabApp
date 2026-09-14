@@ -16,18 +16,58 @@ import { runMigrations } from "./lib/migrations";
 // localStorage may be a static import of this module.
 const migrations = runMigrations();
 
+/**
+ * The two starter months each track opens with.
+ *
+ * Bundled rather than fetched so that switching tracks is instant: the words
+ * are already in the store before the user touches the control. The cost is a
+ * one-time parse on first run, after which they are in local storage.
+ */
+const STARTERS = {
+  gre: () =>
+    Promise.all([import("./data/gre-01.json"), import("./data/gre-02.json")]),
+  sat: () =>
+    Promise.all([import("./data/sat-01.json"), import("./data/sat-02.json")]),
+} as const;
+
 async function bootstrap() {
   const { useVocabStore } = await import("./store/useVocabStore");
+  const { useSettingsStore } = await import("./store/useSettingsStore");
+  const { TRACKS } = await import("./lib/track");
 
-  const state = useVocabStore.getState();
-  if (Object.keys(state.months).length === 0) {
-    const [{ default: seedOne }, { default: seedTwo }] = await Promise.all([
-      import("./data/gre-01.json"),
-      import("./data/gre-02.json"),
-    ]);
-    state.loadMonth(seedOne);
-    state.loadMonth(seedTwo);
+  // Per track, not "is the store empty".
+  //
+  // The old guard seeded only when the whole store was empty, which meant SAT
+  // was never seeded for anyone — and could never be seeded for an existing
+  // user, because their GRE months kept the store non-empty forever. Switching
+  // to SAT landed on an empty notebook and a trip to the library.
+  //
+  // `seededTracks` records what has been done, so a user who deliberately
+  // unloads a track does not find it back on the next launch.
+  const seeded = new Set(useSettingsStore.getState().seededTracks);
+  const before = seeded.size;
+  let seededActive = false;
 
+  for (const track of TRACKS) {
+    const store = useVocabStore.getState();
+    const hasAny = Object.values(store.months).some((m) => m.track === track);
+    if (hasAny || seeded.has(track)) continue;
+
+    const [{ default: one }, { default: two }] = await STARTERS[track]();
+    store.loadMonth(one);
+    store.loadMonth(two);
+    seeded.add(track);
+    if (track === store.activeTrack) seededActive = true;
+  }
+
+  if (seeded.size !== before) {
+    useSettingsStore.getState().set({ seededTracks: [...seeded] });
+  }
+
+  // Only when the track the user is *looking at* was just seeded. An existing
+  // user picking up SAT for the first time should not have the GRE month they
+  // were on quietly reset to today's.
+  if (seededActive) {
     // Open on whatever the schedule says is current rather than on month one.
     const now = new Date();
     const key = useVocabStore.getState().monthKeyForDate(now);

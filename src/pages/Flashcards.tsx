@@ -831,13 +831,26 @@ function PlayScreen({
       </p>
 
       {/*
-        Card area. The hover region is the card *and* its arrows: if it were
-        only the card, moving the mouse toward an arrow would make it vanish
-        before it could be clicked.
+        Card area, wrapped in its own hover region.
+
+        The wrapper exists because the arrows sit *outside* the card from `md`
+        up — `-left-14` is 56px out, and the arrow is 44px wide, so 16px of
+        un-hovered ground lay between them. Crossing it fired `pointerleave`,
+        and the arrow faded to `pointer-events: none` before the cursor
+        arrived: measured at 1280px, opacity went 1.00 on the card to 0.01 one
+        pixel outside it, and the click did nothing. Both this comment and
+        EdgeArrow's claimed the region already covered the arrows. It did not.
+
+        Negative margin plus equal padding widens the wrapper's box by exactly
+        one gutter each side without moving anything, so the arrows fall inside
+        the region that reveals them. The inner div stays the positioning
+        context, so their offsets are unchanged.
+
+        scripts/drive/edge-arrow-probe.mjs walks the pointer across the gap and
+        fails if this regresses.
       */}
       <div
-        className="relative"
-        style={{ perspective: "1200px" }}
+        className="xl:-mx-14 xl:px-14"
         onPointerEnter={(e) => e.pointerType !== "touch" && setHovering(true)}
         onPointerLeave={(e) => e.pointerType !== "touch" && setHovering(false)}
         onFocusCapture={() => setFocusWithin(true)}
@@ -848,6 +861,7 @@ function PlayScreen({
           }
         }}
       >
+      <div className="relative" style={{ perspective: "1200px" }}>
         <EdgeArrow
           side="left"
           label="Previous card"
@@ -984,6 +998,7 @@ function PlayScreen({
             </div>
           </motion.div>
         </motion.div>
+      </div>
       </div>
 
       {/* One-time explainer for what the ratings now do. Shown above the

@@ -44,7 +44,7 @@ every control has a name, and rotating the device keeps the card you were on.
 
 ## Features
 
-- **Two tracks** — GRE and SAT, switched from a control that is visible on every screen. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
+- **Two tracks** — GRE and SAT, switched from a control that is visible on every screen. Both arrive with two months already loaded, so switching is instant and nothing has to be fetched first. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
 - **Start whenever you like** — pick the month you begin and the app lays three years out from there. Reorder the months, or reshuffle the words, without losing a day of progress
 - **Daily practice** — animated flashcards with definition, example, and mnemonic
 - **Synonyms and antonyms** — on the flashcard, in daily practice and in word details; switch them off in Settings for a plainer card when you are drilling recall

@@ -272,6 +272,18 @@ export interface Settings {
   watchedFolder: string | null;
   /** Set once the first-run walkthrough has been seen or skipped. */
   hasOnboarded: boolean;
+  /**
+   * Tracks whose starter months have already been seeded.
+   *
+   * Per track, not one global flag, because seeding used to key off "the store
+   * is completely empty" — which meant SAT was never seeded for anybody, and
+   * could never be seeded for an existing user, since their GRE months made
+   * the store non-empty forever.
+   *
+   * Recorded so that unloading a track's months is respected. Without it,
+   * every launch would put back what the user had just removed.
+   */
+  seededTracks: Track[];
   /** Opt-in interface sounds. */
   soundEnabled: boolean;
   /**

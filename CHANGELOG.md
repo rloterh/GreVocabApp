@@ -16,6 +16,26 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Fixed
 
+- **The flashcard's edge arrows could not be clicked.** They reveal on hover and
+  sat 56px outside a 44px-wide slot, leaving 16px of un-hovered ground between
+  card and arrow; crossing it fired `pointerleave` and the arrow faded to
+  `pointer-events: none` before the cursor arrived. Measured at 1280px: opacity
+  1.00 on the card, 0.01 one pixel outside it, and the click did nothing. The
+  hover region now genuinely includes the arrows.
+  Measuring it also found a second fault — at 1024 the card sits in a 784px
+  column, so an arrow placed 56px out landed *under the sidebar* and swallowed
+  the click. The arrows move outside the card only from `xl` now, where the
+  gutter actually fits, and overlap its edge below that.
+  `scripts/drive/edge-arrow-probe.mjs` walks the pointer across that ground at
+  four widths.
+- **SAT always needed loading by hand.** Startup seeded two months only when
+  the store was completely empty, so SAT was never seeded for anyone — and
+  could never be seeded for an existing user, whose GRE months kept the store
+  non-empty forever. Seeding is per track now, so both notebooks have content
+  before the switcher is touched and switching is genuinely instant.
+  `settings.seededTracks` means deliberately unloading a track is still
+  respected.
+
 - **The button that starts a session was below the fold.** "Start studying" sat
   200px past the bottom of a 1280x720 laptop and 127px past a phone's;
   "Start quiz" 165px and 250px. You picked a deck and then had to go looking

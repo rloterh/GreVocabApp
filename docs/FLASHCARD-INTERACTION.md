@@ -15,7 +15,7 @@ Three ways through, all reaching the same two actions:
 
 | | Where | Appears |
 | --- | --- | --- |
-| **Edge arrows** | Just outside the card's left and right edges | On hover, focus, or touch — never at rest |
+| **Edge arrows** | On the card's edge, or just outside it once the column is wide enough (`xl`) | On hover, focus, or touch — never at rest |
 | **Swipe** | The card itself | Always, on any pointer |
 | **Keyboard** | `←` `→`, already implemented | Always |
 
@@ -26,9 +26,18 @@ make room for a gesture would be a downgrade dressed as a refinement.
 
 ### Appearance
 
-Circular, 44px, one either side of the card, vertically centred, sitting just
-outside the card's bounds with a gap — not overlapping the text. Backdrop-blurred
+Circular, 44px, one either side of the card, vertically centred. Backdrop-blurred
 surface, hairline border, the same accent the rest of the app uses for focus.
+
+**Where they sit depends on whether there is room.** From `xl` they sit outside
+the card's bounds with a gap, not overlapping the text. Below that they overlap
+the card's edge.
+
+That threshold used to be `md`, and it was wrong in a way only measurement
+found: at 1024 the card sits in a 784px column, leaving 32px each side, so an
+arrow placed 56px out landed *under the sidebar*. It revealed on hover and then
+swallowed the click, which is worse than not appearing at all. An arrow sitting
+on the artwork is a much smaller cost than one that cannot be pressed.
 
 They are **hidden at rest**. A card with two permanent arrows bolted to it looks
 like a carousel widget; a card that reveals them when you approach looks like it
@@ -41,6 +50,19 @@ show  =  pointer is over the card or the arrows
       or  focus is within the card
       or  the card was tapped (touch)
 ```
+
+"Or the arrows" is load-bearing and was, for a long time, a lie. The handlers
+sat on the card's container; the arrows hung 56px outside it and are 44px wide,
+leaving 16px of un-hovered ground between the two. Crossing it fired
+`pointerleave`, and the arrow faded to `pointer-events: none` before the cursor
+arrived — opacity measured 1.00 on the card and 0.01 one pixel outside it, and
+the click did nothing. Both the component and its parent carried comments
+claiming the region already covered the arrows.
+
+The region now genuinely includes them: the hover handlers live on a wrapper
+widened by exactly one gutter each side (`xl:-mx-14 xl:px-14`), which changes
+no layout and leaves no gap. `scripts/drive/edge-arrow-probe.mjs` walks the
+pointer across that ground at four widths and fails if it reopens.
 
 Three rules behind that, each learned from an interaction that would otherwise
 be irritating:

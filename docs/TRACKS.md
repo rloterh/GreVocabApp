@@ -79,6 +79,30 @@ It is persisted, so reopening the app finds the notebook you left.
 - A track with no content shows its empty state — "No SAT months yet" with the
   two ways to get some — rather than an error or a blank screen.
 
+### Both tracks arrive seeded
+
+"Switching is instant" is only true if there is something to switch *to*, and
+for a long time there was not. `main.tsx` seeded two starter months, but only
+`if (Object.keys(state.months).length === 0)` — so SAT was never seeded for
+anybody, and could never be seeded for an existing user, whose GRE months kept
+the store non-empty forever. Pressing SAT landed on an empty notebook and a
+trip to the library, which is exactly the friction the control exists to avoid.
+
+Seeding is now **per track**: each track with no months of its own gets its two
+bundled starter months at startup, before the user touches anything. Bundled
+rather than fetched on switch, because a fetch means a visible empty beat at
+the moment the control is pressed — the one moment it must feel immediate.
+
+`settings.seededTracks` records what has been done, so a user who deliberately
+unloads a track does not find it back on the next launch. And the "open on
+today's month" step runs only when the *active* track was seeded, so an
+existing user picking up SAT does not have the GRE month they were on quietly
+reset.
+
+`scripts/drive/track-seed-smoke.mjs` covers both shapes — a fresh install and
+an existing GRE-only user — because they fail differently, and the second is
+the one a naive fix still leaves broken.
+
 ## Selectors
 
 Every read path filters by the active track. The list is the audit:

@@ -29,6 +29,7 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   lastReminderDate: null,
   watchedFolder: null,
   hasOnboarded: false,
+  seededTracks: [],
   soundEnabled: false,
   speechVoice: null,
   speechRate: 0.9,

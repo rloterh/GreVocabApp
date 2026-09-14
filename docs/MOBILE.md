@@ -66,9 +66,20 @@ recorded here: the five are the things a user does *daily*.
   container. The heatmap is the only current offender.
 - **Respect `prefers-reduced-motion`** — already wired through the
   `reduceMotion` setting; mobile makes it matter more.
+- **The action that moves you on is never below the fold.** A setup screen is a
+  list of choices as long as the app has options, and the commit button was at
+  the end of it: "Start studying" 200px past the bottom of a 1280x720 laptop,
+  "Start quiz" 250px past a phone's. Worse, the flashcard rating grid ran
+  *under* the tab bar, so "Good" and "Easy" were half-hidden on every card of
+  every session. Anything that starts, advances or rates goes in a
+  `StickyActionBar`, which clears the tab bar's 58px plus its safe-area padding
+  and fades the content out behind it rather than slicing it.
 
 All of this is verifiable in a browser at a phone viewport, so it lands and is
 tested before any Android toolchain is involved.
+`scripts/drive/reach-audit.mjs` does exactly that for the rule above, across
+phone, laptop and desktop, and fails loudly when something drifts back below
+the fold.
 
 ## Android
 

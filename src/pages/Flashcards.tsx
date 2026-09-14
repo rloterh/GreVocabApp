@@ -24,6 +24,8 @@ import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/EmptyState";
 import { EdgeArrow } from "@/components/EdgeArrow";
 import { RootFamily } from "@/components/RootFamily";
+import { WordRelations } from "@/components/WordRelations";
+import { StickyActionBar } from "@/components/StickyActionBar";
 import { JsonImporter } from "@/components/JsonImporter";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAllMonths } from "@/store/useAllMonths";
@@ -652,22 +654,26 @@ function SetupScreen({
         </CardContent>
       </Card>
 
-      <div className="flex items-center gap-3">
+      <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">
+        <Keyboard className="w-3.5 h-3.5" />
+        Tip: use keyboard for the fastest flow. Space, then 1-2-3-4.
+      </div>
+
+      {/* Six deck options and a slider put this below the fold on anything
+          shorter than a 1080p desktop — 200px below on a 1280x720 laptop.
+          Sticky, so choosing a deck and starting are never separated by a
+          scroll. See scripts/drive/reach-audit.mjs. */}
+      <StickyActionBar>
         <Button
           size="lg"
-          className="flex-1 h-12"
+          className="w-full h-12"
           onClick={onStart}
           disabled={availableCount === 0}
         >
           <Play className="w-4 h-4" />
           {availableCount === 0 ? "Deck is empty" : "Start studying"}
         </Button>
-      </div>
-
-      <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">
-        <Keyboard className="w-3.5 h-3.5" />
-        Tip: use keyboard for the fastest flow. Space, then 1-2-3-4.
-      </div>
+      </StickyActionBar>
     </motion.div>
   );
 }
@@ -964,6 +970,7 @@ function PlayScreen({
                     {card.mnemonic}
                   </p>
                 </Section>
+                <WordRelations word={card} />
                 {/* Renders nothing unless this word has a root *and* the user
                     has another word from it, so the card's height does not
                     jump between cards for the sake of a line of trivia. Not
@@ -1023,63 +1030,70 @@ function PlayScreen({
         )}
       </AnimatePresence>
 
-      {/* Rating buttons */}
-      {/* 2x2 on a phone: four across leaves ~75px per target, and these are
-          pressed dozens of times a session. */}
-      <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {(["again", "hard", "good", "easy"] as const).map((r) => {
-          const meta = RATING_META[r];
-          const Icon = meta.icon;
-          return (
-            <motion.button
-              key={r}
-              type="button"
-              disabled={!flipped}
-              onClick={() => onRate(r)}
-              whileHover={flipped ? { y: -2 } : undefined}
-              whileTap={flipped ? { scale: 0.96 } : undefined}
-              className={cn(
-                "relative rounded-lg border p-3 text-left transition-all",
-                flipped
-                  ? meta.color
-                  : "border-border/40 text-muted-foreground/50 cursor-not-allowed",
-              )}
-            >
-              <div className="flex items-center justify-between mb-1">
-                <Icon className="w-4 h-4" />
-                <kbd className="px-1.5 py-0.5 rounded bg-black/10 text-[10px] font-mono">
-                  {meta.shortcut}
-                </kbd>
-              </div>
-              <p className="text-sm font-semibold">{meta.label}</p>
-              <p className="text-[10px] mt-0.5 opacity-70">{meta.hint}</p>
-            </motion.button>
-          );
-        })}
-      </div>
+      {/* Rating buttons and card navigation, pinned.
+          On a phone the 2x2 grid ran under the mobile tab bar: "Good" and
+          "Easy" were half-hidden behind the navigation on every card, so two
+          of the four ratings needed a scroll to press. Sticky keeps the whole
+          act-on-this-card cluster in reach for the length of the session.
+          Measured by scripts/drive/reach-audit.mjs. */}
+      <StickyActionBar>
+        {/* 2x2 on a phone: four across leaves ~75px per target, and these are
+            pressed dozens of times a session. */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          {(["again", "hard", "good", "easy"] as const).map((r) => {
+            const meta = RATING_META[r];
+            const Icon = meta.icon;
+            return (
+              <motion.button
+                key={r}
+                type="button"
+                disabled={!flipped}
+                onClick={() => onRate(r)}
+                whileHover={flipped ? { y: -2 } : undefined}
+                whileTap={flipped ? { scale: 0.96 } : undefined}
+                className={cn(
+                  "relative rounded-lg border p-3 text-left transition-all",
+                  flipped
+                    ? meta.color
+                    : "border-border/40 text-muted-foreground/50 cursor-not-allowed",
+                )}
+              >
+                <div className="flex items-center justify-between mb-1">
+                  <Icon className="w-4 h-4" />
+                  <kbd className="px-1.5 py-0.5 rounded bg-black/10 text-[10px] font-mono">
+                    {meta.shortcut}
+                  </kbd>
+                </div>
+                <p className="text-sm font-semibold">{meta.label}</p>
+                <p className="text-[10px] mt-0.5 opacity-70">{meta.hint}</p>
+              </motion.button>
+            );
+          })}
+        </div>
 
-      {/* Bottom nav */}
-      <div className="mt-4 flex items-center justify-between text-xs text-muted-foreground">
-        <button
-          type="button"
-          onClick={onPrev}
-          disabled={idx === 0}
-          className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          Prev
-        </button>
-        <span aria-hidden>Swipe or use ← →</span>
-        <button
-          type="button"
-          onClick={onNext}
-          disabled={idx >= total - 1}
-          className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          Next
-          <ArrowRight className="w-3.5 h-3.5" />
-        </button>
-      </div>
+        {/* Bottom nav */}
+        <div className="mt-3 flex items-center justify-between text-xs text-muted-foreground">
+          <button
+            type="button"
+            onClick={onPrev}
+            disabled={idx === 0}
+            className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            Prev
+          </button>
+          <span aria-hidden>Swipe or use ← →</span>
+          <button
+            type="button"
+            onClick={onNext}
+            disabled={idx >= total - 1}
+            className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            Next
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      </StickyActionBar>
 
       {/* Pause overlay */}
       <AnimatePresence>

@@ -4,7 +4,29 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ## [Unreleased]
 
+### Added
+
+- **Synonyms and antonyms wherever a word is read**, with a toggle in Settings
+  under "On a word card". They were in the corpus from the start — 5,234 of
+  5,241 words carry synonyms and 4,797 carry antonyms — and only the Daily
+  Practice card ever rendered them. The flashcard back and the search detail,
+  which is where a word is actually studied, dropped them silently. One
+  component now renders them in all three places. On by default; off is for
+  people drilling recall who want a plainer card.
+
 ### Fixed
+
+- **The button that starts a session was below the fold.** "Start studying" sat
+  200px past the bottom of a 1280x720 laptop and 127px past a phone's;
+  "Start quiz" 165px and 250px. You picked a deck and then had to go looking
+  for the way to begin, on the screen whose whole job is to begin. Both now sit
+  in a sticky bar, with the list fading out behind it.
+- **Two of the four flashcard ratings were behind the mobile tab bar.** "Good"
+  and "Easy" were half-covered by the navigation on every card of every
+  session, so rating a card meant scrolling first. The ratings and the
+  prev/next row are now pinned above the tab bar for the length of the session.
+  `scripts/drive/reach-audit.mjs` measures all of this across phone, laptop and
+  desktop; it went from 4 of 12 unreachable to 0 of 27.
 
 - **Switching track left eight screens showing the previous notebook.** Search,
   Progress, Exam, Archive, Flashcards, the root families, the confusable drill

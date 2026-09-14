@@ -334,6 +334,29 @@ export function Settings() {
       </SettingSection>
 
       <SettingSection
+        title="On a word card"
+        description="What a card shows once it is revealed. The definition, example and memory tip are always there."
+      >
+        <label className="flex items-start gap-2.5 text-sm cursor-pointer">
+          <input
+            type="checkbox"
+            checked={settings.showWordRelations}
+            onChange={(e) =>
+              settings.set({ showWordRelations: e.target.checked })
+            }
+            className="accent-accent mt-0.5"
+          />
+          <span>
+            Synonyms and antonyms
+            <span className="block text-[11px] text-muted-foreground leading-relaxed mt-0.5">
+              Shown on flashcards, daily practice and word details. Turn off for
+              a plainer card when you are drilling recall.
+            </span>
+          </span>
+        </label>
+      </SettingSection>
+
+      <SettingSection
         title="AI provider"
         description="Lexicon uses whichever AI costs you least — on-device first, then a local server or an installed tool, and only then a key you supplied."
       >

@@ -287,6 +287,14 @@ export interface Settings {
   /** Say the word aloud when a flashcard is revealed. Off by default. */
   autoPronounce: boolean;
   /**
+   * Show synonyms and antonyms wherever a word is read. On by default.
+   *
+   * The corpus has carried these all along; only one screen showed them. On,
+   * because content that exists and helps should not need discovering — and a
+   * setting, because someone drilling recall wants less on the card, not more.
+   */
+  showWordRelations: boolean;
+  /**
    * Ids of installed AI CLIs the user has explicitly enabled. Detection alone
    * never grants permission — running one spends their subscription quota.
    */

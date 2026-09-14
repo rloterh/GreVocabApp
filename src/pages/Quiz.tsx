@@ -2,6 +2,10 @@ import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, GraduationCap, RotateCcw, Trophy, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  ActionBarSpacer,
+  StickyActionBar,
+} from "@/components/StickyActionBar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
@@ -451,14 +455,21 @@ function SetupScreen({
         </CardContent>
       </Card>
 
-      <Button
-        className="w-full h-11"
-        size="lg"
-        onClick={onStart}
-        disabled={availableCount < 2}
-      >
-        {availableCount < 2 ? "Not enough words in pool" : "Start quiz"}
-      </Button>
+      <ActionBarSpacer />
+
+      {/* Mode, schedule, pool and a length slider add up to more than a
+          laptop's worth of screen, and the button that starts the quiz was
+          below all of it. */}
+      <StickyActionBar>
+        <Button
+          className="w-full h-11"
+          size="lg"
+          onClick={onStart}
+          disabled={availableCount < 2}
+        >
+          {availableCount < 2 ? "Not enough words in pool" : "Start quiz"}
+        </Button>
+      </StickyActionBar>
     </motion.div>
   );
 }

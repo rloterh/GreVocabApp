@@ -4,6 +4,7 @@ import { Check, Lightbulb } from "lucide-react";
 import type { VocabWord } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { WordRelations } from "@/components/WordRelations";
 import { SpeakButton } from "@/components/SpeakButton";
 import { cn } from "@/lib/utils";
 
@@ -122,38 +123,7 @@ export function FlashCard({
                   {word.mnemonic}
                 </p>
               </div>
-              {(word.synonyms?.length || word.antonyms?.length) ? (
-                <div className="flex flex-wrap gap-4 pt-2">
-                  {word.synonyms?.length ? (
-                    <div>
-                      <p className="text-[10px] uppercase tracking-wider text-muted-foreground mb-1.5">
-                        Synonyms
-                      </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {word.synonyms.map((s) => (
-                          <Badge key={s} variant="secondary">
-                            {s}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  ) : null}
-                  {word.antonyms?.length ? (
-                    <div>
-                      <p className="text-[10px] uppercase tracking-wider text-muted-foreground mb-1.5">
-                        Antonyms
-                      </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {word.antonyms.map((s) => (
-                          <Badge key={s} variant="outline">
-                            {s}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  ) : null}
-                </div>
-              ) : null}
+              <WordRelations word={word} className="pt-2" />
             </div>
           </motion.div>
         )}

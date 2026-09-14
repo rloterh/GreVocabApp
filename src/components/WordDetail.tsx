@@ -26,6 +26,7 @@ import { cn } from "@/lib/utils";
 import type { StudyRating, VocabWord } from "@/types";
 import { useRestoreFocus } from "@/hooks/useRestoreFocus";
 import { RootFamily } from "@/components/RootFamily";
+import { WordRelations } from "@/components/WordRelations";
 import { SpeakButton } from "@/components/SpeakButton";
 
 export interface WordDetailTarget extends VocabWord {
@@ -150,6 +151,7 @@ export function WordDetail({
                   </p>
                 )}
                 <RootFamily word={word.word} className="mt-3" />
+                <WordRelations word={word} className="mt-4" />
               </div>
 
               <section>

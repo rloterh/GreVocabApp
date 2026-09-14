@@ -30,6 +30,11 @@
   "bundle": {
     "active": true,
     "targets": "all",
+    "publisher": "Robert Loterh",
+    "copyright": "Copyright © 2026 Robert Loterh",
+    "homepage": "https://github.com/rloterh/GreVocabApp",
+    "licenseFile": "../LICENSE",
+    "category": "Education",
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",

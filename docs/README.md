@@ -13,6 +13,7 @@ Read in this order. Each document assumes the ones above it.
 | [VOCAB-GENERATION.md](./VOCAB-GENERATION.md) | Generating a month/quarter/year, never repeating a word, honouring user-supplied lists |
 | [QUIZ-AND-EXAMS.md](./QUIZ-AND-EXAMS.md) | Instant quizzes, periodic tests, and the 100-question sectioned exam |
 | [MOBILE.md](./MOBILE.md) | Android and iOS: layout, platform work, store submission |
+| [DESKTOP.md](./DESKTOP.md) | Windows, macOS and Linux: what desktop has that mobile does not, building, and the installers that come out |
 | [THEMES.md](./THEMES.md) | The palette system, four new themes, and the contrast test that keeps ten of them legible |
 | [WORD-ORDER.md](./WORD-ORDER.md) | Authored / alphabetical / random — and where a presentation preference must not override the scheduler |
 | [TRACKS.md](./TRACKS.md) | GRE and SAT as separate vocabularies in one app — what is per-track, and what is not |

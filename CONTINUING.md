@@ -131,7 +131,8 @@ npm run tauri icon src-tauri/icons/source.png
 
 # Production build
 npm run build          # web only
-npm run tauri:build    # native installers
+npm run tauri:build    # native installers — see docs/DESKTOP.md for what
+                       # comes out and which one to hand someone
 ```
 
 ## Data model at a glance

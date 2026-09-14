@@ -1263,7 +1263,10 @@
           "definition": "A surface reused for writing on which traces of earlier layers still show through.",
           "example": "The old city is a palimpsest, Roman walls peeking through medieval brick and modern glass.",
           "mnemonic": "Greek 'palin' (again) + 'psestos' (scraped) — something scraped clean and written on again.",
-          "synonyms": [],
+          "synonyms": [
+            "parchment",
+            "manuscript"
+          ],
           "antonyms": []
         },
         {
@@ -1273,7 +1276,10 @@
           "definition": "An earlier image or form in a painting that becomes visible beneath later layers.",
           "example": "A faint pentimento revealed the painter had first set the hand in a different pose.",
           "mnemonic": "Italian 'pentirsi,' to repent — the canvas 'repents' its first attempt, letting it bleed through.",
-          "synonyms": [],
+          "synonyms": [
+            "underdrawing",
+            "revision"
+          ],
           "antonyms": []
         },
         {

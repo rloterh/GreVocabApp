@@ -22,6 +22,11 @@ const migrations = runMigrations();
  * Bundled rather than fetched so that switching tracks is instant: the words
  * are already in the store before the user touches the control. The cost is a
  * one-time parse on first run, after which they are in local storage.
+ *
+ * `src/data/` is *generated* from `public/vocab/` by
+ * `scripts/sync-starters.mjs`, which the corpus audit checks. The corpus is
+ * the single source of truth; these are a derived copy that exists only to
+ * avoid a fetch at bootstrap. Do not edit them by hand.
  */
 const STARTERS = {
   gre: () =>

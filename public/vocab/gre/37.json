@@ -542,10 +542,13 @@
           "definition": "A paid position that requires little or no actual work or responsibility.",
           "example": "The honorary chairmanship was a sinecure: a title, a salary, and almost nothing to do.",
           "mnemonic": "Latin 'sine cura' = 'without care' — a job that comes with no cares or duties.",
-          "synonyms": [],
+          "synonyms": [
+            "plum",
+            "cinch"
+          ],
           "antonyms": [
             "drudgery",
-            "slog"
+            "toil"
           ]
         },
         {

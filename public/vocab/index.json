@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-12T22:54:57.661Z",
+  "generatedAt": "2026-09-14T15:53:35.943Z",
   "months": [
+    {
+      "track": "gre",
+      "ordinal": 1,
+      "title": "An alphabet of essentials",
+      "description": "One word for each letter, three times over",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "Abstemious",
+        "Quixotic",
+        "Florid",
+        "Umbrage",
+        "Lassitude",
+        "Castigate"
+      ]
+    },
+    {
+      "track": "gre",
+      "ordinal": 2,
+      "title": "A second alphabet",
+      "description": "One word for each letter, three times over",
+      "words": 90,
+      "days": 30,
+      "sample": [
+        "Aplomb",
+        "Paucity",
+        "Gauche",
+        "Wheedle",
+        "Obviate",
+        "Deleterious"
+      ]
+    },
     {
       "track": "gre",
       "ordinal": 3,

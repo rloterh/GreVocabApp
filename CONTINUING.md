@@ -369,13 +369,6 @@ Phase 9's code-side work does not depend on any of the above and is complete:
 
 ### Known gaps
 
-- **GRE months 1-2 have no synonyms or antonyms.** They are the only two months
-  that live in `src/data/` rather than `public/vocab/` — the public corpus
-  starts at GRE ordinal 3 — and they predate the enrichment, so they are 35KB
-  where an enriched month is 60KB. Every new user meets exactly these two
-  months first, which makes them the worst possible pair to be missing it.
-  Fixing it means a generation run over 180 words; nothing in the UI breaks
-  meanwhile, because `WordRelations` renders nothing when a word has neither.
 
 - **The signing keystore is per-machine.** `node scripts/android-prepare.mjs`
   restores the signing config and the tracked resources to the generated

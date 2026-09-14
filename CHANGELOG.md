@@ -16,6 +16,19 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Fixed
 
+- **The corpus is one place now, and every word has synonyms.** GRE months 1
+  and 2 lived only in `src/data/`, so they were absent from the library index
+  and a user who unloaded them could never get them back — and they predate the
+  enrichment, so the two months every new user meets first were exactly the two
+  without synonyms or antonyms. They are in `public/vocab/` with the rest, and
+  an enrichment pass filled 184 words across six months. 5,418 of 5,421 words
+  now carry synonyms; the three that do not are nouns with no single-word
+  equivalent, left empty rather than given an invented one.
+  `src/data/` is now a *generated* copy of the four starter months, produced by
+  `scripts/sync-starters.mjs` and checked for drift by the corpus audit — it
+  previously held content of its own on one track and a hand-made duplicate on
+  the other.
+
 - **The flashcard's edge arrows could not be clicked.** They reveal on hover and
   sat 56px outside a 44px-wide slot, leaving 16px of un-hovered ground between
   card and arrow; crossing it fired `pointerleave` and the arrow faded to

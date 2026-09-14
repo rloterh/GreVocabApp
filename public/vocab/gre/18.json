@@ -1282,7 +1282,10 @@
           "definition": "A person who has taught themselves a subject without formal instruction.",
           "example": "A lifelong autodidact, she learned three languages from library books and nothing else.",
           "mnemonic": "'auto' (self) + 'didact' (teach) — literally a self-teacher.",
-          "synonyms": [],
+          "synonyms": [
+            "self-learner",
+            "self-starter"
+          ],
           "antonyms": []
         }
       ]

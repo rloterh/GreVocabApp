@@ -390,6 +390,7 @@ Content and verification, run with `npx tsx`:
 | `scripts/repair-corpus.ts --track sat` | Dedupe a track and top up short months |
 | `scripts/audit-corpus.ts` | Check every track with the app's own parser, stemmer and quality rules |
 | `scripts/build-vocab-index.ts` | Rebuild `public/vocab/index.json` so the library can list months without downloading them |
+| `scripts/enrich-relations.ts` | Fill in missing synonyms and antonyms. Only asks about words that have none, so it resumes and re-runs safely |
 | `scripts/render-icon.mjs` | Rasterise `public/icon.svg` for `tauri icon` |
 
 Packaging:
@@ -397,6 +398,7 @@ Packaging:
 | Command | What it does |
 | --- | --- |
 | `scripts/android-prepare.mjs` | Restore the signing config and tracked resources to the generated Android project, which loses both every time it is regenerated. `--check` reports without changing anything |
+| `scripts/sync-starters.mjs` | Regenerate `src/data/` from the corpus. Those files are a derived copy of the months each track opens with, bundled so first run needs no fetch; `--check` fails if they have drifted, which the corpus audit runs |
 
 Browser drivers live in [`scripts/drive/`](./scripts/drive/) and need a Chromium
 path in `CHROME_EXE`. They cover accessibility and contrast, keyboard and focus,

@@ -3,6 +3,35 @@
 Generating a month, a quarter, six months or a year of vocabulary — without
 ever repeating a word, and while honouring words the user insists on.
 
+## Where the corpus lives
+
+`public/vocab/<track>/NN.json` is the corpus and the single source of truth.
+`public/vocab/index.json` lists what exists so the library can offer months
+without downloading them.
+
+`src/data/<track>-NN.json` is a **derived** copy of the two months each track
+opens with. It exists for one reason: those months must be in the store at
+bootstrap, before the user can touch the track switcher, and a `public/` file
+costs a fetch. `scripts/sync-starters.mjs` generates them and the corpus audit
+fails if they drift.
+
+Derived rather than authored, because both alternatives were tried and both
+broke. GRE 1 and 2 lived *only* in `src/data/`, which kept them out of the
+index and made them unrecoverable once unloaded. SAT 1 and 2 were hand-copied
+in, and immediately existed twice with nothing keeping them equal.
+
+## Filling in synonyms and antonyms
+
+`scripts/enrich-relations.ts` asks only about words that have no synonyms, so
+it resumes after an interruption and a finished corpus is a no-op. Replies are
+validated before anything is written: entries longer than two words are glosses
+and are dropped, as are inflections of the headword and duplicates, and a word
+whose reply yields no usable synonym is left alone rather than written empty.
+
+Antonyms are allowed to be absent. Many nouns have no true opposite, and asking
+again only pressures the model into inventing one — 8% of the corpus has none,
+which is the honest number.
+
 ## What exists today
 
 `src/lib/generate.ts` generates one month from a topic and a count, sends the

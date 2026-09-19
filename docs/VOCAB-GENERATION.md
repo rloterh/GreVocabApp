@@ -20,6 +20,25 @@ broke. GRE 1 and 2 lived *only* in `src/data/`, which kept them out of the
 index and made them unrecoverable once unloaded. SAT 1 and 2 were hand-copied
 in, and immediately existed twice with nothing keeping them equal.
 
+## Reaching months that are already loaded
+
+Enriching the corpus does not reach anybody's store. A month loaded before an
+improvement keeps the copy it was loaded with, and the library deliberately
+hides months that are already loaded, so there is no route back to the newer
+version through the UI.
+
+`src/lib/backfill-relations.ts` closes that for the bundled starter months:
+startup fills in synonyms on words that have none, matched by word id. It
+fills gaps only — words the user added survive, anything already present is
+left alone, and no word is added, removed or moved. Progress is untouched
+because it hangs off the word id, which is exactly the property
+[ADR 0011](./adr/0011-tracks.md) exists to protect.
+
+It is gated on finding a gap first, so the ordinary case never parses the
+bundled JSON. Months beyond the starters are not covered: they are loaded
+deliberately from the library, and re-fetching them behind the user's back is
+a bigger decision than topping up content the app seeded itself.
+
 ## Filling in synonyms and antonyms
 
 `scripts/enrich-relations.ts` asks only about words that have no synonyms, so

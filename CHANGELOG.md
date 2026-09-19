@@ -16,6 +16,28 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Fixed
 
+- **Months you already had did not gain the new synonyms.** Enriching the corpus
+  reaches nobody's store, and the library will not re-offer a month that is
+  already loaded — so a long-time user saw no synonyms on exactly the months
+  they use most, while a new user saw them everywhere. Startup now tops up the
+  bundled starter months in place: it fills only what is missing, so words you
+  added survive and anything already there is left alone, and no word is added,
+  removed or moved. Progress is untouched, because it is keyed by word id and
+  the ids do not change.
+
+- **Settings and Archive showed a blank window** for anyone whose state predates
+  schedules. `getSchedule()` synthesises a schedule when a track has none
+  stored, so using it as a selector returned a new object every render, zustand
+  saw a changed snapshot each time, and React ended the loop with "Maximum
+  update depth exceeded". Seeded test data always has schedules, which is why
+  this never showed up in testing. `useSchedule` memoises a pure
+  `scheduleOrDefault`, the same shape as the `useAllMonths` fix.
+- **A page that throws no longer takes the whole app with it.** React unmounts
+  the entire tree when nothing catches a render error, which is why the symptom
+  above was an empty window rather than a message. `PageErrorBoundary` wraps the
+  page area only: the nav survives, you can go somewhere else, and the error
+  text is on screen instead of in a console you cannot open.
+
 - **Switching tracks lost your place in the one you left.** Two tracks are two
   accounts belonging to one person — either is always there, and coming back to
   one should find it as it was. Instead a single `activeMonthKey` was shared by

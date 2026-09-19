@@ -33,6 +33,18 @@ Keep these in mind when extending:
 3. **All animations use Framer Motion** with easing `[0.16, 1, 0.3, 1]` (custom bezier — quick start, gentle finish). Keep this consistent.
 4. **The word itself uses `display-serif`** (Fraunces). Everything else is Inter. Numbers use `tabular` for stability.
 5. **Zustand stores are the source of truth**, `localStorage` is the persistence layer via `zustand/middleware`. Never write to `localStorage` directly outside `useSettingsStore` / `useVocabStore` / `useProgressStore`.
+6. **A selector must return a primitive or a stable reference — never call a store getter that builds something.** `useVocabStore((s) => s.getSchedule())` looks harmless and is an infinite render loop: the getter synthesises a schedule when a track has none, zustand compares snapshots by identity, sees a new object every render, and re-renders until React throws "Maximum update depth exceeded". This has shipped twice — `getAllMonths` and `getSchedule` — and both times the symptom was a *blank window*, not an error, because the store getters read state through `get()` that no dependency array can see.
+
+   The fix both times was the same shape, and it is the pattern to copy: a pure
+   function in `src/lib/` that takes the state it needs as arguments, plus a
+   hook in `src/store/` that subscribes to those pieces and memoises the
+   result — see [`useAllMonths`](./src/store/useAllMonths.ts) and
+   [`useSchedule`](./src/store/useSchedule.ts). Store getters stay correct for
+   one-shot reads (`getState().getSchedule()`), just not as selectors.
+
+   `scripts/drive/legacy-state-smoke.mjs` catches this class: it drives every
+   page against state with no `schedules`, which is what makes the synthesising
+   branch run at all. Seeded test data never does.
 6. **Pages don't own domain logic.** `src/lib/` holds pure functions; pages orchestrate. This makes them testable and swappable.
 7. **No `Co-Authored-By` in commits.** All commits attributed to the repo owner (Robert).
 

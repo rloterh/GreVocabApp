@@ -16,6 +16,7 @@ import { Toast } from "@/components/Toast";
 import { DropOverlay } from "@/components/DropOverlay";
 import { ShortcutsHelp } from "@/components/ShortcutsHelp";
 import { Onboarding } from "@/components/Onboarding";
+import { PageErrorBoundary } from "@/components/PageErrorBoundary";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useStudyReminder } from "@/hooks/useStudyReminder";
@@ -134,9 +135,16 @@ export function App() {
               transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="min-h-full px-4 sm:px-6 lg:px-8 pb-24 rail:pb-0"
             >
-              <Suspense fallback={<PageFallback />}>
-                {renderPage(page)}
-              </Suspense>
+              {/*
+                Inside the keyed motion div, so navigating away and back gives
+                a failed page a clean mount rather than a stuck error. Outside
+                Suspense, so a chunk that fails to load is caught too.
+              */}
+              <PageErrorBoundary page={page}>
+                <Suspense fallback={<PageFallback />}>
+                  {renderPage(page)}
+                </Suspense>
+              </PageErrorBoundary>
             </motion.div>
           </AnimatePresence>
           </main>

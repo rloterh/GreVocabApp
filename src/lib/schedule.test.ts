@@ -24,6 +24,7 @@ import {
   redistributeWords,
   shuffledSchedule,
   timeline,
+  scheduleOrDefault,
 } from "./schedule";
 import type { Schedule, VocabMonth } from "@/types";
 
@@ -340,5 +341,66 @@ describe("calendarMonthAt", () => {
   it("counts positions from the start month", () => {
     expect(calendarMonthAt(schedule(), 0)).toBe("2027-03");
     expect(calendarMonthAt(schedule(), 11)).toBe("2028-02");
+  });
+});
+
+/**
+ * The property that matters here is not the value but the *identity*: the
+ * store getter that this replaced built a fresh object whenever a track had no
+ * stored schedule, and using it as a zustand selector meant a new snapshot on
+ * every render — an infinite loop that blanked Settings and Archive for anyone
+ * whose state predated schedules.
+ */
+describe("scheduleOrDefault", () => {
+  const month = (track: "gre" | "sat", ordinal: number): VocabMonth => ({
+    track,
+    ordinal,
+    title: `${track} ${ordinal}`,
+    days: [],
+  });
+  const months = {
+    "gre/01": month("gre", 1),
+    "gre/03": month("gre", 3),
+    "sat/01": month("sat", 1),
+  };
+
+  it("returns the stored schedule by reference", () => {
+    const stored: Schedule = {
+      track: "gre",
+      startMonth: "2026-04",
+      order: [1, 3],
+      shuffleSeed: null,
+    };
+    // Reference equality, not deep equality: a copy would restart the loop.
+    expect(scheduleOrDefault(months, { gre: stored }, "gre", "2027-01")).toBe(
+      stored,
+    );
+  });
+
+  it("covers only the requested track when none is stored", () => {
+    const made = scheduleOrDefault(months, {}, "gre", "2026-04");
+    expect(made.track).toBe("gre");
+    expect(made.startMonth).toBe("2026-04");
+    expect(made.order).toEqual([1, 3]);
+  });
+
+  it("does not hand one track the other's months", () => {
+    expect(scheduleOrDefault(months, {}, "sat", "2026-04").order).toEqual([1]);
+  });
+
+  it("is empty for a track with nothing loaded", () => {
+    expect(scheduleOrDefault({}, {}, "sat", "2026-04").order).toEqual([]);
+  });
+
+  it("ignores the other track's stored schedule", () => {
+    const sat: Schedule = {
+      track: "sat",
+      startMonth: "2020-01",
+      order: [1],
+      shuffleSeed: null,
+    };
+    const made = scheduleOrDefault(months, { sat }, "gre", "2026-04");
+    expect(made.track).toBe("gre");
+    expect(made.startMonth).toBe("2026-04");
   });
 });

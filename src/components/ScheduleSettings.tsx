@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Choice } from "@/components/ScheduleSetup";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useSchedule } from "@/store/useSchedule";
 import { useAppStore } from "@/store/useAppStore";
 import { TRACK_META } from "@/lib/track";
 import {
@@ -29,7 +30,7 @@ import { formatMonthKey } from "@/lib/date-utils";
 export function ScheduleSettings() {
   const activeTrack = useVocabStore((s) => s.activeTrack);
   const months = useVocabStore((s) => s.months);
-  const schedule = useVocabStore((s) => s.getSchedule());
+  const schedule = useSchedule();
   const setStartMonth = useVocabStore((s) => s.setStartMonth);
   const shuffleMonths = useVocabStore((s) => s.shuffleMonths);
   const resetMonthOrder = useVocabStore((s) => s.resetMonthOrder);

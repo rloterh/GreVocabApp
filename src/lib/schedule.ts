@@ -71,6 +71,35 @@ export function calendarMonthsBetween(
  * The schedule a user gets if they accept both defaults: start today, months
  * in the order they were taught.
  */
+/**
+ * A track's schedule, or the one it would have if it had never been set.
+ *
+ * Pure, and taking state as arguments, because the store's `getSchedule()`
+ * cannot be used as a zustand selector: when a track has no stored schedule it
+ * synthesises one, and a *new object every call* makes zustand see a changed
+ * snapshot on every render. That is an infinite re-render, and React ends it
+ * with "Maximum update depth exceeded" — which, with no error boundary, blanked
+ * the entire window. It hit Settings and Archive, and only for users whose
+ * tracks had no stored schedule: anyone carrying state from before schedules
+ * existed.
+ *
+ * `useSchedule` is the React-side wrapper that memoises this. Prefer it in
+ * components; the store getter remains correct for one-shot reads.
+ */
+export function scheduleOrDefault(
+  months: Record<string, VocabMonth>,
+  schedules: Partial<Record<Track, Schedule>>,
+  track: Track,
+  startMonth: CalendarMonth,
+): Schedule {
+  const existing = schedules[track];
+  if (existing) return existing;
+  const ordinals = Object.values(months)
+    .filter((m) => m.track === track)
+    .map((m) => m.ordinal);
+  return identitySchedule(track, startMonth, ordinals);
+}
+
 export function identitySchedule(
   track: Track,
   startMonth: CalendarMonth,

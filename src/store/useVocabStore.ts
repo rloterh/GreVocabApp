@@ -18,6 +18,7 @@ import {
 import {
   calendarMonthOfDate,
   identitySchedule,
+  scheduleOrDefault,
   ordinalForCalendarMonth,
   reconcile,
   redistributeWords,
@@ -502,12 +503,11 @@ function scheduleFor(
   state: Pick<VocabState, "months" | "schedules">,
   track: Track,
 ): Schedule {
-  const existing = state.schedules[track];
-  if (existing) return existing;
-  return identitySchedule(
+  return scheduleOrDefault(
+    state.months,
+    state.schedules,
     track,
     calendarMonthOfDate(new Date()),
-    monthsOf(state.months, track).map((m) => m.ordinal),
   );
 }
 

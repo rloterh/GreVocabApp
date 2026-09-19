@@ -73,3 +73,43 @@ export function backfillRelations(
 export function needsRelations(month: VocabMonth): boolean {
   return month.days.some((day) => day.words.some((w) => !w.synonyms?.length));
 }
+
+/**
+ * A title that is really a date, left over from before months were positions.
+ *
+ * Months are teaching positions, not calendar months — which month of the year
+ * you study one in is a `Schedule`, and two users starting a year apart share
+ * the same content (ADR 0012). A month *titled* "April 2026" predates that and
+ * says the wrong thing twice: it duplicates the schedule, and it goes stale
+ * the moment the start month changes while the schedule quietly moves on.
+ *
+ * It also looks broken. A track carrying "April 2026", "May 2026" and
+ * "Criticism and praise" side by side reads as two half-finished features.
+ *
+ * The corpus audit already refuses a date title; this is the same rule applied
+ * to content that was stored before the rule existed.
+ */
+// A literal, not a built string: `\d` inside a template literal loses its
+// backslash, which silently turns the pattern into "d{4}" and matches nothing.
+const DATE_TITLE =
+  /^(?:\d{4}-\d{2}|(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{4})$/i;
+
+export function isDateTitle(title: string): boolean {
+  return DATE_TITLE.test(title.trim());
+}
+
+/**
+ * Give a date-titled month the corpus's real name.
+ *
+ * Only when the stored title is a date *and* the corpus offers something that
+ * is not — a title the user chose is theirs, and a rename they did not ask for
+ * is worse than an old one.
+ */
+export function retitleIfDated(
+  stored: VocabMonth,
+  source: { title?: string },
+): VocabMonth {
+  const next = source.title?.trim();
+  if (!next || !isDateTitle(stored.title) || isDateTitle(next)) return stored;
+  return { ...stored, title: next };
+}

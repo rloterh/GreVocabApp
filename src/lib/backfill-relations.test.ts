@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 import type { VocabMonth, VocabWord } from "@/types";
-import { backfillRelations, needsRelations } from "./backfill-relations";
+import {
+  backfillRelations,
+  isDateTitle,
+  needsRelations,
+  retitleIfDated,
+} from "./backfill-relations";
 
 const word = (id: string, extra: Partial<VocabWord> = {}): VocabWord => ({
   id,
@@ -100,5 +105,39 @@ describe("needsRelations", () => {
     expect(needsRelations(month([[word("gre-a", { synonyms: ["x"] })]]))).toBe(
       false,
     );
+  });
+});
+
+describe("retitleIfDated", () => {
+  const dated = { ...month([[word("gre-a")]]), title: "April 2026" };
+
+  it.each(["April 2026", "2026-04", "december 2027"])(
+    "treats %o as a date",
+    (t) => expect(isDateTitle(t)).toBe(true),
+  );
+
+  it.each(["An alphabet of essentials", "Criticism and praise", "May Day"])(
+    "treats %o as a name",
+    (t) => expect(isDateTitle(t)).toBe(false),
+  );
+
+  it("takes the corpus name over a date", () => {
+    expect(retitleIfDated(dated, { title: "An alphabet of essentials" }).title).toBe(
+      "An alphabet of essentials",
+    );
+  });
+
+  it("leaves a title the user chose alone", () => {
+    // Only a date is assumed to be legacy; anything else is theirs.
+    const named = { ...dated, title: "My own name" };
+    expect(retitleIfDated(named, { title: "Corpus name" })).toBe(named);
+  });
+
+  it("does not swap one date for another", () => {
+    expect(retitleIfDated(dated, { title: "2026-04" })).toBe(dated);
+  });
+
+  it("does nothing when the corpus offers no title", () => {
+    expect(retitleIfDated(dated, {})).toBe(dated);
   });
 });

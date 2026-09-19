@@ -28,15 +28,15 @@ const migrations = runMigrations();
  * the single source of truth; these are a derived copy that exists only to
  * avoid a fetch at bootstrap. Do not edit them by hand.
  */
-/** The teaching positions each track's bundle covers. */
-const STARTER_ORDINALS = [1, 2] as const;
-
 const STARTERS = {
   gre: () =>
     Promise.all([import("./data/gre-01.json"), import("./data/gre-02.json")]),
   sat: () =>
     Promise.all([import("./data/sat-01.json"), import("./data/sat-02.json")]),
 } as const;
+
+/** The teaching positions each track's bundle covers. */
+const STARTER_ORDINALS = [1, 2] as const;
 
 async function bootstrap() {
   const { useVocabStore } = await import("./store/useVocabStore");
@@ -83,7 +83,6 @@ async function bootstrap() {
   // src/lib/backfill-relations.ts.
   await backfillStarters();
 
-
   // Only when the track the user is *looking at* was just seeded. An existing
   // user picking up SAT for the first time should not have the GRE month they
   // were on quietly reset to today's.
@@ -111,9 +110,8 @@ async function bootstrap() {
  */
 async function backfillStarters() {
   const { useVocabStore } = await import("./store/useVocabStore");
-  const { backfillRelations, needsRelations } = await import(
-    "./lib/backfill-relations"
-  );
+  const { backfillRelations, isDateTitle, needsRelations, retitleIfDated } =
+    await import("./lib/backfill-relations");
   const { monthKey } = await import("./lib/track");
   const { TRACKS } = await import("./lib/track");
 
@@ -123,7 +121,7 @@ async function backfillStarters() {
       key: monthKey(track, ordinal),
     })).filter(({ key }) => {
       const month = useVocabStore.getState().months[key];
-      return month && needsRelations(month);
+      return month && (needsRelations(month) || isDateTitle(month.title));
     });
     if (stale.length === 0) continue;
 
@@ -134,8 +132,12 @@ async function backfillStarters() {
       const stored = useVocabStore.getState().months[key];
       if (!source || !stored) continue;
       const { month, filled } = backfillRelations(stored, source);
-      if (filled === 0) continue;
-      useVocabStore.getState().loadMonth(month, { track, ordinal });
+      // A month titled "April 2026" predates months being teaching positions.
+      // It duplicates the schedule and goes stale the moment the start month
+      // moves, and sits oddly beside "Criticism and praise" in the same track.
+      const next = retitleIfDated(month, source);
+      if (filled === 0 && next === stored) continue;
+      useVocabStore.getState().loadMonth(next, { track, ordinal });
       filledTotal += filled;
     }
     if (filledTotal > 0) {

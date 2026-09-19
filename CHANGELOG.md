@@ -23,7 +23,11 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   bundled starter months in place: it fills only what is missing, so words you
   added survive and anything already there is left alone, and no word is added,
   removed or moved. Progress is untouched, because it is keyed by word id and
-  the ids do not change.
+  the ids do not change. The same pass renames a month still titled by date —
+  "April 2026" predates months being teaching positions, duplicates the
+  schedule, goes stale the moment the start month moves, and sat oddly beside
+  "Criticism and praise" in the same track. Only a date is replaced; a title
+  you chose is yours.
 
 - **Settings and Archive showed a blank window** for anyone whose state predates
   schedules. `getSchedule()` synthesises a schedule when a track has none

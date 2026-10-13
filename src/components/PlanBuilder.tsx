@@ -247,7 +247,7 @@ export function PlanBuilder({ onDone }: { onDone: () => void }) {
         <Input
           value={plan.register}
           onChange={(e) => update({ register: e.target.value })}
-          placeholder="GRE high-frequency"
+          placeholder="high-frequency academic"
           disabled={busy}
         />
       </Field>

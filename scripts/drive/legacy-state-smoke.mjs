@@ -29,6 +29,7 @@ const PAGES = [
   "Flashcards",
   "Quiz",
   "Exam",
+  "Games",
   "Sentences",
   "Calendar",
   "Archive",

@@ -69,7 +69,7 @@ await nextDay(6);
 const greBefore = await state();
 console.log(`GRE left at:     ${greBefore.month} day ${greBefore.day}`);
 
-await switchTo("SAT");
+await switchTo("Easy");
 const satFirst = await state();
 console.log(`SAT opened at:   ${satFirst.month} day ${satFirst.day}`);
 check(satFirst.track === "sat", "switching changes the active track");
@@ -84,7 +84,7 @@ await nextDay(3);
 const satBefore = await state();
 console.log(`SAT left at:     ${satBefore.month} day ${satBefore.day}`);
 
-await switchTo("GRE");
+await switchTo("Advanced");
 const greBack = await state();
 console.log(`GRE returned to: ${greBack.month} day ${greBack.day}`);
 check(
@@ -98,7 +98,7 @@ check(
   `day ${greBefore.day} -> ${greBack.day}`,
 );
 
-await switchTo("SAT");
+await switchTo("Easy");
 const satBack = await state();
 console.log(`SAT returned to: ${satBack.month} day ${satBack.day}`);
 check(

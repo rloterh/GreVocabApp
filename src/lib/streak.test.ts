@@ -11,6 +11,7 @@ import {
   calculateStreaks,
   calculateStreaksWithFreezes,
   FREEZE_EVERY_DAYS,
+  isActiveDay,
 } from "@/lib/streak";
 import type { DayActivity } from "@/types";
 
@@ -123,5 +124,20 @@ describe("streak freezes", () => {
       "frozen",
       "longest",
     ]);
+  });
+});
+
+describe("what keeps a streak alive", () => {
+  const day = (date: string, extra: Partial<DayActivity>): DayActivity => ({
+    date, wordsReviewed: 0, wordsMastered: 0, quizzesTaken: 0, sentencesWritten: 0, ...extra,
+  });
+
+  it("counts a day on which only a game round was finished (ADR 0016)", () => {
+    expect(isActiveDay(day("2026-10-13", { gamesPlayed: 1 }))).toBe(true);
+  });
+
+  it("does not count a day with nothing in it, or an older record with no games field", () => {
+    expect(isActiveDay(day("2026-10-13", {}))).toBe(false);
+    expect(isActiveDay(day("2026-10-13", { gamesPlayed: 0 }))).toBe(false);
   });
 });

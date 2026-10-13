@@ -50,6 +50,7 @@ const Quiz = lazy(() => import("@/pages/Quiz").then((m) => ({ default: m.Quiz })
 const ExamPage = lazy(() =>
   import("@/pages/Exam").then((m) => ({ default: m.ExamPage })),
 );
+const Games = lazy(() => import("@/pages/Games").then((m) => ({ default: m.Games })));
 const SentenceBuilder = lazy(() =>
   import("@/pages/SentenceBuilder").then((m) => ({ default: m.SentenceBuilder })),
 );
@@ -171,6 +172,8 @@ function renderPage(page: string) {
       return <Quiz />;
     case "exam":
       return <ExamPage />;
+    case "games":
+      return <Games />;
     case "sentences":
       return <SentenceBuilder />;
     case "calendar":

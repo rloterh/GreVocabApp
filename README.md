@@ -2,7 +2,7 @@
 
 A premium daily vocabulary practice app. Learn a few new words each day, track your growth over months and years, quiz yourself, and write sentences that get checked for grammar and correct usage.
 
-Two vocabularies — **GRE** and **SAT** — each three years long, each with its own schedule and its own progress. Switching between them is like opening a different notebook: nothing is lost, nothing is merged, and coming back finds it as you left it.
+Two vocabularies — **Advanced** and **Easy** — each three years long, each with its own schedule and its own progress. Switching between them is like opening a different notebook: nothing is lost, nothing is merged, and coming back finds it as you left it.
 
 Built with React 18, TypeScript, Tailwind, Framer Motion, and Tauri v2 — runs as either a native desktop app or a plain web app.
 
@@ -44,7 +44,8 @@ every control has a name, and rotating the device keeps the card you were on.
 
 ## Features
 
-- **Two tracks** — GRE and SAT, switched from a control that is visible on every screen. Both arrive with two months already loaded, so switching is instant and nothing has to be fetched first. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
+- **Games** — short timed rounds on the same words: ten questions, four difficulty tiers plus your own studied words, a best per game, and a review of every answer afterwards. A round never changes your flashcard schedule unless you ask it to, from the results screen
+- **Two tracks** — Advanced and Easy, switched from a control that is visible on every screen. Both arrive with two months already loaded, so switching is instant and nothing has to be fetched first. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
 - **Start whenever you like** — pick the month you begin and the app lays three years out from there. Reorder the months, or reshuffle the words, without losing a day of progress
 - **Daily practice** — animated flashcards with definition, example, and mnemonic
 - **Synonyms and antonyms** — on the flashcard, in daily practice and in word details; switch them off in Settings for a plainer card when you are drilling recall

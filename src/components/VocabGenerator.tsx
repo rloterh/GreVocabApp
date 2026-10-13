@@ -257,7 +257,7 @@ export function VocabGenerator() {
                   id="gen-topic"
                   value={topic}
                   onChange={(e) => setTopic(e.target.value)}
-                  placeholder="GRE high-frequency adjectives"
+                  placeholder="high-frequency academic adjectives"
                   disabled={busy}
                   autoFocus
                 />

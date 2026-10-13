@@ -6,9 +6,24 @@ import type { Track, VocabMonth } from "@/types";
  * A track is part of a word's identity, not a filter over it — see
  * docs/adr/0011-tracks.md. Everything here is pure and has no opinion about
  * the calendar; that lives in src/lib/schedule.ts.
+ *
+ * The ids say `gre` and `sat`; the screen says Advanced and Easy. That split
+ * is deliberate and permanent — the ids are inside every word id, month key
+ * and progress record, so renaming them would be a migration for a change
+ * nobody can see. See docs/adr/0017-track-display-names.md before "finishing"
+ * the rename.
  */
 
 export const TRACKS: readonly Track[] = ["gre", "sat"] as const;
+
+/**
+ * The order tracks are *shown* in: the easier notebook first.
+ *
+ * Separate from `TRACKS` on purpose. Seeding, migration and schedule
+ * reconciliation all iterate `TRACKS`, and none of them should change
+ * behaviour because a switcher was reordered.
+ */
+export const TRACK_DISPLAY_ORDER: readonly Track[] = ["sat", "gre"] as const;
 
 export const TRACK_META: Record<
   Track,
@@ -16,13 +31,13 @@ export const TRACK_META: Record<
 > = {
   gre: {
     id: "gre",
-    label: "GRE",
-    description: "Graduate Record Examination",
+    label: "Advanced",
+    description: "Demanding, lower-frequency words",
   },
   sat: {
     id: "sat",
-    label: "SAT",
-    description: "Scholastic Assessment Test",
+    label: "Easy",
+    description: "Essential academic words",
   },
 };
 

@@ -21,6 +21,7 @@ import {
   LayoutDashboard,
   MoreHorizontal,
   PenLine,
+  Puzzle,
   Search,
   Settings as SettingsIcon,
   Archive as ArchiveIcon,
@@ -35,16 +36,23 @@ interface Destination {
   icon: React.ComponentType<{ className?: string }>;
 }
 
-/** The four done daily, plus More. */
+/**
+ * The four opened most, plus More.
+ *
+ * Games took Quiz's tab in v1.2 (docs/GAMES.md §9, decision D4): a sixth tab
+ * would leave every label cramped at 360px, and Quiz sits beside Exam in More
+ * — both are deliberate, sit-down tests rather than something opened on a bus.
+ */
 const TABS: Destination[] = [
   { page: "dashboard", label: "Home", icon: LayoutDashboard },
   { page: "practice", label: "Practice", icon: BookOpen },
   { page: "flashcards", label: "Cards", icon: Layers },
-  { page: "quiz", label: "Quiz", icon: GraduationCap },
+  { page: "games", label: "Games", icon: Puzzle },
 ];
 
 /** Everything else, one tap further away. */
 const MORE: Destination[] = [
+  { page: "quiz", label: "Quiz", icon: GraduationCap },
   { page: "exam", label: "Exam", icon: ClipboardList },
   { page: "sentences", label: "Sentences", icon: PenLine },
   { page: "calendar", label: "Calendar", icon: Calendar },

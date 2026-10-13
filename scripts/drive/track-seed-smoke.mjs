@@ -77,7 +77,7 @@ async function run(label, seed, arg) {
   );
 
   // The thing the user actually does: press SAT and expect words.
-  await page.getByRole("radio", { name: /^SAT/ }).first().click();
+  await page.getByRole("radio", { name: /^Easy/ }).first().click();
   await page.waitForTimeout(700);
   const body = await page.locator("body").innerText();
   const empty = /no vocabulary|load vocabulary|nothing loaded|no month/i.test(body);

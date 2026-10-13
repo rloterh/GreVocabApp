@@ -19,6 +19,14 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
+**Current work: v1.2, Games** (Phases 19–25, at the end of this file).
+A games section of timed, scored rounds modelled on Merriam-Webster's word
+games, and the tracks renamed Advanced and Easy.
+[ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
+2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
+**Phase 19 is done.** **Next is Phase 20.** Design:
+[docs/GAMES.md](./docs/GAMES.md).
+
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
@@ -626,11 +634,207 @@ after contrast without alpha compositing and input names without labels.
 - ~~The migration acceptance test holds.~~
 - ~~`main` is a working app that a stranger can clone.~~ Verified on `main` after the merge.
 
+# v1.2 — Games
+
+Timed, scored rounds on the vocabulary the app already teaches, plus the track
+rename to **Advanced** and **Easy**. One release, on `dev`, merged to `main` at
+the end of Phase 25.
+
+**Read first:** [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md)
+(must be accepted before Phase 19), [ADR 0017](./docs/adr/0017-track-display-names.md),
+then [docs/GAMES.md](./docs/GAMES.md) and [docs/GAMES-UI.md](./docs/GAMES-UI.md).
+Each phase has a ready-to-run session prompt in
+[docs/GAMES-PROMPTS.md](./docs/GAMES-PROMPTS.md).
+
+**Order is deliberate.** Phase 19 ships *one* game end to end — engine, shell,
+persistence, hub, review — because every later game is a builder plus a stage
+variant on top of it. Building three games before the shell is proven would
+mean fixing the same bug three times.
+
+## Phase 19 — Foundations, the rename, and Closest Meaning
+
+**Goal.** One complete game, playable from the hub to the review list, on both
+tracks, persisted, and verified in a browser.
+
+### Tasks
+
+- ~~**[P0] Accept ADR 0016 and ADR 0017.**~~ **DONE 2026-10-13**, with every
+  recommended option in GAMES.md §14: games count toward the streak, Games
+  takes Quiz's tab, Picture It waits for its spike, "Advanced" and "Easy".
+- ~~**[P0] Track display names.**~~ **DONE 2026-10-13.** — Display only; a
+  `TRACK_DISPLAY_ORDER` puts Easy first in the switcher without touching
+  `TRACKS`, which seeding and migration iterate. Five drivers that found the
+  switcher by its old label were updated. `tracks-smoke.mjs` had **two
+  failures that predated this work** (identical on the untouched tree): it
+  still expected only Advanced to be seeded, which stopped being true when both
+  tracks began seeding in e31b1a0. Both checks were restated rather than
+  dropped — the migrated months must still be exactly `gre/01,gre/02`, and the
+  Easy notebook must report its own word count, counted from storage, with none
+  of Advanced's mastered words. 24/24.
+- ~~**[P0] `src/lib/games/` engine.**~~ **DONE 2026-10-13.** — 54 tests,
+  including a property test of the guard over real cards from both tracks.
+- ~~**[P0] Game corpus hook.**~~ **DONE 2026-10-13.** — Plus a generated
+  `public/vocab/relations.json` (400 KB, 128 KB gzipped): the guard needs the
+  whole corpus's synonym graph, and fetching every month for it would be 3.6 MB.
+- ~~**[P0] Persistence.**~~ **DONE 2026-10-13**, with one deliberate deviation:
+  **no version bump.** The new fields are new keys, which zustand's default
+  merge fills from the initial state; bumping the version would have made every
+  blob the tracks migration stamped look stale. A test hydrates a v1.1-shaped
+  blob instead, and the driver reads the best off the hub after a reload.
+- ~~**[P0] The `games` page and shell.**~~ **DONE 2026-10-13.** — The stage is
+  a fixed layer over the whole app, so nothing in the shell had to learn to
+  hide; an `immersive` flag stands global shortcuts down and a `backHandler`
+  turns system back into pause.
+- ~~**[P0] Closest Meaning.**~~ **DONE 2026-10-13.** — 28–42 ms per round once
+  the graph is built.
+- ~~**[P0] `scripts/audit-games.ts`.**~~ **DONE 2026-10-13.** Every tier of
+  both tracks fills a round. The owner delegated the read, so it was done
+  as **three independent blind reads of three fresh samples**, each by a
+  reviewer told the rubric and nothing about earlier findings. A fix tuned
+  against one sample was always judged on the next. Results:
+  **5.0% → 2.0% → 1.5%**, with zero wrong keys in the last.
+  - *Seed 1, 5.0%:* defensible distractors from the same meaning area
+    (*unravel* → "uncover", *demented* → "frenzied"). Fixed generally: no
+    same-month bonus (months are themed, so a same-month word is the likeliest
+    near-synonym), and any shared content word between two definitions now
+    counts as too close.
+  - *Seed 2, 2.0%:* half were **wrong keys** (*inquisitive* → "nosy"). Caused by
+    ranking synonyms shortest-first and, on Fiendish, taking the least familiar.
+    The lists are best-first, so the key is now always the first usable
+    synonym, and a word needs two usable synonyms to qualify (68 words fail).
+  - *Seed 3, 1.5%:* three near-synonyms no data links, now in
+    `REVIEWED_EXCLUSIONS`, plus a clipped-form key (*expatriate* → "expat"),
+    now refused by rule.
+  Earlier, in-house reads found and fixed *eulogize* → "extol", *jaunty* →
+  "cheerful" and *illegitimate* → "illegal". The samples are in `audit-out/`.
+- ~~**[P1] Navigation.**~~ **DONE 2026-10-13.** — `g m` opens Games.
+- ~~**[P1] `scripts/drive/games-smoke.mjs`.**~~ **DONE 2026-10-13.** — 27
+  checks, run against seeded progress so "a round changed nothing" can fail:
+  mastered, accuracy and due counts read off the dashboard before and after.
+
+### Definition of done
+
+- A user plays Closest Meaning on Warm-up, Standard, Hard, Fiendish and Mine,
+  on both tracks, at 360, 768 and 1280.
+- After a round, the Dashboard's mastered and due counts are unchanged.
+- A best survives a reload, read off the screen.
+- The UI says Advanced and Easy; the data says `gre` and `sat`.
+- Typecheck, build, the full suite, both corpus audits and every driver are
+  green.
+
+## Phase 20 — Fact or Fiction, Opposites, Fill the Gap
+
+**Goal.** Three more games, and the review bridge into Flashcards.
+
+### Tasks
+
+- **[P0] Fact or Fiction.** — Means, Synonym, Opposite and Root templates; an
+  explanation card that holds the clock. → True/false balanced per round, never
+  four the same in a row, and every false statement names the word it borrowed
+  from.
+- **[P0] Opposites.** — The antonym builder, with a synonym-trap distractor from
+  Standard upwards. → The trap is labelled in review.
+- **[P1] Fill the Gap.** — `blankOut` reuse. → Every sentence has exactly one
+  gap and no copy of the word; unblankable words are skipped.
+- **[P0] "Review these in Flashcards".** — On results, for missed words already
+  studied; "Find in library" for the others. → The driver shows exactly those
+  words in the due deck afterwards, and nothing else changed.
+
+### Definition of done
+
+- Each game passes the corpus-wide property test and the human-read sample.
+- The review action is the only path from a game into SM-2, and a test proves no
+  other game code calls `applyStudyRating` or `recordQuizAnswer`.
+
+## Phase 21 — Odd One Out, Match Up, Spell It
+
+**Goal.** The three games that are not multiple choice, each with its own stage.
+
+### Tasks
+
+- **[P1] Odd One Out.** — Guarded in both directions against every member of the
+  three. → Its explanation names the shared meaning.
+- **[P1] Match Up.** — Three boards of five pairs, with a two-second penalty for
+  a wrong pair. → Fully keyboard-playable; definitions never truncated; usable
+  at 360 px.
+- **[P1] Spell It.** — Speech, hint, and autocorrect disabled. → Works with no
+  speech available (the intro card says so); an Android emulator run confirms
+  the keyboard neither autocorrects nor autocapitalises.
+
+### Definition of done
+
+- The tablet audit passes with each stage running, in both orientations.
+
+## Phase 22 — Daily Round and the surfaces around it
+
+**Goal.** A reason to open Games every day, and its place on the Dashboard and
+Progress pages.
+
+### Tasks
+
+- **[P1] Daily Round.** — Seeded by date and track; the first completed attempt
+  counts and replays are practice. → Deterministic in tests; holds until local
+  midnight.
+- **[P1] Dashboard card.** — Under word of the day: played or not, the result,
+  and one tap to play. → No game number joins the stat row.
+- **[P1] Progress → Games.** — Bests per game for the active track, and the last
+  14 Daily Rounds. → **No cumulative total**, asserted in a test.
+- **[P1] Sounds.** — `start`, `tick`, `timeout`, `best`, synthesised, behind
+  `soundEnabled`.
+- **[P2] Share text.** — Only if ADR 0016 is accepted with its share clause.
+  Clipboard only.
+
+### Definition of done
+
+- The legacy-state driver opens Games and the Dashboard with no `gameRounds`
+  key in storage and nothing goes blank.
+
+## Phase 23 — Craft
+
+### Tasks
+
+- **[P2] Unscramble.**
+- **[P2] Haptics.** — `canVibrate` in `platform.ts`, tied to the sound switch.
+- **[P2] AI-written statements.** — Usage-template statements for Fact or Fiction,
+  through the provider layer with a strict schema (GAMES-PROMPTS.md §B). → Opt-in
+  and validated; cached in memory only. **The heuristic game never depends on
+  it.**
+- **[P2] Empty, loading and offline states** per GAMES-UI.md §5, each one
+  screenshotted.
+
+## Phase 24 — Picture It (gated)
+
+**Blocked on decision D3.** Starts with a spike, not with code.
+
+### Tasks
+
+- **[P0] Spike: the picture pack.** — Price 150 commissioned SVGs against the
+  best CC0 set; check licences against MIT distribution on the Play Store. →
+  A decision recorded in a new ADR, with numbers.
+- **[P1] Picture It**, if the spike says yes. — A separate concrete-noun pack,
+  never mixed into either track's corpus.
+
+## Phase 25 — v1.2 release
+
+### Tasks
+
+- **[P0] README, CHANGELOG, screenshots** — via `scripts/drive/screenshots.mjs`,
+  with a game stage in them.
+- **[P0] CONTINUING.md** — "where to make common changes" gains *Add a game*.
+- **[P0] Run the checklist on `main` after the merge**, as v1.1 did.
+
+### Definition of done
+
+- Typecheck, build, the full suite, both corpus audits, the games audit and
+  every driver are green on `main`.
+- A signed Android build has been installed on the emulator and one round of
+  every shipped game has been played on it.
+
 ## Explicitly not planned
 
 - **Cloud sync as a first-party feature.** — Users can export/import; that's enough. If cloud sync happens, it's via a pluggable adapter (Dropbox, iCloud file), never a Lexicon-owned backend.
 - **User accounts.** — Same reason.
-- **Gamification beyond streaks.** — No XP bars, no levels, no leagues. Streaks + heatmap are enough.
+- **Gamification beyond streaks and per-game bests.** — No XP bars, no levels, no leagues, no points total. Streaks, the heatmap and a best per game are enough. See [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) for where the line sits and why.
 - **Payment / freemium.** — MIT, forever.
 
 ## Ideas parking lot

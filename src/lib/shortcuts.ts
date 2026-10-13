@@ -32,6 +32,7 @@ export const GO_TO: Record<string, ShortcutSpec> = {
   p: { keys: "g p", label: "Daily practice", action: { type: "navigate", page: "practice" } },
   f: { keys: "g f", label: "Flashcards", action: { type: "navigate", page: "flashcards" } },
   q: { keys: "g q", label: "Quiz", action: { type: "navigate", page: "quiz" } },
+  m: { keys: "g m", label: "Games", action: { type: "navigate", page: "games" } },
   w: { keys: "g w", label: "Sentence builder", action: { type: "navigate", page: "sentences" } },
   c: { keys: "g c", label: "Calendar", action: { type: "navigate", page: "calendar" } },
   a: { keys: "g a", label: "Archive", action: { type: "navigate", page: "archive" } },

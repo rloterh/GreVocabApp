@@ -1,5 +1,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { useProgressStore } from "@/store/useProgressStore";
+import { GAME_HISTORY_CAP, useProgressStore } from "@/store/useProgressStore";
+import { TRACKS_SCHEMA_VERSION } from "@/lib/migrations/tracks";
+import type { GameRoundSummary } from "@/lib/games/types";
 import { DEFAULT_EASE_FACTOR } from "@/lib/sm2";
 import { toDateKey } from "@/lib/date-utils";
 import type { QuizSession, StudySession } from "@/types";
@@ -229,5 +231,100 @@ describe("progress is orthogonal to vocabulary (CONTINUING.md principle 1)", () 
     expect(store().activity).toEqual({});
     expect(store().quizzes).toEqual([]);
     expect(store().studies).toEqual([]);
+  });
+});
+
+describe("game rounds", () => {
+  const round = (score: number, extra: Partial<GameRoundSummary> = {}): GameRoundSummary => ({
+    id: `r${score}`,
+    game: "closest",
+    track: "gre",
+    tier: "standard",
+    timing: "timed",
+    daily: null,
+    finishedAt: "2026-10-13T12:00:00.000Z",
+    score,
+    right: 5,
+    total: 10,
+    ms: 60_000,
+    missed: ["gre-abate"],
+    ...extra,
+  });
+
+  it("files history, sets the best only when it is beaten, and counts the day", () => {
+    store().recordGameRound(round(900));
+    store().recordGameRound(round(700));
+    store().recordGameRound(round(1_100));
+    expect(store().gameRounds.map((r) => r.score)).toEqual([1_100, 700, 900]);
+    expect(store().gameBests["closest:gre:standard:timed"]!.score).toBe(1_100);
+    expect(store().activity[today()]!.gamesPlayed).toBe(3);
+  });
+
+  it("keeps a best per tier and per timing", () => {
+    store().recordGameRound(round(900));
+    store().recordGameRound(round(300, { tier: "hard" }));
+    store().recordGameRound(round(400, { timing: "untimed" }));
+    expect(Object.keys(store().gameBests).sort()).toEqual([
+      "closest:gre:hard:timed",
+      "closest:gre:standard:timed",
+      "closest:gre:standard:untimed",
+    ]);
+  });
+
+  it("never writes a word's progress", () => {
+    store().recordGameRound(round(900));
+    expect(store().words).toEqual({});
+  });
+
+  it("caps history but never forgets a best", () => {
+    store().recordGameRound(round(5_000, { id: "best" }));
+    for (let i = 0; i < GAME_HISTORY_CAP + 5; i++) store().recordGameRound(round(10, { id: `x${i}` }));
+    expect(store().gameRounds).toHaveLength(GAME_HISTORY_CAP);
+    expect(store().gameRounds.some((r) => r.id === "best")).toBe(false);
+    expect(store().gameBests["closest:gre:standard:timed"]!.roundId).toBe("best");
+  });
+});
+
+describe("hydrating a blob written before games existed", () => {
+  it("keeps every record and starts the games fields empty", async () => {
+    // The shape the v1.1 app persists: stamped with the tracks schema version
+    // and carrying no game keys at all. A version mismatch here once made
+    // zustand discard every progress record while 23 unit tests passed.
+    const blob = {
+      state: {
+        words: {
+          "gre-abate": {
+            wordId: "gre-abate", monthKey: "gre/01", mastered: true, timesReviewed: 4,
+            quizAttempts: 2, quizCorrect: 2, lastReviewed: "2026-10-01T00:00:00.000Z",
+            masteredAt: "2026-10-01T00:00:00.000Z", easeFactor: 2.6, intervalDays: 6, reps: 2,
+            dueAt: "2026-10-07T00:00:00.000Z",
+          },
+        },
+        activity: { "2026-10-01": { date: "2026-10-01", wordsReviewed: 1, wordsMastered: 1, quizzesTaken: 0, sentencesWritten: 0 } },
+        sentences: {},
+        quizzes: [],
+        activeExam: null,
+        exams: [],
+        lastExam: null,
+        studies: [],
+      },
+      version: TRACKS_SCHEMA_VERSION,
+    };
+    localStorage.setItem("lexicon.progress.v1", JSON.stringify(blob));
+    await useProgressStore.persist.rehydrate();
+
+    expect(store().words["gre-abate"]!.mastered).toBe(true);
+    expect(store().activity["2026-10-01"]!.wordsReviewed).toBe(1);
+    expect(store().gameRounds).toEqual([]);
+    expect(store().gameBests).toEqual({});
+
+    store().recordGameRound({
+      id: "r", game: "closest", track: "gre", tier: "warmup", timing: "timed", daily: null,
+      finishedAt: "2026-10-13T00:00:00.000Z", score: 500, right: 4, total: 10, ms: 1, missed: [],
+    });
+    const written = JSON.parse(localStorage.getItem("lexicon.progress.v1")!);
+    expect(written.version).toBe(TRACKS_SCHEMA_VERSION);
+    expect(written.state.words["gre-abate"].timesReviewed).toBe(4);
+    expect(written.state.gameRounds).toHaveLength(1);
   });
 });

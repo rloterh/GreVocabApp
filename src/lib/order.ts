@@ -136,3 +136,11 @@ function shuffle<T>(items: readonly T[], seed: number): T[] {
 export function seededShuffle<T>(items: readonly T[], seed: number): T[] {
   return shuffle(items, seed);
 }
+
+/**
+ * The same generator as a bare `() => number`, for code that takes injected
+ * randomness — the games build rounds with it so a seed reproduces a round.
+ */
+export function seededRandom(seed: number): () => number {
+  return prng(seed);
+}

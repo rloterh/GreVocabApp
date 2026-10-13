@@ -122,10 +122,16 @@ const progress = await page.evaluate(() =>
   JSON.parse(localStorage.getItem("lexicon.progress.v1")).state,
 );
 
+// The two migrated months, under track/position keys. Since both tracks are
+// seeded on launch (e31b1a0), the other notebook's starter months sit beside
+// them — that is seeding, not the migration leaking, so they are allowed and
+// must be the other track's.
+const keys = Object.keys(vocab.months).sort();
 check(
-  Object.keys(vocab.months).sort().join(",") === "gre/01,gre/02",
+  keys.filter((k) => k.startsWith("gre/")).join(",") === "gre/01,gre/02" &&
+    keys.every((k) => /^(gre|sat)\/\d{2}$/.test(k)),
   "months are keyed by track and position",
-  Object.keys(vocab.months).join(","),
+  keys.join(","),
 );
 check(vocab.activeTrack === "gre", "active track is set", vocab.activeTrack);
 check(
@@ -172,8 +178,8 @@ check(
 );
 
 // --- The switcher -----------------------------------------------------------
-const gre = page.getByRole("radio", { name: /^GRE/ });
-const sat = page.getByRole("radio", { name: /^SAT/ });
+const gre = page.getByRole("radio", { name: /^Advanced/ });
+const sat = page.getByRole("radio", { name: /^Easy/ });
 check(await gre.isVisible(), "the track switcher is on screen");
 check((await gre.getAttribute("aria-checked")) === "true", "GRE reads as active");
 
@@ -227,11 +233,18 @@ const readMastered = () =>
     return m ? { mastered: Number(m[1]), total: Number(m[2]) } : null;
   });
 
+// SAT's own size, counted from what is stored: the borrowed month plus any
+// starter months seeding put there. GRE's mastered words must not appear.
+const satWords = await page.evaluate(() =>
+  Object.entries(JSON.parse(localStorage.getItem("lexicon.vocab.v1")).state.months)
+    .filter(([k]) => k.startsWith("sat/"))
+    .reduce((n, [, m]) => n + m.days.reduce((d, day) => d + day.words.length, 0), 0),
+);
 const satStats = await readMastered();
 check(
-  satStats !== null && satStats.mastered === 0 && satStats.total === 1,
+  satStats !== null && satStats.mastered === 0 && satStats.total === satWords,
   "an empty track reports its own numbers, not the other one's",
-  satStats ? `SAT says ${satStats.mastered} of ${satStats.total}` : "no stats shown",
+  satStats ? `SAT says ${satStats.mastered} of ${satStats.total}, has ${satWords}` : "no stats shown",
 );
 
 // Every pool the open notebook offers must come from that notebook. Four of
@@ -301,7 +314,7 @@ for (const [label, width, height] of [
   );
   check(overflow <= 0, `${label}: no horizontal overflow`, `${overflow}px`);
   const switcher = await page
-    .getByRole("radio", { name: /^GRE/ })
+    .getByRole("radio", { name: /^Advanced/ })
     .first()
     .isVisible();
   check(switcher, `${label}: the track is still legible`);

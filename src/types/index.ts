@@ -1,4 +1,5 @@
 import type { WordOrder } from "@/lib/order";
+import type { GameId, GameTimer, Tier } from "@/lib/games/types";
 
 /**
  * Which exam's vocabulary a piece of content belongs to.
@@ -177,6 +178,8 @@ export interface DayActivity {
   quizzesTaken: number;
   sentencesWritten: number;
   studySessions?: number;
+  /** Game rounds finished that day. Optional: older records have none. */
+  gamesPlayed?: number;
 }
 
 /** How the user rated their recall on a flashcard */
@@ -317,6 +320,14 @@ export interface Settings {
    * asked for it, and a wrong probe should not override an instruction.
    */
   pinnedProvider: string | null;
+  /**
+   * The games' per-question timer. "relaxed" doubles every limit; "off"
+   * removes it and scores a flat rate. Bests are kept per timing, so the
+   * choice never makes an old best unreachable. See docs/GAMES.md §6.4.
+   */
+  gameTimer: GameTimer;
+  /** The tier each game was last started on, so the hub can offer it again. */
+  lastGameTier: Partial<Record<GameId, Tier>>;
 }
 
 /**

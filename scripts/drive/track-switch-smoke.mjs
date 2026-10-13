@@ -95,7 +95,7 @@ check(
 
 // The switcher is a radiogroup; each radio's accessible name carries a
 // description after the label.
-await page.getByRole("radio", { name: /^SAT/ }).first().click();
+await page.getByRole("radio", { name: /^Easy/ }).first().click();
 await page.waitForTimeout(800);
 
 body = await page.locator("body").innerText();

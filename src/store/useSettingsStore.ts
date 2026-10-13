@@ -39,6 +39,8 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   showWordRelations: true,
   enabledAiTools: [],
   pinnedProvider: null,
+  gameTimer: "standard",
+  lastGameTier: {},
 };
 
 export const useSettingsStore = create<SettingsStore>()(

@@ -13,7 +13,16 @@
 
 import { useSettingsStore } from "@/store/useSettingsStore";
 
-export type SoundName = "flip" | "correct" | "wrong" | "complete";
+export type SoundName =
+  | "flip"
+  | "correct"
+  | "wrong"
+  | "complete"
+  // The games' additions — docs/GAMES-UI.md §4.
+  | "start"
+  | "tick"
+  | "timeout"
+  | "best";
 
 /** Kept quiet on purpose — this should be felt more than heard. */
 const MASTER_GAIN = 0.06;
@@ -67,6 +76,23 @@ const SOUNDS: Record<SoundName, Tone[]> = {
     { frequency: 523.25, at: 0, duration: 0.1 },
     { frequency: 659.25, at: 0.09, duration: 0.1 },
     { frequency: 783.99, at: 0.18, duration: 0.18 },
+  ],
+  // Two soft rising notes: a round is starting.
+  start: [
+    { frequency: 440, at: 0, duration: 0.07 },
+    { frequency: 659.25, at: 0.08, duration: 0.1 },
+  ],
+  // The last three seconds. Barely there; never the only signal that time is
+  // short — the bar changes colour and the live region speaks.
+  tick: [{ frequency: 1046.5, at: 0, duration: 0.025, type: "triangle" }],
+  // Time ran out: one low tone, duller than "wrong" because nothing was chosen.
+  timeout: [{ frequency: 220, at: 0, duration: 0.22, type: "triangle" }],
+  // A new best: the "complete" arpeggio a third higher, with a top note.
+  best: [
+    { frequency: 659.25, at: 0, duration: 0.1 },
+    { frequency: 783.99, at: 0.09, duration: 0.1 },
+    { frequency: 987.77, at: 0.18, duration: 0.1 },
+    { frequency: 1318.51, at: 0.27, duration: 0.22 },
   ],
 };
 

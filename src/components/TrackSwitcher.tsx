@@ -14,7 +14,7 @@ import { useId } from "react";
 import { motion } from "framer-motion";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
-import { TRACKS, TRACK_META } from "@/lib/track";
+import { TRACK_DISPLAY_ORDER, TRACK_META } from "@/lib/track";
 import { cn } from "@/lib/utils";
 
 export function TrackSwitcher({ className }: { className?: string }) {
@@ -38,7 +38,7 @@ export function TrackSwitcher({ className }: { className?: string }) {
         className,
       )}
     >
-      {TRACKS.map((track) => {
+      {TRACK_DISPLAY_ORDER.map((track) => {
         const meta = TRACK_META[track];
         const active = track === activeTrack;
         const count = Object.values(months).filter((m) => m.track === track).length;
@@ -47,7 +47,7 @@ export function TrackSwitcher({ className }: { className?: string }) {
             key={track}
             role="radio"
             aria-checked={active}
-            // The label alone reads as "GRE" to a screen reader, which does
+            // The label alone reads as "Advanced" to a screen reader, which does
             // not say what pressing it does or what is in there.
             aria-label={`${meta.label} — ${meta.description}, ${count} ${
               count === 1 ? "month" : "months"

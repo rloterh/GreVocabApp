@@ -210,7 +210,7 @@ const idsOf = async () =>
   });
 const idsBefore = await idsOf();
 
-await page.getByRole("button", { name: /Reshuffle GRE words/ }).click();
+await page.getByRole("button", { name: /Reshuffle Advanced words/ }).click();
 await page.waitForTimeout(200);
 await page.getByRole("button", { name: /Yes, reshuffle/ }).click();
 await page.waitForTimeout(700);

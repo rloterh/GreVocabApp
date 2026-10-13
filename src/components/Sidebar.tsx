@@ -8,6 +8,7 @@ import {
   Layers,
   LayoutDashboard,
   PenLine,
+  Puzzle,
   Search,
   Settings as SettingsIcon,
   Sparkles,
@@ -30,6 +31,7 @@ const PRIMARY: NavItem[] = [
   { page: "flashcards", label: "Flashcards", icon: Layers },
   { page: "quiz", label: "Quiz", icon: GraduationCap },
   { page: "exam", label: "Exam", icon: ClipboardList },
+  { page: "games", label: "Games", icon: Puzzle },
   { page: "sentences", label: "Sentences", icon: PenLine },
 ];
 

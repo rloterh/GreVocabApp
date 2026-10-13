@@ -40,6 +40,8 @@ export function useShortcuts(): ShortcutsState {
     function onKeyDown(e: KeyboardEvent) {
       // Never steal a keypress from a field the user is typing in.
       if (isTypingTarget(e.target)) return;
+      // A game round owns the keyboard; see useAppStore's `immersive`.
+      if (useAppStore.getState().immersive) return;
 
       const result = resolveShortcut(pending.current, e.key, {
         ctrl: e.ctrlKey,

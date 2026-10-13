@@ -12,6 +12,11 @@ import type {
 import { toDateKey } from "@/lib/date-utils";
 import { schedule, schedulingStateOf } from "@/lib/sm2";
 import { TRACKS_SCHEMA_VERSION } from "@/lib/migrations/tracks";
+import { beatsBest, bestKey } from "@/lib/games/scoring";
+import type { GameBest, GameRoundSummary } from "@/lib/games/types";
+
+/** How many finished game rounds history keeps. Bests are kept separately. */
+export const GAME_HISTORY_CAP = 200;
 
 interface ProgressState {
   /** Per-word progress by wordId */
@@ -42,6 +47,20 @@ interface ProgressState {
   lastExam: ExamSession | null;
   /** Recent study sessions (capped at 100) */
   studies: StudySession[];
+  /**
+   * Finished game rounds, newest first, capped at {@link GAME_HISTORY_CAP}.
+   *
+   * Never read for anything cumulative: games are rounds, not a progression
+   * system (docs/adr/0016-games-are-rounds-not-progression.md).
+   */
+  gameRounds: GameRoundSummary[];
+  /**
+   * The best round per game · track · tier · timing — see `bestKey`.
+   *
+   * Stored rather than derived from `gameRounds`, because derived from a
+   * capped history a best set 201 rounds ago would silently vanish.
+   */
+  gameBests: Record<string, GameBest>;
 
   toggleMastered: (wordId: string, monthKey: string) => void;
   markReviewed: (wordId: string, monthKey: string) => void;
@@ -65,6 +84,11 @@ interface ProgressState {
   saveSentences: (practice: SentencePractice) => void;
   addQuizSession: (session: QuizSession) => void;
   addStudySession: (session: StudySession) => void;
+  /**
+   * File a finished game round: history, the best if it beat one, and the
+   * day's activity. Writes no `WordProgress` — a game never does on its own.
+   */
+  recordGameRound: (round: GameRoundSummary) => void;
   reset: () => void;
 
   // Selectors
@@ -120,6 +144,8 @@ export const useProgressStore = create<ProgressState>()(
       exams: [],
       lastExam: null,
       studies: [],
+      gameRounds: [],
+      gameBests: {},
 
       toggleMastered: (wordId, monthKey) => {
         setStore((state) => {
@@ -322,6 +348,36 @@ export const useProgressStore = create<ProgressState>()(
         });
       },
 
+      recordGameRound: (round) => {
+        setStore((state) => {
+          // A round that finished just after midnight belongs to the day it
+          // finished, the same rule every other activity follows.
+          const today = todayKey();
+          const day = ensureDay(state.activity, today);
+          const key = bestKey(round.game, round.track, round.tier, round.timing);
+          const previous = state.gameBests[key];
+          return {
+            gameRounds: [round, ...state.gameRounds].slice(0, GAME_HISTORY_CAP),
+            gameBests: beatsBest(previous, round.score)
+              ? {
+                  ...state.gameBests,
+                  [key]: {
+                    score: round.score,
+                    right: round.right,
+                    total: round.total,
+                    at: round.finishedAt,
+                    roundId: round.id,
+                  },
+                }
+              : state.gameBests,
+            activity: {
+              ...state.activity,
+              [today]: { ...day, gamesPlayed: (day.gamesPlayed ?? 0) + 1 },
+            },
+          };
+        });
+      },
+
       reset: () =>
         setStore({
           words: {},
@@ -331,6 +387,8 @@ export const useProgressStore = create<ProgressState>()(
           activeExam: null,
           exams: [],
           studies: [],
+          gameRounds: [],
+          gameBests: {},
         }),
 
       isMastered: (wordId) => get().words[wordId]?.mastered ?? false,
@@ -345,6 +403,13 @@ export const useProgressStore = create<ProgressState>()(
       // which is the exact data loss the migration exists to prevent. A
       // browser found this; no unit test could, because none of them hydrate.
       version: TRACKS_SCHEMA_VERSION,
+      // The games fields are new keys, not a new shape: zustand's default
+      // merge lays the stored blob over the initial state, so a blob written
+      // before games existed hydrates with `gameRounds: []` and
+      // `gameBests: {}`. The version deliberately stays where the tracks
+      // migration stamps it — bumping it here would make every blob that
+      // migration wrote look stale. `useProgressStore.test.ts` hydrates a
+      // pre-games blob to hold this.
       migrate: (persisted) => persisted as ProgressState,
       storage: createJSONStorage(() => localStorage),
     },

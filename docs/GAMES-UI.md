@@ -231,6 +231,9 @@ cover. Instead:
 | Fact or Fiction | success | `✓✗` |
 | Opposites | warning | `⇄` |
 | Fill the Gap | primary | `__` |
+| Odd One Out | secondary | `○●` |
+| Match Up | accent | `⟷` |
+| Spell It | success | `abc` |
 | Odd One Out | secondary | `○ ○ ○ ●` |
 | Match Up | primary (rotated pattern) | `⟷` |
 | Spell It | accent (rotated pattern) | `a b c` |

@@ -250,6 +250,11 @@ sentence as well as its partner. Review history: 2.5% → 0.5%.
 
 ### 4.5 Odd One Out
 
+*As built:* the two synonyms must be linked to each other — one listing the
+other, or a third card listing both — and at least one must be confirmed. That
+fixes split senses (*sobriety* → "abstinence" and "seriousness"). The note
+says "close in meaning". Review history: 3.5% → 1.0%.
+
 > Which one doesn't belong?
 > ◻ ephemeral  ◻ fleeting  ◻ transient  ◻ **tenacious**
 
@@ -263,6 +268,12 @@ sentence as well as its partner. Review history: 2.5% → 0.5%.
   the target's definition.
 
 ### 4.6 Match Up
+
+*As built:* three boards, 60 s each. The five words are mutually unrelated,
+and Warm-up boards prefer confirmed synonyms. Points: 40% of base per pair,
+plus up to one base for the time left on a finished board. Tab and Enter play
+it; arrow-key movement within a column was not built. Review history: 0.5% on
+the first read.
 
 A board of five words and five definitions. Tap a word, then its definition (or
 the other way round). A right pair locks in, slides together and fades. A wrong
@@ -278,6 +289,12 @@ pair flashes and costs two seconds.
   Enter/Space selects.
 
 ### 4.7 Spell It
+
+*As built:* `acceptedSpellings` takes the regular British/American patterns
+(-ize/-ise, -or/-our, -er/-re, doubled l, -ense/-ence, -og/-ogue), ignores
+hyphens, spaces and accents, and has a reviewed list of one-off variants. This
+supersedes "nothing fuzzier" below: every flag in the first read was a correct
+spelling marked wrong. Review history: 3.0% → 0.5%.
 
 > 🔊 (plays the word)
 > *adj.* — using very few words · 7 letters

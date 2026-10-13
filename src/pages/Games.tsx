@@ -43,7 +43,7 @@ import {
   questionLimitMs,
   type BestOutcome,
 } from "@/lib/games/scoring";
-import { roundDurationMs, type SessionState } from "@/lib/games/session";
+import { missedWordIds, roundDurationMs, tally, type SessionState } from "@/lib/games/session";
 import {
   timingOf,
   type GameId,
@@ -157,7 +157,8 @@ export function Games() {
       // compare against itself.
       const previous = useProgressStore.getState().gameBests[key];
       const outcome = compareWithBest(previous, state.score);
-      const missed = round.questions.filter((_, i) => !state.answers[i]?.correct).map((q) => q.wordId);
+      const missed = missedWordIds(round.questions, state.answers);
+      const { right, total } = tally(round.questions, state.answers);
       recordGameRound({
         id: `game-${Date.now().toString(36)}`,
         game: round.game,
@@ -167,8 +168,8 @@ export function Games() {
         daily: null,
         finishedAt: new Date().toISOString(),
         score: state.score,
-        right: state.answers.filter((a) => a.correct).length,
-        total: round.questions.length,
+        right,
+        total,
         ms: roundDurationMs(state),
         missed,
       });

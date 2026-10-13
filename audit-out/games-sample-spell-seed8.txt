@@ -1,0 +1,603 @@
+Lexicon games — Spell It, a sample for a reader (seed 8)
+The definition should identify the word without giving it away. Mark GIVEAWAY if the definition contains the word or an obvious form of it, WRONG if the definition does not fit the answer.
+Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
+
+  [gre/warmup] (noun) — A crafty, secret plot designed to cause harm or gain power.
+      Answer: machination  (11 letters)
+
+  [gre/warmup] (verb) — To wear away gradually through water, wind, or friction.
+      Answer: erode  (5 letters)
+
+  [gre/warmup] (adjective) — Careful and tactful in what you say or do, so as to avoid attracting notice.
+      Answer: discreet  (8 letters)
+
+  [gre/warmup] (adjective) — Having a harmful effect, especially in a gradual way.
+      Answer: pernicious  (10 letters)
+
+  [gre/warmup] (adjective) — Unwilling or unable to accept that something is true.
+      Answer: incredulous  (11 letters)
+
+  [gre/warmup] (adjective) — Very hard to control, manage, or solve.
+      Answer: intractable  (11 letters)
+
+  [gre/warmup] (adjective) — Persisting tirelessly and stubbornly despite difficulty, delay, or resistance.
+      Answer: dogged  (6 letters)
+
+  [gre/warmup] (verb) — To publicly declare approval of or support for someone or something.
+      Answer: endorse  (7 letters)
+
+  [gre/warmup] (adjective) — Sweet and soothing to hear, especially a gentle sound.
+      Answer: dulcet  (6 letters)
+
+  [gre/warmup] (noun) — A thin, attractive surface that hides a rougher or less pleasant reality.
+      Answer: veneer  (6 letters)
+
+  [gre/warmup] (adjective) — Not truthful; habitually lying.
+      Answer: mendacious  (10 letters)
+
+  [gre/warmup] (adjective) — Cheerful and full of energy; overflowing with enthusiasm.
+      Answer: ebullient  (9 letters)
+
+  [gre/warmup] (verb) — To remove a need or difficulty; to prevent.
+      Answer: obviate  (7 letters)
+
+  [gre/warmup] (noun) — The appearance of being true or real.
+      Answer: verisimilitude  (14 letters)
+
+  [gre/warmup] (noun) — A departure from what is normal, usual, or expected.
+      Answer: aberration  (10 letters)
+
+  [gre/warmup] (verb) — To build up gradually, especially as interest or added benefit.
+      Answer: accrue  (6 letters)
+
+  [gre/warmup] (noun) — A person who habitually doubts or questions accepted claims and beliefs.
+      Answer: skeptic  (7 letters)
+
+  [gre/warmup] (noun) — The relationship in which a dominant nation controls a weaker one's external affairs while allowing local self-rule.
+      Answer: suzerainty  (10 letters)
+
+  [gre/warmup] (noun) — The choice of words and clarity of pronunciation in speech.
+      Answer: diction  (7 letters)
+
+  [gre/warmup] (verb) — To trick a trusting person into accepting a lie or a bad bargain.
+      Answer: dupe  (4 letters)
+
+  [gre/warmup] (noun) — A natural or habitual tendency to behave in a particular way.
+      Answer: proclivity  (10 letters)
+
+  [gre/warmup] (verb) — To make someone feel or look young, fresh, and full of energy again.
+      Answer: rejuvenate  (10 letters)
+
+  [gre/warmup] (noun) — A mark of social disgrace attached to a person, group, or condition.
+      Answer: stigma  (6 letters)
+
+  [gre/warmup] (adjective) — Wishing harm or evil upon other people.
+      Answer: malevolent  (10 letters)
+
+  [gre/warmup] (verb) — To raise petty, unnecessary objections over minor details.
+      Answer: cavil  (5 letters)
+
+  [gre/standard] (verb) — To move heavily and awkwardly, as if weighed down.
+      Answer: lumber  (6 letters)
+
+  [gre/standard] (noun) — A brief note explaining a difficult word or passage in a text.
+      Answer: gloss  (5 letters)
+
+  [gre/standard] (verb) — To put right something that is wrong or mistaken.
+      Answer: rectify  (7 letters)
+
+  [gre/standard] (noun) — Amusement expressed through laughter and good humor.
+      Answer: mirth  (5 letters)
+
+  [gre/standard] (adjective) — Looking exhausted and unwell, especially from stress or lack of sleep.
+      Answer: haggard  (7 letters)
+
+  [gre/standard] (adjective) — Lacking worldly experience and trusting others far too easily.
+      Answer: naive  (5 letters)
+
+  [gre/standard] (verb) — To puzzle or confuse someone with something hard to make sense of.
+      Answer: perplex  (7 letters)
+
+  [gre/standard] (adjective) — Unwilling to give or spend, even when able to.
+      Answer: stingy  (6 letters)
+
+  [gre/standard] (verb) — To feel intense anger that is barely held inside.
+      Answer: seethe  (6 letters)
+
+  [gre/standard] (verb) — To move suddenly and quickly in a particular direction.
+      Answer: dart  (4 letters)
+
+  [gre/standard] (adjective) — Ready to do bold or risky things without hesitation.
+      Answer: daring  (6 letters)
+
+  [gre/standard] (verb) — To give someone the confidence or courage to act.
+      Answer: embolden  (8 letters)
+
+  [gre/standard] (adjective) — Traveling from one place to another, typically to find or perform work.
+      Answer: itinerant  (9 letters)
+
+  [gre/standard] (noun) — The distant past, especially the era before the Middle Ages.
+      Answer: antiquity  (9 letters)
+
+  [gre/standard] (adjective) — Impossible to understand fully or measure; too deep to grasp.
+      Answer: unfathomable  (12 letters)
+
+  [gre/standard] (noun) — Patient self-control and restraint shown when dealing with provocation or delay.
+      Answer: forbearance  (11 letters)
+
+  [gre/standard] (adjective) — Inclined to create division or dissent within a group.
+      Answer: factious  (8 letters)
+
+  [gre/standard] (verb) — To keep oneself alive with minimal food or means.
+      Answer: subsist  (7 letters)
+
+  [gre/standard] (noun) — An enthusiastic and knowledgeable devotee of a particular activity or interest.
+      Answer: aficionado  (10 letters)
+
+  [gre/standard] (adjective) — Seemingly without end, especially because dull or tiresome.
+      Answer: interminable  (12 letters)
+
+  [gre/standard] (verb) — To irritate or provoke someone into feeling annoyed.
+      Answer: nettle  (6 letters)
+
+  [gre/standard] (verb) — To stir or shake something violently, or to move about with restless turbulence.
+      Answer: churn  (5 letters)
+
+  [gre/standard] (verb) — To give an advance sign or warning of a future event.
+      Answer: portend  (7 letters)
+
+  [gre/standard] (verb) — To move or balance unsteadily, as if about to fall.
+      Answer: teeter  (6 letters)
+
+  [gre/standard] (noun) — A general agreement reached by most members of a group.
+      Answer: consensus  (9 letters)
+
+  [gre/hard] (noun) — A vague feeling that something, usually unpleasant, is about to occur.
+      Answer: presentiment  (12 letters)
+
+  [gre/hard] (adjective) — Not authorized by law or accepted rules; lacking proper authority or a valid basis.
+      Answer: illegitimate  (12 letters)
+
+  [gre/hard] (verb) — To violate or damage the holiness of a place, object, or memory.
+      Answer: desecrate  (9 letters)
+
+  [gre/hard] (noun) — The crime of taking another person's property unlawfully with the intent to keep it.
+      Answer: larceny  (7 letters)
+
+  [gre/hard] (adjective) — Mundane and practical, belonging to the ordinary routine of normal life.
+      Answer: workaday  (8 letters)
+
+  [gre/hard] (noun) — Darkness or gloom that makes things hard to see.
+      Answer: murk  (4 letters)
+
+  [gre/hard] (noun) — A villain or troublemaker who behaves in a wicked or criminal way.
+      Answer: miscreant  (9 letters)
+
+  [gre/hard] (noun) — The theft or misuse of funds by someone trusted to manage them.
+      Answer: defalcation  (11 letters)
+
+  [gre/hard] (verb) — To waste time or move aimlessly slowly while doing something.
+      Answer: dawdle  (6 letters)
+
+  [gre/hard] (adjective) — Serving to make amends or atone for guilt or sin.
+      Answer: expiatory  (9 letters)
+
+  [gre/hard] (adjective) — Lacking ambition, energy, or the drive to improve oneself.
+      Answer: shiftless  (9 letters)
+
+  [gre/hard] (noun) — The soft, dim light just after sunset.
+      Answer: gloaming  (8 letters)
+
+  [gre/hard] (verb) — To escape or avoid capture, detection, or understanding.
+      Answer: elude  (5 letters)
+
+  [gre/hard] (noun) — A soft, gentle brightness on a surface.
+      Answer: sheen  (5 letters)
+
+  [gre/hard] (verb) — To speak or act insincerely, especially by using misleading half-truths to avoid a straight answer.
+      Answer: palter  (6 letters)
+
+  [gre/hard] (adjective) — Able to sense or foresee events beyond the reach of ordinary perception.
+      Answer: clairvoyant  (11 letters)
+
+  [gre/hard] (noun) — A small, exclusive group who share interests and keep outsiders away.
+      Answer: coterie  (7 letters)
+
+  [gre/hard] (noun) — Deceptive nonsense or empty pretense meant to mislead people.
+      Answer: humbug  (6 letters)
+
+  [gre/hard] (noun) — An animal or object serving as a revered emblem of a family or clan.
+      Answer: totem  (5 letters)
+
+  [gre/hard] (adjective) — Belonging to a different time period and seeming out of place in its setting.
+      Answer: anachronistic  (13 letters)
+
+  [gre/hard] (verb) — To forbid something officially; to condemn or ban it by authority.
+      Answer: proscribe  (9 letters)
+
+  [gre/hard] (adjective) — Ghostly; resembling a faint, eerie, barely-there apparition.
+      Answer: spectral  (8 letters)
+
+  [gre/hard] (verb) — To divide or spread out into many branches or smaller subdivisions.
+      Answer: ramify  (6 letters)
+
+  [gre/hard] (adjective) — Relating to legal punishment or the institutions that carry it out.
+      Answer: penal  (5 letters)
+
+  [gre/hard] (noun) — A good-for-nothing person who squanders money, time, or opportunity.
+      Answer: wastrel  (7 letters)
+
+  [gre/fiendish] (noun) — A person who withdraws from society to live in prayer and religious devotion.
+      Answer: anchorite  (9 letters)
+
+  [gre/fiendish] (adjective) — Glowing softly in the dark after absorbing light, without noticeable heat.
+      Answer: phosphorescent  (14 letters)
+
+  [gre/fiendish] (verb) — To make someone drunk with alcohol.
+      Answer: inebriate  (9 letters)
+
+  [gre/fiendish] (noun) — A person or thing that is the center of attention or admiration.
+      Answer: cynosure  (8 letters)
+
+  [gre/fiendish] (noun) — A firm, emphatic public declaration that something is or is not true.
+      Answer: protestation  (12 letters)
+
+  [gre/fiendish] (verb) — To kill or offer up as a sacrifice, especially by fire.
+      Answer: immolate  (8 letters)
+
+  [gre/fiendish] (verb) — To work extremely hard for a long time, usually at exhausting tasks.
+      Answer: toil  (4 letters)
+
+  [gre/fiendish] (noun) — Grassy land where livestock roam and feed on growing plants.
+      Answer: pasture  (7 letters)
+
+  [gre/fiendish] (noun) — An ornate design of intertwined flowing lines, leaves, and scrollwork.
+      Answer: arabesque  (9 letters)
+
+  [gre/fiendish] (verb) — To enjoy far too much of something, especially food or drink.
+      Answer: overindulge  (11 letters)
+
+  [gre/fiendish] (verb) — To leave someone so surprised or confused that they cannot think how to react.
+      Answer: nonplus  (7 letters)
+
+  [gre/fiendish] (adjective) — Expressing great irreverence or contempt toward God or holy matters.
+      Answer: blasphemous  (11 letters)
+
+  [gre/fiendish] (noun) — The abandonment or renunciation of a religion, cause, or set of beliefs once held.
+      Answer: apostasy  (8 letters)
+
+  [gre/fiendish] (verb) — To settle someone's future or outcome in advance by a controlling power.
+      Answer: predestine  (10 letters)
+
+  [gre/fiendish] (adjective) — Deserving sorrow or regret; unfortunate and disappointing.
+      Answer: lamentable  (10 letters)
+
+  [gre/fiendish] (verb) — To break a law, rule, or moral boundary.
+      Answer: transgress  (10 letters)
+
+  [gre/fiendish] (noun) — A small, secluded, usually wooded valley.
+      Answer: dell  (4 letters)
+
+  [gre/fiendish] (noun) — A luminous ring around a figure's head, or a large gray rain cloud.
+      Answer: nimbus  (6 letters)
+
+  [gre/fiendish] (verb) — To deliberately shut someone out of a group or social circle.
+      Answer: ostracize  (9 letters)
+
+  [gre/fiendish] (adjective) — Reasoning from particular observations toward a broader, probable generalization.
+      Answer: inductive  (9 letters)
+
+  [gre/fiendish] (noun) — A mixture of many varied and dissimilar elements.
+      Answer: melange  (7 letters)
+
+  [gre/fiendish] (noun) — Trickery or the use of clever, deceptive arguments to gain an unfair advantage.
+      Answer: chicane  (7 letters)
+
+  [gre/fiendish] (noun) — A person who makes a false or unproven claim, especially to a throne or rank.
+      Answer: pretender  (9 letters)
+
+  [gre/fiendish] (adjective) — Needlessly repeating the same idea in different words, or true merely by its own terms.
+      Answer: tautological  (12 letters)
+
+  [gre/fiendish] (adjective) — Showing a soft, milky play of gently shifting colors.
+      Answer: opalescent  (10 letters)
+
+  [sat/warmup] (verb) — To settle a dispute or find a solution to a problem.
+      Answer: resolve  (7 letters)
+
+  [sat/warmup] (adjective) — Lasting or recurring through many years; continuing without stopping.
+      Answer: perennial  (9 letters)
+
+  [sat/warmup] (adjective) — Appearing lonely, abandoned, and hopelessly sad.
+      Answer: forlorn  (7 letters)
+
+  [sat/warmup] (noun) — A formal or authoritative statement expressing a general truth or principle.
+      Answer: dictum  (6 letters)
+
+  [sat/warmup] (verb) — To scold someone with mild, often affectionate disapproval.
+      Answer: chide  (5 letters)
+
+  [sat/warmup] (adjective) — Able to make someone believe that something is true or right.
+      Answer: convincing  (10 letters)
+
+  [sat/warmup] (noun) — A statement or plan offered for others to consider or accept.
+      Answer: proposition  (11 letters)
+
+  [sat/warmup] (noun) — A noticeable difference or contrast between similar things.
+      Answer: distinction  (11 letters)
+
+  [sat/warmup] (verb) — To put something at risk of harm, loss, or failure.
+      Answer: jeopardize  (10 letters)
+
+  [sat/warmup] (verb) — To wear away gradually through steady natural forces.
+      Answer: erode  (5 letters)
+
+  [sat/warmup] (adjective) — Closely relevant and fitting to what is being considered.
+      Answer: germane  (7 letters)
+
+  [sat/warmup] (verb) — To regard someone or something with respect, warm approval, or pleasure.
+      Answer: admire  (6 letters)
+
+  [sat/warmup] (verb) — To actively fight for, defend, or promote a person or cause.
+      Answer: champion  (8 letters)
+
+  [sat/warmup] (adjective) — Complaining in a whining, peevish, and irritable manner.
+      Answer: querulous  (9 letters)
+
+  [sat/warmup] (noun) — Extended, serious communication about a topic, spoken or written.
+      Answer: discourse  (9 letters)
+
+  [sat/warmup] (adjective) — Going on and on without ever stopping.
+      Answer: ceaseless  (9 letters)
+
+  [sat/warmup] (verb) — To confuse and greatly surprise someone, or to mix two things up.
+      Answer: confound  (8 letters)
+
+  [sat/warmup] (adjective) — Trying to appear more important, talented, or cultured than is actually true.
+      Answer: pretentious  (11 letters)
+
+  [sat/warmup] (adjective) — Not aware of what is happening around you.
+      Answer: oblivious  (9 letters)
+
+  [sat/warmup] (adjective) — Not clearly expressed, defined, or understood; lacking exact detail.
+      Answer: vague  (5 letters)
+
+  [sat/warmup] (verb) — To disguise or conceal one's true feelings, motives, or beliefs.
+      Answer: dissemble  (9 letters)
+
+  [sat/warmup] (verb) — To publish a false written statement that unfairly damages a person's reputation.
+      Answer: libel  (5 letters)
+
+  [sat/warmup] (verb) — To forcibly restrain, put down, or keep something from being expressed.
+      Answer: suppress  (8 letters)
+
+  [sat/warmup] (noun) — A long, formal written work that examines a subject systematically.
+      Answer: treatise  (8 letters)
+
+  [sat/warmup] (adjective) — Expressing mockery and the view that something is ridiculous.
+      Answer: derisive  (8 letters)
+
+  [sat/standard] (adjective) — Having no practical relevance because it is already settled or hypothetical.
+      Answer: moot  (4 letters)
+
+  [sat/standard] (verb) — To reach or gain something through sustained effort.
+      Answer: attain  (6 letters)
+
+  [sat/standard] (adjective) — Splendid and clearly very costly, suggesting rich indulgence.
+      Answer: sumptuous  (9 letters)
+
+  [sat/standard] (adjective) — Concerned with using language for persuasive or striking effect rather than genuine meaning.
+      Answer: rhetorical  (10 letters)
+
+  [sat/standard] (noun) — The ability to predict what will happen and prepare for it in advance.
+      Answer: foresight  (9 letters)
+
+  [sat/standard] (noun) — The state of being completely forgotten, or of noticing nothing at all.
+      Answer: oblivion  (8 letters)
+
+  [sat/standard] (adjective) — Shared by all members of a group rather than owned by one person.
+      Answer: communal  (8 letters)
+
+  [sat/standard] (verb) — To have a strong desire to reach a high goal or achievement.
+      Answer: aspire  (6 letters)
+
+  [sat/standard] (adjective) — Open and willing to accept suggestions or cooperate.
+      Answer: amenable  (8 letters)
+
+  [sat/standard] (noun) — A deep and bitter hatred, especially toward a rival.
+      Answer: enmity  (6 letters)
+
+  [sat/standard] (noun) — Keen good judgment and the ability to make wise decisions.
+      Answer: sagacity  (8 letters)
+
+  [sat/standard] (verb) — To act as an official authority who formally settles a dispute or decides a case.
+      Answer: adjudicate  (10 letters)
+
+  [sat/standard] (adjective) — Done as a routine duty, without real interest, care, or effort.
+      Answer: perfunctory  (11 letters)
+
+  [sat/standard] (adjective) — Lacking money, food, and the basic means of survival.
+      Answer: destitute  (9 letters)
+
+  [sat/standard] (noun) — Loyalty or commitment owed to a leader, country, or cause.
+      Answer: allegiance  (10 letters)
+
+  [sat/standard] (noun) — An act of striking back to punish an enemy for something they did.
+      Answer: reprisal  (8 letters)
+
+  [sat/standard] (noun) — A person with outstanding skill in music or another artistic pursuit.
+      Answer: virtuoso  (8 letters)
+
+  [sat/standard] (noun) — The act of holding a person or event in the mind, often to honor them.
+      Answer: remembrance  (11 letters)
+
+  [sat/standard] (adjective) — Incapable of producing any useful result; completely pointless.
+      Answer: futile  (6 letters)
+
+  [sat/standard] (adjective) — Free from prejudice; treating every side equally.
+      Answer: unbiased  (8 letters)
+
+  [sat/standard] (verb) — To punish or win justice for a wrong done to yourself or another.
+      Answer: avenge  (6 letters)
+
+  [sat/standard] (adjective) — Strikingly bold, showy, and confident in style or manner.
+      Answer: flamboyant  (10 letters)
+
+  [sat/standard] (adjective) — Dull and flavorless, without any liveliness or taste.
+      Answer: insipid  (7 letters)
+
+  [sat/standard] (verb) — To make someone feel unwelcome or turn them against you.
+      Answer: alienate  (8 letters)
+
+  [sat/standard] (noun) — A formal written rule made and enforced by the governing body of a country or state.
+      Answer: statute  (7 letters)
+
+  [sat/hard] (adjective) — Swollen and distended, or pompous and overblown in style.
+      Answer: turgid  (6 letters)
+
+  [sat/hard] (adjective) — Having no apparent limits; seemingly without end.
+      Answer: boundless  (9 letters)
+
+  [sat/hard] (noun) — The likelihood or expectation that something will happen in the future.
+      Answer: prospect  (8 letters)
+
+  [sat/hard] (adjective) — Lacking the power to move or the will to act.
+      Answer: inert  (5 letters)
+
+  [sat/hard] (noun) — Moderation and self-restraint, especially in eating, drinking, or desire.
+      Answer: temperance  (10 letters)
+
+  [sat/hard] (noun) — A dull, overused remark stated as if it were fresh or meaningful.
+      Answer: platitude  (9 letters)
+
+  [sat/hard] (adjective) — Not able to be disturbed, excited, or made anxious.
+      Answer: imperturbable  (13 letters)
+
+  [sat/hard] (adjective) — Deserving contempt and utterly low in character.
+      Answer: despicable  (10 letters)
+
+  [sat/hard] (adjective) — Close to death or on the verge of ceasing to exist.
+      Answer: moribund  (8 letters)
+
+  [sat/hard] (adjective) — Bubbling over with cheerful excitement and high spirits.
+      Answer: ebullient  (9 letters)
+
+  [sat/hard] (verb) — To crowd together in large numbers, filling a space.
+      Answer: throng  (6 letters)
+
+  [sat/hard] (verb) — To mix and socialize in a friendly way, often with people one shouldn't.
+      Answer: fraternize  (10 letters)
+
+  [sat/hard] (verb) — To gradually get used to a new environment or set of conditions.
+      Answer: acclimate  (9 letters)
+
+  [sat/hard] (noun) — A deceptive trick used to conceal something, escape, or reach a goal.
+      Answer: subterfuge  (10 letters)
+
+  [sat/hard] (noun) — A loud, hearty, and sudden burst of amusement expressed out loud.
+      Answer: guffaw  (6 letters)
+
+  [sat/hard] (noun) — Silly, clownish behavior that seems ridiculous or is meant to amuse.
+      Answer: buffoonery  (10 letters)
+
+  [sat/hard] (adjective) — Extremely severe and cruel, especially regarding rules or penalties.
+      Answer: draconian  (9 letters)
+
+  [sat/hard] (verb) — To lead or drive forward an effort, campaign, or movement from the front.
+      Answer: spearhead  (9 letters)
+
+  [sat/hard] (verb) — To secretly cooperate in doing something wrong or illegal.
+      Answer: connive  (7 letters)
+
+  [sat/hard] (verb) — To rub or smear with oil, often as part of a sacred or ceremonial act.
+      Answer: anoint  (6 letters)
+
+  [sat/hard] (adjective) — Deserving blame for having done something wrong.
+      Answer: culpable  (8 letters)
+
+  [sat/hard] (adjective) — Able to know or sense what will happen before it occurs.
+      Answer: prescient  (9 letters)
+
+  [sat/hard] (noun) — A strong feeling that something, often unpleasant, is about to happen.
+      Answer: premonition  (11 letters)
+
+  [sat/hard] (noun) — A particular spot or setting where an event or activity takes place.
+      Answer: locale  (6 letters)
+
+  [sat/hard] (adjective) — Expressing feelings or opinions loudly and forcefully.
+      Answer: vociferous  (10 letters)
+
+  [sat/fiendish] (noun) — Severe mental or physical suffering, often caused by grief or loss.
+      Answer: anguish  (7 letters)
+
+  [sat/fiendish] (verb) — To make something lose its legal force or effect.
+      Answer: nullify  (7 letters)
+
+  [sat/fiendish] (verb) — To officially cancel the validity of something previously granted.
+      Answer: revoke  (6 letters)
+
+  [sat/fiendish] (noun) — A secret and cunning plot designed to cause harm or gain advantage.
+      Answer: machination  (11 letters)
+
+  [sat/fiendish] (adjective) — Pleasant and agreeable, especially because of a similar temperament.
+      Answer: congenial  (9 letters)
+
+  [sat/fiendish] (verb) — To move about a large area restlessly, without settling anywhere.
+      Answer: rove  (4 letters)
+
+  [sat/fiendish] (noun) — Bold daring or nerve, often paired with a shocking lack of respect.
+      Answer: audacity  (8 letters)
+
+  [sat/fiendish] (adjective) — Physically weak and delicate, easily broken or harmed.
+      Answer: frail  (5 letters)
+
+  [sat/fiendish] (noun) — The period during which a monarch or ruler holds power over a land.
+      Answer: reign  (5 letters)
+
+  [sat/fiendish] (adjective) — Relating to or characteristic of woods and forests.
+      Answer: sylvan  (6 letters)
+
+  [sat/fiendish] (verb) — To make someone feel deeply embarrassed or ashamed.
+      Answer: mortify  (7 letters)
+
+  [sat/fiendish] (noun) — The front position of an advancing group, or the leaders of a new trend.
+      Answer: vanguard  (8 letters)
+
+  [sat/fiendish] (noun) — A person who intrudes into a place or affair where they do not belong.
+      Answer: interloper  (10 letters)
+
+  [sat/fiendish] (noun) — The edge or border of something, especially the point where a new state is about to begin.
+      Answer: verge  (5 letters)
+
+  [sat/fiendish] (verb) — To rub or smear with oil, often as part of a sacred or ceremonial act.
+      Answer: anoint  (6 letters)
+
+  [sat/fiendish] (verb) — To come into a foreign country to live there permanently.
+      Answer: immigrate  (9 letters)
+
+  [sat/fiendish] (noun) — A feeling of overwhelming joy or ecstatic delight that carries you away.
+      Answer: rapture  (7 letters)
+
+  [sat/fiendish] (verb) — To attract someone by offering something tempting or pleasurable.
+      Answer: entice  (6 letters)
+
+  [sat/fiendish] (noun) — A playful leap, or a lighthearted, mischievous adventure.
+      Answer: caper  (5 letters)
+
+  [sat/fiendish] (verb) — To combine elements so completely they seem like one thing.
+      Answer: meld  (4 letters)
+
+  [sat/fiendish] (adjective) — Traveling from place to place, especially to find work.
+      Answer: itinerant  (9 letters)
+
+  [sat/fiendish] (verb) — To sit or stand with a leg on each side, or to extend across a boundary.
+      Answer: straddle  (8 letters)
+
+  [sat/fiendish] (verb) — To find out something with certainty through checking or inquiry.
+      Answer: ascertain  (9 letters)
+
+  [sat/fiendish] (noun) — A barrier or division that separates one area into smaller sections.
+      Answer: partition  (9 letters)
+
+  [sat/fiendish] (adjective) — Situated far from a center or main area; remote.
+      Answer: outlying  (8 letters)

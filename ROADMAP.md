@@ -24,7 +24,8 @@ A games section of timed, scored rounds modelled on Merriam-Webster's word
 games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
-**Phases 19 and 20 are done** — four games. **Next is Phase 21.** Design:
+**Phases 19–21 are done** — seven games. **Next is Phase 22**, the Daily
+Round and its surfaces. Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -753,11 +754,12 @@ tracks, persisted, and verified in a browser.
   reported success. Fixed at the source, with a test. A unit test then found a
   second leak no read had: a sentence using its word twice ("for want of a
   nail … for want of a shoe") — those are now skipped.
-- **[P0] "Review these in Flashcards".** **Built in Phase 19; driver check
-  outstanding.** Covered by a test that the results screen is the *only*
-  `applyStudyRating` call in all games code, and that `recordQuizAnswer` appears
-  nowhere. Not yet driven end to end: a round cannot be steered onto chosen
-  words without a test hook, and adding one is a Phase 21 task.
+- ~~**[P0] "Review these in Flashcards".**~~ **DONE 2026-10-13**, driven end
+  to end in Phase 21 — no test hook needed after all. "Mine" draws only from
+  studied words, so the driver seeds 45 of them, misses at least one on
+  purpose, and presses the button: the 9 missed words became due, the 36
+  others kept their schedule exactly. A unit test also pins the results screen
+  as the only `applyStudyRating` call in all games code.
 - **Found by driving it:** tapping Games in the nav from a results screen did
   nothing, since the page was already open. It now returns to the hub (only
   from results; nothing else resets on a re-tap).
@@ -774,14 +776,31 @@ tracks, persisted, and verified in a browser.
 
 ### Tasks
 
-- **[P1] Odd One Out.** — Guarded in both directions against every member of the
-  three. → Its explanation names the shared meaning.
-- **[P1] Match Up.** — Three boards of five pairs, with a two-second penalty for
-  a wrong pair. → Fully keyboard-playable; definitions never truncated; usable
-  at 360 px.
-- **[P1] Spell It.** — Speech, hint, and autocorrect disabled. → Works with no
-  speech available (the intro card says so); an Android emulator run confirms
-  the keyboard neither autocorrects nor autocapitalises.
+- ~~**[P1] Odd One Out.**~~ **DONE 2026-10-13.** — Blind reads: **3.5% → 1.0%**.
+  The outsider was never in doubt; every flag was in the *three*. A definition
+  with two senses ("sobriety": not drunk, or serious) gave two synonyms that
+  each took one sense and shared nothing. Now the two synonyms must be **linked
+  to each other** (one lists the other, or another card lists both), with at
+  least one confirmed. Requiring both confirmed as well left 26 words on the
+  hardest tier, so it was measured and not shipped. The note says the three are
+  "close in meaning" rather than claiming each fits the word's narrow
+  definition, which it taught falsely for *gentry*.
+- ~~**[P1] Match Up.**~~ **DONE 2026-10-13.** — Blind read: **0.5%** first time.
+  The five words on a board are mutually unrelated (no word in another's
+  meaning neighbourhood, no two definitions sharing a content word), so no
+  match can fairly pair two ways. Warm-up boards prefer a confirmed synonym,
+  after *translucent* → "frosted". A wrong pair costs two seconds and no
+  points; pairs made before a time-out still score. Every item is a button, so
+  Tab and Enter play it; arrow-key movement inside a column was **not** built.
+- ~~**[P1] Spell It.**~~ **DONE 2026-10-13.** — Blind reads: **3.0% → 0.5%**,
+  and every flag was a legitimate spelling marked wrong (*generalise*,
+  *rarified*, *pre-eminent*). The checker now accepts the regular
+  British/American patterns, ignores hyphens, spaces and accents, and has a
+  short reviewed list of one-off variants. The asymmetry is deliberate: a rare
+  misspelling that looks like a variant passes, and a correct spelling is never
+  failed. Autocorrect, autocapitalise, spellcheck and autocomplete are off,
+  asserted in the browser; **the Android emulator run is still owed** — it needs
+  the toolchain session from the CONTINUING.md runbook.
 
 ### Definition of done
 

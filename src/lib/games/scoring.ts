@@ -65,6 +65,27 @@ export function pointsFor(
   return roundTo10(base * (FLOOR + (1 - FLOOR) * remaining));
 }
 
+/**
+ * Match Up: a share of the base per pair made, and — only for a finished
+ * board — a time bonus of up to one base. A wrong pairing costs time (the
+ * session's PENALTY), never points.
+ */
+export const PAIR_SHARE = 0.4;
+
+export function matchPoints(
+  tier: Tier,
+  matched: number,
+  msUsed: number,
+  limitMs: number | null,
+  complete: boolean,
+): number {
+  const base = BASE_POINTS[tier];
+  const pairs = matched * roundTo10(base * PAIR_SHARE);
+  if (!complete || limitMs === null) return pairs;
+  const remaining = Math.max(0, limitMs - msUsed) / limitMs;
+  return pairs + roundTo10(base * remaining);
+}
+
 /** The most a round of `questions` could score — for copy, not for display. */
 export function maxPointsPerQuestion(tier: Tier, timer: GameTimer): number {
   return timer === "off"

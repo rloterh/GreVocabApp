@@ -23,3 +23,15 @@ export function asClause(definition: string): string {
   const acronym = first.length > 1 && first === first.toUpperCase();
   return /^[A-Z]/.test(d) && !acronym ? d.charAt(0).toLowerCase() + d.slice(1) : d;
 }
+
+/** The longest word a game shows as one: longer ones wrap on a phone. */
+export const MAX_WORD_LENGTH = 16;
+
+/**
+ * One plain word: letters, with inner hyphens or apostrophes, and short
+ * enough to sit on one line at 360px.
+ */
+export function isOneWord(word: string): boolean {
+  const w = word.trim();
+  return w.length >= 3 && w.length <= MAX_WORD_LENGTH && /^[A-Za-z][A-Za-z'-]*[A-Za-z]$/.test(w);
+}

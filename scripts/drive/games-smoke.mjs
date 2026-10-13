@@ -272,6 +272,178 @@ for (const name of ["Fact or Fiction", "Opposites", "Fill the Gap"]) {
 }
 check((await progressWords()) === wordsBefore, "four games later, still no word progress written");
 
+// ── Phase 21: Odd One Out, Match Up, Spell It ─────────────────────────────
+const toHub = async () => {
+  await page.getByRole("button", { name: "Games", exact: true }).first().click();
+  await page.waitForTimeout(700);
+};
+const startGame = async (name, tier = "Standard") => {
+  await toHub();
+  await page.locator("section").filter({ hasText: name }).getByRole("button", { name: tier, exact: true }).click();
+  await page.waitForFunction(
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    null,
+    { timeout: 15000 },
+  );
+  await page.getByRole("button", { name: "Play", exact: true }).click();
+  await page.getByTestId("game-stage").waitFor();
+};
+
+// Odd One Out: the question is shown, never the headword alone.
+await startGame("Odd One Out");
+for (let i = 0; i < 10; i++) {
+  await page.waitForFunction(
+    () => [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')].some((b) => !b.disabled),
+    null,
+    { timeout: 8000 },
+  );
+  if (i === 0) {
+    check(/doesn.t belong/i.test(await stage.locator("h2").innerText()), "Odd One Out asks which doesn't belong");
+  }
+  await page.keyboard.press("1");
+  await page.waitForTimeout(1300);
+}
+await page.getByTestId("best-line").waitFor({ timeout: 8000 });
+check(true, "Odd One Out: a full round reaches its results");
+
+// Match Up: three boards; a wrong pairing costs time, a right one locks in.
+await startGame("Match Up");
+for (let b = 0; b < 3; b++) {
+  await page.waitForFunction(
+    () => document.querySelectorAll('[data-testid="game-stage"] [role="group"][aria-label="Words"] button:not([disabled])').length === 5,
+    null,
+    { timeout: 8000 },
+  );
+  const ids = await stage
+    .locator('[role="group"][aria-label="Words"] button')
+    .evaluateAll((els) => els.map((e) => e.getAttribute("data-pair")));
+  if (b === 0) {
+    const before = Number((await stage.locator("p.tabular").filter({ hasText: /^:\d\d$/ }).first().innerText()).slice(1));
+    await stage.locator(`[aria-label="Words"] [data-pair="${ids[0]}"]`).click();
+    await stage.locator(`[aria-label="Meanings"] [data-pair="${ids[1]}"]`).click();
+    await page.waitForTimeout(600);
+    const after = Number((await stage.locator("p.tabular").filter({ hasText: /^:\d\d$/ }).first().innerText()).slice(1));
+    check(before - after >= 2, "a wrong pair costs two seconds", `${before}s → ${after}s`);
+    check(/0 of 5/.test(await stage.innerText()), "and pairs nothing");
+  }
+  for (const id of ids) {
+    await stage.locator(`[aria-label="Words"] [data-pair="${id}"]`).click();
+    await stage.locator(`[aria-label="Meanings"] [data-pair="${id}"]`).click();
+    await page.waitForTimeout(120);
+  }
+  await stage.getByRole("button", { name: "Continue" }).waitFor({ timeout: 5000 });
+  if (b === 0) check(/All paired/.test(await stage.innerText()), "a finished board says so");
+  await stage.getByRole("button", { name: "Continue" }).click();
+}
+await page.getByTestId("best-line").waitFor({ timeout: 8000 });
+check(/of 15/.test(await page.locator("main").innerText()), "Match Up counts pairs: x of 15");
+
+// Spell It: autocorrect off, a wrong spelling is shown corrected.
+await startGame("Spell It");
+const field = stage.locator("#spell-input");
+await field.waitFor();
+const attrs = await field.evaluate((el) => ({
+  autocorrect: el.getAttribute("autocorrect"),
+  autocapitalize: el.getAttribute("autocapitalize"),
+  spellcheck: el.getAttribute("spellcheck"),
+  autocomplete: el.getAttribute("autocomplete"),
+}));
+check(
+  attrs.autocorrect === "off" && attrs.autocapitalize === "off" && attrs.spellcheck === "false" && attrs.autocomplete === "off",
+  "Spell It turns off autocorrect, autocapitalise, spellcheck and autocomplete",
+  JSON.stringify(attrs),
+);
+await page.waitForFunction(() => !document.querySelector("#spell-input")?.disabled, null, { timeout: 8000 });
+await field.fill("zzzz");
+await page.keyboard.press("p");
+check(!(await stage.getByText("Paused", { exact: true }).isVisible()), "typing p in the field does not pause");
+await page.keyboard.press("Enter");
+await stage.getByRole("button", { name: "Continue" }).waitFor({ timeout: 5000 });
+check(/spelled/i.test(await stage.innerText()), "a wrong spelling is shown corrected");
+await page.keyboard.press("Escape");
+await page.waitForTimeout(300);
+await stage.getByRole("button", { name: "Quit to Games" }).click();
+await page.waitForTimeout(500);
+
+check((await progressWords()) === wordsBefore, "seven games later, still no word progress written");
+
+// ── The one door into the scheduler, end to end ───────────────────────────
+// "Mine" draws only from studied words, so every miss is one the button can
+// schedule. Seed 45 studied words, miss at least one on purpose, press the
+// button, and check that exactly the missed words became due.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const p3 = await ctx.newPage();
+  await p3.addInitScript(() =>
+    localStorage.setItem("lexicon.settings.v1", JSON.stringify({ state: { hasOnboarded: true }, version: 0 })),
+  );
+  await p3.goto(URL, { waitUntil: "networkidle" });
+  await p3.waitForTimeout(1500);
+  const ids = await p3.evaluate(() => {
+    const months = JSON.parse(localStorage.getItem("lexicon.vocab.v1")).state.months;
+    const m = months["gre/01"];
+    return m.days.flatMap((d) => d.words.map((w) => w.id)).slice(0, 45);
+  });
+  const FAR = "2031-01-01T00:00:00.000Z";
+  await p3.evaluate(
+    ({ ids, FAR }) => {
+      const words = {};
+      for (const id of ids) {
+        words[id] = {
+          wordId: id, monthKey: "gre/01", mastered: false, timesReviewed: 2, quizAttempts: 0, quizCorrect: 0,
+          lastReviewed: "2026-10-01T00:00:00.000Z", masteredAt: null, easeFactor: 2.5, intervalDays: 30, reps: 2, dueAt: FAR,
+        };
+      }
+      localStorage.setItem(
+        "lexicon.progress.v1",
+        JSON.stringify({
+          state: { words, activity: {}, sentences: {}, quizzes: [], activeExam: null, exams: [], lastExam: null, studies: [], gameRounds: [], gameBests: {} },
+          version: 2,
+        }),
+      );
+    },
+    { ids, FAR },
+  );
+  await p3.reload({ waitUntil: "networkidle" });
+  await p3.waitForTimeout(1500);
+  await p3.getByRole("button", { name: "Games", exact: true }).first().click();
+  await p3.waitForTimeout(800);
+  const mine = p3.locator("section").filter({ hasText: "Closest Meaning" }).getByRole("button", { name: "Mine", exact: true });
+  check(await mine.isEnabled(), "Mine unlocks with 45 studied words");
+  await mine.click();
+  await p3.waitForFunction(
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    null,
+    { timeout: 15000 },
+  );
+  await p3.getByRole("button", { name: "Play", exact: true }).click();
+  const st = p3.getByTestId("game-stage");
+  await st.waitFor();
+  for (let i = 0; i < 10; i++) {
+    await p3.waitForFunction(
+      () => [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')].every((b) => !b.disabled),
+      null,
+      { timeout: 8000 },
+    );
+    if (i === 0) await p3.waitForTimeout(10_600); // a guaranteed miss
+    else await p3.keyboard.press("1");
+    await p3.waitForTimeout(1300);
+  }
+  await p3.getByTestId("best-line").waitFor({ timeout: 8000 });
+  const missed = await p3.evaluate(() => JSON.parse(localStorage.getItem("lexicon.progress.v1")).state.gameRounds[0].missed);
+  const review = p3.getByRole("button", { name: /^Review (this|these \d+) in Flashcards$/ });
+  check(await review.isVisible(), "missed studied words offer Review in Flashcards", `${missed.length} missed`);
+  await review.click();
+  await p3.waitForTimeout(500);
+  const after = await p3.evaluate(() => JSON.parse(localStorage.getItem("lexicon.progress.v1")).state.words);
+  const now = Date.now();
+  const dueNow = (id) => after[id] && Date.parse(after[id].dueAt) <= now + 36 * 3600 * 1000;
+  check(missed.length > 0 && missed.every(dueNow), "every missed word is now due for review", missed.join(","));
+  const untouched = ids.filter((id) => !missed.includes(id));
+  check(untouched.every((id) => after[id].dueAt === FAR), "and no other word's schedule moved", `${untouched.length} unchanged`);
+  await ctx.close();
+}
+
 // ── Phone ──────────────────────────────────────────────────────────────────
 const phone = await browser.newContext({ viewport: { width: 360, height: 760 }, hasTouch: true, isMobile: true });
 const p2 = await phone.newPage();

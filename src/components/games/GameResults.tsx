@@ -24,6 +24,8 @@ import { TIER_LABEL } from "@/lib/games/catalogue";
 import type { BestOutcome } from "@/lib/games/scoring";
 import type { AnswerRecord, GameRound } from "@/lib/games/types";
 import { describeMonthKey } from "@/lib/track";
+import { missedWordIds, tally } from "@/lib/games/session";
+import { Spelling } from "@/components/games/SpellPanel";
 import { cn } from "@/lib/utils";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
@@ -49,8 +51,8 @@ export function GameResults(props: ResultsProps) {
   const { definition, round, answers, score, outcome, reviewable, reduceMotion } = props;
   const [reviewing, setReviewing] = useState(false);
   const [scheduled, setScheduled] = useState(false);
-  const right = answers.filter((a) => a.correct).length;
-  const total = round.questions.length;
+  // Pairs for a Match Up round, questions everywhere else.
+  const { right, total } = tally(round.questions, answers);
   const perfect = total > 0 && right === total;
 
   const celebration: ConfettiVariant | null = reduceMotion
@@ -61,7 +63,12 @@ export function GameResults(props: ResultsProps) {
         ? "streamers"
         : null;
 
-  const missedWords = round.questions.filter((_, i) => !answers[i]?.correct).map((q) => q.word);
+  const wordOf = new Map(
+    round.questions.flatMap((q) =>
+      q.kind === "match" ? q.pairs.map((p) => [p.wordId, p.word] as const) : [[q.wordId, q.word] as const],
+    ),
+  );
+  const missedWords = missedWordIds(round.questions, answers).map((id) => wordOf.get(id) ?? id);
 
   return (
     <div className="relative mx-auto w-full max-w-xl py-10">
@@ -162,11 +169,19 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
     <ul className="mt-6 divide-y divide-border rounded-xl border border-border bg-card" aria-label="Your answers">
       {round.questions.map((q, i) => {
         const a = answers[i];
-        const yours = a?.chosen === null || a?.chosen === undefined ? null : q.options[a.chosen];
-        const right = q.options[q.answer]!;
+        const yours =
+          q.kind === "spell"
+            ? a?.typed ?? null
+            : q.kind === "match"
+              ? `${a?.matched ?? 0} of ${q.pairs.length} paired`
+              : a?.chosen === null || a?.chosen === undefined
+                ? null
+                : q.options[a.chosen];
+        const right =
+          q.kind === "spell" ? q.word : q.kind === "match" ? "all five" : q.options[q.answer]!;
         const expanded = open === i;
         return (
-          <li key={q.wordId}>
+          <li key={`${i}-${q.wordId}`}>
             <button
               type="button"
               onClick={() => setOpen(expanded ? null : i)}
@@ -188,6 +203,22 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
             </button>
             {expanded && (
               <div className="space-y-3 px-4 pb-4 text-sm">
+                {q.kind === "match" && (
+                  <ul className="space-y-1 rounded-lg bg-secondary/40 p-3">
+                    {q.pairs.map((p) => (
+                      <li key={p.wordId}>
+                        <span className="display-serif font-semibold">{p.word}</span>
+                        <span className="text-muted-foreground"> — {p.match}</span>
+                        {a?.missedIds?.includes(p.wordId) && <span className="ml-1 text-destructive">(unpaired)</span>}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {q.kind === "spell" && a && !a.correct && (
+                  <p>
+                    It’s spelled <Spelling answer={q.word} typed={a.typed ?? ""} />.
+                  </p>
+                )}
                 {q.kind === "verdict" && (
                   <div className="rounded-lg bg-secondary/40 p-3">
                     <p>{q.statement}</p>

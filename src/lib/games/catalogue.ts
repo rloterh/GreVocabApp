@@ -14,7 +14,10 @@ import type { VocabWord } from "@/types";
 import { buildClosest, canBuildClosest } from "./builders/closest";
 import { buildFact, canBuildFact } from "./builders/fact";
 import { buildGap, canBuildGap } from "./builders/gap";
+import { buildMatch, canBuildMatch } from "./builders/match";
+import { buildOdd, canBuildOdd } from "./builders/odd";
 import { buildOpposites, canBuildOpposites } from "./builders/opposites";
+import { buildSpell, canBuildSpell } from "./builders/spell";
 import type { BuildContext } from "./context";
 import type { GameId, GameQuestion, Tier } from "./types";
 
@@ -38,6 +41,8 @@ export interface GameDefinition {
    * `ctx.truth` per slot when this is on.
    */
   balanced?: boolean;
+  /** Questions per round, when not ten: Match Up plays three boards. */
+  length?: number;
   /** Can this word be asked about at all? Cheap, so pools filter on it. */
   eligible: (word: VocabWord) => boolean;
   build: (word: VocabWord, ctx: BuildContext) => GameQuestion | null;
@@ -89,10 +94,44 @@ export const GAMES: Record<GameId, GameDefinition> = {
     eligible: canBuildGap,
     build: buildGap,
   },
+  odd: {
+    id: "odd",
+    name: "Odd One Out",
+    blurb: "Three words share a meaning. Find the one that doesn’t.",
+    instruction: "Odd one out",
+    seconds: 12,
+    tint: "secondary",
+    mark: "○●",
+    eligible: canBuildOdd,
+    build: buildOdd,
+  },
+  match: {
+    id: "match",
+    name: "Match Up",
+    blurb: "Pair five words with what they mean, against the clock.",
+    instruction: "Match each word",
+    seconds: 60,
+    length: 3,
+    tint: "accent",
+    mark: "⟷",
+    eligible: canBuildMatch,
+    build: buildMatch,
+  },
+  spell: {
+    id: "spell",
+    name: "Spell It",
+    blurb: "Hear it, read what it means, spell it.",
+    instruction: "Spell the word",
+    seconds: 20,
+    tint: "success",
+    mark: "abc",
+    eligible: canBuildSpell,
+    build: buildSpell,
+  },
 };
 
 /** Hub order. */
-export const GAME_ORDER: readonly GameId[] = ["closest", "fact", "opposites", "gap"];
+export const GAME_ORDER: readonly GameId[] = ["closest", "fact", "opposites", "gap", "odd", "match", "spell"];
 
 export const TIER_LABEL: Record<Tier, string> = {
   warmup: "Warm-up",

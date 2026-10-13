@@ -19,6 +19,13 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   with one button, and that is the only way in. A finished round counts toward
   the streak. Design: docs/GAMES.md;
   decision: docs/adr/0016-games-are-rounds-not-progression.md.
+- **Odd One Out, Match Up and Spell It.** Three words that share a meaning and
+  one that does not; three boards of five words to pair with their meanings
+  against the clock; a word to hear, read and spell. Spell It accepts British
+  and American spellings, hyphens and accents — a correct spelling is never
+  marked wrong. Each passed a blind review of fresh questions at 0.5–1.0%.
+- **"Review these in Flashcards" is now proven end to end**: missed words you
+  have studied become due, and nothing else moves.
 - **Three more games.** **Fact or Fiction** — a statement about a word, true
   or false, and then why; the explanation waits for you. **Opposites** — pick
   the antonym, and from Standard up, watch for the synonym planted as a trap.

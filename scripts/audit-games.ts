@@ -59,7 +59,7 @@ function loadTrack(track: Track): VocabMonth[] {
 
 /** A wrong option whose stem appears in the target's definition is probably defensible. */
 function suspicious(q: GameQuestion, word: VocabWord): string | null {
-  if (q.kind !== "choice") return null;
+  if (q.kind !== "choice" || q.ask) return null;
   const definitionStems = new Set(
     word.definition.split(/[^A-Za-z'-]+/).filter(Boolean).map((t) => stem(t)),
   );
@@ -74,6 +74,20 @@ function suspicious(q: GameQuestion, word: VocabWord): string | null {
 function describe(q: GameQuestion, word: VocabWord, track: Track, tier: Tier): string[] {
   const why = suspicious(q, word);
   const head = `${why ? "?" : " "} [${track}/${tier}] ${word.word} (${word.partOfSpeech}) — ${word.definition}`;
+  if (q.kind === "match") {
+    return [
+      `  [${track}/${tier}] board (${q.matchKind}s)`,
+      ...q.pairs.map((p) => `      ${p.word.padEnd(18)} ⟷ ${p.match}`),
+      "",
+    ];
+  }
+  if (q.kind === "spell") {
+    return [
+      `  [${track}/${tier}] (${q.partOfSpeech}) — ${q.definition}`,
+      `      Answer: ${q.word}  (${q.word.length} letters)`,
+      "",
+    ];
+  }
   if (q.kind === "verdict") {
     return [
       head,
@@ -86,10 +100,12 @@ function describe(q: GameQuestion, word: VocabWord, track: Track, tier: Tier): s
   return [
     head,
     ...(q.sentence ? [`      Sentence: ${q.sentence}`] : []),
+    ...(q.ask ? [`      Ask: ${q.ask}  (✓ marks the outsider)`] : []),
     ...q.options.map(
       (o, j) => `      ${j === q.answer ? "✓" : " "} ${o}${j === q.trap ? "   (planted trap: a synonym)" : ""}`,
     ),
     ...(why ? [`      ? ${why}`] : []),
+    ...(q.ask && q.explain.note ? [`      Note: ${q.explain.note}`] : []),
     "",
   ];
 }
@@ -99,6 +115,9 @@ const RUBRIC: Record<string, string> = {
   closest: "The ✓ option should be the closest in meaning. Mark DEFENSIBLE if a wrong option is arguably as close, WRONG KEY if ✓ is not a fair synonym.",
   opposites: "The ✓ option should be the opposite. A planted trap is a synonym and is meant to be wrong. Mark DEFENSIBLE if a wrong option is arguably an opposite too, WRONG KEY if ✓ is not a fair antonym.",
   gap: "The ✓ word should be the one that fits the sentence. Mark DEFENSIBLE if a wrong option fits the sentence about as well, WRONG KEY if ✓ does not fit.",
+  odd: "Three options should share a meaning and ✓ should clearly not. Mark DEFENSIBLE if ✓ arguably belongs with the others or another option arguably does not, WRONG if the three do not really share a meaning.",
+  match: "Each word should pair with exactly one item on its board. Mark AMBIGUOUS if an item could fairly pair with a second word on the same board, WRONG if a pair is not a fair match.",
+  spell: "The definition should identify the word without giving it away. Mark GIVEAWAY if the definition contains the word or an obvious form of it, WRONG if the definition does not fit the answer.",
   fact: "The statement should be clearly FACT or clearly FICTION as marked. Mark WRONG if the intended verdict is wrong or arguable, or if the statement is ungrammatical or misleading.",
 };
 

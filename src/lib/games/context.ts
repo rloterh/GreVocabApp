@@ -18,4 +18,9 @@ export interface BuildContext {
    * for this word returns null and the round tries the next word.
    */
   truth?: boolean;
+  /**
+   * Stems already used in this round. A builder that draws extra words — Match
+   * Up takes five per board — skips these, so no word appears twice in a round.
+   */
+  exclude?: ReadonlySet<string>;
 }

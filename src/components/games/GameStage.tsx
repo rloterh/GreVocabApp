@@ -30,6 +30,10 @@ import {
 import type { GameRound, GameTimer } from "@/lib/games/types";
 import { playSound } from "@/lib/sound";
 import { cn } from "@/lib/utils";
+import { isTypingTarget } from "@/lib/shortcuts";
+import { spelledRight } from "@/lib/games/builders/spell";
+import { MatchBoard, MISMATCH_PENALTY_MS } from "@/components/games/MatchBoard";
+import { SpellPanel } from "@/components/games/SpellPanel";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 
@@ -155,9 +159,16 @@ export function GameStage({
   useEffect(() => {
     if (state.phase === "entering" && question) {
       lastTickSecond.current = null;
-      // Never the word itself for a gap — announcing it would give it away.
+      // Never the word itself for a gap or a spelling — announcing it would
+      // give it away.
       const prompt =
-        question.kind === "verdict" ? question.statement : question.sentence?.replace(/____/g, "blank") ?? question.word;
+        question.kind === "verdict"
+          ? question.statement
+          : question.kind === "spell"
+            ? `Spell the word. ${question.definition}`
+            : question.kind === "match"
+              ? `Match ${question.pairs.length} words to their meanings`
+              : question.ask ?? question.sentence?.replace(/____/g, "blank") ?? question.word;
       setAnnouncement(`Question ${state.index + 1} of ${state.total}: ${prompt}`);
     }
   }, [state.phase, state.index, state.total, question]);
@@ -166,7 +177,12 @@ export function GameStage({
   const lastAnswer = state.answers[state.index];
   useEffect(() => {
     if (state.phase !== "feedback" || !lastAnswer || !question) return;
-    const right = question.options[question.answer];
+    const right =
+      question.kind === "match"
+        ? `${lastAnswer.matched ?? 0} of ${question.pairs.length} paired`
+        : question.kind === "spell"
+          ? `spelled ${[...question.word].join(" ")}`
+          : question.options[question.answer];
     if (lastAnswer.correct) {
       playSound("correct");
       setAnnouncement(`Correct. Plus ${lastAnswer.points}.`);
@@ -182,7 +198,8 @@ export function GameStage({
   // Move on after feedback, unless a finger is holding it on screen — or the
   // question has an explanation to read. Fact or Fiction's "why" is the
   // learning moment, so it waits for Continue and the clock stays stopped.
-  const waitsForContinue = question?.kind === "verdict";
+  const waitsForContinue =
+    question?.kind === "verdict" || question?.kind === "match" || question?.kind === "spell";
   useEffect(() => {
     if (state.phase !== "feedback" || holding || waitsForContinue) return;
     const timer = window.setTimeout(() => dispatch({ type: "NEXT", now: performance.now() }), FEEDBACK_MS);
@@ -205,9 +222,19 @@ export function GameStage({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.ctrlKey || e.metaKey || e.altKey) return;
-      if (e.key === "Escape" || e.key === "p" || e.key === "P") {
+      // "p" is a letter to someone spelling a word; only Escape pauses there.
+      const typing = isTypingTarget(e.target);
+      if (e.key === "Escape" || (!typing && (e.key === "p" || e.key === "P"))) {
         e.preventDefault();
         dispatch({ type: state.phase === "paused" ? "RESUME" : "PAUSE", now: performance.now() });
+        return;
+      }
+      // Match Up and Spell It are played on their own controls.
+      if (typing || question?.kind === "match" || question?.kind === "spell") {
+        if (state.phase === "feedback" && e.key === "Enter" && !typing) {
+          e.preventDefault();
+          dispatch({ type: "NEXT", now: performance.now() });
+        }
         return;
       }
       const count = question?.options.length ?? 0;
@@ -228,6 +255,18 @@ export function GameStage({
   }, [state.phase, question, choose, dispatch]);
 
   const pause = () => dispatch({ type: "PAUSE", now: performance.now() });
+  const next = useCallback(() => dispatch({ type: "NEXT", now: performance.now() }), [dispatch]);
+  const onMatch = useCallback(
+    (wordId: string) => {
+      playSound("correct");
+      dispatch({ type: "MATCH", wordId, now: performance.now() });
+    },
+    [dispatch],
+  );
+  const onMiss = useCallback(() => {
+    playSound("wrong");
+    dispatch({ type: "PENALTY", ms: MISMATCH_PENALTY_MS });
+  }, [dispatch]);
   const resume = () => {
     setNow(performance.now());
     dispatch({ type: "RESUME", now: performance.now() });
@@ -317,7 +356,47 @@ export function GameStage({
           reach of a thumb; with room to spare they sit with the word. */}
       <div className="mx-auto flex w-full max-w-[640px] flex-1 flex-col px-4 md:justify-center">
         <AnimatePresence mode="wait">
-          {showingPrompt && (
+          {showingPrompt && (question.kind === "match" || question.kind === "spell") && (
+            <motion.div
+              key={state.index}
+              className="flex flex-1 flex-col"
+              initial={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={reduceMotion ? { opacity: 0 } : { opacity: 0, y: -8 }}
+              transition={{ duration: reduceMotion ? 0.15 : 0.32, ease: EASE }}
+            >
+              {question.kind === "match" ? (
+                <MatchBoard
+                  question={question}
+                  phase={state.phase}
+                  matchedIds={state.matchedIds}
+                  answer={lastAnswer}
+                  reduceMotion={reduceMotion}
+                  onMatch={onMatch}
+                  onMiss={onMiss}
+                  onContinue={next}
+                />
+              ) : (
+                <SpellPanel
+                  question={question}
+                  phase={state.phase}
+                  answer={lastAnswer}
+                  reduceMotion={reduceMotion}
+                  onSubmit={(typed, hinted) =>
+                    dispatch({
+                      type: "ANSWER",
+                      choice: spelledRight(typed, question.word) ? 0 : -1,
+                      now: performance.now(),
+                      typed,
+                      hinted,
+                    })
+                  }
+                  onContinue={next}
+                />
+              )}
+            </motion.div>
+          )}
+          {showingPrompt && question.kind !== "match" && question.kind !== "spell" && (
             <motion.div
               key={state.index}
               className="flex flex-1 flex-col md:flex-none"
@@ -344,6 +423,10 @@ export function GameStage({
                       filled={state.phase === "feedback" ? question.options[question.answer]! : null}
                     />
                   </h2>
+                ) : question.ask ? (
+                  <h2 className="display-serif mt-4 text-[clamp(1.75rem,5.5vw,2.75rem)] font-semibold leading-tight tracking-tight">
+                    {question.ask}
+                  </h2>
                 ) : (
                   <>
                     <h2 className="display-serif mt-3 break-words text-[clamp(2.5rem,8vw,4.5rem)] font-semibold leading-none tracking-tight">
@@ -363,7 +446,7 @@ export function GameStage({
                 }
                 className={cn(
                   "grid gap-2.5 pb-2",
-                  question.kind === "verdict"
+                  question.kind === "verdict" || (question.kind === "choice" && question.ask)
                     ? "grid-cols-2"
                     : twoByTwo
                       ? "grid-cols-1 md:grid-cols-2"

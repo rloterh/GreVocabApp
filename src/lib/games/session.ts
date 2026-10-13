@@ -20,11 +20,15 @@
  * The clock starts on ARM — when the question has finished entering — not on
  * NEXT, so full motion and reduced motion get the same time to answer.
  *
+ * Match Up resolves a board pair by pair: each MATCH records one, a wrong
+ * pairing is a PENALTY of time, and the board resolves when every pair is
+ * made — or on a time-out, when the pairs already made still score.
+ *
  * See docs/GAMES.md §6.3.
  */
 
-import { pointsFor } from "./scoring";
-import type { AnswerRecord, GameQuestion, Tier } from "./types";
+import { matchPoints, pointsFor } from "./scoring";
+import type { AnswerRecord, GameQuestion, MatchQuestion, Tier } from "./types";
 
 export type Phase = "ready" | "entering" | "asking" | "feedback" | "paused" | "finished";
 
@@ -49,12 +53,16 @@ export interface SessionState {
   /** Time spent paused, so the round's duration excludes it. */
   pausedMs: number;
   pausedAt: number | null;
+  /** Match Up: word ids paired so far on the current board. */
+  matchedIds: string[];
 }
 
 export type SessionEvent =
   | { type: "START"; now: number }
   | { type: "ARM"; now: number }
-  | { type: "ANSWER"; choice: number; now: number }
+  | { type: "ANSWER"; choice: number; now: number; typed?: string; hinted?: boolean }
+  | { type: "MATCH"; wordId: string; now: number }
+  | { type: "PENALTY"; ms: number }
   | { type: "TICK"; now: number }
   | { type: "PAUSE"; now: number }
   | { type: "RESUME"; now: number }
@@ -80,6 +88,7 @@ export function createSession(
     finishedAt: null,
     pausedMs: 0,
     pausedAt: null,
+    matchedIds: [],
   };
 }
 
@@ -125,15 +134,41 @@ export function reduce(
       // An answer that lands after the limit is a time-out, however the event
       // was delayed in reaching us.
       if (state.limitMs !== null && ms >= state.limitMs) {
-        return record(state, null, false, true, state.limitMs);
+        return record(state, null, false, true, state.limitMs, { typed: event.typed });
       }
       const correct = event.choice === question.answer;
-      return record(state, event.choice, correct, false, ms);
+      return record(state, event.choice, correct, false, ms, {
+        typed: event.typed,
+        hinted: event.hinted,
+      });
+    }
+
+    case "MATCH": {
+      if (state.phase !== "asking") return state;
+      const question = questions[state.index];
+      if (!question || question.kind !== "match") return state;
+      if (state.matchedIds.includes(event.wordId)) return state;
+      if (!question.pairs.some((p) => p.wordId === event.wordId)) return state;
+      const ms = elapsedMs(state, event.now);
+      if (state.limitMs !== null && ms >= state.limitMs) return timeOut(state, question);
+      const matchedIds = [...state.matchedIds, event.wordId];
+      if (matchedIds.length < question.pairs.length) return { ...state, matchedIds };
+      return recordBoard({ ...state, matchedIds }, question, ms, false);
+    }
+
+    case "PENALTY": {
+      // A wrong pairing costs time, not points: the clock is the only thing
+      // Match Up takes away. Only while asking — a penalty cannot land on a
+      // board that has already resolved, or while paused.
+      if (state.phase !== "asking" || event.ms <= 0) return state;
+      return { ...state, spentMs: state.spentMs + event.ms };
     }
 
     case "TICK": {
       if (state.phase !== "asking" || state.limitMs === null) return state;
       if (elapsedMs(state, event.now) < state.limitMs) return state;
+      const question = questions[state.index];
+      if (question?.kind === "match") return timeOut(state, question);
       return record(state, null, false, true, state.limitMs);
     }
 
@@ -170,7 +205,7 @@ export function reduce(
       if (index >= state.total) {
         return { ...state, phase: "finished", finishedAt: event.now };
       }
-      return { ...state, phase: "entering", index, spentMs: 0, runningSince: null };
+      return { ...state, phase: "entering", index, spentMs: 0, runningSince: null, matchedIds: [] };
     }
   }
 }
@@ -181,16 +216,82 @@ function record(
   correct: boolean,
   timedOut: boolean,
   ms: number,
+  extra: { typed?: string; hinted?: boolean } = {},
 ): SessionState {
-  const points = pointsFor(correct, state.tier, ms, state.limitMs);
+  const full = pointsFor(correct, state.tier, ms, state.limitMs);
+  // A hint halves the question, rounded to the same tens as everything else.
+  const points = extra.hinted ? Math.round(full / 20) * 10 : full;
+  const answer: AnswerRecord = { chosen, correct, timedOut, ms, points };
+  if (extra.typed !== undefined) answer.typed = extra.typed;
+  if (extra.hinted) answer.hinted = true;
   return {
     ...state,
     phase: "feedback",
     runningSince: null,
     spentMs: ms,
-    answers: [...state.answers, { chosen, correct, timedOut, ms, points }],
+    answers: [...state.answers, answer],
     score: state.score + points,
   };
+}
+
+/** A Match Up board is over: every pair made, or the time ran out. */
+function recordBoard(
+  state: SessionState,
+  question: MatchQuestion,
+  ms: number,
+  timedOut: boolean,
+): SessionState {
+  const matched = state.matchedIds.length;
+  const correct = matched === question.pairs.length;
+  const points = matchPoints(state.tier, matched, ms, state.limitMs, correct);
+  const missedIds = question.pairs.map((p) => p.wordId).filter((id) => !state.matchedIds.includes(id));
+  return {
+    ...state,
+    phase: "feedback",
+    runningSince: null,
+    spentMs: ms,
+    answers: [...state.answers, { chosen: null, correct, timedOut, ms, points, matched, missedIds }],
+    score: state.score + points,
+  };
+}
+
+function timeOut(state: SessionState, question: MatchQuestion): SessionState {
+  return recordBoard(state, question, state.limitMs ?? 0, true);
+}
+
+/**
+ * How a round went, counted the way the player reads it: pairs for a Match Up
+ * board, one per question everywhere else.
+ */
+export function tally(
+  questions: readonly GameQuestion[],
+  answers: readonly AnswerRecord[],
+): { right: number; total: number } {
+  let right = 0;
+  let total = 0;
+  questions.forEach((q, i) => {
+    const a = answers[i];
+    if (q.kind === "match") {
+      total += q.pairs.length;
+      right += a?.matched ?? 0;
+    } else {
+      total += 1;
+      right += a?.correct ? 1 : 0;
+    }
+  });
+  return { right, total };
+}
+
+/** Every word the round missed — each unpaired word of a board counts. */
+export function missedWordIds(
+  questions: readonly GameQuestion[],
+  answers: readonly AnswerRecord[],
+): string[] {
+  return questions.flatMap((q, i) => {
+    const a = answers[i];
+    if (q.kind === "match") return a?.missedIds ?? q.pairs.map((p) => p.wordId);
+    return a?.correct ? [] : [q.wordId];
+  });
 }
 
 /** How long the round took, paused time excluded. */

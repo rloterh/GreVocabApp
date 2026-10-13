@@ -193,6 +193,10 @@ export const REVIEWED_EXCLUSIONS: Readonly<Record<string, readonly string[]>> = 
   untamed: ["untrammeled", "unconstrained", "unbridled", "unfettered"],
   consort: ["connive", "collude", "conspire"],
   grandiloquent: ["gauche"],
+  // Odd One Out (blind read, seed 8): "arbitrary rule" is autocratic rule, and
+  // "ingrained" is listed beside intrinsic, innate and inherent.
+  autocratic: ["arbitrary", "despotic", "tyrannical"],
+  intrinsic: ["ingrained", "inbred", "deep-rooted"],
 };
 
 /** Words too common to mean anything when they appear in a definition. */

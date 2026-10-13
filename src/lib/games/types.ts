@@ -12,7 +12,7 @@
 import type { Track } from "@/types";
 
 /** Every game the catalogue can build. Grows one id per shipped game. */
-export type GameId = "closest" | "fact" | "opposites" | "gap";
+export type GameId = "closest" | "fact" | "opposites" | "gap" | "odd" | "match" | "spell";
 
 /**
  * Where a round's words come from.
@@ -66,6 +66,53 @@ export interface ChoiceQuestion {
    * classic mistake in an antonym question — so review can name it.
    */
   trap?: number;
+  /**
+   * Odd One Out: the headword is one of the options, so the stage shows this
+   * question instead of the word.
+   */
+  ask?: string;
+}
+
+/**
+ * Match Up: one board of words and what they mean, paired by the player.
+ *
+ * A board is one question to the session. Its pairs are resolved one at a
+ * time (`MATCH` events); the board resolves when all are paired or the time
+ * runs out, and pairs made before a time-out still score. `options` and
+ * `answer` are unused — present only so code that handles every question the
+ * same way need not special-case this one.
+ */
+export interface MatchQuestion {
+  kind: "match";
+  /** The first pair's word, for anything that wants one id per question. */
+  wordId: string;
+  word: string;
+  partOfSpeech: string;
+  pairs: Array<{ wordId: string; word: string; match: string }>;
+  /** What the right-hand column holds: synonyms on Warm-up, definitions otherwise. */
+  matchKind: "synonym" | "definition";
+  options: string[];
+  answer: number;
+  explain: Explanation;
+}
+
+/**
+ * Spell It: hear the word, read its definition, type it.
+ *
+ * `options` is the answer alone and `answer` is 0: the stage dispatches 0
+ * for a correct spelling and -1 for anything else, so the session scores it
+ * like any other question.
+ */
+export interface SpellQuestion {
+  kind: "spell";
+  wordId: string;
+  /** The answer, as it must be typed (lower case unless the word is a name). */
+  word: string;
+  partOfSpeech: string;
+  definition: string;
+  options: string[];
+  answer: number;
+  explain: Explanation;
 }
 
 /**
@@ -87,7 +134,7 @@ export interface VerdictQuestion {
 }
 
 /** A union so a new game adds a member rather than widening one. */
-export type GameQuestion = ChoiceQuestion | VerdictQuestion;
+export type GameQuestion = ChoiceQuestion | VerdictQuestion | MatchQuestion | SpellQuestion;
 
 export const VERDICT_OPTIONS = ["Fact", "Fiction"] as const;
 
@@ -110,6 +157,14 @@ export interface AnswerRecord {
   /** Time spent on the question, paused time excluded. */
   ms: number;
   points: number;
+  /** Spell It: what was typed, so review can show where it went wrong. */
+  typed?: string;
+  /** Spell It: a hint was used, which halves the points. */
+  hinted?: boolean;
+  /** Match Up: how many pairs were made, of `pairs.length`. */
+  matched?: number;
+  /** Match Up: the words left unpaired, for review and history. */
+  missedIds?: string[];
 }
 
 /**

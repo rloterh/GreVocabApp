@@ -34,8 +34,8 @@ export interface RoundInput {
 }
 
 export function buildRound(input: RoundInput): GameRound {
-  const length = input.length ?? ROUND_LENGTH;
   const definition = GAMES[input.game];
+  const length = input.length ?? definition.length ?? ROUND_LENGTH;
   const random = seededRandom(input.seed);
   const index = input.index ?? buildRelationIndex(input.pool);
 
@@ -59,8 +59,12 @@ export function buildRound(input: RoundInput): GameRound {
       tier: input.tier,
       random,
       truth: truths?.[questions.length],
+      exclude: asked,
     });
     if (!question) continue;
+    // Every word a question shows is spent for the round, not only its
+    // headword: a Match Up board uses five, an Odd One Out shows four.
+    for (const w of wordsShown(question)) asked.add(stem(w));
     asked.add(key);
     questions.push(question);
   }
@@ -73,6 +77,12 @@ export function buildRound(input: RoundInput): GameRound {
     questions,
     shortfall: length - questions.length,
   };
+}
+
+function wordsShown(q: GameQuestion): string[] {
+  if (q.kind === "match") return q.pairs.map((p) => p.word);
+  if (q.kind === "choice" && q.ask) return q.options;
+  return [q.word];
 }
 
 /**

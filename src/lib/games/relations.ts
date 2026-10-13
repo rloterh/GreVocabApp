@@ -188,6 +188,11 @@ export const REVIEWED_EXCLUSIONS: Readonly<Record<string, readonly string[]>> = 
   modicum: ["token", "trace", "shred", "scrap", "iota"],
   // Manipulating someone is commonly deceiving them.
   manipulate: ["deceive", "trick", "dupe", "con", "hoodwink", "maneuver"],
+  // Fill the Gap: these fit the same sentence about as well (blind read, seed 4).
+  exuberant: ["ecstatic", "elated", "euphoric", "rapturous"],
+  untamed: ["untrammeled", "unconstrained", "unbridled", "unfettered"],
+  consort: ["connive", "collude", "conspire"],
+  grandiloquent: ["gauche"],
 };
 
 /** Words too common to mean anything when they appear in a definition. */
@@ -302,4 +307,126 @@ export function rankedSynonyms(index: RelationIndex, word: VocabWord): string[] 
     out.push(term);
   }
   return out;
+}
+
+/**
+ * A word's antonyms that can serve as the right answer, best first — list
+ * order, for the reason `rankedSynonyms` gives. A term the card also lists as
+ * a synonym is dropped: a careless list cannot make one word both.
+ */
+export function rankedAntonyms(index: RelationIndex, word: VocabWord): string[] {
+  const head = stem(word.word);
+  const synonyms = new Set<string>(synonymsOf(index, head));
+  for (const s of word.synonyms ?? []) synonyms.add(stem(s));
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const raw of word.antonyms ?? []) {
+    const term = raw.trim();
+    if (!isEligibleTerm(term, word.word)) continue;
+    const s = stem(term);
+    if (seen.has(s) || synonyms.has(s)) continue;
+    seen.add(s);
+    out.push(term);
+  }
+  return out;
+}
+
+/**
+ * Every stem that could fairly be called an *opposite* of `word` — the mirror
+ * of {@link meaningNeighbourhood}, for antonym questions.
+ *
+ * Its antonyms and their synonyms; headwords that list it as their antonym,
+ * and their synonyms; and the opposites of its synonyms, since whatever is
+ * opposite to *garrulous* is opposite to *loquacious* too.
+ */
+export function oppositeNeighbourhood(index: RelationIndex, word: VocabWord): Set<string> {
+  const head = stem(word.word);
+  const out = new Set<string>();
+  const antonyms = new Set<string>(antonymsOf(index, head));
+  for (const a of word.antonyms ?? []) antonyms.add(stem(a));
+  for (const a of antonyms) {
+    out.add(a);
+    for (const s of synonymsOf(index, a)) out.add(s);
+    for (const h of index.listedBy.get(a) ?? EMPTY) out.add(h);
+  }
+  for (const h of index.opposedBy.get(head) ?? EMPTY) {
+    out.add(h);
+    for (const s of synonymsOf(index, h)) out.add(s);
+  }
+  const synonyms = new Set<string>(synonymsOf(index, head));
+  for (const s of word.synonyms ?? []) synonyms.add(stem(s));
+  for (const s of synonyms) for (const a of antonymsOf(index, s)) out.add(a);
+  for (const term of REVIEWED_OPPOSITE_EXCLUSIONS[word.word.trim().toLowerCase()] ?? []) {
+    out.add(stem(term));
+  }
+  out.delete("");
+  out.delete(head);
+  return out;
+}
+
+/**
+ * Opposites a read found and the data cannot. Same contract as
+ * {@link REVIEWED_EXCLUSIONS}: only ever stricter.
+ */
+export const REVIEWED_OPPOSITE_EXCLUSIONS: Readonly<Record<string, readonly string[]>> = {
+  // "Wild, uncontrolled": restraint is a fair opposite too.
+  frenzy: ["restraint", "self-control", "composure"],
+  // A changeable rule contrasts with an inviolable one as well as a breakable.
+  inviolable: ["changeable", "alterable", "negotiable"],
+  // "Cheerfully optimistic": a bleak outlook is as opposite as a gloomy one.
+  sanguine: ["bleak", "despairing", "hopeless", "despondent"],
+  // "A guarded response" against "an enthusiastic one" is a natural contrast.
+  guarded: ["enthusiastic", "effusive", "eager"],
+};
+
+/**
+ * Pairs both cards name that a read still found too loose to state as fact:
+ * an exodus is a mass flight, not any migration. `isConfirmed` refuses them.
+ * Keyed "a|b" in alphabetical order, lower case.
+ */
+export const REVIEWED_WEAK_PAIRS: ReadonlySet<string> = new Set(["exodus|migration", "connote|denote"]);
+
+/**
+ * Is `candidate` safe as the source of a wrong answer to an antonym question?
+ *
+ * Not itself an opposite; none of its synonyms an opposite; its definition
+ * not using one; and — the check the synonym guard has no need of — not the
+ * opposite of anything that means what the target means. A word opposed to
+ * a synonym of the target is an opposite of the target.
+ */
+export function isSafeOppositeSource(
+  index: RelationIndex,
+  opposites: ReadonlySet<string>,
+  meaning: ReadonlySet<string>,
+  candidate: VocabWord,
+): boolean {
+  const head = stem(candidate.word);
+  if (!head || opposites.has(head)) return false;
+  for (const s of synonymsOf(index, head)) if (opposites.has(s)) return false;
+  for (const s of candidate.synonyms ?? []) if (opposites.has(stem(s))) return false;
+  for (const a of antonymsOf(index, head)) if (meaning.has(a)) return false;
+  for (const a of candidate.antonyms ?? []) if (meaning.has(stem(a))) return false;
+  for (const s of definitionStems(candidate.definition)) if (opposites.has(s)) return false;
+  return true;
+}
+
+/**
+ * Is this pair confirmed by both cards?
+ *
+ * A single list's entry is weak evidence: blind reads found *dread* stated as
+ * the opposite of "anticipate" and *paragon* of "imperfection", both from one
+ * card's list. A pair both cards name is far more reliable — 2,141 words have
+ * a confirmed synonym and 814 a confirmed antonym.
+ */
+export function isConfirmed(
+  index: RelationIndex,
+  word: VocabWord,
+  partner: string,
+  relation: "synonym" | "antonym",
+): boolean {
+  const pair = [word.word.trim().toLowerCase(), partner.trim().toLowerCase()].sort().join("|");
+  if (REVIEWED_WEAK_PAIRS.has(pair)) return false;
+  const back =
+    relation === "synonym" ? synonymsOf(index, stem(partner)) : antonymsOf(index, stem(partner));
+  return back.has(stem(word.word));
 }

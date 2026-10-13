@@ -17,6 +17,12 @@ export type Page =
 interface AppState {
   page: Page;
   navigate: (page: Page) => void;
+  /**
+   * Counts every navigation, including to the page already open — so a page
+   * can tell "the user tapped my nav item again", which means "take me back
+   * to your start". Games uses it to leave a results screen.
+   */
+  visits: number;
   toast: { id: number; title: string; description?: string; variant?: "default" | "success" | "error" } | null;
   showToast: (t: { title: string; description?: string; variant?: "default" | "success" | "error" }) => void;
   clearToast: () => void;
@@ -40,7 +46,8 @@ let toastId = 0;
 
 export const useAppStore = create<AppState>((set) => ({
   page: "dashboard",
-  navigate: (page) => set({ page }),
+  visits: 0,
+  navigate: (page) => set((s) => ({ page, visits: s.visits + 1 })),
   toast: null,
   showToast: (t) => {
     toastId++;

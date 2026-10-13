@@ -21,6 +21,7 @@ import {
   meaningNeighbourhood,
   rankedSynonyms,
 } from "../relations";
+import { displayWord } from "../text";
 import type { ChoiceQuestion } from "../types";
 
 /**
@@ -102,7 +103,7 @@ export function buildClosest(word: VocabWord, ctx: BuildContext): ChoiceQuestion
   return {
     kind: "choice",
     wordId: word.id,
-    word: word.word,
+    word: displayWord(word.word),
     partOfSpeech: word.partOfSpeech,
     options,
     answer: options.indexOf(key),

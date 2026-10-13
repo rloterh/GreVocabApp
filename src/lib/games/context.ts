@@ -12,4 +12,10 @@ export interface BuildContext {
   monthOf: Record<string, string>;
   tier: Tier;
   random: () => number;
+  /**
+   * Fact or Fiction: the truth this slot of the round needs. The round sets
+   * it so true and false come out balanced; a builder that cannot honour it
+   * for this word returns null and the round tries the next word.
+   */
+  truth?: boolean;
 }

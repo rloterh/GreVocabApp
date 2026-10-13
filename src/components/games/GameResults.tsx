@@ -188,6 +188,27 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
             </button>
             {expanded && (
               <div className="space-y-3 px-4 pb-4 text-sm">
+                {q.kind === "verdict" && (
+                  <div className="rounded-lg bg-secondary/40 p-3">
+                    <p>{q.statement}</p>
+                    <p className="mt-1 text-muted-foreground">
+                      {q.answer === 0 ? "A fact." : "Fiction."} {q.explain.note}
+                    </p>
+                  </div>
+                )}
+                {q.kind === "choice" && q.sentence && (
+                  <p className="rounded-lg bg-secondary/40 p-3">
+                    {q.sentence.split("____").map((part, j, all) => (
+                      <span key={j}>
+                        {part}
+                        {j < all.length - 1 && <span className="display-serif font-semibold text-success">{right}</span>}
+                      </span>
+                    ))}
+                  </p>
+                )}
+                {q.kind === "choice" && q.trap !== undefined && a?.chosen === q.trap && q.explain.note && (
+                  <p className="text-warning">{q.explain.note}</p>
+                )}
                 <div className="flex items-start gap-2">
                   <p className="flex-1">
                     <span className="italic text-muted-foreground">{q.partOfSpeech}</span> — {q.explain.definition}

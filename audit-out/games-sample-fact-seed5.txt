@@ -1,0 +1,910 @@
+Lexicon games — Fact or Fiction, a sample for a reader (seed 5)
+The statement should be clearly FACT or clearly FICTION as marked. Mark WRONG if the intended verdict is wrong or arguable, or if the statement is ungrammatical or misleading.
+Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
+
+  [gre/warmup] appraise (verb) — To judge the worth, quality, or size of something.
+      Statement: “appraise” means to judge the worth, quality, or size of something.
+      Intended:  FACT
+
+  [gre/warmup] Dilatory (adjective) — Slow to act; intended to cause delay.
+      Statement: “dilatory” means likely to mislead or give a false impression of the truth.
+      Intended:  FICTION
+      Note:      That is the meaning of “deceptive”.
+
+  [gre/warmup] endorse (verb) — To publicly declare approval of or support for someone or something.
+      Statement: “endorse” means to criticize someone or something very harshly and openly.
+      Intended:  FICTION
+      Note:      That is the meaning of “excoriate”.
+
+  [gre/warmup] antipathy (noun) — A deep, instinctive feeling of dislike or aversion.
+      Statement: “antipathy” means a deep, instinctive feeling of dislike or aversion.
+      Intended:  FACT
+
+  [gre/warmup] browbeat (verb) — To pressure or frighten someone using harsh, domineering language.
+      Statement: “browbeat” means to cheat or defraud someone, especially by dodging payment owed.
+      Intended:  FICTION
+      Note:      That is the meaning of “bilk”.
+
+  [gre/warmup] idiosyncratic (adjective) — Peculiar to one person; a distinctive quirk not shared by others.
+      Statement: “idiosyncratic” means peculiar to one person; a distinctive quirk not shared by others.
+      Intended:  FACT
+
+  [gre/warmup] Ubiquitous (adjective) — Present, appearing, or found everywhere.
+      Statement: “ubiquitous” means impossible to defend, justify, or keep going.
+      Intended:  FICTION
+      Note:      That is the meaning of “untenable”.
+
+  [gre/warmup] profusion (noun) — A very large quantity of something, spread out lavishly.
+      Statement: “profusion” means a very large quantity of something, spread out lavishly.
+      Intended:  FACT
+
+  [gre/warmup] ambivalent (adjective) — Having mixed or conflicting feelings about something at the same time.
+      Statement: “ambivalent” means keenly eager to obtain and keep money or possessions.
+      Intended:  FICTION
+      Note:      That is the meaning of “acquisitive”.
+
+  [gre/warmup] speculate (verb) — To form opinions or guesses about something without solid evidence.
+      Statement: “speculate” and “conjecture” mean nearly the same thing.
+      Intended:  FACT
+
+  [gre/warmup] Welter (noun) — A large number of items in no order; a confused mass.
+      Statement: “welter” means a lack or absence of something needed or desired.
+      Intended:  FICTION
+      Note:      That is the meaning of “want”.
+
+  [gre/warmup] wistful (adjective) — Full of a quiet, yearning sadness for something loved but now gone.
+      Statement: “wistful” means feeling cautious and alert about possible danger or trouble.
+      Intended:  FICTION
+      Note:      That is the meaning of “wary”.
+
+  [gre/warmup] Obdurate (adjective) — Stubbornly refusing to change one's opinion or course of action.
+      Statement: “obdurate” means characterized by vulgar or pretentious display; showy.
+      Intended:  FICTION
+      Note:      That is the meaning of “ostentatious”.
+
+  [gre/warmup] instigate (verb) — To bring about or set in motion, especially trouble.
+      Statement: “instigate” means to reach a conclusion from evidence and reasoning rather than direct statement.
+      Intended:  FICTION
+      Note:      That is the meaning of “infer”.
+
+  [gre/warmup] vassal (noun) — A feudal tenant who received land from a lord in exchange for allegiance and military service.
+      Statement: “vassal” means a change of circumstances or fortune, typically unwelcome.
+      Intended:  FICTION
+      Note:      That is the meaning of “vicissitude”.
+
+  [gre/warmup] overbearing (adjective) — Forcing your opinions on others in a pushy, arrogant, and unpleasant way.
+      Statement: “overbearing” and “domineering” mean nearly the same thing.
+      Intended:  FACT
+
+  [gre/warmup] permutation (noun) — One of the possible ways a set of things can be ordered or arranged.
+      Statement: “permutation” means one of the possible ways a set of things can be ordered or arranged.
+      Intended:  FACT
+
+  [gre/warmup] substantiate (verb) — To prove the truth of a claim by providing solid evidence.
+      Statement: “substantiate” means to prove the truth of a claim by providing solid evidence.
+      Intended:  FACT
+
+  [gre/warmup] cupidity (noun) — A strong, selfish craving for money and possessions.
+      Statement: “cupidity” means a strong, selfish craving for money and possessions.
+      Intended:  FACT
+
+  [gre/warmup] austere (adjective) — Severe or plain in appearance, without comfort or decoration.
+      Statement: “austere” and “spartan” mean nearly the same thing.
+      Intended:  FACT
+
+  [gre/warmup] bountiful (adjective) — Present in large amounts, or freely giving much to others.
+      Statement: “bountiful” means present in large amounts, or freely giving much to others.
+      Intended:  FACT
+
+  [gre/warmup] preeminent (adjective) — Standing above all others in a field through outstanding quality or importance.
+      Statement: “preeminent” means standing above all others in a field through outstanding quality or importance.
+      Intended:  FACT
+
+  [gre/warmup] scrutiny (noun) — Close, careful, and critical examination or inspection.
+      Statement: “scrutiny” means close, careful, and critical examination or inspection.
+      Intended:  FACT
+
+  [gre/warmup] dour (adjective) — Stern, gloomy, and unsmiling in appearance or manner.
+      Statement: “dour” means stern, gloomy, and unsmiling in appearance or manner.
+      Intended:  FACT
+
+  [gre/warmup] diatribe (noun) — A long, angry speech that bitterly criticizes something or someone.
+      Statement: “diatribe” means a great flood or an overwhelming rush of something.
+      Intended:  FICTION
+      Note:      That is the meaning of “deluge”.
+
+  [gre/standard] galvanize (verb) — To shock or stir someone into sudden, energetic action.
+      Statement: “galvanize” means to shock or stir someone into sudden, energetic action.
+      Intended:  FACT
+
+  [gre/standard] senescence (noun) — The gradual process of growing old and declining in function.
+      Statement: “senescence” means the gradual process of growing old and declining in function.
+      Intended:  FACT
+
+  [gre/standard] rebuttal (noun) — An argument or reply that opposes and tries to disprove a claim.
+      Statement: “rebuttal” means an argument or reply that opposes and tries to disprove a claim.
+      Intended:  FACT
+
+  [gre/standard] bravery (noun) — Courage shown when facing danger, pain, or difficulty.
+      Statement: “bravery” means a gift of money or help given to a person or cause in need.
+      Intended:  FICTION
+      Note:      That is the meaning of “benefaction”.
+
+  [gre/standard] buoyant (adjective) — Cheerful and full of light-hearted optimism.
+      Statement: “buoyant” means extremely poor, or so small as to seem contemptible.
+      Intended:  FICTION
+      Note:      That is the meaning of “beggarly”.
+
+  [gre/standard] erstwhile (adjective) — Belonging to an earlier time; existing in the past but not now.
+      Statement: “erstwhile” means not following a regular pattern; unpredictable in movement or behavior.
+      Intended:  FICTION
+      Note:      That is the meaning of “erratic”.
+
+  [gre/standard] bequeath (verb) — To leave money or possessions to someone through a will after death.
+      Statement: “bequeath” means to leave money or possessions to someone through a will after death.
+      Intended:  FACT
+
+  [gre/standard] squirm (verb) — To wriggle or twist restlessly, often from unease or embarrassment.
+      Statement: “squirm” means to shake suddenly and briefly from horror, cold, or revulsion.
+      Intended:  FICTION
+      Note:      That is the meaning of “shudder”.
+
+  [gre/standard] prescient (adjective) — Seeming to know about events before they actually happen.
+      Statement: “prescient” means expressing a sad, mournful, or pleading feeling, especially in sound.
+      Intended:  FICTION
+      Note:      That is the meaning of “plaintive”.
+
+  [gre/standard] mawkish (adjective) — Overly sentimental in a sickly, embarrassing way.
+      Statement: “mawkish” means overly sentimental in a sickly, embarrassing way.
+      Intended:  FACT
+
+  [gre/standard] flux (noun) — A state of constant change or continuous flow.
+      Statement: “flux” means a state of constant change or continuous flow.
+      Intended:  FACT
+
+  [gre/standard] philanthropist (noun) — A wealthy person who gives generously to help others and worthy causes.
+      Statement: “philanthropist” is the opposite of “skinflint”.
+      Intended:  FACT
+
+  [gre/standard] gallant (adjective) — Brave and noble in behavior, or politely attentive and chivalrous.
+      Statement: “gallant” means brave and noble in behavior, or politely attentive and chivalrous.
+      Intended:  FACT
+
+  [gre/standard] theorize (verb) — To form ideas or explanations about something without having firm proof.
+      Statement: “theorize” means to form ideas or explanations about something without having firm proof.
+      Intended:  FACT
+
+  [gre/standard] sniveling (adjective) — Whining and crying in a weak, self-pitying, contemptible way.
+      Statement: “sniveling” means whining and crying in a weak, self-pitying, contemptible way.
+      Intended:  FACT
+
+  [gre/standard] dividend (noun) — A share of profits paid regularly to a company's shareholders.
+      Statement: “dividend” means the end or death of a person, institution, or activity.
+      Intended:  FICTION
+      Note:      That is the meaning of “demise”.
+
+  [gre/standard] clamor (noun) — A loud, confused outcry from many voices at once.
+      Statement: “clamor” means great swiftness or quickness in movement or action.
+      Intended:  FICTION
+      Note:      That is the meaning of “celerity”.
+
+  [gre/standard] animus (noun) — A strong feeling of hostility or ill will directed toward someone.
+      Statement: “animus” means something obtained, or the act of gaining possession of it.
+      Intended:  FICTION
+      Note:      That is the meaning of “acquisition”.
+
+  [gre/standard] caveat (noun) — A warning or cautionary condition attached to a statement or agreement.
+      Statement: “caveat” means a noisy, confused disturbance or sudden burst of excited activity.
+      Intended:  FICTION
+      Note:      That is the meaning of “commotion”.
+
+  [gre/standard] wilt (verb) — To droop and lose firmness, usually from heat or lack of water.
+      Statement: “wilt” means to twist and turn the body sharply, often from pain or discomfort.
+      Intended:  FICTION
+      Note:      That is the meaning of “writhe”.
+
+  [gre/standard] commotion (noun) — A noisy, confused disturbance or sudden burst of excited activity.
+      Statement: “commotion” is the opposite of “uproar”.
+      Intended:  FICTION
+      Note:      “uproar” means nearly the same as “commotion”.
+
+  [gre/standard] consolidate (verb) — To combine several things into one stronger, more effective whole.
+      Statement: “consolidate” means to fully understand the meaning or nature of something.
+      Intended:  FICTION
+      Note:      That is the meaning of “comprehend”.
+
+  [gre/standard] insouciant (adjective) — Lightheartedly free of worry or care; casually untroubled.
+      Statement: “insouciant” means traveling from one place to another, typically to find or perform work.
+      Intended:  FICTION
+      Note:      That is the meaning of “itinerant”.
+
+  [gre/standard] quail (verb) — To lose one's nerve and shrink back in the face of danger or difficulty.
+      Statement: “quail” means to lose one's nerve and shrink back in the face of danger or difficulty.
+      Intended:  FACT
+
+  [gre/standard] cogency (noun) — The quality of being clear, logical, and highly convincing.
+      Statement: “cogency” means the act or moment of beginning something.
+      Intended:  FICTION
+      Note:      That is the meaning of “commencement”.
+
+  [gre/hard] paranoia (noun) — Extreme, irrational distrust or suspicion of other people.
+      Statement: “paranoia” means complete and everlasting spiritual ruin; hell.
+      Intended:  FICTION
+      Note:      That is the meaning of “perdition”.
+
+  [gre/hard] imbroglio (noun) — A confused, complicated, and often embarrassing situation or disagreement.
+      Statement: “imbroglio” means a confused, complicated, and often embarrassing situation or disagreement.
+      Intended:  FACT
+
+  [gre/hard] esurient (adjective) — Hungry or greedy, especially in an eager, grasping way.
+      Statement: “esurient” means charging far more money than is fair or justified.
+      Intended:  FICTION
+      Note:      That is the meaning of “extortionate”.
+
+  [gre/hard] distraught (adjective) — Extremely worried, upset, or emotionally distressed.
+      Statement: “distraught” means extremely worried, upset, or emotionally distressed.
+      Intended:  FACT
+
+  [gre/hard] defoliate (verb) — To strip a plant or tree of its leaves, often through chemicals or disease.
+      Statement: “defoliate” means to strip a plant or tree of its leaves, often through chemicals or disease.
+      Intended:  FACT
+
+  [gre/hard] stratagem (noun) — A clever trick or plan used to outwit an enemy or gain advantage.
+      Statement: “stratagem” means a clever trick or plan used to outwit an enemy or gain advantage.
+      Intended:  FACT
+
+  [gre/hard] sociability (noun) — The friendly trait of enjoying company and getting along easily with other people.
+      Statement: “sociability” means the full, satisfied feeling that comes from having eaten enough or too much.
+      Intended:  FICTION
+      Note:      That is the meaning of “satiety”.
+
+  [gre/hard] heretical (adjective) — Contrary to accepted or official belief, especially in religion.
+      Statement: “heretical” and “heterodox” mean nearly the same thing.
+      Intended:  FACT
+
+  [gre/hard] rite (noun) — A formal act performed according to prescribed custom, often religious or social.
+      Statement: “rite” means a formal act performed according to prescribed custom, often religious or social.
+      Intended:  FACT
+
+  [gre/hard] ecclesiastical (adjective) — Relating to the Christian church, its clergy, or its formal organization.
+      Statement: “ecclesiastical” means serving as an artificial and usually inferior substitute for the real thing.
+      Intended:  FICTION
+      Note:      That is the meaning of “ersatz”.
+
+  [gre/hard] augury (noun) — A sign read as foretelling the future, or the practice of interpreting such signs.
+      Statement: “augury” and “omen” mean nearly the same thing.
+      Intended:  FACT
+
+  [gre/hard] otiose (adjective) — Serving no useful purpose; pointless or ineffective.
+      Statement: “otiose” means involving or requiring a great deal of tedious effort and hard work.
+      Intended:  FICTION
+      Note:      That is the meaning of “operose”.
+
+  [gre/hard] filigree (noun) — Delicate decorative work made from fine twisted threads of gold or silver.
+      Statement: “filigree” means a thorny evergreen heath shrub bearing fragrant yellow blossoms, found on poor, sandy ground.
+      Intended:  FICTION
+      Note:      That is the meaning of “furze”.
+
+  [gre/hard] foreordain (verb) — To decide or settle an outcome in advance, especially by a higher power.
+      Statement: “foreordain” means to come together in a group, especially for a social occasion.
+      Intended:  FICTION
+      Note:      That is the meaning of “foregather”.
+
+  [gre/hard] evanesce (verb) — To fade away and vanish, like mist dissolving into air.
+      Statement: “evanesce” means to catch sight of or notice something, often from a distance.
+      Intended:  FICTION
+      Note:      That is the meaning of “espy”.
+
+  [gre/hard] arraign (verb) — To formally call an accused person before a court to answer a criminal charge.
+      Statement: “arraign” means to add beauty or decoration to a person, place, or object.
+      Intended:  FICTION
+      Note:      That is the meaning of “adorn”.
+
+  [gre/hard] pollard (verb) — To cut a tree's upper branches back to the trunk, encouraging bushy regrowth.
+      Statement: “pollard” means to cut a tree's upper branches back to the trunk, encouraging bushy regrowth.
+      Intended:  FACT
+
+  [gre/hard] coruscate (verb) — To give off flashing sparkles of light; to shine with brilliant flashes.
+      Statement: “coruscate” means to give off flashing sparkles of light; to shine with brilliant flashes.
+      Intended:  FACT
+
+  [gre/hard] motif (noun) — A recurring theme, image, or decorative pattern in art, music, or writing.
+      Statement: “motif” means a recurring theme, image, or decorative pattern in art, music, or writing.
+      Intended:  FACT
+
+  [gre/hard] glaucous (adjective) — Having a pale grayish or bluish-green color, often with a powdery coating.
+      Statement: “glaucous” means having a pale grayish or bluish-green color, often with a powdery coating.
+      Intended:  FACT
+
+  [gre/hard] heedless (adjective) — Careless and paying no attention to danger or advice.
+      Statement: “heedless” means careless and paying no attention to danger or advice.
+      Intended:  FACT
+
+  [gre/hard] aleatory (adjective) — Determined by the roll of the dice rather than by skill or plan.
+      Statement: “aleatory” means determined by the roll of the dice rather than by skill or plan.
+      Intended:  FACT
+
+  [gre/hard] aesthete (noun) — A person who is deeply devoted to beauty and fine art.
+      Statement: “aesthete” and “philistine” mean nearly the same thing.
+      Intended:  FICTION
+      Note:      “philistine” means nearly the opposite of “aesthete”.
+
+  [gre/hard] malingerer (noun) — Someone who pretends to be ill to escape duty or work.
+      Statement: “malingerer” means the essential customs and moral attitudes accepted by a particular community.
+      Intended:  FICTION
+      Note:      That is the meaning of “mores”.
+
+  [gre/hard] interpolate (verb) — To insert extra material into a text, or to estimate a value lying between known ones.
+      Statement: “interpolate” means to insert extra material into a text, or to estimate a value lying between known ones.
+      Intended:  FACT
+
+  [gre/fiendish] debauch (verb) — To lead someone into immoral, corrupt, or excessive behavior.
+      Statement: “debauch” means to lead someone into immoral, corrupt, or excessive behavior.
+      Intended:  FACT
+
+  [gre/fiendish] etiquette (noun) — The accepted rules of polite behavior in society or a particular group.
+      Statement: “etiquette” means the accepted rules of polite behavior in society or a particular group.
+      Intended:  FACT
+
+  [gre/fiendish] pollard (verb) — To cut a tree's upper branches back to the trunk, encouraging bushy regrowth.
+      Statement: “pollard” means to try to convert others to your religion, cause, or opinion.
+      Intended:  FICTION
+      Note:      That is the meaning of “proselytize”.
+
+  [gre/fiendish] totemic (adjective) — Serving as a revered emblem that stands for a group, clan, or shared identity.
+      Statement: “totemic” means exaggerated and showy, as if performing on a stage.
+      Intended:  FICTION
+      Note:      That is the meaning of “theatrical”.
+
+  [gre/fiendish] scintillate (verb) — To sparkle, flash, or throw off brilliant little flashes of light.
+      Statement: “scintillate” means to sparkle, flash, or throw off brilliant little flashes of light.
+      Intended:  FACT
+
+  [gre/fiendish] bamboozle (verb) — To trick or confuse someone, usually by cheating them.
+      Statement: “bamboozle” is the opposite of “hoodwink”.
+      Intended:  FICTION
+      Note:      “hoodwink” means nearly the same as “bamboozle”.
+
+  [gre/fiendish] befall (verb) — To happen to someone, usually referring to an unfortunate event.
+      Statement: “befall” is the opposite of “betide”.
+      Intended:  FICTION
+      Note:      “betide” means nearly the same as “befall”.
+
+  [gre/fiendish] rodomontade (noun) — Boastful, inflated talk or swaggering, self-important behavior.
+      Statement: “rodomontade” means boastful, inflated talk or swaggering, self-important behavior.
+      Intended:  FACT
+
+  [gre/fiendish] deciduous (adjective) — Describing trees or shrubs that drop their leaves each autumn.
+      Statement: “deciduous” means describing trees or shrubs that drop their leaves each autumn.
+      Intended:  FACT
+
+  [gre/fiendish] extirpate (verb) — To destroy or remove something completely, as if pulling out its roots.
+      Statement: “extirpate” means to fade away and vanish, like mist dissolving into air.
+      Intended:  FICTION
+      Note:      That is the meaning of “evanesce”.
+
+  [gre/fiendish] hebetude (noun) — A state of mental dullness, sluggishness, and lethargy.
+      Statement: “hebetude” means a state of mental dullness, sluggishness, and lethargy.
+      Intended:  FACT
+
+  [gre/fiendish] apperception (noun) — The mind's grasp of something new in terms of what it already knows.
+      Statement: “apperception” means the mind's grasp of something new in terms of what it already knows.
+      Intended:  FACT
+
+  [gre/fiendish] untoward (adjective) — Unexpected and inconvenient, awkward, or inappropriate.
+      Statement: “untoward” means providing shade, or full of shadows cast by leaves and trees.
+      Intended:  FICTION
+      Note:      That is the meaning of “umbrageous”.
+
+  [gre/fiendish] cenobite (noun) — A member of a religious community who lives together with others under shared rules.
+      Statement: “cenobite” means a widely accepted way of behaving or doing something, agreed by general practice.
+      Intended:  FICTION
+      Note:      That is the meaning of “convention”.
+
+  [gre/fiendish] taboo (noun) — A social or religious ban on a particular action, object, or topic.
+      Statement: “taboo” means a social or religious ban on a particular action, object, or topic.
+      Intended:  FACT
+
+  [gre/fiendish] carouse (verb) — To drink alcohol and celebrate loudly with others in a lively, unrestrained way.
+      Statement: “carouse” means to put together or concoct something from assorted ingredients, parts, or ideas.
+      Intended:  FICTION
+      Note:      That is the meaning of “confect”.
+
+  [gre/fiendish] ecclesiastical (adjective) — Relating to the Christian church, its clergy, or its formal organization.
+      Statement: “ecclesiastical” means relating to the Christian church, its clergy, or its formal organization.
+      Intended:  FACT
+
+  [gre/fiendish] paranoia (noun) — Extreme, irrational distrust or suspicion of other people.
+      Statement: “paranoia” means a flawed piece of reasoning made without any intent to deceive.
+      Intended:  FICTION
+      Note:      That is the meaning of “paralogism”.
+
+  [gre/fiendish] oleaginous (adjective) — Exaggeratedly and unpleasantly flattering; slick and oily in manner.
+      Statement: “oleaginous” means giving the impression that something bad is about to happen.
+      Intended:  FICTION
+      Note:      That is the meaning of “ominous”.
+
+  [gre/fiendish] bibulous (adjective) — Very fond of drinking too much alcohol.
+      Statement: “bibulous” means menacing and threatening, seeming to promise evil or harm.
+      Intended:  FICTION
+      Note:      That is the meaning of “baleful”.
+
+  [gre/fiendish] anamnesis (noun) — The act of calling the past back to mind, or a patient's recounted medical history.
+      Statement: “anamnesis” means the act of calling the past back to mind, or a patient's recounted medical history.
+      Intended:  FACT
+
+  [gre/fiendish] briar (noun) — A prickly wild shrub with thorny stems, such as a wild rose or blackberry.
+      Statement: “briar” means a prickly wild shrub with thorny stems, such as a wild rose or blackberry.
+      Intended:  FACT
+
+  [gre/fiendish] veridical (adjective) — Coinciding with fact; genuinely truthful and accurate.
+      Statement: “veridical” means coinciding with fact; genuinely truthful and accurate.
+      Intended:  FACT
+
+  [gre/fiendish] peccadillo (noun) — A small, relatively unimportant fault or offense.
+      Statement: “peccadillo” means skillful, quick finger movements used to perform magic tricks.
+      Intended:  FICTION
+      Note:      That is the meaning of “prestidigitation”.
+
+  [gre/fiendish] simulacrum (noun) — An image or representation of something, often a poor or superficial imitation of the real thing.
+      Statement: “simulacrum” means an image or representation of something, often a poor or superficial imitation of the real thing.
+      Intended:  FACT
+
+  [sat/warmup] dogma (noun) — A set of beliefs laid down by an authority as unquestionably true.
+      Statement: “dogma” and “doctrine” mean nearly the same thing.
+      Intended:  FACT
+
+  [sat/warmup] didactic (adjective) — Intended to teach or instruct, sometimes in an overbearing, moralizing way.
+      Statement: “didactic” means settling an issue quickly and firmly, or producing a clear final result.
+      Intended:  FICTION
+      Note:      That is the meaning of “decisive”.
+
+  [sat/warmup] inkling (noun) — A slight hint or vague idea about something.
+      Statement: “inkling” means a force or influence that makes something happen or move forward.
+      Intended:  FICTION
+      Note:      That is the meaning of “impetus”.
+
+  [sat/warmup] recalcitrant (adjective) — Stubbornly resisting authority, control, or instruction.
+      Statement: “recalcitrant” means full of bitter, long-lasting resentment or ill will toward someone.
+      Intended:  FICTION
+      Note:      That is the meaning of “rancorous”.
+
+  [sat/warmup] vortex (noun) — A whirling mass of water or air that pulls things toward its center.
+      Statement: “vortex” means a small trace or sign of something that once existed but is now gone.
+      Intended:  FICTION
+      Note:      That is the meaning of “vestige”.
+
+  [sat/warmup] expound (verb) — To set out and explain something in careful detail.
+      Statement: “expound” means to name or list things one by one.
+      Intended:  FICTION
+      Note:      That is the meaning of “enumerate”.
+
+  [sat/warmup] precept (noun) — A rule guiding how one should behave or think.
+      Statement: “precept” means an unfair opinion formed before knowing the facts.
+      Intended:  FICTION
+      Note:      That is the meaning of “prejudice”.
+
+  [sat/warmup] permanent (adjective) — Meant to last indefinitely without change or end.
+      Statement: “permanent” means seeming reasonable or likely to be true, though perhaps not certain.
+      Intended:  FICTION
+      Note:      That is the meaning of “plausible”.
+
+  [sat/warmup] conjectural (adjective) — Based on guessing rather than firm evidence.
+      Statement: “conjectural” means expressing approval or admiration for someone or something.
+      Intended:  FICTION
+      Note:      That is the meaning of “complimentary”.
+
+  [sat/warmup] magnify (verb) — To make an object appear larger, or to increase the degree of something.
+      Statement: “magnify” means to firmly state that something is true, often despite challenge.
+      Intended:  FICTION
+      Note:      That is the meaning of “maintain”.
+
+  [sat/warmup] blur (verb) — To make something look hazy, smeared, or hard to see clearly.
+      Statement: “blur” means to make someone or something seem unimportant or small.
+      Intended:  FICTION
+      Note:      That is the meaning of “belittle”.
+
+  [sat/warmup] inscrutable (adjective) — Impossible to read, interpret, or understand from outward signs.
+      Statement: “inscrutable” means refusing to compromise or reach agreement; rigidly holding a position.
+      Intended:  FICTION
+      Note:      That is the meaning of “intransigent”.
+
+  [sat/warmup] discreet (adjective) — Careful and tactful in what you say or do so as to avoid drawing attention.
+      Statement: “discreet” means expressing mockery and the view that something is ridiculous.
+      Intended:  FICTION
+      Note:      That is the meaning of “derisive”.
+
+  [sat/warmup] sanction (verb) — To officially approve or permit an action or practice.
+      Statement: “sanction” means to urge someone or something onward to greater effort or action.
+      Intended:  FICTION
+      Note:      That is the meaning of “spur”.
+
+  [sat/warmup] thwart (verb) — To prevent someone from accomplishing a plan or purpose.
+      Statement: “thwart” means to insult or provoke someone repeatedly in order to upset them.
+      Intended:  FICTION
+      Note:      That is the meaning of “taunt”.
+
+  [sat/warmup] loquacious (adjective) — Tending to talk a great deal; very chatty.
+      Statement: “loquacious” means tending to talk a great deal; very chatty.
+      Intended:  FACT
+
+  [sat/warmup] vacillate (verb) — To keep switching between different opinions or choices, unable to decide.
+      Statement: “vacillate” means to keep switching between different opinions or choices, unable to decide.
+      Intended:  FACT
+
+  [sat/warmup] surmise (verb) — To guess or conclude something using little evidence.
+      Statement: “surmise” means to make false spoken remarks that injure someone's reputation.
+      Intended:  FICTION
+      Note:      That is the meaning of “slander”.
+
+  [sat/warmup] beset (verb) — To trouble or attack someone persistently from every side.
+      Statement: “beset” means to trouble or attack someone persistently from every side.
+      Intended:  FACT
+
+  [sat/warmup] repercussion (noun) — An unintended, usually harmful effect that follows an event or action.
+      Statement: “repercussion” means an unintended, usually harmful effect that follows an event or action.
+      Intended:  FACT
+
+  [sat/warmup] intransigent (adjective) — Refusing to compromise or reach agreement; rigidly holding a position.
+      Statement: “intransigent” means filled with intense feeling, especially in a speech or plea.
+      Intended:  FICTION
+      Note:      That is the meaning of “impassioned”.
+
+  [sat/warmup] hunch (noun) — A guess or feeling based on instinct rather than evidence.
+      Statement: “hunch” means excessive pride or overconfidence that often blinds a person and invites disaster.
+      Intended:  FICTION
+      Note:      That is the meaning of “hubris”.
+
+  [sat/warmup] fossilize (verb) — To turn slowly into hardened stone-like remains within rock over ages.
+      Statement: “fossilize” means to turn slowly into hardened stone-like remains within rock over ages.
+      Intended:  FACT
+
+  [sat/warmup] diplomatic (adjective) — Skilled at dealing with people and situations without causing offense.
+      Statement: “diplomatic” means skilled at dealing with people and situations without causing offense.
+      Intended:  FACT
+
+  [sat/warmup] undermine (verb) — To weaken or damage something gradually and often secretly.
+      Statement: “undermine” and “bolster” mean nearly the same thing.
+      Intended:  FICTION
+      Note:      “bolster” means nearly the opposite of “undermine”.
+
+  [sat/standard] strident (adjective) — Loud, harsh, and grating in sound, or insistently forceful in tone.
+      Statement: “strident” means trying to secretly weaken or overthrow an established system, government, or institution.
+      Intended:  FICTION
+      Note:      That is the meaning of “subversive”.
+
+  [sat/standard] marginalize (verb) — To push a person or group aside and treat them as unimportant.
+      Statement: “marginalize” means to update something with the latest methods, styles, or technology.
+      Intended:  FICTION
+      Note:      That is the meaning of “modernize”.
+
+  [sat/standard] stagnant (adjective) — Not moving, flowing, or developing, and therefore often dull or foul.
+      Statement: “stagnant” is the opposite of “dynamic”.
+      Intended:  FACT
+
+  [sat/standard] reminisce (verb) — To talk or think fondly about pleasant experiences from the past.
+      Statement: “reminisce” and “recollect” mean nearly the same thing.
+      Intended:  FACT
+
+  [sat/standard] rudimentary (adjective) — Basic and undeveloped, involving only the simplest elements.
+      Statement: “rudimentary” and “sophisticated” mean nearly the same thing.
+      Intended:  FICTION
+      Note:      “sophisticated” means nearly the opposite of “rudimentary”.
+
+  [sat/standard] modernize (verb) — To update something with the latest methods, styles, or technology.
+      Statement: “modernize” means to update something with the latest methods, styles, or technology.
+      Intended:  FACT
+
+  [sat/standard] grant (verb) — To give or allow something formally, usually after a request.
+      Statement: “grant” means to gather or collect something, especially support, praise, or information.
+      Intended:  FICTION
+      Note:      That is the meaning of “garner”.
+
+  [sat/standard] acrimony (noun) — Bitter sharpness or harshness in how people speak to or feel about each other.
+      Statement: “acrimony” means agreement or approval given to a proposal or request.
+      Intended:  FICTION
+      Note:      That is the meaning of “assent”.
+
+  [sat/standard] reliability (noun) — The quality of being consistently trustworthy and dependable over time.
+      Statement: “reliability” means an act of striking back to punish an enemy for something they did.
+      Intended:  FICTION
+      Note:      That is the meaning of “reprisal”.
+
+  [sat/standard] pessimistic (adjective) — Tending to expect the worst possible outcome in any situation.
+      Statement: “pessimistic” is the opposite of “optimistic”.
+      Intended:  FACT
+
+  [sat/standard] sagacity (noun) — Keen good judgment and the ability to make wise decisions.
+      Statement: “sagacity” means keen good judgment and the ability to make wise decisions.
+      Intended:  FACT
+
+  [sat/standard] oversimplify (verb) — To describe something as less complex than it really is, losing accuracy.
+      Statement: “oversimplify” means to describe something as less complex than it really is, losing accuracy.
+      Intended:  FACT
+
+  [sat/standard] downplay (verb) — To make something seem less important than it really is.
+      Statement: “downplay” and “understate” mean nearly the same thing.
+      Intended:  FACT
+
+  [sat/standard] artifact (noun) — An object made by humans, especially one of historical or cultural interest.
+      Statement: “artifact” is the opposite of “relic”.
+      Intended:  FICTION
+      Note:      “relic” means nearly the same as “artifact”.
+
+  [sat/standard] mores (noun) — The essential moral rules and accepted behaviors of a particular society.
+      Statement: “mores” means a structure built to honor a notable person or event.
+      Intended:  FICTION
+      Note:      That is the meaning of “monument”.
+
+  [sat/standard] virtuoso (noun) — A person with outstanding skill in music or another artistic pursuit.
+      Statement: “virtuoso” means a long, bitter feud driven by a craving for revenge between families or groups.
+      Intended:  FICTION
+      Note:      That is the meaning of “vendetta”.
+
+  [sat/standard] collective (adjective) — Done or shared by all members of a group acting together.
+      Statement: “collective” means done or shared by all members of a group acting together.
+      Intended:  FACT
+
+  [sat/standard] analysis (noun) — A detailed examination of the separate parts of something to understand it.
+      Statement: “analysis” means a feeling of friendship and goodwill between people or nations.
+      Intended:  FICTION
+      Note:      That is the meaning of “amity”.
+
+  [sat/standard] largesse (noun) — Generous giving of gifts or money, often by someone wealthy or powerful.
+      Statement: “largesse” is the opposite of “generosity”.
+      Intended:  FICTION
+      Note:      “generosity” means nearly the same as “largesse”.
+
+  [sat/standard] allocate (verb) — To set aside or assign a resource for a particular purpose or person.
+      Statement: “allocate” means to gather together a large quantity of something over time.
+      Intended:  FICTION
+      Note:      That is the meaning of “amass”.
+
+  [sat/standard] testament (noun) — Something that serves as clear proof or evidence of a quality or fact.
+      Statement: “testament” means something that serves as clear proof or evidence of a quality or fact.
+      Intended:  FACT
+
+  [sat/standard] epitomize (verb) — To be a perfect representation of a particular quality or type.
+      Statement: “epitomize” means to be a perfect representation of a particular quality or type.
+      Intended:  FACT
+
+  [sat/standard] legislature (noun) — An official elected assembly with the power to make and change a nation's laws.
+      Statement: “legislature” means humor or lack of seriousness, especially at an unsuitable moment.
+      Intended:  FICTION
+      Note:      That is the meaning of “levity”.
+
+  [sat/standard] flamboyant (adjective) — Strikingly bold, showy, and confident in style or manner.
+      Statement: “flamboyant” means rich enough to support strong growth of crops, plants, or new life.
+      Intended:  FICTION
+      Note:      That is the meaning of “fertile”.
+
+  [sat/standard] strife (noun) — Bitter conflict or fighting between people.
+      Statement: “strife” is the opposite of “discord”.
+      Intended:  FICTION
+      Note:      “discord” means nearly the same as “strife”.
+
+  [sat/hard] wander (verb) — To move about slowly with no fixed destination or purpose.
+      Statement: “wander” means to hide unpleasant facts or wrongdoing so something appears acceptable.
+      Intended:  FICTION
+      Note:      That is the meaning of “whitewash”.
+
+  [sat/hard] malfeasance (noun) — Wrongdoing or misconduct, especially by someone holding public office.
+      Statement: “malfeasance” means wrongdoing or misconduct, especially by someone holding public office.
+      Intended:  FACT
+
+  [sat/hard] landlocked (adjective) — Enclosed by ground on all sides, with no access to the sea.
+      Statement: “landlocked” means growing thickly and abundantly; rich, dense, and profuse.
+      Intended:  FICTION
+      Note:      That is the meaning of “luxuriant”.
+
+  [sat/hard] giddy (adjective) — Dizzily excited and light-headed, often too happy to think clearly.
+      Statement: “giddy” means dizzily excited and light-headed, often too happy to think clearly.
+      Intended:  FACT
+
+  [sat/hard] mettle (noun) — A person's spirited ability to face difficulty with courage and determination.
+      Statement: “mettle” means a person's spirited ability to face difficulty with courage and determination.
+      Intended:  FACT
+
+  [sat/hard] isolate (verb) — To keep someone or something separate and alone, apart from others.
+      Statement: “isolate” is the opposite of “seclude”.
+      Intended:  FICTION
+      Note:      “seclude” means nearly the same as “isolate”.
+
+  [sat/hard] throng (verb) — To crowd together in large numbers, filling a space.
+      Statement: “throng” means to crowd together in large numbers, filling a space.
+      Intended:  FACT
+
+  [sat/hard] tribalism (noun) — Strong loyalty to one's own group, often paired with hostility toward outsiders.
+      Statement: “tribalism” means a long, arduous journey made mostly on foot over difficult ground.
+      Intended:  FICTION
+      Note:      That is the meaning of “trek”.
+
+  [sat/hard] migration (noun) — The movement of people or animals from one region to another to live.
+      Statement: “migration” and “exodus” mean nearly the same thing.
+      Intended:  FACT
+
+  [sat/hard] incarcerate (verb) — To confine a person in a jail or penal institution.
+      Statement: “incarcerate” means to confine a person in a jail or penal institution.
+      Intended:  FACT
+
+  [sat/hard] grievance (noun) — A complaint about unfair treatment, or the resentment such treatment causes.
+      Statement: “grievance” means an insulting or mocking remark meant to taunt someone.
+      Intended:  FICTION
+      Note:      That is the meaning of “gibe”.
+
+  [sat/hard] archetype (noun) — An original model or perfect example on which others are based.
+      Statement: “archetype” and “anarchy” share a root.
+      Intended:  FACT
+      Note:      Both come from arch, Greek for “ruler, chief”.
+
+  [sat/hard] cosmopolitan (adjective) — Familiar with and comfortable among many different countries and cultures.
+      Statement: “cosmopolitan” is the opposite of “provincial”.
+      Intended:  FACT
+
+  [sat/hard] expatriate (noun) — A person residing in a country other than the one where they were born.
+      Statement: “expatriate” means the complete dying out or permanent disappearance of a species or thing.
+      Intended:  FICTION
+      Note:      That is the meaning of “extinction”.
+
+  [sat/hard] zeal (noun) — Great energy and eager devotion directed toward a cause or goal.
+      Statement: “zeal” means moral corruption and a total absence of decency.
+      Intended:  FICTION
+      Note:      That is the meaning of “depravity”.
+
+  [sat/hard] delude (verb) — To make someone believe something that is not true.
+      Statement: “delude” and “pedagogic” share a root.
+      Intended:  FICTION
+      Note:      “delude” comes from lud / lus (“to play”); “pedagogic” from paed / ped (“child”).
+
+  [sat/hard] brooding (adjective) — Deeply and moodily thoughtful, often about something troubling.
+      Statement: “brooding” means deeply and moodily thoughtful, often about something troubling.
+      Intended:  FACT
+
+  [sat/hard] iniquity (noun) — Grave injustice or profound wickedness.
+      Statement: “iniquity” means strong anger or intense annoyance.
+      Intended:  FICTION
+      Note:      That is the meaning of “ire”.
+
+  [sat/hard] seminal (adjective) — Strongly shaping later developments by serving as an original source of ideas.
+      Statement: “seminal” means relating to or characteristic of woods and forests.
+      Intended:  FICTION
+      Note:      That is the meaning of “sylvan”.
+
+  [sat/hard] orchestrate (verb) — To plan and coordinate a complex activity carefully to produce a desired result.
+      Statement: “orchestrate” means to force someone out of a job, office, or position of power.
+      Intended:  FICTION
+      Note:      That is the meaning of “oust”.
+
+  [sat/hard] unctuous (adjective) — Excessively smooth, oily, and insincere in manner or speech.
+      Statement: “unctuous” means not limited or hampered by anything; completely free.
+      Intended:  FICTION
+      Note:      That is the meaning of “untrammeled”.
+
+  [sat/hard] injustice (noun) — An act or situation that is unfair and violates people's rights.
+      Statement: “injustice” means a person who intrudes into a place or affair where they do not belong.
+      Intended:  FICTION
+      Note:      That is the meaning of “interloper”.
+
+  [sat/hard] emigrate (verb) — To permanently leave your own country in order to live somewhere else.
+      Statement: “emigrate” means to permanently leave your own country in order to live somewhere else.
+      Intended:  FACT
+
+  [sat/hard] temperament (noun) — A person's usual mood and the natural way they tend to feel and react.
+      Statement: “temperament” means a rope or chain that ties something to a fixed spot.
+      Intended:  FICTION
+      Note:      That is the meaning of “tether”.
+
+  [sat/hard] embolden (verb) — To give someone the confidence or courage to act.
+      Statement: “embolden” is the opposite of “intimidate”.
+      Intended:  FACT
+
+  [sat/fiendish] inclusive (adjective) — Open to and welcoming of everyone, leaving no one out.
+      Statement: “inclusive” means open to and welcoming of everyone, leaving no one out.
+      Intended:  FACT
+
+  [sat/fiendish] reconnoiter (verb) — To explore an area to gather information, especially about an enemy or terrain.
+      Statement: “reconnoiter” means to explore an area to gather information, especially about an enemy or terrain.
+      Intended:  FACT
+
+  [sat/fiendish] rootless (adjective) — Having no settled home or lasting ties to any place or community.
+      Statement: “rootless” means having no settled home or lasting ties to any place or community.
+      Intended:  FACT
+
+  [sat/fiendish] devious (adjective) — Using dishonest, indirect, or underhanded methods to get what you want.
+      Statement: “devious” means using dishonest, indirect, or underhanded methods to get what you want.
+      Intended:  FACT
+
+  [sat/fiendish] waggish (adjective) — Playfully witty or mischievous, given to droll and teasing humor.
+      Statement: “waggish” means playfully witty or mischievous, given to droll and teasing humor.
+      Intended:  FACT
+
+  [sat/fiendish] fraudulent (adjective) — Involving deliberate trickery meant to gain money or advantage unlawfully.
+      Statement: “fraudulent” means involving deliberate trickery meant to gain money or advantage unlawfully.
+      Intended:  FACT
+
+  [sat/fiendish] unearth (verb) — To discover or bring to light something that was hidden or buried.
+      Statement: “unearth” means to pull a plant fully from the soil, or displace someone from home.
+      Intended:  FICTION
+      Note:      That is the meaning of “uproot”.
+
+  [sat/fiendish] uproot (verb) — To pull a plant fully from the soil, or displace someone from home.
+      Statement: “uproot” and “displace” mean nearly the same thing.
+      Intended:  FACT
+
+  [sat/fiendish] temperament (noun) — A person's usual mood and the natural way they tend to feel and react.
+      Statement: “temperament” is the opposite of “disposition”.
+      Intended:  FICTION
+      Note:      “disposition” means nearly the same as “temperament”.
+
+  [sat/fiendish] sovereign (adjective) — Having supreme authority and full independent control over a territory.
+      Statement: “sovereign” means lower in rank, power, or importance than someone or something else.
+      Intended:  FICTION
+      Note:      That is the meaning of “subordinate”.
+
+  [sat/fiendish] populous (adjective) — Containing a large number of inhabitants living in one area.
+      Statement: “populous” means extremely dry from heat or lack of water; or intensely thirsty.
+      Intended:  FICTION
+      Note:      That is the meaning of “parched”.
+
+  [sat/fiendish] resilience (noun) — The ability to recover quickly from hardship, stress, or difficult conditions.
+      Statement: “resilience” means a deep feeling of guilt over a wrong one has committed.
+      Intended:  FICTION
+      Note:      That is the meaning of “remorse”.
+
+  [sat/fiendish] fragment (noun) — A small piece broken off or detached from a larger whole.
+      Statement: “fragment” means a small piece broken off or detached from a larger whole.
+      Intended:  FACT
+
+  [sat/fiendish] rapture (noun) — A feeling of overwhelming joy or ecstatic delight that carries you away.
+      Statement: “rapture” means the act of making something fresh, valid, or active again after decline or expiry.
+      Intended:  FICTION
+      Note:      That is the meaning of “renewal”.
+
+  [sat/fiendish] badinage (noun) — Light, playful conversation exchanged for amusement.
+      Statement: “badinage” means light, playful conversation exchanged for amusement.
+      Intended:  FACT
+
+  [sat/fiendish] serendipity (noun) — The good fortune of stumbling upon something valuable or delightful entirely by chance.
+      Statement: “serendipity” means a safe place offering shelter, or a sacred area within a temple.
+      Intended:  FICTION
+      Note:      That is the meaning of “sanctuary”.
+
+  [sat/fiendish] taxonomy (noun) — A system for classifying things into ordered groups based on shared traits.
+      Statement: “taxonomy” means a system for classifying things into ordered groups based on shared traits.
+      Intended:  FACT
+
+  [sat/fiendish] vicarious (adjective) — Felt or experienced through the actions and feelings of another person.
+      Statement: “vicarious” means felt or experienced through the actions and feelings of another person.
+      Intended:  FACT
+
+  [sat/fiendish] witticism (noun) — A clever, amusing remark made in passing.
+      Statement: “witticism” means a playful, fanciful quality, or a sudden and capricious idea.
+      Intended:  FICTION
+      Note:      That is the meaning of “whimsy”.
+
+  [sat/fiendish] pilgrimage (noun) — A long journey to a sacred site made for religious or devotional reasons.
+      Statement: “pilgrimage” means a long journey to a sacred site made for religious or devotional reasons.
+      Intended:  FACT
+
+  [sat/fiendish] jocular (adjective) — Fond of joking; playful and good-humored in speech or manner.
+      Statement: “jocular” means naive and simplistic, or so dull as to feel empty and unsatisfying.
+      Intended:  FICTION
+      Note:      That is the meaning of “jejune”.
+
+  [sat/fiendish] glower (verb) — To stare angrily or sullenly at someone.
+      Statement: “glower” means to be drawn steadily toward a particular person, place, or thing.
+      Intended:  FICTION
+      Note:      That is the meaning of “gravitate”.
+
+  [sat/fiendish] wilt (verb) — To droop, sag, or lose freshness and strength, as a plant does.
+      Statement: “wilt” means to hide unpleasant facts or wrongdoing so something appears acceptable.
+      Intended:  FICTION
+      Note:      That is the meaning of “whitewash”.
+
+  [sat/fiendish] fecund (adjective) — Highly fertile and capable of producing much offspring or vegetation.
+      Statement: “fecund” means highly fertile and capable of producing much offspring or vegetation.
+      Intended:  FACT
+
+  [sat/fiendish] brave (adjective) — Ready to face danger or pain without showing fear.
+      Statement: “brave” and “courageous” mean nearly the same thing.
+      Intended:  FACT

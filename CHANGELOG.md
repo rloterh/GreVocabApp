@@ -19,6 +19,11 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   with one button, and that is the only way in. A finished round counts toward
   the streak. Design: docs/GAMES.md;
   decision: docs/adr/0016-games-are-rounds-not-progression.md.
+- **Three more games.** **Fact or Fiction** — a statement about a word, true
+  or false, and then why; the explanation waits for you. **Opposites** — pick
+  the antonym, and from Standard up, watch for the synonym planted as a trap.
+  **Fill the Gap** — the word's own example sentence with the word taken out.
+  Each passed a blind review of 200 fresh questions at 0.5%.
 - **Wrong answers that are not defensible.** A distractor that is arguably
   right ruins a game, and the reference app fails this. Every option passes a
   guard over the whole corpus's synonym graph (`public/vocab/relations.json`,
@@ -37,6 +42,14 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   which is where a word is actually studied, dropped them silently. One
   component now renders them in all three places. On by default; off is for
   people drilling recall who want a plainer card.
+
+### Fixed (found by the games' reviews)
+
+- **The Confusables drill could show a sentence with no blank.** `blankOut`
+  failed on a possessive ("opponent's") and reported success anyway. Fixed
+  where it lives, so the drill and Fill the Gap both have it.
+- ***Archetype* was in the wrong root family** on word cards: its *arche-* is
+  "first, original", not "ruler, chief".
 
 ### Changed
 

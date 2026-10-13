@@ -61,6 +61,12 @@ describe("blankOut", () => {
     expect(blankOut("Was he discreet?", "discreet")).toBe("Was he ____?");
   });
 
+  it("blanks a possessive, and never reports a blank it did not make", () => {
+    expect(blankOut("She studied her chess opponent's past games.", "opponent")).toBe(
+      "She studied her chess ____'s past games.",
+    );
+  });
+
   it("replaces only the first occurrence", () => {
     const out = blankOut("Discreet people are discreet.", "discreet")!;
     expect(out.match(/____/g)).toHaveLength(1);

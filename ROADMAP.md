@@ -24,7 +24,7 @@ A games section of timed, scored rounds modelled on Merriam-Webster's word
 games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
-**Phase 19 is done.** **Next is Phase 20.** Design:
+**Phases 19 and 20 are done** — four games. **Next is Phase 21.** Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -728,17 +728,39 @@ tracks, persisted, and verified in a browser.
 
 ### Tasks
 
-- **[P0] Fact or Fiction.** — Means, Synonym, Opposite and Root templates; an
-  explanation card that holds the clock. → True/false balanced per round, never
-  four the same in a row, and every false statement names the word it borrowed
-  from.
-- **[P0] Opposites.** — The antonym builder, with a synonym-trap distractor from
-  Standard upwards. → The trap is labelled in review.
-- **[P1] Fill the Gap.** — `blankOut` reuse. → Every sentence has exactly one
-  gap and no copy of the word; unblankable words are skipped.
-- **[P0] "Review these in Flashcards".** — On results, for missed words already
-  studied; "Find in library" for the others. → The driver shows exactly those
-  words in the due deck afterwards, and nothing else changed.
+- ~~**[P0] Fact or Fiction.**~~ **DONE 2026-10-13.** — Means, Synonym, Opposite
+  and Root templates; the explanation waits for Continue with the clock stopped.
+  Balanced 5/5 per round, never four the same in a row, every fiction explained.
+  Blind reads, each on a fresh sample: **4.0% → 2.0% → 0.5%**. Six of the first
+  eight flags were relationship statements built from one card's list
+  (*dread* "opposite of" anticipate). A synonym or opposite is now stated only
+  when **both cards name the pair** (2,141 words have such a synonym, 814 an
+  antonym); otherwise the builder uses a definition statement, which every
+  read found clean. Also: "describing …" definitions read as "“x” describes …",
+  and *archetype* left the `arch` ("ruler") family in `roots.ts` — a curated
+  error that the word cards were showing too.
+- ~~**[P0] Opposites.**~~ **DONE 2026-10-13.** — Key is the card's first usable
+  antonym; a synonym trap from Standard up, named in review. Blind reads:
+  **2.5% → 3.0% → 0.5%**. Nouns, then verbs, kept producing forced keys
+  (*silt* → "gravel", *supplant* → "retain", *dread* → "eagerness"), so a
+  noun's or verb's antonym must now be **confirmed by both cards**; adjectives
+  keep the looser rule, and their lists held up. That costs coverage — 34–48%
+  of eligible words build — and still leaves 209–483 per tier.
+- ~~**[P1] Fill the Gap.**~~ **DONE 2026-10-13.** — Blind reads: **2.5% →
+  0.5%**. The first read found a sentence with **no blank**, which led to a bug
+  in `blankOut` itself, shared with the Confusables drill: it matched
+  "opponent's" against a punctuation-stripped copy, replaced nothing, and
+  reported success. Fixed at the source, with a test. A unit test then found a
+  second leak no read had: a sentence using its word twice ("for want of a
+  nail … for want of a shoe") — those are now skipped.
+- **[P0] "Review these in Flashcards".** **Built in Phase 19; driver check
+  outstanding.** Covered by a test that the results screen is the *only*
+  `applyStudyRating` call in all games code, and that `recordQuizAnswer` appears
+  nowhere. Not yet driven end to end: a round cannot be steered onto chosen
+  words without a test hook, and adding one is a Phase 21 task.
+- **Found by driving it:** tapping Games in the nav from a results screen did
+  nothing, since the page was already open. It now returns to the hub (only
+  from results; nothing else resets on a re-tap).
 
 ### Definition of done
 

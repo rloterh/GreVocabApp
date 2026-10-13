@@ -155,7 +155,10 @@ export function GameStage({
   useEffect(() => {
     if (state.phase === "entering" && question) {
       lastTickSecond.current = null;
-      setAnnouncement(`Question ${state.index + 1} of ${state.total}: ${question.word}`);
+      // Never the word itself for a gap — announcing it would give it away.
+      const prompt =
+        question.kind === "verdict" ? question.statement : question.sentence?.replace(/____/g, "blank") ?? question.word;
+      setAnnouncement(`Question ${state.index + 1} of ${state.total}: ${prompt}`);
     }
   }, [state.phase, state.index, state.total, question]);
 
@@ -176,12 +179,15 @@ export function GameStage({
     }
   }, [state.phase, lastAnswer, question]);
 
-  // Move on after feedback, unless a finger is holding it on screen.
+  // Move on after feedback, unless a finger is holding it on screen — or the
+  // question has an explanation to read. Fact or Fiction's "why" is the
+  // learning moment, so it waits for Continue and the clock stays stopped.
+  const waitsForContinue = question?.kind === "verdict";
   useEffect(() => {
-    if (state.phase !== "feedback" || holding) return;
+    if (state.phase !== "feedback" || holding || waitsForContinue) return;
     const timer = window.setTimeout(() => dispatch({ type: "NEXT", now: performance.now() }), FEEDBACK_MS);
     return () => window.clearTimeout(timer);
-  }, [state.phase, state.index, holding, dispatch]);
+  }, [state.phase, state.index, holding, waitsForContinue, dispatch]);
 
   useEffect(() => {
     if (state.phase === "finished" && !finished.current) {
@@ -204,9 +210,14 @@ export function GameStage({
         dispatch({ type: state.phase === "paused" ? "RESUME" : "PAUSE", now: performance.now() });
         return;
       }
-      if (state.phase === "asking" && /^[1-4]$/.test(e.key)) {
+      const count = question?.options.length ?? 0;
+      if (state.phase === "asking" && /^[1-9]$/.test(e.key) && Number(e.key) <= count) {
         e.preventDefault();
         choose(Number(e.key) - 1);
+      } else if (state.phase === "asking" && count === 2 && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
+        // Fact on the left, Fiction on the right — as they sit on screen.
+        e.preventDefault();
+        choose(e.key === "ArrowLeft" ? 0 : 1);
       } else if (state.phase === "feedback" && (e.key === "Enter" || e.key === " ")) {
         e.preventDefault();
         dispatch({ type: "NEXT", now: performance.now() });
@@ -214,7 +225,7 @@ export function GameStage({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [state.phase, choose, dispatch]);
+  }, [state.phase, question, choose, dispatch]);
 
   const pause = () => dispatch({ type: "PAUSE", now: performance.now() });
   const resume = () => {
@@ -318,17 +329,46 @@ export function GameStage({
               <div className="flex flex-1 flex-col items-center justify-center py-6 text-center md:flex-none md:pb-12 md:pt-0">
                 <p className="text-[11px] uppercase tracking-wider text-muted-foreground">
                   {definition.instruction}
+                  {question.kind === "choice" && question.sentence && (
+                    <span className="normal-case tracking-normal"> · any form of the word</span>
+                  )}
                 </p>
-                <h2 className="display-serif mt-3 break-words text-[clamp(2.5rem,8vw,4.5rem)] font-semibold leading-none tracking-tight">
-                  {question.word}
-                </h2>
-                <p className="mt-3 text-xs italic text-muted-foreground">{question.partOfSpeech}</p>
+                {question.kind === "verdict" ? (
+                  <h2 className="mt-4 max-w-[34rem] text-balance text-[clamp(1.35rem,4.5vw,2rem)] font-medium leading-snug">
+                    <Quoted text={question.statement} />
+                  </h2>
+                ) : question.sentence ? (
+                  <h2 className="mt-4 max-w-[34rem] text-balance text-[clamp(1.25rem,4vw,1.75rem)] leading-relaxed">
+                    <Gapped
+                      sentence={question.sentence}
+                      filled={state.phase === "feedback" ? question.options[question.answer]! : null}
+                    />
+                  </h2>
+                ) : (
+                  <>
+                    <h2 className="display-serif mt-3 break-words text-[clamp(2.5rem,8vw,4.5rem)] font-semibold leading-none tracking-tight">
+                      {question.word}
+                    </h2>
+                    <p className="mt-3 text-xs italic text-muted-foreground">{question.partOfSpeech}</p>
+                  </>
+                )}
               </div>
 
               <div
                 role="radiogroup"
-                aria-label={`${definition.instruction}: ${question.word}`}
-                className={cn("grid gap-2.5 pb-2", twoByTwo ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1")}
+                aria-label={
+                  question.kind === "verdict"
+                    ? question.statement
+                    : `${definition.instruction}: ${question.sentence ?? question.word}`
+                }
+                className={cn(
+                  "grid gap-2.5 pb-2",
+                  question.kind === "verdict"
+                    ? "grid-cols-2"
+                    : twoByTwo
+                      ? "grid-cols-1 md:grid-cols-2"
+                      : "grid-cols-1",
+                )}
               >
                 {question.options.map((option, i) => (
                   <OptionButton
@@ -339,13 +379,53 @@ export function GameStage({
                     disabled={state.phase !== "asking"}
                     reduceMotion={reduceMotion}
                     delay={reduceMotion ? 0 : i * 0.04}
+                    compact={question.kind === "verdict"}
                     onChoose={() => choose(i)}
                   />
                 ))}
               </div>
 
               <div className="min-h-[3.5rem] pt-2 text-center">
-                {state.phase === "feedback" && lastAnswer && (
+                {state.phase === "feedback" && lastAnswer && question.kind === "verdict" && (
+                  <motion.div
+                    initial={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.28, ease: EASE }}
+                    className="mt-2 rounded-xl border border-border bg-card p-4 text-left text-sm"
+                  >
+                    <p className="font-medium">
+                      <span className={lastAnswer.correct ? "text-success" : "text-foreground"}>
+                        {lastAnswer.timedOut ? "Time's up" : lastAnswer.correct ? "Correct" : "Not quite"}
+                      </span>
+                      <span className="text-muted-foreground">
+                        {" — "}that's {question.answer === 0 ? "a fact" : "fiction"}.
+                      </span>
+                      {lastAnswer.correct && (
+                        <span className="tabular ml-2 text-success">+{lastAnswer.points}</span>
+                      )}
+                    </p>
+                    {question.explain.note && <p className="mt-2">{question.explain.note}</p>}
+                    <p className="mt-2 text-muted-foreground">
+                      <span className="display-serif text-foreground">{question.word}</span>: {question.explain.definition}
+                    </p>
+                    {question.explain.example && (
+                      <p className="mt-1 italic text-muted-foreground">“{question.explain.example}”</p>
+                    )}
+                    <div className="mt-3 flex justify-end">
+                      <Button
+                        size="sm"
+                        autoFocus
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          dispatch({ type: "NEXT", now: performance.now() });
+                        }}
+                      >
+                        Continue
+                      </Button>
+                    </div>
+                  </motion.div>
+                )}
+                {state.phase === "feedback" && lastAnswer && question.kind === "choice" && (
                   <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -356,7 +436,13 @@ export function GameStage({
                       {lastAnswer.timedOut ? "Time's up" : lastAnswer.correct ? `+${lastAnswer.points}` : "+0"}
                     </span>
                     <span className="mx-2 opacity-50">·</span>
-                    <span className="display-serif text-foreground">{question.word}</span>: {question.explain.definition}
+                    {lastAnswer.chosen !== null && lastAnswer.chosen === question.trap && question.explain.note ? (
+                      question.explain.note
+                    ) : (
+                      <>
+                        <span className="display-serif text-foreground">{question.word}</span>: {question.explain.definition}
+                      </>
+                    )}
                   </motion.p>
                 )}
               </div>
@@ -434,6 +520,48 @@ export function GameStage({
   );
 }
 
+/** A statement with its “quoted” words set in the word face. */
+function Quoted({ text }: { text: string }) {
+  return (
+    <>
+      {text.split(/(“[^”]+”)/).map((part, i) =>
+        part.startsWith("“") ? (
+          <span key={i} className="display-serif font-semibold">
+            {part}
+          </span>
+        ) : (
+          <span key={i}>{part}</span>
+        ),
+      )}
+    </>
+  );
+}
+
+/** A sentence with its gap drawn as a line — and, once answered, the word in it. */
+function Gapped({ sentence, filled }: { sentence: string; filled: string | null }) {
+  const parts = sentence.split("____");
+  return (
+    <>
+      {parts.map((part, i) => (
+        <span key={i}>
+          {part}
+          {i < parts.length - 1 && (
+            <span
+              className={cn(
+                "mx-1 inline-block min-w-[5ch] border-b-2 px-1 text-center align-baseline",
+                filled ? "display-serif border-success font-semibold text-success" : "border-primary/70",
+              )}
+            >
+              {filled ?? <span className="sr-only">blank</span>}
+              {!filled && <span aria-hidden="true">&nbsp;</span>}
+            </span>
+          )}
+        </span>
+      ))}
+    </>
+  );
+}
+
 type OptionState = "idle" | "chosen-right" | "chosen-wrong" | "right" | "faded";
 
 /** How option `i` looks: both your pick and the right answer are marked. */
@@ -452,6 +580,7 @@ function OptionButton({
   reduceMotion,
   delay,
   onChoose,
+  compact = false,
 }: {
   index: number;
   label: string;
@@ -460,6 +589,8 @@ function OptionButton({
   reduceMotion: boolean;
   delay: number;
   onChoose: () => void;
+  /** Half-width (Fact | Fiction): the label wraps, so the cross says it alone. */
+  compact?: boolean;
 }) {
   return (
     <motion.button
@@ -502,7 +633,8 @@ function OptionButton({
       {(state === "chosen-right" || state === "right") && <Check className="h-5 w-5" aria-label="Correct answer" />}
       {state === "chosen-wrong" && (
         <span className="flex items-center gap-1.5 text-xs text-destructive">
-          Your answer <X className="h-4 w-4" aria-hidden="true" />
+          <span className={compact ? "sr-only" : undefined}>Your answer</span>
+          <X className="h-4 w-4" aria-hidden="true" />
         </span>
       )}
     </motion.button>

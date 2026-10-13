@@ -12,6 +12,9 @@
 
 import type { VocabWord } from "@/types";
 import { buildClosest, canBuildClosest } from "./builders/closest";
+import { buildFact, canBuildFact } from "./builders/fact";
+import { buildGap, canBuildGap } from "./builders/gap";
+import { buildOpposites, canBuildOpposites } from "./builders/opposites";
 import type { BuildContext } from "./context";
 import type { GameId, GameQuestion, Tier } from "./types";
 
@@ -30,6 +33,11 @@ export interface GameDefinition {
   tint: CoverTint;
   /** The glyph the cover pattern repeats. */
   mark: string;
+  /**
+   * Balance true and false across a round (Fact or Fiction). The round sets
+   * `ctx.truth` per slot when this is on.
+   */
+  balanced?: boolean;
   /** Can this word be asked about at all? Cheap, so pools filter on it. */
   eligible: (word: VocabWord) => boolean;
   build: (word: VocabWord, ctx: BuildContext) => GameQuestion | null;
@@ -47,10 +55,44 @@ export const GAMES: Record<GameId, GameDefinition> = {
     eligible: canBuildClosest,
     build: buildClosest,
   },
+  fact: {
+    id: "fact",
+    name: "Fact or Fiction",
+    blurb: "True or false — and why.",
+    instruction: "Fact or fiction?",
+    seconds: 15,
+    tint: "success",
+    mark: "✓✗",
+    balanced: true,
+    eligible: canBuildFact,
+    build: buildFact,
+  },
+  opposites: {
+    id: "opposites",
+    name: "Opposites",
+    blurb: "Pick the opposite. Watch for the trap.",
+    instruction: "Opposite in meaning",
+    seconds: 10,
+    tint: "warning",
+    mark: "⇄",
+    eligible: canBuildOpposites,
+    build: buildOpposites,
+  },
+  gap: {
+    id: "gap",
+    name: "Fill the Gap",
+    blurb: "Find the word the sentence is missing.",
+    instruction: "Fill the gap",
+    seconds: 15,
+    tint: "primary",
+    mark: "__",
+    eligible: canBuildGap,
+    build: buildGap,
+  },
 };
 
 /** Hub order. */
-export const GAME_ORDER: readonly GameId[] = ["closest"];
+export const GAME_ORDER: readonly GameId[] = ["closest", "fact", "opposites", "gap"];
 
 export const TIER_LABEL: Record<Tier, string> = {
   warmup: "Warm-up",

@@ -216,6 +216,62 @@ const streak = await page.evaluate(() => {
 });
 check(streak, "the round counted as today's activity");
 
+// ── Every other game: one full round each ──────────────────────────────────
+// Each game has its own stage: two wide buttons and an explanation that waits
+// for Continue (Fact or Fiction), a sentence with a gap (Fill the Gap), a
+// planted trap (Opposites). A round of each must reach its results.
+for (const name of ["Fact or Fiction", "Opposites", "Fill the Gap"]) {
+  await page.getByRole("button", { name: "Games", exact: true }).first().click();
+  await page.waitForTimeout(700);
+  await page.locator("section").filter({ hasText: name }).getByRole("button", { name: "Warm-up", exact: true }).click();
+  await page.waitForFunction(
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    null,
+    { timeout: 15000 },
+  );
+  await page.getByRole("button", { name: "Play", exact: true }).click();
+  await page.getByTestId("game-stage").waitFor();
+  let sawGap = false;
+  let sawContinue = false;
+  for (let i = 0; i < 10; i++) {
+    await page.waitForFunction(
+      () => {
+        const o = [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')];
+        return o.length >= 2 && o.every((b) => !b.disabled);
+      },
+      null,
+      { timeout: 8000 },
+    );
+    if (name === "Fill the Gap") {
+      const h2 = await stage.locator("h2").innerText();
+      sawGap ||= h2.includes("blank") || (await stage.locator("h2 .border-b-2").count()) > 0;
+    }
+    await page.keyboard.press(String((i % 2) + 1));
+    await page.waitForTimeout(400);
+    if (name === "Fact or Fiction") {
+      const cont = stage.getByRole("button", { name: "Continue" });
+      // The explanation must wait: it is still there after the auto-advance
+      // delay every other game uses.
+      await page.waitForTimeout(1100);
+      sawContinue ||= await cont.isVisible();
+      await cont.click();
+    } else {
+      await page.waitForTimeout(900);
+    }
+  }
+  await page.getByTestId("best-line").waitFor({ timeout: 8000 });
+  check(true, `${name}: a full round reaches its results`);
+  if (name === "Fill the Gap") check(sawGap, "Fill the Gap shows a gap, not the word");
+  if (name === "Fact or Fiction") check(sawContinue, "Fact or Fiction's explanation waits for Continue");
+  await page.getByRole("button", { name: "Review answers" }).click();
+  await page.waitForTimeout(400);
+  check(
+    (await page.getByRole("list", { name: "Your answers" }).locator("li").count()) === 10,
+    `${name}: review lists all ten`,
+  );
+}
+check((await progressWords()) === wordsBefore, "four games later, still no word progress written");
+
 // ── Phone ──────────────────────────────────────────────────────────────────
 const phone = await browser.newContext({ viewport: { width: 360, height: 760 }, hasTouch: true, isMobile: true });
 const p2 = await phone.newPage();

@@ -12,7 +12,7 @@
  * docs/GAMES.md.
  */
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Clock, Repeat2, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -87,6 +87,17 @@ export function Games() {
   const studiedCount = useStudiedCount(track);
 
   const [view, setView] = useState<View>({ kind: "hub" });
+
+  // Tapping Games in the nav while a result is showing means "back to the
+  // games", the way a tab bar returns to its root. Never mid-round: the stage
+  // covers the nav, and a round is only left through the pause sheet.
+  const visits = useAppStore((s) => s.visits);
+  const seenVisits = useRef(visits);
+  useEffect(() => {
+    if (visits === seenVisits.current) return;
+    seenVisits.current = visits;
+    setView((v) => (v.kind === "results" ? { kind: "hub" } : v));
+  }, [visits]);
   /** The game and tier picked on the hub; also what the corpus loads for. */
   const [choice, setChoice] = useState<{ game: GameId; tier: Tier } | null>(null);
   const [rulesOpen, setRulesOpen] = useState(false);

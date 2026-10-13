@@ -136,11 +136,16 @@ export function blankOut(sentence: string, word: string): string | null {
 
   const out = tokens.map((token) => {
     if (replaced || /^\s*$/.test(token)) return token;
-    const bare = token.replace(/[^A-Za-z-]/g, "");
+    // The word is the first run of letters in the token. Stripping every
+    // non-letter instead turned "opponent's" into "opponents", which matched
+    // the word but is not a substring of the token — so nothing was replaced,
+    // the function reported success anyway, and a question shipped with its
+    // answer still in the sentence. A blind review of the games found it.
+    const bare = token.match(/[A-Za-z][A-Za-z-]*/)?.[0];
     if (!bare) return token;
     if (!isFormOf(bare, word)) return token;
     replaced = true;
-    // Keep the punctuation that was attached to the word.
+    // Keep the punctuation, and a possessive, attached to the word.
     return token.replace(bare, BLANK.trim());
   });
 

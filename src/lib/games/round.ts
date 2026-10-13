@@ -44,6 +44,7 @@ export function buildRound(input: RoundInput): GameRound {
     input.seed,
   );
 
+  const truths = definition.balanced ? balancedTruths(length, input.seed) : null;
   const questions: GameQuestion[] = [];
   const asked = new Set<string>();
   for (const word of order) {
@@ -57,6 +58,7 @@ export function buildRound(input: RoundInput): GameRound {
       monthOf: input.monthOf,
       tier: input.tier,
       random,
+      truth: truths?.[questions.length],
     });
     if (!question) continue;
     asked.add(key);
@@ -71,6 +73,32 @@ export function buildRound(input: RoundInput): GameRound {
     questions,
     shortfall: length - questions.length,
   };
+}
+
+/**
+ * Half true, half false, never four the same in a row, in a seeded order.
+ *
+ * A run of four is where a player starts guessing the pattern instead of
+ * reading the statement. Re-shuffled until it has none; with ten slots that
+ * takes a handful of tries.
+ */
+export function balancedTruths(length: number, seed: number): boolean[] {
+  const base = Array.from({ length }, (_, i) => i < Math.ceil(length / 2));
+  for (let attempt = 0; attempt < 200; attempt++) {
+    const order = seededShuffle(base, seed + attempt * 7919);
+    if (longestRun(order) < 4) return order;
+  }
+  return base.map((_, i) => i % 2 === 0);
+}
+
+function longestRun(values: readonly boolean[]): number {
+  let best = 0;
+  let run = 0;
+  for (let i = 0; i < values.length; i++) {
+    run = i > 0 && values[i] === values[i - 1] ? run + 1 : 1;
+    best = Math.max(best, run);
+  }
+  return best;
 }
 
 /** How many words in `prompts` this game could ask about. For the hub and the audit. */

@@ -12,7 +12,7 @@
 import type { Track } from "@/types";
 
 /** Every game the catalogue can build. Grows one id per shipped game. */
-export type GameId = "closest";
+export type GameId = "closest" | "fact" | "opposites" | "gap";
 
 /**
  * Where a round's words come from.
@@ -38,6 +38,11 @@ export function timingOf(timer: GameTimer): RoundTiming {
 export interface Explanation {
   definition: string;
   example: string;
+  /**
+   * Why, in one sentence, when the answer needs more than the definition:
+   * the word a false statement borrowed from, or the root two words share.
+   */
+  note?: string;
 }
 
 /** A word and four options, one of them right. */
@@ -51,10 +56,40 @@ export interface ChoiceQuestion {
   /** Index into `options`. */
   answer: number;
   explain: Explanation;
+  /**
+   * Fill the Gap: the word's example with the word blanked out. Shown in
+   * place of the headword, which would give the answer away.
+   */
+  sentence?: string;
+  /**
+   * Opposites: the option planted as a trap — a synonym of the word, the
+   * classic mistake in an antonym question — so review can name it.
+   */
+  trap?: number;
 }
 
-/** A union so later games add a member rather than widening this one. */
-export type GameQuestion = ChoiceQuestion;
+/**
+ * Fact or Fiction: a statement about a word, judged true or false.
+ *
+ * Shaped like a choice — `options` is always ["Fact", "Fiction"] and
+ * `answer` is 0 for a true statement — so the session, scoring and review
+ * treat every game the same way.
+ */
+export interface VerdictQuestion {
+  kind: "verdict";
+  wordId: string;
+  word: string;
+  partOfSpeech: string;
+  statement: string;
+  options: string[];
+  answer: number;
+  explain: Explanation;
+}
+
+/** A union so a new game adds a member rather than widening one. */
+export type GameQuestion = ChoiceQuestion | VerdictQuestion;
+
+export const VERDICT_OPTIONS = ["Fact", "Fiction"] as const;
 
 export interface GameRound {
   game: GameId;

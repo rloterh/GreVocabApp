@@ -59,15 +59,48 @@ function loadTrack(track: Track): VocabMonth[] {
 
 /** A wrong option whose stem appears in the target's definition is probably defensible. */
 function suspicious(q: GameQuestion, word: VocabWord): string | null {
+  if (q.kind !== "choice") return null;
   const definitionStems = new Set(
     word.definition.split(/[^A-Za-z'-]+/).filter(Boolean).map((t) => stem(t)),
   );
   for (const [i, option] of q.options.entries()) {
-    if (i === q.answer) continue;
+    if (i === q.answer || i === q.trap) continue;
     if (definitionStems.has(stem(option))) return `"${option}" appears in the definition`;
   }
   return null;
 }
+
+/** One question as a reader sees it, in the shape its game asks it. */
+function describe(q: GameQuestion, word: VocabWord, track: Track, tier: Tier): string[] {
+  const why = suspicious(q, word);
+  const head = `${why ? "?" : " "} [${track}/${tier}] ${word.word} (${word.partOfSpeech}) — ${word.definition}`;
+  if (q.kind === "verdict") {
+    return [
+      head,
+      `      Statement: ${q.statement}`,
+      `      Intended:  ${q.answer === 0 ? "FACT" : "FICTION"}`,
+      ...(q.explain.note ? [`      Note:      ${q.explain.note}`] : []),
+      "",
+    ];
+  }
+  return [
+    head,
+    ...(q.sentence ? [`      Sentence: ${q.sentence}`] : []),
+    ...q.options.map(
+      (o, j) => `      ${j === q.answer ? "✓" : " "} ${o}${j === q.trap ? "   (planted trap: a synonym)" : ""}`,
+    ),
+    ...(why ? [`      ? ${why}`] : []),
+    "",
+  ];
+}
+
+/** What a reader is asked to judge, per game. */
+const RUBRIC: Record<string, string> = {
+  closest: "The ✓ option should be the closest in meaning. Mark DEFENSIBLE if a wrong option is arguably as close, WRONG KEY if ✓ is not a fair synonym.",
+  opposites: "The ✓ option should be the opposite. A planted trap is a synonym and is meant to be wrong. Mark DEFENSIBLE if a wrong option is arguably an opposite too, WRONG KEY if ✓ is not a fair antonym.",
+  gap: "The ✓ word should be the one that fits the sentence. Mark DEFENSIBLE if a wrong option fits the sentence about as well, WRONG KEY if ✓ does not fit.",
+  fact: "The statement should be clearly FACT or clearly FICTION as marked. Mark WRONG if the intended verdict is wrong or arguable, or if the statement is ungrammatical or misleading.",
+};
 
 let failures = 0;
 
@@ -82,11 +115,13 @@ if (shipped !== JSON.stringify(relationsFromCorpus(ROOT))) {
 }
 const index = buildRelationIndex(parseRelationsFile(JSON.parse(shipped)));
 
-const sample: string[] = [];
 const report: string[] = [];
+const samples = new Map<string, string[]>();
 
 for (const game of GAME_ORDER) {
   report.push(`\n${GAMES[game].name}`);
+  const sample: string[] = [];
+  samples.set(game, sample);
   for (const track of TRACKS) {
     const months = loadTrack(track);
     if (months.length === 0) continue;
@@ -126,36 +161,31 @@ for (const game of GAME_ORDER) {
       // new seed gives questions no reader has seen.
       const picked = seededShuffle(full.questions, SAMPLE_SEED * 7919 + TIERS.indexOf(tier))
         .slice(0, SAMPLE_PER_TRACK_TIER);
-      for (const q of picked) {
-        const word = byId.get(q.wordId)!;
-        const why = suspicious(q, word);
-        sample.push(
-          `${why ? "?" : " "} [${track}/${tier}] ${word.word} (${word.partOfSpeech}) — ${word.definition}`,
-          ...q.options.map((o, j) => `      ${j === q.answer ? "✓" : " "} ${o}`),
-          ...(why ? [`      ? ${why}`] : []),
-          "",
-        );
-      }
+      for (const q of picked) sample.push(...describe(q, byId.get(q.wordId)!, track, tier));
     }
   }
 }
 
 mkdirSync(OUT, { recursive: true });
-const samplePath = join(OUT, "games-sample.txt");
-writeFileSync(
-  samplePath,
-  [
-    "Lexicon games — human-read sample",
-    "Mark each question: OK, DEFENSIBLE (a wrong option is arguably right), or WRONG KEY.",
-    "Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.",
-    "",
-    ...sample,
-  ].join("\n"),
-  "utf-8",
-);
+const written: string[] = [];
+for (const [game, sample] of samples) {
+  const path = join(OUT, `games-sample-${game}.txt`);
+  writeFileSync(
+    path,
+    [
+      `Lexicon games — ${GAMES[game].name}, a sample for a reader (seed ${SAMPLE_SEED})`,
+      RUBRIC[game] ?? "",
+      "Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.",
+      "",
+      ...sample,
+    ].join("\n"),
+    "utf-8",
+  );
+  written.push(`${path} (${sample.filter((l) => /^[ ?] \[/.test(l)).length})`);
+}
 
 console.log(report.join("\n"));
-console.log(`\nSample of ${sample.filter((l) => /^[ ?] \[/.test(l)).length} questions written to ${samplePath}`);
+console.log(`\nSamples written:\n  ${written.join("\n  ")}`);
 if (failures > 0) {
   console.log(`\n${failures} tier(s) cannot fill a round.`);
   process.exit(1);

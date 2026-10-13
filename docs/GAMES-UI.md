@@ -227,10 +227,10 @@ cover. Instead:
 
 | Game | Tint | Pattern mark |
 | --- | --- | --- |
-| Closest Meaning | primary | `≈` |
-| Fact or Fiction | accent | `✓ ✗` alternating |
+| Closest Meaning | accent | `≈` |
+| Fact or Fiction | success | `✓✗` |
 | Opposites | warning | `⇄` |
-| Fill the Gap | success | `___` |
+| Fill the Gap | primary | `__` |
 | Odd One Out | secondary | `○ ○ ○ ●` |
 | Match Up | primary (rotated pattern) | `⟷` |
 | Spell It | accent (rotated pattern) | `a b c` |

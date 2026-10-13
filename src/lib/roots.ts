@@ -144,7 +144,9 @@ export const ROOT_FAMILIES: RootFamily[] = [
 
   // --- Power, rule, law -----------------------------------------------------
   { root: "arch", meaning: "ruler, chief", origin: "Greek",
-    members: ["anarchy", "oligarchy", "monarch", "patriarch", "hierarchy", "archetype", "matriarch"] },
+    members: ["anarchy", "oligarchy", "monarch", "patriarch", "hierarchy", "matriarch"] },
+  // Not *archetype*: its arche- is "first, original" — a blind read of the
+  // games' root statements caught it in this family.
   { root: "crat / cracy", meaning: "power, rule", origin: "Greek",
     members: ["autocrat", "plutocracy", "meritocracy", "bureaucracy", "technocrat", "democracy"] },
   { root: "poten", meaning: "power, able", origin: "Latin",

@@ -180,6 +180,12 @@ Picture It is the *Name That Thing* analogue, deferred for the reason in
 
 ### 4.2 Fact or Fiction
 
+*As built:* the Synonym and Opposite templates state a pair only when **both
+cards name it**. One card's list was too weak: blind reads found *dread* called
+the opposite of "anticipate". Without a confirmed pair, the builder falls back
+to Means or Root. Definitions written "Describing …" read as "“x” describes …".
+The Usage template is still P2. Review history: 4.0% → 2.0% → 0.5%.
+
 > **"Laconic" means using very few words.**
 > [ Fact ]  [ Fiction ]
 > *Laconic: using very few words. "His laconic reply — 'No.' — ended the meeting."*
@@ -207,6 +213,12 @@ Statement templates, all generated from the corpus:
 
 ### 4.3 Opposites
 
+*As built:* the key is the card's first usable antonym, and the word needs two.
+For **nouns and verbs** the key must also be confirmed by the antonym's own
+card. Their unconfirmed lists produced *silt* → "gravel" and *supplant* →
+"retain", while adjectives' lists held up. A key that the word's own lists also
+treat as a synonym disqualifies the word. Review history: 2.5% → 3.0% → 0.5%.
+
 The antonym version of Closest Meaning, with one twist that makes it a real
 skill rather than a reflex: **from Standard upwards, one distractor is a
 synonym of the word.** It is the classic trap in antonym questions, and
@@ -217,6 +229,11 @@ learning to spot it is worth more than the antonym itself.
   the opposite."
 
 ### 4.4 Fill the Gap
+
+*As built:* a sentence that still contains the word after blanking ("for want
+of a nail … for want of a shoe") is skipped. Wrong options are the same part of
+speech and pass the Closest Meaning guard, because a near-synonym fits a
+sentence as well as its partner. Review history: 2.5% → 0.5%.
 
 > She was ________ about her plans, refusing every question with a smile.
 > ◻ reticent  ◻ voluble  ◻ candid  ◻ strident

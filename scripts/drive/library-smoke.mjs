@@ -112,8 +112,10 @@ check("they persist across a reload", persisted === after.length, String(persist
 // No duplicate words across everything loaded.
 const dupes = await page.evaluate(() => {
   const raw = JSON.parse(localStorage.getItem("lexicon.vocab.v1") ?? "{}");
+  // Per track. Both tracks are seeded now, and a word in both is not a
+  // duplicate — ADR 0013 — so the key carries the track.
   const all = Object.values(raw.state?.months ?? {}).flatMap((m) =>
-    m.days.flatMap((d) => d.words.map((w) => w.word.toLowerCase())),
+    m.days.flatMap((d) => d.words.map((w) => `${m.track}:${w.word.toLowerCase()}`)),
   );
   const seen = new Set();
   const repeated = [];

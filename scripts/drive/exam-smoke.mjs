@@ -66,7 +66,11 @@ check(
 
 // Answer a handful.
 async function answerOne() {
-  const options = page.locator('[role="radio"]');
+  // Inside <main>: the track switcher in the sidebar is a radio group too,
+  // and the first radio on the page used to be it — so this "answered" by
+  // switching tracks, and the persistence checks failed against an app that
+  // was persisting correctly.
+  const options = page.locator('main [role="radio"]');
   await options.first().click();
   await page.waitForTimeout(600);
 }
@@ -117,7 +121,7 @@ const dueBefore = await page.evaluate(() => {
 });
 // Pick a deliberately wrong option: the last one is rarely the answer, so try
 // each until the page marks it wrong.
-const opts = page.locator('[role="radio"]');
+const opts = page.locator('main [role="radio"]');
 const n = await opts.count();
 await opts.nth(n - 1).click();
 await page.waitForTimeout(700);

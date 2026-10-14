@@ -272,7 +272,8 @@ says "close in meaning". Review history: 3.5% → 1.0%.
 *As built:* three boards, 60 s each. The five words are mutually unrelated,
 and Warm-up boards prefer confirmed synonyms. Points: 40% of base per pair,
 plus up to one base for the time left on a finished board. Tab and Enter play
-it; arrow-key movement within a column was not built. Review history: 0.5% on
+it; arrow keys and Home/End move within a column, skipping paired words
+(`src/lib/roving.ts`). Review history: 0.5% on
 the first read.
 
 A board of five words and five definitions. Tap a word, then its definition (or

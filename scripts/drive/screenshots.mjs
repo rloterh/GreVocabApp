@@ -160,7 +160,7 @@ for (const shot of GAME_SHOTS) {
   if (shot.game) {
     await page.locator("section").filter({ hasText: shot.game }).first().getByRole("button", { name: shot.button, exact: true }).click();
     await page.waitForFunction(
-      () => [...document.querySelectorAll('[role="dialog"] button')].some((b) => b.textContent === "Play" && !b.disabled),
+      () => [...document.querySelectorAll('[role="dialog"] button')].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
       null,
       { timeout: 15000 },
     );

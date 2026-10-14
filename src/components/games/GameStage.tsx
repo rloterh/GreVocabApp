@@ -38,6 +38,7 @@ import { SpellPanel } from "@/components/games/SpellPanel";
 import { TilesPanel } from "@/components/games/TilesPanel";
 import { PictureDiagram } from "@/components/games/PictureDiagram";
 import { diagramById } from "@/lib/games/pictures/round";
+import { onAppHidden } from "@/lib/app-lifecycle";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 
@@ -109,13 +110,9 @@ export function GameStage({
     return () => setBackHandler(null);
   }, [dispatch, setBackHandler]);
 
-  useEffect(() => {
-    const onVisibility = () => {
-      if (document.visibilityState === "hidden") dispatch({ type: "PAUSE", now: performance.now() });
-    };
-    document.addEventListener("visibilitychange", onVisibility);
-    return () => document.removeEventListener("visibilitychange", onVisibility);
-  }, [dispatch]);
+  // Leaving the app pauses the round. Not `visibilitychange` alone: the
+  // Android WebView never fires it (src/lib/app-lifecycle.ts).
+  useEffect(() => onAppHidden(() => dispatch({ type: "PAUSE", now: performance.now() })), [dispatch]);
 
   // ── The round's lifecycle ─────────────────────────────────────────────
   useEffect(() => {

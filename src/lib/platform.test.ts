@@ -14,6 +14,7 @@ import {
   canUseTray,
   canWatchFolder,
   hasSystemBack,
+  canReceiveShares,
   isMobile,
   needsNotificationPermission,
   platform,
@@ -106,6 +107,7 @@ const TABLE: Record<
     ios: false,
   },
   hasSystemBack: { fn: hasSystemBack, web: false, desktop: false, android: true, ios: false },
+  canReceiveShares: { fn: canReceiveShares, web: false, desktop: false, android: true, ios: false },
   canUseFileSystem: {
     fn: canUseFileSystem,
     web: false,

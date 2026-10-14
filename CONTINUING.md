@@ -400,7 +400,12 @@ Phase 9's code-side work does not depend on any of the above and is complete:
 - **Predictive back is not opted into.** The gesture works; the Android 14
   preview animation does not. See docs/MOBILE.md for why enabling the flag
   would break back navigation rather than decorate it.
-- **Share-target intent** and the Play listing itself are still open.
+- **The Play listing** is still open. The share target is done (2026-10-14).
+- **The WebView does not report the app's visibility.** `visibilitychange`
+  never fires on Android, and `visibilityState` stays "visible" behind the home
+  screen. Anything that should react to leaving or returning to the app uses
+  `onAppHidden` / `onAppShown` from `src/lib/app-lifecycle.ts`, which also hear
+  the activity's own `lexicon:pause` / `lexicon:resume`.
 
 ### What actually worked, 2026-09-12
 

@@ -191,6 +191,107 @@ function applyPermissions(check) {
   console.log(`ok   declared ${missing.join(", ")}`);
 }
 
+/**
+ * Tracked Kotlin copied into the generated source.
+ *
+ * `ShareActivity.kt` receives files shared from other apps — the share
+ * sheet's half of the import path (src-tauri/src/share.rs is the other).
+ * `MainActivity.kt` tells the page when the app pauses and resumes, which the
+ * WebView does not (src/lib/app-lifecycle.ts). `tauri android init` knows
+ * nothing about either, and would regenerate MainActivity without it.
+ */
+const SOURCES = [
+  {
+    from: "src-tauri/android-src/MainActivity.kt",
+    to: "src-tauri/gen/android/app/src/main/java/com/lexicon/app/MainActivity.kt",
+  },
+  {
+    from: "src-tauri/android-src/ShareActivity.kt",
+    to: "src-tauri/gen/android/app/src/main/java/com/lexicon/app/ShareActivity.kt",
+  },
+];
+
+function applySources(check) {
+  let changed = 0;
+  let stale = 0;
+  for (const { from, to } of SOURCES) {
+    const source = path.join(root, from);
+    const target = path.join(root, to);
+    const same = existsSync(target) && readFileSync(target, "utf-8") === readFileSync(source, "utf-8");
+    if (same) continue;
+    if (check) {
+      console.log(`MISS ${path.basename(to)} is the generated one, not ${from}`);
+      stale += 1;
+      continue;
+    }
+    copyFileSync(source, target);
+    changed += 1;
+  }
+  if (stale) process.exitCode = 1;
+  else if (changed) console.log(`ok   copied ${changed} source file(s)`);
+  else console.log("ok   sources already up to date");
+}
+
+/**
+ * The share sheet: offer Lexicon for the file types it imports.
+ *
+ * Declared on its own ShareActivity, not on MainActivity: the share sheet
+ * launches with NEW_DOCUMENT | MULTIPLE_TASK, and a running singleTask
+ * MainActivity is then brought forward without the intent ever being
+ * delivered. See ShareActivity.kt.
+ *
+ * Deliberately not `text/plain` — that would list Lexicon for every shared
+ * sentence and link, which is noise. `application/octet-stream` is there
+ * because that is what most file managers call an Anki `.apkg`.
+ */
+const SHARE_MARKER = "<!-- lexicon:share-activity -->";
+const SHARE_TYPES = [
+  "application/json",
+  "text/csv",
+  "text/comma-separated-values",
+  "application/octet-stream",
+  "application/zip",
+];
+
+function applyShareTarget(check) {
+  const manifest = path.join(root, "src-tauri/gen/android/app/src/main/AndroidManifest.xml");
+  let source = readFileSync(manifest, "utf-8");
+  if (source.includes(SHARE_MARKER)) {
+    console.log("ok   share activity already declared");
+    return;
+  }
+  if (check) {
+    console.log("MISS share activity not declared");
+    process.exitCode = 1;
+    return;
+  }
+  const anchor = source.match(/[ \t]*<\/application>/);
+  if (!anchor) {
+    console.error("Could not find </application>. Aborting.");
+    process.exit(1);
+  }
+  const eol = source.includes("\r\n") ? "\r\n" : "\n";
+  const block = [
+    `        ${SHARE_MARKER}`,
+    "        <activity",
+    '            android:name=".ShareActivity"',
+    '            android:exported="true"',
+    '            android:excludeFromRecents="true"',
+    '            android:noHistory="true"',
+    '            android:theme="@android:style/Theme.NoDisplay">',
+    "            <intent-filter>",
+    '                <action android:name="android.intent.action.SEND" />',
+    '                <action android:name="android.intent.action.SEND_MULTIPLE" />',
+    '                <category android:name="android.intent.category.DEFAULT" />',
+    ...SHARE_TYPES.map((t) => `                <data android:mimeType="${t}" />`),
+    "            </intent-filter>",
+    "        </activity>",
+  ].join(eol);
+  source = source.replace(anchor[0], block + eol + anchor[0]);
+  writeFileSync(manifest, source);
+  console.log("ok   share activity declared");
+}
+
 function main() {
   if (!existsSync(gradle)) {
     console.error(
@@ -203,6 +304,8 @@ function main() {
   applySigning(check);
   applyResources(check);
   applyPermissions(check);
+  applySources(check);
+  applyShareTarget(check);
 }
 
 main();

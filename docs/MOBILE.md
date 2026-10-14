@@ -101,7 +101,8 @@ already gitignored and should stay that way — it is generated output.
 
 - **The watched folder does not apply.** Android's scoped storage makes "watch a
   directory" the wrong model. The import path there is the system file picker
-  and a share-target intent. `useWatchedFolder` already no-ops outside Tauri;
+  and a share-target intent (done: `ShareActivity.kt`, `share.rs`,
+  `useSharedFiles`). `useWatchedFolder` already no-ops outside Tauri;
   it needs to no-op on Android specifically too.
 - **Notifications need the plugin and a runtime permission.** `POST_NOTIFICATIONS`
   is required from Android 13. This is also what finally makes daily reminders
@@ -183,6 +184,33 @@ Playwright's `connectOverCDP` cannot use it ("Browser context management is
 not supported") — its `_android` API can. And force-stop the app before each
 run: a round left open by an interrupted run sits over the tab bar, and every
 click after that lands on it.
+
+### Receiving shared files
+
+`ShareActivity` (tracked in `src-tauri/android-src/`, copied in and declared
+by `android-prepare.mjs`) takes `SEND` / `SEND_MULTIPLE` for JSON, CSV, zip and
+octet-stream — not `text/plain`, which would list Lexicon for every shared
+sentence. It copies each file into `<cache>/shared-inbox/` while the read grant
+lasts, starts MainActivity, and finishes; `share.rs` lists and hands out the
+inbox, refusing any id that is not a plain file name; `useSharedFiles` drains
+it on launch and whenever the app is shown, and imports through `importFiles`.
+
+Three things learned, each invisible from a desktop browser:
+
+- **Not on MainActivity.** The share sheet launches with `NEW_DOCUMENT |
+  MULTIPLE_TASK`. Against a running `singleTask` MainActivity, Android brings
+  the task forward and never calls `onNewIntent` (`START_TASK_TO_FRONT` in
+  `logcat`). Cold, it works — which is how the bug hides.
+- **Test through the real share sheet.** `adb shell am start ... SEND` with
+  `--grant-read-uri-permission` cannot grant a MediaStore or documents URI the
+  shell does not own, so the app gets a SecurityException a user never would.
+  `scripts/drive/android-share.mjs` drives Files → long-press → Share →
+  Lexicon with `uiautomator dump` and `input tap` instead.
+- **No `visibilitychange`.** The WebView keeps `visibilityState` "visible" in
+  the background and fires nothing on Home or return, so MainActivity
+  dispatches `lexicon:pause` / `lexicon:resume` itself; see
+  `src/lib/app-lifecycle.ts`. Until this, a game round kept its clock running
+  behind the home screen.
 
 Two things that will waste an afternoon if forgotten. The emulator is x86_64,
 so an arm64 build installs and then fails to start. And the frontend is

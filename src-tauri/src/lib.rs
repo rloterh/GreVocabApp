@@ -6,6 +6,7 @@ mod keystore;
 mod desktop;
 #[cfg(desktop)]
 mod oauth;
+mod share;
 mod watcher;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -30,6 +31,8 @@ pub fn run() {
             watcher::start_watching,
             watcher::stop_watching,
             watcher::watched_folder,
+            share::list_shared_files,
+            share::take_shared_file,
             #[cfg(desktop)]
             ai_cli::detect_ai_clis,
             #[cfg(desktop)]

@@ -11,7 +11,14 @@ export function Toast() {
     // top of the mobile nav: it is z-50 to the tab bar's z-30, so it wins the
     // stack and covers the thing the user's thumb is reaching for. Clear the
     // bar's height plus its safe-area padding wherever the bar exists.
-    <div className="fixed bottom-[calc(4.5rem+env(safe-area-inset-bottom))] right-4 left-4 rail:bottom-6 rail:right-6 rail:left-auto z-50 pointer-events-none flex justify-end">
+    //
+    // The live region is the container, which is always mounted: a region
+    // that appears together with its text is not announced by most screen
+    // readers, so a toast inside one would be silent.
+    <div
+      role="status"
+      aria-live="polite"
+      className="fixed bottom-[calc(4.5rem+env(safe-area-inset-bottom))] right-4 left-4 rail:bottom-6 rail:right-6 rail:left-auto z-50 pointer-events-none flex justify-end">
       <AnimatePresence>
         {toast && (
           <motion.div

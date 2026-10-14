@@ -24,6 +24,7 @@ import { useOpenRouterCallback } from "@/hooks/useOpenRouterConnect";
 import { useShortcuts } from "@/hooks/useShortcuts";
 import { useSystemBack } from "@/hooks/useSystemBack";
 import { useWatchedFolder } from "@/hooks/useWatchedFolder";
+import { useSharedFiles } from "@/hooks/useSharedFiles";
 import { useDesktopEvents } from "@/hooks/useDesktopEvents";
 import { applyTheme } from "@/lib/theme";
 import { migrateLegacySecrets } from "@/lib/ai/keystore";
@@ -94,6 +95,7 @@ export function App() {
 
   // Desktop only; both inert in the browser.
   useWatchedFolder();
+  useSharedFiles();
   useDesktopEvents();
   const { helpOpen, setHelpOpen } = useShortcuts();
 

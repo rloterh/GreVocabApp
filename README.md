@@ -63,6 +63,7 @@ every control has a name, and rotating the device keeps the card you were on.
 - **Progress tracking** — activity heatmap, monthly/quarterly/yearly charts, current & longest streaks
 - **Archive** — every month you've loaded, always browsable
 - **Search** — full-text across all loaded vocabulary
+- **Share to Lexicon** — on Android, share a `.json`, `.csv` or Anki `.apkg` from any app and pick Lexicon; it is imported as if you had dropped it in
 - **JSON-driven** — one file per month, dropped in a folder. Load, unload, keep as many as you want
 - **Backup / restore** — export everything as JSON
 - **Light & dark themes** — with warm off-white / near-black palettes

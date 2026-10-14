@@ -19,7 +19,9 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-**v1.4.0 shipped on 2026-10-14: Games** (Phases 19–25, at the end of this
+**v1.5.0 shipped on 2026-10-14**: sharing files to Lexicon on Android, and
+the external keyboard (P1s from Phases 9 and 16), with the Android
+pause bug they turned up. **v1.4.0 shipped the same day: Games** (Phases 19–25, at the end of this
 file). Planned as "v1.2"; 1.2.0 and 1.3.0 had already been tagged for the
 word-of-the-day and day-rail releases after v1.1, so it shipped as 1.4.0.
 A games section of timed, scored rounds modelled on Merriam-Webster's word
@@ -358,7 +360,7 @@ Design: [`docs/MOBILE.md`](./docs/MOBILE.md) ·
 - ~~**[P0] Platform capability gating.**~~ **DONE 2026-09-12.** — `src/lib/platform.ts` asks "can I watch a folder?", never "is this Android?". Its tests are a capability table, so what works where is reviewable in one place. 37 tests.
 - ~~**[P0] System back button.**~~ **DONE 2026-09-12.** — `useSystemBack`, over the History API the gesture actually drives. Back navigates within the app and only exits from the home screen. **Unverified on a device.**
 - ~~**[P0] Scheduled notifications.**~~ **DONE 2026-09-13**, verified on an Android 14 emulator. The 2026-09-12 entry that claimed this "on the code side" was wrong: the plugin was registered and permission requested, but nothing ever called a scheduling API, so no reminder could have arrived with the app closed. Now `scheduleDailyReminder` invokes `plugin:notification|notify` with a calendar *pattern* (`{ interval: { hour, minute } }`), which the OS re-arms daily; `dumpsys alarm` shows the pending `RTC_WAKEUP`. Two device-only bugs fell out: `{ at: { date, repeating: true } }` derives its repeat interval from `date - now`, and `Notification.requestPermission()` never resolves on Android 13+ when permission is already granted — an upstream `NotificationPlugin.kt` branch with no `else` — which also wedges every later notification command in that process. The alarm is inexact by choice; see `src/lib/reminder-schedule.ts`.
-- **[P1] Share-target intent.** — Receive a `.json`, `.csv` or `.apkg` shared from another app.
+- ~~**[P1] Share-target intent.**~~ **DONE 2026-10-14**, verified through the real share sheet on an Android 14 emulator (`scripts/drive/android-share.mjs`: Files → long-press → Share → Lexicon, both with the app running and with it closed). A `.json`, `.csv` or `.apkg` shared from another app goes through the same `importFiles` path as a drop or a picked file. A small `ShareActivity` copies the files into an inbox while it holds the read grant and gets out of the way; `share.rs` hands the inbox to the web side, which drains it on launch and on return. Building it found two things only a device could: the share sheet launches with `NEW_DOCUMENT | MULTIPLE_TASK`, so a share-target filter on the `singleTask` MainActivity is **never delivered** when the app is already running (Android answers `START_TASK_TO_FRONT` — an `adb am start` test passes and hides it); and **the WebView never fires `visibilitychange`**, which had also left the games' "leaving the app pauses the round" silently broken on Android since v1.4.0. MainActivity now signals pause and resume itself (`src/lib/app-lifecycle.ts`), and `android-games.mjs` checks the pause.
 - **[P1] Play Store submission.** — Keystore kept out of the repo, privacy policy, data-safety form declaring no collection, content rating, screenshots.
 - **[P2] Android CI.** — Build the APK on a runner, so the mobile build cannot rot the way the desktop build did.
 
@@ -585,7 +587,7 @@ Design: [docs/TABLET.md](./docs/TABLET.md).
 - ~~**[P0] Rotation preserves state.**~~ **DONE 2026-09-12.** — Asserted on all ten viewports: a card mid-session survives the turn, still flipped. It holds because layout is driven by CSS rather than by a width read in JavaScript.
 - ~~**[P0] `scripts/drive/tablet-audit.mjs`.**~~ **DONE 2026-09-12.** — Five devices, both orientations, six pages each. It found the iPad mini breakpoint, and two of its own assertions were wrong before the app was: it read a `display: none` aside's declared width as a live rail, and it judged input names without looking at their labels.
 - ~~**[P1] Safe areas on all four edges.**~~ **DONE** — with the fullscreen work in Phase 13.
-- **[P1] External keyboard.** — Every shortcut still works; focus rings visible.
+- ~~**[P1] External keyboard.**~~ **DONE 2026-10-14.** — `scripts/drive/tablet-keyboard.mjs` runs as an iPad in both orientations, touch emulated and `pointer: coarse` confirmed from inside the page, and uses only the keyboard: every `g` sequence, `?`, `/`, focus rings on everything Tab reaches, a game answered by number keys and paused by Escape, and a Match Up pair made with the arrows. Nothing in the app branched on touch, but the run found a bug on **every** keyboard: a game's rules card autofocused a Play button that was still disabled while the words loaded, so focus fell to the timer and Enter did nothing. Play is now `aria-disabled` while loading, so it keeps the focus and Enter plays once ready. Also added: arrow keys in Match Up's columns, and `aria-current` on the sidebar and rail, which had never told a screen reader which page was open. Untested still: real iPad hardware.
 
 ### Definition of done — met 2026-09-12
 
@@ -595,7 +597,7 @@ Design: [docs/TABLET.md](./docs/TABLET.md).
 ### Left for later, deliberately
 
 - **Daily Practice as master/detail** and **word detail as a landscape side panel.** Both are restructures of a page rather than responsive rules, and neither is broken today — they are an improvement, not a fix, and bundling them into a phase about breakpoints would have hidden how much was actually changing.
-- **External keyboard.** Every existing shortcut still works and focus rings are visible; what is untested is an iPad with a hardware keyboard attached, which needs the hardware.
+- ~~**External keyboard.**~~ Done 2026-10-14 against an emulated iPad (above); a real iPad with a hardware keyboard is still untested.
 
 ## Phase 17 — The SAT corpus
 
@@ -794,7 +796,8 @@ tracks, persisted, and verified in a browser.
   match can fairly pair two ways. Warm-up boards prefer a confirmed synonym,
   after *translucent* → "frosted". A wrong pair costs two seconds and no
   points; pairs made before a time-out still score. Every item is a button, so
-  Tab and Enter play it; arrow-key movement inside a column was **not** built.
+  Tab and Enter play it; arrow keys and Home/End move within a column (added
+  2026-10-14, with the Phase 16 keyboard work).
 - ~~**[P1] Spell It.**~~ **DONE 2026-10-13.** — Blind reads: **3.0% → 0.5%**,
   and every flag was a legitimate spelling marked wrong (*generalise*,
   *rarified*, *pre-eminent*). The checker now accepts the regular

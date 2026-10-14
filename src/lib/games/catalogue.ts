@@ -18,6 +18,7 @@ import { buildMatch, canBuildMatch } from "./builders/match";
 import { buildOdd, canBuildOdd } from "./builders/odd";
 import { buildOpposites, canBuildOpposites } from "./builders/opposites";
 import { buildSpell, canBuildSpell } from "./builders/spell";
+import { buildUnscramble, canBuildUnscramble } from "./builders/unscramble";
 import type { BuildContext } from "./context";
 import type { GameId, GameQuestion } from "./types";
 
@@ -116,6 +117,17 @@ export const GAMES: Record<GameId, GameDefinition> = {
     mark: "⟷",
     eligible: canBuildMatch,
     build: buildMatch,
+  },
+  unscramble: {
+    id: "unscramble",
+    name: "Unscramble",
+    blurb: "Put the letters in order. Wrong tries cost only time.",
+    instruction: "Unscramble the word",
+    seconds: 25,
+    tint: "warning",
+    mark: "↻",
+    eligible: canBuildUnscramble,
+    build: buildUnscramble,
   },
   // Not on the hub's list: it has its own card above the games, and its
   // questions come from four of them (src/lib/games/daily.ts).

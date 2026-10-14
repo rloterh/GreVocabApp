@@ -29,11 +29,13 @@ import {
 } from "@/lib/games/session";
 import type { GameRound, GameTimer } from "@/lib/games/types";
 import { playSound } from "@/lib/sound";
+import { haptic } from "@/lib/haptics";
 import { cn } from "@/lib/utils";
 import { isTypingTarget } from "@/lib/shortcuts";
 import { spelledRight } from "@/lib/games/builders/spell";
 import { MatchBoard, MISMATCH_PENALTY_MS } from "@/components/games/MatchBoard";
 import { SpellPanel } from "@/components/games/SpellPanel";
+import { TilesPanel } from "@/components/games/TilesPanel";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 
@@ -166,6 +168,8 @@ export function GameStage({
           ? question.statement
           : question.kind === "spell"
             ? `Spell the word. ${question.definition}`
+            : question.kind === "tiles"
+              ? `Unscramble ${question.tiles.length} letters. ${question.definition}`
             : question.kind === "match"
               ? `Match ${question.pairs.length} words to their meanings`
               : question.ask ?? question.sentence?.replace(/____/g, "blank") ?? question.word;
@@ -180,17 +184,19 @@ export function GameStage({
     const right =
       question.kind === "match"
         ? `${lastAnswer.matched ?? 0} of ${question.pairs.length} paired`
-        : question.kind === "spell"
+        : question.kind === "spell" || question.kind === "tiles"
           ? `spelled ${[...question.word].join(" ")}`
           : question.options[question.answer];
     if (lastAnswer.correct) {
       playSound("correct");
+      haptic("correct");
       setAnnouncement(`Correct. Plus ${lastAnswer.points}.`);
     } else if (lastAnswer.timedOut) {
       playSound("timeout");
       setAnnouncement(`Time's up. The answer was ${right}.`);
     } else {
       playSound("wrong");
+      haptic("wrong");
       setAnnouncement(`Not quite. The answer was ${right}.`);
     }
   }, [state.phase, lastAnswer, question]);
@@ -199,7 +205,10 @@ export function GameStage({
   // question has an explanation to read. Fact or Fiction's "why" is the
   // learning moment, so it waits for Continue and the clock stays stopped.
   const waitsForContinue =
-    question?.kind === "verdict" || question?.kind === "match" || question?.kind === "spell";
+    question?.kind === "verdict" ||
+    question?.kind === "match" ||
+    question?.kind === "spell" ||
+    question?.kind === "tiles";
   useEffect(() => {
     if (state.phase !== "feedback" || holding || waitsForContinue) return;
     const timer = window.setTimeout(() => dispatch({ type: "NEXT", now: performance.now() }), FEEDBACK_MS);
@@ -222,8 +231,10 @@ export function GameStage({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.ctrlKey || e.metaKey || e.altKey) return;
-      // "p" is a letter to someone spelling a word; only Escape pauses there.
-      const typing = isTypingTarget(e.target);
+      // "p" is a letter to someone spelling a word — in Spell It's field, and
+      // anywhere on an Unscramble board, which takes typed letters with no
+      // field at all. Only Escape pauses there.
+      const typing = isTypingTarget(e.target) || question?.kind === "tiles";
       if (e.key === "Escape" || (!typing && (e.key === "p" || e.key === "P"))) {
         e.preventDefault();
         dispatch({ type: state.phase === "paused" ? "RESUME" : "PAUSE", now: performance.now() });
@@ -265,6 +276,7 @@ export function GameStage({
   );
   const onMiss = useCallback(() => {
     playSound("wrong");
+    haptic("wrong");
     dispatch({ type: "PENALTY", ms: MISMATCH_PENALTY_MS });
   }, [dispatch]);
   const resume = () => {
@@ -356,9 +368,11 @@ export function GameStage({
           reach of a thumb; with room to spare they sit with the word. */}
       <div className="mx-auto flex w-full max-w-[640px] flex-1 flex-col px-4 md:justify-center">
         <AnimatePresence mode="wait">
-          {showingPrompt && (question.kind === "match" || question.kind === "spell") && (
+          {showingPrompt && (question.kind === "match" || question.kind === "spell" || question.kind === "tiles") && (
             <motion.div
-              key={state.index}
+              // Distinct from the question branch's key below: two siblings under
+              // one AnimatePresence sharing a key can leave a ghost copy mid-exit.
+              key={`panel-${state.index}`}
               className="flex flex-1 flex-col"
               initial={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
@@ -374,6 +388,21 @@ export function GameStage({
                   reduceMotion={reduceMotion}
                   onMatch={onMatch}
                   onMiss={onMiss}
+                  onContinue={next}
+                />
+              ) : question.kind === "tiles" ? (
+                <TilesPanel
+                  question={question}
+                  phase={state.phase}
+                  answer={lastAnswer}
+                  reduceMotion={reduceMotion}
+                  onSolve={(hinted) =>
+                    dispatch({ type: "ANSWER", choice: 0, now: performance.now(), typed: question.word, hinted })
+                  }
+                  onMiss={() => {
+                    playSound("wrong");
+                    haptic("wrong");
+                  }}
                   onContinue={next}
                 />
               ) : (
@@ -396,9 +425,9 @@ export function GameStage({
               )}
             </motion.div>
           )}
-          {showingPrompt && question.kind !== "match" && question.kind !== "spell" && (
+          {showingPrompt && question.kind !== "match" && question.kind !== "spell" && question.kind !== "tiles" && (
             <motion.div
-              key={state.index}
+              key={`question-${state.index}`}
               className="flex flex-1 flex-col md:flex-none"
               initial={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}

@@ -316,6 +316,12 @@ spelling marked wrong. Review history: 3.0% → 0.5%.
 
 ### 4.8 Unscramble (P2)
 
+*As built:* five to ten letters. A word is never asked if its letters spell
+another word: one in the corpus (*discreet*/*discrete*), or one in SCOWL's
+common-English levels (*tacit*/"attic"). The common-English check runs at
+build time into `public/vocab/anagram-risk.json`. Wrong arrangements shake and
+clear, costing only time. 25 seconds. Review history: 6.0% → 0%.
+
 The definition plus the word's letters as shuffled tiles. Tap tiles into slots,
 tap a slot to return its tile. Shuffles are re-drawn if they spell the word, or
 a word in the pool.

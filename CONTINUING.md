@@ -209,6 +209,7 @@ If you touched content or scheduling, also:
 ```bash
 npx tsx scripts/audit-corpus.ts              # both tracks, must say "corpus is sound"
 npx tsx scripts/build-relations.ts           # after any corpus change
+npx tsx scripts/build-anagrams.ts            # after any corpus change
 npx tsx scripts/audit-games.ts               # fails if relations.json is stale
 CHROME_EXE="<chrome.exe>" node scripts/drive/tracks-smoke.mjs
 ```

@@ -1,20 +1,146 @@
-Lexicon games — Fill the Gap, a sample for a reader (seed 8)
+Lexicon games — Fill the Gap, a sample for a reader (seed 10)
 The ✓ word should be the one that fits the sentence. Mark DEFENSIBLE if a wrong option fits the sentence about as well, WRONG KEY if ✓ does not fit.
 Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
 
-  [gre/warmup] mercurial (adjective) — Changing moods quickly and unpredictably.
-      Sentence: His ____ temper could swing from laughter to fury within minutes.
-      ✓ mercurial
-        meticulous
-        meek
-        melodious
+  [gre/warmup] insidious (adjective) — Causing harm slowly and secretly, in a way that is hard to detect.
+      Sentence: The disease was ____, showing no symptoms until it had already spread through his body.
+        inexorable
+        inveterate
+        intransigent
+      ✓ insidious
 
-  [gre/warmup] drawl (verb) — To speak slowly, stretching out the vowel sounds.
-      Sentence: The old rancher greeted us in a lazy Texan ____ that stretched every word to twice its length.
-        denounce
-        defame
-      ✓ drawl
-        distinguish
+  [gre/warmup] verbose (adjective) — Using far more words than necessary, so the real meaning gets buried.
+      Sentence: The manual was so ____ that finding one simple instruction took twenty minutes.
+        vehement
+        veracious
+        volatile
+      ✓ verbose
+
+  [gre/warmup] pithy (adjective) — Brief and full of meaning; expressing much in few words.
+      Sentence: Her ____ three-word reply said more than his rambling paragraph ever could.
+      ✓ pithy
+        plentiful
+        pugnacious
+        prudent
+
+  [gre/warmup] ensconce (verb) — To settle someone or oneself snugly and securely in a comfortable spot.
+      Sentence: She ____ herself in the armchair with a blanket and a steaming mug of cocoa.
+        ebb
+      ✓ ensconce
+        extol
+        endorse
+
+  [gre/warmup] dwindle (verb) — To become steadily smaller in size, amount, or number.
+      Sentence: Their savings ____ after months without work, until only a few coins remained.
+        dither
+      ✓ dwindle
+        disclose
+        dragoon
+
+  [gre/warmup] guileless (adjective) — Free of deceit, cunning, or hidden motives; sincerely open.
+      Sentence: The puppy-like, ____ grin made it impossible to believe he'd stolen anything.
+        gluttonous
+        grandiloquent
+        garrulous
+      ✓ guileless
+
+  [gre/warmup] collusion (noun) — Secret agreement between people to cheat or deceive others.
+      Sentence: The two firms were fined for ____ in fixing prices.
+        cupidity
+      ✓ collusion
+        cache
+        conjecture
+
+  [gre/warmup] deception (noun) — The act of making someone accept as true what is actually false.
+      Sentence: A good poker game is a study in ____ — nobody shows their real hand.
+        derision
+      ✓ deception
+        discretion
+        dominion
+
+  [gre/warmup] Quotidian (adjective) — Of or occurring every day; daily and ordinary.
+      Sentence: She found beauty in the ____ routines of cooking and cleaning.
+        querulous
+      ✓ quotidian
+        quixotic
+        clandestine
+
+  [gre/warmup] Sanguine (adjective) — Optimistic or positive, especially in a difficult situation.
+      Sentence: She remained ____ about the project despite repeated setbacks.
+        sartorial
+        stagnant
+        supercilious
+      ✓ sanguine
+
+  [gre/warmup] incredulous (adjective) — Unwilling or unable to accept that something is true.
+      Sentence: He stared at the lottery ticket, ____ that the numbers actually matched.
+        inchoate
+        incisive
+        inert
+      ✓ incredulous
+
+  [gre/warmup] eulogy (noun) — A speech or writing that highly praises someone, often after death.
+      Sentence: At the funeral, her son delivered a moving ____ about her lifelong kindness.
+        ennui
+      ✓ eulogy
+        exemplar
+        entropy
+
+  [gre/warmup] sincere (adjective) — Genuine and honest, without pretense or false feeling.
+      Sentence: Her ____ apology moved everyone, because they could tell she truly meant it.
+        stolid
+      ✓ sincere
+        supine
+        shrill
+
+  [gre/warmup] rebut (verb) — To prove a claim wrong by offering opposing evidence or reasoning.
+      Sentence: In her closing statement, the defense attorney ____ every point the prosecution had raised.
+        renovate
+      ✓ rebut
+        repress
+        rankle
+
+  [gre/warmup] chant (verb) — To repeat words rhythmically in a singing, monotonous way.
+      Sentence: The crowd ____ the team's name over and over until the whole stadium shook.
+        compel
+        controvert
+        corroborate
+      ✓ chant
+
+  [gre/warmup] sage (noun) — A person known for deep wisdom and sound judgment.
+      Sentence: Villagers climbed the mountain to seek the old ____'s counsel before the war.
+        strife
+      ✓ sage
+        sycophant
+        surfeit
+
+  [gre/warmup] subordinate (adjective) — Ranked below another in importance, power, or authority.
+      Sentence: As a ____, she reported to three managers who all outranked her.
+        specious
+        subservient
+      ✓ subordinate
+        supercilious
+
+  [gre/warmup] Garner (verb) — To gather or collect, especially information or approval.
+      Sentence: The film ____ awards at every festival.
+        gainsay
+      ✓ garner
+        glorify
+        goad
+
+  [gre/warmup] obstruct (verb) — To block a path or get in the way of something.
+      Sentence: A fallen oak ____ the road, forcing every car to turn around.
+        obviate
+        overflow
+      ✓ obstruct
+        ossify
+
+  [gre/warmup] scrutiny (noun) — Close, careful, and critical examination or inspection.
+      Sentence: The budget came under intense ____ from the government auditors.
+        savvy
+        strife
+      ✓ scrutiny
+        sagacity
 
   [gre/warmup] Nefarious (adjective) — Wicked, villainous, or criminal.
       Sentence: The spy's ____ plan almost succeeded.
@@ -23,243 +149,110 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
       ✓ nefarious
         nebulous
 
-  [gre/warmup] tenacious (adjective) — Holding firmly to a purpose and refusing to give up.
-      Sentence: Her ____ pursuit of the story eventually exposed the whole scandal.
-        terse
-        trite
-      ✓ tenacious
-        transient
+  [gre/warmup] polemic (noun) — A strong written or spoken argument attacking or defending an opinion.
+      Sentence: Her ____ against modern architecture provoked furious letters from every critic in town.
+      ✓ polemic
+        permanence
+        platitude
+        potentate
 
-  [gre/warmup] fluent (adjective) — Able to speak or write smoothly, easily, and without hesitation.
-      Sentence: After a year in Madrid she became ____, chatting with locals as if born there.
-        forbearing
-        fertile
-      ✓ fluent
-        florid
+  [gre/warmup] austere (adjective) — Severe or plain in appearance, without comfort or decoration.
+      Sentence: The monks lived in ____ cells holding only a bed and a candle.
+        ambiguous
+      ✓ austere
+        ardent
+        autonomous
 
-  [gre/warmup] tyrannical (adjective) — Using power in a cruel, unjust, and heavily controlling manner over others.
-      Sentence: Her ____ stepmother assigned endless chores and forbade even a moment of rest.
-        treacherous
-        tenacious
-      ✓ tyrannical
-        timorous
+  [gre/warmup] Germane (adjective) — Relevant to a subject under consideration.
+      Sentence: Please keep your comments ____ to the agenda.
+      ✓ germane
+        gregarious
+        garbled
+        glib
 
-  [gre/warmup] vindicate (verb) — To free someone from blame or show that a claim was correct after all.
-      Sentence: The DNA results finally ____ the man imprisoned for a crime he never committed.
-        vacillate
-        vilify
-      ✓ vindicate
-        vitiate
+  [gre/warmup] demure (adjective) — Reserved, quiet, and modest in manner, especially in a shy or proper way.
+      Sentence: She kept a ____ silence, eyes downcast, while the others boasted about their prizes.
+        dubious
+      ✓ demure
+        dictatorial
+        durable
 
-  [gre/warmup] meager (adjective) — Small in amount and clearly not enough.
-      Sentence: He tried to stretch his ____ wages across a whole month of rent and food.
-        meek
-      ✓ meager
-        morose
-        manifold
+  [gre/standard] relic (noun) — An object that has survived from an earlier time.
+      Sentence: The museum displayed a rusted ____ recovered from a sunken warship.
+      ✓ relic
+        rapacity
+        retort
+        rudiment
 
-  [gre/warmup] revile (verb) — To attack someone with hateful, abusive language.
-      Sentence: Once celebrated, the traitor was ____ by the very crowds who had cheered him.
-      ✓ revile
-        recant
-        renovate
-        renege
+  [gre/standard] perspicacity (noun) — Sharp insight that lets someone quickly grasp what is really going on.
+      Sentence: Her ____ let her spot the flaw in the contract that everyone else had missed.
+        panic
+        philistine
+        plutocrat
+      ✓ perspicacity
 
-  [gre/warmup] atone (verb) — To do something good to make up for having done something bad.
-      Sentence: He spent years volunteering at the shelter to ____ for the harm his lies had caused.
-        abjure
-        antagonize
-      ✓ atone
-        allude
+  [gre/standard] embark (verb) — To board a ship or aircraft, or to begin a new venture.
+      Sentence: After graduation, she ____ on a solo journey across South America.
+        exploit
+        enlighten
+      ✓ embark
+        expropriate
 
-  [gre/warmup] Blandishment (noun) — A flattering or pleasing statement used to persuade.
-      Sentence: No ____ could change her mind.
-      ✓ blandishment
-        bounty
-        broker
-        brawl
+  [gre/standard] standardize (verb) — To make things follow one uniform set of rules or measurements.
+      Sentence: The company chose to ____ its parts so any factory could repair any machine.
+        spur
+        squirm
+        solicit
+      ✓ standardize
 
-  [gre/warmup] Vitiate (verb) — To spoil or impair the quality of; to weaken.
-      Sentence: The contract was ____ by a single forged signature.
-      ✓ vitiate
-        vaunt
-        vindicate
-        vie
+  [gre/standard] boldness (noun) — The quality of acting with confidence and without fear of danger.
+      Sentence: Her ____ in pitching directly to the CEO impressed the whole team.
+      ✓ boldness
+        bequest
+        benevolence
+        belligerence
 
-  [gre/warmup] coercion (noun) — The act of forcing someone to comply by using threats or intimidation.
-      Sentence: The confession was thrown out because it was obtained through ____, not free choice.
-        candor
-        calumny
-      ✓ coercion
-        criterion
+  [gre/standard] somnolent (adjective) — Sleepy and drowsy, or tending to bring on a desire to sleep.
+      Sentence: The warm afternoon and the droning lecture left the whole room ____.
+        sporadic
+        static
+      ✓ somnolent
+        spartan
 
-  [gre/warmup] diffident (adjective) — Shy and lacking belief in one's own abilities.
-      Sentence: Too ____ to raise his hand, he kept the right answer to himself.
-        duplicitous
-        dauntless
-      ✓ diffident
-        despotic
+  [gre/standard] exhort (verb) — To urge someone earnestly and forcefully to do something.
+      Sentence: The coach ____ his players to leave everything on the field in the final quarter.
+        endow
+      ✓ exhort
+        escalate
+        enlighten
 
-  [gre/warmup] harmonious (adjective) — Combining to form a pleasing, consistent whole free of conflict.
-      Sentence: The two founders ran such a ____ partnership that staff never once heard them argue.
-        hypothetical
-        haughty
-        habitual
-      ✓ harmonious
+  [gre/standard] ebullience (noun) — A bubbling, overflowing display of enthusiasm, excitement, or irrepressible high spirits.
+      Sentence: Her ____ filled the room the moment she burst in, laughing and hugging everyone in sight.
+        epigram
+      ✓ ebullience
+        exegesis
+        exposition
 
-  [gre/warmup] multitudinous (adjective) — Extremely numerous; existing in great numbers.
-      Sentence: The ____ stars scattered across the desert sky defied any attempt to count them.
-      ✓ multitudinous
-        mutable
-        meticulous
-        misanthropic
+  [gre/standard] balloon (verb) — To increase quickly to a large size or amount.
+      Sentence: Medical bills can ____ into tens of thousands after a long hospital stay.
+        bewilder
+      ✓ balloon
+        befuddle
+        becalm
 
-  [gre/warmup] indelible (adjective) — Impossible to erase, remove, or forget once it has been made.
-      Sentence: The disaster left an ____ mark on everyone who lived through it.
-      ✓ indelible
-        impartial
-        insipid
-        ingenious
+  [gre/standard] emaciated (adjective) — Abnormally thin and wasted from hunger, illness, or lack of nourishment.
+      Sentence: The rescued dog was so ____ that every rib pressed sharply against its dull, matted coat.
+        extravagant
+        epicurean
+      ✓ emaciated
+        euphonious
 
-  [gre/warmup] surmise (verb) — To conclude or guess something from very little evidence.
-      Sentence: From the muddy boots by the door, she ____ that he had been hiking.
-        subjugate
-        sequester
-        subside
-      ✓ surmise
-
-  [gre/warmup] latent (adjective) — Present but hidden or not yet active or developed.
-      Sentence: Her ____ talent for singing surfaced only when a friend handed her a microphone.
-        laudatory
-      ✓ latent
-        lachrymose
-        loquacious
-
-  [gre/warmup] unyielding (adjective) — Firm and refusing to give way under pressure or persuasion.
-      Sentence: The captain was ____, steering into the storm despite the crew's protests.
-      ✓ unyielding
-        ubiquitous
-        unctuous
-        underhanded
-
-  [gre/warmup] divulge (verb) — To reveal secret or private information to others.
-      Sentence: The lawyer refused to ____ the whereabouts of her client under any pressure.
-        disavow
-        deduce
-        dominate
-      ✓ divulge
-
-  [gre/warmup] temporize (verb) — To stall or delay a decision in order to gain more time.
-      Sentence: The negotiators ____ for weeks, hoping the crisis would resolve before they had to choose.
-        taunt
-      ✓ temporize
-        transform
-        traduce
-
-  [gre/warmup] prudent (adjective) — Acting with care and good judgment about the future.
-      Sentence: It was ____ of them to save money before quitting their jobs.
-      ✓ prudent
-        prostrate
-        prodigal
-        preeminent
-
-  [gre/warmup] hierarchy (noun) — A system in which people or things are ranked in graded levels of status.
-      Sentence: In the corporate ____, every intern reported upward through five layers of managers.
-      ✓ hierarchy
-        harmony
-        harangue
-        hubris
-
-  [gre/warmup] alleviate (verb) — To make pain or a problem easier to bear or less serious.
-      Sentence: She took an aspirin to ____ her pounding headache before the meeting.
-        assess
-        aggregate
-      ✓ alleviate
-        acquit
-
-  [gre/standard] resurgent (adjective) — Rising or becoming strong again after a period of decline.
-      Sentence: A ____ economy pushed unemployment to its lowest level in a decade.
-        reserved
-        rancorous
-        riotous
-      ✓ resurgent
-
-  [gre/standard] rudiment (noun) — A first or basic element of a subject, learned before the advanced parts.
-      Sentence: Before playing songs, the drummer spent months drilling the ____ of stick control.
-      ✓ rudiment
-        reconciliation
-        repose
-        renewal
-
-  [gre/standard] tumultuous (adjective) — Full of noise, confusion, and violent commotion.
-      Sentence: The champions returned to a ____ welcome, fans screaming and fireworks bursting overhead.
-        tardy
-        translucent
-        torpid
-      ✓ tumultuous
-
-  [gre/standard] fritter (verb) — To waste money, time, or energy little by little on trivial things.
-      Sentence: Don't ____ away your savings on lottery tickets and impulse buys.
-        forestall
-        flutter
-        flinch
-      ✓ fritter
-
-  [gre/standard] recurrent (adjective) — Coming back again and again over time.
-      Sentence: A ____ nightmare of falling woke her almost every week.
-        rancid
-        regimented
-        remunerative
-      ✓ recurrent
-
-  [gre/standard] jumble (noun) — A confused, untidy mixture of different things thrown together.
-      Sentence: She reached into her bag and pulled out a ____ of keys, receipts, and loose coins.
-        chronology
-        juncture
-        hiatus
-      ✓ jumble
-
-  [gre/standard] terminal (adjective) — Describing an illness that leads to death, or the last point of something.
-      Sentence: Doctors gave the ____ patient only a few months to live.
-        threadbare
-        tumultuous
-        temperate
-      ✓ terminal
-
-  [gre/standard] disputation (noun) — A formal debate or reasoned argument, often academic, over a contested question.
-      Sentence: The medieval scholars gathered for a formal ____, each defending his thesis before the faculty.
-        dusk
-      ✓ disputation
-        decrepitude
-        disquiet
-
-  [gre/standard] propel (verb) — To push or drive something forward with force.
-      Sentence: The powerful jets ____ the boat across the lake at astonishing speed.
-      ✓ propel
-        procure
-        prefigure
-        pullulate
-
-  [gre/standard] mulct (verb) — To penalize someone by taking money, or to cheat a person out of funds through deception.
-      Sentence: The crooked inspector would ____ small shop owners, pocketing fines he invented on the spot.
-        mobilize
-        mystify
-      ✓ mulct
-        muse
-
-  [gre/standard] doctrinaire (adjective) — Stubbornly attached to a theory while ignoring practical realities or differing opinions.
-      Sentence: The ____ economist refused to revise his model even as the recession deepened.
-        divisive
-        diurnal
-      ✓ doctrinaire
-        destitute
-
-  [gre/standard] waft (verb) — To carry or float gently through the air, as a smell or sound.
-      Sentence: The smell of fresh bread ____ from the bakery and filled the whole street.
-        wilt
-      ✓ waft
-        writhe
-        wince
+  [gre/standard] denude (verb) — To strip something of its covering, protection, or natural growth.
+      Sentence: Clear-cutting ____ the hillside, leaving raw soil to wash away in the first heavy rains.
+        decipher
+      ✓ denude
+        dart
+        dread
 
   [gre/standard] bicker (verb) — To argue about petty, unimportant matters.
       Sentence: The children ____ over who got the window seat until their mother threatened to turn the car around.
@@ -268,201 +261,264 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         beseech
       ✓ bicker
 
-  [gre/standard] cowardice (noun) — A shameful lack of courage when facing danger or difficulty.
-      Sentence: Abandoning his wounded comrade on the trail was an act of pure ____.
-        compendium
-        cogency
-        continence
-      ✓ cowardice
+  [gre/standard] dilapidated (adjective) — Fallen into partial ruin or disrepair through age or neglect.
+      Sentence: Squatters had moved into the ____ tenement, sleeping beneath a ceiling that leaked at every seam.
+        doughty
+      ✓ dilapidated
+        dastardly
+        distinct
 
-  [gre/standard] evident (adjective) — Plain and clear, so that anyone can see or understand it.
-      Sentence: It was ____ from her tears that the goodbye had been painful.
-      ✓ evident
-        erratic
-        embittered
-        empirical
+  [gre/standard] reconciliation (noun) — The restoring of friendly relations and harmony after a quarrel or dispute.
+      Sentence: After years of icy silence, the brothers finally met for a tearful ____.
+        relic
+      ✓ reconciliation
+        respite
+        repose
 
-  [gre/standard] meander (verb) — To move in a slow, winding, aimless way.
-      Sentence: The river ____ across the valley, doubling back on itself again and again.
-        moor
-      ✓ meander
-        mushroom
-        mortify
+  [gre/standard] pathos (noun) — A quality in something that stirs feelings of pity or sorrow.
+      Sentence: There was such ____ in the stray dog's eyes that passersby couldn't help but stop.
+        patrimony
+        pandemonium
+        pedantry
+      ✓ pathos
 
-  [gre/standard] indeterminate (adjective) — Not fixed or known exactly; left uncertain or vague.
-      Sentence: The painting was of ____ age, and no expert could date it.
+  [gre/standard] musty (adjective) — Having a stale, damp, or moldy smell from age or lack of air.
+      Sentence: The old library books gave off a ____ odor of forgotten decades.
+        mawkish
+        monetary
+      ✓ musty
+        miserly
+
+  [gre/standard] indigent (adjective) — Lacking the money needed for basic comforts and daily survival.
+      Sentence: The clinic offers free care to ____ patients who cannot afford insurance.
         intelligible
-        impenetrable
-        inscrutable
-      ✓ indeterminate
+        incessant
+        intermittent
+      ✓ indigent
 
-  [gre/standard] fusty (adjective) — Smelling stale and stuffy; also rigidly old-fashioned in outlook.
-      Sentence: He rejected every new idea, clinging to ____ rules from another century.
-      ✓ fusty
-        formative
-        friable
-        fearless
+  [gre/standard] allot (verb) — To assign or give a portion of something for a particular purpose.
+      Sentence: Each speaker was ____ ten minutes to present their case.
+        amplify
+      ✓ allot
+        abrade
+        align
 
-  [gre/standard] enlighten (verb) — To give someone greater knowledge or understanding about a situation or subject.
-      Sentence: Please ____ me about the new tax rules, because this form makes no sense to me.
-        expedite
-      ✓ enlighten
-        efface
-        exploit
+  [gre/standard] shatter (verb) — To break suddenly and violently into many small pieces.
+      Sentence: One stray baseball was enough to ____ the greenhouse's glass roof.
+        standardize
+        systematize
+        stagger
+      ✓ shatter
 
-  [gre/standard] contemplate (verb) — To think about something carefully and for a long period of time.
-      Sentence: She stood at the cliff's edge to ____ whether to leave everything behind.
-      ✓ contemplate
-        converge
-        catapult
-        connote
+  [gre/standard] hospitable (adjective) — Friendly and generous in welcoming guests or strangers into one's home.
+      Sentence: Our hosts were so ____ that we felt completely at home within minutes.
+        hazy
+      ✓ hospitable
+        hermetic
+        haggard
 
-  [gre/standard] decrepitude (noun) — The state of being weak and broken down from old age or long neglect.
-      Sentence: Years of poverty and illness had reduced the once-proud manor, and its owner, to utter ____.
-        denouement
-      ✓ decrepitude
-        dissonance
-        donor
+  [gre/standard] moderate (adjective) — Average in amount or degree; avoiding extremes.
+      Sentence: He kept a ____ pace so he wouldn't tire before the finish.
+        mawkish
+      ✓ moderate
+        monetary
+        mercantile
 
-  [gre/standard] scholarly (adjective) — Showing deep learning and careful, serious academic study.
-      Sentence: His ____ article cited over two hundred sources and took three years to write.
-        sesquipedalian
-        stoic
-        swashbuckling
-      ✓ scholarly
+  [gre/standard] palatial (adjective) — Resembling a grand royal residence; large and magnificent.
+      Sentence: They rented a ____ villa with forty rooms and its own marble ballroom.
+      ✓ palatial
+        peevish
+        prosperous
+        plucky
 
-  [gre/standard] nescient (adjective) — Lacking awareness or knowledge of facts and information.
-      Sentence: The ____ tourist wandered into the closed military zone, having read no warnings at all.
-        naive
-      ✓ nescient
-        nonchalant
-        niggardly
+  [gre/standard] rapport (noun) — A close relationship in which people understand each other and communicate easily.
+      Sentence: The therapist quickly built a ____ with the nervous teenager, who soon opened up.
+        remorse
+        recrudescence
+      ✓ rapport
+        residue
 
-  [gre/standard] venerable (adjective) — Commanding deep respect because of age, wisdom, or dignity.
-      Sentence: When the ____ judge entered the courtroom, even the loudest attorneys fell silent.
-        vague
-      ✓ venerable
-        verdant
-        valorous
+  [gre/standard] ceaseless (adjective) — Continuing steadily without ever coming to an end.
+      Sentence: The ____ roar of the waterfall drowned out every attempt at conversation.
+        conversant
+        charitable
+        cavalier
+      ✓ ceaseless
 
-  [gre/standard] penetrating (adjective) — Showing sharp understanding and an ability to see into the heart of things.
-      Sentence: Her ____ gaze seemed to read every thought I was trying to hide.
-        pristine
-        peripatetic
-      ✓ penetrating
-        pedagogic
+  [gre/standard] tendentious (adjective) — Marked by a strong, often controversial bias in favor of a particular cause.
+      Sentence: The documentary was so ____ that it felt like campaign propaganda rather than reporting.
+        tardy
+        terminal
+        tangential
+      ✓ tendentious
 
-  [gre/hard] agrarian (adjective) — Relating to farming, cultivated land, or a rural landowning society.
-      Sentence: The reforms redistributed land across the country's largely ____ economy.
-        arduous
-        apodictic
-        axiomatic
-      ✓ agrarian
+  [gre/hard] calumniate (verb) — To make false and damaging statements that injure someone's reputation.
+      Sentence: Political rivals tried to ____ the judge with invented stories of bribery.
+        collude
+      ✓ calumniate
+        cozen
+        coruscate
 
-  [gre/hard] propriety (noun) — Correctness of behavior and conformity to accepted standards of good manners.
-      Sentence: She questioned the ____ of accepting such an expensive gift from a client.
-      ✓ propriety
-        plight
-        pertinacity
-        phantasmagoria
+  [gre/hard] libation (noun) — A drink poured out as an offering to a god.
+      Sentence: The Greeks poured a ____ of wine onto the ground to honor the gods before the feast.
+        loafer
+        luminosity
+        laxity
+      ✓ libation
 
-  [gre/hard] expunge (verb) — To erase or wipe out completely, as a mark or a record.
-      Sentence: The court agreed to ____ the arrest from his record after five clean years.
-      ✓ expunge
-        excogitate
-        extenuate
-        evoke
+  [gre/hard] reminiscent (adjective) — Serving to bring something similar to mind; suggestive of another person, place, or time.
+      Sentence: The smell of chalk was ____ of her very first classroom decades ago.
+        rigorous
+        ruinous
+      ✓ reminiscent
+        rarefied
 
-  [gre/hard] exorbitant (adjective) — Much too high in price or amount; unreasonably costly.
-      Sentence: The hotel charged an ____ fee for a single small bottle of water from the minibar.
-      ✓ exorbitant
-        evocative
-        eidetic
-        epistemic
+  [gre/hard] parochial (adjective) — Having a narrow outlook limited to a small local area or concern.
+      Sentence: His ____ views never extended beyond the affairs of his own tiny village.
+        pastoral
+      ✓ parochial
+        peccant
+        profane
 
-  [gre/hard] crafty (adjective) — Skilled at using tricks to get what one wants; slyly clever.
-      Sentence: The ____ salesman talked them into buying gadgets they would never use.
-        clubbable
-        collegial
-      ✓ crafty
-        customary
+  [gre/hard] frenetic (adjective) — Marked by fast, chaotic, and disordered activity.
+      Sentence: The kitchen turned ____ during the dinner rush, cooks shouting over clattering pans.
+        fateful
+      ✓ frenetic
+        formulaic
+        fugacious
 
-  [gre/hard] cozen (verb) — To deceive or trick someone in order to gain something.
-      Sentence: The con artist tried to ____ the widow out of her life savings.
-        carouse
-        congregate
-        commune
-      ✓ cozen
+  [gre/hard] desecrate (verb) — To violate or damage the holiness of a place, object, or memory.
+      Sentence: Vandals ____ the old cemetery, toppling headstones and spray-painting the family tombs.
+        disconcert
+      ✓ desecrate
+        delve
+        defoliate
 
-  [gre/hard] luxuriate (verb) — To take great pleasure in something comfortable, relaxing fully and without any hurry.
-      Sentence: She ____ in the steaming bath, letting the whole day's tension slowly dissolve.
-        loiter
-        lacquer
-      ✓ luxuriate
-        leer
-
-  [gre/hard] gallivant (verb) — To wander about in search of pleasure or amusement.
-      Sentence: Instead of finishing the report, they ____ around Europe on a sudden whim.
-        gormandize
-        glower
-      ✓ gallivant
-        graft
-
-  [gre/hard] umbra (noun) — The darkest central part of a shadow, where light is fully blocked.
-      Sentence: During the eclipse, anyone standing in the moon's ____ saw the sky go completely dark.
-        palimpsest
-      ✓ umbra
-        patina
-        sward
-
-  [gre/hard] humus (noun) — The dark organic material in soil formed as plants and leaves decompose.
-      Sentence: Years of fallen leaves left the forest floor thick with rich ____.
-        husbandry
-      ✓ humus
+  [gre/hard] hierophant (noun) — An interpreter of sacred mysteries or a high priest who reveals holy secrets.
+      Sentence: The ____ led the initiates into the temple's inner sanctum to unveil its secrets.
+      ✓ hierophant
+        hireling
         humbug
-        hedonism
+        humus
 
-  [gre/hard] paroxysm (noun) — A sudden, violent outburst of emotion, activity, or a bodily attack.
-      Sentence: At the punchline the whole room collapsed into a ____ of helpless laughter.
-      ✓ paroxysm
-        provender
-        profanation
-        paralogism
+  [gre/hard] calamitous (adjective) — Causing serious damage, suffering, or ruin.
+      Sentence: The general's ____ retreat through the mountains cost thousands of lives.
+        conscientious
+        consummate
+        coniferous
+      ✓ calamitous
 
-  [gre/hard] nictitate (verb) — To wink or blink, especially with a thin inner eyelid found in birds and reptiles.
-      Sentence: The hawk would ____ mid-dive, a translucent membrane sweeping its eye clean without ever closing it.
-        eradicate
-      ✓ nictitate
-        depict
-        nonplus
+  [gre/hard] exhume (verb) — To dig up a buried body, or to bring something long hidden back to light.
+      Sentence: Investigators moved to ____ the body to test for poison decades after burial.
+        extenuate
+      ✓ exhume
+        expunge
+        etch
 
-  [gre/hard] pasture (noun) — Grassy land where livestock roam and feed on growing plants.
-      Sentence: The dairy cows spent the summer on the hillside ____.
+  [gre/hard] filigree (noun) — Delicate decorative work made from fine twisted threads of gold or silver.
+      Sentence: The locket's silver ____ was so fine it looked like frozen lace on her palm.
+      ✓ filigree
+        folkway
+        fanaticism
+        fustian
+
+  [gre/hard] novitiate (noun) — The trial period during which a beginner trains before joining a religious order.
+      Sentence: During her ____, she rose at dawn for prayers and studied the order's rules.
+        nimbus
+      ✓ novitiate
+        nepenthe
+        negligence
+
+  [gre/hard] licentious (adjective) — Lacking moral or sexual restraint and ignoring accepted rules.
+      Sentence: The emperor's ____ banquets, full of drink and seduction, scandalized the senate.
+        luminescent
+        luculent
+        lamentable
+      ✓ licentious
+
+  [gre/hard] sacerdotal (adjective) — Relating to priests or to the powers and duties of the priesthood.
+      Sentence: The bishop donned ____ robes before blessing the congregation at the high altar.
+      ✓ sacerdotal
+        saccharine
+        slothful
+        shiftless
+
+  [gre/hard] inauspicious (adjective) — Showing signs that success is unlikely; boding ill for what lies ahead.
+      Sentence: Losing the opening three matches was an ____ way to begin the season.
+      ✓ inauspicious
+        inconstant
+        inductive
+        illusory
+
+  [gre/hard] totem (noun) — An animal or object serving as a revered emblem of a family or clan.
+      Sentence: The eagle was the clan's ____, carved atop every pole and painted on their canoes.
+        tilth
+      ✓ totem
+        topiary
+        tribulation
+
+  [gre/hard] indefatigable (adjective) — Able to keep going without ever becoming tired or giving up.
+      Sentence: The ____ volunteer sorted donations for sixteen hours and still asked for more boxes.
+        illegitimate
+        intemperate
+      ✓ indefatigable
+        irrefragable
+
+  [gre/hard] collude (verb) — To cooperate secretly with someone in order to deceive or cheat others.
+      Sentence: The two firms ____ to fix prices and squeeze out rivals.
+        confabulate
+        commune
+        carouse
+      ✓ collude
+
+  [gre/hard] maunder (verb) — To talk or move in a rambling, aimless way without any clear purpose.
+      Sentence: Grandpa would ____ on about the weather for a half hour before finally saying why he'd phoned.
+        moil
+        marginalize
+      ✓ maunder
+        memorialize
+
+  [gre/hard] facsimile (noun) — An exact copy or reproduction of something, especially written or printed material.
+      Sentence: The museum displayed a ____ of the Declaration so the fragile original could stay locked away.
+        fen
+        felony
+      ✓ facsimile
+        fetish
+
+  [gre/hard] decorous (adjective) — Showing polite, dignified behavior that suits the occasion; restrained and well-mannered.
+      Sentence: The children stayed ____ throughout the funeral, quiet and still in their seats.
+        demented
+      ✓ decorous
+        delinquent
+        deranged
+
+  [gre/hard] specular (adjective) — Relating to or resembling a mirror, especially in reflecting light sharply.
+      Sentence: The polished chrome gave off a ____ gleam that bounced the sunlight straight into my eyes.
+        strenuous
+        supererogatory
+      ✓ specular
+        shiftless
+
+  [gre/hard] punctilio (noun) — A fine or precise point of formal conduct, etiquette, or procedure.
+      Sentence: The diplomat observed every ____, bowing at the exact angle protocol demanded.
+      ✓ punctilio
+        pasturage
         propriety
-        pettifogger
-      ✓ pasture
-        peccadillo
+        pariah
 
-  [gre/hard] sward (noun) — An area of ground covered with a smooth, even growth of short grass.
-      Sentence: The children raced across the springy ____ and collapsed, laughing, near the pond.
-        scion
-      ✓ sward
-        shirker
-        soothsayer
+  [gre/hard] simulate (verb) — To imitate the appearance or feeling of something in order to deceive or model it.
+      Sentence: The actor could ____ grief so convincingly that the whole audience wept.
+        sublimate
+      ✓ simulate
+        secede
+        segregate
 
-  [gre/hard] heedless (adjective) — Careless and paying no attention to danger or advice.
-      Sentence: ____ of the warning signs, the swimmers waded past the roped-off area.
-        heterodox
-        heartfelt
-        hidebound
-      ✓ heedless
-
-  [gre/hard] residuum (noun) — The small part left over after most has been removed or used up.
-      Sentence: After the water evaporated, a chalky ____ coated the bottom of the beaker.
-        reverie
-      ✓ residuum
-        rite
-        replica
+  [gre/hard] intemperance (noun) — Excessive indulgence and lack of self-restraint, especially in drinking.
+      Sentence: Years of ____ at the tavern had ruined both his liver and his marriage.
+        introspection
+        injunction
+        incoherence
+      ✓ intemperance
 
   [gre/hard] ostracize (verb) — To deliberately shut someone out of a group or social circle.
       Sentence: After he broke the team's trust, his teammates began to ____ him at every practice.
@@ -471,369 +527,187 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         overindulge
         obnubilate
 
-  [gre/hard] founder (verb) — To fill with water and sink, or to fail completely and collapse.
-      Sentence: The overloaded ferry ____ just minutes after leaving the harbor.
-        flout
-      ✓ founder
-        foreordain
-        flaunt
+  [gre/fiendish] mummery (noun) — A pretentious or absurd ceremonial display that seems empty and hypocritical.
+      Sentence: The awards gala struck him as pure ____, all fake smiles and hollow speeches.
+        mosaic
+      ✓ mummery
+        mischance
+        misdemeanor
 
-  [gre/hard] expiatory (adjective) — Serving to make amends or atone for guilt or sin.
-      Sentence: As an ____ act, the knight went on a long pilgrimage to answer for his crimes.
-      ✓ expiatory
-        edacious
-        exorbitant
-        ecclesiastical
+  [gre/fiendish] suborn (verb) — To secretly bribe or persuade someone into committing an illegal act, especially lying in court.
+      Sentence: The mob boss tried to ____ the witness, offering cash in exchange for false testimony.
+        segregate
+        sanctify
+      ✓ suborn
+        suffuse
 
-  [gre/hard] adversity (noun) — A difficult situation full of hardship, misfortune, or trouble.
-      Sentence: Growing up in poverty, she faced constant ____ but never lost her ambition.
-        arabesque
-        atavism
-      ✓ adversity
-        auspice
+  [gre/fiendish] coppice (noun) — An area of small trees regularly cut back near the base to encourage fresh growth.
+      Sentence: The old hazel ____ was harvested every seven years for firewood and fencing.
+        chicane
+        chiaroscuro
+      ✓ coppice
+        caprice
 
-  [gre/hard] parvenu (noun) — A person newly risen to wealth or status but lacking the matching social grace.
-      Sentence: The old families dismissed him as a ____ whose mansion was grander than his manners.
-      ✓ parvenu
-        premonition
-        populace
-        phantasm
+  [gre/fiendish] ordinance (noun) — A rule or law made by a city or local government.
+      Sentence: The town's noise ____ forbids leaf blowers before eight in the morning.
+        observance
+        oblivion
+        omen
+      ✓ ordinance
 
-  [gre/hard] loafer (noun) — A person who avoids work and passes the time doing nothing useful.
-      Sentence: While his roommates job-hunted, the ____ stayed on the couch playing games until noon.
-      ✓ loafer
-        laxity
-        languor
-        lichen
+  [gre/fiendish] toilsome (adjective) — Marked by long, tiring, and difficult work.
+      Sentence: The ____ harvest stretched from sunrise to dark, bending every back in the village.
+        tumid
+      ✓ toilsome
+        theatrical
+        tenebrous
 
-  [gre/hard] indolence (noun) — A habitual love of ease and a dislike of work or effort.
-      Sentence: Weeks of ____ left his garden overgrown and his projects untouched.
-        interstice
-        imprecation
-      ✓ indolence
-        intemperance
-
-  [gre/hard] interpolate (verb) — To insert extra material into a text, or to estimate a value lying between known ones.
-      Sentence: A later scribe seems to have ____ a paragraph the original author never wrote.
-        immolate
-        impute
-      ✓ interpolate
-        irradiate
-
-  [gre/hard] travail (noun) — Painful, exhausting labor or a very distressing experience.
-      Sentence: The ____ of hauling supplies up the mountain in a blizzard left the team frostbitten.
-      ✓ travail
-        talisman
-        threnody
-        tableau
-
-  [gre/fiendish] solemnity (noun) — The quality of deep seriousness, dignity, and grave formality.
-      Sentence: The ____ of the funeral silenced even the restless children.
-      ✓ solemnity
-        solipsism
-        soothsayer
-        sanctimony
-
-  [gre/fiendish] adversity (noun) — A difficult situation full of hardship, misfortune, or trouble.
-      Sentence: Growing up in poverty, she faced constant ____ but never lost her ambition.
-        affectation
+  [gre/fiendish] augury (noun) — A sign read as foretelling the future, or the practice of interpreting such signs.
+      Sentence: The wheeling flight of the crows was taken as an ____ of the coming war.
+      ✓ augury
+        arboretum
+        anathema
         amnesty
-      ✓ adversity
-        apostasy
 
-  [gre/fiendish] deceitful (adjective) — Dishonest and deliberately misleading in order to hide the truth.
-      Sentence: The ____ salesman hid the car's flood damage under a fresh coat of paint.
-        dolorous
-        deductive
-        demented
-      ✓ deceitful
-
-  [gre/fiendish] curmudgeon (noun) — A grumpy, ill-tempered person who is stubborn and easily annoyed.
-      Sentence: The old ____ next door yelled at every child who stepped on his lawn.
-        calyx
-        cultivar
-      ✓ curmudgeon
+  [gre/fiendish] corollary (noun) — A statement that follows logically and easily from one already proven.
+      Sentence: Higher wages were a welcome ____ of the region's sudden economic boom.
+        confidant
+      ✓ corollary
         countenance
+        comeuppance
 
-  [gre/fiendish] befall (verb) — To happen to someone, usually referring to an unfortunate event.
-      Sentence: She feared some disaster would ____ them on the icy mountain pass.
-      ✓ befall
-        bedim
-        becloud
-        bedeck
+  [gre/fiendish] deductive (adjective) — Reasoning from general rules toward a specific, logically guaranteed conclusion.
+      Sentence: Starting from established physical laws, she reached her answer by purely ____ steps.
+        deciduous
+        deranged
+        dolorous
+      ✓ deductive
 
-  [gre/fiendish] gorse (noun) — A spiny evergreen shrub with bright yellow flowers, common on heaths and moorland.
-      Sentence: The hillside blazed yellow with ____, though its spines kept the grazing sheep well away.
-        glimmer
-        gourmand
-      ✓ gorse
-        godsend
+  [gre/fiendish] communion (noun) — Intimate sharing of thoughts and feelings; deep mutual fellowship.
+      Sentence: Sitting by the fire in easy silence, the old friends felt a quiet ____.
+      ✓ communion
+        cataclysm
+        cynosure
+        calamity
 
-  [gre/fiendish] shun (verb) — To deliberately avoid or keep away from someone or something.
-      Sentence: After the scandal broke, former friends began to ____ him at every gathering.
-        simulate
-      ✓ shun
-        solemnize
-        secede
+  [gre/fiendish] affliction (noun) — A condition of ongoing pain, illness, or suffering.
+      Sentence: Chronic migraines were an ____ that kept her bedridden for days each month.
+        acolyte
+        ardor
+      ✓ affliction
+        artificer
 
-  [gre/fiendish] waspish (adjective) — Sharply irritable and prone to spiteful, stinging remarks.
-      Sentence: Tired and underslept, she gave a ____ reply that left the intern near tears.
-        workaday
-        woeful
-        inauspicious
-      ✓ waspish
+  [gre/fiendish] formalism (noun) — Strict attention to prescribed rules or outward style rather than actual content.
+      Sentence: The critic dismissed the essay's stiff ____, saying it valued footnotes over feeling.
+      ✓ formalism
+        felicity
+        fraud
+        facsimile
 
-  [gre/fiendish] travesty (noun) — A grotesque or absurd distortion that debases something meant to be serious.
-      Sentence: Critics called the rushed, evidence-free trial a ____ of justice.
-      ✓ travesty
-        tribunal
-        threnody
-        tilth
+  [gre/fiendish] proletarian (adjective) — Relating to the class of low-paid workers who own no property.
+      Sentence: The novel captured ____ life: cramped tenements, factory whistles, and pay gone by week's end.
+        propitiatory
+      ✓ proletarian
+        providential
+        probative
 
-  [gre/fiendish] exculpate (verb) — To free someone from blame or show they are not guilty.
-      Sentence: The security footage ____ the clerk, proving she was nowhere near the till.
-        excogitate
-        espy
-        evoke
-      ✓ exculpate
-
-  [gre/fiendish] semblance (noun) — An outward appearance that may not match what lies beneath.
-      Sentence: After weeks of chaos, the team finally restored some ____ of order to the office.
-        spate
-        sacrilege
-      ✓ semblance
-        sophism
-
-  [gre/fiendish] horticulture (noun) — The art and science of growing garden plants, fruits, vegetables, and flowers.
-      Sentence: She studied ____ so she could design and plant botanical gardens.
-        hedonism
-        heath
-        heresy
-      ✓ horticulture
-
-  [gre/fiendish] sinecure (noun) — A paid position that requires little or no actual work or responsibility.
-      Sentence: The honorary chairmanship was a ____: a title, a salary, and almost nothing to do.
-        specter
-      ✓ sinecure
-        stamen
-        somnolence
-
-  [gre/fiendish] excise (verb) — To cut out or remove a part, especially surgically or from a piece of writing.
-      Sentence: The editor told her to ____ the entire third paragraph, which added nothing.
-      ✓ excise
-        elide
-        eclipse
-        embellish
-
-  [gre/fiendish] distraught (adjective) — Extremely worried, upset, or emotionally distressed.
-      Sentence: The ____ father searched the crowded fairground for his missing daughter.
-        diligent
-      ✓ distraught
-        deceitful
-        delinquent
-
-  [gre/fiendish] nostalgic (adjective) — Feeling a wistful, sentimental longing for happier times in the past.
-      Sentence: Old photographs made her ____ for summers spent at her grandmother's farm.
-        numinous
-        nacreous
-        nonsensical
-      ✓ nostalgic
-
-  [gre/fiendish] injunction (noun) — A court order requiring someone to do or stop doing something.
-      Sentence: The band won an ____ halting the label from releasing the leaked album.
-        inflorescence
-      ✓ injunction
-        introspection
-        indulgence
-
-  [gre/fiendish] thresh (verb) — To beat harvested cereal plants so the edible grain comes loose from the straw and husks.
-      Sentence: After the wheat was cut, the laborers would ____ it with heavy flails until the kernels fell free.
-        tergiversate
-        toil
-        debauch
-      ✓ thresh
-
-  [gre/fiendish] eidetic (adjective) — Relating to unusually vivid and detailed mental images, like a photographic memory.
-      Sentence: With her ____ recall, she could quote any page after a single reading.
-        extortionate
-      ✓ eidetic
-        exiguous
-        effulgent
-
-  [gre/fiendish] sleight (noun) — Dexterity or cunning, especially in deceiving or performing tricks.
-      Sentence: By ____ of hand, the dealer slid an extra card from the bottom of the deck.
-      ✓ sleight
-        sinecure
-        statute
-        silage
-
-  [gre/fiendish] interdict (verb) — To officially forbid an activity, or to stop and cut off something in transit.
-      Sentence: Naval patrols moved to ____ the smugglers' boats before they could reach shore.
-        interpolate
-        inculpate
-        inure
-      ✓ interdict
-
-  [gre/fiendish] gambit (noun) — A calculated opening move or remark made to gain an advantage.
-      Sentence: Offering free samples was the café's ____ to hook passing commuters.
-        gloaming
-        godsend
+  [gre/fiendish] gusto (noun) — Hearty enthusiasm and evident enjoyment in doing something.
+      Sentence: He attacked the enormous plate of pasta with such ____ that everyone laughed.
+      ✓ gusto
+        gambit
+        gentry
         gorse
-      ✓ gambit
 
-  [gre/fiendish] prestidigitation (noun) — Skillful, quick finger movements used to perform magic tricks.
-      Sentence: The street performer's ____ had the crowd hunting for hidden wires and mirrors.
-      ✓ prestidigitation
-        providence
-        presentiment
-        paralogism
+  [gre/fiendish] atavistic (adjective) — Resembling a primitive ancestral trait that resurfaces from the distant past.
+      Sentence: A sudden ____ urge to flee gripped him the moment thunder cracked overhead.
+        agrarian
+      ✓ atavistic
+        affected
+        arduous
 
-  [gre/fiendish] propitiatory (adjective) — Intended to appease anger or win the favor of someone, especially a god.
-      Sentence: He brought a ____ gift to his offended boss, hoping to smooth things over.
-      ✓ propitiatory
-        provincial
-        precarious
-        portentous
-
-  [gre/fiendish] sheen (noun) — A soft, gentle brightness on a surface.
-      Sentence: She polished the mahogany table until it took on a warm, honeyed ____.
-        sobriety
+  [gre/fiendish] sluggard (noun) — A person who is habitually lazy and avoids work.
+      Sentence: Get up, you ____ — the others finished their chores hours ago!
+      ✓ sluggard
+        soothsayer
         semblance
-        sluggard
-      ✓ sheen
+        sodality
 
-  [sat/warmup] fallacious (adjective) — Based on faulty reasoning or mistaken belief; logically unsound.
-      Sentence: The claim that the moon landing was staged rests on ____ reasoning at every step.
-      ✓ fallacious
-        fastidious
-        fervent
-        fledgling
+  [gre/fiendish] expunge (verb) — To erase or wipe out completely, as a mark or a record.
+      Sentence: The court agreed to ____ the arrest from his record after five clean years.
+        excogitate
+        elude
+        elide
+      ✓ expunge
 
-  [sat/warmup] moderate (verb) — To reduce the extremeness or intensity of something.
-      Sentence: The doctor advised him to ____ his salt intake for the sake of his heart.
-      ✓ moderate
-        magnify
-        malign
-        mediate
+  [gre/fiendish] aberrant (adjective) — Departing markedly from what is normal, usual, or expected.
+      Sentence: The lab flagged one ____ reading that sat far outside every other result on the chart.
+        arable
+        antediluvian
+      ✓ aberrant
+        apodictic
 
-  [sat/warmup] aftermath (noun) — The situation or period following a significant, often destructive, event.
-      Sentence: In the ____ of the flood, neighbors gathered to shovel mud from each other's homes.
-        aspersion
-        antithesis
-      ✓ aftermath
-        antipathy
+  [gre/fiendish] panorama (noun) — An unbroken view of a whole surrounding area in every direction.
+      Sentence: The rooftop terrace offered a dazzling ____ of the entire city skyline at dusk.
+        perseverance
+        provender
+      ✓ panorama
+        posture
 
-  [sat/warmup] imperceptible (adjective) — Too small or gradual to be noticed or sensed.
-      Sentence: The clock's hands crept forward at an ____ pace.
+  [gre/fiendish] journeyman (noun) — A trained worker who is competent and reliable but not yet a master.
+      Sentence: He's no star, but as a steady ____ he has served eight clubs over fifteen dependable seasons.
+        jurisprudence
+        jeremiad
+        jinx
+      ✓ journeyman
+
+  [gre/fiendish] litigious (adjective) — Overly eager to sue people or start quarrels.
+      Sentence: Their ____ neighbor threatened a lawsuit over every fallen leaf and misplaced fence post.
+      ✓ litigious
+        lurid
+        lacustrine
+        luculent
+
+  [gre/fiendish] syllogism (noun) — A form of reasoning in which a conclusion is drawn from two given premises.
+      Sentence: All men are mortal; Socrates is a man; therefore Socrates is mortal — that ____ is the textbook example.
+        sodality
+        sleight
+      ✓ syllogism
+        scruple
+
+  [gre/fiendish] urbane (adjective) — Suave, polished, and courteous in manner, especially in social settings.
+      Sentence: The ____ host moved through the party dispensing witty compliments to every guest.
+        untoward
+        unhinged
+        unfettered
+      ✓ urbane
+
+  [gre/fiendish] umbrageous (adjective) — Providing shade, or full of shadows cast by leaves and trees.
+      Sentence: We spread our picnic blanket in an ____ corner of the park, grateful for the cool.
+        unmindful
+      ✓ umbrageous
+        untoward
+        urbane
+
+  [gre/fiendish] sedulity (noun) — The quality of working hard with steady, attentive care.
+      Sentence: Years of quiet ____ turned his failing corner shop into a thriving business.
+        sybarite
+        spate
+        shibboleth
+      ✓ sedulity
+
+  [gre/fiendish] sacrilegious (adjective) — Involving disrespect or violation toward something considered holy.
+      Sentence: Wearing muddy boots into the temple's inner shrine is deeply ____ there.
+        specular
+      ✓ sacrilegious
+        serendipitous
+        sophistic
+
+  [sat/warmup] imperious (adjective) — Commanding others in an arrogant, domineering way that expects instant obedience.
+      Sentence: With an ____ wave of her hand, the duchess dismissed the servants before they could speak.
+      ✓ imperious
+        incongruous
+        indeterminate
         ingenuous
-      ✓ imperceptible
-        intractable
-        implicit
-
-  [sat/warmup] concede (verb) — To admit, often reluctantly, that something is true or that you have lost.
-      Sentence: After the recount confirmed the result, the candidate finally ____ the election.
-        cajole
-      ✓ concede
-        confound
-        compound
-
-  [sat/warmup] expedite (verb) — To speed up the progress of a task or process.
-      Sentence: For an extra fee, the agency will ____ your passport application.
-      ✓ expedite
-        expound
-        elicit
-        exacerbate
-
-  [sat/warmup] innuendo (noun) — An indirect hint or sly remark suggesting something, usually negative or improper.
-      Sentence: She never accused him outright, but her ____ left everyone suspecting the worst.
-        inference
-      ✓ innuendo
-        impetus
-        inception
-
-  [sat/warmup] remorseful (adjective) — Filled with deep guilt and regret over a past wrong.
-      Sentence: Years later he remained ____ about the cruel words he'd shouted at his mother.
-        restive
-        recalcitrant
-      ✓ remorseful
-        rash
-
-  [sat/warmup] waver (verb) — To hesitate or become unsteady, weakening in resolve or movement.
-      Sentence: His voice ____ as he read the eulogy, threatening to break at every line.
-        wheedle
-        warrant
-        wither
-      ✓ waver
-
-  [sat/warmup] surly (adjective) — Bad-tempered and unfriendly in a sulking, hostile way.
-      Sentence: The ____ waiter slammed our plates down and never once smiled.
-      ✓ surly
-        salient
-        sparse
-        sanctimonious
-
-  [sat/warmup] ambiguity (noun) — The quality of being open to more than one interpretation.
-      Sentence: The ____ of her reply left us unsure whether she had agreed or refused.
-        adulation
-      ✓ ambiguity
-        agnostic
-        antipathy
-
-  [sat/warmup] haphazard (adjective) — Done without any clear plan, order, or method.
-      Sentence: His ____ packing meant he arrived with two left shoes and no socks.
-        heedless
-      ✓ haphazard
-        headstrong
-        haughty
-
-  [sat/warmup] simplify (verb) — To make something easier to understand or do by removing difficulty.
-      Sentence: The teacher tried to ____ the equation for her confused students.
-        substantiate
-        sanction
-        sway
-      ✓ simplify
-
-  [sat/warmup] overt (adjective) — Done or shown openly and not secretly.
-      Sentence: His ____ hostility was plain to everyone at the meeting.
-        penetrating
-      ✓ overt
-        oblivious
-        ornate
-
-  [sat/warmup] taciturn (adjective) — Naturally saying very little; habitually silent.
-      Sentence: The ____ farmer answered every question with a single grunted word.
-        translucent
-        tacit
-      ✓ taciturn
-        transitory
-
-  [sat/warmup] voluble (adjective) — Talking easily, freely, and at great length.
-      Sentence: So ____ was the guide that she barely paused for breath during the entire tour.
-        vindictive
-        vigilant
-      ✓ voluble
-        volatile
-
-  [sat/warmup] euphemism (noun) — A mild or indirect word used in place of one considered harsh or blunt.
-      Sentence: 'Passed away' is a gentle ____ people reach for instead of saying 'died.'
-        eulogy
-        exposition
-        encomium
-      ✓ euphemism
-
-  [sat/warmup] notional (adjective) — Existing only as an idea or in theory, not in reality.
-      Sentence: The budget listed a ____ figure for repairs, though no real estimate had been made yet.
-        nonchalant
-        nascent
-        negligible
-      ✓ notional
-
-  [sat/warmup] perennial (adjective) — Lasting or recurring through many years; continuing without stopping.
-      Sentence: Traffic is a ____ complaint here — every generation grumbles about the same jammed roads.
-      ✓ perennial
-        persuasive
-        placid
-        presumptive
 
   [sat/warmup] precursor (noun) — Something that comes before and leads to the development of another thing.
       Sentence: The clunky mechanical calculator was a ____ to the modern computer.
@@ -842,306 +716,425 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         premise
       ✓ precursor
 
-  [sat/warmup] baffle (verb) — To confuse someone completely, leaving them unable to explain or solve something.
-      Sentence: The keys vanishing from inside a locked safe ____ everyone in the house.
-        bolster
-        besiege
-        berate
-      ✓ baffle
+  [sat/warmup] mire (noun) — Deep mud, or a troublesome situation that traps you.
+      Sentence: The truck's wheels sank into the ____ right up to the axles.
+        malady
+      ✓ mire
+        maxim
+        myriad
 
-  [sat/warmup] enumerate (verb) — To name or list things one by one.
-      Sentence: The auditor ____ every expense, from paperclips to transatlantic airfare.
-      ✓ enumerate
-        evolve
-        exhort
-        escalate
+  [sat/warmup] allusion (noun) — An indirect or passing reference to a person, event, or work of art.
+      Sentence: Calling the overgrown garden 'an Eden' was an ____ to the biblical paradise.
+      ✓ allusion
+        affinity
+        adversity
+        analogy
 
-  [sat/warmup] buttress (verb) — To hold up or strengthen an argument, structure, or idea with added support.
-      Sentence: He ____ his theory with data drawn from three separate studies.
-        belittle
-        beset
-      ✓ buttress
-        besiege
+  [sat/warmup] arcane (adjective) — Known or understood by only a few, often because it is old or secret.
+      Sentence: The old librarian knew the ____ rules for accessing the archive's forbidden basement.
+        arrogant
+        ambivalent
+      ✓ arcane
+        attentive
 
-  [sat/warmup] extricate (verb) — To free someone or something from a difficult or trapped situation.
-      Sentence: She struggled to ____ her boot from the thick, sucking mud.
-      ✓ extricate
-        explicate
-        exasperate
-        evolve
+  [sat/warmup] querulous (adjective) — Complaining in a whining, peevish, and irritable manner.
+      Sentence: The ____ passenger griped about the seat, the food, and the temperature all flight long.
+        questionable
+        quintessential
+        quiescent
+      ✓ querulous
 
-  [sat/warmup] trigger (verb) — To cause something to start or happen suddenly.
-      Sentence: A single careless spark can ____ a wildfire across the dry hills.
-        transform
-        temper
-      ✓ trigger
-        thrive
+  [sat/warmup] meander (verb) — To wander or follow a winding, aimless course.
+      Sentence: We let the afternoon slip by, ____ through the old town's alleys.
+        motivate
+        mystify
+        mock
+      ✓ meander
 
-  [sat/standard] miserly (adjective) — Extremely unwilling to spend or share money.
-      Sentence: The ____ landlord refused to fix the heating just to save a few dollars.
-        mannered
-        masterful
-        measured
-      ✓ miserly
+  [sat/warmup] intelligible (adjective) — Clear enough for the mind to grasp; able to be understood.
+      Sentence: Over the crackling phone line, only a few ____ words reached her.
+        innate
+        intransigent
+        intrepid
+      ✓ intelligible
 
-  [sat/standard] ascend (verb) — To move or climb upward to a higher position.
-      Sentence: The balloon ____ until it was a tiny dot against the clouds.
-      ✓ ascend
-        amend
-        amass
-        annex
+  [sat/warmup] heterogeneous (adjective) — Made up of parts that are of many different kinds or natures.
+      Sentence: New York's ____ population speaks more than two hundred languages.
+        hostile
+        haughty
+        hypothetical
+      ✓ heterogeneous
 
-  [sat/standard] camaraderie (noun) — A warm feeling of trust and friendship among companions.
-      Sentence: The soldiers shared a deep ____ forged during long months at war.
-        cadence
-      ✓ camaraderie
-        custom
-        clash
+  [sat/warmup] accolade (noun) — An award or public honor given for a notable achievement.
+      Sentence: Winning the Nobel Prize is the highest ____ in science.
+      ✓ accolade
+        agnostic
+        apprehension
+        aspersion
 
-  [sat/standard] gainsay (verb) — To deny, contradict, or declare something false.
-      Sentence: The evidence was so overwhelming that not even his rivals dared to ____ it.
-        grant
-        garner
-      ✓ gainsay
-        generalize
+  [sat/warmup] approbation (noun) — Formal approval or hearty praise for something.
+      Sentence: The proposal won the committee's ____ without a single objection.
+        analogy
+        antithesis
+        apprehension
+      ✓ approbation
 
-  [sat/standard] procrastinate (verb) — To keep putting off something that should be done now.
-      Sentence: She ____ all week and ended up writing the essay at 3 a.m.
-        polarize
-        prohibit
-      ✓ procrastinate
-        portray
+  [sat/warmup] counterpart (noun) — A person or thing matching another in role or function within a different group.
+      Sentence: The foreign minister met her ____ from France to discuss the treaty.
+        consequence
+        commotion
+      ✓ counterpart
+        cataclysm
 
-  [sat/standard] fraternity (noun) — A brotherhood or association of people sharing a common interest or profession.
-      Sentence: He joined a college ____ and moved in with his new brothers.
-      ✓ fraternity
-        franchise
-        foresight
-        framework
+  [sat/warmup] pompous (adjective) — Showing an inflated sense of self-importance through grand words or manner.
+      Sentence: The ____ host reminded guests three times that his wine cost more than their cars.
+        pivotal
+      ✓ pompous
+        phlegmatic
+        penitent
 
-  [sat/standard] eradicate (verb) — To destroy or wipe out something completely.
-      Sentence: The vaccination campaign aimed to ____ the disease so no child would ever catch it again.
-        emulate
-        edify
-      ✓ eradicate
+  [sat/warmup] conciliatory (adjective) — Intended to calm anger and win back goodwill after a disagreement.
+      Sentence: He sent a ____ email apologizing for the mix-up and offering a full refund.
+      ✓ conciliatory
+        crestfallen
+        convoluted
+        copious
+
+  [sat/warmup] mitigate (verb) — To make something harmful or unpleasant less severe.
+      Sentence: Planting trees along the riverbank helped ____ the damage from seasonal floods.
+      ✓ mitigate
+        mature
+        meander
+        mock
+
+  [sat/warmup] skeptic (noun) — A person who habitually doubts or questions accepted beliefs and claims.
+      Sentence: When the salesman promised the pills would cure everything, the ____ demanded to see the research first.
+        scourge
+      ✓ skeptic
+        spectrum
+        scorn
+
+  [sat/warmup] conclusive (adjective) — Settling a question for good, leaving no room for doubt.
+      Sentence: The DNA match was ____, so the jury reached a verdict within an hour.
+        cautious
+        curt
+      ✓ conclusive
+        contingent
+
+  [sat/warmup] vehement (adjective) — Showing intense, forceful feeling or conviction.
+      Sentence: His ____ denial, delivered with a pounding fist, only made the jury more suspicious.
+        vindictive
+        volatile
+      ✓ vehement
+        verbose
+
+  [sat/warmup] intractable (adjective) — Hard to control, manage, or solve; stubbornly difficult.
+      Sentence: Decades of ____ conflict left every peace negotiation in ruins.
+        implicit
+      ✓ intractable
+        intrinsic
+        impetuous
+
+  [sat/warmup] outspoken (adjective) — Bold and open in stating opinions, even unpopular or risky ones.
+      Sentence: An ____ critic of the regime, she was arrested for the columns she refused to soften.
+        orthodox
+        oblivious
+      ✓ outspoken
+        ostentatious
+
+  [sat/warmup] aspersion (noun) — A damaging or false remark that attacks someone's good name.
+      Sentence: How dare you cast ____ on my honesty without a shred of proof!
+        admiration
+      ✓ aspersion
+        allusion
+        accolade
+
+  [sat/warmup] accrue (verb) — To build up gradually over time, especially interest or benefits.
+      Sentence: By leaving the deposit untouched, she let years of interest ____ in the account.
+        avert
+        attribute
+      ✓ accrue
+        arbitrate
+
+  [sat/warmup] necessitate (verb) — To make something required or unavoidable.
+      Sentence: The sudden pipe leak ____ an emergency call to the plumber.
+      ✓ necessitate
+        exacerbate
+        converge
+        avow
+
+  [sat/warmup] altruistic (adjective) — Caring more about helping others than about personal gain or reward.
+      Sentence: Her ____ decision to donate a kidney to a stranger stunned everyone who knew her.
+        amorphous
+        apocryphal
+      ✓ altruistic
+        aloof
+
+  [sat/warmup] attribute (verb) — To say that something was caused or created by a specific person or thing.
+      Sentence: Historians ____ the empire's collapse to years of unchecked corruption.
+        admonish
+      ✓ attribute
+        admire
+        accelerate
+
+  [sat/standard] statute (noun) — A formal written rule made and enforced by the governing body of a country or state.
+      Sentence: A new ____ now requires every landlord to install smoke alarms in each bedroom.
+      ✓ statute
+        satire
+        synthesis
+        sympathy
+
+  [sat/standard] calibrate (verb) — To adjust a measuring instrument so its readings are accurate against a known standard.
+      Sentence: Before the experiment, she carefully ____ the thermometer against a block of melting ice.
+        contemplate
+      ✓ calibrate
+        canvass
+        characterize
+
+  [sat/standard] simulate (verb) — To create a realistic imitation of a real process or situation, often for practice.
+      Sentence: The flight software can ____ a storm so pilots train without real danger.
+        supplant
+        subjugate
+        stratify
+      ✓ simulate
+
+  [sat/standard] lampoon (verb) — To publicly ridicule a person using humor, mockery, or biting satire.
+      Sentence: The cartoonist ____ the mayor, drawing him as a bumbling clown tripping over his own promises.
+        lobby
+        belabor
+        levy
+      ✓ lampoon
+
+  [sat/standard] adapt (verb) — To change in order to suit new conditions or situations.
+      Sentence: Desert foxes ____ to scorching heat by hunting only after sunset.
+        agitate
+        allocate
+        allude
+      ✓ adapt
+
+  [sat/standard] precedent (noun) — An earlier action or decision used as a guide for similar situations later.
+      Sentence: The court's ruling set a ____ that judges would follow for decades.
+        poverty
+        polity
+      ✓ precedent
+        plutocracy
+
+  [sat/standard] ostracize (verb) — To deliberately exclude someone from a group or from society.
+      Sentence: After he was caught cheating, his teammates ____ him for the rest of the season.
+        outstrip
+        overturn
+      ✓ ostracize
+        optimize
+
+  [sat/standard] retrospect (noun) — A looking back at events that already happened, judged from the present.
+      Sentence: In ____, quitting that safe job to start the bakery was the smartest thing he ever did.
+        rift
+      ✓ retrospect
+        renown
+        rancor
+
+  [sat/standard] efficient (adjective) — Achieving a result with little wasted effort, time, or resources.
+      Sentence: The new engine is so ____ that it travels twice as far on the same tank of fuel.
+        egalitarian
+        extravagant
+        elegiac
+      ✓ efficient
+
+  [sat/standard] collaborate (verb) — To work together with others toward a shared goal.
+      Sentence: The two novelists decided to ____ on a single detective series.
+        contravene
+        cavil
+      ✓ collaborate
+        coalesce
+
+  [sat/standard] alliance (noun) — A formal agreement between nations or groups to cooperate and support each other.
+      Sentence: The two nations signed an ____ to defend one another if either was attacked.
+      ✓ alliance
+        artifact
+        aesthete
+        apparatus
+
+  [sat/standard] tireless (adjective) — Working with great energy for a long time without becoming weary.
+      Sentence: The nurse was ____, taking double shifts throughout the whole crisis.
+      ✓ tireless
+        teeming
+        temperate
+        tranquil
+
+  [sat/standard] hierarchy (noun) — A system that ranks people or things by status or authority.
+      Sentence: In the company ____, interns answered to managers who answered to directors.
+      ✓ hierarchy
+        oblivion
+        causation
+        hindsight
+
+  [sat/standard] sagacity (noun) — Keen good judgment and the ability to make wise decisions.
+      Sentence: The old farmer predicted the storm days early, a ____ born of decades outdoors.
+      ✓ sagacity
+        synthesis
+        stance
+        squalor
+
+  [sat/standard] renown (noun) — The state of being widely celebrated and honored by many people.
+      Sentence: The violinist's ____ spread until concert halls sold out on every continent.
+        rivalry
+        regulation
+        resonance
+      ✓ renown
+
+  [sat/standard] quantify (verb) — To measure or express something as a number or amount.
+      Sentence: It's hard to ____ just how much joy the new puppy brought the family.
+      ✓ quantify
+        concur
+        underlie
         excel
 
-  [sat/standard] fertile (adjective) — Rich enough to support strong growth of crops, plants, or new life.
-      Sentence: Farmers prized the ____ valley soil, where seeds sprouted almost as soon as they were sown.
-      ✓ fertile
-        flamboyant
-        finite
-        formulaic
+  [sat/standard] autonomy (noun) — The right or ability to govern oneself and make independent decisions.
+      Sentence: The region was granted ____ and now sets its own laws.
+        analysis
+        acrimony
+        archive
+      ✓ autonomy
 
-  [sat/standard] unbiased (adjective) — Free from prejudice; treating every side equally.
-      Sentence: A good scientist reports ____ results even when they disprove her own theory.
-        utilitarian
-        unassailable
-      ✓ unbiased
-        finite
-
-  [sat/standard] lush (adjective) — Growing thickly and abundantly; rich in healthy vegetation or luxurious detail.
-      Sentence: Vines and ferns crowded the ____ jungle floor, so dense we could barely push through.
-      ✓ lush
-        lyrical
-        lethargic
-        logical
-
-  [sat/standard] expertise (noun) — Deep specialized knowledge or skill gained from long experience in a field.
-      Sentence: When the bridge cracked, the city called in an engineer whose ____ was structural failure.
-      ✓ expertise
-        equity
-        exertion
-        ethos
-
-  [sat/standard] misconstrue (verb) — To understand or interpret something wrongly.
-      Sentence: Don't ____ my silence as agreement; I simply had nothing to add.
-        marginalize
-      ✓ misconstrue
-        mesmerize
-        modernize
-
-  [sat/standard] defunct (adjective) — No longer active, operating, or in existence.
-      Sentence: We tried to redeem the coupon, but the company that issued it went ____ years ago.
-        destitute
+  [sat/standard] devoted (adjective) — Deeply loyal and committed to a person, cause, or activity.
+      Sentence: A ____ fan, he has attended every home game for the past twenty seasons.
+        demonstrable
+        discursive
         detached
-      ✓ defunct
-        derivative
+      ✓ devoted
 
-  [sat/standard] amend (verb) — To make small changes to a text or law in order to improve it.
-      Sentence: Congress voted to ____ the bill by adding two new clauses.
-        annex
-      ✓ amend
-        augment
-        attain
+  [sat/standard] systemic (adjective) — Affecting a whole body, structure, or society rather than just one part.
+      Sentence: The report exposed ____ corruption running through every branch of the government.
+        stilted
+        sanguine
+        scholarly
+      ✓ systemic
 
-  [sat/standard] rift (noun) — A serious break in friendly relations, or a crack in something.
-      Sentence: A bitter inheritance dispute opened a ____ between the two brothers.
-        republic
-        resonance
-      ✓ rift
-        remembrance
+  [sat/standard] observe (verb) — To watch or notice something carefully in order to learn about it.
+      Sentence: The scientists sat motionless for hours to ____ how the wolves hunted at dusk.
+      ✓ observe
+        optimize
+        overturn
+        oppress
 
-  [sat/standard] observation (noun) — The act of watching something closely, or a remark about what was noticed.
-      Sentence: After a week of quiet ____, the birdwatcher knew exactly which flowers the hummingbirds preferred.
-        objection
-        outlier
-        oligarchy
-      ✓ observation
+  [sat/standard] optimize (verb) — To adjust something so it works as well as it possibly can.
+      Sentence: Engineers reworked the code to ____ load times on slower phones.
+        oppress
+        ostracize
+        overturn
+      ✓ optimize
 
-  [sat/standard] mobilize (verb) — To organize and prepare a group of people or resources for action.
-      Sentence: Within hours the organizers ____ thousands of volunteers to sandbag the flooding riverbank.
-        memorialize
-        mesmerize
-      ✓ mobilize
-        misconstrue
+  [sat/standard] dispassionate (adjective) — Not swayed by strong emotion; calm and fair when judging.
+      Sentence: The judge delivered a ____ ruling, unmoved by the crowd's shouting.
+        dedicated
+      ✓ dispassionate
+        deliberate
+        discursive
 
-  [sat/standard] indifferent (adjective) — Having no interest, concern, or preference about something.
-      Sentence: She shrugged, ____ to whether they ate pizza or pasta.
-        indigent
-      ✓ indifferent
-        irreverent
-        inveterate
+  [sat/standard] render (verb) — To depict or portray something artistically, or to cause it to become a certain state.
+      Sentence: The illustrator chose to ____ the storm as swirling ribbons of gray.
+        reform
+        reciprocate
+      ✓ render
+        rescind
 
-  [sat/standard] ingenious (adjective) — Cleverly original and inventive in design or method.
-      Sentence: She found an ____ way to open the stuck jar using only a rubber band.
-        inveterate
-        indignant
-        inconsistent
-      ✓ ingenious
+  [sat/standard] apposite (adjective) — Strikingly suitable and relevant to the matter at hand.
+      Sentence: During the debate on privacy, she cited an ____ court ruling that silenced her opponent.
+        accountable
+        arduous
+        assiduous
+      ✓ apposite
 
-  [sat/standard] rancor (noun) — Bitter, long-lasting resentment or ill feeling.
-      Sentence: She spoke about her former business partner without a trace of ____.
-        renown
-      ✓ rancor
-        ritual
-        regulation
+  [sat/standard] predecessor (noun) — A person who held a job or position before someone else took it over.
+      Sentence: The new principal continued the reforms her ____ had begun years earlier.
+        parody
+      ✓ predecessor
+        privilege
+        procedure
 
-  [sat/standard] cite (verb) — To mention a source or example in order to support a claim.
-      Sentence: In her essay she was careful to ____ every study she had drawn on.
-        consummate
-        construe
-        contest
-      ✓ cite
+  [sat/hard] recede (verb) — To move back or withdraw gradually from a former position.
+      Sentence: As the tide ____, a wide stretch of wet sand appeared.
+        revitalize
+        roam
+        reconnoiter
+      ✓ recede
 
-  [sat/standard] trivialize (verb) — To treat or describe something as far less important than it really is.
-      Sentence: Don't ____ her injury; that sprained ankle could take weeks to heal.
-        transgress
-      ✓ trivialize
-        theorize
-        testify
-
-  [sat/standard] tenor (noun) — The general sense, character, or direction of something spoken or written.
-      Sentence: One angry email shifted the whole ____ of the meeting.
-      ✓ tenor
-        treason
-        toil
-        tenacity
-
-  [sat/standard] exploit (verb) — To use someone or something unfairly for your own benefit.
-      Sentence: The factory was accused of ____ workers with brutal hours and low pay.
-      ✓ exploit
-        eclipse
-        exemplify
-        estimate
-
-  [sat/standard] allocate (verb) — To set aside or assign a resource for a particular purpose or person.
-      Sentence: The manager decided to ____ half the budget to marketing this quarter.
-        automate
-        adapt
-        approximate
-      ✓ allocate
-
-  [sat/hard] witticism (noun) — A clever, amusing remark made in passing.
-      Sentence: He couldn't resist a quick ____ about the burnt toast, and the whole kitchen burst out laughing.
-        wrath
-        whimsy
-        wayfarer
-      ✓ witticism
-
-  [sat/hard] permeate (verb) — To spread through every part of something, often gradually and completely.
-      Sentence: The smell of fresh bread ____ the whole house within minutes.
-        prosecute
-        plumb
-        palliate
-      ✓ permeate
-
-  [sat/hard] decompose (verb) — To break down and rot into simpler substances through natural decay.
-      Sentence: The fallen log slowly ____, feeding mushrooms and beetles for years.
-        dread
-        delude
-      ✓ decompose
-        distend
-
-  [sat/hard] haggard (adjective) — Looking worn out and unwell from stress, tiredness, or suffering.
-      Sentence: Three sleepless nights with the newborn left her ____ by Friday morning.
-      ✓ haggard
-        hasty
-        hermetic
-        hardy
-
-  [sat/hard] sectarian (adjective) — Rigidly loyal to one group or faction, often causing bitter division.
-      Sentence: Decades of ____ conflict had split the city along religious lines.
-      ✓ sectarian
-        sterile
-        sovereign
-        subservient
-
-  [sat/hard] judiciary (noun) — The branch of government responsible for interpreting laws and settling legal disputes.
-      Sentence: An independent ____ lets courts rule fairly without pressure from politicians.
-        jest
-        jeopardy
-        entropy
-      ✓ judiciary
-
-  [sat/hard] deterrent (noun) — Something that discourages or prevents an action through fear of the consequences.
-      Sentence: Steep fines act as a ____ to illegal dumping along the river.
-      ✓ deterrent
-        despot
-        duress
-        deference
-
-  [sat/hard] bristle (verb) — To react with sudden defensive anger, like a cat's fur standing on end.
-      Sentence: She ____ the moment he questioned her honesty.
-        bond
-        beguile
-      ✓ bristle
-        bemoan
-
-  [sat/hard] fragment (noun) — A small piece broken off or detached from a larger whole.
-      Sentence: Archaeologists pieced together a shattered vase from dozens of tiny ____.
-        farce
+  [sat/hard] fetter (noun) — A chain or metal band placed on the feet to prevent movement.
+      Sentence: The prisoner shuffled slowly across the yard, each step limited by the heavy ____ around his ankles.
+        foray
+      ✓ fetter
+        fragment
         frenzy
-      ✓ fragment
-        figurehead
 
-  [sat/hard] congenial (adjective) — Pleasant and agreeable, especially because of a similar temperament.
-      Sentence: The two strangers found each other ____ company and talked for hours.
-        charismatic
-        cavalier
-        complicit
-      ✓ congenial
+  [sat/hard] remonstrate (verb) — To protest or argue forcefully against something one opposes.
+      Sentence: She ____ with the manager about the unfair firing of her coworker.
+        recoil
+      ✓ remonstrate
+        reconnoiter
+        restrict
 
-  [sat/hard] jest (noun) — A remark or action meant to be funny rather than serious.
-      Sentence: He made the outrageous boast in ____, so no one took offense.
-        jeopardy
-      ✓ jest
-        judiciary
-        precinct
+  [sat/hard] farcical (adjective) — So absurd and chaotic that it seems ridiculous rather than serious.
+      Sentence: The meeting turned ____ when three managers argued for an hour over the coffee order.
+        fraught
+      ✓ farcical
+        formidable
+        fallow
 
-  [sat/hard] evict (verb) — To legally force someone to leave a house or land they occupy.
-      Sentence: When they missed three months of rent, the landlord moved to ____ them.
-        elude
-        evade
-      ✓ evict
-        estrange
+  [sat/hard] entropy (noun) — The gradual slide of a system toward disorder, randomness, or decay.
+      Sentence: Left unmaintained, the garden surrendered to ____ and vanished under weeds.
+      ✓ entropy
+        eloquence
+        expanse
+        embargo
 
-  [sat/hard] prospect (noun) — The likelihood or expectation that something will happen in the future.
-      Sentence: The ____ of a promotion kept her working late every night.
-        poise
-        primacy
-      ✓ prospect
-        pun
+  [sat/hard] trajectory (noun) — The curved path an object or process follows through space or time.
+      Sentence: After the promotion, her career's ____ pointed straight toward the boardroom.
+        threshold
+        temperament
+        transience
+      ✓ trajectory
+
+  [sat/hard] gnarled (adjective) — Twisted, knotty, and rough, as from age or hard wear.
+      Sentence: The old sailor's ____ hands gripped the rope, knuckles knotted like oak roots.
+        gaunt
+        giddy
+      ✓ gnarled
+        gaudy
+
+  [sat/hard] disclose (verb) — To make previously hidden facts or information known.
+      Sentence: The company was forced to ____ that it had known about the defect for two years.
+        disband
+        disembark
+        desiccate
+      ✓ disclose
+
+  [sat/hard] hasty (adjective) — Done too quickly, without enough thought or care.
+      Sentence: His ____ reply, fired off before reading the full email, caused confusion.
+        heinous
+        hazardous
+        hardy
+      ✓ hasty
+
+  [sat/hard] sanctuary (noun) — A safe place offering shelter, or a sacred area within a temple.
+      Sentence: Fleeing the storm, the hikers found ____ in an old stone chapel.
+        serf
+      ✓ sanctuary
+        shackle
+        spoof
+
+  [sat/hard] intrigue (noun) — Secret plotting or scheming, usually to gain power or achieve a hidden purpose.
+      Sentence: The royal court seethed with ____, every courtier whispering plans against the others.
+      ✓ intrigue
+        inquiry
+        impunity
+        indignation
+
+  [sat/hard] adroit (adjective) — Clever and skillful, especially in handling tricky situations or using the hands.
+      Sentence: She gave an ____ reply that defused the argument without offending anyone.
+        apprehensive
+        auspicious
+        absurd
+      ✓ adroit
 
   [sat/hard] nomadic (adjective) — Roaming from place to place rather than living in one fixed home.
       Sentence: The ____ herders followed the rains, packing their tents whenever the grass ran out.
@@ -1150,194 +1143,222 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         cosmopolitan
       ✓ nomadic
 
-  [sat/hard] cacophony (noun) — A harsh, jarring mixture of sounds heard together.
-      Sentence: A ____ of car horns, drills, and shouting rose from the street below.
-      ✓ cacophony
-        clique
-        caper
-        culprit
-
-  [sat/hard] presage (verb) — To warn of or point toward something that will happen later.
-      Sentence: The still, heavy air seemed to ____ a violent storm before nightfall.
-      ✓ presage
-        permeate
-        pervade
-        plumb
-
-  [sat/hard] ire (noun) — Strong anger or intense annoyance.
-      Sentence: The referee's terrible call drew the ____ of the entire stadium.
-        iniquity
-      ✓ ire
-        despot
-        sojourn
-
-  [sat/hard] principled (adjective) — Guided by strong moral standards and clear ethical beliefs.
-      Sentence: A ____ reporter, she refused the bribe even though no one would ever have known.
-        precarious
-        pastoral
-        populous
-      ✓ principled
-
-  [sat/hard] restrict (verb) — To put limits on what someone can do or how much of something exists.
-      Sentence: The new rules ____ visitors to two hours inside the gallery.
-        rankle
-        remonstrate
-        rebound
-      ✓ restrict
-
-  [sat/hard] injustice (noun) — An act or situation that is unfair and violates people's rights.
-      Sentence: Being fired for reporting the fraud struck everyone as a glaring ____.
-        intrigue
-      ✓ injustice
-        idiom
-        indenture
-
-  [sat/hard] sprawling (adjective) — Spreading out widely and irregularly over a large area.
-      Sentence: The ____ estate covered three hills, its gardens wandering off in every direction.
-      ✓ sprawling
-        sallow
-        subordinate
-        subservient
-
-  [sat/hard] panorama (noun) — An unbroken view of a wide area surrounding the observer.
-      Sentence: The rooftop bar offered a breathtaking ____ of the entire glittering city.
-        precaution
-      ✓ panorama
-        peril
-        pith
-
-  [sat/hard] disquiet (noun) — A feeling of worry or anxiety that disturbs one's peace of mind.
-      Sentence: A growing ____ spread through the crowd as the results were delayed.
-        denizen
-      ✓ disquiet
-        duress
-        deference
-
-  [sat/hard] uproot (verb) — To pull a plant fully from the soil, or displace someone from home.
-      Sentence: The storm ____ the old oak and flung it clear across the road.
-        unnerve
-        usurp
-        unleash
-      ✓ uproot
-
-  [sat/hard] debonair (adjective) — Confident, stylish, and charming in a smooth, refined way, especially describing a man.
-      Sentence: In his tailored tuxedo he moved through the party looking utterly ____, greeting each guest with an easy smile.
-        deadpan
-        deleterious
-      ✓ debonair
-        desultory
-
-  [sat/fiendish] seminal (adjective) — Strongly shaping later developments by serving as an original source of ideas.
-      Sentence: Darwin's ____ book reshaped how every biologist after him understood living things.
-        subservient
-      ✓ seminal
-        surreptitious
-        sterile
-
-  [sat/fiendish] fervor (noun) — Intense and passionate feeling or burning enthusiasm for something.
-      Sentence: The crowd sang the national anthem with a ____ that gave me chills.
-      ✓ fervor
-        frontier
-        forbearance
-        facade
-
-  [sat/fiendish] settlement (noun) — A place where people establish homes and begin living, often newly founded.
-      Sentence: The first ____ on the river grew from a dozen huts into a thriving port town.
-        scrutiny
+  [sat/hard] shackle (noun) — A metal ring or cuff used to bind a person's wrists or ankles.
+      Sentence: The museum displayed a rusted ____ once clamped onto the wrists of enslaved workers.
         solace
-        serf
-      ✓ settlement
+        stereotype
+      ✓ shackle
+        spoof
 
-  [sat/fiendish] arable (adjective) — Suitable for plowing and growing crops.
-      Sentence: The valley's rich, ____ soil made it ideal for wheat farming.
-        apprehensive
-        aghast
-        ascetic
-      ✓ arable
+  [sat/hard] supremacy (noun) — The state of being highest in authority, rank, or power.
+      Sentence: For centuries the navy secured the nation's ____ over the seas.
+        sycophant
+      ✓ supremacy
+        scruple
+        savant
 
-  [sat/fiendish] scowl (verb) — To frown in a sullen, angry, or bad-tempered way.
-      Sentence: The bouncer ____ at the teenagers trying to sneak past the door.
-        seclude
-        sequester
-        satirize
-      ✓ scowl
+  [sat/hard] incense (verb) — To make someone extremely angry, provoking hot indignation.
+      Sentence: The referee's blatantly wrong call ____ the entire stadium into a roar.
+      ✓ incense
+        interweave
+        intertwine
+        incorporate
 
-  [sat/fiendish] winnow (verb) — To narrow a large group down to the best or essential few.
-      Sentence: The committee had to ____ two hundred applicants down to a shortlist of five.
-        wilt
-        wince
-        wager
-      ✓ winnow
+  [sat/hard] repository (noun) — A place or container where things are stored or kept.
+      Sentence: The library serves as a ____ for the town's historical records.
+        regime
+        respite
+        reprobate
+      ✓ repository
 
-  [sat/fiendish] temperance (noun) — Moderation and self-restraint, especially in eating, drinking, or desire.
-      Sentence: His lifelong ____ meant he never touched alcohol and always left the table half-full.
-        temerity
-        tribunal
-        trove
-      ✓ temperance
+  [sat/hard] boundless (adjective) — Having no apparent limits; seemingly without end.
+      Sentence: A child's ____ energy left the exhausted parents begging for a nap.
+        blithe
+      ✓ boundless
+        bleak
+        bemused
 
-  [sat/fiendish] bloom (verb) — To produce flowers, or to reach a healthy, vigorous, and flourishing state.
-      Sentence: By late spring the orchard was in full ____, every branch heavy with pink petals.
-        bristle
-        banish
-      ✓ bloom
-        bond
+  [sat/hard] noxious (adjective) — Harmful or poisonous to living things, especially through fumes or chemicals.
+      Sentence: ____ fumes from the burning factory forced nearby residents to evacuate.
+        derelict
+        resurgent
+        vicarious
+      ✓ noxious
 
-  [sat/fiendish] rue (verb) — To feel bitter regret about something one has said or done.
-      Sentence: "You will ____ the day you ever betrayed me," she said quietly.
-        recoil
-        roam
-      ✓ rue
-        relocate
+  [sat/hard] malfeasance (noun) — Wrongdoing or misconduct, especially by someone holding public office.
+      Sentence: The mayor was charged with ____ after quietly diverting city funds into his own account.
+        milieu
+        mockery
+        manacle
+      ✓ malfeasance
 
-  [sat/fiendish] platitude (noun) — A dull, overused remark stated as if it were fresh or meaningful.
-      Sentence: The graduation speech offered nothing but ____ like 'follow your dreams' and 'never give up.'
-      ✓ platitude
-        prerogative
-        panorama
-        partiality
+  [sat/hard] machination (noun) — A secret and cunning plot designed to cause harm or gain advantage.
+      Sentence: The duke's ____ toppled two rivals before anyone suspected he was behind it.
+        miscreant
+        migration
+      ✓ machination
+        mettle
 
-  [sat/fiendish] vanguard (noun) — The front position of an advancing group, or the leaders of a new trend.
-      Sentence: These sculptors were the ____ of a movement that redefined modern art.
-      ✓ vanguard
-        voyage
-        vexation
-        vista
+  [sat/hard] deliverance (noun) — Rescue or release from danger, bondage, or serious difficulty.
+      Sentence: After forty days lost at sea, the sight of a rescue ship felt like ____.
+        despot
+        denizen
+        dialect
+      ✓ deliverance
 
-  [sat/fiendish] brash (adjective) — Behaving with bold, tactless confidence and little regard for consequences.
-      Sentence: He made a ____ remark about the boss's plan without thinking about how it would land.
-        bereft
-        brooding
-      ✓ brash
-        bucolic
+  [sat/hard] righteous (adjective) — Acting in a morally correct way, or justified by a strong sense of fairness.
+      Sentence: She felt a ____ anger when she saw the bully stealing lunch money from the younger kids.
+        roguish
+        remote
+        rootless
+      ✓ righteous
 
-  [sat/fiendish] profuse (adjective) — Produced or existing in very large amounts.
-      Sentence: She offered ____ apologies, thanking everyone over and over.
-        pernicious
-        portentous
-      ✓ profuse
-        profound
+  [sat/hard] risible (adjective) — Deserving to be mocked or laughed at; absurdly ridiculous.
+      Sentence: His ____ excuse — that aliens had eaten his homework — earned only a raised eyebrow.
+        resurgent
+        reckless
+        reclusive
+      ✓ risible
 
-  [sat/fiendish] vexation (noun) — The state of being annoyed, irritated, or troubled.
-      Sentence: With rising ____, she reread the manual that still explained nothing.
-        vernacular
-        vanguard
-      ✓ vexation
-        vagabond
+  [sat/hard] glean (verb) — To collect information or material gradually, a little at a time.
+      Sentence: From scattered receipts, the detective ____ the suspect's movements over the week.
+        gamble
+        germinate
+      ✓ glean
+        glower
 
-  [sat/fiendish] decamp (verb) — To depart suddenly and often secretly from a place.
-      Sentence: The con artist would ____ to a new town whenever suspicions began to rise.
-        disclose
-      ✓ decamp
+  [sat/fiendish] refuge (noun) — A safe place giving shelter or protection from danger or hardship.
+      Sentence: During the storm, the hikers found ____ in a small cave until the winds died down.
+      ✓ refuge
+        rapture
+        reticence
+        regime
+
+  [sat/fiendish] debonair (adjective) — Confident, stylish, and charming in a smooth, refined way, especially describing a man.
+      Sentence: In his tailored tuxedo he moved through the party looking utterly ____, greeting each guest with an easy smile.
+        deceptive
+        draconian
+      ✓ debonair
+        deadpan
+
+  [sat/fiendish] rapture (noun) — A feeling of overwhelming joy or ecstatic delight that carries you away.
+      Sentence: The first notes of her favorite symphony sent the listener into pure ____.
+      ✓ rapture
+        reciprocity
+        ruse
+        regime
+
+  [sat/fiendish] odyssey (noun) — A long, eventful journey full of changing fortunes and adventures.
+      Sentence: Her decade-long ____ through refugee camps finally ended in a quiet town.
+        outcast
+      ✓ odyssey
+        overseer
+        obeisance
+
+  [sat/fiendish] inhibit (verb) — To hold back, slow down, or discourage an action or process.
+      Sentence: Cold weather can ____ the growth of these tropical plants.
+        inhabit
+        inveigle
+      ✓ inhibit
+        infringe
+
+  [sat/fiendish] imperturbable (adjective) — Not able to be disturbed, excited, or made anxious.
+      Sentence: Throughout the chaotic negotiation, the old diplomat remained ____, quietly sipping his tea.
+        inquisitive
+        invidious
+        inexorable
+      ✓ imperturbable
+
+  [sat/fiendish] glower (verb) — To stare angrily or sullenly at someone.
+      Sentence: He ____ at the referee after the missed call cost his team the game.
+        gamble
+        glean
+      ✓ glower
+        germinate
+
+  [sat/fiendish] risible (adjective) — Deserving to be mocked or laughed at; absurdly ridiculous.
+      Sentence: His ____ excuse — that aliens had eaten his homework — earned only a raised eyebrow.
+        replete
+      ✓ risible
+        rootless
+        reckless
+
+  [sat/fiendish] charade (noun) — An obvious pretense or empty show that convinces no one.
+      Sentence: Their marriage had become a ____, all smiles at parties and silence at home.
+        contagion
+        captivity
+      ✓ charade
+        charisma
+
+  [sat/fiendish] illusory (adjective) — Seeming real but actually false and not to be trusted.
+      Sentence: The startup's promised riches proved ____ once investors examined the empty bank accounts.
+      ✓ illusory
+        imperturbable
+        impassive
+        impulsive
+
+  [sat/fiendish] hilarity (noun) — Boisterous merriment, or an outburst of amusement and cheer.
+      Sentence: The dog stole the sausages mid-barbecue, and the ensuing chaos dissolved the guests into ____.
+        homeland
+      ✓ hilarity
+        hoax
+        haven
+
+  [sat/fiendish] vapid (adjective) — Lacking liveliness, flavor, or substance; offering nothing that stimulates interest or thought.
+      Sentence: The talk show filled an hour with ____ chatter about celebrities, leaving viewers no wiser than before.
+        venturesome
+        vulnerable
+      ✓ vapid
+        vicarious
+
+  [sat/fiendish] serendipitous (adjective) — Occurring by a lucky, unplanned chance in a welcome and pleasant way.
+      Sentence: Our ____ meeting at the airport gate grew into a lifelong friendship.
+        standoffish
+        stoic
+      ✓ serendipitous
+        sectarian
+
+  [sat/fiendish] turgid (adjective) — Swollen and distended, or pompous and overblown in style.
+      Sentence: The professor's ____ prose buried one simple idea beneath mountains of jargon.
+        totalitarian
+        tyrannical
+        tremulous
+      ✓ turgid
+
+  [sat/fiendish] litigate (verb) — To carry a dispute through the courts as a lawsuit.
+      Sentence: Rather than settle, the company chose to ____ the patent claim for years.
+        dither
+        sap
+      ✓ litigate
         detain
-        debilitate
 
-  [sat/fiendish] sprawling (adjective) — Spreading out widely and irregularly over a large area.
-      Sentence: The ____ estate covered three hills, its gardens wandering off in every direction.
-      ✓ sprawling
-        stolid
-        surreptitious
-        sallow
+  [sat/fiendish] efficacy (noun) — The power or ability to produce a desired result.
+      Sentence: Clinical trials were designed to test the new vaccine's ____ against the variant.
+        epiphany
+        expanse
+        exemplar
+      ✓ efficacy
+
+  [sat/fiendish] stolid (adjective) — Calm and dependable but showing little emotion or interest.
+      Sentence: The ____ guard stood at the gate for hours, unmoved by the tourists' pleas and jokes.
+      ✓ stolid
+        skittish
+        sylvan
+        sovereign
+
+  [sat/fiendish] pastoral (adjective) — Relating to the countryside, shepherds, or idealized rural living.
+      Sentence: The poem painted a ____ scene of shepherds resting beside a quiet stream.
+        puckish
+        prolific
+      ✓ pastoral
+        profuse
+
+  [sat/fiendish] usurp (verb) — To take power, a position, or rights by force and without the right to.
+      Sentence: The general plotted to ____ the throne while the queen was away.
+        unravel
+        unearth
+        unveil
+      ✓ usurp
 
   [sat/fiendish] consternation (noun) — A feeling of anxious dismay that leaves one unsure how to act.
       Sentence: To the crowd's ____, the announcer declared the flight cancelled.
@@ -1346,58 +1367,37 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         cornucopia
       ✓ consternation
 
-  [sat/fiendish] quarantine (noun) — A period of isolation used to stop the spread of disease.
-      Sentence: The sick travelers were kept in ____ for two weeks before release.
-        quip
-        vanguard
-        anguish
-      ✓ quarantine
+  [sat/fiendish] heinous (adjective) — Shockingly evil or utterly monstrous.
+      Sentence: The jury heard details of a crime so ____ that several members began to weep.
+        hasty
+        hazardous
+      ✓ heinous
+        decrepit
 
-  [sat/fiendish] beguile (verb) — To charm or trick someone with pleasing but misleading behavior.
-      Sentence: The con artist ____ the widow with his warm smile and false promises.
-        bloom
-      ✓ beguile
-        banish
-        bemoan
+  [sat/fiendish] turpitude (noun) — Extreme baseness or vileness of character.
+      Sentence: He was disbarred for moral ____ after defrauding his elderly clients for years.
+        tome
+        transience
+        trek
+      ✓ turpitude
 
-  [sat/fiendish] foil (verb) — To stop a plan or effort from succeeding; to thwart it.
-      Sentence: An alert night guard ____ the robbery before the thieves reached the vault.
-      ✓ foil
-        fester
-        fuse
-        fraternize
+  [sat/fiendish] wilderness (noun) — A wild, uncultivated region where few people live and nature runs untamed.
+      Sentence: They trekked for days through the ____ without seeing a single road or house.
+        wag
+      ✓ wilderness
+        whimsy
+        warden
 
-  [sat/fiendish] dread (verb) — To feel intense fear or anxiety about something expected to come.
-      Sentence: She began to ____ Mondays because of the endless string of meetings.
-        delve
-      ✓ dread
-        disclose
-        desiccate
+  [sat/fiendish] recuperate (verb) — To regain health, strength, or losses after illness, exhaustion, or a setback.
+      Sentence: He took two weeks off to ____ after the exhausting deadline crunch.
+        recuse
+        rattle
+      ✓ recuperate
+        relent
 
-  [sat/fiendish] bemused (adjective) — Puzzled, confused, or lost in mild bewilderment.
-      Sentence: She stared at the assembly instructions with a ____ frown, unsure which end was up.
-        buoyant
-      ✓ bemused
-        bucolic
-        blithe
-
-  [sat/fiendish] precinct (noun) — A defined district of a town or city, often used for policing or voting.
-      Sentence: After the robbery, officers hauled the suspect down to the local ____ for questioning.
-        panorama
-        persona
-        platitude
-      ✓ precinct
-
-  [sat/fiendish] mirth (noun) — Amusement or gladness, especially as expressed in laughter.
-      Sentence: The comedian's perfect timing filled the whole room with ____.
-      ✓ mirth
-        mettle
-        manacle
-        machination
-
-  [sat/fiendish] meld (verb) — To combine elements so completely they seem like one thing.
-      Sentence: The band ____ jazz and hip-hop into a genuinely fresh sound.
-        mislead
-        mortify
-        manipulate
-      ✓ meld
+  [sat/fiendish] periphery (noun) — The outer edge or boundary area of something, away from its center.
+      Sentence: New housing sprang up on the ____ of the city, far from downtown.
+        primacy
+        provenance
+      ✓ periphery
+        precinct

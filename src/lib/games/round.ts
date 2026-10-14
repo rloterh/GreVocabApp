@@ -31,6 +31,8 @@ export interface RoundInput {
   length?: number;
   /** Pass one in when building many rounds over the same pool. */
   index?: RelationIndex;
+  /** Unscramble: letter keys more than one corpus word shares. */
+  ambiguous?: ReadonlySet<string>;
 }
 
 export function buildRound(input: RoundInput): GameRound {
@@ -60,6 +62,7 @@ export function buildRound(input: RoundInput): GameRound {
       random,
       truth: truths?.[questions.length],
       exclude: asked,
+      ambiguous: input.ambiguous,
     });
     if (!question) continue;
     // Every word a question shows is spent for the round, not only its

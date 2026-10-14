@@ -16,11 +16,21 @@ export const GAME_NAMES: Record<GameId, string> = {
   odd: "Odd One Out",
   match: "Match Up",
   spell: "Spell It",
+  unscramble: "Unscramble",
   daily: "Daily Round",
 };
 
 /** Hub order. The Daily Round is not in it: it has its own card. */
-export const GAME_ORDER: readonly GameId[] = ["closest", "fact", "opposites", "gap", "odd", "match", "spell"];
+export const GAME_ORDER: readonly GameId[] = [
+  "closest",
+  "fact",
+  "opposites",
+  "gap",
+  "odd",
+  "match",
+  "spell",
+  "unscramble",
+];
 
 export const TIER_LABEL: Record<Tier, string> = {
   warmup: "Warm-up",

@@ -180,7 +180,11 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
       {round.questions.map((q, i) => {
         const a = answers[i];
         const yours =
-          q.kind === "spell"
+          q.kind === "tiles"
+            ? a?.correct
+              ? q.word
+              : null
+            : q.kind === "spell"
             ? a?.typed ?? null
             : q.kind === "match"
               ? `${a?.matched ?? 0} of ${q.pairs.length} paired`
@@ -188,7 +192,7 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
                 ? null
                 : q.options[a.chosen];
         const right =
-          q.kind === "spell" ? q.word : q.kind === "match" ? "all five" : q.options[q.answer]!;
+          q.kind === "spell" || q.kind === "tiles" ? q.word : q.kind === "match" ? "all five" : q.options[q.answer]!;
         const expanded = open === i;
         return (
           <li key={`${i}-${q.wordId}`}>

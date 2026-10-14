@@ -21,6 +21,8 @@ import { keyOf, monthKey } from "@/lib/track";
 import { studiedWords, tierOrdinals } from "@/lib/games/pool";
 import { buildRelationIndex, type RelationIndex, type RelationSource } from "@/lib/games/relations";
 import { parseRelationsFile } from "@/lib/games/relations-file";
+import { ambiguousKeys } from "@/lib/games/builders/unscramble";
+import { parseAnagramRisk } from "@/lib/games/anagram-risk";
 import type { Tier } from "@/lib/games/types";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -36,6 +38,8 @@ export type GameCorpus =
       pool: VocabWord[];
       monthOf: Record<string, string>;
       index: RelationIndex;
+      /** Letter keys that spell more than one word in the corpus (Unscramble). */
+      ambiguous: ReadonlySet<string>;
     };
 
 const BASE = import.meta.env.BASE_URL;
@@ -43,6 +47,7 @@ const BASE = import.meta.env.BASE_URL;
 // Session caches. Promises, so two components asking at once share one fetch.
 let libraryIndex: Promise<Array<{ track: Track; ordinal: number }>> | null = null;
 let relations: Promise<RelationSource[]> | null = null;
+let anagramRisk: Promise<string[]> | null = null;
 const monthFiles = new Map<string, Promise<VocabMonth>>();
 
 function fetchJson(path: string): Promise<unknown> {
@@ -67,6 +72,15 @@ function getRelations() {
     .then(parseRelationsFile)
     .catch(() => []);
   return relations;
+}
+
+function getAnagramRisk() {
+  // Missing means only the corpus's own anagrams are known; Unscramble still
+  // plays, a little less carefully.
+  anagramRisk ??= fetchJson("vocab/anagram-risk.json")
+    .then(parseAnagramRisk)
+    .catch(() => []);
+  return anagramRisk;
 }
 
 function getMonth(track: Track, ordinal: number): Promise<VocabMonth> {
@@ -94,11 +108,16 @@ function wordsOf(months: readonly VocabMonth[]) {
   return { words, monthOf };
 }
 
-export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
+/**
+ * `attempt` re-runs the fetch: bump it to retry after an error. Failed fetches
+ * are never cached (each promise removes itself on failure), so a retry after
+ * the network returns actually goes back to the network.
+ */
+export function useGameCorpus(track: Track, tier: Tier | null, attempt = 0): GameCorpus {
   const months = useVocabStore((s) => s.months);
   const progress = useProgressStore((s) => s.words);
   const [fetched, setFetched] = useState<
-    | { key: string; months: VocabMonth[]; relations: RelationSource[] }
+    | { key: string; months: VocabMonth[]; relations: RelationSource[]; risky: string[] }
     | { key: string; error: string }
     | null
   >(null);
@@ -111,9 +130,9 @@ export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
     const key = `${track}:${tier}`;
     (async () => {
       try {
-        const graph = await getRelations();
+        const [graph, risky] = await Promise.all([getRelations(), getAnagramRisk()]);
         if (tier === "mine") {
-          if (!cancelled) setFetched({ key, months: [], relations: graph });
+          if (!cancelled) setFetched({ key, months: [], relations: graph, risky });
           return;
         }
         const listed = (await getLibraryIndex()).filter((m) => m.track === track);
@@ -122,7 +141,7 @@ export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
         const files = await Promise.all(
           ordinals.map((o) => loaded[monthKey(track, o)] ?? getMonth(track, o)),
         );
-        if (!cancelled) setFetched({ key, months: files, relations: graph });
+        if (!cancelled) setFetched({ key, months: files, relations: graph, risky });
       } catch (e) {
         if (!cancelled) {
           setFetched({ key, error: e instanceof Error ? e.message : "Could not load the words." });
@@ -132,7 +151,7 @@ export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
     return () => {
       cancelled = true;
     };
-  }, [track, tier]);
+  }, [track, tier, attempt]);
 
   return useMemo<GameCorpus>(() => {
     if (!tier || !fetched || fetched.key !== requestKey) return { status: "loading" };
@@ -143,6 +162,14 @@ export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
     // edited or imported guards the round as well as the shipped ones.
     const everyLoaded = wordsOf(Object.values(months)).words;
 
+    // Every word either track knows, for the anagram check.
+    // and every common English word, through the build-time file.
+    const ambiguous = ambiguousKeys([
+      ...fetched.relations.map((r) => r.word),
+      ...everyLoaded.map((w) => w.word),
+    ]);
+    for (const k of fetched.risky) ambiguous.add(k);
+
     if (tier === "mine") {
       const { words, monthOf } = wordsOf(loadedInTrack);
       return {
@@ -151,6 +178,7 @@ export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
         pool: words,
         monthOf,
         index: buildRelationIndex([...fetched.relations, ...everyLoaded]),
+        ambiguous,
       };
     }
 
@@ -164,6 +192,7 @@ export function useGameCorpus(track: Track, tier: Tier | null): GameCorpus {
       pool: words,
       monthOf,
       index: buildRelationIndex([...fetched.relations, ...everyLoaded]),
+      ambiguous,
     };
   }, [tier, fetched, requestKey, months, track, progress]);
 }

@@ -30,6 +30,9 @@ import { GAMES, GAME_ORDER, TIER_LABEL } from "../src/lib/games/catalogue";
 import { tierOrdinals } from "../src/lib/games/pool";
 import { buildRelationIndex } from "../src/lib/games/relations";
 import { parseRelationsFile } from "../src/lib/games/relations-file";
+import { ambiguousKeys } from "../src/lib/games/builders/unscramble";
+import { parseAnagramRisk } from "../src/lib/games/anagram-risk";
+import { anagramRiskFromCorpus } from "./lib/anagram-risk";
 import { relationsFromCorpus } from "./lib/relations-file";
 import { buildRound, eligibleCount } from "../src/lib/games/round";
 import { seededShuffle } from "../src/lib/order";
@@ -81,6 +84,13 @@ function describe(q: GameQuestion, word: VocabWord, track: Track, tier: Tier): s
       "",
     ];
   }
+  if (q.kind === "tiles") {
+    return [
+      `  [${track}/${tier}] (${q.partOfSpeech}) — ${q.definition}`,
+      `      Tiles: ${q.tiles.join(" ").toUpperCase()}   Answer: ${q.word}`,
+      "",
+    ];
+  }
   if (q.kind === "spell") {
     return [
       `  [${track}/${tier}] (${q.partOfSpeech}) — ${q.definition}`,
@@ -117,6 +127,7 @@ const RUBRIC: Record<string, string> = {
   gap: "The ✓ word should be the one that fits the sentence. Mark DEFENSIBLE if a wrong option fits the sentence about as well, WRONG KEY if ✓ does not fit.",
   odd: "Three options should share a meaning and ✓ should clearly not. Mark DEFENSIBLE if ✓ arguably belongs with the others or another option arguably does not, WRONG if the three do not really share a meaning.",
   match: "Each word should pair with exactly one item on its board. Mark AMBIGUOUS if an item could fairly pair with a second word on the same board, WRONG if a pair is not a fair match.",
+  unscramble: "The tiles must spell the answer and no other common English word, and the definition must identify it. Mark ANAGRAM if the tiles also spell another common word (name it), GIVEAWAY if the definition contains the answer, WRONG if the definition does not fit.",
   spell: "The definition should identify the word without giving it away. Mark GIVEAWAY if the definition contains the word or an obvious form of it, WRONG if the definition does not fit the answer.",
   fact: "The statement should be clearly FACT or clearly FICTION as marked. Mark WRONG if the intended verdict is wrong or arguable, or if the statement is ungrammatical or misleading.",
 };
@@ -132,7 +143,18 @@ if (shipped !== JSON.stringify(relationsFromCorpus(ROOT))) {
   console.log("FAIL relations.json is missing or stale — run: npx tsx scripts/build-relations.ts");
   process.exit(1);
 }
-const index = buildRelationIndex(parseRelationsFile(JSON.parse(shipped)));
+const relationEntries = parseRelationsFile(JSON.parse(shipped));
+const index = buildRelationIndex(relationEntries);
+// Unscramble's anagram exclusions, exactly as the app assembles them: the
+// corpus's own, plus the build-time list of common-English collisions.
+const riskPath = join(ROOT, "anagram-risk.json");
+const riskShipped = existsSync(riskPath) ? readFileSync(riskPath, "utf-8") : "";
+if (riskShipped !== JSON.stringify(anagramRiskFromCorpus(ROOT))) {
+  console.log("FAIL anagram-risk.json is missing or stale — run: npx tsx scripts/build-anagrams.ts");
+  process.exit(1);
+}
+const ambiguous = ambiguousKeys(relationEntries.map((r) => r.word));
+for (const k of parseAnagramRisk(JSON.parse(riskShipped))) ambiguous.add(k);
 
 const report: string[] = [];
 const samples = new Map<string, string[]>();
@@ -155,13 +177,13 @@ for (const game of GAME_ORDER) {
 
       const started = performance.now();
       const full = buildRound({
-        game, track, tier, prompts: words, pool: words, monthOf, seed: 7 + TIERS.indexOf(tier) * 101,
+        game, track, tier, prompts: words, pool: words, monthOf, seed: 7 + TIERS.indexOf(tier) * 101, ambiguous,
         length: words.length, index,
       });
       const perQuestionMs = (performance.now() - started) / Math.max(1, full.questions.length);
 
       const t0 = performance.now();
-      const ten = buildRound({ game, track, tier, prompts: words, pool: words, monthOf, seed: 11 });
+      const ten = buildRound({ game, track, tier, prompts: words, pool: words, monthOf, seed: 11, ambiguous });
       const roundMs = performance.now() - t0;
 
       const eligible = eligibleCount(game, words);

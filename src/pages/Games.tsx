@@ -120,7 +120,8 @@ export function Games() {
   const [shortfall, setShortfall] = useState<string | null>(null);
   // Starts loading the moment a tier is picked, so the words are usually
   // ready by the time the rules card has been read.
-  const corpus = useGameCorpus(track, choice?.tier ?? null);
+  const [corpusAttempt, setCorpusAttempt] = useState(0);
+  const corpus = useGameCorpus(track, choice?.tier ?? null, corpusAttempt);
 
   const pick = useCallback((game: GameId, tier: Tier) => {
     setChoice({ game, tier });
@@ -172,6 +173,7 @@ export function Games() {
             pool: ready.pool,
             monthOf: ready.monthOf,
             index: ready.index,
+            ambiguous: ready.ambiguous,
             // A fresh round every time; seeded so a given round is reproducible.
             seed: seedFor([game, track, tier, String(Date.now()), String(attempt)]),
           });
@@ -393,9 +395,15 @@ export function Games() {
 
               {shortfall && <p className="mt-4 text-sm text-warning">{shortfall}</p>}
               {corpus.status === "error" && (
-                <p className="mt-4 text-sm text-destructive">
-                  Couldn't load these words. Your own words still work — try Mine.
-                </p>
+                <div className="mt-4 rounded-lg border border-destructive/40 bg-destructive/5 p-3 text-sm" role="alert">
+                  <p>Couldn’t load these words — are you offline?</p>
+                  <p className="mt-1 text-muted-foreground">
+                    Your own studied words don’t need a connection: try Mine.
+                  </p>
+                  <Button variant="outline" size="sm" className="mt-2" onClick={() => setCorpusAttempt((n) => n + 1)}>
+                    Try again
+                  </Button>
+                </div>
               )}
 
               <Button

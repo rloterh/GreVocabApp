@@ -23,4 +23,9 @@ export interface BuildContext {
    * Up takes five per board — skips these, so no word appears twice in a round.
    */
   exclude?: ReadonlySet<string>;
+  /**
+   * Unscramble: sorted-letter keys that more than one corpus word shares. A
+   * word whose letters spell another word is never asked.
+   */
+  ambiguous?: ReadonlySet<string>;
 }

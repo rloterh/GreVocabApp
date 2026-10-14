@@ -19,6 +19,12 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   with one button, and that is the only way in. A finished round counts toward
   the streak. Design: docs/GAMES.md;
   decision: docs/adr/0016-games-are-rounds-not-progression.md.
+- **Unscramble**: a definition and the word's letters as tiles — tap or type
+  them into order. Never a word whose letters also spell another common word
+  ("attic" for *tacit*). Passed a blind review of fresh questions at 0%.
+- **A small buzz for right and wrong answers** on phones that can, with the
+  sound switch.
+- **Games work out what went wrong offline**, and Try again does what it says.
 - **The Daily Round.** Ten mixed questions, the same for everyone on your track
   today, with one tap to play from the Dashboard. Your first finish is the
   day's result — replays are practice — and a record of the last fourteen

@@ -12,7 +12,16 @@
 import type { Track } from "@/types";
 
 /** Every game the catalogue can build. Grows one id per shipped game. */
-export type GameId = "closest" | "fact" | "opposites" | "gap" | "odd" | "match" | "spell" | "daily";
+export type GameId =
+  | "closest"
+  | "fact"
+  | "opposites"
+  | "gap"
+  | "odd"
+  | "match"
+  | "spell"
+  | "unscramble"
+  | "daily";
 
 /**
  * Where a round's words come from.
@@ -138,7 +147,24 @@ export interface VerdictQuestion {
 }
 
 /** A union so a new game adds a member rather than widening one. */
-export type GameQuestion = ChoiceQuestion | VerdictQuestion | MatchQuestion | SpellQuestion;
+/**
+ * Unscramble: a definition and the word's letters, shuffled. `options` is the
+ * answer alone and `answer` is 0, as in Spell It: the stage dispatches 0 when
+ * the tiles spell the word, and lets the clock run out otherwise.
+ */
+export interface TilesQuestion {
+  kind: "tiles";
+  wordId: string;
+  word: string;
+  partOfSpeech: string;
+  definition: string;
+  tiles: string[];
+  options: string[];
+  answer: number;
+  explain: Explanation;
+}
+
+export type GameQuestion = ChoiceQuestion | VerdictQuestion | MatchQuestion | SpellQuestion | TilesQuestion;
 
 export const VERDICT_OPTIONS = ["Fact", "Fiction"] as const;
 

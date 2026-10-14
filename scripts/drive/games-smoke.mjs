@@ -367,6 +367,74 @@ await page.waitForTimeout(500);
 
 check((await progressWords()) === wordsBefore, "seven games later, still no word progress written");
 
+// ── Phase 23: Unscramble, and the offline state ────────────────────────────
+await startGame("Unscramble");
+await page.waitForFunction(
+  () => document.querySelectorAll('[data-testid="game-stage"] [aria-label="Letters"] button:not([disabled])').length >= 5,
+  null,
+  { timeout: 8000 },
+);
+const letters = await stage.locator('[aria-label="Letters"] button').evaluateAll((els) =>
+  els.map((e) => e.getAttribute("aria-label").replace("Letter ", "")),
+);
+const slots = () =>
+  stage.locator('[aria-label^="Your word"]').getAttribute("aria-label").then((l) => Number(l.match(/(\d+) of/)[1]));
+// Typing places tiles; Backspace takes one back.
+await page.keyboard.press(letters[0]);
+await page.keyboard.press(letters[1]);
+check((await slots()) === 2, "typing places tiles");
+await page.keyboard.press("Backspace");
+check((await slots()) === 1, "Backspace takes one back");
+// "p" is a letter here, not the pause key.
+await page.keyboard.press("Backspace");
+await page.keyboard.press("p");
+check(!(await stage.getByText("Paused", { exact: true }).isVisible()), "typing p on the board does not pause");
+await page.keyboard.press("Backspace");
+await page.keyboard.press(letters[0]);
+// The tiles in their dealt order are never the word: a full wrong row shakes and clears.
+for (const l of letters.slice(1)) await page.keyboard.press(l);
+await page.waitForTimeout(700);
+const afterWrong = await slots();
+check(afterWrong === 0, "a wrong full row clears, and costs nothing but time", `${afterWrong} placed; tiles ${letters.join("")}`);
+// The hint places the first letter and keeps it there.
+await stage.getByRole("button", { name: /Hint/ }).click();
+check((await slots()) === 1, "the hint places the first letter");
+// Let the clock run out: the answer is shown.
+await stage.getByRole("button", { name: "Continue" }).waitFor({ timeout: 30_000 });
+check(/it was/i.test(await stage.innerText()), "a time-out shows the word");
+await page.keyboard.press("Escape");
+await page.waitForTimeout(300);
+await stage.getByRole("button", { name: "Quit to Games" }).click();
+await page.waitForTimeout(500);
+
+// Offline: the word files fail, the card says so, and Try again recovers.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const p4 = await ctx.newPage();
+  await p4.addInitScript(() =>
+    localStorage.setItem("lexicon.settings.v1", JSON.stringify({ state: { hasOnboarded: true }, version: 0 })),
+  );
+  await p4.goto(URL, { waitUntil: "networkidle" });
+  await p4.waitForTimeout(1200);
+  await p4.route(/\/vocab\/(gre|sat)\/\d+\.json$/, (route) => route.abort("internetdisconnected"));
+  await p4.getByRole("button", { name: "Games", exact: true }).first().click();
+  await p4.waitForTimeout(700);
+  await p4.locator("section").filter({ hasText: "Closest Meaning" }).getByRole("button", { name: "Hard", exact: true }).click();
+  const alert = p4.getByRole("alert");
+  await alert.waitFor({ timeout: 15000 });
+  check(/offline/i.test(await alert.innerText()), "offline: the rules card says what happened");
+  check(await p4.getByRole("button", { name: "Play", exact: true }).isDisabled().catch(() => true), "and Play waits");
+  await p4.unroute(/\/vocab\/(gre|sat)\/\d+\.json$/);
+  await alert.getByRole("button", { name: "Try again" }).click();
+  await p4.waitForFunction(
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    null,
+    { timeout: 15000 },
+  );
+  check(true, "Try again recovers once the connection is back");
+  await ctx.close();
+}
+
 // ── Phase 22: the Daily Round, from the Dashboard and back ─────────────────
 const playMixedRound = async () => {
   await page.getByTestId("game-stage").waitFor();

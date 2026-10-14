@@ -152,6 +152,45 @@ function applyResources(check) {
   else console.log("ok   resources already up to date");
 }
 
+/**
+ * Permissions the generated manifest lacks.
+ *
+ * VIBRATE, so the games' haptic feedback reaches the motor: without it an
+ * Android WebView ignores `navigator.vibrate` without a word, which is
+ * exactly the kind of failure nobody finds. Normal-protection, so it is
+ * granted at install and never prompts.
+ */
+const PERMISSIONS = ["android.permission.VIBRATE"];
+
+function applyPermissions(check) {
+  const manifest = path.join(root, "src-tauri/gen/android/app/src/main/AndroidManifest.xml");
+  if (!existsSync(manifest)) {
+    console.error(`No manifest at ${path.relative(root, manifest)}.`);
+    process.exit(1);
+  }
+  let source = readFileSync(manifest, "utf-8");
+  const missing = PERMISSIONS.filter((p) => !source.includes(`android:name="${p}"`));
+  if (missing.length === 0) {
+    console.log("ok   permissions already declared");
+    return;
+  }
+  if (check) {
+    for (const p of missing) console.log(`MISS ${p} not declared`);
+    process.exitCode = 1;
+    return;
+  }
+  const anchor = source.match(/<manifest[^>]*>\r?\n/);
+  if (!anchor) {
+    console.error("Could not find the <manifest> element. Aborting.");
+    process.exit(1);
+  }
+  const eol = anchor[0].endsWith("\r\n") ? "\r\n" : "\n";
+  const lines = missing.map((p) => `    <uses-permission android:name="${p}" />${eol}`).join("");
+  source = source.replace(anchor[0], anchor[0] + lines);
+  writeFileSync(manifest, source);
+  console.log(`ok   declared ${missing.join(", ")}`);
+}
+
 function main() {
   if (!existsSync(gradle)) {
     console.error(
@@ -163,6 +202,7 @@ function main() {
   const check = process.argv.includes("--check");
   applySigning(check);
   applyResources(check);
+  applyPermissions(check);
 }
 
 main();

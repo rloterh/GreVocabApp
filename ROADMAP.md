@@ -24,9 +24,9 @@ A games section of timed, scored rounds modelled on Merriam-Webster's word
 games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
-**Phases 19–22 are done** — seven games and the Daily Round. **Next is
-Phase 23**, craft: Unscramble, haptics, and the empty, loading and offline
-states. Design:
+**Phases 19–23 are done** — eight games, the Daily Round, haptics and the
+offline state. **Next:** Phase 24 (Picture It) is gated on a cost decision,
+so the next buildable step is Phase 25, the v1.2 release. Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -846,14 +846,38 @@ Progress pages.
 
 ### Tasks
 
-- **[P2] Unscramble.**
-- **[P2] Haptics.** — `canVibrate` in `platform.ts`, tied to the sound switch.
-- **[P2] AI-written statements.** — Usage-template statements for Fact or Fiction,
-  through the provider layer with a strict schema (GAMES-PROMPTS.md §B). → Opt-in
-  and validated; cached in memory only. **The heuristic game never depends on
-  it.**
-- **[P2] Empty, loading and offline states** per GAMES-UI.md §5, each one
-  screenshotted.
+- ~~**[P2] Unscramble.**~~ **DONE 2026-10-14.** — Blind reads: **6.0% → 0%**.
+  Every flag was an anagram among ordinary English words — *tacit*/"attic",
+  *dirge*/"ridge", *slump*/"plums" — which the corpus cannot know. Fixed with a
+  dictionary **at build time**: `scripts/build-anagrams.ts` checks every corpus
+  word against SCOWL levels 10–50 (`wordlist-english`, a dev dependency that
+  never ships) and writes the 371 colliding letter-sets to a 3.5 KB file; the
+  audit fails if it is stale. The corpus's own anagrams (*discreet*/*discrete*)
+  are caught too. Wrong arrangements cost only time; the hint places the first
+  letter for half points. **Driving it found two bugs:** typing a "p" on the
+  board paused the game (Unscramble takes letters with no text field, so the
+  pause key now stands down there too), and the board re-checked a full row on
+  every 100 ms re-render of the stage — the clear timer never fired and the
+  "wrong" sound replayed ten times a second.
+- ~~**[P2] Haptics.**~~ **DONE 2026-10-14.** — `canVibrate` (the API on a
+  touch screen), a short tap for right and a double pulse for wrong, behind
+  the sound switch. `android-prepare.mjs` now declares `VIBRATE`, without
+  which an Android WebView ignores `navigator.vibrate` silently; applied and
+  re-checked against the real generated manifest. **Not felt on hardware** —
+  no device or emulator run this phase.
+- **[P2] AI-written statements.** **Deferred, deliberately.** Every other
+  question in the games passed a blind read of a fresh sample before it
+  shipped; model-written statements would be generated per player, at play
+  time, and could not be held to that bar. It also makes Fact or Fiction
+  depend on a provider for a template the heuristic version does without.
+  Revisit only with a way to review what ships — for instance, generated once
+  at corpus-build time and reviewed like the rest.
+- ~~**[P2] Empty, loading and offline states.**~~ **DONE 2026-10-14.** — A word
+  file that fails to load now says so ("are you offline?"), points at Mine
+  (studied words need no network), and offers **Try again**, which really
+  re-fetches: failed fetches are never cached. Driven by blocking the files,
+  then unblocking and retrying. Loading is the Play button's own label;
+  a too-small Mine pool already said why.
 
 ## Phase 24 — Picture It (gated)
 

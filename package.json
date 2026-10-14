@@ -69,6 +69,7 @@
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3",
     "vite": "^6.4.3",
-    "vitest": "^5.0.0"
+    "vitest": "^5.0.0",
+    "wordlist-english": "1.2.1"
   }
 }

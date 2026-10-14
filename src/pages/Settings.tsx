@@ -15,7 +15,7 @@ import { useSettingsStore } from "@/store/useSettingsStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
-import { canScheduleNotifications } from "@/lib/platform";
+import { canScheduleNotifications, canVibrate } from "@/lib/platform";
 import {
   notificationPermission,
   requestNotificationPermission,
@@ -464,7 +464,7 @@ export function Settings() {
 
       <SettingSection
         title="Sound"
-        description="A short click when a card flips, and a chime when a session ends. Off by default."
+        description="A short click when a card flips, a chime when a session ends, and — on a phone that can — a small buzz for right and wrong answers in games. Off by default."
       >
         <div className="space-y-3">
           <label className="flex items-center gap-2 text-sm cursor-pointer">
@@ -478,7 +478,7 @@ export function Settings() {
               }}
               className="accent-accent"
             />
-            Interface sounds
+            Interface sounds{canVibrate() ? " and vibration" : ""}
           </label>
           <Button
             variant="outline"

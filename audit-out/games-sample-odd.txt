@@ -1,190 +1,62 @@
-Lexicon games — Odd One Out, a sample for a reader (seed 8)
+Lexicon games — Odd One Out, a sample for a reader (seed 10)
 Three options should share a meaning and ✓ should clearly not. Mark DEFENSIBLE if ✓ arguably belongs with the others or another option arguably does not, WRONG if the three do not really share a meaning.
 Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
 
-  [gre/warmup] satirize (verb) — To use humor and irony to expose and criticize people's faults or society's flaws.
+  [gre/warmup] curb (verb) — To limit, control, or reduce something so it stays within bounds.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ subside
-        satirize
-        lampoon
-        parody
-      Note: “satirize”, “lampoon” and “parody” are close in meaning. “subside” means to sink to a lower level or grow calmer and quieter.
+      ✓ chatter
+        restrain
+        check
+        curb
+      Note: “curb”, “restrain” and “check” are close in meaning. “chatter” means to talk quickly and continuously about unimportant things.
 
-  [gre/warmup] belligerent (adjective) — Eager to fight or behaving in a hostile, aggressive way.
+  [gre/warmup] steadfast (adjective) — Firm and unwavering in loyalty, purpose, or conviction.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        combative
-        hostile
-        belligerent
-      ✓ boorish
-      Note: “belligerent”, “hostile” and “combative” are close in meaning. “boorish” means rude, clumsy, and lacking good manners or social sensitivity.
+        steadfast
+        unwavering
+      ✓ sapient
+        constant
+      Note: “steadfast”, “unwavering” and “constant” are close in meaning. “sapient” means showing deep wisdom and a strong ability to reason.
 
-  [gre/warmup] terse (adjective) — Brief and to the point, using very few words, sometimes bordering on rude.
+  [gre/warmup] Esoteric (adjective) — Intended for or understood by only a small number with specialized knowledge.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        succinct
-        terse
-      ✓ truculent
-        concise
-      Note: “terse”, “concise” and “succinct” are close in meaning. “truculent” means eager or quick to argue or fight; aggressively defiant.
+        abstruse
+      ✓ exuberant
+        arcane
+        esoteric
+      Note: “esoteric”, “arcane” and “abstruse” are close in meaning. “exuberant” means overflowing with lively energy, excitement, and high spirits.
 
-  [gre/warmup] impertinent (adjective) — Rudely bold or forward, showing a lack of proper respect.
+  [gre/warmup] adroit (adjective) — Skillful and quick, especially in handling tricky or delicate situations.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        impertinent
-        insolent
-      ✓ imperceptible
-        cheeky
-      Note: “impertinent”, “cheeky” and “insolent” are close in meaning. “imperceptible” means so slight or gradual that it cannot be noticed.
+        adroit
+        skillful
+      ✓ ascendant
+        deft
+      Note: “adroit”, “skillful” and “deft” are close in meaning. “ascendant” means rising toward greater power, popularity, or influence.
 
-  [gre/warmup] dwindle (verb) — To become steadily smaller in size, amount, or number.
+  [gre/warmup] inveigle (verb) — To coax someone into doing something using flattery or clever persuasion.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        diminish
-      ✓ denigrate
-        shrink
-        dwindle
-      Note: “dwindle”, “shrink” and “diminish” are close in meaning. “denigrate” means to criticize unfairly; to attack the reputation of.
+        wheedle
+        cajole
+        inveigle
+      ✓ intimate
+      Note: “inveigle”, “cajole” and “wheedle” are close in meaning. “intimate” means to make something known quietly or by subtle hint.
 
-  [gre/warmup] fruitful (adjective) — Producing plentiful positive results or achievements.
+  [gre/warmup] superfluous (adjective) — Beyond what is needed; serving no useful purpose.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        productive
-        fruitful
-      ✓ florid
-        prolific
-      Note: “fruitful”, “productive” and “prolific” are close in meaning. “florid” means excessively elaborate or ornate; reddish in complexion.
+        superfluous
+        excess
+      ✓ subtle
+        redundant
+      Note: “superfluous”, “excess” and “redundant” are close in meaning. “subtle” means so delicate or slight that it is hard to notice or describe.
 
-  [gre/warmup] chastise (verb) — To criticize or punish someone harshly for wrongdoing.
+  [gre/warmup] ascendancy (noun) — A position of dominant control or governing influence over others.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        castigate
-      ✓ constrain
-        chastise
-        rebuke
-      Note: “chastise”, “rebuke” and “castigate” are close in meaning. “constrain” means to hold back or limit what someone is able to do.
-
-  [gre/warmup] dubious (adjective) — Feeling uncertain, or seeming unreliable and not worthy of trust.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        questionable
-      ✓ discriminating
-        doubtful
-        dubious
-      Note: “dubious”, “doubtful” and “questionable” are close in meaning. “discriminating” means having refined judgment that recognizes small differences in quality.
-
-  [gre/warmup] Erudite (adjective) — Having or showing great knowledge or learning.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        scholarly
-      ✓ evasive
-        learned
-        erudite
-      Note: “erudite”, “learned” and “scholarly” are close in meaning. “evasive” means tending to avoid giving direct answers or facing something openly.
-
-  [gre/warmup] diatribe (noun) — A long, angry speech that bitterly criticizes something or someone.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        harangue
-      ✓ deficiency
-        diatribe
-        tirade
-      Note: “diatribe”, “tirade” and “harangue” are close in meaning. “deficiency” means a lack of something necessary for health, function, or completeness.
-
-  [gre/warmup] sham (noun) — Something presented as real that is actually fake or hollow.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        pretense
-        sham
-      ✓ subtlety
-        facade
-      Note: “sham”, “pretense” and “facade” are close in meaning. “subtlety” means the quality of being delicate or faint, or a fine distinction easily missed.
-
-  [gre/warmup] glorify (verb) — To describe something as grander or more admirable than it truly is.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        exalt
-        extol
-      ✓ gauge
-        glorify
-      Note: “glorify”, “exalt” and “extol” are close in meaning. “gauge” means to estimate or judge the amount, level, or nature of something.
-
-  [gre/warmup] sincere (adjective) — Genuine and honest, without pretense or false feeling.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        sincere
-        heartfelt
-      ✓ saturnine
-        genuine
-      Note: “sincere”, “genuine” and “heartfelt” are close in meaning. “saturnine” means having a gloomy, cold, and sardonic temperament.
-
-  [gre/warmup] Bucolic (adjective) — Relating to the pleasant aspects of the countryside and country life.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        pastoral
-      ✓ blatant
-        bucolic
-        rural
-      Note: “bucolic”, “rural” and “pastoral” are close in meaning. “blatant” means completely obvious and done without any shame or attempt to hide.
-
-  [gre/warmup] rhetoric (noun) — The art of using language skillfully to persuade or impress an audience.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ reparation
-        oratory
-        rhetoric
-        eloquence
-      Note: “rhetoric”, “oratory” and “eloquence” are close in meaning. “reparation” means compensation given for a wrong or injury, often after a war.
-
-  [gre/warmup] mutter (verb) — To speak in a low, unclear voice, usually while grumbling.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ mollify
-        mutter
-        murmur
-        mumble
-      Note: “mutter”, “murmur” and “mumble” are close in meaning. “mollify” means to reduce another person's anger or distress and make them feel better.
-
-  [gre/warmup] bounty (noun) — A generous, plentiful yield or gift, especially from nature or a harvest.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        bounty
-      ✓ monologue
-        largesse
-        generosity
-      Note: “bounty”, “generosity” and “largesse” are close in meaning. “monologue” means a long speech delivered by a single speaker.
-
-  [gre/warmup] stolid (adjective) — Showing little emotion and staying unmoved by excitement or distress.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        stolid
-        impassive
-      ✓ submissive
-        phlegmatic
-      Note: “stolid”, “impassive” and “phlegmatic” are close in meaning. “submissive” means tending to yield meekly to the control or authority of others.
-
-  [gre/warmup] fertile (adjective) — Able to produce abundant crops, offspring, or ideas.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        fecund
-        fertile
-      ✓ fledgling
-        fruitful
-      Note: “fertile”, “fruitful” and “fecund” are close in meaning. “fledgling” means new, inexperienced, and only just getting started.
-
-  [gre/warmup] dauntless (adjective) — Fearless and unwilling to be discouraged by danger or difficulty.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        dauntless
-        fearless
-        undaunted
-      ✓ discreet
-      Note: “dauntless”, “fearless” and “undaunted” are close in meaning. “discreet” means careful and tactful in what you say or do, so as to avoid attracting notice.
-
-  [gre/warmup] pithy (adjective) — Brief and full of meaning; expressing much in few words.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        concise
-      ✓ penurious
-        terse
-        pithy
-      Note: “pithy”, “concise” and “terse” are close in meaning. “penurious” means extremely poor; stingy with money.
-
-  [gre/warmup] wary (adjective) — Feeling cautious and alert about possible danger or trouble.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ wily
-        cautious
-        wary
-        guarded
-      Note: “wary”, “cautious” and “guarded” are close in meaning. “wily” means clever at using tricks or schemes to gain an advantage.
-
-  [gre/warmup] toady (noun) — A person who flatters powerful people constantly to win their favor.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        flatterer
-      ✓ thrall
-        sycophant
-        toady
-      Note: “toady”, “sycophant” and “flatterer” are close in meaning. “thrall” means the condition of being completely under another's power, or a person held in bondage.
+      ✓ acclaim
+        ascendancy
+        dominance
+        supremacy
+      Note: “ascendancy”, “dominance” and “supremacy” are close in meaning. “acclaim” means enthusiastic public approval and praise.
 
   [gre/warmup] extol (verb) — To praise someone or something highly and enthusiastically.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -194,197 +66,213 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
       ✓ ensnare
       Note: “extol”, “laud” and “acclaim” are close in meaning. “ensnare” means to catch someone in a trap or difficult situation they cannot escape.
 
-  [gre/warmup] glaring (adjective) — So obvious it cannot be missed, like a harsh, blinding light.
+  [gre/warmup] despot (noun) — A ruler who holds absolute power and often wields it cruelly or unfairly.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        glaring
-        blatant
-        obvious
-      ✓ gauche
-      Note: “glaring”, “obvious” and “blatant” are close in meaning. “gauche” means lacking ease or grace; socially awkward.
+        autocrat
+      ✓ dictum
+        tyrant
+        despot
+      Note: “despot”, “tyrant” and “autocrat” are close in meaning. “dictum” means a formal pronouncement made with authority, or a well-known saying.
 
-  [gre/standard] fluster (verb) — To make someone nervous, confused, and unable to think clearly.
+  [gre/warmup] fathom (verb) — To fully comprehend something complex or mysterious through careful thought.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ flit
-        fluster
-        unnerve
-        rattle
-      Note: “fluster”, “rattle” and “unnerve” are close in meaning. “flit” means to move swiftly and lightly from one place to another.
+        grasp
+        comprehend
+        fathom
+      ✓ flourish
+      Note: “fathom”, “comprehend” and “grasp” are close in meaning. “flourish” means to thrive, develop strongly, and be at one's healthiest or most successful.
 
-  [gre/standard] affluent (adjective) — Having plenty of money and a comfortable, prosperous standard of living.
+  [gre/warmup] pardon (verb) — To officially forgive someone and cancel their punishment for a crime.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        wealthy
-        prosperous
-      ✓ allusive
-        affluent
-      Note: “affluent”, “wealthy” and “prosperous” are close in meaning. “allusive” means full of indirect or hinted references to other things rather than plain statements.
+        pardon
+      ✓ perpetuate
+        absolve
+        forgive
+      Note: “pardon”, “forgive” and “absolve” are close in meaning. “perpetuate” means to cause something to continue or be preserved for a very long time.
 
-  [gre/standard] revival (noun) — The act of bringing something back to life, use, or popularity.
+  [gre/warmup] germinate (verb) — To sprout and begin growing, the way a seed does.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ remnant
-        renaissance
-        revival
-        resurgence
-      Note: “revival”, “resurgence” and “renaissance” are close in meaning. “remnant” means a small piece left over after the rest is used or gone.
+        sprout
+      ✓ gorge
+        bud
+        germinate
+      Note: “germinate”, “sprout” and “bud” are close in meaning. “gorge” means to eat something eagerly in very large amounts.
 
-  [gre/standard] quail (verb) — To lose one's nerve and shrink back in the face of danger or difficulty.
+  [gre/warmup] Diaphanous (adjective) — Light, delicate, and translucent.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        cower
-        recoil
-        quail
-      ✓ waft
-      Note: “quail”, “cower” and “recoil” are close in meaning. “waft” means to carry or float gently through the air, as a smell or sound.
+      ✓ desultory
+        sheer
+        gossamer
+        diaphanous
+      Note: “diaphanous”, “sheer” and “gossamer” are close in meaning. “desultory” means lacking a plan, purpose, or enthusiasm; random.
 
-  [gre/standard] bolster (verb) — To strengthen or give support to something, such as an argument or morale.
+  [gre/warmup] sate (verb) — To fill someone completely with food or pleasure until no more is wanted.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        bolster
-        strengthen
-        reinforce
-      ✓ becalm
-      Note: “bolster”, “reinforce” and “strengthen” are close in meaning. “becalm” means to leave a sailing vessel motionless for lack of wind.
+        satiate
+        satisfy
+        sate
+      ✓ screech
+      Note: “sate”, “satisfy” and “satiate” are close in meaning. “screech” means to make a harsh, high-pitched, grating noise.
 
-  [gre/standard] persuade (verb) — To win someone over, through reasoning or appeal, to a view or action.
+  [gre/warmup] Fastidious (adjective) — Very attentive to accuracy and detail; hard to please.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        persuade
-      ✓ pivot
-        sway
-        convince
-      Note: “persuade”, “convince” and “sway” are close in meaning. “pivot” means to turn around a central point, or to shift strategy or direction sharply.
+        fastidious
+      ✓ facile
+        punctilious
+        meticulous
+      Note: “fastidious”, “meticulous” and “punctilious” are close in meaning. “facile” means achieved with little effort and often too shallow or oversimplified.
 
-  [gre/standard] philanthropy (noun) — The practice of helping others, especially by giving money to good causes.
+  [gre/warmup] enunciate (verb) — To pronounce words clearly and distinctly.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        benevolence
-        philanthropy
-      ✓ perpetuity
-        charity
-      Note: “philanthropy”, “charity” and “benevolence” are close in meaning. “perpetuity” means the state of continuing forever or without any foreseeable end.
+        pronounce
+      ✓ exalt
+        articulate
+        enunciate
+      Note: “enunciate”, “articulate” and “pronounce” are close in meaning. “exalt” means to raise someone to a higher rank, or to praise them very highly.
 
-  [gre/standard] epoch (noun) — A particular period in history marked by notable events or features.
+  [gre/warmup] reprimand (verb) — To formally and sternly express disapproval of someone's actions.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ euphony
-        epoch
-        era
-        age
-      Note: “epoch”, “era” and “age” are close in meaning. “euphony” means a pleasing, harmonious quality in the sounds of spoken words or music.
+        censure
+        reprimand
+        rebuke
+      ✓ ruminate
+      Note: “reprimand”, “rebuke” and “censure” are close in meaning. “ruminate” means to turn something over slowly in your mind again and again.
 
-  [gre/standard] lineage (noun) — The line of people from whom someone is descended; ancestry.
+  [gre/warmup] impede (verb) — To slow down an action or make it more difficult.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ luxuriance
-        ancestry
-        pedigree
-        lineage
-      Note: “lineage”, “ancestry” and “pedigree” are close in meaning. “luxuriance” means the quality of growing thickly, richly, and in great abundance.
+        hamper
+        impede
+        hinder
+      ✓ impart
+      Note: “impede”, “hamper” and “hinder” are close in meaning. “impart” means to pass on knowledge, information, or a quality to others.
 
-  [gre/standard] torrent (noun) — A violent, fast-moving stream or a heavy outpouring.
+  [gre/warmup] rhetoric (noun) — The art of using language skillfully to persuade or impress an audience.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        torrent
-        deluge
-      ✓ tenure
-        flood
-      Note: “torrent”, “flood” and “deluge” are close in meaning. “tenure” means the period during which someone holds an office, job, or property.
+      ✓ reparation
+        oratory
+        rhetoric
+        eloquence
+      Note: “rhetoric”, “oratory” and “eloquence” are close in meaning. “reparation” means compensation given for a wrong or injury, often after a war.
 
-  [gre/standard] grit (noun) — Firm determination and courage that keeps someone going through hardship.
+  [gre/warmup] benevolent (adjective) — Kind, generous, and wanting to do good for other people.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ glee
-        tenacity
-        perseverance
-        grit
-      Note: “grit”, “perseverance” and “tenacity” are close in meaning. “glee” means great delight, often at one's own good fortune or another's mishap.
+      ✓ bellicose
+        benevolent
+        kind
+        charitable
+      Note: “benevolent”, “kind” and “charitable” are close in meaning. “bellicose” means demonstrating aggression and willingness to fight.
 
-  [gre/standard] illuminate (verb) — To light something up, or to help explain a subject and make it easier to grasp.
+  [gre/warmup] trite (adjective) — Overused and therefore lacking originality or freshness.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        elucidate
-        illuminate
-        clarify
-      ✓ impel
-      Note: “illuminate”, “elucidate” and “clarify” are close in meaning. “impel” means to urge or force someone toward an action by inner pressure.
+        trite
+        banal
+      ✓ turgid
+        hackneyed
+      Note: “trite”, “hackneyed” and “banal” are close in meaning. “turgid” means overly elaborate and inflated in style, or swollen and bloated.
 
-  [gre/standard] listless (adjective) — Lacking energy, enthusiasm, or any interest in doing something.
+  [gre/warmup] privation (noun) — A state of lacking essential things like food, shelter, or comfort.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        listless
-        indifferent
-      ✓ lucrative
-        apathetic
-      Note: “listless”, “apathetic” and “indifferent” are close in meaning. “lucrative” means producing a great deal of profit or wealth.
+        hardship
+        destitution
+        privation
+      ✓ penchant
+      Note: “privation”, “hardship” and “destitution” are close in meaning. “penchant” means a strong and habitual liking for something.
 
-  [gre/standard] dilapidated (adjective) — Fallen into partial ruin or disrepair through age or neglect.
+  [gre/warmup] vilify (verb) — To spread damaging statements that make someone seem wicked or worthless.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        decrepit
-        dilapidated
-        ramshackle
-      ✓ disjointed
-      Note: “dilapidated”, “ramshackle” and “decrepit” are close in meaning. “disjointed” means lacking logical order or a smooth connection between parts.
+        defame
+        malign
+      ✓ veil
+        vilify
+      Note: “vilify”, “defame” and “malign” are close in meaning. “veil” means to cover or partly hide something so it cannot be clearly seen.
 
-  [gre/standard] bedlam (noun) — A scene of noisy, uncontrolled confusion.
+  [gre/warmup] pliable (adjective) — Flexible enough to bend with ease, or readily persuaded to change.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        pandemonium
-        bedlam
-      ✓ breach
-        uproar
-      Note: “bedlam”, “pandemonium” and “uproar” are close in meaning. “breach” means a gap made in a barrier, or an act of breaking a rule or agreement.
+        malleable
+        supple
+        pliable
+      ✓ pertinent
+      Note: “pliable”, “supple” and “malleable” are close in meaning. “pertinent” means directly connected to, and relevant for, the matter being considered.
 
-  [gre/standard] itinerant (adjective) — Traveling from one place to another, typically to find or perform work.
+  [gre/warmup] lavish (adjective) — Spending or given generously, often in an extravagant way.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        itinerant
-        peripatetic
-      ✓ impenetrable
-        roving
-      Note: “itinerant”, “peripatetic” and “roving” are close in meaning. “impenetrable” means impossible to pass through, enter, or understand.
+        opulent
+      ✓ loquacious
+        extravagant
+        lavish
+      Note: “lavish”, “extravagant” and “opulent” are close in meaning. “loquacious” means tending to talk a great deal; talkative.
 
-  [gre/standard] nurture (verb) — To care for and encourage the growth of someone or something.
+  [gre/standard] cordial (adjective) — Warm, sincere, and polite in the way one treats others.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        cultivate
-        foster
-        nurture
-      ✓ perish
-      Note: “nurture”, “cultivate” and “foster” are close in meaning. “perish” means to die or be destroyed, often suddenly or under harsh conditions.
+        genial
+      ✓ cadaverous
+        affable
+        cordial
+      Note: “cordial”, “genial” and “affable” are close in meaning. “cadaverous” means resembling a corpse in being pale, thin, and deathly in appearance.
 
-  [gre/standard] commotion (noun) — A noisy, confused disturbance or sudden burst of excited activity.
+  [gre/standard] maelstrom (noun) — A violent whirlpool, or a situation of great turbulence and uncontrollable confusion.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ cascade
-        uproar
-        tumult
-        commotion
-      Note: “commotion”, “uproar” and “tumult” are close in meaning. “cascade” means a small waterfall or a flow tumbling down in stages.
+        whirlpool
+      ✓ mettle
+        vortex
+        maelstrom
+      Note: “maelstrom”, “whirlpool” and “vortex” are close in meaning. “mettle” means a person's strength of spirit and ability to face hardship bravely.
 
-  [gre/standard] bravado (noun) — A show of confidence or daring meant to impress, often masking fear.
+  [gre/standard] scholarly (adjective) — Showing deep learning and careful, serious academic study.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        swagger
-      ✓ concordance
-        bluster
-        bravado
-      Note: “bravado”, “swagger” and “bluster” are close in meaning. “concordance” means a state of agreement between things; also an alphabetical index of a text's words.
+        erudite
+        scholarly
+      ✓ straitened
+        learned
+      Note: “scholarly”, “erudite” and “learned” are close in meaning. “straitened” means restricted by a severe shortage of money.
 
-  [gre/standard] liberality (noun) — The quality of giving freely and being open-handed or broad-minded.
+  [gre/standard] rapport (noun) — A close relationship in which people understand each other and communicate easily.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        generosity
-        bounty
-        liberality
-      ✓ lapse
-      Note: “liberality”, “generosity” and “bounty” are close in meaning. “lapse” means a brief failure, slip, or gap in something normally maintained.
+        rapport
+      ✓ rebuttal
+        affinity
+        connection
+      Note: “rapport”, “connection” and “affinity” are close in meaning. “rebuttal” means an argument or reply that opposes and tries to disprove a claim.
 
-  [gre/standard] compatible (adjective) — Able to exist or function together without conflict.
+  [gre/standard] classify (verb) — To sort things into groups based on their shared qualities.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        compatible
-        congruous
-        harmonious
-      ✓ conversant
-      Note: “compatible”, “harmonious” and “congruous” are close in meaning. “conversant” means familiar with a subject through study or experience.
+        categorize
+        sort
+        classify
+      ✓ cultivate
+      Note: “classify”, “categorize” and “sort” are close in meaning. “cultivate” means to prepare land for crops, or to develop something carefully over time.
 
-  [gre/standard] resuscitate (verb) — To bring an unconscious or nearly dead person back to consciousness or life.
+  [gre/standard] unflappable (adjective) — Staying calm and composed no matter how stressful the situation becomes.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        resuscitate
-        revivify
-      ✓ ripen
-        revive
-      Note: “resuscitate”, “revive” and “revivify” are close in meaning. “ripen” means to reach full maturity or readiness, especially fruit.
+        imperturbable
+        composed
+      ✓ unbridled
+        unflappable
+      Note: “unflappable”, “composed” and “imperturbable” are close in meaning. “unbridled” means not held back or controlled by any restraint.
 
-  [gre/standard] befuddle (verb) — To make someone unable to think straight, as if muddled or slightly drunk.
+  [gre/standard] courageous (adjective) — Showing the ability to face fear or danger without backing down.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        disorient
-      ✓ balloon
-        befuddle
-        muddle
-      Note: “befuddle”, “muddle” and “disorient” are close in meaning. “balloon” means to increase quickly to a large size or amount.
+      ✓ callow
+        brave
+        valiant
+        courageous
+      Note: “courageous”, “brave” and “valiant” are close in meaning. “callow” means young and immature, without the experience that comes with age.
+
+  [gre/standard] tarry (verb) — To stay in one place longer than needed, or be slow to leave.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        loiter
+      ✓ terrify
+        linger
+        tarry
+      Note: “tarry”, “linger” and “loiter” are close in meaning. “terrify” means to fill someone with overwhelming, paralyzing fear.
+
+  [gre/standard] annotate (verb) — To add explanatory notes or comments to a text or diagram.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        gloss
+        note
+      ✓ adjure
+        annotate
+      Note: “annotate”, “note” and “gloss” are close in meaning. “adjure” means to earnestly urge or solemnly command someone to do something, as if under oath.
 
   [gre/standard] cavort (verb) — To jump around excitedly or behave in a boisterous, playful manner.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -394,141 +282,157 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
       ✓ comprehend
       Note: “cavort”, “frolic” and “romp” are close in meaning. “comprehend” means to fully understand the meaning or nature of something.
 
-  [gre/standard] implore (verb) — To beg someone desperately and emotionally to do something.
+  [gre/standard] blossom (verb) — To develop and flourish into something fuller or more attractive.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        plead
-      ✓ immobilize
-        implore
-        beseech
-      Note: “implore”, “plead” and “beseech” are close in meaning. “immobilize” means to prevent a person or thing from moving or being moved.
+        blossom
+        flourish
+      ✓ begrudge
+        bloom
+      Note: “blossom”, “flourish” and “bloom” are close in meaning. “begrudge” means to resent or envy what another person has or receives.
 
-  [gre/hard] ardor (noun) — Intense warmth of feeling, passion, or zeal.
+  [gre/standard] insightful (adjective) — Showing a deep and accurate grasp of a person or situation.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        ardor
-        passion
-        fervor
-      ✓ admonition
-      Note: “ardor”, “passion” and “fervor” are close in meaning. “admonition” means a firm warning or mild scolding meant to correct someone's behavior.
+      ✓ inaugural
+        insightful
+        perceptive
+        discerning
+      Note: “insightful”, “perceptive” and “discerning” are close in meaning. “inaugural” means relating to the very first occurrence or official start of something.
 
-  [gre/hard] consecrate (verb) — To formally declare something holy or dedicate it to a divine purpose.
+  [gre/standard] peevish (adjective) — Easily irritated and inclined to complain about small things.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        bless
-        sanctify
-        consecrate
-      ✓ calumniate
-      Note: “consecrate”, “sanctify” and “bless” are close in meaning. “calumniate” means to make false and damaging statements that injure someone's reputation.
+        petulant
+        irritable
+        peevish
+      ✓ profligate
+      Note: “peevish”, “irritable” and “petulant” are close in meaning. “profligate” means spending money or resources recklessly and wastefully, with no thought for the future.
 
-  [gre/hard] obliterate (verb) — To destroy utterly or wipe out every trace of something.
+  [gre/standard] mirth (noun) — Amusement expressed through laughter and good humor.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        obliterate
-      ✓ obnubilate
-        eradicate
-        annihilate
-      Note: “obliterate”, “annihilate” and “eradicate” are close in meaning. “obnubilate” means to cloud, darken, or obscure something from clear view or understanding.
+      ✓ mayhem
+        merriment
+        hilarity
+        mirth
+      Note: “mirth”, “merriment” and “hilarity” are close in meaning. “mayhem” means violent disorder that causes injury, damage, or reckless destruction.
 
-  [gre/hard] arraign (verb) — To formally call an accused person before a court to answer a criminal charge.
+  [gre/standard] amble (verb) — To walk at an easy, leisurely pace.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        indict
-        charge
-      ✓ adorn
-        arraign
-      Note: “arraign”, “indict” and “charge” are close in meaning. “adorn” means to add beauty or decoration to a person, place, or object.
+      ✓ abolish
+        stroll
+        amble
+        saunter
+      Note: “amble”, “saunter” and “stroll” are close in meaning. “abolish” means to formally put an end to a law, system, or practice.
 
-  [gre/hard] loiter (verb) — To stand or wait around idly without any clear purpose.
+  [gre/standard] posit (verb) — To put an idea or assumption forward as a starting point for reasoning.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        loiter
-        dally
-        linger
-      ✓ leer
-      Note: “loiter”, “linger” and “dally” are close in meaning. “leer” means to look at someone with a sly, malicious, or lustful sideways expression.
+        hypothesize
+        posit
+      ✓ perceive
+        postulate
+      Note: “posit”, “postulate” and “hypothesize” are close in meaning. “perceive” means to notice or become aware of something through the senses or mind.
 
-  [gre/hard] unmindful (adjective) — Not paying attention to or caring about something important.
+  [gre/standard] dejected (adjective) — Feeling low in spirits and unhappy.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        heedless
-      ✓ untoward
-        oblivious
-        unmindful
-      Note: “unmindful”, “heedless” and “oblivious” are close in meaning. “untoward” means unexpected and inconvenient, awkward, or inappropriate.
+        despondent
+        dejected
+        downcast
+      ✓ immemorial
+      Note: “dejected”, “downcast” and “despondent” are close in meaning. “immemorial” means originating so long ago that no one recalls the beginning.
 
-  [gre/hard] collude (verb) — To cooperate secretly with someone in order to deceive or cheat others.
+  [gre/standard] liberality (noun) — The quality of giving freely and being open-handed or broad-minded.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        conspire
-      ✓ confabulate
-        connive
-        collude
-      Note: “collude”, “conspire” and “connive” are close in meaning. “confabulate” means to chat casually, or to invent false memories while believing them true.
+        generosity
+        bounty
+        liberality
+      ✓ lapse
+      Note: “liberality”, “generosity” and “bounty” are close in meaning. “lapse” means a brief failure, slip, or gap in something normally maintained.
 
-  [gre/hard] concoct (verb) — To invent or prepare something by mixing parts, often a story or a drink.
+  [gre/standard] escalate (verb) — To grow quickly and steadily in size, seriousness, or scope.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ cerebrate
-        devise
-        concoct
-        fabricate
-      Note: “concoct”, “devise” and “fabricate” are close in meaning. “cerebrate” means to use the brain; to think deeply about something.
+        escalate
+      ✓ emerge
+        intensify
+        heighten
+      Note: “escalate”, “intensify” and “heighten” are close in meaning. “emerge” means to come out into view or become known after being hidden.
 
-  [gre/hard] fen (noun) — Low, flat, waterlogged land that is often marshy and rich in minerals.
+  [gre/standard] revival (noun) — The act of bringing something back to life, use, or popularity.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        fen
-        marsh
-      ✓ folkway
-        bog
-      Note: “fen”, “marsh” and “bog” are close in meaning. “folkway” means a traditional habit or custom shared by the members of a particular society.
+      ✓ remnant
+        renaissance
+        revival
+        resurgence
+      Note: “revival”, “resurgence” and “renaissance” are close in meaning. “remnant” means a small piece left over after the rest is used or gone.
 
-  [gre/hard] mire (noun) — An expanse of deep, sticky mud that traps whatever tries to move through it.
+  [gre/standard] stoic (adjective) — Enduring pain or hardship without showing feelings or complaining.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        morass
-        mire
-        quagmire
-      ✓ malingerer
-      Note: “mire”, “quagmire” and “morass” are close in meaning. “malingerer” means someone who pretends to be ill to escape duty or work.
+      ✓ sniveling
+        stoic
+        impassive
+        unemotional
+      Note: “stoic”, “impassive” and “unemotional” are close in meaning. “sniveling” means whining and crying in a weak, self-pitying, contemptible way.
 
-  [gre/hard] auspicious (adjective) — Showing signs that future success is likely; giving a promising start.
+  [gre/standard] foreboding (noun) — A strong feeling that something bad is about to happen.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        auspicious
-        favorable
-      ✓ antediluvian
-        propitious
-      Note: “auspicious”, “favorable” and “propitious” are close in meaning. “antediluvian” means extremely old-fashioned or belonging to a very ancient time.
+        foreboding
+        misgiving
+      ✓ finale
+        dread
+      Note: “foreboding”, “dread” and “misgiving” are close in meaning. “finale” means the concluding part of a musical work, show, or series of events.
 
-  [gre/hard] keepsake (noun) — A small item held onto because of the memories attached to it.
+  [gre/standard] torpor (noun) — A state of deep inactivity, drowsiness, and dulled responsiveness.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ ken
-        souvenir
-        keepsake
-        memento
-      Note: “keepsake”, “memento” and “souvenir” are close in meaning. “ken” means the range of what one knows or is able to understand.
+      ✓ trepidation
+        torpor
+        sluggishness
+        lethargy
+      Note: “torpor”, “lethargy” and “sluggishness” are close in meaning. “trepidation” means a feeling of fear or nervous worry about something that may happen.
 
-  [gre/hard] impostor (noun) — A person who deceives others by pretending to be someone or something they are not.
+  [gre/standard] garish (adjective) — Unpleasantly bright, colorful, or showy in a tasteless way.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        impostor
-      ✓ interstice
-        fraud
-        charlatan
-      Note: “impostor”, “fraud” and “charlatan” are close in meaning. “interstice” means a tiny gap or narrow space between two adjoining things.
+        loud
+        garish
+      ✓ gutsy
+        gaudy
+      Note: “garish”, “gaudy” and “loud” are close in meaning. “gutsy” means showing brave determination and a willingness to take risks.
 
-  [gre/hard] memorialize (verb) — To honor someone or something so they are not forgotten, often with a lasting tribute.
+  [gre/standard] scrimp (verb) — To spend very little and economize severely, often on necessities.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ ramify
-        commemorate
-        immortalize
-        memorialize
-      Note: “memorialize”, “commemorate” and “immortalize” are close in meaning. “ramify” means to divide or spread out into many branches or smaller subdivisions.
+        economize
+        skimp
+        scrimp
+      ✓ sap
+      Note: “scrimp”, “skimp” and “economize” are close in meaning. “sap” means to drain or weaken someone's strength, energy, or resolve gradually.
 
-  [gre/hard] affected (adjective) — Behaving in an artificial way to impress; not genuine or natural.
+  [gre/hard] augury (noun) — A sign read as foretelling the future, or the practice of interpreting such signs.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        affected
-        mannered
-        artificial
-      ✓ apathetic
-      Note: “affected”, “artificial” and “mannered” are close in meaning. “apathetic” means showing no interest, emotion, or concern about anything.
+        augury
+        omen
+      ✓ amnesty
+        portent
+      Note: “augury”, “omen” and “portent” are close in meaning. “amnesty” means an official act of forgiving offenders and freeing them from prosecution or blame.
 
-  [gre/hard] decree (noun) — An official order that carries the force of law.
+  [gre/hard] negligent (adjective) — Failing to give the proper care or attention that a situation requires.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        order
-      ✓ devotee
-        decree
-        edict
-      Note: “decree”, “edict” and “order” are close in meaning. “devotee” means an enthusiastic and loyal fan or follower of a subject, activity, or faith.
+        remiss
+        negligent
+      ✓ nonsensical
+        careless
+      Note: “negligent”, “careless” and “remiss” are close in meaning. “nonsensical” means having no meaning or logic; foolish and utterly absurd.
+
+  [gre/hard] rigorous (adjective) — Extremely thorough, careful, and strict in method or standards.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ rarefied
+        stringent
+        rigorous
+        exacting
+      Note: “rigorous”, “stringent” and “exacting” are close in meaning. “rarefied” means belonging to a small, elite circle far above ordinary experience; also, thin like mountain air.
+
+  [gre/hard] parody (noun) — A humorous imitation of a work or style, mocking it through exaggeration.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        parody
+        spoof
+        send-up
+      ✓ prospect
+      Note: “parody”, “spoof” and “send-up” are close in meaning. “prospect” means the likelihood or expectation of a future event; also a wide view ahead.
 
   [gre/hard] sophist (noun) — A person who argues cleverly but deceptively, using flawed reasoning to appear correct.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -538,53 +442,61 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         sophist
       Note: “sophist”, “quibbler” and “casuist” are close in meaning. “solemnity” means the quality of deep seriousness, dignity, and grave formality.
 
-  [gre/hard] magniloquent (adjective) — Using lofty, grand language intended to sound impressive.
+  [gre/hard] preposterous (adjective) — Utterly absurd, contrary to common sense, or ridiculous to the point of disbelief.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ manic
-        grandiloquent
-        magniloquent
-        bombastic
-      Note: “magniloquent”, “grandiloquent” and “bombastic” are close in meaning. “manic” means marked by frantic, uncontrolled excitement or wildly restless energy.
+        preposterous
+        ridiculous
+        absurd
+      ✓ providential
+      Note: “preposterous”, “absurd” and “ridiculous” are close in meaning. “providential” means happening at just the right moment, as though guided by a benevolent higher power.
 
-  [gre/hard] incontrovertible (adjective) — Impossible to deny or dispute because it is so clearly certain.
+  [gre/hard] imprecation (noun) — A shouted or muttered appeal for evil to fall on another.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ incommunicado
-        incontrovertible
-        irrefutable
-        indisputable
-      Note: “incontrovertible”, “indisputable” and “irrefutable” are close in meaning. “incommunicado” means cut off from contact with others, unable to send or receive any messages.
+      ✓ inanity
+        curse
+        malediction
+        imprecation
+      Note: “imprecation”, “curse” and “malediction” are close in meaning. “inanity” means the quality of being silly, empty, or utterly lacking in substance.
 
-  [gre/hard] semblance (noun) — An outward appearance that may not match what lies beneath.
+  [gre/hard] mishap (noun) — A small unlucky accident that causes minor trouble.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ solipsism
-        semblance
-        guise
-        pretense
-      Note: “semblance”, “guise” and “pretense” are close in meaning. “solipsism” means the philosophical view that only one's own mind is certain to exist.
+        mishap
+        mischance
+        accident
+      ✓ mien
+      Note: “mishap”, “accident” and “mischance” are close in meaning. “mien” means a person's manner, bearing, or air that reveals mood or character.
 
-  [gre/hard] inviolable (adjective) — So protected or respected that it must never be broken or attacked.
+  [gre/hard] debacle (noun) — A sudden, total, and often humiliating collapse or failure of an event or plan.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        inviolable
-        sacred
-      ✓ inordinate
-        sacrosanct
-      Note: “inviolable”, “sacrosanct” and “sacred” are close in meaning. “inordinate” means far greater than what is normal or reasonable.
+        fiasco
+      ✓ drudge
+        debacle
+        disaster
+      Note: “debacle”, “fiasco” and “disaster” are close in meaning. “drudge” means a person made to do hard, dull, or menial tasks.
 
-  [gre/hard] cataclysm (noun) — A violent, large-scale disaster or dramatic upheaval.
+  [gre/hard] gentry (noun) — People of high social standing, ranking just below the nobility.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ coterie
-        calamity
-        catastrophe
-        cataclysm
-      Note: “cataclysm”, “catastrophe” and “calamity” are close in meaning. “coterie” means a small, exclusive group who share interests and keep outsiders away.
+      ✓ glade
+        elite
+        gentry
+        aristocracy
+      Note: “gentry”, “aristocracy” and “elite” are close in meaning. “glade” means an open, grassy clearing within a forest.
 
-  [gre/hard] sectarian (adjective) — Rigidly devoted to one faction, often with narrow, divisive hostility toward others.
+  [gre/hard] sheen (noun) — A soft, gentle brightness on a surface.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ supererogatory
-        sectarian
-        factional
-        partisan
-      Note: “sectarian”, “factional” and “partisan” are close in meaning. “supererogatory” means going beyond what duty requires; more than is strictly necessary.
+        sheen
+        gloss
+      ✓ sedulity
+        luster
+      Note: “sheen”, “gloss” and “luster” are close in meaning. “sedulity” means the quality of working hard with steady, attentive care.
+
+  [gre/hard] assiduity (noun) — Persistent, careful attention and hard work devoted to a task over time.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        diligence
+        assiduity
+        industriousness
+      ✓ artisan
+      Note: “assiduity”, “diligence” and “industriousness” are close in meaning. “artisan” means a skilled worker who makes quality goods by hand.
 
   [gre/hard] deposition (noun) — Sworn out-of-court testimony recorded for later use in a case.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -594,37 +506,101 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         testimony
       Note: “deposition”, “testimony” and “statement” are close in meaning. “dialectic” means inquiry that pursues truth by weighing opposing arguments against each other.
 
-  [gre/hard] inconstant (adjective) — Likely to change often; not steady, loyal, or dependable.
+  [gre/hard] bode (verb) — To be a sign or omen of a particular outcome yet to come.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        fickle
-        inconstant
-      ✓ irrational
-        changeable
-      Note: “inconstant”, “fickle” and “changeable” are close in meaning. “irrational” means not guided by reason or sound judgment.
+        portend
+        bode
+      ✓ bedeck
+        augur
+      Note: “bode”, “portend” and “augur” are close in meaning. “bedeck” means to cover something with decorations, often lavishly or festively.
 
-  [gre/fiendish] ardor (noun) — Intense warmth of feeling, passion, or zeal.
+  [gre/hard] pastoral (adjective) — Relating to the peaceful, idealized life of the rural countryside and its shepherds.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ affliction
-        passion
-        ardor
-        fervor
-      Note: “ardor”, “passion” and “fervor” are close in meaning. “affliction” means a condition of ongoing pain, illness, or suffering.
+        bucolic
+      ✓ propitiatory
+        pastoral
+        rural
+      Note: “pastoral”, “rural” and “bucolic” are close in meaning. “propitiatory” means intended to appease anger or win the favor of someone, especially a god.
 
-  [gre/fiendish] bog (noun) — Soft, waterlogged ground made of decaying plant matter, too spongy to walk on easily.
+  [gre/hard] complicity (noun) — The state of being involved with others in a wrongful or illegal act.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        marsh
-        fen
-      ✓ bracken
-        bog
-      Note: “bog”, “marsh” and “fen” are close in meaning. “bracken” means a tall, coarse fern that spreads across open hillsides and woodland clearings.
+        collusion
+        connivance
+        complicity
+      ✓ coppice
+      Note: “complicity”, “collusion” and “connivance” are close in meaning. “coppice” means an area of small trees regularly cut back near the base to encourage fresh growth.
 
-  [gre/fiendish] peculate (verb) — To steal or misuse money placed in one's care.
+  [gre/hard] exorbitant (adjective) — Much too high in price or amount; unreasonably costly.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        peculate
-        embezzle
-        defalcate
-      ✓ prohibit
-      Note: “peculate”, “embezzle” and “defalcate” are close in meaning. “prohibit” means to formally forbid an action by authority, rule, or law.
+        extortionate
+        exorbitant
+      ✓ ersatz
+        excessive
+      Note: “exorbitant”, “extortionate” and “excessive” are close in meaning. “ersatz” means serving as an artificial and usually inferior substitute for the real thing.
+
+  [gre/hard] libertine (noun) — A person who ignores moral rules, especially about sex and pleasure.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        debauchee
+      ✓ lethargy
+        hedonist
+        libertine
+      Note: “libertine”, “hedonist” and “debauchee” are close in meaning. “lethargy” means a condition of sluggishness, drowsiness, and lack of enthusiasm.
+
+  [gre/hard] mirage (noun) — A shimmering optical illusion, often of water, produced by heat over a distance.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        delusion
+        hallucination
+      ✓ miscellany
+        mirage
+      Note: “mirage”, “hallucination” and “delusion” are close in meaning. “miscellany” means a varied collection of assorted items or writings gathered together.
+
+  [gre/hard] obliterate (verb) — To destroy utterly or wipe out every trace of something.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        obliterate
+      ✓ obnubilate
+        eradicate
+        annihilate
+      Note: “obliterate”, “annihilate” and “eradicate” are close in meaning. “obnubilate” means to cloud, darken, or obscure something from clear view or understanding.
+
+  [gre/hard] blasphemous (adjective) — Expressing great irreverence or contempt toward God or holy matters.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        impious
+        profane
+      ✓ bleary
+        blasphemous
+      Note: “blasphemous”, “impious” and “profane” are close in meaning. “bleary” means dull, watery, and unable to focus, usually from tiredness or crying.
+
+  [gre/hard] arraign (verb) — To formally call an accused person before a court to answer a criminal charge.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        indict
+        charge
+      ✓ adorn
+        arraign
+      Note: “arraign”, “indict” and “charge” are close in meaning. “adorn” means to add beauty or decoration to a person, place, or object.
+
+  [gre/hard] bamboozle (verb) — To trick or confuse someone, usually by cheating them.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        hoodwink
+        bamboozle
+      ✓ bedim
+        dupe
+      Note: “bamboozle”, “hoodwink” and “dupe” are close in meaning. “bedim” means to make something darker, fainter, or less clear.
+
+  [gre/hard] crafty (adjective) — Skilled at using tricks to get what one wants; slyly clever.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        crafty
+      ✓ contingent
+        sly
+        cunning
+      Note: “crafty”, “cunning” and “sly” are close in meaning. “contingent” means dependent on something else that may or may not happen.
+
+  [gre/hard] idler (noun) — A person who spends time doing nothing or avoiding work.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        sluggard
+      ✓ introspection
+        loafer
+        idler
+      Note: “idler”, “loafer” and “sluggard” are close in meaning. “introspection” means the act of looking inward to examine your own thoughts and feelings.
 
   [gre/fiendish] reminiscent (adjective) — Serving to bring something similar to mind; suggestive of another person, place, or time.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -634,69 +610,53 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
       ✓ rococo
       Note: “reminiscent”, “suggestive” and “evocative” are close in meaning. “rococo” means extremely ornate and elaborate, full of curved, fanciful decoration.
 
-  [gre/fiendish] gorse (noun) — A spiny evergreen shrub with bright yellow flowers, common on heaths and moorland.
+  [gre/fiendish] drudgery (noun) — Hard, menial, and dull work that feels boring and unrewarding.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        furze
-        whin
-        gorse
-      ✓ gambit
-      Note: “gorse”, “furze” and “whin” are close in meaning. “gambit” means a calculated opening move or remark made to gain an advantage.
+      ✓ desuetude
+        drudgery
+        grind
+        toil
+      Note: “drudgery”, “toil” and “grind” are close in meaning. “desuetude” means the condition of no longer being practiced or in active use.
 
-  [gre/fiendish] sobriety (noun) — The state of not being drunk, or of being serious and solemn.
+  [gre/fiendish] lethargy (noun) — A condition of sluggishness, drowsiness, and lack of enthusiasm.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        moderation
-        abstinence
-      ✓ solipsism
-        sobriety
-      Note: “sobriety”, “abstinence” and “moderation” are close in meaning. “solipsism” means the philosophical view that only one's own mind is certain to exist.
+        torpor
+        sluggishness
+      ✓ liturgy
+        lethargy
+      Note: “lethargy”, “sluggishness” and “torpor” are close in meaning. “liturgy” means the prescribed order of rituals and prayers used in a public religious service.
 
-  [gre/fiendish] rigorous (adjective) — Extremely thorough, careful, and strict in method or standards.
+  [gre/fiendish] duress (noun) — Threats or force used to compel a person to act against their own will.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        stringent
-        exacting
-      ✓ retiring
-        rigorous
-      Note: “rigorous”, “stringent” and “exacting” are close in meaning. “retiring” means shy and inclined to withdraw from company or public attention.
+      ✓ debauchery
+        duress
+        compulsion
+        coercion
+      Note: “duress”, “coercion” and “compulsion” are close in meaning. “debauchery” means excessive indulgence in sex, alcohol, and other sensual pleasures.
 
-  [gre/fiendish] mania (noun) — A state of abnormally elevated mood and energy, or an intense obsessive enthusiasm.
+  [gre/fiendish] lacquer (verb) — To coat an object with a hard, glossy, protective finish.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        mania
-        craze
-        frenzy
-      ✓ mimesis
-      Note: “mania”, “frenzy” and “craze” are close in meaning. “mimesis” means the imitation or representation of real life in art and literature.
+        varnish
+        glaze
+        lacquer
+      ✓ leer
+      Note: “lacquer”, “varnish” and “glaze” are close in meaning. “leer” means to look at someone with a sly, malicious, or lustful sideways expression.
 
-  [gre/fiendish] sheen (noun) — A soft, gentle brightness on a surface.
+  [gre/fiendish] industrious (adjective) — Working hard in a steady and productive way.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        luster
-        gloss
-        sheen
-      ✓ semblance
-      Note: “sheen”, “gloss” and “luster” are close in meaning. “semblance” means an outward appearance that may not match what lies beneath.
+        diligent
+      ✓ inviolable
+        hardworking
+        industrious
+      Note: “industrious”, “hardworking” and “diligent” are close in meaning. “inviolable” means so protected or respected that it must never be broken or attacked.
 
-  [gre/fiendish] bamboozle (verb) — To trick or confuse someone, usually by cheating them.
+  [gre/fiendish] reminisce (verb) — To think or talk fondly about pleasant experiences from the past.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        dupe
-      ✓ bedim
-        bamboozle
-        hoodwink
-      Note: “bamboozle”, “hoodwink” and “dupe” are close in meaning. “bedim” means to make something darker, fainter, or less clear.
-
-  [gre/fiendish] hallucination (noun) — A false perception of something that is not actually present.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ harrow
-        hallucination
-        delusion
-        mirage
-      Note: “hallucination”, “mirage” and “delusion” are close in meaning. “harrow” means a heavy farming frame fitted with spikes or discs, dragged to break up and level plowed soil.
-
-  [gre/fiendish] negligent (adjective) — Failing to give the proper care or attention that a situation requires.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ nonsensical
-        remiss
-        careless
-        negligent
-      Note: “negligent”, “careless” and “remiss” are close in meaning. “nonsensical” means having no meaning or logic; foolish and utterly absurd.
+        recollect
+        reminisce
+      ✓ refract
+        recall
+      Note: “reminisce”, “recollect” and “recall” are close in meaning. “refract” means to bend a wave, such as light, as it passes from one material into another.
 
   [gre/fiendish] bluster (verb) — To speak in a loud, aggressive, empty way, or to blow violently like wind.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -706,357 +666,389 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         swagger
       Note: “bluster”, “bravado” and “swagger” are close in meaning. “betoken” means to be a sign or warning of something that will happen.
 
-  [gre/fiendish] fanaticism (noun) — Excessive, uncritical enthusiasm or devotion, especially toward a religious or political cause.
+  [gre/fiendish] coppice (noun) — An area of small trees regularly cut back near the base to encourage fresh growth.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        extremism
-        zealotry
-        fanaticism
-      ✓ fodder
-      Note: “fanaticism”, “zealotry” and “extremism” are close in meaning. “fodder” means dried hay or feed given to cattle, horses, and other farm animals.
+        copse
+      ✓ caprice
+        coppice
+        grove
+      Note: “coppice”, “copse” and “grove” are close in meaning. “caprice” means a sudden, impulsive change of mind or behavior with no clear reason.
 
-  [gre/fiendish] sophist (noun) — A person who argues cleverly but deceptively, using flawed reasoning to appear correct.
+  [gre/fiendish] hysteria (noun) — Overwhelming, uncontrollable fear or emotion that often spreads through a group.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        sophist
-        quibbler
-      ✓ sepal
-        casuist
-      Note: “sophist”, “quibbler” and “casuist” are close in meaning. “sepal” means one of the small leaf-like segments that encloses and guards a developing flower bud.
+      ✓ humbug
+        hysteria
+        frenzy
+        delirium
+      Note: “hysteria”, “frenzy” and “delirium” are close in meaning. “humbug” means deceptive nonsense or empty pretense meant to mislead people.
 
-  [gre/fiendish] glower (verb) — To stare with sullen annoyance or barely contained anger.
+  [gre/fiendish] deceitful (adjective) — Dishonest and deliberately misleading in order to hide the truth.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ glisten
-        glare
-        scowl
-        glower
-      Note: “glower”, “scowl” and “glare” are close in meaning. “glisten” means to shine with a sparkle bouncing off a wet or oily surface.
+        deceitful
+        underhanded
+        treacherous
+      ✓ dissolute
+      Note: “deceitful”, “treacherous” and “underhanded” are close in meaning. “dissolute” means given over to shameless pleasure-seeking and self-indulgence.
 
-  [gre/fiendish] plight (noun) — A dangerous, difficult, or unfortunate situation someone is stuck in.
+  [gre/fiendish] spurn (verb) — To reject someone or something with scorn and disdain.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        quandary
-        predicament
-        plight
-      ✓ phantasm
-      Note: “plight”, “predicament” and “quandary” are close in meaning. “phantasm” means a ghostly figure or image that appears in the mind without being truly present.
+        spurn
+        reject
+        rebuff
+      ✓ splurge
+      Note: “spurn”, “reject” and “rebuff” are close in meaning. “splurge” means to spend a lot of money suddenly on something enjoyable but not necessary.
 
-  [gre/fiendish] heterodox (adjective) — Not conforming with accepted or traditional standards, especially in belief.
+  [gre/fiendish] consort (verb) — To spend time with or associate regularly, especially with people considered disreputable.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        heretical
-        unorthodox
-      ✓ heedless
-        heterodox
-      Note: “heterodox”, “unorthodox” and “heretical” are close in meaning. “heedless” means careless and paying no attention to danger or advice.
+        associate
+      ✓ contrive
+        consort
+        fraternize
+      Note: “consort”, “associate” and “fraternize” are close in meaning. “contrive” means to plan or create something cleverly, often through scheming or with difficulty.
 
-  [gre/fiendish] betide (verb) — To happen or occur, especially something bad affecting a particular person.
+  [gre/fiendish] redundancy (noun) — The state of being unnecessary through repetition or excess.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        befall
-        happen
-        betide
-      ✓ bedeck
-      Note: “betide”, “befall” and “happen” are close in meaning. “bedeck” means to cover something with decorations, often lavishly or festively.
-
-  [gre/fiendish] authentic (adjective) — Genuine and real, exactly what it claims to be, not copied or faked.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        genuine
-      ✓ aberrant
-        authentic
-        real
-      Note: “authentic”, “genuine” and “real” are close in meaning. “aberrant” means departing markedly from what is normal, usual, or expected.
-
-  [gre/fiendish] celebrant (noun) — The priest or leader who conducts a religious service or ceremony.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        celebrant
-      ✓ corpulence
-        officiant
-        minister
-      Note: “celebrant”, “officiant” and “minister” are close in meaning. “corpulence” means the condition of being very overweight and heavy in body.
-
-  [gre/fiendish] sluggard (noun) — A person who is habitually lazy and avoids work.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        loafer
-        sluggard
-        idler
-      ✓ specter
-      Note: “sluggard”, “idler” and “loafer” are close in meaning. “specter” means a haunting ghost, or a threatening idea that fills people with dread.
-
-  [gre/fiendish] debauchee (noun) — Someone who habitually gives in to vice and sensual excess.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        libertine
-      ✓ diffidence
-        rake
-        debauchee
-      Note: “debauchee”, “libertine” and “rake” are close in meaning. “diffidence” means a shy lack of belief in one's own abilities or worth.
-
-  [gre/fiendish] godsend (noun) — Something helpful that arrives at exactly the right, much-needed moment.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        godsend
-        blessing
-      ✓ gadfly
-        boon
-      Note: “godsend”, “blessing” and “boon” are close in meaning. “gadfly” means a persistent critic who provokes others by annoyingly challenging them.
-
-  [gre/fiendish] hieratic (adjective) — Relating to priests, or highly formal and stylized in a religious manner.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        hieratic
-        sacerdotal
-      ✓ haunting
-        priestly
-      Note: “hieratic”, “sacerdotal” and “priestly” are close in meaning. “haunting” means beautiful or sad in a way that lingers in the mind.
-
-  [sat/warmup] prompt (verb) — To cause someone to take action or to make something occur.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ protract
-        spur
-        provoke
-        prompt
-      Note: “prompt”, “spur” and “provoke” are close in meaning. “protract” means to draw something out so it lasts much longer than needed.
-
-  [sat/warmup] intelligible (adjective) — Clear enough for the mind to grasp; able to be understood.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ inherent
-        intelligible
-        understandable
-        comprehensible
-      Note: “intelligible”, “understandable” and “comprehensible” are close in meaning. “inherent” means existing as a natural, permanent, and inseparable part of something.
-
-  [sat/warmup] accelerate (verb) — To increase speed or make something progress faster.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        accelerate
-        hasten
-        quicken
-      ✓ aver
-      Note: “accelerate”, “quicken” and “hasten” are close in meaning. “aver” means to state firmly that something is definitely true.
-
-  [sat/warmup] meander (verb) — To wander or follow a winding, aimless course.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        wander
-        roam
-      ✓ moderate
-        meander
-      Note: “meander”, “wander” and “roam” are close in meaning. “moderate” means to reduce the extremeness or intensity of something.
-
-  [sat/warmup] lucid (adjective) — Easy to understand and expressed in a clear, coherent way.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ latent
-        clear
-        coherent
-        lucid
-      Note: “lucid”, “clear” and “coherent” are close in meaning. “latent” means present but hidden, not yet developed, active, or visible.
-
-  [sat/warmup] tirade (noun) — A long, angry speech full of criticism or accusation.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ exposition
-        harangue
-        tirade
-        diatribe
-      Note: “tirade”, “diatribe” and “harangue” are close in meaning. “exposition” means a clear, detailed explanation of an idea or theory.
-
-  [sat/warmup] prolix (adjective) — Using far too many words and therefore tedious.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        long-winded
-      ✓ prevalent
-        prolix
-        verbose
-      Note: “prolix”, “verbose” and “long-winded” are close in meaning. “prevalent” means common or widespread in a particular place or at a particular time.
-
-  [sat/warmup] testimony (noun) — A formal statement, often given under oath, about what one saw or knows.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        statement
-        testimony
-      ✓ transparency
-        deposition
-      Note: “testimony”, “statement” and “deposition” are close in meaning. “transparency” means openness and honesty that lets others clearly see what is happening.
-
-  [sat/warmup] fastidious (adjective) — Very attentive to detail and hard to please about cleanliness or quality.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ fledgling
-        meticulous
-        fastidious
-        punctilious
-      Note: “fastidious”, “meticulous” and “punctilious” are close in meaning. “fledgling” means new and inexperienced; only recently started and not yet established.
-
-  [sat/warmup] heedless (adjective) — Paying no attention to danger, warnings, or consequences.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        careless
-        reckless
-      ✓ meek
-        heedless
-      Note: “heedless”, “careless” and “reckless” are close in meaning. “meek” means quiet, gentle, and unwilling to argue or assert oneself.
-
-  [sat/warmup] unintelligible (adjective) — So unclear that it cannot be understood at all.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        garbled
-      ✓ unequivocal
-        incoherent
-        unintelligible
-      Note: “unintelligible”, “garbled” and “incoherent” are close in meaning. “unequivocal” means leaving no room for doubt; expressed clearly and firmly.
-
-  [sat/warmup] prolong (verb) — To make something continue for a greater span of time.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        prolong
-        protract
-      ✓ precipitate
-        extend
-      Note: “prolong”, “extend” and “protract” are close in meaning. “precipitate” means to bring about an event abruptly or sooner than it would otherwise have occurred.
-
-  [sat/warmup] plausible (adjective) — Seeming reasonable or likely to be true, though perhaps not certain.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        believable
-        credible
-        plausible
-      ✓ pertinent
-      Note: “plausible”, “believable” and “credible” are close in meaning. “pertinent” means directly relevant and clearly connected to the subject under discussion.
-
-  [sat/warmup] irresolute (adjective) — Unable to decide what to do; hesitant and lacking firmness.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ immutable
-        irresolute
-        hesitant
-        indecisive
-      Note: “irresolute”, “hesitant” and “indecisive” are close in meaning. “immutable” means fixed and permanently incapable of being altered.
-
-  [sat/warmup] phlegmatic (adjective) — Having a calm, unemotional temperament that stays unruffled even under pressure.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        stolid
-        phlegmatic
-      ✓ putative
-        unemotional
-      Note: “phlegmatic”, “stolid” and “unemotional” are close in meaning. “putative” means generally assumed or supposed to be the case, though not actually proven.
-
-  [sat/warmup] incoherent (adjective) — Expressed without clear order, so the parts do not connect or make sense.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ innocuous
-        incoherent
-        disjointed
-        rambling
-      Note: “incoherent”, “rambling” and “disjointed” are close in meaning. “innocuous” means not harmful or offensive; causing no injury or upset.
-
-  [sat/warmup] equivocate (verb) — To use vague language on purpose in order to mislead or dodge the truth.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ emancipate
-        hedge
-        prevaricate
-        equivocate
-      Note: “equivocate”, “hedge” and “prevaricate” are close in meaning. “emancipate” means to release someone from slavery or from legal, social, or political restrictions.
-
-  [sat/warmup] surplus (noun) — An amount left over after needs are met.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        redundancy
+        superfluity
         surplus
-      ✓ apprehension
-        glut
-        excess
-      Note: “surplus”, “excess” and “glut” are close in meaning. “apprehension” means worry or anxiety that something bad is about to happen.
+      ✓ reticence
+      Note: “redundancy”, “superfluity” and “surplus” are close in meaning. “reticence” means the quality of being quiet and unwilling to share one's thoughts or feelings.
 
-  [sat/warmup] acquit (verb) — To judge and declare a defendant not guilty of a crime.
+  [gre/fiendish] gluttony (noun) — The habit of eating or consuming far more than one needs, to excess.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        gluttony
+        greed
+        voracity
+      ✓ glimmer
+      Note: “gluttony”, “greed” and “voracity” are close in meaning. “glimmer” means a faint, unsteady light, or a small sign of something.
+
+  [gre/fiendish] atrocious (adjective) — Shockingly cruel, wicked, or of extremely poor quality.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        heinous
+        monstrous
+      ✓ arduous
+        atrocious
+      Note: “atrocious”, “heinous” and “monstrous” are close in meaning. “arduous” means very difficult and demanding great physical or mental effort.
+
+  [gre/fiendish] scourge (noun) — A person or thing that causes great and widespread suffering or devastation.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        scourge
+        plague
+        bane
+      ✓ sleight
+      Note: “scourge”, “plague” and “bane” are close in meaning. “sleight” means dexterity or cunning, especially in deceiving or performing tricks.
+
+  [gre/fiendish] adversity (noun) — A difficult situation full of hardship, misfortune, or trouble.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        adversity
+        difficulty
+        hardship
+      ✓ apostasy
+      Note: “adversity”, “hardship” and “difficulty” are close in meaning. “apostasy” means the abandonment or renunciation of a religion, cause, or set of beliefs once held.
+
+  [gre/fiendish] parody (noun) — A humorous imitation of a work or style, mocking it through exaggeration.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        parody
+        send-up
+        spoof
+      ✓ pettifogger
+      Note: “parody”, “spoof” and “send-up” are close in meaning. “pettifogger” means a shady lawyer who quibbles over trivial matters or uses dishonest, underhanded tactics.
+
+  [gre/fiendish] rigorous (adjective) — Extremely thorough, careful, and strict in method or standards.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        stringent
+        exacting
+      ✓ retiring
+        rigorous
+      Note: “rigorous”, “stringent” and “exacting” are close in meaning. “retiring” means shy and inclined to withdraw from company or public attention.
+
+  [gre/fiendish] bramble (noun) — A rough, thorny shrub that grows in tangled thickets, especially the wild blackberry.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ braggadocio
+        briar
+        thornbush
+        bramble
+      Note: “bramble”, “briar” and “thornbush” are close in meaning. “braggadocio” means empty, arrogant self-praise, or a swaggering person who indulges in it.
+
+  [gre/fiendish] tribulation (noun) — A period of great trouble, suffering, or distress.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        hardship
+        tribulation
+        ordeal
+      ✓ tribunal
+      Note: “tribulation”, “ordeal” and “hardship” are close in meaning. “tribunal” means a court or official body appointed to judge disputes or crimes.
+
+  [gre/fiendish] talisman (noun) — An object carried for its supposed power to bring luck or protection.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        charm
+        talisman
+        amulet
+      ✓ threnody
+      Note: “talisman”, “charm” and “amulet” are close in meaning. “threnody” means a poem or song of mourning composed in memory of the dead.
+
+  [gre/fiendish] commemorate (verb) — To honor and keep alive the memory of a person or event, often with a ceremony.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        memorialize
+        commemorate
+        honor
+      ✓ cozen
+      Note: “commemorate”, “honor” and “memorialize” are close in meaning. “cozen” means to deceive or trick someone in order to gain something.
+
+  [gre/fiendish] slog (noun) — A long spell of hard, tedious work, or a difficult, laborious walk.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ silviculture
+        grind
+        toil
+        slog
+      Note: “slog”, “grind” and “toil” are close in meaning. “silviculture” means the practice of growing and tending forests and trees.
+
+  [sat/warmup] definitive (adjective) — Final, authoritative, and not open to improvement or dispute.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        final
+        conclusive
+      ✓ discrete
+        definitive
+      Note: “definitive”, “conclusive” and “final” are close in meaning. “discrete” means separate and individually distinct; not joined to others.
+
+  [sat/warmup] mercurial (adjective) — Changing moods quickly and unpredictably.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        capricious
+      ✓ mordant
+        volatile
+        mercurial
+      Note: “mercurial”, “volatile” and “capricious” are close in meaning. “mordant” means bitingly sarcastic, often laced with dark humor.
+
+  [sat/warmup] imperil (verb) — To put someone or something in danger.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        endanger
+        jeopardize
+      ✓ induce
+        imperil
+      Note: “imperil”, “endanger” and “jeopardize” are close in meaning. “induce” means to persuade someone to act, or to bring about a condition.
+
+  [sat/warmup] temporal (adjective) — Relating to time, or to the physical world rather than spiritual matters.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ tacit
+        secular
+        temporal
+        worldly
+      Note: “temporal”, “worldly” and “secular” are close in meaning. “tacit” means understood or implied without being directly expressed in words.
+
+  [sat/warmup] upbraid (verb) — To scold someone angrily for a mistake or fault.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        berate
+      ✓ endanger
+        upbraid
+        scold
+      Note: “upbraid”, “scold” and “berate” are close in meaning. “endanger” means to expose someone or something to possible harm or destruction.
+
+  [sat/warmup] meritorious (adjective) — Deserving reward or honor because of good conduct.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ modest
+        commendable
+        praiseworthy
+        meritorious
+      Note: “meritorious”, “commendable” and “praiseworthy” are close in meaning. “modest” means not boastful about one's abilities; humble and unassuming.
+
+  [sat/warmup] antecedent (noun) — A thing or event that comes before another and often leads to it.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        antecedent
+        forerunner
+      ✓ acumen
+        precursor
+      Note: “antecedent”, “precursor” and “forerunner” are close in meaning. “acumen” means keen skill and quickness in judgment or understanding.
+
+  [sat/warmup] pretense (noun) — A false show put on to make people believe something that is not real.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ prejudice
+        sham
+        facade
+        pretense
+      Note: “pretense”, “sham” and “facade” are close in meaning. “prejudice” means an unfair opinion formed before knowing the facts.
+
+  [sat/warmup] perplex (verb) — To confuse someone so they cannot understand or think clearly.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ profess
+        puzzle
+        mystify
+        perplex
+      Note: “perplex”, “puzzle” and “mystify” are close in meaning. “profess” means to openly declare or claim something, sometimes falsely.
+
+  [sat/warmup] exonerate (verb) — To officially clear a person of blame or suspicion of wrongdoing.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
         absolve
-        acquit
+      ✓ explicate
         clear
-      ✓ attest
-      Note: “acquit”, “clear” and “absolve” are close in meaning. “attest” means to confirm or provide evidence that something is true or genuine.
+        exonerate
+      Note: “exonerate”, “clear” and “absolve” are close in meaning. “explicate” means to analyze an idea or text and develop its meaning in detail.
 
-  [sat/warmup] intrinsic (adjective) — Belonging naturally to something; part of its essential, basic nature.
+  [sat/warmup] foment (verb) — To promote the growth of unrest, rebellion, or bad feeling.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        intrinsic
-        innate
-      ✓ incongruous
-        inherent
-      Note: “intrinsic”, “inherent” and “innate” are close in meaning. “incongruous” means not in harmony or keeping with the surroundings or with other things present.
-
-  [sat/warmup] cunning (adjective) — Clever at getting what you want through sly, sometimes dishonest tricks.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        sly
-      ✓ candid
-        cunning
-        crafty
-      Note: “cunning”, “crafty” and “sly” are close in meaning. “candid” means honest and direct, saying exactly what one thinks.
-
-  [sat/warmup] diplomatic (adjective) — Skilled at dealing with people and situations without causing offense.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        diplomatic
-        tactful
-      ✓ doubtful
-        sensitive
-      Note: “diplomatic”, “tactful” and “sensitive” are close in meaning. “doubtful” means feeling or causing uncertainty about whether something is true or likely.
-
-  [sat/warmup] goad (verb) — To provoke or prod someone into action, often by teasing or annoying them.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        instigate
+      ✓ fossilize
+        foment
         incite
-        goad
-      ✓ concede
-        provoke
-      Note: “goad”, “provoke” and “incite” are close in meaning. “concede” means to admit, often reluctantly, that something is true or that you have lost.
+      Note: “foment”, “incite” and “instigate” are close in meaning. “fossilize” means to turn slowly into hardened stone-like remains within rock over ages.
 
-  [sat/warmup] laconic (adjective) — Using very few words to express something.
+  [sat/warmup] hinder (verb) — To make progress or action slow or difficult.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ leery
-        terse
-        concise
-        laconic
-      Note: “laconic”, “terse” and “concise” are close in meaning. “leery” means cautious or suspicious because of possible danger or trouble.
+        hamper
+        hinder
+        impede
+      ✓ hasten
+      Note: “hinder”, “hamper” and “impede” are close in meaning. “hasten” means to move quickly or cause something to happen sooner.
 
-  [sat/warmup] blatant (adjective) — Done openly and unashamedly, in a way that offends.
+  [sat/warmup] tumult (noun) — A loud, confused noise made by an excited or agitated crowd.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        flagrant
-      ✓ biased
-        glaring
-        blatant
-      Note: “blatant”, “flagrant” and “glaring” are close in meaning. “biased” means unfairly favoring one side, person, or viewpoint over another.
+        tumult
+      ✓ tangle
+        commotion
+        uproar
+      Note: “tumult”, “uproar” and “commotion” are close in meaning. “tangle” means a twisted, knotted mass that is hard to separate.
 
-  [sat/standard] creed (noun) — A formal statement of the beliefs or principles that guide a person or group.
+  [sat/warmup] arcane (adjective) — Known or understood by only a few, often because it is old or secret.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        belief
-      ✓ concord
-        creed
-        doctrine
-      Note: “creed”, “doctrine” and “belief” are close in meaning. “concord” means a state of peaceful agreement and friendly relations.
+        obscure
+      ✓ ambivalent
+        arcane
+        esoteric
+      Note: “arcane”, “esoteric” and “obscure” are close in meaning. “ambivalent” means having mixed or conflicting feelings toward something at the same time.
 
-  [sat/standard] vigor (noun) — Physical strength, energy, and healthy liveliness.
+  [sat/warmup] distracted (adjective) — Unable to concentrate because your mind is pulled elsewhere.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        vigor
-        energy
-      ✓ verisimilitude
-        vitality
-      Note: “vigor”, “energy” and “vitality” are close in meaning. “verisimilitude” means the quality of seeming real or true to life.
+      ✓ deferential
+        preoccupied
+        distracted
+        inattentive
+      Note: “distracted”, “preoccupied” and “inattentive” are close in meaning. “deferential” means showing great respect by yielding to another person's wishes or authority.
 
-  [sat/standard] treason (noun) — The crime of betraying one's own country, especially by aiding its enemies.
+  [sat/warmup] fiasco (noun) — A total, often embarrassing failure of a plan or performance.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        treason
-        betrayal
-        treachery
-      ✓ toil
-      Note: “treason”, “betrayal” and “treachery” are close in meaning. “toil” means long, hard, and tiring physical or mental work.
+        disaster
+        fiasco
+      ✓ foreboding
+        debacle
+      Note: “fiasco”, “debacle” and “disaster” are close in meaning. “foreboding” means a feeling that something bad is about to happen.
 
-  [sat/standard] epitomize (verb) — To be a perfect representation of a particular quality or type.
+  [sat/warmup] obsequious (adjective) — Trying too hard to please by excessive flattery and eager obedience.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        epitomize
-        embody
-      ✓ estimate
-        typify
-      Note: “epitomize”, “embody” and “typify” are close in meaning. “estimate” means to form a rough judgment of a value, size, or cost without exact measurement.
+        obsequious
+      ✓ opinionated
+        fawning
+        servile
+      Note: “obsequious”, “fawning” and “servile” are close in meaning. “opinionated” means holding firm views and stating them forcefully, often unwilling to accept other perspectives.
 
-  [sat/standard] exacting (adjective) — Demanding great care, effort, or precision; hard to satisfy.
+  [sat/warmup] akin (adjective) — Closely related or similar in nature or character.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        strict
-        exacting
-      ✓ established
-        rigorous
-      Note: “exacting”, “rigorous” and “strict” are close in meaning. “established” means firmly set up and accepted over a long time; well recognized and secure.
+        akin
+        related
+      ✓ anecdotal
+        kindred
+      Note: “akin”, “related” and “kindred” are close in meaning. “anecdotal” means based on personal stories rather than solid data or research.
 
-  [sat/standard] expertise (noun) — Deep specialized knowledge or skill gained from long experience in a field.
+  [sat/warmup] bravado (noun) — A showy display of boldness meant to impress, often masking real fear.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        mastery
-        proficiency
-        expertise
-      ✓ exertion
-      Note: “expertise”, “proficiency” and “mastery” are close in meaning. “exertion” means the use of much physical or mental energy to accomplish something.
+        bluster
+        bravado
+        swagger
+      ✓ backlash
+      Note: “bravado”, “swagger” and “bluster” are close in meaning. “backlash” means a strong, hostile public reaction against a decision, idea, or change.
 
-  [sat/standard] alienate (verb) — To make someone feel unwelcome or turn them against you.
+  [sat/warmup] aftermath (noun) — The situation or period following a significant, often destructive, event.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        estrange
-        isolate
-      ✓ avenge
-        alienate
-      Note: “alienate”, “estrange” and “isolate” are close in meaning. “avenge” means to punish or win justice for a wrong done to yourself or another.
+      ✓ axiom
+        fallout
+        consequences
+        aftermath
+      Note: “aftermath”, “fallout” and “consequences” are close in meaning. “axiom” means a statement regarded as obviously true and accepted without requiring any proof.
+
+  [sat/warmup] arbitrate (verb) — To settle a dispute formally after hearing both sides and issuing a binding decision.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ assuage
+        arbitrate
+        referee
+        adjudicate
+      Note: “arbitrate”, “adjudicate” and “referee” are close in meaning. “assuage” means to make an unpleasant feeling less intense or painful.
+
+  [sat/warmup] astute (adjective) — Quick to grasp situations and clever at turning them to advantage.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ amorphous
+        shrewd
+        astute
+        perceptive
+      Note: “astute”, “shrewd” and “perceptive” are close in meaning. “amorphous” means lacking a clear shape, structure, or defined organization.
+
+  [sat/warmup] debunk (verb) — To show that a belief or claim is false or exaggerated.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        disprove
+        debunk
+        refute
+      ✓ dissuade
+      Note: “debunk”, “disprove” and “refute” are close in meaning. “dissuade” means to talk someone out of doing something.
+
+  [sat/warmup] admonish (verb) — To warn or gently scold someone about their behavior.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        warn
+      ✓ alleviate
+        rebuke
+        admonish
+      Note: “admonish”, “warn” and “rebuke” are close in meaning. “alleviate” means to make pain or a problem less severe or easier to bear.
+
+  [sat/warmup] precursor (noun) — Something that comes before and leads to the development of another thing.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        precursor
+        predecessor
+      ✓ plaudit
+        forerunner
+      Note: “precursor”, “forerunner” and “predecessor” are close in meaning. “plaudit” means an enthusiastic expression of approval or applause for someone's work.
+
+  [sat/standard] poverty (noun) — The condition of being extremely short of money and basic goods.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        penury
+      ✓ paradigm
+        destitution
+        poverty
+      Note: “poverty”, “destitution” and “penury” are close in meaning. “paradigm” means a typical model or pattern of thinking that shapes how people understand something.
+
+  [sat/standard] foreshadow (verb) — To hint at or suggest a future event before it happens.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        presage
+        foreshadow
+      ✓ falsify
+        portend
+      Note: “foreshadow”, “presage” and “portend” are close in meaning. “falsify” means to prove a statement wrong, or to tamper with records dishonestly.
+
+  [sat/standard] perfunctory (adjective) — Done as a routine duty, without real interest, care, or effort.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        perfunctory
+      ✓ polemical
+        superficial
+        cursory
+      Note: “perfunctory”, “cursory” and “superficial” are close in meaning. “polemical” means fiercely attacking or disputing a belief in a hostile, argumentative manner.
+
+  [sat/standard] philanthropy (noun) — The practice of donating money and effort to help those in need.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        charity
+        philanthropy
+        benevolence
+      ✓ plebiscite
+      Note: “philanthropy”, “charity” and “benevolence” are close in meaning. “plebiscite” means a direct vote in which an entire population decides a specific political question.
+
+  [sat/standard] resourceful (adjective) — Clever at finding quick, practical ways to solve problems with what is available.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ revolutionary
+        resourceful
+        inventive
+        ingenious
+      Note: “resourceful”, “inventive” and “ingenious” are close in meaning. “revolutionary” means involving or causing a complete and dramatic change in how things are done.
+
+  [sat/standard] electorate (noun) — All the citizens who are entitled to cast votes.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        voters
+        electorate
+      ✓ epoch
+        constituency
+      Note: “electorate”, “voters” and “constituency” are close in meaning. “epoch” means a long, distinct period of history marked by notable events or features.
 
   [sat/standard] evocative (adjective) — Bringing strong images, memories, or feelings vividly to mind.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1066,69 +1058,29 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         evocative
       Note: “evocative”, “reminiscent” and “suggestive” are close in meaning. “efficient” means achieving a result with little wasted effort, time, or resources.
 
-  [sat/standard] impoverished (adjective) — Reduced to a state of having very little money or resources.
+  [sat/standard] scholarly (adjective) — Relating to serious academic study or the people who pursue it.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        destitute
-        needy
-        impoverished
-      ✓ instructive
-      Note: “impoverished”, “destitute” and “needy” are close in meaning. “instructive” means useful for teaching something or providing helpful knowledge.
+        scholarly
+      ✓ stark
+        erudite
+        learned
+      Note: “scholarly”, “erudite” and “learned” are close in meaning. “stark” means severe and bare, with nothing softened or decorated.
 
-  [sat/standard] windfall (noun) — An unexpected gain of money or good fortune.
+  [sat/standard] hoard (verb) — To gather and store a large supply, often secretly.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        bonanza
-      ✓ reprisal
-        jackpot
-        windfall
-      Note: “windfall”, “bonanza” and “jackpot” are close in meaning. “reprisal” means an act of striking back to punish an enemy for something they did.
+        amass
+        stockpile
+        hoard
+      ✓ captivate
+      Note: “hoard”, “stockpile” and “amass” are close in meaning. “captivate” means to attract and hold someone's complete attention or interest.
 
-  [sat/standard] thrifty (adjective) — Using money and resources carefully and without waste.
+  [sat/standard] expertise (noun) — Deep specialized knowledge or skill gained from long experience in a field.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        frugal
-        economical
-        thrifty
-      ✓ tangential
-      Note: “thrifty”, “frugal” and “economical” are close in meaning. “tangential” means only slightly connected to the main subject; peripheral.
-
-  [sat/standard] ostracize (verb) — To deliberately exclude someone from a group or from society.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        ostracize
-        banish
-      ✓ observe
-        shun
-      Note: “ostracize”, “shun” and “banish” are close in meaning. “observe” means to watch or notice something carefully in order to learn about it.
-
-  [sat/standard] apathetic (adjective) — Showing no emotion, enthusiasm, or interest at all.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ affluent
-        indifferent
-        listless
-        apathetic
-      Note: “apathetic”, “indifferent” and “listless” are close in meaning. “affluent” means having plenty of money and a comfortable, high standard of living.
-
-  [sat/standard] recollect (verb) — To bring a past fact or experience back into the mind.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        recall
-      ✓ replicate
-        recollect
-        remember
-      Note: “recollect”, “remember” and “recall” are close in meaning. “replicate” means to copy or repeat something exactly.
-
-  [sat/standard] depict (verb) — To show or represent something in a picture, words, or performance.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        represent
-      ✓ deem
-        depict
-        portray
-      Note: “depict”, “portray” and “represent” are close in meaning. “deem” means to regard or judge someone or something in a particular way.
-
-  [sat/standard] overstate (verb) — To describe something as larger, better, or worse than it truly is.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        overstate
-        inflate
-        exaggerate
-      ✓ overturn
-      Note: “overstate”, “exaggerate” and “inflate” are close in meaning. “overturn” means to reverse a decision or ruling, or to tip something so it falls.
+        mastery
+        proficiency
+        expertise
+      ✓ exertion
+      Note: “expertise”, “proficiency” and “mastery” are close in meaning. “exertion” means the use of much physical or mental energy to accomplish something.
 
   [sat/standard] dedicated (adjective) — Committed and hardworking, giving much time and energy to a cause or purpose.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1138,53 +1090,53 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         dedicated
       Note: “dedicated”, “committed” and “devoted” are close in meaning. “disinterested” means having no personal stake, and therefore able to judge fairly.
 
-  [sat/standard] emphasize (verb) — To give special importance or attention to something in speech or writing.
+  [sat/standard] ponder (verb) — To think about something carefully and at length.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ endeavor
-        underscore
-        emphasize
-        stress
-      Note: “emphasize”, “stress” and “underscore” are close in meaning. “endeavor” means to make a serious and determined attempt to achieve something.
+        contemplate
+        mull
+        ponder
+      ✓ prohibit
+      Note: “ponder”, “contemplate” and “mull” are close in meaning. “prohibit” means to officially forbid something by law or rule.
 
-  [sat/standard] ritual (noun) — A set of actions performed regularly in the same way, often as a ceremony.
+  [sat/standard] despotism (noun) — A system in which one ruler holds total power and wields it harshly.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        ritual
-      ✓ rift
-        ceremony
-        rite
-      Note: “ritual”, “ceremony” and “rite” are close in meaning. “rift” means a serious break in friendly relations, or a crack in something.
+        despotism
+      ✓ dissent
+        autocracy
+        tyranny
+      Note: “despotism”, “tyranny” and “autocracy” are close in meaning. “dissent” means strong disagreement with an officially held opinion or decision.
 
-  [sat/standard] cavil (verb) — To raise trivial, petty objections or find fault over unimportant matters.
+  [sat/standard] prosper (verb) — To grow strong, wealthy, or successful over a period of time.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        cavil
-        quibble
-      ✓ construe
-        carp
-      Note: “cavil”, “quibble” and “carp” are close in meaning. “construe” means to understand a word, action, or situation in a particular way.
+        thrive
+        flourish
+      ✓ procrastinate
+        prosper
+      Note: “prosper”, “thrive” and “flourish” are close in meaning. “procrastinate” means to keep putting off something that should be done now.
 
-  [sat/standard] fellowship (noun) — A friendly bond among people who share interests or good company.
+  [sat/standard] impoverished (adjective) — Reduced to a state of having very little money or resources.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        companionship
-      ✓ friction
-        fellowship
-        camaraderie
-      Note: “fellowship”, “companionship” and “camaraderie” are close in meaning. “friction” means tension or conflict between people who differ.
+        destitute
+        needy
+        impoverished
+      ✓ instructive
+      Note: “impoverished”, “destitute” and “needy” are close in meaning. “instructive” means useful for teaching something or providing helpful knowledge.
 
-  [sat/standard] fortify (verb) — To make something stronger or better able to resist attack.
+  [sat/standard] thrifty (adjective) — Using money and resources carefully and without waste.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        strengthen
-      ✓ flounder
-        reinforce
-        fortify
-      Note: “fortify”, “strengthen” and “reinforce” are close in meaning. “flounder” means to struggle clumsily or helplessly, unsure of what to do next.
+        frugal
+        economical
+        thrifty
+      ✓ tangential
+      Note: “thrifty”, “frugal” and “economical” are close in meaning. “tangential” means only slightly connected to the main subject; peripheral.
 
-  [sat/standard] dispassionate (adjective) — Not swayed by strong emotion; calm and fair when judging.
+  [sat/standard] tireless (adjective) — Working with great energy for a long time without becoming weary.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        impartial
-        dispassionate
-      ✓ defunct
-        detached
-      Note: “dispassionate”, “impartial” and “detached” are close in meaning. “defunct” means no longer active, operating, or in existence.
+        tireless
+      ✓ tendentious
+        unflagging
+        indefatigable
+      Note: “tireless”, “indefatigable” and “unflagging” are close in meaning. “tendentious” means presenting a strongly biased view meant to promote a particular cause.
 
   [sat/standard] parody (noun) — A humorous imitation of a serious work, exaggerated for comic effect.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1194,117 +1146,61 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         spoof
       Note: “parody”, “spoof” and “send-up” are close in meaning. “prestige” means widespread respect and admiration earned through achievement or quality.
 
-  [sat/standard] resentment (noun) — Bitter anger at being treated unfairly that lingers quietly inside a person.
+  [sat/standard] falter (verb) — To hesitate, stumble, or lose strength and confidence in action or speech.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ rapport
-        bitterness
-        rancor
-        resentment
-      Note: “resentment”, “bitterness” and “rancor” are close in meaning. “rapport” means a close relationship in which people understand each other well.
+        waver
+        hesitate
+        falter
+      ✓ fixate
+      Note: “falter”, “waver” and “hesitate” are close in meaning. “fixate” means to focus attention obsessively on one single thing.
 
-  [sat/hard] unctuous (adjective) — Excessively smooth, oily, and insincere in manner or speech.
+  [sat/standard] affluence (noun) — The condition of having plenty of money and a high standard of living.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ unconstrained
-        smarmy
-        oily
-        unctuous
-      Note: “unctuous”, “oily” and “smarmy” are close in meaning. “unconstrained” means free from limits, rules, or forces that hold something back.
+        wealth
+        affluence
+      ✓ archive
+        prosperity
+      Note: “affluence”, “wealth” and “prosperity” are close in meaning. “archive” means a collection of historical documents or records kept for reference.
 
-  [sat/hard] connive (verb) — To secretly cooperate in doing something wrong or illegal.
+  [sat/standard] rescind (verb) — To officially cancel or revoke a law, order, or agreement.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        collude
-        connive
-        conspire
-      ✓ censor
-      Note: “connive”, “conspire” and “collude” are close in meaning. “censor” means to examine material and remove parts judged unacceptable or harmful.
+        repeal
+        revoke
+      ✓ revolt
+        rescind
+      Note: “rescind”, “revoke” and “repeal” are close in meaning. “revolt” means to rebel violently against those in power.
 
-  [sat/hard] dilapidated (adjective) — Fallen into ruin or disrepair, especially a building or structure.
+  [sat/standard] tradition (noun) — A belief or practice passed down through generations over time.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ devious
-        ramshackle
-        decrepit
-        dilapidated
-      Note: “dilapidated”, “ramshackle” and “decrepit” are close in meaning. “devious” means using dishonest, indirect, or underhanded methods to get what you want.
+        tradition
+      ✓ tenure
+        custom
+        convention
+      Note: “tradition”, “custom” and “convention” are close in meaning. “tenure” means the period during which someone holds a position, office, or property.
 
-  [sat/hard] dupe (verb) — To trick someone into believing or accepting something false.
+  [sat/standard] inequity (noun) — A lack of fairness or justice in how things are distributed.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        dupe
-        hoodwink
-        deceive
-      ✓ decompose
-      Note: “dupe”, “deceive” and “hoodwink” are close in meaning. “decompose” means to break down and rot into simpler substances through natural decay.
+        injustice
+        unfairness
+        inequity
+      ✓ insurrection
+      Note: “inequity”, “unfairness” and “injustice” are close in meaning. “insurrection” means a violent, organized attempt by many people to overthrow their rulers.
 
-  [sat/hard] insular (adjective) — Narrow-minded and cut off from outside people, cultures, or ideas.
+  [sat/standard] overstate (verb) — To describe something as larger, better, or worse than it truly is.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        insular
-        narrow-minded
-      ✓ incautious
-        parochial
-      Note: “insular”, “parochial” and “narrow-minded” are close in meaning. “incautious” means acting without proper care or attention to possible danger.
+        overstate
+        inflate
+        exaggerate
+      ✓ overturn
+      Note: “overstate”, “exaggerate” and “inflate” are close in meaning. “overturn” means to reverse a decision or ruling, or to tip something so it falls.
 
-  [sat/hard] servitude (noun) — The condition of being forced to work for another without freedom.
+  [sat/standard] elegy (noun) — A sorrowful poem or song written to mourn someone who has died.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ stereotype
-        bondage
-        servitude
-        slavery
-      Note: “servitude”, “slavery” and “bondage” are close in meaning. “stereotype” means a fixed, oversimplified belief about all members of a group.
-
-  [sat/hard] bucolic (adjective) — Relating to the pleasant, peaceful aspects of the countryside.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        bucolic
-      ✓ bereft
-        rural
-        pastoral
-      Note: “bucolic”, “pastoral” and “rural” are close in meaning. “bereft” means deprived of something or someone, and left empty as a result.
-
-  [sat/hard] autonomous (adjective) — Able to govern oneself and act independently without outside control.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        independent
-        sovereign
-        autonomous
-      ✓ adroit
-      Note: “autonomous”, “independent” and “sovereign” are close in meaning. “adroit” means clever and skillful, especially in handling tricky situations or using the hands.
-
-  [sat/hard] casuistry (noun) — Clever but misleading reasoning used to justify questionable moral choices.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        sophistry
-        casuistry
-      ✓ cronyism
-        speciousness
-      Note: “casuistry”, “sophistry” and “speciousness” are close in meaning. “cronyism” means the unfair practice of giving jobs and favors to close friends rather than qualified people.
-
-  [sat/hard] disperse (verb) — To spread out or drive apart across a wide area.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ dissociate
-        scatter
-        dissipate
-        disperse
-      Note: “disperse”, “scatter” and “dissipate” are close in meaning. “dissociate” means to separate or disconnect one thing from another in your mind.
-
-  [sat/hard] circumlocution (noun) — The use of many vague words instead of stating something plainly and directly.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        periphrasis
-        verbosity
-      ✓ charade
-        circumlocution
-      Note: “circumlocution”, “periphrasis” and “verbosity” are close in meaning. “charade” means an obvious pretense or empty show that convinces no one.
-
-  [sat/hard] tumultuous (adjective) — Full of noise, confusion, or violent disorder.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        tumultuous
-        turbulent
-      ✓ treacherous
-        chaotic
-      Note: “tumultuous”, “turbulent” and “chaotic” are close in meaning. “treacherous” means hiding unexpected dangers, or guilty of betraying someone's trust.
-
-  [sat/hard] enslave (verb) — To make someone the property of another and force their labor.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        dominate
-        subjugate
-      ✓ evade
-        enslave
-      Note: “enslave”, “subjugate” and “dominate” are close in meaning. “evade” means to escape or avoid someone or something by cleverness, trickery, or maneuvering.
+        elegy
+        lament
+        dirge
+      ✓ empathy
+      Note: “elegy”, “lament” and “dirge” are close in meaning. “empathy” means the ability to understand and share another person's feelings.
 
   [sat/hard] nullify (verb) — To make something lose its legal force or effect.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1314,77 +1210,21 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
       ✓ swell
       Note: “nullify”, “invalidate” and “negate” are close in meaning. “swell” means to grow bigger or increase in size, volume, or intensity.
 
-  [sat/hard] illusory (adjective) — Seeming real but actually false and not to be trusted.
+  [sat/hard] nepotism (noun) — The practice of giving jobs or favors to one's own relatives.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ inert
-        deceptive
-        false
-        illusory
-      Note: “illusory”, “deceptive” and “false” are close in meaning. “inert” means lacking the power to move or the will to act.
+        cronyism
+      ✓ nomenclature
+        nepotism
+        favoritism
+      Note: “nepotism”, “favoritism” and “cronyism” are close in meaning. “nomenclature” means a formal system of names used within a particular field or discipline.
 
-  [sat/hard] arraign (verb) — To bring someone before a court to answer a criminal charge.
+  [sat/hard] enslave (verb) — To make someone the property of another and force their labor.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        indict
-      ✓ abjure
-        arraign
-        charge
-      Note: “arraign”, “charge” and “indict” are close in meaning. “abjure” means to formally and solemnly reject or give up a belief, claim, or practice.
-
-  [sat/hard] unveil (verb) — To reveal or make publicly known something that was previously hidden.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        unveil
-        disclose
-      ✓ unleash
-        reveal
-      Note: “unveil”, “reveal” and “disclose” are close in meaning. “unleash” means to suddenly release a powerful force or feeling that was held back.
-
-  [sat/hard] mockery (noun) — Teasing, insulting behavior or speech meant to make someone seem foolish or ridiculous.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        ridicule
-        derision
-        mockery
-      ✓ mettle
-      Note: “mockery”, “ridicule” and “derision” are close in meaning. “mettle” means a person's spirited ability to face difficulty with courage and determination.
-
-  [sat/hard] enrage (verb) — To fill someone with violent, burning anger.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        incense
-        enrage
-        infuriate
-      ✓ empower
-      Note: “enrage”, “infuriate” and “incense” are close in meaning. “empower” means to give someone the authority or confidence to take control and act.
-
-  [sat/hard] injustice (noun) — An act or situation that is unfair and violates people's rights.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        inequity
-        injustice
-      ✓ interloper
-        unfairness
-      Note: “injustice”, “unfairness” and “inequity” are close in meaning. “interloper” means a person who intrudes into a place or affair where they do not belong.
-
-  [sat/hard] sycophant (noun) — A person who flatters powerful people to gain advantage for themselves.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        flatterer
-      ✓ solitude
-        sycophant
-        toady
-      Note: “sycophant”, “flatterer” and “toady” are close in meaning. “solitude” means the state of being by oneself, away from other people.
-
-  [sat/hard] manacle (noun) — A metal band or chain fastened around the wrists to restrain a person.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ menace
-        manacle
-        fetter
-        shackle
-      Note: “manacle”, “shackle” and “fetter” are close in meaning. “menace” means a person or thing likely to cause harm or danger.
-
-  [sat/hard] duress (noun) — Threats or force used to make someone act against their will.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        force
-        duress
-        coercion
-      ✓ denizen
-      Note: “duress”, “coercion” and “force” are close in meaning. “denizen” means a person, animal, or plant that lives in a particular place.
+        dominate
+        subjugate
+      ✓ evade
+        enslave
+      Note: “enslave”, “subjugate” and “dominate” are close in meaning. “evade” means to escape or avoid someone or something by cleverness, trickery, or maneuvering.
 
   [sat/hard] mournful (adjective) — Feeling or showing deep sadness, especially over a loss.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1394,13 +1234,189 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         sorrowful
       Note: “mournful”, “sorrowful” and “doleful” are close in meaning. “magisterial” means showing great authority and commanding respect, sometimes in a bossy, dictatorial way.
 
-  [sat/hard] impulsive (adjective) — Tending to act on sudden urges without stopping to think things through.
+  [sat/hard] punctilious (adjective) — Extremely careful about small details of conduct, etiquette, or correct procedure.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        impulsive
-      ✓ illustrious
-        hasty
-        rash
-      Note: “impulsive”, “rash” and “hasty” are close in meaning. “illustrious” means widely admired and celebrated for remarkable achievements or a distinguished record.
+      ✓ prodigious
+        meticulous
+        fastidious
+        punctilious
+      Note: “punctilious”, “meticulous” and “fastidious” are close in meaning. “prodigious” means remarkably great in size, amount, or degree; strikingly impressive.
+
+  [sat/hard] blossom (verb) — To produce flowers, or to develop fully and beautifully.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        flower
+        blossom
+      ✓ bristle
+        bloom
+      Note: “blossom”, “bloom” and “flower” are close in meaning. “bristle” means to react with sudden defensive anger, like a cat's fur standing on end.
+
+  [sat/hard] cloister (verb) — To shut away in a quiet, secluded place, apart from the world.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        cloister
+        isolate
+        seclude
+      ✓ chafe
+      Note: “cloister”, “seclude” and “isolate” are close in meaning. “chafe” means to feel impatient irritation, or to rub skin raw and sore through friction.
+
+  [sat/hard] emaciated (adjective) — Abnormally thin and weak, usually from starvation or serious illness.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ equitable
+        emaciated
+        skeletal
+        gaunt
+      Note: “emaciated”, “skeletal” and “gaunt” are close in meaning. “equitable” means treating everyone in a way that is fair and just to all.
+
+  [sat/hard] foil (verb) — To stop a plan or effort from succeeding; to thwart it.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        frustrate
+        thwart
+      ✓ feign
+        foil
+      Note: “foil”, “thwart” and “frustrate” are close in meaning. “feign” means to pretend to have a feeling or condition you do not actually have.
+
+  [sat/hard] canny (adjective) — Shrewd, careful, and clever, especially in business or practical matters.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ congenial
+        shrewd
+        canny
+        astute
+      Note: “canny”, “shrewd” and “astute” are close in meaning. “congenial” means pleasant and agreeable, especially because of a similar temperament.
+
+  [sat/hard] heinous (adjective) — Shockingly evil or utterly monstrous.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        heinous
+        monstrous
+        atrocious
+      ✓ apprehensive
+      Note: “heinous”, “atrocious” and “monstrous” are close in meaning. “apprehensive” means feeling worried or uneasy that something bad might happen.
+
+  [sat/hard] fidelity (noun) — Faithfulness and loyalty to a person, cause, or duty.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        allegiance
+        fidelity
+      ✓ frontier
+        loyalty
+      Note: “fidelity”, “loyalty” and “allegiance” are close in meaning. “frontier” means the far edge of settled territory, bordering wild or unexplored regions.
+
+  [sat/hard] enrage (verb) — To fill someone with violent, burning anger.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        incense
+        enrage
+        infuriate
+      ✓ empower
+      Note: “enrage”, “infuriate” and “incense” are close in meaning. “empower” means to give someone the authority or confidence to take control and act.
+
+  [sat/hard] equanimity (noun) — Calmness and steadiness of mind, especially under stress or difficulty.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        equanimity
+        serenity
+        composure
+      ✓ euphoria
+      Note: “equanimity”, “composure” and “serenity” are close in meaning. “euphoria” means an intense feeling of happiness, well-being, and excitement.
+
+  [sat/hard] perilous (adjective) — Full of danger or great risk to life and well-being.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        perilous
+      ✓ primeval
+        hazardous
+        dangerous
+      Note: “perilous”, “dangerous” and “hazardous” are close in meaning. “primeval” means belonging to the earliest ages of the world; ancient and untouched by human activity.
+
+  [sat/hard] umbrage (noun) — Offense or resentment taken at a perceived slight.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        umbrage
+        resentment
+      ✓ delusion
+        pique
+      Note: “umbrage”, “resentment” and “pique” are close in meaning. “delusion” means a false belief held firmly despite clear evidence against it.
+
+  [sat/hard] augur (verb) — To predict or serve as a sign of what is likely to happen ahead.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        augur
+        bode
+        presage
+      ✓ adhere
+      Note: “augur”, “presage” and “bode” are close in meaning. “adhere” means to stick firmly to a surface, or to follow a rule, plan, or belief closely.
+
+  [sat/hard] dissertation (noun) — A long, formal written work based on original research.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ despot
+        thesis
+        treatise
+        dissertation
+      Note: “dissertation”, “thesis” and “treatise” are close in meaning. “despot” means a ruler who holds absolute power and uses it cruelly.
+
+  [sat/hard] ludicrous (adjective) — So foolish, unreasonable, or out of place that it deserves to be laughed at.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        preposterous
+        absurd
+      ✓ salubrious
+        ludicrous
+      Note: “ludicrous”, “absurd” and “preposterous” are close in meaning. “salubrious” means good for one's health; pleasant and wholesome to live in.
+
+  [sat/hard] manacle (noun) — A metal band or chain fastened around the wrists to restrain a person.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ menace
+        manacle
+        fetter
+        shackle
+      Note: “manacle”, “shackle” and “fetter” are close in meaning. “menace” means a person or thing likely to cause harm or danger.
+
+  [sat/hard] autonomous (adjective) — Able to govern oneself and act independently without outside control.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        independent
+        sovereign
+        autonomous
+      ✓ adroit
+      Note: “autonomous”, “independent” and “sovereign” are close in meaning. “adroit” means clever and skillful, especially in handling tricky situations or using the hands.
+
+  [sat/hard] sanctuary (noun) — A safe place offering shelter, or a sacred area within a temple.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        haven
+      ✓ subtlety
+        sanctuary
+        refuge
+      Note: “sanctuary”, “refuge” and “haven” are close in meaning. “subtlety” means a fine, easily missed detail or a delicate distinction.
+
+  [sat/hard] tumultuous (adjective) — Full of noise, confusion, or violent disorder.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        tumultuous
+        turbulent
+      ✓ treacherous
+        chaotic
+      Note: “tumultuous”, “turbulent” and “chaotic” are close in meaning. “treacherous” means hiding unexpected dangers, or guilty of betraying someone's trust.
+
+  [sat/hard] temperance (noun) — Moderation and self-restraint, especially in eating, drinking, or desire.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        moderation
+      ✓ taxonomy
+        restraint
+        temperance
+      Note: “temperance”, “moderation” and “restraint” are close in meaning. “taxonomy” means a system for classifying things into ordered groups based on shared traits.
+
+  [sat/hard] spoof (noun) — A light, humorous imitation that mocks something by exaggerating its features.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        send-up
+        parody
+        spoof
+      ✓ serf
+      Note: “spoof”, “parody” and “send-up” are close in meaning. “serf” means a laborer in feudal times bound to work a master's land.
+
+  [sat/fiendish] dissertation (noun) — A long, formal written work based on original research.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ deliverance
+        dissertation
+        thesis
+        treatise
+      Note: “dissertation”, “thesis” and “treatise” are close in meaning. “deliverance” means rescue or release from danger, bondage, or serious difficulty.
+
+  [sat/fiendish] enmesh (verb) — To catch or involve someone deeply in something difficult to escape.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        entangle
+        ensnare
+        enmesh
+      ✓ enamor
+      Note: “enmesh”, “entangle” and “ensnare” are close in meaning. “enamor” means to fill someone with intense love, fondness, or fascination.
 
   [sat/fiendish] emaciated (adjective) — Abnormally thin and weak, usually from starvation or serious illness.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1410,6 +1426,14 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         skeletal
       Note: “emaciated”, “skeletal” and “gaunt” are close in meaning. “egregious” means remarkably and shockingly bad in a way that stands out.
 
+  [sat/fiendish] fidelity (noun) — Faithfulness and loyalty to a person, cause, or duty.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        fidelity
+      ✓ fortitude
+        allegiance
+        loyalty
+      Note: “fidelity”, “loyalty” and “allegiance” are close in meaning. “fortitude” means strength of mind that lets one endure pain or hardship with courage.
+
   [sat/fiendish] equanimity (noun) — Calmness and steadiness of mind, especially under stress or difficulty.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
       ✓ embargo
@@ -1417,6 +1441,54 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         equanimity
         serenity
       Note: “equanimity”, “composure” and “serenity” are close in meaning. “embargo” means an official order that stops trade or exchange with a country.
+
+  [sat/fiendish] dupe (verb) — To trick someone into believing or accepting something false.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+      ✓ dread
+        hoodwink
+        deceive
+        dupe
+      Note: “dupe”, “deceive” and “hoodwink” are close in meaning. “dread” means to feel intense fear or anxiety about something expected to come.
+
+  [sat/fiendish] throng (verb) — To crowd together in large numbers, filling a space.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        swarm
+        flock
+      ✓ titter
+        throng
+      Note: “throng”, “swarm” and “flock” are close in meaning. “titter” means to give a short, nervous, partly suppressed laugh, often from embarrassment.
+
+  [sat/fiendish] nullify (verb) — To make something lose its legal force or effect.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        invalidate
+      ✓ navigate
+        nullify
+        negate
+      Note: “nullify”, “invalidate” and “negate” are close in meaning. “navigate” means to plan, direct, and steer a course through water, air, or difficult terrain.
+
+  [sat/fiendish] consort (verb) — To regularly keep company or associate with certain people.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        consort
+      ✓ cloister
+        fraternize
+        associate
+      Note: “consort”, “associate” and “fraternize” are close in meaning. “cloister” means to shut away in a quiet, secluded place, apart from the world.
+
+  [sat/fiendish] wager (verb) — To risk money or something valuable on the outcome of an uncertain event.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        gamble
+        bet
+        wager
+      ✓ wield
+      Note: “wager”, “bet” and “gamble” are close in meaning. “wield” means to hold and use a weapon, tool, or influence effectively.
+
+  [sat/fiendish] cronyism (noun) — The unfair practice of giving jobs and favors to close friends rather than qualified people.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        nepotism
+        cronyism
+        favoritism
+      ✓ caper
+      Note: “cronyism”, “favoritism” and “nepotism” are close in meaning. “caper” means a playful leap, or a lighthearted, mischievous adventure.
 
   [sat/fiendish] compunction (noun) — A slight feeling of guilt or moral hesitation about an action.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1426,21 +1498,61 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         compunction
       Note: “compunction”, “scruple” and “qualm” are close in meaning. “citadel” means a fortress on high ground that protects or dominates a city.
 
-  [sat/fiendish] ludicrous (adjective) — So foolish, unreasonable, or out of place that it deserves to be laughed at.
+  [sat/fiendish] unctuous (adjective) — Excessively smooth, oily, and insincere in manner or speech.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        absurd
-      ✓ landlocked
-        ludicrous
-        preposterous
-      Note: “ludicrous”, “absurd” and “preposterous” are close in meaning. “landlocked” means enclosed by ground on all sides, with no access to the sea.
+      ✓ unbridled
+        oily
+        unctuous
+        smarmy
+      Note: “unctuous”, “oily” and “smarmy” are close in meaning. “unbridled” means not held back or controlled in any way.
 
-  [sat/fiendish] uproot (verb) — To pull a plant fully from the soil, or displace someone from home.
+  [sat/fiendish] impulsive (adjective) — Tending to act on sudden urges without stopping to think things through.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        uproot
-      ✓ unveil
-        dislodge
-        displace
-      Note: “uproot”, “displace” and “dislodge” are close in meaning. “unveil” means to reveal or make publicly known something that was previously hidden.
+        hasty
+      ✓ inhospitable
+        rash
+        impulsive
+      Note: “impulsive”, “rash” and “hasty” are close in meaning. “inhospitable” means harsh and difficult to live in, or unwelcoming to guests.
+
+  [sat/fiendish] bemoan (verb) — To openly express regret or displeasure about something.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        deplore
+      ✓ blossom
+        bemoan
+        lament
+      Note: “bemoan”, “lament” and “deplore” are close in meaning. “blossom” means to produce flowers, or to develop fully and beautifully.
+
+  [sat/fiendish] exhaustive (adjective) — Including every possible detail; thoroughly complete.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        comprehensive
+        thorough
+        exhaustive
+      ✓ ebullient
+      Note: “exhaustive”, “thorough” and “comprehensive” are close in meaning. “ebullient” means bubbling over with cheerful excitement and high spirits.
+
+  [sat/fiendish] relent (verb) — To soften a firm stance and finally give in after resisting.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        capitulate
+        relent
+      ✓ rebuff
+        yield
+      Note: “relent”, “yield” and “capitulate” are close in meaning. “rebuff” means to reject or refuse someone or something in an abrupt, unfriendly way.
+
+  [sat/fiendish] desiccate (verb) — To dry something out completely by removing all of its moisture.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        desiccate
+      ✓ dither
+        dehydrate
+        parch
+      Note: “desiccate”, “dehydrate” and “parch” are close in meaning. “dither” means to hesitate and act indecisively, unable to make up one's mind.
+
+  [sat/fiendish] temperance (noun) — Moderation and self-restraint, especially in eating, drinking, or desire.
+      Ask: Which one doesn’t belong?  (✓ marks the outsider)
+        temperance
+        moderation
+      ✓ tribunal
+        restraint
+      Note: “temperance”, “moderation” and “restraint” are close in meaning. “tribunal” means a special court or panel set up to settle certain disputes or cases.
 
   [sat/fiendish] revitalize (verb) — To give new energy, strength, or life to something weak or run-down.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
@@ -1450,154 +1562,42 @@ Ship threshold: fewer than 2% of questions marked. Lines starting with ? were fl
         refresh
       Note: “revitalize”, “reinvigorate” and “refresh” are close in meaning. “relinquish” means to voluntarily let go of something you hold, own, or control.
 
-  [sat/fiendish] quarantine (noun) — A period of isolation used to stop the spread of disease.
+  [sat/fiendish] fawning (adjective) — Flattering or praising someone excessively to win favor, often in a servile way.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        quarantine
-        isolation
-        confinement
-      ✓ grievance
-      Note: “quarantine”, “isolation” and “confinement” are close in meaning. “grievance” means a complaint about unfair treatment, or the resentment such treatment causes.
+        fawning
+      ✓ frail
+        sycophantic
+        obsequious
+      Note: “fawning”, “obsequious” and “sycophantic” are close in meaning. “frail” means physically weak and delicate, easily broken or harmed.
 
-  [sat/fiendish] dauntless (adjective) — Showing courage and resolve even when facing danger.
+  [sat/fiendish] disperse (verb) — To spread out or drive apart across a wide area.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        dauntless
-      ✓ decrepit
-        fearless
-        intrepid
-      Note: “dauntless”, “fearless” and “intrepid” are close in meaning. “decrepit” means worn out and weakened by old age, long use, or neglect.
+        scatter
+        dissipate
+        disperse
+      ✓ delve
+      Note: “disperse”, “scatter” and “dissipate” are close in meaning. “delve” means to search deeply and thoroughly into a subject or source.
 
-  [sat/fiendish] stolid (adjective) — Calm and dependable but showing little emotion or interest.
+  [sat/fiendish] autocracy (noun) — A system where a single ruler holds unlimited power over everyone else.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ squalid
-        stolid
-        impassive
-        phlegmatic
-      Note: “stolid”, “impassive” and “phlegmatic” are close in meaning. “squalid” means extremely dirty and run-down, often from poverty or neglect.
+      ✓ anguish
+        dictatorship
+        autocracy
+        despotism
+      Note: “autocracy”, “dictatorship” and “despotism” are close in meaning. “anguish” means severe mental or physical suffering, often caused by grief or loss.
 
-  [sat/fiendish] resettle (verb) — To move to and make a new home in a different place.
+  [sat/fiendish] reckless (adjective) — Acting without any thought or concern for the possible consequences.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        relocate
-        resettle
-      ✓ restrict
-        migrate
-      Note: “resettle”, “relocate” and “migrate” are close in meaning. “restrict” means to put limits on what someone can do or how much of something exists.
+      ✓ reclusive
+        careless
+        reckless
+        rash
+      Note: “reckless”, “rash” and “careless” are close in meaning. “reclusive” means preferring to live alone and avoid other people or society.
 
-  [sat/fiendish] injustice (noun) — An act or situation that is unfair and violates people's rights.
+  [sat/fiendish] deport (verb) — To officially force a foreigner to leave a nation, usually for legal reasons.
       Ask: Which one doesn’t belong?  (✓ marks the outsider)
-      ✓ interloper
-        inequity
-        injustice
-        unfairness
-      Note: “injustice”, “unfairness” and “inequity” are close in meaning. “interloper” means a person who intrudes into a place or affair where they do not belong.
-
-  [sat/fiendish] duress (noun) — Threats or force used to make someone act against their will.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        duress
-        force
-      ✓ dissonance
-        coercion
-      Note: “duress”, “coercion” and “force” are close in meaning. “dissonance” means a lack of harmony or agreement between sounds, ideas, or feelings.
-
-  [sat/fiendish] witticism (noun) — A clever, amusing remark made in passing.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        quip
-        witticism
-      ✓ wrath
-        jest
-      Note: “witticism”, “quip” and “jest” are close in meaning. “wrath” means extreme, often vengeful anger or fury.
-
-  [sat/fiendish] connive (verb) — To secretly cooperate in doing something wrong or illegal.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        connive
-      ✓ cohere
-        collude
-        conspire
-      Note: “connive”, “conspire” and “collude” are close in meaning. “cohere” means to hold or stick together as a consistent, unified whole.
-
-  [sat/fiendish] incriminate (verb) — To make someone appear guilty of a crime or wrongdoing.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        implicate
-        incriminate
-      ✓ insulate
-        inculpate
-      Note: “incriminate”, “implicate” and “inculpate” are close in meaning. “insulate” means to shield from heat, cold, or unwanted influence by surrounding with a barrier.
-
-  [sat/fiendish] permeate (verb) — To spread through every part of something, often gradually and completely.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        saturate
-      ✓ portend
-        permeate
-        infuse
-      Note: “permeate”, “saturate” and “infuse” are close in meaning. “portend” means to be a warning sign that something, often bad, is about to happen.
-
-  [sat/fiendish] recuperate (verb) — To regain health, strength, or losses after illness, exhaustion, or a setback.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        recuperate
-      ✓ recuse
-        convalesce
-        recover
-      Note: “recuperate”, “recover” and “convalesce” are close in meaning. “recuse” means to remove oneself from a matter because of a conflict of interest.
-
-  [sat/fiendish] insular (adjective) — Narrow-minded and cut off from outside people, cultures, or ideas.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        insular
-      ✓ imperturbable
-        narrow-minded
-        parochial
-      Note: “insular”, “parochial” and “narrow-minded” are close in meaning. “imperturbable” means not able to be disturbed, excited, or made anxious.
-
-  [sat/fiendish] standoffish (adjective) — Unfriendly and distant in manner, reluctant to be warm or sociable.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        standoffish
-      ✓ servile
-        aloof
-        distant
-      Note: “standoffish”, “aloof” and “distant” are close in meaning. “servile” means excessively eager to obey or please others in a submissive, groveling way.
-
-  [sat/fiendish] abscond (verb) — To run away quickly and secretly, often after stealing or to escape the law.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        decamp
-        abscond
-      ✓ abjure
-        flee
-      Note: “abscond”, “flee” and “decamp” are close in meaning. “abjure” means to formally and solemnly reject or give up a belief, claim, or practice.
-
-  [sat/fiendish] peril (noun) — A state of serious and immediate danger to one's safety or life.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        peril
-      ✓ pestilence
-        danger
-        jeopardy
-      Note: “peril”, “danger” and “jeopardy” are close in meaning. “pestilence” means a deadly, fast-spreading disease that kills many people at once.
-
-  [sat/fiendish] revoke (verb) — To officially cancel the validity of something previously granted.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        repeal
-      ✓ reconnoiter
-        rescind
-        revoke
-      Note: “revoke”, “repeal” and “rescind” are close in meaning. “reconnoiter” means to explore an area to gather information, especially about an enemy or terrain.
-
-  [sat/fiendish] renewal (noun) — The act of making something fresh, valid, or active again after decline or expiry.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        regeneration
-      ✓ reign
-        renewal
-        restoration
-      Note: “renewal”, “restoration” and “regeneration” are close in meaning. “reign” means the period during which a monarch or ruler holds power over a land.
-
-  [sat/fiendish] appalled (adjective) — Feeling deep shock and dismay at something offensive or dreadful.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        horrified
-        appalled
-      ✓ ascetic
-        aghast
-      Note: “appalled”, “horrified” and “aghast” are close in meaning. “ascetic” means choosing a strict, simple life that avoids comfort and pleasure.
-
-  [sat/fiendish] misrepresent (verb) — To describe something falsely or inaccurately, creating a wrong impression.
-      Ask: Which one doesn’t belong?  (✓ marks the outsider)
-        distort
-      ✓ muster
-        twist
-        misrepresent
-      Note: “misrepresent”, “distort” and “twist” are close in meaning. “muster” means to gather or summon troops, support, or one's own inner strength.
+        banish
+        expel
+        deport
+      ✓ dissimulate
+      Note: “deport”, “expel” and “banish” are close in meaning. “dissimulate” means to hide your true feelings or intentions behind a false outward show.

@@ -21,6 +21,7 @@ export type GameId =
   | "match"
   | "spell"
   | "unscramble"
+  | "picture"
   | "daily";
 
 /**
@@ -164,7 +165,30 @@ export interface TilesQuestion {
   explain: Explanation;
 }
 
-export type GameQuestion = ChoiceQuestion | VerdictQuestion | MatchQuestion | SpellQuestion | TilesQuestion;
+/**
+ * Picture It: a diagram with one part highlighted, and four names for it —
+ * the answer and three other parts of the same object.
+ */
+export interface PictureQuestion {
+  kind: "picture";
+  /** "pic-house-lintel": never a notebook word, so never a progress record. */
+  wordId: string;
+  word: string;
+  partOfSpeech: string;
+  diagram: string;
+  part: string;
+  options: string[];
+  answer: number;
+  explain: Explanation;
+}
+
+export type GameQuestion =
+  | ChoiceQuestion
+  | VerdictQuestion
+  | MatchQuestion
+  | SpellQuestion
+  | TilesQuestion
+  | PictureQuestion;
 
 export const VERDICT_OPTIONS = ["Fact", "Fiction"] as const;
 

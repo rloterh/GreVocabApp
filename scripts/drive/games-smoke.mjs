@@ -435,6 +435,68 @@ await page.waitForTimeout(500);
   await ctx.close();
 }
 
+// ── Phase 24: Picture It ───────────────────────────────────────────────────
+await toHub();
+const pictureCard = page.locator("section").filter({ hasText: "Picture It" });
+check(
+  (await pictureCard.getByRole("button").allInnerTexts()).join(",") === "Play",
+  "Picture It's card has one Play button, no tiers",
+);
+await pictureCard.getByRole("button", { name: "Play", exact: true }).click();
+check(/Ten parts of ten things/.test(await page.getByRole("dialog").innerText()), "its rules card describes it");
+await page.getByRole("button", { name: "Play", exact: true }).last().click();
+await stage.waitFor();
+for (let i = 0; i < 10; i++) {
+  await page.waitForFunction(
+    () => [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')].some((b) => !b.disabled),
+    null,
+    { timeout: 10000 },
+  );
+  if (i === 0) {
+    check(await stage.getByRole("img", { name: /one part highlighted/ }).isVisible(), "the drawing is shown with a part lit");
+    const lit = await stage.locator('svg [stroke="hsl(var(--accent))"]').count();
+    check(lit >= 2, "the part and its callout are in the accent colour", `${lit} accent strokes`);
+    const opts = await stage.locator('[role="radiogroup"] button').allInnerTexts();
+    check(opts.length === 4 && new Set(opts).size === 4, "four distinct names to choose from", opts.join(" | "));
+  }
+  await page.keyboard.press(String((i % 4) + 1));
+  await page.waitForTimeout(500);
+  const cont = stage.getByRole("button", { name: "Continue" });
+  if (await cont.isVisible().catch(() => false)) await cont.click();
+  else await page.waitForTimeout(900);
+}
+await page.getByTestId("best-line").waitFor({ timeout: 8000 });
+check(true, "Picture It: a full round reaches its results");
+{
+  await page.getByRole("button", { name: "Review answers" }).click();
+  const review = page.getByRole("list", { name: "Your answers" });
+  await review.locator("li button").first().click();
+  check(await review.getByRole("img").first().isVisible(), "the review shows the drawing");
+  check(!/Open the library/.test(await review.innerText()), "and doesn't send a diagram part to the library");
+}
+check((await progressWords()) === wordsBefore, "Picture It wrote no word progress");
+
+// Picture It needs no word files: it plays with the network gone.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const p5 = await ctx.newPage();
+  await p5.addInitScript(() =>
+    localStorage.setItem("lexicon.settings.v1", JSON.stringify({ state: { hasOnboarded: true }, version: 0 })),
+  );
+  await p5.goto(URL, { waitUntil: "networkidle" });
+  await p5.waitForTimeout(1200);
+  await p5.route(/\/vocab\//, (route) => route.abort("internetdisconnected"));
+  await p5.getByRole("button", { name: "Games", exact: true }).first().click();
+  await p5.waitForTimeout(700);
+  await p5.locator("section").filter({ hasText: "Picture It" }).getByRole("button", { name: "Play", exact: true }).click();
+  await p5.waitForTimeout(1500);
+  check(!(await p5.getByRole("alert").isVisible().catch(() => false)), "offline: Picture It shows no offline warning");
+  await p5.getByRole("button", { name: "Play", exact: true }).last().click();
+  await p5.getByTestId("game-stage").getByRole("img", { name: /one part highlighted/ }).waitFor({ timeout: 8000 });
+  check(true, "offline: Picture It still plays");
+  await ctx.close();
+}
+
 // ── Phase 22: the Daily Round, from the Dashboard and back ─────────────────
 const playMixedRound = async () => {
   await page.getByTestId("game-stage").waitFor();

@@ -133,7 +133,7 @@ own name and its own content, and that content comes from Lexicon's corpus.
 Eight games and a daily challenge. Every one is built from fields the corpus
 already has: all 5,421 words have a definition, part of speech and example,
 5,418 have synonyms and 4,952 have antonyms. Nothing new needs authoring except
-the picture pack in §4.10, which is gated.
+the picture pack in §4.10, which is drawn in-house.
 
 Names are working titles, chosen to be plain, ours, and self-explanatory.
 
@@ -148,12 +148,12 @@ Names are working titles, chosen to be plain, ours, and self-explanatory.
 | 7 | **Spell It** | hear it + read the definition → type it | text | 20 s | 21 | P1 |
 | 8 | **Unscramble** | definition + shuffled letter tiles → the word | tiles | 25 s | 23 | P2 |
 | 9 | **Daily Round** | ten mixed questions, the same for everyone that day | mixed | per type | 22 | P1 |
-| 10 | **Picture It** | illustration → its name | 4 options | 10 s | 24 | P2, gated |
+| 10 | **Picture It** | a diagram with one part lit → that part's name | 4 options | 12 s | 24 | P2 |
 
 The first three cover all three of the reference's games: Closest Meaning is
 *How Strong*, Fact or Fiction is *True or False* turned into vocabulary, and
-Picture It is the *Name That Thing* analogue, deferred for the reason in
-§4.10. The rest are where this section stops being a copy.
+Picture It is the *Name That Thing* analogue, with its own drawn pack for
+the reason in §4.10. The rest are where this section stops being a copy.
 
 ### 4.1 Closest Meaning
 
@@ -349,26 +349,48 @@ Fact or Fiction, Opposites, Fill the Gap), on the active track, at Standard.
   text summary for the clipboard — `Lexicon Daily · 13 Oct · 8/10` plus a
   row of ten squares. No link, no server, nothing comparative inside the app.
 
-### 4.10 Picture It (P2, gated)
+### 4.10 Picture It (P2, built in Phase 24)
 
-The *Name That Thing* analogue. **Deferred, and gated on a decision**, because
-it is the only game here the corpus cannot feed:
+> *A sailing ship* — a drawing with one part lit and a callout to it
+> ◻ boom  ◻ jib  ◻ bowsprit  ◻ mainsail
 
-- Lexicon's vocabulary is abstract (*abstemious*, *chagrin*). Almost none of it
-  is drawable, so a picture game needs a **separate concrete-noun pack**:
-  words like *fret*, *gable*, *awl*, *finial* or *sextant*, each with an
-  illustration.
-- The illustrations need a licence that permits bundling in an MIT app sold on
-  a store. CC0 sets are the clean option. CC-BY sets need attribution in the
-  About dialog. CC-BY-SA may be incompatible with how the app is distributed and
-  needs checking.
-- The reference's best questions ("which *part* is this?") need
-  diagram-style art with a callout arrow, which no stock set provides.
+The *Name That Thing* analogue, and the one game the corpus cannot feed:
+Lexicon's words are abstract, and almost none can be drawn. It has its own
+pack instead — [ADR 0018](./adr/0018-picture-it-in-house-diagrams.md) records
+why it is drawn in-house rather than sourced or commissioned.
 
-Phase 24 starts with a **spike**: price a commissioned set of 150 SVGs against
-the best CC0 source, and decide. Until then the hub does not show a locked
-tile for it. A "coming soon" tile is a promise, and it would be the only one in
-the app.
+- **The pack:** ten diagrams — a house, a classical temple, a sailing ship, an
+  acoustic guitar, a castle, a church in plan, a wristwatch, a flower, a human
+  eye and a shoe — with **86 named parts** between them
+  (`src/lib/games/pictures/diagrams.ts`). Each diagram is plain shapes on a
+  440 × 330 canvas; a shape that belongs to a part carries its id.
+- **Drawn in theme tokens** (`PictureDiagram.tsx`): outlines in the ink colour,
+  pieces in the secondary surface, the asked part in the accent with a callout
+  to it. Right in every theme, with no raster asset.
+- **Options are three other parts of the same object.** "Which part of the
+  house is this?" with *eave*, *lintel* and *bargeboard* beside the answer is a
+  real question; with *keel* and *iris* it would be a matching exercise. No
+  distractor scorer, no defensibility guard — the same-object rule is both.
+- **Only parts you can point at on their own.** Wholes that contain an asked
+  part are left out — *stamen* (anther and filament both show), *hull* (bow and
+  stern are sections of it), *pediment* (the tympanum is its face) — because
+  lighting a whole makes two answers defensible.
+- **A round:** ten parts, at most two from one diagram, 12 seconds each.
+- **Tierless and trackless.** These are general words, not Advanced or Easy
+  vocabulary, so the card has one Play button, the best is kept once, and a
+  round needs no word files — it plays offline from the first launch.
+- **Never feeds the scheduler:** none of these words are in a track, so the
+  review list shows the drawing and the definition, and never offers
+  Flashcards or the library.
+- **Quality:** every part is blind-reviewed from rendered, unlabelled sheets
+  (§9). The first pass flagged 10 of 86 — a gutter and an eave drawn as two
+  identical bars, watch hands told apart only by a few pixels, a buckle that
+  read as a strap keeper, a shoe whose eyelets sat on the vamp, a moat drawn as
+  a slab. Redrawn, a fresh pass flagged 2 (a jib larger than the mainsail).
+  The ship, guitar and watch were checked again: the minute and second hands
+  were still too alike once lit, and then one callout ran along its hand and
+  stretched it. Every diagram's last pass, on a fresh shuffle, flagged none.
+  A second hand has a counterweight for a reason.
 
 ## 5. Tiers
 
@@ -794,7 +816,7 @@ All recorded 2026-10-13. The owner took every recommendation.
 | --- | --- | --- |
 | **D1** | Accept ADR 0016: scored rounds and per-game bests, nothing cumulative | Accept |
 | **D2** | Does a completed game round count toward the streak? | Yes, via `gamesPlayed` |
-| **D3** | Picture It: commission a pack, source CC0, or drop | Spike in Phase 24, decide on cost |
+| **D3** | Picture It: commission a pack, source CC0, or drop | **Decided 2026-10-14:** drawn in-house ([ADR 0018](./adr/0018-picture-it-in-house-diagrams.md)) |
 | **D4** | Mobile tab bar: Games in, Quiz to More? | Yes |
 | **D5** | Daily Round share text | Ship in Phase 22 as P2, if D1 keeps the clause |
 | **D6** | Track display names: "Advanced" / "Easy", or "Hard" / "Easy"? | "Advanced" / "Easy". "Hard" collides with the Hard tier |

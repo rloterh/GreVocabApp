@@ -20,7 +20,7 @@ Read in this order. Each document assumes the ones above it.
 | [SCHEDULE.md](./SCHEDULE.md) | Start date, the ordinal-to-calendar mapping, reshuffling, and the migration that must not lose progress |
 | [FLASHCARD-INTERACTION.md](./FLASHCARD-INTERACTION.md) | Edge arrows, swipe and keyboard — three routes to the same two actions |
 | [TABLET.md](./TABLET.md) | iPad and tablet layout: the rail, two-column content, and the sizes it is verified at |
-| [GAMES.md](./GAMES.md) | v1.2 (proposed): the games section — catalogue, tiers, engine, scoring, and why games never write the scheduler |
+| [GAMES.md](./GAMES.md) | v1.2: the games section — catalogue, tiers, engine, scoring, and why games never write the scheduler |
 | [GAMES-UI.md](./GAMES-UI.md) | The games' screens, motion, sound and copy |
 | [GAMES-PROMPTS.md](./GAMES-PROMPTS.md) | Session prompts per v1.2 phase, and the in-app model prompts for the P2 enhancements |
 | [adr/](./adr/) | Decision records — the *why*, kept short, one per decision |
@@ -38,7 +38,9 @@ they decide the data model those two describe.
 Before any games work, read [ADR 0016](./adr/0016-games-are-rounds-not-progression.md)
 (it amends ADR 0006) and
 [ADR 0017](./adr/0017-track-display-names.md): the tracks are shown as Advanced
-and Easy, and their ids stay `gre` and `sat`.
+and Easy, and their ids stay `gre` and `sat`. Picture It's drawings are
+in-house by decision — [ADR 0018](./adr/0018-picture-it-in-house-diagrams.md)
+says why, and what a commissioned set would have to deliver to replace them.
 
 Before changing the daily reminder, read
 [ADR 0015](./adr/0015-os-scheduled-reminders.md) alongside

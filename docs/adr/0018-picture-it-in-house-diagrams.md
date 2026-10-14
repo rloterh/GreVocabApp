@@ -1,6 +1,6 @@
 # ADR 0018 — Picture It is drawn in-house, as theme-native diagrams
 
-**Status:** proposed · 2026-10-14 · the Phase 24 spike ([ROADMAP.md](../../ROADMAP.md))
+**Status:** accepted · 2026-10-14 · the Phase 24 spike ([ROADMAP.md](../../ROADMAP.md))
 
 ## Context
 
@@ -52,7 +52,7 @@ What it showed:
   $7,500 or more is the owner's call, and the in-house set does not prevent
   commissioning later — the question format and data shape would not change.
 
-## Decision (proposed)
+## Decision
 
 **Draw Picture It in-house**, as a pack of about ten diagrams with eight to
 ten named parts each — 80 to 100 questions:
@@ -78,3 +78,24 @@ ten named parts each — 80 to 100 questions:
   an illustrator delivers SVGs with named part layers, and the game code is
   unchanged.
 - The house prototype stays in `docs/spikes/` as the reference for style.
+
+## Outcome
+
+Accepted by the owner on 2026-10-14 and built the same day. The pack is ten
+diagrams with 86 parts: a house, a classical temple, a sailing ship, an
+acoustic guitar, a castle, a church in plan, a wristwatch, a flower, a human
+eye and a shoe. The book and the clock gave way to the watch and the shoe,
+which have more parts that a non-specialist can name.
+
+The blind review was run from rendered sheets, with the tiles shuffled and
+unlabelled, and the reviewer naming each lit part from the diagram's full
+list. It earned its keep: the first pass flagged **10 of 86** (11.6%) —
+nothing mislabelled, but parts drawn so that a fair player could not be sure.
+Redrawn, a fresh shuffle flagged 2 (2.3%), both from one cause, a jib drawn
+larger than the mainsail. The ship, guitar and watch went round again, and
+the watch twice more — its minute and second hands were too alike once lit,
+then a callout ran along a hand and changed its apparent shape. Every
+diagram's last pass, on a fresh shuffle, flagged none, and every pass named
+every part correctly. What the review taught is in docs/GAMES.md §4.10:
+two parts that differ only in size or position need a shape that tells them
+apart, not just a different place on the page.

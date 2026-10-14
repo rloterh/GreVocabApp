@@ -36,6 +36,8 @@ import { spelledRight } from "@/lib/games/builders/spell";
 import { MatchBoard, MISMATCH_PENALTY_MS } from "@/components/games/MatchBoard";
 import { SpellPanel } from "@/components/games/SpellPanel";
 import { TilesPanel } from "@/components/games/TilesPanel";
+import { PictureDiagram } from "@/components/games/PictureDiagram";
+import { diagramById } from "@/lib/games/pictures/round";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
 
@@ -172,7 +174,9 @@ export function GameStage({
               ? `Unscramble ${question.tiles.length} letters. ${question.definition}`
             : question.kind === "match"
               ? `Match ${question.pairs.length} words to their meanings`
-              : question.ask ?? question.sentence?.replace(/____/g, "blank") ?? question.word;
+              : question.kind === "picture"
+                ? `What is this part called? ${diagramById(question.diagram)?.title ?? ""}, one part highlighted.`
+                : question.ask ?? question.sentence?.replace(/____/g, "blank") ?? question.word;
       setAnnouncement(`Question ${state.index + 1} of ${state.total}: ${prompt}`);
     }
   }, [state.phase, state.index, state.total, question]);
@@ -436,12 +440,14 @@ export function GameStage({
             >
               <div className="flex flex-1 flex-col items-center justify-center py-6 text-center md:flex-none md:pb-12 md:pt-0">
                 <p className="text-[11px] uppercase tracking-wider text-muted-foreground">
-                  {question.instruction ?? definition.instruction}
+                  {question.kind === "picture" ? definition.instruction : question.instruction ?? definition.instruction}
                   {question.kind === "choice" && question.sentence && (
                     <span className="normal-case tracking-normal"> · any form of the word</span>
                   )}
                 </p>
-                {question.kind === "verdict" ? (
+                {question.kind === "picture" ? (
+                  <PicturePrompt diagramId={question.diagram} part={question.part} />
+                ) : question.kind === "verdict" ? (
                   <h2 className="mt-4 max-w-[34rem] text-balance text-[clamp(1.35rem,4.5vw,2rem)] font-medium leading-snug">
                     <Quoted text={question.statement} />
                   </h2>
@@ -452,7 +458,7 @@ export function GameStage({
                       filled={state.phase === "feedback" ? question.options[question.answer]! : null}
                     />
                   </h2>
-                ) : question.ask ? (
+                ) : question.kind === "choice" && question.ask ? (
                   <h2 className="display-serif mt-4 text-[clamp(1.75rem,5.5vw,2.75rem)] font-semibold leading-tight tracking-tight">
                     {question.ask}
                   </h2>
@@ -471,11 +477,13 @@ export function GameStage({
                 aria-label={
                   question.kind === "verdict"
                     ? question.statement
-                    : `${question.instruction ?? definition.instruction}: ${question.sentence ?? question.word}`
+                    : question.kind === "picture"
+                      ? definition.instruction
+                      : `${question.instruction ?? definition.instruction}: ${question.sentence ?? question.word}`
                 }
                 className={cn(
                   "grid gap-2.5 pb-2",
-                  question.kind === "verdict" || (question.kind === "choice" && question.ask)
+                  question.kind === "verdict" || question.kind === "picture" || (question.kind === "choice" && question.ask)
                     ? "grid-cols-2"
                     : twoByTwo
                       ? "grid-cols-1 md:grid-cols-2"
@@ -628,6 +636,18 @@ export function GameStage({
           </motion.div>
         )}
       </AnimatePresence>
+    </div>
+  );
+}
+
+/** Picture It's prompt: what the object is, and the drawing with one part lit. */
+function PicturePrompt({ diagramId, part }: { diagramId: string; part: string }) {
+  const diagram = diagramById(diagramId);
+  if (!diagram) return null;
+  return (
+    <div className="mt-2 w-full max-w-[30rem]">
+      <p className="text-sm text-muted-foreground">{diagram.title}</p>
+      <PictureDiagram diagram={diagram} highlight={part} className="mt-2 max-h-[38vh]" />
     </div>
   );
 }

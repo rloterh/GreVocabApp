@@ -6,6 +6,11 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ### Added
 
+- **Picture It.** A drawing — a ship, a temple, a flower, a watch — with one
+  part lit, and four of that object's parts to choose from: *jib* or
+  *bowsprit*, *lintel* or *fanlight*. Ten objects, 86 parts, drawn in the
+  app's own colours so they suit every theme, and it plays offline. Every part
+  passed a blind review of the rendered drawings.
 - **Games** — a new section of short, timed, scored rounds, modelled on
   Merriam-Webster's word games but built entirely from Lexicon's own corpus.
   The first game is **Closest Meaning**: a word, four single-word options, ten

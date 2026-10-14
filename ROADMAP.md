@@ -24,10 +24,9 @@ A games section of timed, scored rounds modelled on Merriam-Webster's word
 games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
-**Phases 19–23 are done** — eight games, the Daily Round, haptics and the
-offline state. **Phase 24's spike is done** (ADR 0018, proposed): Picture It
-can be drawn in-house at no cost. Building it waits on the owner's go-ahead;
-otherwise the next step is Phase 25, the v1.2 release. Design:
+**Phases 19–24 are done** — nine games, the Daily Round, haptics, the
+offline state, and Picture It drawn in-house (ADR 0018, accepted). The next
+step is Phase 25, the v1.2 release. Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -880,14 +879,14 @@ Progress pages.
   then unblocking and retrying. Loading is the Play button's own label;
   a too-small Mine pool already said why.
 
-## Phase 24 — Picture It (gated)
+## Phase 24 — Picture It
 
-**Blocked on decision D3.** Starts with a spike, not with code.
+**DONE 2026-10-14.** Decision D3 went to the in-house diagrams.
 
 ### Tasks
 
 - ~~**[P0] Spike: the picture pack.**~~ **DONE 2026-10-14** —
-  [ADR 0018](./docs/adr/0018-picture-it-in-house-diagrams.md), *proposed*.
+  [ADR 0018](./docs/adr/0018-picture-it-in-house-diagrams.md), *accepted*.
   Licences checked at source: Openclipart CC0, Fluent Emoji MIT, Noto Apache
   2.0, OpenMoji CC BY-SA 4.0. Every emoji set fails the format — whole objects,
   no parts to point at. Commissioning 150 spot illustrations: about
@@ -895,9 +894,18 @@ Progress pages.
   shows in-house SVG diagrams read as part of the app, follow every theme, and
   make each question's options the other parts of the same object.
   **Recommendation: about ten in-house diagrams, 80–100 questions, no budget.**
-  Awaiting the owner's choice between that, commissioning, or dropping it.
-- **[P1] Picture It**, if the spike says yes. — A separate concrete-noun pack,
-  never mixed into either track's corpus.
+  The owner chose it.
+- ~~**[P1] Picture It.**~~ **DONE 2026-10-14.** Ten diagrams, 86 parts, as
+  data (`src/lib/games/pictures/`), drawn in theme tokens; options are three
+  other parts of the same object; tierless, trackless, and playable offline
+  from the first launch. Blind review from rendered, unlabelled sheets:
+  10 of 86 flagged → 2 → 0, with the watch taking two extra rounds (hands
+  too alike, then a callout along a hand); every part named correctly on
+  every pass. `scripts/audit-pictures.tsx` writes the sheets. 15 new tests (diagram integrity: every named part drawn and
+  every drawn part named, callouts on the canvas, theme tokens only; round
+  composition over 200 seeds; every part reachable). The games driver plays a
+  full round, checks the review shows the drawing and never the library, and
+  plays it with the network gone.
 
 ## Phase 25 — v1.2 release
 

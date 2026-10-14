@@ -44,6 +44,11 @@ export interface GameDefinition {
   balanced?: boolean;
   /** Questions per round, when not ten: Match Up plays three boards. */
   length?: number;
+  /**
+   * No tiers and no corpus: Picture It's words are its own, drawn in-house
+   * (ADR 0018). The hub shows one Play button, and bests file under Standard.
+   */
+  tierless?: boolean;
   /** Can this word be asked about at all? Cheap, so pools filter on it. */
   eligible: (word: VocabWord) => boolean;
   build: (word: VocabWord, ctx: BuildContext) => GameQuestion | null;
@@ -128,6 +133,19 @@ export const GAMES: Record<GameId, GameDefinition> = {
     mark: "↻",
     eligible: canBuildUnscramble,
     build: buildUnscramble,
+  },
+  picture: {
+    id: "picture",
+    name: "Picture It",
+    blurb: "Name the highlighted part — of a ship, a temple, a flower.",
+    instruction: "What is this part called?",
+    seconds: 12,
+    tint: "accent",
+    mark: "◉",
+    tierless: true,
+    // Rounds come from src/lib/games/pictures/round.ts, not from words.
+    eligible: () => false,
+    build: () => null,
   },
   // Not on the hub's list: it has its own card above the games, and its
   // questions come from four of them (src/lib/games/daily.ts).

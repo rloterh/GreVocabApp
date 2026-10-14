@@ -62,7 +62,7 @@ Keep these in mind when extending:
 | Add a setting | `Settings` in `src/types/index.ts`, a default in `DEFAULT_SETTINGS`, then a `SettingSection` in `Settings.tsx`. Backup export/restore picks it up for free |
 | Add an import format | Parse to a month-shaped object, then hand it to `loadMonth` — never build a second validator. `src/lib/csv.ts` is the worked example; `src/lib/import.ts` is where formats are dispatched, and every entry point (button, folder pickers, drop overlay) goes through it |
 | Change what Claude generates | `src/lib/generate.ts` — the prompt and the strict tool schema are next to each other. Day layout is done in code afterwards, deliberately |
-| Add a game | A builder in `src/lib/games/builders/`, a `GameId` in `src/lib/games/types.ts`, an entry in `GAMES` and `GAME_ORDER` in `catalogue.ts`; then extend `audit-games.ts` and read its sample before shipping. Every wrong option goes through the guard in `relations.ts`. A game never writes progress — see docs/GAMES.md §7 |
+| Add a game | A builder in `src/lib/games/builders/`, a `GameId` in `src/lib/games/types.ts`, an entry in `GAMES` and `GAME_ORDER` in `catalogue.ts`; then extend `audit-games.ts` and read its sample before shipping. Every wrong option goes through the guard in `relations.ts`. A game never writes progress — see docs/GAMES.md §7. A game not built from words (Picture It) is `tierless` with a stub `build`, and `start()` in `Games.tsx` builds its round directly |
 | Add a test | `*.test.ts` beside the code, Vitest. Node environment by default; component tests are `*.test.tsx` with a `@vitest-environment jsdom` docblock. `src/test/setup.ts` supplies an in-memory `localStorage` and the jest-dom matchers. Note: `user-event` hangs under `vi.useFakeTimers()` — use the real clock in interaction tests |
 | Change the Anki output | `src/lib/anki-collection.ts` for the database, `anki-export.ts` for loading and zipping. Keep the WebAssembly import out of the former or it stops being runnable outside a browser |
 | Change sentence checks | `src/lib/verify.ts` — `heuristicVerify` and `apiVerify` are independent |
@@ -211,6 +211,7 @@ npx tsx scripts/audit-corpus.ts              # both tracks, must say "corpus is 
 npx tsx scripts/build-relations.ts           # after any corpus change
 npx tsx scripts/build-anagrams.ts            # after any corpus change
 npx tsx scripts/audit-games.ts               # fails if relations.json is stale
+npx tsx scripts/audit-pictures.tsx <dir> <seed>  # after any change to a Picture It diagram: blind sheets
 CHROME_EXE="<chrome.exe>" node scripts/drive/tracks-smoke.mjs
 ```
 

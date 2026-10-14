@@ -27,6 +27,7 @@ import { GameStage } from "@/components/games/GameStage";
 import { GameResults } from "@/components/games/GameResults";
 import { DailyCard } from "@/components/games/DailyCard";
 import { buildDailyRound, DAILY_SECONDS, dailyShareText } from "@/lib/games/daily";
+import { buildPictureRound } from "@/lib/games/pictures/round";
 import { useDailyResults } from "@/store/useDailyResults";
 import type { GameRoundSummary } from "@/lib/games/types";
 import { useGameCorpus, useStudiedCount, type GameCorpus } from "@/hooks/useGameCorpus";
@@ -153,8 +154,23 @@ export function Games() {
 
   const start = useCallback(
     (game: GameId, tier: Tier, ready: GameCorpus, attempt = 0) => {
-      if (ready.status !== "ready") return;
       const definition = GAMES[game];
+      // Picture It draws from its own diagrams, not from the corpus, so it
+      // never waits on the words loading — or on a network at all.
+      if (game === "picture") {
+        const timer = useSettingsStore.getState().gameTimer;
+        const seed = seedFor([game, String(Date.now()), String(attempt)]);
+        setRulesOpen(false);
+        setView({
+          kind: "playing",
+          round: { game, track, tier: "standard", seed, questions: buildPictureRound(seed), shortfall: 0 },
+          timer,
+          limitMs: questionLimitMs(definition.seconds, "standard", timer),
+          attempt,
+        });
+        return;
+      }
+      if (ready.status !== "ready") return;
       const isDaily = game === "daily";
       const round = isDaily
         ? buildDailyRound({
@@ -329,7 +345,7 @@ export function Games() {
           <GameCard
             key={id}
             definition={GAMES[id]}
-            lastTier={lastGameTier[id] ?? (studiedCount >= MINE_MINIMUM ? "mine" : "standard")}
+            lastTier={GAMES[id].tierless ? "standard" : lastGameTier[id] ?? (studiedCount >= MINE_MINIMUM ? "mine" : "standard")}
             studiedCount={studiedCount}
             timer={gameTimer}
             delay={reduceMotion ? 0 : i * 0.05}
@@ -345,7 +361,9 @@ export function Games() {
             <div className="p-6">
               <DialogTitle className="display-serif text-2xl font-semibold">{chosen.name}</DialogTitle>
               <DialogDescription className="mt-1">
-                {choice.game === "daily"
+                {choice.game === "picture"
+                  ? "Ten parts of ten things — a ship, a temple, a flower."
+                  : choice.game === "daily"
                   ? "Four games, Standard words. The same round for everyone today."
                   : `${TIER_LABEL[choice.tier]} — ${TIER_DESCRIPTION[choice.tier]}`}
               </DialogDescription>
@@ -394,7 +412,7 @@ export function Games() {
               </div>
 
               {shortfall && <p className="mt-4 text-sm text-warning">{shortfall}</p>}
-              {corpus.status === "error" && (
+              {corpus.status === "error" && choice.game !== "picture" && (
                 <div className="mt-4 rounded-lg border border-destructive/40 bg-destructive/5 p-3 text-sm" role="alert">
                   <p>Couldn’t load these words — are you offline?</p>
                   <p className="mt-1 text-muted-foreground">
@@ -410,10 +428,10 @@ export function Games() {
                 size="lg"
                 className="mt-6 w-full"
                 autoFocus
-                disabled={corpus.status !== "ready"}
+                disabled={corpus.status !== "ready" && choice.game !== "picture"}
                 onClick={() => start(choice.game, choice.tier, corpus)}
               >
-                {corpus.status === "loading" ? "Getting the words ready…" : "Play"}
+                {corpus.status === "loading" && choice.game !== "picture" ? "Getting the words ready…" : "Play"}
               </Button>
             </div>
           </DialogContent>
@@ -461,11 +479,22 @@ function GameCard({
         <p className="text-sm">{definition.blurb}</p>
         <p className="tabular mt-1 text-xs text-muted-foreground">
           {best
-            ? `Best ${best.score.toLocaleString()} · ${best.right} of ${best.total} · ${TIER_LABEL[lastTier]}`
-            : `No rounds on ${TIER_LABEL[lastTier]} yet`}
+            ? `Best ${best.score.toLocaleString()} · ${best.right} of ${best.total}${definition.tierless ? "" : ` · ${TIER_LABEL[lastTier]}`}`
+            : definition.tierless
+              ? "No rounds yet"
+              : `No rounds on ${TIER_LABEL[lastTier]} yet`}
         </p>
         <div className="mt-4 flex flex-wrap gap-2" role="group" aria-label={`Play ${definition.name}`}>
-          {tiers.map((tier) => {
+          {definition.tierless && (
+            <button
+              type="button"
+              onClick={() => onPick("standard")}
+              className="min-h-[2.25rem] rounded-full border border-primary bg-primary px-5 text-xs font-medium text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            >
+              Play
+            </button>
+          )}
+          {!definition.tierless && tiers.map((tier) => {
             const locked = tier === "mine" && mineLocked;
             return (
               <button
@@ -488,7 +517,7 @@ function GameCard({
             );
           })}
         </div>
-        {mineLocked && (
+        {mineLocked && !definition.tierless && (
           <p className="mt-3 text-xs text-muted-foreground">
             Mine unlocks at {MINE_MINIMUM} studied words · you've studied {studiedCount}.
           </p>

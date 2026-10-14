@@ -17,6 +17,7 @@ export const GAME_NAMES: Record<GameId, string> = {
   match: "Match Up",
   spell: "Spell It",
   unscramble: "Unscramble",
+  picture: "Picture It",
   daily: "Daily Round",
 };
 
@@ -30,6 +31,7 @@ export const GAME_ORDER: readonly GameId[] = [
   "match",
   "spell",
   "unscramble",
+  "picture",
 ];
 
 export const TIER_LABEL: Record<Tier, string> = {

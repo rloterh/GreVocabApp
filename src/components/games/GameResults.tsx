@@ -26,6 +26,8 @@ import type { AnswerRecord, GameRound } from "@/lib/games/types";
 import { describeMonthKey } from "@/lib/track";
 import { missedWordIds, tally } from "@/lib/games/session";
 import { Spelling } from "@/components/games/SpellPanel";
+import { PictureDiagram } from "@/components/games/PictureDiagram";
+import { diagramById } from "@/lib/games/pictures/round";
 import { cn } from "@/lib/utils";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
@@ -217,6 +219,11 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
             </button>
             {expanded && (
               <div className="space-y-3 px-4 pb-4 text-sm">
+                {q.kind === "picture" && diagramById(q.diagram) && (
+                  <div className="mx-auto max-w-xs rounded-lg bg-secondary/40 p-2">
+                    <PictureDiagram diagram={diagramById(q.diagram)!} highlight={q.part} />
+                  </div>
+                )}
                 {q.kind === "match" && (
                   <ul className="space-y-1 rounded-lg bg-secondary/40 p-3">
                     {q.pairs.map((p) => (
@@ -273,7 +280,7 @@ function AnswerReview({ round, answers, reviewable, monthOf, onReviewMissed, onO
                   >
                     {queued.has(q.wordId) ? "Added to today's reviews" : "Review in Flashcards"}
                   </Button>
-                ) : (
+                ) : q.kind === "picture" ? null : (
                   <p className="text-xs text-muted-foreground">
                     Not in your notebook yet
                     {monthOf[q.wordId] ? ` — it's in ${describeMonthKey(monthOf[q.wordId]!)}` : ""}.{" "}

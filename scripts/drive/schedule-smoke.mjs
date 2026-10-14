@@ -60,7 +60,9 @@ await page.locator("#start-month").fill("2027-03");
 await page.getByRole("radio", { name: /As taught/ }).click();
 await page.waitForTimeout(300);
 
-const preview = await page.locator('[aria-live="polite"]').first().innerText();
+// The preview's own live region, by its words: the toast container is a live
+// region too, always mounted and usually empty.
+const preview = await page.locator('[aria-live="polite"]').filter({ hasText: /Month one/ }).first().innerText();
 check(/March 2027/.test(preview), "the preview names the chosen month", preview.slice(0, 90));
 
 await page.getByRole("button", { name: "Next" }).click();

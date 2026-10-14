@@ -75,6 +75,28 @@ check(await page.getByRole("radio", { name: /^Advanced/ }).first().isVisible(), 
 check(await page.getByRole("radio", { name: /^Easy/ }).first().isVisible(), "the switcher says Easy");
 const bodyText = await page.locator("body").innerText();
 check(!/\b(GRE|SAT)\b/.test(bodyText), "no GRE or SAT on the dashboard");
+// "Advanced" is twice as long as "Easy": equal halves of the content width
+// clipped it in the phone header, and the tablet rail has room for neither.
+for (const width of [360, 834, 1280]) {
+  const p = await browser.newPage({ viewport: { width, height: 800 } });
+  await p.addInitScript(() =>
+    localStorage.setItem("lexicon.settings.v1", JSON.stringify({ state: { hasOnboarded: true }, version: 0 })),
+  );
+  await p.goto(URL, { waitUntil: "networkidle" });
+  await p.waitForTimeout(800);
+  const clipped = await p
+    .locator('[role="radiogroup"][aria-label="Vocabulary"]')
+    .filter({ visible: true })
+    .first()
+    .evaluate((group) =>
+      [...group.querySelectorAll("button")].flatMap((b) => {
+        const label = [...b.querySelectorAll("span")].find((s) => s.getClientRects().length > 0 && s.textContent);
+        return label && label.getBoundingClientRect().right > b.getBoundingClientRect().right + 0.5 ? [label.textContent] : [];
+      }),
+    );
+  check(clipped.length === 0, `the track switcher's labels fit at ${width}px`, clipped.join(", "));
+  await p.close();
+}
 
 const wordsBefore = await progressWords();
 const dashBefore = await dashboardText();

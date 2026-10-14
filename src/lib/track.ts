@@ -27,16 +27,20 @@ export const TRACK_DISPLAY_ORDER: readonly Track[] = ["sat", "gre"] as const;
 
 export const TRACK_META: Record<
   Track,
-  { id: Track; label: string; description: string }
+  // `short` is for the 76px tablet rail, where "Advanced" cannot fit at a
+  // legible size. Everywhere else, and every accessible name, uses `label`.
+  { id: Track; label: string; short: string; description: string }
 > = {
   gre: {
     id: "gre",
     label: "Advanced",
+    short: "Adv.",
     description: "Demanding, lower-frequency words",
   },
   sat: {
     id: "sat",
     label: "Easy",
+    short: "Easy",
     description: "Essential academic words",
   },
 };

@@ -62,7 +62,7 @@ export function Sidebar() {
       {/* Which notebook is open — see docs/adr/0011-tracks.md. Stacked at rail
           width, where two side-by-side pills do not fit 76px. */}
       <div className="px-2 lg:px-5 pb-4">
-        <TrackSwitcher className="w-full flex-col lg:flex-row" />
+        <TrackSwitcher className="w-full grid-flow-row lg:grid-flow-col" railLabels />
       </div>
 
       <nav className="flex-1 px-2 lg:px-3 space-y-6 overflow-y-auto no-scrollbar">

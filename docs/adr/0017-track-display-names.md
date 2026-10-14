@@ -48,3 +48,11 @@ today's label would make every future rename a migration.
 - The name of the Hard game tier is chosen not to collide: the tracks are
   *Advanced* and *Easy*, and the tiers are *Warm-up, Standard, Hard,
   Fiendish*.
+- **The labels are unequal lengths, and the switcher must allow for it.**
+  "GRE" and "SAT" fit any segmented control; "Advanced" is twice "Easy". The
+  switcher is a grid of equal `1fr` columns, each as wide as the longer label
+  — `flex-1` buttons split the content width in half and clipped "Advanced" in
+  the phone header (found in the v1.4.0 screenshots, 2026-10-14). The 76px
+  tablet rail cannot fit "Advanced" at a legible size at all, so it shows
+  `TRACK_META[track].short` ("Adv.") there; every accessible name still says
+  Advanced. `games-smoke.mjs` measures the labels at 360, 834 and 1280px.

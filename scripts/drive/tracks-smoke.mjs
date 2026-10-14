@@ -8,7 +8,7 @@ import { writeFileSync } from "node:fs";
 const EXE =
   "C:/Users/HP/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe";
 const URL = "http://localhost:1420/";
-const OUT = process.argv[2] ?? ".";
+const OUT = process.argv[2] ?? process.env.OUT_DIR ?? ".";
 
 // A store exactly as a user of the shipped version would have: calendar keys,
 // calendar-embedded word ids, and progress hanging off them.

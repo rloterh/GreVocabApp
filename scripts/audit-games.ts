@@ -161,6 +161,12 @@ const samples = new Map<string, string[]>();
 
 for (const game of GAME_ORDER) {
   report.push(`\n${GAMES[game].name}`);
+  // Not built from the corpus: its pack has its own tests and its own blind
+  // sheets (scripts/audit-pictures.tsx).
+  if (GAMES[game].tierless) {
+    report.push("  —    not built from words; see scripts/audit-pictures.tsx");
+    continue;
+  }
   const sample: string[] = [];
   samples.set(game, sample);
   for (const track of TRACKS) {

@@ -25,8 +25,9 @@ games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
 **Phases 19–23 are done** — eight games, the Daily Round, haptics and the
-offline state. **Next:** Phase 24 (Picture It) is gated on a cost decision,
-so the next buildable step is Phase 25, the v1.2 release. Design:
+offline state. **Phase 24's spike is done** (ADR 0018, proposed): Picture It
+can be drawn in-house at no cost. Building it waits on the owner's go-ahead;
+otherwise the next step is Phase 25, the v1.2 release. Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -885,9 +886,16 @@ Progress pages.
 
 ### Tasks
 
-- **[P0] Spike: the picture pack.** — Price 150 commissioned SVGs against the
-  best CC0 set; check licences against MIT distribution on the Play Store. →
-  A decision recorded in a new ADR, with numbers.
+- ~~**[P0] Spike: the picture pack.**~~ **DONE 2026-10-14** —
+  [ADR 0018](./docs/adr/0018-picture-it-in-house-diagrams.md), *proposed*.
+  Licences checked at source: Openclipart CC0, Fluent Emoji MIT, Noto Apache
+  2.0, OpenMoji CC BY-SA 4.0. Every emoji set fails the format — whole objects,
+  no parts to point at. Commissioning 150 spot illustrations: about
+  $7,500–22,500 at entry rates. A working prototype (`docs/spikes/picture-it/`)
+  shows in-house SVG diagrams read as part of the app, follow every theme, and
+  make each question's options the other parts of the same object.
+  **Recommendation: about ten in-house diagrams, 80–100 questions, no budget.**
+  Awaiting the owner's choice between that, commissioning, or dropping it.
 - **[P1] Picture It**, if the spike says yes. — A separate concrete-noun pack,
   never mixed into either track's corpus.
 

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Picture It spike — house</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  /* Lexicon's light and dark tokens, approximated for the spike. */
+  :root { --bg: 40 33% 98%; --fg: 24 10% 10%; --muted: 25 6% 45%; --line: 24 8% 22%; --fill: 30 15% 94%; --accent: 160 45% 38%; --card: 0 0% 100%; }
+  body.dark { --bg: 24 9% 7%; --fg: 40 20% 95%; --muted: 30 6% 60%; --line: 40 12% 82%; --fill: 24 7% 14%; --accent: 160 50% 52%; --card: 24 8% 10%; }
+  body { margin: 0; background: hsl(var(--bg)); color: hsl(var(--fg)); font-family: Inter, sans-serif; }
+  .stage { max-width: 640px; margin: 0 auto; padding: 32px 16px; text-align: center; }
+  .eyebrow { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: hsl(var(--muted)); }
+  h2 { font-family: Fraunces, serif; font-size: 34px; margin: 10px 0 18px; }
+  svg { width: 100%; height: auto; display: block; }
+  .part { fill: hsl(var(--fill)); stroke: hsl(var(--line)); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; transition: fill .2s; }
+  .detail { fill: none; stroke: hsl(var(--line)); stroke-width: 1.4; stroke-linecap: round; opacity: .55; }
+  .on { fill: hsl(var(--accent) / .28); stroke: hsl(var(--accent)); stroke-width: 3; }
+  .callout { stroke: hsl(var(--accent)); stroke-width: 2.5; fill: none; }
+  .tip { fill: hsl(var(--accent)); }
+  .opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
+  .opt { border: 1px solid hsl(var(--line) / .25); background: hsl(var(--card)); border-radius: 12px; padding: 14px 16px; text-align: left; font-size: 16px; font-weight: 500; }
+</style>
+</head>
+<body>
+<div class="stage">
+  <p class="eyebrow">Picture It · Name the part</p>
+  <h2>What is this part called?</h2>
+  <svg viewBox="0 0 440 330" role="img" aria-label="A house, one part highlighted">
+    <!-- ground -->
+    <line x1="20" y1="300" x2="420" y2="300" class="detail" />
+    <!-- chimney -->
+    <rect id="chimney" class="part" x="268" y="52" width="30" height="62" rx="2" />
+    <!-- roof (gable end facing): bargeboards trace the edges -->
+    <path id="gable" class="part" d="M110 150 L220 58 L330 150 Z" />
+    <path id="bargeboard" class="part" d="M96 158 L220 50 L344 158 L334 162 L220 64 L106 162 Z" />
+    <circle id="finial" class="part" cx="220" cy="44" r="7" />
+    <line x1="220" y1="51" x2="220" y2="58" class="detail" />
+    <!-- eaves and gutter -->
+    <rect id="eave" class="part" x="92" y="160" width="256" height="10" rx="2" />
+    <rect id="gutter" class="part" x="92" y="170" width="256" height="7" rx="3.5" />
+    <!-- walls -->
+    <rect class="part" x="118" y="177" width="204" height="123" />
+    <!-- window: lintel above, sill below -->
+    <rect id="lintel" class="part" x="138" y="196" width="66" height="10" />
+    <rect class="part" x="144" y="206" width="54" height="48" />
+    <line x1="171" y1="206" x2="171" y2="254" class="detail" />
+    <line x1="144" y1="230" x2="198" y2="230" class="detail" />
+    <rect id="sill" class="part" x="136" y="254" width="70" height="8" />
+    <!-- door with fanlight -->
+    <path id="transom" class="part" d="M238 214 A30 30 0 0 1 298 214 Z" />
+    <rect class="part" x="238" y="214" width="60" height="86" />
+    <circle cx="288" cy="258" r="3" class="tip" style="fill:hsl(var(--line))" />
+    <!-- callout, pointing at the highlighted part -->
+    <path id="callout" class="callout" d="" />
+    <circle id="calltip" class="tip" r="5" />
+  </svg>
+  <div class="opts"><div class="opt">eave</div><div class="opt">lintel</div><div class="opt">bargeboard</div><div class="opt">cornice</div></div>
+</div>
+<script>
+  // The question: highlight one part and draw a callout to it from outside the drawing.
+  const params = new URLSearchParams(location.search);
+  if (params.get("theme") === "dark") document.body.classList.add("dark");
+  const part = params.get("part") || "lintel";
+  const anchors = { lintel: [171, 201, 40, 150], eave: [120, 165, 30, 120], gable: [220, 120, 400, 70], sill: [171, 258, 40, 290], finial: [220, 44, 90, 30], transom: [268, 205, 410, 190], chimney: [283, 80, 400, 40], gutter: [330, 173, 410, 230], bargeboard: [300, 120, 410, 110] };
+  document.getElementById(part).classList.add("on");
+  const [x, y, fx, fy] = anchors[part];
+  document.getElementById("callout").setAttribute("d", `M${fx} ${fy} Q ${(x + fx) / 2} ${fy}, ${x} ${y}`);
+  const tip = document.getElementById("calltip"); tip.setAttribute("cx", x); tip.setAttribute("cy", y);
+</script>
+</body>
+</html>

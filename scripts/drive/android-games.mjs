@@ -129,6 +129,25 @@ const GAMES = [
 
 await toGames();
 await shot("hub");
+
+// Leaving the app pauses a round. The Android WebView fires no
+// visibilitychange, so this rests on MainActivity's lexicon:pause signal
+// (src/lib/app-lifecycle.ts); before it, the clock ran behind the home screen.
+if (!ONLY || ONLY === "Background pause") {
+  const card = page.locator("section").filter({ hasText: "Closest Meaning" }).first();
+  await card.getByRole("button", { name: "Standard", exact: true }).click();
+  await pressPlay();
+  await page.waitForFunction(
+    () => [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')].some((b) => !b.disabled),
+  );
+  await device.shell("input keyevent KEYCODE_HOME");
+  await page.waitForTimeout(1500);
+  await device.shell("monkey -p com.lexicon.app -c android.intent.category.LAUNCHER 1");
+  await page.waitForTimeout(1500);
+  check(await stage.getByText("Paused", { exact: true }).isVisible(), "leaving the app pauses the round");
+  await stage.getByRole("button", { name: "Quit to Games" }).click();
+  await page.waitForTimeout(600);
+}
 for (const [name, button] of GAMES) {
   if (ONLY && ONLY !== name) continue;
   log("start", name);

@@ -90,6 +90,16 @@ export function hasSystemBack(): boolean {
   return platform() === "android";
 }
 
+/**
+ * Can another app share a file to Lexicon?
+ *
+ * Android's share sheet, through the activity's intent filter. iOS would need
+ * a share extension, a separate target that does not exist yet.
+ */
+export function canReceiveShares(): boolean {
+  return platform() === "android";
+}
+
 /** Can the app read and write arbitrary files the user points at? */
 export function canUseFileSystem(): boolean {
   return isTauri();

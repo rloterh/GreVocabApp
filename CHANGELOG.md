@@ -4,6 +4,21 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ## [Unreleased]
 
+### Added
+
+- **Share files to Lexicon on Android.** Share a `.json`, `.csv` or Anki
+  `.apkg` from Files, a mail attachment or any other app, pick Lexicon, and it
+  is imported — whether Lexicon was open or not. It goes through the same
+  import as dropping or picking a file, so the same files are accepted.
+
+### Fixed
+
+- **Leaving the Android app did not pause a game.** The Android WebView never
+  reports that the app went to the background, so a round's clock kept running
+  behind the home screen. The app now tells the page itself.
+- **Toasts were silent to screen readers.** Import results, errors and
+  "Added to today's reviews" now sit in a live region and are announced.
+
 ## [1.4.0] — 2026-10-14
 
 Games: nine of them and a Daily Round, built from Lexicon's own words and

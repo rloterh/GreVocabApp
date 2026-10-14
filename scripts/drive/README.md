@@ -48,6 +48,7 @@ on one is worse than no unit suite.
 | `addwords-smoke.mjs` | Adding your own words to an existing month, and the collision warning firing before anything is generated. |
 | `oauth-smoke.mjs` | The OpenRouter connect flow against a stubbed provider. |
 | `games-smoke.mjs` | Every game: a full round each, pause and time-out, Mine, the Daily Round and its replays, offline, and that no round writes word progress. |
+| `android-share.mjs` | Shares a CSV to the **installed Android app** through the real share sheet (Files → Share → Lexicon), with the app running and closed, and checks it was imported once. `ADB=<path>`. |
 | `android-games.mjs` | A round of every game inside the **installed Android app**, on an emulator, through adb — no dev server. `ONLY="Match Up"` runs one. See docs/MOBILE.md. |
 
 ## Writing another

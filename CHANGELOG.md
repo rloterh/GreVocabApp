@@ -4,13 +4,19 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ## [Unreleased]
 
+## [1.5.0] — 2026-10-14
+
+Share vocabulary files to Lexicon from any Android app, and a keyboard that
+works everywhere a finger does. Every game is played, and the share is made
+through the real share sheet, on an Android 14 emulator from the signed
+release build.
+
 ### Added
 
 - **Share files to Lexicon on Android.** Share a `.json`, `.csv` or Anki
   `.apkg` from Files, a mail attachment or any other app, pick Lexicon, and it
   is imported — whether Lexicon was open or not. It goes through the same
   import as dropping or picking a file, so the same files are accepted.
-
 - **Arrow keys in Match Up.** Up, down, Home and End move within a column,
   skipping words already paired.
 

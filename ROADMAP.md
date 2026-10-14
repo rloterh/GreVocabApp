@@ -19,7 +19,9 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-**v1.4.0 shipped on 2026-10-14: Games** (Phases 19–25, at the end of this
+**v1.5.0 shipped on 2026-10-14**: sharing files to Lexicon on Android, and
+the external keyboard (P1s from Phases 9 and 16), with the Android
+pause bug they turned up. **v1.4.0 shipped the same day: Games** (Phases 19–25, at the end of this
 file). Planned as "v1.2"; 1.2.0 and 1.3.0 had already been tagged for the
 word-of-the-day and day-rail releases after v1.1, so it shipped as 1.4.0.
 A games section of timed, scored rounds modelled on Merriam-Webster's word

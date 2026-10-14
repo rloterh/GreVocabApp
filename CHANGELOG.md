@@ -4,16 +4,19 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 
 ## [Unreleased]
 
+## [1.4.0] — 2026-10-14
+
+Games: nine of them and a Daily Round, built from Lexicon's own words and
+never touching your flashcard schedule. The tracks are now called Advanced and
+Easy. Also in this release: reminders that arrive with the app closed, a
+signed Windows build, synonyms on every word, and each track remembering where
+you left it. Played on an Android 14 emulator from the signed release build.
+
 ### Added
 
-- **Picture It.** A drawing — a ship, a temple, a flower, a watch — with one
-  part lit, and four of that object's parts to choose from: *jib* or
-  *bowsprit*, *lintel* or *fanlight*. Ten objects, 86 parts, drawn in the
-  app's own colours so they suit every theme, and it plays offline. Every part
-  passed a blind review of the rendered drawings.
 - **Games** — a new section of short, timed, scored rounds, modelled on
   Merriam-Webster's word games but built entirely from Lexicon's own corpus.
-  The first game is **Closest Meaning**: a word, four single-word options, ten
+  It opened with **Closest Meaning**: a word, four single-word options, ten
   seconds. Four tiers per track (Warm-up, Standard, Hard and Fiendish, which are
   thirds of the track with Fiendish getting trickier options and less time)
   plus **Mine**, the words you have studied. Pause at any time; hiding the app
@@ -24,6 +27,11 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   with one button, and that is the only way in. A finished round counts toward
   the streak. Design: docs/GAMES.md;
   decision: docs/adr/0016-games-are-rounds-not-progression.md.
+- **Picture It.** A drawing — a ship, a temple, a flower, a watch — with one
+  part lit, and four of that object's parts to choose from: *jib* or
+  *bowsprit*, *lintel* or *fanlight*. Ten objects, 86 parts, drawn in the
+  app's own colours so they suit every theme, and it plays offline. Every part
+  passed a blind review of the rendered drawings.
 - **Unscramble**: a definition and the word's letters as tiles — tap or type
   them into order. Never a word whose letters also spell another common word
   ("attic" for *tacit*). Passed a blind review of fresh questions at 0%.
@@ -68,13 +76,66 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   component now renders them in all three places. On by default; off is for
   people drilling recall who want a plainer card.
 
-### Fixed (found by the games' reviews)
+- **`scripts/android-prepare.mjs`** — restores everything the generated
+  Android project needs but does not generate: the release signing config and
+  the tracked resources in `src-tauri/android-res`. That directory is
+  untracked, so it loses both on every regeneration, and neither loss fails a
+  build. Idempotent, with a `--check` mode. Signing credentials come from an
+  ignored `keystore.properties`; without one the release build still completes,
+  unsigned. See docs/MOBILE.md for the full release-build procedure.
+- **SM-2 spaced repetition** (`src/lib/sm2.ts`) — rating a flashcard now
+  schedules its next review. `WordProgress` carries `easeFactor`,
+  `intervalDays`, `reps` and `dueAt`; all four are optional, so progress saved
+  before this release keeps working and picks up scheduling on its next rating.
+- **"Due today" deck** — a `due` deck in Flashcards, selected automatically on
+  open when anything is due, plus a Dashboard card showing the count with a
+  jump straight into review.
+- **SRS onboarding hint** — a one-time, dismissible explainer above the rating
+  buttons covering what each rating does to the schedule. Tracked as
+  `hasSeenSrsIntro`.
+- **Per-word detail modal** (`src/components/WordDetail.tsx`) — click any
+  Search result for definition, mnemonic, mastery and quiz tallies, live SM-2
+  state (ease, interval, reps, next due) and the word's real review history.
+- **Optional daily study reminder** — Settings toggle and time picker, using
+  the web Notification API. Fires at most once a day, and only while the app is
+  open; permission is requested when you switch it on and reminders stay off if
+  it is refused.
 
-- **The Confusables drill could show a sentence with no blank.** `blankOut`
-  failed on a possessive ("opponent's") and reported success anyway. Fixed
-  where it lives, so the drill and Fill the Gap both have it.
-- ***Archetype* was in the wrong root family** on word cards: its *arche-* is
-  "first, original", not "ruler, chief".
+- **CSV vocabulary import** — CSV is accepted anywhere JSON is, with forgiving
+  header names and per-line error messages. Hand-rolled parser, no new
+  dependency. See the README for the column list.
+- **Anki `.apkg` export** — Settings can write every loaded month to an Anki
+  deck, one deck per month or a single deck. SM-2 state travels with the
+  cards, so reviewed words arrive already scheduled rather than reset to new.
+  `sql.js` and `fflate` are dynamically imported and add nothing to the main
+  bundle.
+
+- **Generate vocabulary with Claude** — Archive can produce a month from a
+  topic and a word count using the Anthropic key already in Settings. Output is
+  schema-constrained and validated like any import.
+
+- **Anki `.apkg` import** — read an existing Anki deck into Lexicon. Fields are
+  matched by name with a positional fallback; HTML and media references are
+  stripped; notes with no word or meaning are skipped and counted.
+- **Drag and drop import** — drop a `.json`, `.csv` or `.apkg` anywhere in the
+  app. Shares one import path with the button and both folder pickers.
+- **Markdown study log export** — Settings → Backup writes totals, streaks, a
+  per-month breakdown, what is due, and recent activity.
+- **Tests** — Vitest over `src/lib/`, the Zustand stores and components,
+  running in CI ahead of the build.
+
+- **Desktop: folder watching** — point Lexicon at a folder and dropped files
+  load without a refresh (`notify` crate + a frontend listener).
+- **Desktop: real app icons**, generated from the mark by `scripts/make-icon.mjs`.
+- **Desktop: system tray and a global shortcut** (`Ctrl/Cmd+Shift+L`) that jump
+  straight into a study session.
+- **Global keyboard shortcuts** — `/` for search, `?` for the shortcut list,
+  `g` then a letter to move between pages.
+- **First-run walkthrough**, skippable, replayable from Settings.
+- **Deck sharing** — copy a month as a `lex1:` code and paste it anywhere.
+- **Three more themes** — sepia, Solarized Dark, high contrast.
+- **Optional interface sounds**, synthesised rather than shipped as files.
+- **Confetti variants** — emoji for a perfect run, streamers for a personal best.
 
 ### Changed
 
@@ -84,8 +145,32 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - **Games took Quiz's place in the phone tab bar**; Quiz is under More, beside
   Exam.
 
+- Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).
+  `npm audit` is now clean.
+- `npm run lint` passes and runs in CI, alongside typecheck and build.
+
+- **Generate vocabulary with no API key at all.** "Generate elsewhere" copies a
+  ready-made prompt you can paste into any AI you already use — then paste the
+  reply back and it loads like any file. Commentary and code fences are ignored.
+- **Desktop: use an AI tool you already have.** If Claude Code, Codex or the
+  Gemini CLI is installed and signed in, switch it on in Settings and Lexicon
+  will use it — no API key. Lexicon never reads their credentials; it runs the
+  tool and the tool authenticates itself.
+- **Desktop: local model servers just work.** Requests go through Rust, so
+  Ollama and LM Studio are reachable without setting `OLLAMA_ORIGINS`.
+- **Any AI provider, not just Anthropic.** Local servers (Ollama, LM Studio,
+  llama.cpp), OpenAI, Groq, OpenRouter, or any OpenAI-compatible endpoint. The
+  app picks whichever is cheapest for you — on-device first — and names the one
+  it used.
+- **Sentence checking works with a local model**, which means your own sentences
+  no longer have to leave your machine.
+
 ### Fixed
 
+- **"Advanced" was clipped in the track switcher** on phones, because the
+  control split its width evenly between two labels of very different
+  lengths. Both halves are now as wide as the longer label, and the tablet
+  rail, which has room for neither, shows "Adv.".
 - **Months you already had did not gain the new synonyms.** Enriching the corpus
   reaches nobody's store, and the library will not re-offer a month that is
   already loaded — so a long-time user saw no synonyms on exactly the months
@@ -214,98 +299,6 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
 - **Settings showed `Lexicon v0.1.0`** — hand-written, and three releases
   stale. It reads the same `__APP_VERSION__` the About dialog does.
 
-### Added
-
-- **`scripts/android-prepare.mjs`** — restores everything the generated
-  Android project needs but does not generate: the release signing config and
-  the tracked resources in `src-tauri/android-res`. That directory is
-  untracked, so it loses both on every regeneration, and neither loss fails a
-  build. Idempotent, with a `--check` mode. Signing credentials come from an
-  ignored `keystore.properties`; without one the release build still completes,
-  unsigned. See docs/MOBILE.md for the full release-build procedure.
-- **SM-2 spaced repetition** (`src/lib/sm2.ts`) — rating a flashcard now
-  schedules its next review. `WordProgress` carries `easeFactor`,
-  `intervalDays`, `reps` and `dueAt`; all four are optional, so progress saved
-  before this release keeps working and picks up scheduling on its next rating.
-- **"Due today" deck** — a `due` deck in Flashcards, selected automatically on
-  open when anything is due, plus a Dashboard card showing the count with a
-  jump straight into review.
-- **SRS onboarding hint** — a one-time, dismissible explainer above the rating
-  buttons covering what each rating does to the schedule. Tracked as
-  `hasSeenSrsIntro`.
-- **Per-word detail modal** (`src/components/WordDetail.tsx`) — click any
-  Search result for definition, mnemonic, mastery and quiz tallies, live SM-2
-  state (ease, interval, reps, next due) and the word's real review history.
-- **Optional daily study reminder** — Settings toggle and time picker, using
-  the web Notification API. Fires at most once a day, and only while the app is
-  open; permission is requested when you switch it on and reminders stay off if
-  it is refused.
-
-- **CSV vocabulary import** — CSV is accepted anywhere JSON is, with forgiving
-  header names and per-line error messages. Hand-rolled parser, no new
-  dependency. See the README for the column list.
-- **Anki `.apkg` export** — Settings can write every loaded month to an Anki
-  deck, one deck per month or a single deck. SM-2 state travels with the
-  cards, so reviewed words arrive already scheduled rather than reset to new.
-  `sql.js` and `fflate` are dynamically imported and add nothing to the main
-  bundle.
-
-- **Generate vocabulary with Claude** — Archive can produce a month from a
-  topic and a word count using the Anthropic key already in Settings. Output is
-  schema-constrained and validated like any import.
-
-- **Anki `.apkg` import** — read an existing Anki deck into Lexicon. Fields are
-  matched by name with a positional fallback; HTML and media references are
-  stripped; notes with no word or meaning are skipped and counted.
-- **Drag and drop import** — drop a `.json`, `.csv` or `.apkg` anywhere in the
-  app. Shares one import path with the button and both folder pickers.
-- **Markdown study log export** — Settings → Backup writes totals, streaks, a
-  per-month breakdown, what is due, and recent activity.
-- **Tests** — Vitest over `src/lib/`, the Zustand stores and components,
-  running in CI ahead of the build.
-
-- **Desktop: folder watching** — point Lexicon at a folder and dropped files
-  load without a refresh (`notify` crate + a frontend listener).
-- **Desktop: real app icons**, generated from the mark by `scripts/make-icon.mjs`.
-- **Desktop: system tray and a global shortcut** (`Ctrl/Cmd+Shift+L`) that jump
-  straight into a study session.
-- **Global keyboard shortcuts** — `/` for search, `?` for the shortcut list,
-  `g` then a letter to move between pages.
-- **First-run walkthrough**, skippable, replayable from Settings.
-- **Deck sharing** — copy a month as a `lex1:` code and paste it anywhere.
-- **Three more themes** — sepia, Solarized Dark, high contrast.
-- **Optional interface sounds**, synthesised rather than shipped as files.
-- **Confetti variants** — emoji for a perfect run, streamers for a personal best.
-
-### Changed
-- Bumped vite 5.4 → 6.4.3 to move onto patched esbuild (GHSA-67mh-4wv8-2f99).
-  `npm audit` is now clean.
-- `npm run lint` passes and runs in CI, alongside typecheck and build.
-
-- **Generate vocabulary with no API key at all.** "Generate elsewhere" copies a
-  ready-made prompt you can paste into any AI you already use — then paste the
-  reply back and it loads like any file. Commentary and code fences are ignored.
-- **Desktop: use an AI tool you already have.** If Claude Code, Codex or the
-  Gemini CLI is installed and signed in, switch it on in Settings and Lexicon
-  will use it — no API key. Lexicon never reads their credentials; it runs the
-  tool and the tool authenticates itself.
-- **Desktop: local model servers just work.** Requests go through Rust, so
-  Ollama and LM Studio are reachable without setting `OLLAMA_ORIGINS`.
-- **Any AI provider, not just Anthropic.** Local servers (Ollama, LM Studio,
-  llama.cpp), OpenAI, Groq, OpenRouter, or any OpenAI-compatible endpoint. The
-  app picks whichever is cheapest for you — on-device first — and names the one
-  it used.
-- **Sentence checking works with a local model**, which means your own sentences
-  no longer have to leave your machine.
-
-### Security
-- **Backup exports no longer contain your API key.** `exportData()` serialised
-  the whole settings object, key included, into a file the app tells you to keep
-  — and people keep backups in cloud drives and email. Credentials now live in a
-  separate `Secrets` type that the export strips by construction. Restoring an
-  older backup drops any key it carried and says so.
-
-### Fixed
 - **Sentence verification read the wrong content block.** It took
   `content[0].text`, so any response that led with another block fell silently
   back to the heuristic. It now finds the text block, and a regression test
@@ -319,6 +312,22 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   discarded the count, so partial import failures were silent.
 - `SentenceBuilder` reset its draft from inside a `useMemo` with an incomplete
   dependency list; `Quiz` rebuilt a memo dependency on every render.
+
+### Fixed (found by the games' reviews)
+
+- **The Confusables drill could show a sentence with no blank.** `blankOut`
+  failed on a possessive ("opponent's") and reported success anyway. Fixed
+  where it lives, so the drill and Fill the Gap both have it.
+- ***Archetype* was in the wrong root family** on word cards: its *arche-* is
+  "first, original", not "ruler, chief".
+
+### Security
+
+- **Backup exports no longer contain your API key.** `exportData()` serialised
+  the whole settings object, key included, into a file the app tells you to keep
+  — and people keep backups in cloud drives and email. Credentials now live in a
+  separate `Secrets` type that the export strips by construction. Restoring an
+  older backup drops any key it carried and says so.
 
 ## [1.3.0] — 2026-09-13
 

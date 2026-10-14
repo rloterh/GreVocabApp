@@ -3,9 +3,9 @@
 A section of short, timed, scored rounds: the same vocabulary the scheduler
 teaches, practised at speed and for fun.
 
-**Status: v1.2, in progress.** Phase 19 is built: the engine, the shell, the
-hub and Closest Meaning. The rest is sequenced as Phases 20–25 in
-[`../ROADMAP.md`](../ROADMAP.md). The decision that makes it possible at all —
+**Status: shipped in v1.4.0, 2026-10-14** (planned as "v1.2"; see
+[`../ROADMAP.md`](../ROADMAP.md)). Nine games and the Daily Round, built in
+Phases 19–25. The decision that makes it possible at all —
 scored rounds in an app that has refused points since v0.1 — is
 [ADR 0016](./adr/0016-games-are-rounds-not-progression.md), accepted
 2026-10-13. The track rename that ships with it is

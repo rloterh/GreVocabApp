@@ -20,7 +20,7 @@ Read in this order. Each document assumes the ones above it.
 | [SCHEDULE.md](./SCHEDULE.md) | Start date, the ordinal-to-calendar mapping, reshuffling, and the migration that must not lose progress |
 | [FLASHCARD-INTERACTION.md](./FLASHCARD-INTERACTION.md) | Edge arrows, swipe and keyboard — three routes to the same two actions |
 | [TABLET.md](./TABLET.md) | iPad and tablet layout: the rail, two-column content, and the sizes it is verified at |
-| [GAMES.md](./GAMES.md) | v1.2: the games section — catalogue, tiers, engine, scoring, and why games never write the scheduler |
+| [GAMES.md](./GAMES.md) | v1.4.0 (planned as v1.2): the games section — catalogue, tiers, engine, scoring, and why games never write the scheduler |
 | [GAMES-UI.md](./GAMES-UI.md) | The games' screens, motion, sound and copy |
 | [GAMES-PROMPTS.md](./GAMES-PROMPTS.md) | Session prompts per v1.2 phase, and the in-app model prompts for the P2 enhancements |
 | [adr/](./adr/) | Decision records — the *why*, kept short, one per decision |

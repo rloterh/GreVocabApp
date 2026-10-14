@@ -18,7 +18,7 @@ import { chromium } from "playwright-core";
 const EXE =
   "C:/Users/HP/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe";
 const URL = "http://localhost:1420/";
-const OUT = process.argv[2] ?? ".";
+const OUT = process.argv[2] ?? process.env.OUT_DIR ?? ".";
 
 /** Phone, small laptop, desktop. The middle one is where this usually bites. */
 const VIEWPORTS = [

@@ -19,14 +19,16 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
-**Current work: v1.2, Games** (Phases 19–25, at the end of this file).
+**v1.4.0 shipped on 2026-10-14: Games** (Phases 19–25, at the end of this
+file). Planned as "v1.2"; 1.2.0 and 1.3.0 had already been tagged for the
+word-of-the-day and day-rail releases after v1.1, so it shipped as 1.4.0.
 A games section of timed, scored rounds modelled on Merriam-Webster's word
 games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
-**Phases 19–24 are done** — nine games, the Daily Round, haptics, the
-offline state, and Picture It drawn in-house (ADR 0018, accepted). The next
-step is Phase 25, the v1.2 release. Design:
+**Phases 19–25 are done** — nine games, the Daily Round, haptics, the
+offline state, Picture It drawn in-house (ADR 0018, accepted), and the
+release. Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -907,21 +909,38 @@ Progress pages.
   full round, checks the review shows the drawing and never the library, and
   plays it with the network gone.
 
-## Phase 25 — v1.2 release
+## Phase 25 — v1.2 release (shipped as v1.4.0)
+
+**DONE 2026-10-14.** Tagged `v1.4.0`: the version numbers 1.2.0 and 1.3.0
+were already taken.
 
 ### Tasks
 
-- **[P0] README, CHANGELOG, screenshots** — via `scripts/drive/screenshots.mjs`,
-  with a game stage in them.
-- **[P0] CONTINUING.md** — "where to make common changes" gains *Add a game*.
-- **[P0] Run the checklist on `main` after the merge**, as v1.1 did.
+- ~~**[P0] README, CHANGELOG, screenshots**~~ — `screenshots.mjs` now also
+  takes the games hub and two questions on a phone (Closest Meaning, Picture
+  It). Looking at them found the one user-visible bug of the release: the
+  track switcher split its width evenly, which clipped "Advanced" beside
+  "Easy" on phones, and the tablet rail had room for neither. Fixed, recorded
+  in ADR 0017, and measured by `games-smoke.mjs` at three widths.
+- ~~**[P0] CONTINUING.md**~~ — *Add a game* was already there; it now covers a
+  game not built from words.
+- ~~**[P0] Run the checklist on `main` after the merge**~~, as v1.1 did.
+
+The checklist found three stale things, none of them in the app: the games
+audit failed every tier of Picture It, which has no tiers (it now skips
+tierless games); `plan-smoke` counted the designed cross-track overlap as
+repeats (it now checks within a track, and finds none in 630 words); and three
+drivers wrote screenshots into the repository root (they now honour
+`OUT_DIR`).
 
 ### Definition of done
 
 - Typecheck, build, the full suite, both corpus audits, the games audit and
   every driver are green on `main`.
 - A signed Android build has been installed on the emulator and one round of
-  every shipped game has been played on it.
+  every shipped game has been played on it. **Done** with
+  `scripts/drive/android-games.mjs`, which attaches to the installed app's
+  WebView through adb, so it is a command for every release after this one.
 
 ## Explicitly not planned
 

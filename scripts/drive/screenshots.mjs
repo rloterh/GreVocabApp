@@ -127,4 +127,56 @@ for (const shot of SHOTS) {
   await page.close();
 }
 
+// ── Games: the hub, and a question mid-round on a phone ─────────────────────
+const settle = (page) =>
+  page
+    .waitForFunction(() => document.getAnimations().every((a) => a.playState !== "running"), { timeout: 3000 })
+    .catch(() => {});
+
+const GAME_SHOTS = [
+  { name: "games-hub", width: 1280, height: 900 },
+  { name: "game-closest", width: 390, height: 844, game: "Closest Meaning", button: "Standard" },
+  { name: "game-picture", width: 390, height: 844, game: "Picture It", button: "Play" },
+];
+for (const shot of GAME_SHOTS) {
+  const phone = shot.width < 1024;
+  const page = await browser.newPage({
+    viewport: { width: shot.width, height: shot.height },
+    deviceScaleFactor: 2,
+    isMobile: phone,
+    hasTouch: phone,
+  });
+  await page.addInitScript(() => {
+    if (localStorage.getItem("lexicon.settings.v1")) return;
+    localStorage.setItem(
+      "lexicon.settings.v1",
+      JSON.stringify({ state: { theme: "dark", hasOnboarded: true, hasSeenSrsIntro: true }, version: 0 }),
+    );
+  });
+  await page.goto(URL, { waitUntil: "networkidle" });
+  await page.waitForTimeout(800);
+  await page.getByRole("button", { name: "Games", exact: true }).last().click();
+  await page.waitForTimeout(900);
+  if (shot.game) {
+    await page.locator("section").filter({ hasText: shot.game }).first().getByRole("button", { name: shot.button, exact: true }).click();
+    await page.waitForFunction(
+      () => [...document.querySelectorAll('[role="dialog"] button')].some((b) => b.textContent === "Play" && !b.disabled),
+      null,
+      { timeout: 15000 },
+    );
+    await page.getByRole("dialog").getByRole("button", { name: "Play", exact: true }).click();
+    // Once the options are live the question has finished entering.
+    await page.waitForFunction(
+      () => [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')].some((b) => !b.disabled),
+      null,
+      { timeout: 10000 },
+    );
+    await page.waitForTimeout(1500);
+  }
+  await settle(page);
+  await page.screenshot({ path: `${OUT}/${shot.name}.png` });
+  console.log(`${OUT}/${shot.name}.png — ${shot.width}x${shot.height}`);
+  await page.close();
+}
+
 await browser.close();

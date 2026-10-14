@@ -174,6 +174,16 @@ The `-x` is required: Gradle's own Rust task cannot find `npm.bat`, and the
 compile it would run has already happened. Verify the result with
 `apksigner verify --print-certs`.
 
+**Driving the installed app.** `scripts/drive/android-games.mjs` attaches to
+the release build's WebView through adb and plays a round of every game, so
+the release checklist's "one round of every game on the emulator" is a
+command, not an afternoon of tapping. Two things learned writing it: the
+release WebView does expose a `webview_devtools_remote` socket, but
+Playwright's `connectOverCDP` cannot use it ("Browser context management is
+not supported") — its `_android` API can. And force-stop the app before each
+run: a round left open by an interrupted run sits over the tab bar, and every
+click after that lands on it.
+
 Two things that will waste an afternoon if forgotten. The emulator is x86_64,
 so an arm64 build installs and then fails to start. And the frontend is
 embedded, brotli-compressed, inside the `.so` — rebuilding only the APK ships

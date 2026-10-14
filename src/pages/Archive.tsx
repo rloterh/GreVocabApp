@@ -12,6 +12,8 @@ import { VocabLibrary } from "@/components/VocabLibrary";
 import { ImportDeckButton, ShareDeckButton } from "@/components/DeckShare";
 import { AddWordsButton } from "@/components/AddWordsButton";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useSchedule } from "@/store/useSchedule";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
@@ -36,9 +38,8 @@ function monthLabelFor(
 
 export function Archive() {
   const { setActiveMonth, setSelectedDay, removeMonth } = useVocabStore();
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
-  const months = useVocabStore((s) => s.months);
-  const schedule = useVocabStore((s) => s.getSchedule());
+  const allMonths = useAllMonths();
+  const schedule = useSchedule();
   const currentKey = useVocabStore((s) => s.monthKeyForDate());
   const isMastered = useProgressStore((s) => s.isMastered);
   const wordOrder = useSettingsStore((s) => s.wordOrder);
@@ -48,7 +49,7 @@ export function Archive() {
   // Newest first, which is teaching order reversed — the schedule decides
   // what "newest" means now, and it is not the ordinal when months have been
   // reordered.
-  const sorted = useMemo(() => [...getAllMonths()].reverse(), [getAllMonths, months, schedule]);
+  const sorted = useMemo(() => [...allMonths].reverse(), [allMonths]);
 
   if (sorted.length === 0) {
     return (

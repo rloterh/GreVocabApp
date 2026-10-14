@@ -1,13 +1,25 @@
 import type { DayActivity } from "@/types";
 import { addDays, differenceInDays, parseISO, toDateKey } from "./date-utils";
 
+/**
+ * Does this day keep a streak alive?
+ *
+ * Reviewing or mastering a word, or finishing a game round. A round counts
+ * because playing is practice, and a user who only had time for one game
+ * should not lose a forty-day streak for it — see
+ * docs/adr/0016-games-are-rounds-not-progression.md.
+ */
+export function isActiveDay(a: DayActivity): boolean {
+  return a.wordsReviewed > 0 || a.wordsMastered > 0 || (a.gamesPlayed ?? 0) > 0;
+}
+
 /** Calculate current & longest streak from activity records */
 export function calculateStreaks(activities: Record<string, DayActivity>): {
   current: number;
   longest: number;
 } {
   const activeDates = Object.values(activities)
-    .filter((a) => a.wordsReviewed > 0 || a.wordsMastered > 0)
+    .filter(isActiveDay)
     .map((a) => parseISO(a.date))
     .sort((a, b) => a.getTime() - b.getTime());
 
@@ -117,7 +129,7 @@ export function calculateStreaksWithFreezes(
   const base = calculateStreaks(activities);
 
   const activeDates = Object.values(activities)
-    .filter((a) => a.wordsReviewed > 0 || a.wordsMastered > 0)
+    .filter(isActiveDay)
     .map((a) => parseISO(a.date))
     .sort((a, b) => a.getTime() - b.getTime());
 

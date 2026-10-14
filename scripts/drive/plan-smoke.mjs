@@ -177,24 +177,29 @@ if (stopped) {
   }
 }
 
-// No duplicate words anywhere, which is the point of the whole phase.
+// No duplicate words within a track, which is the point of the whole phase.
+// Across tracks is different: both arrive seeded, and the two vocabularies
+// share most of their words by design (docs/adr/0013-cross-track-overlap.md).
 const dupes = await page.evaluate(() => {
   const raw = JSON.parse(localStorage.getItem("lexicon.vocab.v1") ?? "{}");
-  const words = Object.values(raw.state?.months ?? {}).flatMap((m) =>
-    m.days.flatMap((d) => d.words.map((w) => w.word.toLowerCase())),
-  );
-  const seen = new Set();
+  const seen = new Map();
   const repeated = [];
-  for (const w of words) {
-    if (seen.has(w)) repeated.push(w);
-    seen.add(w);
+  let total = 0;
+  for (const m of Object.values(raw.state?.months ?? {})) {
+    const track = m.track ?? "gre";
+    if (!seen.has(track)) seen.set(track, new Set());
+    for (const w of m.days.flatMap((d) => d.words.map((x) => x.word.toLowerCase()))) {
+      total++;
+      if (seen.get(track).has(w)) repeated.push(`${track}:${w}`);
+      seen.get(track).add(w);
+    }
   }
-  return { total: words.length, repeated };
+  return { total, repeated };
 });
 check(
-  "no word appears twice across every generated month",
+  "no word appears twice within a track, across every generated month",
   dupes.repeated.length === 0,
-  `${dupes.total} words, ${dupes.repeated.length} repeats`,
+  `${dupes.total} words, ${dupes.repeated.length} repeats ${dupes.repeated.slice(0, 5).join(" ")}`,
 );
 
 fs.mkdirSync(OUT, { recursive: true });

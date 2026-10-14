@@ -38,15 +38,15 @@ describe("the tabs", () => {
 
   it("shows the four daily destinations plus More", () => {
     setup();
-    for (const label of ["Home", "Practice", "Cards", "Quiz", "More"]) {
+    for (const label of ["Home", "Practice", "Cards", "Games", "More"]) {
       expect(screen.getByRole("button", { name: label })).toBeTruthy();
     }
   });
 
   it("navigates when a tab is tapped", async () => {
     const { user } = setup();
-    await user.click(screen.getByRole("button", { name: "Quiz" }));
-    expect(useAppStore.getState().page).toBe("quiz");
+    await user.click(screen.getByRole("button", { name: "Games" }));
+    expect(useAppStore.getState().page).toBe("games");
   });
 
   it("marks the current page", () => {
@@ -102,6 +102,7 @@ describe("More", () => {
     // Between the bar and the sheet, every page must be reachable — one that
     // appears in neither is unreachable on a phone.
     expect(labels).toEqual([
+      "Quiz",
       "Exam",
       "Sentences",
       "Calendar",

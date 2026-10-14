@@ -13,12 +13,16 @@ Read in this order. Each document assumes the ones above it.
 | [VOCAB-GENERATION.md](./VOCAB-GENERATION.md) | Generating a month/quarter/year, never repeating a word, honouring user-supplied lists |
 | [QUIZ-AND-EXAMS.md](./QUIZ-AND-EXAMS.md) | Instant quizzes, periodic tests, and the 100-question sectioned exam |
 | [MOBILE.md](./MOBILE.md) | Android and iOS: layout, platform work, store submission |
+| [DESKTOP.md](./DESKTOP.md) | Windows, macOS and Linux: what desktop has that mobile does not, building, and the installers that come out |
 | [THEMES.md](./THEMES.md) | The palette system, four new themes, and the contrast test that keeps ten of them legible |
 | [WORD-ORDER.md](./WORD-ORDER.md) | Authored / alphabetical / random — and where a presentation preference must not override the scheduler |
 | [TRACKS.md](./TRACKS.md) | GRE and SAT as separate vocabularies in one app — what is per-track, and what is not |
 | [SCHEDULE.md](./SCHEDULE.md) | Start date, the ordinal-to-calendar mapping, reshuffling, and the migration that must not lose progress |
 | [FLASHCARD-INTERACTION.md](./FLASHCARD-INTERACTION.md) | Edge arrows, swipe and keyboard — three routes to the same two actions |
 | [TABLET.md](./TABLET.md) | iPad and tablet layout: the rail, two-column content, and the sizes it is verified at |
+| [GAMES.md](./GAMES.md) | v1.4.0 (planned as v1.2): the games section — catalogue, tiers, engine, scoring, and why games never write the scheduler |
+| [GAMES-UI.md](./GAMES-UI.md) | The games' screens, motion, sound and copy |
+| [GAMES-PROMPTS.md](./GAMES-PROMPTS.md) | Session prompts per v1.2 phase, and the in-app model prompts for the P2 enhancements |
 | [adr/](./adr/) | Decision records — the *why*, kept short, one per decision |
 
 **Start with [ADR 0007](./adr/0007-authentication-strategy.md)** if you are
@@ -30,6 +34,18 @@ Tracks are a v1.1 concern and sit below the v1.0 documents above: read
 [ADR 0011](./adr/0011-tracks.md), [0012](./adr/0012-ordinal-content.md) and
 [0013](./adr/0013-cross-track-overlap.md) before TRACKS.md or SCHEDULE.md —
 they decide the data model those two describe.
+
+Before any games work, read [ADR 0016](./adr/0016-games-are-rounds-not-progression.md)
+(it amends ADR 0006) and
+[ADR 0017](./adr/0017-track-display-names.md): the tracks are shown as Advanced
+and Easy, and their ids stay `gre` and `sat`. Picture It's drawings are
+in-house by decision — [ADR 0018](./adr/0018-picture-it-in-house-diagrams.md)
+says why, and what a commissioned set would have to deliver to replace them.
+
+Before changing the daily reminder, read
+[ADR 0015](./adr/0015-os-scheduled-reminders.md) alongside
+[MOBILE.md](./MOBILE.md). The obvious payload arms the wrong alarm and the
+obvious permission call hangs forever; both are decisions, not oversights.
 
 The phased plan that sequences all of this is [`../ROADMAP.md`](../ROADMAP.md).
 Conventions and the day-to-day handoff are in

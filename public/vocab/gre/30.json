@@ -1076,7 +1076,10 @@
           "definition": "One of the small leaf-like segments that encloses and guards a developing flower bud.",
           "example": "Each green sepal folded back one by one, revealing the bright petals of the tulip beneath.",
           "mnemonic": "SEPAL = it SEParates and shields the petal; it even rhymes with 'petal'.",
-          "synonyms": [],
+          "synonyms": [
+            "bract",
+            "calyx"
+          ],
           "antonyms": [
             "petal"
           ]
@@ -1088,7 +1091,10 @@
           "definition": "The pollen-producing male part of a flower, a slender stalk topped by an anther.",
           "example": "A bee brushed against the stamen and flew off dusted with yellow pollen.",
           "mnemonic": "STAMEN ends in 'men' — it's the male reproductive organ of the flower.",
-          "synonyms": [],
+          "synonyms": [
+            "androecium",
+            "microsporophyll"
+          ],
           "antonyms": [
             "pistil",
             "carpel"
@@ -1192,7 +1198,10 @@
           "definition": "A crusty or leafy organism of fungus and alga living together, growing on rocks and bark.",
           "example": "Grey-green lichen crusted the old gravestone, slowly spreading across the weathered granite.",
           "mnemonic": "Pronounced 'LY-ken' — picture it 'likin'' to cling onto bare rock.",
-          "synonyms": [],
+          "synonyms": [
+            "moss",
+            "fungus"
+          ],
           "antonyms": []
         },
         {

@@ -1,0 +1,1203 @@
+Lexicon games — Closest Meaning, a sample for a reader (seed 10)
+The ✓ option should be the closest in meaning. Mark DEFENSIBLE if a wrong option is arguably as close, WRONG KEY if ✓ is not a fair synonym.
+Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
+
+  [gre/warmup] fledgling (adjective) — New, inexperienced, and only just getting started.
+        rewarding
+      ✓ budding
+        glib
+        frank
+
+  [gre/warmup] strident (adjective) — Loud and harsh-sounding in a way that grates unpleasantly.
+      ✓ harsh
+        discerning
+        beneficial
+        deceptive
+
+  [gre/warmup] Nostrum (noun) — A medicine of unproven effectiveness; a favorite but dubious remedy.
+        shade
+        bottom
+      ✓ panacea
+        refinement
+
+  [gre/warmup] Nascent (adjective) — Just coming into existence; beginning to develop.
+        villainous
+      ✓ emerging
+        imaginary
+        poisonous
+
+  [gre/warmup] vanquish (verb) — To defeat an enemy or opponent completely in a battle or contest.
+        hesitate
+      ✓ conquer
+        authenticate
+        esteem
+
+  [gre/warmup] chary (adjective) — Cautiously reluctant to do something, especially to give or risk it.
+        astute
+        covert
+        absolute
+      ✓ cautious
+
+  [gre/warmup] Jettison (verb) — To throw or drop from an aircraft or ship; to abandon.
+        heckle
+        compare
+        babble
+      ✓ discard
+
+  [gre/warmup] gullible (adjective) — Easily tricked or deceived because of trusting people too readily.
+        sheer
+        muddled
+      ✓ naive
+        tactless
+
+  [gre/warmup] derision (noun) — Mockery or ridicule that makes someone or something seem foolish.
+        respect
+        discussion
+        prudence
+      ✓ mockery
+
+  [gre/warmup] ascendant (adjective) — Rising toward greater power, popularity, or influence.
+        abstinent
+        genial
+        whimsical
+      ✓ rising
+
+  [gre/warmup] cornucopia (noun) — A horn-shaped emblem overflowing with fruit that symbolizes a rich, plentiful supply.
+        standard
+      ✓ abundance
+        wrath
+        frankness
+
+  [gre/warmup] Hoary (adjective) — Gray or white with age; old-fashioned.
+      ✓ ancient
+        ubiquitous
+        routine
+        unfortunate
+
+  [gre/warmup] mumble (verb) — To speak so quietly and unclearly that words are hard to catch.
+      ✓ murmur
+        reconcile
+        chain
+        vilify
+
+  [gre/warmup] opulence (noun) — Great luxury, richness, and lavish display of wealth.
+        censure
+        opprobrium
+        declamation
+      ✓ luxury
+
+  [gre/warmup] wistful (adjective) — Full of a quiet, yearning sadness for something loved but now gone.
+      ✓ longing
+        engaging
+        gratuitous
+        sly
+
+  [gre/warmup] admonish (verb) — To warn or advise someone firmly about a fault or danger.
+        arbitrate
+        mediate
+      ✓ warn
+        waste
+
+  [gre/warmup] rift (noun) — A serious break in friendly relations between people or groups.
+        backslide
+      ✓ breach
+        restoration
+        bitterness
+
+  [gre/warmup] embezzle (verb) — To steal money that was entrusted to you, usually by an employer.
+        show
+      ✓ misappropriate
+        transform
+        trap
+
+  [gre/warmup] pretext (noun) — A false reason given to hide the real purpose behind an action.
+        endurance
+        riot
+        banality
+      ✓ excuse
+
+  [gre/warmup] peremptory (adjective) — Insisting on instant obedience and allowing no refusal or discussion.
+      ✓ imperious
+        superficial
+        impassive
+        combative
+
+  [gre/warmup] plentiful (adjective) — Existing in large amounts; more than enough.
+        belligerent
+      ✓ abundant
+        noxious
+        conspicuous
+
+  [gre/warmup] tenable (adjective) — Able to be defended against attack or objection.
+      ✓ defensible
+        implied
+        passing
+        disloyal
+
+  [gre/warmup] manifold (adjective) — Many and varied in kind or number.
+        fickle
+        sinister
+        sulky
+      ✓ numerous
+
+  [gre/warmup] arrogate (verb) — To seize or claim something for oneself without any right to it.
+        assess
+      ✓ usurp
+        foreshadow
+        improve
+
+  [gre/warmup] candid (adjective) — Honest, open, and straightforward, even about awkward or unflattering truths.
+        gutless
+      ✓ frank
+        vociferous
+        acerbic
+
+  [gre/standard] coeval (adjective) — Having the same age, date, or origin as another thing.
+        mindful
+      ✓ contemporaneous
+        testy
+        pellucid
+
+  [gre/standard] dusk (noun) — The dim period after sunset when daylight fades and night begins to fall.
+        rebellion
+        illusion
+        argumentation
+      ✓ twilight
+
+  [gre/standard] boisterous (adjective) — Noisy, energetic, and cheerfully rough in behavior.
+        unenlightened
+        delayed
+        kindly
+      ✓ rowdy
+
+  [gre/standard] apothegm (noun) — A short, sharply pointed and instructive remark meant to teach or guide.
+        doubtfulness
+        arrangement
+      ✓ maxim
+        handout
+
+  [gre/standard] friable (adjective) — Easily broken into small fragments or reduced to powder.
+        impassioned
+        extravagant
+      ✓ crumbly
+        anxious
+
+  [gre/standard] incessant (adjective) — Going on and on without any pause, especially something irritating.
+        unconcerned
+        fixed
+        intolerant
+      ✓ constant
+
+  [gre/standard] consonance (noun) — Agreement or harmony among parts, opinions, or sounds within a whole.
+        dispute
+      ✓ harmony
+        authority
+        turmoil
+
+  [gre/standard] compunction (noun) — A slight, uneasy feeling of guilt that holds you back from acting.
+        succession
+        civility
+      ✓ qualm
+        harmony
+
+  [gre/standard] perspicuous (adjective) — Expressed so clearly and simply that it is easily understood.
+      ✓ lucid
+        extravagant
+        itinerant
+        tentative
+
+  [gre/standard] orchestrate (verb) — To plan and coordinate the many parts of a complex undertaking.
+      ✓ coordinate
+        sway
+        stem
+        block
+
+  [gre/standard] lore (noun) — A body of traditional knowledge or stories passed down within a group.
+        riches
+        lushness
+        break
+      ✓ folklore
+
+  [gre/standard] nullify (verb) — To make something legally void or to cancel out its effect entirely.
+        provoke
+        cleave
+      ✓ negate
+        nourish
+
+  [gre/standard] cohesion (noun) — The state of sticking together and acting as one unified whole.
+      ✓ unity
+        hubbub
+        perception
+        fellowship
+
+  [gre/standard] penultimate (adjective) — Coming immediately before the last one in a series.
+        immaculate
+        affluent
+      ✓ next-to-last
+        protracted
+
+  [gre/standard] buoyant (adjective) — Cheerful and full of light-hearted optimism.
+        benevolent
+        paltry
+        insolvent
+      ✓ cheerful
+
+  [gre/standard] outset (noun) — The point at which something begins.
+        torrent
+        firmness
+      ✓ beginning
+        accord
+
+  [gre/standard] venturesome (adjective) — Inclined to take chances and seek out exciting, risky experiences.
+        leave-taking
+      ✓ adventurous
+        revered
+        indefinite
+
+  [gre/standard] chagrin (noun) — A feeling of annoyance and distress caused by failure or humiliation.
+        courtesy
+      ✓ embarrassment
+        conclusion
+        spinelessness
+
+  [gre/standard] gutless (adjective) — Having no courage or determination.
+        affable
+        flashy
+        knotted
+      ✓ spineless
+
+  [gre/standard] tumultuous (adjective) — Full of noise, confusion, and violent commotion.
+        fatal
+        fleeting
+        late
+      ✓ turbulent
+
+  [gre/standard] standardize (verb) — To make things follow one uniform set of rules or measurements.
+        separate
+        climb
+      ✓ regularize
+        skimp
+
+  [gre/standard] daunt (verb) — To make someone feel afraid or less confident about attempting something.
+      ✓ intimidate
+        dislodge
+        strip
+        disassemble
+
+  [gre/standard] regimented (adjective) — Strictly organized and controlled by rigid rules or routines.
+        wild
+        elated
+        reborn
+      ✓ strict
+
+  [gre/standard] spartan (adjective) — Marked by strict simplicity, self-discipline, and the absence of luxury.
+        whining
+        sturdy
+      ✓ austere
+        learned
+
+  [gre/standard] vernal (adjective) — Relating to or occurring in the spring.
+      ✓ springlike
+        mercenary
+        lush
+        bright
+
+  [gre/hard] recrudesce (verb) — To break out or flare up again after a period of calm or dormancy.
+        recall
+        recollect
+        demote
+      ✓ recur
+
+  [gre/hard] assiduity (noun) — Persistent, careful attention and hard work devoted to a task over time.
+      ✓ diligence
+        blackout
+        talisman
+        reprieve
+
+  [gre/hard] ostracism (noun) — The act of deliberately shutting someone out of a group or community.
+        obscurity
+      ✓ exclusion
+        celebrant
+        showiness
+
+  [gre/hard] dissolute (adjective) — Given over to shameless pleasure-seeking and self-indulgence.
+        anguished
+        dignified
+        abstracted
+      ✓ debauched
+
+  [gre/hard] umbrageous (adjective) — Providing shade, or full of shadows cast by leaves and trees.
+        suave
+        crazed
+        heedless
+      ✓ shady
+
+  [gre/hard] inductive (adjective) — Reasoning from particular observations toward a broader, probable generalization.
+      ✓ empirical
+        indelible
+        invalid
+        forbidden
+
+  [gre/hard] loam (noun) — A fertile soil blend of sand, silt, clay, and decayed organic matter.
+        ritual
+      ✓ topsoil
+        fatigue
+        radiance
+
+  [gre/hard] glaucous (adjective) — Having a pale grayish or bluish-green color, often with a powdery coating.
+        severe
+        pretentious
+      ✓ bluish-gray
+        authentic
+
+  [gre/hard] libertine (noun) — A person who ignores moral rules, especially about sex and pleasure.
+        fatigue
+        hiatus
+      ✓ hedonist
+        topsoil
+
+  [gre/hard] litigious (adjective) — Overly eager to sue people or start quarrels.
+      ✓ contentious
+        shoreline
+        luminous
+        limnetic
+
+  [gre/hard] exiguous (adjective) — Extremely small in size or amount; scanty and inadequate.
+        atoning
+        cognitive
+      ✓ meager
+        usurious
+
+  [gre/hard] waspish (adjective) — Sharply irritable and prone to spiteful, stinging remarks.
+      ✓ irritable
+        miserable
+        ordinary
+        forgivable
+
+  [gre/hard] axiomatic (adjective) — Regarded as obviously true and needing no proof.
+        accidental
+        tree-dwelling
+      ✓ self-evident
+        cunning
+
+  [gre/hard] eclipse (verb) — To surpass or overshadow someone, making them seem less important.
+      ✓ overshadow
+        disinter
+        dissipate
+        eradicate
+
+  [gre/hard] pollinate (verb) — To transfer fertilizing dust between flowers so they can produce seeds or fruit.
+      ✓ fertilize
+        discipline
+        trim
+        practice
+
+  [gre/hard] interpolate (verb) — To insert extra material into a text, or to estimate a value lying between known ones.
+        burn
+        forbid
+        accuse
+      ✓ insert
+
+  [gre/hard] agglomerate (verb) — To gather or cluster into a rounded, disordered mass.
+        affirm
+        decorate
+        renounce
+      ✓ cluster
+
+  [gre/hard] epicure (noun) — A person who takes great pleasure in fine food and drink.
+      ✓ gourmet
+        emigrant
+        effort
+        loathing
+
+  [gre/hard] braggadocio (noun) — Empty, arrogant self-praise, or a swaggering person who indulges in it.
+        briar
+        bramble
+      ✓ bravado
+        scourge
+
+  [gre/hard] debauchee (noun) — Someone who habitually gives in to vice and sensual excess.
+        assiduity
+        senility
+      ✓ libertine
+        timidity
+
+  [gre/hard] woeful (adjective) — Full of sorrow, or pitifully poor and inadequate in quality.
+        ordinary
+        culpable
+      ✓ miserable
+        misguided
+
+  [gre/hard] expiatory (adjective) — Serving to make amends or atone for guilt or sin.
+      ✓ atoning
+        ravenous
+        usurious
+        hermitic
+
+  [gre/hard] husbandry (noun) — The careful management of farming, especially the raising of animals and crops.
+        moorland
+        lethargy
+      ✓ farming
+        frenzy
+
+  [gre/hard] mannered (adjective) — Marked by an artificial, self-conscious style rather than natural behavior.
+        tawdry
+        blinkered
+        ascetic
+      ✓ affected
+
+  [gre/hard] peccant (adjective) — Guilty of a moral fault or wrongdoing; sinning.
+        blue-collar
+        insular
+      ✓ sinful
+        obtuse
+
+  [gre/fiendish] etiquette (noun) — The accepted rules of polite behavior in society or a particular group.
+        emigrant
+        growth
+      ✓ manners
+        loathing
+
+  [gre/fiendish] prohibit (verb) — To formally forbid an action by authority, rule, or law.
+        fertilize
+        employ
+        filch
+      ✓ forbid
+
+  [gre/fiendish] exacting (adjective) — Making great demands on one's skill, attention, care, or effort.
+        excessive
+        ravenous
+      ✓ demanding
+        suggestive
+
+  [gre/fiendish] mire (noun) — An expanse of deep, sticky mud that traps whatever tries to move through it.
+      ✓ quagmire
+        reminder
+        mischance
+        infraction
+
+  [gre/fiendish] immure (verb) — To shut someone in or imprison them behind walls.
+        attribute
+      ✓ imprison
+        instill
+        sacrifice
+
+  [gre/fiendish] replica (noun) — A close reproduction or model of an original object.
+        ritual
+      ✓ reproduction
+        remainder
+        reluctance
+
+  [gre/fiendish] complicity (noun) — The state of being involved with others in a wrongful or illegal act.
+        possibility
+        catastrophe
+      ✓ collusion
+        requital
+
+  [gre/fiendish] incoherence (noun) — The state of speech or thought lacking logical connection and being impossible to follow.
+      ✓ confusion
+        laziness
+        charlatan
+        stimulus
+
+  [gre/fiendish] agglomerate (verb) — To gather or cluster into a rounded, disordered mass.
+        renounce
+        decorate
+      ✓ cluster
+        charge
+
+  [gre/fiendish] inculpate (verb) — To suggest or prove that someone is guilty of wrongdoing.
+        habituate
+        indoctrinate
+      ✓ incriminate
+        imprison
+
+  [gre/fiendish] burlesque (noun) — A theatrical entertainment that mocks serious subjects through exaggeration and comedy.
+      ✓ farce
+        impiety
+        briar
+        fern
+
+  [gre/fiendish] epicure (noun) — A person who takes great pleasure in fine food and drink.
+        firth
+      ✓ gourmet
+        growth
+        emigrant
+
+  [gre/fiendish] topiary (noun) — The craft of trimming shrubs and trees into ornamental, sculpted shapes.
+        judiciary
+      ✓ hedge-sculpting
+        hardship
+        lattice
+
+  [gre/fiendish] tergiversate (verb) — To repeatedly change one's opinions or loyalties; to be deliberately ambiguous.
+        flail
+      ✓ equivocate
+        employ
+        labor
+
+  [gre/fiendish] hireling (noun) — A person who works only for payment, showing little loyalty or care for the cause.
+        sanctuary
+        lethargy
+        delirium
+      ✓ mercenary
+
+  [gre/fiendish] mores (noun) — The essential customs and moral attitudes accepted by a particular community.
+      ✓ customs
+        mimicry
+        corruption
+        craze
+
+  [gre/fiendish] augury (noun) — A sign read as foretelling the future, or the practice of interpreting such signs.
+        austerity
+        alienation
+      ✓ omen
+        defection
+
+  [gre/fiendish] hermitage (noun) — A secluded dwelling where someone lives apart from society.
+        vision
+      ✓ retreat
+        dissent
+        hogwash
+
+  [gre/fiendish] standoffish (adjective) — Distant and cold in manner, keeping others at an emotional arm's length.
+      ✓ aloof
+        random
+        lazy
+        lucky
+
+  [gre/fiendish] claque (noun) — A group of hired or fawning supporters who applaud and cheer on cue.
+        consequence
+        sanctimony
+      ✓ sycophants
+        lampoon
+
+  [gre/fiendish] sprightly (adjective) — Lively, energetic, and full of cheerful movement.
+        logical
+        sugary
+      ✓ lively
+        lawful
+
+  [gre/fiendish] votive (adjective) — Offered or dedicated in fulfillment of a promise, or expressing a heartfelt wish.
+        forgivable
+        glasslike
+        nocturnal
+      ✓ dedicated
+
+  [gre/fiendish] heedless (adjective) — Careless and paying no attention to danger or advice.
+        sincere
+        heterodox
+      ✓ reckless
+        glassy
+
+  [gre/fiendish] caprice (noun) — A sudden, impulsive change of mind or behavior with no clear reason.
+        wrongdoer
+        device
+      ✓ whim
+        bigotry
+
+  [gre/fiendish] delinquency (noun) — Minor wrongdoing or antisocial behavior, especially among young people, or failure to meet an obligation.
+        compulsion
+        enthusiast
+      ✓ misconduct
+        hypocrite
+
+  [sat/warmup] antipathy (noun) — A deep-seated feeling of dislike or hostility toward someone or something.
+        irregularity
+        wake
+      ✓ hostility
+        flattery
+
+  [sat/warmup] unintelligible (adjective) — So unclear that it cannot be understood at all.
+        indefensible
+      ✓ incomprehensible
+        inflexible
+        resolute
+
+  [sat/warmup] arrogant (adjective) — Behaving as if you are better than others in an unpleasant, overbearing way.
+        sardonic
+      ✓ haughty
+        sudden
+        self-evident
+
+  [sat/warmup] grandiloquent (adjective) — Marked by lofty, showy speech intended to impress listeners.
+        circumspect
+      ✓ bombastic
+        convivial
+        talkative
+
+  [sat/warmup] solicit (verb) — To ask for or try to obtain something from someone.
+        mix
+      ✓ request
+        daze
+        surmise
+
+  [sat/warmup] garrulous (adjective) — Talking too much, especially about trivial things.
+        smooth
+        surly
+      ✓ talkative
+        bombastic
+
+  [sat/warmup] hypocrisy (noun) — Claiming to hold moral standards that your own behavior clearly breaks.
+        reverence
+        supposition
+      ✓ insincerity
+        rumor
+
+  [sat/warmup] breed (verb) — To produce offspring, or to cause something to develop and spread.
+      ✓ reproduce
+        baffle
+        scold
+        strengthen
+
+  [sat/warmup] resolve (verb) — To settle a dispute or find a solution to a problem.
+        regress
+        approve
+        scold
+      ✓ settle
+
+  [sat/warmup] obdurate (adjective) — Stubbornly refusing to soften a view or feeling despite pleas or reason.
+        bossy
+        pretentious
+        outdated
+      ✓ stubborn
+
+  [sat/warmup] erode (verb) — To wear away gradually through steady natural forces.
+        extend
+      ✓ abrade
+        empower
+        detail
+
+  [sat/warmup] hinder (verb) — To make progress or action slow or difficult.
+        stall
+        applaud
+      ✓ hamper
+        quicken
+
+  [sat/warmup] truculent (adjective) — Aggressively defiant and eager to argue or fight.
+      ✓ belligerent
+        weak
+        chronological
+        momentary
+
+  [sat/warmup] subtle (adjective) — So delicate or slight as to be hard to notice or describe.
+        scornful
+        sophistic
+      ✓ understated
+        outstanding
+
+  [sat/warmup] misgiving (noun) — A feeling of doubt or unease about a future outcome.
+        transformation
+        aphorism
+      ✓ doubt
+        quagmire
+
+  [sat/warmup] ratify (verb) — To make an agreement or treaty official by formally approving it.
+      ✓ approve
+        honor
+        heal
+        reject
+
+  [sat/warmup] disdainful (adjective) — Showing contempt or scorn because you think someone or something is unworthy.
+        resolute
+        authoritative
+        skillful
+      ✓ contemptuous
+
+  [sat/warmup] querulous (adjective) — Complaining in a whining, peevish, and irritable manner.
+        dubious
+        resting
+      ✓ peevish
+        archetypal
+
+  [sat/warmup] catalyst (noun) — An agent that triggers or speeds up a reaction or event while remaining unchanged itself.
+      ✓ spark
+        unanimity
+        effect
+        pessimist
+
+  [sat/warmup] straightforward (adjective) — Easy to understand or do; simple and direct.
+        cynical
+        genuine
+      ✓ simple
+        scanty
+
+  [sat/warmup] obstacle (noun) — Something that blocks your way or prevents movement toward a goal.
+        disgrace
+        commencement
+        opprobrium
+      ✓ barrier
+
+  [sat/warmup] droll (adjective) — Amusing in a quaint, quirky, or unexpected way.
+        morose
+        politic
+        respectful
+      ✓ whimsical
+
+  [sat/warmup] expedite (verb) — To speed up the progress of a task or process.
+        arise
+        overstate
+      ✓ hasten
+        intensify
+
+  [sat/warmup] reinforce (verb) — To make something stronger by adding extra material or support.
+        return
+        esteem
+      ✓ strengthen
+        refute
+
+  [sat/warmup] discredit (verb) — To damage someone's reputation or make their claims seem false.
+        refine
+        distinguish
+        conceive
+      ✓ disprove
+
+  [sat/standard] arduous (adjective) — Requiring great effort and hard to endure.
+        cooperative
+        opposing
+      ✓ strenuous
+        waterless
+
+  [sat/standard] endeavor (verb) — To make a serious and determined attempt to achieve something.
+        outshine
+        reveal
+      ✓ strive
+        highlight
+
+  [sat/standard] oligarchy (noun) — Government or control held by a small, privileged group of people.
+        antagonist
+        unconsciousness
+      ✓ plutocracy
+        monitoring
+
+  [sat/standard] insurgent (noun) — Someone who rises in armed opposition against an established government or authority.
+        consequence
+      ✓ rebel
+        incongruity
+        bequest
+
+  [sat/standard] replicate (verb) — To copy or repeat something exactly.
+        reminisce
+        restock
+        describe
+      ✓ duplicate
+
+  [sat/standard] oversimplify (verb) — To describe something as less complex than it really is, losing accuracy.
+        subjugate
+        banish
+      ✓ understate
+        overthrow
+
+  [sat/standard] tyranny (noun) — Cruel, unjust, and absolute use of power by a ruler.
+        persistence
+        term
+        convention
+      ✓ despotism
+
+  [sat/standard] allude (verb) — To mention or hint at something indirectly rather than saying it openly.
+        requite
+        consent
+        highlight
+      ✓ hint
+
+  [sat/standard] commonwealth (noun) — A political community founded for the collective good of everyone in it.
+        stewardship
+        expert
+      ✓ republic
+        account
+
+  [sat/standard] established (adjective) — Firmly set up and accepted over a long time; well recognized and secure.
+        lavish
+        plaintive
+        resourceful
+      ✓ settled
+
+  [sat/standard] creed (noun) — A formal statement of the beliefs or principles that guide a person or group.
+      ✓ doctrine
+        record
+        cartoon
+        philanthropy
+
+  [sat/standard] belie (verb) — To give a false impression of something, or to contradict and disprove it.
+      ✓ misrepresent
+        overemphasize
+        requite
+        leave
+
+  [sat/standard] grant (verb) — To give or allow something formally, usually after a request.
+      ✓ give
+        judge
+        gather
+        extrapolate
+
+  [sat/standard] proscribe (verb) — To officially condemn or denounce something and forbid it as dangerous.
+        contemplate
+        persist
+      ✓ outlaw
+        obtain
+
+  [sat/standard] authoritarian (adjective) — Demanding strict obedience and allowing people little personal freedom.
+        driven
+        indifferent
+        exact
+      ✓ dictatorial
+
+  [sat/standard] retrograde (adjective) — Moving backward or returning to an earlier and usually worse condition.
+        suggestive
+        reserved
+      ✓ backward
+        negligent
+
+  [sat/standard] edict (noun) — A formal command or public proclamation issued by an authority.
+        voters
+        period
+      ✓ decree
+        strain
+
+  [sat/standard] agitate (verb) — To stir up strong public feeling, usually for or against a cause.
+        resemble
+        dissect
+      ✓ campaign
+        judge
+
+  [sat/standard] acquiesce (verb) — To accept or agree to something reluctantly but without protest.
+        estrange
+      ✓ consent
+        accomplish
+        requite
+
+  [sat/standard] dismantle (verb) — To take apart or break down into separate pieces.
+      ✓ disassemble
+        computerize
+        minimize
+        upset
+
+  [sat/standard] pedagogy (noun) — The method and practice of teaching.
+        destitution
+        oligarchy
+      ✓ instruction
+        heirs
+
+  [sat/standard] squander (verb) — To waste money, time, or resources in a careless, foolish way.
+        simplify
+        condense
+        toil
+      ✓ waste
+
+  [sat/standard] assertive (adjective) — Confident and direct in expressing one's needs, views, or boundaries.
+        deft
+        antagonistic
+      ✓ confident
+        cordial
+
+  [sat/standard] rescind (verb) — To officially cancel or revoke a law, order, or agreement.
+        mutiny
+        improve
+      ✓ revoke
+        reciprocate
+
+  [sat/standard] languid (adjective) — Moving slowly and with little energy; pleasantly relaxed or drooping.
+      ✓ sluggish
+        dense
+        poetic
+        toilsome
+
+  [sat/hard] deadpan (adjective) — Delivering humor or remarks with a blank, expressionless, and utterly serious face.
+      ✓ expressionless
+        dilapidated
+        haphazard
+        dashing
+
+  [sat/hard] buffoonery (noun) — Silly, clownish behavior that seems ridiculous or is meant to amuse.
+        barricade
+        slavery
+        rampart
+      ✓ clowning
+
+  [sat/hard] convivial (adjective) — Cheerful, sociable, and fond of good company and celebration.
+      ✓ sociable
+        collusive
+        obedient
+        guilty
+
+  [sat/hard] pretext (noun) — A false reason offered to hide the true motive behind an action.
+        plague
+        grace
+      ✓ excuse
+        caution
+
+  [sat/hard] vantage (noun) — A position giving a good view of or advantage over something.
+        annoyance
+        coating
+        threshold
+      ✓ viewpoint
+
+  [sat/hard] gnarled (adjective) — Twisted, knotty, and rough, as from age or hard wear.
+        garish
+        affable
+        elated
+      ✓ knotty
+
+  [sat/hard] insulate (verb) — To shield from heat, cold, or unwanted influence by surrounding with a barrier.
+        breach
+        enrage
+        cajole
+      ✓ shield
+
+  [sat/hard] casuistry (noun) — Clever but misleading reasoning used to justify questionable moral choices.
+        discord
+      ✓ sophistry
+        wrongdoer
+        patronage
+
+  [sat/hard] permeate (verb) — To spread through every part of something, often gradually and completely.
+      ✓ saturate
+        oppress
+        fathom
+        oversee
+
+  [sat/hard] artifice (noun) — Clever trickery or a cunning device used to deceive.
+        prototype
+        absolution
+        distress
+      ✓ trickery
+
+  [sat/hard] expanse (noun) — A wide, open, and continuous area of something spread out before you.
+        dying-out
+        fluency
+        serenity
+      ✓ stretch
+
+  [sat/hard] brash (adjective) — Behaving with bold, tactless confidence and little regard for consequences.
+        moody
+      ✓ bold
+        endless
+        devoid
+
+  [sat/hard] treacherous (adjective) — Hiding unexpected dangers, or guilty of betraying someone's trust.
+        bombastic
+        autocratic
+      ✓ dangerous
+        turbulent
+
+  [sat/hard] dither (verb) — To hesitate and act indecisively, unable to make up one's mind.
+        extradite
+        dehydrate
+        dissolve
+      ✓ vacillate
+
+  [sat/hard] rapture (noun) — A feeling of overwhelming joy or ecstatic delight that carries you away.
+        teasing
+      ✓ ecstasy
+        shelter
+        supply
+
+  [sat/hard] poise (noun) — A graceful, balanced, and self-assured way of carrying oneself.
+      ✓ grace
+        fringe
+        edge
+        danger
+
+  [sat/hard] enrage (verb) — To fill someone with violent, burning anger.
+        twist
+        avoid
+      ✓ infuriate
+        dismiss
+
+  [sat/hard] coterie (noun) — A small, exclusive circle of people sharing common interests or tastes.
+      ✓ circle
+        offender
+        keeper
+        spread
+
+  [sat/hard] persecute (verb) — To harass or oppress someone cruelly, often for their beliefs or identity.
+        spread
+      ✓ oppress
+        disturb
+        inhabit
+
+  [sat/hard] empower (verb) — To give someone the authority or confidence to take control and act.
+      ✓ enable
+        ensnare
+        remove
+        escape
+
+  [sat/hard] rootless (adjective) — Having no settled home or lasting ties to any place or community.
+        reviving
+        careless
+      ✓ unsettled
+        rural
+
+  [sat/hard] sycophant (noun) — A person who flatters powerful people to gain advantage for themselves.
+      ✓ flatterer
+        pigeonhole
+        peasant
+        misgiving
+
+  [sat/hard] primacy (noun) — The state of being first in rank, importance, or order.
+        assurance
+      ✓ preeminence
+        bloodline
+        divider
+
+  [sat/hard] steward (noun) — A person who manages and carefully protects another's property, affairs, or resources.
+        comfort
+        peasant
+      ✓ custodian
+        stopover
+
+  [sat/hard] attenuate (verb) — To make something weaker, thinner, or less intense.
+        presage
+        revoke
+      ✓ weaken
+        verify
+
+  [sat/fiendish] fester (verb) — To grow steadily worse and more poisoned when a wound or feeling is left unresolved.
+        create
+        grasp
+      ✓ rankle
+        predict
+
+  [sat/fiendish] seethe (verb) — To feel intense anger inwardly while barely keeping it under control.
+      ✓ boil
+        scorn
+        rise
+        bridge
+
+  [sat/fiendish] repartee (noun) — Quick, clever replies traded during a conversation.
+        warehouse
+      ✓ wit
+        exchange
+        revenge
+
+  [sat/fiendish] inert (adjective) — Lacking the power to move or the will to act.
+        welcoming
+        wandering
+        curious
+      ✓ motionless
+
+  [sat/fiendish] deport (verb) — To officially force a foreigner to leave a nation, usually for legal reasons.
+        fear
+        land
+        decay
+      ✓ expel
+
+  [sat/fiendish] tribalism (noun) — Strong loyalty to one's own group, often paired with hostility toward outsiders.
+        sluggishness
+        collection
+        fleetingness
+      ✓ factionalism
+
+  [sat/fiendish] anoint (verb) — To rub or smear with oil, often as part of a sacred or ceremonial act.
+        repudiate
+      ✓ consecrate
+        foresee
+        diminish
+
+  [sat/fiendish] scour (verb) — To search a place thoroughly, or to clean by hard rubbing.
+        boil
+        drain
+      ✓ comb
+        bulge
+
+  [sat/fiendish] reservoir (noun) — A large supply or store of something kept for later use.
+        scoundrel
+        guilt
+      ✓ store
+        shelter
+
+  [sat/fiendish] inveigle (verb) — To persuade someone to do something using flattery or clever deception.
+      ✓ cajole
+        enrage
+        confine
+        arrive
+
+  [sat/fiendish] umbrage (noun) — Offense or resentment taken at a perceived slight.
+      ✓ offense
+        foolery
+        oracle
+        escapade
+
+  [sat/fiendish] penumbra (noun) — The region of partial shadow between full light and full darkness.
+      ✓ half-shadow
+        forgiveness
+        expectation
+        facade
+
+  [sat/fiendish] prospect (noun) — The likelihood or expectation that something will happen in the future.
+        epitome
+        supporter
+        substitute
+      ✓ likelihood
+
+  [sat/fiendish] compunction (noun) — A slight feeling of guilt or moral hesitation about an action.
+        nepotism
+      ✓ scruple
+        discord
+        coterie
+
+  [sat/fiendish] distend (verb) — To swell or stretch outward, usually from internal pressure.
+      ✓ bloat
+        scatter
+        rule
+        deceive
+
+  [sat/fiendish] bondage (noun) — The condition of being enslaved or held under another person's total control.
+        safeguard
+        stronghold
+      ✓ slavery
+        banter
+
+  [sat/fiendish] grimace (verb) — To twist the face to show pain, disgust, or disapproval.
+      ✓ wince
+        sprout
+        drift
+        gather
+
+  [sat/fiendish] sectarian (adjective) — Rigidly loyal to one group or faction, often causing bitter division.
+        autonomous
+        expansive
+      ✓ factional
+        inferior
+
+  [sat/fiendish] vivacious (adjective) — Attractively lively, animated, and full of spirit.
+        exposed
+        loud
+      ✓ lively
+        syrupy
+
+  [sat/fiendish] incongruity (noun) — A quality of being out of place or clashing with what surrounds it.
+        weakness
+        query
+        expression
+      ✓ mismatch
+
+  [sat/fiendish] aghast (adjective) — Filled with sudden shock and horror.
+        promising
+      ✓ horrified
+        answerable
+        farmable
+
+  [sat/fiendish] tome (noun) — A large, heavy, and often scholarly book.
+        bondage
+        march
+      ✓ volume
+        ground
+
+  [sat/fiendish] canny (adjective) — Shrewd, careful, and clever, especially in business or practical matters.
+        forged
+      ✓ shrewd
+        carping
+        sociable
+
+  [sat/fiendish] spurn (verb) — To reject someone or something with scorn or contempt.
+        glower
+        pioneer
+        shield
+      ✓ reject
+
+  [sat/fiendish] mingle (verb) — To mix together or socialize with many different people.
+        maneuver
+        gag
+      ✓ mix
+        misinform

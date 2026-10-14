@@ -15,16 +15,18 @@ import { useSettingsStore } from "@/store/useSettingsStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useVocabStore } from "@/store/useVocabStore";
 import { useAppStore } from "@/store/useAppStore";
+import { canScheduleNotifications, canVibrate } from "@/lib/platform";
 import {
   notificationPermission,
   requestNotificationPermission,
-} from "@/hooks/useStudyReminder";
+} from "@/lib/notification-permission";
 import {
   markdownFilename,
   progressToMarkdown,
 } from "@/lib/markdown-export";
 import { ThemePicker } from "@/components/ThemePicker";
 import { ScheduleSettings } from "@/components/ScheduleSettings";
+import { lastScheduleOutcome } from "@/lib/reminder-schedule";
 import { SpeechSettings } from "@/components/SpeechSettings";
 import { WORD_ORDERS } from "@/lib/order";
 import { playSound } from "@/lib/sound";
@@ -59,6 +61,16 @@ export function Settings() {
   const [ankiDeckName, setAnkiDeckName] = useState("Lexicon");
   const [ankiGrouping, setAnkiGrouping] = useState<"month" | "single">("month");
   const [permission, setPermission] = useState(notificationPermission());
+  // Polled rather than pushed: the schedule attempt happens in a hook this
+  // page does not own, and a second later is soon enough to report it.
+  const [scheduleOutcome, setScheduleOutcome] = useState(lastScheduleOutcome);
+  useEffect(() => {
+    const id = window.setInterval(
+      () => setScheduleOutcome(lastScheduleOutcome()),
+      1000,
+    );
+    return () => window.clearInterval(id);
+  }, []);
   const [clis, setClis] = useState<DetectedCli[]>([]);
 
   // Presence on PATH only — nothing is executed to find this out.
@@ -88,11 +100,17 @@ export function Settings() {
         title:
           result === "unsupported"
             ? "Notifications unavailable here"
-            : "Notification permission denied",
+            : result === "default"
+              ? "No answer to the permission request"
+              : "Notification permission denied",
         description:
           result === "unsupported"
             ? "This runtime has no Notification API. Desktop builds need tauri-plugin-notification."
-            : "Allow notifications for this site, then switch reminders back on.",
+            : result === "default"
+              ? "The request was never answered. Try switching this on again."
+              : canScheduleNotifications()
+                ? "Allow notifications for Lexicon in your system settings, then switch reminders back on."
+                : "Allow notifications for this site, then switch reminders back on.",
         variant: "error",
       });
       return;
@@ -316,6 +334,29 @@ export function Settings() {
       </SettingSection>
 
       <SettingSection
+        title="On a word card"
+        description="What a card shows once it is revealed. The definition, example and memory tip are always there."
+      >
+        <label className="flex items-start gap-2.5 text-sm cursor-pointer">
+          <input
+            type="checkbox"
+            checked={settings.showWordRelations}
+            onChange={(e) =>
+              settings.set({ showWordRelations: e.target.checked })
+            }
+            className="accent-accent mt-0.5"
+          />
+          <span>
+            Synonyms and antonyms
+            <span className="block text-[11px] text-muted-foreground leading-relaxed mt-0.5">
+              Shown on flashcards, daily practice and word details. Turn off for
+              a plainer card when you are drilling recall.
+            </span>
+          </span>
+        </label>
+      </SettingSection>
+
+      <SettingSection
         title="AI provider"
         description="Lexicon uses whichever AI costs you least — on-device first, then a local server or an installed tool, and only then a key you supplied."
       >
@@ -423,7 +464,7 @@ export function Settings() {
 
       <SettingSection
         title="Sound"
-        description="A short click when a card flips, and a chime when a session ends. Off by default."
+        description="A short click when a card flips, a chime when a session ends, and — on a phone that can — a small buzz for right and wrong answers in games. Off by default."
       >
         <div className="space-y-3">
           <label className="flex items-center gap-2 text-sm cursor-pointer">
@@ -437,7 +478,7 @@ export function Settings() {
               }}
               className="accent-accent"
             />
-            Interface sounds
+            Interface sounds{canVibrate() ? " and vibration" : ""}
           </label>
           <Button
             variant="outline"
@@ -497,7 +538,11 @@ export function Settings() {
 
       <SettingSection
         title="Study reminders"
-        description="An optional daily nudge. It only fires while Lexicon is open — a reminder that reaches you with the app closed needs desktop notification support, which is not wired up yet."
+        description={
+          canScheduleNotifications()
+            ? "An optional daily nudge, handed to the operating system so it arrives whether or not Lexicon is open."
+            : "An optional daily nudge. In a browser it only fires while this tab is open; the installed app hands it to the operating system instead."
+        }
       >
         <div className="space-y-3">
           <label className="flex items-center gap-2 text-sm cursor-pointer">
@@ -534,11 +579,31 @@ export function Settings() {
             {permission === "unsupported"
               ? "This runtime has no Notification API, so reminders cannot be enabled."
               : permission === "denied"
-                ? "Notifications are blocked for this site. Allow them in your browser settings first."
+                ? canScheduleNotifications()
+                  ? "Notifications are turned off for Lexicon. Allow them in your system settings first."
+                  : "Notifications are blocked for this site. Allow them in your browser settings first."
                 : permission === "granted"
-                  ? "Notifications allowed. The nudge fires once a day, at or after the time above."
+                  ? canScheduleNotifications()
+                    ? "Notifications allowed. The nudge arrives once a day, at or shortly after the time above — the system is allowed to hold it back a little to save battery."
+                    : "Notifications allowed. The nudge fires once a day at the time above."
                   : "You will be asked for notification permission when you switch this on."}
           </p>
+          {/* What the OS actually did with the request. Without this a reminder
+              that failed to schedule looks exactly like one that scheduled and
+              has not fired yet — which is the worst failure this feature has. */}
+          {settings.studyReminderEnabled && scheduleOutcome && (
+            <p
+              className={cn(
+                "text-[11px] mt-1.5 leading-relaxed",
+                scheduleOutcome.ok ? "text-muted-foreground" : "text-destructive",
+              )}
+              role="status"
+            >
+              {scheduleOutcome.ok
+                ? `Handed to the system. Next: ${scheduleOutcome.at.toLocaleString(undefined, { weekday: "long", hour: "numeric", minute: "2-digit" })} or shortly after, then daily. It will arrive whether or not Lexicon is open.`
+                : `Could not schedule with the system: ${scheduleOutcome.reason}. The reminder will only fire while Lexicon is open.`}
+            </p>
+          )}
         </div>
       </SettingSection>
 
@@ -670,8 +735,10 @@ export function Settings() {
         </div>
       </SettingSection>
 
+      {/* From package.json via Vite's `define`, like the About dialog. Written
+          out by hand it read v0.1.0 for three releases. */}
       <div className="text-center text-[11px] text-muted-foreground py-6">
-        Lexicon v0.1.0
+        Lexicon v{__APP_VERSION__}
       </div>
     </div>
   );

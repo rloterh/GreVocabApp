@@ -94,3 +94,17 @@ export function hasSystemBack(): boolean {
 export function canUseFileSystem(): boolean {
   return isTauri();
 }
+
+/**
+ * Can this device give a small buzz?
+ *
+ * Asks for the API, never for a platform: Android Chrome has it, iOS Safari
+ * does not, and an Android WebView has it only with the VIBRATE permission.
+ * Limited to a touch screen, because a desktop browser that exposes the API
+ * has no motor to drive.
+ */
+export function canVibrate(): boolean {
+  if (typeof navigator === "undefined" || typeof navigator.vibrate !== "function") return false;
+  if (typeof window === "undefined" || typeof window.matchMedia !== "function") return false;
+  return window.matchMedia("(pointer: coarse)").matches;
+}

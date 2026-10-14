@@ -26,9 +26,9 @@ import { Button } from "@/components/ui/button";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import {
   ScheduleSetup,
-  useApplySchedule,
   type ScheduleChoice,
 } from "@/components/ScheduleSetup";
+import { useApplySchedule } from "@/hooks/useApplySchedule";
 import { calendarMonthOfDate } from "@/lib/schedule";
 import { cn } from "@/lib/utils";
 

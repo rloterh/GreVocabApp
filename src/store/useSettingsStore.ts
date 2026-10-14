@@ -29,14 +29,18 @@ const DEFAULT_SETTINGS: PersistedSettings = {
   lastReminderDate: null,
   watchedFolder: null,
   hasOnboarded: false,
+  seededTracks: [],
   soundEnabled: false,
   speechVoice: null,
   speechRate: 0.9,
   // Off: a card that starts talking the moment it is flipped is startling in
   // a library and in a shared room, and the speaker button is right there.
   autoPronounce: false,
+  showWordRelations: true,
   enabledAiTools: [],
   pinnedProvider: null,
+  gameTimer: "standard",
+  lastGameTier: {},
 };
 
 export const useSettingsStore = create<SettingsStore>()(

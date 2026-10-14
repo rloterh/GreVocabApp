@@ -21,7 +21,7 @@ import { CheckCircle2, GraduationCap, RotateCcw, XCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { EmptyState } from "@/components/EmptyState";
-import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { allWordsInMonth } from "@/lib/vocabulary";
@@ -42,8 +42,7 @@ import { cn } from "@/lib/utils";
 import { keyOf } from "@/lib/track";
 
 export function ExamPage() {
-  const months = useVocabStore((s) => s.months);
-  const getAllMonths = useVocabStore((s) => s.getAllMonths);
+  const allMonths = useAllMonths();
   const wordsProgress = useProgressStore((s) => s.words);
   const activeExam = useProgressStore((s) => s.activeExam);
   const saveExam = useProgressStore((s) => s.saveExam);
@@ -59,16 +58,16 @@ export function ExamPage() {
   // The open track only. Pooling both would put SAT words in a GRE exam and
   // quietly change what the score means. See docs/adr/0011-tracks.md.
   const allWords = useMemo(
-    () => getAllMonths().flatMap((m) => allWordsInMonth(m)),
-    [getAllMonths, months],
+    () => allMonths.flatMap((m) => allWordsInMonth(m)),
+    [allMonths],
   );
   const monthOf = useMemo(() => {
     const map: Record<string, string> = {};
-    for (const month of getAllMonths()) {
+    for (const month of allMonths) {
       for (const word of allWordsInMonth(month)) map[word.id] = keyOf(month);
     }
     return map;
-  }, [getAllMonths, months]);
+  }, [allMonths]);
 
   // Only resume something structurally sound: storage holds whatever an older
   // version wrote, and the failure mode for trusting it is a crash on launch.

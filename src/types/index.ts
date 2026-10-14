@@ -1,4 +1,5 @@
 import type { WordOrder } from "@/lib/order";
+import type { GameId, GameTimer, Tier } from "@/lib/games/types";
 
 /**
  * Which exam's vocabulary a piece of content belongs to.
@@ -177,6 +178,8 @@ export interface DayActivity {
   quizzesTaken: number;
   sentencesWritten: number;
   studySessions?: number;
+  /** Game rounds finished that day. Optional: older records have none. */
+  gamesPlayed?: number;
 }
 
 /** How the user rated their recall on a flashcard */
@@ -272,6 +275,18 @@ export interface Settings {
   watchedFolder: string | null;
   /** Set once the first-run walkthrough has been seen or skipped. */
   hasOnboarded: boolean;
+  /**
+   * Tracks whose starter months have already been seeded.
+   *
+   * Per track, not one global flag, because seeding used to key off "the store
+   * is completely empty" — which meant SAT was never seeded for anybody, and
+   * could never be seeded for an existing user, since their GRE months made
+   * the store non-empty forever.
+   *
+   * Recorded so that unloading a track's months is respected. Without it,
+   * every launch would put back what the user had just removed.
+   */
+  seededTracks: Track[];
   /** Opt-in interface sounds. */
   soundEnabled: boolean;
   /**
@@ -287,6 +302,14 @@ export interface Settings {
   /** Say the word aloud when a flashcard is revealed. Off by default. */
   autoPronounce: boolean;
   /**
+   * Show synonyms and antonyms wherever a word is read. On by default.
+   *
+   * The corpus has carried these all along; only one screen showed them. On,
+   * because content that exists and helps should not need discovering — and a
+   * setting, because someone drilling recall wants less on the card, not more.
+   */
+  showWordRelations: boolean;
+  /**
    * Ids of installed AI CLIs the user has explicitly enabled. Detection alone
    * never grants permission — running one spends their subscription quota.
    */
@@ -297,6 +320,14 @@ export interface Settings {
    * asked for it, and a wrong probe should not override an instruction.
    */
   pinnedProvider: string | null;
+  /**
+   * The games' per-question timer. "relaxed" doubles every limit; "off"
+   * removes it and scores a flat rate. Bests are kept per timing, so the
+   * choice never makes an old best unreachable. See docs/GAMES.md §6.4.
+   */
+  gameTimer: GameTimer;
+  /** The tier each game was last started on, so the hub can offer it again. */
+  lastGameTier: Partial<Record<GameId, Tier>>;
 }
 
 /**

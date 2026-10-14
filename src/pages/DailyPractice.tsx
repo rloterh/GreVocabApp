@@ -53,6 +53,18 @@ export function DailyPractice() {
     }
   }, [month, selectedDay, setSelectedDay]);
 
+  // Keep the selected day in view in the rail. Arriving on day 25 of 30 with
+  // the list scrolled to the top means hunting for where you are, and the day
+  // can change from the arrows or the calendar as well as from the rail.
+  //
+  // Above the early return, not beside the rail it serves: hooks after a
+  // conditional return change the hook count between renders, and loading a
+  // month while the empty state is showing is exactly that transition.
+  const currentDayRef = useRef<HTMLButtonElement | null>(null);
+  useEffect(() => {
+    currentDayRef.current?.scrollIntoView({ block: "nearest" });
+  }, [selectedDay, month?.ordinal]);
+
   if (!month) {
     return (
       <div className="w-full max-w-3xl mx-auto py-12">
@@ -79,13 +91,6 @@ export function DailyPractice() {
   };
   const dayIdx = month.days.findIndex((d) => d.day === selectedDay);
 
-  // Keep the selected day in view in the rail. Arriving on day 25 of 30 with
-  // the list scrolled to the top means hunting for where you are, and the day
-  // can change from the arrows or the calendar as well as from the rail.
-  const currentDayRef = useRef<HTMLButtonElement | null>(null);
-  useEffect(() => {
-    currentDayRef.current?.scrollIntoView({ block: "nearest" });
-  }, [selectedDay, month.ordinal]);
   const totalMastered = day?.words.filter((w) => isMastered(w.id)).length ?? 0;
   const totalWords = day?.words.length ?? 0;
   const dayPct = totalWords > 0 ? (totalMastered / totalWords) * 100 : 0;

@@ -1,0 +1,1203 @@
+Lexicon games — Opposites, a sample for a reader (seed 5)
+The ✓ option should be the opposite. A planted trap is a synonym and is meant to be wrong. Mark DEFENSIBLE if a wrong option is arguably an opposite too, WRONG KEY if ✓ is not a fair antonym.
+Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
+
+  [gre/warmup] draconian (adjective) — Extremely harsh, cruel, or severe, especially regarding rules or punishment.
+        two-faced
+        dissimilar
+        self-conscious
+      ✓ lenient
+
+  [gre/warmup] gluttonous (adjective) — Given to eating and drinking far more than the body needs.
+        voluble
+        slick
+        relevant
+      ✓ temperate
+
+  [gre/warmup] blatant (adjective) — Completely obvious and done without any shame or attempt to hide.
+      ✓ subtle
+        abrupt
+        phony
+        aggressive
+
+  [gre/warmup] repress (verb) — To hold back a feeling or urge, refusing to let it surface.
+        revive
+      ✓ express
+        disprove
+        scold
+
+  [gre/warmup] surmise (verb) — To conclude or guess something from very little evidence.
+        seclude
+        mock
+      ✓ know
+        mope
+
+  [gre/warmup] ample (adjective) — More than enough for what is needed.
+        prevailing
+      ✓ meager
+        good-natured
+        impassioned
+
+  [gre/warmup] Ascetic (adjective) — Practicing severe self-discipline and abstention from indulgence.
+        naive
+        shrewd
+        unclear
+      ✓ indulgent
+
+  [gre/warmup] inert (adjective) — Lacking the power to move or act; sluggish or chemically unreactive.
+        inferred
+        embryonic
+        undeniable
+      ✓ active
+
+  [gre/warmup] discreet (adjective) — Careful and tactful in what you say or do, so as to avoid attracting notice.
+        oppressive
+        suspect
+      ✓ indiscreet
+        persistent
+
+  [gre/warmup] taunt (verb) — To provoke or upset someone with insulting, mocking remarks.
+        constrict
+        frustrate
+        alter
+      ✓ praise
+
+  [gre/warmup] adamant (adjective) — Refusing absolutely to change a decision or opinion, no matter the pressure.
+      ✓ yielding
+        eloquent
+        nimble
+        genial
+
+  [gre/warmup] croon (verb) — To sing or hum softly and soothingly.
+        rebuke
+        deny
+        restrict
+      ✓ bellow
+
+  [gre/warmup] Inimical (adjective) — Tending to obstruct or harm; hostile.
+        cheeky
+      ✓ friendly
+        thorny
+        beginning
+
+  [gre/warmup] ruthless (adjective) — Willing to hurt others or do harm to get what you want, without pity.
+      ✓ merciful
+        blameworthy
+        stocked
+        rampant
+
+  [gre/warmup] equivocate (verb) — To speak vaguely on purpose so as to avoid committing or telling the truth.
+      ✓ specify
+        swell
+        praise
+        judge
+
+  [gre/warmup] atrophy (verb) — To waste away or weaken, especially from lack of use or nourishment.
+        arbitrate
+      ✓ grow
+        redeem
+        forsake
+
+  [gre/warmup] enigmatic (adjective) — Difficult to interpret or understand; mysteriously puzzling.
+        abstruse
+        vivacious
+        knowledgeable
+      ✓ clear
+
+  [gre/warmup] Mendacious (adjective) — Not truthful; habitually lying.
+        scanty
+        antisocial
+      ✓ honest
+        changeable
+
+  [gre/warmup] deride (verb) — To mock or express contempt for someone, treating them as laughably worthless.
+        force
+        degrade
+        intone
+      ✓ praise
+
+  [gre/warmup] bellow (verb) — To shout in a deep, loud, powerful voice.
+        check
+        overflow
+      ✓ whisper
+        swindle
+
+  [gre/warmup] engorge (verb) — To swell or fill up with fluid, often to bursting.
+      ✓ shrink
+        appraise
+        settle
+        acquit
+
+  [gre/warmup] sate (verb) — To fill someone completely with food or pleasure until no more is wanted.
+        prove
+        cheat
+        falter
+      ✓ starve
+
+  [gre/warmup] revitalize (verb) — To bring new strength, activity, or vigor to something that has weakened.
+        refresh
+        welsh
+        mull
+      ✓ deaden
+
+  [gre/warmup] pliable (adjective) — Flexible enough to bend with ease, or readily persuaded to change.
+        apposite
+        limpid
+        insightful
+      ✓ brittle
+
+  [gre/warmup] biddable (adjective) — Easily managed and willing to do whatever one is asked.
+        abundant
+        hostile
+        fake
+      ✓ headstrong
+
+  [gre/standard] totter (verb) — To walk or stand shakily, as if weak or about to collapse.
+        wobble   (planted trap: a synonym)
+      ✓ stride
+        speculate
+        cover
+
+  [gre/standard] confer (verb) — To grant an honor, right, or benefit to someone.
+        agitate
+        bestow   (planted trap: a synonym)
+      ✓ withhold
+        fine-tune
+
+  [gre/standard] bewilder (verb) — To confuse someone so thoroughly they cannot think clearly.
+        will
+      ✓ orient
+        bloom
+        confuse   (planted trap: a synonym)
+
+  [gre/standard] graphic (adjective) — Giving a clear, detailed picture, often strikingly explicit.
+        explicit   (planted trap: a synonym)
+        golden
+      ✓ vague
+        skeletal
+
+  [gre/standard] lush (adjective) — Growing thick, green, and healthy, or richly abundant and pleasing.
+        convoluted
+        sluggish
+        verdant   (planted trap: a synonym)
+      ✓ barren
+
+  [gre/standard] embolden (verb) — To give someone the confidence or courage to act.
+      ✓ discourage
+        provoke
+        encourage   (planted trap: a synonym)
+        implore
+
+  [gre/standard] converge (verb) — To move toward and meet at a single point from different directions.
+        elucidate
+        meet   (planted trap: a synonym)
+      ✓ diverge
+        grasp
+
+  [gre/standard] haphazard (adjective) — Done without plan or organization, determined by chance rather than care.
+      ✓ systematic
+        drawn
+        random   (planted trap: a synonym)
+        gallant
+
+  [gre/standard] daring (adjective) — Ready to do bold or risky things without hesitation.
+        rebellious
+        bold   (planted trap: a synonym)
+        discordant
+      ✓ timid
+
+  [gre/standard] allusive (adjective) — Full of indirect or hinted references to other things rather than plain statements.
+      ✓ explicit
+        cordial
+        uneasy
+        suggestive   (planted trap: a synonym)
+
+  [gre/standard] irresolute (adjective) — Unable to settle on a course of action; wavering and unsure.
+        vague
+        wavering   (planted trap: a synonym)
+      ✓ determined
+        broke
+
+  [gre/standard] enlighten (verb) — To give someone greater knowledge or understanding about a situation or subject.
+        inform   (planted trap: a synonym)
+      ✓ confuse
+        hasten
+        direct
+
+  [gre/standard] lope (verb) — To run with a long, relaxed, easy stride.
+      ✓ sprint
+        tarry
+        depict
+        bound   (planted trap: a synonym)
+
+  [gre/standard] reconstitute (verb) — To restore something to its original state, often by adding water to a dried form.
+      ✓ dehydrate
+        refresh
+        wander
+        reconstruct   (planted trap: a synonym)
+
+  [gre/standard] formative (adjective) — Having a deep and lasting influence on someone's character or growth during early stages.
+        antiquated
+        imprudent
+      ✓ insignificant
+        developmental   (planted trap: a synonym)
+
+  [gre/standard] thrifty (adjective) — Managing money and resources carefully to avoid waste.
+        stormy
+        frugal   (planted trap: a synonym)
+        frosted
+      ✓ wasteful
+
+  [gre/standard] nettle (verb) — To irritate or provoke someone into feeling annoyed.
+        cultivate
+        irritate   (planted trap: a synonym)
+        cancel
+      ✓ soothe
+
+  [gre/standard] inscrutable (adjective) — Impossible to read, understand, or interpret.
+        temporary
+        enigmatic   (planted trap: a synonym)
+      ✓ transparent
+        breezy
+
+  [gre/standard] petrify (verb) — To make someone so frightened that they cannot move.
+        herald
+        paralyze   (planted trap: a synonym)
+      ✓ reassure
+        rot
+
+  [gre/standard] disperse (verb) — To spread people or things over a wide area.
+        rot
+        shoot
+        scatter   (planted trap: a synonym)
+      ✓ gather
+
+  [gre/standard] abridge (verb) — To shorten a piece of writing while keeping its main substance.
+      ✓ expand
+        horrify
+        comment
+        shorten   (planted trap: a synonym)
+
+  [gre/standard] extinct (adjective) — Having died out completely, with no living members left anywhere.
+      ✓ extant
+        vanished   (planted trap: a synonym)
+        resentful
+        dulcet
+
+  [gre/standard] opportune (adjective) — Happening at a favorable or especially suitable moment.
+        timely   (planted trap: a synonym)
+      ✓ inopportune
+        embellished
+        all-wise
+
+  [gre/standard] mulct (verb) — To penalize someone by taking money, or to cheat a person out of funds through deception.
+        fine   (planted trap: a synonym)
+        marshal
+      ✓ reimburse
+        dock
+
+  [gre/standard] aghast (adjective) — Struck with sudden strong fear or shock at something dreadful.
+      ✓ unfazed
+        well-off
+        horrified   (planted trap: a synonym)
+        lawless
+
+  [gre/hard] spectral (adjective) — Ghostly; resembling a faint, eerie, barely-there apparition.
+        ghostly   (planted trap: a synonym)
+        furtive
+      ✓ solid
+        mirror-like
+
+  [gre/hard] unaffected (adjective) — Behaving in a natural, sincere way without pretense or show.
+        genuine
+        natural   (planted trap: a synonym)
+      ✓ pretentious
+        polished
+
+  [gre/hard] delirious (adjective) — Suffering confused, incoherent thinking, often from fever; also wildly and joyfully excited.
+        broadleaf
+      ✓ lucid
+        unhinged
+        raving   (planted trap: a synonym)
+
+  [gre/hard] operose (adjective) — Involving or requiring a great deal of tedious effort and hard work.
+        arrogant
+        laborious   (planted trap: a synonym)
+      ✓ effortless
+        menacing
+
+  [gre/hard] bibulous (adjective) — Very fond of drinking too much alcohol.
+      ✓ sober
+        sinister
+        orgiastic
+        drunken   (planted trap: a synonym)
+
+  [gre/hard] distrait (adjective) — Absent-minded and inattentive, usually because of worry or anxiety.
+      ✓ attentive
+        debauched
+        preoccupied   (planted trap: a synonym)
+        insane
+
+  [gre/hard] rabid (adjective) — Having extreme, fanatical, or uncontrolled feelings or enthusiasm.
+        contrite
+        fanatical   (planted trap: a synonym)
+      ✓ moderate
+        radiant
+
+  [gre/hard] concoct (verb) — To invent or prepare something by mixing parts, often a story or a drink.
+        memorialize
+      ✓ dismantle
+        connect
+        devise   (planted trap: a synonym)
+
+  [gre/hard] ostensibly (adverb) — According to what is stated or appears true, though perhaps not really so.
+        apparently   (planted trap: a synonym)
+      ✓ genuinely
+        exclusion
+        overdo
+
+  [gre/hard] agrarian (adjective) — Relating to farming, cultivated land, or a rural landowning society.
+        ancient
+        agricultural   (planted trap: a synonym)
+        grueling
+      ✓ urban
+
+  [gre/hard] founder (verb) — To fill with water and sink, or to fail completely and collapse.
+      ✓ float
+        sink   (planted trap: a synonym)
+        preordain
+        convene
+
+  [gre/hard] illegitimate (adjective) — Not authorized by law or accepted rules; lacking proper authority or a valid basis.
+        probabilistic
+      ✓ lawful
+        unauthorized   (planted trap: a synonym)
+        unreliable
+
+  [gre/hard] licentious (adjective) — Lacking moral or sexual restraint and ignoring accepted rules.
+        shocking
+        lecherous   (planted trap: a synonym)
+        shoreline
+      ✓ chaste
+
+  [gre/hard] befall (verb) — To happen to someone, usually referring to an unfortunate event.
+        betide   (planted trap: a synonym)
+        dupe
+        rant
+      ✓ avoid
+
+  [gre/hard] relegate (verb) — To move someone or something to a lower, less important rank or place.
+        recover
+        demote   (planted trap: a synonym)
+        return
+      ✓ promote
+
+  [gre/hard] imbue (verb) — To fill or inspire someone deeply with a feeling, quality, or value.
+        intercept
+      ✓ drain
+        imprison
+        instill   (planted trap: a synonym)
+
+  [gre/hard] ceremonious (adjective) — Marked by exaggerated formality and elaborate politeness in behavior.
+        formal   (planted trap: a synonym)
+        needle-leaved
+      ✓ casual
+        unmarried
+
+  [gre/hard] excise (verb) — To cut out or remove a part, especially surgically or from a piece of writing.
+        eradicate
+      ✓ insert
+        imprint
+        delete   (planted trap: a synonym)
+
+  [gre/hard] cosmopolitan (adjective) — Familiar with and at ease among many countries and cultures; worldly.
+      ✓ provincial
+        worldly   (planted trap: a synonym)
+        stout
+        priestly
+
+  [gre/hard] maunder (verb) — To talk or move in a rambling, aimless way without any clear purpose.
+        socialize
+        drudge
+      ✓ focus
+        ramble   (planted trap: a synonym)
+
+  [gre/hard] glower (verb) — To stare with sullen annoyance or barely contained anger.
+        scowl   (planted trap: a synonym)
+        join
+      ✓ smile
+        swig
+
+  [gre/hard] unmindful (adjective) — Not paying attention to or caring about something important.
+      ✓ attentive
+        heedless   (planted trap: a synonym)
+        tireless
+        ceaseless
+
+  [gre/hard] axiomatic (adjective) — Regarded as obviously true and needing no proof.
+        self-evident   (planted trap: a synonym)
+        wily
+        agricultural
+      ✓ dubious
+
+  [gre/hard] venial (adjective) — Describing a minor fault that is easily excused or forgiven.
+        accurate
+        devotional
+        forgivable   (planted trap: a synonym)
+      ✓ mortal
+
+  [gre/hard] graft (verb) — To join a shoot or bud from one plant onto another so they grow together as one.
+        gad
+      ✓ sever
+        sparkle
+        splice   (planted trap: a synonym)
+
+  [gre/fiendish] prismatic (adjective) — Showing bright, varied colors like sunlight split into a rainbow through glass.
+        ominous
+        iridescent   (planted trap: a synonym)
+      ✓ monochrome
+        predictive
+
+  [gre/fiendish] hallow (verb) — To honor as holy or set apart for religious reverence.
+        sanctify   (planted trap: a synonym)
+        mingle
+      ✓ desecrate
+        circulate
+
+  [gre/fiendish] slacken (verb) — To reduce in speed, tension, or intensity.
+        ease   (planted trap: a synonym)
+        glitter
+        watch
+      ✓ tighten
+
+  [gre/fiendish] lackadaisical (adjective) — Showing no enthusiasm, effort, or determination; carelessly casual.
+        regrettable
+      ✓ energetic
+        gruesome
+        listless   (planted trap: a synonym)
+
+  [gre/fiendish] clubbable (adjective) — Naturally sociable and pleasant enough to fit easily into any social group.
+        secluded
+      ✓ unsociable
+        sociable   (planted trap: a synonym)
+        authoritative
+
+  [gre/fiendish] veridical (adjective) — Coinciding with fact; genuinely truthful and accurate.
+        transparent
+        truthful   (planted trap: a synonym)
+        nocturnal
+      ✓ false
+
+  [gre/fiendish] obliterate (verb) — To destroy utterly or wipe out every trace of something.
+        annihilate   (planted trap: a synonym)
+      ✓ create
+        overdo
+        befog
+
+  [gre/fiendish] baroque (adjective) — Highly elaborate, dramatic, and extravagant in style or detail.
+        insular
+        infatuated
+        ornate   (planted trap: a synonym)
+      ✓ plain
+
+  [gre/fiendish] irradiate (verb) — To expose something to light, heat, or energy rays, often to brighten or sterilize it.
+        permeate
+      ✓ darken
+        illuminate   (planted trap: a synonym)
+        sacrifice
+
+  [gre/fiendish] hobnob (verb) — To mix socially, especially with those of higher rank or wealth.
+        sanctify
+      ✓ avoid
+        mingle   (planted trap: a synonym)
+        consecrate
+
+  [gre/fiendish] conscientious (adjective) — Careful, thorough, and guided by a strong sense of duty in one's work.
+        stately
+        gleaming
+      ✓ careless
+        diligent   (planted trap: a synonym)
+
+  [gre/fiendish] lamentable (adjective) — Deserving sorrow or regret; unfortunate and disappointing.
+      ✓ admirable
+        arduous
+        regrettable   (planted trap: a synonym)
+        contentious
+
+  [gre/fiendish] leer (verb) — To look at someone with a sly, malicious, or lustful sideways expression.
+      ✓ avert
+        ogle   (planted trap: a synonym)
+        bask
+        prosecute
+
+  [gre/fiendish] profane (adjective) — Showing contempt for what is holy, or belonging to the everyday rather than the religious realm.
+        ominous
+      ✓ sacred
+        secular   (planted trap: a synonym)
+        sweeping
+
+  [gre/fiendish] succulent (adjective) — Describing a plant with thick, fleshy parts that store water for dry spells.
+        lucky
+      ✓ desiccated
+        lethargic
+        fleshy   (planted trap: a synonym)
+
+  [gre/fiendish] nonplus (verb) — To leave someone so surprised or confused that they cannot think how to react.
+      ✓ enlighten
+        summon
+        wink
+        bewilder   (planted trap: a synonym)
+
+  [gre/fiendish] malefactor (noun) — A person who commits a crime or does evil to others.
+      ✓ benefactor
+        mishap
+        criminal   (planted trap: a synonym)
+        theme
+
+  [gre/fiendish] shimmer (verb) — To shine with a soft, wavering, unsteady light.
+      ✓ dull
+        glimmer   (planted trap: a synonym)
+        discard
+        rebuff
+
+  [gre/fiendish] bleary (adjective) — Dull, watery, and unable to focus, usually from tiredness or crying.
+        orgiastic
+      ✓ clear
+        blurry   (planted trap: a synonym)
+        northern
+
+  [gre/fiendish] convene (verb) — To gather people together formally for a meeting or assembly.
+        fraternize
+      ✓ adjourn
+        assemble   (planted trap: a synonym)
+        converse
+
+  [gre/fiendish] agrarian (adjective) — Relating to farming, cultivated land, or a rural landowning society.
+      ✓ urban
+        certain
+        artistic
+        agricultural   (planted trap: a synonym)
+
+  [gre/fiendish] theatrical (adjective) — Exaggerated and showy, as if performing on a stage.
+        arduous
+        dramatic   (planted trap: a synonym)
+        gloomy
+      ✓ understated
+
+  [gre/fiendish] misanthrope (noun) — A person who dislikes and distrusts other people in general.
+      ✓ philanthropist
+        bearing
+        cynic   (planted trap: a synonym)
+        misfortune
+
+  [gre/fiendish] purloin (verb) — To steal something, usually in a sneaky or underhanded way.
+        lop
+        convert
+        steal   (planted trap: a synonym)
+      ✓ return
+
+  [gre/fiendish] slough (verb) — To shed or cast off an outer layer, such as dead skin.
+        withdraw
+        loosen
+        shed   (planted trap: a synonym)
+      ✓ retain
+
+  [sat/warmup] prodigal (adjective) — Spending money or resources freely and wastefully, with no care for the future.
+        sectarian
+      ✓ frugal
+        calming
+        conspicuous
+
+  [sat/warmup] perspicacious (adjective) — Having keen mental sharpness and a quick grasp of situations.
+      ✓ obtuse
+        supreme
+        unceasing
+        everlasting
+
+  [sat/warmup] leery (adjective) — Cautious or suspicious because of possible danger or trouble.
+      ✓ trusting
+        readable
+        complimentary
+        transparent
+
+  [sat/warmup] infer (verb) — To work out something from clues instead of being told directly.
+        exemplify
+        hinder
+        prompt
+      ✓ state
+
+  [sat/warmup] wayward (adjective) — Turning away from what is expected or proper; willful and hard to guide.
+        sardonic
+        cunning
+        guarded
+      ✓ obedient
+
+  [sat/warmup] partisan (adjective) — Strongly favoring one party, cause, or group over all others.
+        everlasting
+      ✓ nonpartisan
+        absorbed
+        tranquil
+
+  [sat/warmup] straightforward (adjective) — Easy to understand or do; simple and direct.
+        excessive
+        striking
+      ✓ complicated
+        complacent
+
+  [sat/warmup] beget (verb) — To bring into existence, to cause, or to father a child.
+        flourish
+        surround
+        smudge
+      ✓ prevent
+
+  [sat/warmup] elusive (adjective) — Hard to find, catch, capture, or clearly understand.
+        vain
+        identical
+      ✓ obvious
+        factual
+
+  [sat/warmup] adversity (noun) — A state of serious or continued difficulty and misfortune.
+        endorsement
+        approval
+      ✓ prosperity
+        doubter
+
+  [sat/warmup] plethora (noun) — An overly large amount of something; an excess.
+        assumption
+      ✓ dearth
+        predecessor
+        maxim
+
+  [sat/warmup] liberate (verb) — To set a person or group free from captivity, oppression, or control.
+        celebrate
+      ✓ imprison
+        calumny
+        commend
+
+  [sat/warmup] pompous (adjective) — Showing an inflated sense of self-importance through grand words or manner.
+        conspicuous
+      ✓ humble
+        calming
+        treacherous
+
+  [sat/warmup] evolve (verb) — To develop gradually into a different or better state.
+      ✓ stagnate
+        praise
+        magnify
+        respect
+
+  [sat/warmup] magnify (verb) — To make an object appear larger, or to increase the degree of something.
+      ✓ diminish
+        develop
+        assert
+        ridicule
+
+  [sat/warmup] compel (verb) — To force someone into an action through pressure or authority.
+        associate
+      ✓ deter
+        reproach
+        align
+
+  [sat/warmup] judicious (adjective) — Showing good sense and careful thought in making decisions.
+        cheerful
+      ✓ rash
+        weary
+        chipper
+
+  [sat/warmup] enable (verb) — To give someone the means or opportunity to do something.
+        evoke
+      ✓ prevent
+        produce
+        implicate
+
+  [sat/warmup] debunk (verb) — To show that a belief or claim is false or exaggerated.
+        slander
+      ✓ prove
+        decrease
+        belittle
+
+  [sat/warmup] crystallize (verb) — To become clear, definite, and settled in form or thought.
+      ✓ blur
+        assert
+        persuade
+        conclude
+
+  [sat/warmup] smug (adjective) — Excessively pleased with oneself in a way that irritates others.
+      ✓ humble
+        churlish
+        direct
+        deceptive
+
+  [sat/warmup] transient (adjective) — Lasting only a brief while before passing or disappearing.
+        unspoken
+      ✓ permanent
+        equal
+        meandering
+
+  [sat/warmup] rash (adjective) — Acting too hastily and without thinking about the consequences.
+        alleged
+        reticent
+        unruly
+      ✓ cautious
+
+  [sat/warmup] dissuade (verb) — To talk someone out of doing something.
+        contest
+        decry
+      ✓ persuade
+        disprove
+
+  [sat/warmup] impassioned (adjective) — Filled with intense feeling, especially in a speech or plea.
+      ✓ dispassionate
+        built-in
+        undetectable
+        unnoticeable
+
+  [sat/standard] cavil (verb) — To raise trivial, petty objections or find fault over unimportant matters.
+        quibble   (planted trap: a synonym)
+        poison
+        observe
+      ✓ approve
+
+  [sat/standard] downplay (verb) — To make something seem less important than it really is.
+        illustrate
+      ✓ exaggerate
+        challenge
+        minimize   (planted trap: a synonym)
+
+  [sat/standard] nonpartisan (adjective) — Not supporting or controlled by any political party.
+      ✓ partisan
+        neutral   (planted trap: a synonym)
+        original
+        remiss
+
+  [sat/standard] supplant (verb) — To take the place of another, often through scheming or force.
+        displace   (planted trap: a synonym)
+        enslave
+      ✓ retain
+        separate
+
+  [sat/standard] perfunctory (adjective) — Done as a routine duty, without real interest, care, or effort.
+        gloomy
+      ✓ thorough
+        cursory   (planted trap: a synonym)
+        mundane
+
+  [sat/standard] sanguine (adjective) — Cheerfully optimistic and confident about how things will turn out.
+      ✓ gloomy
+        bleak
+        organized
+        optimistic   (planted trap: a synonym)
+
+  [sat/standard] accountable (adjective) — Obligated to explain or take responsibility for one's actions.
+        responsible   (planted trap: a synonym)
+        hostile
+        indifferent
+      ✓ unaccountable
+
+  [sat/standard] rampant (adjective) — Spreading widely and without control, usually something harmful.
+        unchecked   (planted trap: a synonym)
+      ✓ contained
+        adaptable
+        exacting
+
+  [sat/standard] foreground (verb) — To bring something to the front so it receives the most attention.
+        dissipate
+      ✓ background
+        fake
+        emphasize   (planted trap: a synonym)
+
+  [sat/standard] negate (verb) — To cancel out or make something ineffective.
+        categorize
+      ✓ affirm
+        quote
+        nullify   (planted trap: a synonym)
+
+  [sat/standard] surpass (verb) — To be greater than, or go beyond, a limit, rival, or expectation.
+        support
+      ✓ trail
+        blow
+        exceed   (planted trap: a synonym)
+
+  [sat/standard] insipid (adjective) — Dull and flavorless, without any liveliness or taste.
+        clumsy
+        sardonic
+      ✓ flavorful
+        bland   (planted trap: a synonym)
+
+  [sat/standard] evince (verb) — To display or make evident a feeling, quality, or trait through one's behavior.
+        legislate
+        expound
+        reveal   (planted trap: a synonym)
+      ✓ conceal
+
+  [sat/standard] skeptical (adjective) — Inclined to doubt or question rather than accept claims at face value.
+        doubtful   (planted trap: a synonym)
+        severe
+        inert
+      ✓ credulous
+
+  [sat/standard] irreverent (adjective) — Showing a mocking lack of respect for things others treat as serious.
+        disrespectful   (planted trap: a synonym)
+        dormant
+      ✓ reverent
+        educational
+
+  [sat/standard] falsify (verb) — To prove a statement wrong, or to tamper with records dishonestly.
+        waver
+        disprove   (planted trap: a synonym)
+      ✓ confirm
+        stumble
+
+  [sat/standard] coalesce (verb) — To merge or unite into a single whole.
+        merge   (planted trap: a synonym)
+      ✓ separate
+        erect
+        observe
+
+  [sat/standard] overturn (verb) — To reverse a decision or ruling, or to tip something so it falls.
+        reverse   (planted trap: a synonym)
+        shun
+        persecute
+      ✓ uphold
+
+  [sat/standard] approximate (verb) — To come close to a value or quality without being exactly correct.
+        rule
+        estimate   (planted trap: a synonym)
+        increase
+      ✓ equal
+
+  [sat/standard] persist (verb) — To continue doing something firmly despite obstacles or discouragement.
+        succeed
+        persevere   (planted trap: a synonym)
+      ✓ quit
+        forbid
+
+  [sat/standard] norm (noun) — A standard or typical pattern of behavior expected within a group.
+        longing
+      ✓ anomaly
+        account
+        standard   (planted trap: a synonym)
+
+  [sat/standard] agitate (verb) — To stir up strong public feeling, usually for or against a cause.
+        reach
+        campaign   (planted trap: a synonym)
+      ✓ pacify
+        concede
+
+  [sat/standard] tangential (adjective) — Only slightly connected to the main subject; peripheral.
+        still
+        peripheral   (planted trap: a synonym)
+        stale
+      ✓ central
+
+  [sat/standard] alienate (verb) — To make someone feel unwelcome or turn them against you.
+        achieve
+      ✓ unite
+        assign
+        estrange   (planted trap: a synonym)
+
+  [sat/standard] replenish (verb) — To fill up again or restore a supply that has been used.
+      ✓ deplete
+        refill   (planted trap: a synonym)
+        recollect
+        improve
+
+  [sat/hard] distend (verb) — To swell or stretch outward, usually from internal pressure.
+        parch
+        incapacitate
+      ✓ contract
+        bloat   (planted trap: a synonym)
+
+  [sat/hard] extort (verb) — To obtain money or something by using threats or pressure.
+      ✓ donate
+        ensnare
+        blackmail   (planted trap: a synonym)
+        vindicate
+
+  [sat/hard] transplant (verb) — To move something, especially a growing thing or a person, from one place to another.
+      ✓ leave
+        slander
+        narrow
+        relocate   (planted trap: a synonym)
+
+  [sat/hard] tumultuous (adjective) — Full of noise, confusion, or violent disorder.
+        trembling
+        turbulent   (planted trap: a synonym)
+        bloated
+      ✓ calm
+
+  [sat/hard] unleash (verb) — To suddenly release a powerful force or feeling that was held back.
+        daunt
+      ✓ restrain
+        appropriate
+        release   (planted trap: a synonym)
+
+  [sat/hard] debonair (adjective) — Confident, stylish, and charming in a smooth, refined way, especially describing a man.
+        cunning
+      ✓ awkward
+        suave   (planted trap: a synonym)
+        damaging
+
+  [sat/hard] eminent (adjective) — Famous, respected, and highly regarded within a particular profession or field.
+      ✓ obscure
+        distinguished   (planted trap: a synonym)
+        buoyant
+        incorrect
+
+  [sat/hard] palliate (verb) — To ease the severity of something without removing its underlying cause.
+        saturate
+      ✓ aggravate
+        alleviate   (planted trap: a synonym)
+        torment
+
+  [sat/hard] windswept (adjective) — Exposed to strong gusts of air, or blown about by them.
+        humorous
+        gusty   (planted trap: a synonym)
+      ✓ sheltered
+        impish
+
+  [sat/hard] indigenous (adjective) — Originating and living naturally in a particular region rather than arriving from elsewhere.
+        implacable
+      ✓ foreign
+        untiring
+        native   (planted trap: a synonym)
+
+  [sat/hard] shun (verb) — To deliberately avoid or keep away from someone or something.
+        deplete
+        avoid   (planted trap: a synonym)
+      ✓ welcome
+        ascend
+
+  [sat/hard] dominate (verb) — To control or have power over someone or something completely.
+        control   (planted trap: a synonym)
+        alight
+        bloat
+      ✓ submit
+
+  [sat/hard] autocracy (noun) — A system where a single ruler holds unlimited power over everyone else.
+        dictatorship   (planted trap: a synonym)
+      ✓ democracy
+        charge
+        dwelling
+
+  [sat/hard] untrammeled (adjective) — Not limited or hampered by anything; completely free.
+        unhampered   (planted trap: a synonym)
+      ✓ restricted
+        feral
+        uncontrolled
+
+  [sat/hard] dire (adjective) — Extremely serious, urgent, or close to disaster.
+        worn-out
+        desperate   (planted trap: a synonym)
+      ✓ mild
+        abandoned
+
+  [sat/hard] empower (verb) — To give someone the authority or confidence to take control and act.
+      ✓ hinder
+        encourage
+        captivate
+        enable   (planted trap: a synonym)
+
+  [sat/hard] decamp (verb) — To depart suddenly and often secretly from a place.
+      ✓ stay
+        flee   (planted trap: a synonym)
+        weaken
+        swindle
+
+  [sat/hard] enrage (verb) — To fill someone with violent, burning anger.
+      ✓ placate
+        debilitate
+        infuriate   (planted trap: a synonym)
+        subside
+
+  [sat/hard] deceptive (adjective) — Giving a false or misleading impression that hides the truth.
+        ramshackle
+        intrepid
+        misleading   (planted trap: a synonym)
+      ✓ honest
+
+  [sat/hard] dupe (verb) — To trick someone into believing or accepting something false.
+      ✓ enlighten
+        deceive   (planted trap: a synonym)
+        divulge
+        incapacitate
+
+  [sat/hard] furtive (adjective) — Behaving in a secretive, sneaky way that suggests something is being hidden.
+      ✓ open
+        obsequious
+        laden
+        shifty   (planted trap: a synonym)
+
+  [sat/hard] seethe (verb) — To feel intense anger inwardly while barely keeping it under control.
+        gush
+        boil   (planted trap: a synonym)
+        bestride
+      ✓ calm
+
+  [sat/hard] inclusive (adjective) — Open to and welcoming of everyone, leaving no one out.
+        unconquerable
+      ✓ exclusive
+        welcoming   (planted trap: a synonym)
+        unflappable
+
+  [sat/hard] banish (verb) — To force someone to leave a place, usually as a punishment.
+        bully
+        blossom
+      ✓ welcome
+        exile   (planted trap: a synonym)
+
+  [sat/hard] deleterious (adjective) — Causing harm or damage, often gradually and not obviously at first.
+        impassive
+        harmful   (planted trap: a synonym)
+        overbearing
+      ✓ beneficial
+
+  [sat/fiendish] chortle (verb) — To laugh in a breathy, gleeful, half-suppressed way that shows satisfaction.
+      ✓ groan
+        conspire
+        chuckle   (planted trap: a synonym)
+        group
+
+  [sat/fiendish] pernicious (adjective) — Causing serious harm in a gradual, subtle, or hidden way.
+      ✓ harmless
+        destructive   (planted trap: a synonym)
+        unrivaled
+        ironic
+
+  [sat/fiendish] entwine (verb) — To twist or wrap two or more things around each other.
+      ✓ untangle
+        bind
+        coil   (planted trap: a synonym)
+        authorize
+
+  [sat/fiendish] recuperate (verb) — To regain health, strength, or losses after illness, exhaustion, or a setback.
+      ✓ relapse
+        recover   (planted trap: a synonym)
+        retreat
+        disqualify
+
+  [sat/fiendish] unravel (verb) — To solve something complicated, or to come apart thread by thread.
+        untangle   (planted trap: a synonym)
+        appropriate
+      ✓ tangle
+        uncover
+
+  [sat/fiendish] dread (verb) — To feel intense fear or anxiety about something expected to come.
+        bloat
+      ✓ eagerness
+        fear   (planted trap: a synonym)
+        disclose
+
+  [sat/fiendish] transience (noun) — The quality of lasting only a short time before passing away.
+        abstinence
+      ✓ permanence
+        impermanence   (planted trap: a synonym)
+        gall
+
+  [sat/fiendish] peevish (adjective) — Easily annoyed and inclined to complain in a childish, bad-tempered way.
+        insidious
+      ✓ good-natured
+        clairvoyant
+        irritable   (planted trap: a synonym)
+
+  [sat/fiendish] incriminate (verb) — To make someone appear guilty of a crime or wrongdoing.
+        mesh
+      ✓ exonerate
+        implicate   (planted trap: a synonym)
+        integrate
+
+  [sat/fiendish] commune (verb) — To share thoughts or feelings in a close, intimate way.
+        huddle
+        connect   (planted trap: a synonym)
+        settle
+      ✓ withdraw
+
+  [sat/fiendish] liberty (noun) — The state of being free to act, speak, or think as one wishes.
+        freedom   (planted trap: a synonym)
+        torpor
+      ✓ captivity
+        icon
+
+  [sat/fiendish] spearhead (verb) — To lead or drive forward an effort, campaign, or movement from the front.
+        lead   (planted trap: a synonym)
+      ✓ follow
+        sever
+        evade
+
+  [sat/fiendish] enervate (verb) — To drain of energy or vitality, leaving one weak and listless.
+        charm
+        weaken   (planted trap: a synonym)
+        bind
+      ✓ energize
+
+  [sat/fiendish] imbue (verb) — To fill someone or something deeply with a quality or feeling.
+      ✓ deprive
+        cushion
+        instill   (planted trap: a synonym)
+        infuriate
+
+  [sat/fiendish] mellifluous (adjective) — Sounding sweet, smooth, and pleasant to the ear.
+      ✓ harsh
+        dulcet   (planted trap: a synonym)
+        routine
+        pliable
+
+  [sat/fiendish] mundane (adjective) — Lacking interest or excitement; ordinary and part of dull everyday routine.
+        ordinary   (planted trap: a synonym)
+      ✓ extraordinary
+        impressionable
+        failing
+
+  [sat/fiendish] solitary (adjective) — Existing or done alone, without any others present.
+        covert
+        lone   (planted trap: a synonym)
+        flighty
+      ✓ accompanied
+
+  [sat/fiendish] vapid (adjective) — Lacking liveliness, flavor, or substance; offering nothing that stimulates interest or thought.
+        surrogate
+        insipid   (planted trap: a synonym)
+      ✓ lively
+        unprotected
+
+  [sat/fiendish] prolific (adjective) — Producing a great number of works, offspring, or results.
+      ✓ barren
+        enormous
+        productive   (planted trap: a synonym)
+        abundant
+
+  [sat/fiendish] dupe (verb) — To trick someone into believing or accepting something false.
+        deceive   (planted trap: a synonym)
+      ✓ enlighten
+        mislead
+        incapacitate
+
+  [sat/fiendish] incarcerate (verb) — To confine a person in a jail or penal institution.
+        imprison   (planted trap: a synonym)
+      ✓ release
+        migrate
+        inculpate
+
+  [sat/fiendish] quibble (verb) — To argue or complain about a small, unimportant detail.
+        nitpick   (planted trap: a synonym)
+        control
+        flinch
+      ✓ agree
+
+  [sat/fiendish] incorporate (verb) — To include or absorb something as part of a larger whole.
+        shield
+        integrate   (planted trap: a synonym)
+      ✓ exclude
+        instill
+
+  [sat/fiendish] unflappable (adjective) — Staying calm and not becoming upset even in a crisis.
+        aloof
+      ✓ excitable
+        composed   (planted trap: a synonym)
+        uncontrolled
+
+  [sat/fiendish] deceitful (adjective) — Behaving dishonestly by lying or hiding the truth to trick others.
+        cunning
+        dishonest   (planted trap: a synonym)
+      ✓ honest
+        dashing

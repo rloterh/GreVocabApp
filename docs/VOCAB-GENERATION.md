@@ -3,6 +3,54 @@
 Generating a month, a quarter, six months or a year of vocabulary — without
 ever repeating a word, and while honouring words the user insists on.
 
+## Where the corpus lives
+
+`public/vocab/<track>/NN.json` is the corpus and the single source of truth.
+`public/vocab/index.json` lists what exists so the library can offer months
+without downloading them.
+
+`src/data/<track>-NN.json` is a **derived** copy of the two months each track
+opens with. It exists for one reason: those months must be in the store at
+bootstrap, before the user can touch the track switcher, and a `public/` file
+costs a fetch. `scripts/sync-starters.mjs` generates them and the corpus audit
+fails if they drift.
+
+Derived rather than authored, because both alternatives were tried and both
+broke. GRE 1 and 2 lived *only* in `src/data/`, which kept them out of the
+index and made them unrecoverable once unloaded. SAT 1 and 2 were hand-copied
+in, and immediately existed twice with nothing keeping them equal.
+
+## Reaching months that are already loaded
+
+Enriching the corpus does not reach anybody's store. A month loaded before an
+improvement keeps the copy it was loaded with, and the library deliberately
+hides months that are already loaded, so there is no route back to the newer
+version through the UI.
+
+`src/lib/backfill-relations.ts` closes that for the bundled starter months:
+startup fills in synonyms on words that have none, matched by word id. It
+fills gaps only — words the user added survive, anything already present is
+left alone, and no word is added, removed or moved. Progress is untouched
+because it hangs off the word id, which is exactly the property
+[ADR 0011](./adr/0011-tracks.md) exists to protect.
+
+It is gated on finding a gap first, so the ordinary case never parses the
+bundled JSON. Months beyond the starters are not covered: they are loaded
+deliberately from the library, and re-fetching them behind the user's back is
+a bigger decision than topping up content the app seeded itself.
+
+## Filling in synonyms and antonyms
+
+`scripts/enrich-relations.ts` asks only about words that have no synonyms, so
+it resumes after an interruption and a finished corpus is a no-op. Replies are
+validated before anything is written: entries longer than two words are glosses
+and are dropped, as are inflections of the headword and duplicates, and a word
+whose reply yields no usable synonym is left alone rather than written empty.
+
+Antonyms are allowed to be absent. Many nouns have no true opposite, and asking
+again only pressures the model into inventing one — 8% of the corpus has none,
+which is the honest number.
+
 ## What exists today
 
 `src/lib/generate.ts` generates one month from a topic and a count, sends the

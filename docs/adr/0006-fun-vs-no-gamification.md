@@ -1,6 +1,6 @@
 # ADR 0006 — Fun means craft, not points
 
-**Status:** accepted · 2026-09-11
+**Status:** accepted · 2026-09-11 · amended for the games section by [ADR 0016](./0016-games-are-rounds-not-progression.md)
 
 ## Context
 

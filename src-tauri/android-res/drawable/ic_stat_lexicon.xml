@@ -1,0 +1,35 @@
+<!--
+  The notification small icon.
+
+  Android uses only the alpha channel of this drawable and tints the result
+  itself, so it is a silhouette: white shapes, no ground, no colour. The
+  rounded square and the green dot from public/icon.svg are dropped — the
+  square becomes a filled blob once flattened, and the dot would be white
+  rather than green, so keeping either would only blur the mark.
+
+  What survives is the slab-serif L, which is the recognisable part: stem,
+  top serif, foot, and the bracket at the foot's end. The headword dot is
+  kept as a shape because without it the glyph reads as a bare letter rather
+  than a dictionary entry.
+
+  24dp with the artwork inset to about 22dp, which is what the platform
+  expects; smaller and it floats, larger and the system's own padding clips
+  it. Coordinates are public/icon.svg's 512-space scaled by 22/240 and
+  centred.
+
+  Referenced by name from tauri.conf.json (`plugins.notification.icon`);
+  the plugin looks it up with `getIdentifier(name, "drawable", package)`.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M1,2.28 h11.73 v2.02 h-11.73 z
+                          M4.48,2.28 h5.68 v19.43 h-5.68 z
+                          M4.48,19.7 h16.13 v2.02 h-16.13 z
+                          M18.42,18.41 h2.2 v3.3 h-2.2 z
+                          M20.25,3.75 a2.75,2.75 0 1,0 0.01,0 z" />
+</vector>

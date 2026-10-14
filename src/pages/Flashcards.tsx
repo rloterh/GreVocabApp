@@ -24,8 +24,12 @@ import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/EmptyState";
 import { EdgeArrow } from "@/components/EdgeArrow";
 import { RootFamily } from "@/components/RootFamily";
+import { WordRelations } from "@/components/WordRelations";
+import { StickyActionBar } from "@/components/StickyActionBar";
 import { JsonImporter } from "@/components/JsonImporter";
+import { Confetti } from "@/components/Confetti";
 import { useVocabStore } from "@/store/useVocabStore";
+import { useAllMonths } from "@/store/useAllMonths";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useAppStore } from "@/store/useAppStore";
 import { useSettingsStore } from "@/store/useSettingsStore";
@@ -97,8 +101,8 @@ const RATING_META: Record<
 };
 
 export function Flashcards() {
-  const { months, activeMonthKey, selectedDay, getActiveMonth, getAllMonths } =
-    useVocabStore();
+  const { activeMonthKey, selectedDay, getActiveMonth } = useVocabStore();
+  const allMonths = useAllMonths();
   const applyStudyRating = useProgressStore((s) => s.applyStudyRating);
   const addStudySession = useProgressStore((s) => s.addStudySession);
   const isMastered = useProgressStore((s) => s.isMastered);
@@ -138,7 +142,7 @@ export function Flashcards() {
   const allEnriched: EnrichedWord[] = useMemo(() => {
   // The open track only. Pooling both would put SAT words in a GRE exam and
   // quietly change what the score means. See docs/adr/0011-tracks.md.
-    return getAllMonths().flatMap((m) =>
+    return allMonths.flatMap((m) =>
       m.days.flatMap((d) =>
         d.words.map((w) => ({
           ...w,
@@ -148,7 +152,7 @@ export function Flashcards() {
         })),
       ),
     );
-  }, [months]);
+  }, [allMonths]);
 
   const activeMonth = getActiveMonth();
   const activeMonthWords: EnrichedWord[] = useMemo(() => {
@@ -651,22 +655,26 @@ function SetupScreen({
         </CardContent>
       </Card>
 
-      <div className="flex items-center gap-3">
+      <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">
+        <Keyboard className="w-3.5 h-3.5" />
+        Tip: use keyboard for the fastest flow. Space, then 1-2-3-4.
+      </div>
+
+      {/* Six deck options and a slider put this below the fold on anything
+          shorter than a 1080p desktop — 200px below on a 1280x720 laptop.
+          Sticky, so choosing a deck and starting are never separated by a
+          scroll. See scripts/drive/reach-audit.mjs. */}
+      <StickyActionBar>
         <Button
           size="lg"
-          className="flex-1 h-12"
+          className="w-full h-12"
           onClick={onStart}
           disabled={availableCount === 0}
         >
           <Play className="w-4 h-4" />
           {availableCount === 0 ? "Deck is empty" : "Start studying"}
         </Button>
-      </div>
-
-      <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">
-        <Keyboard className="w-3.5 h-3.5" />
-        Tip: use keyboard for the fastest flow. Space, then 1-2-3-4.
-      </div>
+      </StickyActionBar>
     </motion.div>
   );
 }
@@ -824,13 +832,26 @@ function PlayScreen({
       </p>
 
       {/*
-        Card area. The hover region is the card *and* its arrows: if it were
-        only the card, moving the mouse toward an arrow would make it vanish
-        before it could be clicked.
+        Card area, wrapped in its own hover region.
+
+        The wrapper exists because the arrows sit *outside* the card from `md`
+        up — `-left-14` is 56px out, and the arrow is 44px wide, so 16px of
+        un-hovered ground lay between them. Crossing it fired `pointerleave`,
+        and the arrow faded to `pointer-events: none` before the cursor
+        arrived: measured at 1280px, opacity went 1.00 on the card to 0.01 one
+        pixel outside it, and the click did nothing. Both this comment and
+        EdgeArrow's claimed the region already covered the arrows. It did not.
+
+        Negative margin plus equal padding widens the wrapper's box by exactly
+        one gutter each side without moving anything, so the arrows fall inside
+        the region that reveals them. The inner div stays the positioning
+        context, so their offsets are unchanged.
+
+        scripts/drive/edge-arrow-probe.mjs walks the pointer across the gap and
+        fails if this regresses.
       */}
       <div
-        className="relative"
-        style={{ perspective: "1200px" }}
+        className="xl:-mx-14 xl:px-14"
         onPointerEnter={(e) => e.pointerType !== "touch" && setHovering(true)}
         onPointerLeave={(e) => e.pointerType !== "touch" && setHovering(false)}
         onFocusCapture={() => setFocusWithin(true)}
@@ -841,6 +862,7 @@ function PlayScreen({
           }
         }}
       >
+      <div className="relative" style={{ perspective: "1200px" }}>
         <EdgeArrow
           side="left"
           label="Previous card"
@@ -963,6 +985,7 @@ function PlayScreen({
                     {card.mnemonic}
                   </p>
                 </Section>
+                <WordRelations word={card} />
                 {/* Renders nothing unless this word has a root *and* the user
                     has another word from it, so the card's height does not
                     jump between cards for the sake of a line of trivia. Not
@@ -976,6 +999,7 @@ function PlayScreen({
             </div>
           </motion.div>
         </motion.div>
+      </div>
       </div>
 
       {/* One-time explainer for what the ratings now do. Shown above the
@@ -1022,63 +1046,70 @@ function PlayScreen({
         )}
       </AnimatePresence>
 
-      {/* Rating buttons */}
-      {/* 2x2 on a phone: four across leaves ~75px per target, and these are
-          pressed dozens of times a session. */}
-      <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {(["again", "hard", "good", "easy"] as const).map((r) => {
-          const meta = RATING_META[r];
-          const Icon = meta.icon;
-          return (
-            <motion.button
-              key={r}
-              type="button"
-              disabled={!flipped}
-              onClick={() => onRate(r)}
-              whileHover={flipped ? { y: -2 } : undefined}
-              whileTap={flipped ? { scale: 0.96 } : undefined}
-              className={cn(
-                "relative rounded-lg border p-3 text-left transition-all",
-                flipped
-                  ? meta.color
-                  : "border-border/40 text-muted-foreground/50 cursor-not-allowed",
-              )}
-            >
-              <div className="flex items-center justify-between mb-1">
-                <Icon className="w-4 h-4" />
-                <kbd className="px-1.5 py-0.5 rounded bg-black/10 text-[10px] font-mono">
-                  {meta.shortcut}
-                </kbd>
-              </div>
-              <p className="text-sm font-semibold">{meta.label}</p>
-              <p className="text-[10px] mt-0.5 opacity-70">{meta.hint}</p>
-            </motion.button>
-          );
-        })}
-      </div>
+      {/* Rating buttons and card navigation, pinned.
+          On a phone the 2x2 grid ran under the mobile tab bar: "Good" and
+          "Easy" were half-hidden behind the navigation on every card, so two
+          of the four ratings needed a scroll to press. Sticky keeps the whole
+          act-on-this-card cluster in reach for the length of the session.
+          Measured by scripts/drive/reach-audit.mjs. */}
+      <StickyActionBar>
+        {/* 2x2 on a phone: four across leaves ~75px per target, and these are
+            pressed dozens of times a session. */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          {(["again", "hard", "good", "easy"] as const).map((r) => {
+            const meta = RATING_META[r];
+            const Icon = meta.icon;
+            return (
+              <motion.button
+                key={r}
+                type="button"
+                disabled={!flipped}
+                onClick={() => onRate(r)}
+                whileHover={flipped ? { y: -2 } : undefined}
+                whileTap={flipped ? { scale: 0.96 } : undefined}
+                className={cn(
+                  "relative rounded-lg border p-3 text-left transition-all",
+                  flipped
+                    ? meta.color
+                    : "border-border/40 text-muted-foreground/50 cursor-not-allowed",
+                )}
+              >
+                <div className="flex items-center justify-between mb-1">
+                  <Icon className="w-4 h-4" />
+                  <kbd className="px-1.5 py-0.5 rounded bg-black/10 text-[10px] font-mono">
+                    {meta.shortcut}
+                  </kbd>
+                </div>
+                <p className="text-sm font-semibold">{meta.label}</p>
+                <p className="text-[10px] mt-0.5 opacity-70">{meta.hint}</p>
+              </motion.button>
+            );
+          })}
+        </div>
 
-      {/* Bottom nav */}
-      <div className="mt-4 flex items-center justify-between text-xs text-muted-foreground">
-        <button
-          type="button"
-          onClick={onPrev}
-          disabled={idx === 0}
-          className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          Prev
-        </button>
-        <span aria-hidden>Swipe or use ← →</span>
-        <button
-          type="button"
-          onClick={onNext}
-          disabled={idx >= total - 1}
-          className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          Next
-          <ArrowRight className="w-3.5 h-3.5" />
-        </button>
-      </div>
+        {/* Bottom nav */}
+        <div className="mt-3 flex items-center justify-between text-xs text-muted-foreground">
+          <button
+            type="button"
+            onClick={onPrev}
+            disabled={idx === 0}
+            className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            Prev
+          </button>
+          <span aria-hidden>Swipe or use ← →</span>
+          <button
+            type="button"
+            onClick={onNext}
+            disabled={idx >= total - 1}
+            className="flex items-center gap-1 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            Next
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      </StickyActionBar>
 
       {/* Pause overlay */}
       <AnimatePresence>
@@ -1336,65 +1367,3 @@ function ResultsScreen({
 }
 
 /* -------------------------------------------------------------------- */
-
-/** Which celebration a result screen earns. */
-export type ConfettiVariant = "confetti" | "emoji" | "streamers";
-
-const EMOJI = ["🎉", "✨", "🧠", "📚", "🏆", "💫"];
-
-function Confetti({ variant = "confetti" }: { variant?: ConfettiVariant }) {
-  const count = variant === "streamers" ? 24 : 40;
-  const pieces = useMemo(
-    () =>
-      Array.from({ length: count }).map((_, i) => ({
-        id: i,
-        x: (Math.random() - 0.5) * (variant === "streamers" ? 320 : 500),
-        y: -Math.random() * 200 - 100,
-        rot: Math.random() * 720 - 360,
-        scale: 0.6 + Math.random() * 0.8,
-        color: [
-          "hsl(var(--accent))",
-          "hsl(var(--success))",
-          "hsl(var(--warning))",
-          "hsl(var(--primary))",
-        ][i % 4]!,
-        emoji: EMOJI[i % EMOJI.length]!,
-        delay: Math.random() * 0.15,
-      })),
-    // Variant decides the shape of the burst, so it has to re-roll with it.
-    [count, variant],
-  );
-  return (
-    <div className="absolute inset-x-0 top-0 h-0 pointer-events-none z-40">
-      {pieces.map((p) => (
-        <motion.div
-          key={p.id}
-          initial={{ x: 0, y: 0, opacity: 1, rotate: 0 }}
-          animate={{
-            x: p.x,
-            y: p.y + 500,
-            rotate: p.rot,
-            opacity: [1, 1, 0],
-          }}
-          transition={{
-            duration: 1.6,
-            delay: p.delay,
-            ease: [0.16, 1, 0.3, 1],
-          }}
-          className={cn(
-            "absolute left-1/2 top-8 origin-center",
-            variant === "emoji" && "text-2xl leading-none",
-            variant === "streamers" && "w-1 h-10 rounded-full",
-            variant === "confetti" && "w-2 h-3 rounded-sm",
-          )}
-          style={{
-            backgroundColor: variant === "emoji" ? undefined : p.color,
-            scale: p.scale,
-          }}
-        >
-          {variant === "emoji" ? p.emoji : null}
-        </motion.div>
-      ))}
-    </div>
-  );
-}

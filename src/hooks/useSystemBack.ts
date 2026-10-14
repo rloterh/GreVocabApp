@@ -35,6 +35,13 @@ export function useSystemBack(): void {
     }
 
     const onPopState = (event: PopStateEvent) => {
+      // Something on screen wants back for itself — a game round pauses
+      // instead of being thrown away. Put the entry back so the next back
+      // press has something to pop too.
+      if (useAppStore.getState().backHandler?.()) {
+        window.history.pushState({ page }, "");
+        return;
+      }
       const previous = (event.state as { page?: Page } | null)?.page;
       // Anywhere but home goes home rather than exiting. From home, the event
       // is left alone and the system closes the app, which is what a user

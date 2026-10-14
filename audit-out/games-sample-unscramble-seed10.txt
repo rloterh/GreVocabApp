@@ -1,0 +1,603 @@
+Lexicon games — Unscramble, a sample for a reader (seed 10)
+The tiles must spell the answer and no other common English word, and the definition must identify it. Mark ANAGRAM if the tiles also spell another common word (name it), GIVEAWAY if the definition contains the answer, WRONG if the definition does not fit.
+Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
+
+  [gre/warmup] (adjective) — Able to speak or write smoothly, easily, and without hesitation.
+      Tiles: U E F L T N   Answer: fluent
+
+  [gre/warmup] (adjective) — Optimistic or positive, especially in a difficult situation.
+      Tiles: A N U S N G E I   Answer: sanguine
+
+  [gre/warmup] (verb) — To officially declare someone free from blame or guilt.
+      Tiles: L S O V A E B   Answer: absolve
+
+  [gre/warmup] (adjective) — Kind, generous, and wanting to do good for other people.
+      Tiles: E B T E N V O L N E   Answer: benevolent
+
+  [gre/warmup] (verb) — To urge or stir people into taking violent or unlawful action.
+      Tiles: N T I I E C   Answer: incite
+
+  [gre/warmup] (noun) — A generous, plentiful yield or gift, especially from nature or a harvest.
+      Tiles: N O B T Y U   Answer: bounty
+
+  [gre/warmup] (noun) — A particular level of authority or status within an organized group.
+      Tiles: H O E N E C L   Answer: echelon
+
+  [gre/warmup] (verb) — To leave quickly and secretly, often to avoid arrest or while carrying stolen goods.
+      Tiles: O D S A N B C   Answer: abscond
+
+  [gre/warmup] (verb) — To dispute or argue against the truth of a statement or idea.
+      Tiles: O R O E R N T V T C   Answer: controvert
+
+  [gre/warmup] (verb) — To establish something so firmly that it becomes very hard to change.
+      Tiles: T E E N C R H N   Answer: entrench
+
+  [gre/warmup] (adjective) — Ruling in a harsh, controlling way that permits no freedom or dissent.
+      Tiles: T I S E P C D O   Answer: despotic
+
+  [gre/warmup] (adjective) — Arrogantly self-important and full of exaggerated dignity.
+      Tiles: O U P P S O M   Answer: pompous
+
+  [gre/warmup] (verb) — To act or go against a law, rule, or established principle.
+      Tiles: V E O T N C N A R E   Answer: contravene
+
+  [gre/warmup] (noun) — A false reason given to hide the real purpose behind an action.
+      Tiles: E R T X T E P   Answer: pretext
+
+  [gre/warmup] (noun) — A person with the authority to settle a dispute or decide what is correct.
+      Tiles: R T A E R B I   Answer: arbiter
+
+  [gre/warmup] (noun) — Harsh, abusive language or widespread public condemnation aimed at someone.
+      Tiles: O O Q U L Y B   Answer: obloquy
+
+  [gre/warmup] (noun) — A horn-shaped emblem overflowing with fruit that symbolizes a rich, plentiful supply.
+      Tiles: P C O O I U A N R C   Answer: cornucopia
+
+  [gre/warmup] (verb) — To describe or draw the exact boundaries or details of something.
+      Tiles: T E I D L E A N E   Answer: delineate
+
+  [gre/warmup] (adjective) — Harshly controlling and unjust, or so heavy that it weighs one down.
+      Tiles: R O I E V P S S P E   Answer: oppressive
+
+  [gre/warmup] (verb) — To make something harmful, painful, or severe less serious.
+      Tiles: I T M A T I E G   Answer: mitigate
+
+  [gre/warmup] (verb) — To repeat words rhythmically in a singing, monotonous way.
+      Tiles: N C H T A   Answer: chant
+
+  [gre/warmup] (verb) — To claim someone did something wrong, without yet offering proof.
+      Tiles: L E G A L E   Answer: allege
+
+  [gre/warmup] (noun) — The skill of speaking or writing fluently and persuasively.
+      Tiles: O U Q C E E N E L   Answer: eloquence
+
+  [gre/warmup] (adjective) — Having or showing great knowledge or learning.
+      Tiles: E T I E R U D   Answer: erudite
+
+  [gre/warmup] (noun) — A deceptive front that conceals what something or someone is really like.
+      Tiles: A D A E C F   Answer: facade
+
+  [gre/standard] (verb) — To explain the meaning of something or convey it in another language.
+      Tiles: E I P T R N R T E   Answer: interpret
+
+  [gre/standard] (verb) — To shock and horrify someone deeply, often on moral grounds.
+      Tiles: P L A A P L   Answer: appall
+
+  [gre/standard] (noun) — The quality of being aggressively greedy and grasping for more.
+      Tiles: C P A T Y A R I   Answer: rapacity
+
+  [gre/standard] (adjective) — Completely sealed so no air can enter; also difficult for outsiders to grasp.
+      Tiles: E R E C H I T M   Answer: hermetic
+
+  [gre/standard] (verb) — To draw or spring back suddenly in fear, shock, or disgust.
+      Tiles: L O R C E I   Answer: recoil
+
+  [gre/standard] (adjective) — Only slightly related to the main subject; going off on a side point.
+      Tiles: N G T A T I L E A N   Answer: tangential
+
+  [gre/standard] (verb) — To make something legally void or to cancel out its effect entirely.
+      Tiles: L F L Y U I N   Answer: nullify
+
+  [gre/standard] (verb) — To grasp the meaning of something, or to seize a wrongdoer physically.
+      Tiles: D N E R H P E P A   Answer: apprehend
+
+  [gre/standard] (adjective) — In a perfectly clean or unspoiled condition, as if brand new.
+      Tiles: R P N S E I T I   Answer: pristine
+
+  [gre/standard] (noun) — The quality of acting with confidence and without fear of danger.
+      Tiles: S O B E D S L N   Answer: boldness
+
+  [gre/standard] (verb) — To lose one's nerve and shrink back in the face of danger or difficulty.
+      Tiles: I Q L U A   Answer: quail
+
+  [gre/standard] (verb) — To break apart into small pieces, or slowly fall into ruin.
+      Tiles: B E U R C M L   Answer: crumble
+
+  [gre/standard] (verb) — To move, fall, or dive downward suddenly and forcefully.
+      Tiles: G U L E P N   Answer: plunge
+
+  [gre/standard] (adjective) — Done carefully and in a logical, step-by-step manner.
+      Tiles: M L O T H C I E D A   Answer: methodical
+
+  [gre/standard] (noun) — The point at which something begins.
+      Tiles: U T T O S E   Answer: outset
+
+  [gre/standard] (adjective) — Unable to settle on a course of action; wavering and unsure.
+      Tiles: R T I R U L O E E S   Answer: irresolute
+
+  [gre/standard] (noun) — Loose debris or waste left behind after destruction, decay, or use.
+      Tiles: T I U E T D S R   Answer: detritus
+
+  [gre/standard] (verb) — To make someone so frightened that they cannot move.
+      Tiles: I R Y P F E T   Answer: petrify
+
+  [gre/standard] (adjective) — Coming or happening after something else in time or order.
+      Tiles: N Q E B S U U E S T   Answer: subsequent
+
+  [gre/standard] (adjective) — Cheerfully carefree, often without proper regard for the consequences.
+      Tiles: L H I T B E   Answer: blithe
+
+  [gre/standard] (verb) — To make someone feel awkward, self-conscious, or ashamed.
+      Tiles: A H B S A   Answer: abash
+
+  [gre/standard] (verb) — To beg someone desperately and emotionally to do something.
+      Tiles: I P O M R E L   Answer: implore
+
+  [gre/standard] (verb) — To make someone lose courage or confidence and feel deeply uneasy.
+      Tiles: E V N N U R E   Answer: unnerve
+
+  [gre/standard] (noun) — Overly subtle, often dishonest reasoning, especially about moral questions.
+      Tiles: Y A S U S I T C R   Answer: casuistry
+
+  [gre/standard] (noun) — A show of confidence or daring meant to impress, often masking fear.
+      Tiles: V D O A B R A   Answer: bravado
+
+  [gre/hard] (adjective) — Devoted to eating; consuming food in great amounts.
+      Tiles: D C S A U O I E   Answer: edacious
+
+  [gre/hard] (adjective) — Clever and skillful, especially in a cunning or deceptive way.
+      Tiles: U T F R L A   Answer: artful
+
+  [gre/hard] (noun) — Intimate sharing of thoughts and feelings; deep mutual fellowship.
+      Tiles: N N O O U C I M M   Answer: communion
+
+  [gre/hard] (noun) — A drawing or description that exaggerates features for comic or satirical effect.
+      Tiles: A R A E C R I T C U   Answer: caricature
+
+  [gre/hard] (noun) — An aggressive, unreasonable belief in the superiority of one's own group or cause.
+      Tiles: N M C I H V U S I A   Answer: chauvinism
+
+  [gre/hard] (adjective) — Inclined to stick tightly with one's own group and to keep outsiders at a distance.
+      Tiles: N N S L C H I A   Answer: clannish
+
+  [gre/hard] (noun) — A tiny gap or narrow space between two adjoining things.
+      Tiles: N E T E I S C T R I   Answer: interstice
+
+  [gre/hard] (adjective) — Having a large, fleshy, and noticeably heavy body.
+      Tiles: U O C E R N L P T   Answer: corpulent
+
+  [gre/hard] (noun) — The official system of rules governing correct conduct at formal or diplomatic events.
+      Tiles: C O T R O O P L   Answer: protocol
+
+  [gre/hard] (adjective) — Shockingly vivid or sensational, often in a gruesome or distasteful way.
+      Tiles: D U I R L   Answer: lurid
+
+  [gre/hard] (noun) — A form of reasoning in which a conclusion is drawn from two given premises.
+      Tiles: Y S O M S L I G L   Answer: syllogism
+
+  [gre/hard] (adjective) — Causing serious damage, suffering, or ruin.
+      Tiles: S L U C A A M O I T   Answer: calamitous
+
+  [gre/hard] (noun) — Adherence to accepted, established, or traditional beliefs, especially in religion.
+      Tiles: X T O D H O R O Y   Answer: orthodoxy
+
+  [gre/hard] (verb) — To belittle or disparage; to take away from the worth or standing of something.
+      Tiles: O T A E D R E G   Answer: derogate
+
+  [gre/hard] (verb) — To exaggerate a tale by adding invented or fanciful extra details.
+      Tiles: M I B E R D R O E   Answer: embroider
+
+  [gre/hard] (noun) — A state of extreme moral corruption or wickedness.
+      Tiles: A I R E V T P D Y   Answer: depravity
+
+  [gre/hard] (verb) — To declare or make something holy and worthy of religious reverence.
+      Tiles: A Y F T I S N C   Answer: sanctify
+
+  [gre/hard] (noun) — A small, exclusive group who share interests and keep outsiders away.
+      Tiles: E T O R E C I   Answer: coterie
+
+  [gre/hard] (noun) — A person who presides over and conducts a formal ceremony such as a wedding.
+      Tiles: F F I A N T I C O   Answer: officiant
+
+  [gre/hard] (noun) — A garden or park where many kinds of trees are grown for study and display.
+      Tiles: A T R E M R B O U   Answer: arboretum
+
+  [gre/hard] (noun) — A person who habitually avoids work or responsibility.
+      Tiles: R E K I R S H   Answer: shirker
+
+  [gre/hard] (noun) — Green crops packed and fermented in storage to feed animals in winter.
+      Tiles: I G E L A S   Answer: silage
+
+  [gre/hard] (verb) — To shut someone in or imprison them behind walls.
+      Tiles: E M M I R U   Answer: immure
+
+  [gre/hard] (verb) — To display something showily to attract attention and impress others.
+      Tiles: U N L F A T   Answer: flaunt
+
+  [gre/hard] (noun) — Correctness of behavior and conformity to accepted standards of good manners.
+      Tiles: T O Y R P P R I E   Answer: propriety
+
+  [gre/fiendish] (noun) — A crude model or sculpture representing a hated or specific person.
+      Tiles: F F G Y E I   Answer: effigy
+
+  [gre/fiendish] (adjective) — Full of or expressing deep sadness and mournful distress.
+      Tiles: O D R O L O U S   Answer: dolorous
+
+  [gre/fiendish] (verb) — To transfer fertilizing dust between flowers so they can produce seeds or fruit.
+      Tiles: L I T L A N P E O   Answer: pollinate
+
+  [gre/fiendish] (adjective) — Serving no useful purpose; pointless or ineffective.
+      Tiles: I S T O E O   Answer: otiose
+
+  [gre/fiendish] (adjective) — Overly eager to sue people or start quarrels.
+      Tiles: S T G I L I U O I   Answer: litigious
+
+  [gre/fiendish] (verb) — To formally call an accused person before a court to answer a criminal charge.
+      Tiles: A G I A R N R   Answer: arraign
+
+  [gre/fiendish] (noun) — The face or set of features belonging to a person.
+      Tiles: I G E V S A   Answer: visage
+
+  [gre/fiendish] (noun) — Wild, noisy celebration involving drinking, dancing, and merrymaking.
+      Tiles: L V R R Y E E   Answer: revelry
+
+  [gre/fiendish] (verb) — To trick or confuse someone, usually by cheating them.
+      Tiles: E Z B M B O O L A   Answer: bamboozle
+
+  [gre/fiendish] (adjective) — Fearful of or hostile toward people from other countries or cultures.
+      Tiles: P C H O I E N O B X   Answer: xenophobic
+
+  [gre/fiendish] (verb) — To cut a tree's upper branches back to the trunk, encouraging bushy regrowth.
+      Tiles: D A L O R P L   Answer: pollard
+
+  [gre/fiendish] (adjective) — Having major, often disastrous, consequences for what comes after.
+      Tiles: A E F U T L F   Answer: fateful
+
+  [gre/fiendish] (verb) — To dig up a buried body, or to bring something long hidden back to light.
+      Tiles: E E U M X H   Answer: exhume
+
+  [gre/fiendish] (adjective) — Living in or relating to trees.
+      Tiles: R O B A L E A R   Answer: arboreal
+
+  [gre/fiendish] (verb) — To declare or make something holy and worthy of religious reverence.
+      Tiles: S N I A T C F Y   Answer: sanctify
+
+  [gre/fiendish] (noun) — Showy but useless ornamentation, or trivial and frivolous decoration lacking real worth.
+      Tiles: I R Y P F E P R   Answer: frippery
+
+  [gre/fiendish] (adjective) — Serving as decoration rather than having a practical use.
+      Tiles: N O E A T L A M N R   Answer: ornamental
+
+  [gre/fiendish] (verb) — To dress or decorate in a flashy, gaudy, and often tasteless way.
+      Tiles: Z N E I D B E   Answer: bedizen
+
+  [gre/fiendish] (noun) — A sign warning that something momentous, often bad, is about to happen.
+      Tiles: T R N P E O T   Answer: portent
+
+  [gre/fiendish] (noun) — A persistent critic who provokes others by annoyingly challenging them.
+      Tiles: Y L F D G A   Answer: gadfly
+
+  [gre/fiendish] (verb) — To come together in a group, especially for a social occasion.
+      Tiles: F R T E E H G O R A   Answer: foregather
+
+  [gre/fiendish] (noun) — A belief or opinion that sharply contradicts accepted religious or official doctrine.
+      Tiles: H R E E Y S   Answer: heresy
+
+  [gre/fiendish] (noun) — A sacred Christian rite, such as baptism, believed to convey divine grace.
+      Tiles: S R T E A A C M N   Answer: sacrament
+
+  [gre/fiendish] (noun) — Benevolent guardianship, attributed to God or fate, believed to steer events toward good.
+      Tiles: I D E R P E O C V N   Answer: providence
+
+  [gre/fiendish] (adjective) — Not securely held or in position; likely to fall or fail at any moment.
+      Tiles: C U I P R E A S R O   Answer: precarious
+
+  [sat/warmup] (noun) — The quality of being hard to see through, or difficult to understand.
+      Tiles: T I C A Y O P   Answer: opacity
+
+  [sat/warmup] (noun) — Warm, glowing formal praise given in speech or writing.
+      Tiles: O E M C I M N U   Answer: encomium
+
+  [sat/warmup] (adjective) — Present from birth and natural, rather than learned or acquired.
+      Tiles: I T E A N N   Answer: innate
+
+  [sat/warmup] (verb) — To take back or withdraw something said, offered, or extended.
+      Tiles: R T C A T E R   Answer: retract
+
+  [sat/warmup] (noun) — A thing or event that comes before another and often leads to it.
+      Tiles: E E N N D E T C T A   Answer: antecedent
+
+  [sat/warmup] (adjective) — Deep in serious or wistful thought, often tinged with a touch of sadness.
+      Tiles: I P N E V E S   Answer: pensive
+
+  [sat/warmup] (adjective) — Refusing to change one's mind or course despite good reasons.
+      Tiles: S B T O R N U B   Answer: stubborn
+
+  [sat/warmup] (adjective) — Showing embarrassment from an awareness of having done something foolish.
+      Tiles: I H E P H E S S   Answer: sheepish
+
+  [sat/warmup] (noun) — An object or custom that has survived from a much earlier period.
+      Tiles: E C L R I   Answer: relic
+
+  [sat/warmup] (adjective) — Open to more than one interpretation; not clearly defined.
+      Tiles: I M S U O U A B G   Answer: ambiguous
+
+  [sat/warmup] (noun) — The final result or conclusion of a series of events.
+      Tiles: U S H P O T   Answer: upshot
+
+  [sat/warmup] (verb) — To make an angry person feel calm and satisfied again.
+      Tiles: C T L A P E A   Answer: placate
+
+  [sat/warmup] (adjective) — Full of energetic, passionate commitment to a cause or goal.
+      Tiles: Z A S L O E U   Answer: zealous
+
+  [sat/warmup] (adjective) — Quickly fading from sight, sound, or memory.
+      Tiles: T V N E E A C S E N   Answer: evanescent
+
+  [sat/warmup] (adjective) — Keeping careful watch for possible danger or trouble.
+      Tiles: T V L N G A I I   Answer: vigilant
+
+  [sat/warmup] (adjective) — Belonging to an earlier time that is now over and finished.
+      Tiles: Y E O N G B   Answer: bygone
+
+  [sat/warmup] (verb) — To publicly support or argue in favor of a particular cause or policy.
+      Tiles: C E A A O D V T   Answer: advocate
+
+  [sat/warmup] (adjective) — Having a calm, unemotional temperament that stays unruffled even under pressure.
+      Tiles: T E P C I G L A M H   Answer: phlegmatic
+
+  [sat/warmup] (verb) — To judge and declare a defendant not guilty of a crime.
+      Tiles: C T Q U I A   Answer: acquit
+
+  [sat/warmup] (verb) — To exist or be present in very large numbers.
+      Tiles: B N A D U O   Answer: abound
+
+  [sat/warmup] (verb) — To change something completely in shape or nature.
+      Tiles: R O N A F S T M R   Answer: transform
+
+  [sat/warmup] (verb) — To formally declare someone free from guilt, blame, or an obligation.
+      Tiles: L O E V B A S   Answer: absolve
+
+  [sat/warmup] (adjective) — Expressing an opinion or feeling in a forceful, clear, and definite way.
+      Tiles: P M C H I T E A   Answer: emphatic
+
+  [sat/warmup] (noun) — Traditions, culture, and qualities passed down from previous generations.
+      Tiles: A G R H E E T I   Answer: heritage
+
+  [sat/warmup] (adjective) — Expressing strong dislike and a belief that something deserves no respect.
+      Tiles: O U N C R F L S   Answer: scornful
+
+  [sat/standard] (noun) — A person who publicly opposes the policies of their government.
+      Tiles: N S D T I S E I D   Answer: dissident
+
+  [sat/standard] (noun) — The ordinary people living in a particular country or area.
+      Tiles: U P C A E O P L   Answer: populace
+
+  [sat/standard] (adjective) — Concerned with beauty or the appreciation of how something looks.
+      Tiles: E H C I A T T S E   Answer: aesthetic
+
+  [sat/standard] (noun) — A figure of speech that describes one thing as if it were another.
+      Tiles: T O M H R E A P   Answer: metaphor
+
+  [sat/standard] (noun) — The official rules for how something should be done or handled.
+      Tiles: C R P T O O L O   Answer: protocol
+
+  [sat/standard] (noun) — A state of filth, misery, and neglect, usually caused by extreme poverty.
+      Tiles: L A U O Q R S   Answer: squalor
+
+  [sat/standard] (verb) — To perform far better than others or above the usual standard.
+      Tiles: E L E X C   Answer: excel
+
+  [sat/standard] (noun) — An earlier action or decision used as a guide for similar situations later.
+      Tiles: E P T R N E D E C   Answer: precedent
+
+  [sat/standard] (verb) — To give someone knowledge or understanding they lacked before.
+      Tiles: T E L H I G E N N   Answer: enlighten
+
+  [sat/standard] (adjective) — Relating to schools, academic study, or formal education.
+      Tiles: T C S S L I H C O A   Answer: scholastic
+
+  [sat/standard] (adjective) — Feeling or showing deep and solemn respect.
+      Tiles: E E R E R N V T   Answer: reverent
+
+  [sat/standard] (noun) — All the people who will live in future generations.
+      Tiles: E S I R T T O P Y   Answer: posterity
+
+  [sat/standard] (noun) — Saying the same thing twice using different words, adding no new information.
+      Tiles: A O O T G Y L T U   Answer: tautology
+
+  [sat/standard] (adjective) — Beautiful or sad in a way that lingers in your memory.
+      Tiles: N A H G T I N U   Answer: haunting
+
+  [sat/standard] (verb) — To build or form something by putting parts together.
+      Tiles: T T S U O C C R N   Answer: construct
+
+  [sat/standard] (noun) — The most powerful, wealthy, or talented members of a group or society.
+      Tiles: E T I E L   Answer: elite
+
+  [sat/standard] (noun) — A person with outstanding skill in music or another artistic pursuit.
+      Tiles: R S O U I V O T   Answer: virtuoso
+
+  [sat/standard] (noun) — A very large quantity of something; more than enough.
+      Tiles: D E N N U A C B A   Answer: abundance
+
+  [sat/standard] (adjective) — Showing outstanding skill and confident command in doing something.
+      Tiles: F S E M T R U L A   Answer: masterful
+
+  [sat/standard] (verb) — To argue against or attempt to prove wrong.
+      Tiles: V O O E T R N C R T   Answer: controvert
+
+  [sat/standard] (verb) — To formally end a law, system, or practice.
+      Tiles: S B L O I H A   Answer: abolish
+
+  [sat/standard] (noun) — The state of being widely celebrated and honored by many people.
+      Tiles: O W N E N R   Answer: renown
+
+  [sat/standard] (noun) — An organized community or state with a structured form of government.
+      Tiles: T I O P Y L   Answer: polity
+
+  [sat/standard] (adjective) — Easily broken, damaged, or destroyed.
+      Tiles: L F G I R E A   Answer: fragile
+
+  [sat/standard] (verb) — To take apart or break down into separate pieces.
+      Tiles: I L N T M S A D E   Answer: dismantle
+
+  [sat/hard] (noun) — A person or thing serving as a typical or ideal model to copy.
+      Tiles: E A M L E P R X   Answer: exemplar
+
+  [sat/hard] (verb) — To swell or stretch outward, usually from internal pressure.
+      Tiles: D E N D T I S   Answer: distend
+
+  [sat/hard] (verb) — To gather or summon troops, support, or one's own inner strength.
+      Tiles: S U E T R M   Answer: muster
+
+  [sat/hard] (noun) — Severe mental or physical suffering, often caused by grief or loss.
+      Tiles: S I G H A U N   Answer: anguish
+
+  [sat/hard] (verb) — To lock someone up and hold them against their will.
+      Tiles: I P I N R O S M   Answer: imprison
+
+  [sat/hard] (verb) — To mix and socialize in a friendly way, often with people one shouldn't.
+      Tiles: I A T R N F R E Z E   Answer: fraternize
+
+  [sat/hard] (noun) — Physical or mental weakness, especially caused by old age or illness.
+      Tiles: F I T I M Y N I R   Answer: infirmity
+
+  [sat/hard] (verb) — To crouch or shrink down low in fear of someone or something.
+      Tiles: E R C O W   Answer: cower
+
+  [sat/hard] (adjective) — Free from restrictions or controls; able to act without limits.
+      Tiles: E N T R U E F T E D   Answer: unfettered
+
+  [sat/hard] (verb) — To formally break up a group so it no longer exists.
+      Tiles: A D N B I S D   Answer: disband
+
+  [sat/hard] (adjective) — Happening every day; ordinary and utterly commonplace.
+      Tiles: N D A I Q T U I O   Answer: quotidian
+
+  [sat/hard] (adjective) — Covering a wide area; great in extent or range.
+      Tiles: P N A I E V X E S   Answer: expansive
+
+  [sat/hard] (noun) — Light, playful conversation exchanged for amusement.
+      Tiles: N B A G E A I D   Answer: badinage
+
+  [sat/hard] (verb) — To risk money or something valuable on an uncertain outcome.
+      Tiles: L E M G B A   Answer: gamble
+
+  [sat/hard] (adjective) — Including every possible detail; thoroughly complete.
+      Tiles: X H I A E U V T E S   Answer: exhaustive
+
+  [sat/hard] (noun) — The power or influence to affect people, events, or decisions.
+      Tiles: L T O U C   Answer: clout
+
+  [sat/hard] (adjective) — Acting without proper care or attention to possible danger.
+      Tiles: O S T U U A I C N I   Answer: incautious
+
+  [sat/hard] (noun) — The condition of being forced to work for another without freedom.
+      Tiles: D S U V E I R T E   Answer: servitude
+
+  [sat/hard] (adjective) — Pleasant and agreeable, especially because of a similar temperament.
+      Tiles: G I O A L C N E N   Answer: congenial
+
+  [sat/hard] (noun) — Good-natured teasing or joking directed at someone in a friendly spirit.
+      Tiles: A R R L L E I Y   Answer: raillery
+
+  [sat/hard] (adjective) — Excessively smooth, oily, and insincere in manner or speech.
+      Tiles: U O C U N S U T   Answer: unctuous
+
+  [sat/hard] (noun) — Grave injustice or profound wickedness.
+      Tiles: T N I Y I I Q U   Answer: iniquity
+
+  [sat/hard] (noun) — An official act releasing a person from punishment for a crime.
+      Tiles: N R P O D A   Answer: pardon
+
+  [sat/hard] (verb) — To reveal private or secret information to others.
+      Tiles: V I U D E G L   Answer: divulge
+
+  [sat/hard] (adjective) — Tending to act on sudden urges without stopping to think things through.
+      Tiles: M I P V L S U I E   Answer: impulsive
+
+  [sat/fiendish] (noun) — The point or level at which something begins, or a strip of floor beneath a doorway.
+      Tiles: L E H S O T R D H   Answer: threshold
+
+  [sat/fiendish] (adjective) — Deprived of something or someone, and left empty as a result.
+      Tiles: F E T E R B   Answer: bereft
+
+  [sat/fiendish] (noun) — A false belief held firmly despite clear evidence against it.
+      Tiles: L S D N I E O U   Answer: delusion
+
+  [sat/fiendish] (adjective) — Containing a large number of inhabitants living in one area.
+      Tiles: P L O U U P S O   Answer: populous
+
+  [sat/fiendish] (noun) — The physical or social setting in which a person lives or something takes place.
+      Tiles: E I L M I U   Answer: milieu
+
+  [sat/fiendish] (noun) — The state of being first in rank, importance, or order.
+      Tiles: A Y R I C M P   Answer: primacy
+
+  [sat/fiendish] (noun) — The condition of being enslaved or held under another person's total control.
+      Tiles: E N G O D B A   Answer: bondage
+
+  [sat/fiendish] (verb) — To bring someone before a court to answer a criminal charge.
+      Tiles: I R A R A G N   Answer: arraign
+
+  [sat/fiendish] (verb) — To seriously weaken the strength or health of a person or thing.
+      Tiles: L B I T A E E T D I   Answer: debilitate
+
+  [sat/fiendish] (adjective) — Abandoned and left in a run-down, neglected condition.
+      Tiles: E L I T E R D C   Answer: derelict
+
+  [sat/fiendish] (verb) — To reject a lower decision by exercising greater authority.
+      Tiles: E O R R L V U E   Answer: overrule
+
+  [sat/fiendish] (verb) — To correct or restrain someone through criticism or punishment, making them humbler.
+      Tiles: A H E S C T N   Answer: chasten
+
+  [sat/fiendish] (noun) — A place of safety, calm, or comfortable retreat.
+      Tiles: V A N H E   Answer: haven
+
+  [sat/fiendish] (adjective) — Far greater in amount or price than is reasonable or fair.
+      Tiles: T O T A E R N I B X   Answer: exorbitant
+
+  [sat/fiendish] (noun) — A feeling of worry or anxiety that disturbs one's peace of mind.
+      Tiles: T S D I E U I Q   Answer: disquiet
+
+  [sat/fiendish] (noun) — A carefree wanderer who roams without a permanent home or fixed plans.
+      Tiles: A O G N A V D B   Answer: vagabond
+
+  [sat/fiendish] (adjective) — Spreading out widely and irregularly over a large area.
+      Tiles: S G N R I A W P L   Answer: sprawling
+
+  [sat/fiendish] (adjective) — Feeling deep shock and dismay at something offensive or dreadful.
+      Tiles: L A D E P L P A   Answer: appalled
+
+  [sat/fiendish] (noun) — A phrase whose meaning cannot be guessed from its individual words.
+      Tiles: M D I O I   Answer: idiom
+
+  [sat/fiendish] (adjective) — Forced to leave one's home or normal position.
+      Tiles: C I D A D L E S P   Answer: displaced
+
+  [sat/fiendish] (noun) — A small piece broken off or detached from a larger whole.
+      Tiles: R F E M A N G T   Answer: fragment
+
+  [sat/fiendish] (verb) — To shield from heat, cold, or unwanted influence by surrounding with a barrier.
+      Tiles: E I L S T A N U   Answer: insulate
+
+  [sat/fiendish] (adjective) — Easily annoyed and inclined to complain in a childish, bad-tempered way.
+      Tiles: E P S H V E I   Answer: peevish
+
+  [sat/fiendish] (noun) — The condition of being under another's power, like a slave.
+      Tiles: H A L R L T   Answer: thrall
+
+  [sat/fiendish] (verb) — To formally break up a group so it no longer exists.
+      Tiles: D D S B A I N   Answer: disband

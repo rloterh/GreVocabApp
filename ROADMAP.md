@@ -19,6 +19,18 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the shipped feature list.
 
 ## Next up (start here)
 
+**v1.4.0 shipped on 2026-10-14: Games** (Phases 19–25, at the end of this
+file). Planned as "v1.2"; 1.2.0 and 1.3.0 had already been tagged for the
+word-of-the-day and day-rail releases after v1.1, so it shipped as 1.4.0.
+A games section of timed, scored rounds modelled on Merriam-Webster's word
+games, and the tracks renamed Advanced and Easy.
+[ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
+2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
+**Phases 19–25 are done** — nine games, the Daily Round, haptics, the
+offline state, Picture It drawn in-house (ADR 0018, accepted), and the
+release. Design:
+[docs/GAMES.md](./docs/GAMES.md).
+
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
 ([ADR 0014](./docs/adr/0014-dev-branch-default.md)) and merges to `main` at the
 end of Phase 18.
@@ -345,7 +357,7 @@ Design: [`docs/MOBILE.md`](./docs/MOBILE.md) ·
 - ~~**[P0] Android toolchain and `tauri android init`.**~~ **DONE 2026-09-12.** — NDK 27.3.13750724, Temurin JDK 17, four Rust targets, `tauri android init` generated, and a **signed 23.7 MB arm64 APK produced and verified by `apksigner`**. Four traps are written up in CONTINUING.md: Android Studio's bundled JBR is Java 25 and Gradle rejects it with a message that never mentions Java; Studio installs neither the NDK nor the command-line tools; `tauri android build` cannot symlink on Windows without Developer Mode; and the Gradle Rust task runs the *dev* script, so a release build must skip it.
 - ~~**[P0] Platform capability gating.**~~ **DONE 2026-09-12.** — `src/lib/platform.ts` asks "can I watch a folder?", never "is this Android?". Its tests are a capability table, so what works where is reviewable in one place. 37 tests.
 - ~~**[P0] System back button.**~~ **DONE 2026-09-12.** — `useSystemBack`, over the History API the gesture actually drives. Back navigates within the app and only exits from the home screen. **Unverified on a device.**
-- ~~**[P0] Scheduled notifications.**~~ **DONE 2026-09-12**, on the code side. `tauri-plugin-notification` registered and granted in capabilities; the reminder sends through the OS service when packaged and falls back to the browser API on the web, which the UI already describes honestly. The Android 13+ runtime prompt is requested at send time. **Unverified on a device.**
+- ~~**[P0] Scheduled notifications.**~~ **DONE 2026-09-13**, verified on an Android 14 emulator. The 2026-09-12 entry that claimed this "on the code side" was wrong: the plugin was registered and permission requested, but nothing ever called a scheduling API, so no reminder could have arrived with the app closed. Now `scheduleDailyReminder` invokes `plugin:notification|notify` with a calendar *pattern* (`{ interval: { hour, minute } }`), which the OS re-arms daily; `dumpsys alarm` shows the pending `RTC_WAKEUP`. Two device-only bugs fell out: `{ at: { date, repeating: true } }` derives its repeat interval from `date - now`, and `Notification.requestPermission()` never resolves on Android 13+ when permission is already granted — an upstream `NotificationPlugin.kt` branch with no `else` — which also wedges every later notification command in that process. The alarm is inexact by choice; see `src/lib/reminder-schedule.ts`.
 - **[P1] Share-target intent.** — Receive a `.json`, `.csv` or `.apkg` shared from another app.
 - **[P1] Play Store submission.** — Keystore kept out of the repo, privacy policy, data-safety form declaring no collection, content rating, screenshots.
 - **[P2] Android CI.** — Build the APK on a runner, so the mobile build cannot rot the way the desktop build did.
@@ -626,11 +638,315 @@ after contrast without alpha compositing and input names without labels.
 - ~~The migration acceptance test holds.~~
 - ~~`main` is a working app that a stranger can clone.~~ Verified on `main` after the merge.
 
+# v1.2 — Games
+
+Timed, scored rounds on the vocabulary the app already teaches, plus the track
+rename to **Advanced** and **Easy**. One release, on `dev`, merged to `main` at
+the end of Phase 25.
+
+**Read first:** [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md)
+(must be accepted before Phase 19), [ADR 0017](./docs/adr/0017-track-display-names.md),
+then [docs/GAMES.md](./docs/GAMES.md) and [docs/GAMES-UI.md](./docs/GAMES-UI.md).
+Each phase has a ready-to-run session prompt in
+[docs/GAMES-PROMPTS.md](./docs/GAMES-PROMPTS.md).
+
+**Order is deliberate.** Phase 19 ships *one* game end to end — engine, shell,
+persistence, hub, review — because every later game is a builder plus a stage
+variant on top of it. Building three games before the shell is proven would
+mean fixing the same bug three times.
+
+## Phase 19 — Foundations, the rename, and Closest Meaning
+
+**Goal.** One complete game, playable from the hub to the review list, on both
+tracks, persisted, and verified in a browser.
+
+### Tasks
+
+- ~~**[P0] Accept ADR 0016 and ADR 0017.**~~ **DONE 2026-10-13**, with every
+  recommended option in GAMES.md §14: games count toward the streak, Games
+  takes Quiz's tab, Picture It waits for its spike, "Advanced" and "Easy".
+- ~~**[P0] Track display names.**~~ **DONE 2026-10-13.** — Display only; a
+  `TRACK_DISPLAY_ORDER` puts Easy first in the switcher without touching
+  `TRACKS`, which seeding and migration iterate. Five drivers that found the
+  switcher by its old label were updated. `tracks-smoke.mjs` had **two
+  failures that predated this work** (identical on the untouched tree): it
+  still expected only Advanced to be seeded, which stopped being true when both
+  tracks began seeding in e31b1a0. Both checks were restated rather than
+  dropped — the migrated months must still be exactly `gre/01,gre/02`, and the
+  Easy notebook must report its own word count, counted from storage, with none
+  of Advanced's mastered words. 24/24.
+- ~~**[P0] `src/lib/games/` engine.**~~ **DONE 2026-10-13.** — 54 tests,
+  including a property test of the guard over real cards from both tracks.
+- ~~**[P0] Game corpus hook.**~~ **DONE 2026-10-13.** — Plus a generated
+  `public/vocab/relations.json` (400 KB, 128 KB gzipped): the guard needs the
+  whole corpus's synonym graph, and fetching every month for it would be 3.6 MB.
+- ~~**[P0] Persistence.**~~ **DONE 2026-10-13**, with one deliberate deviation:
+  **no version bump.** The new fields are new keys, which zustand's default
+  merge fills from the initial state; bumping the version would have made every
+  blob the tracks migration stamped look stale. A test hydrates a v1.1-shaped
+  blob instead, and the driver reads the best off the hub after a reload.
+- ~~**[P0] The `games` page and shell.**~~ **DONE 2026-10-13.** — The stage is
+  a fixed layer over the whole app, so nothing in the shell had to learn to
+  hide; an `immersive` flag stands global shortcuts down and a `backHandler`
+  turns system back into pause.
+- ~~**[P0] Closest Meaning.**~~ **DONE 2026-10-13.** — 28–42 ms per round once
+  the graph is built.
+- ~~**[P0] `scripts/audit-games.ts`.**~~ **DONE 2026-10-13.** Every tier of
+  both tracks fills a round. The owner delegated the read, so it was done
+  as **three independent blind reads of three fresh samples**, each by a
+  reviewer told the rubric and nothing about earlier findings. A fix tuned
+  against one sample was always judged on the next. Results:
+  **5.0% → 2.0% → 1.5%**, with zero wrong keys in the last.
+  - *Seed 1, 5.0%:* defensible distractors from the same meaning area
+    (*unravel* → "uncover", *demented* → "frenzied"). Fixed generally: no
+    same-month bonus (months are themed, so a same-month word is the likeliest
+    near-synonym), and any shared content word between two definitions now
+    counts as too close.
+  - *Seed 2, 2.0%:* half were **wrong keys** (*inquisitive* → "nosy"). Caused by
+    ranking synonyms shortest-first and, on Fiendish, taking the least familiar.
+    The lists are best-first, so the key is now always the first usable
+    synonym, and a word needs two usable synonyms to qualify (68 words fail).
+  - *Seed 3, 1.5%:* three near-synonyms no data links, now in
+    `REVIEWED_EXCLUSIONS`, plus a clipped-form key (*expatriate* → "expat"),
+    now refused by rule.
+  Earlier, in-house reads found and fixed *eulogize* → "extol", *jaunty* →
+  "cheerful" and *illegitimate* → "illegal". The samples are in `audit-out/`.
+- ~~**[P1] Navigation.**~~ **DONE 2026-10-13.** — `g m` opens Games.
+- ~~**[P1] `scripts/drive/games-smoke.mjs`.**~~ **DONE 2026-10-13.** — 27
+  checks, run against seeded progress so "a round changed nothing" can fail:
+  mastered, accuracy and due counts read off the dashboard before and after.
+
+### Definition of done
+
+- A user plays Closest Meaning on Warm-up, Standard, Hard, Fiendish and Mine,
+  on both tracks, at 360, 768 and 1280.
+- After a round, the Dashboard's mastered and due counts are unchanged.
+- A best survives a reload, read off the screen.
+- The UI says Advanced and Easy; the data says `gre` and `sat`.
+- Typecheck, build, the full suite, both corpus audits and every driver are
+  green.
+
+## Phase 20 — Fact or Fiction, Opposites, Fill the Gap
+
+**Goal.** Three more games, and the review bridge into Flashcards.
+
+### Tasks
+
+- ~~**[P0] Fact or Fiction.**~~ **DONE 2026-10-13.** — Means, Synonym, Opposite
+  and Root templates; the explanation waits for Continue with the clock stopped.
+  Balanced 5/5 per round, never four the same in a row, every fiction explained.
+  Blind reads, each on a fresh sample: **4.0% → 2.0% → 0.5%**. Six of the first
+  eight flags were relationship statements built from one card's list
+  (*dread* "opposite of" anticipate). A synonym or opposite is now stated only
+  when **both cards name the pair** (2,141 words have such a synonym, 814 an
+  antonym); otherwise the builder uses a definition statement, which every
+  read found clean. Also: "describing …" definitions read as "“x” describes …",
+  and *archetype* left the `arch` ("ruler") family in `roots.ts` — a curated
+  error that the word cards were showing too.
+- ~~**[P0] Opposites.**~~ **DONE 2026-10-13.** — Key is the card's first usable
+  antonym; a synonym trap from Standard up, named in review. Blind reads:
+  **2.5% → 3.0% → 0.5%**. Nouns, then verbs, kept producing forced keys
+  (*silt* → "gravel", *supplant* → "retain", *dread* → "eagerness"), so a
+  noun's or verb's antonym must now be **confirmed by both cards**; adjectives
+  keep the looser rule, and their lists held up. That costs coverage — 34–48%
+  of eligible words build — and still leaves 209–483 per tier.
+- ~~**[P1] Fill the Gap.**~~ **DONE 2026-10-13.** — Blind reads: **2.5% →
+  0.5%**. The first read found a sentence with **no blank**, which led to a bug
+  in `blankOut` itself, shared with the Confusables drill: it matched
+  "opponent's" against a punctuation-stripped copy, replaced nothing, and
+  reported success. Fixed at the source, with a test. A unit test then found a
+  second leak no read had: a sentence using its word twice ("for want of a
+  nail … for want of a shoe") — those are now skipped.
+- ~~**[P0] "Review these in Flashcards".**~~ **DONE 2026-10-13**, driven end
+  to end in Phase 21 — no test hook needed after all. "Mine" draws only from
+  studied words, so the driver seeds 45 of them, misses at least one on
+  purpose, and presses the button: the 9 missed words became due, the 36
+  others kept their schedule exactly. A unit test also pins the results screen
+  as the only `applyStudyRating` call in all games code.
+- **Found by driving it:** tapping Games in the nav from a results screen did
+  nothing, since the page was already open. It now returns to the hub (only
+  from results; nothing else resets on a re-tap).
+
+### Definition of done
+
+- Each game passes the corpus-wide property test and the human-read sample.
+- The review action is the only path from a game into SM-2, and a test proves no
+  other game code calls `applyStudyRating` or `recordQuizAnswer`.
+
+## Phase 21 — Odd One Out, Match Up, Spell It
+
+**Goal.** The three games that are not multiple choice, each with its own stage.
+
+### Tasks
+
+- ~~**[P1] Odd One Out.**~~ **DONE 2026-10-13.** — Blind reads: **3.5% → 1.0%**.
+  The outsider was never in doubt; every flag was in the *three*. A definition
+  with two senses ("sobriety": not drunk, or serious) gave two synonyms that
+  each took one sense and shared nothing. Now the two synonyms must be **linked
+  to each other** (one lists the other, or another card lists both), with at
+  least one confirmed. Requiring both confirmed as well left 26 words on the
+  hardest tier, so it was measured and not shipped. The note says the three are
+  "close in meaning" rather than claiming each fits the word's narrow
+  definition, which it taught falsely for *gentry*.
+- ~~**[P1] Match Up.**~~ **DONE 2026-10-13.** — Blind read: **0.5%** first time.
+  The five words on a board are mutually unrelated (no word in another's
+  meaning neighbourhood, no two definitions sharing a content word), so no
+  match can fairly pair two ways. Warm-up boards prefer a confirmed synonym,
+  after *translucent* → "frosted". A wrong pair costs two seconds and no
+  points; pairs made before a time-out still score. Every item is a button, so
+  Tab and Enter play it; arrow-key movement inside a column was **not** built.
+- ~~**[P1] Spell It.**~~ **DONE 2026-10-13.** — Blind reads: **3.0% → 0.5%**,
+  and every flag was a legitimate spelling marked wrong (*generalise*,
+  *rarified*, *pre-eminent*). The checker now accepts the regular
+  British/American patterns, ignores hyphens, spaces and accents, and has a
+  short reviewed list of one-off variants. The asymmetry is deliberate: a rare
+  misspelling that looks like a variant passes, and a correct spelling is never
+  failed. Autocorrect, autocapitalise, spellcheck and autocomplete are off,
+  asserted in the browser; **the Android emulator run is still owed** — it needs
+  the toolchain session from the CONTINUING.md runbook.
+
+### Definition of done
+
+- The tablet audit passes with each stage running, in both orientations.
+
+## Phase 22 — Daily Round and the surfaces around it
+
+**Goal.** A reason to open Games every day, and its place on the Dashboard and
+Progress pages.
+
+### Tasks
+
+- ~~**[P1] Daily Round.**~~ **DONE 2026-10-14.** — Ten questions from Closest
+  Meaning, Fact or Fiction, Opposites and Fill the Gap (3/3/2/2), Standard
+  words, 15 seconds each. Seeded by local date and track, so everyone on the
+  same version and track gets the same round until midnight. The first finish
+  is the day's result; replays are filed as practice and never replace it. No
+  best is kept: there is nothing to beat but tomorrow. Each question carries
+  its own game's instruction. Not blind-reviewed separately: every question
+  comes from a builder that already passed.
+- ~~**[P1] Dashboard card.**~~ **DONE 2026-10-14.** — One line under word of the
+  day and one tap to the round; no game number joins the stat row. The record
+  of days played lives in `daily-record.ts`, which imports nothing but types,
+  so the Dashboard chunk stays at 11 KB with no builder code in it — checked
+  in the build output, not assumed.
+- ~~**[P1] Progress → Games.**~~ **DONE 2026-10-14.** — Bests per game and tier
+  for the open track, and the last fourteen Daily Rounds. A component test
+  renders a history and asserts its sum appears nowhere, in any formatting.
+  On a phone the bests are a list, since six columns do not fit 360px.
+- ~~**[P1] Sounds.**~~ **DONE in Phase 19.**
+- ~~**[P2] Share text.**~~ **DONE 2026-10-14.** — Clipboard, plain text, no link:
+  one line and a row of squares. Daily rounds store their right/wrong pattern,
+  so a result shared later from the hub shows the real order rather than a
+  reconstruction.
+
+### Definition of done
+
+- The legacy-state driver opens Games and the Dashboard with no `gameRounds`
+  key in storage and nothing goes blank.
+
+## Phase 23 — Craft
+
+### Tasks
+
+- ~~**[P2] Unscramble.**~~ **DONE 2026-10-14.** — Blind reads: **6.0% → 0%**.
+  Every flag was an anagram among ordinary English words — *tacit*/"attic",
+  *dirge*/"ridge", *slump*/"plums" — which the corpus cannot know. Fixed with a
+  dictionary **at build time**: `scripts/build-anagrams.ts` checks every corpus
+  word against SCOWL levels 10–50 (`wordlist-english`, a dev dependency that
+  never ships) and writes the 371 colliding letter-sets to a 3.5 KB file; the
+  audit fails if it is stale. The corpus's own anagrams (*discreet*/*discrete*)
+  are caught too. Wrong arrangements cost only time; the hint places the first
+  letter for half points. **Driving it found two bugs:** typing a "p" on the
+  board paused the game (Unscramble takes letters with no text field, so the
+  pause key now stands down there too), and the board re-checked a full row on
+  every 100 ms re-render of the stage — the clear timer never fired and the
+  "wrong" sound replayed ten times a second.
+- ~~**[P2] Haptics.**~~ **DONE 2026-10-14.** — `canVibrate` (the API on a
+  touch screen), a short tap for right and a double pulse for wrong, behind
+  the sound switch. `android-prepare.mjs` now declares `VIBRATE`, without
+  which an Android WebView ignores `navigator.vibrate` silently; applied and
+  re-checked against the real generated manifest. **Not felt on hardware** —
+  no device or emulator run this phase.
+- **[P2] AI-written statements.** **Deferred, deliberately.** Every other
+  question in the games passed a blind read of a fresh sample before it
+  shipped; model-written statements would be generated per player, at play
+  time, and could not be held to that bar. It also makes Fact or Fiction
+  depend on a provider for a template the heuristic version does without.
+  Revisit only with a way to review what ships — for instance, generated once
+  at corpus-build time and reviewed like the rest.
+- ~~**[P2] Empty, loading and offline states.**~~ **DONE 2026-10-14.** — A word
+  file that fails to load now says so ("are you offline?"), points at Mine
+  (studied words need no network), and offers **Try again**, which really
+  re-fetches: failed fetches are never cached. Driven by blocking the files,
+  then unblocking and retrying. Loading is the Play button's own label;
+  a too-small Mine pool already said why.
+
+## Phase 24 — Picture It
+
+**DONE 2026-10-14.** Decision D3 went to the in-house diagrams.
+
+### Tasks
+
+- ~~**[P0] Spike: the picture pack.**~~ **DONE 2026-10-14** —
+  [ADR 0018](./docs/adr/0018-picture-it-in-house-diagrams.md), *accepted*.
+  Licences checked at source: Openclipart CC0, Fluent Emoji MIT, Noto Apache
+  2.0, OpenMoji CC BY-SA 4.0. Every emoji set fails the format — whole objects,
+  no parts to point at. Commissioning 150 spot illustrations: about
+  $7,500–22,500 at entry rates. A working prototype (`docs/spikes/picture-it/`)
+  shows in-house SVG diagrams read as part of the app, follow every theme, and
+  make each question's options the other parts of the same object.
+  **Recommendation: about ten in-house diagrams, 80–100 questions, no budget.**
+  The owner chose it.
+- ~~**[P1] Picture It.**~~ **DONE 2026-10-14.** Ten diagrams, 86 parts, as
+  data (`src/lib/games/pictures/`), drawn in theme tokens; options are three
+  other parts of the same object; tierless, trackless, and playable offline
+  from the first launch. Blind review from rendered, unlabelled sheets:
+  10 of 86 flagged → 2 → 0, with the watch taking two extra rounds (hands
+  too alike, then a callout along a hand); every part named correctly on
+  every pass. `scripts/audit-pictures.tsx` writes the sheets. 15 new tests (diagram integrity: every named part drawn and
+  every drawn part named, callouts on the canvas, theme tokens only; round
+  composition over 200 seeds; every part reachable). The games driver plays a
+  full round, checks the review shows the drawing and never the library, and
+  plays it with the network gone.
+
+## Phase 25 — v1.2 release (shipped as v1.4.0)
+
+**DONE 2026-10-14.** Tagged `v1.4.0`: the version numbers 1.2.0 and 1.3.0
+were already taken.
+
+### Tasks
+
+- ~~**[P0] README, CHANGELOG, screenshots**~~ — `screenshots.mjs` now also
+  takes the games hub and two questions on a phone (Closest Meaning, Picture
+  It). Looking at them found the one user-visible bug of the release: the
+  track switcher split its width evenly, which clipped "Advanced" beside
+  "Easy" on phones, and the tablet rail had room for neither. Fixed, recorded
+  in ADR 0017, and measured by `games-smoke.mjs` at three widths.
+- ~~**[P0] CONTINUING.md**~~ — *Add a game* was already there; it now covers a
+  game not built from words.
+- ~~**[P0] Run the checklist on `main` after the merge**~~, as v1.1 did.
+
+The checklist found three stale things, none of them in the app: the games
+audit failed every tier of Picture It, which has no tiers (it now skips
+tierless games); `plan-smoke` counted the designed cross-track overlap as
+repeats (it now checks within a track, and finds none in 630 words); and three
+drivers wrote screenshots into the repository root (they now honour
+`OUT_DIR`).
+
+### Definition of done
+
+- Typecheck, build, the full suite, both corpus audits, the games audit and
+  every driver are green on `main`.
+- A signed Android build has been installed on the emulator and one round of
+  every shipped game has been played on it. **Done** with
+  `scripts/drive/android-games.mjs`, which attaches to the installed app's
+  WebView through adb, so it is a command for every release after this one.
+
 ## Explicitly not planned
 
 - **Cloud sync as a first-party feature.** — Users can export/import; that's enough. If cloud sync happens, it's via a pluggable adapter (Dropbox, iCloud file), never a Lexicon-owned backend.
 - **User accounts.** — Same reason.
-- **Gamification beyond streaks.** — No XP bars, no levels, no leagues. Streaks + heatmap are enough.
+- **Gamification beyond streaks and per-game bests.** — No XP bars, no levels, no leagues, no points total. Streaks, the heatmap and a best per game are enough. See [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) for where the line sits and why.
 - **Payment / freemium.** — MIT, forever.
 
 ## Ideas parking lot

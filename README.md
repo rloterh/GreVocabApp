@@ -2,7 +2,7 @@
 
 A premium daily vocabulary practice app. Learn a few new words each day, track your growth over months and years, quiz yourself, and write sentences that get checked for grammar and correct usage.
 
-Two vocabularies — **GRE** and **SAT** — each three years long, each with its own schedule and its own progress. Switching between them is like opening a different notebook: nothing is lost, nothing is merged, and coming back finds it as you left it.
+Two vocabularies — **Advanced** and **Easy** — each three years long, each with its own schedule and its own progress. Switching between them is like opening a different notebook: nothing is lost, nothing is merged, and coming back finds it as you left it.
 
 Built with React 18, TypeScript, Tailwind, Framer Motion, and Tauri v2 — runs as either a native desktop app or a plain web app.
 
@@ -36,6 +36,14 @@ longer line.
 
 ![Lexicon at desktop width, with the sidebar navigation beside the dashboard](docs/screenshots/desktop.png)
 
+### Games
+
+![The Games page at desktop width: today's Daily Round above cards for Closest Meaning, Fact or Fiction and Opposites, each with its difficulty tiers](docs/screenshots/games-hub.png)
+
+| Closest Meaning — 390px | Picture It — 390px |
+| --- | --- |
+| <img src="docs/screenshots/game-closest.png" alt="A Closest Meaning question on a phone: a word in large serif type, a countdown, and four options" width="100%"> | <img src="docs/screenshots/game-picture.png" alt="A Picture It question on a phone: a line drawing of a sailing ship with the boom lit in green, and four part names to choose from" width="100%"> |
+
 Touch targets are keyed to the *pointer*, not the width — a narrow window on a
 desktop keeps its density, and a large tablet still gets 44px targets. Verified
 by `scripts/drive/` at 360px and across five tablets in both orientations: no
@@ -44,9 +52,11 @@ every control has a name, and rotating the device keeps the card you were on.
 
 ## Features
 
-- **Two tracks** — GRE and SAT, switched from a control that is visible on every screen. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
+- **Games** — nine short timed games on the same words, and a **Daily Round** that is the same for everyone on your track that day: Closest Meaning, Fact or Fiction, Opposites, Fill the Gap, Odd One Out, Match Up, Spell It, Unscramble, and Picture It (name the lit part of a drawn ship, temple or watch). Four difficulty tiers plus your own studied words, a best per game, and a review of every answer afterwards. Every wrong option is checked against the whole corpus so it is never arguably right, and every game passed a blind review of fresh questions. A round never changes your flashcard schedule unless you ask it to, from the results screen
+- **Two tracks** — Advanced and Easy, switched from a control that is visible on every screen. Both arrive with two months already loaded, so switching is instant and nothing has to be fetched first. Separate content, separate schedules, separate progress; one streak, because showing up is showing up
 - **Start whenever you like** — pick the month you begin and the app lays three years out from there. Reorder the months, or reshuffle the words, without losing a day of progress
 - **Daily practice** — animated flashcards with definition, example, and mnemonic
+- **Synonyms and antonyms** — on the flashcard, in daily practice and in word details; switch them off in Settings for a plainer card when you are drilling recall
 - **Custom calendar** — jump to any month, quarter, or day; days without vocabulary are dimmed
 - **Quiz mode** — three modes (word→def, def→word, mixed) with any pool: mastered, current month, or everything
 - **Sentence builder** — write practice sentences; get feedback via Anthropic API or local heuristics
@@ -58,6 +68,8 @@ every control has a name, and rotating the device keeps the card you were on.
 - **Light & dark themes** — with warm off-white / near-black palettes
 - **Flashcard navigation** — arrows at the card's left and right edges, hidden until you hover, focus or tap; swipe or drag to move between cards; `←` `→` do the same. Rating keeps its own buttons, so a swipe can never record a judgement you did not mean
 - **Works on a phone and a tablet** — one responsive shell: tab bar, icon rail, sidebar. 44px touch targets, safe-area aware, fullscreen below `lg`
+- **Nothing important below the fold** — whatever starts a session, rates a card or moves to the next one stays pinned in reach, on every screen size. `scripts/drive/reach-audit.mjs` measures it
+- **Daily reminders that actually arrive** — handed to the operating system, so the nudge reaches you with the app closed
 
 ## Quick start (web app)
 
@@ -77,6 +89,47 @@ npm install
 npm run tauri:dev        # Development mode
 npm run tauri:build      # Produces installers in src-tauri/target/release/bundle/
 ```
+
+## Installing it
+
+Built artifacts are not committed — build them, or take them from a release.
+
+### Windows
+
+```bash
+npm run tauri:build
+```
+
+| | Where | Who for |
+| --- | --- | --- |
+| `Lexicon_<version>_x64-setup.exe` | `src-tauri/target/release/bundle/nsis/` | **Most people.** Installs for the current user, no administrator rights |
+| `Lexicon_<version>_x64_en-US.msi` | `src-tauri/target/release/bundle/msi/` | Deployment tooling. Installs per machine, so it prompts for elevation |
+| `lexicon.exe` | `src-tauri/target/release/` | Running it without installing |
+
+Both installers are unsigned, so Windows SmartScreen shows "Windows protected
+your PC" the first time — *More info → Run anyway*. [docs/DESKTOP.md](./docs/DESKTOP.md)
+explains why, and what fixing it would take.
+
+### Android
+
+```bash
+node scripts/android-prepare.mjs                       # signing config + resources
+npx tauri android build --target aarch64 --apk         # a real phone or tablet
+```
+
+The APK lands in
+`src-tauri/gen/android/app/build/outputs/apk/arm64/release/`. Copy it to the
+device and open it; Android will ask you to allow installing from this source.
+
+**An APK, not an AAB.** `.aab` is an upload format for Play — Android cannot
+install one directly. Build an AAB only when you are publishing.
+
+**Match the architecture.** `aarch64` for any phone or tablet of the last
+decade; `x86_64` only for an emulator. An arm64 APK installs on an emulator
+and then fails to start, and the reverse is worse — it looks like an app bug.
+
+Signing, the Windows symlink workaround and the emulator traps are all in
+[docs/MOBILE.md](./docs/MOBILE.md).
 
 ## Loading your own vocabulary
 
@@ -346,12 +399,23 @@ Content and verification, run with `npx tsx`:
 | `scripts/repair-corpus.ts --track sat` | Dedupe a track and top up short months |
 | `scripts/audit-corpus.ts` | Check every track with the app's own parser, stemmer and quality rules |
 | `scripts/build-vocab-index.ts` | Rebuild `public/vocab/index.json` so the library can list months without downloading them |
+| `scripts/enrich-relations.ts` | Fill in missing synonyms and antonyms. Only asks about words that have none, so it resumes and re-runs safely |
 | `scripts/render-icon.mjs` | Rasterise `public/icon.svg` for `tauri icon` |
+
+Packaging:
+
+| Command | What it does |
+| --- | --- |
+| `scripts/android-prepare.mjs` | Restore the signing config and tracked resources to the generated Android project, which loses both every time it is regenerated. `--check` reports without changing anything |
+| `scripts/sync-starters.mjs` | Regenerate `src/data/` from the corpus. Those files are a derived copy of the months each track opens with, bundled so first run needs no fetch; `--check` fails if they have drifted, which the corpus audit runs |
 
 Browser drivers live in [`scripts/drive/`](./scripts/drive/) and need a Chromium
 path in `CHROME_EXE`. They cover accessibility and contrast, keyboard and focus,
 phone and tablet layout, the tracks migration, the schedule, and the flashcard
-gestures — the things a unit test cannot see.
+gestures — the things a unit test cannot see. Two are worth knowing by name:
+`reach-audit.mjs` fails when a primary action drifts below the fold, and
+`relations-smoke.mjs` checks synonyms and antonyms appear on all three surfaces
+that show a word, in both states of the setting.
 
 ## Roadmap
 

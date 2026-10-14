@@ -33,6 +33,18 @@ Keep these in mind when extending:
 3. **All animations use Framer Motion** with easing `[0.16, 1, 0.3, 1]` (custom bezier — quick start, gentle finish). Keep this consistent.
 4. **The word itself uses `display-serif`** (Fraunces). Everything else is Inter. Numbers use `tabular` for stability.
 5. **Zustand stores are the source of truth**, `localStorage` is the persistence layer via `zustand/middleware`. Never write to `localStorage` directly outside `useSettingsStore` / `useVocabStore` / `useProgressStore`.
+6. **A selector must return a primitive or a stable reference — never call a store getter that builds something.** `useVocabStore((s) => s.getSchedule())` looks harmless and is an infinite render loop: the getter synthesises a schedule when a track has none, zustand compares snapshots by identity, sees a new object every render, and re-renders until React throws "Maximum update depth exceeded". This has shipped twice — `getAllMonths` and `getSchedule` — and both times the symptom was a *blank window*, not an error, because the store getters read state through `get()` that no dependency array can see.
+
+   The fix both times was the same shape, and it is the pattern to copy: a pure
+   function in `src/lib/` that takes the state it needs as arguments, plus a
+   hook in `src/store/` that subscribes to those pieces and memoises the
+   result — see [`useAllMonths`](./src/store/useAllMonths.ts) and
+   [`useSchedule`](./src/store/useSchedule.ts). Store getters stay correct for
+   one-shot reads (`getState().getSchedule()`), just not as selectors.
+
+   `scripts/drive/legacy-state-smoke.mjs` catches this class: it drives every
+   page against state with no `schedules`, which is what makes the synthesising
+   branch run at all. Seeded test data never does.
 6. **Pages don't own domain logic.** `src/lib/` holds pure functions; pages orchestrate. This makes them testable and swappable.
 7. **No `Co-Authored-By` in commits.** All commits attributed to the repo owner (Robert).
 
@@ -50,6 +62,7 @@ Keep these in mind when extending:
 | Add a setting | `Settings` in `src/types/index.ts`, a default in `DEFAULT_SETTINGS`, then a `SettingSection` in `Settings.tsx`. Backup export/restore picks it up for free |
 | Add an import format | Parse to a month-shaped object, then hand it to `loadMonth` — never build a second validator. `src/lib/csv.ts` is the worked example; `src/lib/import.ts` is where formats are dispatched, and every entry point (button, folder pickers, drop overlay) goes through it |
 | Change what Claude generates | `src/lib/generate.ts` — the prompt and the strict tool schema are next to each other. Day layout is done in code afterwards, deliberately |
+| Add a game | A builder in `src/lib/games/builders/`, a `GameId` in `src/lib/games/types.ts`, an entry in `GAMES` and `GAME_ORDER` in `catalogue.ts`; then extend `audit-games.ts` and read its sample before shipping. Every wrong option goes through the guard in `relations.ts`. A game never writes progress — see docs/GAMES.md §7. A game not built from words (Picture It) is `tierless` with a stub `build`, and `start()` in `Games.tsx` builds its round directly |
 | Add a test | `*.test.ts` beside the code, Vitest. Node environment by default; component tests are `*.test.tsx` with a `@vitest-environment jsdom` docblock. `src/test/setup.ts` supplies an in-memory `localStorage` and the jest-dom matchers. Note: `user-event` hangs under `vi.useFakeTimers()` — use the real clock in interaction tests |
 | Change the Anki output | `src/lib/anki-collection.ts` for the database, `anki-export.ts` for loading and zipping. Keep the WebAssembly import out of the former or it stops being runnable outside a browser |
 | Change sentence checks | `src/lib/verify.ts` — `heuristicVerify` and `apiVerify` are independent |
@@ -131,7 +144,8 @@ npm run tauri icon src-tauri/icons/source.png
 
 # Production build
 npm run build          # web only
-npm run tauri:build    # native installers
+npm run tauri:build    # native installers — see docs/DESKTOP.md for what
+                       # comes out and which one to hand someone
 ```
 
 ## Data model at a glance
@@ -185,7 +199,7 @@ SentencePractice (keyed by wordId:date)
 ```bash
 npm run typecheck    # must pass clean
 npm run build        # must produce dist/ without errors
-npx vitest run       # 1,127 tests
+npx vitest run       # 1,300+ tests
 ```
 
 If typecheck fails, don't push. Common failure: adding a Zustand action but forgetting to add it to the interface at the top of the store file.
@@ -194,6 +208,10 @@ If you touched content or scheduling, also:
 
 ```bash
 npx tsx scripts/audit-corpus.ts              # both tracks, must say "corpus is sound"
+npx tsx scripts/build-relations.ts           # after any corpus change
+npx tsx scripts/build-anagrams.ts            # after any corpus change
+npx tsx scripts/audit-games.ts               # fails if relations.json is stale
+npx tsx scripts/audit-pictures.tsx <dir> <seed>  # after any change to a Picture It diagram: blind sheets
 CHROME_EXE="<chrome.exe>" node scripts/drive/tracks-smoke.mjs
 ```
 
@@ -358,17 +376,30 @@ Phase 9's code-side work does not depend on any of the above and is complete:
   directory the wrong model, not because an API is missing.
 - **The system back gesture** — `src/hooks/useSystemBack.ts`. Back navigates
   within the app and only exits from the home screen.
-- **Notifications that fire with the app closed** — `tauri-plugin-notification`
-  is wired up, including the Android 13+ runtime permission, with the browser
-  API as the fallback the web build honestly admits to.
+- **Notifications that fire with the app closed** — `src/lib/reminder-schedule.ts`
+  hands a daily calendar pattern to the OS scheduler; the browser API is the
+  web fallback the UI honestly admits to. This line previously claimed the same
+  thing while nothing ever called a scheduling API. Read the module header and
+  docs/MOBILE.md before touching it: the obvious payload repeats at the wrong
+  interval, and the obvious way to ask for permission hangs forever on Android
+  13+ and takes the rest of the plugin down with it.
 
 ### Known gaps
 
-- **No signing keystore.** It must be generated on the release machine and kept
-  out of the repo. Losing it means never updating the listing again.
-- **Nothing has run on a device.** Everything above is compiled and reasoned
-  about, not observed on hardware. The definition of done for this phase is a
-  signed APK on a real device, and that has not happened.
+
+- **The signing keystore is per-machine.** `node scripts/android-prepare.mjs`
+  restores the signing config and the tracked resources to the generated
+  project, which loses both on every regeneration; the keystore itself is
+  generated on the release machine and kept out of the repo. Losing it means
+  never updating the listing again.
+- **Nothing has run on physical hardware.** A signed release APK has been built
+  and an Android 14 *emulator* has run it, which found real bugs the compiler
+  could not. What an emulator still cannot tell you: whether the notification
+  survives a vendor battery manager, how the app feels under a finger, or what
+  a real WebView version does. That needs a phone.
+- **Predictive back is not opted into.** The gesture works; the Android 14
+  preview animation does not. See docs/MOBILE.md for why enabling the flag
+  would break back navigation rather than decorate it.
 - **Share-target intent** and the Play listing itself are still open.
 
 ### What actually worked, 2026-09-12

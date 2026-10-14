@@ -12,10 +12,14 @@ import type { VocabMonth } from "@/types";
 
 const store = () => useVocabStore.getState();
 
-function month(ordinal: number, days = [1, 2]): VocabMonth {
-  const key = `gre/${String(ordinal).padStart(2, "0")}`;
+function month(
+  ordinal: number,
+  days = [1, 2],
+  track: VocabMonth["track"] = "gre",
+): VocabMonth {
+  const key = `${track}/${String(ordinal).padStart(2, "0")}`;
   return {
-    track: "gre",
+    track,
     ordinal,
     title: key,
     days: days.map((day) => ({
@@ -41,6 +45,8 @@ beforeEach(() => {
     retiredWords: [],
     activeMonthKey: null,
     selectedDay: 1,
+    activeTrack: "gre",
+    trackPositions: {},
   });
 });
 
@@ -348,5 +354,75 @@ describe("adding words to an existing month", () => {
   it("puts the new words into the index", () => {
     store().addWordsToMonth("gre/01", cards("turgid"));
     expect(store().getVocabIndex().has("turgid")).toBe(true);
+  });
+});
+
+/**
+ * Two tracks are two accounts belonging to one person: either is always there,
+ * and coming back to one should find it as it was left. A single shared
+ * `activeMonthKey` could not express that — the key always belonged to the
+ * track just left, so the guard rejected it and dropped the user on month one.
+ */
+describe("switching tracks remembers where you were", () => {
+  const setUp = () => {
+    store().loadMonth(month(1));
+    store().loadMonth(month(2));
+    store().loadMonth(month(1, [1, 2, 3], "sat"));
+    store().setActiveMonth("gre/02");
+    store().setSelectedDay(2);
+  };
+
+  it("restores the month and day on the way back", () => {
+    setUp();
+    store().setActiveTrack("sat");
+    expect(store().activeMonthKey).toBe("sat/01");
+    expect(store().selectedDay).toBe(1);
+
+    store().setSelectedDay(3);
+    store().setActiveTrack("gre");
+    expect(store().activeMonthKey).toBe("gre/02");
+    expect(store().selectedDay).toBe(2);
+
+    store().setActiveTrack("sat");
+    expect(store().activeMonthKey).toBe("sat/01");
+    expect(store().selectedDay).toBe(3);
+  });
+
+  it("opens a track never visited on its first month", () => {
+    setUp();
+    store().setActiveTrack("sat");
+    expect(store().activeMonthKey).toBe("sat/01");
+    expect(store().selectedDay).toBe(1);
+  });
+
+  it("falls back when the remembered month has been unloaded", () => {
+    setUp();
+    store().setActiveTrack("sat");
+    // The user removes the GRE month they were on while it is not in view.
+    store().removeMonth("gre/02");
+    store().setActiveTrack("gre");
+    expect(store().activeMonthKey).toBe("gre/01");
+    expect(store().selectedDay).toBe(1);
+  });
+
+  it("falls back when the remembered day is past the month's end", () => {
+    store().loadMonth(month(1, [1, 2, 3]));
+    store().loadMonth(month(1, [1], "sat"));
+    store().setSelectedDay(3);
+    store().setActiveTrack("sat");
+    // The GRE month is shortened while the user is away — a redistribution,
+    // or a reload from a corpus that has since changed.
+    store().removeMonth("gre/01");
+    store().loadMonth(month(1, [1]));
+    store().setActiveTrack("gre");
+    expect(store().activeMonthKey).toBe("gre/01");
+    expect(store().selectedDay).toBe(1);
+  });
+
+  it("is a no-op when the track is already active", () => {
+    setUp();
+    store().setActiveTrack("gre");
+    expect(store().activeMonthKey).toBe("gre/02");
+    expect(store().selectedDay).toBe(2);
   });
 });

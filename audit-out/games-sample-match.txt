@@ -1,0 +1,1403 @@
+Lexicon games — Match Up, a sample for a reader (seed 10)
+Each word should pair with exactly one item on its board. Mark AMBIGUOUS if an item could fairly pair with a second word on the same board, WRONG if a pair is not a fair match.
+Ship threshold: fewer than 2% of questions marked. Lines starting with ? were flagged by the script.
+
+  [gre/warmup] board (synonyms)
+      halcyon            ⟷ tranquil
+      imposture          ⟷ masquerade
+      unequivocal        ⟷ clear
+      gainsay            ⟷ deny
+      contravene         ⟷ violate
+
+  [gre/warmup] board (synonyms)
+      restitution        ⟷ reparation
+      quixotic           ⟷ idealistic
+      bellicose          ⟷ belligerent
+      impecunious        ⟷ penniless
+      welter             ⟷ jumble
+
+  [gre/warmup] board (synonyms)
+      shriek             ⟷ screech
+      endorse            ⟷ support
+      impartial          ⟷ fair
+      propensity         ⟷ proclivity
+      fallacious         ⟷ illogical
+
+  [gre/warmup] board (synonyms)
+      concede            ⟷ acknowledge
+      eloquent           ⟷ articulate
+      curt               ⟷ brusque
+      explicate          ⟷ interpret
+      intone             ⟷ chant
+
+  [gre/warmup] board (synonyms)
+      timorous           ⟷ timid
+      curb               ⟷ restrain
+      caustic            ⟷ acerbic
+      quibble            ⟷ cavil
+      credulous          ⟷ gullible
+
+  [gre/warmup] board (synonyms)
+      repudiate          ⟷ reject
+      lucid              ⟷ coherent
+      criterion          ⟷ standard
+      mountebank         ⟷ quack
+      deceive            ⟷ mislead
+
+  [gre/warmup] board (synonyms)
+      secretive          ⟷ reticent
+      browbeat           ⟷ bully
+      wield              ⟷ brandish
+      autonomy           ⟷ independence
+      ebullient          ⟷ exuberant
+
+  [gre/warmup] board (synonyms)
+      enmity             ⟷ hostility
+      pontificate        ⟷ preach
+      perennial          ⟷ recurring
+      ebb                ⟷ recede
+      wither             ⟷ shrivel
+
+  [gre/warmup] board (synonyms)
+      nascent            ⟷ emerging
+      xenophobia         ⟷ prejudice
+      effervescent       ⟷ bubbly
+      lugubrious         ⟷ mournful
+      sycophant          ⟷ toady
+
+  [gre/warmup] board (synonyms)
+      prodigal           ⟷ wasteful
+      ascendant          ⟷ rising
+      umbrage            ⟷ pique
+      kinetic            ⟷ dynamic
+      aberration         ⟷ anomaly
+
+  [gre/warmup] board (synonyms)
+      sanguine           ⟷ optimistic
+      avarice            ⟷ cupidity
+      quash              ⟷ suppress
+      promulgate         ⟷ proclaim
+      surly              ⟷ gruff
+
+  [gre/warmup] board (synonyms)
+      ignominy           ⟷ disgrace
+      hackneyed          ⟷ trite
+      obsequious         ⟷ servile
+      vacillate          ⟷ waver
+      cacophony          ⟷ din
+
+  [gre/warmup] board (synonyms)
+      diaphanous         ⟷ gossamer
+      remonstrate        ⟷ protest
+      raucous            ⟷ rowdy
+      corrode            ⟷ rust
+      incipient          ⟷ beginning
+
+  [gre/warmup] board (synonyms)
+      herald             ⟷ announce
+      carp               ⟷ cavil
+      rhetoric           ⟷ oratory
+      drone              ⟷ intone
+      strident           ⟷ harsh
+
+  [gre/warmup] board (synonyms)
+      presumptuous       ⟷ arrogant
+      quiescent          ⟷ dormant
+      fortuitous         ⟷ serendipitous
+      temerity           ⟷ audacity
+      jettison           ⟷ discard
+
+  [gre/warmup] board (synonyms)
+      declaim            ⟷ orate
+      ridicule           ⟷ mock
+      categorical        ⟷ absolute
+      arrogate           ⟷ usurp
+      deduce             ⟷ infer
+
+  [gre/warmup] board (synonyms)
+      plenitude          ⟷ abundance
+      sovereign          ⟷ autonomous
+      constrain          ⟷ restrict
+      fastidious         ⟷ punctilious
+      taciturn           ⟷ reticent
+
+  [gre/warmup] board (synonyms)
+      dearth             ⟷ scarcity
+      nadir              ⟷ bottom
+      ubiquitous         ⟷ pervasive
+      bombastic          ⟷ grandiloquent
+      imperturbable      ⟷ unflappable
+
+  [gre/warmup] board (synonyms)
+      enervate           ⟷ weaken
+      fledgling          ⟷ budding
+      transform          ⟷ convert
+      immortalize        ⟷ memorialize
+      durable            ⟷ long-lasting
+
+  [gre/warmup] board (synonyms)
+      aspersion          ⟷ slander
+      dogmatic           ⟷ opinionated
+      waver              ⟷ falter
+      ponder             ⟷ contemplate
+      substantiate       ⟷ verify
+
+  [gre/warmup] board (synonyms)
+      discrepancy        ⟷ inconsistency
+      amend              ⟷ revise
+      revitalize         ⟷ reinvigorate
+      regress            ⟷ deteriorate
+      intractable        ⟷ unmanageable
+
+  [gre/warmup] board (synonyms)
+      derision           ⟷ mockery
+      servile            ⟷ obsequious
+      compassionate      ⟷ kind
+      vehement           ⟷ emphatic
+      shrewd             ⟷ astute
+
+  [gre/warmup] board (synonyms)
+      manacle            ⟷ shackle
+      inert              ⟷ motionless
+      germinate          ⟷ sprout
+      revamp             ⟷ overhaul
+      resilient          ⟷ tough
+
+  [gre/warmup] board (synonyms)
+      cursory            ⟷ perfunctory
+      enigmatic          ⟷ cryptic
+      entrench           ⟷ establish
+      prodigious         ⟷ colossal
+      apprise            ⟷ inform
+
+  [gre/warmup] board (synonyms)
+      fetter             ⟷ shackle
+      whisper            ⟷ breathe
+      bellow             ⟷ roar
+      disclose           ⟷ reveal
+      opine              ⟷ comment
+
+  [gre/standard] board (definitions)
+      commotion          ⟷ A noisy, confused disturbance or sudden burst of excited activity.
+      effete             ⟷ Having lost strength, energy, or the ability to be effective.
+      fruition           ⟷ The point at which a plan or effort is fully achieved.
+      musty              ⟷ Having a stale, damp, or moldy smell from age or lack of air.
+      ramshackle         ⟷ Loosely held together and likely to collapse; badly built or run-down.
+
+  [gre/standard] board (definitions)
+      crystalline        ⟷ Perfectly clear and transparent, like ice or fine glass.
+      longevity          ⟷ The quality of living or lasting for a very great span of time.
+      murky              ⟷ Dark, cloudy, and hard to see through or understand.
+      savant             ⟷ A person of exceptional learning or brilliance, often within one narrow field.
+      pedagogic          ⟷ Relating to teaching or the methods and practice of instruction.
+
+  [gre/standard] board (definitions)
+      pauperize          ⟷ To reduce someone to complete poverty.
+      mawkish            ⟷ Overly sentimental in a sickly, embarrassing way.
+      splenetic          ⟷ Full of bitterness, spite, and ill will.
+      composure          ⟷ The state of staying calm and in control of one's feelings under pressure.
+      modulate           ⟷ To adjust, soften, or vary something to a suitable level or tone.
+
+  [gre/standard] board (definitions)
+      obsolescence       ⟷ The process of falling out of use as something newer replaces it.
+      undulate           ⟷ To move in smooth, flowing, wavelike patterns.
+      veer               ⟷ To change direction suddenly, especially while moving.
+      roil               ⟷ To stir up into turbulent, muddy motion, or to make someone deeply agitated.
+      gilded             ⟷ Coated with a thin layer of gold, or superficially rich and glamorous.
+
+  [gre/standard] board (definitions)
+      penetrating        ⟷ Showing sharp understanding and an ability to see into the heart of things.
+      consensus          ⟷ A general agreement reached by most members of a group.
+      senescent          ⟷ Growing old; declining or deteriorating with advancing age.
+      attenuate          ⟷ To reduce the force, strength, or thickness of something.
+      taint              ⟷ To spoil something by introducing a trace of contamination or corruption.
+
+  [gre/standard] board (definitions)
+      chasten            ⟷ To discipline or subdue someone, making them humble or more restrained through criticism or hardship.
+      miserly            ⟷ Hoarding wealth and hating to part with even small amounts.
+      impenetrable       ⟷ Impossible to pass through, enter, or understand.
+      intelligible       ⟷ Clear enough in meaning to be grasped by a listener or reader.
+      condense           ⟷ To make something shorter or more compact while keeping its core content.
+
+  [gre/standard] board (definitions)
+      subsidy            ⟷ Money given by a government or body to lower the cost of something.
+      inane              ⟷ Silly and pointless, lacking any real sense or value.
+      primal             ⟷ Relating to an early stage of development, or to deep basic instincts.
+      spawn              ⟷ To give rise to or produce something, often rapidly and in large numbers.
+      rehabilitate       ⟷ To restore someone to good health, normal life, or former good reputation.
+
+  [gre/standard] board (definitions)
+      coeval             ⟷ Having the same age, date, or origin as another thing.
+      abridge            ⟷ To shorten a piece of writing while keeping its main substance.
+      prosperous         ⟷ Enjoying financial success and comfortable wealth.
+      solvent            ⟷ Having enough money to pay all one's debts.
+      garish             ⟷ Unpleasantly bright, colorful, or showy in a tasteless way.
+
+  [gre/standard] board (definitions)
+      pittance           ⟷ A very small or inadequate amount of money, especially as pay.
+      humanitarian       ⟷ Devoted to reducing suffering and improving the welfare of people.
+      hospitable         ⟷ Friendly and generous in welcoming guests or strangers into one's home.
+      vague              ⟷ Not stated clearly or precisely, and lacking exact detail.
+      gloss              ⟷ A brief note explaining a difficult word or passage in a text.
+
+  [gre/standard] board (definitions)
+      etiolated          ⟷ Pale and spindly, or weakened, from growing without enough sunlight.
+      unanimity          ⟷ Complete agreement among everyone in a group about a matter.
+      affability         ⟷ The quality of being pleasant, warm, and easy to approach in conversation.
+      distend            ⟷ To swell outward because of pressure building from within.
+      canker             ⟷ A spreading sore or source of corruption that slowly destroys from within.
+
+  [gre/standard] board (definitions)
+      proverb            ⟷ A short, well-known folk saying that offers practical advice or wisdom.
+      muddle             ⟷ An untidy or confused state resulting from poor organization or unclear thinking.
+      fragment           ⟷ A small piece broken off from something larger.
+      symmetry           ⟷ A balanced arrangement where opposite sides match in size and shape.
+      array              ⟷ An impressive, ordered display or wide range of things.
+
+  [gre/standard] board (definitions)
+      bicker             ⟷ To argue about petty, unimportant matters.
+      unflinching        ⟷ Not showing fear or hesitation when facing danger or difficulty.
+      verve              ⟷ Lively energy and enthusiasm, especially in creative or artistic expression.
+      conciliatory       ⟷ Intended to soothe anger, win goodwill, or ease a dispute.
+      synergy            ⟷ The extra benefit gained when people or things work together effectively.
+
+  [gre/standard] board (definitions)
+      denouement         ⟷ The final part of a story where the plot is resolved and loose ends tie up.
+      molder             ⟷ To crumble and rot slowly from age and neglect.
+      parch              ⟷ To dry out from heat, or make someone extremely thirsty.
+      denude             ⟷ To strip something of its covering, protection, or natural growth.
+      curdle             ⟷ To cause milk to thicken and separate into lumps, especially when soured.
+
+  [gre/standard] board (definitions)
+      surge              ⟷ A sudden strong rush forward or upward, like a powerful wave of motion or force.
+      reconciliation     ⟷ The restoring of friendly relations and harmony after a quarrel or dispute.
+      genial             ⟷ Cheerful, kindly, and pleasant in disposition.
+      symbiosis          ⟷ A close relationship between two different parties that benefits both.
+      faction            ⟷ A small dissenting group within a larger body, often at odds with the rest.
+
+  [gre/standard] board (definitions)
+      commencement       ⟷ The act or moment of beginning something.
+      standardize        ⟷ To make things follow one uniform set of rules or measurements.
+      dissonance         ⟷ A harsh lack of harmony or agreement among sounds or ideas.
+      mundane            ⟷ Ordinary and dull; lacking interest or excitement.
+      tendentious        ⟷ Marked by a strong, often controversial bias in favor of a particular cause.
+
+  [gre/standard] board (definitions)
+      amalgamate         ⟷ To combine two or more separate things into one unified whole.
+      posit              ⟷ To put an idea or assumption forward as a starting point for reasoning.
+      captious           ⟷ Inclined to find trivial faults and raise petty objections.
+      coax               ⟷ To gently and patiently persuade someone to do something.
+      champion           ⟷ To fight for, defend, or actively support a person or cause.
+
+  [gre/standard] board (definitions)
+      perspicuous        ⟷ Expressed so clearly and simply that it is easily understood.
+      polemical          ⟷ Strongly attacking or defending an opinion in a controversial dispute.
+      pacific            ⟷ Peaceful in nature or intent; inclined to make or keep the peace.
+      euphony            ⟷ A pleasing, harmonious quality in the sounds of spoken words or music.
+      amplify            ⟷ To increase the strength, volume, or intensity of something.
+
+  [gre/standard] board (definitions)
+      dissension         ⟷ Strong disagreement or conflict of opinion within a group.
+      venerable          ⟷ Commanding deep respect because of age, wisdom, or dignity.
+      anticipate         ⟷ To expect something in advance and get ready for it accordingly.
+      frolic             ⟷ To play and move about happily in a lively, carefree way.
+      eddy               ⟷ A small whirlpool or circular current running against the main flow of water or air.
+
+  [gre/standard] board (definitions)
+      compatible         ⟷ Able to exist or function together without conflict.
+      profundity         ⟷ Great intellectual depth, insight, or seriousness in thought and meaning.
+      pauper             ⟷ A person who has almost no money and depends on charity.
+      acquire            ⟷ To come to possess or gain something.
+      heroism            ⟷ Great bravery and self-sacrifice shown in dangerous situations.
+
+  [gre/standard] board (definitions)
+      unflappable        ⟷ Staying calm and composed no matter how stressful the situation becomes.
+      presage            ⟷ To serve as a warning sign that something, often bad, is coming.
+      nescient           ⟷ Lacking awareness or knowledge of facts and information.
+      sophistry          ⟷ Clever but deceptive reasoning meant to mislead rather than reveal truth.
+      flummox            ⟷ To confuse someone so thoroughly that they cannot think clearly or respond.
+
+  [gre/standard] board (definitions)
+      explicit           ⟷ Stated fully and clearly, leaving no room for confusion or doubt.
+      senescence         ⟷ The gradual process of growing old and declining in function.
+      derelict           ⟷ Abandoned and left to fall into ruin; also failing in one's duty.
+      upheaval           ⟷ A sudden, dramatic change that disrupts an established situation or order.
+      scatter            ⟷ To throw or spread things loosely in many directions.
+
+  [gre/standard] board (definitions)
+      unbridled          ⟷ Not held back or controlled by any restraint.
+      hiatus             ⟷ A gap or break in the continuity of something.
+      relic              ⟷ An object that has survived from an earlier time.
+      inscrutable        ⟷ Impossible to read, understand, or interpret.
+      philistine         ⟷ A person who is indifferent or openly hostile to art, culture, and intellectual pursuits.
+
+  [gre/standard] board (definitions)
+      tranquil           ⟷ Free from disturbance; calm and peaceful.
+      unwitting          ⟷ Done without knowing or intending; not aware of the situation.
+      mystify            ⟷ To confuse or puzzle someone completely, often as if by magic.
+      pedant             ⟷ Someone who flaunts trivial rules or minor knowledge to seem learned.
+      genesis            ⟷ The point at which something first comes into existence.
+
+  [gre/standard] board (definitions)
+      unambiguous        ⟷ Having only one possible meaning and leaving no room for doubt.
+      unlettered         ⟷ Lacking formal schooling or the ability to read and write.
+      germinal           ⟷ Being in the earliest stage and capable of developing into something larger.
+      kindle             ⟷ To set something alight, or to stir up a feeling or interest.
+      harbinger          ⟷ A sign or person that announces the approach of something yet to come.
+
+  [gre/standard] board (definitions)
+      rescind            ⟷ To officially cancel or withdraw a decision, order, or law.
+      propound           ⟷ To offer a theory or proposal for others to consider.
+      disputatious       ⟷ Fond of arguing and quick to provoke or join a quarrel.
+      entreat            ⟷ To ask someone earnestly and anxiously for something.
+      espouse            ⟷ To adopt and openly support a belief, cause, or way of life.
+
+  [gre/hard] board (definitions)
+      sophist            ⟷ A person who argues cleverly but deceptively, using flawed reasoning to appear correct.
+      fugacious          ⟷ Lasting only a very short time before passing away.
+      amnesiac           ⟷ A person who has lost the ability to recall past events.
+      lethargy           ⟷ A condition of sluggishness, drowsiness, and lack of enthusiasm.
+      remission          ⟷ A period when illness eases or disappears, or the pardon of a debt.
+
+  [gre/hard] board (definitions)
+      hierophant         ⟷ An interpreter of sacred mysteries or a high priest who reveals holy secrets.
+      retinue            ⟷ A group of assistants and attendants who travel with an important person.
+      incommunicado      ⟷ Cut off from contact with others, unable to send or receive any messages.
+      convene            ⟷ To gather people together formally for a meeting or assembly.
+      standoffish        ⟷ Distant and cold in manner, keeping others at an emotional arm's length.
+
+  [gre/hard] board (definitions)
+      modicum            ⟷ A small or moderate amount of something.
+      meretricious       ⟷ Superficially attractive but cheap, gaudy, and lacking real value.
+      consummate         ⟷ Showing complete mastery or perfection in a particular skill or area.
+      palimpsest         ⟷ A surface reused for writing on which traces of earlier layers still show through.
+      ostentation        ⟷ A pretentious, flashy display meant to impress others and attract admiration.
+
+  [gre/hard] board (definitions)
+      ostracize          ⟷ To deliberately shut someone out of a group or social circle.
+      cosmopolitan       ⟷ Familiar with and at ease among many countries and cultures; worldly.
+      gadfly             ⟷ A persistent critic who provokes others by annoyingly challenging them.
+      gallivant          ⟷ To wander about in search of pleasure or amusement.
+      consanguinity      ⟷ The state of being related by blood or descent from a common ancestor.
+
+  [gre/hard] board (definitions)
+      heartfelt          ⟷ Showing deep, sincere emotion from the core of one's being.
+      lacuna             ⟷ A blank space or missing part, especially in a text or argument.
+      immure             ⟷ To shut someone in or imprison them behind walls.
+      retrieve           ⟷ To find and bring back something that was lost or stored away.
+      humbug             ⟷ Deceptive nonsense or empty pretense meant to mislead people.
+
+  [gre/hard] board (definitions)
+      varnish            ⟷ To apply a clear, resin-based coating that gives a glossy protective surface.
+      tumid              ⟷ Swollen or bulging; also inflated and pompous in style.
+      sobriety           ⟷ The state of not being drunk, or of being serious and solemn.
+      conventional       ⟷ Based on generally accepted practices; ordinary and not original or surprising.
+      aesthete           ⟷ A person who is deeply devoted to beauty and fine art.
+
+  [gre/hard] board (definitions)
+      shun               ⟷ To deliberately avoid or keep away from someone or something.
+      unflagging         ⟷ Staying strong and steady without weakening or tiring.
+      strenuous          ⟷ Requiring or using a lot of physical or mental energy and hard work.
+      purblind           ⟷ Seeing poorly, or slow to notice and grasp what is obvious.
+      effulgence         ⟷ A flood of brilliant light streaming outward from a source.
+
+  [gre/hard] board (definitions)
+      heath              ⟷ Open, uncultivated land covered with low shrubs and rough grasses.
+      wallow             ⟷ To roll about lazily in mud or water, or to linger in an emotion.
+      insular            ⟷ Having a narrow outlook, cut off from and uninterested in other people or ideas.
+      hermitage          ⟷ A secluded dwelling where someone lives apart from society.
+      celibate           ⟷ Choosing to abstain from marriage and sexual relationships, often for religious reasons.
+
+  [gre/hard] board (definitions)
+      anachronistic      ⟷ Belonging to a different time period and seeming out of place in its setting.
+      scion              ⟷ A young plant shoot cut for grafting, or a descendant of a notable family.
+      pretender          ⟷ A person who makes a false or unproven claim, especially to a throne or rank.
+      fustian            ⟷ Pompous, pretentious language that sounds grand but says very little.
+      ravenous           ⟷ Extremely hungry, or fiercely eager for something.
+
+  [gre/hard] board (definitions)
+      verity             ⟷ A statement or principle that is genuinely true and beyond dispute.
+      woeful             ⟷ Full of sorrow, or pitifully poor and inadequate in quality.
+      assiduity          ⟷ Persistent, careful attention and hard work devoted to a task over time.
+      vespertine         ⟷ Happening or active in the evening rather than during the day.
+      opalescent         ⟷ Showing a soft, milky play of gently shifting colors.
+
+  [gre/hard] board (definitions)
+      quack              ⟷ A dishonest person who falsely claims to have medical or other expert skill.
+      foregather         ⟷ To come together in a group, especially for a social occasion.
+      felicity           ⟷ A state of great joy, or skillful aptness in wording.
+      contingent         ⟷ Dependent on something else that may or may not happen.
+      prophetic          ⟷ Accurately describing or foretelling events before they occur.
+
+  [gre/hard] board (definitions)
+      stygian            ⟷ Extremely dark, gloomy, and forbidding, like the deepest underworld.
+      misanthropy        ⟷ A general dislike, distrust, or contempt for the human species.
+      diffidence         ⟷ A shy lack of belief in one's own abilities or worth.
+      excommunicate      ⟷ To formally expel someone from a church or membership in an organization.
+      consort            ⟷ To spend time with or associate regularly, especially with people considered disreputable.
+
+  [gre/hard] board (definitions)
+      idler              ⟷ A person who spends time doing nothing or avoiding work.
+      lichen             ⟷ A crusty or leafy organism of fungus and alga living together, growing on rocks and bark.
+      sophism            ⟷ A clever argument that seems sound but is deliberately deceptive or false.
+      mania              ⟷ A state of abnormally elevated mood and energy, or an intense obsessive enthusiasm.
+      absurdity          ⟷ The quality of being wildly unreasonable, silly, or senseless.
+
+  [gre/hard] board (definitions)
+      lunacy             ⟷ Extreme foolishness or madness; a wildly senseless act or idea.
+      lamentable         ⟷ Deserving sorrow or regret; unfortunate and disappointing.
+      malingerer         ⟷ Someone who pretends to be ill to escape duty or work.
+      perseverance       ⟷ Steady, continued effort to achieve a goal despite difficulty, delay, or failure.
+      clairvoyant        ⟷ Able to sense or foresee events beyond the reach of ordinary perception.
+
+  [gre/hard] board (definitions)
+      frond              ⟷ The large, often feathery leaf of a fern or palm.
+      guileful           ⟷ Full of sly cunning and deceit; skilled at tricking others.
+      affected           ⟷ Behaving in an artificial way to impress; not genuine or natural.
+      phantasm           ⟷ A ghostly figure or image that appears in the mind without being truly present.
+      frippery           ⟷ Showy but useless ornamentation, or trivial and frivolous decoration lacking real worth.
+
+  [gre/hard] board (definitions)
+      leer               ⟷ To look at someone with a sly, malicious, or lustful sideways expression.
+      rebuff             ⟷ To refuse an offer or approach in an abrupt, unfriendly way.
+      misadventure       ⟷ An unlucky or unfortunate incident, especially one arising from a risky undertaking.
+      anathema           ⟷ A person or thing that is intensely disliked or formally condemned.
+      diligent           ⟷ Careful, steady, and thorough in doing one's work.
+
+  [gre/hard] board (definitions)
+      penumbra           ⟷ The lighter, partial shadow at the outer edge of a full shadow.
+      recollect          ⟷ To bring back to mind something from the past.
+      scruple            ⟷ A feeling of doubt or hesitation about whether an action is morally right.
+      overindulge        ⟷ To enjoy far too much of something, especially food or drink.
+      eremitic           ⟷ Relating to a solitary, secluded life, especially one led for religious reasons.
+
+  [gre/hard] board (definitions)
+      omen               ⟷ An event regarded as a sign of good or bad things to come.
+      chatoyant          ⟷ Having a shifting, band-like luster resembling a cat's eye.
+      bleary             ⟷ Dull, watery, and unable to focus, usually from tiredness or crying.
+      visage             ⟷ The face or set of features belonging to a person.
+      phantom            ⟷ Something that seems to exist but has no real physical presence.
+
+  [gre/hard] board (definitions)
+      manic              ⟷ Marked by frantic, uncontrolled excitement or wildly restless energy.
+      nacreous           ⟷ Having the soft, shimmering, pearly sheen of the inside of a seashell.
+      purview            ⟷ The range of a person's or group's authority, responsibility, or concern.
+      murk               ⟷ Darkness or gloom that makes things hard to see.
+      ogle               ⟷ To stare at someone in an obvious, lustful, or greedy way.
+
+  [gre/hard] board (definitions)
+      sacrilegious       ⟷ Involving disrespect or violation toward something considered holy.
+      sacrament          ⟷ A sacred Christian rite, such as baptism, believed to convey divine grace.
+      immolate           ⟷ To kill or offer up as a sacrifice, especially by fire.
+      apostasy           ⟷ The abandonment or renunciation of a religion, cause, or set of beliefs once held.
+      acolyte            ⟷ An assistant who helps a priest, or a devoted follower of a leader.
+
+  [gre/hard] board (definitions)
+      avouch             ⟷ To declare openly and take responsibility for the truth of a claim.
+      tribulation        ⟷ A period of great trouble, suffering, or distress.
+      malediction        ⟷ A spoken wish that harm come to someone.
+      precarious         ⟷ Not securely held or in position; likely to fall or fail at any moment.
+      indefatigable      ⟷ Able to keep going without ever becoming tired or giving up.
+
+  [gre/hard] board (definitions)
+      salutary           ⟷ Producing a good or beneficial effect, often through an unwelcome warning or lesson.
+      mores              ⟷ The essential customs and moral attitudes accepted by a particular community.
+      atavism            ⟷ The reappearance of an ancestral trait or behavior after many generations.
+      fetish             ⟷ An object believed to hold magical power, or an obsessive fixation on something.
+      divination         ⟷ The attempt to foretell the future or the unknown through supernatural means.
+
+  [gre/hard] board (definitions)
+      infraction         ⟷ A small breaking of a rule, law, or agreement.
+      blinkered          ⟷ Having a narrow outlook that ignores other views or possibilities.
+      mien               ⟷ A person's manner, bearing, or air that reveals mood or character.
+      remand             ⟷ To send a case back to a lower court, or return an accused person to custody.
+      hieratic           ⟷ Relating to priests, or highly formal and stylized in a religious manner.
+
+  [gre/hard] board (definitions)
+      desuetude          ⟷ The condition of no longer being practiced or in active use.
+      stupor             ⟷ A dazed, near-unconscious state in which one can barely think or react.
+      revenant           ⟷ A person or spirit that returns, especially one come back from the dead.
+      suffuse            ⟷ To spread gradually through or over something, filling it with color, light, or feeling.
+      elegiac            ⟷ Expressing sorrow or mournful longing, especially for something lost or past.
+
+  [gre/hard] board (definitions)
+      abnegate           ⟷ To give up or renounce a right, desire, or comfort.
+      populace           ⟷ The ordinary people who live in a particular country or area.
+      provincial         ⟷ Unsophisticated or narrow, typical of areas far from a cultural capital.
+      solipsistic        ⟷ Absorbed in oneself to the point of ignoring or doubting that others are real.
+      interloper         ⟷ A person who intrudes into a place or group where they do not belong.
+
+  [gre/fiendish] board (definitions)
+      vacuity            ⟷ The state of being empty, especially empty of ideas or intelligence.
+      protestation       ⟷ A firm, emphatic public declaration that something is or is not true.
+      authentic          ⟷ Genuine and real, exactly what it claims to be, not copied or faked.
+      concoct            ⟷ To invent or prepare something by mixing parts, often a story or a drink.
+      immoderate         ⟷ Going beyond reasonable limits; not kept within sensible bounds.
+
+  [gre/fiendish] board (definitions)
+      flout              ⟷ To openly and contemptuously disregard a rule, law, or accepted custom.
+      unflagging         ⟷ Staying strong and steady without weakening or tiring.
+      exertion           ⟷ The use of considerable physical or mental effort and energy.
+      oeuvre             ⟷ The entire collection of creative works produced by one artist over a lifetime.
+      contrive           ⟷ To plan or create something cleverly, often through scheming or with difficulty.
+
+  [gre/fiendish] board (definitions)
+      sanctify           ⟷ To declare or make something holy and worthy of religious reverence.
+      illegitimate       ⟷ Not authorized by law or accepted rules; lacking proper authority or a valid basis.
+      penal              ⟷ Relating to legal punishment or the institutions that carry it out.
+      complicity         ⟷ The state of being involved with others in a wrongful or illegal act.
+      atrocious          ⟷ Shockingly cruel, wicked, or of extremely poor quality.
+
+  [gre/fiendish] board (definitions)
+      bramble            ⟷ A rough, thorny shrub that grows in tangled thickets, especially the wild blackberry.
+      pietistic          ⟷ Marked by exaggerated or affected devotion, often making a showy display of religious feeling.
+      bluster            ⟷ To speak in a loud, aggressive, empty way, or to blow violently like wind.
+      clannish           ⟷ Inclined to stick tightly with one's own group and to keep outsiders at a distance.
+      felicitous         ⟷ Strikingly well suited to the occasion; aptly and gracefully expressed.
+
+  [gre/fiendish] board (definitions)
+      festoon            ⟷ To hang chains of flowers, ribbons, or streamers across a space as decoration.
+      anomie             ⟷ A breakdown of social norms leaving people feeling rootless and without purpose.
+      ruinous            ⟷ Causing severe damage, collapse, or financial disaster.
+      untoward           ⟷ Unexpected and inconvenient, awkward, or inappropriate.
+      succor             ⟷ Help and relief given to someone in distress or great difficulty.
+
+  [gre/fiendish] board (definitions)
+      monastic           ⟷ Relating to a simple, secluded life devoted to discipline and solitude.
+      nonfeasance        ⟷ The failure to carry out a duty that someone was legally obligated to perform.
+      infraction         ⟷ A small breaking of a rule, law, or agreement.
+      litigate           ⟷ To take a dispute to a court of law to be settled.
+      edict              ⟷ An official order issued by a person in authority.
+
+  [gre/fiendish] board (definitions)
+      abstinence         ⟷ The practice of refraining entirely from a pleasure such as alcohol or sex.
+      slacken            ⟷ To reduce in speed, tension, or intensity.
+      gloaming           ⟷ The soft, dim light just after sunset.
+      luculent           ⟷ Clear and easy to understand, or shining with brightness.
+      pallor             ⟷ An unhealthy paleness of the face, usually from illness, fear, or shock.
+
+  [gre/fiendish] board (definitions)
+      jinx               ⟷ A person or thing believed to bring bad luck.
+      godsend            ⟷ Something helpful that arrives at exactly the right, much-needed moment.
+      sedulous           ⟷ Showing dedicated, careful, and persistent effort in one's work.
+      factotum           ⟷ An employee who handles many different kinds of tasks and duties.
+      dynamism           ⟷ The quality of energetic force and constant activity that drives progress.
+
+  [gre/fiendish] board (definitions)
+      hidebound          ⟷ Stubbornly resistant to new ideas and unwilling to change fixed opinions.
+      inviolable         ⟷ So protected or respected that it must never be broken or attacked.
+      propriety          ⟷ Correctness of behavior and conformity to accepted standards of good manners.
+      vestigial          ⟷ Surviving only as a small trace of something once fully developed or useful.
+      totemic            ⟷ Serving as a revered emblem that stands for a group, clan, or shared identity.
+
+  [gre/fiendish] board (definitions)
+      bedizen            ⟷ To dress or decorate in a flashy, gaudy, and often tasteless way.
+      silviculture       ⟷ The practice of growing and tending forests and trees.
+      frond              ⟷ The large, often feathery leaf of a fern or palm.
+      heath              ⟷ Open, uncultivated land covered with low shrubs and rough grasses.
+      littoral           ⟷ Relating to the region along a coast or the edge of the sea.
+
+  [gre/fiendish] board (definitions)
+      aberrant           ⟷ Departing markedly from what is normal, usual, or expected.
+      laborious          ⟷ Requiring a lot of hard, tiring work or effort.
+      journeyman         ⟷ A trained worker who is competent and reliable but not yet a master.
+      vigilant           ⟷ Carefully watchful and alert to possible danger or trouble.
+      ardor              ⟷ Intense warmth of feeling, passion, or zeal.
+
+  [gre/fiendish] board (definitions)
+      insular            ⟷ Having a narrow outlook, cut off from and uninterested in other people or ideas.
+      delusive           ⟷ Creating a false impression and likely to mislead someone about hope or reality.
+      prospect           ⟷ The likelihood or expectation of a future event; also a wide view ahead.
+      luster             ⟷ The glowing quality of a surface that reflects light softly.
+      reconnaissance     ⟷ A preliminary survey of an area to gather information, often about an enemy.
+
+  [gre/fiendish] board (definitions)
+      somnolence         ⟷ A state of drowsiness or a strong desire to sleep.
+      lacquer            ⟷ To coat an object with a hard, glossy, protective finish.
+      evoke              ⟷ To bring a feeling, memory, or image into someone's mind.
+      burlesque          ⟷ A theatrical entertainment that mocks serious subjects through exaggeration and comedy.
+      ersatz             ⟷ Serving as an artificial and usually inferior substitute for the real thing.
+
+  [gre/fiendish] board (definitions)
+      rote               ⟷ Mechanical memorization or repetition done without thought or real understanding.
+      rusticate          ⟷ To go to live in or retreat to the countryside.
+      mingle             ⟷ To mix together and move casually among people while chatting.
+      providence         ⟷ Benevolent guardianship, attributed to God or fate, believed to steer events toward good.
+      happenstance       ⟷ A circumstance that comes about by chance rather than by plan.
+
+  [gre/fiendish] board (definitions)
+      shimmer            ⟷ To shine with a soft, wavering, unsteady light.
+      spore              ⟷ A tiny reproductive cell from which a fungus, fern, or moss can grow without seeds.
+      probative          ⟷ Serving to test something or to furnish evidence in support of a claim.
+      manic              ⟷ Marked by frantic, uncontrolled excitement or wildly restless energy.
+      disorient          ⟷ To cause someone to lose their sense of direction or grasp of surroundings.
+
+  [gre/fiendish] board (definitions)
+      nonsensical        ⟷ Having no meaning or logic; foolish and utterly absurd.
+      luminescent        ⟷ Emitting soft light from a source other than heat, often glowing coolly in darkness.
+      fetish             ⟷ An object believed to hold magical power, or an obsessive fixation on something.
+      meretricious       ⟷ Superficially attractive but cheap, gaudy, and lacking real value.
+      sleight            ⟷ Dexterity or cunning, especially in deceiving or performing tricks.
+
+  [gre/fiendish] board (definitions)
+      ramify             ⟷ To divide or spread out into many branches or smaller subdivisions.
+      prohibit           ⟷ To formally forbid an action by authority, rule, or law.
+      culprit            ⟷ The person guilty of committing a crime or causing a problem.
+      defamation         ⟷ The act of injuring a person's good name through untrue statements.
+      defalcation        ⟷ The theft or misuse of funds by someone trusted to manage them.
+
+  [gre/fiendish] board (definitions)
+      delinquency        ⟷ Minor wrongdoing or antisocial behavior, especially among young people, or failure to meet an obligation.
+      resplendent        ⟷ Shining brilliantly; dazzling and magnificent in appearance.
+      sylvan             ⟷ Relating to or characteristic of woods and forest settings.
+      horticulture       ⟷ The art and science of growing garden plants, fruits, vegetables, and flowers.
+      silt               ⟷ Fine particles of earth carried by water and settling as a smooth sediment.
+
+  [gre/fiendish] board (definitions)
+      pariah             ⟷ A person who is despised and avoided by everyone around them.
+      ceremonious        ⟷ Marked by exaggerated formality and elaborate politeness in behavior.
+      anachronistic      ⟷ Belonging to a different time period and seeming out of place in its setting.
+      coruscate          ⟷ To give off flashing sparkles of light; to shine with brilliant flashes.
+      viticulture        ⟷ The science and practice of growing grapevines, chiefly for wine.
+
+  [gre/fiendish] board (definitions)
+      duress             ⟷ Threats or force used to compel a person to act against their own will.
+      ablution           ⟷ A ceremonial washing of the body as a form of religious purification.
+      solemnity          ⟷ The quality of deep seriousness, dignity, and grave formality.
+      numinous           ⟷ Having a mysterious, holy quality that inspires awe or spiritual wonder.
+      presentiment       ⟷ A vague feeling that something, usually unpleasant, is about to occur.
+
+  [gre/fiendish] board (definitions)
+      anchorite          ⟷ A person who withdraws from society to live in prayer and religious devotion.
+      adorn              ⟷ To add beauty or decoration to a person, place, or object.
+      tableau            ⟷ A striking scene or group of people arranged as if in a still picture.
+      facsimile          ⟷ An exact copy or reproduction of something, especially written or printed material.
+      chimera            ⟷ An unrealistic hope or fanciful mental creation that cannot actually exist.
+
+  [gre/fiendish] board (definitions)
+      votary             ⟷ A devoted follower or worshipper deeply committed to a person, cause, or deity.
+      bog                ⟷ Soft, waterlogged ground made of decaying plant matter, too spongy to walk on easily.
+      lacustrine         ⟷ Relating to or found in lakes.
+      winnow             ⟷ To separate grain from its husks using a current of air.
+      lichen             ⟷ A crusty or leafy organism of fungus and alga living together, growing on rocks and bark.
+
+  [gre/fiendish] board (definitions)
+      edacious           ⟷ Devoted to eating; consuming food in great amounts.
+      irrational         ⟷ Not guided by reason or sound judgment.
+      ineluctable        ⟷ Impossible to avoid, resist, or escape.
+      redolent           ⟷ Strongly fragrant, or strongly suggestive of something through smell or association.
+      eradicate          ⟷ To destroy something completely by pulling it out at the root.
+
+  [gre/fiendish] board (definitions)
+      bibulous           ⟷ Very fond of drinking too much alcohol.
+      confidant          ⟷ A trusted person with whom one shares private thoughts, feelings, or secrets.
+      foregather         ⟷ To come together in a group, especially for a social occasion.
+      felicity           ⟷ A state of great joy, or skillful aptness in wording.
+      contingent         ⟷ Dependent on something else that may or may not happen.
+
+  [gre/fiendish] board (definitions)
+      punctilio          ⟷ A fine or precise point of formal conduct, etiquette, or procedure.
+      inevitability      ⟷ The quality of being impossible to avoid or prevent.
+      adversity          ⟷ A difficult situation full of hardship, misfortune, or trouble.
+      jeremiad           ⟷ A long, mournful complaint or bitter lament about society's woes.
+      soothsayer         ⟷ A person who claims to foretell coming events by supernatural means.
+
+  [sat/warmup] board (synonyms)
+      catastrophe        ⟷ calamity
+      pivotal            ⟷ crucial
+      copious            ⟷ abundant
+      ephemeral          ⟷ short-lived
+      enduring           ⟷ lasting
+
+  [sat/warmup] board (synonyms)
+      wistful            ⟷ nostalgic
+      taunt              ⟷ jeer
+      concise            ⟷ succinct
+      certitude          ⟷ conviction
+      speculative        ⟷ conjectural
+
+  [sat/warmup] board (synonyms)
+      dissipate          ⟷ disperse
+      audacious          ⟷ daring
+      patronizing        ⟷ condescending
+      arbitrary          ⟷ random
+      prevalent          ⟷ rife
+
+  [sat/warmup] board (synonyms)
+      salvage            ⟷ rescue
+      stubborn           ⟷ obstinate
+      propaganda         ⟷ disinformation
+      exaggerate         ⟷ overstate
+      rebuttal           ⟷ counterargument
+
+  [sat/warmup] board (synonyms)
+      subtle             ⟷ understated
+      kindle             ⟷ ignite
+      entail             ⟷ necessitate
+      antecedent         ⟷ precursor
+      correlate          ⟷ associate
+
+  [sat/warmup] board (synonyms)
+      vitriolic          ⟷ venomous
+      nuance             ⟷ subtlety
+      paucity            ⟷ dearth
+      predicament        ⟷ plight
+      perplex            ⟷ mystify
+
+  [sat/warmup] board (synonyms)
+      reputed            ⟷ supposed
+      demonstrate        ⟷ show
+      grandiloquent      ⟷ bombastic
+      ambiguity          ⟷ vagueness
+      modest             ⟷ humble
+
+  [sat/warmup] board (synonyms)
+      ample              ⟷ plentiful
+      contempt           ⟷ scorn
+      flummox            ⟷ baffle
+      pellucid           ⟷ crystalline
+      reserved           ⟷ reticent
+
+  [sat/warmup] board (synonyms)
+      testimony          ⟷ deposition
+      nonchalant         ⟷ casual
+      rancorous          ⟷ bitter
+      forthright         ⟷ candid
+      wary               ⟷ cautious
+
+  [sat/warmup] board (synonyms)
+      abundant           ⟷ plentiful
+      obsequious         ⟷ fawning
+      deft               ⟷ adroit
+      humble             ⟷ modest
+      perfidious         ⟷ treacherous
+
+  [sat/warmup] board (synonyms)
+      redundant          ⟷ superfluous
+      vivid              ⟷ bright
+      jumble             ⟷ muddle
+      preoccupied        ⟷ distracted
+      profligate         ⟷ dissolute
+
+  [sat/warmup] board (synonyms)
+      cataclysm          ⟷ catastrophe
+      wither             ⟷ shrivel
+      advent             ⟷ arrival
+      damning            ⟷ incriminating
+      circuitous         ⟷ roundabout
+
+  [sat/warmup] board (synonyms)
+      expound            ⟷ elaborate
+      encomium           ⟷ panegyric
+      denigrate          ⟷ disparage
+      astute             ⟷ shrewd
+      viable             ⟷ workable
+
+  [sat/warmup] board (synonyms)
+      resemblance        ⟷ likeness
+      endorse            ⟷ support
+      exposition         ⟷ explanation
+      culminate          ⟷ climax
+      disparate          ⟷ dissimilar
+
+  [sat/warmup] board (synonyms)
+      advocate           ⟷ support
+      conundrum          ⟷ puzzle
+      plague             ⟷ torment
+      mollify            ⟷ appease
+      recover            ⟷ recuperate
+
+  [sat/warmup] board (synonyms)
+      renounce           ⟷ relinquish
+      distill            ⟷ extract
+      evident            ⟷ apparent
+      labyrinthine       ⟷ convoluted
+      oblivious          ⟷ unaware
+
+  [sat/warmup] board (synonyms)
+      maxim              ⟷ aphorism
+      haphazard          ⟷ random
+      austere            ⟷ spartan
+      garrulous          ⟷ loquacious
+      magnanimous        ⟷ generous
+
+  [sat/warmup] board (synonyms)
+      timid              ⟷ fearful
+      imperceptible      ⟷ undetectable
+      scramble           ⟷ mix
+      prolix             ⟷ verbose
+      shrewd             ⟷ astute
+
+  [sat/warmup] board (synonyms)
+      translucent        ⟷ frosted
+      insolent           ⟷ impertinent
+      petulant           ⟷ peevish
+      truculent          ⟷ belligerent
+      amiable            ⟷ genial
+
+  [sat/warmup] board (synonyms)
+      exemplary          ⟷ model
+      qualm              ⟷ misgiving
+      duplicity          ⟷ double-dealing
+      venerate           ⟷ revere
+      malign             ⟷ slander
+
+  [sat/warmup] board (synonyms)
+      deteriorate        ⟷ worsen
+      portent            ⟷ omen
+      alleviate          ⟷ ease
+      constrain          ⟷ restrict
+      gradation          ⟷ progression
+
+  [sat/warmup] board (synonyms)
+      vouch              ⟷ attest
+      subdue             ⟷ quell
+      propel             ⟷ thrust
+      subside            ⟷ abate
+      necessitate        ⟷ entail
+
+  [sat/warmup] board (synonyms)
+      apprehension       ⟷ dread
+      wheedle            ⟷ cajole
+      illustrate         ⟷ exemplify
+      bombastic          ⟷ pompous
+      fervid             ⟷ passionate
+
+  [sat/warmup] board (synonyms)
+      suppress           ⟷ quell
+      scarce             ⟷ insufficient
+      transitory         ⟷ temporary
+      static             ⟷ motionless
+      renew              ⟷ extend
+
+  [sat/warmup] board (synonyms)
+      concoct            ⟷ fabricate
+      indolent           ⟷ slothful
+      ostentatious       ⟷ pretentious
+      morose             ⟷ sullen
+      pertinacious       ⟷ tenacious
+
+  [sat/standard] board (definitions)
+      novel              ⟷ New, original, and unlike anything known before.
+      exemplify          ⟷ To serve as a clear, typical instance that shows what something is like.
+      measured           ⟷ Careful, controlled, and deliberate in speech or action.
+      contaminate        ⟷ To make something impure or unsafe by adding harmful or dirty matter.
+      nostalgia          ⟷ A bittersweet longing for happier times or places from earlier in life.
+
+  [sat/standard] board (definitions)
+      misconstrue        ⟷ To understand or interpret something wrongly.
+      tautology          ⟷ Saying the same thing twice using different words, adding no new information.
+      autocratic         ⟷ Ruling alone with unlimited power and no need for anyone's consent.
+      synthesize         ⟷ To combine separate elements into a single unified whole.
+      validity           ⟷ The quality of being logically sound, well-founded, and defensible.
+
+  [sat/standard] board (definitions)
+      hoard              ⟷ To gather and store a large supply, often secretly.
+      referendum         ⟷ A direct public vote on a single political question.
+      oversight          ⟷ The act of supervising or watching over a process or group.
+      census             ⟷ An official count of a population, often recording details about people.
+      ancestral          ⟷ Belonging to or inherited from family members who lived in earlier generations.
+
+  [sat/standard] board (definitions)
+      contrast           ⟷ To compare two things in order to show how they differ.
+      luminous           ⟷ Giving off or reflecting a soft, glowing light.
+      sublime            ⟷ Reaching such heights of beauty or grandeur that it inspires awe.
+      insipid            ⟷ Dull and flavorless, without any liveliness or taste.
+      discursive         ⟷ Rambling from one topic to another without staying focused.
+
+  [sat/standard] board (definitions)
+      impoverished       ⟷ Reduced to a state of having very little money or resources.
+      demonstrable       ⟷ Able to be clearly shown or proven to be true.
+      polity             ⟷ An organized community or state with a structured form of government.
+      generosity         ⟷ Willingness to give freely, more than is expected or required.
+      connote            ⟷ To imply an additional idea or feeling beyond a word's literal meaning.
+
+  [sat/standard] board (definitions)
+      exacting           ⟷ Demanding great care, effort, or precision; hard to satisfy.
+      affiliation        ⟷ An official connection or membership with a group or organization.
+      altercation        ⟷ A heated, often noisy argument or confrontation between people.
+      resentment         ⟷ Bitter anger at being treated unfairly that lingers quietly inside a person.
+      harmonize          ⟷ To combine or adjust separate parts so they work together agreeably.
+
+  [sat/standard] board (definitions)
+      juxtaposition      ⟷ The act of placing two things close together for contrasting effect.
+      dissident          ⟷ A person who publicly opposes the policies of their government.
+      ideology           ⟷ A system of ideas and beliefs that guides a group's politics or economics.
+      testify            ⟷ To give a formal statement of evidence, especially in a court of law.
+      probity            ⟷ Complete honesty and strong moral integrity in one's conduct.
+
+  [sat/standard] board (definitions)
+      surpass            ⟷ To be greater than, or go beyond, a limit, rival, or expectation.
+      radical            ⟷ Supporting extreme or fundamental change, especially in politics.
+      custom             ⟷ A traditional, repeated way of doing something within a culture.
+      diplomacy          ⟷ The skill of managing relations between nations, or handling matters with tact.
+      reminisce          ⟷ To talk or think fondly about pleasant experiences from the past.
+
+  [sat/standard] board (definitions)
+      aspiration         ⟷ A strong hope or ambition to accomplish a significant goal.
+      hackneyed          ⟷ Made stale through constant repetition, no longer fresh or striking.
+      oblique            ⟷ Not straightforward; indirect or slanting rather than direct.
+      abolish            ⟷ To formally end a law, system, or practice.
+      observation        ⟷ The act of watching something closely, or a remark about what was noticed.
+
+  [sat/standard] board (definitions)
+      introspective      ⟷ Given to examining one's own thoughts and feelings.
+      inept              ⟷ Lacking skill; clumsy and awkward at doing things.
+      resonate           ⟷ To produce a deep, ringing sound, or to strike a chord emotionally.
+      elegant            ⟷ Pleasingly graceful and stylish in a refined, effortless way.
+      banal              ⟷ So ordinary and unoriginal that it becomes boring.
+
+  [sat/standard] board (definitions)
+      fritter            ⟷ To waste time or money little by little on unimportant things.
+      claim              ⟷ To state that something is true, often without offering proof.
+      stylize            ⟷ To depict something in a simplified, decorative way rather than realistically.
+      mesmerize          ⟷ To hold someone's attention so completely they seem hypnotized.
+      reprisal           ⟷ An act of striking back to punish an enemy for something they did.
+
+  [sat/standard] board (definitions)
+      serene             ⟷ Calm, peaceful, and untroubled, without any disturbance or worry.
+      procedure          ⟷ An established series of steps for doing something.
+      refine             ⟷ To improve something through small, careful changes that remove flaws.
+      emphasize          ⟷ To give special importance or attention to something in speech or writing.
+      underlie           ⟷ To form the hidden basis or foundation of something more visible.
+
+  [sat/standard] board (definitions)
+      transgress         ⟷ To break a moral or legal boundary by overstepping accepted limits.
+      supersede          ⟷ To take the place of something older or less capable.
+      ordinance          ⟷ A rule or order issued by a city or town government.
+      causation          ⟷ The relationship in which one event directly produces or brings about another.
+      disinterested      ⟷ Having no personal stake, and therefore able to judge fairly.
+
+  [sat/standard] board (definitions)
+      rancor             ⟷ Bitter, long-lasting resentment or ill feeling.
+      assimilate         ⟷ To absorb people or ideas fully into a larger group or culture.
+      demographic        ⟷ A specific segment of a population sharing traits like age or income.
+      dissent            ⟷ Strong disagreement with an officially held opinion or decision.
+      uprising           ⟷ A popular act of resistance or rebellion against a government or authority.
+
+  [sat/standard] board (definitions)
+      apparatus          ⟷ A set of equipment or tools used for a particular purpose.
+      initiative         ⟷ The power or willingness to begin and pursue action on one's own.
+      flounder           ⟷ To struggle clumsily or helplessly, unsure of what to do next.
+      attain             ⟷ To reach or gain something through sustained effort.
+      tireless           ⟷ Working with great energy for a long time without becoming weary.
+
+  [sat/standard] board (definitions)
+      lyrical            ⟷ Expressing deep feeling in a poetic, songlike way.
+      recall             ⟷ To bring something back into your mind after having known it before.
+      hindsight          ⟷ Clear understanding of a situation only after it has already happened.
+      overstate          ⟷ To describe something as larger, better, or worse than it truly is.
+      objection          ⟷ A statement of disagreement or disapproval about something.
+
+  [sat/standard] board (definitions)
+      spite              ⟷ A mean desire to hurt, annoy, or upset another person.
+      rescind            ⟷ To officially cancel or revoke a law, order, or agreement.
+      authoritarian      ⟷ Demanding strict obedience and allowing people little personal freedom.
+      analysis           ⟷ A detailed examination of the separate parts of something to understand it.
+      reproducibility    ⟷ The quality of a result being obtainable again under the same conditions.
+
+  [sat/standard] board (definitions)
+      outlier            ⟷ A value or person sitting far away from all the others in a group.
+      amass              ⟷ To gather together a large quantity of something over time.
+      trivialize         ⟷ To treat or describe something as far less important than it really is.
+      meritocracy        ⟷ A system in which people advance based on talent and achievement.
+      sophisticated      ⟷ Highly developed, complex, or refined in design or thinking.
+
+  [sat/standard] board (definitions)
+      optimistic         ⟷ Hopeful and confident that good things are likely to happen.
+      refutation         ⟷ The act of proving a statement or argument to be false or wrong.
+      prestige           ⟷ Widespread respect and admiration earned through achievement or quality.
+      virtuoso           ⟷ A person with outstanding skill in music or another artistic pursuit.
+      exquisite          ⟷ Beautifully and delicately made, with flawless attention to fine detail.
+
+  [sat/standard] board (definitions)
+      foreshadow         ⟷ To hint at or suggest a future event before it happens.
+      trite              ⟷ Overused to the point of having lost meaning or interest.
+      gratuitous         ⟷ Done without good reason and beyond what is needed.
+      mannered           ⟷ Artificial and stiff in style rather than natural.
+      reactionary        ⟷ Strongly opposed to political or social change and favoring a return to earlier conditions.
+
+  [sat/standard] board (definitions)
+      rapport            ⟷ A close relationship in which people understand each other well.
+      statute            ⟷ A formal written rule made and enforced by the governing body of a country or state.
+      concur             ⟷ To share the same opinion; to agree.
+      polarize           ⟷ To divide people into two sharply opposing groups.
+      haunting           ⟷ Beautiful or sad in a way that lingers in your memory.
+
+  [sat/standard] board (definitions)
+      ethos              ⟷ The guiding spirit and shared values that define a community or group.
+      lush               ⟷ Growing thickly and abundantly; rich in healthy vegetation or luxurious detail.
+      tranquil           ⟷ Free from noise, motion, or disturbance; deeply quiet and still.
+      resilient          ⟷ Able to recover quickly after hardship, setbacks, or damage.
+      cite               ⟷ To mention a source or example in order to support a claim.
+
+  [sat/standard] board (definitions)
+      construct          ⟷ To build or form something by putting parts together.
+      recollect          ⟷ To bring a past fact or experience back into the mind.
+      monument           ⟷ A structure built to honor a notable person or event.
+      efface             ⟷ To rub out or remove something so it can no longer be seen.
+      poignant           ⟷ Deeply affecting the emotions, especially stirring sadness or a bittersweet ache.
+
+  [sat/standard] board (definitions)
+      electorate         ⟷ All the citizens who are entitled to cast votes.
+      persevere          ⟷ To keep trying and not give up despite obstacles or discouragement.
+      expertise          ⟷ Deep specialized knowledge or skill gained from long experience in a field.
+      resourceful        ⟷ Clever at finding quick, practical ways to solve problems with what is available.
+      idle               ⟷ Not working or being used; spending time doing nothing.
+
+  [sat/standard] board (definitions)
+      vendetta           ⟷ A long, bitter feud driven by a craving for revenge between families or groups.
+      insurgent          ⟷ Someone who rises in armed opposition against an established government or authority.
+      unrest             ⟷ A state of angry dissatisfaction that often leads to protests or disturbances.
+      mores              ⟷ The essential moral rules and accepted behaviors of a particular society.
+      governance         ⟷ The process and manner of controlling and directing an organization or state.
+
+  [sat/hard] board (definitions)
+      tremulous          ⟷ Shaking slightly, usually from fear, nervousness, or weakness.
+      dissociate         ⟷ To separate or disconnect one thing from another in your mind.
+      bleak              ⟷ Cold, bare, and offering no warmth, comfort, or hope.
+      restitution        ⟷ Payment or return of something to make up for loss or damage caused.
+      pardon             ⟷ An official act releasing a person from punishment for a crime.
+
+  [sat/hard] board (definitions)
+      incarcerate        ⟷ To confine a person in a jail or penal institution.
+      anguish            ⟷ Severe mental or physical suffering, often caused by grief or loss.
+      derision           ⟷ Scornful laughter or contempt directed at someone considered worthless or foolish.
+      incongruity        ⟷ A quality of being out of place or clashing with what surrounds it.
+      chicanery          ⟷ The use of clever tricks and deception to cheat or mislead someone.
+
+  [sat/hard] board (definitions)
+      infringe           ⟷ To break a rule or law, or to intrude on someone's rights.
+      quip               ⟷ A clever, witty, and often cutting remark made quickly.
+      antic              ⟷ A wild, playful, or absurd act intended to amuse.
+      despotic           ⟷ Ruling with absolute power in a cruel, oppressive manner.
+      influx             ⟷ The arrival of a large number of people or things into a place.
+
+  [sat/hard] board (definitions)
+      convene            ⟷ To come together or bring people together for a formal meeting or purpose.
+      deliverance        ⟷ Rescue or release from danger, bondage, or serious difficulty.
+      cloister           ⟷ To shut away in a quiet, secluded place, apart from the world.
+      untrammeled        ⟷ Not limited or hampered by anything; completely free.
+      prudence           ⟷ The use of caution and sound judgment in practical affairs.
+
+  [sat/hard] board (definitions)
+      aplomb             ⟷ Complete confidence and skillful ease shown in a demanding or stressful moment.
+      resilience         ⟷ The ability to recover quickly from hardship, stress, or difficult conditions.
+      eloquence          ⟷ Fluent, persuasive, and graceful use of language when speaking or writing.
+      illustrious        ⟷ Widely admired and celebrated for remarkable achievements or a distinguished record.
+      proxy              ⟷ Someone or something authorized to act, stand in, or vote for another.
+
+  [sat/hard] board (definitions)
+      banter             ⟷ Lighthearted, teasing talk exchanged between people in a friendly way.
+      delirium           ⟷ A confused, disturbed mental state, often with fever, or a wild burst of excitement.
+      exhilarate         ⟷ To make someone feel intensely happy, lively, and invigorated.
+      smolder            ⟷ To burn slowly without flame, or to hold a strong feeling quietly beneath the surface.
+      ruminate           ⟷ To think about something deeply and at length.
+
+  [sat/hard] board (definitions)
+      sap                ⟷ To drain someone's strength or energy little by little.
+      periphery          ⟷ The outer edge or boundary area of something, away from its center.
+      trek               ⟷ A long, arduous journey made mostly on foot over difficult ground.
+      expulsion          ⟷ The act of forcing a person or thing out of a place or group.
+      rustic             ⟷ Plain, simple, or rough in a way typical of the countryside.
+
+  [sat/hard] board (definitions)
+      jocund             ⟷ Cheerful, merry, and lighthearted in mood or manner.
+      nurture            ⟷ To care for something and help it grow, develop, or thrive.
+      magisterial        ⟷ Showing great authority and commanding respect, sometimes in a bossy, dictatorial way.
+      subordinate        ⟷ Lower in rank, power, or importance than someone or something else.
+      misrepresent       ⟷ To describe something falsely or inaccurately, creating a wrong impression.
+
+  [sat/hard] board (definitions)
+      interloper         ⟷ A person who intrudes into a place or affair where they do not belong.
+      naturalize         ⟷ To grant full legal citizenship to someone born in another country.
+      archetype          ⟷ An original model or perfect example on which others are based.
+      clandestine        ⟷ Kept hidden and carried out in secret, usually because it is not allowed.
+      servile            ⟷ Excessively eager to obey or please others in a submissive, groveling way.
+
+  [sat/hard] board (definitions)
+      aghast             ⟷ Filled with sudden shock and horror.
+      mislead            ⟷ To cause someone to have a false idea by giving wrong information.
+      ineffable          ⟷ Too great, beautiful, or intense to be captured in words.
+      efficacy           ⟷ The power or ability to produce a desired result.
+      mournful           ⟷ Feeling or showing deep sadness, especially over a loss.
+
+  [sat/hard] board (definitions)
+      blanch             ⟷ To turn pale, especially from shock or fear.
+      fathom             ⟷ To understand something complex or puzzling after careful thought.
+      voyage             ⟷ A long journey, usually made by sea or through space.
+      prospect           ⟷ The likelihood or expectation that something will happen in the future.
+      profuse            ⟷ Produced or existing in very large amounts.
+
+  [sat/hard] board (definitions)
+      devious            ⟷ Using dishonest, indirect, or underhanded methods to get what you want.
+      sylvan             ⟷ Relating to or characteristic of woods and forests.
+      primeval           ⟷ Belonging to the earliest ages of the world; ancient and untouched by human activity.
+      uproot             ⟷ To pull a plant fully from the soil, or displace someone from home.
+      traverse           ⟷ To travel or move across a large area or distance.
+
+  [sat/hard] board (definitions)
+      dread              ⟷ To feel intense fear or anxiety about something expected to come.
+      interweave         ⟷ To combine different elements so they cross and blend together.
+      inexorable         ⟷ Impossible to stop, slow down, or persuade away from its course.
+      inert              ⟷ Lacking the power to move or the will to act.
+      hermetic           ⟷ Sealed so completely that no air or outside influence can enter.
+
+  [sat/hard] board (definitions)
+      unearth            ⟷ To discover or bring to light something that was hidden or buried.
+      delve              ⟷ To search deeply and thoroughly into a subject or source.
+      vista              ⟷ A pleasing wide view, often seen through a long narrow opening.
+      scrutiny           ⟷ Careful and detailed examination of something.
+      reservoir          ⟷ A large supply or store of something kept for later use.
+
+  [sat/hard] board (definitions)
+      inquiry            ⟷ An act of asking for information or a formal investigation.
+      fetter             ⟷ A chain or metal band placed on the feet to prevent movement.
+      latitude           ⟷ Freedom to act, think, or choose within wide limits.
+      tumultuous         ⟷ Full of noise, confusion, or violent disorder.
+      despot             ⟷ A ruler who holds absolute power and uses it cruelly.
+
+  [sat/hard] board (definitions)
+      entice             ⟷ To attract someone by offering something tempting or pleasurable.
+      nomenclature       ⟷ A formal system of names used within a particular field or discipline.
+      apprehend          ⟷ To seize a suspect in custody, or to grasp the meaning of something.
+      serendipitous      ⟷ Occurring by a lucky, unplanned chance in a welcome and pleasant way.
+      yearn              ⟷ To feel a deep, aching desire for something or someone.
+
+  [sat/hard] board (definitions)
+      exorbitant         ⟷ Far greater in amount or price than is reasonable or fair.
+      dislocation        ⟷ A state of being moved or forced out of a proper or usual place.
+      expansive          ⟷ Covering a wide area; great in extent or range.
+      straddle           ⟷ To sit or stand with a leg on each side, or to extend across a boundary.
+      isolate            ⟷ To keep someone or something separate and alone, apart from others.
+
+  [sat/hard] board (definitions)
+      impish             ⟷ Playfully naughty in a charming, harmless way.
+      debilitate         ⟷ To seriously weaken the strength or health of a person or thing.
+      gaunt              ⟷ Extremely thin and bony, often from illness, hunger, or exhaustion.
+      charade            ⟷ An obvious pretense or empty show that convinces no one.
+      chafe              ⟷ To feel impatient irritation, or to rub skin raw and sore through friction.
+
+  [sat/hard] board (definitions)
+      premonition        ⟷ A strong feeling that something, often unpleasant, is about to happen.
+      embolden           ⟷ To give someone the confidence or courage to act.
+      recoil             ⟷ To spring or draw back suddenly in fear, horror, or disgust.
+      deleterious        ⟷ Causing harm or damage, often gradually and not obviously at first.
+      rife               ⟷ Widespread and very common, often describing something unwelcome.
+
+  [sat/hard] board (definitions)
+      precinct           ⟷ A defined district of a town or city, often used for policing or voting.
+      euphoria           ⟷ An intense feeling of happiness, well-being, and excitement.
+      wrath              ⟷ Extreme, often vengeful anger or fury.
+      commiserate        ⟷ To express sympathy or share in another person's sadness.
+      satirize           ⟷ To use humor and irony to expose and criticize people's foolishness or vices.
+
+  [sat/hard] board (definitions)
+      wax                ⟷ To grow gradually larger, stronger, or more complete over time.
+      tribunal           ⟷ A special court or panel set up to settle certain disputes or cases.
+      overrule           ⟷ To reject a lower decision by exercising greater authority.
+      exculpate          ⟷ To prove that a person is free from blame or guilt for a wrongdoing.
+      miscreant          ⟷ A person who behaves wickedly or breaks the law.
+
+  [sat/hard] board (definitions)
+      estrange           ⟷ To make someone feel hostile or indifferent toward people they were once close to.
+      menace             ⟷ A person or thing likely to cause harm or danger.
+      chary              ⟷ Cautiously reluctant to do something or to give something away; guarded.
+      respite            ⟷ A short period of rest or relief from something difficult or unpleasant.
+      wanton             ⟷ Cruel or harmful for no reason, or lacking any moral restraint.
+
+  [sat/hard] board (definitions)
+      empower            ⟷ To give someone the authority or confidence to take control and act.
+      equanimity         ⟷ Calmness and steadiness of mind, especially under stress or difficulty.
+      liberty            ⟷ The state of being free to act, speak, or think as one wishes.
+      tyrannical         ⟷ Using power in a cruel, unfair, and controlling way.
+      hazardous          ⟷ Involving a strong likelihood of injury, harm, or loss.
+
+  [sat/hard] board (definitions)
+      caper              ⟷ A playful leap, or a lighthearted, mischievous adventure.
+      canard             ⟷ A baseless rumor or false story spread as though it were true.
+      counterfeit        ⟷ Made as an exact imitation of something valuable in order to trick people.
+      egregious          ⟷ Remarkably and shockingly bad in a way that stands out.
+      perturb            ⟷ To make someone anxious, worried, or mentally unsettled.
+
+  [sat/hard] board (definitions)
+      serendipity        ⟷ The good fortune of stumbling upon something valuable or delightful entirely by chance.
+      outlying           ⟷ Situated far from a center or main area; remote.
+      abscond            ⟷ To run away quickly and secretly, often after stealing or to escape the law.
+      colonize           ⟷ To settle in and take control of a new territory, often a foreign one.
+      continuum          ⟷ A continuous sequence in which adjacent parts differ only slightly.
+
+  [sat/fiendish] board (definitions)
+      despotic           ⟷ Ruling with absolute power in a cruel, oppressive manner.
+      cronyism           ⟷ The unfair practice of giving jobs and favors to close friends rather than qualified people.
+      iniquity           ⟷ Grave injustice or profound wickedness.
+      vituperate         ⟷ To attack someone with harsh, abusive language.
+      hinterland         ⟷ A remote region lying inland, far from cities, coasts, or main routes.
+
+  [sat/fiendish] board (definitions)
+      luxuriant          ⟷ Growing thickly and abundantly; rich, dense, and profuse.
+      ebb                ⟷ To flow back or decline, as the sea does when the tide falls.
+      decrepit           ⟷ Worn out and weakened by old age, long use, or neglect.
+      foster             ⟷ To encourage the development of something; also, to raise another person's child.
+      rife               ⟷ Widespread and very common, often describing something unwelcome.
+
+  [sat/fiendish] board (definitions)
+      consort            ⟷ To regularly keep company or associate with certain people.
+      unfettered         ⟷ Free from restrictions or controls; able to act without limits.
+      servitude          ⟷ The condition of being forced to work for another without freedom.
+      vociferous         ⟷ Expressing feelings or opinions loudly and forcefully.
+      peril              ⟷ A state of serious and immediate danger to one's safety or life.
+
+  [sat/fiendish] board (definitions)
+      prolific           ⟷ Producing a great number of works, offspring, or results.
+      solitary           ⟷ Existing or done alone, without any others present.
+      forge              ⟷ To create or shape something strong and lasting through effort or heat.
+      bond               ⟷ To form a close connection or relationship with someone.
+      surfeit            ⟷ An amount so large it becomes excessive or sickening.
+
+  [sat/fiendish] board (definitions)
+      citadel            ⟷ A fortress on high ground that protects or dominates a city.
+      resurgent          ⟷ Rising again and becoming strong or active after a period of decline.
+      famine             ⟷ A severe, widespread shortage of food that causes hunger and starvation.
+      wizened            ⟷ Shriveled and deeply wrinkled, especially from old age.
+      anoint             ⟷ To rub or smear with oil, often as part of a sacred or ceremonial act.
+
+  [sat/fiendish] board (definitions)
+      rustic             ⟷ Plain, simple, or rough in a way typical of the countryside.
+      dauntless          ⟷ Showing courage and resolve even when facing danger.
+      ominous            ⟷ Giving the impression that something bad is about to happen.
+      verge              ⟷ The edge or border of something, especially the point where a new state is about to begin.
+      foil               ⟷ To stop a plan or effort from succeeding; to thwart it.
+
+  [sat/fiendish] board (definitions)
+      nurture            ⟷ To care for something and help it grow, develop, or thrive.
+      errant             ⟷ Straying from the proper course, rules, or accepted standards of behavior.
+      ascertain          ⟷ To find out something with certainty through checking or inquiry.
+      uncharted          ⟷ Not yet mapped, explored, or recorded.
+      savant             ⟷ A person with deep knowledge or exceptional skill in a field.
+
+  [sat/fiendish] board (definitions)
+      ruse               ⟷ A cunning trick intended to mislead or fool someone.
+      exhaustive         ⟷ Including every possible detail; thoroughly complete.
+      solace             ⟷ Comfort or consolation given to someone after a loss or disappointment.
+      gravitate          ⟷ To be drawn steadily toward a particular person, place, or thing.
+      quarantine         ⟷ A period of isolation used to stop the spread of disease.
+
+  [sat/fiendish] board (definitions)
+      revoke             ⟷ To officially cancel the validity of something previously granted.
+      illuminate         ⟷ To make something clear and understandable, or to light it up brightly.
+      tome               ⟷ A large, heavy, and often scholarly book.
+      seminal            ⟷ Strongly shaping later developments by serving as an original source of ideas.
+      estrange           ⟷ To make someone feel hostile or indifferent toward people they were once close to.
+
+  [sat/fiendish] board (definitions)
+      dread              ⟷ To feel intense fear or anxiety about something expected to come.
+      convalesce         ⟷ To slowly return to good health after being sick or injured.
+      lassitude          ⟷ A state of physical or mental weariness and lack of energy.
+      fallow             ⟷ Left unplanted or inactive for a time so it can rest and recover.
+      slump              ⟷ A marked drop in performance, activity, or value, or a heavy sinking of the body.
+
+  [sat/fiendish] board (definitions)
+      terrain            ⟷ The physical features and surface character of a stretch of ground.
+      vicarious          ⟷ Felt or experienced through the actions and feelings of another person.
+      reclusive          ⟷ Preferring to live alone and avoid other people or society.
+      rootless           ⟷ Having no settled home or lasting ties to any place or community.
+      infringe           ⟷ To break a rule or law, or to intrude on someone's rights.
+
+  [sat/fiendish] board (definitions)
+      antic              ⟷ A wild, playful, or absurd act intended to amuse.
+      depravity          ⟷ Moral corruption and a total absence of decency.
+      salubrious         ⟷ Good for one's health; pleasant and wholesome to live in.
+      embark             ⟷ To board a vessel or set out on a new journey or undertaking.
+      inquiry            ⟷ An act of asking for information or a formal investigation.
+
+  [sat/fiendish] board (definitions)
+      expanse            ⟷ A wide, open, and continuous area of something spread out before you.
+      scowl              ⟷ To frown in a sullen, angry, or bad-tempered way.
+      aghast             ⟷ Filled with sudden shock and horror.
+      rue                ⟷ To feel bitter regret about something one has said or done.
+      despair            ⟷ The complete loss or absence of hope.
+
+  [sat/fiendish] board (definitions)
+      distend            ⟷ To swell or stretch outward, usually from internal pressure.
+      righteous          ⟷ Acting in a morally correct way, or justified by a strong sense of fairness.
+      haven              ⟷ A place of safety, calm, or comfortable retreat.
+      immigrate          ⟷ To come into a foreign country to live there permanently.
+      threshold          ⟷ The point or level at which something begins, or a strip of floor beneath a doorway.
+
+  [sat/fiendish] board (definitions)
+      spoof              ⟷ A light, humorous imitation that mocks something by exaggerating its features.
+      cosmopolitan       ⟷ Familiar with and comfortable among many different countries and cultures.
+      fidelity           ⟷ Faithfulness and loyalty to a person, cause, or duty.
+      pariah             ⟷ A person whom everyone rejects and refuses to associate with.
+      bereft             ⟷ Deprived of something or someone, and left empty as a result.
+
+  [sat/fiendish] board (definitions)
+      recuse             ⟷ To remove oneself from a matter because of a conflict of interest.
+      whimsy             ⟷ A playful, fanciful quality, or a sudden and capricious idea.
+      disperse           ⟷ To spread out or drive apart across a wide area.
+      unify              ⟷ To bring separate things together into a single whole.
+      imbue              ⟷ To fill someone or something deeply with a quality or feeling.
+
+  [sat/fiendish] board (definitions)
+      extinction         ⟷ The complete dying out or permanent disappearance of a species or thing.
+      environs           ⟷ The surrounding district or area around a particular place.
+      squalid            ⟷ Extremely dirty and run-down, often from poverty or neglect.
+      inhospitable       ⟷ Harsh and difficult to live in, or unwelcoming to guests.
+      apprehend          ⟷ To seize a suspect in custody, or to grasp the meaning of something.
+
+  [sat/fiendish] board (definitions)
+      palliate           ⟷ To ease the severity of something without removing its underlying cause.
+      enclave            ⟷ A small area or group that differs culturally from the larger territory surrounding it.
+      shun               ⟷ To deliberately avoid or keep away from someone or something.
+      enslave            ⟷ To make someone the property of another and force their labor.
+      cower              ⟷ To crouch or shrink down low in fear of someone or something.
+
+  [sat/fiendish] board (definitions)
+      swell              ⟷ To grow bigger or increase in size, volume, or intensity.
+      precipitous        ⟷ Dangerously steep, or done with sudden and rash haste.
+      temerity           ⟷ Foolish boldness or nerve that ignores danger or good manners.
+      vulnerable         ⟷ Easily hurt, attacked, or harmed, physically or emotionally.
+      premonition        ⟷ A strong feeling that something, often unpleasant, is about to happen.
+
+  [sat/fiendish] board (definitions)
+      magisterial        ⟷ Showing great authority and commanding respect, sometimes in a bossy, dictatorial way.
+      distraught         ⟷ Deeply upset and agitated, to the point of being unable to think clearly.
+      chagrin            ⟷ Annoyance or embarrassment caused by failure or disappointment.
+      reticence          ⟷ A tendency to stay quiet and reveal little about one's thoughts or feelings.
+      deadpan            ⟷ Delivering humor or remarks with a blank, expressionless, and utterly serious face.
+
+  [sat/fiendish] board (definitions)
+      luminary           ⟷ A highly respected person who inspires others within a particular field.
+      shrivel            ⟷ To shrink and wrinkle up, especially from heat, cold, or lack of water.
+      sprout             ⟷ To start growing, sending up fresh shoots from a seed or plant.
+      replete            ⟷ Fully filled or abundantly supplied with something.
+      entropy            ⟷ The gradual slide of a system toward disorder, randomness, or decay.
+
+  [sat/fiendish] board (definitions)
+      individualism      ⟷ The belief that personal independence and self-reliance matter more than group needs.
+      rebuff             ⟷ To reject or refuse someone or something in an abrupt, unfriendly way.
+      gambit             ⟷ A calculated opening move made to gain an advantage, often involving some risk.
+      moribund           ⟷ Close to death or on the verge of ceasing to exist.
+      emaciated          ⟷ Abnormally thin and weak, usually from starvation or serious illness.
+
+  [sat/fiendish] board (definitions)
+      unleash            ⟷ To suddenly release a powerful force or feeling that was held back.
+      incriminate        ⟷ To make someone appear guilty of a crime or wrongdoing.
+      protean            ⟷ Readily able to change form, nature, or appearance; wonderfully versatile.
+      alacrity           ⟷ Brisk and cheerful eagerness or promptness in doing something.
+      peevish            ⟷ Easily annoyed and inclined to complain in a childish, bad-tempered way.
+
+  [sat/fiendish] board (definitions)
+      penumbra           ⟷ The region of partial shadow between full light and full darkness.
+      circumlocution     ⟷ The use of many vague words instead of stating something plainly and directly.
+      perfidy            ⟷ A deliberate breaking of trust or faith; treachery toward someone who relies on you.
+      quotidian          ⟷ Happening every day; ordinary and utterly commonplace.
+      pith               ⟷ The essential, central part of something; its core substance.
+
+  [sat/fiendish] board (definitions)
+      farcical           ⟷ So absurd and chaotic that it seems ridiculous rather than serious.
+      empower            ⟷ To give someone the authority or confidence to take control and act.
+      irk                ⟷ To annoy or irritate someone.
+      elation            ⟷ A feeling of great happiness and exhilaration, often after success.
+      mingle             ⟷ To mix together or socialize with many different people.

@@ -11,13 +11,28 @@
  * side. Definitions are never truncated.
  */
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type KeyboardEvent } from "react";
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { seedFor, seededShuffle } from "@/lib/order";
 import type { AnswerRecord, MatchQuestion } from "@/lib/games/types";
 import { cn } from "@/lib/utils";
+import { isRovingKey, rovingTarget } from "@/lib/roving";
+
+/** Arrow keys and Home/End move between the open entries of one column. */
+function roveWithin(e: KeyboardEvent<HTMLDivElement>) {
+  if (!isRovingKey(e.key)) return;
+  const buttons = [...e.currentTarget.querySelectorAll<HTMLButtonElement>("button")];
+  const target = rovingTarget(
+    buttons.map((b) => !b.disabled),
+    buttons.indexOf(document.activeElement as HTMLButtonElement),
+    e.key,
+  );
+  if (target === null) return;
+  e.preventDefault();
+  buttons[target]!.focus();
+}
 
 /** What a wrong pairing costs, in milliseconds of the board's clock. */
 export const MISMATCH_PENALTY_MS = 2000;
@@ -81,7 +96,7 @@ export function MatchBoard({
       </p>
 
       <div className="mt-4 grid content-start gap-4 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]">
-        <div role="group" aria-label="Words" className="flex flex-wrap content-start gap-2 md:flex-col md:flex-nowrap">
+        <div role="group" aria-label="Words" onKeyDown={roveWithin} className="flex flex-wrap content-start gap-2 md:flex-col md:flex-nowrap">
           {question.pairs.map((p) => {
             const isMatched = matched.has(p.wordId);
             const isWrong = wrong?.word === p.wordId;
@@ -114,7 +129,7 @@ export function MatchBoard({
           })}
         </div>
 
-        <div role="group" aria-label="Meanings" className="flex flex-col gap-2">
+        <div role="group" aria-label="Meanings" onKeyDown={roveWithin} className="flex flex-col gap-2">
           {rights.map((p) => {
             const isMatched = matched.has(p.wordId);
             const isWrong = wrong?.meaning === p.wordId;

@@ -585,7 +585,7 @@ Design: [docs/TABLET.md](./docs/TABLET.md).
 - ~~**[P0] Rotation preserves state.**~~ **DONE 2026-09-12.** — Asserted on all ten viewports: a card mid-session survives the turn, still flipped. It holds because layout is driven by CSS rather than by a width read in JavaScript.
 - ~~**[P0] `scripts/drive/tablet-audit.mjs`.**~~ **DONE 2026-09-12.** — Five devices, both orientations, six pages each. It found the iPad mini breakpoint, and two of its own assertions were wrong before the app was: it read a `display: none` aside's declared width as a live rail, and it judged input names without looking at their labels.
 - ~~**[P1] Safe areas on all four edges.**~~ **DONE** — with the fullscreen work in Phase 13.
-- **[P1] External keyboard.** — Every shortcut still works; focus rings visible.
+- ~~**[P1] External keyboard.**~~ **DONE 2026-10-14.** — `scripts/drive/tablet-keyboard.mjs` runs as an iPad in both orientations, touch emulated and `pointer: coarse` confirmed from inside the page, and uses only the keyboard: every `g` sequence, `?`, `/`, focus rings on everything Tab reaches, a game answered by number keys and paused by Escape, and a Match Up pair made with the arrows. Nothing in the app branched on touch, but the run found a bug on **every** keyboard: a game's rules card autofocused a Play button that was still disabled while the words loaded, so focus fell to the timer and Enter did nothing. Play is now `aria-disabled` while loading, so it keeps the focus and Enter plays once ready. Also added: arrow keys in Match Up's columns, and `aria-current` on the sidebar and rail, which had never told a screen reader which page was open. Untested still: real iPad hardware.
 
 ### Definition of done — met 2026-09-12
 
@@ -595,7 +595,7 @@ Design: [docs/TABLET.md](./docs/TABLET.md).
 ### Left for later, deliberately
 
 - **Daily Practice as master/detail** and **word detail as a landscape side panel.** Both are restructures of a page rather than responsive rules, and neither is broken today — they are an improvement, not a fix, and bundling them into a phase about breakpoints would have hidden how much was actually changing.
-- **External keyboard.** Every existing shortcut still works and focus rings are visible; what is untested is an iPad with a hardware keyboard attached, which needs the hardware.
+- ~~**External keyboard.**~~ Done 2026-10-14 against an emulated iPad (above); a real iPad with a hardware keyboard is still untested.
 
 ## Phase 17 — The SAT corpus
 
@@ -794,7 +794,8 @@ tracks, persisted, and verified in a browser.
   match can fairly pair two ways. Warm-up boards prefer a confirmed synonym,
   after *translucent* → "frosted". A wrong pair costs two seconds and no
   points; pairs made before a time-out still score. Every item is a button, so
-  Tab and Enter play it; arrow-key movement inside a column was **not** built.
+  Tab and Enter play it; arrow keys and Home/End move within a column (added
+  2026-10-14, with the Phase 16 keyboard work).
 - ~~**[P1] Spell It.**~~ **DONE 2026-10-13.** — Blind reads: **3.0% → 0.5%**,
   and every flag was a legitimate spelling marked wrong (*generalise*,
   *rarified*, *pre-eminent*). The checker now accepts the regular

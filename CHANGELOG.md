@@ -11,8 +11,16 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   is imported — whether Lexicon was open or not. It goes through the same
   import as dropping or picking a file, so the same files are accepted.
 
+- **Arrow keys in Match Up.** Up, down, Home and End move within a column,
+  skipping words already paired.
+
 ### Fixed
 
+- **Enter did not start a game from its rules card** while the words were
+  still loading — on every keyboard. The Play button now keeps the focus while
+  it waits, and Enter plays the moment it is ready.
+- **The sidebar never said which page was open** to a screen reader. It now
+  does, as the phone tab bar always has.
 - **Leaving the Android app did not pause a game.** The Android WebView never
   reports that the app went to the background, so a round's clock kept running
   behind the home screen. The app now tells the page itself.

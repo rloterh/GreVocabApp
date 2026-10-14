@@ -67,7 +67,7 @@ const toGames = async () => {
 };
 const pressPlay = async () => {
   await page.waitForFunction(
-    () => [...document.querySelectorAll('[role="dialog"] button')].some((b) => b.textContent === "Play" && !b.disabled),
+    () => [...document.querySelectorAll('[role="dialog"] button')].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
     null,
     { timeout: 20000 },
   );

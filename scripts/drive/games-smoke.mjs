@@ -109,7 +109,7 @@ await page.getByRole("button", { name: "Standard", exact: true }).first().click(
 const play = page.getByRole("button", { name: "Play", exact: true });
 await play.waitFor({ state: "visible" });
 await page.waitForFunction(
-  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
   null,
   { timeout: 15000 },
 );
@@ -247,7 +247,7 @@ for (const name of ["Fact or Fiction", "Opposites", "Fill the Gap"]) {
   await page.waitForTimeout(700);
   await page.locator("section").filter({ hasText: name }).getByRole("button", { name: "Warm-up", exact: true }).click();
   await page.waitForFunction(
-    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
     null,
     { timeout: 15000 },
   );
@@ -303,7 +303,7 @@ const startGame = async (name, tier = "Standard") => {
   await toHub();
   await page.locator("section").filter({ hasText: name }).getByRole("button", { name: tier, exact: true }).click();
   await page.waitForFunction(
-    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
     null,
     { timeout: 15000 },
   );
@@ -445,11 +445,11 @@ await page.waitForTimeout(500);
   const alert = p4.getByRole("alert");
   await alert.waitFor({ timeout: 15000 });
   check(/offline/i.test(await alert.innerText()), "offline: the rules card says what happened");
-  check(await p4.getByRole("button", { name: "Play", exact: true }).isDisabled().catch(() => true), "and Play waits");
+  check((await p4.getByRole("button", { name: "Play", exact: true }).getAttribute("aria-disabled")) === "true", "and Play waits");
   await p4.unroute(/\/vocab\/(gre|sat)\/\d+\.json$/);
   await alert.getByRole("button", { name: "Try again" }).click();
   await p4.waitForFunction(
-    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
     null,
     { timeout: 15000 },
   );
@@ -544,7 +544,7 @@ check(/same for everyone today/i.test(await nudge.innerText()), "the Dashboard o
 await nudge.getByRole("button", { name: "Play" }).click();
 const dailyPlay = page.getByRole("button", { name: "Play", exact: true });
 await page.waitForFunction(
-  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
   null,
   { timeout: 15000 },
 );
@@ -573,7 +573,7 @@ check((await card.locator('li[aria-label$="not played"]').count()) === 13, "thir
 // A replay is practice, and today's result stands.
 await card.getByRole("button", { name: /practice/i }).click();
 await page.waitForFunction(
-  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
   null,
   { timeout: 15000 },
 );
@@ -641,7 +641,7 @@ check(prog.includes(`${firstResult.right}/10`) && /Best, timed/.test(prog), "Pro
   check(await mine.isEnabled(), "Mine unlocks with 45 studied words");
   await mine.click();
   await p3.waitForFunction(
-    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+    () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
     null,
     { timeout: 15000 },
   );
@@ -689,7 +689,7 @@ const overflow = () => p2.evaluate(() => document.documentElement.scrollWidth - 
 check((await overflow()) <= 0, "the hub does not scroll sideways at 360px");
 await p2.getByRole("button", { name: "Warm-up", exact: true }).first().click();
 await p2.waitForFunction(
-  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled && b.getAttribute("aria-disabled") !== "true"),
   null,
   { timeout: 15000 },
 );

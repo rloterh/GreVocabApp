@@ -127,6 +127,9 @@ function NavSection({
               type="button"
               onClick={() => onSelect(item.page)}
               title={item.label}
+              // The pill says which page this is to a sighted user; this says
+              // it to everyone else, as the phone tab bar already does.
+              aria-current={active ? "page" : undefined}
               className={cn(
                 "relative w-full flex flex-col lg:flex-row items-center justify-center lg:justify-start",
                 "gap-1 lg:gap-2.5 rounded-md px-1 lg:px-2.5 py-2",

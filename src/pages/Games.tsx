@@ -424,12 +424,21 @@ export function Games() {
                 </div>
               )}
 
+              {/*
+                aria-disabled, not disabled: a disabled button cannot take the
+                autofocus, so while the words load focus went to the timer
+                instead and stayed there — Enter then did nothing, on every
+                keyboard. Focusable from the start, Enter plays once ready.
+              */}
               <Button
                 size="lg"
-                className="mt-6 w-full"
+                className="mt-6 w-full aria-disabled:cursor-default aria-disabled:opacity-50"
                 autoFocus
-                disabled={corpus.status !== "ready" && choice.game !== "picture"}
-                onClick={() => start(choice.game, choice.tier, corpus)}
+                aria-disabled={corpus.status !== "ready" && choice.game !== "picture"}
+                onClick={() => {
+                  if (corpus.status !== "ready" && choice.game !== "picture") return;
+                  start(choice.game, choice.tier, corpus);
+                }}
               >
                 {corpus.status === "loading" && choice.game !== "picture" ? "Getting the words ready…" : "Play"}
               </Button>

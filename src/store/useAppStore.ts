@@ -40,6 +40,12 @@ interface AppState {
    */
   backHandler: (() => boolean) | null;
   setBackHandler: (handler: (() => boolean) | null) => void;
+  /**
+   * Something another page asked Games to open on arrival — the Dashboard's
+   * Daily Round card. Games consumes it and clears it.
+   */
+  gamesIntent: "daily" | null;
+  setGamesIntent: (intent: "daily" | null) => void;
 }
 
 let toastId = 0;
@@ -62,4 +68,6 @@ export const useAppStore = create<AppState>((set) => ({
   setImmersive: (on) => set({ immersive: on }),
   backHandler: null,
   setBackHandler: (handler) => set({ backHandler: handler }),
+  gamesIntent: null,
+  setGamesIntent: (intent) => set({ gamesIntent: intent }),
 }));

@@ -367,6 +367,83 @@ await page.waitForTimeout(500);
 
 check((await progressWords()) === wordsBefore, "seven games later, still no word progress written");
 
+// ── Phase 22: the Daily Round, from the Dashboard and back ─────────────────
+const playMixedRound = async () => {
+  await page.getByTestId("game-stage").waitFor();
+  for (let i = 0; i < 10; i++) {
+    await page.waitForFunction(
+      () => [...document.querySelectorAll('[data-testid="game-stage"] [role="radiogroup"] button')].some((b) => !b.disabled),
+      null,
+      { timeout: 10000 },
+    );
+    await page.keyboard.press("1");
+    await page.waitForTimeout(500);
+    const cont = stage.getByRole("button", { name: "Continue" });
+    if (await cont.isVisible().catch(() => false)) await cont.click();
+    else await page.waitForTimeout(900);
+  }
+  await page.getByTestId("best-line").waitFor({ timeout: 8000 });
+};
+
+await page.getByRole("button", { name: "Dashboard", exact: true }).first().click();
+await page.waitForTimeout(800);
+const nudge = page.getByTestId("daily-nudge");
+check(/same for everyone today/i.test(await nudge.innerText()), "the Dashboard offers today's Daily Round");
+await nudge.getByRole("button", { name: "Play" }).click();
+const dailyPlay = page.getByRole("button", { name: "Play", exact: true });
+await page.waitForFunction(
+  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+  null,
+  { timeout: 15000 },
+);
+check(/same round for everyone today/i.test(await page.getByRole("dialog").innerText()), "the card opens the Daily Round's rules");
+await dailyPlay.click();
+await playMixedRound();
+check(/Today.s Daily Round/.test(await page.getByTestId("best-line").innerText()), "the first finish is today's result");
+check(await page.getByRole("button", { name: "Copy result" }).isVisible(), "and can be copied to share");
+const firstResult = await page.evaluate(() => {
+  const r = JSON.parse(localStorage.getItem("lexicon.progress.v1")).state.gameRounds[0];
+  return { right: r.right, daily: r.daily, practice: r.practice ?? false, pattern: r.pattern };
+});
+check(
+  firstResult.daily && !firstResult.practice && firstResult.pattern?.length === 10,
+  "history files it under today, with its pattern",
+  JSON.stringify(firstResult),
+);
+
+// Back to the hub: the card shows today's result and a filled dot for today.
+await page.getByRole("button", { name: "Games", exact: true }).first().click();
+await page.waitForTimeout(700);
+const card = page.getByTestId("daily-card");
+check((await card.innerText()).includes(`${firstResult.right} of 10 today`), "the hub shows today's result");
+check((await card.locator('li[aria-label$="not played"]').count()) === 13, "thirteen other days, none of them red — just not played");
+
+// A replay is practice, and today's result stands.
+await card.getByRole("button", { name: /practice/i }).click();
+await page.waitForFunction(
+  () => [...document.querySelectorAll("button")].some((b) => b.textContent === "Play" && !b.disabled),
+  null,
+  { timeout: 15000 },
+);
+await page.getByRole("button", { name: "Play", exact: true }).click();
+await playMixedRound();
+check(/Practice/.test(await page.getByTestId("best-line").innerText()), "a replay says it is practice");
+await page.getByRole("button", { name: "Games", exact: true }).first().click();
+await page.waitForTimeout(700);
+check(
+  (await page.getByTestId("daily-card").innerText()).includes(`${firstResult.right} of 10 today`),
+  "and today's result is unchanged by it",
+);
+
+// Dashboard and Progress agree.
+await page.getByRole("button", { name: "Dashboard", exact: true }).first().click();
+await page.waitForTimeout(700);
+check((await page.getByTestId("daily-nudge").innerText()).includes(`${firstResult.right} of 10`), "the Dashboard shows the result");
+await page.getByRole("button", { name: "Progress", exact: true }).first().click();
+await page.waitForTimeout(1200);
+const prog = await page.getByTestId("games-progress").innerText();
+check(prog.includes(`${firstResult.right}/10`) && /Best, timed/.test(prog), "Progress shows the Daily Round and the bests");
+
 // ── The one door into the scheduler, end to end ───────────────────────────
 // "Mine" draws only from studied words, so every miss is one the button can
 // schedule. Seed 45 studied words, miss at least one on purpose, press the

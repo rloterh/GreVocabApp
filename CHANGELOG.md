@@ -19,6 +19,13 @@ Format: [Keep a Changelog](https://keepachangelog.com). Versioning: [SemVer](htt
   with one button, and that is the only way in. A finished round counts toward
   the streak. Design: docs/GAMES.md;
   decision: docs/adr/0016-games-are-rounds-not-progression.md.
+- **The Daily Round.** Ten mixed questions, the same for everyone on your track
+  today, with one tap to play from the Dashboard. Your first finish is the
+  day's result — replays are practice — and a record of the last fourteen
+  days sits on the Games page. Copy a result as plain text to share it: no
+  link, no account, nothing to beat but tomorrow.
+- **Games on the Progress page**: your best round per game and tier, and the
+  last fourteen Daily Rounds. Never a points total.
 - **Odd One Out, Match Up and Spell It.** Three words that share a meaning and
   one that does not; three boards of five words to pair with their meanings
   against the clock; a word to hear, read and spell. Spell It accepts British

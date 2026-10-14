@@ -25,6 +25,10 @@ import {
 import { GameCover } from "@/components/games/GameCover";
 import { GameStage } from "@/components/games/GameStage";
 import { GameResults } from "@/components/games/GameResults";
+import { DailyCard } from "@/components/games/DailyCard";
+import { buildDailyRound, DAILY_SECONDS, dailyShareText } from "@/lib/games/daily";
+import { useDailyResults } from "@/store/useDailyResults";
+import type { GameRoundSummary } from "@/lib/games/types";
 import { useGameCorpus, useStudiedCount, type GameCorpus } from "@/hooks/useGameCorpus";
 import {
   GAMES,
@@ -62,9 +66,19 @@ import { useVocabStore } from "@/store/useVocabStore";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
+/** A Daily Round's date, and whether the day's result was already set. */
+type DailyMeta = { date: string; practice: boolean };
+
 type View =
   | { kind: "hub" }
-  | { kind: "playing"; round: GameRound; timer: GameTimer; limitMs: number | null; attempt: number }
+  | {
+      kind: "playing";
+      round: GameRound;
+      timer: GameTimer;
+      limitMs: number | null;
+      attempt: number;
+      daily?: DailyMeta;
+    }
   | {
       kind: "results";
       round: GameRound;
@@ -72,6 +86,7 @@ type View =
       outcome: BestOutcome;
       reviewable: string[];
       timer: GameTimer;
+      daily?: DailyMeta;
     };
 
 export function Games() {
@@ -85,6 +100,7 @@ export function Games() {
   const navigate = useAppStore((s) => s.navigate);
   const showToast = useAppStore((s) => s.showToast);
   const studiedCount = useStudiedCount(track);
+  const daily = useDailyResults(track);
 
   const [view, setView] = useState<View>({ kind: "hub" });
 
@@ -106,27 +122,59 @@ export function Games() {
   // ready by the time the rules card has been read.
   const corpus = useGameCorpus(track, choice?.tier ?? null);
 
-  const pick = (game: GameId, tier: Tier) => {
+  const pick = useCallback((game: GameId, tier: Tier) => {
     setChoice({ game, tier });
     setShortfall(null);
     setRulesOpen(true);
-  };
+  }, []);
+
+  // The Dashboard's Daily Round card asks for the round on arrival.
+  const gamesIntent = useAppStore((s) => s.gamesIntent);
+  const setGamesIntent = useAppStore((s) => s.setGamesIntent);
+  useEffect(() => {
+    if (gamesIntent !== "daily") return;
+    setGamesIntent(null);
+    pick("daily", "standard");
+  }, [gamesIntent, setGamesIntent, pick]);
+
+  const share = useCallback(
+    async (round: Pick<GameRoundSummary, "daily" | "right" | "total">, results: boolean[]) => {
+      const text = dailyShareText(round.daily ?? daily.today, TRACK_META[track].label, results);
+      try {
+        await navigator.clipboard.writeText(text);
+        showToast({ title: "Copied", description: "Paste it anywhere.", variant: "success" });
+      } catch {
+        showToast({ title: "Couldn't copy", description: text, variant: "error" });
+      }
+    },
+    [daily.today, showToast, track],
+  );
 
   const start = useCallback(
     (game: GameId, tier: Tier, ready: GameCorpus, attempt = 0) => {
       if (ready.status !== "ready") return;
       const definition = GAMES[game];
-      const round = buildRound({
-        game,
-        track,
-        tier,
-        prompts: ready.prompts,
-        pool: ready.pool,
-        monthOf: ready.monthOf,
-        index: ready.index,
-        // A fresh round every time; seeded so a given round is reproducible.
-        seed: seedFor([game, track, tier, String(Date.now()), String(attempt)]),
-      });
+      const isDaily = game === "daily";
+      const round = isDaily
+        ? buildDailyRound({
+            date: daily.today,
+            track,
+            prompts: ready.prompts,
+            pool: ready.pool,
+            monthOf: ready.monthOf,
+            index: ready.index,
+          })
+        : buildRound({
+            game,
+            track,
+            tier,
+            prompts: ready.prompts,
+            pool: ready.pool,
+            monthOf: ready.monthOf,
+            index: ready.index,
+            // A fresh round every time; seeded so a given round is reproducible.
+            seed: seedFor([game, track, tier, String(Date.now()), String(attempt)]),
+          });
       if (round.shortfall > 0) {
         setShortfall(
           tier === "mine"
@@ -136,21 +184,25 @@ export function Games() {
         return;
       }
       const timer = useSettingsStore.getState().gameTimer;
-      setSettings({ lastGameTier: { ...useSettingsStore.getState().lastGameTier, [game]: tier } });
+      if (!isDaily) {
+        setSettings({ lastGameTier: { ...useSettingsStore.getState().lastGameTier, [game]: tier } });
+      }
       setRulesOpen(false);
       setView({
         kind: "playing",
         round,
         timer,
-        limitMs: questionLimitMs(definition.seconds, tier, timer),
+        limitMs: questionLimitMs(isDaily ? DAILY_SECONDS : definition.seconds, tier, timer),
         attempt,
+        // Once today's result is set, every further round is practice.
+        daily: isDaily ? { date: daily.today, practice: Boolean(daily.results[daily.today]) } : undefined,
       });
     },
-    [track, setSettings],
+    [track, setSettings, daily],
   );
 
   const finish = useCallback(
-    (round: GameRound, timer: GameTimer, state: SessionState) => {
+    (round: GameRound, timer: GameTimer, state: SessionState, dailyMeta?: DailyMeta) => {
       const timing = timingOf(timer);
       const key = bestKey(round.game, round.track, round.tier, timing);
       // Read the best *before* filing this round, or every round would
@@ -165,7 +217,9 @@ export function Games() {
         track: round.track,
         tier: round.tier,
         timing,
-        daily: null,
+        daily: dailyMeta?.date ?? null,
+        practice: dailyMeta?.practice || undefined,
+        pattern: dailyMeta ? state.answers.map((a) => (a.correct ? "1" : "0")).join("") : undefined,
         finishedAt: new Date().toISOString(),
         score: state.score,
         right,
@@ -177,7 +231,7 @@ export function Games() {
       else playSound("complete");
       const progress = useProgressStore.getState().words;
       const reviewable = missed.filter((id) => (progress[id]?.timesReviewed ?? 0) > 0);
-      setView({ kind: "results", round, state, outcome, reviewable, timer });
+      setView({ kind: "results", round, state, outcome, reviewable, timer, daily: dailyMeta });
     },
     [recordGameRound],
   );
@@ -206,7 +260,7 @@ export function Games() {
         round={view.round}
         timer={view.timer}
         limitMs={view.limitMs}
-        onFinish={(state) => finish(view.round, view.timer, state)}
+        onFinish={(state) => finish(view.round, view.timer, state, view.daily)}
         onRestart={() => start(view.round.game, view.round.tier, corpus, view.attempt + 1)}
         onQuit={() => setView({ kind: "hub" })}
       />
@@ -223,6 +277,18 @@ export function Games() {
         answers={view.state.answers}
         score={view.state.score}
         outcome={view.outcome}
+        daily={
+          view.daily
+            ? {
+                ...view.daily,
+                onShare: () =>
+                  share(
+                    { daily: view.daily!.date, right: 0, total: 0 },
+                    view.state.answers.map((a) => a.correct),
+                  ),
+              }
+            : undefined
+        }
         reviewable={view.reviewable}
         monthOf={monthOf}
         reduceMotion={reduceMotion}
@@ -247,6 +313,15 @@ export function Games() {
         </p>
       </div>
 
+      <DailyCard
+        today={daily.today}
+        dates={daily.dates}
+        results={daily.results}
+        reduceMotion={reduceMotion}
+        onPlay={() => pick("daily", "standard")}
+        onShare={(r) => share(r, [...(r.pattern ?? "")].map((c) => c === "1"))}
+      />
+
       <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {GAME_ORDER.map((id, i) => (
           <GameCard
@@ -268,7 +343,9 @@ export function Games() {
             <div className="p-6">
               <DialogTitle className="display-serif text-2xl font-semibold">{chosen.name}</DialogTitle>
               <DialogDescription className="mt-1">
-                {TIER_LABEL[choice.tier]} — {TIER_DESCRIPTION[choice.tier]}
+                {choice.game === "daily"
+                  ? "Four games, Standard words. The same round for everyone today."
+                  : `${TIER_LABEL[choice.tier]} — ${TIER_DESCRIPTION[choice.tier]}`}
               </DialogDescription>
               <ul className="mt-5 space-y-3 text-sm">
                 <li className="flex gap-3">

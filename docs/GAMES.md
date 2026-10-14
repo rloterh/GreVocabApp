@@ -322,6 +322,12 @@ a word in the pool.
 
 ### 4.9 Daily Round
 
+*As built:* the mix is 3 Closest Meaning, 3 Fact or Fiction, 2 Opposites and
+2 Fill the Gap, every question at 15 seconds. No best is kept for it. Each
+round stores its right/wrong pattern, so a result shared later is the real
+one. `daily-record.ts` holds the record of days played apart from the
+builders, so the Dashboard can show it cheaply.
+
 One round a day: ten questions drawn from four game types (Closest Meaning,
 Fact or Fiction, Opposites, Fill the Gap), on the active track, at Standard.
 

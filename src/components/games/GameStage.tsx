@@ -407,7 +407,7 @@ export function GameStage({
             >
               <div className="flex flex-1 flex-col items-center justify-center py-6 text-center md:flex-none md:pb-12 md:pt-0">
                 <p className="text-[11px] uppercase tracking-wider text-muted-foreground">
-                  {definition.instruction}
+                  {question.instruction ?? definition.instruction}
                   {question.kind === "choice" && question.sentence && (
                     <span className="normal-case tracking-normal"> · any form of the word</span>
                   )}
@@ -442,7 +442,7 @@ export function GameStage({
                 aria-label={
                   question.kind === "verdict"
                     ? question.statement
-                    : `${definition.instruction}: ${question.sentence ?? question.word}`
+                    : `${question.instruction ?? definition.instruction}: ${question.sentence ?? question.word}`
                 }
                 className={cn(
                   "grid gap-2.5 pb-2",

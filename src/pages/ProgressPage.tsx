@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { GamesProgress } from "@/components/games/GamesProgress";
 import { motion } from "framer-motion";
 import {
   Bar,
@@ -237,6 +238,8 @@ export function ProgressPage() {
           </CardContent>
         </Card>
       </section>
+
+      <GamesProgress />
 
       {exams.length > 0 && (
         <section>

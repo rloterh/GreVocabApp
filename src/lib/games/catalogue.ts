@@ -19,7 +19,7 @@ import { buildOdd, canBuildOdd } from "./builders/odd";
 import { buildOpposites, canBuildOpposites } from "./builders/opposites";
 import { buildSpell, canBuildSpell } from "./builders/spell";
 import type { BuildContext } from "./context";
-import type { GameId, GameQuestion, Tier } from "./types";
+import type { GameId, GameQuestion } from "./types";
 
 /** A theme token the cover is tinted with. Never a raw colour. */
 export type CoverTint = "primary" | "accent" | "success" | "warning" | "secondary";
@@ -117,6 +117,19 @@ export const GAMES: Record<GameId, GameDefinition> = {
     eligible: canBuildMatch,
     build: buildMatch,
   },
+  // Not on the hub's list: it has its own card above the games, and its
+  // questions come from four of them (src/lib/games/daily.ts).
+  daily: {
+    id: "daily",
+    name: "Daily Round",
+    blurb: "Ten mixed questions. The same round for everyone today.",
+    instruction: "Daily Round",
+    seconds: 15,
+    tint: "primary",
+    mark: "◷",
+    eligible: () => false,
+    build: () => null,
+  },
   spell: {
     id: "spell",
     name: "Spell It",
@@ -130,24 +143,7 @@ export const GAMES: Record<GameId, GameDefinition> = {
   },
 };
 
-/** Hub order. */
-export const GAME_ORDER: readonly GameId[] = ["closest", "fact", "opposites", "gap", "odd", "match", "spell"];
 
-export const TIER_LABEL: Record<Tier, string> = {
-  warmup: "Warm-up",
-  standard: "Standard",
-  hard: "Hard",
-  fiendish: "Fiendish",
-  mine: "Mine",
-};
-
-export const TIER_DESCRIPTION: Record<Tier, string> = {
-  warmup: "The first third of this track",
-  standard: "The middle third",
-  hard: "The final third",
-  fiendish: "The final third, trickier options, less time",
-  mine: "Words you've studied",
-};
-
-/** Hub and rules card display order. */
-export const TIER_ORDER: readonly Tier[] = ["warmup", "standard", "hard", "fiendish", "mine"];
+// Labels live in names.ts so screens that only show names — the Progress
+// page — need not import every builder.
+export { GAME_NAMES, GAME_ORDER, TIER_DESCRIPTION, TIER_LABEL, TIER_ORDER } from "./names";

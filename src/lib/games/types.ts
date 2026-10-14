@@ -12,7 +12,7 @@
 import type { Track } from "@/types";
 
 /** Every game the catalogue can build. Grows one id per shipped game. */
-export type GameId = "closest" | "fact" | "opposites" | "gap" | "odd" | "match" | "spell";
+export type GameId = "closest" | "fact" | "opposites" | "gap" | "odd" | "match" | "spell" | "daily";
 
 /**
  * Where a round's words come from.
@@ -71,6 +71,8 @@ export interface ChoiceQuestion {
    * question instead of the word.
    */
   ask?: string;
+  /** Set when the round mixes games (the Daily Round): this question's own instruction. */
+  instruction?: string;
 }
 
 /**
@@ -131,6 +133,8 @@ export interface VerdictQuestion {
   options: string[];
   answer: number;
   explain: Explanation;
+  /** Set when the round mixes games (the Daily Round). */
+  instruction?: string;
 }
 
 /** A union so a new game adds a member rather than widening one. */
@@ -181,6 +185,16 @@ export interface GameRoundSummary {
   timing: RoundTiming;
   /** "2026-10-13" for a Daily Round, null otherwise. */
   daily: string | null;
+  /**
+   * A Daily Round replayed after the day's result was set. Kept in history,
+   * never counted as the day's result.
+   */
+  practice?: boolean;
+  /**
+   * A Daily Round's right and wrong, in the order played: "1101111011". Kept
+   * so a result shared later shows the real pattern, not a reconstruction.
+   */
+  pattern?: string;
   finishedAt: string;
   score: number;
   right: number;

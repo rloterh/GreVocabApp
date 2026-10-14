@@ -10,6 +10,7 @@ import {
 import { useMemo, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { WordOfTheDay } from "@/components/WordOfTheDay";
+import { DailyNudge } from "@/components/games/DailyNudge";
 import { WordDetail, type WordDetailTarget } from "@/components/WordDetail";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -204,6 +205,10 @@ export function Dashboard() {
       )}
 
       <WordOfTheDay onOpen={setDetail} />
+
+      <div className="mt-4">
+        <DailyNudge />
+      </div>
 
       <WordDetail
         word={detail}

@@ -24,8 +24,9 @@ A games section of timed, scored rounds modelled on Merriam-Webster's word
 games, and the tracks renamed Advanced and Easy.
 [ADR 0016](./docs/adr/0016-games-are-rounds-not-progression.md) (accepted
 2026-10-13) amends ADR 0006 to allow per-round scores and per-game bests.
-**Phases 19–21 are done** — seven games. **Next is Phase 22**, the Daily
-Round and its surfaces. Design:
+**Phases 19–22 are done** — seven games and the Daily Round. **Next is
+Phase 23**, craft: Unscramble, haptics, and the empty, loading and offline
+states. Design:
 [docs/GAMES.md](./docs/GAMES.md).
 
 **Current work: v1.1.** Two exams, any start date. It lands on `dev`
@@ -813,17 +814,28 @@ Progress pages.
 
 ### Tasks
 
-- **[P1] Daily Round.** — Seeded by date and track; the first completed attempt
-  counts and replays are practice. → Deterministic in tests; holds until local
-  midnight.
-- **[P1] Dashboard card.** — Under word of the day: played or not, the result,
-  and one tap to play. → No game number joins the stat row.
-- **[P1] Progress → Games.** — Bests per game for the active track, and the last
-  14 Daily Rounds. → **No cumulative total**, asserted in a test.
-- **[P1] Sounds.** — `start`, `tick`, `timeout`, `best`, synthesised, behind
-  `soundEnabled`.
-- **[P2] Share text.** — Only if ADR 0016 is accepted with its share clause.
-  Clipboard only.
+- ~~**[P1] Daily Round.**~~ **DONE 2026-10-14.** — Ten questions from Closest
+  Meaning, Fact or Fiction, Opposites and Fill the Gap (3/3/2/2), Standard
+  words, 15 seconds each. Seeded by local date and track, so everyone on the
+  same version and track gets the same round until midnight. The first finish
+  is the day's result; replays are filed as practice and never replace it. No
+  best is kept: there is nothing to beat but tomorrow. Each question carries
+  its own game's instruction. Not blind-reviewed separately: every question
+  comes from a builder that already passed.
+- ~~**[P1] Dashboard card.**~~ **DONE 2026-10-14.** — One line under word of the
+  day and one tap to the round; no game number joins the stat row. The record
+  of days played lives in `daily-record.ts`, which imports nothing but types,
+  so the Dashboard chunk stays at 11 KB with no builder code in it — checked
+  in the build output, not assumed.
+- ~~**[P1] Progress → Games.**~~ **DONE 2026-10-14.** — Bests per game and tier
+  for the open track, and the last fourteen Daily Rounds. A component test
+  renders a history and asserts its sum appears nowhere, in any formatting.
+  On a phone the bests are a list, since six columns do not fit 360px.
+- ~~**[P1] Sounds.**~~ **DONE in Phase 19.**
+- ~~**[P2] Share text.**~~ **DONE 2026-10-14.** — Clipboard, plain text, no link:
+  one line and a row of squares. Daily rounds store their right/wrong pattern,
+  so a result shared later from the hub shows the real order rather than a
+  reconstruction.
 
 ### Definition of done
 

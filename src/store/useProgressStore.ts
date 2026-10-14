@@ -356,9 +356,12 @@ export const useProgressStore = create<ProgressState>()(
           const day = ensureDay(state.activity, today);
           const key = bestKey(round.game, round.track, round.tier, round.timing);
           const previous = state.gameBests[key];
+          // A Daily Round has no best: its result is the day's, and there is
+          // nothing to beat but tomorrow's (ADR 0016).
+          const keepsBest = round.game !== "daily";
           return {
             gameRounds: [round, ...state.gameRounds].slice(0, GAME_HISTORY_CAP),
-            gameBests: beatsBest(previous, round.score)
+            gameBests: keepsBest && beatsBest(previous, round.score)
               ? {
                   ...state.gameBests,
                   [key]: {

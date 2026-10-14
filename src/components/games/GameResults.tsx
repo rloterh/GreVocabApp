@@ -15,7 +15,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Check, ChevronDown, X } from "lucide-react";
+import { Check, ChevronDown, Copy, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Confetti, type ConfettiVariant } from "@/components/Confetti";
 import { SpeakButton } from "@/components/SpeakButton";
@@ -36,6 +36,8 @@ export interface ResultsProps {
   answers: AnswerRecord[];
   score: number;
   outcome: BestOutcome;
+  /** A Daily Round: no best to compare with, and a result that can be shared. */
+  daily?: { date: string; practice: boolean; onShare: () => void };
   /** Missed words the user has studied — the only ones review can schedule. */
   reviewable: string[];
   /** wordId → month key, for saying where an unstudied word lives. */
@@ -94,12 +96,20 @@ export function GameResults(props: ResultsProps) {
           <CountUp to={score} reduceMotion={reduceMotion} delay={300} /> <span className="text-base font-normal text-muted-foreground">pts</span>
         </p>
         <p className="mt-1.5 text-sm text-muted-foreground" data-testid="best-line">
-          {outcome.kind === "first" && `First round on ${TIER_LABEL[round.tier]}. This is the score to beat.`}
-          {outcome.kind === "new-best" && (
+          {props.daily && (props.daily.practice
+            ? "Practice — today’s result stands."
+            : "Today’s Daily Round. A new one tomorrow.")}
+          {!props.daily && outcome.kind === "first" && `First round on ${TIER_LABEL[round.tier]}. This is the score to beat.`}
+          {!props.daily && outcome.kind === "new-best" && (
             <span className="text-success">New best — up from {outcome.previous.toLocaleString()}.</span>
           )}
-          {outcome.kind === "not-best" && `Best is ${outcome.best.toLocaleString()}.`}
+          {!props.daily && outcome.kind === "not-best" && `Best is ${outcome.best.toLocaleString()}.`}
         </p>
+        {props.daily && !props.daily.practice && (
+          <Button variant="outline" size="sm" className="mt-3" onClick={props.daily.onShare}>
+            <Copy /> Copy result
+          </Button>
+        )}
       </motion.div>
 
       {missedWords.length > 0 && (
